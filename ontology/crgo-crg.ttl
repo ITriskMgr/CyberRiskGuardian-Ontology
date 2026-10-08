@@ -22,12 +22,14 @@ crgo:CRGO_0000041 a owl:Class ;
         "Pb_Threat"@en ;
     skos:definition "A CRG parameter estimating the probability that the scenario's threat event is attempted or occurs during the horizon."@en,
         "Paramètre CRG qui estime la probabilité que l'événement de menace du scénario soit tenté ou se produise pendant l'horizon."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key PbA."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- probability of exploitation Pb(ψ,A)
@@ -41,12 +43,14 @@ crgo:CRGO_0000042 a owl:Class ;
         "Pbx"@en ;
     skos:definition "A CRG parameter estimating the probability that the threat exploits the scenario's vulnerability or condition, given the controls in place."@en,
         "Paramètre CRG qui estime la probabilité que la menace exploite la vulnérabilité ou la condition du scénario, compte tenu des contrôles en place."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key Pbx."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- expected damage δe
@@ -60,12 +64,14 @@ crgo:CRGO_0000043 a owl:Class ;
         "δe"@en ;
     skos:definition "A CRG parameter estimating, on 0-1, the damage expected if the scenario occurs."@en,
         "Paramètre CRG qui estime, sur 0-1, le dommage attendu si le scénario se réalise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key De."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- maximum damage δm
@@ -79,12 +85,14 @@ crgo:CRGO_0000044 a owl:Class ;
         "δm"@en ;
     skos:definition "A CRG parameter estimating, on 0-1, the damage in a plausible worst case if the scenario occurs."@en,
         "Paramètre CRG qui estime, sur 0-1, le dommage dans le pire cas plausible si le scénario se réalise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key Dm."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- organisational resilience θ
@@ -96,13 +104,15 @@ crgo:CRGO_0000045 a owl:Class ;
         "θ(ψ,A)"@en ;
     skos:definition "A CRG parameter estimating, on (0, 1], the organisation's ability to withstand and recover from the scenario; higher means stronger."@en,
         "Paramètre CRG qui estime, sur ]0, 1], la capacité de l'organisation à résister au scénario et à s'en remettre; une valeur plus élevée signifie une meilleure résilience."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key Th; Cigale 'facteurs de résilience'."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- scenario criticality μ(E)
@@ -115,12 +125,14 @@ crgo:CRGO_0000046 a owl:Class ;
         "μ(E)"@en ;
     skos:definition "A CRG parameter estimating, on 0-1, the strategic importance to the organisation of the assets and processes at risk in the scenario."@en,
         "Paramètre CRG qui estime, sur 0-1, l'importance stratégique pour l'organisation des actifs et processus exposés dans le scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key Mu."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- probability reduction
@@ -132,12 +144,14 @@ crgo:CRGO_0000047 a owl:Class ;
         "red_p"@en ;
     skos:definition "A CRG parameter estimating, on 0-1, how much the scenario's treatment package reduces its probability."@en,
         "Paramètre CRG qui estime, sur 0-1, la réduction de probabilité apportée par l'ensemble des traitements du scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key red_p."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- impact reduction
@@ -149,12 +163,14 @@ crgo:CRGO_0000048 a owl:Class ;
         "red_i"@en ;
     skos:definition "A CRG parameter estimating, on 0-1, how much the scenario's treatment package reduces its impact."@en,
         "Paramètre CRG qui estime, sur 0-1, la réduction d'impact apportée par l'ensemble des traitements du scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "JSON key red_i."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- estimated risk Re
@@ -167,10 +183,12 @@ crgo:CRGO_0000051 a owl:Class ;
         "est"@en ;
     skos:definition "A computed risk quantity equal to Pb(A) × Pb(ψ,A) × CVSS × ((δe + δm)/2) × μ(E) ÷ θ × factor."@en,
         "Quantité de risque calculée égale à Pb(A) × Pb(ψ,A) × CVSS × ((δe + δm)/2) × μ(E) ÷ θ × facteur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- tolerated risk Rt
@@ -182,10 +200,12 @@ crgo:CRGO_0000052 a owl:Class ;
         "tol"@en ;
     skos:definition "A computed risk quantity equal to Pb(A) × Pb(ψ,A) × CVSS × appetite × μ(E) ÷ θ × factor."@en,
         "Quantité de risque calculée égale à Pb(A) × Pb(ψ,A) × CVSS × appétit pour le risque × μ(E) ÷ θ × facteur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- mitigated risk (risk removed)
@@ -195,10 +215,12 @@ crgo:CRGO_0000053 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000050 ;
     skos:definition "A computed risk quantity equal to estimated risk × probability reduction × impact reduction."@en,
         "Quantité de risque calculée, égale au risque estimé × réduction de probabilité × réduction d'impact, qui représente la part du risque retirée par le traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- residual risk
@@ -209,11 +231,13 @@ crgo:CRGO_0000054 a owl:Class ;
         crgo:CRGO_0000299 ;
     skos:definition "A computed risk quantity equal to estimated risk minus mitigated risk."@en,
         "Quantité de risque calculée égale au risque estimé moins le risque atténué."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- cost-effectiveness
@@ -223,10 +247,12 @@ crgo:CRGO_0000056 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000050 ;
     skos:definition "A computed risk quantity equal to (estimated risk − residual risk) ÷ treatment cost × 1,000, the risk units removed per $1,000; the cost basis (first-year, annual or multi-year) is stated with the value."@en,
         "Quantité de risque calculée égale à (risque estimé − risque résiduel) ÷ coût du traitement × 1 000, soit les unités de risque retirées par tranche de 1 000 $."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- legacy computed risk quantity
@@ -236,11 +262,13 @@ crgo:CRGO_0000057 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000050 ;
     skos:definition "A computed risk quantity produced by the 2023 scenario-generator notebook, kept for traceability but not comparable with CRG v1.0c results."@en,
         "Quantité de risque calculée produite par le carnet de génération de scénarios de 2023, conservée pour la traçabilité mais non comparable aux résultats CRG v1.0c."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision Q-E: legacy KRIs kept and flagged."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- below tolerance
@@ -252,10 +280,12 @@ crgo:CRGO_0000107 a owl:NamedIndividual,
         "Ratio inférieur à 0,90."@fr ;
     skos:inScheme crgo:CRGO_0000106 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- approximately at tolerance
@@ -267,10 +297,12 @@ crgo:CRGO_0000108 a owl:NamedIndividual,
         "Ratio de 0,90 à 1,10."@fr ;
     skos:inScheme crgo:CRGO_0000106 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- above tolerance
@@ -282,10 +314,12 @@ crgo:CRGO_0000109 a owl:NamedIndividual,
         "Ratio supérieur à 1,10."@fr ;
     skos:inScheme crgo:CRGO_0000106 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- selected
@@ -297,10 +331,12 @@ crgo:CRGO_0000112 a owl:NamedIndividual,
         "Retenu pour une quantification détaillée."@fr ;
     skos:inScheme crgo:CRGO_0000111 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- under consideration
@@ -312,10 +348,12 @@ crgo:CRGO_0000113 a owl:NamedIndividual,
         "Gardé à l'étude."@fr ;
     skos:inScheme crgo:CRGO_0000111 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- consolidated
@@ -327,10 +365,12 @@ crgo:CRGO_0000114 a owl:NamedIndividual,
         "Fusionné avec un autre scénario de la même exposition."@fr ;
     skos:inScheme crgo:CRGO_0000111 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- deferred
@@ -342,10 +382,12 @@ crgo:CRGO_0000115 a owl:NamedIndividual,
         "Non retenu pour l'instant; placé en veille."@fr ;
     skos:inScheme crgo:CRGO_0000111 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- lower case
@@ -357,10 +399,12 @@ crgo:CRGO_0000125 a owl:NamedIndividual,
         "Menace, exploitation et dommages −0,10; résilience et réductions +0,10."@fr ;
     skos:inScheme crgo:CRGO_0000124 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- central case
@@ -372,10 +416,12 @@ crgo:CRGO_0000126 a owl:NamedIndividual,
         "Estimations telles quelles."@fr ;
     skos:inScheme crgo:CRGO_0000124 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- higher case
@@ -387,10 +433,12 @@ crgo:CRGO_0000127 a owl:NamedIndividual,
         "Menace, exploitation et dommages +0,10; résilience et réductions −0,10."@fr ;
     skos:inScheme crgo:CRGO_0000124 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- business criticality
@@ -402,10 +450,12 @@ crgo:CRGO_0000149 a owl:NamedIndividual,
         "Importance des processus touchés."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset criticality
@@ -417,10 +467,12 @@ crgo:CRGO_0000150 a owl:NamedIndividual,
         "Importance des actifs touchés."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat relevance
@@ -432,10 +484,12 @@ crgo:CRGO_0000151 a owl:NamedIndividual,
         "Activité de la menace pour cette organisation."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- exposure / vulnerability
@@ -447,10 +501,12 @@ crgo:CRGO_0000152 a owl:NamedIndividual,
         "Degré d'exposition des actifs."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- potential impact
@@ -462,10 +518,12 @@ crgo:CRGO_0000153 a owl:NamedIndividual,
         "Gravité des conséquences plausibles."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- regulatory / legal
@@ -477,10 +535,12 @@ crgo:CRGO_0000154 a owl:NamedIndividual,
         "Portée juridique et réglementaire."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- operational resilience
@@ -492,10 +552,12 @@ crgo:CRGO_0000155 a owl:NamedIndividual,
         "Effet sur la capacité à poursuivre les activités."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- dependency / concentration
@@ -507,10 +569,12 @@ crgo:CRGO_0000156 a owl:NamedIndividual,
         "Dépendance envers des points de défaillance uniques ou des fournisseurs."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- evidence strength
@@ -522,10 +586,12 @@ crgo:CRGO_0000157 a owl:NamedIndividual,
         "Qualité des preuves à l'appui."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "9" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk velocity
@@ -537,10 +603,12 @@ crgo:CRGO_0000158 a owl:NamedIndividual,
         "Rapidité avec laquelle le préjudice se matérialiserait."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "10" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control uncertainty
@@ -552,10 +620,12 @@ crgo:CRGO_0000159 a owl:NamedIndividual,
         "Incertitude quant à l'efficacité des contrôles."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "11" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- decision usefulness
@@ -567,10 +637,12 @@ crgo:CRGO_0000160 a owl:NamedIndividual,
         "Possibilité que son analyse change une décision."@fr ;
     skos:inScheme crgo:CRGO_0000148 ;
     skos:notation "12" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- safety escalation
@@ -582,10 +654,12 @@ crgo:CRGO_0000163 a owl:NamedIndividual,
         "Pourrait blesser des personnes."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- essential service
@@ -597,10 +671,12 @@ crgo:CRGO_0000164 a owl:NamedIndividual,
         "Pourrait interrompre un service essentiel."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- catastrophic data loss
@@ -612,10 +688,12 @@ crgo:CRGO_0000165 a owl:NamedIndividual,
         "Pourrait détruire des données critiques."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- systemic failure
@@ -627,10 +705,12 @@ crgo:CRGO_0000166 a owl:NamedIndividual,
         "Pourrait se propager entre systèmes ou unités."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- severe privacy
@@ -642,10 +722,12 @@ crgo:CRGO_0000167 a owl:NamedIndividual,
         "Pourrait porter gravement atteinte à la vie privée."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- major regulatory
@@ -657,10 +739,12 @@ crgo:CRGO_0000168 a owl:NamedIndividual,
         "Pourrait entraîner une intervention réglementaire majeure."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- existential financial
@@ -672,10 +756,12 @@ crgo:CRGO_0000169 a owl:NamedIndividual,
         "Pourrait menacer la survie de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- privileged infrastructure
@@ -687,10 +773,12 @@ crgo:CRGO_0000170 a owl:NamedIndividual,
         "Touche l'infrastructure d'identité ou d'administration."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- backup or recovery destruction
@@ -702,10 +790,12 @@ crgo:CRGO_0000171 a owl:NamedIndividual,
         "Pourrait détruire les sauvegardes ou la capacité de relève."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "9" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- supply-chain concentration
@@ -717,10 +807,12 @@ crgo:CRGO_0000172 a owl:NamedIndividual,
         "Dépend d'un fournisseur concentré."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "10" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- multi-unit or multi-jurisdiction
@@ -732,10 +824,12 @@ crgo:CRGO_0000173 a owl:NamedIndividual,
         "S'étend à plusieurs unités ou juridictions."@fr ;
     skos:inScheme crgo:CRGO_0000162 ;
     skos:notation "11" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CRG Excel Guide v1.0c s.11
@@ -745,10 +839,12 @@ crgo:CRGO_0000178 a owl:NamedIndividual,
         "Guide Excel CRG v1.0c, s. 11"@fr ;
     skos:definition "The authoritative CyberRiskGuardian KRI formulas, implemented in crg_calc.py."@en,
         "Formules ICR de référence de CyberRiskGuardian, mises en œuvre dans crg_calc.py."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CRG normalised cross-check
@@ -758,10 +854,12 @@ crgo:CRGO_0000179 a owl:NamedIndividual,
         "contre-vérification normalisée CRG"@fr ;
     skos:definition "Secondary score T × E × I × (1 − C), with C proxied by resilience; post-treatment × (1 − P × Q)."@en,
         "Score secondaire T × E × I × (1 − C), où C est approché par la résilience; après traitement × (1 − P × Q)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- 2023 scenario-generator notebook v2-1b
@@ -771,10 +869,12 @@ crgo:CRGO_0000180 a owl:NamedIndividual,
         "carnet de génération de scénarios 2023 v2-1b"@fr ;
     skos:definition "Legacy method of the 2023 generator; its Monte Carlo step centres noise on the column mean and its CVSS extraction is defective."@en,
         "Méthode héritée du générateur de 2023; son étape Monte-Carlo centre le bruit sur la moyenne de la colonne et son extraction CVSS est défectueuse."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- for criterion
@@ -786,10 +886,12 @@ crgo:CRGO_0000236 a owl:ObjectProperty ;
     skos:definition "Gives the screening criterion a screening score rates."@en,
         "Indique le critère de présélection que note un score."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- used input
@@ -800,10 +902,12 @@ crgo:CRGO_0000237 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000037 ;
     skos:definition "Relates a computed risk quantity to an estimate used to compute it."@en,
         "Relie une quantité de risque calculée à une estimation utilisée pour la calculer."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- generated by
@@ -815,11 +919,13 @@ crgo:CRGO_0000238 a owl:ObjectProperty ;
     skos:definition "Relates a computed risk quantity to the calculation activity that produced it."@en,
         "Relie une quantité de risque calculée à l'activité de calcul qui l'a produite."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "TBox-safe stand-in for prov:wasGeneratedBy; ABox can also carry PROV-O."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- uses method
@@ -831,10 +937,12 @@ crgo:CRGO_0000239 a owl:ObjectProperty ;
     skos:definition "Relates a calculation activity to the method it executes."@en,
         "Relie une activité de calcul à la méthode qu'elle exécute."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has tolerance classification
@@ -846,10 +954,12 @@ crgo:CRGO_0000240 a owl:ObjectProperty ;
     skos:definition "Gives the tolerance classification of a risk-to-tolerance ratio."@en,
         "Indique la classification de tolérance d'un ratio risque/tolérance."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- in sensitivity case
@@ -861,10 +971,12 @@ crgo:CRGO_0000241 a owl:ObjectProperty ;
     skos:definition "Relates an estimate to the sensitivity case it belongs to; estimates used as given may link to a central case or to none."@en,
         "Relie une estimation au cas de sensibilité auquel elle appartient; les estimations utilisées telles quelles peuvent être reliées à un cas central ou à aucun."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has case type
@@ -876,10 +988,12 @@ crgo:CRGO_0000242 a owl:ObjectProperty ;
     skos:definition "Gives the direction of a sensitivity case."@en,
         "Indique le sens d'un cas de sensibilité."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- case of
@@ -891,10 +1005,12 @@ crgo:CRGO_0000243 a owl:ObjectProperty ;
     skos:definition "Relates a sensitivity case to the scenario it varies."@en,
         "Relie un cas de sensibilité au scénario qu'il fait varier."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has selection disposition
@@ -906,10 +1022,12 @@ crgo:CRGO_0000244 a owl:ObjectProperty ;
     skos:definition "Gives the screening outcome of an assessment scenario."@en,
         "Indique le résultat de présélection d'un scénario d'évaluation."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has escalation flag
@@ -920,10 +1038,12 @@ crgo:CRGO_0000245 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000161 ;
     skos:definition "Relates an assessment scenario to an escalation flag that applies to it."@en,
         "Relie un scénario d'évaluation à un signal d'escalade qui s'y applique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CVSS vector
@@ -935,10 +1055,12 @@ crgo:CRGO_0000257 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the CVSS vector string of a CVSS input."@en,
         "Indique la chaîne vectorielle CVSS d'une donnée CVSS."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CVSS version
@@ -950,11 +1072,13 @@ crgo:CRGO_0000258 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the CVSS version of a CVSS input, such as 4.0 or 3.1."@en,
         "Indique la version CVSS d'une donnée CVSS, comme 4.0 ou 3.1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Needed for the library rows (v3.1 without vectors)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CVSS severity
@@ -966,10 +1090,12 @@ crgo:CRGO_0000259 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the severity rating that corresponds to a CVSS base score."@en,
         "Indique la cote de sévérité correspondant à un score de base CVSS."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- applicability note
@@ -978,10 +1104,12 @@ crgo:CRGO_0000260 a owl:DatatypeProperty ;
         "note d'applicabilité"@fr ;
     skos:definition "Explains how well an estimate's method fits the scenario, for example CVSS with limited applicability."@en,
         "Explique dans quelle mesure la méthode d'une estimation convient au scénario, par exemple un CVSS d'applicabilité limitée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- assessment factor
@@ -993,11 +1121,13 @@ crgo:CRGO_0000261 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the constant multiplication factor applied to every scenario of a CRG assessment."@en,
         "Indique le facteur multiplicatif constant appliqué à tous les scénarios d'une appréciation CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "1,000 by convention."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- pre-treatment ratio
@@ -1008,11 +1138,13 @@ crgo:CRGO_0000301 a owl:Class ;
     skos:altLabel "pre_ratio"@en ;
     skos:definition "A computed risk quantity equal to estimated risk divided by tolerated risk, before any treatment."@en,
         "Quantité de risque calculée égale au risque estimé divisé par le risque toléré, avant tout traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "crg_calc.py 'pre_ratio' (review M round-trip)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- case appetite
@@ -1024,11 +1156,13 @@ crgo:CRGO_0000328 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the risk appetite stated by the case or client documents, when it differs from the appetite applied in the assessment."@en,
         "Indique l'appétit pour le risque énoncé dans les documents du cas ou du client, lorsqu'il diffère de celui appliqué dans l'appréciation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'CASE_APPETITE' (round-trip)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 crgo:crgo-crg a owl:Ontology ;
@@ -1051,11 +1185,13 @@ crgo:CRGO_0000039 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
     skos:definition "An estimate scoring a candidate scenario from 1 to 5 on one screening criterion."@en,
         "Estimation qui note un scénario candidat de 1 à 5 selon un critère de présélection."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "12 criteria, scored 1-5."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk-to-tolerance ratio
@@ -1065,10 +1201,12 @@ crgo:CRGO_0000055 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000050 ;
     skos:definition "A computed risk quantity equal to residual risk divided by tolerated risk; below 0.90 is below tolerance and above 1.10 is above tolerance."@en,
         "Quantité de risque calculée égale au risque résiduel divisé par le risque toléré; sous 0,90 le risque est sous la tolérance et au-dessus de 1,10 il la dépasse."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- calculation activity
@@ -1078,11 +1216,13 @@ crgo:CRGO_0000058 a owl:Class ;
     rdfs:subClassOf obo:BFO_0000015 ;
     skos:definition "A process in which software computes risk quantities from estimates using a stated method, such as a run of crg_calc.py."@en,
         "Processus par lequel un logiciel calcule des quantités de risque à partir d'estimations selon une méthode déclarée, comme une exécution de crg_calc.py."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Provenance of every KRIQuantity."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CVSS input
@@ -1093,12 +1233,14 @@ crgo:CRGO_0000049 a owl:Class ;
     skos:altLabel "CVSS"@en ;
     skos:definition "An estimate recording the CVSS version, vector, base score and severity of the representative weakness of a scenario, with a note when CVSS has limited applicability."@en,
         "Estimation qui consigne la version, le vecteur, le score de base et la sévérité CVSS de la faiblesse représentative d'un scénario, avec une note lorsque CVSS s'applique mal."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG keys cvss, cvss_note, cvss_score, cvss_sev; v4.0 by default."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- sensitivity case
@@ -1108,11 +1250,13 @@ crgo:CRGO_0000060 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a variant of a scenario's estimates (lower, central or higher) used to test whether its tolerance classification changes."@en,
         "Description d'une variante des estimations d'un scénario (basse, centrale ou haute) servant à vérifier si sa classification par rapport à la tolérance change."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "±0.10 convention."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- tolerance classification scheme
@@ -1122,10 +1266,12 @@ crgo:CRGO_0000106 a owl:NamedIndividual,
         "schéma : classification par rapport à la tolérance"@fr ;
     skos:definition "Concept scheme of the tolerance classification value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « classification par rapport à la tolérance »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- sensitivity case type scheme
@@ -1135,10 +1281,12 @@ crgo:CRGO_0000124 a owl:NamedIndividual,
         "schéma : type de cas de sensibilité"@fr ;
     skos:definition "Concept scheme of the sensitivity case type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de cas de sensibilité »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- tolerance classification
@@ -1148,11 +1296,13 @@ crgo:CRGO_0000105 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The CRG reading of a risk-to-tolerance ratio."@en,
         "Lecture CRG d'un ratio risque/tolérance."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- selection disposition scheme
@@ -1162,10 +1312,12 @@ crgo:CRGO_0000111 a owl:NamedIndividual,
         "schéma : décision de présélection"@fr ;
     skos:definition "Concept scheme of the selection disposition value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « décision de présélection »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- sensitivity case type
@@ -1175,11 +1327,13 @@ crgo:CRGO_0000123 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The direction of a CRG sensitivity shift."@en,
         "Sens d'une variation de sensibilité CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- selection disposition
@@ -1189,11 +1343,13 @@ crgo:CRGO_0000110 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The outcome of screening a candidate scenario."@en,
         "Résultat de la présélection d'un scénario candidat."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- CRG parameter
@@ -1203,11 +1359,13 @@ crgo:CRGO_0000040 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
     skos:definition "An estimate of one of the CyberRiskGuardian input parameters of a scenario, on the 0-1 scale, for the assessment horizon (12 months by default)."@en,
         "Estimation d'un des paramètres d'entrée CyberRiskGuardian d'un scénario, sur l'échelle de 0 à 1, pour l'horizon de l'appréciation (12 mois par défaut)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- computed risk quantity
@@ -1218,11 +1376,13 @@ crgo:CRGO_0000050 a owl:Class ;
     skos:altLabel "KRI value"@en ;
     skos:definition "An estimate computed by the CRG formulas from a scenario's parameters, such as estimated, tolerated, mitigated or residual risk."@en,
         "Estimation calculée par les formules CRG à partir des paramètres d'un scénario, comme le risque estimé, toléré, atténué ou résiduel."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG calls these KRIs; distinct from monitoring KeyRiskIndicator."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- escalation flag scheme
@@ -1232,10 +1392,12 @@ crgo:CRGO_0000162 a owl:NamedIndividual,
         "schéma : signal d'escalade"@fr ;
     skos:definition "Concept scheme of the escalation flag value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « signal d'escalade »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- screening criterion scheme
@@ -1245,10 +1407,12 @@ crgo:CRGO_0000148 a owl:NamedIndividual,
         "schéma : critère de présélection"@fr ;
     skos:definition "Concept scheme of the screening criterion value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « critère de présélection »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- escalation flag
@@ -1258,11 +1422,13 @@ crgo:CRGO_0000161 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A CRG flag that keeps a candidate scenario in review regardless of low probability."@en,
         "Signal CRG qui maintient un scénario candidat à l'étude malgré une faible probabilité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- screening criterion
@@ -1272,10 +1438,12 @@ crgo:CRGO_0000147 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "One of the 12 CRG criteria used to score candidate scenarios."@en,
         "L'un des 12 critères CRG servant à noter les scénarios candidats."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 

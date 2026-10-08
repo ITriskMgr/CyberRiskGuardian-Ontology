@@ -1,7 +1,12 @@
-# Design decisions — CRGO 0.1.0 (Phase 2 draft)
+# Design decisions — CRGO 0.1.0
 
-This file records why the ontology looks the way it does. Every term is
-`proposed`; a decision here is a design choice awaiting review, not an approval.
+This file records why the ontology looks the way it does.
+
+**Approval.** On 2026-10-08 the project owner, Marc-André Léger, reviewed the
+term workbook and approved all terms of version 0.1.0. Each term now carries
+status `approved`, `approvedBy` Marc-André Léger and `approvalDate` 2026-10-08;
+the decisions are recorded in `src/approvals.tsv`, and the build applies them.
+The deferred items in section 5 remain open for later versions.
 
 ## 1. Decisions taken with the project owner (Phase 1)
 
@@ -94,13 +99,13 @@ An independent modelling review of the first draft found 6 High, 11 Medium and 1
 
 | Item | Deferred to | Note |
 |---|---|---|
-| M7 `ControlMeasure` vs `mitigatedBy` semantics | review | A record does not itself reduce likelihood; consider "recorded as mitigated by" |
+| M7 `ControlMeasure` vs `mitigatedBy` semantics | 0.2.0 | A record does not itself reduce likelihood; consider "recorded as mitigated by" |
 | M9 rest: CRG consequence-dimension keys, evidence-basis strings, `SOURCE`, `SENS_IDS`, totals, explicit central case, [0.05, 0.99] clamp | Phase 3 | Handled in the CRG JSON-LD bridge and mapping table |
 | ATT&CK technique link, CVE/CWE identifiers | Phase 3 | Arrive with the SKOS vocabularies |
-| L6 `NormativeRequirement` parent for frameworks and laws | review | `LegalObligation` currently sits directly under prescriptive ICE |
+| L6 `NormativeRequirement` parent for frameworks and laws | 0.2.0 | `LegalObligation` currently sits directly under prescriptive ICE |
 | L7 `LegacyKRIQuantity` | Phase 3 | Keep only if the 2023 notebook values are loaded |
 | L12 Defect notes inside `MethodNotebook2023` definition | Phase 5 | Move to `reviewNote` |
-| L13 Type for the drafting agent | review | Candidate: `prov:SoftwareAgent`, outside the DL core |
+| L13 Type for the drafting agent | 0.2.0 | Candidate: `prov:SoftwareAgent`, outside the DL core |
 | L15 Owners as positions | Phase 4 | SHACL or a role-based pattern |
 | L17 Incident → scenario link, threat-source characteristics (SP 800-30 D-3 to D-5), risk register | Phase 5 extension plan | |
 | DOLCE alignment module | Phase 5 | Optional (Q-A) |

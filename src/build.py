@@ -62,7 +62,19 @@ with open(ids_path, "w", encoding="utf-8") as f:
 ann = {a[0]: iri(a[0]) for a in ANNOTATION_PROPERTIES}
 CONF = {"H": iri("ConfHigh"), "M": iri("ConfMedium"), "L": iri("ConfLow")}
 PROPOSED = iri("StatusProposed")
+STATUS = {"Approve": iri("StatusApproved"), "Reject": iri("StatusRejected")}
 CLAUDE = iri("AgentClaude")
+AGENTS = {"MAL": iri("AgentMAL")}
+KEY_OF = {iri(k): k for k in all_keys}
+# Review decisions recorded by the project owner: key, decision, approver, date, comment.
+APPROVALS = {}
+_ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "approvals.tsv")
+if os.path.exists(_ap):
+    for line in open(_ap, encoding="utf-8"):
+        if line.startswith("#") or not line.strip():
+            continue
+        k, decision, who, date, *note = line.rstrip("\n").split("\t")
+        APPROVALS[k] = (decision, who, date, note[0] if note else "")
 
 graphs = {m: Graph() for m in MODULES}
 terms = []  # for the review workbook
@@ -72,7 +84,15 @@ def bind(g):
         g.bind(p, n)
 
 def gov(g, s, sources, conf, rationale):
-    g.add((s, ann["governanceStatus"], PROPOSED))
+    a = APPROVALS.get(KEY_OF.get(s))
+    if a and a[0] in STATUS:
+        g.add((s, ann["governanceStatus"], STATUS[a[0]]))
+        g.add((s, ann["approvedBy"], AGENTS[a[1]]))
+        g.add((s, ann["approvalDate"], Literal(a[2], datatype=XSD.date)))
+        if a[3]:
+            g.add((s, ann["reviewNote"], Literal(a[3], lang="en")))
+    else:
+        g.add((s, ann["governanceStatus"], PROPOSED))
     g.add((s, ann["confidence"], CONF[conf]))
     if rationale:
         g.add((s, ann["confidenceRationale"], Literal(rationale, lang="en")))

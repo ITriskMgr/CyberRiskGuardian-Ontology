@@ -28,6 +28,12 @@ for name, f in checks.items():
     if missing:
         fail = True
         print("   missing %s: %d, e.g. %s" % (name, len(missing), missing[:3]))
+approved = [s for s in terms if (s, A("governanceStatus"), A("StatusApproved")) in g]
+bad = [str(s) for s in approved if (s, A("approvedBy"), None) not in g or (s, A("approvalDate"), None) not in g]
+if bad:
+    fail = True
+    print("   approved without approvedBy/approvalDate: %d, e.g. %s" % (len(bad), bad[:3]))
+print("   approved: %d of %d terms" % (len(approved), len(terms)))
 for l in ("en", "fr"):
     c = Counter(str(o).lower() for s in terms for o in g.objects(s, RDFS.label) if getattr(o, "language", None) == l)
     d = [k for k, v in c.items() if v > 1]

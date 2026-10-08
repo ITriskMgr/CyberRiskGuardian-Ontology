@@ -13,6 +13,13 @@ terms = json.load(open(os.path.join(ROOT, "build", "terms.json"), encoding="utf-
 MOD = {"gov": 0, "core": 1, "measure": 2, "crg": 3}
 KIND = {"class": 0, "value set (class)": 1, "value": 2, "object property": 3, "data property": 4, "annotation property": 5, "individual": 6}
 terms.sort(key=lambda t: (MOD[t["module"]], KIND.get(t["kind"], 9)))
+AP = {}
+_ap = os.path.join(ROOT, "src", "approvals.tsv")
+if os.path.exists(_ap):
+    for line in open(_ap, encoding="utf-8"):
+        if line.strip() and not line.startswith("#"):
+            k, d, who, date, *note = line.rstrip("\n").split("\t")
+            AP[k] = (d, ("%s, %s. " % (who, date)) + (note[0] if note else ""))
 CONF = {"H": "high", "M": "medium", "L": "low"}
 
 F = "Arial"
@@ -63,7 +70,7 @@ for j, (h, w) in enumerate(cols, 1):
     ws.column_dimensions[get_column_letter(j)].width = w
 for i, t in enumerate(terms, 2):
     row = [t["module"], t["kind"], t["key"], t["iri"], t["label_en"], t["label_fr"], t["def_en"], t["def_fr"],
-           t["parent"], CONF.get(t["confidence"], t["confidence"]), t["rationale"], t["sources"], t["extra"], None, None]
+           t["parent"], CONF.get(t["confidence"], t["confidence"]), t["rationale"], t["sources"], t["extra"], AP.get(t["key"], (None, None))[0], AP.get(t["key"], (None, None))[1]]
     for j, v in enumerate(row, 1):
         c = ws.cell(row=i, column=j, value=v); c.font = base; c.alignment = wrap; c.border = box
         if j >= 14: c.fill = inp

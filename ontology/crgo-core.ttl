@@ -20,12 +20,14 @@ crgo:CRGO_0000002 a owl:Class ;
     skos:altLabel "data asset"@en ;
     skos:definition "An asset that is information content, such as a data set, a record collection or a document, independent of the medium that carries it."@en,
         "Actif constitué de contenu informationnel, comme un jeu de données, un ensemble de dossiers ou un document, indépendamment du support qui le porte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Central in all corpora (patient records, données nominatives); CCO ICE is the right BFO-2020 home."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- software asset
@@ -37,12 +39,14 @@ crgo:CRGO_0000003 a owl:Class ;
     skos:altLabel "application"@en ;
     skos:definition "An asset that is a computer program or application, including its configuration, considered independently of the hardware that runs it."@en,
         "Actif constitué d'un programme ou d'une application informatique, y compris sa configuration, considéré indépendamment du matériel qui l'exécute."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Software as instructions that prescribe machine behaviour (prescriptive ICE); CCO 2.2 core has no software class (review M)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- connected device
@@ -54,12 +58,14 @@ crgo:CRGO_0000005 a owl:Class ;
         "objet connecté"@fr ;
     skos:definition "A hardware asset with embedded computing and network connectivity whose malfunction can affect physical processes, such as an IoT, OT or medical device."@en,
         "Actif matériel doté de capacités de calcul et de connectivité réseau intégrées dont le dysfonctionnement peut toucher des processus physiques, comme un objet connecté, un équipement de technologie opérationnelle ou un dispositif médical."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Recurring in corpora (IoT, medical devices); CRG coverage list names OT/IoT/medical."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- network asset
@@ -70,11 +76,13 @@ crgo:CRGO_0000006 a owl:Class ;
     skos:altLabel "réseau"@fr ;
     skos:definition "A hardware asset, or an interconnected set of them, that carries communications between other assets, such as a local network, a WiFi network or an inter-establishment link."@en,
         "Actif matériel, ou ensemble interconnecté de tels actifs, qui achemine les communications entre d'autres actifs, comme un réseau local, un réseau sans fil ou un lien inter-établissement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "RTSS, WiFi and telecom links recur; modelled as hardware for simplicity, see confidence note."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- service asset
@@ -87,12 +95,14 @@ crgo:CRGO_0000007 a owl:Class ;
         "cloud service"@en ;
     skos:definition "An asset that is a provider's capability to deliver a service to the organisation, internally or as a third party, such as a cloud application, hosting, telecommunications or a managed security service; the capability inheres in the provider's systems or organisation."@en,
         "Actif constitué de la capacité d'un fournisseur à offrir un service à l'organisation, à l'interne ou à titre de tiers, comme une application infonuagique, un hébergement, des télécommunications ou un service de sécurité géré; cette capacité réside dans les systèmes ou l'organisation du fournisseur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Realizable entity (capability) rather than process, so a service can be owned, valued and depended on (review H3)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat source role
@@ -104,13 +114,15 @@ crgo:CRGO_0000012 a owl:Class ;
         "source de menace"@fr ;
     skos:definition "A role borne by an agent or artifact in virtue of which it may initiate a threat event, intentionally or not."@en,
         "Rôle porté par un agent ou un artefact en vertu duquel il peut déclencher un événement de menace, intentionnellement ou non."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Role keeps people and organisations rigid; environmental sources are described with ThreatSourceDescription (review M)."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- vulnerability
@@ -123,7 +135,7 @@ crgo:CRGO_0000016 a owl:Class ;
         "faille"@fr ;
     skos:definition "A disposition of a material asset, such as a device, storage medium or network equipment, or of an organisation, that a threat source can exploit to cause harm. Weaknesses of software, information or controls are recorded as vulnerability descriptions."@en,
         "Disposition d'un actif matériel, comme un appareil, un support de stockage ou un équipement réseau, ou d'une organisation, qu'une source de menace peut exploiter pour causer un préjudice. Les faiblesses des logiciels, de l'information ou des contrôles sont consignées comme descriptions de vulnérabilité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Aligned to CCO Vulnerability; restricted to material bearers after HermiT finding and review H6."@en ;
     crgo:CRGO_0000286 "Common Core Ontologies 2.2 (2026-08-13), alignment target"@en,
@@ -131,6 +143,8 @@ crgo:CRGO_0000016 a owl:Class ;
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- predisposing condition
@@ -140,12 +154,14 @@ crgo:CRGO_0000017 a owl:Class ;
     rdfs:subClassOf obo:BFO_0000016 ;
     skos:definition "A condition of the organisation, its environment or its systems that increases or decreases the likelihood that a threat event causes harm, without being a weakness of a specific control."@en,
         "Condition de l'organisation, de son environnement ou de ses systèmes qui augmente ou diminue la probabilité qu'un événement de menace cause un préjudice, sans être une faiblesse d'un contrôle précis."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "SP 800-30 Appendix F; examples: single telecom link, ground-floor server room."@en ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- framework requirement
@@ -155,11 +171,13 @@ crgo:CRGO_0000021 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A requirement, control objective or outcome stated in a published framework or standard, identified by its official identifier."@en,
         "Exigence, objectif de contrôle ou résultat énoncé dans un référentiel ou une norme publiés, identifié par son identifiant officiel."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Framework items are SKOS concepts also typed with this class."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- library scenario
@@ -169,12 +187,14 @@ crgo:CRGO_0000024 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000023 ;
     skos:definition "A risk scenario written for no particular organisation, or generalised from one, kept in a library to seed candidate scenarios."@en,
         "Scénario de risque rédigé pour aucune organisation en particulier, ou généralisé à partir d'une organisation, conservé dans une bibliothèque pour alimenter des scénarios candidats."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Holds the 2,158 consolidated 2023 rows (decision Q-E, option 3)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- assessment scenario
@@ -186,12 +206,14 @@ crgo:CRGO_0000025 a owl:Class ;
         "selected scenario"@en ;
     skos:definition "A risk scenario stated for a specific organisation within a risk assessment, whether as a screened candidate or as a selected scenario."@en,
         "Scénario de risque énoncé pour une organisation précise dans le cadre d'une appréciation du risque, qu'il s'agisse d'un candidat présélectionné ou d'un scénario retenu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Candidate vs selected is a disposition value, not a subclass (OntoClean: anti-rigid)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- confidentiality
@@ -203,11 +225,13 @@ crgo:CRGO_0000074 a owl:NamedIndividual,
         "Information divulguée à des personnes non autorisées."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- integrity
@@ -219,11 +243,13 @@ crgo:CRGO_0000075 a owl:NamedIndividual,
         "Information ou systèmes modifiés de manière non autorisée ou erronée."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- availability
@@ -235,11 +261,13 @@ crgo:CRGO_0000076 a owl:NamedIndividual,
         "Information, systèmes ou services indisponibles au moment voulu."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- privacy
@@ -251,11 +279,13 @@ crgo:CRGO_0000077 a owl:NamedIndividual,
         "Préjudice causé à des personnes par un mauvais usage de leurs renseignements personnels."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- safety
@@ -267,11 +297,13 @@ crgo:CRGO_0000078 a owl:NamedIndividual,
         "Préjudice physique à des personnes."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- financial
@@ -283,11 +315,13 @@ crgo:CRGO_0000079 a owl:NamedIndividual,
         "Perte monétaire directe ou indirecte."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- legal and regulatory
@@ -299,11 +333,13 @@ crgo:CRGO_0000080 a owl:NamedIndividual,
         "Manquement à des obligations légales, réglementaires ou contractuelles et ses sanctions."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- reputation
@@ -315,11 +351,13 @@ crgo:CRGO_0000081 a owl:NamedIndividual,
         "Perte de confiance des clients, des partenaires ou du public."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- operational
@@ -331,11 +369,13 @@ crgo:CRGO_0000082 a owl:NamedIndividual,
         "Perturbation des processus d'affaires ou de la prestation de services."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "9" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- strategic
@@ -347,11 +387,13 @@ crgo:CRGO_0000083 a owl:NamedIndividual,
         "Atteinte aux objectifs ou à la position concurrentielle de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000073 ;
     skos:notation "10" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- low requirement
@@ -363,11 +405,13 @@ crgo:CRGO_0000086 a owl:NamedIndividual,
         "Préjudice limité si la propriété est perdue."@fr ;
     skos:inScheme crgo:CRGO_0000085 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- moderate requirement
@@ -379,11 +423,13 @@ crgo:CRGO_0000087 a owl:NamedIndividual,
         "Préjudice notable si la propriété est perdue."@fr ;
     skos:inScheme crgo:CRGO_0000085 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- high requirement
@@ -395,11 +441,13 @@ crgo:CRGO_0000088 a owl:NamedIndividual,
         "Préjudice grave si la propriété est perdue."@fr ;
     skos:inScheme crgo:CRGO_0000085 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- very high requirement
@@ -411,11 +459,13 @@ crgo:CRGO_0000089 a owl:NamedIndividual,
         "Préjudice sévère ou irréversible si la propriété est perdue."@fr ;
     skos:inScheme crgo:CRGO_0000085 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- adversarial
@@ -427,10 +477,12 @@ crgo:CRGO_0000092 a owl:NamedIndividual,
         "Personnes, groupes ou organisations qui agissent intentionnellement."@fr ;
     skos:inScheme crgo:CRGO_0000091 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- accidental
@@ -442,10 +494,12 @@ crgo:CRGO_0000093 a owl:NamedIndividual,
         "Erreurs et omissions de personnes qui agissent sans intention malveillante."@fr ;
     skos:inScheme crgo:CRGO_0000091 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- structural
@@ -457,10 +511,12 @@ crgo:CRGO_0000094 a owl:NamedIndividual,
         "Défaillances d'équipements, de logiciels ou de systèmes de contrôle environnemental."@fr ;
     skos:inScheme crgo:CRGO_0000091 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- environmental
@@ -472,10 +528,12 @@ crgo:CRGO_0000095 a owl:NamedIndividual,
         "Événements naturels ou d'infrastructure hors du contrôle de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000091 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- in place
@@ -487,11 +545,13 @@ crgo:CRGO_0000098 a owl:NamedIndividual,
         "Mise en œuvre et en fonctionnement; toute affirmation exige une preuve."@fr ;
     skos:inScheme crgo:CRGO_0000097 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- planned
@@ -503,11 +563,13 @@ crgo:CRGO_0000099 a owl:NamedIndividual,
         "Approuvée et planifiée, mais pas encore en fonctionnement."@fr ;
     skos:inScheme crgo:CRGO_0000097 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- proposed (control)
@@ -519,11 +581,13 @@ crgo:CRGO_0000100 a owl:NamedIndividual,
         "Recommandée, mais pas encore approuvée."@fr ;
     skos:inScheme crgo:CRGO_0000097 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- documented evidence
@@ -535,11 +599,13 @@ crgo:CRGO_0000118 a owl:NamedIndividual,
         "Documents ou registres de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- external evidence
@@ -551,11 +617,13 @@ crgo:CRGO_0000119 a owl:NamedIndividual,
         "Sources sectorielles, de renseignement sur les menaces ou publiées."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- expert input
@@ -567,11 +635,13 @@ crgo:CRGO_0000120 a owl:NamedIndividual,
         "Jugement d'un expert du domaine."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- analyst inference
@@ -583,11 +653,13 @@ crgo:CRGO_0000121 a owl:NamedIndividual,
         "Inférence raisonnée de l'analyste."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- AI estimate requiring validation
@@ -599,11 +671,13 @@ crgo:CRGO_0000122 a owl:NamedIndividual,
         "Produite par un système d'IA; doit être validée."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- immediate
@@ -615,10 +689,12 @@ crgo:CRGO_0000130 a owl:NamedIndividual,
         "À commencer maintenant."@fr ;
     skos:inScheme crgo:CRGO_0000129 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- near-term
@@ -630,10 +706,12 @@ crgo:CRGO_0000131 a owl:NamedIndividual,
         "À commencer au prochain cycle de planification."@fr ;
     skos:inScheme crgo:CRGO_0000129 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- scheduled later
@@ -645,10 +723,12 @@ crgo:CRGO_0000132 a owl:NamedIndividual,
         "Prévue plus tard dans la feuille de route."@fr ;
     skos:inScheme crgo:CRGO_0000129 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- governance
@@ -660,10 +740,12 @@ crgo:CRGO_0000135 a owl:NamedIndividual,
         "Orientation, responsabilité et surveillance."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- prevention
@@ -675,10 +757,12 @@ crgo:CRGO_0000136 a owl:NamedIndividual,
         "Empêche l'événement ou l'exploitation."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- detection
@@ -690,10 +774,12 @@ crgo:CRGO_0000137 a owl:NamedIndividual,
         "Repère l'événement lorsqu'il se produit."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- response
@@ -705,10 +791,12 @@ crgo:CRGO_0000138 a owl:NamedIndividual,
         "Contient et traite l'événement."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- recovery
@@ -720,10 +808,12 @@ crgo:CRGO_0000139 a owl:NamedIndividual,
         "Rétablit les activités après l'événement."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- resilience
@@ -735,10 +825,12 @@ crgo:CRGO_0000140 a owl:NamedIndividual,
         "Permet à l'organisation de poursuivre ses activités sous contrainte."@fr ;
     skos:inScheme crgo:CRGO_0000134 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk modification
@@ -750,11 +842,13 @@ crgo:CRGO_0000143 a owl:NamedIndividual,
         "Modifier la probabilité ou la conséquence par des contrôles."@fr ;
     skos:inScheme crgo:CRGO_0000142 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk retention
@@ -766,11 +860,13 @@ crgo:CRGO_0000144 a owl:NamedIndividual,
         "Accepter le risque avec une autorisation formelle."@fr ;
     skos:inScheme crgo:CRGO_0000142 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk avoidance
@@ -782,11 +878,13 @@ crgo:CRGO_0000145 a owl:NamedIndividual,
         "Cesser l'activité à l'origine du risque."@fr ;
     skos:inScheme crgo:CRGO_0000142 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk sharing
@@ -798,11 +896,13 @@ crgo:CRGO_0000146 a owl:NamedIndividual,
         "Transférer une partie du risque, par exemple par l'assurance ou des contrats."@fr ;
     skos:inScheme crgo:CRGO_0000142 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- valuation of
@@ -814,10 +914,12 @@ crgo:CRGO_0000183 a owl:ObjectProperty ;
     skos:definition "Relates an asset valuation to the entity it values."@en,
         "Relie une évaluation d'actif à l'entité qu'elle évalue."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- valued by
@@ -828,10 +930,12 @@ crgo:CRGO_0000184 a owl:ObjectProperty ;
     rdfs:range cco:ont00001180 ;
     skos:definition "Relates an asset valuation to the organisation for which the value holds."@en,
         "Relie une évaluation d'actif à l'organisation pour laquelle cette valeur s'applique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has owner
@@ -841,11 +945,13 @@ crgo:CRGO_0000185 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates an asset valuation, control measure, initiative or indicator to the agent accountable for it."@en,
         "Relie une évaluation d'actif, une mesure de contrôle, une initiative ou un indicateur à l'agent qui en est responsable."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has confidentiality requirement
@@ -857,10 +963,12 @@ crgo:CRGO_0000186 a owl:ObjectProperty ;
     skos:definition "Gives the confidentiality requirement level recorded in an asset valuation."@en,
         "Indique le niveau d'exigence de confidentialité consigné dans une évaluation d'actif."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has integrity requirement
@@ -872,10 +980,12 @@ crgo:CRGO_0000187 a owl:ObjectProperty ;
     skos:definition "Gives the integrity requirement level recorded in an asset valuation."@en,
         "Indique le niveau d'exigence d'intégrité consigné dans une évaluation d'actif."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has availability requirement
@@ -887,10 +997,12 @@ crgo:CRGO_0000188 a owl:ObjectProperty ;
     skos:definition "Gives the availability requirement level recorded in an asset valuation."@en,
         "Indique le niveau d'exigence de disponibilité consigné dans une évaluation d'actif."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- supports process
@@ -901,11 +1013,13 @@ crgo:CRGO_0000189 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000009 ;
     skos:definition "Relates an asset to a business process that depends on it."@en,
         "Relie un actif à un processus d'affaires qui en dépend."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- supports objective
@@ -916,10 +1030,12 @@ crgo:CRGO_0000190 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000010 ;
     skos:definition "Relates a business process to a business objective it contributes to."@en,
         "Relie un processus d'affaires à un objectif d'affaires auquel il contribue."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- relies on asset
@@ -931,11 +1047,13 @@ crgo:CRGO_0000191 a owl:ObjectProperty,
     rdfs:range crgo:CRGO_0000001 ;
     skos:definition "Relates an asset to another asset it needs in order to function, such as an application and its hosting service."@en,
         "Relie un actif à un autre actif dont il a besoin pour fonctionner, comme une application et son service d'hébergement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Single points of failure and concentration risk (CRG step 3)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- provided by
@@ -946,11 +1064,13 @@ crgo:CRGO_0000192 a owl:ObjectProperty ;
     rdfs:range cco:ont00001180 ;
     skos:definition "Relates an asset to the third-party organisation that supplies or operates it."@en,
         "Relie un actif à l'organisation tierce qui le fournit ou l'exploite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- housed in
@@ -961,11 +1081,13 @@ crgo:CRGO_0000193 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000008 ;
     skos:definition "Relates an asset to the facility that houses it."@en,
         "Relie un actif à l'installation qui l'abrite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Information assets are located through their carriers; kept simple here."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has threat source type
@@ -975,10 +1097,12 @@ crgo:CRGO_0000194 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000090 ;
     skos:definition "Classifies a threat source role or environmental hazard by NIST SP 800-30 category."@en,
         "Classe un rôle de source de menace ou un aléa environnemental selon la catégorie de NIST SP 800-30."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- initiated by
@@ -989,12 +1113,14 @@ crgo:CRGO_0000195 a owl:ObjectProperty ;
     rdfs:range obo:BFO_0000001 ;
     skos:definition "Relates a risk scenario to the entity that would initiate it: the bearer of a threat source role, such as a person, organisation, artifact or natural feature. Use hasThreatSourceDescription when only the kind of source is known."@en,
         "Relie un scénario de risque à l'entité qui le déclencherait : le porteur d'un rôle de source de menace, par exemple une personne, une organisation, un artefact ou un élément naturel. Utiliser hasThreatSourceDescription lorsque seul le type de source est connu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Range left open because bearers of a threat source role are of several BFO kinds; SHACL will check it (Phase 4)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has threat event
@@ -1005,10 +1131,12 @@ crgo:CRGO_0000196 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000014 ;
     skos:definition "Relates a risk scenario to the threat event it describes."@en,
         "Relie un scénario de risque à l'événement de menace qu'il décrit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- exploits
@@ -1019,13 +1147,15 @@ crgo:CRGO_0000197 a owl:ObjectProperty ;
     rdfs:range obo:BFO_0000016 ;
     skos:definition "Relates a risk scenario to an identified vulnerability or predisposing condition, borne by a material asset or an organisation, that its threat event takes advantage of. Described weaknesses use hasVulnerabilityDescription."@en,
         "Relie un scénario de risque à une vulnérabilité ou à une condition prédisposante identifiée, portée par un actif matériel ou une organisation, dont profite son événement de menace. Les faiblesses décrites utilisent hasVulnerabilityDescription."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Herzog 'exploits' / 'enabledByVulnerability'; CRG 'vulns'."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- affects asset
@@ -1036,10 +1166,12 @@ crgo:CRGO_0000198 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000001 ;
     skos:definition "Relates a risk scenario to an asset that would be harmed."@en,
         "Relie un scénario de risque à un actif qui serait atteint."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- affects process
@@ -1050,10 +1182,12 @@ crgo:CRGO_0000199 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000009 ;
     skos:definition "Relates a risk scenario to a business process that would be disrupted."@en,
         "Relie un scénario de risque à un processus d'affaires qui serait perturbé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has consequence
@@ -1064,10 +1198,12 @@ crgo:CRGO_0000200 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000027 ;
     skos:definition "Relates a risk scenario to one of its consequences."@en,
         "Relie un scénario de risque à l'une de ses conséquences."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has impact dimension
@@ -1078,10 +1214,12 @@ crgo:CRGO_0000201 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000072 ;
     skos:definition "Gives the impact dimension of a consequence."@en,
         "Indique la dimension d'impact d'une conséquence."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has step
@@ -1092,10 +1230,12 @@ crgo:CRGO_0000202 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000026 ;
     skos:definition "Relates a risk scenario to a step of its event sequence."@en,
         "Relie un scénario de risque à une étape de sa séquence d'événements."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- next step
@@ -1106,10 +1246,12 @@ crgo:CRGO_0000203 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000026 ;
     skos:definition "Relates a scenario step to the step that immediately follows it."@en,
         "Relie une étape de scénario à l'étape qui la suit immédiatement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- refines
@@ -1120,11 +1262,13 @@ crgo:CRGO_0000204 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates a risk scenario to a more generic scenario it was derived from, such as a selected scenario to its candidate or a candidate to a library scenario."@en,
         "Relie un scénario de risque au scénario plus générique dont il est dérivé, comme un scénario retenu à son candidat ou un candidat à un scénario de bibliothèque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'ref' (library ref or candidate ID)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has stakeholder
@@ -1135,12 +1279,14 @@ crgo:CRGO_0000205 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates a risk scenario to an agent with an interest in it."@en,
         "Relie un scénario de risque à un agent qui y a un intérêt."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "'Ayants cause' in the French templates."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has risk owner
@@ -1151,11 +1297,13 @@ crgo:CRGO_0000206 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates a risk scenario to the agent accountable for managing it."@en,
         "Relie un scénario de risque à l'agent responsable de sa gestion."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- mitigated by
@@ -1166,11 +1314,13 @@ crgo:CRGO_0000207 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000020 ;
     skos:definition "Relates a risk scenario to a control measure that reduces its likelihood or consequences."@en,
         "Relie un scénario de risque à une mesure de contrôle qui en réduit la probabilité ou les conséquences."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- implements control
@@ -1181,10 +1331,12 @@ crgo:CRGO_0000208 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000019 ;
     skos:definition "Relates a control measure to the control it applies."@en,
         "Relie une mesure de contrôle au contrôle qu'elle applique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- protects asset
@@ -1195,11 +1347,13 @@ crgo:CRGO_0000209 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000001 ;
     skos:definition "Relates a control measure to an asset it protects."@en,
         "Relie une mesure de contrôle à un actif qu'elle protège."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Herzog 'protects'."@en ;
     crgo:CRGO_0000286 "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has control status
@@ -1211,11 +1365,13 @@ crgo:CRGO_0000210 a owl:ObjectProperty ;
     skos:definition "Gives the implementation status of a control measure."@en,
         "Indique le statut de mise en œuvre d'une mesure de contrôle."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has control function
@@ -1225,10 +1381,12 @@ crgo:CRGO_0000211 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000133 ;
     skos:definition "Gives the function a control, control measure or initiative serves."@en,
         "Indique la fonction que remplit un contrôle, une mesure de contrôle ou une initiative."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- maps to requirement
@@ -1237,11 +1395,13 @@ crgo:CRGO_0000212 a owl:ObjectProperty ;
         "correspond à l'exigence"@fr ;
     skos:definition "Relates a control, framework requirement or legal obligation to a framework requirement or obligation it satisfies, contributes to or corresponds with."@en,
         "Relie un contrôle, une exigence de référentiel ou une obligation légale à une exigence ou à une obligation qu'il satisfait, à laquelle il contribue ou à laquelle il correspond."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Mapping strength recorded in crgo-map with SKOS/SSSOM."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has evidence
@@ -1251,10 +1411,12 @@ crgo:CRGO_0000213 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000036 ;
     skos:definition "Relates an estimate, control measure or other statement to an evidence item that supports it."@en,
         "Relie une estimation, une mesure de contrôle ou une autre affirmation à un élément de preuve qui l'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has evidence basis
@@ -1266,10 +1428,12 @@ crgo:CRGO_0000214 a owl:ObjectProperty ;
     skos:definition "Gives the kind of support behind an evidence item."@en,
         "Indique la nature de l'appui d'un élément de preuve."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- includes scenario
@@ -1280,10 +1444,12 @@ crgo:CRGO_0000215 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates a risk assessment to a scenario screened or analysed in it."@en,
         "Relie une appréciation du risque à un scénario présélectionné ou analysé dans son cadre."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- assesses organisation
@@ -1294,10 +1460,12 @@ crgo:CRGO_0000216 a owl:ObjectProperty ;
     rdfs:range cco:ont00001180 ;
     skos:definition "Relates a risk assessment to the organisation whose risk it assesses."@en,
         "Relie une appréciation du risque à l'organisation dont elle apprécie le risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has risk appetite
@@ -1308,10 +1476,12 @@ crgo:CRGO_0000217 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000029 ;
     skos:definition "Relates a risk assessment to the risk appetite statement it applies."@en,
         "Relie une appréciation du risque à l'énoncé d'appétence au risque qu'elle applique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- uses calculation method
@@ -1322,11 +1492,13 @@ crgo:CRGO_0000218 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000059 ;
     skos:definition "Relates a risk assessment to the calculation method it applies to all its scenarios."@en,
         "Relie une appréciation du risque à la méthode de calcul appliquée à tous ses scénarios."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "One method per assessment (CRG convention)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has treatment decision
@@ -1337,10 +1509,12 @@ crgo:CRGO_0000219 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000030 ;
     skos:definition "Relates a risk scenario to a decision on how it is treated."@en,
         "Relie un scénario de risque à une décision sur son traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has treatment option
@@ -1351,11 +1525,13 @@ crgo:CRGO_0000220 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000141 ;
     skos:definition "Gives the treatment option a decision chooses."@en,
         "Indique l'option de traitement retenue par une décision."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- decided by
@@ -1366,10 +1542,12 @@ crgo:CRGO_0000221 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates a treatment decision to the agent who made it."@en,
         "Relie une décision de traitement à l'agent qui l'a prise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- addresses
@@ -1380,11 +1558,13 @@ crgo:CRGO_0000222 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates a treatment initiative to a risk scenario it is meant to reduce."@en,
         "Relie une initiative de traitement à un scénario de risque qu'elle doit réduire."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'inits' (read from the scenario side)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- includes control measure
@@ -1395,10 +1575,12 @@ crgo:CRGO_0000223 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000020 ;
     skos:definition "Relates a treatment initiative to a control measure it will put in place."@en,
         "Relie une initiative de traitement à une mesure de contrôle qu'elle mettra en place."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has priority
@@ -1410,10 +1592,12 @@ crgo:CRGO_0000224 a owl:ObjectProperty ;
     skos:definition "Gives the priority of a treatment initiative."@en,
         "Indique la priorité d'une initiative de traitement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- allocation of
@@ -1425,10 +1609,12 @@ crgo:CRGO_0000225 a owl:ObjectProperty ;
     skos:definition "Relates a cost allocation to the initiative whose cost it shares out."@en,
         "Relie une répartition des coûts à l'initiative dont elle répartit le coût."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- allocated to
@@ -1440,10 +1626,12 @@ crgo:CRGO_0000226 a owl:ObjectProperty ;
     skos:definition "Relates a cost allocation to the risk scenario it charges."@en,
         "Relie une répartition des coûts au scénario de risque auquel elle impute des coûts."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- monitors
@@ -1453,10 +1641,12 @@ crgo:CRGO_0000227 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Relates a key risk indicator to a risk scenario, control measure or asset it monitors."@en,
         "Relie un indicateur clé de risque à un scénario de risque, à une mesure de contrôle ou à un actif qu'il surveille."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- triggers obligation
@@ -1466,10 +1656,12 @@ crgo:CRGO_0000228 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000022 ;
     skos:definition "Relates a risk scenario or incident to a legal obligation its realisation would trigger, such as notice to the CAI."@en,
         "Relie un scénario de risque ou un incident à une obligation légale que sa réalisation déclencherait, comme l'avis à la CAI."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Loi 25 (L.Q. 2021, c. 25); CAI guidance on confidentiality incidents"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- matches threat event
@@ -1480,11 +1672,13 @@ crgo:CRGO_0000229 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000014 ;
     skos:definition "Relates an incident to the threat event description it is an occurrence of."@en,
         "Relie un incident à la description d'événement de menace dont il est une occurrence."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Bridge between described (possible) and actual events."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- budget of
@@ -1495,10 +1689,12 @@ crgo:CRGO_0000230 a owl:ObjectProperty ;
     rdfs:range cco:ont00001180 ;
     skos:definition "Relates a budget calibration to the organisation whose budget it calibrates."@en,
         "Relie un étalonnage du budget à l'organisation dont il étalonne le budget."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has scenario category
@@ -1509,11 +1705,13 @@ crgo:CRGO_0000246 a owl:ObjectProperty ;
     rdfs:range skos:Concept ;
     skos:definition "Relates a risk scenario to a category of the controlled scenario category list."@en,
         "Relie un scénario de risque à une catégorie de la liste contrôlée des catégories de scénarios."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Controlled list built in Phase 3 (decision Q-E)."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- local identifier
@@ -1523,11 +1721,13 @@ crgo:CRGO_0000250 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the identifier a record has in its source, such as S1, C01, I01, KRI-01 or E1 in a CRG file."@en,
         "Indique l'identifiant d'un enregistrement dans sa source, comme S1, C01, I01, KRI-01 ou E1 dans un fichier CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Keeps CRG files round-trippable."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- evidence locator
@@ -1538,10 +1738,12 @@ crgo:CRGO_0000251 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives where an evidence item can be found, such as a document, section, page or file identifier."@en,
         "Indique où se trouve un élément de preuve, comme un document, une section, une page ou un identifiant de fichier."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- statement
@@ -1551,11 +1753,13 @@ crgo:CRGO_0000252 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000023 ;
     skos:definition "Gives the one-sentence causal statement of a risk scenario."@en,
         "Indique l'énoncé causal en une phrase d'un scénario de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'statement'."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- narrative
@@ -1565,11 +1769,13 @@ crgo:CRGO_0000253 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000023 ;
     skos:definition "Gives the narrative of how a risk scenario unfolds."@en,
         "Indique le récit du déroulement d'un scénario de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'narrative'."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- step order
@@ -1581,10 +1787,12 @@ crgo:CRGO_0000254 a owl:DatatypeProperty,
     rdfs:range xsd:integer ;
     skos:definition "Gives the position of a step in its scenario's event sequence, starting at 1."@en,
         "Indique la position d'une étape dans la séquence d'événements de son scénario, à partir de 1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- is crown jewel
@@ -1596,11 +1804,13 @@ crgo:CRGO_0000255 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States whether an asset valuation designates the entity as one of the organisation's crown jewels."@en,
         "Indique si une évaluation d'actif désigne l'entité comme l'un des joyaux de la couronne de l'organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG CROWN."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- purpose
@@ -1610,10 +1820,12 @@ crgo:CRGO_0000256 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000011 ;
     skos:definition "Gives what an entity is used for, as recorded in an asset valuation."@en,
         "Indique à quoi sert une entité, tel que consigné dans une évaluation d'actif."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- assessment horizon
@@ -1625,11 +1837,13 @@ crgo:CRGO_0000262 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the period the estimates of an assessment refer to, such as 'next 12 months'."@en,
         "Indique la période à laquelle se rapportent les estimations d'une appréciation, comme « 12 prochains mois »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "xsd:duration is outside the OWL 2 datatype map."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- currency code
@@ -1639,10 +1853,12 @@ crgo:CRGO_0000263 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the ISO 4217 currency code in which costs are expressed, such as CAD."@en,
         "Indique le code de devise ISO 4217 dans lequel les coûts sont exprimés, comme CAD."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- initial cost
@@ -1654,10 +1870,12 @@ crgo:CRGO_0000264 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the one-time cost of a treatment initiative."@en,
         "Indique le coût ponctuel d'une initiative de traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- recurring cost
@@ -1669,10 +1887,12 @@ crgo:CRGO_0000265 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the annual recurring cost of a treatment initiative."@en,
         "Indique le coût annuel récurrent d'une initiative de traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- allocated initial cost
@@ -1684,10 +1904,12 @@ crgo:CRGO_0000266 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the share of an initiative's initial cost charged to one scenario."@en,
         "Indique la part du coût initial d'une initiative imputée à un scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- allocated recurring cost
@@ -1699,10 +1921,12 @@ crgo:CRGO_0000267 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the share of an initiative's recurring cost charged to one scenario."@en,
         "Indique la part du coût récurrent d'une initiative imputée à un scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- planned start
@@ -1714,10 +1938,12 @@ crgo:CRGO_0000268 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives when a treatment initiative is planned to start, as stated in the source (for example 'Month 0')."@en,
         "Indique quand une initiative de traitement doit commencer, tel qu'énoncé dans la source (par exemple « mois 0 »)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- planned end
@@ -1729,10 +1955,12 @@ crgo:CRGO_0000269 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives when a treatment initiative is planned to finish, as stated in the source."@en,
         "Indique quand une initiative de traitement doit se terminer, tel qu'énoncé dans la source."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- success indicator
@@ -1742,10 +1970,12 @@ crgo:CRGO_0000270 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000032 ;
     skos:definition "Gives the measurable result that shows a treatment initiative succeeded."@en,
         "Indique le résultat mesurable qui montre qu'une initiative de traitement a réussi."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- treatment horizon
@@ -1756,10 +1986,12 @@ crgo:CRGO_0000271 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the time frame in which a treatment decision is to be carried out, such as '0-6 months'."@en,
         "Indique le délai d'exécution d'une décision de traitement, comme « 0-6 mois »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- accepting authority
@@ -1769,11 +2001,13 @@ crgo:CRGO_0000272 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000031 ;
     skos:definition "Names the authority, such as the board or a named executive, that accepted a residual risk."@en,
         "Nomme l'autorité, comme le conseil d'administration ou un dirigeant désigné, qui a accepté un risque résiduel."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "MED-GOV-02."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- expiry date
@@ -1785,11 +2019,13 @@ crgo:CRGO_0000273 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a risk acceptance lapses and must be reviewed."@en,
         "Indique quand une acceptation du risque prend fin et doit être revue."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "xsd:date is outside the OWL 2 datatype map."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- measurement method
@@ -1799,10 +2035,12 @@ crgo:CRGO_0000274 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives how a key risk indicator is computed."@en,
         "Indique comment un indicateur clé de risque est calculé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- data source
@@ -1812,10 +2050,12 @@ crgo:CRGO_0000275 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives where the data of a key risk indicator comes from."@en,
         "Indique d'où proviennent les données d'un indicateur clé de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- reporting frequency
@@ -1825,10 +2065,12 @@ crgo:CRGO_0000276 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives how often a key risk indicator is reported."@en,
         "Indique à quelle fréquence un indicateur clé de risque est communiqué."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- target value
@@ -1838,11 +2080,13 @@ crgo:CRGO_0000277 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives the target of a key risk indicator, as stated (for example '100%')."@en,
         "Indique la cible d'un indicateur clé de risque, telle qu'énoncée (par exemple « 100 % »)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Text because CRG thresholds mix operators and units."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- warning threshold
@@ -1852,10 +2096,12 @@ crgo:CRGO_0000278 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives the warning threshold of a key risk indicator, as stated (for example '< 95%')."@en,
         "Indique le seuil d'alerte d'un indicateur clé de risque, tel qu'énoncé (par exemple « < 95 % »)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- critical threshold
@@ -1865,10 +2111,12 @@ crgo:CRGO_0000279 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000034 ;
     skos:definition "Gives the critical threshold of a key risk indicator, as stated."@en,
         "Indique le seuil critique d'un indicateur clé de risque, tel qu'énoncé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- IT budget
@@ -1880,10 +2128,12 @@ crgo:CRGO_0000280 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the organisation's total IT budget, salaries included, used in a budget calibration."@en,
         "Indique le budget TI total de l'organisation, salaires compris, utilisé dans un étalonnage du budget."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- cybersecurity budget share
@@ -1894,10 +2144,12 @@ crgo:CRGO_0000281 a owl:DatatypeProperty ;
     rdfs:range xsd:decimal ;
     skos:definition "Gives a cybersecurity budget as a fraction of the total IT budget (for example 0.078)."@en,
         "Indique un budget de cybersécurité en fraction du budget TI total (par exemple 0,078)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- implied appetite
@@ -1908,10 +2160,12 @@ crgo:CRGO_0000282 a owl:DatatypeProperty ;
     rdfs:range xsd:decimal ;
     skos:definition "Gives the risk appetite implied by a proposed cybersecurity budget under the CRG band."@en,
         "Indique l'appétence au risque implicite d'un budget de cybersécurité proposé selon la bande CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- weakness of
@@ -1920,12 +2174,14 @@ crgo:CRGO_0000293 a owl:ObjectProperty ;
         "faiblesse de"@fr ;
     skos:definition "Relates a vulnerability, vulnerability description or predisposing condition to the asset, organisation or process it is a weakness of. Shortcut for BFO 'inheres in', which cannot be used when the asset is software or information: in BFO-2020 a disposition can inhere only in a material bearer, so the weakness of a software asset strictly inheres in the copies or devices that carry it."@en,
         "Relie une vulnérabilité ou une condition prédisposante à l'actif, à l'organisation ou au processus dont elle est une faiblesse. Raccourci de « inheres in » de BFO, inutilisable lorsque l'actif est un logiciel ou de l'information : dans BFO-2020, une disposition ne peut résider que dans un porteur matériel, de sorte que la faiblesse d'un actif logiciel réside au sens strict dans les copies ou les appareils qui le portent."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Found by HermiT on the CRG test fixture: 'vulnerability inheres in software asset' is inconsistent under BFO-2020."@en ;
     crgo:CRGO_0000286 "ISO/IEC 21838-2:2021 / BFO-2020, alignment target"@en,
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- information assets
@@ -1937,11 +2193,13 @@ crgo:CRGO_0000304 a owl:NamedIndividual,
         "Jeux de données, dossiers et documents."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- identity and access systems
@@ -1953,11 +2211,13 @@ crgo:CRGO_0000305 a owl:NamedIndividual,
         "Annuaires, fournisseurs d'identité, accès privilégiés."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- applications and software
@@ -1969,11 +2229,13 @@ crgo:CRGO_0000306 a owl:NamedIndividual,
         "Applications d'affaires, applications Web, API."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- endpoints
@@ -1985,11 +2247,13 @@ crgo:CRGO_0000307 a owl:NamedIndividual,
         "Postes de travail, portables, appareils mobiles, supports amovibles."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- infrastructure
@@ -2001,11 +2265,13 @@ crgo:CRGO_0000308 a owl:NamedIndividual,
         "Serveurs, stockage, virtualisation, sauvegardes."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- networks and communications
@@ -2017,11 +2283,13 @@ crgo:CRGO_0000309 a owl:NamedIndividual,
         "Réseaux locaux, sans fil, liens étendus, télécommunications."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- cloud and third-party services
@@ -2033,11 +2301,13 @@ crgo:CRGO_0000310 a owl:NamedIndividual,
         "SaaS, IaaS, hébergement, services gérés."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- OT, IoT and connected devices
@@ -2049,11 +2319,13 @@ crgo:CRGO_0000311 a owl:NamedIndividual,
         "Appareils industriels, de bâtiment, médicaux et objets connectés."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- facilities
@@ -2065,11 +2337,13 @@ crgo:CRGO_0000312 a owl:NamedIndividual,
         "Salles des serveurs, centres de données, sites, archives."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "9" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- people and key personnel
@@ -2081,11 +2355,13 @@ crgo:CRGO_0000313 a owl:NamedIndividual,
         "Personnel dont l'absence ou l'erreur a des conséquences."@fr ;
     skos:inScheme crgo:CRGO_0000303 ;
     skos:notation "10" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- primary asset
@@ -2097,11 +2373,13 @@ crgo:CRGO_0000316 a owl:NamedIndividual,
         "Information ou processus qui a de la valeur en soi."@fr ;
     skos:inScheme crgo:CRGO_0000315 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- supporting asset
@@ -2113,11 +2391,13 @@ crgo:CRGO_0000317 a owl:NamedIndividual,
         "Actif sur lequel reposent les actifs principaux."@fr ;
     skos:inScheme crgo:CRGO_0000315 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has threat source description
@@ -2128,12 +2408,14 @@ crgo:CRGO_0000318 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000294 ;
     skos:definition "Relates a risk scenario to a description of the kind of threat source that would initiate it."@en,
         "Relie un scénario de risque à la description du type de source de menace qui le déclencherait."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'threat_source' (review H1)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has vulnerability description
@@ -2144,12 +2426,14 @@ crgo:CRGO_0000319 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000295 ;
     skos:definition "Relates a risk scenario to a description of a weakness or predisposing condition it relies on."@en,
         "Relie un scénario de risque à la description d'une faiblesse ou d'une condition prédisposante sur laquelle il repose."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'vulns' (review H1)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has control gap
@@ -2160,11 +2444,13 @@ crgo:CRGO_0000320 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000018 ;
     skos:definition "Relates a risk scenario to a control gap finding it is anchored on."@en,
         "Relie un scénario de risque au constat de lacune de contrôle sur lequel il repose."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review H2."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- missing control
@@ -2175,11 +2461,13 @@ crgo:CRGO_0000321 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000019 ;
     skos:definition "Relates a control gap finding to the control found absent or inadequate."@en,
         "Relie un constat de lacune de contrôle au contrôle jugé absent ou insuffisant."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review H2."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- affects asset category
@@ -2190,12 +2478,14 @@ crgo:CRGO_0000322 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000302 ;
     skos:definition "Relates a risk scenario, typically a library scenario, to a category of asset it would harm."@en,
         "Relie un scénario de risque, généralement de bibliothèque, à une catégorie d'actifs qu'il atteindrait."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Library scenarios belong to no organisation (review H1)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has asset tier
@@ -2206,12 +2496,14 @@ crgo:CRGO_0000323 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000314 ;
     skos:definition "States, in an asset valuation, whether the asset is primary or supporting."@en,
         "Indique, dans une évaluation d'actif, si l'actif est principal ou de soutien."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review M."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- part of framework
@@ -2221,11 +2513,13 @@ crgo:CRGO_0000324 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000296 ;
     skos:definition "Relates a framework requirement or legal obligation to the framework, standard or law that states it."@en,
         "Relie une exigence de référentiel ou une obligation légale au référentiel, à la norme ou à la loi qui l'énonce."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review M."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- has external reference
@@ -2235,11 +2529,13 @@ crgo:CRGO_0000325 a owl:ObjectProperty ;
     rdfs:range skos:Concept ;
     skos:definition "Relates a description or control to a concept in an external catalogue, such as an ATT&CK technique, a CWE weakness, a CAPEC pattern or a CVE record."@en,
         "Relie une description ou un contrôle à un concept d'un catalogue externe, comme une technique ATT&CK, une faiblesse CWE, un patron CAPEC ou un enregistrement CVE."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review M; catalogues referenced by identifier."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- background
@@ -2249,11 +2545,13 @@ crgo:CRGO_0000326 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000023 ;
     skos:definition "Gives the business background of a risk scenario."@en,
         "Indique le contexte d'affaires d'un scénario de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'background' (round-trip)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- treatment summary
@@ -2263,11 +2561,13 @@ crgo:CRGO_0000327 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000030 ;
     skos:definition "Summarises the treatment chosen for a risk scenario, as stated in the source."@en,
         "Résume le traitement retenu pour un scénario de risque, tel qu'énoncé dans la source."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'treatment' (round-trip)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 crgo:crgo-core a owl:Ontology ;
@@ -2294,11 +2594,13 @@ crgo:CRGO_0000008 a owl:Class ;
     skos:altLabel "salle des serveurs"@fr ;
     skos:definition "An asset that is a building, room or site housing other assets or activities, such as a server room, data centre, archive or clinic."@en,
         "Actif constitué d'un bâtiment, d'une salle ou d'un site qui abrite d'autres actifs ou activités, comme une salle des serveurs, un centre de données, des archives ou une clinique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Server rooms and archives are central in Cigale and 2012 scenarios."@en ;
     crgo:CRGO_0000286 "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- business objective
@@ -2308,11 +2610,13 @@ crgo:CRGO_0000010 a owl:Class ;
     rdfs:subClassOf cco:ont00000476 ;
     skos:definition "An objective the organisation pursues that business processes support and that cybersecurity risk can threaten."@en,
         "Objectif poursuivi par l'organisation, soutenu par des processus d'affaires et que le risque de cybersécurité peut compromettre."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG traceability starts from objectives."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- incident
@@ -2323,12 +2627,14 @@ crgo:CRGO_0000015 a owl:Class ;
     skos:altLabel "incident de confidentialité"@fr ;
     skos:definition "An actual occurrence of an adverse event affecting the organisation's assets or information, including a confidentiality incident under Loi 25."@en,
         "Occurrence réelle d'un événement défavorable touchant les actifs ou l'information de l'organisation, y compris un incident de confidentialité au sens de la Loi 25."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Needed for the Loi 25 incident register and history."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Loi 25 (L.Q. 2021, c. 25); CAI guidance on confidentiality incidents"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- legal obligation
@@ -2338,11 +2644,13 @@ crgo:CRGO_0000022 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A prescription of a duty imposed by a statute or regulation, identified by its legal citation, such as keeping a register of confidentiality incidents under Loi 25."@en,
         "Prescription d'une obligation imposée par une loi ou un règlement, identifiée par sa référence juridique, comme la tenue d'un registre des incidents de confidentialité en vertu de la Loi 25."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Loi 25 obligations are in the first SKOS schemes."@en ;
     crgo:CRGO_0000286 "Loi 25 (L.Q. 2021, c. 25); CAI guidance on confidentiality incidents"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk appetite statement
@@ -2353,11 +2661,13 @@ crgo:CRGO_0000029 a owl:Class ;
     skos:altLabel "risk appetite"@en ;
     skos:definition "A prescription, approved by management, of how much cybersecurity risk the organisation is willing to accept, expressed in CRG on a 0-1 scale."@en,
         "Prescription, approuvée par la direction, du niveau de risque de cybersécurité que l'organisation est prête à accepter, exprimée dans CRG sur une échelle de 0 à 1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG step 4 (0.1-0.9 bands)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- calculation method
@@ -2367,10 +2677,12 @@ crgo:CRGO_0000059 a owl:Class ;
     rdfs:subClassOf cco:ont00000653 ;
     skos:definition "An algorithm, identified with its version, that specifies how risk quantities are computed from estimates."@en,
         "Algorithme, identifié avec sa version, qui précise comment les quantités de risque sont calculées à partir des estimations."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat source description
@@ -2380,12 +2692,14 @@ crgo:CRGO_0000294 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a kind of threat source, such as a financially motivated cybercriminal, a negligent employee or a flood, with its type, used when the source is not an identified agent or process."@en,
         "Description d'un type de source de menace, comme un cybercriminel motivé par l'appât du gain, un employé négligent ou une inondation, avec son type, utilisée lorsque la source n'est pas un agent ou un processus identifié."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'threat_source' is text; library scenarios belong to no organisation (review H1)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- vulnerability description
@@ -2396,12 +2710,14 @@ crgo:CRGO_0000295 a owl:Class ;
     skos:altLabel "weakness description"@en ;
     skos:definition "A description of a kind of weakness or predisposing condition, including weaknesses of software, information and controls, that a threat event can exploit."@en,
         "Description d'un type de faiblesse ou de condition prédisposante, y compris les faiblesses des logiciels, de l'information et des contrôles, qu'un événement de menace peut exploiter."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'vulns' is text (review H1, H6); may reference CWE."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- framework
@@ -2413,11 +2729,13 @@ crgo:CRGO_0000296 a owl:Class ;
         "norme"@fr ;
     skos:definition "A published standard, framework, law or catalogue whose requirements are held as a concept scheme, identified with its version, such as NIST CSF 2.0 or ISO/IEC 27002:2022."@en,
         "Norme, référentiel, loi ou catalogue publié dont les exigences sont consignées dans un schéma de concepts, identifié avec sa version, comme NIST CSF 2.0 ou ISO/IEC 27002:2022."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Review M: framework itself was missing."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- hardware asset
@@ -2428,12 +2746,14 @@ crgo:CRGO_0000004 a owl:Class ;
         cco:ont00000995 ;
     skos:definition "An asset that is a material artifact used to process, store or transmit information, such as a server, workstation, network device or connected equipment."@en,
         "Actif constitué d'un artefact matériel servant à traiter, stocker ou transmettre de l'information, comme un serveur, un poste de travail, un équipement réseau ou un appareil connecté."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Direct fit to CCO Material Artifact."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat event description
@@ -2444,12 +2764,14 @@ crgo:CRGO_0000014 a owl:Class ;
     skos:altLabel "threat event type"@en ;
     skos:definition "A description of a kind of event that, if it occurred, could adversely affect assets, such as credential phishing, ransomware encryption or a server-room fire."@en,
         "Description d'un type d'événement qui, s'il se produisait, pourrait porter atteinte à des actifs, comme l'hameçonnage d'identifiants, le chiffrement par rançongiciel ou l'incendie d'une salle des serveurs."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Possible events are described, not instantiated (Phase 1 section 5.3); linked to ATT&CK by mapping."@en ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control gap finding
@@ -2461,12 +2783,14 @@ crgo:CRGO_0000018 a owl:Class ;
         "contrôle manquant"@fr ;
     skos:definition "A description stating that an expected control is absent or inadequate in an organisation, such as no penetration testing or no continuity plan."@en,
         "Description qui constate l'absence ou l'insuffisance d'un contrôle attendu dans une organisation, comme l'absence de tests d'intrusion ou de plan de continuité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Phase 1 gap 4; an absence cannot be a disposition, so modelled as a finding (review H2)."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control
@@ -2479,12 +2803,14 @@ crgo:CRGO_0000019 a owl:Class ;
         "contrôle"@fr ;
     skos:definition "A prescription of a measure that modifies risk, such as a policy, procedure, technical safeguard or practice, independent of whether any organisation has implemented it."@en,
         "Prescription d'une mesure qui modifie le risque, comme une politique, une procédure, une protection technique ou une pratique, indépendamment de sa mise en œuvre par une organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification level; framework requirements map to it."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- consequence description
@@ -2495,12 +2821,14 @@ crgo:CRGO_0000027 a owl:Class ;
     skos:altLabel "impact"@en ;
     skos:definition "A description of an outcome that a risk scenario could have for the organisation along one impact dimension."@en,
         "Description d'un résultat qu'un scénario de risque pourrait avoir pour l'organisation selon une dimension d'impact."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'consequences' keyed by dimension."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk acceptance
@@ -2510,12 +2838,14 @@ crgo:CRGO_0000031 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000030 ;
     skos:definition "A risk treatment decision to retain a residual risk, recording the accepting authority and an expiry date."@en,
         "Décision de traitement du risque visant à conserver un risque résiduel, qui consigne l'autorité qui l'accepte et une date d'expiration."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "MED-GOV-02 shows why authority and expiry matter."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset tier scheme
@@ -2525,11 +2855,13 @@ crgo:CRGO_0000315 a owl:NamedIndividual,
         "schéma : rang d'actif"@fr ;
     skos:definition "Concept scheme of the asset tier value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « rang d'actif »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- business process
@@ -2539,12 +2871,14 @@ crgo:CRGO_0000009 a owl:Class ;
     rdfs:subClassOf obo:BFO_0000015 ;
     skos:definition "A process, consisting of recurring organisational activities, that delivers part of the organisation's mission and depends on assets."@en,
         "Processus, constitué d'activités organisationnelles récurrentes, qui réalise une partie de la mission de l'organisation et qui dépend d'actifs."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG asset map (Objective, Process, Primary asset); Cigale field 'Processus d'affaires visés'."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- evidence register entry
@@ -2554,12 +2888,14 @@ crgo:CRGO_0000036 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a piece of evidence used in an assessment, with its locator and its basis (documented, external, expert input, inference or AI estimate)."@en,
         "Description d'une preuve utilisée dans une appréciation, avec sa référence et son fondement (documenté, externe, avis d'expert, inférence ou estimation par IA)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG EVIDENCE register E1..."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control status scheme
@@ -2569,11 +2905,13 @@ crgo:CRGO_0000097 a owl:NamedIndividual,
         "schéma : statut de contrôle"@fr ;
     skos:definition "Concept scheme of the control status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « statut de contrôle »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- initiative priority scheme
@@ -2583,10 +2921,12 @@ crgo:CRGO_0000129 a owl:NamedIndividual,
         "schéma : priorité d'initiative"@fr ;
     skos:definition "Concept scheme of the initiative priority value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « priorité d'initiative »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset tier
@@ -2596,12 +2936,14 @@ crgo:CRGO_0000314 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "Whether an asset is primary or supporting for a given process."@en,
         "Indique si un actif est principal ou de soutien pour un processus donné."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- scenario step
@@ -2611,12 +2953,14 @@ crgo:CRGO_0000026 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of one stage in the event sequence of a risk scenario, with its order and evidence basis."@en,
         "Description d'une étape de la séquence d'événements d'un scénario de risque, avec son rang et le fondement de preuve."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG 'sequence'; MediBec section 4."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- cost allocation
@@ -2626,12 +2970,14 @@ crgo:CRGO_0000033 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of the share of a treatment initiative's initial and recurring cost charged to one risk scenario."@en,
         "Description de la part des coûts initiaux et récurrents d'une initiative de traitement imputée à un scénario de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG alloc_initial / alloc_recurring; shared controls not double-counted."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
         "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- budget calibration
@@ -2641,12 +2987,14 @@ crgo:CRGO_0000035 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description that relates the organisation's cybersecurity budget, as a share of its total IT budget, to its risk appetite using the CRG 4 / 7.8 / 12 percent band."@en,
         "Description qui relie le budget de cybersécurité de l'organisation, en proportion de son budget TI total, à son appétit pour le risque selon la bande CRG de 4 / 7,8 / 12 pour cent."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG step 18 and budget.json."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- requirement level scheme
@@ -2656,11 +3004,13 @@ crgo:CRGO_0000085 a owl:NamedIndividual,
         "schéma : niveau d'exigence"@fr ;
     skos:definition "Concept scheme of the requirement level value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « niveau d'exigence »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat source type scheme
@@ -2670,10 +3020,12 @@ crgo:CRGO_0000091 a owl:NamedIndividual,
         "schéma : type de source de menace"@fr ;
     skos:definition "Concept scheme of the threat source type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de source de menace »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control status
@@ -2683,12 +3035,14 @@ crgo:CRGO_0000096 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The implementation state of a control measure in an organisation."@en,
         "État de mise en œuvre d'une mesure de contrôle dans une organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- initiative priority
@@ -2698,11 +3052,13 @@ crgo:CRGO_0000128 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The urgency class of a treatment initiative in CRG."@en,
         "Classe d'urgence d'une initiative de traitement dans CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- treatment option scheme
@@ -2712,11 +3068,13 @@ crgo:CRGO_0000142 a owl:NamedIndividual,
         "schéma : option de traitement"@fr ;
     skos:definition "Concept scheme of the treatment option value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « option de traitement »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control measure
@@ -2729,13 +3087,15 @@ crgo:CRGO_0000020 a owl:Class ;
         "mesure de mitigation"@fr ;
     skos:definition "A description of a control as it stands in a given organisation, with its status (in place, planned or proposed), scope, owner and the evidence of its effectiveness."@en,
         "Description d'un contrôle tel qu'il se présente dans une organisation donnée, avec son statut (en place, prévu ou proposé), sa portée, son responsable et les preuves de son efficacité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Description rather than disposition so planned and proposed measures can be represented (Phase 1 gap 1)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk assessment
@@ -2745,12 +3105,14 @@ crgo:CRGO_0000028 a owl:Class ;
     rdfs:subClassOf cco:ont00000228 ;
     skos:definition "A planned act in which an organisation identifies, analyses and evaluates its cybersecurity risk scenarios over a stated period, using a stated method and risk appetite."@en,
         "Acte planifié par lequel une organisation identifie, analyse et évalue ses scénarios de risque de cybersécurité pour une période donnée, selon une méthode et un appétit pour le risque énoncés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "One CRG assessment file = one RiskAssessment."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- threat source type
@@ -2760,11 +3122,13 @@ crgo:CRGO_0000090 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A category of threat source following NIST SP 800-30."@en,
         "Catégorie de source de menace selon NIST SP 800-30."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- evidence basis scheme
@@ -2774,11 +3138,13 @@ crgo:CRGO_0000117 a owl:NamedIndividual,
         "schéma : fondement de la preuve"@fr ;
     skos:definition "Concept scheme of the evidence basis value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « fondement de la preuve »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- treatment option
@@ -2788,12 +3154,14 @@ crgo:CRGO_0000141 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "One of the generic ways to treat a risk."@en,
         "L'une des façons génériques de traiter un risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk treatment decision
@@ -2803,12 +3171,14 @@ crgo:CRGO_0000030 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A decision prescribing how a risk scenario is treated (modify, retain, avoid or share), by whom and with what authority."@en,
         "Décision qui prescrit le traitement d'un scénario de risque (modifier, conserver, éviter ou partager), par qui et avec quelle autorité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "ISO 31000:2018 (risk treatment options; paraphrased)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- evidence basis
@@ -2818,12 +3188,14 @@ crgo:CRGO_0000116 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of support behind an assertion, following the CRG evidence register."@en,
         "Nature de l'appui d'une affirmation, selon le registre de preuves CRG."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control function scheme
@@ -2833,10 +3205,12 @@ crgo:CRGO_0000134 a owl:NamedIndividual,
         "schéma : fonction de contrôle"@fr ;
     skos:definition "Concept scheme of the control function value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « fonction de contrôle »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- key risk indicator
@@ -2848,12 +3222,14 @@ crgo:CRGO_0000034 a owl:Class ;
         "ICR"@fr ;
     skos:definition "A description of a metric used to monitor one or more risk scenarios, with its measurement method, data source, owner, frequency, target and warning and critical thresholds."@en,
         "Description d'une mesure servant à surveiller un ou plusieurs scénarios de risque, avec sa méthode de mesure, sa source de données, son responsable, sa fréquence, sa cible et ses seuils d'alerte et critique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG KRIS (step 19). Distinct from KRIQuantity (computed risk scores)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- requirement level
@@ -2863,12 +3239,14 @@ crgo:CRGO_0000084 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A level of confidentiality, integrity or availability requirement placed on an asset."@en,
         "Niveau d'exigence de confidentialité, d'intégrité ou de disponibilité attribué à un actif."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- control function
@@ -2878,11 +3256,13 @@ crgo:CRGO_0000133 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The function a control or initiative serves in the treatment portfolio."@en,
         "Fonction qu'un contrôle ou une initiative remplit dans le portefeuille de traitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset valuation
@@ -2894,12 +3274,14 @@ crgo:CRGO_0000011 a owl:Class ;
         "joyau de la couronne"@fr ;
     skos:definition "A description of how much an entity matters to a given organisation, recording its criticality, its confidentiality, integrity and availability requirements, its owner and whether it is a crown jewel."@en,
         "Description de l'importance d'une entité pour une organisation donnée, qui consigne sa criticité, ses exigences de confidentialité, d'intégrité et de disponibilité, son propriétaire et son statut de joyau de la couronne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Carries the context-dependent part of 'asset' so Asset can stay rigid (decision Q3); maps CRG CROWN."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- treatment initiative
@@ -2910,12 +3292,14 @@ crgo:CRGO_0000032 a owl:Class ;
     skos:altLabel "investment initiative"@en ;
     skos:definition "A plan to implement one or more control measures that addresses one or more risk scenarios, with owner, priority, costs and schedule."@en,
         "Plan de mise en œuvre d'une ou de plusieurs mesures de contrôle visant un ou plusieurs scénarios de risque, avec responsable, priorité, coûts et calendrier."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRG INITIATIVES."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- impact dimension scheme
@@ -2925,11 +3309,13 @@ crgo:CRGO_0000073 a owl:NamedIndividual,
         "schéma : dimension d'impact"@fr ;
     skos:definition "Concept scheme of the impact dimension value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « dimension d'impact »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset category scheme
@@ -2939,11 +3325,13 @@ crgo:CRGO_0000303 a owl:NamedIndividual,
         "schéma : catégorie d'actif"@fr ;
     skos:definition "Concept scheme of the asset category value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « catégorie d'actif »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- impact dimension
@@ -2953,12 +3341,14 @@ crgo:CRGO_0000072 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A dimension along which a consequence affects the organisation."@en,
         "Dimension selon laquelle une conséquence touche l'organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset category
@@ -2968,12 +3358,14 @@ crgo:CRGO_0000302 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A kind of asset named in a scenario that belongs to no particular organisation."@en,
         "Type d'actif nommé dans un scénario qui n'appartient à aucune organisation en particulier."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, scenario-selection-instructions.md, steps 9-12 and required output A-E (commit f0cd36e)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- asset
@@ -2983,12 +3375,14 @@ crgo:CRGO_0000001 a owl:Class ;
     rdfs:subClassOf obo:BFO_0000001 ;
     skos:definition "An information, software, hardware, network, service or facility entity of a kind used to process, store, transmit or protect information or to deliver services; whether and how much a given organisation values it is recorded in an asset valuation."@en,
         "Entité informationnelle, logicielle, matérielle, réseau, de service ou d'installation d'un type utilisé pour traiter, stocker, transmettre ou protéger de l'information ou pour fournir des services; la valeur qu'une organisation donnée lui accorde est consignée dans une évaluation d'actif."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Kept rigid by decision Q3: defined by kind; relational value moved to AssetValuation (review H4)."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- risk scenario
@@ -2999,12 +3393,14 @@ crgo:CRGO_0000023 a owl:Class ;
     skos:altLabel "scénario"@fr ;
     skos:definition "A description of a plausible causal chain in which a threat source initiates a threat event that exploits a vulnerability or condition, affects assets or processes and leads to consequences."@en,
         "Description d'une chaîne causale plausible dans laquelle une source de menace déclenche un événement de menace qui exploite une vulnérabilité ou une condition, touche des actifs ou des processus et entraîne des conséquences."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Reified n-ary node (Phase 1 section 5.3); CRG construction standard."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 

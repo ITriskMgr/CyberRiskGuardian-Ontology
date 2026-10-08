@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: draft 0.1.0, Phase 2 — every term is `proposed`; nothing is approved yet.**
+**Status: 0.1.0 — all terms approved by the project owner on 2026-10-08 (decisions in `src/approvals.tsv`). Phases 3–5 to come.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -34,7 +34,7 @@ The w3id.org redirects are not registered yet; until they are, use the local
 
 ```
 ontology/        generated OWL modules (Turtle) and the import catalog
-src/             specification (spec_core.py, spec_props.py), generator (build.py), ids.tsv
+src/             specification (spec_core.py, spec_props.py), generator (build.py), ids.tsv, approvals.tsv
 imports/         BFO-2020 core, CCO 2.2 slice and seed list, CCO licence
 tests/           make_fixtures.py and generated fixtures (one positive, three negative)
 scripts/         check.sh, check_metadata.py, check_modules.py
@@ -78,11 +78,11 @@ range of *is crown jewel*.
 | Phase | Content | State |
 |---|---|---|
 | 1 | Discovery: sources, scenarios, CRG model, competency questions | done |
-| 2 | Core OWL 2 modules with governance annotations | draft for review |
+| 2 | Core OWL 2 modules with governance annotations | approved 2026-10-08 |
 | 3 | ABox from the consolidated scenario library; SKOS framework mappings; CRG JSON-LD bridge | not started |
 | 4 | Validation: SHACL shapes, OOPS!, competency questions as SPARQL tests | not started |
 | 5 | Documentation (WIDOCO), release, extension plan | not started |
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.1.0 (draft).
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.1.0.
