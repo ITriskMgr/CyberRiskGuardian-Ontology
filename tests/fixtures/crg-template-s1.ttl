@@ -1,0 +1,226 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix ex: <https://w3id.org/crgo/data/crg-template/> .
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:ActorRole a crgo:CRGO_0000012 ;
+    ns1:BFO_0000197 ex:Actor ;
+    crgo:CRGO_0000194 crgo:CRGO_0000092 .
+
+ex:Alloc1 a crgo:CRGO_0000033 ;
+    crgo:CRGO_0000225 ex:I01 ;
+    crgo:CRGO_0000226 ex:S1 .
+
+ex:CE1 a crgo:CRGO_0000300 ;
+    crgo:CRGO_0000231 ex:MFA ;
+    crgo:CRGO_0000247 0.6 .
+
+ex:KRI01 a crgo:CRGO_0000034 ;
+    crgo:CRGO_0000227 ex:S1 ;
+    crgo:CRGO_0000277 "100%" .
+
+ex:S1-CVSS a crgo:CRGO_0000049 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000257 "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:H/SI:L/SA:L" ;
+    crgo:CRGO_0000258 "4.0" .
+
+ex:S1-Criticality a crgo:CRGO_0000046 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.85 .
+
+ex:S1-EstimatedRisk a crgo:CRGO_0000051 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000237 ex:S1-ThreatPresence ;
+    crgo:CRGO_0000238 ex:Calc1 .
+
+ex:S1-ExpectedDamage a crgo:CRGO_0000043 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.55 .
+
+ex:S1-ExploitationProbability a crgo:CRGO_0000042 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.55 .
+
+ex:S1-ImpactReduction a crgo:CRGO_0000048 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.75 .
+
+ex:S1-MaximumDamage a crgo:CRGO_0000044 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.85 .
+
+ex:S1-ProbabilityReduction a crgo:CRGO_0000047 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.80 .
+
+ex:S1-ResidualRisk a crgo:CRGO_0000054 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000237 ex:S1-ThreatPresence ;
+    crgo:CRGO_0000238 ex:Calc1 .
+
+ex:S1-Resilience a crgo:CRGO_0000045 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.40 .
+
+ex:S1-RiskToToleranceRatio a crgo:CRGO_0000055 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000237 ex:S1-ThreatPresence ;
+    crgo:CRGO_0000238 ex:Calc1 ;
+    crgo:CRGO_0000240 crgo:CRGO_0000109 .
+
+ex:S1-ToleratedRisk a crgo:CRGO_0000052 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000237 ex:S1-ThreatPresence ;
+    crgo:CRGO_0000238 ex:Calc1 .
+
+ex:Val1 a crgo:CRGO_0000011 ;
+    crgo:CRGO_0000183 ex:IdP ;
+    crgo:CRGO_0000184 ex:Org ;
+    crgo:CRGO_0000186 crgo:CRGO_0000089 ;
+    crgo:CRGO_0000255 true .
+
+<https://w3id.org/crgo/tests/fixture> a owl:Ontology ;
+    owl:imports crgo:crgo .
+
+ex:Appetite a crgo:CRGO_0000029 ;
+    crgo:CRGO_0000247 0.30 .
+
+ex:Cons1 a crgo:CRGO_0000027 ;
+    crgo:CRGO_0000201 crgo:CRGO_0000074 .
+
+ex:CoreRecords a crgo:CRGO_0000002 ;
+    crgo:CRGO_0000191 ex:IdP .
+
+ex:Ctl1 a crgo:CRGO_0000019 .
+
+ex:Dec1 a crgo:CRGO_0000031 ;
+    crgo:CRGO_0000220 crgo:CRGO_0000144 ;
+    crgo:CRGO_0000273 "2027-10-08T00:00:00"^^xsd:dateTime .
+
+ex:Gap1 a crgo:CRGO_0000018 ;
+    crgo:CRGO_0000321 ex:Ctl1 .
+
+ex:I01 a crgo:CRGO_0000032 ;
+    crgo:CRGO_0000211 crgo:CRGO_0000136 ;
+    crgo:CRGO_0000222 ex:S1 ;
+    crgo:CRGO_0000224 crgo:CRGO_0000130 ;
+    crgo:CRGO_0000264 180000.0 ;
+    crgo:CRGO_0000265 60000.0 .
+
+ex:L1 a crgo:CRGO_0000024 ;
+    crgo:CRGO_0000250 "LIB-0001" ;
+    crgo:CRGO_0000318 ex:TSD1 ;
+    crgo:CRGO_0000319 ex:VD1 ;
+    crgo:CRGO_0000320 ex:Gap1 ;
+    crgo:CRGO_0000322 crgo:CRGO_0000312 .
+
+ex:Phish a crgo:CRGO_0000014 .
+
+ex:PushMFA a crgo:CRGO_0000016 ;
+    crgo:CRGO_0000293 ex:IdP .
+
+ex:Step1 a crgo:CRGO_0000026 ;
+    crgo:CRGO_0000203 ex:Step2 ;
+    crgo:CRGO_0000254 1 .
+
+ex:Svc a crgo:CRGO_0000007 ;
+    crgo:CRGO_0000192 ex:Org .
+
+ex:TSD1 a crgo:CRGO_0000294 ;
+    crgo:CRGO_0000194 crgo:CRGO_0000093 .
+
+ex:VD1 a crgo:CRGO_0000295 ;
+    crgo:CRGO_0000293 ex:IdP .
+
+ex:Actor a <https://www.commoncoreontologies.org/ont00001017> .
+
+ex:MFA a crgo:CRGO_0000020 ;
+    crgo:CRGO_0000209 ex:IdP ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 ;
+    crgo:CRGO_0000213 ex:E2 .
+
+ex:Step2 a crgo:CRGO_0000026 ;
+    crgo:CRGO_0000254 2 .
+
+ex:Org a <https://www.commoncoreontologies.org/ont00001180> .
+
+ex:Calc1 a crgo:CRGO_0000058 ;
+    crgo:CRGO_0000239 crgo:CRGO_0000178 .
+
+ex:S1-ThreatPresence a crgo:CRGO_0000041 ;
+    crgo:CRGO_0000213 ex:E2 ;
+    crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000232 ex:Assess ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000235 crgo:CRGO_0000103 ;
+    crgo:CRGO_0000247 0.85 .
+
+ex:IdP a crgo:CRGO_0000003 ;
+    crgo:CRGO_0000191 ex:Svc .
+
+ex:Assess a crgo:CRGO_0000028 ;
+    crgo:CRGO_0000215 ex:S1 ;
+    crgo:CRGO_0000216 ex:Org ;
+    crgo:CRGO_0000217 ex:Appetite ;
+    crgo:CRGO_0000218 crgo:CRGO_0000178 ;
+    crgo:CRGO_0000261 1000.0 ;
+    crgo:CRGO_0000262 "next 12 months" .
+
+ex:E2 a crgo:CRGO_0000036 ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "E2" ;
+    crgo:CRGO_0000251 "Incident exercise or incident records" .
+
+ex:S1 a crgo:CRGO_0000025 ;
+    crgo:CRGO_0000195 ex:Actor ;
+    crgo:CRGO_0000196 ex:Phish ;
+    crgo:CRGO_0000197 ex:PushMFA ;
+    crgo:CRGO_0000198 ex:CoreRecords,
+        ex:IdP ;
+    crgo:CRGO_0000200 ex:Cons1 ;
+    crgo:CRGO_0000202 ex:Step1,
+        ex:Step2 ;
+    crgo:CRGO_0000204 ex:L1 ;
+    crgo:CRGO_0000207 ex:MFA ;
+    crgo:CRGO_0000219 ex:Dec1 ;
+    crgo:CRGO_0000244 crgo:CRGO_0000112 ;
+    crgo:CRGO_0000250 "S1" ;
+    crgo:CRGO_0000252 "A financially motivated external actor phishes administrators..."@en .
+

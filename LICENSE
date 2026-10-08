@@ -1,0 +1,14 @@
+CyberRiskGuardian Ontology (CRGO)
+Copyright (c) 2026 Marc-André Léger
+
+The CyberRiskGuardian Ontology — the files in ontology/, src/, docs/ and tests/ —
+is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0), the same licence as CyberRiskGuardian.
+
+You may share and adapt the material for non-commercial purposes, provided you
+give appropriate credit, link to the licence and indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by-nc/4.0/
+
+Third-party files in imports/ keep their own licences; see NOTICE.md.

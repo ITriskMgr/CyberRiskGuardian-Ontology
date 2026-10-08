@@ -1,0 +1,10 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix ex: <https://w3id.org/crgo/data/crg-template/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:Z a crgo:CRGO_0000004,
+        crgo:CRGO_0000012 .
+
+<https://w3id.org/crgo/tests/fixture> a owl:Ontology ;
+    owl:imports crgo:crgo .
+
