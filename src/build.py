@@ -15,7 +15,8 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
+FIRST_RELEASE = {"0.1.0": 328}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -99,7 +100,8 @@ def gov(g, s, sources, conf, rationale):
     for k in sources:
         g.add((s, ann["evidenceSource"], Literal(S[k], lang="en")))
     g.add((s, ann["proposedBy"], CLAUDE))
-    g.add((s, ann["introducedIn"], Literal(VERSION)))
+    num = int(str(s).rsplit("_", 1)[1])
+    g.add((s, ann["introducedIn"], Literal(next((v for v, mx in sorted(FIRST_RELEASE.items()) if num <= mx), VERSION))))
 
 def labels(g, s, en, fr, den, dfr, alts=()):
     g.add((s, RDFS.label, Literal(en, lang="en")))
@@ -216,7 +218,7 @@ for key, module, en, fr, den, dfr, dom, rng, srcs, conf, rat, functional in DATA
 os.makedirs(os.path.join(ROOT, "ontology"), exist_ok=True)
 DESC = ("Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, "
         "aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. "
-        "All elements are proposed (version %s) until approved by the domain expert." % VERSION)
+        "Each element carries its own governance status; new elements stay proposed until the domain expert approves them.")
 for m, (name, ten, tfr, imps) in MODULES.items():
     g = graphs[m]; bind(g)
     o = URIRef(BASE + name)

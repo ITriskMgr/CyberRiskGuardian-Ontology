@@ -42,5 +42,23 @@ echo "6. Governance metadata and labels"
 python3 scripts/check_metadata.py || fail=1
 python3 scripts/check_modules.py || fail=1
 
+echo "7. SKOS vocabularies"
+python3 scripts/check_vocab.py || fail=1
+
+echo "8. CRG bridge (MediBec regression: 84,491 estimated, 41,104 residual)"
+if [ -n "${CRG_CALC:-}" ]; then
+  python3 pipeline/crg/crg2rdf.py tests/crg/medibec30.json --crg-calc "$CRG_CALC" --base https://w3id.org/crgo/data/medibec/ \
+    --out tests/crg/medibec30.ttl --jsonld tests/crg/medibec30.jsonld > /dev/null || fail=1
+fi
+python3 tests/crg/check_roundtrip.py | sed 's/^/   /' || fail=1
+if $ROBOT reason --catalog tests/crg/catalog-v001.xml --input tests/crg/medibec30.ttl --reasoner HermiT --output build/medibec-inferred.ttl > build/medibec-reason.log 2>&1; then
+  echo "   medibec30: consistent"; else echo "   medibec30: INCONSISTENT (see build/medibec-reason.log)"; fail=1; fi
+
+if [ "${WITH_LIBRARY:-0}" = 1 ]; then
+  echo "9. Scenario library instance data (slow)"
+  if $ROBOT reason --catalog data/abox/catalog-v001.xml --input data/abox/crgo-library.ttl --reasoner HermiT --output build/library-inferred.ttl > build/library-reason.log 2>&1; then
+    echo "   crgo-library: consistent"; else echo "   crgo-library: INCONSISTENT (see build/library-reason.log)"; fail=1; fi
+fi
+
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit $fail

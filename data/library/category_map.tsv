@@ -1,0 +1,226 @@
+source_category	rows	theme
+3D Printing Risks	10	ThemeMedicalIoT
+AI-Driven Threats	5	ThemeEmerging
+API Security Risks	5	ThemeAppSec
+Access Control Risks	10	ThemeAccess
+Acts of nature	6	ThemePhysical
+Advanced Persistent Threats	10	ThemeAPT
+Air-Gapped System Risks	5	ThemeNetwork
+Analytics and Big Data Risks	5	ThemeCloud
+Analytics and Reporting Risks	5	ThemeCloud
+Application Security Risks	5	ThemeAppSec
+Architecture	4	ThemeITGov
+Artificial Intelligence Risks	5	ThemeEmerging
+Artificial Intelligence and Machine Learning Risks	5	ThemeEmerging
+Asset Management Risks	5	ThemeVulnMgmt
+Audio-Visual Risks	5	ThemeEndpoint
+Audit Risks	5	ThemeCompliance
+Augmented Reality Risks	5	ThemeEmerging
+Augmented and Virtual Reality Risks	5	ThemeEmerging
+Behavioral and Profiling Risks	5	ThemeDataBreach
+Big Data and Analytics Risks	5	ThemeCloud
+Biometric Authentication Risks	10	ThemeAccess
+Blockchain Risks	5	ThemeEmerging
+Budget and Resource Allocation Risks	5	ThemeITGov
+Business Continuity Risks	10	ThemeContinuity
+Business ownership of IT	4	ThemeITGov
+Cloud Computing Risks	10	ThemeCloud
+Cloud Infrastructure Risks	5	ThemeCloud
+Cloud Security Risks	10	ThemeCloud
+Code and Software Development Risks	5	ThemeAppSec
+Cognitive Computing Risks	5	ThemeEmerging
+Collaboration Software Risks	5	ThemeAppSec
+Compliance Risks	5	ThemeCompliance
+Compliance and Legal Risks	5	ThemeCompliance
+Configuration Management Risks	10	ThemeVulnMgmt
+Configuration and Policy Failures	5	ThemeVulnMgmt
+Containerization Risks	5	ThemeCloud
+Content Management System Risks	5	ThemeAppSec
+Cryptographic Risks	5	ThemeCrypto
+Cryptography Risks	5	ThemeCrypto
+Cultural and Language Risks	5	ThemeInsider
+Data Center Risks	5	ThemeCloud
+Data Integrity Attacks	5	ThemeIntegrity
+Data Integrity Risks	5	ThemeIntegrity
+Data Lake Risks	5	ThemeCloud
+Data Lakes and Warehouse Risks	5	ThemeCloud
+Data Loss Prevention Risks	5	ThemeDataBreach
+Data Masking and Anonymization Risks	5	ThemeCrypto
+Data Security Risks	5	ThemeDataBreach
+Data Transfer Risks	5	ThemeNetwork
+Data Transmission Risks	5	ThemeNetwork
+Database Risks	5	ThemeAppSec
+Decentralized Network Risks	5	ThemeEmerging
+Decentralized Systems Risks	5	ThemeEmerging
+Decentralized Technologies Risks	5	ThemeEmerging
+Denial of Service Attacks	7	ThemeDoS
+Digital Forensics Risks	10	ThemeContinuity
+Digital Signature Risks	5	ThemeCrypto
+Digital Transformation Risks	5	ThemeITGov
+Disaster Recovery Risks	5	ThemeContinuity
+Distributed Ledger Risks	5	ThemeEmerging
+Distributed Systems Risks	5	ThemeCloud
+Document Management System Risks	5	ThemeAppSec
+Domain Management Risks	5	ThemeNetwork
+Email System Risks	5	ThemeAppSec
+Email and Communication Risks	5	ThemeAppSec
+Encryption Risks	5	ThemeCrypto
+Encryption and Data-at-Rest Risks	5	ThemeCrypto
+End of Life/Obsolete Hardware Risks	5	ThemeVulnMgmt
+Endpoint Risks	5	ThemeEndpoint
+Endpoint Security Risks	5	ThemeEndpoint
+Energy Management Risks	5	ThemeMedicalIoT
+Energy and Power Risks	5	ThemeMedicalIoT
+Environmental	1	ThemePhysical
+Ephemeral and Session-Based Risks	5	ThemeAccess
+Exfiltration Techniques	5	ThemeDataBreach
+External Vendor Risks	5	ThemeThirdParty
+Federated Identity Risks	5	ThemeAccess
+File Storage Risks	5	ThemeCloud
+Financial Systems Risks	5	ThemeAppSec
+Firewall and IDS/IPS Risks	5	ThemeNetwork
+Fraud and Identity Theft	5	ThemeSocialEng
+Future-Proofing Risks	5	ThemeEmerging
+Geographical Risks	5	ThemePhysical
+Geolocation Risks	10	ThemeEndpoint
+Geopolitical	3	ThemeCompliance
+Geopolitical Risks	5	ThemeCompliance
+Haptic Technology Risks	5	ThemeMedicalIoT
+Healthcare-specific IoT Risks	5	ThemeMedicalIoT
+Helpdesk Risks	5	ThemeInsider
+Human Errors	5	ThemeInsider
+Human Factors Risks	5	ThemeInsider
+Human Resources Risks	15	ThemeInsider
+Hybrid Attacks	5	ThemeAPT
+Hyper-Converged Infrastructure Risks	5	ThemeCloud
+IT expertise and skills	9	ThemeInsider
+IT investment decision making	4	ThemeITGov
+IaaS/PaaS Risks	5	ThemeCloud
+Identity Management Risks	5	ThemeAccess
+Incident Response Flaws	5	ThemeContinuity
+Incident Response Risks	15	ThemeContinuity
+Industrial action	4	ThemeInsider
+Information data breach	11	ThemeDataBreach
+Infrastructure	6	ThemeITGov
+Infrastructure theft or destruction	4	ThemePhysical
+Innovation	3	ThemeITGov
+Insecure Interfaces and APIs	5	ThemeAppSec
+Insider Risks	5	ThemeInsider
+Insider Threats	12	ThemeInsider
+Integration Risks	5	ThemeAppSec
+Intellectual Property Risks	5	ThemeCompliance
+Internal Communication Systems	5	ThemeNetwork
+Internal Threats	5	ThemeInsider
+Internet of Things Risks	5	ThemeMedicalIoT
+IoT Device Risks	5	ThemeMedicalIoT
+IoT Security Risks	5	ThemeMedicalIoT
+Legacy System Risks	10	ThemeVulnMgmt
+Legacy Systems	5	ThemeVulnMgmt
+Legacy Systems Risks	4	ThemeVulnMgmt
+Legal Risks	5	ThemeCompliance
+Legal and Compliance Risks	10	ThemeCompliance
+Legal and Regulatory Compliance Risks	2	ThemeCompliance
+Load Balancer Risks	4	ThemeDoS
+Local Network Risks	5	ThemeNetwork
+Log and Monitoring Risks	5	ThemeIntegrity
+Logical attacks	6	ThemeRansomware
+Machine Learning Risks	5	ThemeEmerging
+Machine Learning and AI Risks	5	ThemeEmerging
+Malware	4	ThemeRansomware
+Malware Variants and Evolution	5	ThemeRansomware
+Malware and Ransomware	2	ThemeRansomware
+Medical Device Risks	5	ThemeMedicalIoT
+Medical Device Security	5	ThemeMedicalIoT
+Medical Equipment Risks	5	ThemeMedicalIoT
+Medical Record Risks	4	ThemeDataBreach
+Microgrid Risks	5	ThemeMedicalIoT
+Microservices Architecture Risks	10	ThemeCloud
+Miscellaneous	5	ThemeOther
+Miscellaneous Risks	20	ThemeOther
+Misconfiguration and Poorly Managed Controls	2	ThemeVulnMgmt
+Mobile Application Risks	5	ThemeAppSec
+Mobile Device Risks	10	ThemeEndpoint
+Mobile Risks	5	ThemeEndpoint
+Multi-Vector Attacks	5	ThemeAPT
+Multimedia Risks	5	ThemeEndpoint
+Nanotechnology Risks	5	ThemeEmerging
+Network Architecture Risks	5	ThemeNetwork
+Network Security Risks	10	ThemeNetwork
+Network Slicing Risks	5	ThemeEmerging
+Next-Generation Technologies	5	ThemeEmerging
+Non-Relational Database Risks	5	ThemeAppSec
+OS-level Risks	5	ThemeVulnMgmt
+Open Source Risks	5	ThemeThirdParty
+Open Source Software Risks	5	ThemeThirdParty
+Operational Risks	7	ThemeITGov
+Operational Technology Risks	5	ThemeMedicalIoT
+Organizational Process Risks	5	ThemeITGov
+Outsourcing Risks	5	ThemeThirdParty
+Outsourcing and Third-Party Risks	5	ThemeThirdParty
+Patch Management Risks	5	ThemeVulnMgmt
+Patient Interaction Risks	5	ThemeReputation
+Payment System Risks	5	ThemeAppSec
+Phishing and Social Engineering	2	ThemeSocialEng
+Physical Security Risks	25	ThemePhysical
+Policy and Compliance Risks	5	ThemeCompliance
+Portfolio establishment and maintenance	4	ThemeITGov
+Print and Scan Risks	5	ThemeEndpoint
+Printer and Scanner Risks	5	ThemeEndpoint
+Process Automation Risks	5	ThemeAppSec
+Program / projects life cycle management	6	ThemeITGov
+Psychological and Social Engineering Risks	5	ThemeSocialEng
+Public Relations and Reputation Risks	5	ThemeReputation
+Quantum Computing Risks	10	ThemeEmerging
+Redundancy Risks	5	ThemeDoS
+Regulatory compliance	3	ThemeCompliance
+Research and Development Risks	10	ThemeITGov
+Risk Management Risks	5	ThemeCompliance
+Risk from Emerging Technologies	5	ThemeEmerging
+Robotics Risks	5	ThemeMedicalIoT
+SaaS Risks	5	ThemeCloud
+Search Engine Risks	5	ThemeAppSec
+Secure Coding Risks	5	ThemeAppSec
+Secure Communication Risks	5	ThemeNetwork
+Serverless Computing Risks	5	ThemeCloud
+Shadow IT Risks	5	ThemeVulnMgmt
+Social Engineering Attacks	5	ThemeSocialEng
+Social Engineering Risks	5	ThemeSocialEng
+Social Media Risks	15	ThemeReputation
+Social Media and External Communication Risks	5	ThemeReputation
+Software	12	ThemeAppSec
+Software Architecture Risks	5	ThemeAppSec
+Software Development Risks	5	ThemeAppSec
+Software Vulnerabilities	5	ThemeVulnMgmt
+Staff Training and Awareness Risks	5	ThemeInsider
+Staff operations	8	ThemeInsider
+Storage Risks	5	ThemeCloud
+Supplier selection performance, contractual compliance, termination of service and transfer	7	ThemeThirdParty
+Supply Chain Risks	12	ThemeThirdParty
+System and Device Vulnerabilities	3	ThemeVulnMgmt
+System and Hardware Vulnerabilities	5	ThemeVulnMgmt
+Telecommunications Risks	5	ThemeNetwork
+Telemedicine Risks	5	ThemeNetwork
+Third-Party Application Risks	5	ThemeThirdParty
+Third-Party and Supply Chain Risks	5	ThemeThirdParty
+Threats to Mobile Applications	5	ThemeAppSec
+Time Synchronization Risks	5	ThemeDoS
+Time-Based Risks	5	ThemeDoS
+Training and Awareness Risks	5	ThemeInsider
+Unauthorized Access and Data Breach	3	ThemeAccess
+Unauthorized Access and Data Breaches	9	ThemeAccess
+Undetermined	850	(per row, inferred from name)
+VPN Risks	9	ThemeNetwork
+VPN and Remote Access Risks	5	ThemeNetwork
+Vendor Management Risks	5	ThemeThirdParty
+Virtual Private Cloud Risks	5	ThemeCloud
+Virtualization Risks	9	ThemeCloud
+Virtualization and Container Risks	5	ThemeCloud
+Voice and Data Convergence Risks	5	ThemeNetwork
+Voice-Activated Systems Risks	5	ThemeEmerging
+Watering Hole Attacks	4	ThemeSocialEng
+Wearable Device Risks	4	ThemeMedicalIoT
+Web Services Risks	4	ThemeAppSec
+WebRTC Risks	3	ThemeAppSec
+Wireless Network Risks	10	ThemeNetwork
+Zero Trust Architecture Flaws	5	ThemeAccess
+Zero Trust Architecture Risks	10	ThemeAccess

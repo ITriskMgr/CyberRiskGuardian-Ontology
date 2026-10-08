@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="../../imports/bfo-core.ttl"/>
+  <uri name="https://w3id.org/crgo/imports/cco-slice" uri="../../imports/cco-slice.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-gov" uri="../../ontology/crgo-gov.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-core" uri="../../ontology/crgo-core.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-measure" uri="../../ontology/crgo-measure.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-crg" uri="../../ontology/crgo-crg.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo" uri="../../ontology/crgo.ttl"/>
+</catalog>

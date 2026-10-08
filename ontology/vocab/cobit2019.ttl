@@ -1,0 +1,519 @@
+@prefix cobit2019: <https://w3id.org/crgo/vocab/cobit2019/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cobit2019:APO01 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO01" ;
+    skos:prefLabel "Managed I&T Management Framework"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO02 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO02" ;
+    skos:prefLabel "Managed Strategy"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO03 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO03" ;
+    skos:prefLabel "Managed Enterprise Architecture"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO04 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO04" ;
+    skos:prefLabel "Managed Innovation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO05 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO05" ;
+    skos:prefLabel "Managed Portfolio"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO06 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO06" ;
+    skos:prefLabel "Managed Budget and Costs"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO07 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO07" ;
+    skos:prefLabel "Managed Human Resources"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO08 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO08" ;
+    skos:prefLabel "Managed Relationships"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO09 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO09" ;
+    skos:prefLabel "Managed Service Agreements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO10 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO10" ;
+    skos:prefLabel "Managed Vendors"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://www.isaca.org/resources/news-and-trends/industry-news/2020/cobit-2019-and-cobit-5-comparison"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO11 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO11" ;
+    skos:prefLabel "Managed Quality"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO12 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO12" ;
+    skos:prefLabel "Managed Risk"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO13 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO13" ;
+    skos:prefLabel "Managed Security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO14 a skos:Concept ;
+    skos:broader cobit2019:APO ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO14" ;
+    skos:prefLabel "Managed Data"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://www.isaca.org/resources/news-and-trends/industry-news/2020/cobit-2019-and-cobit-5-comparison ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI01 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI01" ;
+    skos:prefLabel "Managed Programs"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI02 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI02" ;
+    skos:prefLabel "Managed Requirements Definition"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI03 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI03" ;
+    skos:prefLabel "Managed Solutions Identification and Build"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI04 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI04" ;
+    skos:prefLabel "Managed Availability and Capacity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI05 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI05" ;
+    skos:prefLabel "Managed Organizational Change"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI06 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI06" ;
+    skos:prefLabel "Managed IT Changes"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI07 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI07" ;
+    skos:prefLabel "Managed IT Change Acceptance and Transitioning"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI08 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI08" ;
+    skos:prefLabel "Managed Knowledge"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI09 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI09" ;
+    skos:prefLabel "Managed Assets"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI10 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI10" ;
+    skos:prefLabel "Managed Configuration"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI11 a skos:Concept ;
+    skos:broader cobit2019:BAI ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI11" ;
+    skos:prefLabel "Managed Projects"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://open-exam-prep.com/study-guides/cobit-2019/bai-dss-mea/bai-objectives ; https://www.isaca.org/resources/news-and-trends/industry-news/2020/cobit-2019-and-cobit-5-comparison ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS01 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS01" ;
+    skos:prefLabel "Managed Operations"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS02 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS02" ;
+    skos:prefLabel "Managed Service Requests and Incidents"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS03 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS03" ;
+    skos:prefLabel "Managed Problems"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS04 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS04" ;
+    skos:prefLabel "Managed Continuity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS05 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS05" ;
+    skos:prefLabel "Managed Security Services"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS06 a skos:Concept ;
+    skos:broader cobit2019:DSS ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS06" ;
+    skos:prefLabel "Managed Business Process Controls"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM01 a skos:Concept ;
+    skos:broader cobit2019:EDM ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM01" ;
+    skos:prefLabel "Ensured Governance Framework Setting and Maintenance"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM02 a skos:Concept ;
+    skos:broader cobit2019:EDM ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM02" ;
+    skos:prefLabel "Ensured Benefits Delivery"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM03 a skos:Concept ;
+    skos:broader cobit2019:EDM ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM03" ;
+    skos:prefLabel "Ensured Risk Optimization"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM04 a skos:Concept ;
+    skos:broader cobit2019:EDM ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM04" ;
+    skos:prefLabel "Ensured Resource Optimization"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM05 a skos:Concept ;
+    skos:broader cobit2019:EDM ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM05" ;
+    skos:prefLabel "Ensured Stakeholder Engagement"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://pdfs.semanticscholar.org/9f56/9be8158d2dfe19d2a9e300eeb13cf8d8ed91.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:MEA01 a skos:Concept ;
+    skos:broader cobit2019:MEA ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "MEA01" ;
+    skos:prefLabel "Managed Performance and Conformance Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:MEA02 a skos:Concept ;
+    skos:broader cobit2019:MEA ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "MEA02" ;
+    skos:prefLabel "Managed System of Internal Control"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:MEA03 a skos:Concept ;
+    skos:broader cobit2019:MEA ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "MEA03" ;
+    skos:prefLabel "Managed Compliance With External Requirements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:MEA04 a skos:Concept ;
+    skos:broader cobit2019:MEA ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "MEA04" ;
+    skos:prefLabel "Managed Assurance"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.slideshare.net/slideshow/cobitlaminate_online_rd3-introduction-overview/270445793 ; https://sfia-online.org/en/tools-and-resources/sfia-views/cobit-2019-governance-objectives-and-sfia ; https://sfia-online.org/de/Assets/documents/cobit-2019-sfia-mapping.pdf ; https://www.isaca.org/resources/news-and-trends/industry-news/2020/cobit-2019-and-cobit-5-comparison ; https://www.isaca.org/resources/news-and-trends/industry-news/2019/employing-cobit-2019-for-enterprise-governance-strategy"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:MEA a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "MEA" ;
+    skos:prefLabel "Monitor, Evaluate and Assess"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cobit2019> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA COBIT 2019"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:EDM a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "EDM" ;
+    skos:prefLabel "Evaluate, Direct and Monitor"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cobit2019> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA COBIT 2019"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:DSS a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "DSS" ;
+    skos:prefLabel "Deliver, Service and Support"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cobit2019> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA COBIT 2019"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:BAI a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "BAI" ;
+    skos:prefLabel "Build, Acquire and Implement"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cobit2019> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA COBIT 2019"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+cobit2019:APO a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cobit2019> ;
+    skos:notation "APO" ;
+    skos:prefLabel "Align, Plan and Organize"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cobit2019> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA COBIT 2019"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+<https://w3id.org/crgo/vocab/cobit2019> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISACA" ;
+    dcterms:rights "Objective identifiers and names of COBIT 2019, (c) ISACA, cited for reference and mapping only."@en ;
+    dcterms:source "ISACA COBIT 2019 Framework: Introduction and Methodology; see data/frameworks/cobit2019.tsv" ;
+    dcterms:title "COBIT 2019 governance and management objectives"@en,
+        "Objectifs de gouvernance et de gestion COBIT 2019"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.2.0/cobit2019> ;
+    owl:versionInfo "2019" ;
+    skos:hasTopConcept cobit2019:APO,
+        cobit2019:BAI,
+        cobit2019:DSS,
+        cobit2019:EDM,
+        cobit2019:MEA ;
+    skos:scopeNote "ISACA announced that COBIT 7 replaces COBIT 2019 from 27 October 2026; re-check the objectives when it is published."@en .
+

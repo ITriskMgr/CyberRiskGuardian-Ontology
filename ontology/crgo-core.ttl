@@ -1095,14 +1095,12 @@ crgo:CRGO_0000194 a owl:ObjectProperty ;
     rdfs:label "has threat source type"@en,
         "a pour type de source de menace"@fr ;
     rdfs:range crgo:CRGO_0000090 ;
-    skos:definition "Classifies a threat source role or environmental hazard by NIST SP 800-30 category."@en,
-        "Classe un rôle de source de menace ou un aléa environnemental selon la catégorie de NIST SP 800-30."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    skos:definition "Classifies a threat source role or a threat source description by NIST SP 800-30 category."@en,
+        "Classe un rôle de source de menace ou une description de source de menace selon la catégorie de NIST SP 800-30."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
 # --- initiated by
@@ -2570,10 +2568,56 @@ crgo:CRGO_0000327 a owl:DatatypeProperty ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
+# --- applicable sector
+crgo:CRGO_0000329 a owl:DatatypeProperty ;
+    rdfs:label "applicable sector"@en,
+        "secteur visé"@fr ;
+    rdfs:domain crgo:CRGO_0000023 ;
+    rdfs:range xsd:string ;
+    skos:definition "Gives the economic sector a library scenario was written for, such as healthcare, without naming an organisation."@en,
+        "Indique le secteur d'activité pour lequel un scénario de bibliothèque a été rédigé, par exemple la santé, sans nommer d'organisation."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "Replaces the organisation name in the 2023 library (decision Q-E)."@en ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en,
+        "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+# --- suggested mitigation
+crgo:CRGO_0000330 a owl:DatatypeProperty ;
+    rdfs:label "suggested mitigation"@en,
+        "mesure d'atténuation suggérée"@fr ;
+    rdfs:domain crgo:CRGO_0000023 ;
+    skos:definition "Gives, as text, a mitigation measure proposed for a risk scenario by its source, before any treatment decision."@en,
+        "Indique, sous forme de texte, une mesure d'atténuation proposée pour un scénario de risque par sa source, avant toute décision de traitement."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000285 "Free text from the 2023 generator; not a Control or ControlMeasure until reviewed."@en ;
+    crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+# --- exercise or simulation evidence
+crgo:CRGO_0000334 a owl:NamedIndividual,
+        crgo:CRGO_0000116 ;
+    rdfs:label "exercise or simulation evidence"@en,
+        "preuve d'exercice ou de simulation"@fr ;
+    skos:definition "Comes from a tabletop exercise, simulation or sample data; indicative only and to be validated, never a confirmed incident."@en,
+        "Provient d'un exercice sur table, d'une simulation ou de données d'exemple; indicative seulement et à valider, jamais un incident confirmé."@fr ;
+    skos:inScheme crgo:CRGO_0000117 ;
+    skos:notation "6" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
+        "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
 crgo:crgo-core a owl:Ontology ;
     dcterms:created "2026-10-08" ;
     dcterms:creator "Marc-André Léger" ;
-    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. All elements are proposed (version 0.1.0) until approved by the domain expert."@en ;
+    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
     dcterms:title "CyberRiskGuardian Ontology - core module"@en,
         "Ontologie CyberRiskGuardian - module central"@fr ;
@@ -2582,8 +2626,8 @@ crgo:crgo-core a owl:Ontology ;
     owl:imports obo:bfo.owl,
         crgo:crgo-gov,
         <https://w3id.org/crgo/imports/cco-slice> ;
-    owl:versionIRI <https://w3id.org/crgo/0.1.0/crgo-core> ;
-    owl:versionInfo "0.1.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.2.0/crgo-core> ;
+    owl:versionInfo "0.2.0" .
 
 # --- facility asset
 crgo:CRGO_0000008 a owl:Class ;
@@ -3131,22 +3175,6 @@ crgo:CRGO_0000090 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- evidence basis scheme
-crgo:CRGO_0000117 a owl:NamedIndividual,
-        skos:ConceptScheme ;
-    rdfs:label "evidence basis scheme"@en,
-        "schéma : fondement de la preuve"@fr ;
-    skos:definition "Concept scheme of the evidence basis value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « fondement de la preuve »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
-        "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
-
 # --- treatment option
 crgo:CRGO_0000141 a owl:Class ;
     rdfs:label "treatment option"@en,
@@ -3181,16 +3209,15 @@ crgo:CRGO_0000030 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- evidence basis
-crgo:CRGO_0000116 a owl:Class ;
-    rdfs:label "evidence basis"@en,
-        "fondement de la preuve"@fr ;
-    rdfs:subClassOf skos:Concept ;
-    skos:definition "The kind of support behind an assertion, following the CRG evidence register."@en,
-        "Nature de l'appui d'une affirmation, selon le registre de preuves CRG."@fr ;
+# --- evidence basis scheme
+crgo:CRGO_0000117 a owl:NamedIndividual,
+        skos:ConceptScheme ;
+    rdfs:label "evidence basis scheme"@en,
+        "schéma : fondement de la preuve"@fr ;
+    skos:definition "Concept scheme of the evidence basis value set."@en,
+        "Schéma de concepts de l'ensemble de valeurs « fondement de la preuve »."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
@@ -3244,6 +3271,23 @@ crgo:CRGO_0000084 a owl:Class ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)"@en,
         "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" .
+
+# --- evidence basis
+crgo:CRGO_0000116 a owl:Class ;
+    rdfs:label "evidence basis"@en,
+        "fondement de la preuve"@fr ;
+    rdfs:subClassOf skos:Concept ;
+    skos:definition "The kind of support behind an assertion, following the CRG evidence register."@en,
+        "Nature de l'appui d'une affirmation, selon le registre de preuves CRG."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "Value set; members listed below."@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
+        "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;

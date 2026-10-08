@@ -1,5 +1,6 @@
 # Review decisions by the project owner. Columns: key, decision (Approve/Reject/Revise), approver, date, comment.
 # 2026-10-08: all terms of version 0.1.0 approved after review of CRGO-0.1.0-term-review.xlsx.
+# 2026-10-08 (0.2.0 draft): hasThreatSourceType definition reworded (removed class EnvironmentalHazard); back to proposed for re-approval.
 Asset	Approve	MAL	2026-10-08	
 InformationAsset	Approve	MAL	2026-10-08	
 SoftwareAsset	Approve	MAL	2026-10-08	
@@ -192,7 +193,6 @@ supportsObjective	Approve	MAL	2026-10-08
 dependsOn	Approve	MAL	2026-10-08	
 providedBy	Approve	MAL	2026-10-08	
 locatedIn	Approve	MAL	2026-10-08	
-hasThreatSourceType	Approve	MAL	2026-10-08	
 initiatedBy	Approve	MAL	2026-10-08	
 hasThreatEvent	Approve	MAL	2026-10-08	
 exploits	Approve	MAL	2026-10-08	

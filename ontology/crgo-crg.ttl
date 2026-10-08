@@ -1168,15 +1168,15 @@ crgo:CRGO_0000328 a owl:DatatypeProperty,
 crgo:crgo-crg a owl:Ontology ;
     dcterms:created "2026-10-08" ;
     dcterms:creator "Marc-André Léger" ;
-    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. All elements are proposed (version 0.1.0) until approved by the domain expert."@en ;
+    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
     dcterms:title "CyberRiskGuardian Ontology - CyberRiskGuardian method module"@en,
         "Ontologie CyberRiskGuardian - module de la méthode CyberRiskGuardian"@fr ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-measure ;
-    owl:versionIRI <https://w3id.org/crgo/0.1.0/crgo-crg> ;
-    owl:versionInfo "0.1.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.2.0/crgo-crg> ;
+    owl:versionInfo "0.2.0" .
 
 # --- screening score
 crgo:CRGO_0000039 a owl:Class ;

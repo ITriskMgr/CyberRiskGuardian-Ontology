@@ -1,0 +1,365 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix theme: <https://w3id.org/crgo/vocab/theme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+theme:ThemeAPT a skos:Concept ;
+    skos:definition "Scenarios conducted by persistent, well-resourced or state-linked adversaries, or combining several attack vectors."@en,
+        "Scénarios menés par des adversaires persistants, bien dotés ou liés à des États, ou combinant plusieurs vecteurs d'attaque."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeAPT" ;
+    skos:prefLabel "advanced and multi-vector attacks"@en,
+        "attaques avancées et multivectorielles"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeAccess a skos:Concept ;
+    skos:definition "Scenarios about authentication, authorisation, privileged access and identity management failures leading to unauthorised access."@en,
+        "Scénarios touchant l'authentification, l'autorisation, les accès privilégiés et la gestion des identités, menant à des accès non autorisés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeAccess" ;
+    skos:prefLabel "identity and access"@en,
+        "identité et accès"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeAppSec a skos:Concept ;
+    skos:definition "Scenarios about insecure applications, APIs, web services and software development practices, including injection flaws and insecure code."@en,
+        "Scénarios touchant les applications, API et services web non sécurisés et les pratiques de développement, dont les injections et le code non sécurisé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeAppSec" ;
+    skos:prefLabel "applications and software development"@en,
+        "applications et développement logiciel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeCloud a skos:Concept ;
+    skos:definition "Scenarios in cloud services, SaaS, IaaS/PaaS, virtualisation, containers, serverless computing, data lakes and big-data platforms."@en,
+        "Scénarios dans les services infonuagiques, SaaS, IaaS/PaaS, la virtualisation, les conteneurs, l'informatique sans serveur, les lacs de données et le big data."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeCloud" ;
+    skos:prefLabel "cloud, virtualisation and data platforms"@en,
+        "infonuagique, virtualisation et plateformes de données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeCompliance a skos:Concept ;
+    skos:definition "Scenarios about regulatory non-compliance, legal liability, audit findings, policy gaps and intellectual property."@en,
+        "Scénarios touchant la non-conformité réglementaire, la responsabilité juridique, les constats d'audit, les lacunes de politiques et la propriété intellectuelle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeCompliance" ;
+    skos:prefLabel "governance, compliance and legal"@en,
+        "gouvernance, conformité et aspects juridiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeContinuity a skos:Concept ;
+    skos:definition "Scenarios about inadequate backup, disaster recovery, business continuity, incident response or forensic capability."@en,
+        "Scénarios touchant des sauvegardes, une reprise après sinistre, une continuité des activités, une réponse aux incidents ou une capacité d'enquête numérique insuffisantes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeContinuity" ;
+    skos:prefLabel "continuity and incident response"@en,
+        "continuité et réponse aux incidents"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeCrypto a skos:Concept ;
+    skos:definition "Scenarios about weak, broken or mismanaged encryption, certificates, digital signatures and keys."@en,
+        "Scénarios touchant un chiffrement faible, compromis ou mal géré, les certificats, les signatures numériques et les clés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeCrypto" ;
+    skos:prefLabel "cryptography and key management"@en,
+        "cryptographie et gestion des clés"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeDataBreach a skos:Concept ;
+    skos:definition "Scenarios in which confidential or personal information is disclosed, leaked or exfiltrated."@en,
+        "Scénarios où de l'information confidentielle ou personnelle est divulguée, fuit ou est exfiltrée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeDataBreach" ;
+    skos:prefLabel "data breach and exfiltration"@en,
+        "fuite et exfiltration de données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeDoS a skos:Concept ;
+    skos:definition "Scenarios that make systems or services unavailable through denial-of-service attacks, capacity failures or outages."@en,
+        "Scénarios qui rendent des systèmes ou des services indisponibles par déni de service, défaillance de capacité ou panne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeDoS" ;
+    skos:prefLabel "denial of service and availability"@en,
+        "déni de service et disponibilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeEmerging a skos:Concept ;
+    skos:definition "Scenarios driven by new technologies such as AI and machine learning, blockchain, quantum computing, extended reality, nanotechnology or 5G network slicing."@en,
+        "Scénarios liés aux technologies nouvelles comme l'IA et l'apprentissage automatique, la chaîne de blocs, l'informatique quantique, la réalité étendue, la nanotechnologie ou le découpage réseau 5G."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeEmerging" ;
+    skos:prefLabel "emerging technologies"@en,
+        "technologies émergentes"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeEndpoint a skos:Concept ;
+    skos:definition "Scenarios on workstations, laptops, mobile devices and applications, removable media, printers and scanners."@en,
+        "Scénarios touchant les postes de travail, les portables, les appareils et applications mobiles, les supports amovibles, les imprimantes et les numériseurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeEndpoint" ;
+    skos:prefLabel "endpoints and mobile"@en,
+        "postes de travail et mobilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeITGov a skos:Concept ;
+    skos:definition "Scenarios about IT governance and management: portfolio, programme and project management, architecture, investment decisions, budgets, ownership of IT and innovation."@en,
+        "Scénarios touchant la gouvernance et la gestion des TI : portefeuille, programmes et projets, architecture, décisions d'investissement, budgets, appropriation des TI par l'entreprise et innovation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeITGov" ;
+    skos:prefLabel "IT management and investment"@en,
+        "gestion et investissement en TI"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeInsider a skos:Concept ;
+    skos:definition "Scenarios caused by staff, contractors or other insiders, whether malicious or accidental, including mistakes, negligence and lack of training."@en,
+        "Scénarios causés par le personnel, des contractuels ou d'autres initiés, malveillants ou non, y compris les erreurs, la négligence et le manque de formation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeInsider" ;
+    skos:prefLabel "insider threat and human error"@en,
+        "menace interne et erreur humaine"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeIntegrity a skos:Concept ;
+    skos:definition "Scenarios in which data or records are altered, corrupted or falsified."@en,
+        "Scénarios où des données ou des dossiers sont modifiés, corrompus ou falsifiés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeIntegrity" ;
+    skos:prefLabel "data integrity and manipulation"@en,
+        "intégrité et manipulation des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeMedicalIoT a skos:Concept ;
+    skos:definition "Scenarios about connected devices, operational technology, medical equipment, wearables and building systems."@en,
+        "Scénarios touchant les objets connectés, la technologie opérationnelle, l'équipement médical, les dispositifs portables et les systèmes du bâtiment."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeMedicalIoT" ;
+    skos:prefLabel "IoT, OT and medical devices"@en,
+        "IdO, TO et dispositifs médicaux"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeNetwork a skos:Concept ;
+    skos:definition "Scenarios in networks, wireless, VPN and remote access, firewalls and intrusion detection, telecommunications and network architecture."@en,
+        "Scénarios dans les réseaux, le sans-fil, le RPV et l'accès à distance, les pare-feu et la détection d'intrusion, les télécommunications et l'architecture réseau."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeNetwork" ;
+    skos:prefLabel "networks and remote access"@en,
+        "réseaux et accès à distance"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeOther a skos:Concept ;
+    skos:definition "Scenarios that do not fit another theme, or whose theme could not be determined."@en,
+        "Scénarios qui ne relèvent d'aucun autre thème ou dont le thème n'a pu être déterminé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeOther" ;
+    skos:prefLabel "other or unclassified"@en,
+        "autre ou non classé"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemePhysical a skos:Concept ;
+    skos:definition "Scenarios caused by physical intrusion, theft or destruction of equipment, natural events, fire, flood or loss of utilities."@en,
+        "Scénarios causés par une intrusion physique, le vol ou la destruction d'équipement, un événement naturel, un incendie, une inondation ou la perte de services publics."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemePhysical" ;
+    skos:prefLabel "physical and environmental"@en,
+        "physique et environnemental"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeRansomware a skos:Concept ;
+    skos:definition "Scenarios in which malicious software, including ransomware, worms and trojans, compromises systems or data."@en,
+        "Scénarios où un logiciel malveillant, dont les rançongiciels, vers et chevaux de Troie, compromet des systèmes ou des données."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeRansomware" ;
+    skos:prefLabel "malware and ransomware"@en,
+        "maliciels et rançongiciels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeReputation a skos:Concept ;
+    skos:definition "Scenarios about social media, public relations and external communications that damage reputation or trust."@en,
+        "Scénarios touchant les médias sociaux, les relations publiques et les communications externes qui nuisent à la réputation ou à la confiance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeReputation" ;
+    skos:prefLabel "reputation and external communication"@en,
+        "réputation et communications externes"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeSocialEng a skos:Concept ;
+    skos:definition "Scenarios that manipulate people into revealing information or performing actions, through phishing, pretexting or impersonation."@en,
+        "Scénarios qui manipulent des personnes pour obtenir de l'information ou une action, par hameçonnage, prétexte ou usurpation d'identité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeSocialEng" ;
+    skos:prefLabel "phishing and social engineering"@en,
+        "hameçonnage et ingénierie sociale"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeThirdParty a skos:Concept ;
+    skos:definition "Scenarios originating in suppliers, outsourcers, vendors, open-source components or other parts of the supply chain."@en,
+        "Scénarios qui proviennent de fournisseurs, d'impartiteurs, de composants libres ou d'autres maillons de la chaîne d'approvisionnement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeThirdParty" ;
+    skos:prefLabel "third-party and supply chain"@en,
+        "tiers et chaîne d'approvisionnement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+theme:ThemeVulnMgmt a skos:Concept ;
+    skos:definition "Scenarios caused by unpatched, end-of-life or misconfigured systems, and by weak vulnerability and change management."@en,
+        "Scénarios causés par des systèmes non corrigés, en fin de vie ou mal configurés, et par une gestion déficiente des vulnérabilités et des changements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/theme> ;
+    skos:notation "ThemeVulnMgmt" ;
+    skos:prefLabel "legacy, patch and configuration management"@en,
+        "désuétude, correctifs et gestion de configuration"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+<https://w3id.org/crgo/vocab/theme> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:publisher "CyberRiskGuardian Ontology" ;
+    dcterms:rights "CC BY-NC 4.0, Marc-André Léger."@en ;
+    dcterms:source "CRGO, pipeline/library/themes.py (decision Q-E)" ;
+    dcterms:title "CRGO scenario themes"@en,
+        "Thèmes de scénarios CRGO"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.2.0/theme> ;
+    owl:versionInfo "0.2.0" ;
+    skos:hasTopConcept theme:ThemeAPT,
+        theme:ThemeAccess,
+        theme:ThemeAppSec,
+        theme:ThemeCloud,
+        theme:ThemeCompliance,
+        theme:ThemeContinuity,
+        theme:ThemeCrypto,
+        theme:ThemeDataBreach,
+        theme:ThemeDoS,
+        theme:ThemeEmerging,
+        theme:ThemeEndpoint,
+        theme:ThemeITGov,
+        theme:ThemeInsider,
+        theme:ThemeIntegrity,
+        theme:ThemeMedicalIoT,
+        theme:ThemeNetwork,
+        theme:ThemeOther,
+        theme:ThemePhysical,
+        theme:ThemeRansomware,
+        theme:ThemeReputation,
+        theme:ThemeSocialEng,
+        theme:ThemeThirdParty,
+        theme:ThemeVulnMgmt ;
+    skos:scopeNote "Controlled list that replaces the 225 free-text categories of the 2023 scenario library; see data/library/category_map.tsv."@en .
+

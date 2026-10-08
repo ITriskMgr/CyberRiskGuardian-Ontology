@@ -100,13 +100,67 @@ An independent modelling review of the first draft found 6 High, 11 Medium and 1
 | Item | Deferred to | Note |
 |---|---|---|
 | M7 `ControlMeasure` vs `mitigatedBy` semantics | 0.2.0 | A record does not itself reduce likelihood; consider "recorded as mitigated by" |
-| M9 rest: CRG consequence-dimension keys, evidence-basis strings, `SOURCE`, `SENS_IDS`, totals, explicit central case, [0.05, 0.99] clamp | Phase 3 | Handled in the CRG JSON-LD bridge and mapping table |
-| ATT&CK technique link, CVE/CWE identifiers | Phase 3 | Arrive with the SKOS vocabularies |
+| M9 rest: CRG consequence-dimension keys, evidence-basis strings, `SOURCE`, `SENS_IDS`, totals, explicit central case, [0.05, 0.99] clamp | done in Phase 3 | See `docs/crg-mapping.md`; totals and allocations are not converted (derivable) |
+| ATT&CK technique link, CVE/CWE identifiers | ATT&CK done in Phase 3; CVE/CWE later | ATT&CK concepts are linked with `hasExternalReference`; no CVE/CWE vocabulary yet |
 | L6 `NormativeRequirement` parent for frameworks and laws | 0.2.0 | `LegalObligation` currently sits directly under prescriptive ICE |
-| L7 `LegacyKRIQuantity` | Phase 3 | Keep only if the 2023 notebook values are loaded |
+| L7 `LegacyKRIQuantity` | 0.2.0 review | Not used: Phase 3 keeps the 2023 notebook KRIs only as legacy columns in `data/library/rows.csv`, so the class can be deprecated |
 | L12 Defect notes inside `MethodNotebook2023` definition | Phase 5 | Move to `reviewNote` |
 | L13 Type for the drafting agent | 0.2.0 | Candidate: `prov:SoftwareAgent`, outside the DL core |
 | L15 Owners as positions | Phase 4 | SHACL or a role-based pattern |
 | L17 Incident → scenario link, threat-source characteristics (SP 800-30 D-3 to D-5), risk register | Phase 5 extension plan | |
 | DOLCE alignment module | Phase 5 | Optional (Q-A) |
 | w3id.org redirect registration | release | After approval |
+
+## 6. Phase 3 — instance data and vocabularies (0.2.0 draft)
+
+### 6.1 Scenario library (decision Q-E, option 3)
+`pipeline/library/repair.py` rebuilds the 2,158 rows of the 2023 generator; `REPAIR_REPORT.md` has the counts.
+
+- Values are re-read from the raw LLM answer. Where the answer states nothing, the field stays empty; the notebook's block-mean fill is kept only as a legacy column. Where the spreadsheet held a different round value, the answer's value is used and the row is flagged "conflict".
+- 13 rows with no answer are dropped; 2,145 remain.
+- Risk is recomputed with CRG v1.0c (appetite 0.30, factor 1,000) only when all eight parameters and a CVSS score are stated: 1,162 rows. The 2023 CVSS values are LLM estimates of v3.1 scores, recorded as such.
+- Duplicates are merged into 1,811 families (same theme, Jaccard ≥ 0.8 on name tokens). Family values are medians of the members, with minimum, maximum and count.
+- Each row gets one of 23 scenario themes, from the scenario name when it matches and otherwise from the source category (`category_map.tsv`). The 225 categories survive as `category_raw`.
+- Threat source types, asset categories and impact dimensions are keyword extractions: low confidence, for review.
+- "Montreal Regional Hospital" is replaced by "the organisation" in every text field; the sector is recorded as `applicableSector` "healthcare".
+- All library numbers carry confidence *low* and evidence basis *AI estimate requiring validation*.
+
+Two independent spot checks read the raw answers by hand:
+
+| Check | Sample | Numeric fields correct | Main findings, now fixed |
+|---|---|---|---|
+| 1 | 60 rows (seed 42) | 569 / 600 (94.8%) | values beyond a short window missed; "0 to 1" scale bounds and examples read as values |
+| 2 | 70 rows (seed 7), after fixes for check 1 | 680 / 700 (97.1%) | repeated cost mentions summed (doubled costs); "51% attack" read as a value |
+
+After the fixes for check 2, the 70 rows of that sample give 698 / 700 (one value from a secondary "final assessment" block, one garbled CVSS line). That figure is no longer independent, since the sample guided the fixes. Theme fit was 83–85% and threat-source plausibility 86–88% in the two checks; both are improved but not re-measured.
+
+### 6.2 Vocabularies
+One SKOS scheme per framework in `ontology/vocab/`, built by `pipeline/vocab/build_vocab.py` from machine-readable or verified sources (`data/frameworks/` keeps each row's sources). Concepts carry `skos:notation` (the official identifier), labels, broader links, a source and status *proposed*. Withdrawn NIST items are kept as deprecated concepts so that old mappings resolve.
+
+| Scheme | Source | Concepts |
+|---|---|---|
+| theme | CRGO | 23 |
+| csf2 | NIST OSCAL catalogue (usnistgov/oscal-content, pinned commit) | 225 |
+| sp800-53r5 | NIST OSCAL catalogue, Rev. 5.2.0 | 1,216 |
+| iso27002-2022 | ISO table of contents, cross-checked with four public mappings; English titles only (no official French list found) | 97 |
+| cobit2019 | ISACA COBIT 2019 introduction, SFIA mapping | 45 |
+| loi25 | LégisQuébec, section by section; en and fr | 30 |
+| ccm41 | AWS v4.1 guide and ISMS Core; domains only | 17 |
+| attack | MITRE attack-stix-data, Enterprise 19.2 | 712 |
+
+Scenario themes link through the existing `hasScenarioCategory`; framework concepts through `hasExternalReference` and `mapsToRequirement`.
+
+### 6.3 CRG bridge
+`pipeline/crg/crg2rdf.py` converts a CRG assessment file to CRGO and computes every risk number with CRG's own `crg_calc.py`. On the MediBec case it reproduces CRG's regression totals (84,491 estimated, 41,104 residual) and all 20 stored sensitivity cases; the result is consistent under HermiT. Field mapping and lossy fields: `docs/crg-mapping.md`.
+
+### 6.4 Ontology changes in 0.2.0 (proposed)
+- New: `applicableSector`, `suggestedMitigation` (core); `lowerBound`, `upperBound`, `sampleSize` (measure); evidence basis value *exercise or simulation evidence* (`EvExercise`), so that CRG's "Exercise evidence (validate)" is not mistaken for documented evidence.
+- Reworded: `hasThreatSourceType` no longer mentions the removed EnvironmentalHazard class; returned to *proposed* for re-approval.
+- Terms record the release that introduced them (`introducedIn` 0.1.0 or 0.2.0).
+
+## 7. Decisions needed (Phase 3 checkpoint)
+
+1. **CIS Controls v8.1.** A verified list (18 controls, 153 safeguards) is ready but not included: CIS licenses the Controls under CC BY-NC-ND 4.0, and an ontology that restructures them may count as an adaptation. Options: include as a separate, verbatim file under CC BY-NC-ND with CIS attribution, or leave out.
+2. **CSA CCM v4.1.** The CCM terms forbid redistribution, and the control list found publicly is secondary and partly untitled. Only the 17 domains are included. Option: load controls from your own licensed CCM bundle into a private, unpublished file.
+3. **ISO/IEC 27002:2022 titles.** Included per Q6 as identifiers and titles only. Confirm before publishing them in the public repository.
+4. **COBIT 7.** ISACA replaces COBIT 2019 with COBIT 7 on 27 October 2026. Keep COBIT 2019 now and add COBIT 7 when its objectives are published.
