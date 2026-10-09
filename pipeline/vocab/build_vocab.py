@@ -168,7 +168,7 @@ report.append(("iso27002-2022", s.save()))
 s = Scheme("cobit2019", "COBIT 2019 governance and management objectives", "Objectifs de gouvernance et de gestion COBIT 2019", "2019",
            "ISACA COBIT 2019 Framework: Introduction and Methodology; see data/frameworks/cobit2019.tsv", None,
            "Objective identifiers and names of COBIT 2019, (c) ISACA, cited for reference and mapping only.", "ISACA",
-           "ISACA announced that COBIT 7 replaces COBIT 2019 from 27 October 2026; re-check the objectives when it is published.")
+           "COBIT 2019 is the version used by CRGO (decision D4, 2026-10-09). ISACA announced COBIT 7 for 27 October 2026.")
 doms = {}
 for r in tsv("cobit2019.tsv"):
     dk = re.match(r"[A-Z]+", r["id"]).group(0)
@@ -195,7 +195,7 @@ s = Scheme("ccm41", "CSA Cloud Controls Matrix v4.1 domains", "Domaines de la Cl
            "see data/frameworks/ccm41_domains.tsv", None,
            "Domain identifiers and names of the CSA Cloud Controls Matrix, (c) Cloud Security Alliance, cited for reference. "
            "Control titles are not included: the CCM terms do not allow redistribution.", "Cloud Security Alliance",
-           "Domains only. Control-level concepts can be added from a licensed copy of the CCM machine-readable bundle.")
+           "Domains only. Controls are built privately from a licensed copy (pipeline/vocab/build_ccm_private.py) and are not published.")
 for r in tsv("ccm41_domains.tsv"):
     s.concept(r["id"], r["domain_name"], source=r["sources"], conf="M", note="CSA writes some names with '&' (for example 'Audit & Assurance').")
 report.append(("ccm41", s.save()))

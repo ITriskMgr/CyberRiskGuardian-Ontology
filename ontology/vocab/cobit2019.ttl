@@ -515,5 +515,5 @@ cobit2019:APO a skos:Concept ;
         cobit2019:DSS,
         cobit2019:EDM,
         cobit2019:MEA ;
-    skos:scopeNote "ISACA announced that COBIT 7 replaces COBIT 2019 from 27 October 2026; re-check the objectives when it is published."@en .
+    skos:scopeNote "COBIT 2019 is the version used by CRGO (decision D4, 2026-10-09). ISACA announced COBIT 7 for 27 October 2026."@en .
 

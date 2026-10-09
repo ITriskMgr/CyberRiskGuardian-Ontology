@@ -236,5 +236,5 @@ ccm41:UEM a skos:Concept ;
         ccm41:STA,
         ccm41:TVM,
         ccm41:UEM ;
-    skos:scopeNote "Domains only. Control-level concepts can be added from a licensed copy of the CCM machine-readable bundle."@en .
+    skos:scopeNote "Domains only. Controls are built privately from a licensed copy (pipeline/vocab/build_ccm_private.py) and are not published."@en .
 

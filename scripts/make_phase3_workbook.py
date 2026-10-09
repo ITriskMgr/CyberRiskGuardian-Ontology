@@ -58,11 +58,7 @@ L = [("CRGO 0.2.0 draft — Phase 3 review", Font(name=F, size=14, bold=True)), 
      ("Category map — how each source category maps to a theme (used when the scenario name gives no theme).", base),
      ("Vocabularies — the framework vocabularies built for mapping, with source and licence.", base),
      ("Library families — the %d repaired scenario families (from %d usable rows); comment on any you want changed." % (len(fam), len(rows)), base),
-     ("", base), ("Decisions needed from you (also listed in docs/decisions.md, section 7)", bold),
-     ("1. CIS Controls v8.1: licensed CC BY-NC-ND; redistributing it inside a CC BY-NC ontology may count as an adaptation. Include it (as a separate, verbatim, ND-licensed file), or leave it out?", base),
-     ("2. CSA CCM v4.1: its terms forbid redistribution, so only the 17 domains are included. Add control IDs and titles from your own licensed CCM bundle (kept private), or stay with domains only?", base),
-     ("3. ISO/IEC 27002:2022 titles: included per decision Q6 (IDs and titles, no control text). Confirm before they go to the public repository.", base),
-     ("4. COBIT: ISACA replaces COBIT 2019 with COBIT 7 on 27 October 2026. Keep COBIT 2019 now and add COBIT 7 when published?", base),
+     ("", base), ("Decisions taken on 2026-10-09: CIS left out; CCM controls private only; ISO titles published; COBIT 2019 kept (docs/decisions.md, section 7).", base),
      ("", base), ("Example of a filled-in row", bold), ("Themes · ThemeOther · Decision: Revise · Comment: split into 'governance gaps' and 'other'.", base)]
 for i, (t, f) in enumerate(L, 1):
     rm.cell(row=i, column=1, value=t).font = f

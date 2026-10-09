@@ -39,6 +39,7 @@ imports/         BFO-2020 core, CCO 2.2 slice and seed list, CCO licence
 tests/           fixtures (one positive, three negative); tests/crg: MediBec round trip
 scripts/         check.sh, check_metadata.py, check_modules.py, check_vocab.py, review workbooks
 ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, CCM domains, ATT&CK
+                 (CCM controls are built privately into ontology/vocab-private/, never committed)
 pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), CRG bridge (pipeline/crg), fetch_sources.sh
 data/library/    repaired 2023 scenario library: rows, families, category map, repair report
 data/abox/       library instance data (crgo-library.ttl)

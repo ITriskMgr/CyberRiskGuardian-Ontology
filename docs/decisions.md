@@ -158,9 +158,11 @@ Scenario themes link through the existing `hasScenarioCategory`; framework conce
 - Reworded: `hasThreatSourceType` no longer mentions the removed EnvironmentalHazard class; returned to *proposed* for re-approval.
 - Terms record the release that introduced them (`introducedIn` 0.1.0 or 0.2.0).
 
-## 7. Decisions needed (Phase 3 checkpoint)
+## 7. Decisions taken at the Phase 3 checkpoint (2026-10-09)
 
-1. **CIS Controls v8.1.** A verified list (18 controls, 153 safeguards) is ready but not included: CIS licenses the Controls under CC BY-NC-ND 4.0, and an ontology that restructures them may count as an adaptation. Options: include as a separate, verbatim file under CC BY-NC-ND with CIS attribution, or leave out.
-2. **CSA CCM v4.1.** The CCM terms forbid redistribution, and the control list found publicly is secondary and partly untitled. Only the 17 domains are included. Option: load controls from your own licensed CCM bundle into a private, unpublished file.
-3. **ISO/IEC 27002:2022 titles.** Included per Q6 as identifiers and titles only. Confirm before publishing them in the public repository.
-4. **COBIT 7.** ISACA replaces COBIT 2019 with COBIT 7 on 27 October 2026. Keep COBIT 2019 now and add COBIT 7 when its objectives are published.
+| # | Question | Decision | Effect |
+|---|---|---|---|
+| D1 | CIS Controls v8.1 (CC BY-NC-ND 4.0) | Leave out | No CIS vocabulary. The verified list is not kept in the repository. |
+| D2 | CSA CCM v4.1 controls (redistribution not allowed) | Load into a private file | `pipeline/vocab/build_ccm_private.py` reads the project owner's licensed CCM bundle from `data/private/` and writes `ontology/vocab-private/ccm41-controls.ttl`. Both folders are git-ignored. The public `ccm41.ttl` keeps the 17 domains. |
+| D3 | ISO/IEC 27002:2022 identifiers and titles in the public repository | Yes | `ontology/vocab/iso27002-2022.ttl` is published with the notice in `NOTICE.md`. |
+| D4 | COBIT 2019 or COBIT 7 | Stay with COBIT 2019 | `cobit2019.ttl` stays as is; the scope note about COBIT 7 is kept for information. |
