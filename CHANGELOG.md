@@ -2,6 +2,15 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.6.0] — draft, not yet approved
+
+### Added
+- Loi 25 pass 2: the 176 library families tagged with a privacy impact whose only Loi 25 link was P-39.1 s. 10 (added by rule) were judged against Loi 25 for the other obligations: 558 links (H 57, M 230, L 271), all *proposed*, in their own approval group (`links/loi25-pass2/<confidence>`). Up to four links per family, so that the four incident obligations (s. 3.5 first and second paragraphs, s. 3.7, s. 3.8) fit. Judgements and prompt: `data/library/loi25_pass2.jsonl`, `data/library/loi25_pass2_prompt.md`.
+- 497 R-22.1 equivalents of the new links on health-information families, by the 0.4.0 rule (proposed).
+
+### Notes
+- Nine of the 176 families were judged not to involve personal information (listed in the review workbook); they keep s. 10 from their privacy-impact tag, which may be wrong.
+
 ## [0.5.0] — 2026-10-10, approved
 
 Release preparation (Phase 5). No change to the classes, properties or logical axioms of 0.4.0.

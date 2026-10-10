@@ -19,6 +19,10 @@ Every link carries a confidence (high, medium, low), `proposedBy` Claude and sta
 3. `validate.py` rejects any identifier not in the reference lists, merges the batches into `data/library/links.csv`, and reports coverage.
 4. An independent reviewer re-judges a random sample.
 
+## Loi 25 pass 2 (0.6.0 draft)
+
+Families tagged with a privacy impact but without a judged Loi 25 obligation were judged again for Loi 25 only, with up to four links (`data/library/loi25_pass2_prompt.md`; results `data/library/loi25_pass2.jsonl`; merged by `validate.py` with basis "judged, Loi 25 pass 2026-10-10"). See `docs/decisions.md` §12.
+
 ## Rules given to the judge
 
 - ATT&CK: only for scenarios with an adversary technique. Prefer a sub-technique when the scenario is that specific; otherwise the parent technique. None for pure control gaps, governance, accidents or environmental events.

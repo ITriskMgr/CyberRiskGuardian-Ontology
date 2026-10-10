@@ -83,7 +83,7 @@ def main():
     o = URIRef("https://w3id.org/crgo/data/library")
     A = lambda *t: [g.add(x) for x in t]
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")),
-      (o, OWL.versionInfo, Literal("0.5.0")),
+      (o, OWL.versionInfo, Literal("0.6.0")),
       (o, RDFS.label, Literal("CRGO scenario library (from the 2023 generator, repaired)", lang="en")),
       (o, RDFS.label, Literal("Bibliothèque de scénarios CRGO (générateur 2023, réparée)", lang="fr")),
       (o, RDFS.comment, Literal("Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, "
@@ -143,8 +143,12 @@ def main():
                 A((s, C("suggestedMitigation"), Literal(m, lang="en")))
         for l in links_by.get(fid, []):
             target = URIRef(VOC + SCHEME_NS[l.scheme] + "/" + safe(l.id))
-            note = None if l.basis == "judged" else "Added by " + l.basis + "."
-            grp = "links/%s/%s" % (l.scheme, l.confidence)
+            if l.basis.startswith("judged, Loi 25 pass"):
+                # second Loi 25 pass: its own approval group, so the 0.3.0 group approvals do not cover it
+                note, grp = "Judged in the Loi 25 pass of 2026-10-10 (families with a privacy impact and no judged obligation).", "links/loi25-pass2/%s" % l.confidence
+            else:
+                note = None if l.basis == "judged" else "Added by " + l.basis + "."
+                grp = "links/%s/%s" % (l.scheme, l.confidence)
             if l.scheme == "attack":
                 annotated(g, ev, C("hasExternalReference"), target, l.confidence, note, grp)
             elif l.scheme == "loi25":

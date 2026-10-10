@@ -7,7 +7,7 @@ What comes after 0.5.0, in suggested order. Each item says why, what it would ch
 | Item | What is needed | Effort |
 |---|---|---|
 | Proposed links of 0.4.0 | Review the 2,292 rule-based R-22.1 links and the links of the three written scenarios (F1812–F1814). A group decision like the one for 0.3.0 is enough; a sample can be drawn first | Small |
-| Loi 25 for about 176 scenarios | Decided 2026-10-10: Claude judges them against Loi 25 with the 0.3.0 method and confidence grading; links stay proposed until a group review (next draft) | Small |
+| Loi 25 pass 2 (0.6.0 draft) | 558 proposed links on the 176 families with only s. 10, in groups `links/loi25-pass2/H`, `/M`, `/L`; workbook CRGO-0.6.0-loi25-pass2-review.xlsx | Small |
 | Low-confidence links (1,742) | Keep as suggestions (current), or review them in batches by scheme | Medium |
 
 ## 2. Identification quality (requirement R1)
@@ -37,6 +37,7 @@ Findings of the ACRB evaluation (`docs/identification-eval-acrb.md`), the first 
 | L15 | Deferred | Owners as positions (role-based pattern) rather than people, checked with SHACL |
 | L17 | Deferred | Incident → scenario link; threat-source characteristics of SP 800-30 (capability, intent, targeting, tables D-3 to D-5); a risk register as an information artifact listing assessed scenarios over time |
 | DOLCE alignment | Option of Q-A | A separate alignment module mapping the BFO-based core to DOLCE, for users of DOLCE-based ontologies. Optional; only if a user needs it |
+| Public-sector privacy act | Loi 25 pass 2 review | A vocabulary for the Québec public-sector access act (CQLR c. A-2.1, as amended by Law 25) and a rule giving its equivalents where the organisation is a public body (public hospitals, CISSS/CIUSSS) |
 | Other frameworks | Decisions D1–D4 | CIS Controls were left out (licence); CCM v4.1 controls stay private. Revisit if licences change. COBIT 2019 stays unless a newer edition is adopted |
 
 ## 5. Release and operations

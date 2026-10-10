@@ -382,8 +382,8 @@ theme:ThemeVulnMgmt a skos:Concept ;
     dcterms:source "CRGO, pipeline/library/themes.py (decision Q-E)" ;
     dcterms:title "CRGO scenario themes"@en,
         "Thèmes de scénarios CRGO"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.5.0/theme> ;
-    owl:versionInfo "0.5.0" ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.6.0/theme> ;
+    owl:versionInfo "0.6.0" ;
     skos:hasTopConcept theme:ThemeAPT,
         theme:ThemeAccess,
         theme:ThemeAppSec,

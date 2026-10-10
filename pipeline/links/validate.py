@@ -56,6 +56,21 @@ for f in sorted(glob.glob(os.path.join(W, "out_*.jsonl"))):
         th = x.get("theme") if x.get("theme") in themes else ""
         src = " ".join(s for s in x.get("src", []) if s in SRC)
         review.append((fam, th, src))
+# Loi 25 pass 2 (2026-10-10, decided by the project owner): families tagged with a privacy impact that had no judged
+# Loi 25 obligation were judged again for Loi 25 only (prompt: data/library/loi25_pass2_prompt.md; up to 4 links).
+PASS2 = "judged, Loi 25 pass 2026-10-10"
+judged_loi = {l[0] for l in links if l[1] == "loi25"}
+pass2_nopi = []
+for l in open(os.path.join(ROOT, "data", "library", "loi25_pass2.jsonl"), encoding="utf-8"):
+    x = json.loads(l)
+    if x["family"] in judged_loi:
+        dropped["pass 2 family already judged"] += 1; continue
+    if not x["pi"]:
+        pass2_nopi.append(x["family"])
+    for item in x["loi25"]:
+        if item["id"] not in valid["loi25"]:
+            dropped["invalid loi25 id (pass 2)"] += 1; continue
+        links.append((x["family"], "loi25", item["id"], item["c"], PASS2))
 # rule: every family that involves personal information also engages P-39.1 s. 10 (security measures proportionate to
 # sensitivity), the preventive duty; the judges could not choose it because it was added to the reference afterwards.
 import pandas as pd
@@ -87,3 +102,4 @@ for s in SCHEMES_ALL:
     n_f = len({l[0] for l in links if l[1] == s})
     print("  %-10s %5d links on %4d families  (H %d, M %d, L %d)" % (s, by[s], n_f, conf[(s, "H")], conf[(s, "M")], conf[(s, "L")]))
 print("dropped:", dict(dropped) or "none")
+print("Loi 25 pass 2: %d links; judged as not involving personal information: %s" % (sum(1 for l in links if l[4] == PASS2), " ".join(pass2_nopi)))

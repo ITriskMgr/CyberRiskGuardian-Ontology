@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.5.0
+# Design decisions — CRGO 0.6.0 draft
 
 This file records why the ontology looks the way it does.
 
@@ -251,3 +251,13 @@ Run blind with `holdout=["ACRB"]` on a case that played no part in tuning. Refer
 - **Next steps.** `docs/roadmap.md`.
 
 **Decisions of the project owner (2026-10-10).** 0.5.0 approved for publication under that number; 1.0.0 waits until the w3id.org identifiers resolve. L12 approved: the defect notes of "2023 scenario-generator notebook v2-1b" moved from its definition to its review note, and the term was re-approved. The about 176 scenarios that reach personal information without a privacy impact tag are to be judged against Loi 25 (next draft, links proposed until reviewed). The owner enables GitHub Pages, creates the tags and submits the w3id.org request, with step-by-step guidance.
+
+## 12. Loi 25 pass 2 (0.6.0 draft, 2026-10-10)
+
+Decided by the project owner at the Phase 5 checkpoint. Population: the 176 families tagged `DimPrivacy` with no judged Loi 25 obligation (only s. 10 by rule). An earlier description of them as "without the privacy impact tag" was wrong; the spot-check (`docs/links-spotcheck.md`) defines them as above.
+
+- **Method.** Same as 0.3.0 (Claude judges each family against the full list of Loi 25 obligations, with confidence H/M/L), Loi 25 only, s. 10 excluded (already present), penalty provisions and the s. 3.6 definition excluded as links.
+- **Three iterations, measured honestly.** Version 1 applied the notification trio by template and never cited s. 3.5 (1st para.), which 0.3.0 used in 22% of judged families; an independent review of 40 families found 42 omissions. Version 2 added the post-incident duty but, with three slots, dropped notification entirely. Version 3 allows four links, grades the incident obligations together and asks for notification where serious injury is plausible. A different reviewer graded 40 families not used in the first review: 133 links, 77 correct, 54 defensible, 2 wrong (both low confidence); high 24/1/0, medium 37/7/0; 5 omissions; 7 confidence grades questioned. Version 3 is kept.
+- **Exception to the three-link limit.** Pass 2 allows four Loi 25 links per family (the 0.3.0 limit was three); the 0.3.0 links are unchanged, so their families can lack s. 3.5 (1st para.) where the limit squeezed it out.
+- **Governance.** All 558 links are *proposed*, in their own group `links/loi25-pass2/<confidence>`, so the 0.3.0 approvals of `links/loi25/H` and `links/loi25/M` do not extend to them.
+- **Reviewer caveat.** Most library scenarios are set in a hospital; in Québec a public hospital falls under the public-sector access act (CQLR c. A-2.1), not P-39.1. The library uses P-39.1 because the generator's organisation is treated as a private health body (and R-22.1 for health information); a public-sector deployment needs A-2.1 (roadmap).
