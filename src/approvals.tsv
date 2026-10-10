@@ -372,3 +372,6 @@ links/iso27002/M	Approve	MAL	2026-10-10
 links/loi25/H	Approve	MAL	2026-10-10	
 links/loi25/M	Approve	MAL	2026-10-10	
 # 2026-10-10: Phase 5 review: 0.5.0 approved for publication; L12 approved: defect notes moved from the definition of MethodNotebook2023 to its review note (term re-approved).
+# 2026-10-10: 0.6.0 review: Loi 25 pass 2 links approved by group (H and M); low-confidence links stay proposed. Their R-22.1 rule equivalents stay proposed.
+links/loi25-pass2/H	Approve	MAL	2026-10-10	
+links/loi25-pass2/M	Approve	MAL	2026-10-10	

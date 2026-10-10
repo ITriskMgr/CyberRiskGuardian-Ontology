@@ -7,7 +7,7 @@ What comes after 0.5.0, in suggested order. Each item says why, what it would ch
 | Item | What is needed | Effort |
 |---|---|---|
 | Proposed links of 0.4.0 | Review the 2,292 rule-based R-22.1 links and the links of the three written scenarios (F1812–F1814). A group decision like the one for 0.3.0 is enough; a sample can be drawn first | Small |
-| Loi 25 pass 2 (0.6.0 draft) | 558 proposed links on the 176 families with only s. 10, in groups `links/loi25-pass2/H`, `/M`, `/L`; workbook CRGO-0.6.0-loi25-pass2-review.xlsx | Small |
+| Low-confidence Loi 25 pass 2 links (247) | Approved H and M on 2026-10-10; the low group stays as suggestions, like the 0.3.0 low links | Medium |
 | Low-confidence links (1,742) | Keep as suggestions (current), or review them in batches by scheme | Medium |
 
 ## 2. Identification quality (requirement R1)

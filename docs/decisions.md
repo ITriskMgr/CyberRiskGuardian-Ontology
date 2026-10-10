@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.6.0 draft
+# Design decisions — CRGO 0.6.0
 
 This file records why the ontology looks the way it does.
 
@@ -261,3 +261,5 @@ Decided by the project owner at the Phase 5 checkpoint. Population: the 176 fami
 - **Exception to the three-link limit.** Pass 2 allows four Loi 25 links per family (the 0.3.0 limit was three); the 0.3.0 links are unchanged, so their families can lack s. 3.5 (1st para.) where the limit squeezed it out.
 - **Governance.** All 558 links are *proposed*, in their own group `links/loi25-pass2/<confidence>`, so the 0.3.0 approvals of `links/loi25/H` and `links/loi25/M` do not extend to them.
 - **Reviewer caveat.** Most library scenarios are set in a hospital; in Québec a public hospital falls under the public-sector access act (CQLR c. A-2.1), not P-39.1. The library uses P-39.1 because the generator's organisation is treated as a private health body (and R-22.1 for health information); a public-sector deployment needs A-2.1 (roadmap).
+
+**Decision of the project owner (2026-10-10).** Pass 2 links approved by group: high (77) and medium (234) approved; low (247) stay proposed, as in 0.3.0. The 497 R-22.1 rule equivalents stay proposed with the other R-22.1 links.
