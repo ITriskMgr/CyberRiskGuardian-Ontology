@@ -2,6 +2,15 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.6.0] — 2026-10-10, approved
+
+### Added
+- Loi 25 pass 2: the 176 library families tagged with a privacy impact whose only Loi 25 link was P-39.1 s. 10 (added by rule) were judged against Loi 25 for the other obligations: 558 links (H 77, M 234, L 247) in their own approval group (`links/loi25-pass2/<confidence>`). The 311 high- and medium-confidence links are approved by group; the 247 low-confidence links stay *proposed*. Up to four links per family, so that the four incident obligations (s. 3.5 first and second paragraphs, s. 3.7, s. 3.8) fit. Judgements and prompt: `data/library/loi25_pass2.jsonl`, `data/library/loi25_pass2_prompt.md`.
+- 497 R-22.1 equivalents of the new links on health-information families, by the 0.4.0 rule (proposed).
+
+### Notes
+- Nine of the 176 families were judged not to involve personal information (listed in the review workbook); they keep s. 10 from their privacy-impact tag, which may be wrong.
+
 ## [0.5.0] — 2026-10-10, approved
 
 Release preparation (Phase 5). No change to the classes, properties or logical axioms of 0.4.0.
@@ -29,6 +38,9 @@ Validation and the identification interface for CyberRiskGuardian (Phase 4).
 - Vocabulary `lrsss`: 54 obligations of Québec's Act respecting health and social services information (CQLR c. R-22.1) and its regulations, with 2,292 rule-based links on 517 scenarios (proposed).
 - Disjointness: value-set classes pairwise disjoint; library and assessment scenarios disjoint.
 - Blind identification evaluations: MediBec (recall 0.52 blind, 0.62 after tuning on it, not independent) and ACRB (0.76, independent).
+
+### Known issue
+- At tag `v0.4.0`, the modules and the scenario library still carry `owl:versionInfo "0.3.0"` and the 0.3.0 version IRIs (only `crgo-full` says 0.4.0); the version number was not raised when 0.4.0 was built. The content is that of 0.4.0. Fixed from 0.5.0 on.
 
 ### Fixed
 - Family identifiers frozen (`data/library/family_ids.tsv`); holdout leak through assessment scenarios; synonym expansion dropping the original keyword; loose matching of commonly assessed risks.

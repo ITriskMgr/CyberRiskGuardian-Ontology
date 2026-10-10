@@ -284,6 +284,9 @@ F0018,csf2,PR.AA-03,H,judged
 F0018,iso27002,5.17,M,judged
 F0018,iso27002,8.5,H,judged
 F0018,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0018,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0018,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0018,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0018,sp80053r5,IA-11,L,judged
 F0018,sp80053r5,IA-2,H,judged
 F0018,sp80053r5,IA-5,M,judged
@@ -414,6 +417,10 @@ F0031,iso27002,5.15,M,judged
 F0031,iso27002,5.18,M,judged
 F0031,iso27002,5.23,H,judged
 F0031,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0031,loi25,P-39.1 s. 18.3,M,"judged, Loi 25 pass 2026-10-10"
+F0031,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0031,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0031,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0031,sp80053r5,AC-2,H,judged
 F0031,sp80053r5,AC-6,M,judged
 F0031,sp80053r5,IA-2,M,judged
@@ -454,6 +461,9 @@ F0035,csf2,PR.AA-03,H,judged
 F0035,iso27002,5.17,H,judged
 F0035,iso27002,8.5,M,judged
 F0035,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0035,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0035,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0035,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0035,sp80053r5,AC-7,H,judged
 F0035,sp80053r5,IA-5,H,judged
 F0036,attack,T1078,L,judged
@@ -514,6 +524,9 @@ F0041,iso27002,8.24,M,judged
 F0041,iso27002,8.26,M,judged
 F0041,iso27002,8.5,M,judged
 F0041,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0041,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0041,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0041,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0041,sp80053r5,AC-12,M,judged
 F0041,sp80053r5,SC-23,H,judged
 F0041,sp80053r5,SC-8,M,judged
@@ -711,6 +724,9 @@ F0061,iso27002,8.26,M,judged
 F0061,iso27002,8.28,L,judged
 F0061,iso27002,8.5,H,judged
 F0061,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0061,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0061,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0061,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0061,sp80053r5,IA-2,M,judged
 F0061,sp80053r5,IA-9,H,judged
 F0061,sp80053r5,SA-8,L,judged
@@ -788,6 +804,9 @@ F0069,iso27002,8.26,H,judged
 F0069,iso27002,8.3,M,judged
 F0069,iso27002,8.5,M,judged
 F0069,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0069,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0069,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0069,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0069,sp80053r5,AC-3,H,judged
 F0069,sp80053r5,IA-9,M,judged
 F0069,sp80053r5,SC-7,M,judged
@@ -799,6 +818,9 @@ F0070,iso27002,5.17,M,judged
 F0070,iso27002,8.16,L,judged
 F0070,iso27002,8.5,H,judged
 F0070,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0070,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0070,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0070,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0070,sp80053r5,AC-7,M,judged
 F0070,sp80053r5,IA-2,H,judged
 F0070,sp80053r5,IA-5,M,judged
@@ -1121,6 +1143,10 @@ F0098,iso27002,7.11,M,judged
 F0098,iso27002,8.16,M,judged
 F0098,iso27002,8.22,H,judged
 F0098,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0098,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0098,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0098,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0098,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0098,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0098,sp80053r5,AC-3,M,judged
 F0098,sp80053r5,CP-2,L,judged
@@ -1145,7 +1171,17 @@ F0100,iso27002,5.17,H,judged
 F0100,iso27002,6.3,M,judged
 F0100,iso27002,8.5,M,judged
 F0100,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0100,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0100,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0100,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0100,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0100,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0100,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0100,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0100,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0100,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0100,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0100,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0100,sp80053r5,AT-2,M,judged
 F0100,sp80053r5,IA-2,H,judged
 F0100,sp80053r5,IA-5,M,judged
@@ -1217,6 +1253,12 @@ F0104,csf2,PR.AA-03,H,judged
 F0104,iso27002,5.17,M,judged
 F0104,iso27002,8.5,H,judged
 F0104,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0104,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0104,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0104,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0104,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0104,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0104,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0104,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0104,sp80053r5,AC-7,H,judged
 F0104,sp80053r5,IA-2,M,judged
@@ -1314,7 +1356,17 @@ F0110,iso27002,8.21,M,judged
 F0110,iso27002,8.22,M,judged
 F0110,iso27002,8.24,L,judged
 F0110,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0110,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0110,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0110,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0110,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0110,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0110,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0110,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0110,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0110,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0110,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0110,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0110,sp80053r5,AC-18,H,judged
 F0110,sp80053r5,SC-8,M,judged
 F0110,sp80053r5,SI-4,M,judged
@@ -1360,6 +1412,10 @@ F0113,iso27002,6.3,M,judged
 F0113,iso27002,8.5,H,judged
 F0113,iso27002,8.7,L,judged
 F0113,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0113,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0113,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0113,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0113,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0113,sp80053r5,AT-2,M,judged
 F0113,sp80053r5,IA-2,H,judged
 F0113,sp80053r5,SI-8,M,judged
@@ -1372,7 +1428,17 @@ F0114,iso27002,7.4,L,judged
 F0114,iso27002,8.22,H,judged
 F0114,iso27002,8.5,M,judged
 F0114,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0114,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0114,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0114,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0114,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0114,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0114,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0114,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0114,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0114,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0114,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0114,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0114,sp80053r5,CM-6,M,judged
 F0114,sp80053r5,IA-2,M,judged
 F0114,sp80053r5,SC-7,H,judged
@@ -1487,7 +1553,17 @@ F0120,iso27002,5.3,M,judged
 F0120,iso27002,8.15,M,judged
 F0120,iso27002,8.3,H,judged
 F0120,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0120,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0120,loi25,P-39.1 s. 3.5 (2nd para.),L,"judged, Loi 25 pass 2026-10-10"
+F0120,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0120,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0120,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0120,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0120,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0120,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0120,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0120,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0120,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0120,sp80053r5,AC-3,H,judged
 F0120,sp80053r5,AU-6,M,judged
 F0120,sp80053r5,SI-7,M,judged
@@ -1794,7 +1870,17 @@ F0136,iso27002,8.21,M,judged
 F0136,iso27002,8.5,M,judged
 F0136,iso27002,8.8,M,judged
 F0136,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0136,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0136,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0136,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0136,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0136,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0136,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0136,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0136,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0136,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0136,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0136,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0136,sp80053r5,AC-17,H,judged
 F0136,sp80053r5,IA-2,M,judged
 F0136,sp80053r5,SI-2,M,judged
@@ -1808,6 +1894,12 @@ F0137,iso27002,5.12,M,judged
 F0137,iso27002,8.12,M,judged
 F0137,iso27002,8.3,H,judged
 F0137,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0137,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0137,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0137,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0137,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0137,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0137,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0137,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0137,sp80053r5,AC-3,H,judged
 F0137,sp80053r5,AC-6,M,judged
@@ -1860,7 +1952,17 @@ F0140,iso27002,5.17,H,judged
 F0140,iso27002,8.2,M,judged
 F0140,iso27002,8.5,H,judged
 F0140,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0140,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0140,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0140,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0140,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0140,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0140,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0140,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0140,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0140,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0140,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0140,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0140,sp80053r5,AC-6,M,judged
 F0140,sp80053r5,IA-2,M,judged
 F0140,sp80053r5,IA-5,H,judged
@@ -1996,6 +2098,8 @@ F0153,csf2,PR.AA-04,M,judged
 F0153,iso27002,5.17,H,judged
 F0153,iso27002,8.24,M,judged
 F0153,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0153,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0153,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0153,sp80053r5,IA-5,H,judged
 F0153,sp80053r5,SC-12,M,judged
 F0153,sp80053r5,SC-17,M,judged
@@ -2154,6 +2258,9 @@ F0172,iso27002,8.25,H,judged
 F0172,iso27002,8.28,H,judged
 F0172,iso27002,8.29,M,judged
 F0172,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0172,loi25,P-39.1 s. 3.3,L,"judged, Loi 25 pass 2026-10-10"
+F0172,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0172,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0172,sp80053r5,SA-11,H,judged
 F0172,sp80053r5,SA-15,M,judged
 F0172,sp80053r5,SA-8,H,judged
@@ -2407,6 +2514,8 @@ F0198,csf2,PR.PS-06,M,judged
 F0198,iso27002,8.26,M,judged
 F0198,iso27002,8.28,H,judged
 F0198,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0198,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0198,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0198,sp80053r5,SI-10,H,judged
 F0198,sp80053r5,SI-7,M,judged
 F0199,csf2,GV.PO-02,M,judged
@@ -2691,6 +2800,12 @@ F0227,csf2,PR.IR-04,L,judged
 F0227,iso27002,5.32,L,judged
 F0227,iso27002,8.16,M,judged
 F0227,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0227,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0227,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0227,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0227,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0227,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0227,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0227,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0227,sp80053r5,AC-22,L,judged
 F0227,sp80053r5,SC-5,M,judged
@@ -2913,6 +3028,8 @@ F0253,iso27002,5.21,M,judged
 F0253,iso27002,5.32,L,judged
 F0253,iso27002,8.19,M,judged
 F0253,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0253,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0253,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0253,sp80053r5,CM-10,M,judged
 F0253,sp80053r5,CM-11,M,judged
 F0253,sp80053r5,SR-3,M,judged
@@ -3139,7 +3256,17 @@ F0266,csf2,ID.RA-01,H,judged
 F0266,csf2,PR.PS-02,H,judged
 F0266,iso27002,8.8,H,judged
 F0266,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0266,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0266,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0266,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0266,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0266,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0266,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0266,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0266,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0266,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0266,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0266,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0266,sp80053r5,RA-5,H,judged
 F0266,sp80053r5,SI-2,H,judged
 F0267,attack,T1190,H,judged
@@ -3186,7 +3313,17 @@ F0269,iso27002,5.17,M,judged
 F0269,iso27002,8.16,M,judged
 F0269,iso27002,8.5,H,judged
 F0269,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0269,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0269,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0269,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0269,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0269,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0269,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0269,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0269,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0269,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0269,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0269,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0269,sp80053r5,AC-7,H,judged
 F0269,sp80053r5,IA-2,H,judged
 F0269,sp80053r5,IA-5,M,judged
@@ -3216,7 +3353,17 @@ F0271,iso27002,8.16,M,judged
 F0271,iso27002,8.21,H,judged
 F0271,iso27002,8.5,M,judged
 F0271,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0271,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0271,loi25,P-39.1 s. 3.5 (2nd para.),L,"judged, Loi 25 pass 2026-10-10"
+F0271,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0271,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0271,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0271,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0271,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0271,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0271,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0271,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0271,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0271,sp80053r5,AC-2,M,judged
 F0271,sp80053r5,SC-20,H,judged
 F0271,sp80053r5,SC-22,M,judged
@@ -3246,6 +3393,9 @@ F0274,csf2,PR.PS-06,H,judged
 F0274,iso27002,8.26,H,judged
 F0274,iso27002,8.28,H,judged
 F0274,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0274,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0274,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0274,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0274,sp80053r5,SA-11,M,judged
 F0274,sp80053r5,SI-10,H,judged
 F0275,attack,T1557,H,judged
@@ -3338,6 +3488,10 @@ F0283,iso27002,5.23,M,judged
 F0283,iso27002,8.13,H,judged
 F0283,iso27002,8.5,M,judged
 F0283,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0283,loi25,P-39.1 s. 18.3,M,"judged, Loi 25 pass 2026-10-10"
+F0283,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0283,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0283,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0283,sp80053r5,AC-6,M,judged
 F0283,sp80053r5,CP-6,M,judged
 F0283,sp80053r5,CP-9,H,judged
@@ -3350,6 +3504,10 @@ F0284,iso27002,5.15,M,judged
 F0284,iso27002,5.23,M,judged
 F0284,iso27002,8.26,M,judged
 F0284,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0284,loi25,P-39.1 s. 18.3,L,"judged, Loi 25 pass 2026-10-10"
+F0284,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0284,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0284,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0284,sp80053r5,AC-3,H,judged
 F0284,sp80053r5,AC-6,M,judged
 F0284,sp80053r5,IA-9,M,judged
@@ -3434,6 +3592,8 @@ F0292,csf2,PR.PS-01,H,judged
 F0292,iso27002,8.27,L,judged
 F0292,iso27002,8.9,H,judged
 F0292,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0292,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0292,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0292,sp80053r5,AC-6,M,judged
 F0292,sp80053r5,CM-2,M,judged
 F0292,sp80053r5,CM-6,H,judged
@@ -3697,6 +3857,8 @@ F0317,csf2,PR.IR-04,H,judged
 F0317,iso27002,8.14,M,judged
 F0317,iso27002,8.6,H,judged
 F0317,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0317,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0317,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0317,sp80053r5,SC-5,H,judged
 F0317,sp80053r5,SC-6,M,judged
 F0318,attack,T1578.001,H,judged
@@ -3766,6 +3928,8 @@ F0326,csf2,PR.PS-06,M,judged
 F0326,iso27002,8.26,M,judged
 F0326,iso27002,8.6,M,judged
 F0326,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0326,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0326,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0326,sp80053r5,SC-5,H,judged
 F0326,sp80053r5,SC-6,M,judged
 F0327,attack,T1677,L,judged
@@ -4011,6 +4175,9 @@ F0353,iso27002,8.22,H,judged
 F0353,iso27002,8.27,M,judged
 F0353,iso27002,8.9,M,judged
 F0353,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0353,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0353,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0353,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0353,sp80053r5,AC-4,M,judged
 F0353,sp80053r5,SC-39,H,judged
 F0353,sp80053r5,SC-7,H,judged
@@ -4031,6 +4198,9 @@ F0355,iso27002,8.24,H,judged
 F0355,iso27002,8.3,M,judged
 F0355,iso27002,8.9,M,judged
 F0355,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0355,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0355,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0355,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0355,sp80053r5,AC-3,M,judged
 F0355,sp80053r5,SC-12,M,judged
 F0355,sp80053r5,SC-28,H,judged
@@ -4134,6 +4304,8 @@ F0364,csf2,GV.OV-02,M,judged
 F0364,iso27002,5.31,H,judged
 F0364,iso27002,5.36,M,judged
 F0364,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0364,loi25,P-39.1 s. 3.1,L,"judged, Loi 25 pass 2026-10-10"
+F0364,loi25,P-39.1 s. 3.2,M,"judged, Loi 25 pass 2026-10-10"
 F0364,sp80053r5,CA-2,M,judged
 F0364,sp80053r5,PL-2,L,judged
 F0364,sp80053r5,PM-28,L,judged
@@ -4610,6 +4782,9 @@ F0416,csf2,RS.AN-07,H,judged
 F0416,iso27002,5.26,M,judged
 F0416,iso27002,5.28,H,judged
 F0416,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0416,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0416,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0416,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0416,sp80053r5,AU-7,M,judged
 F0416,sp80053r5,IR-4,H,judged
 F0417,csf2,PR.AT-02,H,judged
@@ -4645,6 +4820,9 @@ F0420,csf2,RS.AN-07,M,judged
 F0420,iso27002,5.28,M,judged
 F0420,iso27002,8.15,H,judged
 F0420,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0420,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0420,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0420,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0420,sp80053r5,AU-11,M,judged
 F0420,sp80053r5,AU-4,H,judged
 F0420,sp80053r5,AU-5,H,judged
@@ -4683,6 +4861,8 @@ F0425,csf2,RC.RP-05,M,judged
 F0425,iso27002,5.29,H,judged
 F0425,iso27002,5.30,H,judged
 F0425,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0425,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0425,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0425,sp80053r5,CP-10,M,judged
 F0425,sp80053r5,CP-2,H,judged
 F0425,sp80053r5,RA-3,M,judged
@@ -4888,6 +5068,9 @@ F0447,iso27002,5.17,M,judged
 F0447,iso27002,8.2,M,judged
 F0447,iso27002,8.24,H,judged
 F0447,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0447,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0447,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0447,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0447,sp80053r5,AC-6,M,judged
 F0447,sp80053r5,AU-6,M,judged
 F0447,sp80053r5,SC-12,H,judged
@@ -4920,6 +5103,9 @@ F0451,csf2,PR.DS-02,H,judged
 F0451,csf2,PR.PS-01,M,judged
 F0451,iso27002,8.24,H,judged
 F0451,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0451,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0451,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0451,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0451,sp80053r5,SC-12,M,judged
 F0451,sp80053r5,SC-13,H,judged
 F0452,csf2,PR.DS-01,M,judged
@@ -5162,6 +5348,9 @@ F0482,csf2,PR.PS-01,M,judged
 F0482,iso27002,8.21,M,judged
 F0482,iso27002,8.24,H,judged
 F0482,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0482,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0482,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0482,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0482,sp80053r5,CM-6,M,judged
 F0482,sp80053r5,SC-17,M,judged
 F0482,sp80053r5,SC-8,H,judged
@@ -5292,6 +5481,9 @@ F0496,csf2,PR.AA-06,M,judged
 F0496,iso27002,7.3,M,judged
 F0496,iso27002,7.8,M,judged
 F0496,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0496,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0496,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0496,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0496,sp80053r5,PE-19,H,judged
 F0496,sp80053r5,RA-6,M,judged
 F0496,sp80053r5,SC-31,L,judged
@@ -5318,6 +5510,9 @@ F0498,iso27002,5.14,M,judged
 F0498,iso27002,8.21,L,judged
 F0498,iso27002,8.24,M,judged
 F0498,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0498,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0498,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0498,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0498,sp80053r5,AC-3,L,judged
 F0498,sp80053r5,SC-15,H,judged
 F0498,sp80053r5,SC-8,H,judged
@@ -5328,6 +5523,9 @@ F0499,iso27002,5.34,M,judged
 F0499,iso27002,8.12,M,judged
 F0499,iso27002,8.26,L,judged
 F0499,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0499,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0499,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0499,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0499,sp80053r5,AC-3,M,judged
 F0499,sp80053r5,RA-5,L,judged
 F0499,sp80053r5,SC-28,M,judged
@@ -5448,6 +5646,10 @@ F0511,iso27002,5.20,M,judged
 F0511,iso27002,5.23,H,judged
 F0511,iso27002,8.13,H,judged
 F0511,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0511,loi25,P-39.1 s. 18.3,H,"judged, Loi 25 pass 2026-10-10"
+F0511,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0511,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0511,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0511,sp80053r5,CP-9,H,judged
 F0511,sp80053r5,SA-9,M,judged
 F0512,attack,T1530,H,judged
@@ -5533,6 +5735,9 @@ F0519,csf2,PR.DS-11,M,judged
 F0519,iso27002,5.14,H,judged
 F0519,iso27002,8.13,M,judged
 F0519,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0519,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0519,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0519,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0519,sp80053r5,CP-9,M,judged
 F0519,sp80053r5,SC-8,H,judged
 F0519,sp80053r5,SI-7,M,judged
@@ -5937,6 +6142,10 @@ F0558,iso27002,8.20,M,judged
 F0558,iso27002,8.22,H,judged
 F0558,iso27002,8.9,H,judged
 F0558,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0558,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0558,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0558,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0558,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0558,sp80053r5,AC-4,M,judged
 F0558,sp80053r5,CM-6,M,judged
 F0558,sp80053r5,SC-7,H,judged
@@ -6066,6 +6275,10 @@ F0570,iso27002,8.1,H,judged
 F0570,iso27002,8.12,M,judged
 F0570,iso27002,8.9,M,judged
 F0570,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0570,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0570,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0570,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0570,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0570,sp80053r5,AC-19,H,judged
 F0570,sp80053r5,CM-6,M,judged
 F0570,sp80053r5,CM-8,M,judged
@@ -6109,6 +6322,10 @@ F0574,iso27002,5.9,L,judged
 F0574,iso27002,8.1,L,judged
 F0574,iso27002,8.12,M,judged
 F0574,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0574,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0574,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0574,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0574,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0574,sp80053r5,AC-3,L,judged
 F0574,sp80053r5,IA-3,M,judged
 F0574,sp80053r5,SC-8,L,judged
@@ -6228,6 +6445,10 @@ F0585,iso27002,8.12,M,judged
 F0585,iso27002,8.19,H,judged
 F0585,iso27002,8.23,L,judged
 F0585,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0585,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0585,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0585,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0585,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F0585,sp80053r5,CM-11,H,judged
 F0585,sp80053r5,CM-7,H,judged
 F0585,sp80053r5,SI-4,M,judged
@@ -7993,6 +8214,10 @@ F0696,iso27002,5.29,M,judged
 F0696,iso27002,8.14,H,judged
 F0696,iso27002,8.21,M,judged
 F0696,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0696,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0696,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0696,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0696,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0696,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0696,sp80053r5,CP-2,M,judged
 F0696,sp80053r5,CP-8,H,judged
@@ -8009,6 +8234,12 @@ F0697,iso27002,8.14,M,judged
 F0697,iso27002,8.16,M,judged
 F0697,iso27002,8.6,H,judged
 F0697,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0697,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0697,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0697,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0697,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0697,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0697,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0697,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0697,sp80053r5,CP-10,M,judged
 F0697,sp80053r5,CP-2,M,judged
@@ -8039,6 +8270,10 @@ F0699,iso27002,8.16,L,judged
 F0699,iso27002,8.21,M,judged
 F0699,iso27002,8.6,H,judged
 F0699,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0699,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0699,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0699,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0699,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0699,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0699,sp80053r5,CP-2,L,judged
 F0699,sp80053r5,SC-5,H,judged
@@ -8148,6 +8383,12 @@ F0707,iso27002,8.14,M,judged
 F0707,iso27002,8.16,M,judged
 F0707,iso27002,8.6,H,judged
 F0707,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0707,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0707,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0707,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0707,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0707,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0707,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0707,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0707,sp80053r5,CP-10,M,judged
 F0707,sp80053r5,CP-2,M,judged
@@ -8194,6 +8435,8 @@ F0711,csf2,DE.CM-01,H,judged
 F0711,iso27002,5.7,M,judged
 F0711,iso27002,8.16,H,judged
 F0711,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0711,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0711,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0711,sp80053r5,CA-8,L,judged
 F0711,sp80053r5,RA-10,M,judged
 F0711,sp80053r5,SI-4,H,judged
@@ -8367,6 +8610,10 @@ F0730,iso27002,5.12,L,judged
 F0730,iso27002,5.34,L,judged
 F0730,iso27002,5.9,M,judged
 F0730,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0730,loi25,P-39.1 s. 17,L,"judged, Loi 25 pass 2026-10-10"
+F0730,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0730,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0730,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0730,sp80053r5,AC-3,L,judged
 F0730,sp80053r5,CM-12,H,judged
 F0730,sp80053r5,SC-28,M,judged
@@ -8411,6 +8658,9 @@ F0734,csf2,PR.AA-04,M,judged
 F0734,iso27002,5.16,H,judged
 F0734,iso27002,5.17,M,judged
 F0734,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0734,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0734,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0734,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0734,sp80053r5,IA-12,M,judged
 F0734,sp80053r5,IA-4,M,judged
 F0734,sp80053r5,IA-5,M,judged
@@ -8598,6 +8848,9 @@ F0756,sp80053r5,SI-4,H,judged
 F0757,csf2,PR.IR-01,H,judged
 F0757,iso27002,8.22,H,judged
 F0757,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0757,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0757,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0757,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0757,sp80053r5,SC-3,L,judged
 F0757,sp80053r5,SC-32,M,judged
 F0757,sp80053r5,SC-7,M,judged
@@ -8680,6 +8933,9 @@ F0766,csf2,PR.DS-01,M,judged
 F0766,csf2,PR.DS-02,M,judged
 F0766,iso27002,8.24,H,judged
 F0766,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0766,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0766,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0766,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0766,sp80053r5,SA-4,L,judged
 F0766,sp80053r5,SC-12,M,judged
 F0766,sp80053r5,SC-13,H,judged
@@ -8748,6 +9004,8 @@ F0776,csf2,PR.PS-06,M,judged
 F0776,iso27002,8.25,M,judged
 F0776,iso27002,8.29,M,judged
 F0776,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0776,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0776,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0776,sp80053r5,RA-3,M,judged
 F0776,sp80053r5,SA-11,M,judged
 F0776,sp80053r5,SA-8,L,judged
@@ -8814,6 +9072,10 @@ F0783,iso27002,5.10,H,judged
 F0783,iso27002,6.7,H,judged
 F0783,iso27002,8.1,H,judged
 F0783,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0783,loi25,P-39.1 s. 3.2,L,"judged, Loi 25 pass 2026-10-10"
+F0783,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0783,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0783,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0783,sp80053r5,AC-19,H,judged
 F0783,sp80053r5,AC-20,M,judged
 F0783,sp80053r5,PL-4,M,judged
@@ -8890,6 +9152,10 @@ F0791,csf2,PR.DS-10,L,judged
 F0791,iso27002,8.16,M,judged
 F0791,iso27002,8.26,L,judged
 F0791,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0791,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0791,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0791,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0791,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0791,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0791,sp80053r5,SC-42,L,judged
 F0791,sp80053r5,SI-10,M,judged
@@ -8925,6 +9191,9 @@ F0795,csf2,PR.PS-05,H,judged
 F0795,iso27002,8.19,H,judged
 F0795,iso27002,8.7,M,judged
 F0795,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0795,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0795,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0795,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0795,sp80053r5,CM-11,H,judged
 F0795,sp80053r5,CM-7,M,judged
 F0795,sp80053r5,SI-3,M,judged
@@ -9001,7 +9270,17 @@ F0803,csf2,PR.PS-05,M,judged
 F0803,iso27002,6.3,H,judged
 F0803,iso27002,8.7,H,judged
 F0803,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0803,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0803,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0803,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0803,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0803,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0803,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0803,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0803,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0803,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0803,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0803,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0803,sp80053r5,AT-2,H,judged
 F0803,sp80053r5,MP-7,H,judged
 F0803,sp80053r5,SC-41,M,judged
@@ -9015,7 +9294,17 @@ F0804,csf2,PR.PS-05,M,judged
 F0804,iso27002,6.3,H,judged
 F0804,iso27002,8.7,H,judged
 F0804,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0804,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0804,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0804,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0804,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0804,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0804,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0804,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0804,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0804,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0804,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0804,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0804,sp80053r5,AT-2,H,judged
 F0804,sp80053r5,MP-7,H,judged
 F0804,sp80053r5,SC-41,M,judged
@@ -9131,6 +9420,8 @@ F0818,csf2,ID.RA-02,L,judged
 F0818,iso27002,5.6,L,judged
 F0818,iso27002,5.7,L,judged
 F0818,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0818,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0818,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0818,sp80053r5,PM-15,L,judged
 F0818,sp80053r5,PM-16,L,judged
 F0818,sp80053r5,PM-3,M,judged
@@ -9397,6 +9688,8 @@ F0850,csf2,PR.AT-01,H,judged
 F0850,csf2,PR.AT-02,M,judged
 F0850,iso27002,6.3,H,judged
 F0850,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0850,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0850,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0850,sp80053r5,AT-2,H,judged
 F0850,sp80053r5,AT-3,L,judged
 F0850,sp80053r5,AT-6,M,judged
@@ -9575,6 +9868,8 @@ F0869,sp80053r5,AT-4,L,judged
 F0870,csf2,GV.RR-04,H,judged
 F0870,iso27002,6.1,H,judged
 F0870,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0870,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0870,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0870,sp80053r5,PS-2,M,judged
 F0870,sp80053r5,PS-3,H,judged
 F0871,attack,T1566,M,judged
@@ -9837,6 +10132,8 @@ F0897,csf2,GV.RR-04,M,judged
 F0897,csf2,PR.AT-02,H,judged
 F0897,iso27002,6.3,H,judged
 F0897,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0897,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0897,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0897,sp80053r5,AT-3,H,judged
 F0897,sp80053r5,PM-13,H,judged
 F0898,csf2,GV.OC-01,M,judged
@@ -10081,6 +10378,9 @@ F0924,iso27002,7.2,H,judged
 F0924,iso27002,8.13,M,judged
 F0924,iso27002,8.14,M,judged
 F0924,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0924,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0924,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0924,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0924,sp80053r5,CP-2,M,judged
 F0924,sp80053r5,CP-7,M,judged
 F0924,sp80053r5,PE-3,H,judged
@@ -10115,6 +10415,8 @@ F0927,iso27002,7.8,H,judged
 F0927,iso27002,8.13,M,judged
 F0927,iso27002,8.14,M,judged
 F0927,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0927,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0927,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0927,sp80053r5,CP-10,M,judged
 F0927,sp80053r5,CP-9,M,judged
 F0927,sp80053r5,PE-14,L,judged
@@ -10143,6 +10445,8 @@ F0930,csf2,PR.AT-02,M,judged
 F0930,iso27002,5.7,M,judged
 F0930,iso27002,6.3,H,judged
 F0930,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0930,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0930,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F0930,sp80053r5,AT-2,H,judged
 F0930,sp80053r5,PM-16,M,judged
 F0930,sp80053r5,SI-5,M,judged
@@ -10456,6 +10760,12 @@ F0948,iso27002,6.6,H,judged
 F0948,iso27002,8.12,H,judged
 F0948,iso27002,8.16,M,judged
 F0948,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0948,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0948,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0948,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0948,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0948,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0948,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0948,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0948,sp80053r5,AC-6,H,judged
 F0948,sp80053r5,AU-13,M,judged
@@ -10512,7 +10822,17 @@ F0951,iso27002,6.4,L,judged
 F0951,iso27002,8.16,M,judged
 F0951,iso27002,8.2,M,judged
 F0951,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0951,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0951,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0951,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0951,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0951,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0951,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0951,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0951,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0951,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0951,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0951,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0951,sp80053r5,AC-6,M,judged
 F0951,sp80053r5,AU-6,M,judged
 F0951,sp80053r5,PM-12,H,judged
@@ -10548,7 +10868,17 @@ F0953,iso27002,8.2,M,judged
 F0953,iso27002,8.32,H,judged
 F0953,iso27002,8.9,H,judged
 F0953,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0953,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0953,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0953,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0953,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0953,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0953,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0953,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0953,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0953,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0953,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0953,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0953,sp80053r5,AC-6,M,judged
 F0953,sp80053r5,AU-6,M,judged
 F0953,sp80053r5,CM-3,H,judged
@@ -10565,7 +10895,17 @@ F0954,iso27002,8.15,L,judged
 F0954,iso27002,8.16,M,judged
 F0954,iso27002,8.2,M,judged
 F0954,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0954,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0954,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0954,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0954,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0954,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0954,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0954,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0954,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0954,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0954,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0954,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0954,sp80053r5,AC-6,M,judged
 F0954,sp80053r5,CP-9,M,judged
 F0954,sp80053r5,PM-12,H,judged
@@ -10581,7 +10921,17 @@ F0955,iso27002,5.3,M,judged
 F0955,iso27002,8.16,M,judged
 F0955,iso27002,8.2,H,judged
 F0955,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0955,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0955,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0955,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0955,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0955,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0955,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0955,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0955,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0955,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0955,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0955,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0955,sp80053r5,AC-6,H,judged
 F0955,sp80053r5,AU-6,M,judged
 F0955,sp80053r5,AU-9,M,judged
@@ -10638,7 +10988,17 @@ F0958,iso27002,7.3,M,judged
 F0958,iso27002,7.4,M,judged
 F0958,iso27002,7.6,M,judged
 F0958,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0958,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0958,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0958,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0958,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0958,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0958,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0958,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0958,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0958,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0958,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0958,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0958,sp80053r5,PE-2,M,judged
 F0958,sp80053r5,PE-3,H,judged
 F0958,sp80053r5,PE-6,M,judged
@@ -10666,7 +11026,17 @@ F0960,iso27002,5.3,M,judged
 F0960,iso27002,8.16,M,judged
 F0960,iso27002,8.2,H,judged
 F0960,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0960,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0960,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0960,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0960,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0960,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0960,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0960,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0960,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0960,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0960,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0960,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0960,sp80053r5,AC-2,M,judged
 F0960,sp80053r5,AC-6,H,judged
 F0960,sp80053r5,AU-6,M,judged
@@ -10807,7 +11177,17 @@ F0967,csf2,ID.IM-01,M,judged
 F0967,csf2,PR.AT-01,H,judged
 F0967,iso27002,6.3,H,judged
 F0967,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0967,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0967,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0967,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0967,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0967,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0967,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0967,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0967,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0967,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0967,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0967,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0967,sp80053r5,AT-2,H,judged
 F0967,sp80053r5,AT-4,L,judged
 F0967,sp80053r5,AT-6,M,judged
@@ -10944,6 +11324,12 @@ F0974,iso27002,8.2,M,judged
 F0974,iso27002,8.32,H,judged
 F0974,iso27002,8.9,H,judged
 F0974,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0974,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0974,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0974,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0974,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0974,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0974,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0974,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0974,sp80053r5,AU-6,M,judged
 F0974,sp80053r5,CM-3,H,judged
@@ -11172,7 +11558,17 @@ F0987,iso27002,5.3,M,judged
 F0987,iso27002,8.16,M,judged
 F0987,iso27002,8.2,H,judged
 F0987,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0987,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0987,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0987,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0987,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0987,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0987,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0987,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0987,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0987,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0987,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0987,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0987,sp80053r5,AC-2,M,judged
 F0987,sp80053r5,AC-6,H,judged
 F0987,sp80053r5,AU-6,M,judged
@@ -11261,7 +11657,17 @@ F0993,iso27002,8.20,M,judged
 F0993,iso27002,8.21,M,judged
 F0993,iso27002,8.24,H,judged
 F0993,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0993,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0993,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0993,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0993,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0993,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0993,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0993,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0993,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0993,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0993,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0993,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0993,sp80053r5,AC-17,H,judged
 F0993,sp80053r5,IA-2,M,judged
 F0993,sp80053r5,SC-23,M,judged
@@ -11272,7 +11678,17 @@ F0994,csf2,PR.PS-02,H,judged
 F0994,iso27002,8.32,L,judged
 F0994,iso27002,8.8,H,judged
 F0994,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0994,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F0994,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F0994,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F0994,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F0994,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0994,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0994,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0994,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0994,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0994,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0994,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0994,sp80053r5,CM-3,L,judged
 F0994,sp80053r5,RA-5,M,judged
 F0994,sp80053r5,SI-2,H,judged
@@ -11286,7 +11702,17 @@ F0995,iso27002,5.3,M,judged
 F0995,iso27002,8.16,M,judged
 F0995,iso27002,8.2,H,judged
 F0995,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0995,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F0995,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F0995,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F0995,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F0995,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0995,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0995,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0995,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0995,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F0995,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F0995,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F0995,sp80053r5,AC-2,M,judged
 F0995,sp80053r5,AC-6,H,judged
 F0995,sp80053r5,AU-6,M,judged
@@ -11366,6 +11792,12 @@ F0999,iso27002,5.10,M,judged
 F0999,iso27002,8.19,H,judged
 F0999,iso27002,8.7,M,judged
 F0999,loi25,P-39.1 s. 10,M,rule: personal information involved
+F0999,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F0999,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F0999,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F0999,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F0999,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F0999,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F0999,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F0999,sp80053r5,CM-10,M,judged
 F0999,sp80053r5,CM-11,H,judged
@@ -11401,7 +11833,17 @@ F1001,iso27002,5.3,M,judged
 F1001,iso27002,8.16,M,judged
 F1001,iso27002,8.2,H,judged
 F1001,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1001,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1001,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1001,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1001,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1001,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1001,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1001,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1001,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1001,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1001,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1001,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1001,sp80053r5,AC-2,M,judged
 F1001,sp80053r5,AC-6,H,judged
 F1001,sp80053r5,AU-6,M,judged
@@ -11414,7 +11856,17 @@ F1002,iso27002,7.2,H,judged
 F1002,iso27002,7.3,L,judged
 F1002,iso27002,7.4,M,judged
 F1002,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1002,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1002,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1002,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1002,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1002,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1002,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1002,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1002,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1002,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1002,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1002,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1002,sp80053r5,PE-20,M,judged
 F1002,sp80053r5,PE-3,H,judged
 F1002,sp80053r5,PE-6,M,judged
@@ -11466,6 +11918,12 @@ F1005,iso27002,8.2,M,judged
 F1005,iso27002,8.32,H,judged
 F1005,iso27002,8.9,H,judged
 F1005,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1005,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1005,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1005,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1005,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1005,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1005,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1005,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1005,sp80053r5,AU-6,M,judged
 F1005,sp80053r5,CM-3,H,judged
@@ -11501,6 +11959,12 @@ F1007,iso27002,8.13,H,judged
 F1007,iso27002,8.16,L,judged
 F1007,iso27002,8.2,M,judged
 F1007,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1007,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1007,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1007,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1007,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1007,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1007,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1007,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1007,sp80053r5,AC-5,M,judged
 F1007,sp80053r5,CP-10,M,judged
@@ -11590,7 +12054,17 @@ F1012,iso27002,5.3,M,judged
 F1012,iso27002,8.16,M,judged
 F1012,iso27002,8.2,H,judged
 F1012,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1012,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1012,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1012,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1012,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1012,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1012,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1012,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1012,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1012,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1012,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1012,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1012,sp80053r5,AC-2,M,judged
 F1012,sp80053r5,AC-6,H,judged
 F1012,sp80053r5,AU-6,M,judged
@@ -11689,7 +12163,17 @@ F1018,iso27002,5.18,M,judged
 F1018,iso27002,8.16,M,judged
 F1018,iso27002,8.2,M,judged
 F1018,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1018,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1018,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1018,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1018,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1018,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1018,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1018,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1018,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1018,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1018,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1018,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1018,sp80053r5,AC-2,H,judged
 F1018,sp80053r5,AC-6,M,judged
 F1018,sp80053r5,AU-6,M,judged
@@ -11736,6 +12220,12 @@ F1021,iso27002,8.19,M,judged
 F1021,iso27002,8.32,H,judged
 F1021,iso27002,8.8,M,judged
 F1021,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1021,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1021,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1021,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1021,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1021,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1021,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1021,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1021,sp80053r5,CM-14,L,judged
 F1021,sp80053r5,CM-3,H,judged
@@ -12378,6 +12868,9 @@ F1068,csf2,PR.DS-02,M,judged
 F1068,iso27002,5.14,L,judged
 F1068,iso27002,8.26,M,judged
 F1068,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1068,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1068,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1068,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1068,sp80053r5,CA-3,L,judged
 F1068,sp80053r5,SI-10,H,judged
 F1068,sp80053r5,SI-7,M,judged
@@ -12627,6 +13120,9 @@ F1098,iso27002,7.4,L,judged
 F1098,iso27002,8.20,M,judged
 F1098,iso27002,8.9,M,judged
 F1098,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1098,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1098,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1098,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1098,sp80053r5,CM-6,M,judged
 F1098,sp80053r5,IA-3,M,judged
 F1098,sp80053r5,SC-7,M,judged
@@ -12674,6 +13170,8 @@ F1104,csf2,PR.PS-04,H,judged
 F1104,iso27002,8.15,H,judged
 F1104,iso27002,8.16,M,judged
 F1104,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1104,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1104,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1104,sp80053r5,AU-6,M,judged
 F1104,sp80053r5,AU-9,H,judged
 F1105,attack,T1565,M,judged
@@ -12805,6 +13303,9 @@ F1118,csf2,PR.AA-06,H,judged
 F1118,iso27002,7.2,M,judged
 F1118,iso27002,7.4,H,judged
 F1118,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1118,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1118,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1118,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1118,sp80053r5,PE-3,M,judged
 F1118,sp80053r5,PE-6,H,judged
 F1119,csf2,DE.CM-02,H,judged
@@ -12907,7 +13408,17 @@ F1129,iso27002,5.30,M,judged
 F1129,iso27002,8.13,H,judged
 F1129,iso27002,8.14,M,judged
 F1129,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1129,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1129,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1129,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1129,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1129,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1129,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1129,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1129,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1129,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1129,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1129,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1129,sp80053r5,CP-10,M,judged
 F1129,sp80053r5,CP-4,M,judged
 F1129,sp80053r5,CP-9,H,judged
@@ -12976,6 +13487,12 @@ F1134,iso27002,5.15,M,judged
 F1134,iso27002,8.15,L,judged
 F1134,iso27002,8.3,M,judged
 F1134,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1134,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1134,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1134,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1134,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1134,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1134,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1134,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1134,sp80053r5,AC-3,H,judged
 F1134,sp80053r5,AU-6,M,judged
@@ -13394,6 +13911,12 @@ F1176,csf2,PR.PS-02,H,judged
 F1176,iso27002,5.21,L,judged
 F1176,iso27002,8.8,H,judged
 F1176,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1176,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1176,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1176,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1176,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1176,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1176,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1176,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1176,sp80053r5,RA-5,M,judged
 F1176,sp80053r5,SA-22,L,judged
@@ -14223,6 +14746,9 @@ F1243,csf2,PR.PS-04,H,judged
 F1243,iso27002,8.15,H,judged
 F1243,iso27002,8.16,H,judged
 F1243,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1243,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1243,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1243,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1243,sp80053r5,AU-2,H,judged
 F1243,sp80053r5,AU-6,H,judged
 F1243,sp80053r5,SI-4,M,judged
@@ -14272,6 +14798,9 @@ F1247,iso27002,8.16,M,judged
 F1247,iso27002,8.20,H,judged
 F1247,iso27002,8.22,M,judged
 F1247,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1247,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1247,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1247,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1247,sp80053r5,SC-7,M,judged
 F1247,sp80053r5,SC-8,M,judged
 F1247,sp80053r5,SI-4,H,judged
@@ -14419,6 +14948,8 @@ F1261,csf2,PR.PS-04,M,judged
 F1261,iso27002,8.15,M,judged
 F1261,iso27002,8.16,H,judged
 F1261,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1261,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1261,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1261,sp80053r5,AU-12,M,judged
 F1261,sp80053r5,CA-7,M,judged
 F1261,sp80053r5,SI-4,H,judged
@@ -14469,6 +15000,12 @@ F1266,csf2,PR.IR-01,H,judged
 F1266,iso27002,8.20,M,judged
 F1266,iso27002,8.22,H,judged
 F1266,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1266,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1266,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1266,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1266,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1266,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1266,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1266,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1266,sp80053r5,AC-4,M,judged
 F1266,sp80053r5,SC-7,H,judged
@@ -14540,6 +15077,10 @@ F1274,csf2,PR.DS-02,H,judged
 F1274,iso27002,8.20,M,judged
 F1274,iso27002,8.24,H,judged
 F1274,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1274,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1274,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1274,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1274,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F1274,sp80053r5,SC-8,H,judged
 F1274,sp80053r5,SI-4,M,judged
 F1275,csf2,PR.DS-02,H,judged
@@ -14612,6 +15153,9 @@ F1283,iso27002,8.20,M,judged
 F1283,iso27002,8.22,M,judged
 F1283,iso27002,8.24,H,judged
 F1283,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1283,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1283,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1283,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1283,sp80053r5,SC-7,M,judged
 F1283,sp80053r5,SC-8,H,judged
 F1283,sp80053r5,SI-4,M,judged
@@ -14750,7 +15294,17 @@ F1292,iso27002,6.7,L,judged
 F1292,iso27002,8.24,H,judged
 F1292,iso27002,8.5,M,judged
 F1292,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1292,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1292,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1292,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1292,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1292,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1292,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1292,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1292,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1292,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1292,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1292,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1292,sp80053r5,AC-17,H,judged
 F1292,sp80053r5,IA-2,M,judged
 F1292,sp80053r5,SC-8,H,judged
@@ -14782,7 +15336,17 @@ F1294,iso27002,6.7,M,judged
 F1294,iso27002,8.24,M,judged
 F1294,iso27002,8.5,H,judged
 F1294,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1294,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1294,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1294,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1294,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1294,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1294,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1294,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1294,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1294,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1294,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1294,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1294,sp80053r5,AC-17,H,judged
 F1294,sp80053r5,IA-2,M,judged
 F1294,sp80053r5,SC-8,H,judged
@@ -14813,7 +15377,17 @@ F1296,iso27002,6.7,M,judged
 F1296,iso27002,8.5,H,judged
 F1296,iso27002,8.8,M,judged
 F1296,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1296,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1296,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1296,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1296,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1296,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1296,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1296,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1296,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1296,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1296,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1296,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1296,sp80053r5,AC-17,H,judged
 F1296,sp80053r5,IA-2,H,judged
 F1296,sp80053r5,RA-5,M,judged
@@ -14826,7 +15400,17 @@ F1297,iso27002,6.3,M,judged
 F1297,iso27002,8.20,M,judged
 F1297,iso27002,8.22,H,judged
 F1297,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1297,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1297,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1297,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1297,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1297,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1297,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1297,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1297,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1297,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1297,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1297,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1297,sp80053r5,AT-2,M,judged
 F1297,sp80053r5,IA-2,M,judged
 F1297,sp80053r5,SC-21,M,judged
@@ -15006,7 +15590,17 @@ F1307,iso27002,6.3,M,judged
 F1307,iso27002,8.20,H,judged
 F1307,iso27002,8.24,M,judged
 F1307,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1307,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1307,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1307,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1307,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1307,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1307,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1307,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1307,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1307,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1307,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1307,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1307,sp80053r5,AC-18,H,judged
 F1307,sp80053r5,AT-2,M,judged
 F1307,sp80053r5,SC-8,M,judged
@@ -15018,7 +15612,17 @@ F1308,iso27002,5.17,M,judged
 F1308,iso27002,6.7,M,judged
 F1308,iso27002,8.5,H,judged
 F1308,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1308,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1308,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1308,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1308,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1308,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1308,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1308,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1308,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1308,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1308,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1308,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1308,sp80053r5,AC-17,H,judged
 F1308,sp80053r5,IA-2,H,judged
 F1308,sp80053r5,IA-5,M,judged
@@ -15088,7 +15692,17 @@ F1312,iso27002,6.3,M,judged
 F1312,iso27002,8.20,M,judged
 F1312,iso27002,8.21,M,judged
 F1312,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1312,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1312,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1312,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1312,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1312,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1312,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1312,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1312,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1312,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1312,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1312,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1312,sp80053r5,AT-2,M,judged
 F1312,sp80053r5,SC-20,H,judged
 F1312,sp80053r5,SC-21,M,judged
@@ -15151,7 +15765,17 @@ F1316,iso27002,8.1,H,judged
 F1316,iso27002,8.20,M,judged
 F1316,iso27002,8.9,M,judged
 F1316,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1316,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1316,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1316,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1316,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1316,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1316,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1316,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1316,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1316,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1316,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1316,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1316,sp80053r5,AC-18,H,judged
 F1316,sp80053r5,IA-3,H,judged
 F1316,sp80053r5,SC-41,M,judged
@@ -15163,7 +15787,17 @@ F1317,iso27002,8.1,M,judged
 F1317,iso27002,8.20,H,judged
 F1317,iso27002,8.24,H,judged
 F1317,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1317,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1317,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1317,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1317,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1317,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1317,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1317,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1317,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1317,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1317,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1317,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1317,sp80053r5,AC-18,H,judged
 F1317,sp80053r5,AC-19,M,judged
 F1317,sp80053r5,SC-8,H,judged
@@ -15242,6 +15876,8 @@ F1323,iso27002,5.10,H,judged
 F1323,iso27002,8.16,M,judged
 F1323,iso27002,8.20,M,judged
 F1323,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1323,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1323,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1323,sp80053r5,CM-7,M,judged
 F1323,sp80053r5,PL-4,M,judged
 F1323,sp80053r5,SC-7,M,judged
@@ -15453,6 +16089,9 @@ F1347,iso27002,8.20,H,judged
 F1347,iso27002,8.32,M,judged
 F1347,iso27002,8.9,H,judged
 F1347,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1347,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1347,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1347,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1347,sp80053r5,CM-3,M,judged
 F1347,sp80053r5,CM-6,H,judged
 F1347,sp80053r5,SC-7,H,judged
@@ -15844,6 +16483,9 @@ F1388,iso27002,7.2,H,judged
 F1388,iso27002,7.3,M,judged
 F1388,iso27002,7.4,M,judged
 F1388,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1388,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1388,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1388,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1388,sp80053r5,PE-2,M,judged
 F1388,sp80053r5,PE-3,H,judged
 F1388,sp80053r5,PE-6,H,judged
@@ -15920,7 +16562,17 @@ F1394,iso27002,7.2,H,judged
 F1394,iso27002,7.3,M,judged
 F1394,iso27002,7.4,M,judged
 F1394,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1394,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1394,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1394,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1394,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1394,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1394,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1394,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1394,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1394,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1394,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1394,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1394,sp80053r5,PE-2,M,judged
 F1394,sp80053r5,PE-3,H,judged
 F1394,sp80053r5,PE-6,H,judged
@@ -16016,7 +16668,17 @@ F1399,iso27002,8.20,H,judged
 F1399,iso27002,8.32,M,judged
 F1399,iso27002,8.9,H,judged
 F1399,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1399,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1399,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1399,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1399,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1399,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1399,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1399,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1399,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1399,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1399,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1399,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1399,sp80053r5,CM-3,M,judged
 F1399,sp80053r5,CM-6,H,judged
 F1399,sp80053r5,SC-7,H,judged
@@ -16027,7 +16689,17 @@ F1400,iso27002,7.2,H,judged
 F1400,iso27002,7.3,M,judged
 F1400,iso27002,7.4,M,judged
 F1400,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1400,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1400,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1400,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1400,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1400,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1400,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1400,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1400,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1400,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1400,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1400,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1400,sp80053r5,PE-2,M,judged
 F1400,sp80053r5,PE-3,H,judged
 F1400,sp80053r5,PE-6,H,judged
@@ -16101,7 +16773,17 @@ F1404,iso27002,8.20,H,judged
 F1404,iso27002,8.32,M,judged
 F1404,iso27002,8.9,H,judged
 F1404,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1404,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1404,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1404,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1404,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1404,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1404,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1404,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1404,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1404,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1404,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1404,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1404,sp80053r5,CA-8,L,judged
 F1404,sp80053r5,CM-3,M,judged
 F1404,sp80053r5,CM-6,H,judged
@@ -16144,7 +16826,17 @@ F1407,iso27002,8.20,H,judged
 F1407,iso27002,8.32,M,judged
 F1407,iso27002,8.9,H,judged
 F1407,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1407,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1407,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1407,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1407,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1407,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1407,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1407,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1407,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1407,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1407,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1407,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1407,sp80053r5,CA-8,L,judged
 F1407,sp80053r5,CM-3,M,judged
 F1407,sp80053r5,CM-6,H,judged
@@ -16179,7 +16871,17 @@ F1409,iso27002,7.2,H,judged
 F1409,iso27002,7.8,M,judged
 F1409,iso27002,8.1,M,judged
 F1409,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1409,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1409,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1409,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1409,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1409,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1409,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1409,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1409,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1409,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1409,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1409,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1409,sp80053r5,PE-3,H,judged
 F1409,sp80053r5,PE-6,M,judged
 F1409,sp80053r5,SC-41,M,judged
@@ -16222,7 +16924,17 @@ F1412,iso27002,7.13,M,judged
 F1412,iso27002,8.13,H,judged
 F1412,iso27002,8.14,M,judged
 F1412,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1412,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1412,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1412,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1412,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1412,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1412,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1412,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1412,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1412,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1412,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1412,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1412,sp80053r5,CP-10,M,judged
 F1412,sp80053r5,CP-4,M,judged
 F1412,sp80053r5,CP-9,H,judged
@@ -16378,7 +17090,17 @@ F1421,iso27002,7.2,H,judged
 F1421,iso27002,7.3,M,judged
 F1421,iso27002,7.4,M,judged
 F1421,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1421,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1421,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1421,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1421,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1421,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1421,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1421,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1421,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1421,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1421,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1421,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1421,sp80053r5,PE-2,M,judged
 F1421,sp80053r5,PE-3,H,judged
 F1421,sp80053r5,PE-6,H,judged
@@ -16423,7 +17145,17 @@ F1424,iso27002,5.17,H,judged
 F1424,iso27002,6.3,M,judged
 F1424,iso27002,8.5,H,judged
 F1424,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1424,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1424,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1424,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1424,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1424,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1424,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1424,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1424,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1424,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1424,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1424,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1424,sp80053r5,AC-7,M,judged
 F1424,sp80053r5,IA-2,H,judged
 F1424,sp80053r5,IA-5,H,judged
@@ -16511,6 +17243,12 @@ F1429,iso27002,8.20,M,judged
 F1429,iso27002,8.22,H,judged
 F1429,iso27002,8.8,H,judged
 F1429,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1429,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1429,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1429,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1429,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1429,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1429,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1429,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1429,sp80053r5,RA-5,M,judged
 F1429,sp80053r5,SC-7,H,judged
@@ -16696,6 +17434,9 @@ F1444,iso27002,5.7,M,judged
 F1444,iso27002,8.16,M,judged
 F1444,iso27002,8.20,L,judged
 F1444,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1444,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1444,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1444,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1444,sp80053r5,SC-5,M,judged
 F1444,sp80053r5,SI-4,M,judged
 F1444,sp80053r5,SI-7,M,judged
@@ -16924,6 +17665,12 @@ F1463,iso27002,5.29,L,judged
 F1463,iso27002,8.13,H,judged
 F1463,iso27002,8.7,H,judged
 F1463,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1463,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1463,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1463,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1463,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1463,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1463,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1463,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1463,sp80053r5,CP-10,M,judged
 F1463,sp80053r5,CP-9,H,judged
@@ -16937,7 +17684,17 @@ F1464,iso27002,6.3,M,judged
 F1464,iso27002,7.10,H,judged
 F1464,iso27002,8.7,H,judged
 F1464,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1464,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1464,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1464,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1464,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1464,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1464,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1464,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1464,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1464,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1464,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1464,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1464,sp80053r5,MP-7,H,judged
 F1464,sp80053r5,SC-41,M,judged
 F1464,sp80053r5,SI-3,H,judged
@@ -16999,7 +17756,17 @@ F1468,iso27002,5.29,L,judged
 F1468,iso27002,8.13,H,judged
 F1468,iso27002,8.7,H,judged
 F1468,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1468,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1468,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1468,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1468,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1468,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1468,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1468,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1468,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1468,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1468,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1468,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1468,sp80053r5,CP-10,M,judged
 F1468,sp80053r5,CP-9,H,judged
 F1468,sp80053r5,IR-4,M,judged
@@ -17014,6 +17781,12 @@ F1469,iso27002,6.3,H,judged
 F1469,iso27002,8.13,M,judged
 F1469,iso27002,8.7,H,judged
 F1469,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1469,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1469,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1469,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1469,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1469,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1469,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1469,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1469,sp80053r5,AT-2,M,judged
 F1469,sp80053r5,CP-9,M,judged
@@ -17090,6 +17863,14 @@ F1473,iso27002,5.19,M,judged
 F1473,iso27002,5.21,H,judged
 F1473,iso27002,8.7,M,judged
 F1473,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1473,loi25,P-39.1 s. 18.3,L,"judged, Loi 25 pass 2026-10-10"
+F1473,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1473,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1473,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1473,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1473,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1473,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
+F1473,lrsss,R-22.1 s. 77,M,rule: R-22.1 equivalent of P-39.1 s. 18.3 for health information
 F1473,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1473,sp80053r5,SI-7,H,judged
 F1473,sp80053r5,SR-11,H,judged
@@ -17118,6 +17899,12 @@ F1475,iso27002,8.13,H,judged
 F1475,iso27002,8.23,L,judged
 F1475,iso27002,8.7,H,judged
 F1475,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1475,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1475,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1475,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1475,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1475,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1475,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1475,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1475,sp80053r5,AT-2,M,judged
 F1475,sp80053r5,CP-9,H,judged
@@ -17131,7 +17918,17 @@ F1476,iso27002,6.3,M,judged
 F1476,iso27002,7.10,H,judged
 F1476,iso27002,8.7,H,judged
 F1476,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1476,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1476,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1476,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1476,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1476,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1476,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1476,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1476,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1476,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1476,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1476,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1476,sp80053r5,MP-7,H,judged
 F1476,sp80053r5,SC-41,M,judged
 F1476,sp80053r5,SI-3,H,judged
@@ -17191,6 +17988,12 @@ F1480,iso27002,8.16,M,judged
 F1480,iso27002,8.28,M,judged
 F1480,iso27002,8.8,H,judged
 F1480,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1480,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1480,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1480,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1480,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1480,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1480,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1480,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1480,sp80053r5,SC-7,M,judged
 F1480,sp80053r5,SI-2,M,judged
@@ -17226,7 +18029,17 @@ F1482,iso27002,6.3,H,judged
 F1482,iso27002,8.23,L,judged
 F1482,iso27002,8.7,H,judged
 F1482,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1482,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1482,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1482,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1482,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1482,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1482,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1482,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1482,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1482,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1482,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1482,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1482,sp80053r5,AT-2,M,judged
 F1482,sp80053r5,SI-3,H,judged
 F1482,sp80053r5,SI-8,H,judged
@@ -17239,7 +18052,17 @@ F1483,iso27002,6.3,M,judged
 F1483,iso27002,8.1,H,judged
 F1483,iso27002,8.7,M,judged
 F1483,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1483,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1483,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1483,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1483,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1483,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1483,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1483,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1483,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1483,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1483,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1483,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1483,sp80053r5,AC-19,H,judged
 F1483,sp80053r5,CM-11,H,judged
 F1483,sp80053r5,SI-3,M,judged
@@ -17262,7 +18085,17 @@ F1485,iso27002,6.3,M,judged
 F1485,iso27002,7.10,H,judged
 F1485,iso27002,8.7,H,judged
 F1485,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1485,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1485,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1485,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1485,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1485,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1485,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1485,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1485,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1485,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1485,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1485,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1485,sp80053r5,MP-7,H,judged
 F1485,sp80053r5,SC-41,M,judged
 F1485,sp80053r5,SI-3,H,judged
@@ -17276,7 +18109,17 @@ F1486,iso27002,8.16,M,judged
 F1486,iso27002,8.28,H,judged
 F1486,iso27002,8.8,M,judged
 F1486,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1486,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1486,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1486,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1486,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1486,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1486,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1486,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1486,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1486,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1486,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1486,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1486,sp80053r5,SC-7,M,judged
 F1486,sp80053r5,SI-10,M,judged
 F1486,sp80053r5,SI-7,H,judged
@@ -17301,7 +18144,17 @@ F1488,iso27002,8.1,H,judged
 F1488,iso27002,8.22,M,judged
 F1488,iso27002,8.7,M,judged
 F1488,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1488,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1488,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1488,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1488,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1488,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1488,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1488,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1488,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1488,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1488,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1488,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1488,sp80053r5,AC-19,H,judged
 F1488,sp80053r5,AC-20,H,judged
 F1488,sp80053r5,IA-3,M,judged
@@ -17315,7 +18168,17 @@ F1489,iso27002,6.3,H,judged
 F1489,iso27002,8.23,L,judged
 F1489,iso27002,8.7,H,judged
 F1489,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1489,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1489,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1489,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1489,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1489,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1489,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1489,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1489,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1489,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1489,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1489,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1489,sp80053r5,AT-2,M,judged
 F1489,sp80053r5,SI-3,H,judged
 F1489,sp80053r5,SI-8,H,judged
@@ -17330,6 +18193,12 @@ F1490,iso27002,5.30,M,judged
 F1490,iso27002,8.13,H,judged
 F1490,iso27002,8.7,M,judged
 F1490,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1490,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1490,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1490,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1490,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1490,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1490,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1490,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1490,sp80053r5,CP-10,H,judged
 F1490,sp80053r5,CP-9,H,judged
@@ -17343,7 +18212,17 @@ F1491,iso27002,6.3,M,judged
 F1491,iso27002,7.10,H,judged
 F1491,iso27002,8.7,H,judged
 F1491,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1491,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1491,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1491,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1491,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1491,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1491,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1491,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1491,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1491,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1491,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1491,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1491,sp80053r5,MP-7,H,judged
 F1491,sp80053r5,SC-41,M,judged
 F1491,sp80053r5,SI-3,H,judged
@@ -17377,7 +18256,17 @@ F1494,iso27002,8.23,H,judged
 F1494,iso27002,8.7,H,judged
 F1494,iso27002,8.8,M,judged
 F1494,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1494,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1494,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1494,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1494,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1494,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1494,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1494,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1494,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1494,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1494,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1494,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1494,sp80053r5,SC-18,M,judged
 F1494,sp80053r5,SC-7,M,judged
 F1494,sp80053r5,SI-3,H,judged
@@ -17389,7 +18278,17 @@ F1495,csf2,PR.PS-02,H,judged
 F1495,iso27002,8.7,M,judged
 F1495,iso27002,8.8,H,judged
 F1495,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1495,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1495,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1495,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1495,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1495,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1495,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1495,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1495,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1495,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1495,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1495,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1495,sp80053r5,RA-5,H,judged
 F1495,sp80053r5,SI-2,H,judged
 F1495,sp80053r5,SI-3,M,judged
@@ -17461,7 +18360,17 @@ F1499,iso27002,8.22,H,judged
 F1499,iso27002,8.7,H,judged
 F1499,iso27002,8.8,H,judged
 F1499,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1499,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1499,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1499,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1499,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1499,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1499,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1499,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1499,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1499,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1499,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1499,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1499,sp80053r5,CM-8,M,judged
 F1499,sp80053r5,RA-5,H,judged
 F1499,sp80053r5,SC-7,H,judged
@@ -17498,7 +18407,17 @@ F1501,iso27002,6.3,H,judged
 F1501,iso27002,8.13,H,judged
 F1501,iso27002,8.7,H,judged
 F1501,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1501,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1501,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1501,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1501,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1501,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1501,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1501,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1501,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1501,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1501,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1501,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1501,sp80053r5,AT-2,H,judged
 F1501,sp80053r5,CP-9,H,judged
 F1501,sp80053r5,IR-4,M,judged
@@ -17708,6 +18627,12 @@ F1517,iso27002,5.14,M,judged
 F1517,iso27002,5.16,M,judged
 F1517,iso27002,6.3,H,judged
 F1517,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1517,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1517,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1517,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1517,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1517,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1517,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1517,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1517,sp80053r5,AT-2,H,judged
 F1517,sp80053r5,IA-12,M,judged
@@ -18474,7 +19399,17 @@ F1570,iso27002,8.23,M,judged
 F1570,iso27002,8.5,H,judged
 F1570,iso27002,8.7,H,judged
 F1570,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1570,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1570,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1570,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1570,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1570,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1570,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1570,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1570,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1570,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1570,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1570,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1570,sp80053r5,AT-2,H,judged
 F1570,sp80053r5,IA-2,H,judged
 F1570,sp80053r5,SI-3,H,judged
@@ -18500,6 +19435,12 @@ F1572,iso27002,7.1,M,judged
 F1572,iso27002,7.2,H,judged
 F1572,iso27002,7.4,H,judged
 F1572,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1572,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1572,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1572,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1572,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1572,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1572,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1572,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1572,sp80053r5,AT-2,H,judged
 F1572,sp80053r5,PE-2,M,judged
@@ -18562,6 +19503,12 @@ F1575,iso27002,6.3,M,judged
 F1575,iso27002,8.23,M,judged
 F1575,iso27002,8.7,H,judged
 F1575,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1575,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1575,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1575,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1575,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1575,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1575,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1575,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1575,sp80053r5,AT-2,M,judged
 F1575,sp80053r5,SC-7,M,judged
@@ -18641,7 +19588,17 @@ F1579,iso27002,8.16,M,judged
 F1579,iso27002,8.23,M,judged
 F1579,iso27002,8.5,H,judged
 F1579,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1579,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1579,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1579,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1579,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1579,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1579,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1579,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1579,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1579,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1579,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1579,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1579,sp80053r5,AT-2,H,judged
 F1579,sp80053r5,IA-2,H,judged
 F1579,sp80053r5,SI-4,M,judged
@@ -18658,6 +19615,10 @@ F1580,iso27002,8.16,M,judged
 F1580,iso27002,8.23,M,judged
 F1580,iso27002,8.5,H,judged
 F1580,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1580,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1580,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1580,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1580,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
 F1580,sp80053r5,AT-2,H,judged
 F1580,sp80053r5,IA-2,H,judged
 F1580,sp80053r5,SI-4,M,judged
@@ -18672,6 +19633,10 @@ F1581,iso27002,5.26,L,judged
 F1581,iso27002,5.34,M,judged
 F1581,iso27002,5.7,M,judged
 F1581,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1581,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1581,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1581,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1581,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1581,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1581,sp80053r5,AT-2,M,judged
 F1581,sp80053r5,IR-6,L,judged
@@ -18802,7 +19767,17 @@ F1589,iso27002,5.17,H,judged
 F1589,iso27002,6.3,H,judged
 F1589,iso27002,8.5,M,judged
 F1589,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1589,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1589,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1589,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1589,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1589,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1589,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1589,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1589,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1589,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1589,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1589,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1589,sp80053r5,AT-2,H,judged
 F1589,sp80053r5,IA-12,M,judged
 F1589,sp80053r5,IA-2,M,judged
@@ -18819,7 +19794,17 @@ F1590,iso27002,8.16,M,judged
 F1590,iso27002,8.23,M,judged
 F1590,iso27002,8.5,H,judged
 F1590,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1590,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1590,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1590,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1590,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1590,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1590,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1590,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1590,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1590,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1590,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1590,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1590,sp80053r5,AT-2,H,judged
 F1590,sp80053r5,IA-2,H,judged
 F1590,sp80053r5,SI-4,M,judged
@@ -18835,7 +19820,17 @@ F1591,iso27002,5.3,M,judged
 F1591,iso27002,6.3,H,judged
 F1591,iso27002,8.23,L,judged
 F1591,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1591,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1591,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1591,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1591,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1591,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1591,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1591,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1591,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1591,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1591,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1591,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1591,sp80053r5,AT-2,H,judged
 F1591,sp80053r5,AT-3,M,judged
 F1591,sp80053r5,IA-2,M,judged
@@ -18944,7 +19939,17 @@ F1596,iso27002,8.23,M,judged
 F1596,iso27002,8.5,H,judged
 F1596,iso27002,8.7,M,judged
 F1596,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1596,loi25,P-39.1 s. 3.5 (1st para.),H,"judged, Loi 25 pass 2026-10-10"
+F1596,loi25,P-39.1 s. 3.5 (2nd para.),H,"judged, Loi 25 pass 2026-10-10"
+F1596,loi25,P-39.1 s. 3.7,H,"judged, Loi 25 pass 2026-10-10"
+F1596,loi25,P-39.1 s. 3.8,H,"judged, Loi 25 pass 2026-10-10"
+F1596,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1596,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1596,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1596,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1596,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1596,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1596,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1596,sp80053r5,AT-2,H,judged
 F1596,sp80053r5,IA-2,H,judged
 F1596,sp80053r5,SI-4,M,judged
@@ -18981,6 +19986,10 @@ F1598,iso27002,5.26,L,judged
 F1598,iso27002,5.34,M,judged
 F1598,iso27002,5.7,M,judged
 F1598,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1598,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1598,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1598,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1598,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1598,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1598,sp80053r5,AT-2,M,judged
 F1598,sp80053r5,IR-6,L,judged
@@ -19043,6 +20052,12 @@ F1601,iso27002,5.14,M,judged
 F1601,iso27002,5.3,H,judged
 F1601,iso27002,6.3,H,judged
 F1601,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1601,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1601,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1601,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1601,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1601,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1601,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1601,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1601,sp80053r5,AC-5,M,judged
 F1601,sp80053r5,AT-2,H,judged
@@ -19060,7 +20075,17 @@ F1602,iso27002,8.16,M,judged
 F1602,iso27002,8.23,M,judged
 F1602,iso27002,8.5,H,judged
 F1602,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1602,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1602,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1602,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1602,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1602,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1602,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1602,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1602,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1602,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1602,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1602,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1602,sp80053r5,AT-2,H,judged
 F1602,sp80053r5,IA-2,H,judged
 F1602,sp80053r5,SI-4,M,judged
@@ -19165,7 +20190,17 @@ F1608,iso27002,8.16,M,judged
 F1608,iso27002,8.23,M,judged
 F1608,iso27002,8.5,H,judged
 F1608,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1608,loi25,P-39.1 s. 3.5 (1st para.),M,"judged, Loi 25 pass 2026-10-10"
+F1608,loi25,P-39.1 s. 3.5 (2nd para.),M,"judged, Loi 25 pass 2026-10-10"
+F1608,loi25,P-39.1 s. 3.7,M,"judged, Loi 25 pass 2026-10-10"
+F1608,loi25,P-39.1 s. 3.8,M,"judged, Loi 25 pass 2026-10-10"
+F1608,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1608,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1608,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1608,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
 F1608,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
+F1608,lrsss,"R-22.1, r. 1 s. 11",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
+F1608,lrsss,"R-22.1, r. 1 s. 13",M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (2nd para.) for health information
 F1608,sp80053r5,AT-2,H,judged
 F1608,sp80053r5,IA-2,H,judged
 F1608,sp80053r5,SI-4,M,judged
@@ -19751,6 +20786,12 @@ F1644,iso27002,5.22,M,judged
 F1644,iso27002,8.22,H,judged
 F1644,iso27002,8.8,H,judged
 F1644,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1644,loi25,P-39.1 s. 18.3,L,"judged, Loi 25 pass 2026-10-10"
+F1644,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1644,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1644,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1644,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
+F1644,lrsss,R-22.1 s. 77,M,rule: R-22.1 equivalent of P-39.1 s. 18.3 for health information
 F1644,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1644,sp80053r5,RA-5,M,judged
 F1644,sp80053r5,SC-7,H,judged
@@ -19956,6 +20997,14 @@ F1664,iso27002,5.21,H,judged
 F1664,iso27002,5.29,M,judged
 F1664,iso27002,5.7,M,judged
 F1664,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1664,loi25,P-39.1 s. 18.3,M,"judged, Loi 25 pass 2026-10-10"
+F1664,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1664,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1664,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
+F1664,lrsss,R-22.1 s. 108,M,rule: R-22.1 equivalent of P-39.1 s. 3.5 (1st para.) for health information
+F1664,lrsss,R-22.1 s. 109,M,rule: R-22.1 equivalent of P-39.1 s. 3.7 for health information
+F1664,lrsss,R-22.1 s. 110,M,rule: R-22.1 equivalent of P-39.1 s. 3.8 for health information
+F1664,lrsss,R-22.1 s. 77,M,rule: R-22.1 equivalent of P-39.1 s. 18.3 for health information
 F1664,lrsss,R-22.1 s. 99,M,rule: R-22.1 equivalent of P-39.1 s. 10 for health information
 F1664,sp80053r5,CP-2,M,judged
 F1664,sp80053r5,IR-4,M,judged
@@ -20908,6 +21957,9 @@ F1722,iso27002,8.19,L,judged
 F1722,iso27002,8.32,H,judged
 F1722,iso27002,8.9,H,judged
 F1722,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1722,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1722,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1722,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1722,sp80053r5,CM-2,M,judged
 F1722,sp80053r5,CM-3,M,judged
 F1722,sp80053r5,CM-4,M,judged
@@ -21977,6 +23029,9 @@ F1809,csf2,PR.PS-01,H,judged
 F1809,iso27002,8.20,H,judged
 F1809,iso27002,8.9,M,judged
 F1809,loi25,P-39.1 s. 10,M,rule: personal information involved
+F1809,loi25,P-39.1 s. 3.5 (1st para.),L,"judged, Loi 25 pass 2026-10-10"
+F1809,loi25,P-39.1 s. 3.7,L,"judged, Loi 25 pass 2026-10-10"
+F1809,loi25,P-39.1 s. 3.8,L,"judged, Loi 25 pass 2026-10-10"
 F1809,sp80053r5,AC-18,H,judged
 F1809,sp80053r5,CM-6,M,judged
 F1809,sp80053r5,SI-4,M,judged

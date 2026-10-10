@@ -15,10 +15,10 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 
-VERSION = "0.5.0"
-PRIOR = "0.4.0"
+VERSION = "0.6.0"
+PRIOR = "0.5.0"
 ISSUED = "2026-10-10"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335}  # highest term number introduced in each earlier release
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
