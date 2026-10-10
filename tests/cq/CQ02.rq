@@ -1,0 +1,8 @@
+# CQ02 (Identification)
+# Question: For a scenario theme (here: ransomware), which scenarios belong to it and what kinds of threat source do they involve?
+# Expect: min_rows 30; contains type=adversarial
+SELECT ?scenario ?name ?type WHERE {
+  ?scenario a {{LibraryScenario}} ; {{hasScenarioCategory}} theme:ThemeRansomware ; rdfs:label ?name .
+  OPTIONAL { ?scenario {{hasThreatSourceDescription}} ?src . ?src {{hasThreatSourceType}} ?t .
+             ?t rdfs:label ?type FILTER(lang(?type) = "en") }
+}

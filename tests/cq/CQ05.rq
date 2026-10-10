@@ -1,0 +1,11 @@
+# CQ05 (Identification)
+# Question: Which control requirements (CSF 2.0, SP 800-53, ISO/IEC 27002) are relevant to a scenario, highest confidence first, approved links only?
+# Expect: min_rows 3; contains scheme=https://w3id.org/crgo/vocab/sp800-53r5
+SELECT ?scheme ?notation ?title ?confidence WHERE {
+  ?scenario rdfs:label "Ransomware Attack on Financial Management System"@en ; {{hasRelevantRequirement}} ?c .
+  ?c skos:notation ?notation ; skos:prefLabel ?title ; skos:inScheme ?scheme . FILTER(lang(?title) = "en")
+  ?ax a owl:Axiom ; owl:annotatedSource ?scenario ; owl:annotatedProperty {{hasRelevantRequirement}} ; owl:annotatedTarget ?c ;
+       {{confidence}} ?conf ; {{governanceStatus}} ?status .
+  FILTER(?status = {{StatusApproved}})
+  ?conf rdfs:label ?confidence FILTER(lang(?confidence) = "en")
+} ORDER BY ?confidence ?scheme ?notation

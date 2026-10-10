@@ -1,0 +1,6 @@
+# CQ01 (Identification)
+# Question: Which library scenarios affect a given asset category (here: OT, IoT and connected devices)?
+# Expect: min_rows 50
+SELECT DISTINCT ?scenario ?name WHERE {
+  ?scenario a {{LibraryScenario}} ; {{affectsAssetCategory}} {{CatOTIoT}} ; rdfs:label ?name .
+} ORDER BY ?name

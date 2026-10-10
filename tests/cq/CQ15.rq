@@ -1,0 +1,9 @@
+# CQ15 (Assessment)
+# Question: For an assessment scenario, which estimates rest on which evidence, and what kind of evidence is it?
+# Expect: min_rows 6
+SELECT ?parameter ?value ?evidence ?basis WHERE {
+  ?s {{localIdentifier}} "S1" . FILTER(STRSTARTS(STR(?s), "https://w3id.org/crgo/data/medibec/"))
+  ?e {{estimateOf}} ?s ; a ?cls ; {{numericValue}} ?value ; {{hasEvidence}} ?ev .
+  ?cls rdfs:subClassOf {{CRGParameterEstimate}} ; rdfs:label ?parameter FILTER(lang(?parameter) = "en")
+  ?ev {{localIdentifier}} ?evidence . OPTIONAL { ?ev {{hasEvidenceBasis}} ?b . ?b rdfs:label ?basis FILTER(lang(?basis) = "en") }
+}

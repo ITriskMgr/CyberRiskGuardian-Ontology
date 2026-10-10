@@ -1,0 +1,8 @@
+# CQ17 (Governance)
+# Question: Which ontology terms are not yet approved?
+# Expect: rows 0
+SELECT ?term ?label WHERE {
+  ?term {{governanceStatus}} ?st . FILTER(?st != {{StatusApproved}})
+  FILTER(STRSTARTS(STR(?term), "https://w3id.org/crgo/CRGO_"))
+  ?term rdfs:label ?label FILTER(lang(?label) = "en")
+}

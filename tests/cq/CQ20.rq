@@ -1,0 +1,7 @@
+# CQ20 (Identification)
+# Question: Which scenarios match free-text keywords (here: 'backup') together with their theme, as a starting point for an analyst?
+# Expect: min_rows 10
+SELECT DISTINCT ?scenario ?name ?theme WHERE {
+  ?scenario a {{LibraryScenario}} ; rdfs:label ?name ; {{hasScenarioCategory}} ?th . ?th skos:prefLabel ?theme FILTER(lang(?theme) = "en")
+  FILTER(CONTAINS(LCASE(?name), "backup"))
+}

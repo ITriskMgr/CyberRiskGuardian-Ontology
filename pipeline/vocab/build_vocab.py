@@ -203,6 +203,20 @@ for r in tsv("loi25.tsv"):
               introduced="0.3.0" if r["section"] == "10" else "0.2.0")
 report.append(("loi25", s.save()))
 
+# --- Québec Act respecting health and social services information (R-22.1) and its regulations
+s = Scheme("lrsss", "Québec Act respecting health and social services information: obligations",
+           "Loi sur les renseignements de santé et de services sociaux : obligations",
+           "S.Q. 2023, c. 5 (CQLR c. R-22.1) and regulations r. 1 and r. 2, as consolidated in LégisQuébec on 2026-10-10",
+           "LégisQuébec, CQLR c. R-22.1, R-22.1 r. 1, R-22.1 r. 2; see data/frameworks/lrsss.tsv and lrsss_scope.md", None,
+           "Labels and definitions are CRGO paraphrases; the official text is in LégisQuébec.", "Gouvernement du Québec (source text)",
+           "Applies to health and social services bodies, including private professional offices and specialised medical centres "
+           "(s. 4 and Schedule II); for the health information they hold it replaces the private-sector Act (P-39.1 s. 3, para. 3).")
+for r in tsv("lrsss.tsv"):
+    s.concept("%s s. %s" % (r["act"], r["section"]), r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"].replace(";", " ; "), conf="H" if r["status"] == "verified" else "M",
+              note="In force: %s." % r["in_force"], introduced="0.4.0")
+report.append(("lrsss", s.save()))
+
 # --- CSA CCM v4.1: domains only (control titles are not licensed for redistribution)
 s = Scheme("ccm41", "CSA Cloud Controls Matrix v4.1 domains", "Domaines de la Cloud Controls Matrix v4.1 de la CSA", "4.1 (January 2026)",
            "see data/frameworks/ccm41_domains.tsv", None,

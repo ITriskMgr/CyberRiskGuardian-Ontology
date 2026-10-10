@@ -1,0 +1,7 @@
+# CQ06 (Identification)
+# Question: Which scenarios does a given control address (here: SP 800-53 SI-4 System Monitoring), grouped by theme?
+# Expect: min_rows 10
+SELECT ?theme (COUNT(DISTINCT ?scenario) AS ?scenarios) WHERE {
+  ?c skos:notation "SI-4" ; skos:inScheme <https://w3id.org/crgo/vocab/sp800-53r5> .
+  ?scenario {{hasRelevantRequirement}} ?c ; {{hasScenarioCategory}} ?th . ?th skos:prefLabel ?theme FILTER(lang(?theme) = "en")
+} GROUP BY ?theme ORDER BY DESC(?scenarios)

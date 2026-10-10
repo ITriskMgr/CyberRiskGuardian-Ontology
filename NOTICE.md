@@ -25,7 +25,7 @@ licences apply to the files listed, not the CC BY-NC 4.0 licence of CRGO.
 - **ISO/IEC 27002:2022**: control identifiers and titles only, © ISO/IEC, cited for reference and mapping. No control text is reproduced; obtain the standard from ISO or a national standards body.
 - **COBIT 2019**: objective identifiers and names only, © ISACA, cited for reference and mapping.
 - **CSA Cloud Controls Matrix v4.1**: domain identifiers and names only, © Cloud Security Alliance, attributed to the Cloud Security Alliance Cloud Controls Matrix Version 4.
-- **Québec Law 25**: labels and definitions are CRGO paraphrases with section references; the official text is published in LégisQuébec.
+- **Québec Law 25** and the **Act respecting health and social services information (CQLR c. R-22.1)** with its regulations: labels and definitions are CRGO paraphrases with section references; the official text is published in LégisQuébec.
 
 ## Case data
 

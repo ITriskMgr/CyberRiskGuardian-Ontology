@@ -15,7 +15,7 @@ C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 LIB = Namespace("https://w3id.org/crgo/data/library/")
 THEME = Namespace("https://w3id.org/crgo/vocab/theme/")
 VOC = "https://w3id.org/crgo/vocab/"
-SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25"}
+SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25", "lrsss": "lrsss"}
 CONF = {"H": "ConfHigh", "M": "ConfMedium", "L": "ConfLow"}
 CASE_APPETITE = {"CanaRetail": 0.50, "ACRB": 0.30, "MediBec": 0.40, "Chez": 0.40, "MediBec-CRG": 0.30}
 D = lambda v: Literal(repr(round(float(v), 6)), datatype=XSD.decimal)
@@ -26,6 +26,18 @@ PARAM_CLASS = {"PbA": "ThreatPresence", "Pbx": "ExploitationProbability", "De": 
 KRI_CLASS = {"est": "EstimatedRisk", "tol": "ToleratedRisk", "mit": "MitigatedRisk", "res": "ResidualRisk",
              "ratio": "RiskToToleranceRatio", "pre_ratio": "PreTreatmentRatio"}
 TOL = {"below": "TolBelow", "at": "TolAt", "above": "TolAbove"}
+import re as _re
+WEAK = r"(?:lack of|lacking|inadequate|insufficient|weak|unpatched|outdated|obsolete|misconfigur\w*|improper|poor|absence of|absent|failure to|failing to|unsecured|unencrypted|insecure|incomplete|ineffective|missing|unmonitored|unprotected|uncontrolled|excessive|overprivileged|default|vulnerable|vulnerabilit\w*|legacy|untrained|neglect\w*)"
+
+def weakness(name):
+    """Weakness phrase in a scenario name: the whole name when it starts with one ('Inadequate patch management'),
+    or the clause after 'due to', 'through', 'via'... ('Data leakage through insecure APIs' -> 'insecure APIs')."""
+    n = name.strip().rstrip(":. ")
+    n = _re.sub(r"^\d+\s+", "", n)
+    if _re.match(r"(?i)^(?:no )|^" + WEAK, n, _re.I):
+        return n
+    m = _re.search(r"(?i)\b(?:due to|through|via|caused by|resulting from|because of|from|with)\s+(" + WEAK + r".*)$", n)
+    return m.group(1) if m else None
 
 def safe(i):
     import re
@@ -88,6 +100,7 @@ def main():
       (LIB.Appetite030, RDF.type, C("RiskAppetiteStatement")), (LIB.Appetite030, C("numericValue"), D(0.30)),
       (LIB.Calc2026, RDF.type, C("CalculationActivity")), (LIB.Calc2026, C("usesMethod"), C("MethodCRG_v1_0c")))
     n_est = n_kri = n_links = 0
+    n_weak = [0]
     links_by = {}
     for l in links.itertuples():
         links_by.setdefault(l.family, []).append(l)
@@ -111,6 +124,12 @@ def main():
                 A((ts, C("hasThreatSourceType"), C(t)))
         if rv is not None and isinstance(rv.theme, str) and rv.theme and rv.theme != r.theme:
             annotated(g, s, C("hasScenarioCategory"), THEME[rv.theme], "M", "Second theme proposed during framework linking.")
+        wk = weakness(r["name"])
+        if wk:
+            vd = LIB[fid + "-weakness"]
+            A((vd, RDF.type, C("VulnerabilityDescription")), (vd, RDFS.label, Literal(wk[0].upper() + wk[1:], lang="en")))
+            annotated(g, s, C("hasVulnerabilityDescription"), vd, "M", "Added by rule: weakness named in the scenario title.")
+            n_weak[0] += 1
         if isinstance(r.asset_categories, str):
             for t in r.asset_categories.split():
                 A((s, C("affectsAssetCategory"), C(t)))
@@ -165,10 +184,45 @@ def main():
               (t, C("addresses"), s), (t, C("initialCost"), D(r.cost)))
             if r.cost_n > 1:
                 A((t, RDFS.comment, Literal("Median of %d source estimates (range %.0f to %.0f dollars)." % (r.cost_n, r.cost_min, r.cost_max), lang="en")))
+    n_auth = authored(g, A)
     n_case = cases(g, A, f)
     out = os.path.join(ROOT, "data", "abox"); os.makedirs(out, exist_ok=True)
     g.serialize(os.path.join(out, "crgo-library.ttl"), format="turtle")
-    print("families %d, estimates %d, risk quantities %d, framework links %d, %s, triples %d" % (len(f), n_est, n_kri, n_links, n_case, len(g)))
+    print("authored %d; " % n_auth, end="")
+    print("families %d, estimates %d, risk quantities %d, framework links %d, weaknesses %d, %s, triples %d" % (len(f), n_est, n_kri, n_links, n_weak[0], n_case, len(g)))
+
+def authored(g, A):
+    """Generic scenarios written by Claude to fill gaps found in the Phase 4 blind test (approved for addition by the
+    project owner on 2026-10-10). No estimates: they get values when a case or assessment calibrates them."""
+    frozen = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "data", "library", "family_ids.tsv"), encoding="utf-8") if l.strip() and not l.startswith("#"))
+    n = 0
+    for a in json.load(open(os.path.join(ROOT, "data", "library", "authored_scenarios.json"), encoding="utf-8")):
+        fid = frozen[a["key"]]; s = LIB[fid]
+        A((s, RDF.type, C("LibraryScenario")), (s, C("localIdentifier"), Literal("LIB-" + fid)), (s, RDFS.label, Literal(a["name"], lang="en")),
+          (s, C("statement"), Literal(a["statement"], lang="en")), (s, C("applicableSector"), Literal("generic")),
+          (s, C("hasScenarioCategory"), THEME[a["theme"]]), (s, C("derivedFrom"), Literal("Authored by Claude (Phase 4 gap analysis), " + a["key"])),
+          (s, C("proposedBy"), C("AgentClaude")), (s, C("governanceStatus"), C("StatusProposed")), (LIB.Run2026, C("includesScenario"), s))
+        ev = LIB[fid + "-event"]
+        A((ev, RDF.type, C("ThreatEventDescription")), (ev, RDFS.label, Literal(a["name"], lang="en")), (s, C("hasThreatEvent"), ev))
+        ts = LIB[fid + "-source"]
+        A((ts, RDF.type, C("ThreatSourceDescription")), (s, C("hasThreatSourceDescription"), ts))
+        for t in a["threat_source_types"]: A((ts, C("hasThreatSourceType"), C(t)))
+        for t in a["asset_categories"]: A((s, C("affectsAssetCategory"), C(t)))
+        cd = LIB[fid + "-consequence"]
+        A((cd, RDF.type, C("ConsequenceDescription")), (s, C("hasConsequence"), cd))
+        for t in a["impact_dimensions"]: A((cd, C("hasImpactDimension"), C(t)))
+        for i, w in enumerate(a["weaknesses"], 1):
+            vd = LIB["%s-weakness-%d" % (fid, i)]
+            A((vd, RDF.type, C("VulnerabilityDescription")), (vd, RDFS.label, Literal(w, lang="en")))
+            annotated(g, s, C("hasVulnerabilityDescription"), vd, "H")
+        for scheme in ("attack", "csf2", "sp80053r5", "iso27002", "loi25", "lrsss"):
+            for i, c in a.get(scheme, []):
+                target = URIRef(VOC + SCHEME_NS[scheme] + "/" + safe(i))
+                if scheme == "attack": annotated(g, ev, C("hasExternalReference"), target, c)
+                elif scheme in ("loi25", "lrsss"): annotated(g, s, C("triggersObligation"), target, c)
+                else: annotated(g, s, C("hasRelevantRequirement"), target, c)
+        n += 1
+    return n
 
 def cases(g, A, fam):
     """Case scenarios from the teaching cases (instructor annex values) and the MediBec worked CRG assessment:
@@ -178,6 +232,10 @@ def cases(g, A, fam):
     sc = json.load(open(os.path.join(ROOT, "data", "library", "case_scenarios.json"), encoding="utf-8"))
     matches = {m["sid"]: m["families"] for m in map(json.loads, open(os.path.join(ROOT, "data", "library", "case_matches.jsonl"), encoding="utf-8"))}
     evid, runs = {}, {}
+    import csv as _csv
+    case_links = {}
+    for l in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "case_links.csv"), encoding="utf-8")):
+        case_links.setdefault(l["case"], []).append(l)
     def evidence(case_key, case):
         if case_key not in evid:
             e = LIB["E-" + safe(case_key)]
@@ -224,6 +282,8 @@ def cases(g, A, fam):
             return 1
         return 0
     per_family, n_case_risk = {}, 0
+    fam_theme = dict(zip(fam.family, fam.theme))
+    import sys as _sys; _sys.path.insert(0, HERE); import themes as T
     for x in sc:
         case_key = x["sid"].split("/")[0]
         ev, run = evidence(case_key, x["case"])
@@ -239,6 +299,18 @@ def cases(g, A, fam):
         for m in matches.get(x["sid"], []):
             annotated(g, s, C("refines"), LIB[m["family"]], "H" if m["m"] == "H" else "M", "Case scenario matched to library family.")
             per_family.setdefault(m["family"], []).append((m["m"], vals, ev))
+        # theme: the most common primary theme of the refined families, else from the scenario text
+        ths = [fam_theme[m["family"]] for m in matches.get(x["sid"], []) if m["family"] in fam_theme]
+        th = max(set(ths), key=ths.count) if ths else T.theme_of(x["name"] + " " + x.get("threat_event", ""), True)
+        annotated(g, s, C("hasScenarioCategory"), THEME[th], "M", "Theme of the refined library families." if ths else "Theme from the scenario text.")
+        for l in case_links.get(x["sid"], []):  # case scenarios that match no family are linked directly
+            target = URIRef(VOC + SCHEME_NS[l["scheme"]] + "/" + safe(l["id"]))
+            if l["scheme"] == "attack":
+                cev = LIB[cid + "-event"]
+                A((cev, RDF.type, C("ThreatEventDescription")), (cev, RDFS.label, Literal(x["name"], lang="en")), (s, C("hasThreatEvent"), cev))
+                annotated(g, cev, C("hasExternalReference"), target, l["confidence"])
+            else:
+                annotated(g, s, C("hasRelevantRequirement"), target, l["confidence"])
     # case-calibrated family estimates: use high-grade matches when there are any
     n_fam = 0
     for fid, ms in per_family.items():

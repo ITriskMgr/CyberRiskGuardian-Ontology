@@ -1,0 +1,10 @@
+case,scheme,id,confidence,basis
+MediBec/MED-A8,attack,T1574.001,H,judged
+MediBec/MED-A8,csf2,PR.PS-05,H,judged
+MediBec/MED-A8,csf2,PR.PS-02,M,judged
+MediBec/MED-A8,csf2,DE.CM-09,M,judged
+MediBec/MED-A8,sp80053r5,SI-7,H,judged
+MediBec/MED-A8,sp80053r5,CM-7,M,judged
+MediBec/MED-A8,sp80053r5,CM-11,M,judged
+MediBec/MED-A8,iso27002,8.19,H,judged
+MediBec/MED-A8,iso27002,8.7,M,judged

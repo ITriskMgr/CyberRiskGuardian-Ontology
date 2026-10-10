@@ -1,0 +1,7 @@
+# CQ07 (Identification)
+# Question: Which scenarios can trigger the Loi 25 duty to notify the Commission and the persons concerned (P-39.1 s. 3.5, 2nd paragraph)?
+# Expect: min_rows 100
+SELECT DISTINCT ?scenario ?name WHERE {
+  ?o skos:notation "P-39.1 s. 3.5 (2nd para.)" .
+  ?scenario {{triggersObligation}} ?o ; rdfs:label ?name .
+}

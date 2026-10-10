@@ -1,0 +1,7 @@
+# CQ19 (Identification)
+# Question: Which controls address the most themes (cross-cutting controls worth prioritising)?
+# Expect: min_rows 10
+SELECT ?notation ?title (COUNT(DISTINCT ?th) AS ?themes) (COUNT(DISTINCT ?s) AS ?scenarios) WHERE {
+  ?s {{hasRelevantRequirement}} ?c ; {{hasScenarioCategory}} ?th . ?c skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+     skos:notation ?notation ; skos:prefLabel ?title .
+} GROUP BY ?notation ?title ORDER BY DESC(?themes) DESC(?scenarios) LIMIT 15

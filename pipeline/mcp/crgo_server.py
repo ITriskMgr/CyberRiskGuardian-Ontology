@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: CC-BY-NC-4.0
+# Copyright (c) 2026 Marc-André Léger
+"""CyberRiskGuardian Ontology - local MCP server (stdio) for threat, vulnerability and risk identification.
+
+Tools (all read-only):
+  - crgo_sweep                  profile-wide identification: one representative per kind of scenario, a few per theme
+  - crgo_identify               scenarios matching all given filters, ranked by fit
+  - crgo_scenario               one scenario in full: threats, weaknesses, controls, obligations, estimates
+  - crgo_controls_for_technique controls associated with an ATT&CK technique across the library
+  - crgo_scenarios_for_control  scenarios a framework requirement addresses
+  - crgo_list_values            allowed values for the filters
+
+Every answer carries confidence and approval status per link and a caveat: library and case values are
+calibration priors, never organisational evidence (CyberRiskGuardian evidence discipline).
+
+Requires: pip install "mcp>=1.2" pyoxigraph (mcp 1.x and 2.x both work). The store is built on first use from the repository files
+(about 10 s) into build/store/.
+"""
+import os, sys
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", "query"))
+try:  # mcp 1.x (as used by CyberRiskGuardian)
+    from mcp.server.fastmcp import FastMCP as _Server
+except ModuleNotFoundError:  # mcp 2.x renamed FastMCP to MCPServer
+    from mcp.server.mcpserver import MCPServer as _Server
+import identify as I
+
+mcp = _Server("crgo-ontology")
+
+
+@mcp.tool()
+def crgo_sweep(asset_categories: list[str] = [], themes: list[str] = [], sector: str = "", techniques: list[str] = [],
+               keywords: list[str] = [], per_theme: int = 3, min_confidence: str = "M", include_cases: bool = True,
+               holdout: list[str] = [], max_total: int = 60) -> dict:
+    """Start here for scenario identification. Give the organisation profile: asset categories present, themes of
+    concern, sector, ATT&CK techniques seen in incidents or threat intelligence, and keywords for notable systems or
+    weaknesses (synonyms are expanded: telehealth, HL7/DICOM, MFA, GenAI...). Returns scenarios matching ANY element,
+    near-duplicates merged under one representative ('see_also'), up to per_theme representatives per theme, and the
+    requested themes with no scenario ('theme_gaps'). holdout: case keys to ignore (e.g. 'MediBec-CRG') for blind tests.
+    Then call crgo_scenario on the ones you keep. Treat all numbers as 'Analyst estimate - validation required'."""
+    return I.sweep(asset_categories, themes, sector or None, techniques, keywords, per_theme, min_confidence, include_cases, holdout, max_total)
+
+
+@mcp.tool()
+def crgo_identify(asset_categories: list[str] = [], themes: list[str] = [], sector: str = "", techniques: list[str] = [],
+                  keywords: list[str] = [], min_confidence: str = "M", limit: int = 15, include_cases: bool = True,
+                  holdout: list[str] = []) -> dict:
+    """Identify candidate risk scenarios for an organisation profile.
+    asset_categories: keys or labels from crgo_list_values('asset_category') (e.g. 'CatCloud', 'OT, IoT and connected devices').
+    themes: theme keys or labels (e.g. 'ThemeRansomware'). sector: substring such as 'health', 'retail', 'banking'.
+    techniques: ATT&CK ids; sub-techniques are included (e.g. 'T1566'). keywords: words to find in scenario names and statements.
+    Different filters combine with AND, values within one filter with OR. min_confidence: 'H', 'M' (approved links, default) or 'L'.
+    Returns scenarios with ATT&CK techniques, weaknesses, CSF 2.0 / SP 800-53 / ISO 27002 controls, Loi 25 obligations,
+    estimated risk and its basis. Treat all numbers as 'Analyst estimate - validation required'."""
+    return I.identify(asset_categories, themes, sector or None, techniques, keywords, min_confidence, limit, include_cases, holdout)
+
+
+@mcp.tool()
+def crgo_scenario(scenario_id: str, min_confidence: str = "M", holdout: list[str] = []) -> dict:
+    """Full detail for one scenario: id such as 'LIB-F1467' (library), 'MediBec/MED-A1' (case scenario) or an IRI.
+    Includes the 2023 library estimates (low confidence), case-calibrated estimates where available (medium or low),
+    risk quantities, evidence identifiers and the families or case scenarios it is related to."""
+    return I.scenario(scenario_id, min_confidence, holdout=holdout)
+
+
+@mcp.tool()
+def crgo_controls_for_technique(technique: str, min_confidence: str = "M", top: int = 10) -> dict:
+    """Controls most often linked to library scenarios whose threat event uses an ATT&CK technique (sub-techniques
+    included), per framework. Revoked identifiers report their replacement (e.g. T1562 -> T1685)."""
+    return I.controls_for_technique(technique, min_confidence, top)
+
+
+@mcp.tool()
+def crgo_scenarios_for_control(framework: str, control_id: str, min_confidence: str = "M", limit: int = 50) -> dict:
+    """Library scenarios that a framework requirement addresses. framework: 'csf2', 'sp800-53r5' or 'iso27002-2022';
+    control_id as in the framework (e.g. 'PR.AA-05', 'SI-4', '8.16')."""
+    return I.scenarios_for_control(framework, control_id, min_confidence, limit)
+
+
+@mcp.tool()
+def crgo_list_values(kind: str) -> list:
+    """Allowed filter values. kind: 'asset_category', 'theme', 'threat_source_type', 'impact_dimension' or 'sector'."""
+    return I.list_values(kind)
+
+
+if __name__ == "__main__":
+    mcp.run()

@@ -63,5 +63,17 @@ if [ "${WITH_LIBRARY:-0}" = 1 ]; then
     echo "   crgo-full: consistent, no unsatisfiable classes"; else echo "   crgo-full: FAILED (see build/full-reason.log)"; fail=1; fi
 fi
 
+if [ "${WITH_LIBRARY:-0}" = 1 ]; then
+  echo "10. SHACL shapes (data and negative tests)"
+  python3 src/build_shapes.py > /dev/null && python3 scripts/check_shacl.py || fail=1
+  echo "11. Pitfall scan (OOPS! catalogue, local)"
+  python3 scripts/check_pitfalls.py > build/pitfalls.log || { cat build/pitfalls.log; fail=1; }
+  grep -c "CRITICAL" build/pitfalls.log > /dev/null && { echo "   critical pitfalls found"; fail=1; } || echo "   no critical pitfalls (details: build/pitfalls.md)"
+  echo "12. Query store, competency questions and identification interface"
+  python3 pipeline/query/store.py | sed 's/^/   /' || fail=1
+  python3 tests/cq/run_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+  python3 tests/identify/test_identify.py | tail -1 || fail=1
+fi
+
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit $fail

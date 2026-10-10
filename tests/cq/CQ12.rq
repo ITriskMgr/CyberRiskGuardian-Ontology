@@ -1,0 +1,7 @@
+# CQ12 (Identification)
+# Question: What is the threat landscape of healthcare case scenarios: which ATT&CK techniques appear most often in the library scenarios they refine?
+# Expect: min_rows 5
+SELECT ?notation ?technique (COUNT(DISTINCT ?family) AS ?scenarios) WHERE {
+  ?case {{applicableSector}} ?sector ; {{refines}} ?family . FILTER(CONTAINS(LCASE(?sector), "health"))
+  ?family {{hasThreatEvent}} ?ev . ?ev {{hasExternalReference}} ?t . ?t skos:notation ?notation ; skos:prefLabel ?technique .
+} GROUP BY ?notation ?technique ORDER BY DESC(?scenarios) LIMIT 15

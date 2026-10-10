@@ -3,6 +3,7 @@
 # 2026-10-08 (0.2.0 draft): hasThreatSourceType definition reworded (removed class EnvironmentalHazard); back to proposed for re-approval.
 # 2026-10-10: the 7 new or changed terms of 0.2.0 and the 23 scenario themes approved after review of CRGO-0.2.0-phase3-review.xlsx. Vocabulary concepts are keyed scheme/notation.
 # 2026-10-10: 0.3.0 review: hasRelevantRequirement approved; framework links approved by group (all schemes, confidence H and M); low-confidence links stay proposed. Link groups are keyed links/<scheme>/<confidence>.
+# 2026-10-10: Phase 4 review: 20 competency questions adopted as the test suite; commonly assessed risks and synonym list approved; value-set disjointness and LibraryScenario/AssessmentScenario disjointness approved; adding three authored library scenarios and the Québec health-information act approved (their links and the R-22.1 rule links stay proposed until reviewed).
 Asset	Approve	MAL	2026-10-08	
 InformationAsset	Approve	MAL	2026-10-08	
 SoftwareAsset	Approve	MAL	2026-10-08	

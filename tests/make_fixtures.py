@@ -3,7 +3,7 @@
 These are tests of the TBox, not Phase 3 data."""
 import os
 from rdflib import Graph, Namespace, Literal, URIRef
-from rdflib.namespace import RDF, OWL, XSD
+from rdflib.namespace import RDF, RDFS, OWL, XSD
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
 C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
@@ -37,6 +37,11 @@ A((EX.Actor, RDF.type, CCO.ont00001017), (EX.ActorRole, RDF.type, C("ThreatSourc
   (EX.ActorRole, C("hasThreatSourceType"), C("SrcAdversarial")),
   (EX.PushMFA, RDF.type, C("Vulnerability")), (EX.PushMFA, C("weaknessOf"), EX.IdP),
   (EX.Phish, RDF.type, C("ThreatEventDescription")),
+  (EX.S1, RDFS.label, Literal("Credential compromise of administrator accounts through phishing and MFA fatigue", lang="en")),
+  (EX.L1, RDFS.label, Literal("Accidental loss of a facility-hosted asset", lang="en")),
+  (EX.L1, C("hasRelevantRequirement"), URIRef("https://w3id.org/crgo/vocab/csf2/PR.IR-02")),
+  (EX.L1, C("hasScenarioCategory"), URIRef("https://w3id.org/crgo/vocab/theme/ThemePhysical")),
+  (EX.L1, C("hasThreatEvent"), EX.Phish),
   (EX.S1, RDF.type, C("AssessmentScenario")), (EX.S1, C("localIdentifier"), Literal("S1")),
   (EX.S1, C("statement"), Literal("A financially motivated external actor phishes administrators...", lang="en")),
   (EX.S1, C("initiatedBy"), EX.Actor), (EX.S1, C("hasThreatEvent"), EX.Phish), (EX.S1, C("exploits"), EX.PushMFA),
@@ -55,14 +60,24 @@ for k, v in [("ThreatPresence", "0.85"), ("ExploitationProbability", "0.55"), ("
     A((e, RDF.type, C(k)), (e, C("estimateOf"), EX.S1), (e, C("assessedIn"), EX.Assess), (e, C("numericValue"), Literal(v, datatype=XSD.decimal)),
       (e, C("onScale"), C("ScaleUnitInterval")), (e, C("hasConfidence"), C("ConfMedium")), (e, C("hasEvidence"), EX.E2),
       (e, C("hasRiskStage"), C("StageInherent")))
+# CVSS v4.0 base score of the vector (cvss package) and CRG v1.0c quantities (appetite 0.30), so the fixture satisfies the SHACL shapes
+from cvss import CVSS4
+VEC = "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:H/SI:L/SA:L"
+cv = float(CVSS4(VEC).base_score)
+P = dict(PbA=0.85, Pbx=0.55, De=0.55, Dm=0.85, Th=0.40, Mu=0.85, rp=0.80, ri=0.75)
+b0 = P["PbA"] * P["Pbx"] * cv * P["Mu"] / P["Th"] * 1000
+est = b0 * (P["De"] + P["Dm"]) / 2; tol = b0 * 0.30; res = est - est * P["rp"] * P["ri"]
+KV = {"EstimatedRisk": est, "ToleratedRisk": tol, "ResidualRisk": res, "RiskToToleranceRatio": res / tol}
+A((EX["S1-CVSS"], C("numericValue"), Literal(round(cv, 1), datatype=XSD.decimal)))
 A((EX["S1-CVSS"], RDF.type, C("CVSSInput")), (EX["S1-CVSS"], C("estimateOf"), EX.S1), (EX["S1-CVSS"], C("cvssVersion"), Literal("4.0")),
   (EX["S1-CVSS"], C("cvssVector"), Literal("CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:H/SI:L/SA:L")))
-# computed quantities with provenance (values deliberately omitted: computed by crg_calc.py in Phase 3)
+# computed quantities with provenance
 A((EX.Calc1, RDF.type, C("CalculationActivity")), (EX.Calc1, C("usesMethod"), C("MethodCRG_v1_0c")))
 for k in ["EstimatedRisk", "ToleratedRisk", "ResidualRisk", "RiskToToleranceRatio"]:
     e = EX["S1-" + k]
-    A((e, RDF.type, C(k)), (e, C("estimateOf"), EX.S1), (e, C("generatedBy"), EX.Calc1), (e, C("usedInput"), EX["S1-ThreatPresence"]))
-A((EX["S1-RiskToToleranceRatio"], C("hasToleranceClassification"), C("TolAbove")))
+    A((e, RDF.type, C(k)), (e, C("estimateOf"), EX.S1), (e, C("generatedBy"), EX.Calc1), (e, C("usedInput"), EX["S1-ThreatPresence"]),
+      (e, C("numericValue"), Literal(round(KV[k], 6), datatype=XSD.decimal)))
+A((EX["S1-RiskToToleranceRatio"], C("hasToleranceClassification"), C("TolBelow" if KV["RiskToToleranceRatio"] < 0.9 else "TolAt" if KV["RiskToToleranceRatio"] <= 1.1 else "TolAbove")))
 # initiative, allocation, KRI, treatment decision, acceptance
 A((EX.I01, RDF.type, C("TreatmentInitiative")), (EX.I01, C("addresses"), EX.S1), (EX.I01, C("initialCost"), Literal("180000", datatype=XSD.decimal)),
   (EX.I01, C("recurringCost"), Literal("60000", datatype=XSD.decimal)), (EX.I01, C("hasPriority"), C("PrioImmediate")), (EX.I01, C("hasControlFunction"), C("FnPrevention")),
@@ -85,6 +100,8 @@ neg = {
   "neg-information-is-hardware.ttl": [(EX.X, RDF.type, C("InformationAsset")), (EX.X, RDF.type, C("HardwareAsset"))],
   "neg-scenario-is-process.ttl": [(EX.Y, RDF.type, C("RiskScenario")), (EX.Y, RDF.type, C("BusinessProcess"))],
   "neg-role-is-asset-object.ttl": [(EX.Z, RDF.type, C("ThreatSourceRole")), (EX.Z, RDF.type, C("HardwareAsset"))],
+  "neg-library-is-assessment.ttl": [(EX.W, RDF.type, C("LibraryScenario")), (EX.W, RDF.type, C("AssessmentScenario"))],
+  "neg-value-in-two-sets.ttl": [(EX.V, RDF.type, C("ConfidenceLevel")), (EX.V, RDF.type, C("ThreatSourceType"))],
 }
 for name, triples in neg.items():
     h = base()
