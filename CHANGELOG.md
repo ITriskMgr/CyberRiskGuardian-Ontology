@@ -39,6 +39,9 @@ Validation and the identification interface for CyberRiskGuardian (Phase 4).
 - Disjointness: value-set classes pairwise disjoint; library and assessment scenarios disjoint.
 - Blind identification evaluations: MediBec (recall 0.52 blind, 0.62 after tuning on it, not independent) and ACRB (0.76, independent).
 
+### Known issue
+- At tag `v0.4.0`, the modules and the scenario library still carry `owl:versionInfo "0.3.0"` and the 0.3.0 version IRIs (only `crgo-full` says 0.4.0); the version number was not raised when 0.4.0 was built. The content is that of 0.4.0. Fixed from 0.5.0 on.
+
 ### Fixed
 - Family identifiers frozen (`data/library/family_ids.tsv`); holdout leak through assessment scenarios; synonym expansion dropping the original keyword; loose matching of commonly assessed risks.
 
