@@ -207,8 +207,21 @@ def main():
         groups[find(i)].append(i)
     ordered = sorted(groups.values(), key=lambda g: (recs[g[0]]["theme"], min(recs[i]["row"] for i in g)))
     fams = []
+    frozen_path = os.path.join(out, "family_ids.tsv")
+    frozen = {}
+    if os.path.exists(frozen_path):
+        for line in open(frozen_path, encoding="utf-8"):
+            if line.strip() and not line.startswith("#"):
+                k, v = line.rstrip("\n").split("\t"); frozen[k] = v
+    next_n = max([int(v[1:]) for v in frozen.values()] + [0]) + 1
     for n, g in enumerate(ordered, 1):
-        fid = "F%04d" % n
+        key = min(recs[i]["row"] for i in g)
+        if key in frozen:
+            fid = frozen[key]
+        elif frozen:
+            fid = "F%04d" % next_n; next_n += 1; frozen[key] = fid
+        else:
+            fid = "F%04d" % n
         members = [recs[i] for i in g]
         for m in members:
             m["family"] = fid

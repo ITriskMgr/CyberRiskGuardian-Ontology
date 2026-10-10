@@ -1,0 +1,8 @@
+# CQ11 (Estimation)
+# Question: Rank the scenarios of a theme (here: ransomware) by CRG estimated risk, preferring case-calibrated values.
+# Expect: min_rows 3
+SELECT ?scenario ?name (MAX(?risk) AS ?estimatedRisk) (MAX(?isCase) AS ?caseCalibrated) WHERE {
+  ?scenario a {{LibraryScenario}} ; {{hasScenarioCategory}} theme:ThemeRansomware ; rdfs:label ?name .
+  ?q a {{EstimatedRisk}} ; {{estimateOf}} ?scenario ; {{numericValue}} ?risk .
+  BIND(CONTAINS(STR(?q), "-case-") AS ?isCase)
+} GROUP BY ?scenario ?name ORDER BY DESC(?estimatedRisk) LIMIT 15

@@ -1,0 +1,6 @@
+# CQ16 (Governance)
+# Question: Which links are still proposed (awaiting approval), by framework?
+# Expect: min_rows 1
+SELECT ?scheme (COUNT(*) AS ?proposedLinks) WHERE {
+  ?ax a owl:Axiom ; owl:annotatedTarget ?c ; {{governanceStatus}} {{StatusProposed}} . ?c skos:inScheme ?scheme .
+} GROUP BY ?scheme ORDER BY ?scheme

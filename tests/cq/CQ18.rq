@@ -1,0 +1,7 @@
+# CQ18 (Quality)
+# Question: Which library scenarios have no control requirement link? (should be none)
+# Expect: rows 0
+SELECT ?scenario WHERE {
+  ?scenario a {{LibraryScenario}} . FILTER(STRSTARTS(STR(?scenario), "https://w3id.org/crgo/data/library/F"))
+  FILTER NOT EXISTS { ?scenario {{hasRelevantRequirement}} ?c }
+}

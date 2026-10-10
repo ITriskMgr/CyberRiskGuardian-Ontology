@@ -1,0 +1,11 @@
+# CQ10 (Estimation)
+# Question: What estimates does a library scenario have, from which source, with what confidence and spread?
+# Expect: min_rows 8; contains confidence=low confidence
+SELECT ?parameter ?value ?low ?high ?n ?confidence ?evidence WHERE {
+  ?scenario rdfs:label "Ransomware Attack on Financial Management System"@en .
+  ?e {{estimateOf}} ?scenario ; a ?cls ; {{numericValue}} ?value ; {{hasConfidence}} ?c ; {{hasEvidence}} ?ev .
+  ?cls rdfs:subClassOf {{CRGParameterEstimate}} ; rdfs:label ?parameter FILTER(lang(?parameter) = "en")
+  ?c rdfs:label ?confidence FILTER(lang(?confidence) = "en")
+  ?ev {{localIdentifier}} ?evidence .
+  OPTIONAL { ?e {{lowerBound}} ?low ; {{upperBound}} ?high } OPTIONAL { ?e {{sampleSize}} ?n }
+}

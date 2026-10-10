@@ -2,6 +2,7 @@
 @prefix ex: <https://w3id.org/crgo/data/crg-template/> .
 @prefix ns1: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:ActorRole a crgo:CRGO_0000012 ;
@@ -22,6 +23,7 @@ ex:KRI01 a crgo:CRGO_0000034 ;
 
 ex:S1-CVSS a crgo:CRGO_0000049 ;
     crgo:CRGO_0000231 ex:S1 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000257 "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:H/SI:L/SA:L" ;
     crgo:CRGO_0000258 "4.0" .
 
@@ -37,7 +39,8 @@ ex:S1-Criticality a crgo:CRGO_0000046 ;
 ex:S1-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 ex:S1 ;
     crgo:CRGO_0000237 ex:S1-ThreatPresence ;
-    crgo:CRGO_0000238 ex:Calc1 .
+    crgo:CRGO_0000238 ex:Calc1 ;
+    crgo:CRGO_0000247 6467.278125 .
 
 ex:S1-ExpectedDamage a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 ex:E2 ;
@@ -87,7 +90,8 @@ ex:S1-ProbabilityReduction a crgo:CRGO_0000047 ;
 ex:S1-ResidualRisk a crgo:CRGO_0000054 ;
     crgo:CRGO_0000231 ex:S1 ;
     crgo:CRGO_0000237 ex:S1-ThreatPresence ;
-    crgo:CRGO_0000238 ex:Calc1 .
+    crgo:CRGO_0000238 ex:Calc1 ;
+    crgo:CRGO_0000247 2586.91125 .
 
 ex:S1-Resilience a crgo:CRGO_0000045 ;
     crgo:CRGO_0000213 ex:E2 ;
@@ -102,12 +106,14 @@ ex:S1-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 ex:S1 ;
     crgo:CRGO_0000237 ex:S1-ThreatPresence ;
     crgo:CRGO_0000238 ex:Calc1 ;
-    crgo:CRGO_0000240 crgo:CRGO_0000109 .
+    crgo:CRGO_0000240 crgo:CRGO_0000108 ;
+    crgo:CRGO_0000247 0.933333 .
 
 ex:S1-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000231 ex:S1 ;
     crgo:CRGO_0000237 ex:S1-ThreatPresence ;
-    crgo:CRGO_0000238 ex:Calc1 .
+    crgo:CRGO_0000238 ex:Calc1 ;
+    crgo:CRGO_0000247 2771.690625 .
 
 ex:Val1 a crgo:CRGO_0000011 ;
     crgo:CRGO_0000183 ex:IdP ;
@@ -144,13 +150,15 @@ ex:I01 a crgo:CRGO_0000032 ;
     crgo:CRGO_0000265 60000.0 .
 
 ex:L1 a crgo:CRGO_0000024 ;
+    rdfs:label "Accidental loss of a facility-hosted asset"@en ;
+    crgo:CRGO_0000196 ex:Phish ;
+    crgo:CRGO_0000246 <https://w3id.org/crgo/vocab/theme/ThemePhysical> ;
     crgo:CRGO_0000250 "LIB-0001" ;
     crgo:CRGO_0000318 ex:TSD1 ;
     crgo:CRGO_0000319 ex:VD1 ;
     crgo:CRGO_0000320 ex:Gap1 ;
-    crgo:CRGO_0000322 crgo:CRGO_0000312 .
-
-ex:Phish a crgo:CRGO_0000014 .
+    crgo:CRGO_0000322 crgo:CRGO_0000312 ;
+    crgo:CRGO_0000335 <https://w3id.org/crgo/vocab/csf2/PR.IR-02> .
 
 ex:PushMFA a crgo:CRGO_0000016 ;
     crgo:CRGO_0000293 ex:IdP .
@@ -174,6 +182,8 @@ ex:MFA a crgo:CRGO_0000020 ;
     crgo:CRGO_0000209 ex:IdP ;
     crgo:CRGO_0000210 crgo:CRGO_0000098 ;
     crgo:CRGO_0000213 ex:E2 .
+
+ex:Phish a crgo:CRGO_0000014 .
 
 ex:Step2 a crgo:CRGO_0000026 ;
     crgo:CRGO_0000254 2 .
@@ -209,6 +219,7 @@ ex:E2 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000251 "Incident exercise or incident records" .
 
 ex:S1 a crgo:CRGO_0000025 ;
+    rdfs:label "Credential compromise of administrator accounts through phishing and MFA fatigue"@en ;
     crgo:CRGO_0000195 ex:Actor ;
     crgo:CRGO_0000196 ex:Phish ;
     crgo:CRGO_0000197 ex:PushMFA ;

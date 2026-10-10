@@ -1,0 +1,9 @@
+@prefix ns1: <https://w3id.org/crgo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/crgo/tests/shacl/e> a ns1:CRGO_0000297 ;
+    ns1:CRGO_0000231 <https://w3id.org/crgo/tests/shacl/s> ;
+    ns1:CRGO_0000233 ns1:CRGO_0000174,
+        ns1:CRGO_0000176 ;
+    ns1:CRGO_0000247 0.5 .
+

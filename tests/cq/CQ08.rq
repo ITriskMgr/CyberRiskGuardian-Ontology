@@ -1,0 +1,7 @@
+# CQ08 (Identification)
+# Question: Which vulnerabilities (weaknesses) are described for scenarios affecting a given asset category (here: cloud and third-party services)?
+# Expect: min_rows 10
+SELECT DISTINCT ?weakness ?scenario WHERE {
+  ?scenario a {{LibraryScenario}} ; {{affectsAssetCategory}} {{CatCloud}} ; {{hasVulnerabilityDescription}} ?v .
+  ?v rdfs:label ?weakness .
+}

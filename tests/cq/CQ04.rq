@@ -1,0 +1,8 @@
+# CQ04 (Identification)
+# Question: Given an ATT&CK technique and its sub-techniques (here: T1566 Phishing), which library scenarios use it?
+# Expect: min_rows 20
+SELECT DISTINCT ?scenario ?name ?notation WHERE {
+  ?root skos:notation "T1566" ; skos:inScheme <https://w3id.org/crgo/vocab/attack> .
+  ?t skos:broader* ?root ; skos:notation ?notation .
+  ?ev {{hasExternalReference}} ?t . ?scenario {{hasThreatEvent}} ?ev ; a {{LibraryScenario}} ; rdfs:label ?name .
+}

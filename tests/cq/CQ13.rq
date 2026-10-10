@@ -1,0 +1,6 @@
+# CQ13 (Identification)
+# Question: Which current ATT&CK technique replaces a revoked identifier used by older tools (here: T1562 Impair Defenses)?
+# Expect: rows 1; contains new=T1685
+SELECT ?old ?new ?name WHERE {
+  ?o skos:notation "T1562" ; skos:notation ?old ; dcterms:isReplacedBy ?n . ?n skos:notation ?new ; skos:prefLabel ?name .
+}

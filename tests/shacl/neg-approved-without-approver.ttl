@@ -1,0 +1,11 @@
+@prefix ns1: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty ns1:CRGO_0000335 ;
+    owl:annotatedSource <https://w3id.org/crgo/tests/shacl/s> ;
+    owl:annotatedTarget <https://w3id.org/crgo/tests/shacl/c> ;
+    ns1:CRGO_0000283 ns1:CRGO_0000069 ;
+    ns1:CRGO_0000284 ns1:CRGO_0000063 ;
+    ns1:CRGO_0000288 ns1:CRGO_0000181 .
+

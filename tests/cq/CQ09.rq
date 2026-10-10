@@ -1,0 +1,9 @@
+# CQ09 (Identification)
+# Question: For a sector (here: healthcare), which case scenarios exist and which generic library scenarios do they refine?
+# Expect: min_rows 20
+SELECT ?case ?caseName ?family ?familyName WHERE {
+  ?case a {{LibraryScenario}} ; {{applicableSector}} ?sector ; rdfs:label ?caseName ; {{refines}} ?family .
+  FILTER(CONTAINS(LCASE(?sector), "health"))
+  FILTER(STRSTARTS(STR(?case), "https://w3id.org/crgo/data/library/C-"))
+  ?family rdfs:label ?familyName .
+}

@@ -1,0 +1,11 @@
+# CQ03 (Identification)
+# Question: Which ATT&CK techniques does a scenario's threat event use, with the confidence and approval status of each link?
+# Expect: min_rows 1; contains notation=T1486
+SELECT ?notation ?technique ?confidence ?approved WHERE {
+  ?scenario rdfs:label "Ransomware Attack on Financial Management System"@en ; {{hasThreatEvent}} ?ev .
+  ?ev {{hasExternalReference}} ?t . ?t skos:notation ?notation ; skos:prefLabel ?technique .
+  ?ax a owl:Axiom ; owl:annotatedSource ?ev ; owl:annotatedProperty {{hasExternalReference}} ; owl:annotatedTarget ?t ;
+       {{confidence}} ?conf ; {{governanceStatus}} ?status .
+  ?conf rdfs:label ?confidence FILTER(lang(?confidence) = "en")
+  BIND(?status = {{StatusApproved}} AS ?approved)
+}
