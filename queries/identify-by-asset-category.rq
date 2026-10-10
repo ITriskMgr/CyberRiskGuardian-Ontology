@@ -1,0 +1,18 @@
+# Identification example (requirement R1): for one asset category, which library scenarios apply, which ATT&CK
+# techniques their threat events use, and which controls are relevant - with the confidence of each link.
+# Parameters: ?cat (an AssetCategory value). Run against build/crgo-full-merged.ttl (or a triple store loaded with crgo-full).
+PREFIX crgo: <https://w3id.org/crgo/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT ?scenario ?name ?scheme ?notation ?label ?confidence WHERE {
+  VALUES ?cat { crgo:CRGO_0000311 }
+  ?scenario a crgo:CRGO_0000024 ; crgo:CRGO_0000322 ?cat ; rdfs:label ?name .
+  { ?scenario crgo:CRGO_0000196 ?ev . ?ev crgo:CRGO_0000325 ?c . BIND(crgo:CRGO_0000325 AS ?p) BIND(?ev AS ?src) }
+  UNION { ?scenario crgo:CRGO_0000335 ?c . BIND(crgo:CRGO_0000335 AS ?p) BIND(?scenario AS ?src) }
+  UNION { ?scenario crgo:CRGO_0000228 ?c . BIND(crgo:CRGO_0000228 AS ?p) BIND(?scenario AS ?src) }
+  ?c skos:notation ?notation ; skos:prefLabel ?label ; skos:inScheme ?scheme . FILTER(lang(?label) = "en")
+  ?ax a owl:Axiom ; owl:annotatedSource ?src ; owl:annotatedProperty ?p ; owl:annotatedTarget ?c ; crgo:CRGO_0000284 ?conf .
+  ?conf rdfs:label ?confidence . FILTER(lang(?confidence) = "en")
+}
+ORDER BY ?scenario ?scheme ?notation
