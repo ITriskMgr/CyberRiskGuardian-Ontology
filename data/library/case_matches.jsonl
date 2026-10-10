@@ -1,0 +1,67 @@
+{"sid": "CanaRetail/CR-S2", "families": [{"family": "F1448", "m": "H"}, {"family": "F1465", "m": "H"}, {"family": "F1475", "m": "H"}, {"family": "F1463", "m": "H"}, {"family": "F1467", "m": "M"}]}
+{"sid": "CanaRetail/CR-S3", "families": [{"family": "F0935", "m": "H"}, {"family": "F0996", "m": "H"}, {"family": "F0964", "m": "H"}, {"family": "F0966", "m": "H"}, {"family": "F0950", "m": "M"}, {"family": "F0889", "m": "M"}]}
+{"sid": "CanaRetail/CR-S5", "families": [{"family": "F0216", "m": "H"}, {"family": "F1541", "m": "M"}]}
+{"sid": "CanaRetail/CR-S6", "families": [{"family": "F1789", "m": "H"}, {"family": "F1799", "m": "H"}, {"family": "F1791", "m": "H"}, {"family": "F1503", "m": "M"}, {"family": "F1793", "m": "M"}]}
+{"sid": "CanaRetail/CR-S10", "families": [{"family": "F0359", "m": "H"}, {"family": "F0599", "m": "H"}, {"family": "F0613", "m": "H"}, {"family": "F0512", "m": "H"}, {"family": "F0295", "m": "H"}, {"family": "F0510", "m": "M"}]}
+{"sid": "CanaRetail/CR-S13a", "families": [{"family": "F0524", "m": "H"}, {"family": "F0451", "m": "M"}, {"family": "F0448", "m": "M"}]}
+{"sid": "CanaRetail/CR-S13b", "families": [{"family": "F0262", "m": "H"}, {"family": "F0265", "m": "H"}, {"family": "F1713", "m": "M"}, {"family": "F0598", "m": "M"}, {"family": "F1788", "m": "M"}]}
+{"sid": "CanaRetail/CR-S20", "families": [{"family": "F1405", "m": "H"}, {"family": "F1347", "m": "H"}, {"family": "F1371", "m": "H"}, {"family": "F1404", "m": "H"}, {"family": "F1797", "m": "M"}, {"family": "F1346", "m": "M"}]}
+{"sid": "CanaRetail/CR-S26", "families": [{"family": "F0271", "m": "H"}, {"family": "F1236", "m": "H"}, {"family": "F1304", "m": "H"}, {"family": "F1315", "m": "H"}, {"family": "F1130", "m": "H"}, {"family": "F0270", "m": "M"}]}
+{"sid": "ACRB/ACRB-A1", "families": [{"family": "F1407", "m": "H"}, {"family": "F1399", "m": "H"}, {"family": "F1353", "m": "M"}, {"family": "F1371", "m": "M"}, {"family": "F1405", "m": "M"}]}
+{"sid": "ACRB/ACRB-A2", "families": [{"family": "F0883", "m": "H"}, {"family": "F0864", "m": "H"}, {"family": "F0892", "m": "H"}, {"family": "F0895", "m": "M"}, {"family": "F1014", "m": "M"}, {"family": "F0937", "m": "M"}]}
+{"sid": "ACRB/ACRB-A4", "families": [{"family": "F1338", "m": "H"}, {"family": "F1387", "m": "H"}, {"family": "F1350", "m": "H"}, {"family": "F1572", "m": "H"}, {"family": "F1358", "m": "M"}, {"family": "F0623", "m": "M"}]}
+{"sid": "ACRB/ACRB-A5", "families": [{"family": "F0448", "m": "H"}, {"family": "F0481", "m": "H"}, {"family": "F0474", "m": "M"}, {"family": "F0487", "m": "M"}, {"family": "F0451", "m": "M"}]}
+{"sid": "ACRB/ACRB-A6", "families": [{"family": "F1666", "m": "H"}, {"family": "F1691", "m": "H"}, {"family": "F1629", "m": "H"}, {"family": "F1684", "m": "M"}, {"family": "F1709", "m": "M"}, {"family": "F1663", "m": "M"}]}
+{"sid": "ACRB/ACRB-A7", "families": [{"family": "F1474", "m": "H"}, {"family": "F1794", "m": "H"}, {"family": "F1488", "m": "H"}, {"family": "F0783", "m": "M"}, {"family": "F0620", "m": "M"}, {"family": "F0565", "m": "M"}]}
+{"sid": "ACRB/ACRB-A8", "families": [{"family": "F1465", "m": "H"}, {"family": "F1448", "m": "H"}, {"family": "F1475", "m": "H"}, {"family": "F1463", "m": "H"}, {"family": "F1467", "m": "M"}]}
+{"sid": "ACRB/ACRB-A9", "families": [{"family": "F0430", "m": "H"}, {"family": "F0427", "m": "M"}, {"family": "F0436", "m": "M"}, {"family": "F1447", "m": "M"}]}
+{"sid": "ACRB/ACRB-A10", "families": [{"family": "F1799", "m": "H"}, {"family": "F1789", "m": "H"}, {"family": "F1791", "m": "H"}, {"family": "F0086", "m": "M"}, {"family": "F1749", "m": "M"}]}
+{"sid": "MediBec/MED-A1", "families": [{"family": "F0126", "m": "H"}, {"family": "F0139", "m": "M"}, {"family": "F0158", "m": "M"}, {"family": "F0056", "m": "M"}]}
+{"sid": "MediBec/MED-A2", "families": [{"family": "F0116", "m": "H"}, {"family": "F0036", "m": "H"}, {"family": "F0018", "m": "M"}, {"family": "F0139", "m": "M"}, {"family": "F0125", "m": "M"}]}
+{"sid": "MediBec/MED-A3", "families": [{"family": "F0196", "m": "H"}, {"family": "F0063", "m": "M"}]}
+{"sid": "MediBec/MED-A4", "families": [{"family": "F0358", "m": "H"}, {"family": "F0359", "m": "H"}, {"family": "F0613", "m": "H"}, {"family": "F0510", "m": "M"}, {"family": "F0295", "m": "M"}, {"family": "F0031", "m": "M"}]}
+{"sid": "MediBec/MED-A5", "families": [{"family": "F1298", "m": "H"}, {"family": "F1302", "m": "H"}, {"family": "F0110", "m": "H"}, {"family": "F1753", "m": "H"}, {"family": "F0493", "m": "M"}, {"family": "F1306", "m": "M"}]}
+{"sid": "MediBec/MED-A6", "families": [{"family": "F0707", "m": "H"}, {"family": "F0674", "m": "H"}, {"family": "F0671", "m": "H"}, {"family": "F0680", "m": "H"}, {"family": "F0697", "m": "M"}, {"family": "F0704", "m": "M"}]}
+{"sid": "MediBec/MED-A7", "families": [{"family": "F1762", "m": "H"}, {"family": "F1802", "m": "H"}, {"family": "F1786", "m": "H"}, {"family": "F1789", "m": "M"}, {"family": "F1750", "m": "M"}, {"family": "F1720", "m": "M"}]}
+{"sid": "MediBec/MED-A8", "families": []}
+{"sid": "MediBec/MED-A9", "families": [{"family": "F0601", "m": "H"}, {"family": "F0625", "m": "H"}, {"family": "F0111", "m": "H"}, {"family": "F0624", "m": "H"}, {"family": "F0661", "m": "M"}]}
+{"sid": "MediBec/MED-A10", "families": [{"family": "F1263", "m": "H"}, {"family": "F1094", "m": "M"}, {"family": "F0001", "m": "M"}, {"family": "F1240", "m": "M"}, {"family": "F1261", "m": "M"}]}
+{"sid": "Chez/CP-A1", "families": [{"family": "F1617", "m": "H"}, {"family": "F1610", "m": "H"}, {"family": "F1580", "m": "H"}, {"family": "F1521", "m": "M"}, {"family": "F1542", "m": "M"}, {"family": "F0113", "m": "M"}]}
+{"sid": "Chez/CP-A2", "families": [{"family": "F1448", "m": "H"}, {"family": "F1475", "m": "H"}, {"family": "F1463", "m": "H"}, {"family": "F1465", "m": "M"}]}
+{"sid": "Chez/CP-A3", "families": [{"family": "F0216", "m": "H"}, {"family": "F1541", "m": "M"}]}
+{"sid": "Chez/CP-A4", "families": [{"family": "F0940", "m": "H"}, {"family": "F0977", "m": "H"}, {"family": "F1010", "m": "H"}, {"family": "F1037", "m": "M"}, {"family": "F0883", "m": "M"}, {"family": "F0964", "m": "M"}]}
+{"sid": "Chez/CP-A5", "families": [{"family": "F0707", "m": "H"}, {"family": "F0680", "m": "H"}, {"family": "F0704", "m": "H"}, {"family": "F0671", "m": "M"}, {"family": "F0674", "m": "M"}]}
+{"sid": "Chez/CP-A6", "families": [{"family": "F1293", "m": "H"}, {"family": "F1310", "m": "H"}, {"family": "F1317", "m": "H"}, {"family": "F1290", "m": "H"}, {"family": "F1313", "m": "H"}, {"family": "F1309", "m": "M"}]}
+{"sid": "Chez/CP-A7", "families": [{"family": "F0125", "m": "H"}, {"family": "F0140", "m": "H"}, {"family": "F0035", "m": "M"}, {"family": "F0104", "m": "M"}, {"family": "F0102", "m": "M"}]}
+{"sid": "Chez/CP-A8", "families": [{"family": "F1618", "m": "H"}, {"family": "F1589", "m": "H"}, {"family": "F1624", "m": "H"}, {"family": "F1565", "m": "M"}, {"family": "F1550", "m": "M"}]}
+{"sid": "Chez/CP-A9", "families": [{"family": "F1785", "m": "H"}, {"family": "F0646", "m": "H"}, {"family": "F1705", "m": "H"}, {"family": "F1787", "m": "H"}, {"family": "F1761", "m": "M"}, {"family": "F1711", "m": "M"}]}
+{"sid": "MediBec-CRG/S1", "families": [{"family": "F1604", "m": "H"}, {"family": "F1590", "m": "H"}, {"family": "F1587", "m": "M"}, {"family": "F1522", "m": "M"}, {"family": "F0018", "m": "M"}]}
+{"sid": "MediBec-CRG/S2", "families": [{"family": "F1461", "m": "H"}, {"family": "F1501", "m": "H"}, {"family": "F1468", "m": "H"}, {"family": "F1472", "m": "H"}, {"family": "F1436", "m": "M"}]}
+{"sid": "MediBec-CRG/S3", "families": [{"family": "F0111", "m": "M"}, {"family": "F0283", "m": "M"}, {"family": "F0564", "m": "M"}]}
+{"sid": "MediBec-CRG/S4", "families": [{"family": "F0599", "m": "H"}, {"family": "F0613", "m": "H"}, {"family": "F0512", "m": "H"}, {"family": "F0295", "m": "M"}, {"family": "F0359", "m": "M"}]}
+{"sid": "MediBec-CRG/S5", "families": [{"family": "F1003", "m": "H"}, {"family": "F0890", "m": "H"}, {"family": "F0987", "m": "H"}, {"family": "F0935", "m": "H"}, {"family": "F0936", "m": "M"}, {"family": "F0947", "m": "M"}]}
+{"sid": "MediBec-CRG/S6", "families": [{"family": "F1789", "m": "H"}, {"family": "F1777", "m": "H"}, {"family": "F1799", "m": "H"}, {"family": "F1806", "m": "M"}, {"family": "F1747", "m": "M"}, {"family": "F1770", "m": "M"}]}
+{"sid": "MediBec-CRG/S7", "families": [{"family": "F1164", "m": "H"}, {"family": "F1168", "m": "H"}, {"family": "F1194", "m": "H"}, {"family": "F1175", "m": "M"}, {"family": "F1173", "m": "M"}, {"family": "F1200", "m": "M"}]}
+{"sid": "MediBec-CRG/S8", "families": [{"family": "F1094", "m": "H"}, {"family": "F0436", "m": "H"}, {"family": "F1110", "m": "H"}, {"family": "F0824", "m": "M"}, {"family": "F0430", "m": "M"}, {"family": "F1263", "m": "M"}]}
+{"sid": "MediBec-CRG/S9", "families": [{"family": "F1665", "m": "H"}, {"family": "F1685", "m": "H"}, {"family": "F1692", "m": "H"}, {"family": "F1640", "m": "M"}, {"family": "F1677", "m": "M"}, {"family": "F1696", "m": "M"}]}
+{"sid": "MediBec-CRG/S10", "families": [{"family": "F1062", "m": "H"}, {"family": "F1133", "m": "H"}, {"family": "F1135", "m": "H"}, {"family": "F1006", "m": "M"}, {"family": "F0971", "m": "M"}, {"family": "F1067", "m": "M"}]}
+{"sid": "MediBec-CRG/S11", "families": [{"family": "F0196", "m": "H"}, {"family": "F0063", "m": "M"}, {"family": "F0469", "m": "M"}]}
+{"sid": "MediBec-CRG/S12", "families": [{"family": "F1318", "m": "H"}, {"family": "F1300", "m": "H"}, {"family": "F1328", "m": "H"}, {"family": "F1302", "m": "H"}, {"family": "F0110", "m": "M"}, {"family": "F1291", "m": "M"}]}
+{"sid": "MediBec-CRG/S13", "families": [{"family": "F0707", "m": "H"}, {"family": "F0680", "m": "H"}, {"family": "F0697", "m": "H"}, {"family": "F0674", "m": "M"}, {"family": "F0671", "m": "M"}]}
+{"sid": "MediBec-CRG/S14", "families": [{"family": "F1586", "m": "H"}, {"family": "F1612", "m": "H"}, {"family": "F1520", "m": "H"}, {"family": "F1525", "m": "H"}, {"family": "F1523", "m": "M"}, {"family": "F1547", "m": "M"}]}
+{"sid": "MediBec-CRG/S15", "families": [{"family": "F1430", "m": "H"}, {"family": "F1418", "m": "H"}, {"family": "F1403", "m": "H"}, {"family": "F0569", "m": "H"}, {"family": "F0118", "m": "M"}, {"family": "F0476", "m": "M"}]}
+{"sid": "MediBec-CRG/S16", "families": [{"family": "F0669", "m": "M"}, {"family": "F1768", "m": "M"}, {"family": "F0702", "m": "M"}, {"family": "F0696", "m": "M"}]}
+{"sid": "MediBec-CRG/S17", "families": [{"family": "F0052", "m": "M"}, {"family": "F0313", "m": "M"}]}
+{"sid": "MediBec-CRG/S18", "families": [{"family": "F1796", "m": "H"}, {"family": "F0182", "m": "M"}, {"family": "F0263", "m": "M"}, {"family": "F0616", "m": "M"}, {"family": "F1792", "m": "M"}]}
+{"sid": "MediBec-CRG/S19", "families": [{"family": "F1696", "m": "H"}, {"family": "F0170", "m": "H"}, {"family": "F1632", "m": "H"}, {"family": "F1689", "m": "M"}, {"family": "F1664", "m": "M"}]}
+{"sid": "MediBec-CRG/S20", "families": [{"family": "F0033", "m": "M"}, {"family": "F0041", "m": "M"}]}
+{"sid": "MediBec-CRG/S21", "families": [{"family": "F0542", "m": "H"}, {"family": "F0885", "m": "H"}, {"family": "F0861", "m": "H"}, {"family": "F0997", "m": "H"}, {"family": "F0952", "m": "M"}, {"family": "F1011", "m": "M"}]}
+{"sid": "MediBec-CRG/S22", "families": [{"family": "F0076", "m": "H"}, {"family": "F0112", "m": "H"}, {"family": "F0090", "m": "H"}, {"family": "F1280", "m": "H"}, {"family": "F0026", "m": "H"}, {"family": "F0853", "m": "M"}]}
+{"sid": "MediBec-CRG/S23", "families": [{"family": "F1287", "m": "H"}, {"family": "F1800", "m": "H"}, {"family": "F0058", "m": "M"}, {"family": "F1285", "m": "M"}, {"family": "F0125", "m": "M"}, {"family": "F0070", "m": "M"}]}
+{"sid": "MediBec-CRG/S24", "families": [{"family": "F1476", "m": "H"}, {"family": "F1485", "m": "H"}, {"family": "F1464", "m": "H"}, {"family": "F1491", "m": "H"}, {"family": "F1498", "m": "H"}, {"family": "F1544", "m": "M"}]}
+{"sid": "MediBec-CRG/S25", "families": [{"family": "F0525", "m": "H"}, {"family": "F0550", "m": "H"}, {"family": "F1377", "m": "H"}, {"family": "F1734", "m": "H"}, {"family": "F0798", "m": "M"}, {"family": "F1039", "m": "M"}]}
+{"sid": "MediBec-CRG/S26", "families": [{"family": "F0918", "m": "M"}, {"family": "F0653", "m": "M"}]}
+{"sid": "MediBec-CRG/S27", "families": [{"family": "F1528", "m": "H"}, {"family": "F1622", "m": "H"}, {"family": "F1620", "m": "H"}, {"family": "F0858", "m": "M"}, {"family": "F1618", "m": "M"}]}
+{"sid": "MediBec-CRG/S28", "families": [{"family": "F0955", "m": "H"}, {"family": "F0909", "m": "H"}, {"family": "F1014", "m": "H"}, {"family": "F1007", "m": "H"}, {"family": "F0959", "m": "M"}, {"family": "F0895", "m": "M"}]}
+{"sid": "MediBec-CRG/S29", "families": [{"family": "F1227", "m": "M"}, {"family": "F1177", "m": "M"}, {"family": "F1230", "m": "M"}, {"family": "F0492", "m": "M"}, {"family": "F0460", "m": "M"}]}
+{"sid": "MediBec-CRG/S30", "families": [{"family": "F1598", "m": "H"}, {"family": "F1539", "m": "M"}, {"family": "F1581", "m": "M"}, {"family": "F1546", "m": "M"}, {"family": "F1583", "m": "M"}]}

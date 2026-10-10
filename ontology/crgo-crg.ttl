@@ -1175,8 +1175,8 @@ crgo:crgo-crg a owl:Ontology ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-measure ;
-    owl:versionIRI <https://w3id.org/crgo/0.2.0/crgo-crg> ;
-    owl:versionInfo "0.2.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.3.0/crgo-crg> ;
+    owl:versionInfo "0.3.0" .
 
 # --- screening score
 crgo:CRGO_0000039 a owl:Class ;

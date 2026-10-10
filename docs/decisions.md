@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.2.0
+# Design decisions — CRGO 0.3.0
 
 This file records why the ontology looks the way it does.
 
@@ -176,3 +176,31 @@ Scenario themes link through the existing `hasScenarioCategory`; framework conce
 - The links that identification needs are mostly text today: library scenarios have threat-event and weakness descriptions but no ATT&CK, control or obligation links. A mapping step (scenario family → ATT&CK technique, family → control requirement), with confidence and review status on each link, is the main gap to close.
 - CyberRiskGuardian consumes JSON. Identification results need a compact JSON export (and a query interface, for example a SPARQL endpoint or an MCP tool) that returns candidates with their provenance and confidence, so that Claude cites sources and keeps "AI estimate — validation required" labels.
 - Library values are priors for a fictitious healthcare organisation; identification output must say so and never present them as organisational evidence (CRG evidence discipline).
+
+## 9. Scenario library with framework links and case estimates (0.3.0, approved 2026-10-10)
+
+Requested by the project owner: build the 1,811 scenarios into the ontology as actual risks, with links to the frameworks, and use other sources for estimates, starting with the teaching cases in Drive.
+
+### 9.1 Framework links
+- Every family was judged by Claude against the complete list of valid identifiers (method and rules: `pipeline/links/README.md`): 19,709 links. ATT&CK techniques attach to the family's threat event description (`hasExternalReference`); CSF 2.0, SP 800-53 and ISO/IEC 27002 to the scenario (`hasRelevantRequirement`, new); Loi 25 obligations through `triggersObligation`.
+- Each link is an assertion annotated with its confidence, `proposedBy` Claude and status *proposed* (OWL 2 axiom annotations), so a consumer can filter by confidence.
+- Coverage: every family has CSF, SP 800-53 and ISO links; 1,111 have ATT&CK techniques (the others are control gaps, accidents or environmental events); 762 have Loi 25 obligations.
+- P-39.1 s. 10 (security measures) was added to the Loi 25 vocabulary after the review pointed out its absence, and linked by rule to every family that involves personal information (marked as rule-based on each link).
+- Independent check (50 random families, 510 links): 83% correct, 99% at least defensible, 4 wrong (all low confidence). High-confidence links: 97% correct, none wrong. Main weakness: omissions, especially ATT&CK steps described in the event sequence. Use: accept high links with light review, review medium, treat low as suggestions.
+- A bug in the first reference list (ISO identifiers such as 5.10 read as numbers and shown as "5.1") made 228 ISO choices ambiguous; those were judged again with the corrected list.
+- ATT&CK 19.2 revoked several well-known identifiers (for example T1562 Impair Defenses → T1685, T1656 Impersonation → T1684.001). The vocabulary keeps the 161 revoked or deprecated techniques as deprecated concepts with `dcterms:isReplacedBy` where MITRE gives a replacement, so older tools still resolve.
+- During judgement, each family's threat source types were also re-assessed and replace the keyword guesses; where the judge proposed a different theme, it is added as a second theme (medium confidence) and the approved theme is kept.
+
+### 9.2 Case-based estimates
+- Source: the fictional teaching cases in Drive (CanaRetail, ACRB, MediBec, Chez Pierre: instructor annex values; Maple Rotisserie and CNIC have no scenario values) and the worked CyberRiskGuardian assessment of MediBec (30 scenarios). Extraction with verbatim quotes and locations: `data/library/case_scenarios.json`.
+- The 67 case scenarios become library scenarios of their own (sector from the case), each `refines` the families it matches (333 matches, graded high or medium; one case scenario, DLL hijacking, has no family).
+- 273 matched families receive a second, case-calibrated set of estimates (median of the matching case values, with count and range), confidence *medium* when based on high-grade matches, else *low*; the 2023 LLM values stay alongside, confidence *low*.
+- Case CVSS scores are recomputed from the vectors: the scores stated in the cases did not match their vectors in any of the 30 checked. ACRB gives no criticality value, so its risk cannot be computed.
+- Evidence basis is *external evidence* with the note "calibration aids, not organisational evidence", following CyberRiskGuardian's evidence rules.
+
+### 9.3 Packaging
+- `ontology/crgo-full.ttl` imports the core modules, the scenario library and the vocabularies; it is in OWL 2 DL and consistent under HermiT.
+- `queries/identify-by-asset-category.rq` is a first identification query (asset category → scenarios → ATT&CK techniques, controls and obligations, with confidence). In rdflib it takes minutes over the full graph; a triple store is needed for interactive use by CyberRiskGuardian (Phase 4).
+- New term, proposed: `hasRelevantRequirement`.
+
+**Approval of 0.3.0 (2026-10-10).** The project owner approved `hasRelevantRequirement` and approved the framework links by group: all high- and medium-confidence links (17,967) now carry status *approved*, `approvedBy` Marc-André Léger and `approvalDate` 2026-10-10 on their axiom annotation. The 1,742 low-confidence links remain *proposed* and should be read as suggestions. Second themes and case-scenario matches were not part of the link groups and stay *proposed*.

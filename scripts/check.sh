@@ -55,9 +55,12 @@ if $ROBOT reason --catalog tests/crg/catalog-v001.xml --input tests/crg/medibec3
   echo "   medibec30: consistent"; else echo "   medibec30: INCONSISTENT (see build/medibec-reason.log)"; fail=1; fi
 
 if [ "${WITH_LIBRARY:-0}" = 1 ]; then
-  echo "9. Scenario library instance data (slow)"
-  if $ROBOT reason --catalog data/abox/catalog-v001.xml --input data/abox/crgo-library.ttl --reasoner HermiT --output build/library-inferred.ttl > build/library-reason.log 2>&1; then
-    echo "   crgo-library: consistent"; else echo "   crgo-library: INCONSISTENT (see build/library-reason.log)"; fail=1; fi
+  echo "9. Full ontology with scenario library and vocabularies (slow)"
+  $ROBOT merge --catalog ontology/catalog-v001.xml --input ontology/crgo-full.ttl --output build/crgo-full-merged.ttl > build/full-merge.log 2>&1 || { echo "   full merge FAILED"; fail=1; }
+  if $ROBOT validate-profile --input build/crgo-full-merged.ttl --profile DL --output build/full-profile.txt > /dev/null 2>&1; then
+    echo "   crgo-full (modules + library + vocabularies): in OWL 2 DL"; else echo "   crgo-full: NOT in OWL 2 DL (see build/full-profile.txt)"; fail=1; fi
+  if $ROBOT reason --input build/crgo-full-merged.ttl --reasoner HermiT --equivalent-classes-allowed none --output build/full-inferred.ttl > build/full-reason.log 2>&1; then
+    echo "   crgo-full: consistent, no unsatisfiable classes"; else echo "   crgo-full: FAILED (see build/full-reason.log)"; fail=1; fi
 fi
 
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"

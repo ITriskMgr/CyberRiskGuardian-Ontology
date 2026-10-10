@@ -18,6 +18,6 @@ crgo:crgo a owl:Ontology ;
         crgo:crgo-crg,
         crgo:crgo-gov,
         crgo:crgo-measure ;
-    owl:versionIRI <https://w3id.org/crgo/0.2.0/crgo> ;
-    owl:versionInfo "0.2.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.3.0/crgo> ;
+    owl:versionInfo "0.3.0" .
 

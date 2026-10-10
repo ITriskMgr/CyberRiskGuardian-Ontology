@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.2.0, approved by the project owner (0.1.0 on 2026-10-08; Phase 3 additions on 2026-10-10). Decisions in `src/approvals.tsv`. Phases 4–5 to come.**
+**Status: 0.3.0, approved by the project owner on 2026-10-10: core modules, scenario library with framework links (high- and medium-confidence links approved; low-confidence links remain suggestions), case-based estimates, `crgo-full`. Decisions in `src/approvals.tsv`. Phases 4–5 to come.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -22,6 +22,7 @@ from them. It replaces the earlier MOACCO ontology, which is retired.
 | crgo-measure | `https://w3id.org/crgo/crgo-measure` | Generic estimates (likelihood, impact, risk level, control effectiveness) and scales |
 | crgo-crg | `https://w3id.org/crgo/crgo-crg` | The CRG v1.0c model: the six parameters, CVSS input, reductions, KRI quantities, calculation activity, screening |
 | crgo (umbrella) | `https://w3id.org/crgo/crgo` | Imports all four |
+| crgo-full | `https://w3id.org/crgo/crgo-full` | crgo + scenario library (`data/abox/crgo-library.ttl`) + all vocabularies |
 
 Import chain: `crg → measure → core → {gov, BFO-2020, CCO slice}`. Term IRIs are
 opaque (`https://w3id.org/crgo/CRGO_nnnnnnn`) and stay stable across versions;
@@ -40,7 +41,8 @@ tests/           fixtures (one positive, three negative); tests/crg: MediBec rou
 scripts/         check.sh, check_metadata.py, check_modules.py, check_vocab.py, review workbooks
 ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, CCM domains, ATT&CK
                  (CCM controls are built privately into ontology/vocab-private/, never committed)
-pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), CRG bridge (pipeline/crg), fetch_sources.sh
+pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), framework links (pipeline/links), CRG bridge (pipeline/crg)
+queries/         SPARQL queries, starting with identification (asset category → scenarios, techniques, controls)
 data/library/    repaired 2023 scenario library: rows, families, category map, repair report
 data/abox/       library instance data (crgo-library.ttl)
 data/frameworks/ verified framework tables with their sources
@@ -97,4 +99,4 @@ range of *is crown jewel*.
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.2.0.
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.3.0.

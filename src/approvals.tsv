@@ -2,6 +2,7 @@
 # 2026-10-08: all terms of version 0.1.0 approved after review of CRGO-0.1.0-term-review.xlsx.
 # 2026-10-08 (0.2.0 draft): hasThreatSourceType definition reworded (removed class EnvironmentalHazard); back to proposed for re-approval.
 # 2026-10-10: the 7 new or changed terms of 0.2.0 and the 23 scenario themes approved after review of CRGO-0.2.0-phase3-review.xlsx. Vocabulary concepts are keyed scheme/notation.
+# 2026-10-10: 0.3.0 review: hasRelevantRequirement approved; framework links approved by group (all schemes, confidence H and M); low-confidence links stay proposed. Link groups are keyed links/<scheme>/<confidence>.
 Asset	Approve	MAL	2026-10-08	
 InformationAsset	Approve	MAL	2026-10-08	
 SoftwareAsset	Approve	MAL	2026-10-08	
@@ -358,3 +359,14 @@ theme/ThemeCompliance	Approve	MAL	2026-10-10
 theme/ThemeITGov	Approve	MAL	2026-10-10	
 theme/ThemeReputation	Approve	MAL	2026-10-10	
 theme/ThemeOther	Approve	MAL	2026-10-10	
+hasRelevantRequirement	Approve	MAL	2026-10-10	
+links/attack/H	Approve	MAL	2026-10-10	
+links/attack/M	Approve	MAL	2026-10-10	
+links/csf2/H	Approve	MAL	2026-10-10	
+links/csf2/M	Approve	MAL	2026-10-10	
+links/sp80053r5/H	Approve	MAL	2026-10-10	
+links/sp80053r5/M	Approve	MAL	2026-10-10	
+links/iso27002/H	Approve	MAL	2026-10-10	
+links/iso27002/M	Approve	MAL	2026-10-10	
+links/loi25/H	Approve	MAL	2026-10-10	
+links/loi25/M	Approve	MAL	2026-10-10	

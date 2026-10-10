@@ -7,4 +7,14 @@
   <uri name="https://w3id.org/crgo/crgo-measure" uri="crgo-measure.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-crg" uri="crgo-crg.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="crgo.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-full" uri="crgo-full.ttl"/>
+  <uri name="https://w3id.org/crgo/data/library" uri="../data/abox/crgo-library.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/attack" uri="vocab/attack.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/ccm41" uri="vocab/ccm41.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/cobit2019" uri="vocab/cobit2019.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/csf2" uri="vocab/csf2.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso27002-2022" uri="vocab/iso27002-2022.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/loi25" uri="vocab/loi25.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/sp800-53r5" uri="vocab/sp800-53r5.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/theme" uri="vocab/theme.ttl"/>
 </catalog>

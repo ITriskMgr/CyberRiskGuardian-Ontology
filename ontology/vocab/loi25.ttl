@@ -10,7 +10,7 @@ loi25:C-1.1_s._44 a skos:Concept ;
         "La vérification de l'identité par biométrie ne peut être exigée qu'après divulgation préalable à la Commission et avec le consentement exprès de la personne, au moyen d'un minimum de caractéristiques détruites une fois l'objectif atteint."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "C-1.1 s. 44" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: C-1.1 s. 44."@en ;
     skos:prefLabel "Identity verification using biometrics (prior disclosure and express consent)"@en,
         "Vérification ou confirmation de l'identité au moyen de caractéristiques ou de mesures biométriques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -25,7 +25,7 @@ loi25:C-1.1_s._45 a skos:Concept ;
         "La création d'une banque de caractéristiques ou de mesures biométriques doit être divulguée à la Commission avec diligence, au plus tard 60 jours avant sa mise en service, et la Commission peut l'encadrer, la suspendre ou en ordonner la destruction."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "C-1.1 s. 45" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: C-1.1 s. 45."@en ;
     skos:prefLabel "Disclosure of a biometric database to the Commission"@en,
         "Banque de caractéristiques ou de mesures biométriques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -35,57 +35,27 @@ loi25:C-1.1_s._45 a skos:Concept ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.2.0" .
 
-loi25:P-39.1_A-2.1_r._0.1_s._23 a skos:Concept ;
-    skos:definition "Once the purposes are achieved, personal information must be destroyed or irreversibly anonymized according to generally accepted best practices and the Regulation respecting the anonymization of personal information."@en,
-        "Lorsque les fins sont accomplies, le renseignement doit être détruit ou anonymisé de façon irréversible selon les meilleures pratiques généralement reconnues et le Règlement sur l'anonymisation des renseignements personnels."@fr ;
+loi25:P-39.1_s._10 a skos:Concept ;
+    skos:definition "The enterprise must take security measures to protect the personal information it collects, uses, communicates, keeps or destroys, reasonable given its sensitivity, purpose, quantity, distribution and medium. Not amended by Law 25, but failing it is subject to a monetary administrative penalty under s. 90.1 since 22 Sep 2023."@en,
+        "L'entreprise doit prendre des mesures de sécurité pour protéger les renseignements personnels qu'elle recueille, utilise, communique, conserve ou détruit, raisonnables compte tenu de leur sensibilité, de leur finalité, de leur quantité, de leur répartition et de leur support. Non modifié par la Loi 25, mais son non-respect est passible d'une sanction administrative pécuniaire (art. 90.1) depuis le 22 septembre 2023."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
-    skos:notation "P-39.1; A-2.1, r. 0.1 s. 23" ;
-    skos:note "In force 2023-09-22 (Act); 2024-05-30 (Regulation; register s. 9: 2025-01-01)."@en ;
-    skos:prefLabel "Destruction or anonymization at end of purpose"@en,
-        "Destruction ou anonymisation"@fr ;
+    skos:notation "P-39.1 s. 10" ;
+    skos:note "In force 2006-06-14 (penalty under s. 90.1 from 2023-09-22). Source text: P-39.1 s. 10."@en ;
+    skos:prefLabel "Security measures proportionate to the sensitivity of personal information"@en,
+        "Mesures de sécurité propres à assurer la protection des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:23&historique=20230922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%200.1 ; https://www.blg.com/fr/insights/2024/05/entree-en-vigueur-du-nouveau-reglement-sur-lanonymisation-des-renseignements-personnels"@en ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:10&historique=20240922"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.2.0" .
-
-loi25:P-39.1_A-2.1_r._3.1_s._3.5__2nd_para._Reg._ss._3-6__notification a skos:Concept ;
-    skos:definition "If an incident presents a risk of serious injury, the enterprise must promptly notify the Commission d'accès à l'information and each person concerned, with the notice content and form set by the Regulation respecting confidentiality incidents."@en,
-        "Si l'incident présente un risque de préjudice sérieux, l'entreprise doit aviser avec diligence la Commission d'accès à l'information et chaque personne concernée, selon le contenu et les modalités prévus au Règlement sur les incidents de confidentialité."@fr ;
-    skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
-    skos:notation "P-39.1; A-2.1, r. 3.1 s. 3.5 (2nd para.); Reg. ss. 3-6 (notification)" ;
-    skos:note "In force 2022-09-22 (Act); 2022-12-29 (Regulation)."@en ;
-    skos:prefLabel "Notification of the Commission and persons concerned (risk of serious injury)"@en,
-        "Aviser avec diligence la Commission et toute personne concernée (risque de préjudice sérieux)"@fr ;
-    skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:3_5&historique=20220922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%203.1 ; https://www.fasken.com/fr/knowledge/2023/01/a-vos-marques-signalez-le-reglement-sur-les-incidents-de-confidentialite-est-en-vigueur"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.2.0" .
-
-loi25:P-39.1_A-2.1_r._3.1_s._3.8_Reg._ss._7-8 a skos:Concept ;
-    skos:definition "The enterprise must keep an up-to-date register of all confidentiality incidents, with the content set by regulation, retain each entry at least five years, and give the Commission a copy on request."@en,
-        "L'entreprise doit tenir à jour un registre de tous les incidents de confidentialité, au contenu fixé par règlement, conserver chaque inscription au moins cinq ans et en transmettre copie à la Commission sur demande."@fr ;
-    skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
-    skos:notation "P-39.1; A-2.1, r. 3.1 s. 3.8; Reg. ss. 7-8" ;
-    skos:note "In force 2022-09-22 (Act); 2022-12-29 (Regulation)."@en ;
-    skos:prefLabel "Register of confidentiality incidents"@en,
-        "Registre des incidents de confidentialité"@fr ;
-    skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:3_8&historique=20220922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%203.1 ; https://www.fasken.com/fr/knowledge/2023/01/a-vos-marques-signalez-le-reglement-sur-les-incidents-de-confidentialite-est-en-vigueur"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.2.0" .
+    crgo:CRGO_0000291 "0.3.0" .
 
 loi25:P-39.1_s._12 a skos:Concept ;
     skos:definition "Personal information may be used only for the purposes of its collection unless the person consents or a listed exception applies, with express consent required for sensitive information and reasonable measures against re-identification of de-identified data."@en,
         "Un renseignement ne peut être utilisé qu'aux fins de sa collecte, sauf consentement ou exception prévue, le consentement devant être exprès pour un renseignement sensible et des mesures raisonnables devant limiter la réidentification des renseignements dépersonnalisés."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 12" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 12."@en ;
     skos:prefLabel "Use limited to collection purposes; express consent for sensitive information"@en,
         "Utilisation aux seules fins de la collecte; consentement exprès pour un renseignement sensible"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -100,7 +70,7 @@ loi25:P-39.1_s._12.1 a skos:Concept ;
         "La personne visée par une décision fondée exclusivement sur un traitement automatisé doit en être informée, peut obtenir sur demande les renseignements, raisons et principaux facteurs utilisés, et présenter ses observations à un membre du personnel pouvant réviser la décision."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 12.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 12.1."@en ;
     skos:prefLabel "Decision based exclusively on automated processing"@en,
         "Décision fondée exclusivement sur un traitement automatisé"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -115,7 +85,7 @@ loi25:P-39.1_s._14 a skos:Concept ;
         "Le consentement doit être manifeste, libre, éclairé et donné à des fins spécifiques, demandé distinctement en termes simples et clairs, valable pour la durée nécessaire seulement, et est sans effet autrement."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 14" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 14."@en ;
     skos:prefLabel "Valid consent requirements"@en,
         "Consentement manifeste, libre, éclairé et donné à des fins spécifiques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -130,7 +100,7 @@ loi25:P-39.1_s._17 a skos:Concept ;
         "Avant de communiquer ou de confier un renseignement à l'extérieur du Québec, l'entreprise doit réaliser une évaluation des facteurs relatifs à la vie privée démontrant une protection adéquate et encadrer la communication par une entente écrite."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 17" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 17."@en ;
     skos:prefLabel "Communication outside Québec (PIA and written agreement)"@en,
         "Communication à l'extérieur du Québec"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -145,7 +115,7 @@ loi25:P-39.1_s._18.3 a skos:Concept ;
         "Un renseignement peut être communiqué sans consentement à un mandataire ou prestataire seulement en vertu d'un contrat écrit précisant les mesures de confidentialité, d'utilisation et de destruction, le prestataire devant aviser sans délai de toute violation."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 18.3" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 18.3."@en ;
     skos:prefLabel "Written mandate or contract with service providers"@en,
         "Mandat ou contrat de service ou d'entreprise"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -160,7 +130,7 @@ loi25:P-39.1_s._18.4 a skos:Concept ;
         "Un renseignement peut être communiqué sans consentement à l'autre partie à une transaction commerciale si cela est nécessaire et en vertu d'une entente préalable limitant l'utilisation, assurant la confidentialité et exigeant la destruction si la transaction échoue."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 18.4" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 18.4."@en ;
     skos:prefLabel "Communication in a commercial transaction"@en,
         "Transaction commerciale"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -175,7 +145,7 @@ loi25:P-39.1_s._21 a skos:Concept ;
         "Un renseignement peut être communiqué sans consentement à des fins d'étude, de recherche ou de statistiques seulement si une évaluation des facteurs relatifs à la vie privée conclut au respect des conditions prévues (nécessité, consentement déraisonnable, intérêt public, confidentialité, minimisation)."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 21" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 21."@en ;
     skos:prefLabel "Communication for study, research or statistics"@en,
         "Communication à des fins d'étude, de recherche ou de production de statistiques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -185,12 +155,27 @@ loi25:P-39.1_s._21 a skos:Concept ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.2.0" .
 
+loi25:P-39.1_s._23 a skos:Concept ;
+    skos:definition "Once the purposes are achieved, personal information must be destroyed or irreversibly anonymized according to generally accepted best practices and the Regulation respecting the anonymization of personal information."@en,
+        "Lorsque les fins sont accomplies, le renseignement doit être détruit ou anonymisé de façon irréversible selon les meilleures pratiques généralement reconnues et le Règlement sur l'anonymisation des renseignements personnels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
+    skos:notation "P-39.1 s. 23" ;
+    skos:note "In force 2023-09-22 (Act); 2024-05-30 (Regulation; register s. 9: 2025-01-01). Source text: P-39.1; A-2.1, r. 0.1 s. 23."@en ;
+    skos:prefLabel "Destruction or anonymization at end of purpose"@en,
+        "Destruction ou anonymisation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:23&historique=20230922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%200.1 ; https://www.blg.com/fr/insights/2024/05/entree-en-vigueur-du-nouveau-reglement-sur-lanonymisation-des-renseignements-personnels"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._27__3rd_para.> a skos:Concept ;
     skos:definition "On request, computerized personal information collected from the person must be communicated to them, or to a person authorized by law, in a structured and commonly used technological format, barring serious practical difficulties."@en,
         "Sur demande, le renseignement informatisé recueilli auprès de la personne doit lui être communiqué, ou à une personne autorisée par la loi, dans un format technologique structuré et couramment utilisé, sauf difficultés pratiques sérieuses."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 27 (3rd para.)" ;
-    skos:note "In force 2024-09-22."@en ;
+    skos:note "In force 2024-09-22. Source text: P-39.1 s. 27 (3rd para.)."@en ;
     skos:prefLabel "Data portability in a structured, commonly used format"@en,
         "Communication dans un format technologique structuré et couramment utilisé"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -205,7 +190,7 @@ loi25:P-39.1_s._28.1 a skos:Concept ;
         "Une personne peut exiger que l'entreprise cesse de diffuser ses renseignements ou désindexe tout hyperlien rattaché à son nom lorsque la diffusion contrevient à la loi ou cause un préjudice grave l'emportant sur l'intérêt public."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 28.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 28.1."@en ;
     skos:prefLabel "Cessation of dissemination and de-indexation"@en,
         "Cessation de diffusion et désindexation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -220,7 +205,7 @@ loi25:P-39.1_s._3.1 a skos:Concept ;
         "La personne ayant la plus haute autorité exerce la fonction de responsable de la protection des renseignements personnels, peut la déléguer par écrit, et le titre et les coordonnées du responsable doivent être publiés."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.1" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 3.1."@en ;
     skos:prefLabel "Person in charge of the protection of personal information"@en,
         "Responsable de la protection des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -235,7 +220,7 @@ loi25:P-39.1_s._3.2 a skos:Concept ;
         "L'entreprise doit établir, mettre en œuvre et publier des politiques et pratiques de gouvernance proportionnées couvrant la conservation, la destruction, les rôles du personnel et le traitement des plaintes, approuvées par le responsable."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.2" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 3.2."@en ;
     skos:prefLabel "Governance policies and practices"@en,
         "Politiques et pratiques encadrant la gouvernance"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -250,7 +235,7 @@ loi25:P-39.1_s._3.3 a skos:Concept ;
         "Une évaluation des facteurs relatifs à la vie privée est requise pour tout projet d'acquisition, de développement ou de refonte d'un système d'information ou de prestation électronique de services impliquant des renseignements personnels, en consultant le responsable dès le début."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.3" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 3.3."@en ;
     skos:prefLabel "Privacy impact assessment for information system or electronic service delivery projects"@en,
         "Évaluation des facteurs relatifs à la vie privée"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -265,7 +250,7 @@ loi25:P-39.1_s._3.3 a skos:Concept ;
         "Lorsqu'elle a des motifs de croire qu'un incident de confidentialité s'est produit, l'entreprise doit prendre des mesures raisonnables pour diminuer les risques de préjudice et éviter de nouveaux incidents."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.5 (1st para.)" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 3.5 (1st para.)."@en ;
     skos:prefLabel "Reasonable measures after a confidentiality incident"@en,
         "Mesures raisonnables pour diminuer les risques qu'un préjudice soit causé"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -275,12 +260,27 @@ loi25:P-39.1_s._3.3 a skos:Concept ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.2.0" .
 
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> a skos:Concept ;
+    skos:definition "If an incident presents a risk of serious injury, the enterprise must promptly notify the Commission d'accès à l'information and each person concerned, with the notice content and form set by the Regulation respecting confidentiality incidents."@en,
+        "Si l'incident présente un risque de préjudice sérieux, l'entreprise doit aviser avec diligence la Commission d'accès à l'information et chaque personne concernée, selon le contenu et les modalités prévus au Règlement sur les incidents de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
+    skos:notation "P-39.1 s. 3.5 (2nd para.)" ;
+    skos:note "In force 2022-09-22 (Act); 2022-12-29 (Regulation). Source text: P-39.1; A-2.1, r. 3.1 s. 3.5 (2nd para.); Reg. ss. 3-6."@en ;
+    skos:prefLabel "Notification of the Commission and persons concerned (risk of serious injury)"@en,
+        "Aviser avec diligence la Commission et toute personne concernée (risque de préjudice sérieux)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:3_5&historique=20220922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%203.1 ; https://www.fasken.com/fr/knowledge/2023/01/a-vos-marques-signalez-le-reglement-sur-les-incidents-de-confidentialite-est-en-vigueur"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
 loi25:P-39.1_s._3.6 a skos:Concept ;
     skos:definition "A confidentiality incident is any unauthorized access, use or communication of personal information, or its loss or any other breach of its protection."@en,
         "Un incident de confidentialité est tout accès, utilisation ou communication non autorisés d'un renseignement personnel, ou sa perte ou toute autre atteinte à sa protection."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.6" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 3.6."@en ;
     skos:prefLabel "Confidentiality incident (definition)"@en,
         "Incident de confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -295,7 +295,7 @@ loi25:P-39.1_s._3.7 a skos:Concept ;
         "Le risque de préjudice s'évalue selon la sensibilité du renseignement, les conséquences appréhendées de son utilisation et la probabilité d'une utilisation préjudiciable, en consultant le responsable."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 3.7" ;
-    skos:note "In force 2022-09-22."@en ;
+    skos:note "In force 2022-09-22. Source text: P-39.1 s. 3.7."@en ;
     skos:prefLabel "Assessment of the risk of serious injury"@en,
         "Évaluation du risque qu'un préjudice soit causé"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -305,12 +305,27 @@ loi25:P-39.1_s._3.7 a skos:Concept ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.2.0" .
 
+loi25:P-39.1_s._3.8 a skos:Concept ;
+    skos:definition "The enterprise must keep an up-to-date register of all confidentiality incidents, with the content set by regulation, retain each entry at least five years, and give the Commission a copy on request."@en,
+        "L'entreprise doit tenir à jour un registre de tous les incidents de confidentialité, au contenu fixé par règlement, conserver chaque inscription au moins cinq ans et en transmettre copie à la Commission sur demande."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
+    skos:notation "P-39.1 s. 3.8" ;
+    skos:note "In force 2022-09-22 (Act); 2022-12-29 (Regulation). Source text: P-39.1; A-2.1, r. 3.1 s. 3.8; Reg. ss. 7-8."@en ;
+    skos:prefLabel "Register of confidentiality incidents"@en,
+        "Registre des incidents de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:3_8&historique=20220922 ; https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-2.1,%20r.%203.1 ; https://www.fasken.com/fr/knowledge/2023/01/a-vos-marques-signalez-le-reglement-sur-les-incidents-de-confidentialite-est-en-vigueur"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
 loi25:P-39.1_s._4.1 a skos:Concept ;
     skos:definition "Personal information about a minor under 14 may not be collected from the minor without consent of the person having parental authority or the tutor, unless collection is clearly for the minor's benefit."@en,
         "Un renseignement concernant un mineur de moins de 14 ans ne peut être recueilli auprès de lui sans le consentement du titulaire de l'autorité parentale ou du tuteur, sauf si la collecte est manifestement à son avantage."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 4.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 4.1."@en ;
     skos:prefLabel "Parental consent for minors under 14"@en,
         "Consentement du titulaire de l'autorité parentale ou du tuteur (mineur de moins de 14 ans)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -325,7 +340,7 @@ loi25:P-39.1_s._8 a skos:Concept ;
         "Lors de la collecte, la personne concernée doit être informée, en termes simples et clairs, des fins, des moyens, de ses droits d'accès et de rectification, de son droit de retirer son consentement et, le cas échéant, des tiers et de la possibilité de communication hors Québec."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 8" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 8."@en ;
     skos:prefLabel "Information to be provided at collection"@en,
         "Informations à fournir lors de la collecte"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -340,7 +355,7 @@ loi25:P-39.1_s._8.1 a skos:Concept ;
         "Avant une collecte au moyen d'une technologie permettant d'identifier, de localiser ou de profiler une personne, l'entreprise doit l'informer du recours à cette technologie et des moyens d'activer ces fonctions."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 8.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 8.1."@en ;
     skos:prefLabel "Technology allowing identification, location or profiling"@en,
         "Technologie comprenant des fonctions permettant d'identifier, de localiser ou d'effectuer un profilage"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -355,7 +370,7 @@ loi25:P-39.1_s._8.2 a skos:Concept ;
         "L'entreprise qui recueille des renseignements par un moyen technologique doit publier et diffuser une politique de confidentialité rédigée en termes simples et clairs, ainsi que tout avis de modification."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 8.2" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 8.2."@en ;
     skos:prefLabel "Published privacy policy for technological collection"@en,
         "Politique de confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -370,7 +385,7 @@ loi25:P-39.1_s._9.1 a skos:Concept ;
         "Un produit ou service technologique offert au public et doté de paramètres de confidentialité doit assurer par défaut le plus haut niveau de confidentialité, sans intervention de l'utilisateur, sauf pour les témoins de connexion."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 9.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 9.1."@en ;
     skos:prefLabel "Highest level of confidentiality by default"@en,
         "Paramètres assurant le plus haut niveau de confidentialité par défaut"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -385,7 +400,7 @@ loi25:P-39.1_s._90.1 a skos:Concept ;
         "Une personne désignée par la Commission peut imposer une sanction administrative pécuniaire pour les manquements énumérés, dont le défaut d'informer, la collecte ou l'utilisation illégale, le défaut de déclarer un incident, l'insuffisance des mesures de sécurité (art. 10) et les manquements relatifs aux décisions automatisées (art. 12.1)."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 90.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 90.1."@en ;
     skos:prefLabel "Failures subject to a monetary administrative penalty"@en,
         "Sanction administrative pécuniaire"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -400,7 +415,7 @@ loi25:P-39.1_s._90.12 a skos:Concept ;
         "La sanction peut atteindre 50 000 $ pour une personne physique et, dans les autres cas, 10 000 000 $ ou 2 % du chiffre d'affaires mondial de l'exercice précédent, le plus élevé des deux."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 90.12" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 90.12."@en ;
     skos:prefLabel "Maximum monetary administrative penalty"@en,
         "Montant maximal de la sanction administrative pécuniaire"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -415,7 +430,7 @@ loi25:P-39.1_s._91 a skos:Concept ;
         "Les infractions, comme la collecte, l'utilisation ou la communication illégale ou le défaut de déclarer un incident, entraînent une amende de 5 000 $ à 100 000 $ pour une personne physique et de 15 000 $ à 25 000 000 $ ou 4 % du chiffre d'affaires mondial, le plus élevé, dans les autres cas."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 91" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 91."@en ;
     skos:prefLabel "Penal offences and fines"@en,
         "Dispositions pénales (amendes)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -430,7 +445,7 @@ loi25:P-39.1_s._92.1 a skos:Concept ;
         "Les amendes prévues à la loi sont portées au double en cas de récidive."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 92.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 92.1."@en ;
     skos:prefLabel "Fines doubled for a subsequent offence"@en,
         "Récidive"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -445,7 +460,7 @@ loi25:P-39.1_s._93.1 a skos:Concept ;
         "Lorsqu'une atteinte illicite à un droit conféré par la loi cause un préjudice et résulte d'une faute intentionnelle ou lourde, le tribunal accorde des dommages-intérêts punitifs d'au moins 1 000 $."@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/loi25> ;
     skos:notation "P-39.1 s. 93.1" ;
-    skos:note "In force 2023-09-22."@en ;
+    skos:note "In force 2023-09-22. Source text: P-39.1 s. 93.1."@en ;
     skos:prefLabel "Punitive damages for intentional or grossly negligent infringement"@en,
         "Dommages-intérêts punitifs"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/loi25> ;
@@ -463,13 +478,11 @@ loi25:P-39.1_s._93.1 a skos:Concept ;
     dcterms:source "LégisQuébec, CQLR c. P-39.1 and c. C-1.1; see data/frameworks/loi25.tsv" ;
     dcterms:title "Québec Law 25: obligations under the private-sector privacy Act"@en,
         "Loi 25 du Québec : obligations de la Loi sur le secteur privé"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.2.0/loi25> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.3.0/loi25> ;
     owl:versionInfo "S.Q. 2021, c. 25, as consolidated in LégisQuébec on 2026-10-08" ;
     skos:hasTopConcept loi25:C-1.1_s._44,
         loi25:C-1.1_s._45,
-        loi25:P-39.1_A-2.1_r._0.1_s._23,
-        loi25:P-39.1_A-2.1_r._3.1_s._3.5__2nd_para._Reg._ss._3-6__notification,
-        loi25:P-39.1_A-2.1_r._3.1_s._3.8_Reg._ss._7-8,
+        loi25:P-39.1_s._10,
         loi25:P-39.1_s._12,
         loi25:P-39.1_s._12.1,
         loi25:P-39.1_s._14,
@@ -477,14 +490,17 @@ loi25:P-39.1_s._93.1 a skos:Concept ;
         loi25:P-39.1_s._18.3,
         loi25:P-39.1_s._18.4,
         loi25:P-39.1_s._21,
+        loi25:P-39.1_s._23,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._27__3rd_para.>,
         loi25:P-39.1_s._28.1,
         loi25:P-39.1_s._3.1,
         loi25:P-39.1_s._3.2,
         loi25:P-39.1_s._3.3,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__1st_para.>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.>,
         loi25:P-39.1_s._3.6,
         loi25:P-39.1_s._3.7,
+        loi25:P-39.1_s._3.8,
         loi25:P-39.1_s._4.1,
         loi25:P-39.1_s._8,
         loi25:P-39.1_s._8.1,
@@ -495,5 +511,5 @@ loi25:P-39.1_s._93.1 a skos:Concept ;
         loi25:P-39.1_s._91,
         loi25:P-39.1_s._92.1,
         loi25:P-39.1_s._93.1 ;
-    skos:scopeNote "One concept per obligation, identified by Act and section."@en .
+    skos:scopeNote "One concept per obligation, identified by Act and section. Includes s. 10 (security measures), which Law 25 did not amend but made subject to monetary administrative penalties (s. 90.1)."@en .
 

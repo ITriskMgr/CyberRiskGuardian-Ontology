@@ -26,7 +26,7 @@ RAW = os.path.join(ROOT, "data", "raw")
 FW = os.path.join(ROOT, "data", "frameworks")
 OUT = os.path.join(ROOT, "ontology", "vocab")
 RETRIEVED = "2026-10-08"
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 CONF = {"H": C("ConfHigh"), "M": C("ConfMedium"), "L": C("ConfLow")}
 APPROVALS = {}
 for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
@@ -63,7 +63,7 @@ class Scheme:
         self.n = 0
 
     def concept(self, notation, label_en, label_fr=None, broader=None, definition_en=None, definition_fr=None,
-                source=None, conf="H", deprecated=False, see_also=None, note=None):
+                source=None, conf="H", deprecated=False, see_also=None, note=None, introduced="0.2.0"):
         c = self.ns[safe(notation)]
         g = self.g
         g.add((c, RDF.type, SKOS.Concept)); g.add((c, SKOS.inScheme, self.s))
@@ -96,7 +96,7 @@ class Scheme:
         if source:
             g.add((c, C("evidenceSource"), Literal(source, lang="en")))
         g.add((c, C("proposedBy"), C("AgentClaude")))
-        g.add((c, C("introducedIn"), Literal(VERSION)))
+        g.add((c, C("introducedIn"), Literal(introduced)))
         self.n += 1
         return c
 
@@ -193,12 +193,14 @@ s = Scheme("loi25", "Québec Law 25: obligations under the private-sector privac
            "S.Q. 2021, c. 25, as consolidated in LégisQuébec on %s" % RETRIEVED,
            "LégisQuébec, CQLR c. P-39.1 and c. C-1.1; see data/frameworks/loi25.tsv", None,
            "Labels and definitions are CRGO paraphrases; the official text is in LégisQuébec.", "Gouvernement du Québec (source text)",
-           "One concept per obligation, identified by Act and section.")
+           "One concept per obligation, identified by Act and section. Includes s. 10 (security measures), which Law 25 did not amend but made subject to monetary administrative penalties (s. 90.1).")
+sys.path.insert(0, HERE)
+from ids_loi25 import loi25_notation  # noqa: E402
 for r in tsv("loi25.tsv"):
-    note = "In force %s." % r["in_force"]
-    s.concept("%s s. %s" % (r["act"], r["section"]) if r["key"] != "Loi25IncidentNotification" else "%s s. %s (notification)" % (r["act"], r["section"]),
-              r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
-              source=r["sources"].replace(";", " ; "), conf="H" if r["status"] == "verified" else "M", note=note)
+    note = "In force %s. Source text: %s s. %s." % (r["in_force"], r["act"], r["section"])
+    s.concept(loi25_notation(r["act"], r["section"]), r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"].replace(";", " ; "), conf="H" if r["status"] == "verified" else "M", note=note,
+              introduced="0.3.0" if r["section"] == "10" else "0.2.0")
 report.append(("loi25", s.save()))
 
 # --- CSA CCM v4.1: domains only (control titles are not licensed for redistribution)
@@ -236,6 +238,24 @@ for o in sorted([o for o in objs if o["type"] == "attack-pattern"], key=lambda o
     if "." not in tid:
         for ph in [p["phase_name"] for p in o.get("kill_chain_phases", []) if p["kill_chain_name"] == "mitre-attack"][1:]:
             s.g.add((c, SKOS.related, s.ns[safe(tac[ph])]))
+# revoked and deprecated techniques stay as deprecated concepts, pointing to their replacement (crosswalk for older tools)
+byid = {o["id"]: o for o in bundle["objects"]}
+revoked_by = {r_["source_ref"]: r_["target_ref"] for r_ in bundle["objects"] if r_["type"] == "relationship" and r_.get("relationship_type") == "revoked-by"}
+active = {ext(o)["external_id"] for o in objs if o["type"] == "attack-pattern"}
+for o in bundle["objects"]:
+    if o["type"] != "attack-pattern" or not (o.get("revoked") or o.get("x_mitre_deprecated")):
+        continue
+    e = next((r_ for r_ in o.get("external_references", []) if r_.get("source_name") == "mitre-attack"), None)
+    if not e or e["external_id"] in active:
+        continue
+    tgt = byid.get(revoked_by.get(o["id"], ""))
+    new = next((r_["external_id"] for r_ in tgt.get("external_references", []) if r_.get("source_name") == "mitre-attack"), None) if tgt else None
+    c = s.concept(e["external_id"], o["name"], broader=None if "." not in e["external_id"] else None, deprecated=True, see_also=e.get("url"),
+                  source="MITRE ATT&CK Enterprise %s (revoked or deprecated)" % coll.get("x_mitre_version"),
+                  note=("Revoked; replaced by %s." % new) if new else "Deprecated in this ATT&CK release; no replacement.", introduced="0.3.0")
+    s.g.remove((c, SKOS.topConceptOf, s.s)); s.g.remove((s.s, SKOS.hasTopConcept, c))
+    if new and new in active:
+        s.g.add((c, DCTERMS.isReplacedBy, s.ns[safe(new)]))
 report.append(("attack", s.save()))
 
 for k, n in report:

@@ -27,6 +27,10 @@ licences apply to the files listed, not the CC BY-NC 4.0 licence of CRGO.
 - **CSA Cloud Controls Matrix v4.1**: domain identifiers and names only, © Cloud Security Alliance, attributed to the Cloud Security Alliance Cloud Controls Matrix Version 4.
 - **Québec Law 25**: labels and definitions are CRGO paraphrases with section references; the official text is published in LégisQuébec.
 
+## Case data
+
+- `data/library/case_scenarios.json` quotes values from fictional teaching cases (CanaRetail, ACRB, MediBec, Chez Pierre) by Marc-André Léger, used with permission of the author; instructor annex values are calibration aids, not facts about real organisations.
+
 ## Test data
 
 - `tests/crg/medibec30.json` is the fictional MediBec teaching case from CyberRiskGuardian (© Marc-André Léger, CC BY-NC 4.0).

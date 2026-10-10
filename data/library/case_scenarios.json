@@ -1,0 +1,2022 @@
+[
+ {
+  "sid": "CanaRetail/CR-S2",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Ransomware Siege on Critical Retail Data",
+  "threat_event": "A sophisticated ransomware variant infiltrates CanaRetail's central servers, encrypting vital data including customer purchase histories, supplier details, and financial records. The perpetrators demand a significant ransom in cryptocurrency, threatening data deletion and public exposure if unmet.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.55,
+   "red_i": 0.6,
+   "red_p": 0.7,
+   "cvss": 9.6
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 845) — Probability Threat Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 847) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 849) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 851) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 853) — Level of Organizational Resilience: 0.4",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 855) — Expected Utility: 0.55",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 881) — Impact Reduction: 0.6",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 1\\. Cybersecurity Risk Scenario 2: Ransomware Attack on CanaRetail (extracted text line 883) — Probability Reduction: 0.7"
+  },
+  "cost_text": "$250,000, $500,000,",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.6 (extractor computation, not in case); differs from stated 8.6"
+ },
+ {
+  "sid": "CanaRetail/CR-S3",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "CanaRetail Insider Data Heist",
+  "threat_event": "A disgruntled employee, displeased by denied promotions and in cahoots with a competing business, exfiltrates sensitive customer, supplier, and proprietary data. Leveraging their role within the IT department, they bypass security measures, downloading and transferring the data externally.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.4,
+   "De": 0.7,
+   "Dm": 0.9,
+   "Th": 0.5,
+   "Mu": 0.5,
+   "red_i": 0.65,
+   "red_p": 0.55,
+   "cvss": 6.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 951) — Probability Threat Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 953) — Probability of Exploitation: 0.4",
+   "De": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 955) — Estimated Expected Damages: 0.7",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 957) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 959) — Level of Organizational Resilience: 0.5",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 961) — Expected Utility: 0.5",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 987) — Impact Reduction: 0.65",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 2 Cybersecurity Risk Scenario 3: Insider Threat at CanaRetail (extracted text line 989) — Probability Reduction: 0.55"
+  },
+  "cost_text": "$100,000, $350,000",
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 6.0 (extractor computation, not in case); differs from stated 7.3"
+ },
+ {
+  "sid": "CanaRetail/CR-S5",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "CanaRetail Credit Crunch: POS Malware Infiltration",
+  "threat_event": "A sophisticated malware variant targets CanaRetail's POS systems across multiple locations. It skims credit card details during transaction processes, exfiltrating the data to a remote server controlled by the attackers. This operation remains undetected for weeks.",
+  "estimates": {
+   "PbA": 0.65,
+   "Pbx": 0.55,
+   "De": 0.7,
+   "Dm": 0.85,
+   "Th": 0.6,
+   "Mu": 0.6,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1059) — Probability Threat Present: 0.65",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1061) — Probability of Exploitation: 0.55",
+   "De": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1063) — Estimated Expected Damages: 0.7",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1065) — Maximal Damages: 0.85",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1067) — Level of Organizational Resilience: 0.6",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1069) — Expected Utility: 0.6",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1095) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 3 Cybersecurity Risk Scenario 5: POS Malware Attack at CanaRetail (extracted text line 1097) — Probability Reduction: 0.6"
+  },
+  "cost_text": "$200,000, $450,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 8.1"
+ },
+ {
+  "sid": "CanaRetail/CR-S6",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "CanaRetail's Patchwork Problem: The Exploitation of Unpatched Systems",
+  "threat_event": "Hackers identify unpatched software within CanaRetail's infrastructure. Exploiting the known vulnerabilities, they gain unauthorized access, compromising sensitive data and deploying malicious software to maintain this unauthorized access.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.65,
+   "Dm": 0.8,
+   "Th": 0.55,
+   "Mu": 0.58,
+   "red_i": 0.7,
+   "red_p": 0.65,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1163) — Probability Threat Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1165) — Probability of Exploitation: 0.6",
+   "De": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1167) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1169) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1171) — Level of Organizational Resilience: 0.55",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1173) — Expected Utility: 0.58",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1199) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 4 Cybersecurity Risk Scenario 6: Unpatched Vulnerabilities at CanaRetail (extracted text line 1201) — Probability Reduction: 0.65"
+  },
+  "cost_text": "$150,000, $400,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 8.6"
+ },
+ {
+  "sid": "CanaRetail/CR-S10",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Clouded Transparency: CanaRetail’s Customer Data Exposed",
+  "threat_event": "Due to an oversight, one of CanaRetail’s cloud storage buckets containing customer information was left unsecured, allowing public access. Sensitive data, including names, addresses, and purchase histories, became available to anyone with the correct URL.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.85,
+   "Th": 0.55,
+   "Mu": 0.58,
+   "red_i": 0.75,
+   "red_p": 0.7,
+   "cvss": 8.6
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1263) — Probability Threat Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1265) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1267) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1269) — Maximal Damages: 0.85",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1271) — Level of Organizational Resilience: 0.55",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1273) — Expected Utility: 0.58",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1299) — Impact Reduction: 0.75",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 5 Cybersecurity Risk Scenario 10: Clouded Judgment - CanaRetail’s Unsecured Cloud Storage Exposure (extracted text line 1301) — Probability Reduction: 0.7"
+  },
+  "cost_text": "$80,000, $250,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 8.6 (extractor computation, not in case); differs from stated 7.5"
+ },
+ {
+  "sid": "CanaRetail/CR-S13a",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Coded Conundrum: CanaRetail’s Data Breach due to Subpar Encryption",
+  "threat_event": "CanaRetail, in an attempt to safeguard customer data, employed encryption techniques that unfortunately did not match industry best practices. Malicious actors, identifying the weak encryption, successfully decrypted sensitive customer data, leading to a significant data breach.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.45,
+   "De": 0.65,
+   "Dm": 0.8,
+   "Th": 0.6,
+   "Mu": 0.57,
+   "red_i": 0.8,
+   "red_p": 0.72,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1365) — Probability Threat Present: 0.5",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1367) — Probability of Exploitation: 0.45",
+   "De": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1369) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1371) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1373) — Level of Organizational Resilience: 0.6",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1375) — Expected Utility: 0.57",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1401) — Impact Reduction: 0.8",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 6 Cybersecurity Risk Scenario 13: Cracked Codes – CanaRetail’s Encryption Failings (extracted text line 1403) — Probability Reduction: 0.72"
+  },
+  "cost_text": "$100,000, $320,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 8.2"
+ },
+ {
+  "sid": "CanaRetail/CR-S13b",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Structured Query Lament: The E-commerce Web Vulnerability at CanaRetail",
+  "threat_event": "The e-commerce website of CanaRetail, in an oversight, possessed an input validation vulnerability. This enabled cyber attackers to exploit an SQL injection, thereby gaining unauthorized access to the website’s backend databases and compromising sensitive customer data.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.55,
+   "Dm": 0.7,
+   "Th": 0.5,
+   "Mu": 0.52,
+   "red_i": 0.75,
+   "red_p": 0.7,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1465) — Probability Threat Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1467) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1469) — Estimated Expected Damages: 0.55",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1471) — Maximal Damages: 0.7",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1473) — Level of Organizational Resilience: 0.5",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1475) — Expected Utility: 0.52",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1501) — Impact Reduction: 0.75",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 7 Cybersecurity Risk Scenario 13: Data Disarray – The SQL Injection Susceptibility at CanaRetail (extracted text line 1503) — Probability Reduction: 0.7"
+  },
+  "cost_text": "$50,000, $200,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 8.6"
+ },
+ {
+  "sid": "CanaRetail/CR-S20",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Firewall’s Fragile Fabric: The Unauthorized Access Affair at CanaRetail",
+  "threat_event": "In an oversight, CanaRetail's firewall settings were inadequately configured, leaving certain ports unnecessarily open. This exposed internal systems to the public internet, which malicious actors capitalized on, gaining unauthorized access to critical systems.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.65,
+   "Dm": 0.8,
+   "Th": 0.4,
+   "Mu": 0.58,
+   "red_i": 0.8,
+   "red_p": 0.75,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1567) — Probability Threat Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1569) — Probability of Exploitation: 0.6",
+   "De": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1571) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1573) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1575) — Level of Organizational Resilience: 0.4",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1577) — Expected Utility: 0.58",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1603) — Impact Reduction: 0.8",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 8 Cybersecurity Risk Scenario 20: \"Firewall Folly: The Gap in CanaRetail's Digital Fortress\" (extracted text line 1605) — Probability Reduction: 0.75"
+  },
+  "cost_text": "$30,000, $150,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.1"
+ },
+ {
+  "sid": "CanaRetail/CR-S26",
+  "case": "CanaRetail",
+  "sector": "Retail (pan-Canadian multi-category retail chain, e-commerce)",
+  "name": "Deceptive DNS: The Redirect Ruse at CanaRetail",
+  "threat_event": "Cyber adversaries targeted CanaRetail's DNS server configurations, succeeding in altering the address records. Consequently, users attempting to access CanaRetail's website were unknowingly redirected to malicious sites designed to extract personal data or install malware.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.65,
+   "Dm": 0.75,
+   "Th": 0.45,
+   "Mu": 0.55,
+   "red_i": 0.7,
+   "red_p": 0.7
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1669) — Probability Threat Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1671) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1673) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1675) — Maximal Damages: 0.75",
+   "Th": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1677) — Level of Organizational Resilience: 0.45",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1679) — Expected Utility: 0.55",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1705) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, 9 Cybersecurity Risk Scenario 26: \"DNS Deception: CanaRetail's Web Weary Woes\" (extracted text line 1707) — Probability Reduction: 0.7"
+  },
+  "cost_text": "$40,000, $200,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:?medium/PR:N/UI:R/S:C/C:H/I:H/A:L",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "ACRB/ACRB-A1",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Inadequate Firewall Protection at ACRB",
+  "threat_event": "ACRB's firewall was found to use outdated protocols and lacked proper configuration, leaving it vulnerable to sophisticated external attacks that could expose sensitive data and systems.",
+  "estimates": {
+   "PbA": 0.4,
+   "Pbx": 0.7,
+   "De": 0.6,
+   "Dm": 0.85,
+   "Th": 0.5,
+   "red_p": 0.75,
+   "red_i": 0.9,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 654) — Probability that the threat will be present: 0.4",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 656) — Probability of exploitation: 0.7",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 658) — Estimated expected damages: 0.6",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 660) — Maximal damages: 0.85",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 662) — Level of organizational resilience: 0.5",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 703) — Probability Reduction: From 0.75 to 0.2 (a drop of 0.55)",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 705) — Impact Reduction: From 0.9 to 0.3 (a drop of 0.6)"
+  },
+  "cost_text": "$50,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 8.8"
+ },
+ {
+  "sid": "ACRB/ACRB-A2",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Employee Insider Threat at ACRB",
+  "threat_event": "A disgruntled employee with significant access rights within ACRB's system, resentful over denied promotion, decided to exploit their inside knowledge for revenge, potentially causing financial damage to the bank.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.65,
+   "De": 0.55,
+   "Dm": 0.8,
+   "Th": 0.6,
+   "red_i": 0.7,
+   "red_p": 0.4
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 760) — Probability that the threat will be present: 0.5",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 762) — Probability of exploitation: 0.65",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 764) — Estimated expected damages: 0.55",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 766) — Maximal damages: 0.8",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 768) — Level of organizational resilience: 0.6",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 809) — Impact Reduction: From 0.7 to 0.2 (a drop of 0.5)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 811) — Probability Reduction: From 0.4 to 0.1 (a drop of 0.3)"
+  },
+  "cost_text": "$52,000",
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:?medium",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "ACRB/ACRB-A4",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Physical Security Breach at ACRB",
+  "threat_event": "An unauthorized individual gains physical access to ACRB's primary data center by exploiting weaknesses in perimeter security and tailgating employees. Once inside, the individual attempts to install surveillance devices and exfiltrate sensitive data directly from servers.",
+  "estimates": {
+   "PbA": 0.25,
+   "Pbx": 0.4,
+   "De": 0.75,
+   "Dm": 0.85,
+   "Th": 0.6,
+   "red_i": 0.75,
+   "red_p": 0.4
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 960) — Probability that the threat will be present: 0.25",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 962) — Probability of exploitation: 0.4",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 964) — Estimated expected damages: 0.75",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 966) — Maximal damages: 0.85",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 968) — Level of organizational resilience: 0.6",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 1009) — Impact Reduction: From 0.75 to 0.2 (a reduction of 0.55)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 1011) — Probability Reduction: From 0.4 to 0.1 (a reduction of 0.3)"
+  },
+  "cost_text": "$30,000",
+  "cvss_vector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:?medium",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "ACRB/ACRB-A5",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Obsolete Encryption Standards at ACRB",
+  "threat_event": "ACRB is discovered to be using outdated encryption standards for its online banking transactions, putting all electronic data transfers, including sensitive customer information, at risk.",
+  "estimates": {
+   "PbA": 0.2,
+   "Pbx": 0.6,
+   "De": 0.8,
+   "Dm": 0.95,
+   "Th": 0.55,
+   "red_i": 0.8,
+   "red_p": 0.5,
+   "cvss": 9.4
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1068) — Probability that the threat will be present: 0.2",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1070) — Probability of exploitation: 0.6",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1072) — Estimated expected damages: 0.8",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1074) — Maximal damages: 0.95",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1076) — Level of organizational resilience: 0.55",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1117) — Impact Reduction: From 0.8 to 0.2 (a reduction of 0.6)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1119) — Probability Reduction: From 0.5 to 0.1 (a reduction of 0.4)"
+  },
+  "cost_text": "$115,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.4 (extractor computation, not in case); differs from stated 7.5"
+ },
+ {
+  "sid": "ACRB/ACRB-A6",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Third-party Vendor Weakness at ACRB",
+  "threat_event": "A third-party payment processing vendor utilized by ACRB has a security vulnerability in its software. Unbeknownst to ACRB, this vulnerability has exposed sensitive financial data of thousands of ACRB's customers.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.85,
+   "Dm": 0.95,
+   "Th": 0.6,
+   "red_i": 0.9,
+   "red_p": 0.6
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1176) — Probability that the threat will be present: 0.6",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1178) — Probability of exploitation: 0.5",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1180) — Estimated expected damages: 0.85",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1182) — Maximal damages: 0.95",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1184) — Level of organizational resilience: 0.6",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1225) — Impact Reduction: From 0.9 to 0.3 (a reduction of 0.6)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1227) — Probability Reduction: From 0.6 to 0.2 (a reduction of 0.4)"
+  },
+  "cost_text": "$100,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:?medium",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "ACRB/ACRB-A7",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Lax Bring Your Own Device (BYOD) Policy at Atlantic Canada Regional Bank (ACRB)",
+  "threat_event": "An employee at ACRB accessed sensitive client financial data using their personal tablet, which had minimal security features. The tablet was later compromised when the employee clicked on a malicious link from a personal email, leading to unauthorized access to ACRB's internal network.",
+  "estimates": {
+   "PbA": 0.4,
+   "Pbx": 0.3,
+   "De": 0.7,
+   "Dm": 0.9,
+   "Th": 0.5,
+   "red_i": 0.8,
+   "red_p": 0.7
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1285) — Probability that the threat will be present: 0.4",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1287) — Probability of exploitation: 0.3",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1289) — Estimated expected damages: 0.7",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1291) — Maximal damages: 0.9",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1293) — Level of organizational resilience: 0.5",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1334) — Impact Reduction: From 0.8 to 0.3 (a reduction of 0.5)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1336) — Probability Reduction: From 0.7 to 0.2 (a reduction of 0.5)"
+  },
+  "cost_text": "$65,000",
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:?medium",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "ACRB/ACRB-A8",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Ransomware Lockdown at Atlantic Canada Regional Bank (ACRB)",
+  "threat_event": "An attacker successfully installs ransomware on ACRB’s central server, encrypting critical financial data and rendering core banking systems inoperative. A ransom note demands $2 million in cryptocurrency in exchange for the decryption key.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.4,
+   "De": 0.85,
+   "Dm": 0.95,
+   "Th": 0.4,
+   "red_i": 0.9,
+   "red_p": 0.8,
+   "cvss": 9.6
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1398) — Probability that the threat will be present: 0.5",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1400) — Probability of exploitation: 0.4",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1402) — Estimated expected damages: 0.85",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1404) — Maximal damages: 0.95",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1406) — Level of organizational resilience: 0.4",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1447) — Impact Reduction: From 0.9 to 0.4 (a reduction of 0.5)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1449) — Probability Reduction: From 0.8 to 0.3 (a reduction of 0.5)"
+  },
+  "cost_text": "$105,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.6 (extractor computation, not in case); differs from stated 8.6"
+ },
+ {
+  "sid": "ACRB/ACRB-A9",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Ineffective Incident Response at Atlantic Canada Regional Bank (ACRB)",
+  "threat_event": "A malware attack infiltrates the bank's mainframe and begins exfiltrating data to an unknown external server. The ACRB's cybersecurity team, lacking an established incident response plan, struggles to coordinate an effective response.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.8,
+   "Dm": 0.9,
+   "Th": 0.3,
+   "red_i": 0.8,
+   "red_p": 0.7,
+   "cvss": 9.9
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1510) — Probability that the threat will be present: 0.6",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1512) — Probability of exploitation: 0.5",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1514) — Estimated expected damages: 0.8",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1516) — Maximal damages: 0.9",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1518) — Level of organizational resilience: 0.3",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1559) — Impact Reduction: From 0.8 to 0.4 (a reduction of 0.4)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1561) — Probability Reduction: From 0.7 to 0.3 (a reduction of 0.4)"
+  },
+  "cost_text": "$75,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.9 (extractor computation, not in case); differs from stated 8.4"
+ },
+ {
+  "sid": "ACRB/ACRB-A10",
+  "case": "Atlantic Canada Regional Bank (ACRB)",
+  "sector": "Banking (small regional bank, federally regulated FI - teaching assumption)",
+  "name": "Unpatched Software Exploit at Atlantic Canada Regional Bank (ACRB)",
+  "threat_event": "The bank's core banking software contains an unpatched vulnerability. Malicious actors discover and exploit the vulnerability, gaining unauthorized access to sensitive financial data.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.8,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "red_i": 0.9,
+   "red_p": 0.8
+  },
+  "quotes": {
+   "PbA": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1621) — Probability that the threat will be present: 0.7",
+   "Pbx": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1623) — Probability of exploitation: 0.6",
+   "De": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1625) — Estimated expected damages: 0.8",
+   "Dm": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1627) — Maximal damages: 0.9",
+   "Th": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1629) — Level of organizational resilience: 0.4",
+   "red_i": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1670) — Impact Reduction: From 0.9 to 0.5 (a reduction of 0.4)",
+   "red_p": "13. Instructor Annex: Detailed Scenario Examples, Scenario 10 (extracted text line 1672) — Probability Reduction: From 0.8 to 0.4 (a reduction of 0.4)"
+  },
+  "cost_text": "$75,000",
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:?medium",
+  "cvss_check": "base score not computable (invalid metric value as written)"
+ },
+ {
+  "sid": "MediBec/MED-A1",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Absence of Adaptive Authentication at MediBec (1)",
+  "threat_event": "The scenario unfolds when an attacker takes advantage of the non-adaptive authentication system to gain unauthorized access to MediBec's central database. By exploiting weak or compromised credentials, the attacker accesses sensitive patient data, financial records, and even the ability to interfere with clinic operations.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.55,
+   "De": 0.65,
+   "Dm": 0.95,
+   "Th": 0.4,
+   "Mu_mitigation": 0.8,
+   "red_i": 0.85,
+   "red_p": 0.9
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 596) — Probability that the threat will be present: 0.7",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 598) — Probability of exploitation: 0.55",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 600) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 602) — Maximal Damages: 0.95",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 604) — Level of Organizational Resilience: 0.4",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 606) — Expected Utility (of the mitigation measures): 0.8",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 628) — Impact Reduction (post-mitigation): 0.85",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 1 (extracted text line 630) — Probability Reduction (post-mitigation): 0.9"
+  },
+  "cost_text": "$35,000, $300,000"
+ },
+ {
+  "sid": "MediBec/MED-A2",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Absence of Two-factor Authentication (2FA) at MediBec (11)",
+  "threat_event": "This risk scenario manifests when an attacker can exploit the single-layer authentication to gain unauthorized access to MediBec’s systems. Leveraging stolen, guessed, or brute-forced credentials, the perpetrator can access patient data, financial details, and other sensitive information without the added security barrier of 2FA.",
+  "estimates": {
+   "PbA": 0.68,
+   "Pbx": 0.53,
+   "De": 0.63,
+   "Dm": 0.92,
+   "Th": 0.38,
+   "Mu_mitigation": 0.77,
+   "red_i": 0.82,
+   "red_p": 0.88,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 700) — Probability that the threat will be present: 0.68",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 702) — Probability of exploitation: 0.53",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 704) — Estimated Expected Damages: 0.63",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 706) — Maximal Damages: 0.92",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 708) — Level of Organizational Resilience: 0.38",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 710) — Expected Utility (of the mitigation measures): 0.77",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 746) — Impact Reduction (post-mitigation): 0.82",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 2 (extracted text line 748) — Probability Reduction (post-mitigation): 0.88"
+  },
+  "cost_text": "$30,000, $225,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.8"
+ },
+ {
+  "sid": "MediBec/MED-A3",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "API Key Exposure at MediBec (16)",
+  "threat_event": "This risk scenario emerges when an API key used in MediBec's applications gets unintentionally exposed, potentially through code repositories, logs, or misconfigurations. Malicious actors can exploit these exposed keys to gain unauthorized access or manipulate MediBec’s systems.",
+  "estimates": {
+   "PbA": 0.65,
+   "Pbx": 0.58,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu_mitigation": 0.75,
+   "red_i": 0.8,
+   "red_p": 0.85,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 818) — Probability that the threat will be present: 0.65",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 820) — Probability of exploitation: 0.58",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 822) — Estimated Expected Damages: 0.60",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 824) — Maximal Damages: 0.90",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 826) — Level of Organizational Resilience: 0.40",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 828) — Expected Utility (of the mitigation measures): 0.75",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 862) — Impact Reduction (post-mitigation): 0.80",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 3 (extracted text line 864) — Probability Reduction (post-mitigation): 0.85"
+  },
+  "cost_text": "$15,000, $125,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.8"
+ },
+ {
+  "sid": "MediBec/MED-A4",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Cloud Misconfiguration at MediBec (27)",
+  "threat_event": "The scenario revolves around MediBec's cloud environments being misconfigured—such as improper access controls, exposed data storage buckets, or insecure interfaces—which makes the organization's resources vulnerable to unauthorized access.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.55,
+   "De": 0.65,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu_mitigation": 0.75,
+   "red_i": 0.8,
+   "red_p": 0.85,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 936) — Probability that the threat will be present: 0.60",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 938) — Probability of exploitation: 0.55",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 940) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 942) — Maximal Damages: 0.90",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 944) — Level of Organizational Resilience: 0.40",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 946) — Expected Utility (of the mitigation measures): 0.75",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 980) — Impact Reduction (post-mitigation): 0.80",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 4 (extracted text line 982) — Probability Reduction (post-mitigation): 0.85"
+  },
+  "cost_text": "$25,000, $140,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.8"
+ },
+ {
+  "sid": "MediBec/MED-A5",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Compromised Wireless Networks at MediBec (45)",
+  "threat_event": "This scenario focuses on unauthorized access to MediBec's wireless networks. Attackers might exploit weak encryption, default settings, or known vulnerabilities in the network equipment to gain access, which can be leveraged to commit data breaches or other malicious acts.",
+  "estimates": {
+   "PbA": 0.58,
+   "Pbx": 0.53,
+   "De": 0.6,
+   "Dm": 0.87,
+   "Th": 0.42,
+   "Mu_mitigation": 0.73,
+   "red_i": 0.78,
+   "red_p": 0.82,
+   "cvss": 8.8
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1054) — Probability that the threat will be present: 0.58",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1056) — Probability of exploitation: 0.53",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1058) — Estimated Expected Damages: 0.60",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1060) — Maximal Damages: 0.87",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1062) — Level of Organizational Resilience: 0.42",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1064) — Expected Utility (of the mitigation measures): 0.73",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1098) — Impact Reduction (post-mitigation): 0.78",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 5 (extracted text line 1100) — Probability Reduction (post-mitigation): 0.82"
+  },
+  "cost_text": "$15,000, $100,000",
+  "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 8.8 (extractor computation, not in case); differs from stated 9.3"
+ },
+ {
+  "sid": "MediBec/MED-A6",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "DDoS Attacks at MediBec (58)",
+  "threat_event": "Attackers, leveraging compromised computers and devices, direct an enormous volume of web traffic to MediBec's online services. This traffic overloads the servers, causing slowdowns or complete outages, disrupting services, and impacting both medical staff and patients.",
+  "estimates": {
+   "PbA": 0.65,
+   "Pbx": 0.52,
+   "De": 0.74,
+   "Dm": 0.92,
+   "Th": 0.48,
+   "Mu_mitigation": 0.75,
+   "red_i": 0.85,
+   "red_p": 0.8,
+   "cvss": 8.6
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1170) — Probability that the threat will be present: 0.65",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1172) — Probability of exploitation: 0.52",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1174) — Estimated Expected Damages: 0.74",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1176) — Maximal Damages: 0.92",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1178) — Level of Organizational Resilience: 0.48",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1180) — Expected Utility (of the mitigation measures): 0.75",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1214) — Impact Reduction (post-mitigation): 0.85",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 6 (extracted text line 1216) — Probability Reduction (post-mitigation): 0.80"
+  },
+  "cost_text": "$20,000, $130,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 8.6 (extractor computation, not in case); differs from stated 7.5"
+ },
+ {
+  "sid": "MediBec/MED-A7",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Delayed Patch Implementation at MediBec (60)",
+  "threat_event": "Due to various reasons such as bureaucracy, resource constraints, or oversight, MediBec fails to promptly implement crucial security patches on its systems. This delay renders the infrastructure susceptible to known vulnerabilities which malevolent actors exploit.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.65,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu_mitigation": 0.8,
+   "red_i": 0.85,
+   "red_p": 0.8,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1286) — Probability that the threat will be present: 0.70",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1288) — Probability of exploitation: 0.60",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1290) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1292) — Maximal Damages: 0.90",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1294) — Level of Organizational Resilience: 0.40",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1296) — Expected Utility (of the mitigation measures): 0.80",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1328) — Impact Reduction (post-mitigation): 0.85",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 7 (extracted text line 1330) — Probability Reduction (post-mitigation): 0.80"
+  },
+  "cost_text": "$40,000, $100,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.8"
+ },
+ {
+  "sid": "MediBec/MED-A8",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "DLL Hijacking at MediBec (64)",
+  "threat_event": "Attackers identified applications within MediBec that are vulnerable to DLL hijacking. They strategically place malicious DLLs in locations where the applications look for them, leading the applications to execute the malicious code upon launch.",
+  "estimates": {
+   "PbA": 0.55,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.85,
+   "Th": 0.45,
+   "Mu_mitigation": 0.75,
+   "red_i": 0.7,
+   "red_p": 0.65,
+   "cvss": 7.3
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1400) — Probability that the threat will be present: 0.55",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1402) — Probability of exploitation: 0.50",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1404) — Estimated Expected Damages: 0.60",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1406) — Maximal Damages: 0.85",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1408) — Level of Organizational Resilience: 0.45",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1410) — Expected Utility (of the mitigation measures): 0.75",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1444) — Impact Reduction (post-mitigation): 0.70",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 8 (extracted text line 1446) — Probability Reduction (post-mitigation): 0.65"
+  },
+  "cost_text": "$35,000, $110,000, $35,000",
+  "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 7.3 (extractor computation, not in case); differs from stated 8.4"
+ },
+ {
+  "sid": "MediBec/MED-A9",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Exposed Backup Servers at MediBec (85)",
+  "threat_event": "Due to a configuration oversight, MediBec's backup servers were inadvertently exposed to the public internet without sufficient protective measures. As a result, unauthorized individuals discovered these servers and accessed, exfiltrated, or potentially tampered with the backup data.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.4,
+   "De": 0.65,
+   "Dm": 0.9,
+   "Th": 0.5,
+   "Mu_mitigation": 0.8,
+   "red_i": 0.75,
+   "red_p": 0.7,
+   "cvss": 9.8
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1516) — Probability that the threat will be present: 0.50",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1518) — Probability of exploitation: 0.40",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1520) — Estimated Expected Damages: 0.65",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1522) — Maximal Damages: 0.90",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1524) — Level of Organizational Resilience: 0.50",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1526) — Expected Utility (of the mitigation measures): 0.80",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1560) — Impact Reduction (post-mitigation): 0.75",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 9 (extracted text line 1562) — Probability Reduction (post-mitigation): 0.70"
+  },
+  "cost_text": "$10,000, $90,000, $25,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.8 (extractor computation, not in case); differs from stated 9.0"
+ },
+ {
+  "sid": "MediBec/MED-A10",
+  "case": "MediBec",
+  "sector": "Healthcare (private medical centre, Quebec)",
+  "name": "Inadequate Intrusion Detection Systems at MediBec (148)",
+  "threat_event": "MediBec, in a bid to cut costs, has integrated an outdated or suboptimal IDS, leading to insufficient coverage against contemporary threats. Due to this inadequate system, malicious activities went undetected, allowing unauthorized individuals prolonged access to MediBec's network.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.45,
+   "De": 0.7,
+   "Dm": 0.85,
+   "Th": 0.55,
+   "Mu_mitigation": 0.8,
+   "red_i": 0.75,
+   "red_p": 0.8,
+   "cvss": 9.8
+  },
+  "quotes": {
+   "PbA": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1634) — Probability that the threat will be present: 0.60",
+   "Pbx": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1636) — Probability of exploitation: 0.45",
+   "De": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1638) — Estimated Expected Damages: 0.70",
+   "Dm": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1640) — Maximal Damages: 0.85",
+   "Th": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1642) — Level of Organizational Resilience: 0.55",
+   "Mu_mitigation": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1644) — Expected Utility (of the mitigation measures): 0.80",
+   "red_i": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1682) — Impact Reduction (post-mitigation): 0.75",
+   "red_p": "Instructor Annex A: Detailed Scenario Examples, Detailed scenario 10 (extracted text line 1684) — Probability Reduction (post-mitigation): 0.80"
+  },
+  "cost_text": "$10,000, $130,000, $35,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.8 (extractor computation, not in case); differs from stated 9.0"
+ },
+ {
+  "sid": "Chez/CP-A1",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "The Phisher's Hook: Corporate Email Compromise at Chez Pierre",
+  "threat_event": "A sophisticated phishing campaign targets Chez Pierre's employees, aiming to gain unauthorized access to corporate email accounts. The phishing emails, disguised as legitimate communications from the IT department, prompt employees to click on a link to update their email settings, which leads to a fraudulent website designed to harvest login credentials.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.6,
+   "Dm": 0.8,
+   "Th": 0.5,
+   "Mu": 0.65,
+   "red_i": 0.7,
+   "red_p": 0.65,
+   "cvss": 9.6
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 536) — Probability that the Threat Will Be Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 538) — Probability of Exploitation: 0.6",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 540) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 542) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 544) — Level of Organizational Resilience: 0.5",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 546) — Expected Utility: 0.65",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 583) — Impact Reduction due to Mitigation: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 1 (extracted text line 585) — Probability Reduction due to Mitigation: 0.65"
+  },
+  "cost_text": "CAD 25,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.6 (extractor computation, not in case); differs from stated 9.4"
+ },
+ {
+  "sid": "Chez/CP-A2",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Hostage Data: Ransomware Lockdown of Chez Pierre’s Reservations",
+  "threat_event": "A ransomware attack encrypts the databases and application files of Chez Pierre’s online reservation system, demanding payment in cryptocurrency to restore access.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.6,
+   "De": 0.5,
+   "Dm": 0.9,
+   "Th": 0.3,
+   "Mu": 0.6,
+   "red_i": 0.5,
+   "red_p": 0.6,
+   "cvss": 9.6
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 654) — Probability that the Threat Will Be Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 656) — Probability of Exploitation: 0.6",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 658) — Estimated Expected Damages: 0.5",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 660) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 662) — Level of Organizational Resilience: 0.3",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 664) — Expected Utility: 0.6",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 700) — Impact Reduction: 0.5",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 2 (extracted text line 702) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 43,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.6 (extractor computation, not in case); differs from stated 8.7"
+ },
+ {
+  "sid": "Chez/CP-A3",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Card Clash: The POS Malware Strike at Chez Pierre",
+  "threat_event": "Malware is introduced into Chez Pierre's POS systems across multiple locations, designed to capture and transmit credit card information to a remote server controlled by cybercriminals.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.5,
+   "De": 0.7,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.55,
+   "red_i": 0.8,
+   "red_p": 0.7,
+   "cvss": 10.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 773) — Probability that the Threat Will Be Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 775) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 777) — Estimated Expected Damages: 0.7",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 779) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 781) — Level of Organizational Resilience: 0.4",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 783) — Expected Utility: 0.55",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 819) — Impact Reduction: 0.8",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 3 (extracted text line 821) — Probability Reduction: 0.7"
+  },
+  "cost_text": "CAD 50,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 10.0 (extractor computation, not in case); differs from stated 9.0"
+ },
+ {
+  "sid": "Chez/CP-A4",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Breach from Within: The Insider Data Dilemma at Chez Pierre",
+  "threat_event": "A disgruntled Chez Pierre employee, with access to confidential company databases, deliberately leaks sensitive customer data and proprietary business information to competitors and on public forums.",
+  "estimates": {
+   "PbA": 0.4,
+   "Pbx": 0.3,
+   "De": 0.8,
+   "Dm": 0.9,
+   "Th": 0.5,
+   "Mu": 0.4,
+   "red_i": 0.7,
+   "red_p": 0.5,
+   "cvss": 7.1
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 892) — Probability that the Threat Will Be Present: 0.4",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 894) — Probability of Exploitation: 0.3",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 896) — Estimated Expected Damages: 0.8",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 898) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 900) — Level of Organizational Resilience: 0.5",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 902) — Expected Utility: 0.4",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 940) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 4 (extracted text line 942) — Probability Reduction: 0.5"
+  },
+  "cost_text": "CAD 80,000",
+  "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 7.1 (extractor computation, not in case); differs from stated 8.3"
+ },
+ {
+  "sid": "Chez/CP-A5",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Peak Hour Paralysis: DDoS Disruption at Chez Pierre’s Ordering Platform",
+  "threat_event": "During peak dining hours, Chez Pierre's online ordering platform is targeted with a DDoS attack, overwhelming the servers and causing service outages that prevent customers from placing orders.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.4,
+   "De": 0.6,
+   "Dm": 0.8,
+   "Th": 0.5,
+   "Mu": 0.4,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 7.5
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1011) — Probability that the Threat Will Be Present: 0.5",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1013) — Probability of Exploitation: 0.4",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1015) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1017) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1019) — Level of Organizational Resilience: 0.5",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1021) — Expected Utility: 0.4",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1057) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 5 (extracted text line 1059) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 60,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 7.5 (extractor computation, not in case); differs from stated 8.8"
+ },
+ {
+  "sid": "Chez/CP-A6",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Wi-Fi Eavesdrop: The MitM Threat at Chez Pierre",
+  "threat_event": "Cybercriminals exploit vulnerabilities in the unsecured Wi-Fi network of a Chez Pierre restaurant to conduct a Man-in-the-Middle attack, intercepting and possibly altering the communication between customers' devices and the Wi-Fi connection.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.8,
+   "Th": 0.3,
+   "Mu": 0.5,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 8.1
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1126) — Probability that the Threat Will Be Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1128) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1130) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1132) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1134) — Level of Organizational Resilience: 0.3",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1136) — Expected Utility: 0.5",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1172) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 6 (extracted text line 1174) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 48,000",
+  "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 8.1 (extractor computation, not in case); differs from stated 7.4"
+ },
+ {
+  "sid": "Chez/CP-A7",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Password Pandemonium: Administrative Compromise at Chez Pierre",
+  "threat_event": "An attacker discovers a weak administrative password through a brute force attack, gaining unauthorized access to Chez Pierre’s operational systems.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.4,
+   "De": 0.7,
+   "Dm": 0.8,
+   "Th": 0.4,
+   "Mu": 0.5,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 8.3
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1241) — Probability that the Threat Will Be Present: 0.6",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1243) — Probability of Exploitation: 0.4",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1245) — Estimated Expected Damages: 0.7",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1247) — Maximal Damages: 0.8",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1249) — Level of Organizational Resilience: 0.4",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1251) — Expected Utility: 0.5",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1287) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 7 (extracted text line 1289) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 40,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 8.3 (extractor computation, not in case); differs from stated 9.0"
+ },
+ {
+  "sid": "Chez/CP-A8",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "Credential Con: The Social Engineering Deception at Chez Pierre",
+  "threat_event": "A skilled social engineer impersonates a member of the IT department and convinces a Chez Pierre employee to reveal their login credentials over the phone.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.5,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 6.2
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1358) — Probability that the Threat Will Be Present: 0.7",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1360) — Probability of Exploitation: 0.5",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1362) — Estimated Expected Damages: 0.6",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1364) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1366) — Level of Organizational Resilience: 0.4",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1368) — Expected Utility: 0.5",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1404) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 8 (extracted text line 1406) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 55,000",
+  "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 6.2 (extractor computation, not in case); differs from stated 8.6"
+ },
+ {
+  "sid": "Chez/CP-A9",
+  "case": "Chez Pierre",
+  "sector": "Hospitality (fine-dining restaurant chain, Canada)",
+  "name": "The Silent Strike: Zero-Day Vulnerability in Chez Pierre's Network",
+  "threat_event": "Cybercriminals discover a zero-day vulnerability in a piece of widely used software within Chez Pierre’s IT infrastructure. The exploit allows them to gain unauthorized access and potentially control over the affected systems.",
+  "estimates": {
+   "PbA": 0.3,
+   "Pbx": 0.4,
+   "De": 0.8,
+   "Dm": 0.9,
+   "Th": 0.3,
+   "Mu": 0.5,
+   "red_i": 0.7,
+   "red_p": 0.6,
+   "cvss": 9.0
+  },
+  "quotes": {
+   "PbA": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1477) — Probability that the Threat Will Be Present: 0.3",
+   "Pbx": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1479) — Probability of Exploitation: 0.4",
+   "De": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1481) — Estimated Expected Damages: 0.8",
+   "Dm": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1483) — Maximal Damages: 0.9",
+   "Th": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1485) — Level of Organizational Resilience: 0.3",
+   "Mu": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1487) — Expected Utility: 0.5",
+   "red_i": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1523) — Impact Reduction: 0.7",
+   "red_p": "Instructor Annex: Detailed Scenario Examples, Scenario 9 (extracted text line 1525) — Probability Reduction: 0.6"
+  },
+  "cost_text": "CAD 70,000",
+  "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "cvss_check": "base score recomputed from this vector with CVSS v3.1 formula = 9.0 (extractor computation, not in case); differs from stated 8.7"
+ },
+ {
+  "sid": "MediBec-CRG/S1",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Credential compromise of clinical administrator accounts through phishing and MFA fatigue",
+  "threat_event": "A financially motivated external actor phishes clinic administrators and billing staff with an EHR-themed lure, captures credentials and obtains approval of an MFA push prompt, gaining remote access to the EHR, billing and administrative systems, enabling unauthorized access to patient records and follow-on intrusion.",
+  "estimates": {
+   "PbA": 0.85,
+   "Pbx": 0.55,
+   "De": 0.55,
+   "Dm": 0.85,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.8,
+   "red_i": 0.75,
+   "cvss": 9.3
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:H/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S1 params",
+   "Pbx": "medibec30.json SCEN S1 params",
+   "De": "medibec30.json SCEN S1 params",
+   "Dm": "medibec30.json SCEN S1 params",
+   "Th": "medibec30.json SCEN S1 params",
+   "Mu": "medibec30.json SCEN S1 params",
+   "red_p": "medibec30.json SCEN S1 params",
+   "red_i": "medibec30.json SCEN S1 params",
+   "cvss": "medibec30.json SCEN S1 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S2",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Ransomware disrupting EHR access and clinic operations across the network",
+  "threat_event": "A ransomware group gains a foothold through a macro-enabled phishing attachment or exposed service, moves laterally across an insufficiently segmented network, exfiltrates health data and encrypts EHR support servers, shared folders and scheduling systems, halting clinical and administrative operations at multiple clinics.",
+  "estimates": {
+   "PbA": 0.75,
+   "Pbx": 0.5,
+   "De": 0.7,
+   "Dm": 0.95,
+   "Th": 0.35,
+   "Mu": 0.95,
+   "red_p": 0.75,
+   "red_i": 0.75,
+   "cvss": 9.4
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S2 params",
+   "Pbx": "medibec30.json SCEN S2 params",
+   "De": "medibec30.json SCEN S2 params",
+   "Dm": "medibec30.json SCEN S2 params",
+   "Th": "medibec30.json SCEN S2 params",
+   "Mu": "medibec30.json SCEN S2 params",
+   "red_p": "medibec30.json SCEN S2 params",
+   "red_i": "medibec30.json SCEN S2 params",
+   "cvss": "medibec30.json SCEN S2 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S3",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Backup environment compromised, preventing recovery after a destructive attack",
+  "threat_event": "An attacker holding administrative credentials reaches backup servers that share the production identity domain and network, deletes or encrypts backup sets and clinic storage copies, so that MediBec cannot restore EHR and clinic systems within clinically acceptable time after a destructive event.",
+  "estimates": {
+   "PbA": 0.55,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.35,
+   "Mu": 0.9,
+   "red_p": 0.8,
+   "red_i": 0.85,
+   "cvss": 9.2
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S3 params",
+   "Pbx": "medibec30.json SCEN S3 params",
+   "De": "medibec30.json SCEN S3 params",
+   "Dm": "medibec30.json SCEN S3 params",
+   "Th": "medibec30.json SCEN S3 params",
+   "Mu": "medibec30.json SCEN S3 params",
+   "red_p": "medibec30.json SCEN S3 params",
+   "red_i": "medibec30.json SCEN S3 params",
+   "cvss": "medibec30.json SCEN S3 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S4",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Cloud medical-image transfer storage exposed, enabling bulk health-data exfiltration",
+  "threat_event": "An opportunistic or targeted actor discovers a cloud storage location used for medical-image transfer and exports that is shared through long-lived public or weakly authenticated links, downloads large volumes of images and associated patient identifiers, and causes a large-scale health-data breach.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.45,
+   "De": 0.55,
+   "Dm": 0.8,
+   "Th": 0.4,
+   "Mu": 0.75,
+   "red_p": 0.85,
+   "red_i": 0.7,
+   "cvss": 8.7
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S4 params",
+   "Pbx": "medibec30.json SCEN S4 params",
+   "De": "medibec30.json SCEN S4 params",
+   "Dm": "medibec30.json SCEN S4 params",
+   "Th": "medibec30.json SCEN S4 params",
+   "Mu": "medibec30.json SCEN S4 params",
+   "red_p": "medibec30.json SCEN S4 params",
+   "red_i": "medibec30.json SCEN S4 params",
+   "cvss": "medibec30.json SCEN S4 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S5",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Misuse of legitimate clinical, privileged or service-account access to extract patient records",
+  "threat_event": "A malicious or curious insider, or an attacker who has taken over the over-privileged ehr-sync-svc service account, uses legitimate but excessive EHR access to query and export large volumes of patient or billing records without triggering review, resulting in a privacy breach and loss of trust.",
+  "estimates": {
+   "PbA": 0.6,
+   "Pbx": 0.55,
+   "De": 0.45,
+   "Dm": 0.75,
+   "Th": 0.4,
+   "Mu": 0.8,
+   "red_p": 0.6,
+   "red_i": 0.65,
+   "cvss": 7.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S5 params",
+   "Pbx": "medibec30.json SCEN S5 params",
+   "De": "medibec30.json SCEN S5 params",
+   "Dm": "medibec30.json SCEN S5 params",
+   "Th": "medibec30.json SCEN S5 params",
+   "Mu": "medibec30.json SCEN S5 params",
+   "red_p": "medibec30.json SCEN S5 params",
+   "red_i": "medibec30.json SCEN S5 params",
+   "cvss": "medibec30.json SCEN S5 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S6",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Exploitation of unpatched internet-facing or end-of-life systems",
+  "threat_event": "A cybercriminal or state-linked actor mass-exploits a known vulnerability in an internet-facing remote access gateway, firewall or web application that MediBec has not patched because of uptime concerns, vendor constraints or limited staff, obtaining remote code execution and a foothold for data theft or ransomware.",
+  "estimates": {
+   "PbA": 0.8,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.85,
+   "red_i": 0.7,
+   "cvss": 10.0
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S6 params",
+   "Pbx": "medibec30.json SCEN S6 params",
+   "De": "medibec30.json SCEN S6 params",
+   "Dm": "medibec30.json SCEN S6 params",
+   "Th": "medibec30.json SCEN S6 params",
+   "Mu": "medibec30.json SCEN S6 params",
+   "red_p": "medibec30.json SCEN S6 params",
+   "red_i": "medibec30.json SCEN S6 params",
+   "cvss": "medibec30.json SCEN S6 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S7",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Connected medical device used as a foothold to disrupt clinical equipment and reach the EHR network",
+  "threat_event": "An attacker reaching a clinic network (through malware, a compromised clinic Wi-Fi or vendor access) exploits an unpatched or default-credential medical device on a network shared with EHR workstations, disrupting device operation and using it as a persistent foothold, with potential consequences for patient care.",
+  "estimates": {
+   "PbA": 0.45,
+   "Pbx": 0.5,
+   "De": 0.55,
+   "Dm": 0.95,
+   "Th": 0.35,
+   "Mu": 0.9,
+   "red_p": 0.7,
+   "red_i": 0.6,
+   "cvss": 8.7
+  },
+  "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S7 params",
+   "Pbx": "medibec30.json SCEN S7 params",
+   "De": "medibec30.json SCEN S7 params",
+   "Dm": "medibec30.json SCEN S7 params",
+   "Th": "medibec30.json SCEN S7 params",
+   "Mu": "medibec30.json SCEN S7 params",
+   "red_p": "medibec30.json SCEN S7 params",
+   "red_i": "medibec30.json SCEN S7 params",
+   "cvss": "medibec30.json SCEN S7 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S8",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Detection and response gaps allow an intrusion to persist and escalate",
+  "threat_event": "An intrusion by any external actor goes unnoticed or is misclassified because alert triage, log coverage and after-hours monitoring are insufficient for a two-person cybersecurity team, and the untested incident response plan leads to slow, uncoordinated containment, turning a contained event into a major privacy and operational incident.",
+  "estimates": {
+   "PbA": 0.8,
+   "Pbx": 0.6,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.3,
+   "Mu": 0.85,
+   "red_p": 0.7,
+   "red_i": 0.8,
+   "cvss": 9.3
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:L/SC:H/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S8 params",
+   "Pbx": "medibec30.json SCEN S8 params",
+   "De": "medibec30.json SCEN S8 params",
+   "Dm": "medibec30.json SCEN S8 params",
+   "Th": "medibec30.json SCEN S8 params",
+   "Mu": "medibec30.json SCEN S8 params",
+   "red_p": "medibec30.json SCEN S8 params",
+   "red_i": "medibec30.json SCEN S8 params",
+   "cvss": "medibec30.json SCEN S8 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S9",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Compromise of a critical vendor with remote access to MediBec systems",
+  "threat_event": "A threat actor compromises an EHR, diagnostic, device or IT support vendor and uses the vendor's standing remote access or software update channel to enter MediBec's environment, bypassing perimeter controls to access health data or deploy malware.",
+  "estimates": {
+   "PbA": 0.55,
+   "Pbx": 0.45,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.35,
+   "Mu": 0.85,
+   "red_p": 0.55,
+   "red_i": 0.7,
+   "cvss": 9.0
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S9 params",
+   "Pbx": "medibec30.json SCEN S9 params",
+   "De": "medibec30.json SCEN S9 params",
+   "Dm": "medibec30.json SCEN S9 params",
+   "Th": "medibec30.json SCEN S9 params",
+   "Mu": "medibec30.json SCEN S9 params",
+   "red_p": "medibec30.json SCEN S9 params",
+   "red_i": "medibec30.json SCEN S9 params",
+   "cvss": "medibec30.json SCEN S9 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S10",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Manipulation of patient, medication or billing records undermining clinical decisions",
+  "threat_event": "An attacker with compromised clinical credentials, or a malicious insider, alters medication, allergy, laboratory or billing records in the EHR or pharmacy system without detection, leading to incorrect clinical decisions, patient harm and loss of confidence in the record.",
+  "estimates": {
+   "PbA": 0.3,
+   "Pbx": 0.4,
+   "De": 0.55,
+   "Dm": 0.95,
+   "Th": 0.4,
+   "Mu": 0.95,
+   "red_p": 0.7,
+   "red_i": 0.75,
+   "cvss": 8.3
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:H/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S10 params",
+   "Pbx": "medibec30.json SCEN S10 params",
+   "De": "medibec30.json SCEN S10 params",
+   "Dm": "medibec30.json SCEN S10 params",
+   "Th": "medibec30.json SCEN S10 params",
+   "Mu": "medibec30.json SCEN S10 params",
+   "red_p": "medibec30.json SCEN S10 params",
+   "red_i": "medibec30.json SCEN S10 params",
+   "cvss": "medibec30.json SCEN S10 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S11",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "API key or secret exposed in code, logs or configuration enables direct data access",
+  "threat_event": "An opportunistic actor finds an API key, database connection string or cloud access token that a developer committed to a code repository, left in a log or embedded in a configuration file, and uses it to call MediBec's EHR integration or cloud storage APIs directly, extracting patient data without passing through user authentication.",
+  "estimates": {
+   "PbA": 0.45,
+   "Pbx": 0.45,
+   "De": 0.5,
+   "Dm": 0.8,
+   "Th": 0.4,
+   "Mu": 0.75,
+   "red_p": 0.85,
+   "red_i": 0.6,
+   "cvss": 8.3
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S11 params",
+   "Pbx": "medibec30.json SCEN S11 params",
+   "De": "medibec30.json SCEN S11 params",
+   "Dm": "medibec30.json SCEN S11 params",
+   "Th": "medibec30.json SCEN S11 params",
+   "Mu": "medibec30.json SCEN S11 params",
+   "red_p": "medibec30.json SCEN S11 params",
+   "red_i": "medibec30.json SCEN S11 params",
+   "cvss": "medibec30.json SCEN S11 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S12",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Clinic Wi-Fi compromise or rogue access point gives access to the clinical network",
+  "threat_event": "An attacker in or near a clinic exploits weak wireless security, an unsegmented guest network or a rogue access point to join the clinic network, intercept credentials and reach EHR workstations and local storage.",
+  "estimates": {
+   "PbA": 0.4,
+   "Pbx": 0.45,
+   "De": 0.4,
+   "Dm": 0.75,
+   "Th": 0.4,
+   "Mu": 0.7,
+   "red_p": 0.8,
+   "red_i": 0.65,
+   "cvss": 6.4
+  },
+  "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:H/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S12 params",
+   "Pbx": "medibec30.json SCEN S12 params",
+   "De": "medibec30.json SCEN S12 params",
+   "Dm": "medibec30.json SCEN S12 params",
+   "Th": "medibec30.json SCEN S12 params",
+   "Mu": "medibec30.json SCEN S12 params",
+   "red_p": "medibec30.json SCEN S12 params",
+   "red_i": "medibec30.json SCEN S12 params",
+   "cvss": "medibec30.json SCEN S12 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S13",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "DDoS attack disrupts online booking, patient portal and communications",
+  "threat_event": "A hacktivist or extortion group floods MediBec's internet-facing services with traffic, making online appointment booking, patient records access and external communications unavailable for hours or days and pushing volume to clinic phone lines.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.6,
+   "De": 0.3,
+   "Dm": 0.55,
+   "Th": 0.45,
+   "Mu": 0.55,
+   "red_p": 0.8,
+   "red_i": 0.7,
+   "cvss": 8.7
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S13 params",
+   "Pbx": "medibec30.json SCEN S13 params",
+   "De": "medibec30.json SCEN S13 params",
+   "Dm": "medibec30.json SCEN S13 params",
+   "Th": "medibec30.json SCEN S13 params",
+   "Mu": "medibec30.json SCEN S13 params",
+   "red_p": "medibec30.json SCEN S13 params",
+   "red_i": "medibec30.json SCEN S13 params",
+   "cvss": "medibec30.json SCEN S13 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S14",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Business e-mail compromise diverts vendor or billing payments",
+  "threat_event": "A fraudster spoofs or compromises a supplier or executive mailbox and instructs MediBec finance staff to change bank details or pay a fraudulent invoice, because payment-change verification and e-mail authentication are weak, resulting in direct financial loss.",
+  "estimates": {
+   "PbA": 0.65,
+   "Pbx": 0.4,
+   "De": 0.35,
+   "Dm": 0.6,
+   "Th": 0.45,
+   "Mu": 0.55,
+   "red_p": 0.8,
+   "red_i": 0.6,
+   "cvss": 5.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S14 params",
+   "Pbx": "medibec30.json SCEN S14 params",
+   "De": "medibec30.json SCEN S14 params",
+   "Dm": "medibec30.json SCEN S14 params",
+   "Th": "medibec30.json SCEN S14 params",
+   "Mu": "medibec30.json SCEN S14 params",
+   "red_p": "medibec30.json SCEN S14 params",
+   "red_i": "medibec30.json SCEN S14 params",
+   "cvss": "medibec30.json SCEN S14 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S15",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Lost or stolen tablet or handheld exposes patient data",
+  "threat_event": "A clinician's tablet or handheld used for EHR access is lost or stolen; because device encryption, screen lock and remote wipe are not centrally enforced, patient data cached on the device or accessible through saved sessions is exposed.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.3,
+   "De": 0.25,
+   "Dm": 0.55,
+   "Th": 0.45,
+   "Mu": 0.6,
+   "red_p": 0.75,
+   "red_i": 0.8,
+   "cvss": 5.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S15 params",
+   "Pbx": "medibec30.json SCEN S15 params",
+   "De": "medibec30.json SCEN S15 params",
+   "Dm": "medibec30.json SCEN S15 params",
+   "Th": "medibec30.json SCEN S15 params",
+   "Mu": "medibec30.json SCEN S15 params",
+   "red_p": "medibec30.json SCEN S15 params",
+   "red_i": "medibec30.json SCEN S15 params",
+   "cvss": "medibec30.json SCEN S15 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S16",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Loss of the Montreal hub or WAN isolates clinics from central clinical systems",
+  "threat_event": "A carrier failure, cyberattack on network devices or data-centre incident takes the Montreal hub or WAN offline; because clinics depend on a single hub without tested redundancy or local fallback, EHR, imaging, lab and pharmacy access is lost at all ten clinics simultaneously.",
+  "estimates": {
+   "PbA": 0.35,
+   "Pbx": 0.5,
+   "De": 0.55,
+   "Dm": 0.85,
+   "Th": 0.35,
+   "Mu": 0.95,
+   "red_p": 0.7,
+   "red_i": 0.65,
+   "cvss": 8.9
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S16 params",
+   "Pbx": "medibec30.json SCEN S16 params",
+   "De": "medibec30.json SCEN S16 params",
+   "Dm": "medibec30.json SCEN S16 params",
+   "Th": "medibec30.json SCEN S16 params",
+   "Mu": "medibec30.json SCEN S16 params",
+   "red_p": "medibec30.json SCEN S16 params",
+   "red_i": "medibec30.json SCEN S16 params",
+   "cvss": "medibec30.json SCEN S16 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S17",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Unmanaged patient data on local clinic storage is exposed or lost",
+  "threat_event": "Patient exports, scanned documents and imaging copies accumulate on local clinic storage units outside central access control, retention and monitoring; an insider, intruder or misconfigured share exposes them, or they are lost without backup.",
+  "estimates": {
+   "PbA": 0.45,
+   "Pbx": 0.45,
+   "De": 0.4,
+   "Dm": 0.7,
+   "Th": 0.4,
+   "Mu": 0.65,
+   "red_p": 0.7,
+   "red_i": 0.7,
+   "cvss": 7.0
+  },
+  "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:L/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S17 params",
+   "Pbx": "medibec30.json SCEN S17 params",
+   "De": "medibec30.json SCEN S17 params",
+   "Dm": "medibec30.json SCEN S17 params",
+   "Th": "medibec30.json SCEN S17 params",
+   "Mu": "medibec30.json SCEN S17 params",
+   "red_p": "medibec30.json SCEN S17 params",
+   "red_i": "medibec30.json SCEN S17 params",
+   "cvss": "medibec30.json SCEN S17 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S18",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Web application flaw in the patient portal exposes other patients' records",
+  "threat_event": "An attacker, or a curious patient, exploits an authorization flaw (insecure direct object reference) or injection weakness in MediBec's online records-access or booking application, retrieving other patients' records at scale.",
+  "estimates": {
+   "PbA": 0.5,
+   "Pbx": 0.35,
+   "De": 0.5,
+   "Dm": 0.85,
+   "Th": 0.4,
+   "Mu": 0.75,
+   "red_p": 0.8,
+   "red_i": 0.6,
+   "cvss": 7.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S18 params",
+   "Pbx": "medibec30.json SCEN S18 params",
+   "De": "medibec30.json SCEN S18 params",
+   "Dm": "medibec30.json SCEN S18 params",
+   "Th": "medibec30.json SCEN S18 params",
+   "Mu": "medibec30.json SCEN S18 params",
+   "red_p": "medibec30.json SCEN S18 params",
+   "red_i": "medibec30.json SCEN S18 params",
+   "cvss": "medibec30.json SCEN S18 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S19",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Trojanized software update from a clinical or IT software supplier",
+  "threat_event": "A threat actor compromises the build or update infrastructure of software used by MediBec (EHR component, imaging viewer, remote-management tool) and distributes a signed malicious update, which MediBec installs automatically, giving the actor a foothold across many systems at once.",
+  "estimates": {
+   "PbA": 0.25,
+   "Pbx": 0.5,
+   "De": 0.6,
+   "Dm": 0.95,
+   "Th": 0.35,
+   "Mu": 0.85,
+   "red_p": 0.4,
+   "red_i": 0.65,
+   "cvss": 9.5
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S19 params",
+   "Pbx": "medibec30.json SCEN S19 params",
+   "De": "medibec30.json SCEN S19 params",
+   "Dm": "medibec30.json SCEN S19 params",
+   "Th": "medibec30.json SCEN S19 params",
+   "Mu": "medibec30.json SCEN S19 params",
+   "red_p": "medibec30.json SCEN S19 params",
+   "red_i": "medibec30.json SCEN S19 params",
+   "cvss": "medibec30.json SCEN S19 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S20",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Takeover of cloud tenant administration through token theft or malicious app consent",
+  "threat_event": "An attacker steals a session token or tricks a cloud administrator into granting consent to a malicious application, obtaining persistent control of MediBec's cloud tenant, from which they read mail and files, create backdoor accounts and disable logging.",
+  "estimates": {
+   "PbA": 0.55,
+   "Pbx": 0.4,
+   "De": 0.55,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.8,
+   "red_i": 0.65,
+   "cvss": 9.4
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S20 params",
+   "Pbx": "medibec30.json SCEN S20 params",
+   "De": "medibec30.json SCEN S20 params",
+   "Dm": "medibec30.json SCEN S20 params",
+   "Th": "medibec30.json SCEN S20 params",
+   "Mu": "medibec30.json SCEN S20 params",
+   "red_p": "medibec30.json SCEN S20 params",
+   "red_i": "medibec30.json SCEN S20 params",
+   "cvss": "medibec30.json SCEN S20 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S21",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Accidental disclosure of patient information by staff",
+  "threat_event": "A staff member unintentionally discloses patient information - misdirected e-mail or fax, wrong attachment, record uploaded to a personal cloud, or document handed to the wrong patient - because data-handling controls and awareness are limited, resulting in privacy incidents and patient complaints.",
+  "estimates": {
+   "PbA": 0.85,
+   "Pbx": 0.5,
+   "De": 0.2,
+   "Dm": 0.45,
+   "Th": 0.45,
+   "Mu": 0.6,
+   "red_p": 0.6,
+   "red_i": 0.55,
+   "cvss": 4.8
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:A/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S21 params",
+   "Pbx": "medibec30.json SCEN S21 params",
+   "De": "medibec30.json SCEN S21 params",
+   "Dm": "medibec30.json SCEN S21 params",
+   "Th": "medibec30.json SCEN S21 params",
+   "Mu": "medibec30.json SCEN S21 params",
+   "red_p": "medibec30.json SCEN S21 params",
+   "red_i": "medibec30.json SCEN S21 params",
+   "cvss": "medibec30.json SCEN S21 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S22",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Interception or exposure of teleconsultations and clinical messaging",
+  "threat_event": "An outsider joins or records a teleconsultation through an open meeting link, or intercepts clinical messages sent through unapproved or poorly configured communication tools, exposing sensitive consultations.",
+  "estimates": {
+   "PbA": 0.35,
+   "Pbx": 0.35,
+   "De": 0.3,
+   "Dm": 0.55,
+   "Th": 0.45,
+   "Mu": 0.6,
+   "red_p": 0.75,
+   "red_i": 0.6,
+   "cvss": 8.2
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S22 params",
+   "Pbx": "medibec30.json SCEN S22 params",
+   "De": "medibec30.json SCEN S22 params",
+   "Dm": "medibec30.json SCEN S22 params",
+   "Th": "medibec30.json SCEN S22 params",
+   "Mu": "medibec30.json SCEN S22 params",
+   "red_p": "medibec30.json SCEN S22 params",
+   "red_i": "medibec30.json SCEN S22 params",
+   "cvss": "medibec30.json SCEN S22 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S23",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Brute force or credential stuffing against exposed administrative interfaces",
+  "threat_event": "An attacker finds management interfaces (remote desktop, hypervisor or firewall consoles, storage or out-of-band management) exposed to the internet or partner networks and gains access by credential stuffing or default passwords, obtaining administrative control of infrastructure.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.35,
+   "De": 0.6,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.85,
+   "red_i": 0.65,
+   "cvss": 9.5
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S23 params",
+   "Pbx": "medibec30.json SCEN S23 params",
+   "De": "medibec30.json SCEN S23 params",
+   "Dm": "medibec30.json SCEN S23 params",
+   "Th": "medibec30.json SCEN S23 params",
+   "Mu": "medibec30.json SCEN S23 params",
+   "red_p": "medibec30.json SCEN S23 params",
+   "red_i": "medibec30.json SCEN S23 params",
+   "cvss": "medibec30.json SCEN S23 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S24",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Malware introduced through patient-supplied imaging media or USB devices",
+  "threat_event": "Malware on a patient-supplied imaging CD/USB or a staff USB drive executes on a radiology workstation or device console when the media is loaded, infecting systems that are poorly protected by endpoint security and connected to the clinical network.",
+  "estimates": {
+   "PbA": 0.35,
+   "Pbx": 0.4,
+   "De": 0.45,
+   "Dm": 0.8,
+   "Th": 0.4,
+   "Mu": 0.8,
+   "red_p": 0.75,
+   "red_i": 0.65,
+   "cvss": 7.0
+  },
+  "cvss_vector": "CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S24 params",
+   "Pbx": "medibec30.json SCEN S24 params",
+   "De": "medibec30.json SCEN S24 params",
+   "Dm": "medibec30.json SCEN S24 params",
+   "Th": "medibec30.json SCEN S24 params",
+   "Mu": "medibec30.json SCEN S24 params",
+   "red_p": "medibec30.json SCEN S24 params",
+   "red_i": "medibec30.json SCEN S24 params",
+   "cvss": "medibec30.json SCEN S24 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S25",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Retired devices or medical equipment released with recoverable patient data",
+  "threat_event": "Workstations, drives, printers, storage units or medical equipment are returned to lessors, sold or recycled without certified data sanitization, and a third party recovers patient data from them.",
+  "estimates": {
+   "PbA": 0.4,
+   "Pbx": 0.35,
+   "De": 0.35,
+   "Dm": 0.65,
+   "Th": 0.45,
+   "Mu": 0.55,
+   "red_p": 0.85,
+   "red_i": 0.6,
+   "cvss": 5.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S25 params",
+   "Pbx": "medibec30.json SCEN S25 params",
+   "De": "medibec30.json SCEN S25 params",
+   "Dm": "medibec30.json SCEN S25 params",
+   "Th": "medibec30.json SCEN S25 params",
+   "Mu": "medibec30.json SCEN S25 params",
+   "red_p": "medibec30.json SCEN S25 params",
+   "red_i": "medibec30.json SCEN S25 params",
+   "cvss": "medibec30.json SCEN S25 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S26",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Staff paste patient data into unapproved generative-AI tools",
+  "threat_event": "Clinicians and administrative staff use public generative-AI tools to summarize notes, draft letters or translate documents, pasting identifiable patient information into services whose data retention, training use and location MediBec has not assessed, resulting in uncontrolled disclosure of health information.",
+  "estimates": {
+   "PbA": 0.8,
+   "Pbx": 0.55,
+   "De": 0.35,
+   "Dm": 0.65,
+   "Th": 0.4,
+   "Mu": 0.7,
+   "red_p": 0.65,
+   "red_i": 0.55,
+   "cvss": 6.0
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S26 params",
+   "Pbx": "medibec30.json SCEN S26 params",
+   "De": "medibec30.json SCEN S26 params",
+   "Dm": "medibec30.json SCEN S26 params",
+   "Th": "medibec30.json SCEN S26 params",
+   "Mu": "medibec30.json SCEN S26 params",
+   "red_p": "medibec30.json SCEN S26 params",
+   "red_i": "medibec30.json SCEN S26 params",
+   "cvss": "medibec30.json SCEN S26 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S27",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Help-desk impersonation leads to MFA reset and account takeover",
+  "threat_event": "An attacker phones the IT help desk impersonating a clinician or manager, uses publicly available details to pass weak identity checks, and has the password and MFA device reset, taking over the account and accessing EHR and remote access.",
+  "estimates": {
+   "PbA": 0.55,
+   "Pbx": 0.5,
+   "De": 0.55,
+   "Dm": 0.9,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.8,
+   "red_i": 0.6,
+   "cvss": 9.3
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:L/SC:H/SI:L/SA:L",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S27 params",
+   "Pbx": "medibec30.json SCEN S27 params",
+   "De": "medibec30.json SCEN S27 params",
+   "Dm": "medibec30.json SCEN S27 params",
+   "Th": "medibec30.json SCEN S27 params",
+   "Mu": "medibec30.json SCEN S27 params",
+   "red_p": "medibec30.json SCEN S27 params",
+   "red_i": "medibec30.json SCEN S27 params",
+   "cvss": "medibec30.json SCEN S27 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S28",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Malicious or departing IT administrator sabotages systems",
+  "threat_event": "A disgruntled or departing IT administrator with broad standing privileges deletes backups, disables accounts or plants logic bombs; with a 15-person IT team and concentrated knowledge, MediBec cannot quickly detect or reverse the actions, causing prolonged outages.",
+  "estimates": {
+   "PbA": 0.15,
+   "Pbx": 0.6,
+   "De": 0.6,
+   "Dm": 0.95,
+   "Th": 0.35,
+   "Mu": 0.9,
+   "red_p": 0.55,
+   "red_i": 0.6,
+   "cvss": 9.4
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S28 params",
+   "Pbx": "medibec30.json SCEN S28 params",
+   "De": "medibec30.json SCEN S28 params",
+   "Dm": "medibec30.json SCEN S28 params",
+   "Th": "medibec30.json SCEN S28 params",
+   "Mu": "medibec30.json SCEN S28 params",
+   "red_p": "medibec30.json SCEN S28 params",
+   "red_i": "medibec30.json SCEN S28 params",
+   "cvss": "medibec30.json SCEN S28 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S29",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Interception or tampering of unencrypted clinical interface traffic (HL7/DICOM)",
+  "threat_event": "An attacker positioned on the clinic network or WAN captures or alters unencrypted HL7 lab/pharmacy messages or DICOM image transfers between clinical systems, exposing results or injecting false values that flow into the EHR.",
+  "estimates": {
+   "PbA": 0.25,
+   "Pbx": 0.4,
+   "De": 0.45,
+   "Dm": 0.85,
+   "Th": 0.4,
+   "Mu": 0.85,
+   "red_p": 0.75,
+   "red_i": 0.7,
+   "cvss": 8.6
+  },
+  "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:H/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S29 params",
+   "Pbx": "medibec30.json SCEN S29 params",
+   "De": "medibec30.json SCEN S29 params",
+   "Dm": "medibec30.json SCEN S29 params",
+   "Th": "medibec30.json SCEN S29 params",
+   "Mu": "medibec30.json SCEN S29 params",
+   "red_p": "medibec30.json SCEN S29 params",
+   "red_i": "medibec30.json SCEN S29 params",
+   "cvss": "medibec30.json SCEN S29 params"
+  }
+ },
+ {
+  "sid": "MediBec-CRG/S30",
+  "case": "MediBec worked CRG assessment (CyberRiskGuardian examples/medibec)",
+  "sector": "Healthcare",
+  "name": "Criminals impersonate MediBec to defraud or phish patients",
+  "threat_event": "Fraudsters register look-alike domains and send SMS or e-mail messages posing as MediBec (appointment confirmations, billing notices, results available) to harvest patients' credentials, health-card details or payments, harming patients and eroding trust even though MediBec's systems are not breached.",
+  "estimates": {
+   "PbA": 0.7,
+   "Pbx": 0.5,
+   "De": 0.3,
+   "Dm": 0.55,
+   "Th": 0.45,
+   "Mu": 0.55,
+   "red_p": 0.55,
+   "red_i": 0.6,
+   "cvss": 5.1
+  },
+  "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+  "quotes": {
+   "PbA": "medibec30.json SCEN S30 params",
+   "Pbx": "medibec30.json SCEN S30 params",
+   "De": "medibec30.json SCEN S30 params",
+   "Dm": "medibec30.json SCEN S30 params",
+   "Th": "medibec30.json SCEN S30 params",
+   "Mu": "medibec30.json SCEN S30 params",
+   "red_p": "medibec30.json SCEN S30 params",
+   "red_i": "medibec30.json SCEN S30 params",
+   "cvss": "medibec30.json SCEN S30 params"
+  }
+ }
+]
