@@ -4,7 +4,7 @@ The ontology's identifiers (`https://w3id.org/crgo/...`) are w3id.org permanent 
 
 ## 1. Publish the documentation site (GitHub Pages)
 
-In GitHub, open **ITriskMgr/cyberriskguardian-ontology → Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/docs**, and save. After a minute the site is at https://itriskmgr.github.io/cyberriskguardian-ontology/.
+In GitHub, open **ITriskMgr/cyberriskguardian-ontology → Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/docs**, and save. After a minute the site is at https://itriskmgr.github.io/CyberRiskGuardian-Ontology/.
 
 ## 2. Register the w3id.org redirect
 
