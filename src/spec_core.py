@@ -17,6 +17,7 @@ S = {
     "CRG_K": "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)",
     "CRG_M": "CyberRiskGuardian, examples/medibec/source/data30.json and budget.json (commit f0cd36e)",
     "P1": "Phase 1 report (8 Oct 2026), section 5 and recorded decisions",
+    "LIB": "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md",
     "SCEN": "Phase 1 scenario extraction (Drive folder 'scenarios'): corpora A-D, F",
     "CCO": "Common Core Ontologies 2.2 (2026-08-13), alignment target",
     "BFO": "ISO/IEC 21838-2:2021 / BFO-2020, alignment target",
@@ -400,7 +401,8 @@ VALUE_SETS = [
   ("EvExternal", "external evidence", "preuve externe", "Sector, threat-intelligence or published sources.", "Sources sectorielles, de renseignement sur les menaces ou publiées."),
   ("EvSME", "expert input", "avis d'expert", "Judgement of a subject-matter expert.", "Jugement d'un expert du domaine."),
   ("EvInference", "analyst inference", "inférence de l'analyste", "Reasoned inference by the analyst.", "Inférence raisonnée de l'analyste."),
-  ("EvAIEstimate", "AI estimate requiring validation", "estimation par IA à valider", "Produced by an AI system; must be validated.", "Produite par un système d'IA; doit être validée.")]),
+  ("EvAIEstimate", "AI estimate requiring validation", "estimation par IA à valider", "Produced by an AI system; must be validated.", "Produite par un système d'IA; doit être validée."),
+  ("EvExercise", "exercise or simulation evidence", "preuve d'exercice ou de simulation", "Comes from a tabletop exercise, simulation or sample data; indicative only and to be validated, never a confirmed incident.", "Provient d'un exercice sur table, d'une simulation ou de données d'exemple; indicative seulement et à valider, jamais un incident confirmé.")]),
 ("SensitivityCaseType", "crg", "sensitivity case type", "type de cas de sensibilité",
  "The direction of a CRG sensitivity shift.", "Sens d'une variation de sensibilité CRG.",
  ["CRG_F"], [

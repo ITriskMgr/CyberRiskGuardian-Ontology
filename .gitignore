@@ -3,3 +3,7 @@ imports/src/
 __pycache__/
 *.pyc
 .DS_Store
+data/raw/
+data/work/
+data/private/
+ontology/vocab-private/

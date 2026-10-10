@@ -1,0 +1,1094 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iso27002-2022: <https://w3id.org/crgo/vocab/iso27002-2022/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iso27002-2022:5.1 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.1" ;
+    skos:prefLabel "Policies for information security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.10 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.10" ;
+    skos:prefLabel "Acceptable use of information and other associated assets"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.11 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.11" ;
+    skos:prefLabel "Return of assets"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.12 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.12" ;
+    skos:prefLabel "Classification of information"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.13 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.13" ;
+    skos:prefLabel "Labelling of information"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.14 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.14" ;
+    skos:prefLabel "Information transfer"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.15 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.15" ;
+    skos:prefLabel "Access control"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.16 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.16" ;
+    skos:prefLabel "Identity management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.17 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.17" ;
+    skos:prefLabel "Authentication information"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.18 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.18" ;
+    skos:prefLabel "Access rights"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.19 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.19" ;
+    skos:prefLabel "Information security in supplier relationships"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.2 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.2" ;
+    skos:prefLabel "Information security roles and responsibilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.20 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.20" ;
+    skos:prefLabel "Addressing information security within supplier agreements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.21 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.21" ;
+    skos:note "title_en per iTeh/ISO ToC, NQA, CISO Assistant, Lange/menpan; Manpower SoA has \"Managing information security in the information and communication technology (ICT) supply-chain\"; no official AFNOR/ISO French list found publicly"@en ;
+    skos:prefLabel "Managing information security in the ICT supply chain"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.22 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.22" ;
+    skos:prefLabel "Monitoring, review and change management of supplier services"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.23 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.23" ;
+    skos:prefLabel "Information security for use of cloud services"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.24 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.24" ;
+    skos:prefLabel "Information security incident management planning and preparation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.25 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.25" ;
+    skos:prefLabel "Assessment and decision on information security events"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.26 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.26" ;
+    skos:prefLabel "Response to information security incidents"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.27 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.27" ;
+    skos:prefLabel "Learning from information security incidents"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.28 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.28" ;
+    skos:prefLabel "Collection of evidence"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.29 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.29" ;
+    skos:prefLabel "Information security during disruption"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.3 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.3" ;
+    skos:prefLabel "Segregation of duties"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.30 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.30" ;
+    skos:prefLabel "ICT readiness for business continuity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.31 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.31" ;
+    skos:prefLabel "Legal, statutory, regulatory and contractual requirements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.32 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.32" ;
+    skos:prefLabel "Intellectual property rights"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.33 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.33" ;
+    skos:prefLabel "Protection of records"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.34 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.34" ;
+    skos:note "title_en per iTeh/ISO ToC, NQA, CISO Assistant, Lange/menpan; Manpower SoA has \"Privacy and protection of personal identifiable information (PII)\"; no official AFNOR/ISO French list found publicly"@en ;
+    skos:prefLabel "Privacy and protection of PII"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.35 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.35" ;
+    skos:prefLabel "Independent review of information security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.36 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.36" ;
+    skos:prefLabel "Compliance with policies, rules and standards for information security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.37 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.37" ;
+    skos:prefLabel "Documented operating procedures"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.4 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.4" ;
+    skos:prefLabel "Management responsibilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.5 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.5" ;
+    skos:prefLabel "Contact with authorities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.6 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.6" ;
+    skos:prefLabel "Contact with special interest groups"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.7 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.7" ;
+    skos:prefLabel "Threat intelligence"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.8 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.8" ;
+    skos:prefLabel "Information security in project management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5.9 a skos:Concept ;
+    skos:broader iso27002-2022:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5.9" ;
+    skos:prefLabel "Inventory of information and other associated assets"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.1 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.1" ;
+    skos:prefLabel "Screening"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.2 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.2" ;
+    skos:prefLabel "Terms and conditions of employment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.3 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.3" ;
+    skos:prefLabel "Information security awareness, education and training"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.4 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.4" ;
+    skos:prefLabel "Disciplinary process"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.5 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.5" ;
+    skos:prefLabel "Responsibilities after termination or change of employment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.6 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.6" ;
+    skos:prefLabel "Confidentiality or non-disclosure agreements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.7 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.7" ;
+    skos:prefLabel "Remote working"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6.8 a skos:Concept ;
+    skos:broader iso27002-2022:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6.8" ;
+    skos:prefLabel "Information security event reporting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.1 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.1" ;
+    skos:prefLabel "Physical security perimeters"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.10 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.10" ;
+    skos:prefLabel "Storage media"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.11 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.11" ;
+    skos:prefLabel "Supporting utilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.12 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.12" ;
+    skos:prefLabel "Cabling security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.13 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.13" ;
+    skos:prefLabel "Equipment maintenance"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.14 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.14" ;
+    skos:prefLabel "Secure disposal or re-use of equipment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.2 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.2" ;
+    skos:prefLabel "Physical entry"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.3 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.3" ;
+    skos:prefLabel "Securing offices, rooms and facilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.4 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.4" ;
+    skos:prefLabel "Physical security monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.5 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.5" ;
+    skos:prefLabel "Protecting against physical and environmental threats"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.6 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.6" ;
+    skos:prefLabel "Working in secure areas"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.7 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.7" ;
+    skos:prefLabel "Clear desk and clear screen"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.8 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.8" ;
+    skos:prefLabel "Equipment siting and protection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7.9 a skos:Concept ;
+    skos:broader iso27002-2022:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7.9" ;
+    skos:prefLabel "Security of assets off-premises"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.1 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.1" ;
+    skos:note "title_en per iTeh/ISO ToC, NQA, Lange/menpan; CISO Assistant has \"User end point devices\"; Manpower SoA has \"User end point devices\"; no official AFNOR/ISO French list found publicly"@en ;
+    skos:prefLabel "User endpoint devices"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.10 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.10" ;
+    skos:prefLabel "Information deletion"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.11 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.11" ;
+    skos:prefLabel "Data masking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.12 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.12" ;
+    skos:prefLabel "Data leakage prevention"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.13 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.13" ;
+    skos:prefLabel "Information backup"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.14 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.14" ;
+    skos:prefLabel "Redundancy of information processing facilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.15 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.15" ;
+    skos:prefLabel "Logging"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.16 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.16" ;
+    skos:prefLabel "Monitoring activities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.17 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.17" ;
+    skos:prefLabel "Clock synchronization"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.18 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.18" ;
+    skos:prefLabel "Use of privileged utility programs"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.19 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.19" ;
+    skos:prefLabel "Installation of software on operational systems"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.2 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.2" ;
+    skos:prefLabel "Privileged access rights"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.20 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.20" ;
+    skos:prefLabel "Networks security"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.21 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.21" ;
+    skos:prefLabel "Security of network services"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.22 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.22" ;
+    skos:prefLabel "Segregation of networks"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.23 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.23" ;
+    skos:prefLabel "Web filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.24 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.24" ;
+    skos:prefLabel "Use of cryptography"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.25 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.25" ;
+    skos:note "title_en per iTeh/ISO ToC, NQA, CISO Assistant, Manpower SoA; Lange/menpan has \"Secure development lifecycle\"; no official AFNOR/ISO French list found publicly"@en ;
+    skos:prefLabel "Secure development life cycle"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.26 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.26" ;
+    skos:prefLabel "Application security requirements"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.27 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.27" ;
+    skos:prefLabel "Secure system architecture and engineering principles"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.28 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.28" ;
+    skos:prefLabel "Secure coding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.29 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.29" ;
+    skos:prefLabel "Security testing in development and acceptance"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.3 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.3" ;
+    skos:prefLabel "Information access restriction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.30 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.30" ;
+    skos:prefLabel "Outsourced development"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.31 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.31" ;
+    skos:prefLabel "Separation of development, test and production environments"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.32 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.32" ;
+    skos:prefLabel "Change management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.33 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.33" ;
+    skos:prefLabel "Test information"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.34 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.34" ;
+    skos:prefLabel "Protection of information systems during audit testing"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.4 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.4" ;
+    skos:prefLabel "Access to source code"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.5 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.5" ;
+    skos:prefLabel "Secure authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.6 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.6" ;
+    skos:prefLabel "Capacity management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.7 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.7" ;
+    skos:prefLabel "Protection against malware"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.8 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.8" ;
+    skos:prefLabel "Management of technical vulnerabilities"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8.9 a skos:Concept ;
+    skos:broader iso27002-2022:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8.9" ;
+    skos:prefLabel "Configuration management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://iteh.es/catalog/standards/iso/1fc38e10-624f-4e18-a0a8-5c3283e61a1a/iso-iec-27002-2022 ; https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/NQA-ISO-27002-Mapping.pdf ; https://raw.githubusercontent.com/intuitem/ciso-assistant-community/main/backend/library/libraries/iso27001-2022.yaml ; https://csirt.menpan.go.id/storage/uploads-guidances/ISO%2027001%20Mapping%20Aron%20Lange.pdf ; https://www.manpower.nl/-/media/project/manpowergroup/manpower/manpower-netherlands/files/certificering/soa-iso-27001-2022-26-may-2025.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:6 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "6" ;
+    skos:prefLabel "People controls"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27002:2022 clause structure"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:7 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "7" ;
+    skos:prefLabel "Physical controls"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27002:2022 clause structure"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:8 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "8" ;
+    skos:prefLabel "Technological controls"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27002:2022 clause structure"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+iso27002-2022:5 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    skos:notation "5" ;
+    skos:prefLabel "Organizational controls"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27002-2022> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27002:2022 clause structure"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+<https://w3id.org/crgo/vocab/iso27002-2022> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISO/IEC JTC 1/SC 27" ;
+    dcterms:rights "Control identifiers and titles of ISO/IEC 27002:2022, (c) ISO/IEC, cited for reference and mapping only. No control text is reproduced; obtain the standard from ISO or a national standards body."@en ;
+    dcterms:source "ISO/IEC 27002:2022 table of contents, cross-checked against four public mappings; see data/frameworks/iso27002_2022.tsv" ;
+    dcterms:title "ISO/IEC 27002:2022 information security controls (identifiers and titles)"@en,
+        "Mesures de sécurité de l'information ISO/IEC 27002:2022 (identifiants et titres)"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.2.0/iso27002-2022> ;
+    owl:versionInfo "2022 (corrected 2022-03)" ;
+    skos:hasTopConcept iso27002-2022:5,
+        iso27002-2022:6,
+        iso27002-2022:7,
+        iso27002-2022:8 ;
+    skos:scopeNote "The same 93 identifiers number the controls of ISO/IEC 27001:2022 Annex A. No official French titles were found, so French labels are omitted."@en .
+

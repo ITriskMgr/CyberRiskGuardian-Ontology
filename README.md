@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.1.0 — all terms approved by the project owner on 2026-10-08 (decisions in `src/approvals.tsv`). Phases 3–5 to come.**
+**Status: 0.2.0, approved by the project owner (0.1.0 on 2026-10-08; Phase 3 additions on 2026-10-10). Decisions in `src/approvals.tsv`. Phases 4–5 to come.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -36,9 +36,15 @@ The w3id.org redirects are not registered yet; until they are, use the local
 ontology/        generated OWL modules (Turtle) and the import catalog
 src/             specification (spec_core.py, spec_props.py), generator (build.py), ids.tsv, approvals.tsv
 imports/         BFO-2020 core, CCO 2.2 slice and seed list, CCO licence
-tests/           make_fixtures.py and generated fixtures (one positive, three negative)
-scripts/         check.sh, check_metadata.py, check_modules.py
-docs/            decisions.md (design decisions, review fixes, deferred items)
+tests/           fixtures (one positive, three negative); tests/crg: MediBec round trip
+scripts/         check.sh, check_metadata.py, check_modules.py, check_vocab.py, review workbooks
+ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, CCM domains, ATT&CK
+                 (CCM controls are built privately into ontology/vocab-private/, never committed)
+pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), CRG bridge (pipeline/crg), fetch_sources.sh
+data/library/    repaired 2023 scenario library: rows, families, category map, repair report
+data/abox/       library instance data (crgo-library.ttl)
+data/frameworks/ verified framework tables with their sources
+docs/            decisions.md (design decisions, review fixes, deferred items), crg-mapping.md
 ```
 
 The `.ttl` files in `ontology/` are generated. Edit the specification in `src/`
@@ -61,6 +67,12 @@ The script regenerates the modules and fixtures, merges the imports, then checks
 4. every term has en/fr labels and definitions, a status, a confidence and a source, and labels are unique per language;
 5. no module refers to a term from a module it does not import.
 
+Step 8 converts the MediBec case again when `CRG_CALC` points to CyberRiskGuardian's `crg_calc.py`;
+`WITH_LIBRARY=1` adds a reasoner run over the scenario library (about two minutes).
+
+To rebuild the Phase 3 data: `pipeline/fetch_sources.sh`, then `python3 pipeline/vocab/build_vocab.py`; for the library,
+copy the 2023 `combined_file.xlsx` into `data/raw/` and run `pipeline/library/repair.py` then `build_abox.py`.
+
 Large merges may need more memory: `JAVA_TOOL_OPTIONS=-Xmx8g`.
 
 `python3 scripts/make_review_workbook.py` writes the term review workbook
@@ -79,10 +91,10 @@ range of *is crown jewel*.
 |---|---|---|
 | 1 | Discovery: sources, scenarios, CRG model, competency questions | done |
 | 2 | Core OWL 2 modules with governance annotations | approved 2026-10-08 |
-| 3 | ABox from the consolidated scenario library; SKOS framework mappings; CRG JSON-LD bridge | not started |
+| 3 | Scenario library instance data; SKOS framework vocabularies; CRG bridge | approved 2026-10-10 |
 | 4 | Validation: SHACL shapes, OOPS!, competency questions as SPARQL tests | not started |
 | 5 | Documentation (WIDOCO), release, extension plan | not started |
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.1.0.
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.2.0.

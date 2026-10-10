@@ -313,18 +313,69 @@ crgo:CRGO_0000300 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
+# --- lower bound
+crgo:CRGO_0000331 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "lower bound"@en,
+        "borne inférieure"@fr ;
+    rdfs:domain crgo:CRGO_0000037 ;
+    rdfs:range xsd:decimal ;
+    skos:definition "Gives the smallest value observed or allowed for an estimate, such as the minimum across merged source records."@en,
+        "Indique la plus petite valeur observée ou admise pour une estimation, comme le minimum parmi des enregistrements sources fusionnés."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+# --- upper bound
+crgo:CRGO_0000332 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "upper bound"@en,
+        "borne supérieure"@fr ;
+    rdfs:domain crgo:CRGO_0000037 ;
+    rdfs:range xsd:decimal ;
+    skos:definition "Gives the largest value observed or allowed for an estimate, such as the maximum across merged source records."@en,
+        "Indique la plus grande valeur observée ou admise pour une estimation, comme le maximum parmi des enregistrements sources fusionnés."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+# --- sample size
+crgo:CRGO_0000333 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "sample size"@en,
+        "taille d'échantillon"@fr ;
+    rdfs:domain crgo:CRGO_0000037 ;
+    rdfs:range xsd:nonNegativeInteger ;
+    skos:definition "Gives how many source values an aggregated estimate was computed from."@en,
+        "Indique le nombre de valeurs sources à partir desquelles une estimation agrégée a été calculée."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
+    crgo:CRGO_0000291 "0.2.0" .
+
 crgo:crgo-measure a owl:Ontology ;
     dcterms:created "2026-10-08" ;
     dcterms:creator "Marc-André Léger" ;
-    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. All elements are proposed (version 0.1.0) until approved by the domain expert."@en ;
+    dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
     dcterms:title "CyberRiskGuardian Ontology - measurement module"@en,
         "Ontologie CyberRiskGuardian - module de mesure"@fr ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-core ;
-    owl:versionIRI <https://w3id.org/crgo/0.1.0/crgo-measure> ;
-    owl:versionInfo "0.1.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.2.0/crgo-measure> ;
+    owl:versionInfo "0.2.0" .
 
 # --- risk stage scheme
 crgo:CRGO_0000102 a owl:NamedIndividual,

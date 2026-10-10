@@ -1,0 +1,240 @@
+@prefix ccm41: <https://w3id.org/crgo/vocab/ccm41/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ccm41:AIS a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "AIS" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Application and Interface Security"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:AandA a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "A&A" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Audit and Assurance"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:BCR a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "BCR" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Business Continuity Management and Operational Resilience"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:CCC a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "CCC" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Change Control and Configuration Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:CEK a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "CEK" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Cryptography, Encryption, and Key Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:DCS a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "DCS" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Datacenter Security"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:DSP a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "DSP" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Data Security and Privacy Lifecycle Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:GRC a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "GRC" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Governance, Risk, and Compliance"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:HRS a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "HRS" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Human Resources"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:IAM a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "IAM" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Identity and Access Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:IPY a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "IPY" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Interoperability and Portability"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:IandS a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "I&S" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Infrastructure and Virtualization Security"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:LOG a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "LOG" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Logging and Monitoring"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:SEF a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "SEF" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Security Incident Management, E-Discovery, and Cloud Forensics"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:STA a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "STA" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Supply Chain Management, Transparency, and Accountability"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:TVM a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "TVM" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Threat and Vulnerability Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+ccm41:UEM a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ccm41> ;
+    skos:notation "UEM" ;
+    skos:note "CSA writes some names with '&' (for example 'Audit & Assurance')."@en ;
+    skos:prefLabel "Universal Endpoint Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ccm41> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "AWS-CSA-guide-2026-07(https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/cloud_security_aaliance_on_aws_compliance_guide.pdf);ISMSCore(https://isms-core.com/frameworks/csa-ccm/)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.2.0" .
+
+<https://w3id.org/crgo/vocab/ccm41> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "Cloud Security Alliance" ;
+    dcterms:rights "Domain identifiers and names of the CSA Cloud Controls Matrix, (c) Cloud Security Alliance, cited for reference. Control titles are not included: the CCM terms do not allow redistribution."@en ;
+    dcterms:source "see data/frameworks/ccm41_domains.tsv" ;
+    dcterms:title "CSA Cloud Controls Matrix v4.1 domains"@en,
+        "Domaines de la Cloud Controls Matrix v4.1 de la CSA"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.2.0/ccm41> ;
+    owl:versionInfo "4.1 (January 2026)" ;
+    skos:hasTopConcept ccm41:AIS,
+        ccm41:AandA,
+        ccm41:BCR,
+        ccm41:CCC,
+        ccm41:CEK,
+        ccm41:DCS,
+        ccm41:DSP,
+        ccm41:GRC,
+        ccm41:HRS,
+        ccm41:IAM,
+        ccm41:IPY,
+        ccm41:IandS,
+        ccm41:LOG,
+        ccm41:SEF,
+        ccm41:STA,
+        ccm41:TVM,
+        ccm41:UEM ;
+    skos:scopeNote "Domains only. Controls are built privately from a licensed copy (pipeline/vocab/build_ccm_private.py) and are not published."@en .
+
