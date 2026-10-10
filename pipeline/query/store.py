@@ -26,6 +26,7 @@ def build(src=None, path=STORE):
     files = [src] if src else [f for pat in SOURCES for f in sorted(glob.glob(os.path.join(ROOT, pat)))]
     if os.path.exists(path):
         import shutil; shutil.rmtree(path)
+    os.makedirs(os.path.dirname(path), exist_ok=True)  # build/ is not in the repository
     st = ox.Store(path)
     for f in files:
         st.bulk_load(path=f, format=ox.RdfFormat.TURTLE)
