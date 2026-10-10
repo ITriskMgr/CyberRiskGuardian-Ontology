@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/crgo/0.5.0/crgo> a prov:Entity;
+	 dc:title "CyberRiskGuardian Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasRevisionOf <https://w3id.org/crgo/0.4.0/crgo>;
+	 prov:wasGeneratedAt "2026-10-08";
+.
+:agent0 a prov:Agent; foaf:name "Marc-André Léger".
+:agent1 a prov:Agent; foaf:name "Claude (Anthropic), AI drafting assistant; every element approved by the creator".

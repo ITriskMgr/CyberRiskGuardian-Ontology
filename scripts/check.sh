@@ -3,7 +3,7 @@
 # Requires: Python 3 with rdflib, Java 11+, ROBOT (robot.jar; set ROBOT_JAR or put robot on PATH).
 set -u
 cd "$(dirname "$0")/.."
-ROBOT=${ROBOT_JAR:+java -jar $ROBOT_JAR}
+ROBOT=${ROBOT_JAR:+java ${ROBOT_JAVA_ARGS:--Xmx6g} -jar $ROBOT_JAR}
 ROBOT=${ROBOT:-robot}
 mkdir -p build
 fail=0
@@ -74,6 +74,9 @@ if [ "${WITH_LIBRARY:-0}" = 1 ]; then
   python3 tests/cq/run_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
   python3 tests/identify/test_identify.py | tail -1 || fail=1
 fi
+
+echo "13. w3id.org redirect rules"
+python3 scripts/check_w3id.py | tail -1 || fail=1
 
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit $fail

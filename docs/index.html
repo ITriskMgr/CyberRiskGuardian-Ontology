@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CyberRiskGuardian Ontology</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d2433;--muted:#5b6475;--accent:#1f4e79;--card:#ffffff;--line:#e3e0d8}
+@media (prefers-color-scheme:dark){:root{--bg:#14171d;--fg:#e8e6e1;--muted:#a3a9b5;--accent:#8db8e0;--card:#1c2028;--line:#2c313b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,"Iowan Old Style",serif}
+main{max-width:860px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:2.1rem;margin:0 0 4px;letter-spacing:-.01em}h2{font:600 .8rem/1 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:40px 0 12px}
+.sub{color:var(--muted);margin:0 0 24px}a{color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card b{display:block;font:600 1rem system-ui,sans-serif;margin-bottom:4px}.card span{color:var(--muted);font-size:.92rem}
+code{font-size:.88em}footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body><main>
+<h1>CyberRiskGuardian Ontology</h1>
+<p class="sub">An OWL 2 ontology for cybersecurity risk assessment, aligned with BFO-2020, with framework vocabularies and a linked library of risk scenarios. <i>Ontologie OWL 2 pour l'appréciation du risque de cybersécurité.</i></p>
+<h2>Documentation</h2>
+<div class="grid">
+<div class="card"><b><a href="doc/index-en.html">Reference documentation</a></b><span>Classes, properties and values, in English.</span></div>
+<div class="card"><b><a href="doc/index-fr.html">Documentation de référence</a></b><span>Classes, propriétés et valeurs, en français.</span></div>
+<div class="card"><b><a href="doc/webvowl/index.html#">Diagram (WebVOWL)</a></b><span>Interactive graph of the core modules.</span></div>
+</div>
+<h2>Files</h2>
+<div class="grid">
+<div class="card"><b><a href="https://w3id.org/crgo/crgo">crgo</a></b><span>Core modules: <code>crgo-gov</code>, <code>crgo-core</code>, <code>crgo-measure</code>, <code>crgo-crg</code>.</span></div>
+<div class="card"><b><a href="https://w3id.org/crgo/crgo-full">crgo-full</a></b><span>Modules, scenario library and all vocabularies.</span></div>
+<div class="card"><b><a href="https://github.com/ITriskMgr/cyberriskguardian-ontology/tree/main/ontology/vocab">Vocabularies</a></b><span>CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, ATT&amp;CK, Loi 25, R-22.1.</span></div>
+<div class="card"><b><a href="https://github.com/ITriskMgr/cyberriskguardian-ontology/tree/main/data">Scenario library</a></b><span>About 1,900 scenarios with framework links, and a JSON export.</span></div>
+</div>
+<h2>Use with CyberRiskGuardian</h2>
+<p>A local MCP server and a Python module answer identification questions: which scenarios, techniques, weaknesses, controls and obligations apply to an organisation. See <a href="https://github.com/ITriskMgr/cyberriskguardian-ontology/blob/main/docs/crg-integration.md">the integration guide</a>.</p>
+<footer>Marc-André Léger · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> · Framework identifiers and titles keep their owners' terms · <a href="https://github.com/ITriskMgr/cyberriskguardian-ontology">Source on GitHub</a></footer>
+</main></body></html>
