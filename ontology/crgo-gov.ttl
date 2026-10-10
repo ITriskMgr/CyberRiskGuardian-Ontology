@@ -283,7 +283,7 @@ crgo:crgo-gov a owl:Ontology ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - governance module"@en,
         "Ontologie CyberRiskGuardian - module de gouvernance"@fr ;
-    bibo:status "draft" ;
+    bibo:status "released" ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:priorVersion <https://w3id.org/crgo/0.4.0/crgo-gov> ;

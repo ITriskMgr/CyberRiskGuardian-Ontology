@@ -182,7 +182,7 @@ ScaleFivePoint	Approve	MAL	2026-10-08
 ScaleRiskUnits	Approve	MAL	2026-10-08	
 MethodCRG_v1_0c	Approve	MAL	2026-10-08	
 MethodNormalizedCheck	Approve	MAL	2026-10-08	
-MethodNotebook2023	Approve	MAL	2026-10-08	
+MethodNotebook2023	Approve	MAL	2026-10-10	Known defects of the 2023 notebook: its Monte Carlo step centres noise on the column mean rather than on each scenario's value, and its CVSS extraction is defective. Library values are therefore re-read from the generator's answers (decisions §6.1).
 AgentClaude	Approve	MAL	2026-10-08	
 AgentMAL	Approve	MAL	2026-10-08	
 valuationOf	Approve	MAL	2026-10-08	
@@ -371,3 +371,4 @@ links/iso27002/H	Approve	MAL	2026-10-10
 links/iso27002/M	Approve	MAL	2026-10-10	
 links/loi25/H	Approve	MAL	2026-10-10	
 links/loi25/M	Approve	MAL	2026-10-10	
+# 2026-10-10: Phase 5 review: 0.5.0 approved for publication; L12 approved: defect notes moved from the definition of MethodNotebook2023 to its review note (term re-approved).

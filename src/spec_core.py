@@ -478,7 +478,7 @@ INDIVIDUALS = [
 ("MethodNormalizedCheck", "crg", ["CalculationMethod"], "CRG normalised cross-check", "contre-vérification normalisée CRG",
  "Secondary score T × E × I × (1 − C), with C proxied by resilience; post-treatment × (1 − P × Q).", "Score secondaire T × E × I × (1 − C), où C est approché par la résilience; après traitement × (1 − P × Q).", ["CRG_F"]),
 ("MethodNotebook2023", "crg", ["CalculationMethod"], "2023 scenario-generator notebook v2-1b", "carnet de génération de scénarios 2023 v2-1b",
- "Legacy method of the 2023 generator; its Monte Carlo step centres noise on the column mean and its CVSS extraction is defective.", "Méthode héritée du générateur de 2023; son étape Monte-Carlo centre le bruit sur la moyenne de la colonne et son extraction CVSS est défectueuse.", ["P1"]),
+ "Legacy calculation method of the 2023 scenario generator, used to produce the original values of the scenario library.", "Méthode de calcul héritée du générateur de scénarios de 2023, utilisée pour produire les valeurs d'origine de la bibliothèque de scénarios.", ["P1"]),
 ("AgentClaude", "gov", [],"Claude (Anthropic), drafting assistant", "Claude (Anthropic), assistant de rédaction",
  "AI system that drafted proposed elements of this ontology.", "Système d'IA qui a rédigé les éléments proposés de cette ontologie.", ["P1"]),
 ("AgentMAL", "gov", ["cco:ont00001262"], "Marc-André Léger", "Marc-André Léger",

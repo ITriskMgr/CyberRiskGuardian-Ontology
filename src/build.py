@@ -259,7 +259,7 @@ def header(g, o, name):
     g.add((o, DCTERMS.modified, Literal(ISSUED, datatype=XSD.date)))
     g.add((o, DCTERMS.issued, Literal(ISSUED, datatype=XSD.date)))
     g.add((o, OWL.priorVersion, URIRef("%s%s/%s" % (BASE, PRIOR, name))))
-    g.add((o, BIBO.status, Literal("draft" if "-" in VERSION or VERSION.startswith("0.5") else "released")))
+    g.add((o, BIBO.status, Literal("draft" if "-" in VERSION else "released")))
     g.add((o, DCTERMS.bibliographicCitation, Literal("Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version %s. %s" % (VERSION, REPO))))
     g.add((o, SCHEMA.codeRepository, URIRef(REPO)))
     g.add((o, FOAF.homepage, URIRef(BASE + "crgo")))

@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.5.0 draft (release preparation), building on 0.4.0 approved by the project owner on 2026-10-10. 0.5.0 adds the documentation site (https://itriskmgr.github.io/cyberriskguardian-ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
+**Status: 0.5.0, approved by the project owner on 2026-10-10. 0.5.0 adds the documentation site (https://itriskmgr.github.io/cyberriskguardian-ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -98,7 +98,7 @@ range of *is crown jewel*.
 | 2 | Core OWL 2 modules with governance annotations | approved 2026-10-08 |
 | 3 | Scenario library instance data; SKOS framework vocabularies; CRG bridge | approved 2026-10-10 |
 | 4 | Validation (SHACL shapes, pitfall scan, competency questions) and identification interface | approved 2026-10-10 |
-| 5 | Documentation (WIDOCO), release, extension plan | draft, awaiting review |
+| 5 | Documentation (WIDOCO), release, extension plan | approved 2026-10-10 |
 
 ## Citation
 

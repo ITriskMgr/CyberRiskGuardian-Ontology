@@ -241,11 +241,13 @@ The fair figure is about 0.5 for a first pass; a new case must be used for the n
 ### 10.4 Independent identification test (ACRB)
 Run blind with `holdout=["ACRB"]` on a case that played no part in tuning. Reference: the case author's 15 library scenarios, 10 annex scenarios and the 2022 incident, merged into 19 distinct risks. Recall 0.76: 12 covered, 5 partly, 2 missed. Of the 7 imperfect items, 3 are in the library but were not surfaced, 3 were surfaced but not chosen, and 2 are absent (ATM malware; certificate expiry). Observations for the next round, not applied so as to keep ACRB usable as a clean benchmark: no banking and payment vocabulary in the synonyms; a whole-profile sweep matches most of the library, so two-concept risks (vendor + remote access, insider + fraud, API + enumeration) need targeted queries; healthcare wording in the generic library adds noise for other sectors. Report: `docs/identification-eval-acrb.md`.
 
-## 11. Phase 5 — documentation and release preparation (0.5.0 draft, 2026-10-10)
+## 11. Phase 5 — documentation and release preparation (0.5.0, approved 2026-10-10)
 
 - **Documentation.** WIDOCO 1.4.25 generates a bilingual site from the four modules (imports removed; the 20 BFO and CCO terms referenced keep their labels and definitions so that the pages are readable). The generated Introduction and References are replaced by hand-written sections (`docs/site-src/`). Published by GitHub Pages from `/docs` on main.
 - **Identifiers.** `w3id/crgo/.htaccess` serves the documentation to browsers and Turtle to RDF clients (303 redirects). Version IRIs resolve to the files at the release tag, so the tags must exist on GitHub. Vocabulary concepts and library individuals resolve to the file that defines them, not to a page per concept.
 - **Metadata.** Every module carries FAIR header metadata; the AI drafting assistant is named as a contributor, with the statement that every element was approved by the creator.
-- **No change to the TBox.** 0.5.0 adds no class, property or axiom; no approval status was changed. Item L12 (defect notes in an approved definition) is put to the project owner rather than applied.
+- **No logical change to the TBox.** 0.5.0 adds or removes no class, property or logical axiom. One definition changed (L12, below).
 - **Check script.** ROBOT now runs with a 6 GB Java heap by default (`ROBOT_JAVA_ARGS` overrides it); HermiT ran out of memory on crgo-full with the JVM default.
 - **Next steps.** `docs/roadmap.md`.
+
+**Decisions of the project owner (2026-10-10).** 0.5.0 approved for publication under that number; 1.0.0 waits until the w3id.org identifiers resolve. L12 approved: the defect notes of "2023 scenario-generator notebook v2-1b" moved from its definition to its review note, and the term was re-approved. The about 176 scenarios that reach personal information without a privacy impact tag are to be judged against Loi 25 (next draft, links proposed until reviewed). The owner enables GitHub Pages, creates the tags and submits the w3id.org request, with step-by-step guidance.

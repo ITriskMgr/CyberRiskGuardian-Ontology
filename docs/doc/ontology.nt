@@ -15,7 +15,7 @@
 <https://w3id.org/crgo/crgo> <http://purl.org/dc/terms/source> <https://github.com/ITriskMgr/CyberRiskGuardian> .
 <https://w3id.org/crgo/crgo> <http://purl.org/dc/terms/title> "CyberRiskGuardian Ontology"@en .
 <https://w3id.org/crgo/crgo> <http://purl.org/dc/terms/title> "Ontologie CyberRiskGuardian"@fr .
-<https://w3id.org/crgo/crgo> <http://purl.org/ontology/bibo/status> "draft" .
+<https://w3id.org/crgo/crgo> <http://purl.org/ontology/bibo/status> "released" .
 <https://w3id.org/crgo/crgo> <http://purl.org/vocab/vann/preferredNamespacePrefix> "crgo" .
 <https://w3id.org/crgo/crgo> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/crgo/" .
 <https://w3id.org/crgo/crgo> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/crgo/0.4.0/crgo> .
@@ -5594,15 +5594,16 @@
 <https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/crgo/CRGO_0000059> .
 <https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2000/01/rdf-schema#label> "2023 scenario-generator notebook v2-1b"@en .
 <https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2000/01/rdf-schema#label> "carnet de génération de scénarios 2023 v2-1b"@fr .
-<https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2004/02/skos/core#definition> "Legacy method of the 2023 generator; its Monte Carlo step centres noise on the column mean and its CVSS extraction is defective."@en .
-<https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2004/02/skos/core#definition> "Méthode héritée du générateur de 2023; son étape Monte-Carlo centre le bruit sur la moyenne de la colonne et son extraction CVSS est défectueuse."@fr .
+<https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2004/02/skos/core#definition> "Legacy calculation method of the 2023 scenario generator, used to produce the original values of the scenario library."@en .
+<https://w3id.org/crgo/CRGO_0000180> <http://www.w3.org/2004/02/skos/core#definition> "Méthode de calcul héritée du générateur de scénarios de 2023, utilisée pour produire les valeurs d'origine de la bibliothèque de scénarios."@fr .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000284> <https://w3id.org/crgo/CRGO_0000063> .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000286> "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000288> <https://w3id.org/crgo/CRGO_0000181> .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000289> <https://w3id.org/crgo/CRGO_0000182> .
-<https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000290> "2026-10-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000290> "2026-10-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000291> "0.1.0" .
+<https://w3id.org/crgo/CRGO_0000180> <https://w3id.org/crgo/CRGO_0000292> "Known defects of the 2023 notebook: its Monte Carlo step centres noise on the column mean rather than on each scenario's value, and its CVSS extraction is defective. Library values are therefore re-read from the generator's answers (decisions §6.1)."@en .
 # 
 # https://w3id.org/crgo/CRGO_0000181
 <https://w3id.org/crgo/CRGO_0000181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

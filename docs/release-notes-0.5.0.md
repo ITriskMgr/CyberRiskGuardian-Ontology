@@ -1,12 +1,13 @@
-# CRGO 0.5.0 — release notes (draft)
+# CRGO 0.5.0 — release notes
 
-**Status:** draft for the project owner's review. Version 0.5.0 adds no classes, properties or axioms to 0.4.0; it prepares the ontology for publication.
+**Status:** approved by the project owner on 2026-10-10. Version 0.5.0 adds no classes, properties or logical axioms to 0.4.0; it prepares the ontology for publication. One definition changed (item L12, below).
 
 ## What is new
 
 - **Documentation site.** A bilingual (English and French) WIDOCO site describing every class, property and individual of the four modules, with a WebVOWL diagram and downloads in Turtle, RDF/XML, N-Triples and JSON-LD. Landing page `docs/index.html`; documentation `docs/doc/index-en.html` and `index-fr.html`.
 - **Permanent identifiers.** Rules for `https://w3id.org/crgo/`: browsers get the documentation (each term opens at its own entry), RDF clients get the Turtle files, version IRIs point to the files at the matching release tag. Tested against all 31,386 CRGO IRIs in the published files.
 - **Metadata.** Each module now states its abstract and description in both languages, publisher, contributors (including the AI drafting assistant), dates, prior version, status and how to cite it.
+- **One definition cleaned (L12).** "2023 scenario-generator notebook v2-1b" is now defined by what it is; the notebook's defects are recorded in its review note.
 - **Release files.** `CHANGELOG.md`, `CITATION.cff` and the extension plan `docs/roadmap.md`.
 
 ## What stays proposed

@@ -189,12 +189,12 @@ shape:Functional_valuationOf a sh:NodeShape ;
 
 shape:LibraryFamily a sh:NodeShape ;
     rdfs:comment "Linked scenarios have a theme and a threat event."@en ;
-    sh:property [ sh:message "A linked library scenario needs a theme."@en ;
+    sh:property [ sh:message "A linked library scenario needs a threat event description."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000246 ],
-        [ sh:message "A linked library scenario needs a threat event description."@en ;
+            sh:path crgo:CRGO_0000196 ],
+        [ sh:message "A linked library scenario needs a theme."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000196 ] ;
+            sh:path crgo:CRGO_0000246 ] ;
     sh:targetSubjectsOf crgo:CRGO_0000335 .
 
 shape:LibraryScenario a sh:NodeShape ;
@@ -211,13 +211,13 @@ shape:LinkAnnotation a sh:NodeShape ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000288 ],
         [ sh:maxCount 1 ;
-            sh:message "A link needs exactly one confidence level."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000284 ],
-        [ sh:maxCount 1 ;
             sh:message "A link needs exactly one governance status."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000283 ] ;
+            sh:path crgo:CRGO_0000283 ],
+        [ sh:maxCount 1 ;
+            sh:message "A link needs exactly one confidence level."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000284 ] ;
     sh:sparql [ sh:message "An approved link must record its approver and approval date."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> .
@@ -286,24 +286,24 @@ shape:Range_MaximumDamage a sh:NodeShape ;
 
 shape:Range_MitigatedRisk a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000053 .
 
 shape:Range_PreTreatmentRatio a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000301 .
 
 shape:Range_ProbabilityReduction a sh:NodeShape ;
@@ -316,13 +316,13 @@ shape:Range_ProbabilityReduction a sh:NodeShape ;
 
 shape:Range_ResidualRisk a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ],
+        [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ],
-        [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ] ;
+            sh:path crgo:CRGO_0000238 ] ;
     sh:targetClass crgo:CRGO_0000054 .
 
 shape:Range_Resilience a sh:NodeShape ;
@@ -335,13 +335,13 @@ shape:Range_Resilience a sh:NodeShape ;
 
 shape:Range_RiskToToleranceRatio a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000055 .
 
 shape:Range_ThreatPresence a sh:NodeShape ;

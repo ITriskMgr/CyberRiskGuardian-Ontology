@@ -2,14 +2,13 @@
 
 What comes after 0.5.0, in suggested order. Each item says why, what it would change, and who has to decide. The principles of the first five phases stay in force: reuse before creating, evidence for every element, nothing approved without the project owner, TBox, vocabularies and instance data kept apart.
 
-## 1. Decisions already waiting for the project owner
+## 1. Reviews waiting for the project owner
 
 | Item | What is needed | Effort |
 |---|---|---|
 | Proposed links of 0.4.0 | Review the 2,292 rule-based R-22.1 links and the links of the three written scenarios (F1812–F1814). A group decision like the one for 0.3.0 is enough; a sample can be drawn first | Small |
-| Loi 25 for about 176 scenarios | These scenarios reach personal information, but no privacy impact was tagged, so they carry no Loi 25 obligation. Option: have Claude judge them against Loi 25 only, with the same method and confidence grading as 0.3.0, then review by group. Alternative: leave them and rely on s. 10, which the rule already links wherever personal information is involved | Small |
+| Loi 25 for about 176 scenarios | Decided 2026-10-10: Claude judges them against Loi 25 with the 0.3.0 method and confidence grading; links stay proposed until a group review (next draft) | Small |
 | Low-confidence links (1,742) | Keep as suggestions (current), or review them in batches by scheme | Medium |
-| L12 | The definition of "2023 scenario-generator notebook v2-1b" holds defect notes (Monte Carlo centring, CVSS extraction). Moving them to a review note changes an approved term, so it needs re-approval | Trivial |
 
 ## 2. Identification quality (requirement R1)
 

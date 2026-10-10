@@ -30,7 +30,7 @@
         <terms:source rdf:resource="https://github.com/ITriskMgr/CyberRiskGuardian"/>
         <terms:title xml:lang="en">CyberRiskGuardian Ontology</terms:title>
         <terms:title xml:lang="fr">Ontologie CyberRiskGuardian</terms:title>
-        <bibo:status>draft</bibo:status>
+        <bibo:status>released</bibo:status>
         <vann:preferredNamespacePrefix>crgo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/crgo/</vann:preferredNamespaceUri>
         <owl:priorVersion rdf:resource="https://w3id.org/crgo/0.4.0/crgo"/>
@@ -7413,15 +7413,16 @@
         <rdf:type rdf:resource="https://w3id.org/crgo/CRGO_0000059"/>
         <rdfs:label xml:lang="en">2023 scenario-generator notebook v2-1b</rdfs:label>
         <rdfs:label xml:lang="fr">carnet de génération de scénarios 2023 v2-1b</rdfs:label>
-        <skos:definition xml:lang="en">Legacy method of the 2023 generator; its Monte Carlo step centres noise on the column mean and its CVSS extraction is defective.</skos:definition>
-        <skos:definition xml:lang="fr">Méthode héritée du générateur de 2023; son étape Monte-Carlo centre le bruit sur la moyenne de la colonne et son extraction CVSS est défectueuse.</skos:definition>
+        <skos:definition xml:lang="en">Legacy calculation method of the 2023 scenario generator, used to produce the original values of the scenario library.</skos:definition>
+        <skos:definition xml:lang="fr">Méthode de calcul héritée du générateur de scénarios de 2023, utilisée pour produire les valeurs d&apos;origine de la bibliothèque de scénarios.</skos:definition>
         <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">Phase 1 report (8 Oct 2026), section 5 and recorded decisions</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
         <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
-        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-08</crgo:CRGO_0000290>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-10</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.1.0</crgo:CRGO_0000291>
+        <crgo:CRGO_0000292 xml:lang="en">Known defects of the 2023 notebook: its Monte Carlo step centres noise on the column mean rather than on each scenario&apos;s value, and its CVSS extraction is defective. Library values are therefore re-read from the generator&apos;s answers (decisions §6.1).</crgo:CRGO_0000292>
     </owl:NamedIndividual>
     
 

@@ -2641,7 +2641,7 @@ crgo:crgo-core a owl:Ontology ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - core module"@en,
         "Ontologie CyberRiskGuardian - module central"@fr ;
-    bibo:status "draft" ;
+    bibo:status "released" ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports obo:bfo.owl,
