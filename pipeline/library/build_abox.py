@@ -39,13 +39,25 @@ def crg(p, cvss, appetite):
     return dict(est=est, tol=tol, mit=mit, res=res, ratio=ratio, pre_ratio=est / tol,
                 cls="below" if ratio < 0.90 else ("at" if ratio <= 1.10 else "above"))
 
-def annotated(g, s, p, o, conf, note=None):
-    """Assert s p o and annotate the assertion with its confidence and governance (OWL 2 axiom annotation)."""
+LINK_APPROVALS = {}
+for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
+    if _l.startswith("links/"):
+        _k, _d, _who, _date, *_ = _l.rstrip("\n").split("\t")
+        if _d == "Approve":
+            LINK_APPROVALS[_k] = (_who, _date)
+
+def annotated(g, s, p, o, conf, note=None, group=None):
+    """Assert s p o and annotate the assertion with its confidence and governance (OWL 2 axiom annotation).
+    group (links/<scheme>/<confidence>) looks up a bulk approval recorded in src/approvals.tsv."""
     g.add((s, p, o))
     a = BNode()
+    ok = LINK_APPROVALS.get(group) if group else None
     for t in [(a, RDF.type, OWL.Axiom), (a, OWL.annotatedSource, s), (a, OWL.annotatedProperty, p), (a, OWL.annotatedTarget, o),
-              (a, C("confidence"), C(CONF[conf])), (a, C("proposedBy"), C("AgentClaude")), (a, C("governanceStatus"), C("StatusProposed"))]:
+              (a, C("confidence"), C(CONF[conf])), (a, C("proposedBy"), C("AgentClaude")),
+              (a, C("governanceStatus"), C("StatusApproved" if ok else "StatusProposed"))]:
         g.add(t)
+    if ok:
+        g.add((a, C("approvedBy"), C("Agent" + ok[0]))); g.add((a, C("approvalDate"), Literal(ok[1], datatype=XSD.date)))
     if note:
         g.add((a, RDFS.comment, Literal(note, lang="en")))
 
@@ -113,12 +125,13 @@ def main():
         for l in links_by.get(fid, []):
             target = URIRef(VOC + SCHEME_NS[l.scheme] + "/" + safe(l.id))
             note = None if l.basis == "judged" else "Added by " + l.basis + "."
+            grp = "links/%s/%s" % (l.scheme, l.confidence)
             if l.scheme == "attack":
-                annotated(g, ev, C("hasExternalReference"), target, l.confidence, note)
+                annotated(g, ev, C("hasExternalReference"), target, l.confidence, note, grp)
             elif l.scheme == "loi25":
-                annotated(g, s, C("triggersObligation"), target, l.confidence, note)
+                annotated(g, s, C("triggersObligation"), target, l.confidence, note, grp)
             else:
-                annotated(g, s, C("hasRelevantRequirement"), target, l.confidence, note)
+                annotated(g, s, C("hasRelevantRequirement"), target, l.confidence, note, grp)
             n_links += 1
         inputs = []
         for k, cls in PARAM_CLASS.items():

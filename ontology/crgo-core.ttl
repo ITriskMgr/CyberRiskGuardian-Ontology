@@ -2630,11 +2630,13 @@ crgo:CRGO_0000335 a owl:ObjectProperty ;
     rdfs:range skos:Concept ;
     skos:definition "Relates a risk scenario to a requirement of a control framework, such as a NIST CSF 2.0 subcategory, a NIST SP 800-53 control or an ISO/IEC 27002 control, whose implementation would prevent, detect or limit the scenario."@en,
         "Relie un scénario de risque à une exigence d'un référentiel de mesures, comme une sous-catégorie du NIST CSF 2.0, une mesure du NIST SP 800-53 ou une mesure de l'ISO/IEC 27002, dont la mise en œuvre préviendrait, détecterait ou limiterait le scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Links are proposed with a confidence on each assertion (OWL axiom annotation); used for threat, vulnerability and control identification (requirement R1)."@en ;
     crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.3.0" .
 
 crgo:crgo-core a owl:Ontology ;

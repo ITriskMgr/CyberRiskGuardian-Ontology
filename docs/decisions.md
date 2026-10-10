@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.3.0 (draft)
+# Design decisions — CRGO 0.3.0
 
 This file records why the ontology looks the way it does.
 
@@ -177,7 +177,7 @@ Scenario themes link through the existing `hasScenarioCategory`; framework conce
 - CyberRiskGuardian consumes JSON. Identification results need a compact JSON export (and a query interface, for example a SPARQL endpoint or an MCP tool) that returns candidates with their provenance and confidence, so that Claude cites sources and keeps "AI estimate — validation required" labels.
 - Library values are priors for a fictitious healthcare organisation; identification output must say so and never present them as organisational evidence (CRG evidence discipline).
 
-## 9. Scenario library with framework links and case estimates (0.3.0 draft, 2026-10-10)
+## 9. Scenario library with framework links and case estimates (0.3.0, approved 2026-10-10)
 
 Requested by the project owner: build the 1,811 scenarios into the ontology as actual risks, with links to the frameworks, and use other sources for estimates, starting with the teaching cases in Drive.
 
@@ -202,3 +202,5 @@ Requested by the project owner: build the 1,811 scenarios into the ontology as a
 - `ontology/crgo-full.ttl` imports the core modules, the scenario library and the vocabularies; it is in OWL 2 DL and consistent under HermiT.
 - `queries/identify-by-asset-category.rq` is a first identification query (asset category → scenarios → ATT&CK techniques, controls and obligations, with confidence). In rdflib it takes minutes over the full graph; a triple store is needed for interactive use by CyberRiskGuardian (Phase 4).
 - New term, proposed: `hasRelevantRequirement`.
+
+**Approval of 0.3.0 (2026-10-10).** The project owner approved `hasRelevantRequirement` and approved the framework links by group: all high- and medium-confidence links (17,967) now carry status *approved*, `approvedBy` Marc-André Léger and `approvalDate` 2026-10-10 on their axiom annotation. The 1,742 low-confidence links remain *proposed* and should be read as suggestions. Second themes and case-scenario matches were not part of the link groups and stay *proposed*.

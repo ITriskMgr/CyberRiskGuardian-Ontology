@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.2.0 approved (2026-10-10). 0.3.0 draft under review: framework links for the 1,811 library scenarios, case-based estimates, `crgo-full`.**
+**Status: 0.3.0, approved by the project owner on 2026-10-10: core modules, scenario library with framework links (high- and medium-confidence links approved; low-confidence links remain suggestions), case-based estimates, `crgo-full`. Decisions in `src/approvals.tsv`. Phases 4–5 to come.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -99,4 +99,4 @@ range of *is crown jewel*.
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.2.0.
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.3.0.
