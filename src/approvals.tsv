@@ -1,6 +1,7 @@
 # Review decisions by the project owner. Columns: key, decision (Approve/Reject/Revise), approver, date, comment.
 # 2026-10-08: all terms of version 0.1.0 approved after review of CRGO-0.1.0-term-review.xlsx.
 # 2026-10-08 (0.2.0 draft): hasThreatSourceType definition reworded (removed class EnvironmentalHazard); back to proposed for re-approval.
+# 2026-10-10: the 7 new or changed terms of 0.2.0 and the 23 scenario themes approved after review of CRGO-0.2.0-phase3-review.xlsx. Vocabulary concepts are keyed scheme/notation.
 Asset	Approve	MAL	2026-10-08	
 InformationAsset	Approve	MAL	2026-10-08	
 SoftwareAsset	Approve	MAL	2026-10-08	
@@ -327,3 +328,33 @@ hasExternalReference	Approve	MAL	2026-10-08
 background	Approve	MAL	2026-10-08	
 treatmentSummary	Approve	MAL	2026-10-08	
 caseAppetite	Approve	MAL	2026-10-08	
+EvExercise	Approve	MAL	2026-10-10	
+hasThreatSourceType	Approve	MAL	2026-10-10	
+applicableSector	Approve	MAL	2026-10-10	
+suggestedMitigation	Approve	MAL	2026-10-10	
+lowerBound	Approve	MAL	2026-10-10	
+upperBound	Approve	MAL	2026-10-10	
+sampleSize	Approve	MAL	2026-10-10	
+theme/ThemeMedicalIoT	Approve	MAL	2026-10-10	
+theme/ThemeEmerging	Approve	MAL	2026-10-10	
+theme/ThemeCrypto	Approve	MAL	2026-10-10	
+theme/ThemeRansomware	Approve	MAL	2026-10-10	
+theme/ThemeSocialEng	Approve	MAL	2026-10-10	
+theme/ThemeDoS	Approve	MAL	2026-10-10	
+theme/ThemeInsider	Approve	MAL	2026-10-10	
+theme/ThemeAccess	Approve	MAL	2026-10-10	
+theme/ThemeThirdParty	Approve	MAL	2026-10-10	
+theme/ThemeCloud	Approve	MAL	2026-10-10	
+theme/ThemeVulnMgmt	Approve	MAL	2026-10-10	
+theme/ThemeAppSec	Approve	MAL	2026-10-10	
+theme/ThemeNetwork	Approve	MAL	2026-10-10	
+theme/ThemeEndpoint	Approve	MAL	2026-10-10	
+theme/ThemeDataBreach	Approve	MAL	2026-10-10	
+theme/ThemeIntegrity	Approve	MAL	2026-10-10	
+theme/ThemeAPT	Approve	MAL	2026-10-10	
+theme/ThemePhysical	Approve	MAL	2026-10-10	
+theme/ThemeContinuity	Approve	MAL	2026-10-10	
+theme/ThemeCompliance	Approve	MAL	2026-10-10	
+theme/ThemeITGov	Approve	MAL	2026-10-10	
+theme/ThemeReputation	Approve	MAL	2026-10-10	
+theme/ThemeOther	Approve	MAL	2026-10-10	

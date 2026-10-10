@@ -28,6 +28,11 @@ OUT = os.path.join(ROOT, "ontology", "vocab")
 RETRIEVED = "2026-10-08"
 VERSION = "0.2.0"
 CONF = {"H": C("ConfHigh"), "M": C("ConfMedium"), "L": C("ConfLow")}
+APPROVALS = {}
+for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
+    if _l.strip() and not _l.startswith("#") and "/" in _l.split("\t")[0]:
+        _k, _d, _who, _date, *_ = _l.rstrip("\n").split("\t")
+        APPROVALS[_k] = (_d, _who, _date)
 
 def safe(i):
     i = i.replace("&", "and").replace(" ", "_").replace("(", "_").replace(")", "")
@@ -80,7 +85,13 @@ class Scheme:
             g.add((c, RDFS.seeAlso, URIRef(see_also)))
         if note:
             g.add((c, SKOS.note, Literal(note, lang="en")))
-        g.add((c, C("governanceStatus"), C("StatusProposed")))
+        a = APPROVALS.get("%s/%s" % (self.key, notation))
+        if a and a[0] == "Approve":
+            g.add((c, C("governanceStatus"), C("StatusApproved")))
+            g.add((c, C("approvedBy"), C("Agent" + a[1])))
+            g.add((c, C("approvalDate"), Literal(a[2], datatype=XSD.date)))
+        else:
+            g.add((c, C("governanceStatus"), C("StatusProposed")))
         g.add((c, C("confidence"), CONF[conf]))
         if source:
             g.add((c, C("evidenceSource"), Literal(source, lang="en")))

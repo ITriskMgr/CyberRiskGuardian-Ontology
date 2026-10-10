@@ -13,10 +13,12 @@ theme:ThemeAPT a skos:Concept ;
     skos:prefLabel "advanced and multi-vector attacks"@en,
         "attaques avancées et multivectorielles"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeAccess a skos:Concept ;
@@ -27,10 +29,12 @@ theme:ThemeAccess a skos:Concept ;
     skos:prefLabel "identity and access"@en,
         "identité et accès"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeAppSec a skos:Concept ;
@@ -41,10 +45,12 @@ theme:ThemeAppSec a skos:Concept ;
     skos:prefLabel "applications and software development"@en,
         "applications et développement logiciel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeCloud a skos:Concept ;
@@ -55,10 +61,12 @@ theme:ThemeCloud a skos:Concept ;
     skos:prefLabel "cloud, virtualisation and data platforms"@en,
         "infonuagique, virtualisation et plateformes de données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeCompliance a skos:Concept ;
@@ -69,10 +77,12 @@ theme:ThemeCompliance a skos:Concept ;
     skos:prefLabel "governance, compliance and legal"@en,
         "gouvernance, conformité et aspects juridiques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeContinuity a skos:Concept ;
@@ -83,10 +93,12 @@ theme:ThemeContinuity a skos:Concept ;
     skos:prefLabel "continuity and incident response"@en,
         "continuité et réponse aux incidents"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeCrypto a skos:Concept ;
@@ -97,10 +109,12 @@ theme:ThemeCrypto a skos:Concept ;
     skos:prefLabel "cryptography and key management"@en,
         "cryptographie et gestion des clés"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeDataBreach a skos:Concept ;
@@ -111,10 +125,12 @@ theme:ThemeDataBreach a skos:Concept ;
     skos:prefLabel "data breach and exfiltration"@en,
         "fuite et exfiltration de données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeDoS a skos:Concept ;
@@ -125,10 +141,12 @@ theme:ThemeDoS a skos:Concept ;
     skos:prefLabel "denial of service and availability"@en,
         "déni de service et disponibilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeEmerging a skos:Concept ;
@@ -139,10 +157,12 @@ theme:ThemeEmerging a skos:Concept ;
     skos:prefLabel "emerging technologies"@en,
         "technologies émergentes"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeEndpoint a skos:Concept ;
@@ -153,10 +173,12 @@ theme:ThemeEndpoint a skos:Concept ;
     skos:prefLabel "endpoints and mobile"@en,
         "postes de travail et mobilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeITGov a skos:Concept ;
@@ -167,10 +189,12 @@ theme:ThemeITGov a skos:Concept ;
     skos:prefLabel "IT management and investment"@en,
         "gestion et investissement en TI"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeInsider a skos:Concept ;
@@ -181,10 +205,12 @@ theme:ThemeInsider a skos:Concept ;
     skos:prefLabel "insider threat and human error"@en,
         "menace interne et erreur humaine"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeIntegrity a skos:Concept ;
@@ -195,10 +221,12 @@ theme:ThemeIntegrity a skos:Concept ;
     skos:prefLabel "data integrity and manipulation"@en,
         "intégrité et manipulation des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeMedicalIoT a skos:Concept ;
@@ -209,10 +237,12 @@ theme:ThemeMedicalIoT a skos:Concept ;
     skos:prefLabel "IoT, OT and medical devices"@en,
         "IdO, TO et dispositifs médicaux"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeNetwork a skos:Concept ;
@@ -223,10 +253,12 @@ theme:ThemeNetwork a skos:Concept ;
     skos:prefLabel "networks and remote access"@en,
         "réseaux et accès à distance"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeOther a skos:Concept ;
@@ -237,10 +269,12 @@ theme:ThemeOther a skos:Concept ;
     skos:prefLabel "other or unclassified"@en,
         "autre ou non classé"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemePhysical a skos:Concept ;
@@ -251,10 +285,12 @@ theme:ThemePhysical a skos:Concept ;
     skos:prefLabel "physical and environmental"@en,
         "physique et environnemental"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeRansomware a skos:Concept ;
@@ -265,10 +301,12 @@ theme:ThemeRansomware a skos:Concept ;
     skos:prefLabel "malware and ransomware"@en,
         "maliciels et rançongiciels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeReputation a skos:Concept ;
@@ -279,10 +317,12 @@ theme:ThemeReputation a skos:Concept ;
     skos:prefLabel "reputation and external communication"@en,
         "réputation et communications externes"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeSocialEng a skos:Concept ;
@@ -293,10 +333,12 @@ theme:ThemeSocialEng a skos:Concept ;
     skos:prefLabel "phishing and social engineering"@en,
         "hameçonnage et ingénierie sociale"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeThirdParty a skos:Concept ;
@@ -307,10 +349,12 @@ theme:ThemeThirdParty a skos:Concept ;
     skos:prefLabel "third-party and supply chain"@en,
         "tiers et chaîne d'approvisionnement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 theme:ThemeVulnMgmt a skos:Concept ;
@@ -321,10 +365,12 @@ theme:ThemeVulnMgmt a skos:Concept ;
     skos:prefLabel "legacy, patch and configuration management"@en,
         "désuétude, correctifs et gestion de configuration"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/theme> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Phase 3 category consolidation, data/library/category_map.tsv"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 <https://w3id.org/crgo/vocab/theme> a owl:Ontology,

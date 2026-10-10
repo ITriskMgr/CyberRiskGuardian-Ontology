@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.1.0
+# Design decisions — CRGO 0.2.0
 
 This file records why the ontology looks the way it does.
 
@@ -153,7 +153,7 @@ Scenario themes link through the existing `hasScenarioCategory`; framework conce
 ### 6.3 CRG bridge
 `pipeline/crg/crg2rdf.py` converts a CRG assessment file to CRGO and computes every risk number with CRG's own `crg_calc.py`. On the MediBec case it reproduces CRG's regression totals (84,491 estimated, 41,104 residual) and all 20 stored sensitivity cases; the result is consistent under HermiT. Field mapping and lossy fields: `docs/crg-mapping.md`.
 
-### 6.4 Ontology changes in 0.2.0 (proposed)
+### 6.4 Ontology changes in 0.2.0 (approved 2026-10-10)
 - New: `applicableSector`, `suggestedMitigation` (core); `lowerBound`, `upperBound`, `sampleSize` (measure); evidence basis value *exercise or simulation evidence* (`EvExercise`), so that CRG's "Exercise evidence (validate)" is not mistaken for documented evidence.
 - Reworded: `hasThreatSourceType` no longer mentions the removed EnvironmentalHazard class; returned to *proposed* for re-approval.
 - Terms record the release that introduced them (`introducedIn` 0.1.0 or 0.2.0).
@@ -166,3 +166,13 @@ Scenario themes link through the existing `hasScenarioCategory`; framework conce
 | D2 | CSA CCM v4.1 controls (redistribution not allowed) | Load into a private file | `pipeline/vocab/build_ccm_private.py` reads the project owner's licensed CCM bundle from `data/private/` and writes `ontology/vocab-private/ccm41-controls.ttl`. Both folders are git-ignored. The public `ccm41.ttl` keeps the 17 domains. |
 | D3 | ISO/IEC 27002:2022 identifiers and titles in the public repository | Yes | `ontology/vocab/iso27002-2022.ttl` is published with the notice in `NOTICE.md`. |
 | D4 | COBIT 2019 or COBIT 7 | Stay with COBIT 2019 | `cobit2019.ttl` stays as is; the scope note about COBIT 7 is kept for information. |
+
+**Approval of 0.2.0 (2026-10-10).** The project owner approved the 7 new or changed terms and the 23 scenario themes, with no changes requested to the category map or the library families. Framework concepts stay *proposed*: they reproduce external catalogues and are approved with their source rather than term by term.
+
+## 8. Requirements carried forward
+
+**R1 — Support threat, vulnerability and risk identification in CyberRiskGuardian (2026-10-10).** One of the ontology's main uses is to help CyberRiskGuardian, itself built on Claude, identify threats, vulnerabilities and risk scenarios for an organisation. Consequences for the next phases:
+- Phase 4 competency questions and SPARQL tests start from identification questions, for example: given an asset category, sector or theme, which threat events, threat source types, weaknesses and library scenarios apply; which ATT&CK techniques and controls (CSF, SP 800-53, ISO/IEC 27002) relate to them; which Loi 25 obligations a scenario can trigger.
+- The links that identification needs are mostly text today: library scenarios have threat-event and weakness descriptions but no ATT&CK, control or obligation links. A mapping step (scenario family → ATT&CK technique, family → control requirement), with confidence and review status on each link, is the main gap to close.
+- CyberRiskGuardian consumes JSON. Identification results need a compact JSON export (and a query interface, for example a SPARQL endpoint or an MCP tool) that returns candidates with their provenance and confidence, so that Claude cites sources and keeps "AI estimate — validation required" labels.
+- Library values are priors for a fictitious healthcare organisation; identification output must say so and never present them as organisational evidence (CRG evidence discipline).

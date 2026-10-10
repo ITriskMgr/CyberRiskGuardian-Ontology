@@ -322,10 +322,12 @@ crgo:CRGO_0000331 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the smallest value observed or allowed for an estimate, such as the minimum across merged source records."@en,
         "Indique la plus petite valeur observée ou admise pour une estimation, comme le minimum parmi des enregistrements sources fusionnés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 # --- upper bound
@@ -337,10 +339,12 @@ crgo:CRGO_0000332 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the largest value observed or allowed for an estimate, such as the maximum across merged source records."@en,
         "Indique la plus grande valeur observée ou admise pour une estimation, comme le maximum parmi des enregistrements sources fusionnés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 # --- sample size
@@ -352,10 +356,12 @@ crgo:CRGO_0000333 a owl:DatatypeProperty,
     rdfs:range xsd:nonNegativeInteger ;
     skos:definition "Gives how many source values an aggregated estimate was computed from."@en,
         "Indique le nombre de valeurs sources à partir desquelles une estimation agrégée a été calculée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 3 repair of the 2023 scenario library (decision Q-E, option 3), data/library/REPAIR_REPORT.md"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000291 "0.2.0" .
 
 crgo:crgo-measure a owl:Ontology ;
