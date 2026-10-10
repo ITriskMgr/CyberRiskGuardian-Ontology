@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.3.0 approved (2026-10-10). 0.4.0 draft under review: Phase 4 validation (competency questions, SHACL shapes, pitfall scan) and the identification interface for CyberRiskGuardian (MCP server, Python module, JSON export).**
+**Status: 0.4.0, approved by the project owner on 2026-10-10: core modules, scenario library with framework links, case-based estimates, Phase 4 validation (competency questions, SHACL shapes, pitfall scan) and the identification interface for CyberRiskGuardian. Items added in 0.4.0 that are still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`. Phase 5 to come.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -39,7 +39,7 @@ src/             specification (spec_core.py, spec_props.py), generator (build.p
 imports/         BFO-2020 core, CCO 2.2 slice and seed list, CCO licence
 tests/           fixtures; tests/crg: MediBec round trip; tests/cq: 20 competency questions; tests/shacl: negative shapes tests; tests/identify
 scripts/         check.sh, check_metadata.py, check_modules.py, check_vocab.py, review workbooks
-ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, CCM domains, ATT&CK
+ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, Québec health-information act (R-22.1), CCM domains, ATT&CK
                  (CCM controls are built privately into ontology/vocab-private/, never committed)
 pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), framework links (pipeline/links), CRG bridge (pipeline/crg)
 queries/         SPARQL queries, starting with identification (asset category → scenarios, techniques, controls)
@@ -97,9 +97,9 @@ range of *is crown jewel*.
 | 1 | Discovery: sources, scenarios, CRG model, competency questions | done |
 | 2 | Core OWL 2 modules with governance annotations | approved 2026-10-08 |
 | 3 | Scenario library instance data; SKOS framework vocabularies; CRG bridge | approved 2026-10-10 |
-| 4 | Validation (SHACL shapes, pitfall scan, competency questions) and identification interface | draft 0.4.0 for review |
+| 4 | Validation (SHACL shapes, pitfall scan, competency questions) and identification interface | approved 2026-10-10 |
 | 5 | Documentation (WIDOCO), release, extension plan | not started |
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.3.0.
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.4.0.

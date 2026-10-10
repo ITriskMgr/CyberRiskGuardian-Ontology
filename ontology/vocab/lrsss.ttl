@@ -1,0 +1,883 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lrsss: <https://w3id.org/crgo/vocab/lrsss/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lrsss:P-39.1_s._3 a skos:Concept ;
+    skos:definition "The private-sector privacy Act does not apply to health and social services information held by a health and social services body or by another person on its behalf; R-22.1 governs it instead."@en,
+        "La Loi sur le privé ne s'applique pas aux renseignements de santé et de services sociaux détenus par un organisme du secteur ou pour son compte; la LRSSS les régit."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "P-39.1 s. 3" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Private-sector Act excluded for health information"@en,
+        "Non-application de la Loi sur le privé aux renseignements de santé"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/P-39.1?code=se:3&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/P-39.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._1 a skos:Concept ;
+    skos:definition "Certain college and university institutions are treated as Schedule II bodies for the health and social services they provide."@en,
+        "Certains établissements d'enseignement collégial et universitaire sont assimilés à des organismes de l'annexe II pour les services de santé et sociaux qu'ils offrent."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 1" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "College and university health services as bodies"@en,
+        "Établissements d'enseignement assimilés"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._10 a skos:Concept ;
+    skos:definition "The technology register must state each product's type, purpose, supplier, certification status and whether it makes automated decisions."@en,
+        "Le registre indique pour chaque produit son type, sa finalité, son fournisseur, sa certification et s'il prend des décisions automatisées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 10" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Content of the technology register"@en,
+        "Teneur du registre des produits et services technologiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._11 a skos:Concept ;
+    skos:definition "The written notice to the Minister and the Commission must describe the body, the information, circumstances, dates, number of persons affected, serious-injury rationale and measures taken."@en,
+        "L'avis écrit au ministre et à la Commission décrit l'organisme, les renseignements, les circonstances, les dates, le nombre de personnes visées, le motif du préjudice sérieux et les mesures prises."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 11" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Incident notice to Minister and Commission"@en,
+        "Avis au ministre et à la Commission"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._13 a skos:Concept ;
+    skos:definition "The notice to persons concerned must describe the information, circumstances and dates, measures taken, protective steps they can take and a contact."@en,
+        "L'avis aux personnes concernées décrit les renseignements, les circonstances, les dates, les mesures prises, les mesures qu'elles peuvent prendre et une personne-ressource."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 13" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Incident notice to persons concerned"@en,
+        "Avis aux personnes concernées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._15 a skos:Concept ;
+    skos:definition "Each register entry records the information, circumstances, dates, number of persons, serious-injury assessment, notices sent and mitigation measures."@en,
+        "Chaque inscription au registre consigne les renseignements, les circonstances, les dates, le nombre de personnes, l'évaluation du préjudice, les avis transmis et les mesures d'atténuation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 15" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Content of the incident register"@en,
+        "Teneur du registre des incidents"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._16 a skos:Concept ;
+    skos:definition "The incident register must be kept up to date and each entry retained for at least five years after the body learns of the incident."@en,
+        "Le registre doit être tenu à jour et chaque inscription conservée au moins cinq ans après la prise de connaissance de l'incident."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 16" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Incident register retention (5 years)"@en,
+        "Conservation du registre des incidents"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._1_s._8 a skos:Concept ;
+    skos:definition "A non-professional may be authorized to access information only after privacy training and a written confidentiality undertaking."@en,
+        "Un intervenant non professionnel ne peut être autorisé à accéder qu'après une formation sur la protection et un engagement écrit de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 1 s. 8" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Conditions for non-professional access"@en,
+        "Autorisation d'accès d'un intervenant non professionnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%201 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._1 a skos:Concept ;
+    skos:definition "Staff, professionals, students, interns and certain third parties must take Minister-recognized information protection training when they start."@en,
+        "Le personnel, les professionnels, étudiants, stagiaires et certains tiers suivent dès leur entrée en fonction une formation sur la protection reconnue par le ministre."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 1" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Mandatory privacy training"@en,
+        "Formation obligatoire"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._10 a skos:Concept ;
+    skos:definition "Information must be protected at all times, including by controlling access to the places where it is kept."@en,
+        "Les renseignements sont protégés en tout temps, notamment par le contrôle de l'accès aux lieux où ils sont conservés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 10" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Protection and physical access control"@en,
+        "Contrôle de l'accès aux lieux"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._12 a skos:Concept ;
+    skos:definition "Destruction must be secure, suited to sensitivity and medium, consistent with best practices and irreversible."@en,
+        "La destruction doit être sécuritaire, adaptée à la sensibilité et au support, conforme aux meilleures pratiques et irréversible."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 12" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Secure and irreversible destruction"@en,
+        "Destruction sécuritaire"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._13 a skos:Concept ;
+    skos:definition "Destruction entrusted to a third party requires a written contract specifying methods, reporting and control of subcontractors."@en,
+        "La destruction confiée à un tiers exige un contrat écrit précisant les procédés, la reddition de comptes et l'encadrement des sous-traitants."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 13" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Contract for outsourced destruction"@en,
+        "Contrat de destruction confiée à un tiers"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._14 a skos:Concept ;
+    skos:definition "A body must keep proof of every destruction of information."@en,
+        "L'organisme conserve une preuve de toute destruction de renseignements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 14" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Proof of destruction"@en,
+        "Preuve de destruction"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._15 a skos:Concept ;
+    skos:definition "A body must prevent or mitigate the impacts of end of support of technology products and keep a calendar of known end dates."@en,
+        "L'organisme prévient ou atténue les impacts de la fin de support des produits technologiques et tient un calendrier des dates connues."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 15" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Technology obsolescence management"@en,
+        "Gestion de la désuétude technologique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._16 a skos:Concept ;
+    skos:definition "A body must designate a person to ensure technology products meet applicable standards, including the network CIO rules, and to oversee security measures."@en,
+        "L'organisme désigne une personne qui veille à la conformité des produits technologiques aux normes, dont les règles du dirigeant réseau, et supervise les mesures de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 16" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Designated technology security officer"@en,
+        "Personne désignée pour les produits technologiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._17 a skos:Concept ;
+    skos:definition "Technology products and services must be evaluated at least every two years and whenever a specific rule concerning them changes."@en,
+        "Les produits et services technologiques sont évalués au moins aux deux ans et à chaque modification d'une règle particulière les concernant."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 17" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Biennial technology evaluation"@en,
+        "Évaluation des produits technologiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._2 a skos:Concept ;
+    skos:definition "Trained persons must update their knowledge annually on roles, retention, security measures, incident handling and safe technology use."@en,
+        "Les personnes formées mettent à jour annuellement leurs connaissances sur les rôles, la conservation, la sécurité, les incidents et l'usage sécuritaire des technologies."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 2" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Annual knowledge update"@en,
+        "Mise à jour annuelle des connaissances"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._5 a skos:Concept ;
+    skos:definition "A body must ensure information remains usable despite an incident affecting the medium on which it is stored."@en,
+        "L'organisme s'assure que les renseignements demeurent utilisables malgré un incident touchant leur support."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 5" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Availability despite media incidents"@en,
+        "Disponibilité des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._6 a skos:Concept ;
+    skos:definition "Each year a body reviews authorized user categories and evaluates the compliance of logging, the communications register and security measures."@en,
+        "Chaque année, l'organisme revoit les catégories d'utilisateurs autorisés et évalue la conformité de la journalisation, du registre des communications et des mesures de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 6" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Annual review of logging and security"@en,
+        "Évaluation annuelle de conformité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._7 a skos:Concept ;
+    skos:definition "Accesses, uses and communications must be analysed monthly (annually for Schedule II bodies) to detect non-compliance."@en,
+        "Les accès, utilisations et communications sont analysés chaque mois (chaque année pour les organismes de l'annexe II) afin de détecter les non-conformités."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 7" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Monthly analysis of accesses"@en,
+        "Analyse des accès"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_r._2_s._8 a skos:Concept ;
+    skos:definition "Bodies other than Schedule II bodies must establish a governance committee, including the person in charge, to support the highest authority."@en,
+        "Les organismes autres que ceux de l'annexe II constituent un comité sur la gouvernance des renseignements, incluant le responsable, pour soutenir la plus haute autorité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1, r. 2 s. 8" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Information governance committee"@en,
+        "Comité sur la gouvernance des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/rc/R-22.1,%20r.%202 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._100 a skos:Concept ;
+    skos:definition "The person with the highest authority ensures compliance and acts as person in charge of information protection, and may delegate this role in writing to an autonomous delegate."@en,
+        "La personne ayant la plus haute autorité veille au respect de la loi et exerce la fonction de responsable de la protection des renseignements, délégable par écrit à un délégataire autonome."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 100" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Person in charge of information protection"@en,
+        "Responsable de la protection des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:100&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._102 a skos:Concept ;
+    skos:definition "A body must send the name and contact details of its person in charge to the Minister and the Commission and publish them on its website."@en,
+        "Un organisme transmet au ministre et à la Commission le nom et les coordonnées de son responsable et les publie sur son site Internet."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 102" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Disclosure of person in charge contact details"@en,
+        "Publication des coordonnées du responsable"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:102&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._103 a skos:Concept ;
+    skos:definition "A body must log every access to, use and communication of information it holds, identifying the information, the person and the time, and report annually to the Minister."@en,
+        "Un organisme doit journaliser l'ensemble des accès, utilisations et communications de renseignements, en précisant le renseignement, la personne et le moment, et faire rapport annuellement au ministre."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 103" ;
+    skos:note "In force: not in force (as of 2026-10-08)."@en ;
+    skos:prefLabel "Logging of access, use and communication"@en,
+        "Journalisation des accès"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:103&historique=20261008 ; https://gowlingwlg.com/fr/insights-resources/articles/2024/the-act-respecting-health-and-social-services-information-new-regulation"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._104 a skos:Concept ;
+    skos:definition "Technology products that collect information and have privacy settings must offer the highest level of confidentiality by default, cookies excepted."@en,
+        "Les produits technologiques qui recueillent des renseignements et offrent des paramètres de confidentialité doivent assurer par défaut le plus haut niveau de confidentialité, sauf les témoins."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 104" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Highest confidentiality by default"@en,
+        "Confidentialité par défaut"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:104&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._105 a skos:Concept ;
+    skos:definition "A body must adopt, disseminate and publish a governance policy covering roles, authorized users, logging and security measures, technology updates, incident and complaint handling, and training."@en,
+        "Un organisme doit adopter, diffuser et publier une politique de gouvernance couvrant les rôles, les utilisateurs autorisés, la journalisation et la sécurité, la mise à jour technologique, les incidents, les plaintes et la formation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 105" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Information governance policy"@en,
+        "Politique de gouvernance des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:105&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._106 a skos:Concept ;
+    skos:definition "A body must conduct a proportionate privacy impact assessment for any project to acquire, develop or overhaul a technological product or service handling information, and ensure data portability."@en,
+        "Un organisme doit réaliser une évaluation proportionnée des facteurs relatifs à la vie privée pour tout projet d'acquisition, de développement ou de refonte d'un produit ou service technologique, et assurer la portabilité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 106" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Privacy impact assessment for technology projects"@en,
+        "Évaluation des facteurs relatifs à la vie privée"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:106&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._107 a skos:Concept ;
+    skos:definition "A body must record every technological product or service it uses in a register and publish that register."@en,
+        "Un organisme doit inscrire dans un registre tout produit ou service technologique qu'il utilise et publier ce registre."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 107" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Register of technology products and services"@en,
+        "Registre des produits et services technologiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:107&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._108 a skos:Concept ;
+    skos:definition "A body that suspects a confidentiality incident must reduce the risk of harm and, where there is a risk of serious injury, promptly notify the Minister, the Commission and the persons concerned."@en,
+        "Un organisme qui soupçonne un incident de confidentialité doit diminuer les risques et, s'il y a risque de préjudice sérieux, aviser avec diligence le ministre, la Commission et les personnes concernées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 108" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Incident mitigation and notification"@en,
+        "Mesures et avis en cas d'incident de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:108&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._109 a skos:Concept ;
+    skos:definition "When assessing harm from an incident a body must consider the sensitivity of the information, the anticipated consequences and the likelihood of misuse, and consult its person in charge."@en,
+        "Pour évaluer le préjudice, l'organisme considère la sensibilité du renseignement, les conséquences appréhendées et la probabilité d'une utilisation préjudiciable, et consulte son responsable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 109" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Risk-of-serious-injury assessment"@en,
+        "Évaluation du risque de préjudice"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:109&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._110 a skos:Concept ;
+    skos:definition "A body must keep a register of confidentiality incidents and provide a copy to the Minister or the Commission on request."@en,
+        "Un organisme doit tenir un registre des incidents de confidentialité et en transmettre copie au ministre ou à la Commission sur demande."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 110" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Confidentiality incident register"@en,
+        "Registre des incidents de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:110&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._111 a skos:Concept ;
+    skos:definition "At the end of the retention period a body must destroy the information or irreversibly anonymize it according to recognized best practices."@en,
+        "Au terme de la conservation, l'organisme doit détruire le renseignement ou l'anonymiser de façon irréversible selon les meilleures pratiques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 111" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Destruction or anonymization at end of retention"@en,
+        "Destruction ou anonymisation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:111&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._112 a skos:Concept ;
+    skos:definition "The Commission d'accès à l'information monitors the application of the Act and promotes the protection of information."@en,
+        "La Commission d'accès à l'information surveille l'application de la loi et fait la promotion de la protection des renseignements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 112" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Commission oversight"@en,
+        "Surveillance par la Commission d'accès à l'information"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:112&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._124 a skos:Concept ;
+    skos:definition "After an investigation the Commission may recommend or order a body to implement protective measures within a set time, after hearing its observations."@en,
+        "Au terme d'une enquête, la Commission peut recommander ou ordonner à un organisme d'appliquer des mesures de protection dans un délai fixé, après l'avoir entendu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 124" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Commission orders after investigation"@en,
+        "Ordonnances de la Commission"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:124&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._13 a skos:Concept ;
+    skos:definition "A body may collect only the information necessary for its mission, functions or the programs it manages."@en,
+        "Un organisme ne peut recueillir que les renseignements nécessaires à sa mission, à ses fonctions ou aux programmes qu'il gère."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 13" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Collection limited to necessity"@en,
+        "Collecte des seuls renseignements nécessaires"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:13&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._159 a skos:Concept ;
+    skos:definition "Unlawful retention or destruction, obstruction, failure to report an incident to the Minister or Commission, or breach of authorization conditions are punishable by fines of $1,000-$10,000 (individuals) or $3,000-$30,000 (others)."@en,
+        "La conservation ou destruction illégale, l'entrave, le défaut d'aviser le ministre ou la Commission d'un incident ou le non-respect de conditions sont passibles d'amendes de 1 000 $ à 10 000 $ (personne physique) ou 3 000 $ à 30 000 $ (autres)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 159" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Penal offences (lower tier)"@en,
+        "Infractions et amendes (premier palier)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:159&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._16 a skos:Concept ;
+    skos:definition "Information may not be kept longer than needed for its purposes, subject to regulatory minimum periods and archival or professional rules."@en,
+        "Un renseignement ne peut être conservé au-delà de la durée nécessaire à ses fins, sous réserve des périodes minimales réglementaires et des règles d'archivage ou professionnelles."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 16" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Retention limited to necessary period"@en,
+        "Durée de conservation limitée"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:16&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._160 a skos:Concept ;
+    skos:definition "Unlawful communication, collection, access or use, sale, re-identification attempts, obstruction of investigations or breach of a Commission order are punishable by fines of $5,000-$100,000 (individuals) or $15,000-$150,000 (others)."@en,
+        "La communication, la collecte, l'accès ou l'utilisation illégaux, la vente, la tentative de réidentification, l'entrave à une enquête ou la contravention à une ordonnance de la Commission sont passibles d'amendes de 5 000 $ à 100 000 $ ou de 15 000 $ à 150 000 $."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 160" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Penal offences (upper tier)"@en,
+        "Infractions et amendes (second palier)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:160&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._161 a skos:Concept ;
+    skos:definition "Minimum and maximum fines are doubled for a first repeat offence and tripled for further repeat offences."@en,
+        "Les amendes minimales et maximales sont portées au double pour une première récidive et au triple pour toute récidive additionnelle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 161" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Fines doubled or tripled for repeat offences"@en,
+        "Récidive"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:161&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._162 a skos:Concept ;
+    skos:definition "When a director or officer of a legal person commits an offence, the fines are double those for a natural person."@en,
+        "Lorsqu'un administrateur ou dirigeant d'une personne morale commet une infraction, les amendes sont le double de celles prévues pour une personne physique."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 162" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Doubled fines for directors and officers"@en,
+        "Amende des administrateurs et dirigeants"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:162&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._18 a skos:Concept ;
+    skos:definition "A person may learn the name of anyone who accessed, used or received their information and the date and time of each such event."@en,
+        "La personne peut connaître le nom de quiconque a accédé à ses renseignements, les a utilisés ou reçus, ainsi que la date et l'heure."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 18" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Right to know who accessed information"@en,
+        "Droit d'être informé des accès"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:18&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._3 a skos:Concept ;
+    skos:definition "An unauthorized access, use or communication of health information, its loss, or any other breach of its protection."@en,
+        "Accès, utilisation ou communication non autorisés d'un renseignement, sa perte ou toute autre atteinte à sa protection."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 3" ;
+    skos:note "In force: 2024-07-01 (current wording 2024-12-01)."@en ;
+    skos:prefLabel "Confidentiality incident (definition)"@en,
+        "Incident de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:3&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._38 a skos:Concept ;
+    skos:definition "A professional staff member may access information only when necessary to provide services to the person or for teaching, training or reflective practice."@en,
+        "Un intervenant professionnel n'accède à un renseignement que s'il est nécessaire pour offrir des services à la personne ou à des fins d'enseignement, de formation ou de pratique réflexive."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 38" ;
+    skos:note "In force: 2024-07-01 (current wording 2024-12-01)."@en ;
+    skos:prefLabel "Professional access on need to know"@en,
+        "Accès par un intervenant professionnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:38&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._39 a skos:Concept ;
+    skos:definition "A non-professional staff member may access information, under regulatory conditions, only when needed to provide services or technical or administrative support."@en,
+        "Un intervenant non professionnel accède à un renseignement, aux conditions réglementaires, seulement s'il est nécessaire pour offrir des services ou un soutien technique ou administratif."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 39" ;
+    skos:note "In force: 2024-07-01 (current wording 2024-12-01)."@en ;
+    skos:prefLabel "Non-professional access on need to know"@en,
+        "Accès par un intervenant non professionnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:39&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._4 a skos:Concept ;
+    skos:definition "Defines the bodies bound by the Act: the Ministry, Schedule I and II bodies (incl. private professional practices and specialized medical centres), Santé Québec and other institutions, their service providers, and bodies added by regulation."@en,
+        "Définit les organismes assujettis : le ministère, les organismes des annexes I et II (dont les cabinets privés de professionnels et les centres médicaux spécialisés), Santé Québec et les autres établissements, leurs prestataires et ceux ajoutés par règlement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 4" ;
+    skos:note "In force: 2024-07-01 (current wording 2024-12-01)."@en ;
+    skos:prefLabel "Health and social services body (scope)"@en,
+        "Organisme du secteur de la santé et des services sociaux"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:4&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=sc-nb:2&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._5 a skos:Concept ;
+    skos:definition "All information held by a body is confidential and may be used or communicated only with express consent or as the Act permits, preferably in non-identifying form."@en,
+        "Tout renseignement détenu par un organisme est confidentiel et ne peut être utilisé ou communiqué qu'avec un consentement exprès ou selon la loi, de préférence sous une forme ne permettant pas l'identification."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 5" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Confidentiality of information"@en,
+        "Caractère confidentiel des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:5&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._7 a skos:Concept ;
+    skos:definition "A person may restrict access to specified information by named staff or categories of staff, overridable only for a risk to life or integrity."@en,
+        "La personne peut restreindre l'accès à certains renseignements par des intervenants ou catégories d'intervenants désignés, sauf risque pour la vie ou l'intégrité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 7" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Right to restrict access"@en,
+        "Droit de restreindre l'accès"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:7&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._73 a skos:Concept ;
+    skos:definition "Before communicating information outside Québec, a body must ensure a privacy impact assessment shows adequate protection and must sign a written agreement reflecting it."@en,
+        "Avant de communiquer un renseignement hors du Québec, l'organisme doit s'assurer qu'une évaluation des facteurs relatifs à la vie privée démontre une protection adéquate et conclure une entente écrite."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 73" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Communication outside Québec"@en,
+        "Communication à l'extérieur du Québec"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:73&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._77 a skos:Concept ;
+    skos:definition "Information may be given to a contractor only if necessary and under a written contract imposing security measures, confidentiality undertakings, breach reporting, audit rights and secure destruction."@en,
+        "Un renseignement peut être communiqué à un mandataire ou prestataire seulement si nécessaire et en vertu d'un contrat écrit imposant mesures de sécurité, engagements de confidentialité, avis d'atteinte, vérification et destruction sécuritaire."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 77" ;
+    skos:note "In force: 2024-07-01 (current wording 2024-12-01)."@en ;
+    skos:prefLabel "Written agreement with mandatary or contractor"@en,
+        "Mandat ou contrat de service ou d'entreprise"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:77&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._78 a skos:Concept ;
+    skos:definition "Before outsourcing that involves communication, collection or storage of information outside Québec, a body must complete a privacy impact assessment showing adequate protection."@en,
+        "Avant de confier un mandat impliquant la communication, la collecte ou la conservation d'un renseignement hors du Québec, l'organisme doit réaliser une évaluation des facteurs relatifs à la vie privée démontrant une protection adéquate."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 78" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Privacy impact assessment for outsourcing outside Québec"@en,
+        "Évaluation préalable au mandat hors Québec"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:78&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._90 a skos:Concept ;
+    skos:definition "The Minister must set by regulation governance rules covering logging, log monitoring, incident risk reduction, retention, destruction and maintenance of technology products."@en,
+        "Le ministre doit établir par règlement des règles de gouvernance portant notamment sur la journalisation, la surveillance, la réduction des risques d'incident, la conservation, la destruction et le maintien des produits technologiques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 90" ;
+    skos:note "In force: 2024-07-01 (paras 3 and 5 not in force)."@en ;
+    skos:prefLabel "Ministerial information governance rules"@en,
+        "Règles de gouvernance des renseignements"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:90&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._93 a skos:Concept ;
+    skos:definition "Where a regulation so provides, a body may not acquire or use a technological product or service that is not certified."@en,
+        "Dans les cas prévus par règlement, un organisme ne peut acquérir ou utiliser un produit ou service technologique non certifié."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 93" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Use of certified technology products"@en,
+        "Produit ou service technologique certifié"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:92&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:93&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._97 a skos:Concept ;
+    skos:definition "The network chief information officer defines specific rules on information security management, identity and access, authentication, infrastructure security, risk and incident management and categorization."@en,
+        "Le dirigeant réseau de l'information définit des règles particulières sur la gestion de la sécurité, l'identité et les accès, l'authentification, la sécurité des infrastructures, la gestion des risques et incidents et la catégorisation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 97" ;
+    skos:note "In force: 2024-07-01 (rules take effect on approval by the Minister of Cybersecurity and Digital Technology)."@en ;
+    skos:prefLabel "Network CIO specific security rules"@en,
+        "Règles particulières du dirigeant réseau de l'information"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:97&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:98&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+lrsss:R-22.1_s._99 a skos:Concept ;
+    skos:definition "A body is responsible for the information it holds and must apply security measures proportionate to its sensitivity, purpose, quantity, distribution and medium, and keep it accurate."@en,
+        "Un organisme est responsable des renseignements qu'il détient et doit prendre des mesures de sécurité propres à leur sensibilité, finalité, quantité, répartition et support, et les tenir exacts."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/lrsss> ;
+    skos:notation "R-22.1 s. 99" ;
+    skos:note "In force: 2024-07-01."@en ;
+    skos:prefLabel "Accountability and security measures"@en,
+        "Responsabilité et mesures de sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/lrsss> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/version/lc/R-22.1?code=se:99&historique=20261008 ; https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.4.0" .
+
+<https://w3id.org/crgo/vocab/lrsss> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "Gouvernement du Québec (source text)" ;
+    dcterms:rights "Labels and definitions are CRGO paraphrases; the official text is in LégisQuébec."@en ;
+    dcterms:source "LégisQuébec, CQLR c. R-22.1, R-22.1 r. 1, R-22.1 r. 2; see data/frameworks/lrsss.tsv and lrsss_scope.md" ;
+    dcterms:title "Québec Act respecting health and social services information: obligations"@en,
+        "Loi sur les renseignements de santé et de services sociaux : obligations"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.3.0/lrsss> ;
+    owl:versionInfo "S.Q. 2023, c. 5 (CQLR c. R-22.1) and regulations r. 1 and r. 2, as consolidated in LégisQuébec on 2026-10-10" ;
+    skos:hasTopConcept lrsss:P-39.1_s._3,
+        lrsss:R-22.1_r._1_s._1,
+        lrsss:R-22.1_r._1_s._10,
+        lrsss:R-22.1_r._1_s._11,
+        lrsss:R-22.1_r._1_s._13,
+        lrsss:R-22.1_r._1_s._15,
+        lrsss:R-22.1_r._1_s._16,
+        lrsss:R-22.1_r._1_s._8,
+        lrsss:R-22.1_r._2_s._1,
+        lrsss:R-22.1_r._2_s._10,
+        lrsss:R-22.1_r._2_s._12,
+        lrsss:R-22.1_r._2_s._13,
+        lrsss:R-22.1_r._2_s._14,
+        lrsss:R-22.1_r._2_s._15,
+        lrsss:R-22.1_r._2_s._16,
+        lrsss:R-22.1_r._2_s._17,
+        lrsss:R-22.1_r._2_s._2,
+        lrsss:R-22.1_r._2_s._5,
+        lrsss:R-22.1_r._2_s._6,
+        lrsss:R-22.1_r._2_s._7,
+        lrsss:R-22.1_r._2_s._8,
+        lrsss:R-22.1_s._100,
+        lrsss:R-22.1_s._102,
+        lrsss:R-22.1_s._103,
+        lrsss:R-22.1_s._104,
+        lrsss:R-22.1_s._105,
+        lrsss:R-22.1_s._106,
+        lrsss:R-22.1_s._107,
+        lrsss:R-22.1_s._108,
+        lrsss:R-22.1_s._109,
+        lrsss:R-22.1_s._110,
+        lrsss:R-22.1_s._111,
+        lrsss:R-22.1_s._112,
+        lrsss:R-22.1_s._124,
+        lrsss:R-22.1_s._13,
+        lrsss:R-22.1_s._159,
+        lrsss:R-22.1_s._16,
+        lrsss:R-22.1_s._160,
+        lrsss:R-22.1_s._161,
+        lrsss:R-22.1_s._162,
+        lrsss:R-22.1_s._18,
+        lrsss:R-22.1_s._3,
+        lrsss:R-22.1_s._38,
+        lrsss:R-22.1_s._39,
+        lrsss:R-22.1_s._4,
+        lrsss:R-22.1_s._5,
+        lrsss:R-22.1_s._7,
+        lrsss:R-22.1_s._73,
+        lrsss:R-22.1_s._77,
+        lrsss:R-22.1_s._78,
+        lrsss:R-22.1_s._90,
+        lrsss:R-22.1_s._93,
+        lrsss:R-22.1_s._97,
+        lrsss:R-22.1_s._99 ;
+    skos:scopeNote "Applies to health and social services bodies, including private professional offices and specialised medical centres (s. 4 and Schedule II); for the health information they hold it replaces the private-sector Act (P-39.1 s. 3, para. 3)."@en .
+

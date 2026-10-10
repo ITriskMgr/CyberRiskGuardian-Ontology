@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.4.0 (draft)
+# Design decisions — CRGO 0.4.0
 
 This file records why the ontology looks the way it does.
 
@@ -226,5 +226,17 @@ An agent playing CyberRiskGuardian read only the MediBec profile, used the inter
 
 The fair figure is about 0.5 for a first pass; a new case must be used for the next measurement. Misses fall into three groups: scenarios the library holds but the interface did not surface; scenarios surfaced but not chosen among near-duplicates; and three risks the library lacks (cloud tenant takeover through token theft or app consent, staff pasting data into generative-AI tools, HL7/DICOM interception). Two bugs found by run 3 (a keyword replaced by its synonym group; loose matches for commonly assessed risks) were fixed afterwards.
 
-### 10.3 Proposed for decision
-See the Phase 4 review workbook.
+### 10.3 Decisions of the project owner (2026-10-10)
+
+| Proposal | Decision | Result |
+|---|---|---|
+| 20 competency questions as the test suite | Approved | `tests/cq/`, run by `scripts/check.sh` |
+| 18 commonly assessed risks and the synonym list | Approved | `pipeline/query/identify.py` (BASELINE, SYNONYMS) |
+| Three missing library scenarios | Approved | F1812 cloud tenant takeover through token theft or app consent; F1813 disclosure through staff use of generative-AI tools; F1814 interception or tampering of HL7/DICOM clinical messages. Written by Claude, links proposed, no estimates yet |
+| Disjointness | Approved | Value-set classes pairwise disjoint (stated in each module for the value sets it sees); LibraryScenario disjoint from AssessmentScenario. Two negative fixtures check them |
+| Québec health-information act | Approved | Vocabulary `lrsss` (54 obligations of CQLR c. R-22.1 and its regulations r. 1 and r. 2, verified on LégisQuébec; scope in `data/frameworks/lrsss_scope.md`). It applies to private professional offices and specialised medical centres (s. 4, Schedule II) and, for the health information they hold, replaces the private-sector Act (P-39.1 s. 3, para. 3). 2,292 rule-based links give the R-22.1 equivalent of each Loi 25 obligation on the 517 library scenarios that concern health information; they stay proposed |
+| Fill missing Loi 25 links | Clarification requested | About 176 scenarios reach personal information without the privacy impact tag, so they carry no Loi 25 obligation; re-judging them for Loi 25 only is pending a decision |
+| Measure recall on another case | Done | ACRB (regional bank, not used in any tuning): recall 0.76 on 19 expected risks (12 covered, 5 partly, 2 missed), see 10.4 |
+
+### 10.4 Independent identification test (ACRB)
+Run blind with `holdout=["ACRB"]` on a case that played no part in tuning. Reference: the case author's 15 library scenarios, 10 annex scenarios and the 2022 incident, merged into 19 distinct risks. Recall 0.76: 12 covered, 5 partly, 2 missed. Of the 7 imperfect items, 3 are in the library but were not surfaced, 3 were surfaced but not chosen, and 2 are absent (ATM malware; certificate expiry). Observations for the next round, not applied so as to keep ACRB usable as a clean benchmark: no banking and payment vocabulary in the synonyms; a whole-profile sweep matches most of the library, so two-concept risks (vendor + remote access, insider + fraud, API + enumeration) need targeted queries; healthcare wording in the generic library adds noise for other sectors. Report: `docs/identification-eval-acrb.md`.

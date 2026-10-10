@@ -100,6 +100,8 @@ neg = {
   "neg-information-is-hardware.ttl": [(EX.X, RDF.type, C("InformationAsset")), (EX.X, RDF.type, C("HardwareAsset"))],
   "neg-scenario-is-process.ttl": [(EX.Y, RDF.type, C("RiskScenario")), (EX.Y, RDF.type, C("BusinessProcess"))],
   "neg-role-is-asset-object.ttl": [(EX.Z, RDF.type, C("ThreatSourceRole")), (EX.Z, RDF.type, C("HardwareAsset"))],
+  "neg-library-is-assessment.ttl": [(EX.W, RDF.type, C("LibraryScenario")), (EX.W, RDF.type, C("AssessmentScenario"))],
+  "neg-value-in-two-sets.ttl": [(EX.V, RDF.type, C("ConfidenceLevel")), (EX.V, RDF.type, C("ThreatSourceType"))],
 }
 for name, triples in neg.items():
     h = base()

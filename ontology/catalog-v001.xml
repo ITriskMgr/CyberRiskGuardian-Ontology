@@ -17,4 +17,5 @@
   <uri name="https://w3id.org/crgo/vocab/loi25" uri="vocab/loi25.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sp800-53r5" uri="vocab/sp800-53r5.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/theme" uri="vocab/theme.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/lrsss" uri="vocab/lrsss.ttl"/>
 </catalog>

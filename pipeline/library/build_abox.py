@@ -15,7 +15,7 @@ C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 LIB = Namespace("https://w3id.org/crgo/data/library/")
 THEME = Namespace("https://w3id.org/crgo/vocab/theme/")
 VOC = "https://w3id.org/crgo/vocab/"
-SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25"}
+SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25", "lrsss": "lrsss"}
 CONF = {"H": "ConfHigh", "M": "ConfMedium", "L": "ConfLow"}
 CASE_APPETITE = {"CanaRetail": 0.50, "ACRB": 0.30, "MediBec": 0.40, "Chez": 0.40, "MediBec-CRG": 0.30}
 D = lambda v: Literal(repr(round(float(v), 6)), datatype=XSD.decimal)
@@ -184,10 +184,45 @@ def main():
               (t, C("addresses"), s), (t, C("initialCost"), D(r.cost)))
             if r.cost_n > 1:
                 A((t, RDFS.comment, Literal("Median of %d source estimates (range %.0f to %.0f dollars)." % (r.cost_n, r.cost_min, r.cost_max), lang="en")))
+    n_auth = authored(g, A)
     n_case = cases(g, A, f)
     out = os.path.join(ROOT, "data", "abox"); os.makedirs(out, exist_ok=True)
     g.serialize(os.path.join(out, "crgo-library.ttl"), format="turtle")
+    print("authored %d; " % n_auth, end="")
     print("families %d, estimates %d, risk quantities %d, framework links %d, weaknesses %d, %s, triples %d" % (len(f), n_est, n_kri, n_links, n_weak[0], n_case, len(g)))
+
+def authored(g, A):
+    """Generic scenarios written by Claude to fill gaps found in the Phase 4 blind test (approved for addition by the
+    project owner on 2026-10-10). No estimates: they get values when a case or assessment calibrates them."""
+    frozen = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "data", "library", "family_ids.tsv"), encoding="utf-8") if l.strip() and not l.startswith("#"))
+    n = 0
+    for a in json.load(open(os.path.join(ROOT, "data", "library", "authored_scenarios.json"), encoding="utf-8")):
+        fid = frozen[a["key"]]; s = LIB[fid]
+        A((s, RDF.type, C("LibraryScenario")), (s, C("localIdentifier"), Literal("LIB-" + fid)), (s, RDFS.label, Literal(a["name"], lang="en")),
+          (s, C("statement"), Literal(a["statement"], lang="en")), (s, C("applicableSector"), Literal("generic")),
+          (s, C("hasScenarioCategory"), THEME[a["theme"]]), (s, C("derivedFrom"), Literal("Authored by Claude (Phase 4 gap analysis), " + a["key"])),
+          (s, C("proposedBy"), C("AgentClaude")), (s, C("governanceStatus"), C("StatusProposed")), (LIB.Run2026, C("includesScenario"), s))
+        ev = LIB[fid + "-event"]
+        A((ev, RDF.type, C("ThreatEventDescription")), (ev, RDFS.label, Literal(a["name"], lang="en")), (s, C("hasThreatEvent"), ev))
+        ts = LIB[fid + "-source"]
+        A((ts, RDF.type, C("ThreatSourceDescription")), (s, C("hasThreatSourceDescription"), ts))
+        for t in a["threat_source_types"]: A((ts, C("hasThreatSourceType"), C(t)))
+        for t in a["asset_categories"]: A((s, C("affectsAssetCategory"), C(t)))
+        cd = LIB[fid + "-consequence"]
+        A((cd, RDF.type, C("ConsequenceDescription")), (s, C("hasConsequence"), cd))
+        for t in a["impact_dimensions"]: A((cd, C("hasImpactDimension"), C(t)))
+        for i, w in enumerate(a["weaknesses"], 1):
+            vd = LIB["%s-weakness-%d" % (fid, i)]
+            A((vd, RDF.type, C("VulnerabilityDescription")), (vd, RDFS.label, Literal(w, lang="en")))
+            annotated(g, s, C("hasVulnerabilityDescription"), vd, "H")
+        for scheme in ("attack", "csf2", "sp80053r5", "iso27002", "loi25", "lrsss"):
+            for i, c in a.get(scheme, []):
+                target = URIRef(VOC + SCHEME_NS[scheme] + "/" + safe(i))
+                if scheme == "attack": annotated(g, ev, C("hasExternalReference"), target, c)
+                elif scheme in ("loi25", "lrsss"): annotated(g, s, C("triggersObligation"), target, c)
+                else: annotated(g, s, C("hasRelevantRequirement"), target, c)
+        n += 1
+    return n
 
 def cases(g, A, fam):
     """Case scenarios from the teaching cases (instructor annex values) and the MediBec worked CRG assessment:

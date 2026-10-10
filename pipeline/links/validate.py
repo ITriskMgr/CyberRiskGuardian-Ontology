@@ -21,6 +21,7 @@ import themes as T  # noqa: E402
 valid = json.load(open(os.path.join(W, "valid_ids.json")))
 valid = {k: set(v) for k, v in valid.items()}
 SCHEME = {"attack": "attack", "csf": "csf2", "sp80053": "sp80053r5", "iso": "iso27002", "loi25": "loi25"}
+SCHEMES_ALL = list(SCHEME.values()) + ["lrsss"]
 loi_rows = list(csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "loi25.tsv"), encoding="utf-8"), delimiter="\t"))
 old_loi = {}
 for r in loi_rows:
@@ -61,6 +62,19 @@ import pandas as pd
 fam_df = pd.read_csv(os.path.join(ROOT, "data", "library", "families.csv"))
 privacy = set(fam_df[fam_df.impact_dimensions.fillna("").str.contains("DimPrivacy")].family) | {l[0] for l in links if l[1] == "loi25"}
 links += [(f_, "loi25", "P-39.1 s. 10", "M", "rule: personal information involved") for f_ in privacy]
+# rule: for health information held by a health body, R-22.1 replaces the corresponding P-39.1 duties (P-39.1 s. 3,
+# para. 3); library families that carry a Loi 25 obligation and concern health information get the R-22.1 equivalents.
+LRSSS_EQ = {"P-39.1 s. 10": ["R-22.1 s. 99"], "P-39.1 s. 3.5 (1st para.)": ["R-22.1 s. 108"],
+            "P-39.1 s. 3.5 (2nd para.)": ["R-22.1 s. 108", "R-22.1, r. 1 s. 11", "R-22.1, r. 1 s. 13"], "P-39.1 s. 3.7": ["R-22.1 s. 109"],
+            "P-39.1 s. 3.8": ["R-22.1 s. 110"], "P-39.1 s. 3.1": ["R-22.1 s. 100"], "P-39.1 s. 3.2": ["R-22.1 s. 105"],
+            "P-39.1 s. 3.3": ["R-22.1 s. 106"], "P-39.1 s. 17": ["R-22.1 s. 73"], "P-39.1 s. 18.3": ["R-22.1 s. 77"], "P-39.1 s. 23": ["R-22.1 s. 111"]}
+HEALTH = re.compile(r"(?i)patient|medical|health|clinic|ehr\b|emr\b|hospital|prescription|diagnos|imaging|laborator|pharmac|nurs|physician|care\b")
+text = {r.family: "%s %s" % (r.name, r.narrative if isinstance(r.narrative, str) else "") for r in fam_df.itertuples()}
+lrsss = []
+for f_, sch, i, c, basis in links:
+    if sch == "loi25" and HEALTH.search(text.get(f_, "")):
+        lrsss += [(f_, "lrsss", j, "M", "rule: R-22.1 equivalent of %s for health information" % i) for j in LRSSS_EQ.get(i, [])]
+links += lrsss
 links = sorted(set(links))
 with open(os.path.join(ROOT, "data", "library", "links.csv"), "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh); w.writerow(["family", "scheme", "id", "confidence", "basis"]); w.writerows(links)
@@ -69,7 +83,7 @@ with open(os.path.join(ROOT, "data", "library", "family_review.csv"), "w", newli
 fams = {l[0] for l in links}
 print("families judged %d; with at least one link %d" % (len(seen), len(fams)))
 by = Counter(l[1] for l in links); conf = Counter((l[1], l[3]) for l in links)
-for s in SCHEME.values():
+for s in SCHEMES_ALL:
     n_f = len({l[0] for l in links if l[1] == s})
     print("  %-10s %5d links on %4d families  (H %d, M %d, L %d)" % (s, by[s], n_f, conf[(s, "H")], conf[(s, "M")], conf[(s, "L")]))
 print("dropped:", dict(dropped) or "none")

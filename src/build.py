@@ -175,6 +175,20 @@ for key, module, en, fr, den, dfr, srcs, members in VALUE_SETS:
         gov(g, m, srcs, "H", "")
         record("value", module, mk, men, mfr, mden, mdfr, en, srcs, "H", "")
 
+# ---------------------------------------------------------------- disjointness (approved 2026-10-10, Phase 4 review)
+# Value sets are pairwise disjoint (a confidence level is never a threat source type); each module states it for the
+# value sets it can see, so the axiom holds whichever module is loaded.
+from rdflib import BNode as _B
+from rdflib.collection import Collection as _Col
+SEES = {"gov": ["gov"], "core": ["gov", "core"], "measure": ["gov", "core", "measure"], "crg": ["gov", "core", "measure", "crg"]}
+for m, seen in SEES.items():
+    vs = [iri(v[0]) for v in VALUE_SETS if v[1] in seen]
+    if len(vs) > 1:
+        ax, lst = _B(), _B()
+        graphs[m].add((ax, RDF.type, OWL.AllDisjointClasses)); graphs[m].add((ax, OWL.members, lst))
+        _Col(graphs[m], lst, vs)
+graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
+
 # ---------------------------------------------------------------- other individuals
 for key, module, types, en, fr, den, dfr, srcs in INDIVIDUALS:
     g = graphs[module]; s = iri(key)

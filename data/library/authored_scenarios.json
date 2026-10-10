@@ -1,0 +1,322 @@
+[
+ {
+  "key": "AUTH-001",
+  "name": "Cloud tenant takeover through token theft or malicious application consent",
+  "statement": "An attacker steals session or OAuth access tokens, or tricks a user or administrator into consenting to a malicious cloud application, and uses the granted permissions to read mail and files, add privileged roles and persist in the organisation's cloud tenant without needing passwords or MFA again.",
+  "theme": "ThemeCloud",
+  "asset_categories": [
+   "CatCloud",
+   "CatIdentity",
+   "CatInformation"
+  ],
+  "threat_source_types": [
+   "SrcAdversarial"
+  ],
+  "impact_dimensions": [
+   "DimConfidentiality",
+   "DimPrivacy",
+   "DimIntegrity",
+   "DimOperational",
+   "DimLegal"
+  ],
+  "weaknesses": [
+   "Users can consent to third-party cloud applications without administrator review",
+   "Long-lived tokens not bound to device or revoked on risk"
+  ],
+  "attack": [
+   [
+    "T1528",
+    "H"
+   ],
+   [
+    "T1550.001",
+    "H"
+   ],
+   [
+    "T1098.003",
+    "M"
+   ]
+  ],
+  "csf2": [
+   [
+    "PR.AA-05",
+    "H"
+   ],
+   [
+    "PR.AA-04",
+    "M"
+   ],
+   [
+    "DE.CM-03",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "AC-6",
+    "H"
+   ],
+   [
+    "IA-9",
+    "M"
+   ],
+   [
+    "SC-23",
+    "M"
+   ],
+   [
+    "AU-6",
+    "M"
+   ]
+  ],
+  "iso27002": [
+   [
+    "5.23",
+    "H"
+   ],
+   [
+    "5.18",
+    "H"
+   ],
+   [
+    "8.2",
+    "M"
+   ],
+   [
+    "8.16",
+    "M"
+   ]
+  ],
+  "loi25": [
+   [
+    "P-39.1 s. 10",
+    "M"
+   ],
+   [
+    "P-39.1 s. 3.5 (2nd para.)",
+    "M"
+   ]
+  ]
+ },
+ {
+  "key": "AUTH-002",
+  "name": "Disclosure of confidential or personal data through staff use of generative-AI tools",
+  "statement": "Staff paste patient, client or other confidential information into public generative-AI tools to summarise, translate or draft documents; the data leaves the organisation's control, may be retained or used for training by the provider, and the disclosure is neither logged nor authorised.",
+  "theme": "ThemeEmerging",
+  "asset_categories": [
+   "CatInformation",
+   "CatPeople",
+   "CatCloud"
+  ],
+  "threat_source_types": [
+   "SrcAccidental"
+  ],
+  "impact_dimensions": [
+   "DimConfidentiality",
+   "DimPrivacy",
+   "DimLegal",
+   "DimReputation"
+  ],
+  "weaknesses": [
+   "No acceptable-use rules or approved tools for generative AI",
+   "No data-loss prevention on web uploads"
+  ],
+  "attack": [],
+  "csf2": [
+   [
+    "PR.AT-01",
+    "H"
+   ],
+   [
+    "PR.DS-10",
+    "M"
+   ],
+   [
+    "GV.PO-01",
+    "M"
+   ],
+   [
+    "DE.CM-03",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "PL-4",
+    "H"
+   ],
+   [
+    "AT-2",
+    "H"
+   ],
+   [
+    "AC-20",
+    "M"
+   ],
+   [
+    "SI-4",
+    "L"
+   ]
+  ],
+  "iso27002": [
+   [
+    "5.10",
+    "H"
+   ],
+   [
+    "8.12",
+    "H"
+   ],
+   [
+    "6.3",
+    "M"
+   ],
+   [
+    "5.34",
+    "M"
+   ]
+  ],
+  "loi25": [
+   [
+    "P-39.1 s. 10",
+    "M"
+   ],
+   [
+    "P-39.1 s. 17",
+    "M"
+   ],
+   [
+    "P-39.1 s. 3.5 (2nd para.)",
+    "M"
+   ]
+  ],
+  "lrsss": [
+   [
+    "R-22.1 s. 99",
+    "M"
+   ],
+   [
+    "R-22.1 s. 108",
+    "M"
+   ],
+   [
+    "R-22.1, r. 2 s. 1",
+    "M"
+   ]
+  ]
+ },
+ {
+  "key": "AUTH-003",
+  "name": "Interception or tampering of clinical messages (HL7, DICOM) between systems",
+  "statement": "An attacker with a foothold on the internal network or a partner link intercepts or alters unencrypted HL7 messages or DICOM transfers between clinical systems (EHR, laboratory, imaging, interface engine), exposing patient data or changing results, orders or images used for care.",
+  "theme": "ThemeIntegrity",
+  "asset_categories": [
+   "CatApplication",
+   "CatNetwork",
+   "CatInformation",
+   "CatOTIoT"
+  ],
+  "threat_source_types": [
+   "SrcAdversarial"
+  ],
+  "impact_dimensions": [
+   "DimConfidentiality",
+   "DimIntegrity",
+   "DimPrivacy",
+   "DimSafety",
+   "DimLegal"
+  ],
+  "weaknesses": [
+   "Clinical interfaces exchange HL7 and DICOM without encryption or message authentication",
+   "Flat network between clinical systems"
+  ],
+  "attack": [
+   [
+    "T1557",
+    "H"
+   ],
+   [
+    "T1040",
+    "H"
+   ],
+   [
+    "T1565.002",
+    "H"
+   ]
+  ],
+  "csf2": [
+   [
+    "PR.DS-02",
+    "H"
+   ],
+   [
+    "PR.IR-01",
+    "M"
+   ],
+   [
+    "DE.CM-01",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "SC-8",
+    "H"
+   ],
+   [
+    "CA-3",
+    "M"
+   ],
+   [
+    "AC-4",
+    "M"
+   ],
+   [
+    "SI-4",
+    "M"
+   ]
+  ],
+  "iso27002": [
+   [
+    "5.14",
+    "H"
+   ],
+   [
+    "8.24",
+    "H"
+   ],
+   [
+    "8.20",
+    "M"
+   ],
+   [
+    "8.21",
+    "M"
+   ]
+  ],
+  "loi25": [
+   [
+    "P-39.1 s. 10",
+    "M"
+   ],
+   [
+    "P-39.1 s. 3.5 (2nd para.)",
+    "M"
+   ]
+  ],
+  "lrsss": [
+   [
+    "R-22.1 s. 99",
+    "H"
+   ],
+   [
+    "R-22.1 s. 108",
+    "M"
+   ],
+   [
+    "R-22.1 s. 110",
+    "M"
+   ]
+  ]
+ }
+]

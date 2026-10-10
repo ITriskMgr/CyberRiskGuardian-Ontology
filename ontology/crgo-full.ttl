@@ -14,8 +14,9 @@
         <https://w3id.org/crgo/vocab/csf2>,
         <https://w3id.org/crgo/vocab/iso27002-2022>,
         <https://w3id.org/crgo/vocab/loi25>,
+        <https://w3id.org/crgo/vocab/lrsss>,
         <https://w3id.org/crgo/vocab/sp800-53r5>,
         <https://w3id.org/crgo/vocab/theme> ;
-    owl:versionIRI <https://w3id.org/crgo/0.3.0/crgo-full> ;
-    owl:versionInfo "0.3.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.4.0/crgo-full> ;
+    owl:versionInfo "0.4.0" .
 

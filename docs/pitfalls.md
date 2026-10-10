@@ -7,7 +7,7 @@ The OOPS! web service is not reachable from the build environment, so the pitfal
 | P04 | Unconnected ontology elements | ok | 0 |  |
 | P07 | Merging different concepts in the same class | ok | 0 | Review: a class named 'X and Y' may hide two concepts. |
 | P08 | Missing annotations | ok | 0 |  |
-| P10 | Missing disjointness between sibling classes | review | 13 | Most CRGO siblings inherit disjointness from BFO/CCO categories; same-category siblings (for example the CRG parameters) are left open on purpose. |
+| P10 | Missing disjointness between sibling classes | review | 11 | Most CRGO siblings inherit disjointness from BFO/CCO categories; same-category siblings (for example the CRG parameters) are left open on purpose. |
 | P11 | Missing domain or range in properties | review | 30 | Open on purpose where the specification says so (for example weaknessOf, mapsToRequirement, hasOwner); SHACL constrains the values instead. |
 | P13 | Inverse relationships not explicitly declared | ok | 0 | By design: CRGO declares no inverse properties to stay within OWL 2 EL where possible. |
 | P19 | Multiple domains or ranges in properties | ok | 0 |  |
@@ -23,38 +23,36 @@ The OOPS! web service is not reachable from the build environment, so the pitfal
 | P41 | No license declared | ok | 0 |  |
 | P40 | Namespace hijacking | ok | 0 |  |
 
-## P10 Missing disjointness between sibling classes (13)
+## P10 Missing disjointness between sibling classes (11)
 
-- risk scenario
-- Descriptive Information Content Entity
-- computed risk quantity
-- estimate
-- http://www.w3.org/2004/02/skos/core#Concept
 - asset
+- estimate
 - Prescriptive Information Content Entity
+- Descriptive Information Content Entity
 - CRG parameter
-- likelihood
-- process
 - impact estimate
 - hardware asset
+- computed risk quantity
 - risk level
+- process
+- likelihood
 
 ## P11 Missing domain or range in properties (30)
 
-- reporting frequency
-- triggers obligation
-- statement
-- monitors
-- background
-- part of framework
-- has control function
-- target value
 - data source
-- has external reference
-- warning threshold
-- rationale
-- applicability note
+- accepting authority
+- currency code
 - purpose
-- critical threshold
+- suggested mitigation
+- has control function
+- narrative
+- success indicator
+- monitors
+- has threat source type
+- numeric value
+- qualitative reading
+- warning threshold
+- triggers obligation
+- target value
 - … 15 more
 

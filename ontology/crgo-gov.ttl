@@ -5,6 +5,7 @@
 @prefix crgo: <https://w3id.org/crgo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -281,6 +282,22 @@ skos:Concept a owl:Class .
 
 skos:ConceptScheme a owl:Class .
 
+# --- confidence level scheme
+crgo:CRGO_0000062 a owl:NamedIndividual,
+        skos:ConceptScheme ;
+    rdfs:label "confidence level scheme"@en,
+        "schéma : niveau de confiance"@fr ;
+    skos:definition "Concept scheme of the confidence level value set."@en,
+        "Schéma de concepts de l'ensemble de valeurs « niveau de confiance »."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
+        "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" .
+
 # --- confidence level
 crgo:CRGO_0000061 a owl:Class ;
     rdfs:label "confidence level"@en,
@@ -298,17 +315,16 @@ crgo:CRGO_0000061 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- confidence level scheme
-crgo:CRGO_0000062 a owl:NamedIndividual,
+# --- governance status scheme
+crgo:CRGO_0000067 a owl:NamedIndividual,
         skos:ConceptScheme ;
-    rdfs:label "confidence level scheme"@en,
-        "schéma : niveau de confiance"@fr ;
-    skos:definition "Concept scheme of the confidence level value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « niveau de confiance »."@fr ;
+    rdfs:label "governance status scheme"@en,
+        "schéma : statut de gouvernance"@fr ;
+    skos:definition "Concept scheme of the governance status value set."@en,
+        "Schéma de concepts de l'ensemble de valeurs « statut de gouvernance »."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en,
-        "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
@@ -324,21 +340,6 @@ crgo:CRGO_0000066 a owl:Class ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
-    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
-
-# --- governance status scheme
-crgo:CRGO_0000067 a owl:NamedIndividual,
-        skos:ConceptScheme ;
-    rdfs:label "governance status scheme"@en,
-        "schéma : statut de gouvernance"@fr ;
-    skos:definition "Concept scheme of the governance status value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « statut de gouvernance »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
@@ -408,4 +409,7 @@ crgo:CRGO_0000182 a owl:NamedIndividual,
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 ) .
 

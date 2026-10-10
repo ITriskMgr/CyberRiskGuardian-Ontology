@@ -4,7 +4,7 @@
 
 Which library scenarios affect a given asset category (here: OT, IoT and connected devices)?
 
-Expected: min_rows 50. Rows: 104. Time: 0.02 s.
+Expected: min_rows 50. Rows: 105. Time: 0.02 s.
 
 | scenario | name |
 |---|---|
@@ -21,7 +21,7 @@ Expected: min_rows 50. Rows: 104. Time: 0.02 s.
 
 For a scenario theme (here: ransomware), which scenarios belong to it and what kinds of threat source do they involve?
 
-Expected: min_rows 30; contains type=adversarial. Rows: 99. Time: 0.01 s.
+Expected: min_rows 30; contains type=adversarial. Rows: 99. Time: 0.02 s.
 
 | scenario | name | type |
 |---|---|---|
@@ -100,7 +100,7 @@ Expected: min_rows 10. Rows: 22. Time: 0.01 s.
 
 Which scenarios can trigger the Loi 25 duty to notify the Commission and the persons concerned (P-39.1 s. 3.5, 2nd paragraph)?
 
-Expected: min_rows 100. Rows: 423. Time: 0.01 s.
+Expected: min_rows 100. Rows: 426. Time: 0.01 s.
 
 | scenario | name |
 |---|---|
@@ -117,7 +117,7 @@ Expected: min_rows 100. Rows: 423. Time: 0.01 s.
 
 Which vulnerabilities (weaknesses) are described for scenarios affecting a given asset category (here: cloud and third-party services)?
 
-Expected: min_rows 10. Rows: 36. Time: 0.01 s.
+Expected: min_rows 10. Rows: 40. Time: 0.01 s.
 
 | weakness | scenario |
 |---|---|
@@ -246,15 +246,16 @@ Expected: min_rows 6. Rows: 9. Time: 0.00 s.
 
 Which links are still proposed (awaiting approval), by framework?
 
-Expected: min_rows 1. Rows: 6. Time: 0.14 s.
+Expected: min_rows 1. Rows: 7. Time: 0.17 s.
 
 | scheme | proposedLinks |
 |---|---|
-| vocab/attack | 515 |
-| vocab/csf2 | 264 |
-| vocab/iso27002-2022 | 375 |
-| vocab/loi25 | 206 |
-| vocab/sp800-53r5 | 391 |
+| vocab/attack | 521 |
+| vocab/csf2 | 274 |
+| vocab/iso27002-2022 | 387 |
+| vocab/loi25 | 213 |
+| vocab/lrsss | 2298 |
+| vocab/sp800-53r5 | 403 |
 | vocab/theme | 822 |
 
 ## CQ17 — pass
@@ -273,18 +274,18 @@ Expected: rows 0. Rows: 0. Time: 0.01 s.
 
 Which controls address the most themes (cross-cutting controls worth prioritising)?
 
-Expected: min_rows 10. Rows: 15. Time: 0.03 s.
+Expected: min_rows 10. Rows: 15. Time: 0.04 s.
 
 | notation | title | themes | scenarios |
 |---|---|---|---|
-| 8.16 | Monitoring activities | 22 | 366 |
+| 8.16 | Monitoring activities | 22 | 367 |
 | 8.8 | Management of technical vulnerabilities | 21 | 226 |
-| 6.3 | Information security awareness, education and training | 21 | 211 |
+| 6.3 | Information security awareness, education and training | 21 | 212 |
 | 8.3 | Information access restriction | 21 | 157 |
 | 8.22 | Segregation of networks | 20 | 162 |
 | 5.15 | Access control | 20 | 135 |
 | 8.5 | Secure authentication | 19 | 223 |
-| 8.20 | Networks security | 19 | 155 |
+| 8.20 | Networks security | 19 | 156 |
 
 ## CQ20 — pass
 
