@@ -7,7 +7,7 @@ for the review workbook.
 """
 import json, os, sys
 from rdflib import Graph, Namespace, URIRef, Literal, BNode
-from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS, DCTERMS
+from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS, DCTERMS, FOAF
 from rdflib.collection import Collection
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -15,8 +15,10 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 
-VERSION = "0.3.0"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334}  # highest term number introduced in each earlier release
+VERSION = "0.5.0"
+PRIOR = "0.4.0"
+ISSUED = "2026-10-10"
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -230,6 +232,39 @@ for key, module, en, fr, den, dfr, dom, rng, srcs, conf, rat, functional in DATA
 
 # ---------------------------------------------------------------- ontology headers and output
 os.makedirs(os.path.join(ROOT, "ontology"), exist_ok=True)
+DESC_FR = ("Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, "
+           "alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. "
+           "Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine.")
+ABSTRACT = ("The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: "
+            "assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the "
+            "CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS "
+            "vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the "
+            "Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them.")
+ABSTRACT_FR = ("L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque "
+               "de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, "
+               "référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. "
+               "Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, "
+               "MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ "
+               "1 900 scénarios de risque génériques liés à ces vocabulaires.")
+SCHEMA = Namespace("https://schema.org/"); BIBO = Namespace("http://purl.org/ontology/bibo/")
+REPO = "https://github.com/ITriskMgr/cyberriskguardian-ontology"
+
+def header(g, o, name):
+    """FAIR ontology metadata (WIDOCO and FOOPS! read these)."""
+    g.bind("schema", SCHEMA); g.bind("bibo", BIBO)
+    g.add((o, DCTERMS.description, Literal(DESC_FR, lang="fr")))
+    g.add((o, DCTERMS.abstract, Literal(ABSTRACT, lang="en"))); g.add((o, DCTERMS.abstract, Literal(ABSTRACT_FR, lang="fr")))
+    g.add((o, DCTERMS.contributor, Literal("Claude (Anthropic), AI drafting assistant; every element approved by the creator")))
+    g.add((o, DCTERMS.publisher, Literal("ITriskMgr")))
+    g.add((o, DCTERMS.modified, Literal(ISSUED, datatype=XSD.date)))
+    g.add((o, DCTERMS.issued, Literal(ISSUED, datatype=XSD.date)))
+    g.add((o, OWL.priorVersion, URIRef("%s%s/%s" % (BASE, PRIOR, name))))
+    g.add((o, BIBO.status, Literal("draft" if "-" in VERSION or VERSION.startswith("0.5") else "released")))
+    g.add((o, DCTERMS.bibliographicCitation, Literal("Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version %s. %s" % (VERSION, REPO))))
+    g.add((o, SCHEMA.codeRepository, URIRef(REPO)))
+    g.add((o, FOAF.homepage, URIRef(BASE + "crgo")))
+    g.add((o, DCTERMS.source, URIRef("https://github.com/ITriskMgr/CyberRiskGuardian")))
+
 DESC = ("Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, "
         "aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. "
         "Each element carries its own governance status; new elements stay proposed until the domain expert approves them.")
@@ -243,7 +278,8 @@ for m, (name, ten, tfr, imps) in MODULES.items():
     g.add((o, DCTERMS.description, Literal(DESC, lang="en")))
     g.add((o, DCTERMS.creator, Literal("Marc-André Léger")))
     g.add((o, DCTERMS.license, URIRef(LICENSE)))
-    g.add((o, DCTERMS.created, Literal("2026-10-08")))
+    g.add((o, DCTERMS.created, Literal("2026-10-08", datatype=XSD.date)))
+    header(g, o, name)
     g.add((o, VANN.preferredNamespacePrefix, Literal("crgo")))
     g.add((o, VANN.preferredNamespaceUri, Literal(BASE)))
     for i in imps:
@@ -275,6 +311,7 @@ u.add((o, DCTERMS.title, Literal("CyberRiskGuardian Ontology", lang="en"))); u.a
 u.add((o, DCTERMS.description, Literal(DESC, lang="en"))); u.add((o, DCTERMS.creator, Literal("Marc-André Léger")))
 u.add((o, DCTERMS.license, URIRef(LICENSE)))
 u.add((o, VANN.preferredNamespacePrefix, Literal("crgo"))); u.add((o, VANN.preferredNamespaceUri, Literal(BASE)))
+u.add((o, DCTERMS.created, Literal("2026-10-08", datatype=XSD.date))); header(u, o, "crgo")
 for m in MODULES.values():
     u.add((o, OWL.imports, URIRef(BASE + m[0])))
 write_commented(u, os.path.join(ROOT, "ontology", "crgo.ttl"), "CyberRiskGuardian Ontology - umbrella (imports all modules)")

@@ -508,7 +508,7 @@ cobit2019:APO a skos:Concept ;
     dcterms:source "ISACA COBIT 2019 Framework: Introduction and Methodology; see data/frameworks/cobit2019.tsv" ;
     dcterms:title "COBIT 2019 governance and management objectives"@en,
         "Objectifs de gouvernance et de gestion COBIT 2019"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.3.0/cobit2019> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.5.0/cobit2019> ;
     owl:versionInfo "2019" ;
     skos:hasTopConcept cobit2019:APO,
         cobit2019:BAI,

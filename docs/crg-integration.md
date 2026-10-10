@@ -8,7 +8,7 @@ CRGO answers the identification questions of a CyberRiskGuardian assessment: whi
 |---|---|---|
 | MCP server | Claude in CyberRiskGuardian (interactive) | `pipeline/mcp/crgo_server.py`, five read-only tools |
 | Python module | scripts, notebooks | `pipeline/query/identify.py` |
-| JSON export | tools without a SPARQL store | `data/export/crgo-identification.json` (all 1,878 scenarios, every link with confidence and status) |
+| JSON export | tools without a SPARQL store | `data/export/crgo-identification.json` (all 1,881 scenarios, every link with confidence and status) |
 
 The MCP server and the module use an embedded Oxigraph store built from the repository files on first use (about 10 s, into `build/store/`). Requirements: `pip install "mcp>=1.2" pyoxigraph`.
 
