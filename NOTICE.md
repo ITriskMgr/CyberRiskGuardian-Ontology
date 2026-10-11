@@ -69,3 +69,9 @@ The VERIS schema (github.com/vz-risk/veris) is under CC BY-SA 4.0, a share-alike
 | `ontology/vocab/osfi-b13.ttl` | OSFI Guideline B-13 | July 2022, page modified 2024-02-20 | CRGO paraphrases; short principle names follow OSFI's headings |
 | CSF 2.0 → SP 800-53 (derived) and SP 800-53 → ISO/IEC 27002 cross-references in `mappings.ttl` | NIST CPRT CSF 2.0 export, NIST CSF 1.1 to SP 800-53r5 mapping, NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (files supplied by the project owner from csrc.nist.gov) | downloaded 2026-10-11 | U.S. government works |
 | French labels of CSF 2.0 (`csf2.ttl`, `data/frameworks/csf2_fr.json`) | NIST CSWP 29, French translation | as published by NIST | NIST publication |
+
+## Sources added in 0.9.0
+
+| Vocabulary or file | Source | Version used | Licence or terms |
+|---|---|---|---|
+| `ontology/vocab/gdpr.ttl`, Loi 25 ↔ GDPR in `mappings.ttl` | Regulation (EU) 2016/679, Official Journal of the European Union L 119, 4.5.2016, p. 1 (EUR-Lex, CELEX 32016R0679), English text; French terminology from the official French version | as published 2016 (corrigenda not reviewed) | EU legislative texts may be reused (Commission Decision 2011/833/EU); labels and definitions are CRGO paraphrases; only the Official Journal text is authentic |

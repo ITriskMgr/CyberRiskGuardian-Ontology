@@ -25,5 +25,6 @@
   <uri name="https://w3id.org/crgo/vocab/mappings" uri="vocab/mappings.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/a21" uri="vocab/a21.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/pipeda" uri="vocab/pipeda.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/gdpr" uri="vocab/gdpr.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/osfi-b13" uri="vocab/osfi-b13.ttl"/>
 </catalog>

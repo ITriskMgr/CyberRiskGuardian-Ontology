@@ -464,7 +464,7 @@ def other_regimes(loi25_ids, csf_ids):
     out = {}
     if loi25_ids:
         vals = " ".join('"%s"' % i for i in loi25_ids)
-        for scheme, key in (("a21", "quebec_public_bodies_A-2.1"), ("pipeda", "federal_private_sector_PIPEDA")):
+        for scheme, key in (("a21", "quebec_public_bodies_A-2.1"), ("pipeda", "federal_private_sector_PIPEDA"), ("gdpr", "eu_GDPR")):
             rows = _q("""SELECT DISTINCT ?n ?l WHERE { VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%sloi25> .
                          { ?c skos:closeMatch ?o } UNION { ?c skos:relatedMatch ?o } ?o skos:inScheme <%s%s> ; skos:notation ?n ; skos:prefLabel ?l .
                          FILTER(lang(?l) = "en") } ORDER BY ?n""" % (vals, VOC, VOC, scheme))
@@ -476,7 +476,7 @@ def other_regimes(loi25_ids, csf_ids):
                      ?p skos:relatedMatch ?c ; skos:inScheme <%sosfi-b13> ; skos:notation ?n ; skos:prefLabel ?l . FILTER(lang(?l) = "en") } ORDER BY ?n""" % (vals, VOC, VOC))
         if rows: out["financial_institutions_OSFI_B-13"] = [{"id": _v(r["n"]), "title": _v(r["l"])} for r in rows]
     if out:
-        out["note"] = "Correspondences compiled by CRGO; check which regime applies to the organisation (public body, federally regulated, private sector in Québec, health body under R-22.1)."
+        out["note"] = "Correspondences compiled by CRGO; check which regime applies to the organisation (public body, federally regulated, private sector in Québec, health body under R-22.1; the GDPR when offering goods or services to people in the EU, Art. 3(2))."
     return out
 
 VCDB_SECTOR = [("finance", r"bank|financ|insur|credit union|caisse|payment"), ("healthcare", r"health|hospital|clinic|medical|care"),

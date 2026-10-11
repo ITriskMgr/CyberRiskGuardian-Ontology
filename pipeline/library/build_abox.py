@@ -101,7 +101,7 @@ def main():
     o = URIRef("https://w3id.org/crgo/data/library")
     A = lambda *t: [g.add(x) for x in t]
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")),
-      (o, OWL.versionInfo, Literal("0.8.0")),
+      (o, OWL.versionInfo, Literal("0.9.0")),
       (o, RDFS.label, Literal("CRGO scenario library (from the 2023 generator, repaired)", lang="en")),
       (o, RDFS.label, Literal("Bibliothèque de scénarios CRGO (générateur 2023, réparée)", lang="fr")),
       (o, RDFS.comment, Literal("Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, "

@@ -26,7 +26,7 @@ RAW = os.path.join(ROOT, "data", "raw")
 FW = os.path.join(ROOT, "data", "frameworks")
 OUT = os.path.join(ROOT, "ontology", "vocab")
 RETRIEVED = "2026-10-08"
-VERSION = "0.8.0"
+VERSION = "0.9.0"
 CONF = {"H": C("ConfHigh"), "M": C("ConfMedium"), "L": C("ConfLow")}
 APPROVALS = {}
 for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
@@ -245,6 +245,20 @@ for r in tsv("pipeda.tsv"):
     s.concept("PIPEDA " + r["provision"], r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
               source=r["sources"], conf="H", introduced="0.8.0")
 report.append(("pipeda", s.save()))
+# --- EU General Data Protection Regulation, 0.9.0: provisions read in the Official Journal text (OJ L 119, 4.5.2016)
+s = Scheme("gdpr", "EU General Data Protection Regulation (Regulation (EU) 2016/679): security, breach and accountability provisions",
+           "Règlement général sur la protection des données (règlement (UE) 2016/679) : dispositions de sécurité, de violation et de responsabilité",
+           "Regulation (EU) 2016/679 of 27 April 2016, OJ L 119, 4.5.2016, p. 1 (CELEX 32016R0679); corrigenda not reviewed",
+           "EUR-Lex, eli/reg/2016/679/oj; see data/frameworks/gdpr.tsv", None,
+           "Labels and definitions are CRGO paraphrases; the official text is published in the Official Journal of the European Union. French labels follow the terms of the official French version.",
+           "European Union (source text)",
+           "Applies to processing in the context of an establishment in the Union and, under Art. 3(2), to organisations outside the Union (including in Québec or Canada) "
+           "that offer goods or services to people in the Union or monitor their behaviour there. The UK GDPR is a separate regime and is not modelled. "
+           "Correspondences to Loi 25 (P-39.1) are in ontology/vocab/mappings.ttl.")
+for r in tsv("gdpr.tsv"):
+    s.concept("GDPR " + r["provision"], r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"], conf="H", introduced="0.9.0")
+report.append(("gdpr", s.save()))
 # --- OSFI Guideline B-13 (federally regulated financial institutions), 0.8.0
 s = Scheme("osfi-b13", "OSFI Guideline B-13 Technology and Cyber Risk Management: domains and principles",
            "Ligne directrice B-13 du BSIF, Gestion des risques technologiques et cybernétiques : domaines et principes",

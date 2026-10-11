@@ -2,6 +2,18 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.9.0] — 2026-10-11, draft for review
+
+EU General Data Protection Regulation. Nothing in this version is approved yet.
+
+### Added
+- **GDPR vocabulary** (`ontology/vocab/gdpr.ttl`): 40 provisions of Regulation (EU) 2016/679, read in the Official Journal text (OJ L 119, 4.5.2016) supplied by the project owner: scope for organisations outside the EU (Art. 3(2)), definitions (breach, pseudonymisation), principles and legal bases, consent and children, special categories, information and rights (Arts. 13, 17, 20, 22), controller accountability, privacy by design and by default, processors, records, security (Art. 32), breach notification and its content (Arts. 33–34), impact assessment and prior consultation, data protection officer, transfers, corrective powers, compensation, and administrative fines with the factors that set them. English and French labels (French follows the official French terminology); definitions are CRGO paraphrases.
+- **Loi 25 ↔ GDPR correspondences** (`skos:relatedMatch`): 19 comparable obligations (confidence medium, group `mappings/loi25-gdpr/M`) and 6 partly comparable ones whose scope or trigger differs (confidence low, `mappings/loi25-gdpr/L`). Scenario detail lists a scenario's GDPR provisions under `other_regimes.eu_GDPR`.
+- Competency question CQ27 (proposed).
+
+### Not included
+- The UK GDPR (a separate regime; the earlier PDF) and the corrigenda to the 2016 text.
+
 ## [0.8.0] — 2026-10-11, approved
 
 Calibration evidence, other sectors and other legal regimes. Approved in full by the project owner on 2026-10-11, including the written scenarios AUTH-001 to AUTH-006 and their links.
@@ -16,7 +28,7 @@ Calibration evidence, other sectors and other legal regimes. Approved in full by
 - Competency questions CQ24–CQ26 (proposed).
 
 ### Not yet included
-- GDPR: the PDF supplied is the UK GDPR (legislation.gov.uk), not the EU Regulation; which text to model is left to the project owner.
+- GDPR: the PDF supplied is the UK GDPR (legislation.gov.uk), not the EU Regulation; which text to model is left to the project owner (resolved in 0.9.0).
 
 ## [0.7.0] — 2026-10-11, approved
 

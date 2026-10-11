@@ -173,6 +173,13 @@ for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "pipeda.t
     for eq in filter(None, r["loi25_equivalent"].split("|")):
         link("loi25", eq, SKOS.relatedMatch, "pipeda", "PIPEDA " + r["provision"], "CRGO correspondence between CQLR c. P-39.1 and PIPEDA (texts verified, 2026-10-11)",
              "M", "comparable obligation under federal private-sector law", "mappings/loi25-pipeda")
+# GDPR <-> Loi 25 (comparable obligation under EU law), 0.9.0
+valid["gdpr"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "gdpr.ttl")).objects(None, SKOS.notation)}
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "gdpr.tsv"), encoding="utf-8"), delimiter="\t"):
+    for eq in filter(None, r["loi25_equivalent"].split("|")):
+        link("loi25", eq, SKOS.relatedMatch, "gdpr", "GDPR " + r["provision"], "CRGO correspondence between CQLR c. P-39.1 and Regulation (EU) 2016/679 (OJ text read 2026-10-11)",
+             r["match_conf"], "comparable obligation under EU law" if r["match_conf"] == "M" else "partly comparable obligation under EU law (differences in scope or trigger)",
+             "mappings/loi25-gdpr/" + r["match_conf"])
 for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "osfi_b13.tsv"), encoding="utf-8"), delimiter="\t"):
     for c in filter(None, r["csf2"].split("|")):
         link("osfi-b13", r["id"], SKOS.relatedMatch, "csf2", c, "CRGO correspondence between OSFI B-13 principles and NIST CSF 2.0 categories (judged, 2026-10-11)",

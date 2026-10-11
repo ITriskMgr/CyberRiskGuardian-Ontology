@@ -21,10 +21,11 @@
         <https://w3id.org/crgo/vocab/kev>,
         <https://w3id.org/crgo/vocab/a21>,
         <https://w3id.org/crgo/vocab/pipeda>,
+        <https://w3id.org/crgo/vocab/gdpr>,
         <https://w3id.org/crgo/vocab/osfi-b13>,
         <https://w3id.org/crgo/vocab/mappings>,
         <https://w3id.org/crgo/vocab/sp800-53r5>,
         <https://w3id.org/crgo/vocab/theme> ;
-    owl:versionIRI <https://w3id.org/crgo/0.8.0/crgo-full> ;
-    owl:versionInfo "0.8.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo-full> ;
+    owl:versionInfo "0.9.0" .
 

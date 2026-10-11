@@ -1,0 +1,8 @@
+# CQ27 (Identification, proposed 0.9.0)
+# Question: For an organisation that offers services to people in the EU, which GDPR provisions correspond to the Loi 25 obligations of a scenario?
+# Expect: min_rows 3; contains notation=GDPR Art. 33(1)
+SELECT DISTINCT ?notation ?title WHERE {
+  ?scenario rdfs:label "Ransomware Attack on Hospital Systems"@en ; {{triggersObligation}} ?o .
+  ?o skos:inScheme <https://w3id.org/crgo/vocab/loi25> ; skos:relatedMatch ?g .
+  ?g skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ; skos:notation ?notation ; skos:prefLabel ?title . FILTER(lang(?title) = "en")
+} ORDER BY ?notation

@@ -1,0 +1,619 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gdpr: <https://w3id.org/crgo/vocab/gdpr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+gdpr:GDPR_Art._13 a skos:Concept ;
+    skos:definition "When personal data are collected from the data subject, the controller provides at that time, among other things, its identity and contact details and those of the data protection officer, the purposes and legal basis (and any legitimate interests relied on), the recipients, any transfer outside the Union, the retention period or the criteria for it, the data subject's rights including the right to complain to a supervisory authority, whether providing the data is required, and any automated decision-making."@en,
+        "Lorsque les données sont collectées auprès de la personne concernée, le responsable lui fournit au moment de la collecte, notamment, son identité et ses coordonnées et celles du délégué à la protection des données, les finalités et la base juridique (et les intérêts légitimes poursuivis le cas échéant), les destinataires, tout transfert hors de l'Union, la durée de conservation ou les critères utilisés pour la déterminer, les droits de la personne, y compris celui d'introduire une réclamation auprès d'une autorité de contrôle, le caractère obligatoire ou non de la fourniture des données et l'existence d'une prise de décision automatisée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 13" ;
+    skos:prefLabel "Information to be provided at collection from the data subject"@en,
+        "Informations à fournir lors de la collecte auprès de la personne concernée"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._17 a skos:Concept ;
+    skos:definition "The data subject may obtain erasure of personal data without undue delay on listed grounds, such as when the data are no longer necessary or consent is withdrawn, subject to the exceptions in Art. 17(3) (for example compliance with a legal obligation or legal claims); a controller that made the data public takes reasonable steps to inform other controllers processing them."@en,
+        "La personne concernée peut obtenir l'effacement de ses données dans les meilleurs délais pour des motifs énumérés, notamment lorsqu'elles ne sont plus nécessaires ou que le consentement est retiré, sous réserve des exceptions de l'article 17, paragraphe 3 (par exemple le respect d'une obligation légale ou les actions en justice); le responsable qui a rendu les données publiques prend des mesures raisonnables pour en informer les autres responsables qui les traitent."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 17" ;
+    skos:prefLabel "Right to erasure"@en,
+        "Droit à l'effacement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._20 a skos:Concept ;
+    skos:definition "The data subject may receive the personal data they provided in a structured, commonly used and machine-readable format and transmit them to another controller, where processing is based on consent or contract and carried out by automated means."@en,
+        "La personne concernée peut recevoir les données qu'elle a fournies dans un format structuré, couramment utilisé et lisible par machine, et les transmettre à un autre responsable, lorsque le traitement est fondé sur le consentement ou un contrat et effectué à l'aide de procédés automatisés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 20" ;
+    skos:prefLabel "Right to data portability"@en,
+        "Droit à la portabilité des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._22 a skos:Concept ;
+    skos:definition "The data subject has the right not to be subject to a decision based solely on automated processing that produces legal or similarly significant effects, subject to exceptions with safeguards, at least human intervention, expressing a point of view and contesting the decision."@en,
+        "La personne concernée a le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un traitement automatisé produisant des effets juridiques ou l'affectant de manière significative de façon similaire, sous réserve d'exceptions assorties de garanties, au minimum l'intervention humaine, l'expression de son point de vue et la contestation de la décision."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 22" ;
+    skos:prefLabel "Automated individual decision-making, including profiling"@en,
+        "Décision individuelle automatisée, y compris le profilage"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._24 a skos:Concept ;
+    skos:definition "Taking into account the processing and the risks to the rights and freedoms of natural persons, the controller implements, reviews and updates appropriate technical and organisational measures, including data protection policies where proportionate, and is able to demonstrate compliance."@en,
+        "Compte tenu du traitement et des risques pour les droits et libertés des personnes physiques, le responsable met en œuvre, réexamine et actualise des mesures techniques et organisationnelles appropriées, y compris des politiques de protection des données lorsque cela est proportionné, et est en mesure de démontrer la conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 24" ;
+    skos:prefLabel "Responsibility of the controller"@en,
+        "Responsabilité du responsable du traitement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._25_1 a skos:Concept ;
+    skos:definition "When determining the means of processing and during processing, the controller implements appropriate technical and organisational measures, such as pseudonymisation, designed to implement data protection principles effectively and integrate safeguards into the processing."@en,
+        "Lors de la détermination des moyens du traitement et pendant le traitement, le responsable met en œuvre des mesures techniques et organisationnelles appropriées, comme la pseudonymisation, destinées à appliquer efficacement les principes de protection des données et à intégrer les garanties nécessaires au traitement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 25(1)" ;
+    skos:prefLabel "Data protection by design"@en,
+        "Protection des données dès la conception"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._25_2 a skos:Concept ;
+    skos:definition "By default only the personal data necessary for each specific purpose are processed, as to amount collected, extent of processing, storage period and accessibility; in particular, data are not made accessible by default to an indefinite number of people."@en,
+        "Par défaut, seules les données nécessaires à chaque finalité spécifique sont traitées, quant à leur quantité, à l'étendue du traitement, à la durée de conservation et à l'accessibilité; en particulier, elles ne sont pas rendues accessibles par défaut à un nombre indéterminé de personnes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 25(2)" ;
+    skos:prefLabel "Data protection by default"@en,
+        "Protection des données par défaut"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._28 a skos:Concept ;
+    skos:definition "The controller uses only processors providing sufficient guarantees of appropriate measures; processing is governed by a binding contract that sets out its subject-matter and duration and requires the processor to act on documented instructions, ensure confidentiality and security, and engage sub-processors only with authorisation."@en,
+        "Le responsable ne fait appel qu'à des sous-traitants présentant des garanties suffisantes; le traitement est régi par un contrat contraignant qui en définit l'objet et la durée et oblige le sous-traitant à agir sur instruction documentée, à assurer la confidentialité et la sécurité et à ne recruter d'autres sous-traitants qu'avec autorisation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 28" ;
+    skos:prefLabel "Processor guarantees and contract"@en,
+        "Garanties et contrat du sous-traitant"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._30 a skos:Concept ;
+    skos:definition "Each controller maintains a record of processing activities, including purposes, categories of data and data subjects, recipients, transfers, erasure time limits and, where possible, a description of security measures; a processor keeps a shorter record of the categories of processing it carries out for each controller. Organisations with fewer than 250 employees are exempt unless the processing is likely to result in a risk, is not occasional, or includes special categories or criminal data."@en,
+        "Chaque responsable du traitement tient un registre des activités de traitement comprenant notamment les finalités, les catégories de données et de personnes, les destinataires, les transferts, les délais d'effacement et, si possible, une description des mesures de sécurité; le sous-traitant tient un registre plus succinct des catégories de traitements effectués pour chaque responsable. Les organisations de moins de 250 employés en sont exemptées, sauf si le traitement est susceptible de comporter un risque, n'est pas occasionnel ou porte sur des catégories particulières de données ou des données pénales."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 30" ;
+    skos:prefLabel "Records of processing activities"@en,
+        "Registre des activités de traitement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._32_1 a skos:Concept ;
+    skos:definition "The controller and processor implement technical and organisational measures ensuring security appropriate to the risk, including as appropriate pseudonymisation and encryption, ongoing confidentiality, integrity, availability and resilience, timely restoration after an incident, and regular testing of the measures' effectiveness."@en,
+        "Le responsable et le sous-traitant mettent en œuvre des mesures techniques et organisationnelles garantissant une sécurité adaptée au risque, notamment, selon les besoins, la pseudonymisation et le chiffrement, la confidentialité, l'intégrité, la disponibilité et la résilience constantes, le rétablissement rapide après un incident et des tests réguliers de l'efficacité des mesures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 32(1)" ;
+    skos:prefLabel "Security of processing appropriate to the risk"@en,
+        "Sécurité du traitement adaptée au risque"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._32_2 a skos:Concept ;
+    skos:definition "The appropriate level of security is assessed taking into account in particular the risks of accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data."@en,
+        "Le niveau de sécurité approprié est évalué en tenant compte en particulier des risques de destruction, de perte, d'altération, de divulgation non autorisée de données ou d'accès non autorisé à celles-ci, de manière accidentelle ou illicite."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 32(2)" ;
+    skos:prefLabel "Risks considered in assessing security"@en,
+        "Risques pris en compte pour évaluer la sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._33_1 a skos:Concept ;
+    skos:definition "The controller notifies a personal data breach to the competent supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware of it, unless the breach is unlikely to result in a risk to people's rights and freedoms; a late notification gives reasons for the delay."@en,
+        "Le responsable notifie la violation à l'autorité de contrôle compétente dans les meilleurs délais et, si possible, 72 heures au plus tard après en avoir pris connaissance, à moins qu'elle ne soit pas susceptible d'engendrer un risque pour les droits et libertés des personnes; une notification tardive est accompagnée des motifs du retard."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 33(1)" ;
+    skos:prefLabel "Notification of a personal data breach to the supervisory authority"@en,
+        "Notification à l'autorité de contrôle d'une violation de données à caractère personnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._33_2 a skos:Concept ;
+    skos:definition "The processor notifies the controller without undue delay after becoming aware of a personal data breach."@en,
+        "Le sous-traitant notifie au responsable toute violation de données dans les meilleurs délais après en avoir pris connaissance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 33(2)" ;
+    skos:prefLabel "Processor notifies the controller of a breach"@en,
+        "Notification de la violation par le sous-traitant au responsable"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._33_3 a skos:Concept ;
+    skos:definition "The notification describes at least the nature of the breach with, where possible, the categories and approximate numbers of data subjects and records concerned, the contact point, the likely consequences, and the measures taken or proposed; information may be provided in phases if it cannot all be given at once (Art. 33(4))."@en,
+        "La notification décrit au moins la nature de la violation avec, si possible, les catégories et le nombre approximatif de personnes et d'enregistrements concernés, le point de contact, les conséquences probables et les mesures prises ou proposées; les informations peuvent être communiquées de manière échelonnée si elles ne peuvent l'être en même temps (article 33, paragraphe 4)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 33(3)" ;
+    skos:prefLabel "Content of a breach notification"@en,
+        "Contenu de la notification d'une violation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._33_5 a skos:Concept ;
+    skos:definition "The controller documents every personal data breach, including the facts, its effects and the remedial action taken, so that the supervisory authority can verify compliance."@en,
+        "Le responsable documente toute violation de données, y compris les faits, ses effets et les mesures prises pour y remédier, afin que l'autorité de contrôle puisse vérifier la conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 33(5)" ;
+    skos:prefLabel "Documentation of personal data breaches"@en,
+        "Documentation des violations de données à caractère personnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._34_1 a skos:Concept ;
+    skos:definition "When a breach is likely to result in a high risk to people's rights and freedoms, the controller communicates it to the data subjects without undue delay, in clear and plain language."@en,
+        "Lorsqu'une violation est susceptible d'engendrer un risque élevé pour les droits et libertés des personnes, le responsable la communique aux personnes concernées dans les meilleurs délais, en des termes clairs et simples."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 34(1)" ;
+    skos:prefLabel "Communication of a personal data breach to data subjects"@en,
+        "Communication à la personne concernée d'une violation de données à caractère personnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._34_3 a skos:Concept ;
+    skos:definition "Communication to data subjects is not required if the affected data were rendered unintelligible (for example by encryption), if later measures make the high risk no longer likely, or if it would involve disproportionate effort, in which case a public communication is made instead."@en,
+        "La communication aux personnes concernées n'est pas nécessaire si les données touchées ont été rendues incompréhensibles (par exemple par chiffrement), si des mesures ultérieures font que le risque élevé n'est plus susceptible de se matérialiser, ou si elle exigerait des efforts disproportionnés, auquel cas une communication publique est faite."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 34(3)" ;
+    skos:prefLabel "Exemptions from communication to data subjects"@en,
+        "Exemptions à la communication aux personnes concernées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._35_1 a skos:Concept ;
+    skos:definition "Before processing likely to result in a high risk to people's rights and freedoms, in particular using new technologies, the controller assesses the impact of the envisaged processing on the protection of personal data."@en,
+        "Avant un traitement susceptible d'engendrer un risque élevé pour les droits et libertés des personnes, notamment par le recours à de nouvelles technologies, le responsable effectue une analyse de l'impact des opérations envisagées sur la protection des données."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 35(1)" ;
+    skos:prefLabel "Data protection impact assessment"@en,
+        "Analyse d'impact relative à la protection des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._36_1 a skos:Concept ;
+    skos:definition "The controller consults the supervisory authority before processing when a data protection impact assessment indicates a high risk in the absence of mitigating measures."@en,
+        "Le responsable consulte l'autorité de contrôle préalablement au traitement lorsqu'une analyse d'impact indique que celui-ci présenterait un risque élevé en l'absence de mesures d'atténuation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 36(1)" ;
+    skos:prefLabel "Prior consultation of the supervisory authority"@en,
+        "Consultation préalable de l'autorité de contrôle"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._37_1 a skos:Concept ;
+    skos:definition "The controller and processor designate a data protection officer when processing is carried out by a public authority, or when their core activities involve large-scale regular and systematic monitoring of data subjects or large-scale processing of special categories or criminal data."@en,
+        "Le responsable et le sous-traitant désignent un délégué à la protection des données lorsque le traitement est effectué par une autorité publique, ou lorsque leurs activités de base comportent un suivi régulier et systématique à grande échelle des personnes ou le traitement à grande échelle de catégories particulières de données ou de données pénales."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 37(1)" ;
+    skos:prefLabel "Designation of the data protection officer"@en,
+        "Désignation du délégué à la protection des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._39_1 a skos:Concept ;
+    skos:definition "The data protection officer informs and advises, monitors compliance including staff training and audits, advises on impact assessments, cooperates with and acts as contact point for the supervisory authority."@en,
+        "Le délégué informe et conseille, contrôle le respect du règlement, y compris la formation du personnel et les audits, dispense des conseils sur les analyses d'impact, coopère avec l'autorité de contrôle et fait office de point de contact pour celle-ci."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 39(1)" ;
+    skos:prefLabel "Tasks of the data protection officer"@en,
+        "Missions du délégué à la protection des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._3_2 a skos:Concept ;
+    skos:definition "The Regulation applies to a controller or processor not established in the Union when it processes personal data of people in the Union in order to offer them goods or services, paid or not, or to monitor their behaviour in the Union."@en,
+        "Le règlement s'applique au responsable du traitement ou au sous-traitant établi hors de l'Union qui traite des données de personnes se trouvant dans l'Union pour leur offrir des biens ou des services, payants ou non, ou pour suivre leur comportement dans l'Union."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 3(2)" ;
+    skos:prefLabel "Territorial scope for controllers and processors outside the Union"@en,
+        "Champ d'application territorial pour les responsables du traitement et sous-traitants établis hors de l'Union"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._44 a skos:Concept ;
+    skos:definition "A transfer of personal data to a third country or international organisation, including onward transfers, takes place only if the conditions of Chapter V are met, so that the level of protection is not undermined."@en,
+        "Un transfert de données vers un pays tiers ou une organisation internationale, y compris un transfert ultérieur, n'a lieu que si les conditions du chapitre V sont respectées, afin que le niveau de protection ne soit pas compromis."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 44" ;
+    skos:prefLabel "General principle for transfers outside the Union"@en,
+        "Principe général applicable aux transferts hors de l'Union"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._46 a skos:Concept ;
+    skos:definition "Without an adequacy decision, a transfer takes place only with appropriate safeguards, such as standard data protection clauses or binding corporate rules, and enforceable rights and effective remedies for data subjects."@en,
+        "En l'absence de décision d'adéquation, un transfert n'a lieu que moyennant des garanties appropriées, comme des clauses types de protection des données ou des règles d'entreprise contraignantes, et à condition que les personnes disposent de droits opposables et de voies de droit effectives."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 46" ;
+    skos:prefLabel "Transfers subject to appropriate safeguards"@en,
+        "Transferts moyennant des garanties appropriées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._4_12 a skos:Concept ;
+    skos:definition "A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed."@en,
+        "Une violation de la sécurité entraînant, de manière accidentelle ou illicite, la destruction, la perte, l'altération, la divulgation non autorisée de données à caractère personnel transmises, conservées ou traitées, ou l'accès non autorisé à de telles données."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 4(12)" ;
+    skos:prefLabel "Personal data breach (definition)"@en,
+        "Violation de données à caractère personnel (définition)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._4_5 a skos:Concept ;
+    skos:definition "Processing of personal data so that they can no longer be attributed to a specific data subject without additional information kept separately under technical and organisational measures. Pseudonymised data remain personal data (recital 26)."@en,
+        "Traitement de données à caractère personnel de telle façon qu'elles ne puissent plus être attribuées à une personne concernée précise sans recourir à des informations supplémentaires conservées séparément et soumises à des mesures techniques et organisationnelles. Les données pseudonymisées restent des données à caractère personnel (considérant 26)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 4(5)" ;
+    skos:prefLabel "Pseudonymisation (definition)"@en,
+        "Pseudonymisation (définition)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._58_2 a skos:Concept ;
+    skos:definition "The supervisory authority may issue warnings and reprimands, order compliance or the communication of a breach to data subjects, impose a temporary or definitive limitation including a ban on processing, order erasure, suspend data flows to a third country, and impose administrative fines."@en,
+        "L'autorité de contrôle peut adresser des avertissements et des rappels à l'ordre, ordonner la mise en conformité ou la communication d'une violation aux personnes concernées, imposer une limitation temporaire ou définitive, y compris une interdiction du traitement, ordonner l'effacement, suspendre les flux de données vers un pays tiers et imposer des amendes administratives."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 58(2)" ;
+    skos:prefLabel "Corrective powers of the supervisory authority"@en,
+        "Pouvoirs d'adopter des mesures correctrices de l'autorité de contrôle"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._5_1_b a skos:Concept ;
+    skos:definition "Personal data are collected for specified, explicit and legitimate purposes and not further processed in a manner incompatible with those purposes."@en,
+        "Les données sont collectées pour des finalités déterminées, explicites et légitimes et ne sont pas traitées ultérieurement d'une manière incompatible avec ces finalités."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 5(1)(b)" ;
+    skos:prefLabel "Purpose limitation"@en,
+        "Limitation des finalités"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._5_1_c a skos:Concept ;
+    skos:definition "Personal data are adequate, relevant and limited to what is necessary for the purposes of the processing."@en,
+        "Les données sont adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités du traitement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 5(1)(c)" ;
+    skos:prefLabel "Data minimisation"@en,
+        "Minimisation des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._5_1_e a skos:Concept ;
+    skos:definition "Personal data are kept in a form that permits identification of data subjects for no longer than necessary for the purposes of the processing."@en,
+        "Les données sont conservées sous une forme permettant l'identification des personnes concernées pendant une durée n'excédant pas celle nécessaire au regard des finalités."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 5(1)(e)" ;
+    skos:prefLabel "Storage limitation"@en,
+        "Limitation de la conservation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._5_1_f a skos:Concept ;
+    skos:definition "Personal data are processed with appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures."@en,
+        "Les données sont traitées de façon à garantir une sécurité appropriée, y compris la protection contre le traitement non autorisé ou illicite et contre la perte, la destruction ou les dégâts d'origine accidentelle, à l'aide de mesures techniques ou organisationnelles appropriées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 5(1)(f)" ;
+    skos:prefLabel "Integrity and confidentiality"@en,
+        "Intégrité et confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._5_2 a skos:Concept ;
+    skos:definition "The controller is responsible for, and able to demonstrate, compliance with the principles relating to processing."@en,
+        "Le responsable du traitement est responsable du respect des principes relatifs au traitement et est en mesure de démontrer que ceux-ci sont respectés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 5(2)" ;
+    skos:prefLabel "Accountability"@en,
+        "Responsabilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._6_1 a skos:Concept ;
+    skos:definition "Processing is lawful only if at least one legal basis applies: consent, performance of a contract, a legal obligation, vital interests, a task in the public interest or official authority, or legitimate interests not overridden by the data subject's interests or rights."@en,
+        "Le traitement n'est licite que si au moins une base juridique s'applique : le consentement, l'exécution d'un contrat, une obligation légale, la sauvegarde des intérêts vitaux, une mission d'intérêt public ou relevant de l'exercice de l'autorité publique, ou des intérêts légitimes sur lesquels ne prévalent pas les intérêts ou les droits de la personne concernée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 6(1)" ;
+    skos:prefLabel "Lawfulness of processing (legal bases)"@en,
+        "Licéité du traitement (bases juridiques)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._7 a skos:Concept ;
+    skos:definition "Where processing is based on consent, the controller can demonstrate that it was given; a request for consent is distinguishable, clear and plain, and consent can be withdrawn at any time as easily as it was given."@en,
+        "Lorsque le traitement repose sur le consentement, le responsable est en mesure de démontrer qu'il a été donné; la demande est distincte, claire et simple, et le consentement peut être retiré à tout moment aussi simplement qu'il a été donné."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 7" ;
+    skos:prefLabel "Conditions for consent"@en,
+        "Conditions applicables au consentement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._8 a skos:Concept ;
+    skos:definition "For information society services offered directly to a child, consent-based processing is lawful from age 16 (Member States may set a lower age, not below 13); below that age, the holder of parental responsibility gives or authorises consent, which the controller makes reasonable efforts to verify."@en,
+        "Pour les services de la société de l'information proposés directement à un enfant, le traitement fondé sur le consentement est licite à partir de 16 ans (les États membres peuvent prévoir un âge inférieur, d'au moins 13 ans); en dessous, le titulaire de la responsabilité parentale donne ou autorise le consentement, que le responsable s'efforce raisonnablement de vérifier."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 8" ;
+    skos:prefLabel "Conditions for a child's consent to information society services"@en,
+        "Conditions applicables au consentement des enfants en ce qui concerne les services de la société de l'information"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._82 a skos:Concept ;
+    skos:definition "Any person who has suffered material or non-material damage from an infringement has the right to compensation from the controller or processor; a processor is liable only for breaching its own obligations or the controller's lawful instructions."@en,
+        "Toute personne ayant subi un dommage matériel ou moral du fait d'une violation du règlement a le droit d'obtenir réparation du responsable ou du sous-traitant; le sous-traitant n'est responsable que s'il a manqué à ses propres obligations ou aux instructions licites du responsable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 82" ;
+    skos:prefLabel "Right to compensation and liability"@en,
+        "Droit à réparation et responsabilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._83_2 a skos:Concept ;
+    skos:definition "Whether to impose a fine and its amount depend on, among other things, the nature, gravity and duration of the infringement, intent or negligence, action taken to mitigate damage, the technical and organisational measures in place (Articles 25 and 32), previous infringements, cooperation with the authority, the categories of data affected and whether the controller notified the infringement."@en,
+        "La décision d'imposer une amende et son montant tiennent compte notamment de la nature, de la gravité et de la durée de la violation, de son caractère délibéré ou négligent, des mesures prises pour atténuer le dommage, des mesures techniques et organisationnelles en place (articles 25 et 32), des violations antérieures, de la coopération avec l'autorité, des catégories de données concernées et de la notification de la violation par le responsable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 83(2)" ;
+    skos:prefLabel "Factors in setting an administrative fine"@en,
+        "Éléments pris en compte pour fixer une amende administrative"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._83_4 a skos:Concept ;
+    skos:definition "Infringements of the controller's and processor's obligations under Articles 8, 11, 25 to 39, 42 and 43 (including security and breach notification), and of the obligations of certification and monitoring bodies, are subject to fines up to EUR 10 000 000 or, for an undertaking, 2% of total worldwide annual turnover of the preceding financial year, whichever is higher."@en,
+        "Les violations des obligations du responsable et du sous-traitant prévues aux articles 8, 11, 25 à 39, 42 et 43 (notamment la sécurité et la notification des violations), ainsi que des obligations des organismes de certification et de suivi, sont passibles d'amendes jusqu'à 10 000 000 EUR ou, pour une entreprise, 2 % du chiffre d'affaires annuel mondial total de l'exercice précédent, le montant le plus élevé étant retenu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 83(4)" ;
+    skos:prefLabel "Administrative fines up to EUR 10 million or 2% of turnover"@en,
+        "Amendes administratives jusqu'à 10 millions d'euros ou 2 % du chiffre d'affaires"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._83_5 a skos:Concept ;
+    skos:definition "Infringements of the basic principles and consent conditions (Articles 5, 6, 7 and 9), data subjects' rights (Articles 12 to 22), transfer rules (Articles 44 to 49) and Member State law under Chapter IX, and non-compliance with a supervisory authority's order, limitation or ban on processing, suspension of data flows or request for access (Article 58), are subject to fines up to EUR 20 000 000 or, for an undertaking, 4% of total worldwide annual turnover of the preceding financial year, whichever is higher. Article 83(6) applies the same ceiling to non-compliance with an order."@en,
+        "Les violations des principes de base et des conditions du consentement (articles 5, 6, 7 et 9), des droits des personnes (articles 12 à 22), des règles de transfert (articles 44 à 49) et du droit des États membres adopté en vertu du chapitre IX, ainsi que le non-respect d'une injonction, d'une limitation ou d'une interdiction de traitement, d'une suspension des flux de données ou d'une demande d'accès de l'autorité de contrôle (article 58), sont passibles d'amendes jusqu'à 20 000 000 EUR ou, pour une entreprise, 4 % du chiffre d'affaires annuel mondial total de l'exercice précédent, le montant le plus élevé étant retenu. L'article 83, paragraphe 6, applique le même plafond au non-respect d'une injonction."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 83(5)" ;
+    skos:prefLabel "Administrative fines up to EUR 20 million or 4% of turnover"@en,
+        "Amendes administratives jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+gdpr:GDPR_Art._9 a skos:Concept ;
+    skos:definition "Processing of data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs or trade union membership, and of genetic, biometric (for unique identification), health, sex life or sexual orientation data, is prohibited unless an exception applies, such as explicit consent."@en,
+        "Le traitement des données qui révèlent l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques ou l'appartenance syndicale, ainsi que des données génétiques, biométriques (aux fins d'identification unique), de santé ou concernant la vie sexuelle ou l'orientation sexuelle, est interdit sauf exception, notamment le consentement explicite."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/gdpr> ;
+    skos:notation "GDPR Art. 9" ;
+    skos:prefLabel "Special categories of personal data"@en,
+        "Catégories particulières de données à caractère personnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/gdpr> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "European Union (source text)" ;
+    dcterms:rights "Labels and definitions are CRGO paraphrases; the official text is published in the Official Journal of the European Union. French labels follow the terms of the official French version."@en ;
+    dcterms:source "EUR-Lex, eli/reg/2016/679/oj; see data/frameworks/gdpr.tsv" ;
+    dcterms:title "EU General Data Protection Regulation (Regulation (EU) 2016/679): security, breach and accountability provisions"@en,
+        "Règlement général sur la protection des données (règlement (UE) 2016/679) : dispositions de sécurité, de violation et de responsabilité"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/gdpr> ;
+    owl:versionInfo "Regulation (EU) 2016/679 of 27 April 2016, OJ L 119, 4.5.2016, p. 1 (CELEX 32016R0679); corrigenda not reviewed" ;
+    skos:hasTopConcept gdpr:GDPR_Art._13,
+        gdpr:GDPR_Art._17,
+        gdpr:GDPR_Art._20,
+        gdpr:GDPR_Art._22,
+        gdpr:GDPR_Art._24,
+        gdpr:GDPR_Art._25_1,
+        gdpr:GDPR_Art._25_2,
+        gdpr:GDPR_Art._28,
+        gdpr:GDPR_Art._30,
+        gdpr:GDPR_Art._32_1,
+        gdpr:GDPR_Art._32_2,
+        gdpr:GDPR_Art._33_1,
+        gdpr:GDPR_Art._33_2,
+        gdpr:GDPR_Art._33_3,
+        gdpr:GDPR_Art._33_5,
+        gdpr:GDPR_Art._34_1,
+        gdpr:GDPR_Art._34_3,
+        gdpr:GDPR_Art._35_1,
+        gdpr:GDPR_Art._36_1,
+        gdpr:GDPR_Art._37_1,
+        gdpr:GDPR_Art._39_1,
+        gdpr:GDPR_Art._3_2,
+        gdpr:GDPR_Art._44,
+        gdpr:GDPR_Art._46,
+        gdpr:GDPR_Art._4_12,
+        gdpr:GDPR_Art._4_5,
+        gdpr:GDPR_Art._58_2,
+        gdpr:GDPR_Art._5_1_b,
+        gdpr:GDPR_Art._5_1_c,
+        gdpr:GDPR_Art._5_1_e,
+        gdpr:GDPR_Art._5_1_f,
+        gdpr:GDPR_Art._5_2,
+        gdpr:GDPR_Art._6_1,
+        gdpr:GDPR_Art._7,
+        gdpr:GDPR_Art._8,
+        gdpr:GDPR_Art._82,
+        gdpr:GDPR_Art._83_2,
+        gdpr:GDPR_Art._83_4,
+        gdpr:GDPR_Art._83_5,
+        gdpr:GDPR_Art._9 ;
+    skos:scopeNote "Applies to processing in the context of an establishment in the Union and, under Art. 3(2), to organisations outside the Union (including in Québec or Canada) that offer goods or services to people in the Union or monitor their behaviour there. The UK GDPR is a separate regime and is not modelled. Correspondences to Loi 25 (P-39.1) are in ontology/vocab/mappings.ttl."@en .
+
