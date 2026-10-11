@@ -28,8 +28,9 @@ Import chain: `crg → measure → core → {gov, BFO-2020, CCO slice}`. Term IR
 opaque (`https://w3id.org/crgo/CRGO_nnnnnnn`) and stay stable across versions;
 the number assigned to each key is kept in `src/ids.tsv`.
 
-The w3id.org redirects are prepared in `w3id/` but not registered yet (see `w3id/HOWTO.md`); until they are, use the local
-`ontology/catalog-v001.xml` (Protégé and ROBOT read it automatically).
+The w3id.org identifiers resolve (registered 2026-10-11, perma-id/w3id.org#6858): browsers get the documentation,
+RDF clients the Turtle files, and version IRIs the files at the release tag. For offline work, Protégé and ROBOT read
+the local `ontology/catalog-v001.xml` automatically.
 
 ## Layout
 

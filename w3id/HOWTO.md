@@ -1,5 +1,7 @@
 # Making https://w3id.org/crgo/ resolve
 
+**Status: done.** GitHub Pages is on, tags v0.1.0 to v0.8.0 exist, and perma-id/w3id.org#6858 was merged on 2026-10-11. All address types were tested from a browser on 2026-10-11 (documentation pages, Turtle for modules, terms, version IRIs, vocabularies and the library). To change the rules later, open a new pull request on perma-id/w3id.org that edits `ids/crgo/.htaccess`, with one descriptive commit.
+
 The ontology's identifiers (`https://w3id.org/crgo/...`) are w3id.org permanent identifiers. They resolve once two things are in place. Neither can be done from the build session: both need the repository owner.
 
 ## 1. Publish the documentation site (GitHub Pages)
