@@ -1,6 +1,6 @@
 # ADR-007 Boundary between CRGO and the CyberRiskGuardian decision-support system
 
-Status: proposed (0.9.0). Remaining-gaps specification sections 2, 8 and 11; decision R-b (2026-10-11).
+Status: approved (0.9.0, project owner, 2026-10-11). Remaining-gaps specification sections 2, 8 and 11; decision R-b (2026-10-11).
 
 ## Context
 CyberRiskGuardian (CRG) is a separate decision-support system: a Claude plugin with skills, agents and the MCP calculator `crg-calculator` (`crg_risk`, `cvss4_score`, `budget_target`, `budget_check`, `sensitivity`), and JSON assessment files. It has no REST or GraphQL interface. The specification's `GET /v1/knowledge/risk-context` and `POST /v1/assessments` are proposals, not endpoints.

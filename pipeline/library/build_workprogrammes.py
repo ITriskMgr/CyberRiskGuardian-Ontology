@@ -9,8 +9,8 @@ objectives each procedure serves, expected result, exception logic and sampling 
 audit methodology: every programme and procedure carries 'illustrative only' = true. Procedure wording is CRGO's own;
 the objectives are cited by their 800-53A identifiers.
 
-Writes data/abox/crgo-workprogrammes.ttl. Like other proposed content it is not imported by crgo-full until the
-project owner approves group workprogrammes/illustrative (src/approvals.tsv).
+Writes data/abox/crgo-workprogrammes.ttl. Group workprogrammes/illustrative was approved by the project owner on
+2026-10-11, and crgo-full imports the file.
 """
 import os
 from rdflib import Graph, Namespace, URIRef, Literal

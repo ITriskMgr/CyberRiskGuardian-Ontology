@@ -14,10 +14,12 @@ iso19011:5.1 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "General"@en,
         "Généralités"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.1 (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.2 a skos:Concept ;
@@ -29,10 +31,12 @@ iso19011:5.2 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Establishing audit programme objectives"@en,
         "Détermination des objectifs du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.2 (page 9)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.3 a skos:Concept ;
@@ -44,10 +48,12 @@ iso19011:5.3 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Determining and evaluating audit programme risks and opportunities"@en,
         "Détermination et évaluation des risques et des opportunités du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.3 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.4 a skos:Concept ;
@@ -59,10 +65,12 @@ iso19011:5.4 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Establishing the audit programme"@en,
         "Établissement du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.4 (page 11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.5 a skos:Concept ;
@@ -74,10 +82,12 @@ iso19011:5.5 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Implementing the audit programme"@en,
         "Mise en œuvre du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.5 (page 13)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.6 a skos:Concept ;
@@ -89,10 +99,12 @@ iso19011:5.6 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Monitoring the audit programme"@en,
         "Surveillance du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.6 (page 18)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5.7 a skos:Concept ;
@@ -104,10 +116,12 @@ iso19011:5.7 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Reviewing and improving the audit programme"@en,
         "Revue et amélioration du programme d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5.7 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.1 a skos:Concept ;
@@ -119,10 +133,12 @@ iso19011:6.1 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "General"@en,
         "Généralités"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.1 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.2 a skos:Concept ;
@@ -134,10 +150,12 @@ iso19011:6.2 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Initiating the audit"@en,
         "Déclenchement de l'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.2 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.3 a skos:Concept ;
@@ -149,10 +167,12 @@ iso19011:6.3 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Preparing audit activities"@en,
         "Préparation des activités d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.3 (page 21)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.4 a skos:Concept ;
@@ -164,10 +184,12 @@ iso19011:6.4 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Conducting audit activities"@en,
         "Réalisation des activités d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.4 (page 23)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.5 a skos:Concept ;
@@ -179,10 +201,12 @@ iso19011:6.5 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Preparing and distributing the audit report"@en,
         "Préparation et diffusion du rapport d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.5 (page 29)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.6 a skos:Concept ;
@@ -194,10 +218,12 @@ iso19011:6.6 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Completing the audit"@en,
         "Clôture de l'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.6 (page 30)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6.7 a skos:Concept ;
@@ -209,10 +235,12 @@ iso19011:6.7 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Conducting audit follow-up"@en,
         "Réalisation du suivi d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6.7 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.1 a skos:Concept ;
@@ -224,10 +252,12 @@ iso19011:7.1 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "General"@en,
         "Généralités"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.1 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.2 a skos:Concept ;
@@ -239,10 +269,12 @@ iso19011:7.2 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Determining auditor competence"@en,
         "Déterminer la compétence d'un auditeur"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.2 (page 32)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.3 a skos:Concept ;
@@ -254,10 +286,12 @@ iso19011:7.3 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Establishing auditor evaluation criteria"@en,
         "Déterminer les critères d'évaluation des auditeurs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.3 (page 36)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.4 a skos:Concept ;
@@ -269,10 +303,12 @@ iso19011:7.4 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Selecting the appropriate auditor evaluation method"@en,
         "Choisir la méthode d'évaluation des auditeurs appropriée"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.4 (page 36)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.5 a skos:Concept ;
@@ -284,10 +320,12 @@ iso19011:7.5 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Conducting auditor evaluation"@en,
         "Réaliser l'évaluation d'un auditeur"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.5 (page 37)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7.6 a skos:Concept ;
@@ -299,10 +337,12 @@ iso19011:7.6 a skos:Concept ;
     skos:note "French heading official; English heading translated by CRGO."@en ;
     skos:prefLabel "Maintaining and improving auditor competence"@en,
         "Maintien et amélioration de la compétence du ou des auditeurs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7.6 (page 37)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:1 a skos:Concept ;
@@ -314,10 +354,12 @@ iso19011:1 a skos:Concept ;
     skos:prefLabel "Scope"@en,
         "Domaine d'application"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 1 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:2 a skos:Concept ;
@@ -329,10 +371,12 @@ iso19011:2 a skos:Concept ;
     skos:prefLabel "Normative references"@en,
         "Références normatives"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 2 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:3 a skos:Concept ;
@@ -344,10 +388,12 @@ iso19011:3 a skos:Concept ;
     skos:prefLabel "Terms and definitions"@en,
         "Termes et définitions"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 3 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:4 a skos:Concept ;
@@ -359,10 +405,12 @@ iso19011:4 a skos:Concept ;
     skos:prefLabel "Principles of auditing"@en,
         "Principes de l'audit"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 4 (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:A a skos:Concept ;
@@ -374,10 +422,12 @@ iso19011:A a skos:Concept ;
     skos:prefLabel "Annex A (informative) Additional guidance for auditors planning and conducting audits"@en,
         "Annexe A (informative) Lignes directrices supplémentaires destinées aux auditeurs pour la planification et la réalisation des audits"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, annex A (page 38)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:7 a skos:Concept ;
@@ -389,10 +439,12 @@ iso19011:7 a skos:Concept ;
     skos:prefLabel "Competence and evaluation of auditors"@en,
         "Compétence et évaluation des auditeurs"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 7 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:5 a skos:Concept ;
@@ -404,10 +456,12 @@ iso19011:5 a skos:Concept ;
     skos:prefLabel "Managing an audit programme"@en,
         "Management d'un programme d'audit"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 5 (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso19011:6 a skos:Concept ;
@@ -419,10 +473,12 @@ iso19011:6 a skos:Concept ;
     skos:prefLabel "Conducting an audit"@en,
         "Réalisation d'un audit"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso19011> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 19011:2018, clause 6 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/iso19011> a owl:Ontology,

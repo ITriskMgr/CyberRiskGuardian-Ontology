@@ -23,12 +23,15 @@ crgo:CRGO_0000659 a owl:NamedIndividual,
         "Peu d'effet sur l'objectif; traité dans le cours normal des activités."@fr ;
     skos:inScheme crgo:CRGO_0000658 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- medium significance
 crgo:CRGO_0000660 a owl:NamedIndividual,
@@ -39,12 +42,15 @@ crgo:CRGO_0000660 a owl:NamedIndividual,
         "Effet notable sur l'objectif; exige une action planifiée."@fr ;
     skos:inScheme crgo:CRGO_0000658 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- high significance
 crgo:CRGO_0000661 a owl:NamedIndividual,
@@ -55,12 +61,15 @@ crgo:CRGO_0000661 a owl:NamedIndividual,
         "Effet grave sur l'objectif; exige une action rapide et l'attention de la haute direction."@fr ;
     skos:inScheme crgo:CRGO_0000658 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- critical significance
 crgo:CRGO_0000662 a owl:NamedIndividual,
@@ -71,12 +80,15 @@ crgo:CRGO_0000662 a owl:NamedIndividual,
         "L'objectif n'est pas atteint et un préjudice est probable; l'organe de gouvernance devrait être informé."@fr ;
     skos:inScheme crgo:CRGO_0000658 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- satisfactory
 crgo:CRGO_0000665 a owl:NamedIndividual,
@@ -87,12 +99,15 @@ crgo:CRGO_0000665 a owl:NamedIndividual,
         "Les objectifs sont atteints; les constatations éventuelles sont mineures."@fr ;
     skos:inScheme crgo:CRGO_0000664 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- needs improvement
 crgo:CRGO_0000666 a owl:NamedIndividual,
@@ -103,12 +118,15 @@ crgo:CRGO_0000666 a owl:NamedIndividual,
         "Les objectifs sont partiellement atteints."@fr ;
     skos:inScheme crgo:CRGO_0000664 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- unsatisfactory
 crgo:CRGO_0000667 a owl:NamedIndividual,
@@ -119,12 +137,15 @@ crgo:CRGO_0000667 a owl:NamedIndividual,
         "Les objectifs ne sont pas atteints."@fr ;
     skos:inScheme crgo:CRGO_0000664 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- agrees, will act
 crgo:CRGO_0000670 a owl:NamedIndividual,
@@ -135,12 +156,15 @@ crgo:CRGO_0000670 a owl:NamedIndividual,
         "La direction est d'accord et s'engage à une action corrective."@fr ;
     skos:inScheme crgo:CRGO_0000669 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- partly agrees
 crgo:CRGO_0000671 a owl:NamedIndividual,
@@ -151,12 +175,15 @@ crgo:CRGO_0000671 a owl:NamedIndividual,
         "La direction est d'accord avec une partie de la constatation ou de la recommandation."@fr ;
     skos:inScheme crgo:CRGO_0000669 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- disagrees
 crgo:CRGO_0000672 a owl:NamedIndividual,
@@ -167,12 +194,15 @@ crgo:CRGO_0000672 a owl:NamedIndividual,
         "La direction est en désaccord et donne ses motifs."@fr ;
     skos:inScheme crgo:CRGO_0000669 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- accepts the risk
 crgo:CRGO_0000673 a owl:NamedIndividual,
@@ -183,12 +213,15 @@ crgo:CRGO_0000673 a owl:NamedIndividual,
         "La direction accepte le risque au lieu d'agir; la norme 11.5 des GIAS s'applique à la façon de le communiquer."@fr ;
     skos:inScheme crgo:CRGO_0000669 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- open
 crgo:CRGO_0000676 a owl:NamedIndividual,
@@ -199,11 +232,14 @@ crgo:CRGO_0000676 a owl:NamedIndividual,
         "Convenue mais non commencée."@fr ;
     skos:inScheme crgo:CRGO_0000675 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- in progress
 crgo:CRGO_0000677 a owl:NamedIndividual,
@@ -214,11 +250,14 @@ crgo:CRGO_0000677 a owl:NamedIndividual,
         "En cours d'exécution."@fr ;
     skos:inScheme crgo:CRGO_0000675 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- implemented, awaiting verification
 crgo:CRGO_0000678 a owl:NamedIndividual,
@@ -229,11 +268,14 @@ crgo:CRGO_0000678 a owl:NamedIndividual,
         "Le responsable la déclare réalisée; elle n'a pas encore été vérifiée de façon indépendante."@fr ;
     skos:inScheme crgo:CRGO_0000675 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- action verified
 crgo:CRGO_0000679 a owl:NamedIndividual,
@@ -244,11 +286,14 @@ crgo:CRGO_0000679 a owl:NamedIndividual,
         "Vérifiée de façon indépendante comme réalisée et efficace."@fr ;
     skos:inScheme crgo:CRGO_0000675 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- cancelled
 crgo:CRGO_0000680 a owl:NamedIndividual,
@@ -259,11 +304,14 @@ crgo:CRGO_0000680 a owl:NamedIndividual,
         "Retirée, par exemple parce que le risque a été accepté."@fr ;
     skos:inScheme crgo:CRGO_0000675 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- implemented and effective
 crgo:CRGO_0000683 a owl:NamedIndividual,
@@ -274,11 +322,14 @@ crgo:CRGO_0000683 a owl:NamedIndividual,
         "L'action est en place et la situation ne se produit plus."@fr ;
     skos:inScheme crgo:CRGO_0000682 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- action partly effective
 crgo:CRGO_0000684 a owl:NamedIndividual,
@@ -289,11 +340,14 @@ crgo:CRGO_0000684 a owl:NamedIndividual,
         "L'action est en place mais la situation se produit encore en partie."@fr ;
     skos:inScheme crgo:CRGO_0000682 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- not implemented or not effective
 crgo:CRGO_0000685 a owl:NamedIndividual,
@@ -304,11 +358,14 @@ crgo:CRGO_0000685 a owl:NamedIndividual,
         "L'action n'est pas en place, ou la situation persiste."@fr ;
     skos:inScheme crgo:CRGO_0000682 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- includes auditable entity
 crgo:CRGO_0000774 a owl:ObjectProperty ;
@@ -318,11 +375,14 @@ crgo:CRGO_0000774 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000532 ;
     skos:definition "Relates an audit universe to an auditable entity in it."@en,
         "Relie un univers d'audit à une entité auditable qu'il comprend."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- auditable entity for
 crgo:CRGO_0000775 a owl:ObjectProperty ;
@@ -332,12 +392,15 @@ crgo:CRGO_0000775 a owl:ObjectProperty ;
     rdfs:subPropertyOf cco:ont00001808 ;
     skos:definition "Relates an auditable entity to the process, asset, organisation or third party it stands for."@en,
         "Relie une entité auditable au processus, à l'actif, à l'organisation ou au tiers qu'elle représente."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Sub-property of CCO 'is about'."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- planned engagement
 crgo:CRGO_0000776 a owl:ObjectProperty ;
@@ -347,11 +410,14 @@ crgo:CRGO_0000776 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000536 ;
     skos:definition "Relates an audit plan to an engagement it includes."@en,
         "Relie un plan d'audit à une mission qu'il comprend."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- engagement on
 crgo:CRGO_0000777 a owl:ObjectProperty ;
@@ -361,11 +427,14 @@ crgo:CRGO_0000777 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000532 ;
     skos:definition "Relates an audit engagement to the auditable entity it covers."@en,
         "Relie une mission d'audit à l'entité auditable qu'elle couvre."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has audit objective
 crgo:CRGO_0000778 a owl:ObjectProperty ;
@@ -374,11 +443,14 @@ crgo:CRGO_0000778 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000537 ;
     skos:definition "Relates an audit engagement or work programme to an objective it is to establish."@en,
         "Relie une mission d'audit ou un programme de travail à un objectif qu'il doit établir."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- uses criterion
 crgo:CRGO_0000779 a owl:ObjectProperty ;
@@ -387,12 +459,15 @@ crgo:CRGO_0000779 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000538 ;
     skos:definition "Relates an audit engagement, procedure or finding to an audit criterion it uses."@en,
         "Relie une mission d'audit, une procédure ou une constatation à un critère d'audit qu'elle utilise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- criterion refers to
 crgo:CRGO_0000780 a owl:ObjectProperty ;
@@ -401,11 +476,14 @@ crgo:CRGO_0000780 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000538 ;
     skos:definition "Relates an audit criterion to the requirement it takes as reference, such as a provision, a control, a policy statement or an SP 800-53A assessment objective."@en,
         "Relie un critère d'audit à l'exigence qu'il prend pour référence, comme une disposition, une mesure, un énoncé de politique ou un objectif d'évaluation SP 800-53A."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- follows programme
 crgo:CRGO_0000781 a owl:ObjectProperty ;
@@ -415,11 +493,14 @@ crgo:CRGO_0000781 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000534 ;
     skos:definition "Relates an audit engagement to the work programme it follows."@en,
         "Relie une mission d'audit au programme de travail qu'elle suit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has procedure
 crgo:CRGO_0000782 a owl:ObjectProperty ;
@@ -429,11 +510,14 @@ crgo:CRGO_0000782 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000535 ;
     skos:definition "Relates a work programme to a procedure in it."@en,
         "Relie un programme de travail à une procédure qu'il comprend."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- serves objective
 crgo:CRGO_0000783 a owl:ObjectProperty ;
@@ -442,13 +526,16 @@ crgo:CRGO_0000783 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000535 ;
     skos:definition "Relates an audit procedure to an objective it obtains evidence for, such as an SP 800-53A assessment objective or an audit objective."@en,
         "Relie une procédure d'audit à un objectif pour lequel elle obtient des preuves, comme un objectif d'évaluation SP 800-53A ou un objectif d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 8: each procedure cites the objectives it serves."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- produces evidence for
 crgo:CRGO_0000784 a owl:ObjectProperty ;
@@ -456,12 +543,15 @@ crgo:CRGO_0000784 a owl:ObjectProperty ;
         "produit des preuves pour"@fr ;
     skos:definition "Relates an audit procedure, control assessment or evidence request to the control, requirement or criterion it produces evidence for."@en,
         "Relie une procédure d'audit, une évaluation de mesure ou une demande de preuves à la mesure, l'exigence ou le critère pour lequel elle produit des preuves."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 11."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- requests evidence
 crgo:CRGO_0000785 a owl:ObjectProperty ;
@@ -470,11 +560,14 @@ crgo:CRGO_0000785 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000539 ;
     skos:definition "Relates an audit procedure or engagement to an evidence request it issues."@en,
         "Relie une procédure ou une mission d'audit à une demande de preuves qu'elle émet."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- requested from
 crgo:CRGO_0000786 a owl:ObjectProperty ;
@@ -484,11 +577,14 @@ crgo:CRGO_0000786 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates an evidence request to the agent asked to provide the evidence."@en,
         "Relie une demande de preuves à l'agent invité à fournir les preuves."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- fulfilled by
 crgo:CRGO_0000787 a owl:ObjectProperty ;
@@ -498,11 +594,14 @@ crgo:CRGO_0000787 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000036 ;
     skos:definition "Relates an evidence request to an evidence item provided in response."@en,
         "Relie une demande de preuves à un élément de preuve fourni en réponse."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- within engagement
 crgo:CRGO_0000788 a owl:ObjectProperty ;
@@ -511,11 +610,14 @@ crgo:CRGO_0000788 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000536 ;
     skos:definition "Relates a control assessment, finding, evidence request or sufficiency assessment to the audit engagement it belongs to."@en,
         "Relie une évaluation de mesure, une constatation, une demande de preuves ou une évaluation du caractère suffisant à la mission d'audit dont elle relève."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- executes procedure
 crgo:CRGO_0000789 a owl:ObjectProperty ;
@@ -525,12 +627,15 @@ crgo:CRGO_0000789 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000535 ;
     skos:definition "Relates a control assessment to the audit procedure it carries out."@en,
         "Relie une évaluation de mesure à la procédure d'audit qu'elle exécute."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision G3."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- exception raised on
 crgo:CRGO_0000790 a owl:ObjectProperty ;
@@ -539,11 +644,14 @@ crgo:CRGO_0000790 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000540 ;
     skos:definition "Relates a monitoring exception to the indicator, control measure or asset that raised it."@en,
         "Relie une exception de surveillance à l'indicateur, la mesure appliquée ou l'actif qui l'a déclenchée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- arises from exception
 crgo:CRGO_0000791 a owl:ObjectProperty ;
@@ -553,12 +661,15 @@ crgo:CRGO_0000791 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000540 ;
     skos:definition "Relates an audit finding to a monitoring exception that the engagement evaluated against criteria."@en,
         "Relie une constatation d'audit à une exception de surveillance que la mission a évaluée au regard de critères."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 10: an exception becomes a finding only through an audit evaluation."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- hypothesised cause
 crgo:CRGO_0000792 a owl:ObjectProperty ;
@@ -568,12 +679,15 @@ crgo:CRGO_0000792 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000475 ;
     skos:definition "Relates an audit finding to an analytical hypothesis about its cause that has not been confirmed."@en,
         "Relie une constatation d'audit à une hypothèse explicative non confirmée sur sa cause."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 10."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has finding significance
 crgo:CRGO_0000793 a owl:ObjectProperty ;
@@ -584,11 +698,14 @@ crgo:CRGO_0000793 a owl:ObjectProperty ;
     skos:definition "Gives the significance of an audit finding."@en,
         "Indique l'importance d'une constatation d'audit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding about scenario
 crgo:CRGO_0000794 a owl:ObjectProperty ;
@@ -598,12 +715,15 @@ crgo:CRGO_0000794 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates an audit finding to a risk scenario whose likelihood or impact the condition found bears on."@en,
         "Relie une constatation d'audit à un scénario de risque dont la situation constatée influe sur la vraisemblance ou l'impact."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 12 (scenarios to findings)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding on control
 crgo:CRGO_0000795 a owl:ObjectProperty ;
@@ -613,11 +733,14 @@ crgo:CRGO_0000795 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000020 ;
     skos:definition "Relates an audit finding to a control measure whose design or operation it concerns."@en,
         "Relie une constatation d'audit à une mesure appliquée dont elle concerne la conception ou le fonctionnement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- based on assessment
 crgo:CRGO_0000796 a owl:ObjectProperty ;
@@ -626,11 +749,14 @@ crgo:CRGO_0000796 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000347 ;
     skos:definition "Relates an audit finding or conclusion to a control assessment it relies on."@en,
         "Relie une constatation ou une conclusion d'audit à une évaluation de mesure sur laquelle elle s'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- conclusion of
 crgo:CRGO_0000797 a owl:ObjectProperty ;
@@ -641,11 +767,14 @@ crgo:CRGO_0000797 a owl:ObjectProperty ;
     skos:definition "Relates an audit conclusion to its engagement."@en,
         "Relie une conclusion d'audit à sa mission."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has engagement rating
 crgo:CRGO_0000798 a owl:ObjectProperty ;
@@ -656,11 +785,14 @@ crgo:CRGO_0000798 a owl:ObjectProperty ;
     skos:definition "Gives the overall rating of an audit conclusion."@en,
         "Indique la cote globale d'une conclusion d'audit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- report of
 crgo:CRGO_0000799 a owl:ObjectProperty ;
@@ -670,11 +802,14 @@ crgo:CRGO_0000799 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000536 ;
     skos:definition "Relates an audit report to the engagement it reports on."@en,
         "Relie un rapport d'audit à la mission dont il rend compte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- reports finding
 crgo:CRGO_0000800 a owl:ObjectProperty ;
@@ -684,11 +819,14 @@ crgo:CRGO_0000800 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000541 ;
     skos:definition "Relates an audit report to a finding it communicates."@en,
         "Relie un rapport d'audit à une constatation qu'il communique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- recommendation for
 crgo:CRGO_0000801 a owl:ObjectProperty ;
@@ -698,11 +836,14 @@ crgo:CRGO_0000801 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000541 ;
     skos:definition "Relates a recommendation to the finding it addresses."@en,
         "Relie une recommandation à la constatation qu'elle vise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- justifies recommendation
 crgo:CRGO_0000802 a owl:ObjectProperty ;
@@ -711,12 +852,15 @@ crgo:CRGO_0000802 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000544 ;
     skos:definition "Relates a finding, risk scenario or evidence item to a recommendation it gives grounds for."@en,
         "Relie une constatation, un scénario de risque ou un élément de preuve à une recommandation qu'il justifie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 11."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- response to
 crgo:CRGO_0000803 a owl:ObjectProperty ;
@@ -725,11 +869,14 @@ crgo:CRGO_0000803 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000545 ;
     skos:definition "Relates a management response to the finding or recommendation it answers."@en,
         "Relie une réponse de la direction à la constatation ou à la recommandation à laquelle elle répond."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has response stance
 crgo:CRGO_0000804 a owl:ObjectProperty ;
@@ -740,11 +887,14 @@ crgo:CRGO_0000804 a owl:ObjectProperty ;
     skos:definition "Gives management's position in a management response."@en,
         "Indique la position de la direction dans sa réponse."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- responded by
 crgo:CRGO_0000805 a owl:ObjectProperty ;
@@ -754,11 +904,14 @@ crgo:CRGO_0000805 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates a management response to the manager who gave it."@en,
         "Relie une réponse de la direction au gestionnaire qui l'a donnée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- commits to action
 crgo:CRGO_0000806 a owl:ObjectProperty ;
@@ -768,11 +921,14 @@ crgo:CRGO_0000806 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000546 ;
     skos:definition "Relates a management response to a corrective action it commits to."@en,
         "Relie une réponse de la direction à une action corrective à laquelle elle s'engage."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- corrects
 crgo:CRGO_0000807 a owl:ObjectProperty ;
@@ -781,12 +937,15 @@ crgo:CRGO_0000807 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000546 ;
     skos:definition "Relates a corrective action to the finding or nonconformity whose cause it is to remove."@en,
         "Relie une action corrective à la constatation ou à la non-conformité dont elle doit éliminer la cause."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has action status
 crgo:CRGO_0000808 a owl:ObjectProperty ;
@@ -797,11 +956,14 @@ crgo:CRGO_0000808 a owl:ObjectProperty ;
     skos:definition "Gives the recorded state of a corrective action."@en,
         "Indique l'état consigné d'une action corrective."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- verifies action
 crgo:CRGO_0000809 a owl:ObjectProperty ;
@@ -812,12 +974,15 @@ crgo:CRGO_0000809 a owl:ObjectProperty ;
     skos:definition "Relates a follow-up verification to the corrective action it checks."@en,
         "Relie une vérification de suivi à l'action corrective qu'elle contrôle."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- has verification result
 crgo:CRGO_0000810 a owl:ObjectProperty ;
@@ -828,11 +993,14 @@ crgo:CRGO_0000810 a owl:ObjectProperty ;
     skos:definition "Gives the result of a follow-up verification."@en,
         "Indique le résultat d'une vérification de suivi."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- closes finding
 crgo:CRGO_0000811 a owl:ObjectProperty ;
@@ -843,11 +1011,14 @@ crgo:CRGO_0000811 a owl:ObjectProperty ;
     skos:definition "Relates a finding closure to the finding it closes."@en,
         "Relie une clôture de constatation à la constatation qu'elle clôt."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- closure based on
 crgo:CRGO_0000812 a owl:ObjectProperty ;
@@ -856,12 +1027,15 @@ crgo:CRGO_0000812 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000548 ;
     skos:definition "Relates a finding closure to the follow-up verification or risk acceptance it relies on."@en,
         "Relie une clôture de constatation à la vérification de suivi ou à l'acceptation du risque sur laquelle elle s'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 4 acceptance test: closure needs an independent verification, or a recorded risk acceptance."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- reopens finding
 crgo:CRGO_0000813 a owl:ObjectProperty ;
@@ -872,11 +1046,14 @@ crgo:CRGO_0000813 a owl:ObjectProperty ;
     skos:definition "Relates a finding reopening to the finding it reopens."@en,
         "Relie une réouverture de constatation à la constatation qu'elle rouvre."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- illustrative only
 crgo:CRGO_0000864 a owl:DatatypeProperty,
@@ -886,11 +1063,14 @@ crgo:CRGO_0000864 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States that a work programme or procedure is an illustration of structure, not a validated audit methodology."@en,
         "Indique qu'un programme de travail ou une procédure illustre une structure et ne constitue pas une méthodologie d'audit validée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- procedure step
 crgo:CRGO_0000865 a owl:DatatypeProperty ;
@@ -899,11 +1079,14 @@ crgo:CRGO_0000865 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000535 ;
     skos:definition "Describes what the assessor does in an audit procedure."@en,
         "Décrit ce que fait l'évaluateur dans une procédure d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- expected result
 crgo:CRGO_0000866 a owl:DatatypeProperty ;
@@ -912,11 +1095,14 @@ crgo:CRGO_0000866 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000535 ;
     skos:definition "States the result an audit procedure expects when the control operates as designed."@en,
         "Indique le résultat qu'attend une procédure d'audit lorsque la mesure fonctionne comme prévu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- exception logic
 crgo:CRGO_0000867 a owl:DatatypeProperty ;
@@ -925,11 +1111,14 @@ crgo:CRGO_0000867 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000535 ;
     skos:definition "States when a deviation found by an audit procedure counts as an exception."@en,
         "Indique quand un écart relevé par une procédure d'audit constitue une exception."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- due on
 crgo:CRGO_0000868 a owl:DatatypeProperty,
@@ -939,11 +1128,14 @@ crgo:CRGO_0000868 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date by which an evidence request or corrective action is due."@en,
         "Indique la date à laquelle une demande de preuves ou une action corrective est due."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- raised on
 crgo:CRGO_0000869 a owl:DatatypeProperty,
@@ -953,11 +1145,14 @@ crgo:CRGO_0000869 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a monitoring exception, finding or nonconformity was raised."@en,
         "Indique quand une exception de surveillance, une constatation ou une non-conformité a été relevée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- condition found
 crgo:CRGO_0000870 a owl:DatatypeProperty ;
@@ -966,13 +1161,16 @@ crgo:CRGO_0000870 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000541 ;
     skos:definition "States the condition an assessor found, as opposed to the criterion."@en,
         "Indique la situation constatée par l'évaluateur, par opposition au critère."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 14.3."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- observed cause
 crgo:CRGO_0000871 a owl:DatatypeProperty ;
@@ -981,11 +1179,14 @@ crgo:CRGO_0000871 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000541 ;
     skos:definition "States a cause of a finding that the evidence establishes."@en,
         "Indique une cause d'une constatation que les preuves établissent."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- effect
 crgo:CRGO_0000872 a owl:DatatypeProperty ;
@@ -994,11 +1195,14 @@ crgo:CRGO_0000872 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000541 ;
     skos:definition "States the actual or potential consequence of the condition found."@en,
         "Indique la conséquence réelle ou potentielle de la situation constatée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- significance method
 crgo:CRGO_0000873 a owl:DatatypeProperty,
@@ -1009,11 +1213,14 @@ crgo:CRGO_0000873 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Names the method used to rate the significance of a finding."@en,
         "Nomme la méthode utilisée pour coter l'importance d'une constatation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- issued on
 crgo:CRGO_0000874 a owl:DatatypeProperty,
@@ -1023,11 +1230,14 @@ crgo:CRGO_0000874 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an audit or assurance report was issued."@en,
         "Indique quand un rapport d'audit ou d'assurance a été émis."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- closed on
 crgo:CRGO_0000875 a owl:DatatypeProperty,
@@ -1038,11 +1248,14 @@ crgo:CRGO_0000875 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a finding was closed."@en,
         "Indique quand une constatation a été close."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- reopened on
 crgo:CRGO_0000876 a owl:DatatypeProperty,
@@ -1053,11 +1266,14 @@ crgo:CRGO_0000876 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a finding was reopened."@en,
         "Indique quand une constatation a été rouverte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- reopening reason
 crgo:CRGO_0000877 a owl:DatatypeProperty ;
@@ -1066,11 +1282,14 @@ crgo:CRGO_0000877 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000549 ;
     skos:definition "States why a finding was reopened."@en,
         "Indique pourquoi une constatation a été rouverte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 crgo:crgo-audit a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -1105,13 +1324,16 @@ crgo:CRGO_0000531 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of all the auditable entities of an organisation from which the internal audit plan is drawn."@en,
         "Description de toutes les entités auditables d'une organisation dans laquelle est puisé le plan d'audit interne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 9.4 (Internal Audit Plan)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit plan
 crgo:CRGO_0000533 a owl:Class ;
@@ -1120,14 +1342,17 @@ crgo:CRGO_0000533 a owl:Class ;
     rdfs:subClassOf cco:ont00000974 ;
     skos:definition "A plan, usually approved by the governing body, that sets out the audit engagements to be performed over a stated period and why."@en,
         "Plan, généralement approuvé par l'organe de gouvernance, qui énumère les missions d'audit à réaliser pendant une période donnée et leur justification."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 9.4; ITAF 1202 (Audit Scheduling)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit objective
 crgo:CRGO_0000537 a owl:Class ;
@@ -1136,13 +1361,16 @@ crgo:CRGO_0000537 a owl:Class ;
     rdfs:subClassOf cco:ont00000476 ;
     skos:definition "An objective stating what an audit engagement is to establish, such as whether access to a system is restricted to authorised users."@en,
         "Objectif précisant ce qu'une mission d'audit doit établir, par exemple si l'accès à un système est réservé aux utilisateurs autorisés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 13.3 (Engagement Objectives and Scope)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit work programme
 crgo:CRGO_0000534 a owl:Class ;
@@ -1152,13 +1380,16 @@ crgo:CRGO_0000534 a owl:Class ;
     skos:altLabel "work program"@en ;
     skos:definition "A reusable plan of audit procedures for a domain, giving objectives, criteria, control references, methods, expected evidence, population and sampling rationale."@en,
         "Plan réutilisable de procédures d'audit pour un domaine, indiquant les objectifs, les critères, les références de mesures, les méthodes, les preuves attendues, la population et la justification de l'échantillonnage."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 8; GIAS Standard 13.6 (Work Program). Not the ISO 19011 'audit programme', which is a set of audits: that is the audit plan here."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit criterion
 crgo:CRGO_0000538 a owl:Class ;
@@ -1167,14 +1398,17 @@ crgo:CRGO_0000538 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A requirement used as the reference against which the condition found is compared, such as a provision, a control objective, a policy statement or an assessment objective."@en,
         "Exigence servant de référence à laquelle la situation constatée est comparée, comme une disposition, un objectif de mesure, un énoncé de politique ou un objectif d'évaluation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 13.4 (Evaluation Criteria); ITAF 1008 (Criteria)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- monitoring exception
 crgo:CRGO_0000540 a owl:Class ;
@@ -1184,12 +1418,15 @@ crgo:CRGO_0000540 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000541 ;
     skos:definition "A record that continuous monitoring, such as a key risk indicator or automated control check, flagged a deviation. It is not an audit finding; it becomes the basis of one only if an audit engagement evaluates it against criteria."@en,
         "Enregistrement indiquant qu'une surveillance continue, comme un indicateur clé de risque ou une vérification automatisée, a signalé un écart. Ce n'est pas une constatation d'audit; il n'en devient le fondement que si une mission d'audit l'évalue au regard de critères."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 10 (monitoring exception differs from audit finding)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit conclusion
 crgo:CRGO_0000542 a owl:Class ;
@@ -1198,13 +1435,16 @@ crgo:CRGO_0000542 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record of the overall result of an audit engagement against its objectives, based on its findings."@en,
         "Enregistrement du résultat global d'une mission d'audit au regard de ses objectifs, fondé sur ses constatations."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 14.5 (Engagement Conclusions)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit report
 crgo:CRGO_0000543 a owl:Class ;
@@ -1213,14 +1453,17 @@ crgo:CRGO_0000543 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A document that communicates an audit engagement's objectives, scope, findings, conclusions, recommendations and management responses."@en,
         "Document qui communique les objectifs, le périmètre, les constatations, les conclusions, les recommandations et les réponses de la direction d'une mission d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 15.1 (Final Engagement Communication); ITAF 1401 (Reporting)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- recommendation
 crgo:CRGO_0000544 a owl:Class ;
@@ -1229,13 +1472,16 @@ crgo:CRGO_0000544 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive proposed by an assessor to address the cause or effect of a finding."@en,
         "Directive proposée par un évaluateur pour remédier à la cause ou à l'effet d'une constatation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 14.4 (Recommendations and Action Plans)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- follow-up verification
 crgo:CRGO_0000547 a owl:Class ;
@@ -1244,7 +1490,7 @@ crgo:CRGO_0000547 a owl:Class ;
     rdfs:subClassOf cco:ont00000228 ;
     skos:definition "A planned act in which an assessor independent of the action owner checks whether a corrective action was implemented and is effective."@en,
         "Acte planifié par lequel un évaluateur indépendant du responsable de l'action vérifie si une action corrective a été mise en œuvre et si elle est efficace."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standard 15.2; ITAF 1402 (Follow-up Activities); ISO 19011:2018 clause 6.7."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
@@ -1252,7 +1498,10 @@ crgo:CRGO_0000547 a owl:Class ;
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en,
         "ISO 19011:2018, Guidelines for auditing management systems (3rd edition, 2018-07); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- auditable entity
 crgo:CRGO_0000532 a owl:Class ;
@@ -1261,11 +1510,14 @@ crgo:CRGO_0000532 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a unit, process, system, programme or third party that can be the subject of an audit engagement."@en,
         "Description d'une unité, d'un processus, d'un système, d'un programme ou d'un tiers qui peut faire l'objet d'une mission d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- evidence request
 crgo:CRGO_0000539 a owl:Class ;
@@ -1274,11 +1526,14 @@ crgo:CRGO_0000539 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A request from an assessor to an identified agent for stated evidence by a stated date."@en,
         "Demande adressée par un évaluateur à un agent identifié pour obtenir des preuves déterminées à une date donnée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding closure
 crgo:CRGO_0000548 a owl:Class ;
@@ -1288,11 +1543,14 @@ crgo:CRGO_0000548 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000549 ;
     skos:definition "A dated record that a finding is closed, citing the follow-up verification or the risk acceptance it relies on."@en,
         "Enregistrement daté indiquant qu'une constatation est close, en citant la vérification de suivi ou l'acceptation du risque sur laquelle il s'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- engagement rating scheme
 crgo:CRGO_0000664 a owl:NamedIndividual,
@@ -1301,12 +1559,15 @@ crgo:CRGO_0000664 a owl:NamedIndividual,
         "schéma : cote de la mission"@fr ;
     skos:definition "Concept scheme of the engagement rating value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « cote de la mission »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- verification result scheme
 crgo:CRGO_0000682 a owl:NamedIndividual,
@@ -1315,11 +1576,14 @@ crgo:CRGO_0000682 a owl:NamedIndividual,
         "schéma : résultat de la vérification"@fr ;
     skos:definition "Concept scheme of the verification result value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « résultat de la vérification »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- management response
 crgo:CRGO_0000545 a owl:Class ;
@@ -1328,11 +1592,14 @@ crgo:CRGO_0000545 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A dated record of management's position on a finding or recommendation, such as agreeing and committing to action, disagreeing, or accepting the risk."@en,
         "Enregistrement daté de la position de la direction sur une constatation ou une recommandation, comme l'accord et l'engagement à agir, le désaccord ou l'acceptation du risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- corrective action
 crgo:CRGO_0000546 a owl:Class ;
@@ -1343,13 +1610,16 @@ crgo:CRGO_0000546 a owl:Class ;
         "plan d'action"@fr ;
     skos:definition "A plan of action by an owner, with a due date, to eliminate the cause of a finding or nonconformity and prevent its recurrence."@en,
         "Plan d'action confié à un responsable, avec une échéance, pour éliminer la cause d'une constatation ou d'une non-conformité et en empêcher la répétition."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "ISO 37301:2021 clause 10.2."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding reopening
 crgo:CRGO_0000549 a owl:Class ;
@@ -1358,11 +1628,14 @@ crgo:CRGO_0000549 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A dated record that a closed finding is reopened, with the reason, such as the recurrence of the condition."@en,
         "Enregistrement daté indiquant qu'une constatation close est rouverte, avec le motif, comme la réapparition de la situation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding significance scheme
 crgo:CRGO_0000658 a owl:NamedIndividual,
@@ -1371,12 +1644,15 @@ crgo:CRGO_0000658 a owl:NamedIndividual,
         "schéma : importance de la constatation"@fr ;
     skos:definition "Concept scheme of the finding significance value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « importance de la constatation »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- management response stance scheme
 crgo:CRGO_0000669 a owl:NamedIndividual,
@@ -1385,12 +1661,15 @@ crgo:CRGO_0000669 a owl:NamedIndividual,
         "schéma : position de la direction"@fr ;
     skos:definition "Concept scheme of the management response stance value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « position de la direction »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- engagement rating
 crgo:CRGO_0000663 a owl:Class ;
@@ -1399,13 +1678,16 @@ crgo:CRGO_0000663 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The overall rating given in an audit conclusion."@en,
         "Cote globale attribuée dans une conclusion d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- corrective action status scheme
 crgo:CRGO_0000675 a owl:NamedIndividual,
@@ -1414,11 +1696,14 @@ crgo:CRGO_0000675 a owl:NamedIndividual,
         "schéma : état de l'action corrective"@fr ;
     skos:definition "Concept scheme of the corrective action status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de l'action corrective »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- verification result
 crgo:CRGO_0000681 a owl:Class ;
@@ -1427,12 +1712,15 @@ crgo:CRGO_0000681 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The result of a follow-up verification."@en,
         "Résultat d'une vérification de suivi."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit procedure
 crgo:CRGO_0000535 a owl:Class ;
@@ -1441,11 +1729,14 @@ crgo:CRGO_0000535 a owl:Class ;
     rdfs:subClassOf cco:ont00000974 ;
     skos:definition "A plan for one audit step, stating the assessment method, the objectives it serves, the evidence to obtain, the expected result and when a deviation counts as an exception."@en,
         "Plan d'une étape d'audit, indiquant la méthode d'évaluation, les objectifs visés, les preuves à obtenir, le résultat attendu et les conditions dans lesquelles un écart constitue une exception."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit engagement
 crgo:CRGO_0000536 a owl:Class ;
@@ -1454,14 +1745,17 @@ crgo:CRGO_0000536 a owl:Class ;
     rdfs:subClassOf cco:ont00000228 ;
     skos:definition "A planned act of assurance or advice on an auditable entity, with stated objectives, scope, criteria and period, performed by an audit team."@en,
         "Acte planifié d'assurance ou de conseil sur une entité auditable, avec des objectifs, un périmètre, des critères et une période donnés, réalisé par une équipe d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Principle 13 (Plan Engagements Effectively); ISO 19011:2018 clause 6 (conducting an audit)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISO 19011:2018, Guidelines for auditing management systems (3rd edition, 2018-07); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- finding significance
 crgo:CRGO_0000657 a owl:Class ;
@@ -1470,13 +1764,16 @@ crgo:CRGO_0000657 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The significance of an audit finding, as rated by the assessor under a stated method."@en,
         "Importance d'une constatation d'audit, selon la cote attribuée par l'évaluateur suivant une méthode indiquée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- management response stance
 crgo:CRGO_0000668 a owl:Class ;
@@ -1485,13 +1782,16 @@ crgo:CRGO_0000668 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "Management's position in a response to a finding or recommendation."@en,
         "Position de la direction dans sa réponse à une constatation ou à une recommandation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- corrective action status
 crgo:CRGO_0000674 a owl:Class ;
@@ -1500,12 +1800,15 @@ crgo:CRGO_0000674 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of a corrective action, as last recorded."@en,
         "État d'une action corrective, selon le dernier enregistrement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 # --- audit finding
 crgo:CRGO_0000541 a owl:Class ;
@@ -1516,14 +1819,17 @@ crgo:CRGO_0000541 a owl:Class ;
     skos:altLabel "audit observation"@en ;
     skos:definition "A record, made in an audit engagement, of the difference between a criterion and the condition found, with its observed or hypothesised cause, its effect, its significance and the evidence relied on."@en,
         "Enregistrement, établi dans une mission d'audit, de l'écart entre un critère et la situation constatée, avec sa cause observée ou présumée, son effet, son importance et les preuves retenues."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standards 14.2-14.3; ISO 19011:2018 clause 6.4."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISO 19011:2018, Guidelines for auditing management systems (3rd edition, 2018-07); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 3"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000586 crgo:CRGO_0000592 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0000614 crgo:CRGO_0000619 crgo:CRGO_0000624 crgo:CRGO_0000630 crgo:CRGO_0000639 crgo:CRGO_0000645 crgo:CRGO_0000652 crgo:CRGO_0000657 crgo:CRGO_0000663 crgo:CRGO_0000668 crgo:CRGO_0000674 crgo:CRGO_0000681 ) .

@@ -14,10 +14,12 @@ itaf:ITAF-1001 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Audit Charter"@en,
         "Charte d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1001 (page 15)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1002 a skos:Concept ;
@@ -29,10 +31,12 @@ itaf:ITAF-1002 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Organizational Independence"@en,
         "Indépendance organisationnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1002 (page 20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1003 a skos:Concept ;
@@ -44,10 +48,12 @@ itaf:ITAF-1003 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Auditor Objectivity"@en,
         "Objectivité de l'auditeur"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1003 (page 23)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1004 a skos:Concept ;
@@ -59,10 +65,12 @@ itaf:ITAF-1004 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Reasonable Expectation"@en,
         "Attente raisonnable"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1004 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1005 a skos:Concept ;
@@ -74,10 +82,12 @@ itaf:ITAF-1005 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Due Professional Care"@en,
         "Diligence professionnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1005 (page 37)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1006 a skos:Concept ;
@@ -89,10 +99,12 @@ itaf:ITAF-1006 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Proficiency"@en,
         "Compétence professionnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1006 (page 45)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1007 a skos:Concept ;
@@ -104,10 +116,12 @@ itaf:ITAF-1007 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Assertions"@en,
         "Assertions"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1007 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1008 a skos:Concept ;
@@ -119,10 +133,12 @@ itaf:ITAF-1008 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Criteria"@en,
         "Critères"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1008 (page 59)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1201 a skos:Concept ;
@@ -134,10 +150,12 @@ itaf:ITAF-1201 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Assessment in Planning"@en,
         "Évaluation des risques lors de la planification"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1201 (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1202 a skos:Concept ;
@@ -149,10 +167,12 @@ itaf:ITAF-1202 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Audit Scheduling"@en,
         "Calendrier des audits"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1202 (page 74)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1203 a skos:Concept ;
@@ -164,10 +184,12 @@ itaf:ITAF-1203 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Engagement Planning"@en,
         "Planification de la mission"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1203 (page 77)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1204 a skos:Concept ;
@@ -179,10 +201,12 @@ itaf:ITAF-1204 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Performance and Supervision"@en,
         "Exécution et supervision"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1204 (page 85)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1205 a skos:Concept ;
@@ -194,10 +218,12 @@ itaf:ITAF-1205 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Evidence"@en,
         "Éléments probants"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1205 (page 94)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1206 a skos:Concept ;
@@ -209,10 +235,12 @@ itaf:ITAF-1206 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Using the Work of Other Experts"@en,
         "Recours aux travaux d'autres experts"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1206 (page 101)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1207 a skos:Concept ;
@@ -224,10 +252,12 @@ itaf:ITAF-1207 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Irregularities and Illegal Acts"@en,
         "Irrégularités et actes illégaux"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1207 (page 107)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1401 a skos:Concept ;
@@ -239,10 +269,12 @@ itaf:ITAF-1401 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Reporting"@en,
         "Rapport"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1401 (page 119)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-1402 a skos:Concept ;
@@ -254,10 +286,12 @@ itaf:ITAF-1402 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Follow-up Activities"@en,
         "Activités de suivi"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1402 (page 124)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2001 a skos:Concept ;
@@ -269,10 +303,12 @@ itaf:ITAF-2001 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Audit Charter"@en,
         "Charte d'audit"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2001 (page 16)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2002 a skos:Concept ;
@@ -284,10 +320,12 @@ itaf:ITAF-2002 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Organizational Independence"@en,
         "Indépendance organisationnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2002 (page 21)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2003 a skos:Concept ;
@@ -299,10 +337,12 @@ itaf:ITAF-2003 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Auditor Objectivity"@en,
         "Objectivité de l'auditeur"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2003 (page 23)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2004 a skos:Concept ;
@@ -314,10 +354,12 @@ itaf:ITAF-2004 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Reasonable Expectation"@en,
         "Attente raisonnable"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2004 (page 32)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2005 a skos:Concept ;
@@ -329,10 +371,12 @@ itaf:ITAF-2005 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Due Professional Care"@en,
         "Diligence professionnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2005 (page 38)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2006 a skos:Concept ;
@@ -344,10 +388,12 @@ itaf:ITAF-2006 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Proficiency"@en,
         "Compétence professionnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2006 (page 45)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2007 a skos:Concept ;
@@ -359,10 +405,12 @@ itaf:ITAF-2007 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Assertions"@en,
         "Assertions"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2007 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2008 a skos:Concept ;
@@ -374,10 +422,12 @@ itaf:ITAF-2008 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Criteria"@en,
         "Critères"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2008 (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2201 a skos:Concept ;
@@ -389,10 +439,12 @@ itaf:ITAF-2201 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Assessment in Planning"@en,
         "Évaluation des risques lors de la planification"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2201 (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2202 a skos:Concept ;
@@ -404,10 +456,12 @@ itaf:ITAF-2202 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Audit Scheduling"@en,
         "Calendrier des audits"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2202 (page 74)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2203 a skos:Concept ;
@@ -419,10 +473,12 @@ itaf:ITAF-2203 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Engagement Planning"@en,
         "Planification de la mission"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2203 (page 78)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2204 a skos:Concept ;
@@ -434,10 +490,12 @@ itaf:ITAF-2204 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Performance and Supervision"@en,
         "Exécution et supervision"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2204 (page 86)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2205 a skos:Concept ;
@@ -449,10 +507,12 @@ itaf:ITAF-2205 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Evidence"@en,
         "Éléments probants"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2205 (page 94)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2206 a skos:Concept ;
@@ -464,10 +524,12 @@ itaf:ITAF-2206 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Using the Work of Other Experts"@en,
         "Recours aux travaux d'autres experts"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2206 (page 102)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2207 a skos:Concept ;
@@ -479,10 +541,12 @@ itaf:ITAF-2207 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Irregularities and Illegal Acts"@en,
         "Irrégularités et actes illégaux"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2207 (page 107)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2208 a skos:Concept ;
@@ -494,10 +558,12 @@ itaf:ITAF-2208 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Information Technology Audit Sampling"@en,
         "Échantillonnage en audit des technologies de l'information"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2208 (page 9)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2401 a skos:Concept ;
@@ -509,10 +575,12 @@ itaf:ITAF-2401 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Reporting"@en,
         "Rapport"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2401 (page 119)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-2402 a skos:Concept ;
@@ -524,10 +592,12 @@ itaf:ITAF-2402 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Follow-up Activities"@en,
         "Activités de suivi"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2402 (page 125)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-REP a skos:Concept ;
@@ -539,10 +609,12 @@ itaf:ITAF-REP a skos:Concept ;
     skos:prefLabel "Reporting Standards"@en,
         "Normes de rapport"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-REP (page 119)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-PERF a skos:Concept ;
@@ -554,10 +626,12 @@ itaf:ITAF-PERF a skos:Concept ;
     skos:prefLabel "Performance Standards"@en,
         "Normes de réalisation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-PERF (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 itaf:ITAF-GEN a skos:Concept ;
@@ -569,10 +643,12 @@ itaf:ITAF-GEN a skos:Concept ;
     skos:prefLabel "General Standards"@en,
         "Normes générales"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-GEN (page 15)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/itaf> a owl:Ontology,

@@ -608,7 +608,7 @@ Terms before: 335; after: 883.
 
 ## Cross-references
 
-Before: 11437; after: 12476 (approved file plus proposal file); added: 1039; removed: 0; status changed: 0; in the proposal file: 1134.
+Before: 11437; after: 12476 (approved file plus proposal file); added: 1039; removed: 0; status changed: 0; in the proposal file: 120.
 
 Typed relations (0.9.0), distinct concept pairs per relation:
 

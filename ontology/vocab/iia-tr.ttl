@@ -14,10 +14,12 @@ iia-tr:TR-CYBER-CTL-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Internal and vendor controls"@en,
         "Contrôles internes et des fournisseurs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-A (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-B a skos:Concept ;
@@ -29,10 +31,12 @@ iia-tr:TR-CYBER-CTL-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cybersecurity talent management"@en,
         "Gestion des talents en cybersécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-B (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-C a skos:Concept ;
@@ -44,10 +48,12 @@ iia-tr:TR-CYBER-CTL-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Threat and vulnerability monitoring"@en,
         "Surveillance des menaces et vulnérabilités"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-C (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-D a skos:Concept ;
@@ -59,10 +65,12 @@ iia-tr:TR-CYBER-CTL-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "IT asset life cycle security"@en,
         "Sécurité du cycle de vie des actifs TI"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-D (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-E a skos:Concept ;
@@ -74,10 +82,12 @@ iia-tr:TR-CYBER-CTL-E a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Security hardening processes"@en,
         "Processus de renforcement de la sécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-E (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-F a skos:Concept ;
@@ -89,10 +99,12 @@ iia-tr:TR-CYBER-CTL-F a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Network controls"@en,
         "Contrôles réseau"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-F (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL-G a skos:Concept ;
@@ -104,10 +116,12 @@ iia-tr:TR-CYBER-CTL-G a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Endpoint communication security"@en,
         "Sécurité des communications des terminaux"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-G (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-GOV-A a skos:Concept ;
@@ -119,10 +133,12 @@ iia-tr:TR-CYBER-GOV-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cybersecurity strategy and objectives"@en,
         "Stratégie et objectifs de cybersécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-A (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-GOV-B a skos:Concept ;
@@ -134,10 +150,12 @@ iia-tr:TR-CYBER-GOV-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cybersecurity policies and procedures"@en,
         "Politiques et procédures de cybersécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-B (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-GOV-C a skos:Concept ;
@@ -149,10 +167,12 @@ iia-tr:TR-CYBER-GOV-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cybersecurity roles and competencies"@en,
         "Rôles et compétences en cybersécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-C (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-GOV-D a skos:Concept ;
@@ -164,10 +184,12 @@ iia-tr:TR-CYBER-GOV-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Stakeholder engagement on threats"@en,
         "Mobilisation des parties prenantes face aux menaces"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-D (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-A a skos:Concept ;
@@ -179,10 +201,12 @@ iia-tr:TR-CYBER-RM-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cyber threat risk assessment"@en,
         "Évaluation des risques liés aux cybermenaces"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-A (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-B a skos:Concept ;
@@ -194,10 +218,12 @@ iia-tr:TR-CYBER-RM-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Enterprise-wide cyber risk scope"@en,
         "Portée organisationnelle du cyberrisque"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-B (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-C a skos:Concept ;
@@ -209,10 +235,12 @@ iia-tr:TR-CYBER-RM-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Accountability for cyber risk"@en,
         "Responsabilité du cyberrisque"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-C (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-D a skos:Concept ;
@@ -224,10 +252,12 @@ iia-tr:TR-CYBER-RM-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Escalation of unacceptable cyber risk"@en,
         "Remontée des cyberrisques inacceptables"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-D (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-E a skos:Concept ;
@@ -239,10 +269,12 @@ iia-tr:TR-CYBER-RM-E a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Cyber risk awareness and issue review"@en,
         "Sensibilisation et revue des problèmes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-E (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM-F a skos:Concept ;
@@ -254,10 +286,12 @@ iia-tr:TR-CYBER-RM-F a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Incident response and recovery"@en,
         "Réponse aux incidents et reprise"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-F (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-A a skos:Concept ;
@@ -269,10 +303,12 @@ iia-tr:TR-ORGBEHAV-CTL-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Pattern detection and mitigation"@en,
         "Détection et atténuation des schémas"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-A (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-B a skos:Concept ;
@@ -284,10 +320,12 @@ iia-tr:TR-ORGBEHAV-CTL-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Tone and feedback"@en,
         "Ton et rétroaction"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-B (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-C a skos:Concept ;
@@ -299,10 +337,12 @@ iia-tr:TR-ORGBEHAV-CTL-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Speak-up processes"@en,
         "Processus de signalement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-C (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-D a skos:Concept ;
@@ -314,10 +354,12 @@ iia-tr:TR-ORGBEHAV-CTL-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Incentives and consequences"@en,
         "Incitatifs et conséquences"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-D (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-E a skos:Concept ;
@@ -329,10 +371,12 @@ iia-tr:TR-ORGBEHAV-CTL-E a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Behavioral issue management"@en,
         "Gestion des problèmes comportementaux"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-E (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-F a skos:Concept ;
@@ -344,10 +388,12 @@ iia-tr:TR-ORGBEHAV-CTL-F a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Training and awareness"@en,
         "Formation et sensibilisation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-F (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL-G a skos:Concept ;
@@ -359,10 +405,12 @@ iia-tr:TR-ORGBEHAV-CTL-G a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Hiring and onboarding"@en,
         "Recrutement et intégration"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-G (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-GOV-A a skos:Concept ;
@@ -374,10 +422,12 @@ iia-tr:TR-ORGBEHAV-GOV-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Role structuring"@en,
         "Structuration des rôles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-A (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-GOV-B a skos:Concept ;
@@ -389,10 +439,12 @@ iia-tr:TR-ORGBEHAV-GOV-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Behavioral accountability"@en,
         "Responsabilisation comportementale"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-B (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-GOV-C a skos:Concept ;
@@ -404,10 +456,12 @@ iia-tr:TR-ORGBEHAV-GOV-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Monitoring of behavioral alignment"@en,
         "Surveillance de l'alignement comportemental"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-C (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-GOV-D a skos:Concept ;
@@ -419,10 +473,12 @@ iia-tr:TR-ORGBEHAV-GOV-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Behavioral risk policies"@en,
         "Politiques sur le risque comportemental"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-D (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-RM-A a skos:Concept ;
@@ -434,10 +490,12 @@ iia-tr:TR-ORGBEHAV-RM-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Behavioral risk approach"@en,
         "Démarche de gestion du risque comportemental"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-A (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-RM-B a skos:Concept ;
@@ -449,10 +507,12 @@ iia-tr:TR-ORGBEHAV-RM-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Behavior monitoring"@en,
         "Surveillance des comportements"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-B (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-RM-C a skos:Concept ;
@@ -464,10 +524,12 @@ iia-tr:TR-ORGBEHAV-RM-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Gap and root-cause reporting"@en,
         "Signalement des écarts et des causes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-C (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-RM-D a skos:Concept ;
@@ -479,10 +541,12 @@ iia-tr:TR-ORGBEHAV-RM-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Gap resolution"@en,
         "Résolution des écarts"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-D (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-A a skos:Concept ;
@@ -494,10 +558,12 @@ iia-tr:TR-THIRD-PARTY-CTL-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Due diligence and business case"@en,
         "Diligence raisonnable et dossier d'affaires"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-A (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-B a skos:Concept ;
@@ -509,10 +575,12 @@ iia-tr:TR-THIRD-PARTY-CTL-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Contracting and approval"@en,
         "Contractualisation et approbation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-B (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-C a skos:Concept ;
@@ -524,10 +592,12 @@ iia-tr:TR-THIRD-PARTY-CTL-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Contract execution and custody"@en,
         "Signature et conservation des contrats"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-C (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-D a skos:Concept ;
@@ -539,10 +609,12 @@ iia-tr:TR-THIRD-PARTY-CTL-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party inventory"@en,
         "Inventaire des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-D (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-E a skos:Concept ;
@@ -554,10 +626,12 @@ iia-tr:TR-THIRD-PARTY-CTL-E a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party onboarding"@en,
         "Intégration des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-E (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-F a skos:Concept ;
@@ -569,10 +643,12 @@ iia-tr:TR-THIRD-PARTY-CTL-F a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Ongoing performance monitoring"@en,
         "Suivi continu de la performance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-F (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-G a skos:Concept ;
@@ -584,10 +660,12 @@ iia-tr:TR-THIRD-PARTY-CTL-G a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Corrective action protocols"@en,
         "Protocoles de mesures correctives"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-G (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-H a skos:Concept ;
@@ -599,10 +677,12 @@ iia-tr:TR-THIRD-PARTY-CTL-H a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Renewal and expiry monitoring"@en,
         "Suivi des échéances et renouvellements"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-H (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL-I a skos:Concept ;
@@ -614,10 +694,12 @@ iia-tr:TR-THIRD-PARTY-CTL-I a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party offboarding"@en,
         "Sortie des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-I (page 6)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-GOV-A a skos:Concept ;
@@ -629,10 +711,12 @@ iia-tr:TR-THIRD-PARTY-GOV-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Sourcing decision approach"@en,
         "Démarche de décision d'impartition"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-A (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-GOV-B a skos:Concept ;
@@ -644,10 +728,12 @@ iia-tr:TR-THIRD-PARTY-GOV-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party policies and procedures"@en,
         "Politiques et procédures relatives aux tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-B (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-GOV-C a skos:Concept ;
@@ -659,10 +745,12 @@ iia-tr:TR-THIRD-PARTY-GOV-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party roles and competencies"@en,
         "Rôles et compétences de gestion des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-C (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-GOV-D a skos:Concept ;
@@ -674,10 +762,12 @@ iia-tr:TR-THIRD-PARTY-GOV-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Stakeholder reporting protocols"@en,
         "Protocoles de reddition de comptes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-D (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-RM-A a skos:Concept ;
@@ -689,10 +779,12 @@ iia-tr:TR-THIRD-PARTY-RM-A a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Standardized third-party risk processes"@en,
         "Processus normalisés de gestion des risques liés aux tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-A (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-RM-B a skos:Concept ;
@@ -704,10 +796,12 @@ iia-tr:TR-THIRD-PARTY-RM-B a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Life-cycle risk assessment"@en,
         "Évaluation des risques sur le cycle de vie"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-B (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-RM-C a skos:Concept ;
@@ -719,10 +813,12 @@ iia-tr:TR-THIRD-PARTY-RM-C a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party risk responses"@en,
         "Réponses aux risques liés aux tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-C (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-RM-D a skos:Concept ;
@@ -734,10 +830,12 @@ iia-tr:TR-THIRD-PARTY-RM-D a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party issue escalation"@en,
         "Remontée des problèmes liés aux tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-D (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER a skos:Concept ;
@@ -749,10 +847,12 @@ iia-tr:TR-CYBER a skos:Concept ;
     skos:prefLabel "Cybersecurity Topical Requirement"@en,
         "Exigence thématique sur la cybersécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-CYBER (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-GOV a skos:Concept ;
@@ -764,10 +864,12 @@ iia-tr:TR-CYBER-GOV a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Governance"@en,
         "Gouvernance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV a skos:Concept ;
@@ -779,10 +881,12 @@ iia-tr:TR-ORGBEHAV a skos:Concept ;
     skos:prefLabel "Organizational Behavior Topical Requirement"@en,
         "Exigence thématique sur le comportement organisationnel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-ORGBEHAV (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-GOV a skos:Concept ;
@@ -794,10 +898,12 @@ iia-tr:TR-ORGBEHAV-GOV a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Governance"@en,
         "Gouvernance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-RM a skos:Concept ;
@@ -809,10 +915,12 @@ iia-tr:TR-ORGBEHAV-RM a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Management"@en,
         "Gestion des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY a skos:Concept ;
@@ -824,10 +932,12 @@ iia-tr:TR-THIRD-PARTY a skos:Concept ;
     skos:prefLabel "Third-Party Topical Requirement"@en,
         "Exigence thématique sur les tiers"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-THIRD-PARTY (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-GOV a skos:Concept ;
@@ -839,10 +949,12 @@ iia-tr:TR-THIRD-PARTY-GOV a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Governance"@en,
         "Gouvernance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-RM a skos:Concept ;
@@ -854,10 +966,12 @@ iia-tr:TR-THIRD-PARTY-RM a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Management"@en,
         "Gestion des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-RM a skos:Concept ;
@@ -869,10 +983,12 @@ iia-tr:TR-CYBER-RM a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Management"@en,
         "Gestion des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-CYBER-CTL a skos:Concept ;
@@ -884,10 +1000,12 @@ iia-tr:TR-CYBER-CTL a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Controls"@en,
         "Contrôles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL (page 4)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-ORGBEHAV-CTL a skos:Concept ;
@@ -899,10 +1017,12 @@ iia-tr:TR-ORGBEHAV-CTL a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Controls"@en,
         "Contrôles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iia-tr:TR-THIRD-PARTY-CTL a skos:Concept ;
@@ -914,10 +1034,12 @@ iia-tr:TR-THIRD-PARTY-CTL a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Controls"@en,
         "Contrôles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/iia-tr> a owl:Ontology,

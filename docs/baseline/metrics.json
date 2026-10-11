@@ -1,9 +1,9 @@
 {
- "commit": "502394b",
+ "commit": "9d18275",
  "branch": "v0.9",
  "modules": {
   "crgo-assurance.ttl": {
-   "triples": 1350,
+   "triples": 1647,
    "classes": 24,
    "object_properties": 23,
    "data_properties": 16,
@@ -15,7 +15,7 @@
    ]
   },
   "crgo-audit.ttl": {
-   "triples": 1394,
+   "triples": 1700,
    "classes": 24,
    "object_properties": 40,
    "data_properties": 14,
@@ -53,7 +53,7 @@
    ]
   },
   "crgo-evidence.ttl": {
-   "triples": 929,
+   "triples": 1087,
    "classes": 10,
    "object_properties": 11,
    "data_properties": 18,
@@ -67,7 +67,7 @@
    ]
   },
   "crgo-full.ttl": {
-   "triples": 39,
+   "triples": 40,
    "classes": 0,
    "object_properties": 0,
    "data_properties": 0,
@@ -77,6 +77,7 @@
    "imports": [
     "https://w3id.org/crgo/crgo",
     "https://w3id.org/crgo/data/library",
+    "https://w3id.org/crgo/data/workprogrammes",
     "https://w3id.org/crgo/vocab/a21",
     "https://w3id.org/crgo/vocab/attack",
     "https://w3id.org/crgo/vocab/capec",
@@ -121,7 +122,7 @@
    "imports": []
   },
   "crgo-governance.ttl": {
-   "triples": 1082,
+   "triples": 1322,
    "classes": 31,
    "object_properties": 33,
    "data_properties": 7,
@@ -133,7 +134,7 @@
    ]
   },
   "crgo-grc.ttl": {
-   "triples": 1525,
+   "triples": 1717,
    "classes": 20,
    "object_properties": 33,
    "data_properties": 13,
@@ -146,7 +147,7 @@
    ]
   },
   "crgo-incident.ttl": {
-   "triples": 470,
+   "triples": 569,
    "classes": 8,
    "object_properties": 11,
    "data_properties": 4,
@@ -158,7 +159,7 @@
    ]
   },
   "crgo-mapping.ttl": {
-   "triples": 258,
+   "triples": 287,
    "classes": 0,
    "object_properties": 21,
    "data_properties": 0,
@@ -406,10 +407,10 @@
   }
  },
  "mappings": {
-  "annotation_records": 11434,
-  "distinct_correspondences": 11342,
+  "annotation_records": 12448,
+  "distinct_correspondences": 12356,
   "by_predicate": {
-   "relatedMatch": 11419,
+   "relatedMatch": 12433,
    "closeMatch": 15
   }
  },
@@ -455,9 +456,9 @@
   "identification_checks": 17
  },
  "approvals": {
-  "rows": 413,
+  "rows": 438,
   "decisions": {
-   "Approve": 413
+   "Approve": 438
   }
  },
  "scripts": [

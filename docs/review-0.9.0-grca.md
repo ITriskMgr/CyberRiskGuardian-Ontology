@@ -1,5 +1,7 @@
 # CRGO 0.9.0 GRCA and remaining-gaps review: what needs the project owner's decision
 
+**Decision of the project owner (2026-10-11, 18:12): items 1–13 approved; the w3id.org commit was pushed to the fork branch of PR #6862.**
+
 Prepared 2026-10-11, after an independent review whose 4 high, 9 medium and 10 low findings were fixed (list at the end). Approving a group writes one row in `src/approvals.tsv`; nothing below is approved until then. The Sprint 1 groups approved earlier today are unaffected: their approvals are scoped to the terms that existed then.
 
 | # | Group (approval key) | Content | Recommendation |

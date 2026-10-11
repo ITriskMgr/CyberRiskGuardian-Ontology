@@ -14,10 +14,12 @@ coso-erm:ERM-P1 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Exercise board risk oversight"@en,
         "Exercer une surveillance des risques par le conseil"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P1 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P10 a skos:Concept ;
@@ -29,10 +31,12 @@ coso-erm:ERM-P10 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Identify risk"@en,
         "Identifier les risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P10 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P11 a skos:Concept ;
@@ -44,10 +48,12 @@ coso-erm:ERM-P11 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Assess severity of risk"@en,
         "Évaluer la criticité des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P11 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P12 a skos:Concept ;
@@ -59,10 +65,12 @@ coso-erm:ERM-P12 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Prioritize risks"@en,
         "Prioriser les risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P12 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P13 a skos:Concept ;
@@ -74,10 +82,12 @@ coso-erm:ERM-P13 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Implement risk responses"@en,
         "Mettre en œuvre les modalités de traitement des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P13 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P14 a skos:Concept ;
@@ -89,10 +99,12 @@ coso-erm:ERM-P14 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Develop portfolio view"@en,
         "Développer une vision globale du portefeuille de risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P14 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P15 a skos:Concept ;
@@ -104,10 +116,12 @@ coso-erm:ERM-P15 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Assess substantial change"@en,
         "Évaluer les changements substantiels"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P15 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P16 a skos:Concept ;
@@ -119,10 +133,12 @@ coso-erm:ERM-P16 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Review risk and performance"@en,
         "Réexaminer les risques et la performance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P16 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P17 a skos:Concept ;
@@ -134,10 +150,12 @@ coso-erm:ERM-P17 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Pursue improvement in enterprise risk management"@en,
         "Poursuivre l'amélioration du management des risques de l'entreprise"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P17 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P18 a skos:Concept ;
@@ -149,10 +167,12 @@ coso-erm:ERM-P18 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Leverage data and technology"@en,
         "Tirer parti des données et des technologies"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P18 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P19 a skos:Concept ;
@@ -164,10 +184,12 @@ coso-erm:ERM-P19 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Communicate risk information"@en,
         "Communiquer les informations relatives aux risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P19 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P2 a skos:Concept ;
@@ -179,10 +201,12 @@ coso-erm:ERM-P2 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Establish organizational structures"@en,
         "Définir les structures organisationnelles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P2 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P20 a skos:Concept ;
@@ -194,10 +218,12 @@ coso-erm:ERM-P20 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Report on risk, culture and performance"@en,
         "Rendre compte des risques, de la culture et de la performance"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P20 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P3 a skos:Concept ;
@@ -209,10 +235,12 @@ coso-erm:ERM-P3 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Define desired culture"@en,
         "Définir la culture souhaitée"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P3 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P4 a skos:Concept ;
@@ -224,10 +252,12 @@ coso-erm:ERM-P4 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Demonstrate commitment to core values"@en,
         "Démontrer l'engagement en faveur de valeurs fondamentales"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P4 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P5 a skos:Concept ;
@@ -239,10 +269,12 @@ coso-erm:ERM-P5 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Attract, develop and retain capable individuals"@en,
         "Attirer, former et fidéliser des personnes compétentes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P5 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P6 a skos:Concept ;
@@ -254,10 +286,12 @@ coso-erm:ERM-P6 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Analyze business context"@en,
         "Analyser le contexte de l'organisation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P6 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P7 a skos:Concept ;
@@ -269,10 +303,12 @@ coso-erm:ERM-P7 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Define risk appetite"@en,
         "Définir l'appétence pour le risque"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P7 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P8 a skos:Concept ;
@@ -284,10 +320,12 @@ coso-erm:ERM-P8 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Evaluate alternative strategies"@en,
         "Évaluer les stratégies alternatives"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P8 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-P9 a skos:Concept ;
@@ -299,10 +337,12 @@ coso-erm:ERM-P9 a skos:Concept ;
     skos:note "English label translated by CRGO; the official title is the French one."@en ;
     skos:prefLabel "Formulate business objectives"@en,
         "Définir les objectifs opérationnels"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P9 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-C4 a skos:Concept ;
@@ -314,10 +354,12 @@ coso-erm:ERM-C4 a skos:Concept ;
     skos:prefLabel "Review and Revision"@en,
         "Revue et amendement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C4 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-C5 a skos:Concept ;
@@ -329,10 +371,12 @@ coso-erm:ERM-C5 a skos:Concept ;
     skos:prefLabel "Information, Communication, and Reporting"@en,
         "Information, communication et reporting"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C5 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-C2 a skos:Concept ;
@@ -344,10 +388,12 @@ coso-erm:ERM-C2 a skos:Concept ;
     skos:prefLabel "Strategy and Objective-Setting"@en,
         "Stratégie et définition des objectifs"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C2 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-C1 a skos:Concept ;
@@ -359,10 +405,12 @@ coso-erm:ERM-C1 a skos:Concept ;
     skos:prefLabel "Governance and Culture"@en,
         "Gouvernance et culture"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C1 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 coso-erm:ERM-C3 a skos:Concept ;
@@ -374,10 +422,12 @@ coso-erm:ERM-C3 a skos:Concept ;
     skos:prefLabel "Performance"@en,
         "Performance"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C3 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/coso-erm> a owl:Ontology,

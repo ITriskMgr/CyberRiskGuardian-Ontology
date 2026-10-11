@@ -1,6 +1,6 @@
 # ADR-008 Identifiers and graph layers; tenant separation
 
-Status: proposed (0.9.0). Remaining-gaps specification sections 5 and 10.1; decision R-c (approved by the project owner, 2026-10-11: "apply R-c as described").
+Status: approved (0.9.0, project owner, 2026-10-11). Remaining-gaps specification sections 5 and 10.1; decision R-c (approved by the project owner, 2026-10-11: "apply R-c as described").
 
 ## Decision
 Four layers, each in its own files:

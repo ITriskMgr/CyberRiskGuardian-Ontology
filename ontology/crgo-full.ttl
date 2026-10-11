@@ -8,6 +8,7 @@
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
     owl:imports <https://w3id.org/crgo/crgo>,
         <https://w3id.org/crgo/data/library>,
+        <https://w3id.org/crgo/data/workprogrammes>,
         <https://w3id.org/crgo/vocab/attack>,
         <https://w3id.org/crgo/vocab/ccm41>,
         <https://w3id.org/crgo/vocab/cobit2019>,

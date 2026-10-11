@@ -14,10 +14,12 @@ tsc:TSC-A1.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Capacity management"@en,
         "Gestion de la capacité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.1 (page 50)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-A1.2 a skos:Concept ;
@@ -29,10 +31,12 @@ tsc:TSC-A1.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Environmental protection, backup and recovery infrastructure"@en,
         "Protection environnementale, sauvegarde et infrastructure de reprise"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.2 (page 50)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-A1.3 a skos:Concept ;
@@ -44,10 +48,12 @@ tsc:TSC-A1.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Recovery plan testing"@en,
         "Essais du plan de reprise"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.3 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-C1.1 a skos:Concept ;
@@ -59,10 +65,12 @@ tsc:TSC-C1.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Confidential information identification and protection"@en,
         "Identification et protection de l'information confidentielle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-C1.1 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-C1.2 a skos:Concept ;
@@ -74,10 +82,12 @@ tsc:TSC-C1.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Confidential information disposal"@en,
         "Élimination de l'information confidentielle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-C1.2 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1.1 a skos:Concept ;
@@ -89,10 +99,12 @@ tsc:TSC-CC1.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Integrity and ethics commitment"@en,
         "Engagement envers l'intégrité et l'éthique"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.1 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1.2 a skos:Concept ;
@@ -104,10 +116,12 @@ tsc:TSC-CC1.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Board independence and oversight"@en,
         "Indépendance et surveillance du conseil"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.2 (page 15)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1.3 a skos:Concept ;
@@ -119,10 +133,12 @@ tsc:TSC-CC1.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Structures, reporting lines and authority"@en,
         "Structures, lignes hiérarchiques et pouvoirs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.3 (page 16)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1.4 a skos:Concept ;
@@ -134,10 +150,12 @@ tsc:TSC-CC1.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Competent workforce"@en,
         "Personnel compétent"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.4 (page 17)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1.5 a skos:Concept ;
@@ -149,10 +167,12 @@ tsc:TSC-CC1.5 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Accountability for internal control"@en,
         "Responsabilisation en matière de contrôle interne"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.5 (page 18)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC2.1 a skos:Concept ;
@@ -164,10 +184,12 @@ tsc:TSC-CC2.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Quality information for internal control"@en,
         "Information de qualité pour le contrôle interne"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.1 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC2.2 a skos:Concept ;
@@ -179,10 +201,12 @@ tsc:TSC-CC2.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Internal communication"@en,
         "Communication interne"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.2 (page 21)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC2.3 a skos:Concept ;
@@ -194,10 +218,12 @@ tsc:TSC-CC2.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "External communication"@en,
         "Communication externe"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.3 (page 22)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC3.1 a skos:Concept ;
@@ -209,10 +235,12 @@ tsc:TSC-CC3.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Objective specification"@en,
         "Précision des objectifs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.1 (page 24)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC3.2 a skos:Concept ;
@@ -224,10 +252,12 @@ tsc:TSC-CC3.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Risk identification and analysis"@en,
         "Identification et analyse des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.2 (page 27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC3.3 a skos:Concept ;
@@ -239,10 +269,12 @@ tsc:TSC-CC3.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Fraud risk consideration"@en,
         "Prise en compte du risque de fraude"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.3 (page 28)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC3.4 a skos:Concept ;
@@ -254,10 +286,12 @@ tsc:TSC-CC3.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Assessment of significant change"@en,
         "Évaluation des changements importants"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.4 (page 29)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC4.1 a skos:Concept ;
@@ -269,10 +303,12 @@ tsc:TSC-CC4.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Ongoing and separate evaluations"@en,
         "Évaluations continues et ponctuelles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC4.1 (page 30)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC4.2 a skos:Concept ;
@@ -284,10 +320,12 @@ tsc:TSC-CC4.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Deficiency evaluation and communication"@en,
         "Évaluation et communication des déficiences"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC4.2 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC5.1 a skos:Concept ;
@@ -299,10 +337,12 @@ tsc:TSC-CC5.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Risk-mitigating control activities"@en,
         "Activités de contrôle d'atténuation des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.1 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC5.2 a skos:Concept ;
@@ -314,10 +354,12 @@ tsc:TSC-CC5.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Technology general controls"@en,
         "Contrôles généraux informatiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.2 (page 32)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC5.3 a skos:Concept ;
@@ -329,10 +371,12 @@ tsc:TSC-CC5.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Policies and procedures"@en,
         "Politiques et procédures"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.3 (page 33)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.1 a skos:Concept ;
@@ -344,10 +388,12 @@ tsc:TSC-CC6.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Logical access security architecture"@en,
         "Architecture de sécurité des accès logiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.1 (page 34)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.2 a skos:Concept ;
@@ -359,10 +405,12 @@ tsc:TSC-CC6.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "User registration and credential lifecycle"@en,
         "Inscription des utilisateurs et cycle de vie des identifiants"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.2 (page 36)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.3 a skos:Concept ;
@@ -374,10 +422,12 @@ tsc:TSC-CC6.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Role-based access authorization"@en,
         "Autorisation des accès selon les rôles"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.3 (page 36)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.4 a skos:Concept ;
@@ -389,10 +439,12 @@ tsc:TSC-CC6.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Physical access restriction"@en,
         "Restriction de l'accès physique"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.4 (page 37)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.5 a skos:Concept ;
@@ -404,10 +456,12 @@ tsc:TSC-CC6.5 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Secure asset decommissioning"@en,
         "Mise hors service sécurisée des actifs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.5 (page 37)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.6 a skos:Concept ;
@@ -419,10 +473,12 @@ tsc:TSC-CC6.6 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Boundary protection"@en,
         "Protection du périmètre"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.6 (page 38)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.7 a skos:Concept ;
@@ -434,10 +490,12 @@ tsc:TSC-CC6.7 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Information transmission controls"@en,
         "Contrôles de transmission de l'information"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.7 (page 38)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6.8 a skos:Concept ;
@@ -449,10 +507,12 @@ tsc:TSC-CC6.8 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Malicious software prevention"@en,
         "Prévention des logiciels malveillants"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.8 (page 39)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7.1 a skos:Concept ;
@@ -464,10 +524,12 @@ tsc:TSC-CC7.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Vulnerability and configuration monitoring"@en,
         "Surveillance des vulnérabilités et des configurations"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.1 (page 40)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7.2 a skos:Concept ;
@@ -479,10 +541,12 @@ tsc:TSC-CC7.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Anomaly monitoring"@en,
         "Surveillance des anomalies"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.2 (page 40)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7.3 a skos:Concept ;
@@ -494,10 +558,12 @@ tsc:TSC-CC7.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Security event evaluation"@en,
         "Évaluation des événements de sécurité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.3 (page 41)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7.4 a skos:Concept ;
@@ -509,10 +575,12 @@ tsc:TSC-CC7.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Incident response"@en,
         "Réponse aux incidents"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.4 (page 42)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7.5 a skos:Concept ;
@@ -524,10 +592,12 @@ tsc:TSC-CC7.5 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Incident recovery"@en,
         "Rétablissement après incident"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.5 (page 44)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC8.1 a skos:Concept ;
@@ -539,10 +609,12 @@ tsc:TSC-CC8.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Change management"@en,
         "Gestion des changements"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC8.1 (page 45)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC9.1 a skos:Concept ;
@@ -554,10 +626,12 @@ tsc:TSC-CC9.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Business disruption risk mitigation"@en,
         "Atténuation des risques d'interruption des activités"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC9.1 (page 47)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC9.2 a skos:Concept ;
@@ -569,10 +643,12 @@ tsc:TSC-CC9.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Vendor and partner risk management"@en,
         "Gestion des risques liés aux fournisseurs et partenaires"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC9.2 (page 48)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P1.1 a skos:Concept ;
@@ -584,10 +660,12 @@ tsc:TSC-P1.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Privacy notice"@en,
         "Avis de confidentialité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P1.1 (page 57)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P2.1 a skos:Concept ;
@@ -599,10 +677,12 @@ tsc:TSC-P2.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Choice and consent"@en,
         "Choix et consentement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P2.1 (page 58)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P3.1 a skos:Concept ;
@@ -614,10 +694,12 @@ tsc:TSC-P3.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Collection limitation"@en,
         "Limitation de la collecte"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P3.1 (page 59)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P3.2 a skos:Concept ;
@@ -629,10 +711,12 @@ tsc:TSC-P3.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Explicit consent for collection"@en,
         "Consentement explicite à la collecte"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P3.2 (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P4.1 a skos:Concept ;
@@ -644,10 +728,12 @@ tsc:TSC-P4.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Use limitation"@en,
         "Limitation de l'utilisation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.1 (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P4.2 a skos:Concept ;
@@ -659,10 +745,12 @@ tsc:TSC-P4.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Retention"@en,
         "Conservation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.2 (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P4.3 a skos:Concept ;
@@ -674,10 +762,12 @@ tsc:TSC-P4.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Secure disposal"@en,
         "Élimination sécuritaire"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.3 (page 61)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P5.1 a skos:Concept ;
@@ -689,10 +779,12 @@ tsc:TSC-P5.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Data subject access"@en,
         "Accès des personnes concernées"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P5.1 (page 61)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P5.2 a skos:Concept ;
@@ -704,10 +796,12 @@ tsc:TSC-P5.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Correction of personal information"@en,
         "Rectification des renseignements personnels"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P5.2 (page 62)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.1 a skos:Concept ;
@@ -719,10 +813,12 @@ tsc:TSC-P6.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party disclosure with consent"@en,
         "Communication à des tiers avec consentement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.1 (page 63)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.2 a skos:Concept ;
@@ -734,10 +830,12 @@ tsc:TSC-P6.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Record of authorized disclosures"@en,
         "Registre des communications autorisées"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.2 (page 63)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.3 a skos:Concept ;
@@ -749,10 +847,12 @@ tsc:TSC-P6.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Record of unauthorized disclosures"@en,
         "Registre des communications non autorisées"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.3 (page 64)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.4 a skos:Concept ;
@@ -764,10 +864,12 @@ tsc:TSC-P6.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party privacy commitments"@en,
         "Engagements de confidentialité des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.4 (page 64)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.5 a skos:Concept ;
@@ -779,10 +881,12 @@ tsc:TSC-P6.5 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Third-party breach notification commitments"@en,
         "Engagements de notification des tiers"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.5 (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.6 a skos:Concept ;
@@ -794,10 +898,12 @@ tsc:TSC-P6.6 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Breach notification"@en,
         "Notification des atteintes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.6 (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6.7 a skos:Concept ;
@@ -809,10 +915,12 @@ tsc:TSC-P6.7 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Accounting of disclosures"@en,
         "Relevé des communications"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.7 (page 65)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P7.1 a skos:Concept ;
@@ -824,10 +932,12 @@ tsc:TSC-P7.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Data quality"@en,
         "Qualité des données"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P7.1 (page 66)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P8.1 a skos:Concept ;
@@ -839,10 +949,12 @@ tsc:TSC-P8.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Complaints handling and compliance monitoring"@en,
         "Traitement des plaintes et surveillance de la conformité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P8.1 (page 66)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1.1 a skos:Concept ;
@@ -854,10 +966,12 @@ tsc:TSC-PI1.1 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Processing specifications and information"@en,
         "Spécifications et information de traitement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.1 (page 53)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1.2 a skos:Concept ;
@@ -869,10 +983,12 @@ tsc:TSC-PI1.2 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Input controls"@en,
         "Contrôles des entrées"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.2 (page 54)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1.3 a skos:Concept ;
@@ -884,10 +1000,12 @@ tsc:TSC-PI1.3 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Processing controls"@en,
         "Contrôles du traitement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.3 (page 54)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1.4 a skos:Concept ;
@@ -899,10 +1017,12 @@ tsc:TSC-PI1.4 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Output controls"@en,
         "Contrôles des sorties"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.4 (page 55)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1.5 a skos:Concept ;
@@ -914,10 +1034,12 @@ tsc:TSC-PI1.5 a skos:Concept ;
     skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
     skos:prefLabel "Storage of inputs, in-process items and outputs"@en,
         "Stockage des entrées, des éléments en cours et des sorties"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.5 (page 56)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC8 a skos:Concept ;
@@ -929,10 +1051,12 @@ tsc:TSC-CC8 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Change Management"@en,
         "Gestion des changements"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC8 (page 45)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P1 a skos:Concept ;
@@ -944,10 +1068,12 @@ tsc:TSC-P1 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Notice and Communication of Objectives Related to Privacy"@en,
         "Avis et communication des objectifs de confidentialité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P1 (page 57)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P2 a skos:Concept ;
@@ -959,10 +1085,12 @@ tsc:TSC-P2 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Choice and Consent"@en,
         "Choix et consentement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P2 (page 58)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P7 a skos:Concept ;
@@ -974,10 +1102,12 @@ tsc:TSC-P7 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Quality"@en,
         "Qualité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P7 (page 66)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P8 a skos:Concept ;
@@ -989,10 +1119,12 @@ tsc:TSC-P8 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Monitoring and Enforcement"@en,
         "Surveillance et application"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P8 (page 66)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-AVL a skos:Concept ;
@@ -1004,10 +1136,12 @@ tsc:TSC-AVL a skos:Concept ;
     skos:prefLabel "Availability"@en,
         "Disponibilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-AVL (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-C1 a skos:Concept ;
@@ -1019,10 +1153,12 @@ tsc:TSC-C1 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Additional Criteria for Confidentiality"@en,
         "Critères additionnels pour la confidentialité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-C1 (page 52)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC4 a skos:Concept ;
@@ -1034,10 +1170,12 @@ tsc:TSC-CC4 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Monitoring Activities"@en,
         "Activités de pilotage"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC4 (page 30)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC9 a skos:Concept ;
@@ -1049,10 +1187,12 @@ tsc:TSC-CC9 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Mitigation"@en,
         "Atténuation des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC9 (page 47)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CONF a skos:Concept ;
@@ -1064,10 +1204,12 @@ tsc:TSC-CONF a skos:Concept ;
     skos:prefLabel "Confidentiality"@en,
         "Confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-CONF (page 8)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P3 a skos:Concept ;
@@ -1079,10 +1221,12 @@ tsc:TSC-P3 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Collection"@en,
         "Collecte"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P3 (page 59)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P5 a skos:Concept ;
@@ -1094,10 +1238,12 @@ tsc:TSC-P5 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Access"@en,
         "Accès"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P5 (page 61)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI a skos:Concept ;
@@ -1109,10 +1255,12 @@ tsc:TSC-PI a skos:Concept ;
     skos:prefLabel "Processing Integrity"@en,
         "Intégrité du traitement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-PI (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-A1 a skos:Concept ;
@@ -1124,10 +1272,12 @@ tsc:TSC-A1 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Additional Criteria for Availability"@en,
         "Critères additionnels pour la disponibilité"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-A1 (page 50)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC2 a skos:Concept ;
@@ -1139,10 +1289,12 @@ tsc:TSC-CC2 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Information and Communication"@en,
         "Information et communication"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC2 (page 19)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC5 a skos:Concept ;
@@ -1154,10 +1306,12 @@ tsc:TSC-CC5 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Control Activities"@en,
         "Activités de contrôle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC5 (page 31)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P4 a skos:Concept ;
@@ -1169,10 +1323,12 @@ tsc:TSC-P4 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Use, Retention, and Disposal"@en,
         "Utilisation, conservation et élimination"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P4 (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC3 a skos:Concept ;
@@ -1184,10 +1340,12 @@ tsc:TSC-CC3 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Risk Assessment"@en,
         "Évaluation des risques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC3 (page 24)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC1 a skos:Concept ;
@@ -1199,10 +1357,12 @@ tsc:TSC-CC1 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Control Environment"@en,
         "Environnement de contrôle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC1 (page 14)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC7 a skos:Concept ;
@@ -1214,10 +1374,12 @@ tsc:TSC-CC7 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "System Operations"@en,
         "Exploitation des systèmes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC7 (page 40)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PI1 a skos:Concept ;
@@ -1229,10 +1391,12 @@ tsc:TSC-PI1 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Additional Criteria for Processing Integrity (Over the Provision of Services or the Production, Manufacturing, or Distribution of Goods)"@en,
         "Critères additionnels pour l'intégrité du traitement"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-PI1 (page 53)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-P6 a skos:Concept ;
@@ -1244,10 +1408,12 @@ tsc:TSC-P6 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Privacy Criteria Related to Disclosure and Notification"@en,
         "Communication et notification"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P6 (page 63)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-CC6 a skos:Concept ;
@@ -1259,10 +1425,12 @@ tsc:TSC-CC6 a skos:Concept ;
     skos:note "French label translated by CRGO."@en ;
     skos:prefLabel "Logical and Physical Access Controls"@en,
         "Contrôles des accès logiques et physiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC6 (page 34)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-PRIV a skos:Concept ;
@@ -1274,10 +1442,12 @@ tsc:TSC-PRIV a skos:Concept ;
     skos:prefLabel "Privacy"@en,
         "Protection des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-PRIV (page 8)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 tsc:TSC-SEC a skos:Concept ;
@@ -1289,10 +1459,12 @@ tsc:TSC-SEC a skos:Concept ;
     skos:prefLabel "Security (Common Criteria)"@en,
         "Sécurité (critères communs)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-SEC (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/tsc> a owl:Ontology,

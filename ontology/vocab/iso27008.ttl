@@ -14,10 +14,12 @@ iso27008:6.1 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Assessment process"@en,
         "Processus d'évaluation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6.1 (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:6.2 a skos:Concept ;
@@ -29,10 +31,12 @@ iso27008:6.2 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Resourcing and competence"@en,
         "Ressources et compétence"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6.2 (page 5)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7.1 a skos:Concept ;
@@ -44,10 +48,12 @@ iso27008:7.1 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Overview"@en,
         "Vue d'ensemble"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.1 (page 6)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7.2 a skos:Concept ;
@@ -59,10 +65,12 @@ iso27008:7.2 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Process analysis"@en,
         "Analyse des processus"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.2 (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7.3 a skos:Concept ;
@@ -74,10 +82,12 @@ iso27008:7.3 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Examination techniques"@en,
         "Techniques d'inspection"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.3 (page 7)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7.4 a skos:Concept ;
@@ -89,10 +99,12 @@ iso27008:7.4 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Testing an validation techniques"@en,
         "Techniques d'essai et de validation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.4 (page 8)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7.5 a skos:Concept ;
@@ -104,10 +116,12 @@ iso27008:7.5 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Sampling techniques"@en,
         "Techniques d'échantillonnage"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.5 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:8.1 a skos:Concept ;
@@ -119,10 +133,12 @@ iso27008:8.1 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Preparations"@en,
         "Préparatifs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.1 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:8.2 a skos:Concept ;
@@ -134,10 +150,12 @@ iso27008:8.2 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Planning the assessment"@en,
         "Planification de l'évaluation"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.2 (page 12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:8.3 a skos:Concept ;
@@ -149,10 +167,12 @@ iso27008:8.3 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Conduction reviews"@en,
         "Conduite des examens"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.3 (page 17)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:8.4 a skos:Concept ;
@@ -164,10 +184,12 @@ iso27008:8.4 a skos:Concept ;
     skos:note "English heading official; French heading translated by CRGO."@en ;
     skos:prefLabel "Analysis and reporting results"@en,
         "Analyse et communication des résultats"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.4 (page 18)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:1 a skos:Concept ;
@@ -179,10 +201,12 @@ iso27008:1 a skos:Concept ;
     skos:prefLabel "Scope"@en,
         "Domaine d'application"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 1 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:2 a skos:Concept ;
@@ -194,10 +218,12 @@ iso27008:2 a skos:Concept ;
     skos:prefLabel "Normative references"@en,
         "Références normatives"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 2 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:3 a skos:Concept ;
@@ -209,10 +235,12 @@ iso27008:3 a skos:Concept ;
     skos:prefLabel "Terms and definitions"@en,
         "Termes et définitions"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 3 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:4 a skos:Concept ;
@@ -224,10 +252,12 @@ iso27008:4 a skos:Concept ;
     skos:prefLabel "Structure of this document"@en,
         "Structure du présent document"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 4 (page 1)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:5 a skos:Concept ;
@@ -239,10 +269,12 @@ iso27008:5 a skos:Concept ;
     skos:prefLabel "Background"@en,
         "Contexte"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 5 (page 2)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:A a skos:Concept ;
@@ -254,10 +286,12 @@ iso27008:A a skos:Concept ;
     skos:prefLabel "Annex A (Informative) Initial information gathering (other than IT)"@en,
         "Annexe A (informative) Collecte initiale d'informations (hors TI)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex A (page 20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:B a skos:Concept ;
@@ -269,10 +303,12 @@ iso27008:B a skos:Concept ;
     skos:prefLabel "Annex B (informative) Practice guide for technical security assessments"@en,
         "Annexe B (informative) Guide pratique des évaluations techniques de sécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex B (page 24)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:C a skos:Concept ;
@@ -284,10 +320,12 @@ iso27008:C a skos:Concept ;
     skos:prefLabel "Annex C (informative) Technical assessment guide for cloud services (Infrastructure as a service)"@en,
         "Annexe C (informative) Guide d'évaluation technique des services en nuage (infrastructure en tant que service)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex C (page 60)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:6 a skos:Concept ;
@@ -299,10 +337,12 @@ iso27008:6 a skos:Concept ;
     skos:prefLabel "Overview of information security control assessments"@en,
         "Vue d'ensemble des évaluations des mesures de sécurité de l'information"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6 (page 3)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:8 a skos:Concept ;
@@ -314,10 +354,12 @@ iso27008:8 a skos:Concept ;
     skos:prefLabel "Control assessment process"@en,
         "Processus d'évaluation des mesures"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8 (page 10)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 iso27008:7 a skos:Concept ;
@@ -329,10 +371,12 @@ iso27008:7 a skos:Concept ;
     skos:prefLabel "Review methods"@en,
         "Méthodes d'examen"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7 (page 6)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/iso27008> a owl:Ontology,

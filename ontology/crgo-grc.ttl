@@ -32,7 +32,8 @@ crgo:CRGO_0000378 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- regulation
 crgo:CRGO_0000379 a owl:NamedIndividual,
@@ -49,7 +50,8 @@ crgo:CRGO_0000379 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- regulatory guideline
 crgo:CRGO_0000380 a owl:NamedIndividual,
@@ -66,7 +68,8 @@ crgo:CRGO_0000380 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicable
 crgo:CRGO_0000383 a owl:NamedIndividual,
@@ -83,7 +86,8 @@ crgo:CRGO_0000383 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- not applicable
 crgo:CRGO_0000384 a owl:NamedIndividual,
@@ -100,7 +104,8 @@ crgo:CRGO_0000384 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- potentially applicable
 crgo:CRGO_0000385 a owl:NamedIndividual,
@@ -117,7 +122,8 @@ crgo:CRGO_0000385 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- unknown
 crgo:CRGO_0000386 a owl:NamedIndividual,
@@ -134,7 +140,8 @@ crgo:CRGO_0000386 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- satisfied
 crgo:CRGO_0000389 a owl:NamedIndividual,
@@ -151,7 +158,8 @@ crgo:CRGO_0000389 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- partially satisfied
 crgo:CRGO_0000390 a owl:NamedIndividual,
@@ -168,7 +176,8 @@ crgo:CRGO_0000390 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- unsatisfied
 crgo:CRGO_0000391 a owl:NamedIndividual,
@@ -185,7 +194,8 @@ crgo:CRGO_0000391 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- not assessed
 crgo:CRGO_0000392 a owl:NamedIndividual,
@@ -202,7 +212,8 @@ crgo:CRGO_0000392 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- undetermined
 crgo:CRGO_0000393 a owl:NamedIndividual,
@@ -219,7 +230,8 @@ crgo:CRGO_0000393 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- territorial
 crgo:CRGO_0000396 a owl:NamedIndividual,
@@ -236,7 +248,8 @@ crgo:CRGO_0000396 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- organisation-type condition
 crgo:CRGO_0000397 a owl:NamedIndividual,
@@ -253,7 +266,8 @@ crgo:CRGO_0000397 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- processing
 crgo:CRGO_0000398 a owl:NamedIndividual,
@@ -270,7 +284,8 @@ crgo:CRGO_0000398 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- data category
 crgo:CRGO_0000399 a owl:NamedIndividual,
@@ -287,7 +302,8 @@ crgo:CRGO_0000399 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- exception
 crgo:CRGO_0000400 a owl:NamedIndividual,
@@ -304,7 +320,8 @@ crgo:CRGO_0000400 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- effective
 crgo:CRGO_0000403 a owl:NamedIndividual,
@@ -321,7 +338,8 @@ crgo:CRGO_0000403 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- partly effective
 crgo:CRGO_0000404 a owl:NamedIndividual,
@@ -338,7 +356,8 @@ crgo:CRGO_0000404 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- ineffective
 crgo:CRGO_0000405 a owl:NamedIndividual,
@@ -355,7 +374,8 @@ crgo:CRGO_0000405 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- not tested
 crgo:CRGO_0000406 a owl:NamedIndividual,
@@ -372,7 +392,8 @@ crgo:CRGO_0000406 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has jurisdiction
 crgo:CRGO_0000420 a owl:ObjectProperty ;
@@ -387,7 +408,8 @@ crgo:CRGO_0000420 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has instrument kind
 crgo:CRGO_0000421 a owl:ObjectProperty ;
@@ -404,7 +426,8 @@ crgo:CRGO_0000421 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- provision of
 crgo:CRGO_0000422 a owl:ObjectProperty ;
@@ -419,7 +442,8 @@ crgo:CRGO_0000422 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has in-force period
 crgo:CRGO_0000423 a owl:ObjectProperty ;
@@ -438,7 +462,8 @@ crgo:CRGO_0000423 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition of
 crgo:CRGO_0000424 a owl:ObjectProperty ;
@@ -453,7 +478,8 @@ crgo:CRGO_0000424 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has condition kind
 crgo:CRGO_0000425 a owl:ObjectProperty ;
@@ -470,7 +496,8 @@ crgo:CRGO_0000425 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicability of
 crgo:CRGO_0000426 a owl:ObjectProperty ;
@@ -486,7 +513,8 @@ crgo:CRGO_0000426 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- concerns organisation
 crgo:CRGO_0000427 a owl:ObjectProperty ;
@@ -501,7 +529,8 @@ crgo:CRGO_0000427 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has applicability state
 crgo:CRGO_0000428 a owl:ObjectProperty ;
@@ -518,7 +547,8 @@ crgo:CRGO_0000428 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition met
 crgo:CRGO_0000429 a owl:ObjectProperty ;
@@ -534,7 +564,8 @@ crgo:CRGO_0000429 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition not met
 crgo:CRGO_0000430 a owl:ObjectProperty ;
@@ -550,7 +581,8 @@ crgo:CRGO_0000430 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition undetermined
 crgo:CRGO_0000431 a owl:ObjectProperty ;
@@ -566,7 +598,8 @@ crgo:CRGO_0000431 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- compliance with
 crgo:CRGO_0000432 a owl:ObjectProperty ;
@@ -582,7 +615,8 @@ crgo:CRGO_0000432 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has compliance state
 crgo:CRGO_0000433 a owl:ObjectProperty ;
@@ -599,7 +633,8 @@ crgo:CRGO_0000433 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- based on control assessment
 crgo:CRGO_0000434 a owl:ObjectProperty ;
@@ -615,7 +650,8 @@ crgo:CRGO_0000434 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessed by
 crgo:CRGO_0000435 a owl:ObjectProperty ;
@@ -630,7 +666,8 @@ crgo:CRGO_0000435 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- evaluates control measure
 crgo:CRGO_0000436 a owl:ObjectProperty ;
@@ -647,7 +684,8 @@ crgo:CRGO_0000436 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has test result
 crgo:CRGO_0000437 a owl:ObjectProperty ;
@@ -664,7 +702,8 @@ crgo:CRGO_0000437 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessed on
 crgo:CRGO_0000464 a owl:DatatypeProperty,
@@ -680,7 +719,8 @@ crgo:CRGO_0000464 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- official citation
 crgo:CRGO_0000465 a owl:DatatypeProperty,
@@ -697,7 +737,8 @@ crgo:CRGO_0000465 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applies from
 crgo:CRGO_0000466 a owl:DatatypeProperty ;
@@ -713,7 +754,8 @@ crgo:CRGO_0000466 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- last amended on
 crgo:CRGO_0000467 a owl:DatatypeProperty ;
@@ -729,7 +771,8 @@ crgo:CRGO_0000467 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- consolidated to
 crgo:CRGO_0000468 a owl:DatatypeProperty ;
@@ -745,7 +788,8 @@ crgo:CRGO_0000468 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition test
 crgo:CRGO_0000469 a owl:DatatypeProperty,
@@ -762,7 +806,8 @@ crgo:CRGO_0000469 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- evidence gap
 crgo:CRGO_0000470 a owl:DatatypeProperty ;
@@ -778,7 +823,8 @@ crgo:CRGO_0000470 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- test procedure
 crgo:CRGO_0000471 a owl:DatatypeProperty ;
@@ -794,7 +840,8 @@ crgo:CRGO_0000471 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessment scope
 crgo:CRGO_0000472 a owl:DatatypeProperty ;
@@ -809,7 +856,8 @@ crgo:CRGO_0000472 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- examine
 crgo:CRGO_0000599 a owl:NamedIndividual,
@@ -820,12 +868,15 @@ crgo:CRGO_0000599 a owl:NamedIndividual,
         "Passer en revue, inspecter, observer ou analyser des documents, des registres, des configurations ou des activités."@fr ;
     skos:inScheme crgo:CRGO_0000598 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- interview
 crgo:CRGO_0000600 a owl:NamedIndividual,
@@ -836,12 +887,15 @@ crgo:CRGO_0000600 a owl:NamedIndividual,
         "S'entretenir avec des personnes pour obtenir ou confirmer des informations."@fr ;
     skos:inScheme crgo:CRGO_0000598 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- test
 crgo:CRGO_0000601 a owl:NamedIndividual,
@@ -852,12 +906,15 @@ crgo:CRGO_0000601 a owl:NamedIndividual,
         "Actionner une mesure ou un système dans des conditions données et comparer le comportement réel au comportement attendu."@fr ;
     skos:inScheme crgo:CRGO_0000598 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- management self-assessment
 crgo:CRGO_0000604 a owl:NamedIndividual,
@@ -868,11 +925,14 @@ crgo:CRGO_0000604 a owl:NamedIndividual,
         "Réalisée par la première ligne qui exploite la mesure, comme une autoévaluation des risques et des contrôles (ARC)."@fr ;
     skos:inScheme crgo:CRGO_0000603 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- second line
 crgo:CRGO_0000605 a owl:NamedIndividual,
@@ -883,11 +943,14 @@ crgo:CRGO_0000605 a owl:NamedIndividual,
         "Réalisée par une fonction de gestion des risques, de conformité ou de surveillance de la sécurité."@fr ;
     skos:inScheme crgo:CRGO_0000603 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- internal audit
 crgo:CRGO_0000606 a owl:NamedIndividual,
@@ -898,11 +961,14 @@ crgo:CRGO_0000606 a owl:NamedIndividual,
         "Réalisée par la fonction d'audit interne."@fr ;
     skos:inScheme crgo:CRGO_0000603 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- external assurer
 crgo:CRGO_0000607 a owl:NamedIndividual,
@@ -913,11 +979,14 @@ crgo:CRGO_0000607 a owl:NamedIndividual,
         "Réalisée par une partie indépendante extérieure à l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000603 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- new instrument or provision
 crgo:CRGO_0000610 a owl:NamedIndividual,
@@ -928,11 +997,14 @@ crgo:CRGO_0000610 a owl:NamedIndividual,
         "Un nouvel instrument ou une nouvelle disposition est adopté."@fr ;
     skos:inScheme crgo:CRGO_0000609 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- amended
 crgo:CRGO_0000611 a owl:NamedIndividual,
@@ -943,11 +1015,14 @@ crgo:CRGO_0000611 a owl:NamedIndividual,
         "Le texte d'un instrument ou d'une disposition change."@fr ;
     skos:inScheme crgo:CRGO_0000609 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- repealed
 crgo:CRGO_0000612 a owl:NamedIndividual,
@@ -958,11 +1033,14 @@ crgo:CRGO_0000612 a owl:NamedIndividual,
         "Un instrument ou une disposition cesse d'avoir effet."@fr ;
     skos:inScheme crgo:CRGO_0000609 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- guidance or interpretation
 crgo:CRGO_0000613 a owl:NamedIndividual,
@@ -973,11 +1051,14 @@ crgo:CRGO_0000613 a owl:NamedIndividual,
         "Une autorité ou un tribunal publie une orientation ou une décision qui change la lecture d'une disposition."@fr ;
     skos:inScheme crgo:CRGO_0000609 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- uses assessment method
 crgo:CRGO_0000736 a owl:ObjectProperty ;
@@ -986,12 +1067,15 @@ crgo:CRGO_0000736 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000597 ;
     skos:definition "Relates a control assessment, audit procedure or evidence item to the assessment method used."@en,
         "Relie une évaluation de mesure, une procédure d'audit ou un élément de preuve à la méthode d'évaluation utilisée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- performed in capacity
 crgo:CRGO_0000737 a owl:ObjectProperty ;
@@ -1001,12 +1085,15 @@ crgo:CRGO_0000737 a owl:ObjectProperty ;
     skos:definition "Gives the capacity in which a control assessment or follow-up verification was performed: management self-assessment, second line, internal audit or external assurer."@en,
         "Indique la qualité en laquelle une évaluation de mesure ou une vérification de suivi a été réalisée : autoévaluation de la direction, deuxième ligne, audit interne ou assureur externe."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision G3: the 0.9.0 control assessment is the test execution; who performed it is stated here."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- version of
 crgo:CRGO_0000738 a owl:ObjectProperty ;
@@ -1016,11 +1103,14 @@ crgo:CRGO_0000738 a owl:ObjectProperty ;
     skos:definition "Relates an instrument version to the legal instrument or standard it is a version of."@en,
         "Relie une version d'instrument à l'instrument juridique ou à la norme dont elle est une version."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- supersedes
 crgo:CRGO_0000739 a owl:ObjectProperty ;
@@ -1029,12 +1119,15 @@ crgo:CRGO_0000739 a owl:ObjectProperty ;
     rdfs:subPropertyOf prov:wasDerivedFrom ;
     skos:definition "Relates an instrument version, policy or other directive to the earlier one it replaces."@en,
         "Relie une version d'instrument, une politique ou une autre directive à la précédente qu'elle remplace."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 6 (supersession). Not transitive by axiom, to keep each step explicit."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- amends instrument
 crgo:CRGO_0000740 a owl:ObjectProperty ;
@@ -1043,11 +1136,14 @@ crgo:CRGO_0000740 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000508 ;
     skos:definition "Relates an amendment to the instrument whose text it changes."@en,
         "Relie une modification à l'instrument dont elle change le texte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- amends provision
 crgo:CRGO_0000741 a owl:ObjectProperty ;
@@ -1055,11 +1151,14 @@ crgo:CRGO_0000741 a owl:ObjectProperty ;
         "modifie la disposition"@fr ;
     skos:definition "Relates an amendment or regulatory change to a provision whose text or reading it changes."@en,
         "Relie une modification ou un changement réglementaire à une disposition dont il change le texte ou la lecture."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- produces version
 crgo:CRGO_0000742 a owl:ObjectProperty ;
@@ -1069,11 +1168,14 @@ crgo:CRGO_0000742 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000507 ;
     skos:definition "Relates an amendment to the instrument version it produces."@en,
         "Relie une modification à la version d'instrument qu'elle produit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- change of
 crgo:CRGO_0000743 a owl:ObjectProperty ;
@@ -1082,11 +1184,14 @@ crgo:CRGO_0000743 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000509 ;
     skos:definition "Relates a regulatory change to the instrument or provision that changed."@en,
         "Relie un changement réglementaire à l'instrument ou à la disposition qui a changé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- has change type
 crgo:CRGO_0000744 a owl:ObjectProperty ;
@@ -1097,11 +1202,14 @@ crgo:CRGO_0000744 a owl:ObjectProperty ;
     skos:definition "Gives the kind of a regulatory change."@en,
         "Indique le type d'un changement réglementaire."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- triggered by
 crgo:CRGO_0000745 a owl:ObjectProperty ;
@@ -1110,11 +1218,14 @@ crgo:CRGO_0000745 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000510 ;
     skos:definition "Relates a reassessment trigger to the event or record that gives rise to it, such as a regulatory change or an incident."@en,
         "Relie un déclencheur de réévaluation à l'événement ou à l'enregistrement qui le suscite, comme un changement réglementaire ou un incident."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- requires review of
 crgo:CRGO_0000746 a owl:ObjectProperty ;
@@ -1123,11 +1234,14 @@ crgo:CRGO_0000746 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000510 ;
     skos:definition "Relates a reassessment trigger to an assessment, determination or estimate that must be reviewed."@en,
         "Relie un déclencheur de réévaluation à une évaluation, un constat ou une estimation qui doit être révisé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- nonconformity with
 crgo:CRGO_0000747 a owl:ObjectProperty ;
@@ -1136,11 +1250,14 @@ crgo:CRGO_0000747 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000511 ;
     skos:definition "Relates a nonconformity to the requirement not fulfilled."@en,
         "Relie une non-conformité à l'exigence non satisfaite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- raised from
 crgo:CRGO_0000748 a owl:ObjectProperty ;
@@ -1148,11 +1265,14 @@ crgo:CRGO_0000748 a owl:ObjectProperty ;
         "relevée à partir de"@fr ;
     skos:definition "Relates a nonconformity or deficiency to the audit finding, assessment or report it was raised from."@en,
         "Relie une non-conformité ou une déficience à la constatation d'audit, à l'évaluation ou au rapport dont elle découle."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- evidence requirement for
 crgo:CRGO_0000749 a owl:ObjectProperty ;
@@ -1161,11 +1281,14 @@ crgo:CRGO_0000749 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000512 ;
     skos:definition "Relates an evidence requirement to the requirement or obligation whose fulfilment it serves to show."@en,
         "Relie une exigence de preuve à l'exigence ou à l'obligation dont elle sert à démontrer le respect."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- obligated under
 crgo:CRGO_0000750 a owl:ObjectProperty ;
@@ -1174,11 +1297,14 @@ crgo:CRGO_0000750 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000513 ;
     skos:definition "Relates an obligated party role to the instrument or provision that creates the obligation."@en,
         "Relie un rôle de partie assujettie à l'instrument ou à la disposition qui crée l'obligation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- version label
 crgo:CRGO_0000844 a owl:DatatypeProperty,
@@ -1189,11 +1315,14 @@ crgo:CRGO_0000844 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the version label of an instrument version as its issuer states it, such as a consolidation date or edition number."@en,
         "Indique le libellé de version d'une version d'instrument tel que l'énonce son émetteur, comme une date de mise à jour ou un numéro d'édition."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- effective on
 crgo:CRGO_0000845 a owl:DatatypeProperty,
@@ -1203,11 +1332,14 @@ crgo:CRGO_0000845 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date from which an amendment, regulatory change or version takes effect."@en,
         "Indique la date à partir de laquelle une modification, un changement réglementaire ou une version prend effet."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- identified on
 crgo:CRGO_0000846 a owl:DatatypeProperty,
@@ -1217,11 +1349,14 @@ crgo:CRGO_0000846 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a regulatory change, nonconformity, trigger or deficiency was identified."@en,
         "Indique quand un changement réglementaire, une non-conformité, un déclencheur ou une déficience a été repéré."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- required evidence
 crgo:CRGO_0000847 a owl:DatatypeProperty ;
@@ -1230,11 +1365,14 @@ crgo:CRGO_0000847 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000512 ;
     skos:definition "Describes the evidence an evidence requirement asks for."@en,
         "Décrit les preuves que demande une exigence de preuve."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 crgo:crgo-grc a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -1271,14 +1409,17 @@ crgo:CRGO_0000511 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000346 ;
     skos:definition "A dated record that a stated requirement, such as a provision, policy statement or management-system requirement, is not fulfilled by an organisation, raised by an audit, an assessment or self-reporting."@en,
         "Enregistrement daté indiquant qu'une exigence donnée, comme une disposition, un énoncé de politique ou une exigence de système de management, n'est pas satisfaite par une organisation, relevé par un audit, une évaluation ou une déclaration interne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "ISO 37301:2021 clause 10.2 (nonconformity and corrective action); ISO 19011:2018 clause 6.4 (audit findings may be nonconformities)."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "ISO 19011:2018, Guidelines for auditing management systems (3rd edition, 2018-07); clause identifiers cited"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- obligated party role
 crgo:CRGO_0000513 a owl:Class ;
@@ -1287,12 +1428,15 @@ crgo:CRGO_0000513 a owl:Class ;
     rdfs:subClassOf obo:BFO_0000023 ;
     skos:definition "The role of an organisation or person that a legal obligation or provision binds."@en,
         "Rôle d'une organisation ou d'une personne liée par une obligation ou une disposition légale."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 6. Anti-rigid: an organisation is obligated only under a given instrument."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- amendment
 crgo:CRGO_0000508 a owl:Class ;
@@ -1301,12 +1445,15 @@ crgo:CRGO_0000508 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A legal act or publication that changes the text of an instrument, producing a new version from a stated date."@en,
         "Acte juridique ou publication qui modifie le texte d'un instrument et produit une nouvelle version à compter d'une date donnée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GAPS D09."@en ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- regulatory change
 crgo:CRGO_0000509 a owl:Class ;
@@ -1315,13 +1462,16 @@ crgo:CRGO_0000509 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record that a legal instrument, provision or regulatory guidance relevant to CRGO users is new, amended or repealed, with the dates it was identified and takes effect."@en,
         "Enregistrement indiquant qu'un instrument juridique, une disposition ou une orientation réglementaire pertinent pour les utilisateurs de CRGO est nouveau, modifié ou abrogé, avec ses dates de repérage et de prise d'effet."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 6; GAPS D09."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- reassessment trigger
 crgo:CRGO_0000510 a owl:Class ;
@@ -1330,12 +1480,15 @@ crgo:CRGO_0000510 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record that an event, such as a regulatory change, an incident, an audit finding or the expiry of an exception, requires an existing assessment or determination to be reviewed."@en,
         "Enregistrement indiquant qu'un événement, comme un changement réglementaire, un incident, une constatation d'audit ou l'échéance d'une dérogation, exige la révision d'une évaluation ou d'un constat existant."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GAPS D09 (reassessment trigger)."@en ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- evidence requirement
 crgo:CRGO_0000512 a owl:Class ;
@@ -1344,12 +1497,15 @@ crgo:CRGO_0000512 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive stating what evidence must exist, and how it may be obtained, for a requirement or obligation to be shown as met."@en,
         "Directive précisant quelles preuves doivent exister, et comment elles peuvent être obtenues, pour démontrer qu'une exigence ou une obligation est respectée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 6."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- instrument kind scheme
 crgo:CRGO_0000377 a owl:NamedIndividual,
@@ -1364,7 +1520,8 @@ crgo:CRGO_0000377 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- instrument version
 crgo:CRGO_0000507 a owl:Class ;
@@ -1373,13 +1530,16 @@ crgo:CRGO_0000507 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of one version of a legal instrument or standard as in force or published over a stated period, such as a consolidation of a statute or an edition of a standard."@en,
         "Description d'une version d'un instrument juridique ou d'une norme telle qu'en vigueur ou publiée pendant une période donnée, comme une mise à jour d'une loi ou une édition d'une norme."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GRCA section 6 (instrument version, supersession); GAPS D09."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessment method scheme
 crgo:CRGO_0000598 a owl:NamedIndividual,
@@ -1388,12 +1548,15 @@ crgo:CRGO_0000598 a owl:NamedIndividual,
         "schéma : méthode d'évaluation"@fr ;
     skos:definition "Concept scheme of the assessment method value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « méthode d'évaluation »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- control assessment
 crgo:CRGO_0000347 a owl:Class ;
@@ -1412,7 +1575,8 @@ crgo:CRGO_0000347 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicability state scheme
 crgo:CRGO_0000382 a owl:NamedIndividual,
@@ -1427,7 +1591,8 @@ crgo:CRGO_0000382 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- control test result scheme
 crgo:CRGO_0000402 a owl:NamedIndividual,
@@ -1442,7 +1607,8 @@ crgo:CRGO_0000402 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessor line scheme
 crgo:CRGO_0000603 a owl:NamedIndividual,
@@ -1451,11 +1617,14 @@ crgo:CRGO_0000603 a owl:NamedIndividual,
         "schéma : ligne de l'évaluateur"@fr ;
     skos:definition "Concept scheme of the assessor line value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « ligne de l'évaluateur »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- regulatory change type scheme
 crgo:CRGO_0000609 a owl:NamedIndividual,
@@ -1464,11 +1633,14 @@ crgo:CRGO_0000609 a owl:NamedIndividual,
         "schéma : type de changement réglementaire"@fr ;
     skos:definition "Concept scheme of the regulatory change type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de changement réglementaire »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicability assessment
 crgo:CRGO_0000345 a owl:Class ;
@@ -1485,7 +1657,8 @@ crgo:CRGO_0000345 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- instrument kind
 crgo:CRGO_0000376 a owl:Class ;
@@ -1501,7 +1674,8 @@ crgo:CRGO_0000376 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- compliance state scheme
 crgo:CRGO_0000388 a owl:NamedIndividual,
@@ -1516,7 +1690,8 @@ crgo:CRGO_0000388 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition kind scheme
 crgo:CRGO_0000395 a owl:NamedIndividual,
@@ -1531,7 +1706,8 @@ crgo:CRGO_0000395 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessment method
 crgo:CRGO_0000597 a owl:Class ;
@@ -1540,13 +1716,16 @@ crgo:CRGO_0000597 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The method by which an assessor obtains evidence about a control or requirement."@en,
         "Méthode par laquelle un évaluateur obtient des preuves sur une mesure ou une exigence."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en,
         "NIST SP 800-53A Rev. 5 assessment objectives and methods (examine, interview, test), as carried in the SP 800-53 Rev. 5.2.0 OSCAL catalogue (2026-05-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- legal instrument
 crgo:CRGO_0000343 a owl:Class ;
@@ -1564,7 +1743,8 @@ crgo:CRGO_0000343 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicability condition
 crgo:CRGO_0000344 a owl:Class ;
@@ -1584,7 +1764,8 @@ crgo:CRGO_0000344 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- compliance determination
 crgo:CRGO_0000346 a owl:Class ;
@@ -1601,7 +1782,8 @@ crgo:CRGO_0000346 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- applicability state
 crgo:CRGO_0000381 a owl:Class ;
@@ -1617,7 +1799,8 @@ crgo:CRGO_0000381 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- control test result
 crgo:CRGO_0000401 a owl:Class ;
@@ -1633,7 +1816,8 @@ crgo:CRGO_0000401 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- assessor line
 crgo:CRGO_0000602 a owl:Class ;
@@ -1642,12 +1826,15 @@ crgo:CRGO_0000602 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The capacity in which a control assessment was performed, which bears on how much independent assurance it gives."@en,
         "Qualité en laquelle une évaluation de mesure a été réalisée, qui détermine le degré d'assurance indépendante qu'elle apporte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- regulatory change type
 crgo:CRGO_0000608 a owl:Class ;
@@ -1656,12 +1843,15 @@ crgo:CRGO_0000608 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of a regulatory change."@en,
         "Type d'un changement réglementaire."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- compliance state
 crgo:CRGO_0000387 a owl:Class ;
@@ -1677,7 +1867,8 @@ crgo:CRGO_0000387 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 # --- condition kind
 crgo:CRGO_0000394 a owl:Class ;
@@ -1693,7 +1884,8 @@ crgo:CRGO_0000394 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 ) .
