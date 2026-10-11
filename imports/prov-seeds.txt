@@ -1,0 +1,9 @@
+http://www.w3.org/ns/prov#Entity
+http://www.w3.org/ns/prov#Activity
+http://www.w3.org/ns/prov#Agent
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/ns/prov#hadPrimarySource
+http://www.w3.org/ns/prov#wasGeneratedBy
+http://www.w3.org/ns/prov#wasAttributedTo
+http://www.w3.org/ns/prov#generatedAtTime
+http://www.w3.org/ns/prov#used

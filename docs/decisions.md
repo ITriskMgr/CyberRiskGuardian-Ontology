@@ -314,3 +314,14 @@ GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND,
 - **Scope.** 40 provisions chosen for cybersecurity risk assessment and for parity with the Loi 25 vocabulary: what makes the Regulation apply to an organisation outside the EU (Art. 3(2)), the breach and pseudonymisation definitions, security and breach duties and their exemptions, accountability and governance, transfers, and the consequences (corrective powers, compensation, fines and the factors that set them). Notations are `GDPR Art. n(p)(x)`.
 - **Correspondences.** As for PIPEDA, `skos:relatedMatch` from the Loi 25 obligation to the GDPR provision: the duties are comparable, not identical. An independent review (20 correct, 6 partial, 1 leaning wrong) led to these changes: the six partial correspondences (5(2)↔3.1, 9↔12, 22↔12.1, 24↔3.2, 35(1)↔3.3, 37(1)↔3.1) get confidence low with the reason stated; the 4% fine tier (Art. 83(5)) corresponds to Loi 25's administrative maximum (s. 90.12), not to its penal fines (s. 91), because both GDPR tiers are administrative; Art. 33(2) (processor notifies the controller) corresponds to s. 18.3; the definitions of Arts. 13, 17, 30, 83(4) and 83(5) were completed (exceptions, the 250-employee exemption, all infringements of the 4% tier); the scope label covers processors; and Arts. 4(5), 6(1), 33(3), 58(2) and 83(2) were added.
 - **Differences an analyst should keep in mind.** Notification thresholds differ (GDPR: risk, 72 hours, and high risk for individuals; Loi 25: risk of serious injury, promptly). The GDPR impact assessment is triggered by high risk, the Loi 25 one by any information-system project. A data protection officer is required only in listed cases, whereas Loi 25 always has a person in charge.
+
+## 16. v0.8 → v1.0 specification: Stage 0 decisions (2026-10-11)
+
+The project owner supplied *CRGO v0.8 to v1.0 Claude Implementation Specification* (11 October 2026). Stage 0 produced `docs/baseline/` (inventory, source registry, gap analysis, Sprint 1 plan). **Decisions of the project owner (2026-10-11):**
+- D1: the GDPR and Sprint 1 are released together as 0.9.0.
+- D2: the four existing modules stay unchanged; new content goes into new modules.
+- D3: each mapping meaning gets its own relation (sub-property of `skos:relatedMatch`), keeping the existing annotations; no reified record per link.
+- D4: EPSS scores become dated observations; the approved 0.8.0 *likelihood* individuals are deprecated with a pointer to their replacement.
+- D5: ISO/IEC 27002, COBIT and CCM short titles are kept, with attribution.
+- D6: the project owner downloads the official PDFs of the Québec and federal texts and OSFI B-13; CRGO records their dates and checksums.
+- D7: a new fictional test company is built; the teaching cases stay reserved for measuring identification recall.
