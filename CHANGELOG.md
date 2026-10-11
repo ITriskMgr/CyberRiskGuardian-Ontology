@@ -4,7 +4,7 @@ All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [s
 
 ## [0.9.0] — 2026-10-11, draft for review
 
-EU General Data Protection Regulation. Nothing in this version is approved yet.
+EU General Data Protection Regulation, approved by the project owner on 2026-10-11 (vocabulary, all 25 correspondences, CQ27). Release held for the additions of the v0.8 → v1.0 specification (Sprint 1).
 
 ### Added
 - **GDPR vocabulary** (`ontology/vocab/gdpr.ttl`): 40 provisions of Regulation (EU) 2016/679, read in the Official Journal text (OJ L 119, 4.5.2016) supplied by the project owner: scope for organisations outside the EU (Art. 3(2)), definitions (breach, pseudonymisation), principles and legal bases, consent and children, special categories, information and rights (Arts. 13, 17, 20, 22), controller accountability, privacy by design and by default, processors, records, security (Art. 32), breach notification and its content (Arts. 33–34), impact assessment and prior consultation, data protection officer, transfers, corrective powers, compensation, and administrative fines with the factors that set them. English and French labels (French follows the official French terminology); definitions are CRGO paraphrases.

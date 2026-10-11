@@ -13,10 +13,12 @@ gdpr:GDPR_Art._13 a skos:Concept ;
     skos:prefLabel "Information to be provided at collection from the data subject"@en,
         "Informations à fournir lors de la collecte auprès de la personne concernée"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._17 a skos:Concept ;
@@ -27,10 +29,12 @@ gdpr:GDPR_Art._17 a skos:Concept ;
     skos:prefLabel "Right to erasure"@en,
         "Droit à l'effacement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._20 a skos:Concept ;
@@ -41,10 +45,12 @@ gdpr:GDPR_Art._20 a skos:Concept ;
     skos:prefLabel "Right to data portability"@en,
         "Droit à la portabilité des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._22 a skos:Concept ;
@@ -55,10 +61,12 @@ gdpr:GDPR_Art._22 a skos:Concept ;
     skos:prefLabel "Automated individual decision-making, including profiling"@en,
         "Décision individuelle automatisée, y compris le profilage"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._24 a skos:Concept ;
@@ -69,10 +77,12 @@ gdpr:GDPR_Art._24 a skos:Concept ;
     skos:prefLabel "Responsibility of the controller"@en,
         "Responsabilité du responsable du traitement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._25_1 a skos:Concept ;
@@ -83,10 +93,12 @@ gdpr:GDPR_Art._25_1 a skos:Concept ;
     skos:prefLabel "Data protection by design"@en,
         "Protection des données dès la conception"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._25_2 a skos:Concept ;
@@ -97,10 +109,12 @@ gdpr:GDPR_Art._25_2 a skos:Concept ;
     skos:prefLabel "Data protection by default"@en,
         "Protection des données par défaut"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._28 a skos:Concept ;
@@ -111,10 +125,12 @@ gdpr:GDPR_Art._28 a skos:Concept ;
     skos:prefLabel "Processor guarantees and contract"@en,
         "Garanties et contrat du sous-traitant"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._30 a skos:Concept ;
@@ -125,10 +141,12 @@ gdpr:GDPR_Art._30 a skos:Concept ;
     skos:prefLabel "Records of processing activities"@en,
         "Registre des activités de traitement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._32_1 a skos:Concept ;
@@ -139,10 +157,12 @@ gdpr:GDPR_Art._32_1 a skos:Concept ;
     skos:prefLabel "Security of processing appropriate to the risk"@en,
         "Sécurité du traitement adaptée au risque"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._32_2 a skos:Concept ;
@@ -153,10 +173,12 @@ gdpr:GDPR_Art._32_2 a skos:Concept ;
     skos:prefLabel "Risks considered in assessing security"@en,
         "Risques pris en compte pour évaluer la sécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._33_1 a skos:Concept ;
@@ -167,10 +189,12 @@ gdpr:GDPR_Art._33_1 a skos:Concept ;
     skos:prefLabel "Notification of a personal data breach to the supervisory authority"@en,
         "Notification à l'autorité de contrôle d'une violation de données à caractère personnel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._33_2 a skos:Concept ;
@@ -181,10 +205,12 @@ gdpr:GDPR_Art._33_2 a skos:Concept ;
     skos:prefLabel "Processor notifies the controller of a breach"@en,
         "Notification de la violation par le sous-traitant au responsable"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._33_3 a skos:Concept ;
@@ -195,10 +221,12 @@ gdpr:GDPR_Art._33_3 a skos:Concept ;
     skos:prefLabel "Content of a breach notification"@en,
         "Contenu de la notification d'une violation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._33_5 a skos:Concept ;
@@ -209,10 +237,12 @@ gdpr:GDPR_Art._33_5 a skos:Concept ;
     skos:prefLabel "Documentation of personal data breaches"@en,
         "Documentation des violations de données à caractère personnel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._34_1 a skos:Concept ;
@@ -223,10 +253,12 @@ gdpr:GDPR_Art._34_1 a skos:Concept ;
     skos:prefLabel "Communication of a personal data breach to data subjects"@en,
         "Communication à la personne concernée d'une violation de données à caractère personnel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._34_3 a skos:Concept ;
@@ -237,10 +269,12 @@ gdpr:GDPR_Art._34_3 a skos:Concept ;
     skos:prefLabel "Exemptions from communication to data subjects"@en,
         "Exemptions à la communication aux personnes concernées"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._35_1 a skos:Concept ;
@@ -251,10 +285,12 @@ gdpr:GDPR_Art._35_1 a skos:Concept ;
     skos:prefLabel "Data protection impact assessment"@en,
         "Analyse d'impact relative à la protection des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._36_1 a skos:Concept ;
@@ -265,10 +301,12 @@ gdpr:GDPR_Art._36_1 a skos:Concept ;
     skos:prefLabel "Prior consultation of the supervisory authority"@en,
         "Consultation préalable de l'autorité de contrôle"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._37_1 a skos:Concept ;
@@ -279,10 +317,12 @@ gdpr:GDPR_Art._37_1 a skos:Concept ;
     skos:prefLabel "Designation of the data protection officer"@en,
         "Désignation du délégué à la protection des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._39_1 a skos:Concept ;
@@ -293,10 +333,12 @@ gdpr:GDPR_Art._39_1 a skos:Concept ;
     skos:prefLabel "Tasks of the data protection officer"@en,
         "Missions du délégué à la protection des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._3_2 a skos:Concept ;
@@ -307,10 +349,12 @@ gdpr:GDPR_Art._3_2 a skos:Concept ;
     skos:prefLabel "Territorial scope for controllers and processors outside the Union"@en,
         "Champ d'application territorial pour les responsables du traitement et sous-traitants établis hors de l'Union"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._44 a skos:Concept ;
@@ -321,10 +365,12 @@ gdpr:GDPR_Art._44 a skos:Concept ;
     skos:prefLabel "General principle for transfers outside the Union"@en,
         "Principe général applicable aux transferts hors de l'Union"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._46 a skos:Concept ;
@@ -335,10 +381,12 @@ gdpr:GDPR_Art._46 a skos:Concept ;
     skos:prefLabel "Transfers subject to appropriate safeguards"@en,
         "Transferts moyennant des garanties appropriées"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._4_12 a skos:Concept ;
@@ -349,10 +397,12 @@ gdpr:GDPR_Art._4_12 a skos:Concept ;
     skos:prefLabel "Personal data breach (definition)"@en,
         "Violation de données à caractère personnel (définition)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._4_5 a skos:Concept ;
@@ -363,10 +413,12 @@ gdpr:GDPR_Art._4_5 a skos:Concept ;
     skos:prefLabel "Pseudonymisation (definition)"@en,
         "Pseudonymisation (définition)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._58_2 a skos:Concept ;
@@ -377,10 +429,12 @@ gdpr:GDPR_Art._58_2 a skos:Concept ;
     skos:prefLabel "Corrective powers of the supervisory authority"@en,
         "Pouvoirs d'adopter des mesures correctrices de l'autorité de contrôle"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._5_1_b a skos:Concept ;
@@ -391,10 +445,12 @@ gdpr:GDPR_Art._5_1_b a skos:Concept ;
     skos:prefLabel "Purpose limitation"@en,
         "Limitation des finalités"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._5_1_c a skos:Concept ;
@@ -405,10 +461,12 @@ gdpr:GDPR_Art._5_1_c a skos:Concept ;
     skos:prefLabel "Data minimisation"@en,
         "Minimisation des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._5_1_e a skos:Concept ;
@@ -419,10 +477,12 @@ gdpr:GDPR_Art._5_1_e a skos:Concept ;
     skos:prefLabel "Storage limitation"@en,
         "Limitation de la conservation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._5_1_f a skos:Concept ;
@@ -433,10 +493,12 @@ gdpr:GDPR_Art._5_1_f a skos:Concept ;
     skos:prefLabel "Integrity and confidentiality"@en,
         "Intégrité et confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._5_2 a skos:Concept ;
@@ -447,10 +509,12 @@ gdpr:GDPR_Art._5_2 a skos:Concept ;
     skos:prefLabel "Accountability"@en,
         "Responsabilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._6_1 a skos:Concept ;
@@ -461,10 +525,12 @@ gdpr:GDPR_Art._6_1 a skos:Concept ;
     skos:prefLabel "Lawfulness of processing (legal bases)"@en,
         "Licéité du traitement (bases juridiques)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._7 a skos:Concept ;
@@ -475,10 +541,12 @@ gdpr:GDPR_Art._7 a skos:Concept ;
     skos:prefLabel "Conditions for consent"@en,
         "Conditions applicables au consentement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._8 a skos:Concept ;
@@ -489,10 +557,12 @@ gdpr:GDPR_Art._8 a skos:Concept ;
     skos:prefLabel "Conditions for a child's consent to information society services"@en,
         "Conditions applicables au consentement des enfants en ce qui concerne les services de la société de l'information"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._82 a skos:Concept ;
@@ -503,10 +573,12 @@ gdpr:GDPR_Art._82 a skos:Concept ;
     skos:prefLabel "Right to compensation and liability"@en,
         "Droit à réparation et responsabilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._83_2 a skos:Concept ;
@@ -517,10 +589,12 @@ gdpr:GDPR_Art._83_2 a skos:Concept ;
     skos:prefLabel "Factors in setting an administrative fine"@en,
         "Éléments pris en compte pour fixer une amende administrative"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._83_4 a skos:Concept ;
@@ -531,10 +605,12 @@ gdpr:GDPR_Art._83_4 a skos:Concept ;
     skos:prefLabel "Administrative fines up to EUR 10 million or 2% of turnover"@en,
         "Amendes administratives jusqu'à 10 millions d'euros ou 2 % du chiffre d'affaires"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._83_5 a skos:Concept ;
@@ -545,10 +621,12 @@ gdpr:GDPR_Art._83_5 a skos:Concept ;
     skos:prefLabel "Administrative fines up to EUR 20 million or 4% of turnover"@en,
         "Amendes administratives jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 gdpr:GDPR_Art._9 a skos:Concept ;
@@ -559,10 +637,12 @@ gdpr:GDPR_Art._9 a skos:Concept ;
     skos:prefLabel "Special categories of personal data"@en,
         "Catégories particulières de données à caractère personnel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/gdpr> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://eur-lex.europa.eu/eli/reg/2016/679/oj (OJ L 119, 4.5.2016, p. 1; CELEX 32016R0679)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 <https://w3id.org/crgo/vocab/gdpr> a owl:Ontology,

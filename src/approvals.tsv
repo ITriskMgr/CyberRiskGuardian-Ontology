@@ -408,3 +408,7 @@ links/authored/AUTH-003	Approve	MAL	2026-10-11
 links/authored/AUTH-004	Approve	MAL	2026-10-11	
 links/authored/AUTH-005	Approve	MAL	2026-10-11	
 links/authored/AUTH-006	Approve	MAL	2026-10-11	
+# 2026-10-11: 0.9.0 review: all approved by the project owner ("Approve all"): GDPR vocabulary, Loi 25-GDPR correspondences (comparable M and partly comparable L), CQ27.
+gdpr/*	Approve	MAL	2026-10-11	
+mappings/loi25-gdpr/M	Approve	MAL	2026-10-11	
+mappings/loi25-gdpr/L	Approve	MAL	2026-10-11	
