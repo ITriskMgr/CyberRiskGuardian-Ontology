@@ -2,9 +2,9 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
-## [0.7.0] — draft, not yet approved
+## [0.7.0] — 2026-10-11, approved
 
-Public sources added to the ontology. All new links and cross-references are *proposed* until reviewed.
+Public sources added to the ontology. Approved by group on 2026-10-11: the new term, the four vocabularies, the cross-references published by MITRE and CISA, and the high- and medium-confidence judged links; low-confidence judged links stay *proposed*.
 
 ### Added
 - Vocabularies: MITRE CWE (943 weaknesses, from D3FEND 1.6.0), MITRE D3FEND (270 defensive techniques), MITRE CAPEC (559 attack patterns), CISA KEV (1,739 actively exploited vulnerabilities). Sources, versions and licences in `NOTICE.md`.

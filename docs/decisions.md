@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.7.0 draft
+# Design decisions — CRGO 0.7.0
 
 This file records why the ontology looks the way it does.
 
@@ -283,3 +283,5 @@ GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND,
 - CTID-based proposals (independent review, 40): medium 6 useful, 1 redundant, 0 wrong of 7; low 16 useful, 10 redundant, 7 wrong of 33. Recommendation: approve medium, keep low as suggestions.
 - CWE pass (independent review of 40 scenarios, 59 links, batches 1–5): high 11 correct, 1 defensible; medium 18, 13, 2 wrong; low 2, 10, 2 wrong; all 10 "no weakness" judgements right. Two rules applied afterwards: CWE-1104 replaced by CWE-1395 unless end-of-life is stated; CWE-311/312 lowered from high to medium where encryption is not mentioned. A second CWE batch (162 scenarios outside the first scope that name a weakness) was added after a competency question exposed the gap; it was spot-checked, not sampled.
 - D3FEND: artifact-based inference rejected twice (see changelog); judged links: 28 correct, 16 weak, 1 wrong on 45 (high 9/10 correct). Main weakness: threshold and reputation defences paired with techniques built to evade them.
+
+**Decision of the project owner (2026-10-11).** All groups decided as recommended: `corroborated by` approved; CWE, D3FEND, CAPEC and KEV vocabularies approved as whole vocabularies (`<scheme>/*`); CAPEC, CTID and KEV cross-references approved; judged ATT&CK→D3FEND, scenario→CWE and CTID-proposed SP 800-53 links approved for high and medium confidence, low stays proposed; CQ21–CQ23 added to the test suite.

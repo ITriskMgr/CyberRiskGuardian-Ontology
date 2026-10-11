@@ -13,10 +13,12 @@ d3fend:D3-ABPI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ABPI" ;
     skos:prefLabel "Application-based Process Isolation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ACA a skos:Concept ;
@@ -26,10 +28,12 @@ d3fend:D3-ACA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ACA" ;
     skos:prefLabel "Active Certificate Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AEM a skos:Concept ;
@@ -39,10 +43,12 @@ d3fend:D3-AEM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-AEM" ;
     skos:prefLabel "Application Exception Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AL a skos:Concept ;
@@ -52,10 +58,12 @@ d3fend:D3-AL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-AL" ;
     skos:prefLabel "Account Locking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ALLM a skos:Concept ;
@@ -65,10 +73,12 @@ d3fend:D3-ALLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ALLM" ;
     skos:prefLabel "Active Logical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AM a skos:Concept ;
@@ -78,10 +88,12 @@ d3fend:D3-AM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-AM" ;
     skos:prefLabel "Access Modeling"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ANAA a skos:Concept ;
@@ -91,10 +103,12 @@ d3fend:D3-ANAA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ANAA" ;
     skos:prefLabel "Administrative Network Activity Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ANCI a skos:Concept ;
@@ -104,10 +118,12 @@ d3fend:D3-ANCI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ANCI" ;
     skos:prefLabel "Authentication Cache Invalidation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ANET a skos:Concept ;
@@ -117,10 +133,12 @@ d3fend:D3-ANET a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ANET" ;
     skos:prefLabel "Authentication Event Thresholding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-APLM a skos:Concept ;
@@ -130,10 +148,12 @@ d3fend:D3-APLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-APLM" ;
     skos:prefLabel "Active Physical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AZET a skos:Concept ;
@@ -143,10 +163,12 @@ d3fend:D3-AZET a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-AZET" ;
     skos:prefLabel "Authorization Event Thresholding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-BA a skos:Concept ;
@@ -156,10 +178,12 @@ d3fend:D3-BA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-BA" ;
     skos:prefLabel "Bootloader Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-BAN a skos:Concept ;
@@ -169,10 +193,12 @@ d3fend:D3-BAN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-BAN" ;
     skos:prefLabel "Biometric Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-BDI a skos:Concept ;
@@ -182,10 +208,12 @@ d3fend:D3-BDI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-BDI" ;
     skos:prefLabel "Broadcast Domain Isolation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-BMA a skos:Concept ;
@@ -195,10 +223,12 @@ d3fend:D3-BMA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-BMA" ;
     skos:prefLabel "Bus Message Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-BSE a skos:Concept ;
@@ -208,10 +238,12 @@ d3fend:D3-BSE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-BSE" ;
     skos:prefLabel "Byte Sequence Emulation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CAA a skos:Concept ;
@@ -221,10 +253,12 @@ d3fend:D3-CAA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CAA" ;
     skos:prefLabel "Connection Attempt Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CBAN a skos:Concept ;
@@ -234,10 +268,12 @@ d3fend:D3-CBAN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CBAN" ;
     skos:prefLabel "Certificate-based Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CCSA a skos:Concept ;
@@ -247,10 +283,12 @@ d3fend:D3-CCSA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CCSA" ;
     skos:prefLabel "Credential Compromise Scope Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CDP a skos:Concept ;
@@ -260,10 +298,12 @@ d3fend:D3-CDP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CDP" ;
     skos:prefLabel "Change Default Password"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CERO a skos:Concept ;
@@ -273,10 +313,12 @@ d3fend:D3-CERO a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CERO" ;
     skos:prefLabel "Certificate Rotation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CFC a skos:Concept ;
@@ -286,10 +328,12 @@ d3fend:D3-CFC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CFC" ;
     skos:prefLabel "Content Format Conversion"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CFI a skos:Concept ;
@@ -299,10 +343,12 @@ d3fend:D3-CFI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CFI" ;
     skos:prefLabel "Control Flow Integrity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CHN a skos:Concept ;
@@ -312,10 +358,12 @@ d3fend:D3-CHN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CHN" ;
     skos:prefLabel "Connected Honeynet"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CI a skos:Concept ;
@@ -325,10 +373,12 @@ d3fend:D3-CI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CI" ;
     skos:prefLabel "Configuration Inventory"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CIA a skos:Concept ;
@@ -338,10 +388,12 @@ d3fend:D3-CIA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CIA" ;
     skos:prefLabel "Container Image Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CNE a skos:Concept ;
@@ -351,10 +403,12 @@ d3fend:D3-CNE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CNE" ;
     skos:prefLabel "Content Excision"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CNR a skos:Concept ;
@@ -364,10 +418,12 @@ d3fend:D3-CNR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CNR" ;
     skos:prefLabel "Content Rebuild"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CNS a skos:Concept ;
@@ -377,10 +433,12 @@ d3fend:D3-CNS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CNS" ;
     skos:prefLabel "Content Substitution"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CP a skos:Concept ;
@@ -390,10 +448,12 @@ d3fend:D3-CP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CP" ;
     skos:prefLabel "Certificate Pinning"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CQ a skos:Concept ;
@@ -403,10 +463,12 @@ d3fend:D3-CQ a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CQ" ;
     skos:prefLabel "Content Quarantine"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CR a skos:Concept ;
@@ -416,10 +478,12 @@ d3fend:D3-CR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CR" ;
     skos:prefLabel "Credential Revocation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CS a skos:Concept ;
@@ -429,10 +493,12 @@ d3fend:D3-CS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CS" ;
     skos:prefLabel "Credential Scrubbing"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CSPP a skos:Concept ;
@@ -442,10 +508,12 @@ d3fend:D3-CSPP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CSPP" ;
     skos:prefLabel "Client-server Payload Profiling"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CTS a skos:Concept ;
@@ -455,10 +523,12 @@ d3fend:D3-CTS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CTS" ;
     skos:prefLabel "Credential Transmission Scoping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DA a skos:Concept ;
@@ -468,10 +538,12 @@ d3fend:D3-DA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DA" ;
     skos:prefLabel "Dynamic Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DAM a skos:Concept ;
@@ -481,10 +553,12 @@ d3fend:D3-DAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DAM" ;
     skos:prefLabel "Domain Account Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DCE a skos:Concept ;
@@ -494,10 +568,12 @@ d3fend:D3-DCE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DCE" ;
     skos:prefLabel "Dead Code Elimination"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DEM a skos:Concept ;
@@ -507,10 +583,12 @@ d3fend:D3-DEM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DEM" ;
     skos:prefLabel "Data Exchange Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DENCR a skos:Concept ;
@@ -520,10 +598,12 @@ d3fend:D3-DENCR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DENCR" ;
     skos:prefLabel "Disk Encryption"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DF a skos:Concept ;
@@ -533,10 +613,12 @@ d3fend:D3-DF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DF" ;
     skos:prefLabel "Decoy File"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DI a skos:Concept ;
@@ -546,10 +628,12 @@ d3fend:D3-DI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DI" ;
     skos:prefLabel "Data Inventory"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DKE a skos:Concept ;
@@ -559,10 +643,12 @@ d3fend:D3-DKE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DKE" ;
     skos:prefLabel "Disk Erasure"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DKP a skos:Concept ;
@@ -572,10 +658,12 @@ d3fend:D3-DKP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DKP" ;
     skos:prefLabel "Disk Partitioning"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DLIC a skos:Concept ;
@@ -585,10 +673,12 @@ d3fend:D3-DLIC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DLIC" ;
     skos:prefLabel "Driver Load Integrity Checking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNL a skos:Concept ;
@@ -598,10 +688,12 @@ d3fend:D3-DNL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNL" ;
     skos:prefLabel "Directional Network Link"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNR a skos:Concept ;
@@ -611,10 +703,12 @@ d3fend:D3-DNR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNR" ;
     skos:prefLabel "Decoy Network Resource"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNRA a skos:Concept ;
@@ -624,10 +718,12 @@ d3fend:D3-DNRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNRA" ;
     skos:prefLabel "Domain Name Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNSAL a skos:Concept ;
@@ -637,10 +733,12 @@ d3fend:D3-DNSAL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNSAL" ;
     skos:prefLabel "DNS Allowlisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNSCE a skos:Concept ;
@@ -650,10 +748,12 @@ d3fend:D3-DNSCE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNSCE" ;
     skos:prefLabel "DNS Cache Eviction"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNSTA a skos:Concept ;
@@ -663,10 +763,12 @@ d3fend:D3-DNSTA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNSTA" ;
     skos:prefLabel "DNS Traffic Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DP a skos:Concept ;
@@ -676,10 +778,12 @@ d3fend:D3-DP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DP" ;
     skos:prefLabel "Decoy Persona"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DPLM a skos:Concept ;
@@ -689,10 +793,12 @@ d3fend:D3-DPLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DPLM" ;
     skos:prefLabel "Direct Physical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DPR a skos:Concept ;
@@ -702,10 +808,12 @@ d3fend:D3-DPR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DPR" ;
     skos:prefLabel "Decoy Public Release"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DQSA a skos:Concept ;
@@ -715,10 +823,12 @@ d3fend:D3-DQSA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DQSA" ;
     skos:prefLabel "Database Query String Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DRA a skos:Concept ;
@@ -728,10 +838,12 @@ d3fend:D3-DRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DRA" ;
     skos:prefLabel "Disable Remote Access"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DRT a skos:Concept ;
@@ -741,10 +853,12 @@ d3fend:D3-DRT a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DRT" ;
     skos:prefLabel "Domain Registration Takedown"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DST a skos:Concept ;
@@ -754,10 +868,12 @@ d3fend:D3-DST a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DST" ;
     skos:prefLabel "Decoy Session Token"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DTP a skos:Concept ;
@@ -767,10 +883,12 @@ d3fend:D3-DTP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DTP" ;
     skos:prefLabel "Domain Trust Policy"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DUC a skos:Concept ;
@@ -780,10 +898,12 @@ d3fend:D3-DUC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DUC" ;
     skos:prefLabel "Decoy User Credential"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EAL a skos:Concept ;
@@ -793,10 +913,12 @@ d3fend:D3-EAL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EAL" ;
     skos:prefLabel "Executable Allowlisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EBWSAM a skos:Concept ;
@@ -806,10 +928,12 @@ d3fend:D3-EBWSAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EBWSAM" ;
     skos:prefLabel "Endpoint-based Web Server Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EDL a skos:Concept ;
@@ -819,10 +943,12 @@ d3fend:D3-EDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EDL" ;
     skos:prefLabel "Executable Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EF a skos:Concept ;
@@ -832,10 +958,12 @@ d3fend:D3-EF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EF" ;
     skos:prefLabel "Email Filtering"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EFA a skos:Concept ;
@@ -845,10 +973,12 @@ d3fend:D3-EFA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EFA" ;
     skos:prefLabel "Emulated File Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EHB a skos:Concept ;
@@ -858,10 +988,12 @@ d3fend:D3-EHB a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EHB" ;
     skos:prefLabel "Endpoint Health Beacon"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EHPV a skos:Concept ;
@@ -871,10 +1003,12 @@ d3fend:D3-EHPV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EHPV" ;
     skos:prefLabel "Exception Handler Pointer Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ELM a skos:Concept ;
@@ -884,10 +1018,12 @@ d3fend:D3-ELM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ELM" ;
     skos:prefLabel "Electronic Lock Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EPL a skos:Concept ;
@@ -897,10 +1033,12 @@ d3fend:D3-EPL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EPL" ;
     skos:prefLabel "Physical Locking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ER a skos:Concept ;
@@ -910,10 +1048,12 @@ d3fend:D3-ER a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ER" ;
     skos:prefLabel "Email Removal"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ET a skos:Concept ;
@@ -923,10 +1063,12 @@ d3fend:D3-ET a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ET" ;
     skos:prefLabel "Encrypted Tunnels"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FAPA a skos:Concept ;
@@ -936,10 +1078,12 @@ d3fend:D3-FAPA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FAPA" ;
     skos:prefLabel "File Access Pattern Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FBA a skos:Concept ;
@@ -949,10 +1093,12 @@ d3fend:D3-FBA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FBA" ;
     skos:prefLabel "Firmware Behavior Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FC a skos:Concept ;
@@ -962,10 +1108,12 @@ d3fend:D3-FC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FC" ;
     skos:prefLabel "File Carving"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FCA a skos:Concept ;
@@ -975,10 +1123,12 @@ d3fend:D3-FCA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FCA" ;
     skos:prefLabel "File Creation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FCDC a skos:Concept ;
@@ -988,10 +1138,12 @@ d3fend:D3-FCDC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FCDC" ;
     skos:prefLabel "File Content Decompression Checking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FCR a skos:Concept ;
@@ -1001,10 +1153,12 @@ d3fend:D3-FCR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FCR" ;
     skos:prefLabel "File Content Rules"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FE a skos:Concept ;
@@ -1014,10 +1168,12 @@ d3fend:D3-FE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FE" ;
     skos:prefLabel "File Encryption"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FEMC a skos:Concept ;
@@ -1027,10 +1183,12 @@ d3fend:D3-FEMC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FEMC" ;
     skos:prefLabel "Firmware Embedded Monitoring Code"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FH a skos:Concept ;
@@ -1040,10 +1198,12 @@ d3fend:D3-FH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FH" ;
     skos:prefLabel "File Hashing"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FHRA a skos:Concept ;
@@ -1053,10 +1213,12 @@ d3fend:D3-FHRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FHRA" ;
     skos:prefLabel "File Hash Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FIM a skos:Concept ;
@@ -1066,10 +1228,12 @@ d3fend:D3-FIM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FIM" ;
     skos:prefLabel "File Integrity Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FISV a skos:Concept ;
@@ -1079,10 +1243,12 @@ d3fend:D3-FISV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FISV" ;
     skos:prefLabel "File Internal Structure Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FMBV a skos:Concept ;
@@ -1092,10 +1258,12 @@ d3fend:D3-FMBV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FMBV" ;
     skos:prefLabel "File Magic Byte Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FMCV a skos:Concept ;
@@ -1105,10 +1273,12 @@ d3fend:D3-FMCV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FMCV" ;
     skos:prefLabel "File Metadata Consistency Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FRIDL a skos:Concept ;
@@ -1118,10 +1288,12 @@ d3fend:D3-FRIDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FRIDL" ;
     skos:prefLabel "Forward Resolution IP Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HBPI a skos:Concept ;
@@ -1131,10 +1303,12 @@ d3fend:D3-HBPI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HBPI" ;
     skos:prefLabel "Hardware-based Process Isolation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HBWP a skos:Concept ;
@@ -1144,10 +1318,12 @@ d3fend:D3-HBWP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HBWP" ;
     skos:prefLabel "Hardware-based Write Protection"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HCI a skos:Concept ;
@@ -1157,10 +1333,12 @@ d3fend:D3-HCI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HCI" ;
     skos:prefLabel "Hardware Component Inventory"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HD a skos:Concept ;
@@ -1170,10 +1348,12 @@ d3fend:D3-HD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HD" ;
     skos:prefLabel "Homoglyph Detection"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HDDL a skos:Concept ;
@@ -1183,10 +1363,12 @@ d3fend:D3-HDDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HDDL" ;
     skos:prefLabel "Hierarchical Domain Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HDL a skos:Concept ;
@@ -1196,10 +1378,12 @@ d3fend:D3-HDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HDL" ;
     skos:prefLabel "Homoglyph Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HR a skos:Concept ;
@@ -1209,10 +1393,12 @@ d3fend:D3-HR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HR" ;
     skos:prefLabel "Host Reboot"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IAA a skos:Concept ;
@@ -1222,10 +1408,12 @@ d3fend:D3-IAA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IAA" ;
     skos:prefLabel "Identifier Activity Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IBCA a skos:Concept ;
@@ -1235,10 +1423,12 @@ d3fend:D3-IBCA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IBCA" ;
     skos:prefLabel "Indirect Branch Call Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IDA a skos:Concept ;
@@ -1248,10 +1438,12 @@ d3fend:D3-IDA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IDA" ;
     skos:prefLabel "Input Device Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IHN a skos:Concept ;
@@ -1261,10 +1453,12 @@ d3fend:D3-IHN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IHN" ;
     skos:prefLabel "Integrated Honeynet"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IOPR a skos:Concept ;
@@ -1274,10 +1468,12 @@ d3fend:D3-IOPR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IOPR" ;
     skos:prefLabel "IO Port Restriction"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IPCTA a skos:Concept ;
@@ -1287,10 +1483,12 @@ d3fend:D3-IPCTA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IPCTA" ;
     skos:prefLabel "IPC Traffic Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IPRA a skos:Concept ;
@@ -1300,10 +1498,12 @@ d3fend:D3-IPRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IPRA" ;
     skos:prefLabel "IP Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IRV a skos:Concept ;
@@ -1313,10 +1513,12 @@ d3fend:D3-IRV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IRV" ;
     skos:prefLabel "Integer Range Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ISVA a skos:Concept ;
@@ -1326,10 +1528,12 @@ d3fend:D3-ISVA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ISVA" ;
     skos:prefLabel "Inbound Session Volume Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-JFAPA a skos:Concept ;
@@ -1339,10 +1543,12 @@ d3fend:D3-JFAPA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-JFAPA" ;
     skos:prefLabel "Job Function Access Pattern Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-KBPI a skos:Concept ;
@@ -1352,10 +1558,12 @@ d3fend:D3-KBPI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-KBPI" ;
     skos:prefLabel "Kernel-based Process Isolation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-LAM a skos:Concept ;
@@ -1365,10 +1573,12 @@ d3fend:D3-LAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-LAM" ;
     skos:prefLabel "Local Account Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-LAMED a skos:Concept ;
@@ -1378,10 +1588,12 @@ d3fend:D3-LAMED a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-LAMED" ;
     skos:prefLabel "LAN Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-LFAM a skos:Concept ;
@@ -1391,10 +1603,12 @@ d3fend:D3-LFAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-LFAM" ;
     skos:prefLabel "Local File Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-LFP a skos:Concept ;
@@ -1404,10 +1618,12 @@ d3fend:D3-LFP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-LFP" ;
     skos:prefLabel "Local File Permissions"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MBSV a skos:Concept ;
@@ -1417,10 +1633,12 @@ d3fend:D3-MBSV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MBSV" ;
     skos:prefLabel "Memory Block Start Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MBT a skos:Concept ;
@@ -1430,10 +1648,12 @@ d3fend:D3-MBT a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MBT" ;
     skos:prefLabel "Memory Boundary Tracking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MENCR a skos:Concept ;
@@ -1443,10 +1663,12 @@ d3fend:D3-MENCR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MENCR" ;
     skos:prefLabel "Message Encryption"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MFA a skos:Concept ;
@@ -1456,10 +1678,12 @@ d3fend:D3-MFA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MFA" ;
     skos:prefLabel "Multi-factor Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MSM a skos:Concept ;
@@ -1469,10 +1693,12 @@ d3fend:D3-MSM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MSM" ;
     skos:prefLabel "Motion Sensor Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NNI a skos:Concept ;
@@ -1482,10 +1708,12 @@ d3fend:D3-NNI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NNI" ;
     skos:prefLabel "Network Node Inventory"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NPC a skos:Concept ;
@@ -1495,10 +1723,12 @@ d3fend:D3-NPC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NPC" ;
     skos:prefLabel "Null Pointer Checking"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NTCD a skos:Concept ;
@@ -1508,10 +1738,12 @@ d3fend:D3-NTCD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NTCD" ;
     skos:prefLabel "Network Traffic Community Deviation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NTPM a skos:Concept ;
@@ -1521,10 +1753,12 @@ d3fend:D3-NTPM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NTPM" ;
     skos:prefLabel "Network Traffic Policy Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NTSA a skos:Concept ;
@@ -1534,10 +1768,12 @@ d3fend:D3-NTSA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NTSA" ;
     skos:prefLabel "Network Traffic Signature Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NVA a skos:Concept ;
@@ -1547,10 +1783,12 @@ d3fend:D3-NVA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NVA" ;
     skos:prefLabel "Network Vulnerability Assessment"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ODM a skos:Concept ;
@@ -1560,10 +1798,12 @@ d3fend:D3-ODM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ODM" ;
     skos:prefLabel "Operational Dependency Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OLV a skos:Concept ;
@@ -1573,10 +1813,12 @@ d3fend:D3-OLV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OLV" ;
     skos:prefLabel "Operational Logic Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OM a skos:Concept ;
@@ -1586,10 +1828,12 @@ d3fend:D3-OM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OM" ;
     skos:prefLabel "Organization Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OMM a skos:Concept ;
@@ -1599,10 +1843,12 @@ d3fend:D3-OMM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OMM" ;
     skos:prefLabel "Operating Mode Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OPM a skos:Concept ;
@@ -1612,10 +1858,12 @@ d3fend:D3-OPM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OPM" ;
     skos:prefLabel "Operational Process Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OPR a skos:Concept ;
@@ -1625,10 +1873,12 @@ d3fend:D3-OPR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OPR" ;
     skos:prefLabel "Operating Mode Restriction"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ORA a skos:Concept ;
@@ -1638,10 +1888,12 @@ d3fend:D3-ORA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ORA" ;
     skos:prefLabel "Operational Risk Assessment"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OTF a skos:Concept ;
@@ -1651,10 +1903,12 @@ d3fend:D3-OTF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OTF" ;
     skos:prefLabel "Outbound Traffic Filtering"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OTP a skos:Concept ;
@@ -1664,10 +1918,12 @@ d3fend:D3-OTP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OTP" ;
     skos:prefLabel "One-time Password"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OVAR a skos:Concept ;
@@ -1677,10 +1933,12 @@ d3fend:D3-OVAR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OVAR" ;
     skos:prefLabel "OT Variable Access Restriction"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PAN a skos:Concept ;
@@ -1690,10 +1948,12 @@ d3fend:D3-PAN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PAN" ;
     skos:prefLabel "Pointer Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PBWSAM a skos:Concept ;
@@ -1703,10 +1963,12 @@ d3fend:D3-PBWSAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PBWSAM" ;
     skos:prefLabel "Proxy-based Web Server Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PCA a skos:Concept ;
@@ -1716,10 +1978,12 @@ d3fend:D3-PCA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PCA" ;
     skos:prefLabel "Passive Certificate Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PCSV a skos:Concept ;
@@ -1729,10 +1993,12 @@ d3fend:D3-PCSV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PCSV" ;
     skos:prefLabel "Process Code Segment Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PEH a skos:Concept ;
@@ -1742,10 +2008,12 @@ d3fend:D3-PEH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PEH" ;
     skos:prefLabel "Physical Enclosure Hardening"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PFV a skos:Concept ;
@@ -1755,10 +2023,12 @@ d3fend:D3-PFV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PFV" ;
     skos:prefLabel "Peripheral Firmware Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PHDURA a skos:Concept ;
@@ -1768,10 +2038,12 @@ d3fend:D3-PHDURA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PHDURA" ;
     skos:prefLabel "Per Host Download-Upload Ratio Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PLA a skos:Concept ;
@@ -1781,10 +2053,12 @@ d3fend:D3-PLA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PLA" ;
     skos:prefLabel "Process Lineage Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PLLM a skos:Concept ;
@@ -1794,10 +2068,12 @@ d3fend:D3-PLLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PLLM" ;
     skos:prefLabel "Passive Logical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PMAD a skos:Concept ;
@@ -1807,10 +2083,12 @@ d3fend:D3-PMAD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PMAD" ;
     skos:prefLabel "Protocol Metadata Anomaly Detection"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PS a skos:Concept ;
@@ -1820,10 +2098,12 @@ d3fend:D3-PS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PS" ;
     skos:prefLabel "Process Suspension"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PSEP a skos:Concept ;
@@ -1833,10 +2113,12 @@ d3fend:D3-PSEP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PSEP" ;
     skos:prefLabel "Process Segment Execution Prevention"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PSM a skos:Concept ;
@@ -1846,10 +2128,12 @@ d3fend:D3-PSM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PSM" ;
     skos:prefLabel "Proximity Sensor Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PSMD a skos:Concept ;
@@ -1859,10 +2143,12 @@ d3fend:D3-PSMD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PSMD" ;
     skos:prefLabel "Process Self-Modification Detection"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PT a skos:Concept ;
@@ -1872,10 +2158,12 @@ d3fend:D3-PT a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PT" ;
     skos:prefLabel "Process Termination"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PUM a skos:Concept ;
@@ -1885,10 +2173,12 @@ d3fend:D3-PUM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PUM" ;
     skos:prefLabel "Platform Uptime Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PWA a skos:Concept ;
@@ -1898,10 +2188,12 @@ d3fend:D3-PWA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PWA" ;
     skos:prefLabel "Password Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RAM a skos:Concept ;
@@ -1911,10 +2203,12 @@ d3fend:D3-RAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RAM" ;
     skos:prefLabel "Routing Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RAPA a skos:Concept ;
@@ -1924,10 +2218,12 @@ d3fend:D3-RAPA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RAPA" ;
     skos:prefLabel "Resource Access Pattern Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RC a skos:Concept ;
@@ -1937,10 +2233,12 @@ d3fend:D3-RC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RC" ;
     skos:prefLabel "Restore Configuration"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RD a skos:Concept ;
@@ -1950,10 +2248,12 @@ d3fend:D3-RD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RD" ;
     skos:prefLabel "Restore Database"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RDI a skos:Concept ;
@@ -1963,10 +2263,12 @@ d3fend:D3-RDI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RDI" ;
     skos:prefLabel "Restore Disk Image"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RE a skos:Concept ;
@@ -1976,10 +2278,12 @@ d3fend:D3-RE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RE" ;
     skos:prefLabel "Restore Email"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RFAM a skos:Concept ;
@@ -1989,10 +2293,12 @@ d3fend:D3-RFAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RFAM" ;
     skos:prefLabel "Remote File Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RFS a skos:Concept ;
@@ -2002,10 +2308,12 @@ d3fend:D3-RFS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RFS" ;
     skos:prefLabel "RF Shielding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RIC a skos:Concept ;
@@ -2015,10 +2323,12 @@ d3fend:D3-RIC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RIC" ;
     skos:prefLabel "Reissue Credential"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RKD a skos:Concept ;
@@ -2028,10 +2338,12 @@ d3fend:D3-RKD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RKD" ;
     skos:prefLabel "Registry Key Deletion"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RN a skos:Concept ;
@@ -2042,10 +2354,12 @@ d3fend:D3-RN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RN" ;
     skos:prefLabel "Reference Nullification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RNA a skos:Concept ;
@@ -2055,10 +2369,12 @@ d3fend:D3-RNA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RNA" ;
     skos:prefLabel "Restore Network Access"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RPA a skos:Concept ;
@@ -2068,10 +2384,12 @@ d3fend:D3-RPA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RPA" ;
     skos:prefLabel "Relay Pattern Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RRID a skos:Concept ;
@@ -2081,10 +2399,12 @@ d3fend:D3-RRID a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RRID" ;
     skos:prefLabel "Reverse Resolution IP Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RS a skos:Concept ;
@@ -2094,10 +2414,12 @@ d3fend:D3-RS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RS" ;
     skos:prefLabel "Restore Software"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RTA a skos:Concept ;
@@ -2107,10 +2429,12 @@ d3fend:D3-RTA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RTA" ;
     skos:prefLabel "RPC Traffic Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RTSD a skos:Concept ;
@@ -2120,10 +2444,12 @@ d3fend:D3-RTSD a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RTSD" ;
     skos:prefLabel "Remote Terminal Session Detection"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SAOR a skos:Concept ;
@@ -2133,10 +2459,12 @@ d3fend:D3-SAOR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SAOR" ;
     skos:prefLabel "Segment Address Offset Randomization"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SBV a skos:Concept ;
@@ -2146,10 +2474,12 @@ d3fend:D3-SBV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SBV" ;
     skos:prefLabel "Service Binary Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SCP a skos:Concept ;
@@ -2159,10 +2489,12 @@ d3fend:D3-SCP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SCP" ;
     skos:prefLabel "System Configuration Permissions"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SDA a skos:Concept ;
@@ -2172,10 +2504,12 @@ d3fend:D3-SDA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SDA" ;
     skos:prefLabel "Session Duration Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SDM a skos:Concept ;
@@ -2185,10 +2519,12 @@ d3fend:D3-SDM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SDM" ;
     skos:prefLabel "System Daemon Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SEA a skos:Concept ;
@@ -2198,10 +2534,12 @@ d3fend:D3-SEA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SEA" ;
     skos:prefLabel "Script Execution Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SFCV a skos:Concept ;
@@ -2211,10 +2549,12 @@ d3fend:D3-SFCV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SFCV" ;
     skos:prefLabel "Stack Frame Canary Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SFV a skos:Concept ;
@@ -2224,10 +2564,12 @@ d3fend:D3-SFV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SFV" ;
     skos:prefLabel "System Firmware Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SHN a skos:Concept ;
@@ -2237,10 +2579,12 @@ d3fend:D3-SHN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SHN" ;
     skos:prefLabel "Standalone Honeynet"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SICA a skos:Concept ;
@@ -2250,10 +2594,12 @@ d3fend:D3-SICA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SICA" ;
     skos:prefLabel "System Init Config Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SJA a skos:Concept ;
@@ -2263,10 +2609,12 @@ d3fend:D3-SJA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SJA" ;
     skos:prefLabel "Scheduled Job Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SMRA a skos:Concept ;
@@ -2276,10 +2624,12 @@ d3fend:D3-SMRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SMRA" ;
     skos:prefLabel "Sender MTA Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SRA a skos:Concept ;
@@ -2289,10 +2639,12 @@ d3fend:D3-SRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SRA" ;
     skos:prefLabel "Sender Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SSC a skos:Concept ;
@@ -2302,10 +2654,12 @@ d3fend:D3-SSC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SSC" ;
     skos:prefLabel "Shadow Stack Comparisons"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ST a skos:Concept ;
@@ -2315,10 +2669,12 @@ d3fend:D3-ST a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ST" ;
     skos:prefLabel "Session Termination"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SU a skos:Concept ;
@@ -2328,10 +2684,12 @@ d3fend:D3-SU a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SU" ;
     skos:prefLabel "Software Update"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SVCDM a skos:Concept ;
@@ -2341,10 +2699,12 @@ d3fend:D3-SVCDM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SVCDM" ;
     skos:prefLabel "Service Dependency Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SWI a skos:Concept ;
@@ -2354,10 +2714,12 @@ d3fend:D3-SWI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SWI" ;
     skos:prefLabel "Software Inventory"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SYSDM a skos:Concept ;
@@ -2367,10 +2729,12 @@ d3fend:D3-SYSDM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SYSDM" ;
     skos:prefLabel "System Dependency Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SYSVA a skos:Concept ;
@@ -2380,10 +2744,12 @@ d3fend:D3-SYSVA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SYSVA" ;
     skos:prefLabel "System Vulnerability Assessment"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-TAAN a skos:Concept ;
@@ -2393,10 +2759,12 @@ d3fend:D3-TAAN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-TAAN" ;
     skos:prefLabel "Transfer Agent Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-TB a skos:Concept ;
@@ -2406,10 +2774,12 @@ d3fend:D3-TB a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-TB" ;
     skos:prefLabel "Token Binding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-TBA a skos:Concept ;
@@ -2419,10 +2789,12 @@ d3fend:D3-TBA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-TBA" ;
     skos:prefLabel "Token-based Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-TBI a skos:Concept ;
@@ -2432,10 +2804,12 @@ d3fend:D3-TBI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-TBI" ;
     skos:prefLabel "TPM Boot Integrity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-TL a skos:Concept ;
@@ -2446,10 +2820,12 @@ d3fend:D3-TL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-TL" ;
     skos:prefLabel "Trusted Library"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UA a skos:Concept ;
@@ -2459,10 +2835,12 @@ d3fend:D3-UA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-UA" ;
     skos:prefLabel "URL Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UAP a skos:Concept ;
@@ -2472,10 +2850,12 @@ d3fend:D3-UAP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-UAP" ;
     skos:prefLabel "User Account Permissions"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UDTA a skos:Concept ;
@@ -2485,10 +2865,12 @@ d3fend:D3-UDTA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-UDTA" ;
     skos:prefLabel "User Data Transfer Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UGLPA a skos:Concept ;
@@ -2498,10 +2880,12 @@ d3fend:D3-UGLPA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-UGLPA" ;
     skos:prefLabel "User Geolocation Logon Pattern Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UGPH a skos:Concept ;
@@ -2511,10 +2895,12 @@ d3fend:D3-UGPH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-UGPH" ;
     skos:prefLabel "User Group Permissions"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ULA a skos:Concept ;
@@ -2524,10 +2910,12 @@ d3fend:D3-ULA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ULA" ;
     skos:prefLabel "Unlock Account"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-URA a skos:Concept ;
@@ -2537,10 +2925,12 @@ d3fend:D3-URA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-URA" ;
     skos:prefLabel "URL Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-USICA a skos:Concept ;
@@ -2550,10 +2940,12 @@ d3fend:D3-USICA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-USICA" ;
     skos:prefLabel "User Session Init Config Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-VI a skos:Concept ;
@@ -2563,10 +2955,12 @@ d3fend:D3-VI a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-VI" ;
     skos:prefLabel "Variable Initialization"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-VS a skos:Concept ;
@@ -2576,10 +2970,12 @@ d3fend:D3-VS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-VS" ;
     skos:prefLabel "Video Surveillance"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-VTV a skos:Concept ;
@@ -2589,10 +2985,12 @@ d3fend:D3-VTV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-VTV" ;
     skos:prefLabel "Variable Type Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-WSAA a skos:Concept ;
@@ -2602,10 +3000,12 @@ d3fend:D3-WSAA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-WSAA" ;
     skos:prefLabel "Web Session Activity Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ACH a skos:Concept ;
@@ -2615,10 +3015,12 @@ d3fend:D3-ACH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ACH" ;
     skos:prefLabel "Application Configuration Hardening"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-APM a skos:Concept ;
@@ -2628,10 +3030,12 @@ d3fend:D3-APM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-APM" ;
     skos:prefLabel "Application Performance Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AVE a skos:Concept ;
@@ -2641,10 +3045,12 @@ d3fend:D3-AVE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-AVE" ;
     skos:prefLabel "Asset Vulnerability Enumeration"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CV a skos:Concept ;
@@ -2654,10 +3060,12 @@ d3fend:D3-CV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CV" ;
     skos:prefLabel "Content Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DLV a skos:Concept ;
@@ -2667,10 +3075,12 @@ d3fend:D3-DLV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DLV" ;
     skos:prefLabel "Domain Logic Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EMH a skos:Concept ;
@@ -2680,10 +3090,12 @@ d3fend:D3-EMH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-EMH" ;
     skos:prefLabel "Electromagnetic Radiation Hardening"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FCOA a skos:Concept ;
@@ -2693,10 +3105,12 @@ d3fend:D3-FCOA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FCOA" ;
     skos:prefLabel "File Content Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FEV a skos:Concept ;
@@ -2706,10 +3120,12 @@ d3fend:D3-FEV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FEV" ;
     skos:prefLabel "File Eviction"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FMVV a skos:Concept ;
@@ -2719,10 +3135,12 @@ d3fend:D3-FMVV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FMVV" ;
     skos:prefLabel "File Metadata Value Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-HS a skos:Concept ;
@@ -2732,10 +3150,12 @@ d3fend:D3-HS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-HS" ;
     skos:prefLabel "Host Shutdown"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ITF a skos:Concept ;
@@ -2745,10 +3165,12 @@ d3fend:D3-ITF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-ITF" ;
     skos:prefLabel "Inbound Traffic Filtering"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MAN a skos:Concept ;
@@ -2758,10 +3180,12 @@ d3fend:D3-MAN a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-MAN" ;
     skos:prefLabel "Message Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PAM a skos:Concept ;
@@ -2771,10 +3195,12 @@ d3fend:D3-PAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PAM" ;
     skos:prefLabel "Physical Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PR a skos:Concept ;
@@ -2784,10 +3210,12 @@ d3fend:D3-PR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PR" ;
     skos:prefLabel "Password Rotation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PSA a skos:Concept ;
@@ -2797,10 +3225,12 @@ d3fend:D3-PSA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PSA" ;
     skos:prefLabel "Process Spawn Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RF a skos:Concept ;
@@ -2810,10 +3240,12 @@ d3fend:D3-RF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RF" ;
     skos:prefLabel "Restore File"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RFUM a skos:Concept ;
@@ -2823,10 +3255,12 @@ d3fend:D3-RFUM a skos:Concept ;
     skos:notation "D3-RFUM" ;
     skos:prefLabel "Remote Firmware Update Monitoring"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RH a skos:Concept ;
@@ -2836,10 +3270,12 @@ d3fend:D3-RH a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RH" ;
     skos:prefLabel "Radiation Hardening"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RUAA a skos:Concept ;
@@ -2849,10 +3285,12 @@ d3fend:D3-RUAA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-RUAA" ;
     skos:prefLabel "Restore User Account Access"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SCA a skos:Concept ;
@@ -2862,10 +3300,12 @@ d3fend:D3-SCA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SCA" ;
     skos:prefLabel "System Call Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SCF a skos:Concept ;
@@ -2875,10 +3315,12 @@ d3fend:D3-SCF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SCF" ;
     skos:prefLabel "System Call Filtering"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SFA a skos:Concept ;
@@ -2888,10 +3330,12 @@ d3fend:D3-SFA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SFA" ;
     skos:prefLabel "System File Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SPP a skos:Concept ;
@@ -2901,10 +3345,12 @@ d3fend:D3-SPP a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-SPP" ;
     skos:prefLabel "Strong Password Policy"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CA a skos:Concept ;
@@ -2914,10 +3360,12 @@ d3fend:D3-CA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CA" ;
     skos:prefLabel "Certificate Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CRO a skos:Concept ;
@@ -2927,10 +3375,12 @@ d3fend:D3-CRO a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CRO" ;
     skos:prefLabel "Credential Rotation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DKF a skos:Concept ;
@@ -2940,10 +3390,12 @@ d3fend:D3-DKF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DKF" ;
     skos:prefLabel "Disk Formatting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FRDDL a skos:Concept ;
@@ -2953,10 +3405,12 @@ d3fend:D3-FRDDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FRDDL" ;
     skos:prefLabel "Forward Resolution Domain Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FV a skos:Concept ;
@@ -2966,10 +3420,12 @@ d3fend:D3-FV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FV" ;
     skos:prefLabel "Firmware Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-LLM a skos:Concept ;
@@ -2979,10 +3435,12 @@ d3fend:D3-LLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-LLM" ;
     skos:prefLabel "Logical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NAM a skos:Concept ;
@@ -2992,10 +3450,12 @@ d3fend:D3-NAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NAM" ;
     skos:prefLabel "Network Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NRAM a skos:Concept ;
@@ -3005,10 +3465,12 @@ d3fend:D3-NRAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NRAM" ;
     skos:prefLabel "Network Resource Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NTF a skos:Concept ;
@@ -3018,10 +3480,12 @@ d3fend:D3-NTF a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-NTF" ;
     skos:prefLabel "Network Traffic Filtering"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PLM a skos:Concept ;
@@ -3031,10 +3495,12 @@ d3fend:D3-PLM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PLM" ;
     skos:prefLabel "Physical Link Mapping"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PV a skos:Concept ;
@@ -3044,10 +3510,12 @@ d3fend:D3-PV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-PV" ;
     skos:prefLabel "Pointer Validation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-WSAM a skos:Concept ;
@@ -3057,10 +3525,12 @@ d3fend:D3-WSAM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-WSAM" ;
     skos:prefLabel "Web Session Access Mediation"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DNSDL a skos:Concept ;
@@ -3070,10 +3540,12 @@ d3fend:D3-DNSDL a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-DNSDL" ;
     skos:prefLabel "DNS Denylisting"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MA a skos:Concept ;
@@ -3083,10 +3555,12 @@ d3fend:D3-MA a skos:Concept ;
     skos:notation "D3-MA" ;
     skos:prefLabel "Message Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CE a skos:Concept ;
@@ -3096,10 +3570,12 @@ d3fend:D3-CE a skos:Concept ;
     skos:notation "D3-CE" ;
     skos:prefLabel "Credential Eviction"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CF a skos:Concept ;
@@ -3109,10 +3585,12 @@ d3fend:D3-CF a skos:Concept ;
     skos:notation "D3-CF" ;
     skos:prefLabel "Content Filtering"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CM a skos:Concept ;
@@ -3122,10 +3600,12 @@ d3fend:D3-CM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-CM" ;
     skos:prefLabel "Content Modification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DE a skos:Concept ;
@@ -3135,10 +3615,12 @@ d3fend:D3-DE a skos:Concept ;
     skos:notation "D3-DE" ;
     skos:prefLabel "Decoy Environment"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FFV a skos:Concept ;
@@ -3148,10 +3630,12 @@ d3fend:D3-FFV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-FFV" ;
     skos:prefLabel "File Format Verification"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-IRA a skos:Concept ;
@@ -3161,10 +3645,12 @@ d3fend:D3-IRA a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-IRA" ;
     skos:prefLabel "Identifier Reputation Analysis"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-MH a skos:Concept ;
@@ -3174,10 +3660,12 @@ d3fend:D3-MH a skos:Concept ;
     skos:notation "D3-MH" ;
     skos:prefLabel "Message Hardening"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RA a skos:Concept ;
@@ -3187,10 +3675,12 @@ d3fend:D3-RA a skos:Concept ;
     skos:notation "D3-RA" ;
     skos:prefLabel "Restore Access"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-APA a skos:Concept ;
@@ -3200,10 +3690,12 @@ d3fend:D3-APA a skos:Concept ;
     skos:notation "D3-APA" ;
     skos:prefLabel "Access Policy Administration"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-CH a skos:Concept ;
@@ -3213,10 +3705,12 @@ d3fend:D3-CH a skos:Concept ;
     skos:notation "D3-CH" ;
     skos:prefLabel "Credential Hardening"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-FA a skos:Concept ;
@@ -3226,10 +3720,12 @@ d3fend:D3-FA a skos:Concept ;
     skos:notation "D3-FA" ;
     skos:prefLabel "File Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-ID a skos:Concept ;
@@ -3239,10 +3735,12 @@ d3fend:D3-ID a skos:Concept ;
     skos:notation "D3-ID" ;
     skos:prefLabel "Identifier Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NM a skos:Concept ;
@@ -3252,10 +3750,12 @@ d3fend:D3-NM a skos:Concept ;
     skos:notation "D3-NM" ;
     skos:prefLabel "Network Mapping"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OAM a skos:Concept ;
@@ -3265,10 +3765,12 @@ d3fend:D3-OAM a skos:Concept ;
     skos:notation "D3-OAM" ;
     skos:prefLabel "Operational Activity Mapping"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PE a skos:Concept ;
@@ -3278,10 +3780,12 @@ d3fend:D3-PE a skos:Concept ;
     skos:notation "D3-PE" ;
     skos:prefLabel "Process Eviction"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PHAM a skos:Concept ;
@@ -3291,10 +3795,12 @@ d3fend:D3-PHAM a skos:Concept ;
     skos:notation "D3-PHAM" ;
     skos:prefLabel "Physical Access Monitoring"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SYSM a skos:Concept ;
@@ -3304,10 +3810,12 @@ d3fend:D3-SYSM a skos:Concept ;
     skos:notation "D3-SYSM" ;
     skos:prefLabel "System Mapping"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AA a skos:Concept ;
@@ -3317,10 +3825,12 @@ d3fend:D3-AA a skos:Concept ;
     skos:notation "D3-AA" ;
     skos:prefLabel "Agent Authentication"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-EI a skos:Concept ;
@@ -3330,10 +3840,12 @@ d3fend:D3-EI a skos:Concept ;
     skos:notation "D3-EI" ;
     skos:prefLabel "Execution Isolation"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OE a skos:Concept ;
@@ -3343,10 +3855,12 @@ d3fend:D3-OE a skos:Concept ;
     skos:notation "D3-OE" ;
     skos:prefLabel "Object Eviction"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-RO a skos:Concept ;
@@ -3356,10 +3870,12 @@ d3fend:D3-RO a skos:Concept ;
     skos:notation "D3-RO" ;
     skos:prefLabel "Restore Object"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AI a skos:Concept ;
@@ -3369,10 +3885,12 @@ d3fend:D3-AI a skos:Concept ;
     skos:notation "D3-AI" ;
     skos:prefLabel "Asset Inventory"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-DO a skos:Concept ;
@@ -3382,10 +3900,12 @@ d3fend:D3-DO a skos:Concept ;
     skos:notation "D3-DO" ;
     skos:prefLabel "Decoy Object"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NI a skos:Concept ;
@@ -3395,10 +3915,12 @@ d3fend:D3-NI a skos:Concept ;
     skos:notation "D3-NI" ;
     skos:prefLabel "Network Isolation"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-OSM a skos:Concept ;
@@ -3408,10 +3930,12 @@ d3fend:D3-OSM a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
     skos:notation "D3-OSM" ;
     skos:prefLabel "Operating System Monitoring"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AH a skos:Concept ;
@@ -3421,10 +3945,12 @@ d3fend:D3-AH a skos:Concept ;
     skos:notation "D3-AH" ;
     skos:prefLabel "Application Hardening"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-AMED a skos:Concept ;
@@ -3434,10 +3960,12 @@ d3fend:D3-AMED a skos:Concept ;
     skos:notation "D3-AMED" ;
     skos:prefLabel "Access Mediation"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-SCH a skos:Concept ;
@@ -3447,10 +3975,12 @@ d3fend:D3-SCH a skos:Concept ;
     skos:notation "D3-SCH" ;
     skos:prefLabel "Source Code Hardening"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PA a skos:Concept ;
@@ -3460,10 +3990,12 @@ d3fend:D3-PA a skos:Concept ;
     skos:notation "D3-PA" ;
     skos:prefLabel "Process Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PM a skos:Concept ;
@@ -3473,10 +4005,12 @@ d3fend:D3-PM a skos:Concept ;
     skos:notation "D3-PM" ;
     skos:prefLabel "Platform Monitoring"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-PH a skos:Concept ;
@@ -3492,10 +4026,12 @@ Platforms includes components such as:
     skos:notation "D3-PH" ;
     skos:prefLabel "Platform Hardening"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-UBA a skos:Concept ;
@@ -3505,10 +4041,12 @@ d3fend:D3-UBA a skos:Concept ;
     skos:notation "D3-UBA" ;
     skos:prefLabel "User Behavior Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 d3fend:D3-NTA a skos:Concept ;
@@ -3518,10 +4056,12 @@ d3fend:D3-NTA a skos:Concept ;
     skos:notation "D3-NTA" ;
     skos:prefLabel "Network Traffic Analysis"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.7.0" .
 
 <https://w3id.org/crgo/vocab/d3fend> a owl:Ontology,
