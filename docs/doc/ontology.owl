@@ -2087,12 +2087,14 @@
         <rdfs:label xml:lang="en">has source record</rdfs:label>
         <skos:definition xml:lang="en">Relates a vocabulary, dataset, observation or other record to the source record of the content it was imported or derived from.</skos:definition>
         <skos:definition xml:lang="fr">Relie un vocabulaire, un jeu de données, une observation ou un autre enregistrement à la notice de source du contenu dont il est importé ou dérivé.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Sub-property of prov:hadPrimarySource.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2109,11 +2111,13 @@
         <skos:definition xml:lang="en">Relates an observation to the entity it reports on, such as a published vulnerability.</skos:definition>
         <skos:definition xml:lang="fr">Relie une observation à l&apos;entité sur laquelle elle porte, comme une vulnérabilité publiée.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Sub-property of CCO &apos;is about&apos;.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2128,10 +2132,12 @@
         <rdfs:label xml:lang="fr">repose sur l&apos;hypothèse</rdfs:label>
         <skos:definition xml:lang="en">Relates an estimate, assessment, determination or decision to an assumption it takes as true.</skos:definition>
         <skos:definition xml:lang="fr">Relie une estimation, une appréciation, un constat ou une décision à une hypothèse qu&apos;il tient pour vraie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2147,12 +2153,14 @@
         <rdfs:label xml:lang="en">has organisation type</rdfs:label>
         <skos:definition xml:lang="en">Gives the legal category of an organisation.</skos:definition>
         <skos:definition xml:lang="fr">Indique la catégorie juridique d&apos;une organisation.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2168,12 +2176,14 @@
         <rdfs:label xml:lang="fr">établie dans</rdfs:label>
         <skos:definition xml:lang="en">Relates an organisation to a jurisdiction where it has an establishment.</skos:definition>
         <skos:definition xml:lang="fr">Relie une organisation à une juridiction où elle a un établissement.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">GDPR Art. 3(1); Loi 25 s. 1.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2189,11 +2199,13 @@
         <rdfs:label xml:lang="fr">offre des biens ou services aux personnes situées dans</rdfs:label>
         <skos:definition xml:lang="en">Relates an organisation to a jurisdiction whose residents it targets with goods or services, paid or not.</skos:definition>
         <skos:definition xml:lang="fr">Relie une organisation à une juridiction dont elle cible les résidents par des biens ou services, payants ou non.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">GDPR Art. 3(2)(a).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2209,11 +2221,13 @@
         <rdfs:label xml:lang="fr">suit le comportement des personnes situées dans</rdfs:label>
         <skos:definition xml:lang="en">Relates an organisation to a jurisdiction in which it monitors the behaviour of persons, such as by online tracking or profiling.</skos:definition>
         <skos:definition xml:lang="fr">Relie une organisation à une juridiction dans laquelle elle suit le comportement des personnes, par exemple par traçage en ligne ou profilage.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">GDPR Art. 3(2)(b).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2229,10 +2243,12 @@
         <rdfs:label xml:lang="fr">exercée par</rdfs:label>
         <skos:definition xml:lang="en">Relates a processing activity to the organisation that carries it out.</skos:definition>
         <skos:definition xml:lang="fr">Relie une activité de traitement à l&apos;organisation qui l&apos;exerce.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2248,11 +2264,13 @@
         <rdfs:label xml:lang="fr">traite la catégorie de données</rdfs:label>
         <skos:definition xml:lang="en">Relates a processing activity to a category of personal information it handles.</skos:definition>
         <skos:definition xml:lang="fr">Relie une activité de traitement à une catégorie de renseignements personnels qu&apos;elle traite.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2268,10 +2286,12 @@
         <rdfs:label xml:lang="en">has processing role</rdfs:label>
         <skos:definition xml:lang="en">Gives the role the organisation carrying out a processing activity plays in it.</skos:definition>
         <skos:definition xml:lang="fr">Indique le rôle que joue dans une activité de traitement l&apos;organisation qui l&apos;exerce.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2287,11 +2307,13 @@
         <rdfs:label xml:lang="fr">personnes concernées situées dans</rdfs:label>
         <skos:definition xml:lang="en">Relates a processing activity to a jurisdiction where persons whose information it handles are located.</skos:definition>
         <skos:definition xml:lang="fr">Relie une activité de traitement à une juridiction où se trouvent des personnes dont elle traite les renseignements.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2307,13 +2329,15 @@
         <rdfs:label xml:lang="en">transfers personal information to</rdfs:label>
         <skos:definition xml:lang="en">Relates a processing activity to a jurisdiction where personal information is disclosed to, or stored by, a recipient.</skos:definition>
         <skos:definition xml:lang="fr">Relie une activité de traitement à une juridiction où des renseignements personnels sont communiqués à un destinataire ou conservés par lui.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Loi 25 s. 17; GDPR Chapter V; PIPEDA interprovincial and international disclosures.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2329,11 +2353,13 @@
         <rdfs:label xml:lang="en">supplier to</rdfs:label>
         <skos:definition xml:lang="en">Relates a supplier role to the organisation that depends on what its bearer supplies.</skos:definition>
         <skos:definition xml:lang="fr">Relie un rôle de fournisseur à l&apos;organisation qui dépend de ce que fournit le porteur du rôle.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">The bearer is given by BFO &apos;bearer of&apos;; assets the supplier provides keep &apos;provided by&apos;.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2348,10 +2374,12 @@
         <rdfs:label xml:lang="en">has jurisdiction</rdfs:label>
         <skos:definition xml:lang="en">Relates a legal instrument, applicability assessment or compliance determination to its jurisdiction.</skos:definition>
         <skos:definition xml:lang="fr">Relie un instrument juridique, une évaluation de l&apos;applicabilité ou un constat de conformité à sa juridiction.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2368,10 +2396,12 @@
         <skos:definition xml:lang="en">Gives the kind of a legal instrument.</skos:definition>
         <skos:definition xml:lang="fr">Indique le type d&apos;un instrument juridique.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2386,10 +2416,12 @@
         <rdfs:label xml:lang="en">provision of</rdfs:label>
         <skos:definition xml:lang="en">Relates a provision, such as a concept of a CRGO legal vocabulary, to the legal instrument it belongs to.</skos:definition>
         <skos:definition xml:lang="fr">Relie une disposition, comme un concept d&apos;un vocabulaire juridique de CRGO, à l&apos;instrument juridique dont elle fait partie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2406,12 +2438,14 @@
         <skos:definition xml:lang="en">Relates a legal instrument to the OWL-Time interval during which it is in force; the interval has no end while the instrument is not repealed.</skos:definition>
         <skos:definition xml:lang="fr">Relie un instrument juridique à l&apos;intervalle OWL-Time pendant lequel il est en vigueur; l&apos;intervalle n&apos;a pas de fin tant que l&apos;instrument n&apos;est pas abrogé.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">OWL-Time used where a period is the object of a claim (ADR-006).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">W3C Time Ontology in OWL (OWL-Time), edition of 2025-08-27 (slice: imports/time-slice.ttl)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2426,10 +2460,12 @@
         <rdfs:label xml:lang="en">condition of</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability condition to the instrument or provision whose application it governs.</skos:definition>
         <skos:definition xml:lang="fr">Relie une condition d&apos;applicabilité à l&apos;instrument ou à la disposition dont elle régit l&apos;application.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2446,10 +2482,12 @@
         <skos:definition xml:lang="en">Gives the kind of fact an applicability condition tests.</skos:definition>
         <skos:definition xml:lang="fr">Indique le type de fait que vérifie une condition d&apos;applicabilité.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2465,10 +2503,12 @@
         <skos:definition xml:lang="en">Relates an applicability assessment to the instrument or provision assessed.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité à l&apos;instrument ou à la disposition évalués.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2483,10 +2523,12 @@
         <rdfs:label xml:lang="en">concerns organisation</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability assessment, compliance determination or control assessment to the organisation it is about.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité, un constat de conformité ou une évaluation de mesure à l&apos;organisation qu&apos;il concerne.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2503,10 +2545,12 @@
         <skos:definition xml:lang="en">Gives the state reached by an applicability assessment.</skos:definition>
         <skos:definition xml:lang="fr">Indique l&apos;état retenu par une évaluation de l&apos;applicabilité.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2522,10 +2566,12 @@
         <rdfs:label xml:lang="fr">condition remplie</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability assessment to a condition found met.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité à une condition jugée remplie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2541,10 +2587,12 @@
         <rdfs:label xml:lang="en">condition not met</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability assessment to a condition found not met.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité à une condition jugée non remplie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2560,10 +2608,12 @@
         <rdfs:label xml:lang="en">condition undetermined</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability assessment to a condition that could not be evaluated because a needed fact is missing.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité à une condition qui n&apos;a pu être évaluée faute d&apos;un fait nécessaire.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2579,10 +2629,12 @@
         <skos:definition xml:lang="en">Relates a compliance determination to the provision or obligation determined.</skos:definition>
         <skos:definition xml:lang="fr">Relie un constat de conformité à la disposition ou à l&apos;obligation visée.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2599,10 +2651,12 @@
         <skos:definition xml:lang="en">Gives the state recorded by a compliance determination.</skos:definition>
         <skos:definition xml:lang="fr">Indique l&apos;état consigné par un constat de conformité.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2618,10 +2672,12 @@
         <rdfs:label xml:lang="fr">fondé sur l&apos;évaluation de mesure</rdfs:label>
         <skos:definition xml:lang="en">Relates a compliance determination to a control assessment it relies on.</skos:definition>
         <skos:definition xml:lang="fr">Relie un constat de conformité à une évaluation de mesure de sécurité sur laquelle il s&apos;appuie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2636,10 +2692,12 @@
         <rdfs:label xml:lang="fr">évalué par</rdfs:label>
         <skos:definition xml:lang="en">Relates an applicability assessment, compliance determination or control assessment to the agent responsible for it.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de l&apos;applicabilité, un constat de conformité ou une évaluation de mesure à l&apos;agent qui en est responsable.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2656,10 +2714,12 @@
         <skos:definition xml:lang="en">Relates a control assessment to the control measure it tests.</skos:definition>
         <skos:definition xml:lang="fr">Relie une évaluation de mesure de sécurité à la mesure appliquée qu&apos;elle teste.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2676,10 +2736,12 @@
         <skos:definition xml:lang="en">Gives the result recorded by a control assessment.</skos:definition>
         <skos:definition xml:lang="fr">Indique le résultat consigné par une évaluation de mesure de sécurité.</skos:definition>
         <skos:scopeNote xml:lang="en">At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL.</skos:scopeNote>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2694,10 +2756,12 @@
         <rdfs:label xml:lang="en">technique mitigated by control</rdfs:label>
         <skos:definition xml:lang="en">Relates an ATT&amp;CK technique to an SP 800-53 control that can mitigate it, as mapped by MITRE CTID.</skos:definition>
         <skos:definition xml:lang="fr">Relie une technique ATT&amp;CK à un contrôle SP 800-53 qui peut l&apos;atténuer, selon la correspondance de MITRE CTID.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">MITRE CTID Mappings Explorer, mapping types (mitigates; exploitation technique, primary and secondary impact)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2712,11 +2776,13 @@
         <rdfs:label xml:lang="en">technique countered by defensive technique</rdfs:label>
         <skos:definition xml:lang="en">Relates an ATT&amp;CK technique to a D3FEND defensive technique that can counter it.</skos:definition>
         <skos:definition xml:lang="fr">Relie une technique ATT&amp;CK à une technique défensive D3FEND qui peut la contrer.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Judged correspondences (0.7.0).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2731,10 +2797,12 @@
         <rdfs:label xml:lang="fr">patron d&apos;attaque exploitant la faiblesse</rdfs:label>
         <skos:definition xml:lang="en">Relates a CAPEC attack pattern to a CWE weakness it exploits, as referenced by CAPEC.</skos:definition>
         <skos:definition xml:lang="fr">Relie un patron d&apos;attaque CAPEC à une faiblesse CWE qu&apos;il exploite, selon les références de CAPEC.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2749,10 +2817,12 @@
         <rdfs:label xml:lang="fr">patron d&apos;attaque lié à la technique</rdfs:label>
         <skos:definition xml:lang="en">Relates a CAPEC attack pattern to an ATT&amp;CK technique it references.</skos:definition>
         <skos:definition xml:lang="fr">Relie un patron d&apos;attaque CAPEC à une technique ATT&amp;CK qu&apos;il cite.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2767,10 +2837,12 @@
         <rdfs:label xml:lang="fr">vulnérabilité relevant de la faiblesse</rdfs:label>
         <skos:definition xml:lang="en">Relates a CVE in the KEV catalogue to a CWE weakness it is an instance of, as given by CISA.</skos:definition>
         <skos:definition xml:lang="fr">Relie une CVE du catalogue KEV à une faiblesse CWE dont elle relève, selon la CISA.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2785,10 +2857,12 @@
         <rdfs:label xml:lang="fr">vulnérabilité associée à la technique</rdfs:label>
         <skos:definition xml:lang="en">Relates a CVE in the KEV catalogue to an ATT&amp;CK technique used to exploit it or describing its impact, as mapped by MITRE CTID; the mapping type is in the annotation.</skos:definition>
         <skos:definition xml:lang="fr">Relie une CVE du catalogue KEV à une technique ATT&amp;CK servant à l&apos;exploiter ou décrivant son impact, selon MITRE CTID; le type de correspondance est dans l&apos;annotation.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">MITRE CTID Mappings Explorer, mapping types (mitigates; exploitation technique, primary and secondary impact)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2803,11 +2877,13 @@
         <rdfs:label xml:lang="en">subcategory supported by control</rdfs:label>
         <skos:definition xml:lang="en">Relates a NIST CSF 2.0 element to an SP 800-53 control that supports it.</skos:definition>
         <skos:definition xml:lang="fr">Relie un élément du NIST CSF 2.0 à un contrôle SP 800-53 qui l&apos;appuie.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Derived from NIST&apos;s CSF 1.1 mapping (0.8.0).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2822,10 +2898,12 @@
         <rdfs:label xml:lang="fr">contrôle correspondant au contrôle</rdfs:label>
         <skos:definition xml:lang="en">Relates an SP 800-53 control to an ISO/IEC 27002 control that NIST OLIR relates to it.</skos:definition>
         <skos:definition xml:lang="fr">Relie un contrôle SP 800-53 à un contrôle ISO/IEC 27002 que NIST OLIR y rattache.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">NIST OLIR relationship types (subset of, intersects with, equal, superset of, not related to)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2840,10 +2918,12 @@
         <rdfs:label xml:lang="en">principle addressed by category</rdfs:label>
         <skos:definition xml:lang="en">Relates an OSFI B-13 principle to a NIST CSF 2.0 category that addresses it.</skos:definition>
         <skos:definition xml:lang="fr">Relie un principe de la ligne directrice B-13 du BSIF à une catégorie du NIST CSF 2.0 qui le couvre.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2858,11 +2938,13 @@
         <rdfs:label xml:lang="fr">obligation comparable</rdfs:label>
         <skos:definition xml:lang="en">Relates an obligation in one legal regime to a comparable obligation in another regime; comparable is not equivalent, and the annotation states the differences.</skos:definition>
         <skos:definition xml:lang="fr">Relie une obligation d&apos;un régime juridique à une obligation comparable d&apos;un autre régime; comparable ne veut pas dire équivalente, et l&apos;annotation précise les différences.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification section 3: framework mapping is not legal equivalence.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -2877,10 +2959,12 @@
         <rdfs:label xml:lang="en">same obligation in another regime</rdfs:label>
         <skos:definition xml:lang="en">Relates an obligation of the Québec private-sector Act to the obligation worded the same way for public bodies.</skos:definition>
         <skos:definition xml:lang="fr">Relie une obligation de la loi sur le secteur privé à l&apos;obligation formulée de la même façon pour les organismes publics.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:ObjectProperty>
     
@@ -3860,10 +3944,12 @@
         <rdfs:label xml:lang="en">retrieved on</rdfs:label>
         <skos:definition xml:lang="en">Gives when the file a source record describes was obtained.</skos:definition>
         <skos:definition xml:lang="fr">Indique quand le fichier décrit par une notice de source a été obtenu.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3880,10 +3966,12 @@
         <rdfs:label xml:lang="fr">version de la source</rdfs:label>
         <skos:definition xml:lang="en">Gives the version, release or consolidation date of a source as its issuer states it.</skos:definition>
         <skos:definition xml:lang="fr">Indique la version, l&apos;édition ou la date de mise à jour d&apos;une source telle que l&apos;énonce son émetteur.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3899,10 +3987,12 @@
         <rdfs:label xml:lang="en">official identifier</rdfs:label>
         <skos:definition xml:lang="en">Gives the official citation, identifier or web address of a source.</skos:definition>
         <skos:definition xml:lang="fr">Indique la citation officielle, l&apos;identifiant ou l&apos;adresse web d&apos;une source.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3918,10 +4008,12 @@
         <rdfs:label xml:lang="fr">émetteur</rdfs:label>
         <skos:definition xml:lang="en">Gives the organisation that issues or publishes a source.</skos:definition>
         <skos:definition xml:lang="fr">Indique l&apos;organisation qui émet ou publie une source.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3937,10 +4029,12 @@
         <rdfs:label xml:lang="fr">licence ou conditions</rdfs:label>
         <skos:definition xml:lang="en">Gives the licence or terms of use of a source.</skos:definition>
         <skos:definition xml:lang="fr">Indique la licence ou les conditions d&apos;utilisation d&apos;une source.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3956,10 +4050,12 @@
         <rdfs:label xml:lang="en">redistribution in CRGO</rdfs:label>
         <skos:definition xml:lang="fr">Indique ce que CRGO reproduit ou dérive d&apos;une source, comme les identifiants et titres seulement, ou des décomptes seulement.</skos:definition>
         <skos:definition xml:lang="en">States what CRGO reproduces or derives from a source, such as identifiers and titles only, or counts only.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3975,10 +4071,12 @@
         <rdfs:label xml:lang="fr">empreinte SHA-256</rdfs:label>
         <skos:definition xml:lang="en">Gives the SHA-256 checksum of a file a source record describes, so that a rebuild can verify it used the same file.</skos:definition>
         <skos:definition xml:lang="fr">Indique l&apos;empreinte SHA-256 d&apos;un fichier décrit par une notice de source, afin qu&apos;une reconstruction puisse vérifier qu&apos;elle utilise le même fichier.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -3994,10 +4092,12 @@
         <rdfs:label xml:lang="en">verification note</rdfs:label>
         <skos:definition xml:lang="fr">Indique comment et par rapport à quoi le contenu d&apos;une source a été vérifié.</skos:definition>
         <skos:definition xml:lang="en">States how and against what a source&apos;s content was verified.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4012,10 +4112,12 @@
         <rdfs:label xml:lang="fr">publié le</rdfs:label>
         <skos:definition xml:lang="en">Gives the publication date of a source or legal instrument.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date de publication d&apos;une source ou d&apos;un instrument juridique.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4032,10 +4134,12 @@
         <rdfs:label xml:lang="fr">observé le</rdfs:label>
         <skos:definition xml:lang="en">Gives the date and time an observation refers to, such as the date of an EPSS score.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date et l&apos;heure auxquelles se rapporte une observation, comme la date d&apos;un score EPSS.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4052,10 +4156,12 @@
         <rdfs:label xml:lang="en">observation horizon</rdfs:label>
         <skos:definition xml:lang="en">Gives the period a reported probability or frequency refers to, such as &apos;next 30 days&apos;.</skos:definition>
         <skos:definition xml:lang="fr">Indique la période à laquelle se rapporte une probabilité ou une fréquence rapportée, comme « 30 prochains jours ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4072,10 +4178,12 @@
         <rdfs:label xml:lang="fr">version du modèle</rdfs:label>
         <skos:definition xml:lang="en">Gives the version of the model that produced an observed score.</skos:definition>
         <skos:definition xml:lang="fr">Indique la version du modèle qui a produit un score observé.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4092,10 +4200,12 @@
         <rdfs:label xml:lang="fr">centile EPSS</rdfs:label>
         <skos:definition xml:lang="en">Gives the share of scored vulnerabilities whose EPSS score is at or below that of the observed vulnerability on that day, from 0 to 1.</skos:definition>
         <skos:definition xml:lang="fr">Indique la proportion des vulnérabilités évaluées dont le score EPSS est inférieur ou égal à celui de la vulnérabilité observée ce jour-là, de 0 à 1.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">FIRST, Exploit Prediction Scoring System: model documentation and data (first.org/epss)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4111,10 +4221,12 @@
         <rdfs:label xml:lang="fr">ajoutée au KEV le</rdfs:label>
         <skos:definition xml:lang="en">Gives the date CISA added a vulnerability to its Known Exploited Vulnerabilities catalogue.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date à laquelle la CISA a ajouté une vulnérabilité à son catalogue des vulnérabilités exploitées connues.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4130,10 +4242,12 @@
         <rdfs:label xml:lang="fr">utilisation connue par rançongiciel</rdfs:label>
         <skos:definition xml:lang="en">Gives whether CISA knows of a ransomware campaign using the vulnerability (&apos;Known&apos; or &apos;Unknown&apos;).</skos:definition>
         <skos:definition xml:lang="fr">Indique si la CISA connaît une campagne de rançongiciel exploitant la vulnérabilité (« Known » ou « Unknown »).</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4149,10 +4263,12 @@
         <rdfs:label xml:lang="fr">évalué le</rdfs:label>
         <skos:definition xml:lang="en">Gives when an applicability assessment, compliance determination or control assessment was made.</skos:definition>
         <skos:definition xml:lang="fr">Indique quand une évaluation de l&apos;applicabilité, un constat de conformité ou une évaluation de mesure a été fait.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4169,10 +4285,12 @@
         <rdfs:label xml:lang="en">official citation</rdfs:label>
         <skos:definition xml:lang="en">Gives the official citation of a legal instrument, such as CQLR c. P-39.1.</skos:definition>
         <skos:definition xml:lang="fr">Indique la citation officielle d&apos;un instrument juridique, comme RLRQ c. P-39.1.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4187,11 +4305,13 @@
         <rdfs:label xml:lang="fr">s&apos;applique à compter du</rdfs:label>
         <skos:definition xml:lang="en">Gives the date from which an instrument or provision applies, when it differs from its coming into force.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date à partir de laquelle un instrument ou une disposition s&apos;applique, lorsqu&apos;elle diffère de son entrée en vigueur.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">GDPR in force 2016-05-24, applies from 2018-05-25.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4207,10 +4327,12 @@
         <rdfs:label xml:lang="en">last amended on</rdfs:label>
         <skos:definition xml:lang="en">Gives the date of the latest amendment of a legal instrument known to the consolidation used.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date de la dernière modification d&apos;un instrument juridique connue de la mise à jour utilisée.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4226,10 +4348,12 @@
         <rdfs:label xml:lang="fr">à jour au</rdfs:label>
         <skos:definition xml:lang="en">Gives the date to which the consolidated text used by CRGO is up to date.</skos:definition>
         <skos:definition xml:lang="fr">Indique la date à laquelle le texte consolidé utilisé par CRGO est à jour.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4246,10 +4370,12 @@
         <rdfs:label xml:lang="fr">test de la condition</rdfs:label>
         <skos:definition xml:lang="en">Gives the machine-readable test of an applicability condition, evaluated over an organisation profile by pipeline/grc/applicability.py.</skos:definition>
         <skos:definition xml:lang="fr">Indique le test lisible par machine d&apos;une condition d&apos;applicabilité, évalué sur le profil d&apos;une organisation par pipeline/grc/applicability.py.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4265,10 +4391,12 @@
         <rdfs:label xml:lang="fr">preuve manquante</rdfs:label>
         <skos:definition xml:lang="fr">Indique les preuves qui manquent à un constat de conformité; obligatoire lorsqu&apos;aucune preuve n&apos;est liée.</skos:definition>
         <skos:definition xml:lang="en">States what evidence a compliance determination lacks; required when no evidence is linked.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4284,10 +4412,12 @@
         <rdfs:label xml:lang="en">test procedure</rdfs:label>
         <skos:definition xml:lang="en">Describes how a control assessment tested the control measure, such as inspection, sampling or a restore test.</skos:definition>
         <skos:definition xml:lang="fr">Décrit comment une évaluation de mesure a testé la mesure appliquée, par inspection, échantillonnage ou essai de restauration.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4302,10 +4432,12 @@
         <rdfs:label xml:lang="fr">périmètre de l&apos;évaluation</rdfs:label>
         <skos:definition xml:lang="fr">Indique ce que couvre une évaluation de mesure ou un constat de conformité.</skos:definition>
         <skos:definition xml:lang="en">States what a control assessment or compliance determination covered.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -4321,11 +4453,13 @@
         <rdfs:label xml:lang="en">profile complete for</rdfs:label>
         <skos:definition xml:lang="en">Names a property (by its CRGO key, such as offersServicesIn or transfersDataTo) for which the organisation profile lists every value, so that a value it does not list can be taken as absent. Without it, an unlisted value is unknown.</skos:definition>
         <skos:definition xml:lang="fr">Nomme une propriété (par sa clé CRGO, comme offersServicesIn ou transfersDataTo) pour laquelle le profil de l&apos;organisation énumère toutes les valeurs, de sorte qu&apos;une valeur non énumérée peut être tenue pour absente. Sans cela, une valeur non énumérée est inconnue.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Independent review 2026-10-11: closed-world reading only where the profile declares it (ADR-004).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:DatatypeProperty>
     
@@ -6361,13 +6495,15 @@
         <rdfs:label xml:lang="en">source record</rdfs:label>
         <skos:definition xml:lang="en">A description of a dataset, publication or legal text from which CRGO content was imported or derived, recording its issuer, official identifier, version, retrieval date, licence, what CRGO redistributes and the checksum of the file used.</skos:definition>
         <skos:definition xml:lang="fr">Description d&apos;un jeu de données, d&apos;une publication ou d&apos;un texte juridique dont un contenu de CRGO est importé ou dérivé, indiquant son émetteur, son identifiant officiel, sa version, sa date d&apos;obtention, sa licence, ce que CRGO en rediffuse et l&apos;empreinte du fichier utilisé.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification section 7 (SourceRecord fields); one per row of docs/baseline/source_registry.csv.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO Stage 0 gap analysis (docs/baseline/gap_analysis.md, 2026-10-11)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6383,12 +6519,14 @@
         <rdfs:label xml:lang="fr">observation</rdfs:label>
         <skos:definition xml:lang="en">A dated record that a stated source reported a value or category for an entity at a stated time, such as the EPSS score of a vulnerability on a given day. An observation reports what a source said; it is not an estimate made for an assessment.</skos:definition>
         <skos:definition xml:lang="fr">Enregistrement daté indiquant qu&apos;une source donnée a rapporté une valeur ou une catégorie pour une entité à un moment donné, comme le score EPSS d&apos;une vulnérabilité un jour donné. Une observation rapporte ce qu&apos;une source a dit; ce n&apos;est pas une estimation faite pour une appréciation.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Disjoint from estimate (specification rule 3: separate source facts from model estimates); negative fixture tests it.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6404,11 +6542,13 @@
         <skos:altLabel xml:lang="en">hypothesis</skos:altLabel>
         <skos:definition xml:lang="en">A statement taken as true without verification for an estimate, an assessment or a decision, recorded so that the result can be reviewed when the statement turns out to be false or changes.</skos:definition>
         <skos:definition xml:lang="fr">Énoncé tenu pour vrai sans vérification aux fins d&apos;une estimation, d&apos;une appréciation ou d&apos;une décision, consigné afin que le résultat puisse être revu si l&apos;énoncé se révèle faux ou change.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification sections 6, 7 and 11 (assessments depend on assumptions).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6423,12 +6563,14 @@
         <rdfs:label xml:lang="fr">observation EPSS</rdfs:label>
         <skos:definition xml:lang="en">An observation of the Exploit Prediction Scoring System score of a published vulnerability on a given day: FIRST&apos;s estimated probability that the vulnerability is exploited in the wild in the following 30 days, with its percentile among all scored vulnerabilities. It concerns the vulnerability in general, not its presence in any organisation, and it is not the likelihood of a risk scenario.</skos:definition>
         <skos:definition xml:lang="fr">Observation du score de l&apos;Exploit Prediction Scoring System d&apos;une vulnérabilité publiée un jour donné : la probabilité, estimée par FIRST, que la vulnérabilité soit exploitée dans les 30 jours suivants, avec son centile parmi toutes les vulnérabilités évaluées. Elle porte sur la vulnérabilité en général, non sur sa présence dans une organisation, et ce n&apos;est pas la vraisemblance d&apos;un scénario de risque.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Replaces the 0.8.0 EPSS likelihood estimates (decision D4); specification section 5 (do not conflate probability of exploitation with scenario likelihood).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">FIRST, Exploit Prediction Scoring System: model documentation and data (first.org/epss)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6444,12 +6586,14 @@
         <skos:altLabel xml:lang="fr">traitement de données</skos:altLabel>
         <skos:definition xml:lang="en">A business process, or part of one, in which an organisation collects, uses, discloses, keeps or destroys personal information for stated purposes.</skos:definition>
         <skos:definition xml:lang="fr">Processus d&apos;affaires, ou partie de processus, dans lequel une organisation recueille, utilise, communique, conserve ou détruit des renseignements personnels à des fins déterminées.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">GDPR Art. 30 record entries; Loi 25 purposes of collection. Needed to evaluate applicability (specification section 9).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6466,11 +6610,13 @@
         <skos:altLabel xml:lang="fr">tiers</skos:altLabel>
         <skos:definition xml:lang="en">A role of an organisation that supplies goods, services or the operation of assets to another organisation, which comes to depend on it.</skos:definition>
         <skos:definition xml:lang="fr">Rôle d&apos;une organisation qui fournit des biens, des services ou l&apos;exploitation d&apos;actifs à une autre organisation, laquelle en vient à en dépendre.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Anti-rigid (OntoClean): an organisation is a supplier only relative to a customer, so modelled as a BFO role borne by the organisation.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6485,13 +6631,15 @@
         <rdfs:label xml:lang="en">legal instrument</rdfs:label>
         <skos:definition xml:lang="en">A statute, regulation or regulatory guideline taken as a whole, identified by its official citation, with its jurisdiction and the dates of its publication, coming into force, application and consolidation. Its provisions are the concepts of the corresponding CRGO vocabulary.</skos:definition>
         <skos:definition xml:lang="fr">Loi, règlement ou ligne directrice réglementaire pris dans son ensemble, identifié par sa citation officielle, avec sa juridiction et les dates de sa publication, de son entrée en vigueur, de sa prise d&apos;effet et de sa mise à jour. Ses dispositions sont les concepts du vocabulaire CRGO correspondant.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification section 5 (separate instrument, provision, obligation, applicability, determination).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6506,7 +6654,7 @@
         <rdfs:label xml:lang="fr">condition d&apos;applicabilité</rdfs:label>
         <skos:definition xml:lang="en">A description of a condition under which a legal instrument or one of its provisions applies to an organisation, such as its territory, organisation type, sector, role in processing personal information or a threshold, written as a CRGO paraphrase with its citation and a machine-readable test.</skos:definition>
         <skos:definition xml:lang="fr">Description d&apos;une condition à laquelle un instrument juridique ou l&apos;une de ses dispositions s&apos;applique à une organisation, comme son territoire, son type d&apos;organisation, son secteur, son rôle dans le traitement de renseignements personnels ou un seuil, rédigée comme une paraphrase de CRGO avec sa citation et un test lisible par machine.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Conditions are evaluated over an organisation profile, never asserted as class membership (specification section 9).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
@@ -6515,6 +6663,8 @@
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6530,11 +6680,13 @@
         <rdfs:label xml:lang="fr">évaluation de l&apos;applicabilité</rdfs:label>
         <skos:definition xml:lang="en">A dated record (not the act of assessing) of whether a legal instrument or provision applies to a given organisation, giving the state reached (applicable, not applicable, potentially applicable or unknown) and the conditions found met, not met or undetermined.</skos:definition>
         <skos:definition xml:lang="fr">Enregistrement daté indiquant si un instrument juridique ou une disposition s&apos;applique à une organisation donnée, avec l&apos;état retenu (applicable, non applicable, potentiellement applicable ou inconnu) et les conditions jugées remplies, non remplies ou indéterminées.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification section 9 states; &apos;unknown&apos; when a needed fact is absent, so missing data never yields &apos;not applicable&apos;.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6550,11 +6702,13 @@
         <skos:altLabel xml:lang="en">compliance assessment</skos:altLabel>
         <skos:definition xml:lang="en">A dated record, made by an identified assessor, of the extent to which a given organisation satisfies a legal provision or obligation, with the evidence relied on or an explicit statement of the missing evidence. A mapped control or framework requirement is not by itself evidence of compliance.</skos:definition>
         <skos:definition xml:lang="fr">Enregistrement daté, établi par un évaluateur identifié, du degré auquel une organisation donnée satisfait à une disposition ou à une obligation légale, avec les preuves retenues ou un énoncé explicite des preuves manquantes. Un contrôle ou une exigence de référentiel mis en correspondance ne constitue pas à lui seul une preuve de conformité.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification sections 9 and 13 (state, assessor, date, evidence or evidence gap).</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6570,12 +6724,14 @@
         <skos:altLabel xml:lang="en">control test</skos:altLabel>
         <skos:definition xml:lang="en">A planned act in which an assessor tests or reviews a control measure of an organisation at a stated date, over a stated scope and by a stated procedure, and records its result and the evidence gathered.</skos:definition>
         <skos:definition xml:lang="fr">Acte planifié par lequel un évaluateur teste ou examine une mesure de sécurité d&apos;une organisation à une date, sur un périmètre et selon une procédure donnés, et en consigne le résultat et les preuves recueillies.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Specification section 5 (separate objective, implementation and assessment result): control = objective, control measure = implementation, control assessment = test.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6590,11 +6746,13 @@
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
         <skos:definition xml:lang="en">A territory whose law or regulator CRGO&apos;s legal vocabularies come from, used to state where an organisation is established, offers services or has data subjects.</skos:definition>
         <skos:definition xml:lang="fr">Territoire dont proviennent le droit ou l&apos;autorité de réglementation des vocabulaires juridiques de CRGO, servant à indiquer où une organisation est établie, offre des services ou compte des personnes concernées.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6609,13 +6767,15 @@
         <rdfs:label xml:lang="fr">type d&apos;organisation</rdfs:label>
         <skos:definition xml:lang="fr">Catégorie juridique d&apos;une organisation qui détermine le régime de protection et de sécurité qui la lie.</skos:definition>
         <skos:definition xml:lang="en">The legal category of an organisation that decides which privacy and security regime binds it.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6630,12 +6790,14 @@
         <rdfs:label xml:lang="fr">rôle dans le traitement</rdfs:label>
         <skos:definition xml:lang="fr">Rôle d&apos;une organisation dans une activité de traitement.</skos:definition>
         <skos:definition xml:lang="en">The role an organisation plays in a processing activity.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6650,12 +6812,14 @@
         <rdfs:label xml:lang="en">personal data category</rdfs:label>
         <skos:definition xml:lang="en">A category of personal information that a processing activity handles, used for applicability conditions and sensitivity.</skos:definition>
         <skos:definition xml:lang="fr">Catégorie de renseignements personnels traitée par une activité de traitement, utilisée pour les conditions d&apos;applicabilité et la sensibilité.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6670,11 +6834,13 @@
         <rdfs:label xml:lang="fr">type d&apos;instrument</rdfs:label>
         <skos:definition xml:lang="en">The kind of a legal instrument.</skos:definition>
         <skos:definition xml:lang="fr">Type d&apos;un instrument juridique.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6689,11 +6855,13 @@
         <rdfs:label xml:lang="fr">état d&apos;applicabilité</rdfs:label>
         <skos:definition xml:lang="fr">Résultat de l&apos;évaluation de l&apos;applicabilité d&apos;un instrument ou d&apos;une disposition à une organisation.</skos:definition>
         <skos:definition xml:lang="en">The result of evaluating whether an instrument or provision applies to an organisation.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6708,11 +6876,13 @@
         <rdfs:label xml:lang="fr">état de conformité</rdfs:label>
         <skos:definition xml:lang="fr">Résultat d&apos;un constat de conformité.</skos:definition>
         <skos:definition xml:lang="en">The result of a compliance determination.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6727,11 +6897,13 @@
         <rdfs:label xml:lang="fr">type de condition</rdfs:label>
         <skos:definition xml:lang="en">The kind of fact an applicability condition tests.</skos:definition>
         <skos:definition xml:lang="fr">Type de fait que vérifie une condition d&apos;applicabilité.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -6746,11 +6918,13 @@
         <rdfs:label xml:lang="fr">résultat d&apos;évaluation d&apos;une mesure</rdfs:label>
         <skos:definition xml:lang="fr">Résultat consigné par une évaluation de mesure de sécurité.</skos:definition>
         <skos:definition xml:lang="en">The result recorded by a control assessment.</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000285 xml:lang="en">Value set; members listed below.</crgo:CRGO_0000285>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:Class>
     
@@ -9578,10 +9752,12 @@
         <rdfs:label xml:lang="fr">schéma : juridiction</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the jurisdiction value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « juridiction ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9598,10 +9774,12 @@
         <skos:definition xml:lang="fr">La province de Québec.</skos:definition>
         <skos:definition xml:lang="en">The province of Québec.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9618,10 +9796,12 @@
         <skos:definition xml:lang="en">Canada as the legal order of federal statutes and regulators. It is the jurisdiction of an instrument, not a place: an organisation&apos;s establishment, markets and data subjects are given by a province or territory.</skos:definition>
         <skos:definition xml:lang="fr">Le Canada en tant qu&apos;ordre juridique des lois et autorités fédérales. C&apos;est la juridiction d&apos;un instrument, non un lieu : l&apos;établissement, les marchés et les personnes concernées d&apos;une organisation sont indiqués par une province ou un territoire.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9638,10 +9818,12 @@
         <skos:definition xml:lang="en">A Canadian province or territory other than Québec, British Columbia and Alberta, whose private sector is not covered by a provincial law declared substantially similar to PIPEDA.</skos:definition>
         <skos:definition xml:lang="fr">Province ou territoire canadien autre que le Québec, la Colombie-Britannique et l&apos;Alberta, dont le secteur privé n&apos;est pas régi par une loi provinciale déclarée essentiellement similaire à la LPRPDE.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9658,10 +9840,12 @@
         <skos:definition xml:lang="fr">L&apos;Union européenne et ses États membres.</skos:definition>
         <skos:definition xml:lang="en">The European Union and its Member States.</skos:definition>
         <skos:notation>5</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9678,10 +9862,12 @@
         <skos:definition xml:lang="en">A country outside Canada and the European Union.</skos:definition>
         <skos:definition xml:lang="fr">Pays situé hors du Canada et de l&apos;Union européenne.</skos:definition>
         <skos:notation>6</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9696,12 +9882,14 @@
         <rdfs:label xml:lang="fr">schéma : type d&apos;organisation</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the organisation type value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « type d&apos;organisation ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9718,12 +9906,14 @@
         <skos:definition xml:lang="en">A person or organisation carrying on an enterprise within the meaning of the Civil Code of Québec, or a private-sector organisation in commercial activity.</skos:definition>
         <skos:definition xml:lang="fr">Personne ou organisation qui exploite une entreprise au sens du Code civil du Québec, ou organisation du secteur privé exerçant une activité commerciale.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9740,12 +9930,14 @@
         <skos:definition xml:lang="en">A body subject to CQLR c. A-2.1, such as a ministry, municipality or school service centre.</skos:definition>
         <skos:definition xml:lang="fr">Organisme assujetti à la Loi sur l&apos;accès (c. A-2.1), comme un ministère, une municipalité ou un centre de services scolaire.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9762,12 +9954,14 @@
         <skos:definition xml:lang="en">A body listed in s. 4 or the Schedules of CQLR c. R-22.1.</skos:definition>
         <skos:definition xml:lang="fr">Organisme visé à l&apos;article 4 ou aux annexes de la loi c. R-22.1.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9784,12 +9978,14 @@
         <skos:definition xml:lang="en">A bank, insurer or trust and loan company regulated by OSFI.</skos:definition>
         <skos:definition xml:lang="fr">Banque, société d&apos;assurance ou société de fiducie et de prêt réglementée par le BSIF.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9806,12 +10002,14 @@
         <skos:definition xml:lang="en">An organisation that operates a federal work, undertaking or business, such as a bank, airline or telecommunications carrier.</skos:definition>
         <skos:definition xml:lang="fr">Organisation qui exploite une entreprise fédérale, comme une banque, un transporteur aérien ou une entreprise de télécommunications.</skos:definition>
         <skos:notation>5</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9826,11 +10024,13 @@
         <rdfs:label xml:lang="fr">schéma : rôle dans le traitement</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the processing role value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « rôle dans le traitement ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9847,11 +10047,13 @@
         <skos:definition xml:lang="en">Decides the purposes and means of the processing; under Loi 25, the person carrying on an enterprise who holds the information.</skos:definition>
         <skos:definition xml:lang="fr">Détermine les finalités et les moyens du traitement; sous la Loi 25, la personne qui exploite une entreprise et détient les renseignements.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9868,11 +10070,13 @@
         <skos:definition xml:lang="en">Processes personal information on behalf of a controller under a mandate or contract.</skos:definition>
         <skos:definition xml:lang="fr">Traite des renseignements personnels pour le compte d&apos;un responsable en vertu d&apos;un mandat ou d&apos;un contrat.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9887,11 +10091,13 @@
         <rdfs:label xml:lang="fr">schéma : catégorie de renseignements personnels</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the personal data category value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « catégorie de renseignements personnels ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9908,11 +10114,13 @@
         <skos:definition xml:lang="en">Names, addresses, e-mail addresses, telephone numbers.</skos:definition>
         <skos:definition xml:lang="fr">Noms, adresses, courriels, numéros de téléphone.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9929,11 +10137,13 @@
         <skos:definition xml:lang="fr">Données de carte de paiement, de compte bancaire ou de transaction.</skos:definition>
         <skos:definition xml:lang="en">Payment card, bank account or transaction data.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9950,11 +10160,13 @@
         <skos:definition xml:lang="en">Information about a person&apos;s physical or mental health or health services.</skos:definition>
         <skos:definition xml:lang="fr">Renseignements sur la santé physique ou mentale d&apos;une personne ou sur les services de santé reçus.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9971,11 +10183,13 @@
         <skos:definition xml:lang="fr">Caractéristiques servant à identifier une personne, comme les empreintes digitales ou la géométrie faciale.</skos:definition>
         <skos:definition xml:lang="en">Characteristics used to identify a person, such as fingerprints or facial geometry.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -9992,11 +10206,13 @@
         <skos:definition xml:lang="en">Information revealing where a person is or has been.</skos:definition>
         <skos:definition xml:lang="fr">Renseignements révélant où une personne se trouve ou s&apos;est trouvée.</skos:definition>
         <skos:notation>5</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10013,11 +10229,13 @@
         <skos:definition xml:lang="en">Personal information about persons under 14 (Loi 25) or under 16 (GDPR information society services).</skos:definition>
         <skos:definition xml:lang="fr">Renseignements personnels sur des personnes de moins de 14 ans (Loi 25) ou de moins de 16 ans (services de la société de l&apos;information, RGPD).</skos:definition>
         <skos:notation>6</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10034,11 +10252,13 @@
         <skos:definition xml:lang="fr">Numéros d&apos;assurance sociale, d&apos;assurance maladie, de passeport ou de permis de conduire.</skos:definition>
         <skos:definition xml:lang="en">Social insurance, health insurance, passport or driver&apos;s licence numbers.</skos:definition>
         <skos:notation>7</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10055,11 +10275,13 @@
         <skos:definition xml:lang="en">Account names, device identifiers, IP addresses, cookies.</skos:definition>
         <skos:definition xml:lang="fr">Noms de compte, identifiants d&apos;appareil, adresses IP, témoins.</skos:definition>
         <skos:notation>8</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)</crgo:CRGO_0000286>
         <crgo:CRGO_0000286 xml:lang="en">Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10074,10 +10296,12 @@
         <rdfs:label xml:lang="fr">schéma : type d&apos;instrument</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the instrument kind value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « type d&apos;instrument ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10094,10 +10318,12 @@
         <skos:definition xml:lang="en">An act adopted by a legislature, or an EU regulation.</skos:definition>
         <skos:definition xml:lang="fr">Loi adoptée par un parlement, ou règlement de l&apos;Union européenne.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10114,10 +10340,12 @@
         <skos:definition xml:lang="en">Delegated legislation made under a statute.</skos:definition>
         <skos:definition xml:lang="fr">Texte réglementaire pris en vertu d&apos;une loi.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10134,10 +10362,12 @@
         <skos:definition xml:lang="en">A regulator&apos;s guideline setting expectations for regulated organisations.</skos:definition>
         <skos:definition xml:lang="fr">Ligne directrice d&apos;une autorité de réglementation énonçant ses attentes envers les organisations réglementées.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10152,10 +10382,12 @@
         <rdfs:label xml:lang="fr">schéma : état d&apos;applicabilité</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the applicability state value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « état d&apos;applicabilité ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10172,10 +10404,12 @@
         <skos:definition xml:lang="en">Every required condition is met and no exception applies.</skos:definition>
         <skos:definition xml:lang="fr">Toutes les conditions requises sont remplies et aucune exception ne s&apos;applique.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10192,10 +10426,12 @@
         <skos:definition xml:lang="en">A required condition is not met.</skos:definition>
         <skos:definition xml:lang="fr">Une condition requise n&apos;est pas remplie.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10212,10 +10448,12 @@
         <skos:definition xml:lang="fr">Les conditions remplies indiquent l&apos;application, mais le résultat dépend d&apos;une interprétation ou d&apos;un fait qui doit être examiné par une personne qualifiée.</skos:definition>
         <skos:definition xml:lang="en">The conditions met point to application, but the result depends on an interpretation or a fact that needs review by a qualified person.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10232,10 +10470,12 @@
         <skos:definition xml:lang="en">A fact needed to evaluate a condition is missing; nothing is concluded.</skos:definition>
         <skos:definition xml:lang="fr">Un fait nécessaire à l&apos;évaluation d&apos;une condition est absent; rien n&apos;est conclu.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10250,10 +10490,12 @@
         <rdfs:label xml:lang="fr">schéma : état de conformité</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the compliance state value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « état de conformité ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10270,10 +10512,12 @@
         <skos:definition xml:lang="fr">Les preuves montrent que la disposition est respectée.</skos:definition>
         <skos:definition xml:lang="en">The evidence shows the provision is met.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10290,10 +10534,12 @@
         <skos:definition xml:lang="fr">Les preuves montrent que la disposition est respectée en partie.</skos:definition>
         <skos:definition xml:lang="en">The evidence shows the provision is met in part.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10310,10 +10556,12 @@
         <skos:definition xml:lang="fr">Les preuves montrent que la disposition n&apos;est pas respectée.</skos:definition>
         <skos:definition xml:lang="en">The evidence shows the provision is not met.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10330,10 +10578,12 @@
         <skos:definition xml:lang="fr">Aucune évaluation n&apos;a été faite.</skos:definition>
         <skos:definition xml:lang="en">No assessment has been made.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10350,10 +10600,12 @@
         <skos:definition xml:lang="en">An assessment was attempted but the evidence does not allow a conclusion.</skos:definition>
         <skos:definition xml:lang="fr">Une évaluation a été tentée mais les preuves ne permettent pas de conclure.</skos:definition>
         <skos:notation>5</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10368,10 +10620,12 @@
         <rdfs:label xml:lang="fr">schéma : type de condition</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the condition kind value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « type de condition ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10388,10 +10642,12 @@
         <skos:definition xml:lang="fr">Lieu d&apos;établissement de l&apos;organisation, ou lieu où elle offre des services ou suit des comportements.</skos:definition>
         <skos:definition xml:lang="en">Where the organisation is established, offers services or monitors behaviour.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10408,10 +10664,12 @@
         <skos:definition xml:lang="fr">Catégorie juridique de l&apos;organisation.</skos:definition>
         <skos:definition xml:lang="en">The legal category of the organisation.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10428,10 +10686,12 @@
         <skos:definition xml:lang="fr">Si et comment l&apos;organisation traite des renseignements personnels.</skos:definition>
         <skos:definition xml:lang="en">Whether and how the organisation processes personal information.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10448,10 +10708,12 @@
         <skos:definition xml:lang="fr">Catégories de renseignements personnels traitées.</skos:definition>
         <skos:definition xml:lang="en">Which categories of personal information are processed.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10468,10 +10730,12 @@
         <skos:definition xml:lang="en">A condition that, when met, excludes application.</skos:definition>
         <skos:definition xml:lang="fr">Condition qui, lorsqu&apos;elle est remplie, exclut l&apos;application.</skos:definition>
         <skos:notation>5</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10486,10 +10750,12 @@
         <rdfs:label xml:lang="fr">schéma : résultat d&apos;évaluation d&apos;une mesure</rdfs:label>
         <skos:definition xml:lang="en">Concept scheme of the control test result value set.</skos:definition>
         <skos:definition xml:lang="fr">Schéma de concepts de l&apos;ensemble de valeurs « résultat d&apos;évaluation d&apos;une mesure ».</skos:definition>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10506,10 +10772,12 @@
         <skos:definition xml:lang="fr">Fonctionne comme prévu sur le périmètre testé.</skos:definition>
         <skos:definition xml:lang="en">Operates as designed over the scope tested.</skos:definition>
         <skos:notation>1</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10526,10 +10794,12 @@
         <skos:definition xml:lang="fr">Fonctionne comme prévu pour une partie du périmètre ou avec des exceptions.</skos:definition>
         <skos:definition xml:lang="en">Operates as designed for part of the scope or with exceptions.</skos:definition>
         <skos:notation>2</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10546,10 +10816,12 @@
         <skos:definition xml:lang="en">Does not operate as designed.</skos:definition>
         <skos:definition xml:lang="fr">Ne fonctionne pas comme prévu.</skos:definition>
         <skos:notation>3</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10566,10 +10838,12 @@
         <skos:definition xml:lang="fr">Dans le périmètre mais pas encore testée.</skos:definition>
         <skos:definition xml:lang="en">In scope but not yet tested.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     
@@ -10586,10 +10860,12 @@
         <skos:definition xml:lang="en">British Columbia or Alberta, whose private-sector privacy Acts are declared substantially similar to PIPEDA.</skos:definition>
         <skos:definition xml:lang="fr">La Colombie-Britannique ou l&apos;Alberta, dont les lois sur la protection des renseignements personnels dans le secteur privé sont déclarées essentiellement similaires à la LPRPDE.</skos:definition>
         <skos:notation>4</skos:notation>
-        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000068"/>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
         <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
         <crgo:CRGO_0000286 xml:lang="en">CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13</crgo:CRGO_0000286>
         <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.9.0</crgo:CRGO_0000291>
     </owl:NamedIndividual>
     

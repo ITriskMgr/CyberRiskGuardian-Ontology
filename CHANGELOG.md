@@ -2,9 +2,9 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
-## [0.9.0] — 2026-10-11, prepared for review
+## [0.9.0] — 2026-10-11, approved
 
-EU GDPR, and Sprint 1 of the v0.8 → v1.0 implementation specification: sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS as observations. The GDPR content was approved by the project owner on 2026-10-11; the Sprint 1 additions await review (`docs/review-0.9.0.md`). The four 0.8.0 modules are unchanged (decision D2); the change report against v0.8.0 is in `releases/0.9.0/`.
+EU GDPR, and Sprint 1 of the v0.8 → v1.0 implementation specification: sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS as observations. The GDPR content and, after review, all Sprint 1 groups (`docs/review-0.9.0.md`: 138 terms, 29 source records, 11 legal instruments, all 19 applicability conditions, design records, test assets) were approved by the project owner on 2026-10-11. The four 0.8.0 modules are unchanged (decision D2); the change report against v0.8.0 is in `releases/0.9.0/`.
 
 ### Added
 - **GDPR** (approved): vocabulary of 40 provisions of Regulation (EU) 2016/679 from the Official Journal text, English and French; 25 correspondences to Loi 25 (19 comparable, 6 partly comparable); scenario detail lists GDPR provisions; CQ27.

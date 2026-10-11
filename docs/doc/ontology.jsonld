@@ -16808,7 +16808,7 @@
     "@value" : "Description d'un jeu de données, d'une publication ou d'un texte juridique dont un contenu de CRGO est importé ou dérivé, indiquant son émetteur, son identifiant officiel, sa version, sa date d'obtention, sa licence, ce que CRGO en rediffuse et l'empreinte du fichier utilisé."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -16829,6 +16829,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -16856,7 +16863,7 @@
     "@value" : "Enregistrement daté indiquant qu'une source donnée a rapporté une valeur ou une catégorie pour une entité à un moment donné, comme le score EPSS d'une vulnérabilité un jour donné. Une observation rapporte ce qu'une source a dit; ce n'est pas une estimation faite pour une appréciation."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -16874,6 +16881,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -16903,7 +16917,7 @@
     "@value" : "Énoncé tenu pour vrai sans vérification aux fins d'une estimation, d'une appréciation ou d'une décision, consigné afin que le résultat puisse être revu si l'énoncé se révèle faux ou change."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -16918,6 +16932,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -16943,7 +16964,7 @@
     "@value" : "Observation du score de l'Exploit Prediction Scoring System d'une vulnérabilité publiée un jour donné : la probabilité, estimée par FIRST, que la vulnérabilité soit exploitée dans les 30 jours suivants, avec son centile parmi toutes les vulnérabilités évaluées. Elle porte sur la vulnérabilité en général, non sur sa présence dans une organisation, et ce n'est pas la vraisemblance d'un scénario de risque."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -16961,6 +16982,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -16990,7 +17018,7 @@
     "@value" : "Processus d'affaires, ou partie de processus, dans lequel une organisation recueille, utilise, communique, conserve ou détruit des renseignements personnels à des fins déterminées."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17008,6 +17036,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17040,7 +17075,7 @@
     "@value" : "Rôle d'une organisation qui fournit des biens, des services ou l'exploitation d'actifs à une autre organisation, laquelle en vient à en dépendre."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17055,6 +17090,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17080,7 +17122,7 @@
     "@value" : "Loi, règlement ou ligne directrice réglementaire pris dans son ensemble, identifié par sa citation officielle, avec sa juridiction et les dates de sa publication, de son entrée en vigueur, de sa prise d'effet et de sa mise à jour. Ses dispositions sont les concepts du vocabulaire CRGO correspondant."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17101,6 +17143,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17126,7 +17175,7 @@
     "@value" : "Description d'une condition à laquelle un instrument juridique ou l'une de ses dispositions s'applique à une organisation, comme son territoire, son type d'organisation, son secteur, son rôle dans le traitement de renseignements personnels ou un seuil, rédigée comme une paraphrase de CRGO avec sa citation et un test lisible par machine."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17153,6 +17202,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17181,7 +17237,7 @@
     "@value" : "Enregistrement daté indiquant si un instrument juridique ou une disposition s'applique à une organisation donnée, avec l'état retenu (applicable, non applicable, potentiellement applicable ou inconnu) et les conditions jugées remplies, non remplies ou indéterminées."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17196,6 +17252,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17225,7 +17288,7 @@
     "@value" : "Enregistrement daté, établi par un évaluateur identifié, du degré auquel une organisation donnée satisfait à une disposition ou à une obligation légale, avec les preuves retenues ou un énoncé explicite des preuves manquantes. Un contrôle ou une exigence de référentiel mis en correspondance ne constitue pas à lui seul une preuve de conformité."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17240,6 +17303,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17269,7 +17339,7 @@
     "@value" : "Acte planifié par lequel un évaluateur teste ou examine une mesure de sécurité d'une organisation à une date, sur un périmètre et selon une procédure donnés, et en consigne le résultat et les preuves recueillies."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17287,6 +17357,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17312,7 +17389,7 @@
     "@value" : "Territoire dont proviennent le droit ou l'autorité de réglementation des vocabulaires juridiques de CRGO, servant à indiquer où une organisation est établie, offre des services ou compte des personnes concernées."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17327,6 +17404,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17352,7 +17436,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « juridiction »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17363,6 +17447,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17394,7 +17485,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17405,6 +17496,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17436,7 +17534,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17447,6 +17545,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17478,7 +17583,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17489,6 +17594,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17520,7 +17632,7 @@
     "@value" : "5"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17531,6 +17643,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17562,7 +17681,7 @@
     "@value" : "6"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17573,6 +17692,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17598,7 +17724,7 @@
     "@value" : "The legal category of an organisation that decides which privacy and security regime binds it."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17619,6 +17745,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17644,7 +17777,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « type d'organisation »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17661,6 +17794,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17692,7 +17832,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17709,6 +17849,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17740,7 +17887,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17757,6 +17904,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17788,7 +17942,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17805,6 +17959,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17836,7 +17997,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17853,6 +18014,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17884,7 +18052,7 @@
     "@value" : "5"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17901,6 +18069,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17926,7 +18101,7 @@
     "@value" : "The role an organisation plays in a processing activity."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17944,6 +18119,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -17969,7 +18151,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « rôle dans le traitement »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -17983,6 +18165,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18014,7 +18203,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18028,6 +18217,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18059,7 +18255,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18073,6 +18269,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18098,7 +18301,7 @@
     "@value" : "Catégorie de renseignements personnels traitée par une activité de traitement, utilisée pour les conditions d'applicabilité et la sensibilité."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18116,6 +18319,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18141,7 +18351,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « catégorie de renseignements personnels »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18155,6 +18365,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18186,7 +18403,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18200,6 +18417,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18231,7 +18455,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18245,6 +18469,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18276,7 +18507,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18290,6 +18521,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18321,7 +18559,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18335,6 +18573,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18366,7 +18611,7 @@
     "@value" : "5"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18380,6 +18625,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18411,7 +18663,7 @@
     "@value" : "6"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18425,6 +18677,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18456,7 +18715,7 @@
     "@value" : "7"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18470,6 +18729,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18501,7 +18767,7 @@
     "@value" : "8"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18515,6 +18781,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18540,7 +18813,7 @@
     "@value" : "Type d'un instrument juridique."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18555,6 +18828,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18580,7 +18860,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « type d'instrument »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18591,6 +18871,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18622,7 +18909,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18633,6 +18920,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18664,7 +18958,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18675,6 +18969,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18706,7 +19007,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18717,6 +19018,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18742,7 +19050,7 @@
     "@value" : "The result of evaluating whether an instrument or provision applies to an organisation."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18757,6 +19065,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18782,7 +19097,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « état d'applicabilité »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18793,6 +19108,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18824,7 +19146,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18835,6 +19157,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18866,7 +19195,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18877,6 +19206,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18908,7 +19244,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18919,6 +19255,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18950,7 +19293,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -18961,6 +19304,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -18986,7 +19336,7 @@
     "@value" : "The result of a compliance determination."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19001,6 +19351,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19026,7 +19383,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « état de conformité »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19037,6 +19394,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19068,7 +19432,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19079,6 +19443,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19110,7 +19481,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19121,6 +19492,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19152,7 +19530,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19163,6 +19541,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19194,7 +19579,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19205,6 +19590,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19236,7 +19628,7 @@
     "@value" : "5"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19247,6 +19639,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19272,7 +19671,7 @@
     "@value" : "Type de fait que vérifie une condition d'applicabilité."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19287,6 +19686,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19312,7 +19718,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « type de condition »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19323,6 +19729,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19354,7 +19767,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19365,6 +19778,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19396,7 +19816,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19407,6 +19827,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19438,7 +19865,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19449,6 +19876,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19480,7 +19914,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19491,6 +19925,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19522,7 +19963,7 @@
     "@value" : "5"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19533,6 +19974,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19558,7 +20006,7 @@
     "@value" : "The result recorded by a control assessment."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19573,6 +20021,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19598,7 +20053,7 @@
     "@value" : "Schéma de concepts de l'ensemble de valeurs « résultat d'évaluation d'une mesure »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19609,6 +20064,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19640,7 +20102,7 @@
     "@value" : "1"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19651,6 +20113,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19682,7 +20151,7 @@
     "@value" : "2"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19693,6 +20162,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19724,7 +20200,7 @@
     "@value" : "3"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19735,6 +20211,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19766,7 +20249,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19777,6 +20260,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19805,7 +20295,7 @@
     "@value" : "Relie un vocabulaire, un jeu de données, une observation ou un autre enregistrement à la notice de source du contenu dont il est importé ou dérivé."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19823,6 +20313,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19855,7 +20352,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19870,6 +20367,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19895,7 +20399,7 @@
     "@value" : "Relie une estimation, une appréciation, un constat ou une décision à une hypothèse qu'il tient pour vraie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19906,6 +20410,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19934,7 +20445,7 @@
     "@value" : "Indique la catégorie juridique d'une organisation."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19951,6 +20462,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -19979,7 +20497,7 @@
     "@value" : "Relie une organisation à une juridiction où elle a un établissement."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -19997,6 +20515,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20025,7 +20550,7 @@
     "@value" : "Relie une organisation à une juridiction dont elle cible les résidents par des biens ou services, payants ou non."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20040,6 +20565,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20068,7 +20600,7 @@
     "@value" : "Relie une organisation à une juridiction dans laquelle elle suit le comportement des personnes, par exemple par traçage en ligne ou profilage."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20083,6 +20615,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20111,7 +20650,7 @@
     "@value" : "Relie une activité de traitement à l'organisation qui l'exerce."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20122,6 +20661,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20150,7 +20696,7 @@
     "@value" : "Relie une activité de traitement à une catégorie de renseignements personnels qu'elle traite."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20164,6 +20710,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20192,7 +20745,7 @@
     "@value" : "Indique le rôle que joue dans une activité de traitement l'organisation qui l'exerce."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20203,6 +20756,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20231,7 +20791,7 @@
     "@value" : "Relie une activité de traitement à une juridiction où se trouvent des personnes dont elle traite les renseignements."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20245,6 +20805,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20273,7 +20840,7 @@
     "@value" : "Relie une activité de traitement à une juridiction où des renseignements personnels sont communiqués à un destinataire ou conservés par lui."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20294,6 +20861,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20322,7 +20896,7 @@
     "@value" : "Relie un rôle de fournisseur à l'organisation qui dépend de ce que fournit le porteur du rôle."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20337,6 +20911,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20362,7 +20943,7 @@
     "@value" : "Relie un instrument juridique, une évaluation de l'applicabilité ou un constat de conformité à sa juridiction."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20373,6 +20954,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20405,7 +20993,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20416,6 +21004,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20441,7 +21036,7 @@
     "@value" : "Relie une disposition, comme un concept d'un vocabulaire juridique de CRGO, à l'instrument juridique dont elle fait partie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20452,6 +21047,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20484,7 +21086,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20502,6 +21104,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20527,7 +21136,7 @@
     "@value" : "Relie une condition d'applicabilité à l'instrument ou à la disposition dont elle régit l'application."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20538,6 +21147,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20570,7 +21186,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20581,6 +21197,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20610,7 +21233,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20621,6 +21244,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20646,7 +21276,7 @@
     "@value" : "Relie une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure à l'organisation qu'il concerne."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20657,6 +21287,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20689,7 +21326,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20700,6 +21337,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20728,7 +21372,7 @@
     "@value" : "Relie une évaluation de l'applicabilité à une condition jugée remplie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20739,6 +21383,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20767,7 +21418,7 @@
     "@value" : "Relie une évaluation de l'applicabilité à une condition jugée non remplie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20778,6 +21429,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20806,7 +21464,7 @@
     "@value" : "Relie une évaluation de l'applicabilité à une condition qui n'a pu être évaluée faute d'un fait nécessaire."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20817,6 +21475,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20846,7 +21511,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20857,6 +21522,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20889,7 +21561,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20900,6 +21572,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20928,7 +21607,7 @@
     "@value" : "Relie un constat de conformité à une évaluation de mesure de sécurité sur laquelle il s'appuie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20939,6 +21618,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -20964,7 +21650,7 @@
     "@value" : "Relie une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure à l'agent qui en est responsable."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -20975,6 +21661,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21007,7 +21700,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21018,6 +21711,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21050,7 +21750,7 @@
     "@value" : "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21061,6 +21761,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21086,7 +21793,7 @@
     "@value" : "Relie une technique ATT&CK à un contrôle SP 800-53 qui peut l'atténuer, selon la correspondance de MITRE CTID."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21097,6 +21804,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21122,7 +21836,7 @@
     "@value" : "Relie une technique ATT&CK à une technique défensive D3FEND qui peut la contrer."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21137,6 +21851,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21162,7 +21883,7 @@
     "@value" : "Relie un patron d'attaque CAPEC à une faiblesse CWE qu'il exploite, selon les références de CAPEC."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21173,6 +21894,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21198,7 +21926,7 @@
     "@value" : "Relie un patron d'attaque CAPEC à une technique ATT&CK qu'il cite."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21209,6 +21937,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21234,7 +21969,7 @@
     "@value" : "Relie une CVE du catalogue KEV à une faiblesse CWE dont elle relève, selon la CISA."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21245,6 +21980,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21270,7 +22012,7 @@
     "@value" : "Relie une CVE du catalogue KEV à une technique ATT&CK servant à l'exploiter ou décrivant son impact, selon MITRE CTID; le type de correspondance est dans l'annotation."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21281,6 +22023,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21306,7 +22055,7 @@
     "@value" : "Relie un élément du NIST CSF 2.0 à un contrôle SP 800-53 qui l'appuie."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21321,6 +22070,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21346,7 +22102,7 @@
     "@value" : "Relie un contrôle SP 800-53 à un contrôle ISO/IEC 27002 que NIST OLIR y rattache."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21357,6 +22113,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21382,7 +22145,7 @@
     "@value" : "Relie un principe de la ligne directrice B-13 du BSIF à une catégorie du NIST CSF 2.0 qui le couvre."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21393,6 +22156,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21418,7 +22188,7 @@
     "@value" : "Relie une obligation d'un régime juridique à une obligation comparable d'un autre régime; comparable ne veut pas dire équivalente, et l'annotation précise les différences."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21433,6 +22203,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21458,7 +22235,7 @@
     "@value" : "Relie une obligation de la loi sur le secteur privé à l'obligation formulée de la même façon pour les organismes publics."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21469,6 +22246,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21497,7 +22281,7 @@
     "@value" : "Indique quand le fichier décrit par une notice de source a été obtenu."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21508,6 +22292,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21536,7 +22327,7 @@
     "@value" : "Indique la version, l'édition ou la date de mise à jour d'une source telle que l'énonce son émetteur."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21547,6 +22338,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21575,7 +22373,7 @@
     "@value" : "Indique la citation officielle, l'identifiant ou l'adresse web d'une source."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21586,6 +22384,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21614,7 +22419,7 @@
     "@value" : "Indique l'organisation qui émet ou publie une source."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21625,6 +22430,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21653,7 +22465,7 @@
     "@value" : "Indique la licence ou les conditions d'utilisation d'une source."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21664,6 +22476,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21692,7 +22511,7 @@
     "@value" : "States what CRGO reproduces or derives from a source, such as identifiers and titles only, or counts only."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21703,6 +22522,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21731,7 +22557,7 @@
     "@value" : "Indique l'empreinte SHA-256 d'un fichier décrit par une notice de source, afin qu'une reconstruction puisse vérifier qu'elle utilise le même fichier."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21742,6 +22568,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21770,7 +22603,7 @@
     "@value" : "States how and against what a source's content was verified."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21781,6 +22614,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21806,7 +22646,7 @@
     "@value" : "Indique la date de publication d'une source ou d'un instrument juridique."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21817,6 +22657,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21845,7 +22692,7 @@
     "@value" : "Indique la date et l'heure auxquelles se rapporte une observation, comme la date d'un score EPSS."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21856,6 +22703,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21884,7 +22738,7 @@
     "@value" : "Indique la période à laquelle se rapporte une probabilité ou une fréquence rapportée, comme « 30 prochains jours »."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21895,6 +22749,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21923,7 +22784,7 @@
     "@value" : "Indique la version du modèle qui a produit un score observé."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21934,6 +22795,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21962,7 +22830,7 @@
     "@value" : "Indique la proportion des vulnérabilités évaluées dont le score EPSS est inférieur ou égal à celui de la vulnérabilité observée ce jour-là, de 0 à 1."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -21973,6 +22841,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -21998,7 +22873,7 @@
     "@value" : "Indique la date à laquelle la CISA a ajouté une vulnérabilité à son catalogue des vulnérabilités exploitées connues."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22009,6 +22884,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22034,7 +22916,7 @@
     "@value" : "Indique si la CISA connaît une campagne de rançongiciel exploitant la vulnérabilité (« Known » ou « Unknown »)."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22045,6 +22927,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22070,7 +22959,7 @@
     "@value" : "Indique quand une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure a été fait."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22081,6 +22970,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22109,7 +23005,7 @@
     "@value" : "Indique la citation officielle d'un instrument juridique, comme RLRQ c. P-39.1."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22120,6 +23016,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22145,7 +23048,7 @@
     "@value" : "Indique la date à partir de laquelle un instrument ou une disposition s'applique, lorsqu'elle diffère de son entrée en vigueur."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22160,6 +23063,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22188,7 +23098,7 @@
     "@value" : "Indique la date de la dernière modification d'un instrument juridique connue de la mise à jour utilisée."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22199,6 +23109,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22227,7 +23144,7 @@
     "@value" : "Indique la date à laquelle le texte consolidé utilisé par CRGO est à jour."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22238,6 +23155,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22266,7 +23190,7 @@
     "@value" : "Indique le test lisible par machine d'une condition d'applicabilité, évalué sur le profil d'une organisation par pipeline/grc/applicability.py."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22277,6 +23201,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22305,7 +23236,7 @@
     "@value" : "States what evidence a compliance determination lacks; required when no evidence is linked."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22316,6 +23247,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22344,7 +23282,7 @@
     "@value" : "Décrit comment une évaluation de mesure a testé la mesure appliquée, par inspection, échantillonnage ou essai de restauration."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22355,6 +23293,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22380,7 +23325,7 @@
     "@value" : "States what a control assessment or compliance determination covered."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22391,6 +23336,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22422,7 +23374,7 @@
     "@value" : "4"
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22433,6 +23385,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"
@@ -22461,7 +23420,7 @@
     "@value" : "Nomme une propriété (par sa clé CRGO, comme offersServicesIn ou transfersDataTo) pour laquelle le profil de l'organisation énumère toutes les valeurs, de sorte qu'une valeur non énumérée peut être tenue pour absente. Sans cela, une valeur non énumérée est inconnue."
   } ],
   "https://w3id.org/crgo/CRGO_0000283" : [ {
-    "@id" : "https://w3id.org/crgo/CRGO_0000068"
+    "@id" : "https://w3id.org/crgo/CRGO_0000069"
   } ],
   "https://w3id.org/crgo/CRGO_0000284" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000063"
@@ -22476,6 +23435,13 @@
   } ],
   "https://w3id.org/crgo/CRGO_0000288" : [ {
     "@id" : "https://w3id.org/crgo/CRGO_0000181"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000289" : [ {
+    "@id" : "https://w3id.org/crgo/CRGO_0000182"
+  } ],
+  "https://w3id.org/crgo/CRGO_0000290" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-10-11"
   } ],
   "https://w3id.org/crgo/CRGO_0000291" : [ {
     "@value" : "0.9.0"

@@ -22,10 +22,12 @@ crgo:CRGO_0000461 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the share of scored vulnerabilities whose EPSS score is at or below that of the observed vulnerability on that day, from 0 to 1."@en,
         "Indique la proportion des vulnérabilités évaluées dont le score EPSS est inférieur ou égal à celui de la vulnérabilité observée ce jour-là, de 0 à 1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "FIRST, Exploit Prediction Scoring System: model documentation and data (first.org/epss)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- added to KEV on
@@ -36,10 +38,12 @@ crgo:CRGO_0000462 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date CISA added a vulnerability to its Known Exploited Vulnerabilities catalogue."@en,
         "Indique la date à laquelle la CISA a ajouté une vulnérabilité à son catalogue des vulnérabilités exploitées connues."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- known ransomware campaign use
@@ -50,10 +54,12 @@ crgo:CRGO_0000463 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives whether CISA knows of a ransomware campaign using the vulnerability ('Known' or 'Unknown')."@en,
         "Indique si la CISA connaît une campagne de rançongiciel exploitant la vulnérabilité (« Known » ou « Unknown »)."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 crgo:crgo-vuln a owl:Ontology ;
@@ -89,12 +95,14 @@ crgo:CRGO_0000340 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000338 ;
     skos:definition "An observation of the Exploit Prediction Scoring System score of a published vulnerability on a given day: FIRST's estimated probability that the vulnerability is exploited in the wild in the following 30 days, with its percentile among all scored vulnerabilities. It concerns the vulnerability in general, not its presence in any organisation, and it is not the likelihood of a risk scenario."@en,
         "Observation du score de l'Exploit Prediction Scoring System d'une vulnérabilité publiée un jour donné : la probabilité, estimée par FIRST, que la vulnérabilité soit exploitée dans les 30 jours suivants, avec son centile parmi toutes les vulnérabilités évaluées. Elle porte sur la vulnérabilité en général, non sur sa présence dans une organisation, et ce n'est pas la vraisemblance d'un scénario de risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Replaces the 0.8.0 EPSS likelihood estimates (decision D4); specification section 5 (do not conflate probability of exploitation with scenario likelihood)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "FIRST, Exploit Prediction Scoring System: model documentation and data (first.org/epss)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 [] a owl:AllDisjointClasses ;

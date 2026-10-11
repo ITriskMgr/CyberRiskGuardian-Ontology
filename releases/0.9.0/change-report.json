@@ -336,17 +336,17 @@
   "status_changed": 0,
   "moved_to_proposal_file": 120,
   "typed_relations": {
+   "attack pattern exploits weakness": 1212,
    "vulnerability is an instance of weakness": 1616,
    "technique mitigated by control": 5236,
-   "attack pattern related to technique": 270,
-   "control corresponds to control": 418,
    "vulnerability associated with technique": 1177,
-   "attack pattern exploits weakness": 1212,
    "subcategory supported by control": 621,
    "technique countered by defensive technique": 820,
+   "control corresponds to control": 418,
    "principle addressed by category": 42,
-   "comparable obligation": 35,
-   "same obligation in another regime": 15
+   "attack pattern related to technique": 270,
+   "same obligation in another regime": 15,
+   "comparable obligation": 35
   },
   "added_examples": [
    "loi25/P-39.1_s._10 relatedMatch gdpr/GDPR_Art._32_1",

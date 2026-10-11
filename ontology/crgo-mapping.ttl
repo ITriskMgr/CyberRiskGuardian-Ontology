@@ -20,10 +20,12 @@ crgo:CRGO_0000438 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates an ATT&CK technique to an SP 800-53 control that can mitigate it, as mapped by MITRE CTID."@en,
         "Relie une technique ATT&CK à un contrôle SP 800-53 qui peut l'atténuer, selon la correspondance de MITRE CTID."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE CTID Mappings Explorer, mapping types (mitigates; exploitation technique, primary and secondary impact)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- technique countered by defensive technique
@@ -33,11 +35,13 @@ crgo:CRGO_0000439 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates an ATT&CK technique to a D3FEND defensive technique that can counter it."@en,
         "Relie une technique ATT&CK à une technique défensive D3FEND qui peut la contrer."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Judged correspondences (0.7.0)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- attack pattern exploits weakness
@@ -47,10 +51,12 @@ crgo:CRGO_0000440 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates a CAPEC attack pattern to a CWE weakness it exploits, as referenced by CAPEC."@en,
         "Relie un patron d'attaque CAPEC à une faiblesse CWE qu'il exploite, selon les références de CAPEC."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- attack pattern related to technique
@@ -60,10 +66,12 @@ crgo:CRGO_0000441 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates a CAPEC attack pattern to an ATT&CK technique it references."@en,
         "Relie un patron d'attaque CAPEC à une technique ATT&CK qu'il cite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- vulnerability is an instance of weakness
@@ -73,10 +81,12 @@ crgo:CRGO_0000442 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates a CVE in the KEV catalogue to a CWE weakness it is an instance of, as given by CISA."@en,
         "Relie une CVE du catalogue KEV à une faiblesse CWE dont elle relève, selon la CISA."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CISA Known Exploited Vulnerabilities catalogue, schema fields dateAdded and knownRansomwareCampaignUse"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- vulnerability associated with technique
@@ -86,10 +96,12 @@ crgo:CRGO_0000443 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates a CVE in the KEV catalogue to an ATT&CK technique used to exploit it or describing its impact, as mapped by MITRE CTID; the mapping type is in the annotation."@en,
         "Relie une CVE du catalogue KEV à une technique ATT&CK servant à l'exploiter ou décrivant son impact, selon MITRE CTID; le type de correspondance est dans l'annotation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE CTID Mappings Explorer, mapping types (mitigates; exploitation technique, primary and secondary impact)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- subcategory supported by control
@@ -99,11 +111,13 @@ crgo:CRGO_0000444 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates a NIST CSF 2.0 element to an SP 800-53 control that supports it."@en,
         "Relie un élément du NIST CSF 2.0 à un contrôle SP 800-53 qui l'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Derived from NIST's CSF 1.1 mapping (0.8.0)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- control corresponds to control
@@ -113,10 +127,12 @@ crgo:CRGO_0000445 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates an SP 800-53 control to an ISO/IEC 27002 control that NIST OLIR relates to it."@en,
         "Relie un contrôle SP 800-53 à un contrôle ISO/IEC 27002 que NIST OLIR y rattache."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST OLIR relationship types (subset of, intersects with, equal, superset of, not related to)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- principle addressed by category
@@ -126,10 +142,12 @@ crgo:CRGO_0000446 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates an OSFI B-13 principle to a NIST CSF 2.0 category that addresses it."@en,
         "Relie un principe de la ligne directrice B-13 du BSIF à une catégorie du NIST CSF 2.0 qui le couvre."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- comparable obligation
@@ -139,11 +157,13 @@ crgo:CRGO_0000447 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch ;
     skos:definition "Relates an obligation in one legal regime to a comparable obligation in another regime; comparable is not equivalent, and the annotation states the differences."@en,
         "Relie une obligation d'un régime juridique à une obligation comparable d'un autre régime; comparable ne veut pas dire équivalente, et l'annotation précise les différences."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification section 3: framework mapping is not legal equivalence."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- same obligation in another regime
@@ -153,10 +173,12 @@ crgo:CRGO_0000448 a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:closeMatch ;
     skos:definition "Relates an obligation of the Québec private-sector Act to the obligation worded the same way for public bodies."@en,
         "Relie une obligation de la loi sur le secteur privé à l'obligation formulée de la même façon pour les organismes publics."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 crgo:crgo-mapping a owl:Ontology ;

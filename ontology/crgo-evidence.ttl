@@ -23,12 +23,14 @@ crgo:CRGO_0000407 a owl:ObjectProperty ;
     rdfs:subPropertyOf prov:hadPrimarySource ;
     skos:definition "Relates a vocabulary, dataset, observation or other record to the source record of the content it was imported or derived from."@en,
         "Relie un vocabulaire, un jeu de données, une observation ou un autre enregistrement à la notice de source du contenu dont il est importé ou dérivé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Sub-property of prov:hadPrimarySource."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- observation of
@@ -40,11 +42,13 @@ crgo:CRGO_0000408 a owl:ObjectProperty ;
     skos:definition "Relates an observation to the entity it reports on, such as a published vulnerability."@en,
         "Relie une observation à l'entité sur laquelle elle porte, comme une vulnérabilité publiée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Sub-property of CCO 'is about'."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- depends on assumption
@@ -54,10 +58,12 @@ crgo:CRGO_0000409 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000339 ;
     skos:definition "Relates an estimate, assessment, determination or decision to an assumption it takes as true."@en,
         "Relie une estimation, une appréciation, un constat ou une décision à une hypothèse qu'il tient pour vraie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- retrieved on
@@ -69,10 +75,12 @@ crgo:CRGO_0000449 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when the file a source record describes was obtained."@en,
         "Indique quand le fichier décrit par une notice de source a été obtenu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- source version
@@ -84,10 +92,12 @@ crgo:CRGO_0000450 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the version, release or consolidation date of a source as its issuer states it."@en,
         "Indique la version, l'édition ou la date de mise à jour d'une source telle que l'énonce son émetteur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- official identifier
@@ -98,10 +108,12 @@ crgo:CRGO_0000451 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the official citation, identifier or web address of a source."@en,
         "Indique la citation officielle, l'identifiant ou l'adresse web d'une source."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- issuer
@@ -112,10 +124,12 @@ crgo:CRGO_0000452 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the organisation that issues or publishes a source."@en,
         "Indique l'organisation qui émet ou publie une source."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- licence or terms
@@ -126,10 +140,12 @@ crgo:CRGO_0000453 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the licence or terms of use of a source."@en,
         "Indique la licence ou les conditions d'utilisation d'une source."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- redistribution in CRGO
@@ -140,10 +156,12 @@ crgo:CRGO_0000454 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "States what CRGO reproduces or derives from a source, such as identifiers and titles only, or counts only."@en,
         "Indique ce que CRGO reproduit ou dérive d'une source, comme les identifiants et titres seulement, ou des décomptes seulement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- SHA-256 checksum
@@ -154,10 +172,12 @@ crgo:CRGO_0000455 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Gives the SHA-256 checksum of a file a source record describes, so that a rebuild can verify it used the same file."@en,
         "Indique l'empreinte SHA-256 d'un fichier décrit par une notice de source, afin qu'une reconstruction puisse vérifier qu'elle utilise le même fichier."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- verification note
@@ -168,10 +188,12 @@ crgo:CRGO_0000456 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "States how and against what a source's content was verified."@en,
         "Indique comment et par rapport à quoi le contenu d'une source a été vérifié."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- published on
@@ -181,10 +203,12 @@ crgo:CRGO_0000457 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the publication date of a source or legal instrument."@en,
         "Indique la date de publication d'une source ou d'un instrument juridique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- observed on
@@ -196,10 +220,12 @@ crgo:CRGO_0000458 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date and time an observation refers to, such as the date of an EPSS score."@en,
         "Indique la date et l'heure auxquelles se rapporte une observation, comme la date d'un score EPSS."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- observation horizon
@@ -211,10 +237,12 @@ crgo:CRGO_0000459 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the period a reported probability or frequency refers to, such as 'next 30 days'."@en,
         "Indique la période à laquelle se rapporte une probabilité ou une fréquence rapportée, comme « 30 prochains jours »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- model version
@@ -226,10 +254,12 @@ crgo:CRGO_0000460 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the version of the model that produced an observed score."@en,
         "Indique la version du modèle qui a produit un score observé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 crgo:crgo-evidence a owl:Ontology ;
@@ -268,11 +298,13 @@ crgo:CRGO_0000339 a owl:Class ;
     skos:altLabel "hypothesis"@en ;
     skos:definition "A statement taken as true without verification for an estimate, an assessment or a decision, recorded so that the result can be reviewed when the statement turns out to be false or changes."@en,
         "Énoncé tenu pour vrai sans vérification aux fins d'une estimation, d'une appréciation ou d'une décision, consigné afin que le résultat puisse être revu si l'énoncé se révèle faux ou change."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification sections 6, 7 and 11 (assessments depend on assumptions)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- observation
@@ -284,12 +316,14 @@ crgo:CRGO_0000338 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000037 ;
     skos:definition "A dated record that a stated source reported a value or category for an entity at a stated time, such as the EPSS score of a vulnerability on a given day. An observation reports what a source said; it is not an estimate made for an assessment."@en,
         "Enregistrement daté indiquant qu'une source donnée a rapporté une valeur ou une catégorie pour une entité à un moment donné, comme le score EPSS d'une vulnérabilité un jour donné. Une observation rapporte ce qu'une source a dit; ce n'est pas une estimation faite pour une appréciation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Disjoint from estimate (specification rule 3: separate source facts from model estimates); negative fixture tests it."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- source record
@@ -301,13 +335,15 @@ crgo:CRGO_0000337 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000036 ;
     skos:definition "A description of a dataset, publication or legal text from which CRGO content was imported or derived, recording its issuer, official identifier, version, retrieval date, licence, what CRGO redistributes and the checksum of the file used."@en,
         "Description d'un jeu de données, d'une publication ou d'un texte juridique dont un contenu de CRGO est importé ou dérivé, indiquant son émetteur, son identifiant officiel, sa version, sa date d'obtention, sa licence, ce que CRGO en rediffuse et l'empreinte du fichier utilisé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification section 7 (SourceRecord fields); one per row of docs/baseline/source_registry.csv."@en ;
     crgo:CRGO_0000286 "CRGO Stage 0 gap analysis (docs/baseline/gap_analysis.md, 2026-10-11)"@en,
         "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "W3C PROV-O: The PROV Ontology, W3C Recommendation 30 April 2013 (slice: imports/prov-slice.ttl)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 [] a owl:AllDisjointClasses ;

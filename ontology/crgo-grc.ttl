@@ -24,10 +24,12 @@ crgo:CRGO_0000378 a owl:NamedIndividual,
         "Loi adoptée par un parlement, ou règlement de l'Union européenne."@fr ;
     skos:inScheme crgo:CRGO_0000377 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- regulation
@@ -39,10 +41,12 @@ crgo:CRGO_0000379 a owl:NamedIndividual,
         "Texte réglementaire pris en vertu d'une loi."@fr ;
     skos:inScheme crgo:CRGO_0000377 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- regulatory guideline
@@ -54,10 +58,12 @@ crgo:CRGO_0000380 a owl:NamedIndividual,
         "Ligne directrice d'une autorité de réglementation énonçant ses attentes envers les organisations réglementées."@fr ;
     skos:inScheme crgo:CRGO_0000377 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicable
@@ -69,10 +75,12 @@ crgo:CRGO_0000383 a owl:NamedIndividual,
         "Toutes les conditions requises sont remplies et aucune exception ne s'applique."@fr ;
     skos:inScheme crgo:CRGO_0000382 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- not applicable
@@ -84,10 +92,12 @@ crgo:CRGO_0000384 a owl:NamedIndividual,
         "Une condition requise n'est pas remplie."@fr ;
     skos:inScheme crgo:CRGO_0000382 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- potentially applicable
@@ -99,10 +109,12 @@ crgo:CRGO_0000385 a owl:NamedIndividual,
         "Les conditions remplies indiquent l'application, mais le résultat dépend d'une interprétation ou d'un fait qui doit être examiné par une personne qualifiée."@fr ;
     skos:inScheme crgo:CRGO_0000382 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- unknown
@@ -114,10 +126,12 @@ crgo:CRGO_0000386 a owl:NamedIndividual,
         "Un fait nécessaire à l'évaluation d'une condition est absent; rien n'est conclu."@fr ;
     skos:inScheme crgo:CRGO_0000382 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- satisfied
@@ -129,10 +143,12 @@ crgo:CRGO_0000389 a owl:NamedIndividual,
         "Les preuves montrent que la disposition est respectée."@fr ;
     skos:inScheme crgo:CRGO_0000388 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- partially satisfied
@@ -144,10 +160,12 @@ crgo:CRGO_0000390 a owl:NamedIndividual,
         "Les preuves montrent que la disposition est respectée en partie."@fr ;
     skos:inScheme crgo:CRGO_0000388 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- unsatisfied
@@ -159,10 +177,12 @@ crgo:CRGO_0000391 a owl:NamedIndividual,
         "Les preuves montrent que la disposition n'est pas respectée."@fr ;
     skos:inScheme crgo:CRGO_0000388 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- not assessed
@@ -174,10 +194,12 @@ crgo:CRGO_0000392 a owl:NamedIndividual,
         "Aucune évaluation n'a été faite."@fr ;
     skos:inScheme crgo:CRGO_0000388 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- undetermined
@@ -189,10 +211,12 @@ crgo:CRGO_0000393 a owl:NamedIndividual,
         "Une évaluation a été tentée mais les preuves ne permettent pas de conclure."@fr ;
     skos:inScheme crgo:CRGO_0000388 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- territorial
@@ -204,10 +228,12 @@ crgo:CRGO_0000396 a owl:NamedIndividual,
         "Lieu d'établissement de l'organisation, ou lieu où elle offre des services ou suit des comportements."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- organisation-type condition
@@ -219,10 +245,12 @@ crgo:CRGO_0000397 a owl:NamedIndividual,
         "Catégorie juridique de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- processing
@@ -234,10 +262,12 @@ crgo:CRGO_0000398 a owl:NamedIndividual,
         "Si et comment l'organisation traite des renseignements personnels."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- data category
@@ -249,10 +279,12 @@ crgo:CRGO_0000399 a owl:NamedIndividual,
         "Catégories de renseignements personnels traitées."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- exception
@@ -264,10 +296,12 @@ crgo:CRGO_0000400 a owl:NamedIndividual,
         "Condition qui, lorsqu'elle est remplie, exclut l'application."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- effective
@@ -279,10 +313,12 @@ crgo:CRGO_0000403 a owl:NamedIndividual,
         "Fonctionne comme prévu sur le périmètre testé."@fr ;
     skos:inScheme crgo:CRGO_0000402 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- partly effective
@@ -294,10 +330,12 @@ crgo:CRGO_0000404 a owl:NamedIndividual,
         "Fonctionne comme prévu pour une partie du périmètre ou avec des exceptions."@fr ;
     skos:inScheme crgo:CRGO_0000402 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- ineffective
@@ -309,10 +347,12 @@ crgo:CRGO_0000405 a owl:NamedIndividual,
         "Ne fonctionne pas comme prévu."@fr ;
     skos:inScheme crgo:CRGO_0000402 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- not tested
@@ -324,10 +364,12 @@ crgo:CRGO_0000406 a owl:NamedIndividual,
         "Dans le périmètre mais pas encore testée."@fr ;
     skos:inScheme crgo:CRGO_0000402 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has jurisdiction
@@ -337,10 +379,12 @@ crgo:CRGO_0000420 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000348 ;
     skos:definition "Relates a legal instrument, applicability assessment or compliance determination to its jurisdiction."@en,
         "Relie un instrument juridique, une évaluation de l'applicabilité ou un constat de conformité à sa juridiction."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has instrument kind
@@ -352,10 +396,12 @@ crgo:CRGO_0000421 a owl:ObjectProperty ;
     skos:definition "Gives the kind of a legal instrument."@en,
         "Indique le type d'un instrument juridique."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- provision of
@@ -365,10 +411,12 @@ crgo:CRGO_0000422 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000343 ;
     skos:definition "Relates a provision, such as a concept of a CRGO legal vocabulary, to the legal instrument it belongs to."@en,
         "Relie une disposition, comme un concept d'un vocabulaire juridique de CRGO, à l'instrument juridique dont elle fait partie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has in-force period
@@ -380,12 +428,14 @@ crgo:CRGO_0000423 a owl:ObjectProperty ;
     skos:definition "Relates a legal instrument to the OWL-Time interval during which it is in force; the interval has no end while the instrument is not repealed."@en,
         "Relie un instrument juridique à l'intervalle OWL-Time pendant lequel il est en vigueur; l'intervalle n'a pas de fin tant que l'instrument n'est pas abrogé."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "OWL-Time used where a period is the object of a claim (ADR-006)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "W3C Time Ontology in OWL (OWL-Time), edition of 2025-08-27 (slice: imports/time-slice.ttl)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition of
@@ -395,10 +445,12 @@ crgo:CRGO_0000424 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000344 ;
     skos:definition "Relates an applicability condition to the instrument or provision whose application it governs."@en,
         "Relie une condition d'applicabilité à l'instrument ou à la disposition dont elle régit l'application."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has condition kind
@@ -410,10 +462,12 @@ crgo:CRGO_0000425 a owl:ObjectProperty ;
     skos:definition "Gives the kind of fact an applicability condition tests."@en,
         "Indique le type de fait que vérifie une condition d'applicabilité."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicability of
@@ -424,10 +478,12 @@ crgo:CRGO_0000426 a owl:ObjectProperty ;
     skos:definition "Relates an applicability assessment to the instrument or provision assessed."@en,
         "Relie une évaluation de l'applicabilité à l'instrument ou à la disposition évalués."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- concerns organisation
@@ -437,10 +493,12 @@ crgo:CRGO_0000427 a owl:ObjectProperty ;
     rdfs:range cco:ont00001180 ;
     skos:definition "Relates an applicability assessment, compliance determination or control assessment to the organisation it is about."@en,
         "Relie une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure à l'organisation qu'il concerne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has applicability state
@@ -452,10 +510,12 @@ crgo:CRGO_0000428 a owl:ObjectProperty ;
     skos:definition "Gives the state reached by an applicability assessment."@en,
         "Indique l'état retenu par une évaluation de l'applicabilité."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition met
@@ -466,10 +526,12 @@ crgo:CRGO_0000429 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000344 ;
     skos:definition "Relates an applicability assessment to a condition found met."@en,
         "Relie une évaluation de l'applicabilité à une condition jugée remplie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition not met
@@ -480,10 +542,12 @@ crgo:CRGO_0000430 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000344 ;
     skos:definition "Relates an applicability assessment to a condition found not met."@en,
         "Relie une évaluation de l'applicabilité à une condition jugée non remplie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition undetermined
@@ -494,10 +558,12 @@ crgo:CRGO_0000431 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000344 ;
     skos:definition "Relates an applicability assessment to a condition that could not be evaluated because a needed fact is missing."@en,
         "Relie une évaluation de l'applicabilité à une condition qui n'a pu être évaluée faute d'un fait nécessaire."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- compliance with
@@ -508,10 +574,12 @@ crgo:CRGO_0000432 a owl:ObjectProperty ;
     skos:definition "Relates a compliance determination to the provision or obligation determined."@en,
         "Relie un constat de conformité à la disposition ou à l'obligation visée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has compliance state
@@ -523,10 +591,12 @@ crgo:CRGO_0000433 a owl:ObjectProperty ;
     skos:definition "Gives the state recorded by a compliance determination."@en,
         "Indique l'état consigné par un constat de conformité."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- based on control assessment
@@ -537,10 +607,12 @@ crgo:CRGO_0000434 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000347 ;
     skos:definition "Relates a compliance determination to a control assessment it relies on."@en,
         "Relie un constat de conformité à une évaluation de mesure de sécurité sur laquelle il s'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- assessed by
@@ -550,10 +622,12 @@ crgo:CRGO_0000435 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates an applicability assessment, compliance determination or control assessment to the agent responsible for it."@en,
         "Relie une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure à l'agent qui en est responsable."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- evaluates control measure
@@ -565,10 +639,12 @@ crgo:CRGO_0000436 a owl:ObjectProperty ;
     skos:definition "Relates a control assessment to the control measure it tests."@en,
         "Relie une évaluation de mesure de sécurité à la mesure appliquée qu'elle teste."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- has test result
@@ -580,10 +656,12 @@ crgo:CRGO_0000437 a owl:ObjectProperty ;
     skos:definition "Gives the result recorded by a control assessment."@en,
         "Indique le résultat consigné par une évaluation de mesure de sécurité."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- assessed on
@@ -594,10 +672,12 @@ crgo:CRGO_0000464 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an applicability assessment, compliance determination or control assessment was made."@en,
         "Indique quand une évaluation de l'applicabilité, un constat de conformité ou une évaluation de mesure a été fait."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- official citation
@@ -609,10 +689,12 @@ crgo:CRGO_0000465 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the official citation of a legal instrument, such as CQLR c. P-39.1."@en,
         "Indique la citation officielle d'un instrument juridique, comme RLRQ c. P-39.1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applies from
@@ -622,11 +704,13 @@ crgo:CRGO_0000466 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date from which an instrument or provision applies, when it differs from its coming into force."@en,
         "Indique la date à partir de laquelle un instrument ou une disposition s'applique, lorsqu'elle diffère de son entrée en vigueur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GDPR in force 2016-05-24, applies from 2018-05-25."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- last amended on
@@ -637,10 +721,12 @@ crgo:CRGO_0000467 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date of the latest amendment of a legal instrument known to the consolidation used."@en,
         "Indique la date de la dernière modification d'un instrument juridique connue de la mise à jour utilisée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- consolidated to
@@ -651,10 +737,12 @@ crgo:CRGO_0000468 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date to which the consolidated text used by CRGO is up to date."@en,
         "Indique la date à laquelle le texte consolidé utilisé par CRGO est à jour."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition test
@@ -666,10 +754,12 @@ crgo:CRGO_0000469 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the machine-readable test of an applicability condition, evaluated over an organisation profile by pipeline/grc/applicability.py."@en,
         "Indique le test lisible par machine d'une condition d'applicabilité, évalué sur le profil d'une organisation par pipeline/grc/applicability.py."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- evidence gap
@@ -680,10 +770,12 @@ crgo:CRGO_0000470 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "States what evidence a compliance determination lacks; required when no evidence is linked."@en,
         "Indique les preuves qui manquent à un constat de conformité; obligatoire lorsqu'aucune preuve n'est liée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- test procedure
@@ -694,10 +786,12 @@ crgo:CRGO_0000471 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "Describes how a control assessment tested the control measure, such as inspection, sampling or a restore test."@en,
         "Décrit comment une évaluation de mesure a testé la mesure appliquée, par inspection, échantillonnage ou essai de restauration."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- assessment scope
@@ -707,10 +801,12 @@ crgo:CRGO_0000472 a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     skos:definition "States what a control assessment or compliance determination covered."@en,
         "Indique ce que couvre une évaluation de mesure ou un constat de conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 crgo:crgo-grc a owl:Ontology ;
@@ -747,10 +843,12 @@ crgo:CRGO_0000377 a owl:NamedIndividual,
         "schéma : type d'instrument"@fr ;
     skos:definition "Concept scheme of the instrument kind value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type d'instrument »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- control assessment
@@ -762,12 +860,14 @@ crgo:CRGO_0000347 a owl:Class ;
     skos:altLabel "control test"@en ;
     skos:definition "A planned act in which an assessor tests or reviews a control measure of an organisation at a stated date, over a stated scope and by a stated procedure, and records its result and the evidence gathered."@en,
         "Acte planifié par lequel un évaluateur teste ou examine une mesure de sécurité d'une organisation à une date, sur un périmètre et selon une procédure donnés, et en consigne le résultat et les preuves recueillies."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification section 5 (separate objective, implementation and assessment result): control = objective, control measure = implementation, control assessment = test."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicability state scheme
@@ -777,10 +877,12 @@ crgo:CRGO_0000382 a owl:NamedIndividual,
         "schéma : état d'applicabilité"@fr ;
     skos:definition "Concept scheme of the applicability state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état d'applicabilité »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- control test result scheme
@@ -790,10 +892,12 @@ crgo:CRGO_0000402 a owl:NamedIndividual,
         "schéma : résultat d'évaluation d'une mesure"@fr ;
     skos:definition "Concept scheme of the control test result value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « résultat d'évaluation d'une mesure »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicability assessment
@@ -804,11 +908,13 @@ crgo:CRGO_0000345 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000346 ;
     skos:definition "A dated record (not the act of assessing) of whether a legal instrument or provision applies to a given organisation, giving the state reached (applicable, not applicable, potentially applicable or unknown) and the conditions found met, not met or undetermined."@en,
         "Enregistrement daté indiquant si un instrument juridique ou une disposition s'applique à une organisation donnée, avec l'état retenu (applicable, non applicable, potentiellement applicable ou inconnu) et les conditions jugées remplies, non remplies ou indéterminées."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification section 9 states; 'unknown' when a needed fact is absent, so missing data never yields 'not applicable'."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- compliance determination
@@ -819,11 +925,13 @@ crgo:CRGO_0000346 a owl:Class ;
     skos:altLabel "compliance assessment"@en ;
     skos:definition "A dated record, made by an identified assessor, of the extent to which a given organisation satisfies a legal provision or obligation, with the evidence relied on or an explicit statement of the missing evidence. A mapped control or framework requirement is not by itself evidence of compliance."@en,
         "Enregistrement daté, établi par un évaluateur identifié, du degré auquel une organisation donnée satisfait à une disposition ou à une obligation légale, avec les preuves retenues ou un énoncé explicite des preuves manquantes. Un contrôle ou une exigence de référentiel mis en correspondance ne constitue pas à lui seul une preuve de conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification sections 9 and 13 (state, assessor, date, evidence or evidence gap)."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- instrument kind
@@ -833,11 +941,13 @@ crgo:CRGO_0000376 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of a legal instrument."@en,
         "Type d'un instrument juridique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- compliance state scheme
@@ -847,10 +957,12 @@ crgo:CRGO_0000388 a owl:NamedIndividual,
         "schéma : état de conformité"@fr ;
     skos:definition "Concept scheme of the compliance state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de conformité »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition kind scheme
@@ -860,10 +972,12 @@ crgo:CRGO_0000395 a owl:NamedIndividual,
         "schéma : type de condition"@fr ;
     skos:definition "Concept scheme of the condition kind value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de condition »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- legal instrument
@@ -873,13 +987,15 @@ crgo:CRGO_0000343 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A statute, regulation or regulatory guideline taken as a whole, identified by its official citation, with its jurisdiction and the dates of its publication, coming into force, application and consolidation. Its provisions are the concepts of the corresponding CRGO vocabulary."@en,
         "Loi, règlement ou ligne directrice réglementaire pris dans son ensemble, identifié par sa citation officielle, avec sa juridiction et les dates de sa publication, de son entrée en vigueur, de sa prise d'effet et de sa mise à jour. Ses dispositions sont les concepts du vocabulaire CRGO correspondant."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Specification section 5 (separate instrument, provision, obligation, applicability, determination)."@en ;
     crgo:CRGO_0000286 "CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)"@en,
         "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en,
         "Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicability condition
@@ -889,7 +1005,7 @@ crgo:CRGO_0000344 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a condition under which a legal instrument or one of its provisions applies to an organisation, such as its territory, organisation type, sector, role in processing personal information or a threshold, written as a CRGO paraphrase with its citation and a machine-readable test."@en,
         "Description d'une condition à laquelle un instrument juridique ou l'une de ses dispositions s'applique à une organisation, comme son territoire, son type d'organisation, son secteur, son rôle dans le traitement de renseignements personnels ou un seuil, rédigée comme une paraphrase de CRGO avec sa citation et un test lisible par machine."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Conditions are evaluated over an organisation profile, never asserted as class membership (specification section 9)."@en ;
     crgo:CRGO_0000286 "CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)"@en,
@@ -898,6 +1014,8 @@ crgo:CRGO_0000344 a owl:Class ;
         "PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)"@en,
         "Regulation (EU) 2016/679, Arts. 3, 4, 24, 28, 30 (OJ L 119, 4.5.2016)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- applicability state
@@ -907,11 +1025,13 @@ crgo:CRGO_0000381 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The result of evaluating whether an instrument or provision applies to an organisation."@en,
         "Résultat de l'évaluation de l'applicabilité d'un instrument ou d'une disposition à une organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- control test result
@@ -921,11 +1041,13 @@ crgo:CRGO_0000401 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The result recorded by a control assessment."@en,
         "Résultat consigné par une évaluation de mesure de sécurité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- compliance state
@@ -935,11 +1057,13 @@ crgo:CRGO_0000387 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The result of a compliance determination."@en,
         "Résultat d'un constat de conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 # --- condition kind
@@ -949,11 +1073,13 @@ crgo:CRGO_0000394 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of fact an applicability condition tests."@en,
         "Type de fait que vérifie une condition d'applicabilité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.9.0" .
 
 [] a owl:AllDisjointClasses ;

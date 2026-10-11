@@ -338,3 +338,4 @@ Built while the project owner was away ("Complete all the work now and proceed t
 - **Proposed links**: library links whose approval group is unapproved move to `crgo-library-proposed.ttl`; links proposed without a group (second themes, case-to-family *refines*, rule-added weaknesses) stay in the library because identification depends on them; to be revisited.
 - **Specification adaptations** listed in `docs/baseline/gap_analysis.md` section D (no thirteen-module split, no folder migration, no reified record per link, no single-scenario constraint on risk assessments, since a CRG assessment covers many scenarios).
 
+**Decision of the project owner (2026-10-11, 14:28).** 0.9.0 approved: the five term groups (138 terms), the 29 source records, the 11 legal instruments, all 19 applicability conditions including the 5 interpretive ones (option a), ADR-001 to ADR-006, the Sprint 1 test assets; opening the w3id.org pull request and publishing the release approved.

@@ -412,3 +412,14 @@ links/authored/AUTH-006	Approve	MAL	2026-10-11
 gdpr/*	Approve	MAL	2026-10-11	
 mappings/loi25-gdpr/M	Approve	MAL	2026-10-11	
 mappings/loi25-gdpr/L	Approve	MAL	2026-10-11	
+# 2026-10-11: 0.9.0 Sprint 1 review: all groups approved by the project owner (decisions 1-10 YES, 8 = a: all 19 conditions); w3id.org pull request and release approved (11, 12).
+terms/evidence	Approve	MAL	2026-10-11	
+terms/org	Approve	MAL	2026-10-11	
+terms/vuln	Approve	MAL	2026-10-11	
+terms/grc	Approve	MAL	2026-10-11	
+terms/mapping	Approve	MAL	2026-10-11	
+sources/records	Approve	MAL	2026-10-11	
+legal/instruments	Approve	MAL	2026-10-11	
+legal/conditions	Approve	MAL	2026-10-11	
+adr/ADR-001-006	Approve	MAL	2026-10-11	
+tests/sprint1	Approve	MAL	2026-10-11	
