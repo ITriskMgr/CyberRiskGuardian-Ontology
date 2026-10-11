@@ -7,7 +7,7 @@
 <https://example.org/crgo-sample/nordelle/applicability/A-2.1-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of Act respecting access to documents held by public bodies and the protection of personal information, 2026-10-01: NotApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000350 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/A-2.1> ;
     crgo:CRGO_0000427 nordelle:org ;
@@ -19,12 +19,11 @@
 <https://example.org/crgo-sample/nordelle/applicability/C-1.1-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of Act to establish a legal framework for information technology, 2026-10-01: NotApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000350 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/C-1.1> ;
     crgo:CRGO_0000427 nordelle:org ;
     crgo:CRGO_0000428 crgo:CRGO_0000384 ;
-    crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/C11-QC> ;
     crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/C11-44-BIO> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
@@ -32,22 +31,22 @@
 <https://example.org/crgo-sample/nordelle/applicability/GDPR-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of General Data Protection Regulation (Regulation (EU) 2016/679), 2026-10-01: PotentiallyApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000353 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/GDPR> ;
     crgo:CRGO_0000427 nordelle:org ;
     crgo:CRGO_0000428 crgo:CRGO_0000385 ;
     crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/GDPR-2-1>,
         <https://w3id.org/crgo/vocab/legal/condition/GDPR-3-2a> ;
-    crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/GDPR-3-1> ;
-    crgo:CRGO_0000431 <https://w3id.org/crgo/vocab/legal/condition/GDPR-3-2b> ;
+    crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/GDPR-3-1>,
+        <https://w3id.org/crgo/vocab/legal/condition/GDPR-3-2b> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
 <https://example.org/crgo-sample/nordelle/applicability/OSFI-B-13-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of OSFI Guideline B-13 Technology and Cyber Risk Management, 2026-10-01: NotApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000351 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> ;
     crgo:CRGO_0000427 nordelle:org ;
@@ -59,14 +58,15 @@
 <https://example.org/crgo-sample/nordelle/applicability/P-39.1-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of Act respecting the protection of personal information in the private sector, 2026-10-01: Applicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000350 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
     crgo:CRGO_0000427 nordelle:org ;
     crgo:CRGO_0000428 crgo:CRGO_0000383 ;
     crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/P39-1-ENT>,
         <https://w3id.org/crgo/vocab/legal/condition/P39-1-PI>,
-        <https://w3id.org/crgo/vocab/legal/condition/P39-1-QC> ;
+        <https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-ACT>,
+        <https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-EST> ;
     crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/P39-3-PB> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
@@ -74,15 +74,15 @@
 <https://example.org/crgo-sample/nordelle/applicability/PIPEDA-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of Personal Information Protection and Electronic Documents Act, 2026-10-01: PotentiallyApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000351 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
     crgo:CRGO_0000427 nordelle:org ;
     crgo:CRGO_0000428 crgo:CRGO_0000385 ;
-    crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-PI>,
+    crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-COM>,
+        <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-PI>,
         <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-XB> ;
-    crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FRFI>,
-        <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FW>,
+    crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FW>,
         <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-OP> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
@@ -90,7 +90,7 @@
 <https://example.org/crgo-sample/nordelle/applicability/R-22.1-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of Act respecting health and social services information, 2026-10-01: NotApplicable"@en ;
-    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
     crgo:CRGO_0000420 crgo:CRGO_0000350 ;
     crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/R-22.1> ;
     crgo:CRGO_0000427 nordelle:org ;
@@ -100,8 +100,8 @@
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
-<https://example.org/crgo-sample/nordelle/assumption/closed-world-profile> a owl:NamedIndividual,
+<https://example.org/crgo-sample/nordelle/assumption/profile-reading> a owl:NamedIndividual,
         crgo:CRGO_0000339 ;
-    rdfs:label "Closed-world reading of the organisation profile"@en ;
-    rdfs:comment "Closed-world reading of the organisation profile: where the profile gives values for a property, they are taken to be complete for that property; where it gives none, the fact is treated as missing."@en .
+    rdfs:label "Reading of the organisation profile"@en ;
+    rdfs:comment "Organisation profile read as given: a listed value is a fact; an unlisted value counts as absent only for the properties the profile declares complete (profile complete for); otherwise it is unknown."@en .
 

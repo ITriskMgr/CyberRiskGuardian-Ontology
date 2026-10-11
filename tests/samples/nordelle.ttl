@@ -412,5 +412,12 @@ nordelle:org a owl:NamedIndividual,
     crgo:CRGO_0000411 crgo:CRGO_0000350 ;
     crgo:CRGO_0000412 crgo:CRGO_0000350,
         crgo:CRGO_0000352,
-        crgo:CRGO_0000353 .
+        crgo:CRGO_0000353 ;
+    crgo:CRGO_0000474 "carriedOutBy",
+        "dataSubjectsIn",
+        "establishedIn",
+        "hasOrganisationType",
+        "monitorsBehaviourIn",
+        "offersServicesIn",
+        "processesDataCategory" .
 

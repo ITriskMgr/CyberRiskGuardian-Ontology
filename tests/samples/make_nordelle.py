@@ -50,6 +50,9 @@ dec = lambda x: Literal(str(x), datatype=XSD.decimal)
 org = ind(N.org, ORG_CLASS, label="Nordelle Market inc. (fictional)")
 g.add((org, T("hasOrganisationType"), T("OrgEnterprise"))); g.add((org, T("establishedIn"), T("JurQuebec")))
 for j in ("JurQuebec", "JurCanadaOtherProvince", "JurEU"): g.add((org, T("offersServicesIn"), T(j)))
+# the profile lists these facts completely (an unlisted value is absent); transfers to recipients are not stated
+for k in ("hasOrganisationType", "establishedIn", "offersServicesIn", "monitorsBehaviourIn", "carriedOutBy", "processesDataCategory", "dataSubjectsIn"):
+    g.add((org, T("profileCompleteFor"), Literal(k)))
 assessor = ind(N["person/ciso"], PERSON, label="Nordelle information security lead (fictional)")
 # suppliers (role borne by the supplier, toward Nordelle)
 sup = {}

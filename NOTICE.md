@@ -75,3 +75,14 @@ The VERIS schema (github.com/vz-risk/veris) is under CC BY-SA 4.0, a share-alike
 | Vocabulary or file | Source | Version used | Licence or terms |
 |---|---|---|---|
 | `ontology/vocab/gdpr.ttl`, Loi 25 ↔ GDPR in `mappings.ttl` | Regulation (EU) 2016/679, Official Journal of the European Union L 119, 4.5.2016, p. 1 (EUR-Lex, CELEX 32016R0679), English text; French terminology from the official French version | as published 2016 (corrigenda not reviewed) | EU legislative texts may be reused (Commission Decision 2011/833/EU); labels and definitions are CRGO paraphrases; only the Official Journal text is authentic |
+
+## Sources added in 0.9.0 (Sprint 1)
+
+| File | Source | Version used | Licence or terms |
+|---|---|---|---|
+| `imports/prov-slice.ttl` | W3C PROV-O: The PROV Ontology (github.com/w3c/prov, ontology/prov-o.ttl), BOT module extracted with ROBOT | W3C Recommendation 2013-04-30 | W3C Software and Document License |
+| `imports/time-slice.ttl` | W3C Time Ontology in OWL (github.com/w3c/sdw-time, rdf/time.ttl), BOT module extracted with ROBOT | edition of 2025-08-27 | CC BY 4.0 |
+| `ontology/vocab/legal.ttl`, `ontology/vocab/sources.ttl` | Official texts of P-39.1, C-1.1, A-2.1 (r. 0.1, r. 3.1), R-22.1 (r. 1, r. 2) (LégisQuébec), PIPEDA (Justice Laws Website), OSFI B-13, Regulation (EU) 2016/679 (EUR-Lex): PDF snapshots saved by the project owner on 2026-10-11 | dates printed on each file (`docs/baseline/source_registry.csv`) | CRGO stores citations, dates and paraphrased conditions only; the PDFs stay in `data/raw/` and are not redistributed |
+
+`tests/samples/` (Nordelle Market inc.) is synthetic test data written for CRGO; it describes no real organisation.
+

@@ -164,8 +164,8 @@
 
 <https://w3id.org/crgo/vocab/legal/condition/C11-44-BIO> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Uses biometric characteristics to verify or confirm identity"@en,
-        "Utilise des caractéristiques biométriques pour vérifier ou confirmer l'identité"@fr ;
+    rdfs:label "Uses a biometric process to verify or confirm a person's identity (s. 44); a biometric database must be disclosed to the Commission before it is put into service (s. 45)"@en,
+        "Utilise un procédé biométrique pour vérifier ou confirmer l'identité d'une personne (art. 44); une banque de caractéristiques biométriques doit être divulguée à la Commission avant sa mise en service (art. 45)"@fr ;
     skos:note "Citation: C-1.1 ss. 44-45"@en ;
     crgo:CRGO_0000250 "C11-44-BIO" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -176,21 +176,6 @@
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/C-1.1> ;
     crgo:CRGO_0000425 crgo:CRGO_0000399 ;
     crgo:CRGO_0000469 "required|processesData=DataBiometric|interpretive" .
-
-<https://w3id.org/crgo/vocab/legal/condition/C11-QC> a owl:NamedIndividual,
-        crgo:CRGO_0000344 ;
-    rdfs:label "Operates in Québec"@en,
-        "Exerce ses activités au Québec"@fr ;
-    skos:note "Citation: C-1.1 s. 1"@en ;
-    crgo:CRGO_0000250 "C11-QC" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO paraphrase of C-1.1 s. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/C-1.1> ;
-    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
-    crgo:CRGO_0000469 "required|establishedIn=JurQuebec|plain" .
 
 <https://w3id.org/crgo/vocab/legal/condition/GDPR-2-1> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
@@ -282,12 +267,27 @@
     crgo:CRGO_0000425 crgo:CRGO_0000398 ;
     crgo:CRGO_0000469 "required|processesPersonalInfo|plain" .
 
-<https://w3id.org/crgo/vocab/legal/condition/P39-1-QC> a owl:NamedIndividual,
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-ACT> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Carries on an enterprise in Québec"@en,
-        "Exploite une entreprise au Québec"@fr ;
+    rdfs:label "Collects personal information from persons in Québec, or offers them goods or services, without an establishment in Québec"@en,
+        "Recueille des renseignements personnels auprès de personnes au Québec, ou leur offre des biens ou services, sans établissement au Québec"@fr ;
+    skos:note "Citation: P-39.1 s. 1 (territorial reach interpreted)"@en ;
+    crgo:CRGO_0000250 "P39-1-QC-ACT" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1 (territorial reach interpreted) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|activeIn=JurQuebec|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-EST> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Carries on an enterprise established in Québec"@en,
+        "Exploite une entreprise établie au Québec"@fr ;
     skos:note "Citation: P-39.1 s. 1"@en ;
-    crgo:CRGO_0000250 "P39-1-QC" ;
+    crgo:CRGO_0000250 "P39-1-QC-EST" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
@@ -295,47 +295,47 @@
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
     crgo:CRGO_0000425 crgo:CRGO_0000396 ;
-    crgo:CRGO_0000469 "required|establishedIn=JurQuebec|plain" .
+    crgo:CRGO_0000469 "anyof|establishedIn=JurQuebec|plain" .
 
 <https://w3id.org/crgo/vocab/legal/condition/P39-3-PB> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
     rdfs:label "Is a public body (A-2.1 applies instead)"@en,
         "Est un organisme public (la loi c. A-2.1 s'applique plutôt)"@fr ;
-    skos:note "Citation: P-39.1 s. 3"@en ;
+    skos:note "Citation: P-39.1 s. 3, para. 1"@en ;
     crgo:CRGO_0000250 "P39-3-PB" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 3 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 3, para. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
     crgo:CRGO_0000425 crgo:CRGO_0000400 ;
     crgo:CRGO_0000469 "exception|orgType=OrgPublicBody|plain" .
 
-<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FRFI> a owl:NamedIndividual,
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-COM> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Is a federally regulated financial institution (a federal undertaking)"@en,
-        "Est une institution financière fédérale (entreprise fédérale)"@fr ;
-    skos:note "Citation: PIPEDA s. 4(1)(b)"@en ;
-    crgo:CRGO_0000250 "PIPEDA-FRFI" ;
+    rdfs:label "Acts in the course of commercial activities, or is a federal work"@en,
+        "Agit dans le cadre d'activités commerciales, ou est une entreprise fédérale"@fr ;
+    skos:note "Citation: PIPEDA s. 2(1) (commercial activity), s. 4(1)"@en ;
+    crgo:CRGO_0000250 "PIPEDA-COM" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(b) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 2(1) (commercial activity), s. 4(1) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
     crgo:CRGO_0000425 crgo:CRGO_0000397 ;
-    crgo:CRGO_0000469 "anyof|orgType=OrgFRFI|plain" .
+    crgo:CRGO_0000469 "required|orgTypeIn=OrgEnterprise,OrgFederalWork|plain" .
 
 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FW> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Operates a federal work, undertaking or business"@en,
-        "Exploite une entreprise fédérale"@fr ;
-    skos:note "Citation: PIPEDA s. 4(1)(b)"@en ;
+    rdfs:label "Operates a federal work, undertaking or business, such as a bank, airline or telecommunications carrier"@en,
+        "Exploite une entreprise fédérale, comme une banque, un transporteur aérien ou une entreprise de télécommunications"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)(a)-(b); the Québec exemption order (SOR/2003-374) does not cover federal works"@en ;
     crgo:CRGO_0000250 "PIPEDA-FW" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(b) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a)-(b); the Québec exemption order (SOR/2003-374) does not cover federal works (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
@@ -344,18 +344,18 @@
 
 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-OP> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Carries on commercial activity in a province without substantially similar legislation"@en,
-        "Exerce une activité commerciale dans une province sans loi essentiellement similaire"@fr ;
+    rdfs:label "Carries on commercial activity in a province or territory without substantially similar legislation"@en,
+        "Exerce une activité commerciale dans une province ou un territoire sans loi essentiellement similaire"@fr ;
     skos:note "Citation: PIPEDA s. 4(1)(a); s. 26(2)(b)"@en ;
     crgo:CRGO_0000250 "PIPEDA-OP" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a); s. 26(2)(b) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
     crgo:CRGO_0000425 crgo:CRGO_0000396 ;
-    crgo:CRGO_0000469 "anyof|establishedIn=JurCanadaOtherProvince|interpretive" .
+    crgo:CRGO_0000469 "anyof|establishedIn=JurCanadaOtherProvince|plain" .
 
 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-PI> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
@@ -374,13 +374,13 @@
 
 <https://w3id.org/crgo/vocab/legal/condition/PIPEDA-XB> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
-    rdfs:label "Discloses personal information across provincial or national borders in commercial activity"@en,
-        "Communique des renseignements personnels au-delà des frontières provinciales ou nationales dans le cadre d'une activité commerciale"@fr ;
-    skos:note "Citation: PIPEDA s. 4(1)(a); s. 26(2)(b) exemption order for Québec"@en ;
+    rdfs:label "Collects personal information from, or discloses it to, persons outside Québec in the course of commercial activity"@en,
+        "Recueille des renseignements personnels auprès de personnes hors du Québec, ou les leur communique, dans le cadre d'une activité commerciale"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)(a); s. 26(2)(b) and SOR/2003-374"@en ;
     crgo:CRGO_0000250 "PIPEDA-XB" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a); s. 26(2)(b) exemption order for Québec (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a); s. 26(2)(b) and SOR/2003-374 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
@@ -793,7 +793,7 @@
         crgo:CRGO_0000343 ;
     rdfs:label "Act respecting the protection of personal information in the private sector"@en,
         "Loi sur la protection des renseignements personnels dans le secteur privé"@fr ;
-    rdfs:comment "In-force date of the original Act not stated in the consolidation; Loi 25 provisions carry their own in-force dates in the loi25 vocabulary."@en ;
+    rdfs:comment "In-force date of the original Act not stated in the consolidation; Loi 25 provisions carry their own in-force dates in the loi25 vocabulary. Out of scope of the applicability conditions for now: s. 3, para. 2 (information held on behalf of a public body) and para. 3 (health and social services information held by an R-22.1 body), which exclude data rather than organisations."@en ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;

@@ -6,7 +6,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.org/crgo-test/fixture/neg-epss-out-of-range> a owl:Ontology ;
-    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en .
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en ;
+    skos:note "expect: between 0 and 1" .
 
 x:o1 a crgo:CRGO_0000340 ;
     crgo:CRGO_0000247 1.3 ;

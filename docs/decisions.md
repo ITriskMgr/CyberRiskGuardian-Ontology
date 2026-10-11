@@ -325,3 +325,16 @@ The project owner supplied *CRGO v0.8 to v1.0 Claude Implementation Specificatio
 - D5: ISO/IEC 27002, COBIT and CCM short titles are kept, with attribution.
 - D6: the project owner downloads the official PDFs of the Québec and federal texts and OSFI B-13; CRGO records their dates and checksums.
 - D7: a new fictional test company is built; the teaching cases stay reserved for measuring identification recall.
+
+## 17. Sprint 1 of the v0.8 → v1.0 specification (0.9.0, prepared 2026-10-11)
+
+Built while the project owner was away ("Complete all the work now and proceed to get everything ready", 2026-10-11), within decisions D1–D7. Design records: `docs/adr/ADR-001` to `ADR-006`. Points decided by Claude in the owner's absence, for review:
+- **Modules and names**: `crgo-evidence`, `crgo-org`, `crgo-vuln`, `crgo-grc`, `crgo-mapping`; control assessment placed in `crgo-grc` rather than a separate assurance module.
+- **W3C imports as slices**: neither PROV-O nor OWL-Time is OWL 2 DL as published, so ROBOT BOT modules are imported (as for CCO). OWL-Time instants use `time:inXSDDateTimeStamp`, because HermiT rejects `xsd:date` literals.
+- **Dates left unknown rather than guessed**: the Québec Acts' original in-force dates and OSFI B-13's effective date are not printed in the PDFs used, so no in-force interval is asserted for them; the GDPR interval (2016-05-24, applying from 2018-05-25) comes from its Art. 99.
+- **Reading of organisation profiles** in the applicability evaluator (ADR-004): unlisted values count as absent only where the profile declares the property complete (*profile complete for*), recorded as an Assumption on every assessment.
+- **Interpretive conditions** (5) can only yield *potentially applicable*.
+- **Independent review (2026-10-11)** of the Sprint 1 work found 4 high, 8 medium and 5 low issues (missing data turned into *not applicable*; Loi 25 territorial test; PIPEDA rules for financial institutions, citations and commercial activity; jurisdiction of the federal order used as a place; satisfied determinations without evidence; untested exception; vacuous checks; counts). All were fixed before release, except the documented open points of ADR-004.
+- **Proposed links**: library links whose approval group is unapproved move to `crgo-library-proposed.ttl`; links proposed without a group (second themes, case-to-family *refines*, rule-added weaknesses) stay in the library because identification depends on them; to be revisited.
+- **Specification adaptations** listed in `docs/baseline/gap_analysis.md` section D (no thirteen-module split, no folder migration, no reified record per link, no single-scenario constraint on risk assessments, since a CRG assessment covers many scenarios).
+

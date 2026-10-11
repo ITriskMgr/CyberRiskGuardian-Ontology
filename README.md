@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.9.0 draft for review (adds the EU GDPR, 40 provisions, with Loi 25 correspondences; nothing in it approved yet). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
+**Status: 0.9.0 prepared for review: the EU GDPR (approved 2026-10-11) and Sprint 1 of the v0.8 → v1.0 specification (sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS observations; awaiting review, see `docs/review-0.9.0.md`). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -21,10 +21,15 @@ from them. It replaces the earlier MOACCO ontology, which is retired.
 | crgo-core | `https://w3id.org/crgo/crgo-core` | Assets, organisation, threats, weaknesses, controls, frameworks, scenarios, assessment and treatment |
 | crgo-measure | `https://w3id.org/crgo/crgo-measure` | Generic estimates (likelihood, impact, risk level, control effectiveness) and scales |
 | crgo-crg | `https://w3id.org/crgo/crgo-crg` | The CRG v1.0c model: the six parameters, CVSS input, reductions, KRI quantities, calculation activity, screening |
-| crgo (umbrella) | `https://w3id.org/crgo/crgo` | Imports all four |
+| crgo-evidence | `https://w3id.org/crgo/crgo-evidence` | 0.9.0: source records, observations (disjoint from estimates), assumptions; PROV-O and OWL-Time alignment |
+| crgo-org | `https://w3id.org/crgo/crgo-org` | 0.9.0: organisation profile for legal applicability: type, jurisdictions, processing activities, roles, data categories, supplier role |
+| crgo-vuln | `https://w3id.org/crgo/crgo-vuln` | 0.9.0: EPSS observations, KEV dates as data |
+| crgo-grc | `https://w3id.org/crgo/crgo-grc` | 0.9.0: legal instruments, applicability conditions and assessments, compliance determinations, control assessments |
+| crgo-mapping | `https://w3id.org/crgo/crgo-mapping` | 0.9.0: typed correspondence relations (sub-properties of SKOS mapping relations) |
+| crgo (umbrella) | `https://w3id.org/crgo/crgo` | Imports all nine |
 | crgo-full | `https://w3id.org/crgo/crgo-full` | crgo + scenario library (`data/abox/crgo-library.ttl`) + all vocabularies |
 
-Import chain: `crg → measure → core → {gov, BFO-2020, CCO slice}`. Term IRIs are
+Import chains: `crg → measure → core → {gov, BFO-2020, CCO slice}`; `vuln → evidence → {measure, PROV-O slice, OWL-Time slice}`; `grc → {evidence, org}`; `org → core`; `mapping → gov`. Term IRIs are
 opaque (`https://w3id.org/crgo/CRGO_nnnnnnn`) and stay stable across versions;
 the number assigned to each key is kept in `src/ids.tsv`.
 
@@ -37,20 +42,20 @@ the local `ontology/catalog-v001.xml` automatically.
 ```
 ontology/        generated OWL modules (Turtle) and the import catalog
 src/             specification (spec_core.py, spec_props.py), generator (build.py), ids.tsv, approvals.tsv
-imports/         BFO-2020 core, CCO 2.2 slice and seed list, CCO licence
-tests/           fixtures; tests/crg: MediBec round trip; tests/cq: 20 competency questions; tests/shacl: negative shapes tests; tests/identify
+imports/         BFO-2020 core; CCO 2.2, PROV-O and OWL-Time slices with their seed lists; CCO licence
+tests/           fixtures; tests/crg: MediBec round trip; tests/cq: 27 competency questions; tests/spec_cq: specification CQs (27 checks); tests/samples: synthetic Nordelle Market inc.; tests/shacl: negative shapes tests; tests/identify
 scripts/         check.sh, check_metadata.py, check_modules.py, check_vocab.py, review workbooks
 ontology/vocab/  SKOS vocabularies: scenario themes, CSF 2.0, SP 800-53, ISO/IEC 27002, COBIT 2019, Loi 25, Québec health-information act (R-22.1), CCM domains, ATT&CK
                  (CCM controls are built privately into ontology/vocab-private/, never committed)
-pipeline/        library repair (pipeline/library), vocabulary builder (pipeline/vocab), framework links (pipeline/links), CRG bridge (pipeline/crg)
+pipeline/        library repair (pipeline/library), vocabulary builders (pipeline/vocab, incl. build_legal.py for legal instruments and source records), framework links (pipeline/links), CRG bridge (pipeline/crg), applicability evaluator (pipeline/grc)
 queries/         SPARQL queries, starting with identification (asset category → scenarios, techniques, controls)
 shapes/          SHACL shapes (generated by src/build_shapes.py)
 pipeline/query/  Oxigraph store, identification module, JSON export; pipeline/mcp: MCP server for CyberRiskGuardian
 data/export/     crgo-identification.json (all scenarios with links, estimates and provenance)
 data/library/    repaired 2023 scenario library: rows, families, category map, repair report
-data/abox/       library instance data (crgo-library.ttl)
+data/abox/       library instance data (crgo-library.ttl) and proposed links awaiting review (crgo-library-proposed.ttl, not imported by crgo-full)
 data/frameworks/ verified framework tables with their sources
-docs/            decisions.md, crg-mapping.md, crg-integration.md (using CRGO from CyberRiskGuardian), evaluation and pitfall reports
+docs/            baseline/ (Stage 0 audit), adr/ (design records), review-0.9.0.md, decisions.md, crg-mapping.md, crg-integration.md (using CRGO from CyberRiskGuardian), evaluation and pitfall reports
 ```
 
 The `.ttl` files in `ontology/` are generated. Edit the specification in `src/`

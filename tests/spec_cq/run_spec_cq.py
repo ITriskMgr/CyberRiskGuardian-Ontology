@@ -38,11 +38,11 @@ results = []
 def check(label, cond, detail=""):
     results.append(cond); print("%s  %-74s %s" % ("PASS" if cond else "FAIL", label, detail))
 
-def reassess(g, org=N.org):
+def reassess(g, org=N.org, date="2026-10-01"):
     """Re-run the applicability evaluator on a variant profile (removing earlier results first)."""
     for a in list(g.subjects(RDF.type, T("ApplicabilityAssessment"))):
         g.remove((a, None, None))
-    out, res = applicability.evaluate(g, org, "2026-10-01", N["person/ciso"], str(N))
+    out, res = applicability.evaluate(g, org, date, N["person/ciso"], str(N))
     g += out
     return res
 
@@ -79,29 +79,42 @@ check("CQ-07 Loi 25 applicable; GDPR and PIPEDA potentially applicable", got == 
       "PIPEDA": T("AppPotentiallyApplicable")}, str({k: str(v)[-3:] for k, v in got.items()}))
 counts = {str(r.instrument).rsplit("/", 1)[1]: int(r.provisions) for r in rows}
 check("CQ-07 provision counts", counts.get("GDPR") == 40 and counts.get("P-39.1", 0) >= 29, str(counts))
-g = copy.deepcopy(sample)
-for t in list(g.triples((N.org, T("offersServicesIn"), None))): g.remove(t)
-g.add((N.org, T("offersServicesIn"), T("JurQuebec")))
-for t in list(g.triples((N["processing/customer-orders"], T("dataSubjectsIn"), None))): g.remove(t)
-g.add((N["processing/customer-orders"], T("dataSubjectsIn"), T("JurQuebec")))
-res = reassess(g)
-check("CQ-07 Québec-only company that does not say whether it monitors EU residents -> GDPR unknown, PIPEDA not applicable",
-      res.get("GDPR") == "AppUnknown" and res.get("PIPEDA") == "AppNotApplicable", str({k: v[3:] for k, v in res.items()}))
-g.add((N.org, T("monitorsBehaviourIn"), T("JurQuebec")))  # the profile now states where it monitors behaviour: Québec only
-res = reassess(g)
-check("CQ-07 negative: Québec-only company, monitoring stated -> GDPR not applicable", res.get("GDPR") == "AppNotApplicable", str({k: v[3:] for k, v in res.items()}))
-g = copy.deepcopy(sample)
+def variant(remove=(), add=(), uncomplete=()):
+    g = copy.deepcopy(sample)
+    for s_, p_ in remove:
+        for t in list(g.triples((s_, p_, None))): g.remove(t)
+    for t in add: g.add(t)
+    for k in uncomplete: g.remove((N.org, T("profileCompleteFor"), Literal(k)))
+    return g
+PA = N["processing/customer-orders"]; C_ = lambda k: (N.org, T("profileCompleteFor"), Literal(k))
+qc_only = dict(remove=[(N.org, T("offersServicesIn")), (PA, T("dataSubjectsIn"))],
+               add=[(N.org, T("offersServicesIn"), T("JurQuebec")), (PA, T("dataSubjectsIn"), T("JurQuebec"))])
+res = reassess(variant(remove=qc_only["remove"], add=qc_only["add"], uncomplete=["monitorsBehaviourIn"]))
+check("CQ-07 Québec-only company that does not say where it monitors behaviour -> GDPR unknown", res.get("GDPR") == "AppUnknown", str({k: v[3:] for k, v in res.items()}))
+check("CQ-07 ... and transfers to recipients not stated -> PIPEDA unknown, not 'not applicable'", res.get("PIPEDA") == "AppUnknown")
+res = reassess(variant(remove=qc_only["remove"], add=qc_only["add"] + [C_("transfersDataTo")]))
+check("CQ-07 negative: Québec-only company, monitoring and transfers stated -> GDPR and PIPEDA not applicable",
+      res.get("GDPR") == "AppNotApplicable" and res.get("PIPEDA") == "AppNotApplicable", str({k: v[3:] for k, v in res.items()}))
+g = variant(remove=[(N.org, T("carriedOutBy"))], uncomplete=["carriedOutBy"])
 for a in list(g.subjects(T("carriedOutBy"), N.org)): g.remove((a, None, None))
-res = reassess(g)
-unk = q("CQ-07u", g, org=N.org)
+res = reassess(g); unk = q("CQ-07u", g, org=N.org)
 check("CQ-07 absent data: no processing activity recorded -> Loi 25 and GDPR unknown, not 'not applicable'",
       res.get("P-39.1") == "AppUnknown" and res.get("GDPR") == "AppUnknown", str({k: v[3:] for k, v in res.items()}))
 check("CQ-07u names the missing fact (processing of personal information)", any(r.condition == LEG["condition/P39-1-PI"] for r in unk), "%d rows" % len(unk))
-g = copy.deepcopy(sample)
-for t in list(g.triples((N.org, T("hasOrganisationType"), None))): g.remove(t)
-g.add((N.org, T("hasOrganisationType"), T("OrgPublicBody")))
-res = reassess(g)
-check("CQ-07 public body -> A-2.1 applicable, Loi 25 excluded by its s. 3 exception", res.get("A-2.1") == "AppApplicable" and res.get("P-39.1") == "AppNotApplicable", str({k: v[3:] for k, v in res.items()}))
+res = reassess(variant(add=[(N.org, T("hasOrganisationType"), T("OrgPublicBody"))]))
+check("CQ-07 enterprise that is also a public body -> Loi 25 excluded by its s. 3 exception, A-2.1 applicable",
+      res.get("P-39.1") == "AppNotApplicable" and res.get("A-2.1") == "AppApplicable", str({k: v[3:] for k, v in res.items()}))
+res = reassess(variant(remove=qc_only["remove"] + [(N.org, T("hasOrganisationType"))],
+                       add=qc_only["add"] + [C_("transfersDataTo"), (N.org, T("hasOrganisationType"), T("OrgEnterprise")), (N.org, T("hasOrganisationType"), T("OrgFRFI"))]))
+check("CQ-07 Québec insurer regulated by OSFI, no cross-border data -> B-13 applicable, PIPEDA not applicable",
+      res.get("OSFI-B-13") == "AppApplicable" and res.get("PIPEDA") == "AppNotApplicable", str({k: v[3:] for k, v in res.items()}))
+res = reassess(variant(remove=[(N.org, T("establishedIn"))], add=[(N.org, T("establishedIn"), T("JurCanadaOtherProvince"))]))
+check("CQ-07 Ontario-type firm selling into Québec -> Loi 25 potentially applicable, PIPEDA applicable",
+      res.get("P-39.1") == "AppPotentiallyApplicable" and res.get("PIPEDA") == "AppApplicable", str({k: v[3:] for k, v in res.items()}))
+res = reassess(variant(remove=[(N.org, T("establishedIn"))], add=[(N.org, T("establishedIn"), T("JurEU"))]), date="2017-06-01")
+check("CQ-07 date: EU-established firm assessed on 2017-06-01 -> GDPR not yet applicable (applies from 2018-05-25)", res.get("GDPR") == "AppNotApplicable", str(res.get("GDPR")))
+res = reassess(variant(remove=[(N.org, T("establishedIn"))], add=[(N.org, T("establishedIn"), T("JurEU"))]))
+check("CQ-07 same firm on 2026-10-01 -> GDPR applicable (Art. 3(1), plain)", res.get("GDPR") == "AppApplicable", str(res.get("GDPR")))
 # ---- CQ-08
 rows = q("CQ-08", sample, org=N.org)
 byd = {}
@@ -110,8 +123,6 @@ check("CQ-08 four determinations", set(byd) == {"loi25-register", "loi25-securit
 check("CQ-08 satisfied register determination rests on evidence", all(r.evidence is not None for r in byd["loi25-register"]))
 check("CQ-08 undetermined and not-assessed items carry an explicit evidence gap",
       all(r.gap is not None and r.evidence is None for k in ("gdpr-notification", "loi25-pia") for r in byd[k]))
-check("CQ-08 no determination is satisfied by a mapping alone (every 'satisfied' has evidence)",
-      all(r.evidence is not None for r in rows if r.state == T("CompSatisfied")))
 # ---- CQ-11
 rows = q("CQ-11", sample, ra=N["assessment/2026"])
 items = {(str(r.kind), r.item) for r in rows}

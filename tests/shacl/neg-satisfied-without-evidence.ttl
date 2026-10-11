@@ -1,0 +1,22 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:d a crgo:CRGO_0000346 ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 x:org ;
+    crgo:CRGO_0000432 x:provision ;
+    crgo:CRGO_0000433 crgo:CRGO_0000389 ;
+    crgo:CRGO_0000435 x:who ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000470 "none needed" .
+
+<https://example.org/crgo-test/fixture/neg-satisfied-without-evidence> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en ;
+    skos:note "expect: must cite evidence" .
+
+<https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
+

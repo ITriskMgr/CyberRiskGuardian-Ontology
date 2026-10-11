@@ -28,7 +28,12 @@ for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "ma
 neg_ok = True
 for f in sorted(glob.glob(os.path.join(ROOT, "tests", "shacl", "neg-*.ttl"))):
     d = rdflib.Graph(); d += tbox; d.parse(f)
-    c, _, _ = validate(d, shacl_graph=shapes, inference="none", advanced=True)
-    neg_ok &= not c
-    print("   %-34s %s" % (os.path.basename(f)[:-4], "violates, as expected" if not c else "SHOULD VIOLATE"))
+    c, rg, _ = validate(d, shacl_graph=shapes, inference="none", advanced=True)
+    # 0.9.0 fixtures name the message they must trigger (skos:note "expect: ..."), so a fixture cannot pass for another reason
+    exp = [str(n)[8:] for n in d.objects(None, rdflib.URIRef("http://www.w3.org/2004/02/skos/core#note")) if str(n).startswith("expect: ")]
+    got = [str(m) for r in rg.subjects(rdflib.RDF.type, SH.ValidationResult) for m in rg.objects(r, SH.resultMessage)]
+    hit = all(any(e in m for m in got) for e in exp)
+    ok = (not c) and hit
+    neg_ok &= ok
+    print("   %-34s %s" % (os.path.basename(f)[:-4], ("violates, as expected" + (" (expected message)" if exp else "")) if ok else ("SHOULD VIOLATE" if c else "violates, but not with the expected message")))
 sys.exit(0 if conforms and neg_ok else 1)

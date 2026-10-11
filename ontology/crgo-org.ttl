@@ -30,13 +30,13 @@ crgo:CRGO_0000350 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" .
 
-# --- Canada (federal)
+# --- Canada (federal legal order)
 crgo:CRGO_0000351 a owl:NamedIndividual,
         crgo:CRGO_0000348 ;
-    rdfs:label "Canada (federal)"@en,
-        "Canada (fédéral)"@fr ;
-    skos:definition "Canada, for federal law and federal regulators."@en,
-        "Le Canada, pour le droit fédéral et les autorités fédérales."@fr ;
+    rdfs:label "Canada (federal legal order)"@en,
+        "Canada (ordre juridique fédéral)"@fr ;
+    skos:definition "Canada as the legal order of federal statutes and regulators. It is the jurisdiction of an instrument, not a place: an organisation's establishment, markets and data subjects are given by a province or territory."@en,
+        "Le Canada en tant qu'ordre juridique des lois et autorités fédérales. C'est la juridiction d'un instrument, non un lieu : l'établissement, les marchés et les personnes concernées d'une organisation sont indiqués par une province ou un territoire."@fr ;
     skos:inScheme crgo:CRGO_0000349 ;
     skos:notation "2" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -45,13 +45,13 @@ crgo:CRGO_0000351 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" .
 
-# --- Canadian province other than Québec
+# --- Canadian province or territory without substantially similar privacy law
 crgo:CRGO_0000352 a owl:NamedIndividual,
         crgo:CRGO_0000348 ;
-    rdfs:label "Canadian province other than Québec"@en,
-        "province canadienne autre que le Québec"@fr ;
-    skos:definition "Any Canadian province or territory other than Québec."@en,
-        "Toute province ou tout territoire canadien autre que le Québec."@fr ;
+    rdfs:label "Canadian province or territory without substantially similar privacy law"@en,
+        "province ou territoire canadien sans loi essentiellement similaire"@fr ;
+    skos:definition "A Canadian province or territory other than Québec, British Columbia and Alberta, whose private sector is not covered by a provincial law declared substantially similar to PIPEDA."@en,
+        "Province ou territoire canadien autre que le Québec, la Colombie-Britannique et l'Alberta, dont le secteur privé n'est pas régi par une loi provinciale déclarée essentiellement similaire à la LPRPDE."@fr ;
     skos:inScheme crgo:CRGO_0000349 ;
     skos:notation "3" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -68,7 +68,7 @@ crgo:CRGO_0000353 a owl:NamedIndividual,
     skos:definition "The European Union and its Member States."@en,
         "L'Union européenne et ses États membres."@fr ;
     skos:inScheme crgo:CRGO_0000349 ;
-    skos:notation "4" ;
+    skos:notation "5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
@@ -83,7 +83,7 @@ crgo:CRGO_0000354 a owl:NamedIndividual,
     skos:definition "A country outside Canada and the European Union."@en,
         "Pays situé hors du Canada et de l'Union européenne."@fr ;
     skos:inScheme crgo:CRGO_0000349 ;
-    skos:notation "5" ;
+    skos:notation "6" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
@@ -487,6 +487,36 @@ crgo:CRGO_0000419 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" .
 
+# --- British Columbia or Alberta
+crgo:CRGO_0000473 a owl:NamedIndividual,
+        crgo:CRGO_0000348 ;
+    rdfs:label "British Columbia or Alberta"@en,
+        "Colombie-Britannique ou Alberta"@fr ;
+    skos:definition "British Columbia or Alberta, whose private-sector privacy Acts are declared substantially similar to PIPEDA."@en,
+        "La Colombie-Britannique ou l'Alberta, dont les lois sur la protection des renseignements personnels dans le secteur privé sont déclarées essentiellement similaires à la LPRPDE."@fr ;
+    skos:inScheme crgo:CRGO_0000349 ;
+    skos:notation "4" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+# --- profile complete for
+crgo:CRGO_0000474 a owl:DatatypeProperty ;
+    rdfs:label "profile complete for"@en,
+        "profil complet pour"@fr ;
+    rdfs:domain cco:ont00001180 ;
+    rdfs:range xsd:string ;
+    skos:definition "Names a property (by its CRGO key, such as offersServicesIn or transfersDataTo) for which the organisation profile lists every value, so that a value it does not list can be taken as absent. Without it, an unlisted value is unknown."@en,
+        "Nomme une propriété (par sa clé CRGO, comme offersServicesIn ou transfersDataTo) pour laquelle le profil de l'organisation énumère toutes les valeurs, de sorte qu'une valeur non énumérée peut être tenue pour absente. Sans cela, une valeur non énumérée est inconnue."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "Independent review 2026-10-11: closed-world reading only where the profile declares it (ADR-004)."@en ;
+    crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
 crgo:crgo-org a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
@@ -574,19 +604,6 @@ crgo:CRGO_0000341 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" .
 
-# --- jurisdiction scheme
-crgo:CRGO_0000349 a owl:NamedIndividual,
-        skos:ConceptScheme ;
-    rdfs:label "jurisdiction scheme"@en,
-        "schéma : juridiction"@fr ;
-    skos:definition "Concept scheme of the jurisdiction value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « juridiction »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
-
 # --- organisation type scheme
 crgo:CRGO_0000356 a owl:NamedIndividual,
         skos:ConceptScheme ;
@@ -599,6 +616,19 @@ crgo:CRGO_0000356 a owl:NamedIndividual,
     crgo:CRGO_0000286 "CQLR c. P-39.1 ss. 1, 3.1-3.8, 17, 18.3; CQLR c. A-2.1 s. 3; CQLR c. R-22.1 s. 4 (LégisQuébec, updated to 2026-08-12)"@en,
         "OSFI Guideline B-13, scope (federally regulated financial institutions), 2022-07-31"@en,
         "PIPEDA ss. 4, 26(2)(b), Sch. 1 (S.C. 2000, c. 5, current to 2026-09-21)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+# --- jurisdiction scheme
+crgo:CRGO_0000349 a owl:NamedIndividual,
+        skos:ConceptScheme ;
+    rdfs:label "jurisdiction scheme"@en,
+        "schéma : juridiction"@fr ;
+    skos:definition "Concept scheme of the jurisdiction value set."@en,
+        "Schéma de concepts de l'ensemble de valeurs « juridiction »."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.9.0" .
 

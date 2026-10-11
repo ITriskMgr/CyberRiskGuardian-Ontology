@@ -87,7 +87,10 @@ s = shape("ScenarioStep", ("class", C("ScenarioStep")), "Steps are ordered.")
 prop(s, C("stepOrder"), "A scenario step needs exactly one positive order number.", minCount=1, maxCount=1, minInclusive=Literal(1))
 
 # 4. link annotations (OWL 2 axiom annotations)
-s = shape("LinkAnnotation", ("class", OWL.Axiom), "Every annotated link records its confidence, status and proposer.")
+s = S["LinkAnnotation"]; g.add((s, RDF.type, SH.NodeShape))
+g.add((s, RDFS.comment, Literal("Every annotated CRGO link records its confidence, status and proposer (axioms of imported W3C slices are not CRGO links).", lang="en")))
+tg = BNode(); g.add((s, SH.target, tg)); g.add((tg, RDF.type, SH.SPARQLTarget))
+g.add((tg, SH.select, Literal("""SELECT ?this WHERE { ?this a <http://www.w3.org/2002/07/owl#Axiom> ; <http://www.w3.org/2002/07/owl#annotatedSource> ?s . FILTER(STRSTARTS(STR(?s), "https://w3id.org/crgo/")) }""")))
 prop(s, C("confidence"), "A link needs exactly one confidence level.", minCount=1, maxCount=1)
 prop(s, C("governanceStatus"), "A link needs exactly one governance status.", minCount=1, maxCount=1)
 prop(s, C("proposedBy"), "A link must record who proposed it.", minCount=1)
@@ -160,6 +163,14 @@ for b, path in ((b1, C("hasEvidence")), (b2, C("evidenceGap"))):
     pp = BNode(); g.add((b, SH.property, pp)); g.add((pp, SH.path, path)); g.add((pp, SH.minCount, Literal(1)))
 Collection(g, alt, [b1, b2])
 g.add((s, SH.message, Literal("A compliance determination needs evidence, or an explicit statement of the missing evidence.", lang="en")))
+sparql(s, "A satisfied or partially satisfied compliance determination must cite evidence; an evidence gap alone is not enough.", """SELECT $this WHERE {
+  $this <%s> ?st . FILTER(?st IN (<%s>, <%s>)) FILTER NOT EXISTS { $this <%s> ?e }
+}""" % (C("hasComplianceState"), C("CompSatisfied"), C("CompPartial"), C("hasEvidence")))
+for key, target in (("establishedIn", ("subjectsOf", C("establishedIn"))), ("offersServicesIn", ("subjectsOf", C("offersServicesIn"))),
+                    ("monitorsBehaviourIn", ("subjectsOf", C("monitorsBehaviourIn"))), ("dataSubjectsIn", ("subjectsOf", C("dataSubjectsIn"))),
+                    ("transfersDataTo", ("subjectsOf", C("transfersDataTo")))):
+    s = shape("Place_" + key, target, "Places are provinces, territories or countries, not the federal legal order.")
+    sparql(s, "Use a province or territory, not 'Canada (federal legal order)', as the value of '%s'." % key, """SELECT $this WHERE { $this <%s> <%s> }""" % (C(key), C("JurCanada")))
 s = shape("ControlAssessment", ("class", C("ControlAssessment")), "Control assessments: measure, date, result, assessor; evidence unless not tested.")
 for k, m in (("evaluatesControlMeasure", "the control measure"), ("assessedOn", "the date"), ("hasTestResult", "the result")):
     prop(s, C(k), "A control assessment needs exactly one value for %s." % m, minCount=1, maxCount=1)

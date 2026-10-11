@@ -4,7 +4,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <https://example.org/crgo-test/fixture/neg-mapping-untyped> a owl:Ontology ;
-    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en .
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en ;
+    skos:note "expect: needs a typed relation" .
 
 <https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
 

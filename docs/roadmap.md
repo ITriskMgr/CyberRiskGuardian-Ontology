@@ -2,6 +2,10 @@
 
 What comes after 0.5.0, in suggested order. Each item says why, what it would change, and who has to decide. The principles of the first five phases stay in force: reuse before creating, evidence for every element, nothing approved without the project owner, TBox, vocabularies and instance data kept apart.
 
+## 0. From 0.9.0: the v0.8 → v1.0 implementation specification
+
+Since 2026-10-11 the project owner's *CRGO v0.8 to v1.0 Claude Implementation Specification* sets the path: 0.9.0 (GDPR and Sprint 1: sources, legal applicability and compliance, control assessment, typed mappings, EPSS observations), 0.9.5 (exposures and CVSS/EPSS/KEV observations, BIA, treatment portfolios with an external optimiser, the remaining specification CQs, OSCAL, ISO/IEC 27001 clause identifiers, risk-method constructs) and 1.0.0 (P1 sources chosen at the 0.9.5 checkpoint, the full acceptance demonstration, the developer guide, a stability commitment). Plan and gaps: `docs/baseline/sprint_1_plan.md` and `docs/baseline/gap_analysis.md`. The sections below record the earlier plan; items they share with the specification follow the specification.
+
 ## 1. Reviews waiting for the project owner
 
 | Item | What is needed | Effort |

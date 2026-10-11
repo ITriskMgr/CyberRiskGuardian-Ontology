@@ -2,17 +2,35 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
-## [0.9.0] — 2026-10-11, draft for review
+## [0.9.0] — 2026-10-11, prepared for review
 
-EU General Data Protection Regulation, approved by the project owner on 2026-10-11 (vocabulary, all 25 correspondences, CQ27). Release held for the additions of the v0.8 → v1.0 specification (Sprint 1).
+EU GDPR, and Sprint 1 of the v0.8 → v1.0 implementation specification: sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS as observations. The GDPR content was approved by the project owner on 2026-10-11; the Sprint 1 additions await review (`docs/review-0.9.0.md`). The four 0.8.0 modules are unchanged (decision D2); the change report against v0.8.0 is in `releases/0.9.0/`.
 
 ### Added
-- **GDPR vocabulary** (`ontology/vocab/gdpr.ttl`): 40 provisions of Regulation (EU) 2016/679, read in the Official Journal text (OJ L 119, 4.5.2016) supplied by the project owner: scope for organisations outside the EU (Art. 3(2)), definitions (breach, pseudonymisation), principles and legal bases, consent and children, special categories, information and rights (Arts. 13, 17, 20, 22), controller accountability, privacy by design and by default, processors, records, security (Art. 32), breach notification and its content (Arts. 33–34), impact assessment and prior consultation, data protection officer, transfers, corrective powers, compensation, and administrative fines with the factors that set them. English and French labels (French follows the official French terminology); definitions are CRGO paraphrases.
-- **Loi 25 ↔ GDPR correspondences** (`skos:relatedMatch`): 19 comparable obligations (confidence medium, group `mappings/loi25-gdpr/M`) and 6 partly comparable ones whose scope or trigger differs (confidence low, `mappings/loi25-gdpr/L`). Scenario detail lists a scenario's GDPR provisions under `other_regimes.eu_GDPR`.
-- Competency question CQ27 (proposed).
+- **GDPR** (approved): vocabulary of 40 provisions of Regulation (EU) 2016/679 from the Official Journal text, English and French; 25 correspondences to Loi 25 (19 comparable, 6 partly comparable); scenario detail lists GDPR provisions; CQ27.
+- **Five new modules** (138 new terms, CRGO_0000337 to CRGO_0000474):
+  - `crgo-evidence`: source record, observation (disjoint from estimate), assumption; aligned to PROV-O and OWL-Time, imported as OWL 2 DL slices.
+  - `crgo-org`: organisation type, jurisdictions, processing activity, processing role, personal data categories, supplier role, and *profile complete for*, which declares the facts a profile lists completely.
+  - `crgo-vuln`: EPSS observation, KEV date added and ransomware use as data.
+  - `crgo-grc`: legal instrument, applicability condition, applicability assessment (applicable, not applicable, potentially applicable, unknown), compliance determination (satisfied, partially satisfied, unsatisfied, not assessed, undetermined), control assessment (effective, partly effective, ineffective, not tested).
+  - `crgo-mapping`: 11 typed correspondence relations, sub-properties of `skos:relatedMatch` / `skos:closeMatch`.
+- **Source records** (`ontology/vocab/sources.ttl`): 29 sources with issuer, version, retrieval date, licence, what CRGO redistributes and SHA-256 checksums; every vocabulary, the mappings, the library and the legal instruments point to them. Dated PDF snapshots of P-39.1, C-1.1, A-2.1 (with r. 0.1 and r. 3.1), R-22.1 (with r. 1 and r. 2), PIPEDA and OSFI B-13 recorded (supplied by the project owner).
+- **Legal instruments** (`ontology/vocab/legal.ttl`): 11 instruments with citations, jurisdictions and the dates printed in the texts (the GDPR in-force interval as OWL-Time); 179 *provision of* links from the legal vocabularies; 19 applicability conditions with machine-readable tests (5 interpretive).
+- **Applicability evaluator** (`pipeline/grc/applicability.py`): evaluates the conditions over an organisation profile and the assessment date; an unlisted fact counts as absent only where the profile declares that property complete, otherwise it gives *unknown*, never *not applicable*; an interpretive condition gives only *potentially applicable*; an instrument is not applicable before the date it applies from.
+- **Synthetic test company** Nordelle Market inc. (`tests/samples/`, decision D7): profile, suppliers, processing, a 2026 assessment with two hypothetical scenarios, estimates with assumptions, three control measures and assessments, four compliance determinations, applicability results. Clearly marked synthetic; not empirically validated.
+- **Specification competency questions** CQ-03, 04, 05, 07, 08 and 11 (`tests/spec_cq/`, 27 checks with negative, absent-data, date and contradictory-observation fixtures).
+- **Quality gates**: 26 new SHACL shapes (16 written for the new classes: source records, observations including contradictory EPSS scores, vocabularies without a source, legal instruments, applicability, compliance with evidence or an evidence gap and evidence for any satisfied state, control assessments, measure ≠ control, typed mappings, the federal legal order never used as a place; 10 for new functional properties); 11 new SHACL negative fixtures, each checked for the message it must trigger, and 1 OWL negative fixture (observation ≠ estimate); `scripts/check.sh` step 13 (sample consistency, OWL 2 DL, specification CQs).
+- **Design records** ADR-001 to ADR-006 (`docs/adr/`); Stage 0 baseline, source registry, gap analysis and sprint plan (`docs/baseline/`); change report script (`scripts/change_report.py`).
+
+### Changed
+- After an independent review (2026-10-11), before release: the Loi 25 territorial test covers enterprises active in Québec without an establishment (interpretive); the PIPEDA rule for all federally regulated financial institutions was removed (only federal works such as banks are federal undertakings) and a commercial-activity condition added; PIPEDA citations corrected (s. 4(1)(a)-(b), SOR/2003-374); British Columbia and Alberta separated from the other provinces; the C-1.1 condition scoped to identity verification; P-39.1 s. 3, paras. 2-3 documented as out of scope.
+- **EPSS** (decision D4): the 1,739 values are dated EPSS observations (probability, percentile, 30-day horizon, score date, model version, source record). The 0.8.0 *likelihood* individuals are deprecated stubs pointing to their replacements; scenario detail and CQ26 read the observations.
+- **Cross-references** (decision D3): every correspondence also carries its typed relation; SKOS triples and annotations are unchanged.
+- **Proposed links kept apart** (gap G5): `ontology/vocab/mappings-proposed.ttl` (120 low-confidence D3FEND links) and `data/abox/crgo-library-proposed.ttl` (library links of unapproved groups) are not imported by `crgo-full`; the query store still loads them.
+- w3id.org rules generalised for the new modules, import slices and the proposal file (local copy in `w3id/`; the live rules need a pull request).
 
 ### Not included
-- The UK GDPR (a separate regime; the earlier PDF) and the corrigenda to the 2016 text.
+- The UK GDPR and the 2018 corrigendum to the GDPR. Organisation-specific exposures, BIA, treatment portfolios and the remaining specification CQs are planned for 0.9.5 (`docs/baseline/sprint_1_plan.md`).
 
 ## [0.8.0] — 2026-10-11, approved
 

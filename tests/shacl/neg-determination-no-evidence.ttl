@@ -14,7 +14,8 @@ x:d a crgo:CRGO_0000346 ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
 <https://example.org/crgo-test/fixture/neg-determination-no-evidence> a owl:Ontology ;
-    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en .
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en ;
+    skos:note "expect: evidence, or an explicit statement" .
 
 <https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
 

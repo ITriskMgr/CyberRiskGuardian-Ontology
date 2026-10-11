@@ -100,7 +100,8 @@ def bind(g):
         g.bind(p, n)
 
 def gov(g, s, sources, conf, rationale):
-    a = APPROVALS.get(KEY_OF.get(s))
+    # a term is approved by its own key, or (0.9.0) by its module's group key terms/<module>
+    a = APPROVALS.get(KEY_OF.get(s)) or APPROVALS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""))
     if a and a[0] in STATUS:
         g.add((s, ann["governanceStatus"], STATUS[a[0]]))
         g.add((s, ann["approvedBy"], AGENTS[a[1]]))
