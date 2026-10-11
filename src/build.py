@@ -15,9 +15,12 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
-S.update(V9.SOURCES_09)
-CLASSES = CLASSES + V9.CLASSES_09; VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09; INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09; DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09
+import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
+S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA)
+CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA; VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA
+INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA
+DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA
 
 VERSION = "0.9.0"
 PRIOR = "0.8.0"
@@ -42,6 +45,11 @@ MODULES = {
     "vuln": ("crgo-vuln", "CyberRiskGuardian Ontology - vulnerability observations module", "Ontologie CyberRiskGuardian - module des observations de vulnérabilités", ["evidence"]),
     "grc": ("crgo-grc", "CyberRiskGuardian Ontology - legal applicability and compliance module", "Ontologie CyberRiskGuardian - module d'applicabilité juridique et de conformité", ["evidence", "org"]),
     "mapping": ("crgo-mapping", "CyberRiskGuardian Ontology - typed correspondence relations module", "Ontologie CyberRiskGuardian - module des relations de correspondance typées", ["gov"]),
+    # 0.9.0 GRCA sprint (decision G2) and remaining-gaps package R8
+    "governance": ("crgo-governance", "CyberRiskGuardian Ontology - corporate governance, policy and decision records module", "Ontologie CyberRiskGuardian - module de gouvernance d'entreprise, des politiques et des décisions", ["grc"]),
+    "assurance": ("crgo-assurance", "CyberRiskGuardian Ontology - assurance, evidence and control effectiveness module", "Ontologie CyberRiskGuardian - module d'assurance, de preuves et d'efficacité des mesures", ["governance"]),
+    "audit": ("crgo-audit", "CyberRiskGuardian Ontology - audit lifecycle and remediation module", "Ontologie CyberRiskGuardian - module du cycle d'audit et de la remédiation", ["assurance"]),
+    "incident": ("crgo-incident", "CyberRiskGuardian Ontology - security events and incidents module", "Ontologie CyberRiskGuardian - module des événements et incidents de sécurité", ["evidence"]),
 }
 IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice",
            "IMPORT:prov": BASE + "imports/prov-slice", "IMPORT:time": BASE + "imports/time-slice"}
@@ -99,15 +107,28 @@ def bind(g):
     for p, n in [("crgo", CRGO), ("obo", BFO), ("cco", CCO), ("skos", SKOS), ("owl", OWL), ("xsd", XSD), ("dcterms", DCTERMS), ("vann", VANN), ("prov", PROV), ("time", TIME)]:
         g.bind(p, n)
 
+# A group approval terms/<module> may be scoped in its note ("scope: up to CRGO_nnnnnnn"): it then covers only the terms
+# that existed when it was given, so that terms added to the module later stay proposed until approved in their turn.
+import re as _re
+def scope_of(note):
+    m = _re.search(r"scope: up to CRGO_(\d+)", note or "")
+    return int(m.group(1)) if m else None
+
 def gov(g, s, sources, conf, rationale):
-    # a term is approved by its own key, or (0.9.0) by its module's group key terms/<module>
-    a = APPROVALS.get(KEY_OF.get(s)) or APPROVALS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""))
+    # a term is approved by its own key, or (0.9.0) by its module's group key terms/<module>, within GROUP_SCOPE
+    num = int(str(s).rsplit("_", 1)[1])
+    a = APPROVALS.get(KEY_OF.get(s))
+    if not a:
+        a = APPROVALS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""))
+        if a and scope_of(a[3]) is not None and num > scope_of(a[3]):
+            a = None
     if a and a[0] in STATUS:
         g.add((s, ann["governanceStatus"], STATUS[a[0]]))
         g.add((s, ann["approvedBy"], AGENTS[a[1]]))
         g.add((s, ann["approvalDate"], Literal(a[2], datatype=XSD.date)))
-        if a[3]:
-            g.add((s, ann["reviewNote"], Literal(a[3], lang="en")))
+        note = _re.sub(r"\s*scope: up to CRGO_\d+[^;]*;?", "", a[3]).strip() if a[3] else ""
+        if note:
+            g.add((s, ann["reviewNote"], Literal(note, lang="en")))
     else:
         g.add((s, ann["governanceStatus"], PROPOSED))
     g.add((s, ann["confidence"], CONF[conf]))
@@ -116,7 +137,6 @@ def gov(g, s, sources, conf, rationale):
     for k in sources:
         g.add((s, ann["evidenceSource"], Literal(S[k], lang="en")))
     g.add((s, ann["proposedBy"], CLAUDE))
-    num = int(str(s).rsplit("_", 1)[1])
     g.add((s, ann["introducedIn"], Literal(next((v for v, mx in sorted(FIRST_RELEASE.items()) if num <= mx), VERSION))))
 
 def labels(g, s, en, fr, den, dfr, alts=()):
@@ -198,7 +218,11 @@ from rdflib import BNode as _B
 from rdflib.collection import Collection as _Col
 SEES = {"gov": ["gov"], "core": ["gov", "core"], "measure": ["gov", "core", "measure"], "crg": ["gov", "core", "measure", "crg"],
         "evidence": ["gov", "core", "measure", "evidence"], "org": ["gov", "core", "org"], "vuln": ["gov", "core", "measure", "evidence", "vuln"],
-        "grc": ["gov", "core", "measure", "evidence", "org", "grc"], "mapping": ["gov"]}
+        "grc": ["gov", "core", "measure", "evidence", "org", "grc"], "mapping": ["gov"],
+        "governance": ["gov", "core", "measure", "evidence", "org", "grc", "governance"],
+        "assurance": ["gov", "core", "measure", "evidence", "org", "grc", "governance", "assurance"],
+        "audit": ["gov", "core", "measure", "evidence", "org", "grc", "governance", "assurance", "audit"],
+        "incident": ["gov", "core", "measure", "evidence", "incident"]}
 for m, seen in SEES.items():
     vs = [iri(v[0]) for v in VALUE_SETS if v[1] in seen]
     if len(vs) > 1:
@@ -208,10 +232,10 @@ for m, seen in SEES.items():
 graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
 MODULE_OF = {c[0]: c[1] for c in CLASSES}
 ORDER = list(MODULES)
-for a, b in V9.DISJOINT_09:  # stated in the later of the two modules, which sees both
+for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA:  # stated in the later of the two modules, which sees both
     graphs[max(MODULE_OF[a], MODULE_OF[b], key=ORDER.index)].add((iri(a), OWL.disjointWith, iri(b)))
 # SKOS mapping relations are the super-properties of the typed correspondences (no SKOS import)
-for p in (SKOS.relatedMatch, SKOS.closeMatch):
+for p in (SKOS.relatedMatch, SKOS.closeMatch, SKOS.broadMatch, SKOS.narrowMatch):
     graphs["mapping"].add((p, RDF.type, OWL.ObjectProperty))
 
 # ---------------------------------------------------------------- other individuals

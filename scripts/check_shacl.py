@@ -10,20 +10,22 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 t0 = time.time()
 data = rdflib.Graph()
 for f in ["build/crgo-full-merged.ttl", "tests/crg/medibec30.ttl", "tests/fixtures/crg-template-s1.ttl",
-          "ontology/vocab/mappings-proposed.ttl", "data/abox/crgo-library-proposed.ttl", "tests/samples/nordelle.ttl", "tests/samples/nordelle-applicability.ttl"]:
+          "ontology/vocab/mappings-proposed.ttl", "data/abox/crgo-library-proposed.ttl", "tests/samples/nordelle.ttl", "tests/samples/nordelle-applicability.ttl",
+          "tests/samples/nordelle-grca.ttl", "data/abox/crgo-workprogrammes.ttl"]:
     data.parse(os.path.join(ROOT, f))
 shapes = rdflib.Graph().parse(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"))
 conforms, rep_g, rep_t = validate(data, shacl_graph=shapes, inference="none", advanced=True, allow_warnings=True)
 open(os.path.join(ROOT, "build", "shacl-report.txt"), "w").write(rep_t)
 SH = rdflib.Namespace("http://www.w3.org/ns/shacl#")
-msgs = Counter(str(m) for r in rep_g.subjects(rdflib.RDF.type, SH.ValidationResult) for m in rep_g.objects(r, SH.resultMessage))
+msgs = Counter(("[warning] " if (r, SH.resultSeverity, SH.Warning) in rep_g else "") + str(m)
+               for r in rep_g.subjects(rdflib.RDF.type, SH.ValidationResult) for m in rep_g.objects(r, SH.resultMessage))
 print("   SHACL: %s, %d results in %.0f s" % ("conforms" if conforms else "VIOLATIONS", sum(msgs.values()), time.time() - t0))
 for m, n in msgs.most_common(10):
     print("     %5d  %s" % (n, m))
 # negative tests: each small graph must violate the shapes (TBox modules give the class hierarchy)
 import glob
 tbox = rdflib.Graph()
-for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping"]:
+for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident"]:
     tbox.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 neg_ok = True
 for f in sorted(glob.glob(os.path.join(ROOT, "tests", "shacl", "neg-*.ttl"))):

@@ -4,11 +4,13 @@
 @prefix ns1: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.org/crgo-sample/nordelle> a owl:Ontology ;
     rdfs:label "Nordelle Market inc. - SYNTHETIC test data for CRGO 0.9.0"@en ;
     dcterms:type "synthetic test data" ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/nordelle/" ;
     rdfs:comment "Fictional organisation for the CRGO acceptance demonstration (specification section 22). All facts and values are invented; estimates are not empirically validated."@en ;
     owl:imports crgo:crgo .
 
@@ -32,7 +34,8 @@
     crgo:CRGO_0000433 crgo:CRGO_0000393 ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
-    crgo:CRGO_0000470 "No documented procedure to notify an EU supervisory authority within 72 hours; GDPR applicability under Art. 3(2) awaits qualified review." .
+    crgo:CRGO_0000470 "No documented procedure to notify an EU supervisory authority within 72 hours; GDPR applicability under Art. 3(2) awaits qualified review." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
 
 <https://example.org/crgo-sample/nordelle/compliance/loi25-pia> a owl:NamedIndividual,
         crgo:CRGO_0000346 ;
@@ -44,7 +47,8 @@
     crgo:CRGO_0000433 crgo:CRGO_0000392 ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
-    crgo:CRGO_0000470 "Not yet assessed." .
+    crgo:CRGO_0000470 "Not yet assessed." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
 
 <https://example.org/crgo-sample/nordelle/compliance/loi25-register> a owl:NamedIndividual,
         crgo:CRGO_0000346 ;
@@ -56,7 +60,8 @@
     crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
     crgo:CRGO_0000433 crgo:CRGO_0000389 ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
-    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
 
 <https://example.org/crgo-sample/nordelle/compliance/loi25-security> a owl:NamedIndividual,
         crgo:CRGO_0000346 ;
@@ -72,7 +77,8 @@
         <https://example.org/crgo-sample/nordelle/control-assessment/mfa-2026-09> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
-    crgo:CRGO_0000470 "Endpoint detection not yet deployed; the restore test missed the application configuration." .
+    crgo:CRGO_0000470 "Endpoint detection not yet deployed; the restore test missed the application configuration." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
 
 <https://example.org/crgo-sample/nordelle/control-assessment/edr-2026-09> a owl:NamedIndividual,
         crgo:CRGO_0000347 ;

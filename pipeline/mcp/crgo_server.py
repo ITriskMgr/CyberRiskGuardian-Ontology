@@ -3,13 +3,16 @@
 # Copyright (c) 2026 Marc-André Léger
 """CyberRiskGuardian Ontology - local MCP server (stdio) for threat, vulnerability and risk identification.
 
-Tools (all read-only):
+Tools (read-only unless stated):
   - crgo_sweep                  profile-wide identification: one representative per kind of scenario, a few per theme
   - crgo_identify               scenarios matching all given filters, ranked by fit
   - crgo_scenario               one scenario in full: threats, weaknesses, controls, obligations, estimates
   - crgo_controls_for_technique controls associated with an ATT&CK technique across the library
   - crgo_scenarios_for_control  scenarios a framework requirement addresses
   - crgo_list_values            allowed values for the filters
+  - crgo_risk_context           DSS contract dss/v1, read document for one organisation and scenario (0.9.0)
+  - crgo_submit_assessment      DSS contract dss/v1, write-back: stores a DSS result as PROPOSED in the organisation's
+                                own proposed graph file, never in CRGO reference files (0.9.0)
 
 Every answer carries confidence and approval status per link and a caveat: library and case values are
 calibration priors, never organisational evidence (CyberRiskGuardian evidence discipline).
@@ -82,6 +85,50 @@ def crgo_scenarios_for_control(framework: str, control_id: str, min_confidence: 
 def crgo_list_values(kind: str) -> list:
     """Allowed filter values. kind: 'asset_category', 'theme', 'threat_source_type', 'impact_dimension' or 'sector'."""
     return I.list_values(kind)
+
+
+sys.path.insert(0, os.path.join(HERE, "..", "contracts"))
+
+
+def _org_files(org_graph_files):
+    files = [os.path.abspath(f) for f in org_graph_files]
+    missing = [f for f in files if not os.path.exists(f)]
+    if missing:
+        raise FileNotFoundError("organisation graph file(s) not found: %s" % missing)
+    return files
+
+
+@mcp.tool()
+def crgo_risk_context(org_graph_files: list[str], organization: str, scenario: str, as_of: str) -> dict:
+    """DSS contract dss/v1 (read). org_graph_files: the organisation's own RDF files (Turtle), kept outside the CRGO
+    repository's reference files; organization: the organisation IRI (its own base, never https://w3id.org/crgo/);
+    scenario: the organisation's assessment scenario IRI or a CRGO library scenario; as_of: yyyy-mm-dd.
+    Returns a document valid against contracts/dss/v1/risk-context.schema.json, or an error document.
+    CRGO returns facts, links and their status; it never computes risk (ADR-007)."""
+    import dss
+    return dss.risk_context(_org_files(org_graph_files), organization, scenario, as_of)
+
+
+@mcp.tool()
+def crgo_submit_assessment(document: dict, org_graph_files: list[str]) -> dict:
+    """DSS contract dss/v1 (write-back). document: a result valid against contracts/dss/v1/assessment-result.schema.json
+    with status 'proposed'. The result is stored as a proposed analytical result (knowledge status: risk estimate) in
+    '<name>-dss-proposed.ttl' next to the first organisation graph file. It never becomes approved, an acceptance or a
+    funding decision by being written back; approval is a separate act. Returns the stored IRI or an error document."""
+    import dss
+    from rdflib import Graph
+    files = _org_files(org_graph_files)
+    g = dss.load(files, reference=False)
+    try:
+        base = dss.org_base(document.get("organizationId", ""), g)
+    except (ValueError, LookupError):
+        return dss.error("UNKNOWN_ORGANISATION", "No organisation graph among the files declares a base for this organisation.")
+    # the proposed graph sits next to the file that declares the organisation's base, never next to another tenant's file
+    home = next((f for f in files if base in dss.declared_bases(Graph().parse(f))), None)
+    if home is None:
+        return dss.error("UNKNOWN_ORGANISATION", "No file declares the base %s." % base)
+    out = os.path.join(os.path.dirname(home), os.path.splitext(os.path.basename(home))[0].split("-")[0] + "-dss-proposed.ttl")
+    return dss.submit_assessment(document, files, out, g=g)
 
 
 if __name__ == "__main__":

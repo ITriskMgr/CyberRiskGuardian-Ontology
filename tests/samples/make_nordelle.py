@@ -33,6 +33,7 @@ def concept(scheme, notation):
 g = Graph(); g.bind("crgo", BASE); g.bind("nordelle", N); g.bind("dcterms", DCTERMS)
 o = URIRef("https://example.org/crgo-sample/nordelle")
 g.add((o, RDF.type, OWL.Ontology)); g.add((o, OWL.imports, URIRef(BASE + "crgo")))
+g.add((o, URIRef("http://purl.org/vocab/vann/preferredNamespaceUri"), Literal(str(N))))  # organisation base, declared (ADR-008)
 g.add((o, RDFS.label, Literal("Nordelle Market inc. - SYNTHETIC test data for CRGO 0.9.0", lang="en")))
 g.add((o, DCTERMS.type, Literal("synthetic test data")))
 g.add((o, RDFS.comment, Literal("Fictional organisation for the CRGO acceptance demonstration (specification section 22). "
@@ -135,6 +136,7 @@ def det(key, scheme, notation, state, jur, evid=(), gap=None, cas=()):
     d = ind(N["compliance/" + key], T("ComplianceDetermination"), label="Compliance with %s (fictional)" % notation)
     g.add((d, T("concernsOrganisation"), org)); g.add((d, T("complianceWith"), concept(scheme, notation))); g.add((d, T("hasComplianceState"), T(state)))
     g.add((d, T("hasJurisdiction"), T(jur))); g.add((d, T("assessedOn"), dt("2026-10-01"))); g.add((d, T("assessedBy"), assessor))
+    g.add((d, T("hasKnowledgeStatus"), T("KsAuditConclusion")))  # GRCA section 11: a determination is an assessor's conclusion
     for e in evid: g.add((d, T("hasEvidence"), e))
     for c in cas: g.add((d, T("basedOnControlAssessment"), c))
     if gap: g.add((d, T("evidenceGap"), Literal(gap)))
@@ -149,5 +151,7 @@ g.serialize(os.path.join(ROOT, "tests", "samples", "nordelle.ttl"), format="turt
 pg = Graph(); pg += g; pg.parse(os.path.join(ROOT, "ontology", "vocab", "legal.ttl"))
 out, res = applicability.evaluate(pg, org, "2026-10-01", assessor, str(N))
 out.bind("nordelle", N)
+out.add((URIRef("https://example.org/crgo-sample/nordelle-applicability"), RDF.type, OWL.Ontology))  # organisation graph header (ADR-008)
+out.add((URIRef("https://example.org/crgo-sample/nordelle-applicability"), URIRef("http://purl.org/vocab/vann/preferredNamespaceUri"), Literal(str(N))))
 out.serialize(os.path.join(ROOT, "tests", "samples", "nordelle-applicability.ttl"), format="turtle")
 print("nordelle: %d triples; applicability: %s" % (len(g), ", ".join("%s %s" % (k, v[3:]) for k, v in res.items())))

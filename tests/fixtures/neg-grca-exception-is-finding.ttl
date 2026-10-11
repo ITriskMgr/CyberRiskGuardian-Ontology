@@ -1,0 +1,13 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+<https://example.org/crgo-test/fixture/neg-grca-exception-is-finding> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    owl:imports crgo:crgo .
+
+x:x a owl:NamedIndividual,
+        crgo:CRGO_0000540,
+        crgo:CRGO_0000541 .
+

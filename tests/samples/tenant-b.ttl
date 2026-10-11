@@ -1,0 +1,63 @@
+@prefix boreal: <https://example.org/crgo-sample/boreal/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-sample/boreal> a owl:Ontology ;
+    rdfs:label "Boréal Outillage ltée - SYNTHETIC second tenant for CRGO 0.9.0 tenant tests"@en ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/boreal/" ;
+    owl:imports crgo:crgo .
+
+<https://example.org/crgo-sample/boreal/control-assessment/audit> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Boréal backup assessment (audit)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/boreal/evidence/tape-log> ;
+    crgo:CRGO_0000427 boreal:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/boreal/person/auditor> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/boreal/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000405 ;
+    crgo:CRGO_0000464 "2026-08-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 .
+
+<https://example.org/crgo-sample/boreal/control-assessment/rcsa> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Boréal backup assessment (rcsa)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/boreal/evidence/tape-log> ;
+    crgo:CRGO_0000427 boreal:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/boreal/person/ops> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/boreal/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000403 ;
+    crgo:CRGO_0000464 "2026-08-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000604 .
+
+<https://example.org/crgo-sample/boreal/person/auditor> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Boréal internal auditor (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/boreal/person/ops> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Boréal operations lead (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/boreal/control/backups> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Weekly tape backups (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/boreal/evidence/tape-log> a owl:NamedIndividual,
+        crgo:CRGO_0000036 ;
+    rdfs:label "Tape rotation log (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "tape-log" .
+
+boreal:org a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Boréal Outillage ltée (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+

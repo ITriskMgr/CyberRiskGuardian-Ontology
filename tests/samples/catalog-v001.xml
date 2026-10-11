@@ -13,6 +13,10 @@
   <uri name="https://w3id.org/crgo/crgo-vuln" uri="../../ontology/crgo-vuln.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-grc" uri="../../ontology/crgo-grc.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-mapping" uri="../../ontology/crgo-mapping.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-governance" uri="../../ontology/crgo-governance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-assurance" uri="../../ontology/crgo-assurance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-audit" uri="../../ontology/crgo-audit.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-incident" uri="../../ontology/crgo-incident.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="../../ontology/crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="../../ontology/crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../../data/abox/crgo-library.ttl"/>
@@ -36,5 +40,17 @@
   <uri name="https://w3id.org/crgo/vocab/osfi-b13" uri="../../ontology/vocab/osfi-b13.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/legal" uri="../../ontology/vocab/legal.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sources" uri="../../ontology/vocab/sources.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/sp800-53a" uri="../../ontology/vocab/sp800-53a.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iia-gias" uri="../../ontology/vocab/iia-gias.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iia-tr" uri="../../ontology/vocab/iia-tr.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/itaf" uri="../../ontology/vocab/itaf.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/tsc" uri="../../ontology/vocab/tsc.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/coso-erm" uri="../../ontology/vocab/coso-erm.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso19011" uri="../../ontology/vocab/iso19011.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso27007" uri="../../ontology/vocab/iso27007.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso27008" uri="../../ontology/vocab/iso27008.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso37301" uri="../../ontology/vocab/iso37301.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso37302" uri="../../ontology/vocab/iso37302.ttl"/>
   <uri name="https://example.org/crgo-sample/nordelle" uri="nordelle.ttl"/>
+  <uri name="https://example.org/crgo-sample/nordelle-grca" uri="nordelle-grca.ttl"/>
 </catalog>

@@ -86,3 +86,13 @@ The VERIS schema (github.com/vz-risk/veris) is under CC BY-SA 4.0, a share-alike
 
 `tests/samples/` (Nordelle Market inc.) is synthetic test data written for CRGO; it describes no real organisation.
 
+
+## Sources added in 0.9.0 (GRCA sprint and remaining-gaps packages, proposed)
+
+- **NIST SP 800-53A Rev. 5** assessment objectives and methods (`ontology/vocab/sp800-53a.ttl`): from the SP 800-53 Rev. 5.2.0 OSCAL catalogue (https://github.com/usnistgov/oscal-content). US Government work, not subject to copyright in the United States (17 U.S.C. 105). Credit: National Institute of Standards and Technology.
+- **The Institute of Internal Auditors**: *Global Internal Audit Standards* (published 2024-01-09) and the Topical Requirements on Cybersecurity, Third-Party and Organizational Behavior (`iia-gias.ttl`, `iia-tr.ttl`). © The Institute of Internal Auditors. Identifiers and official headings cited for reference and mapping only; all definitions are CRGO paraphrases; no text of the Standards or Requirements is reproduced. Obtain them from the IIA.
+- **ISACA**: *ITAF, A Professional Practices Framework for IT Audit*, 5th edition, and companion guideline 2208 (`itaf.ttl`). © ISACA. Identifiers and titles only, with CRGO paraphrases.
+- **AICPA**: *2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy* (with revised points of focus, 2022), TSP section 100 (`tsc.ttl`). © AICPA. Criterion identifiers and group headings only; criteria are labelled and paraphrased by CRGO; no criterion text or point of focus is reproduced.
+- **COSO**: *Enterprise Risk Management: Integrating with Strategy and Performance* (2017) (`coso-erm.ttl`). © COSO. Component and principle titles (French titles from the French executive summary; English titles translated by CRGO) and CRGO paraphrases only.
+- **ISO and ISO/IEC**: ISO 19011:2018, ISO/IEC 27007:2020, ISO/IEC TS 27008:2019, ISO 37301:2021, ISO 37302:2025 (`iso19011.ttl` … `iso37302.ttl`). © ISO / ISO/IEC. Clause numbers and headings from the publishers' previews, cited for reference and mapping only; definitions are CRGO paraphrases of what each heading covers. Obtain the standards from ISO or a national standards body.
+- Full texts of the licensed documents are held by the project owner under his own licences in `data/raw/` and are never committed; `pipeline/vocab/build_licensed_private.py` can build private reading copies in `ontology/vocab-private/`, also never committed (decision R-d).

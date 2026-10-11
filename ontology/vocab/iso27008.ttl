@@ -1,0 +1,360 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iso27008: <https://w3id.org/crgo/vocab/iso27008/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iso27008:6.1 a skos:Concept ;
+    skos:broader iso27008:6 ;
+    skos:definition "Steps of an assessment, from gathering preliminary information and checklists to fieldwork and analysis."@en,
+        "Étapes d'une évaluation, de la collecte d'informations préalables et des listes de contrôle au terrain et à l'analyse."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "6.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Assessment process"@en,
+        "Processus d'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6.1 (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:6.2 a skos:Concept ;
+    skos:broader iso27008:6 ;
+    skos:definition "People, means and skills needed to perform assessments."@en,
+        "Personnes, moyens et capacités nécessaires pour mener les évaluations."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "6.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Resourcing and competence"@en,
+        "Ressources et compétence"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6.2 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7.1 a skos:Concept ;
+    skos:broader iso27008:7 ;
+    skos:definition "Introduction to the family of review methods."@en,
+        "Présentation de l'ensemble des méthodes d'examen."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Overview"@en,
+        "Vue d'ensemble"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.1 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7.2 a skos:Concept ;
+    skos:broader iso27008:7 ;
+    skos:definition "Reviewing controls by studying the processes that deliver them."@en,
+        "Examiner les mesures en étudiant les processus qui les produisent."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Process analysis"@en,
+        "Analyse des processus"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.2 (page 7)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7.3 a skos:Concept ;
+    skos:broader iso27008:7 ;
+    skos:definition "Ways of inspecting procedural and technical controls."@en,
+        "Façons d'inspecter les mesures procédurales et techniques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Examination techniques"@en,
+        "Techniques d'inspection"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.3 (page 7)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7.4 a skos:Concept ;
+    skos:broader iso27008:7 ;
+    skos:definition "Testing styles such as blind, grey-box, tandem and reversal approaches. (Heading reproduced as printed, including 'an'.)"@en,
+        "Styles d'essai tels que les approches à l'aveugle, boîte grise, en tandem et inversées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Testing an validation techniques"@en,
+        "Techniques d'essai et de validation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.4 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7.5 a skos:Concept ;
+    skos:broader iso27008:7 ;
+    skos:definition "Choosing representative or exhaustive samples for review."@en,
+        "Choisir des échantillons représentatifs ou exhaustifs pour l'examen."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7.5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Sampling techniques"@en,
+        "Techniques d'échantillonnage"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7.5 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:8.1 a skos:Concept ;
+    skos:broader iso27008:8 ;
+    skos:definition "Groundwork before an assessment begins."@en,
+        "Travail préalable avant le début d'une évaluation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "8.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Preparations"@en,
+        "Préparatifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.1 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:8.2 a skos:Concept ;
+    skos:broader iso27008:8 ;
+    skos:definition "Planning scope, procedures, assignments, prior findings and related considerations for the assessment."@en,
+        "Planifier périmètre, procédures, affectations, constats antérieurs et autres considérations de l'évaluation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "8.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Planning the assessment"@en,
+        "Planification de l'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.2 (page 12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:8.3 a skos:Concept ;
+    skos:broader iso27008:8 ;
+    skos:definition "Carrying out the planned reviews. (Heading reproduced as printed.)"@en,
+        "Exécution des examens prévus."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "8.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Conduction reviews"@en,
+        "Conduite des examens"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.3 (page 17)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:8.4 a skos:Concept ;
+    skos:broader iso27008:8 ;
+    skos:definition "Interpreting what the reviews found and reporting it."@en,
+        "Interpréter ce que les examens révèlent et en rendre compte."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "8.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Analysis and reporting results"@en,
+        "Analyse et communication des résultats"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8.4 (page 18)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:1 a skos:Concept ;
+    skos:definition "States the control-review topics covered and that any kind or size of organization may use it."@en,
+        "Précise les sujets d'examen des mesures traités et l'applicabilité à tout organisme, quel qu'il soit."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Scope"@en,
+        "Domaine d'application"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 1 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:2 a skos:Concept ;
+    skos:definition "Lists indispensable documents, namely ISO/IEC 27000 and ISO/IEC 27017:2015."@en,
+        "Énumère les documents indispensables, soit l'ISO/IEC 27000 et l'ISO/IEC 27017:2015."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Normative references"@en,
+        "Références normatives"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 2 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:3 a skos:Concept ;
+    skos:definition "Relies on ISO/IEC 27000 vocabulary for the terms used."@en,
+        "S'appuie sur le vocabulaire de l'ISO/IEC 27000 pour les termes employés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Terms and definitions"@en,
+        "Termes et définitions"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 3 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:4 a skos:Concept ;
+    skos:definition "Roadmap explaining what each clause and annex contributes."@en,
+        "Feuille de route indiquant l'apport de chaque article et annexe."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Structure of this document"@en,
+        "Structure du présent document"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 4 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:5 a skos:Concept ;
+    skos:definition "Context on why controls degrade over time and why technical assessment provides assurance."@en,
+        "Mise en contexte: pourquoi les mesures s'érodent avec le temps et pourquoi l'évaluation technique rassure."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Background"@en,
+        "Contexte"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 5 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:A a skos:Concept ;
+    skos:definition "Informative support for collecting non-IT background information at the outset."@en,
+        "Appui informatif pour recueillir au départ les informations de contexte hors TI."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "A" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Annex A (Informative) Initial information gathering (other than IT)"@en,
+        "Annexe A (informative) Collecte initiale d'informations (hors TI)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex A (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:B a skos:Concept ;
+    skos:definition "Informative practical aid for performing technical security checks."@en,
+        "Aide pratique informative pour mener les vérifications techniques de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "B" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Annex B (informative) Practice guide for technical security assessments"@en,
+        "Annexe B (informative) Guide pratique des évaluations techniques de sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex B (page 24)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:C a skos:Concept ;
+    skos:definition "Informative aid for technically assessing IaaS cloud offerings."@en,
+        "Aide informative pour évaluer techniquement les offres infonuagiques de type IaaS."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "C" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Annex C (informative) Technical assessment guide for cloud services (Infrastructure as a service)"@en,
+        "Annexe C (informative) Guide d'évaluation technique des services en nuage (infrastructure en tant que service)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, annex C (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:6 a skos:Concept ;
+    skos:definition "High-level picture of how control assessments are organized and staffed."@en,
+        "Aperçu général de l'organisation et de la dotation des évaluations de mesures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "6" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Overview of information security control assessments"@en,
+        "Vue d'ensemble des évaluations des mesures de sécurité de l'information"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 6 (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:8 a skos:Concept ;
+    skos:definition "End-to-end conduct of a control assessment, from preparation to reporting."@en,
+        "Déroulement complet d'une évaluation de mesures, de la préparation au compte rendu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "8" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Control assessment process"@en,
+        "Processus d'évaluation des mesures"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 8 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27008:7 a skos:Concept ;
+    skos:definition "Techniques available to reviewers for examining and testing controls."@en,
+        "Techniques dont disposent les examinateurs pour inspecter et éprouver les mesures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27008> ;
+    skos:notation "7" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Review methods"@en,
+        "Méthodes d'examen"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27008> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC TS 27008:2019, clause 7 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iso27008> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISO/IEC JTC 1/SC 27" ;
+    dcterms:rights "Clause numbers and headings (c) ISO/IEC, cited for reference and mapping only; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "ISO/IEC TS 27008:2019 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
+    dcterms:title "ISO/IEC TS 27008:2019 Information technology — Security techniques — Guidelines for the assessment of information security controls: clause structure"@en,
+        "ISO/IEC TS 27008:2019 Technologies de l'information — Techniques de sécurité — Lignes directrices pour les auditeurs des contrôles de sécurité de l'information : structure des articles"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso27008> ;
+    owl:versionInfo "First edition, 2019-01" ;
+    skos:hasTopConcept iso27008:1,
+        iso27008:2,
+        iso27008:3,
+        iso27008:4,
+        iso27008:5,
+        iso27008:6,
+        iso27008:7,
+        iso27008:8,
+        iso27008:A,
+        iso27008:B,
+        iso27008:C ;
+    skos:scopeNote "Clauses to two levels and annex headings. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

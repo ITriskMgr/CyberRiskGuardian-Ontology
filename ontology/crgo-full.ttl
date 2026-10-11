@@ -27,6 +27,17 @@
         <https://w3id.org/crgo/vocab/sources>,
         <https://w3id.org/crgo/vocab/mappings>,
         <https://w3id.org/crgo/vocab/sp800-53r5>,
+        <https://w3id.org/crgo/vocab/sp800-53a>,
+        <https://w3id.org/crgo/vocab/iia-gias>,
+        <https://w3id.org/crgo/vocab/iia-tr>,
+        <https://w3id.org/crgo/vocab/itaf>,
+        <https://w3id.org/crgo/vocab/tsc>,
+        <https://w3id.org/crgo/vocab/coso-erm>,
+        <https://w3id.org/crgo/vocab/iso19011>,
+        <https://w3id.org/crgo/vocab/iso27007>,
+        <https://w3id.org/crgo/vocab/iso27008>,
+        <https://w3id.org/crgo/vocab/iso37301>,
+        <https://w3id.org/crgo/vocab/iso37302>,
         <https://w3id.org/crgo/vocab/theme> ;
     owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo-full> ;
     owl:versionInfo "0.9.0" .

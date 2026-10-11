@@ -1,0 +1,24 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:ca a crgo:CRGO_0000347,
+        crgo:CRGO_0000526 ;
+    crgo:CRGO_0000213 x:ev ;
+    crgo:CRGO_0000435 x:bob ;
+    crgo:CRGO_0000436 x:m ;
+    crgo:CRGO_0000437 crgo:CRGO_0000404 ;
+    crgo:CRGO_0000464 "2026-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-04-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000861 "25"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000862 "30"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-test/fixture/neg-grca-oe-deviations-exceed> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    skos:note "expect: cannot exceed" .
+

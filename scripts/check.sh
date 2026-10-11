@@ -84,9 +84,25 @@ if $ROBOT reason --input build/nordelle-merged.ttl --reasoner HermiT --output bu
 if $ROBOT validate-profile --input build/nordelle-merged.ttl --profile DL --output build/nordelle-profile.txt > /dev/null 2>&1; then
   echo "   nordelle: in OWL 2 DL"; else echo "   nordelle: NOT in OWL 2 DL"; fail=1; fi
 python3 tests/spec_cq/run_spec_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+# 0.9.0 GRCA sprint and packages R4-R8: governance, audit, assurance and incident records of the synthetic Nordelle,
+# second synthetic tenant, illustrative work programmes, competency questions
+python3 tests/samples/make_nordelle_grca.py | sed 's/^/   /' || fail=1
+python3 tests/samples/make_tenant_b.py | sed 's/^/   /' || fail=1
+( cd tests/samples && $ROBOT merge --catalog catalog-v001.xml --input nordelle-grca.ttl --input nordelle-applicability.ttl --input tenant-b.ttl --output ../../build/nordelle-grca-merged.ttl > ../../build/nordelle-grca-merge.log 2>&1 )
+if $ROBOT reason --input build/nordelle-grca-merged.ttl --reasoner HermiT --output build/nordelle-grca-inferred.ttl > build/nordelle-grca-reason.log 2>&1; then
+  echo "   nordelle governance/audit/assurance/incident records and second tenant: consistent"; else echo "   nordelle-grca: INCONSISTENT (see build/nordelle-grca-reason.log)"; fail=1; fi
+if $ROBOT validate-profile --input build/nordelle-grca-merged.ttl --profile DL --output build/nordelle-grca-profile.txt > /dev/null 2>&1; then
+  echo "   nordelle-grca: in OWL 2 DL"; else echo "   nordelle-grca: NOT in OWL 2 DL"; fail=1; fi
+python3 tests/grca_cq/run_grca_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
 
 echo "14. w3id.org redirect rules"
-python3 scripts/check_w3id.py | tail -1 || fail=1
+python3 scripts/check_w3id.py | tail -1; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+
+echo "15. Tenant separation (ADR-008)"
+python3 scripts/check_tenants.py || fail=1
+
+echo "16. DSS contract dss/v1 (ADR-007)"
+python3 tests/contracts/test_dss_contract.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
 
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit $fail

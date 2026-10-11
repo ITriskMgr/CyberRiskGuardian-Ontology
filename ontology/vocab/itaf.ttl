@@ -1,0 +1,592 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix itaf: <https://w3id.org/crgo/vocab/itaf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+itaf:ITAF-1001 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires a formally approved document stating the mandate, authority and accountability of the IT audit function."@en,
+        "Exige un document formellement approuvé énonçant le mandat, les pouvoirs et la responsabilité de la fonction d'audit des TI."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1001" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Audit Charter"@en,
+        "Charte d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1001 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1002 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires the IT audit function to be positioned and to report so that no conflict or outside pressure compromises its engagements."@en,
+        "Exige que la fonction d'audit des TI soit positionnée et rattachée de sorte qu'aucun conflit ni pression externe ne compromette ses missions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1002" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Organizational Independence"@en,
+        "Indépendance organisationnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1002 (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1003 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires each practitioner to judge impartially and to disclose and mitigate any actual or perceived threat to that impartiality."@en,
+        "Exige de chaque praticien un jugement impartial ainsi que la divulgation et l'atténuation de toute menace réelle ou apparente à cette impartialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1003" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Auditor Objectivity"@en,
+        "Objectivité de l'auditeur"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1003 (page 23)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1004 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires practitioners to confirm, prior to taking on or renewing an assignment, that it can be completed with suitable scope, cooperation and conformance."@en,
+        "Exige de confirmer, avant d'accepter ou de reconduire une mission, qu'elle peut être menée avec une portée, une collaboration et une conformité adéquates."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1004" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Reasonable Expectation"@en,
+        "Attente raisonnable"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1004 (page 31)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1005 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires diligent, ethical and confidential conduct throughout every engagement, as prescribed by the professional ethics code of ISACA."@en,
+        "Exige une conduite diligente, éthique et confidentielle, conforme au Code de déontologie professionnelle de l'ISACA, tout au long de chaque mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1005" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Due Professional Care"@en,
+        "Diligence professionnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1005 (page 37)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1006 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires the engagement team to hold, collectively, the knowledge and skills the work demands and to keep them current."@en,
+        "Exige que l'équipe de mission détienne collectivement les connaissances et habiletés requises par le travail et les maintienne à jour."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1006" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Proficiency"@en,
+        "Compétence professionnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1006 (page 45)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1007 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires practitioners to confirm that the claims made about the subject matter are auditable and adequate as a basis for conclusions."@en,
+        "Exige de vérifier que les affirmations portant sur l'objet de la mission sont auditables et suffisantes pour fonder des conclusions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1007" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Assertions"@en,
+        "Assertions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1007 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1008 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Requires the yardsticks used to assess the subject matter to be objective, relevant, measurable, recognized and accessible to report users."@en,
+        "Exige que les référentiels d'évaluation de l'objet soient objectifs, pertinents, mesurables, reconnus et accessibles aux utilisateurs du rapport."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1008" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Criteria"@en,
+        "Critères"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1008 (page 59)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1201 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires a risk-based method to build the IT audit plan, rank priorities, allocate resources and scope each individual engagement."@en,
+        "Exige une méthode fondée sur les risques pour bâtir le plan d'audit des TI, hiérarchiser les priorités, répartir les ressources et cadrer chaque mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1201" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Assessment in Planning"@en,
+        "Évaluation des risques lors de la planification"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1201 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1202 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires approved short- and long-range audit schedules tied to enterprise strategy and risk, revised when circumstances change."@en,
+        "Exige des calendriers d'audit à court et à long terme, approuvés, liés à la stratégie et aux risques de l'entreprise et révisés selon l'évolution du contexte."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1202" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Audit Scheduling"@en,
+        "Calendrier des audits"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1202 (page 74)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1203 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires each engagement to be planned in terms of objectives, scope, resources, timing and the nature and extent of procedures."@en,
+        "Exige que chaque mission soit planifiée quant aux objectifs, à la portée, aux ressources, à l'échéancier ainsi qu'à la nature et l'étendue des procédures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1203" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Planning"@en,
+        "Planification de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1203 (page 77)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1204 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires work to follow the approved plan under adequate supervision, with competent staff and properly documented support for conclusions."@en,
+        "Exige que le travail suive le plan approuvé sous une supervision adéquate, avec un personnel compétent et des appuis documentés pour les conclusions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1204" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Performance and Supervision"@en,
+        "Exécution et supervision"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1204 (page 85)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1205 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires practitioners to gather enough suitable evidence, assess it with professional skepticism and retain it per approved retention rules."@en,
+        "Exige de recueillir des éléments probants suffisants et adéquats, de les apprécier avec scepticisme professionnel et de les conserver selon les règles approuvées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1205" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Evidence"@en,
+        "Éléments probants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1205 (page 94)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1206 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires practitioners to vet the competence and independence of outside experts prior to using their output, and to document that reliance."@en,
+        "Exige de vérifier la compétence et l'indépendance des autres experts avant de s'appuyer sur leurs travaux, et de documenter ce recours."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1206" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Using the Work of Other Experts"@en,
+        "Recours aux travaux d'autres experts"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1206 (page 101)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1207 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Requires practitioners to stay alert to possible fraud or unlawful acts and to document and escalate any they find to proper parties."@en,
+        "Exige de demeurer attentif aux fraudes ou actes illicites possibles, et de documenter et signaler ceux qui sont décelés aux parties compétentes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1207" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Irregularities and Illegal Acts"@en,
+        "Irrégularités et actes illégaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1207 (page 107)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1401 a skos:Concept ;
+    skos:broader itaf:ITAF-REP ;
+    skos:definition "Requires a report for every engagement whose findings rest on sufficient, appropriate evidence."@en,
+        "Exige un rapport pour chaque mission, dont les constats reposent sur des éléments probants suffisants et adéquats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1401" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Reporting"@en,
+        "Rapport"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1401 (page 119)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-1402 a skos:Concept ;
+    skos:broader itaf:ITAF-REP ;
+    skos:definition "Requires practitioners to track and report management remediation of findings and to escalate overdue actions or risk accepted beyond appetite to governance bodies."@en,
+        "Exige de suivre et de rapporter la correction des constats par la direction, et de remonter aux instances de gouvernance les retards ou risques acceptés au-delà de l'appétence."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-1402" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Follow-up Activities"@en,
+        "Activités de suivi"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, standard ITAF-1402 (page 124)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2001 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on drafting, approving and maintaining the audit charter, including the elements it should contain."@en,
+        "Orientations sur la rédaction, l'approbation et la mise à jour de la charte d'audit, y compris les éléments qu'elle devrait contenir."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2001" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Audit Charter"@en,
+        "Charte d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2001 (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2002 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on positioning the audit function, setting its reporting level and assessing whether independence is preserved."@en,
+        "Orientations sur le positionnement de la fonction d'audit, son niveau de rattachement et l'appréciation du maintien de son indépendance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2002" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Organizational Independence"@en,
+        "Indépendance organisationnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2002 (page 21)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2003 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on identifying threats to objectivity, applying safeguards and handling nonaudit or advisory roles."@en,
+        "Orientations sur la détection des menaces à l'objectivité, l'application de mesures de sauvegarde et la gestion des rôles hors audit ou de conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2003" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Auditor Objectivity"@en,
+        "Objectivité de l'auditeur"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2003 (page 23)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2004 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on judging engagement feasibility, covering applicable standards, scope, scope limitations, information access and changes in terms."@en,
+        "Orientations pour juger de la faisabilité d'une mission : normes applicables, portée, limitations, accès à l'information et modification des conditions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2004" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Reasonable Expectation"@en,
+        "Attente raisonnable"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2004 (page 32)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2005 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on applying skepticism, competence and diligence across the engagement life cycle, including communication and handling of information."@en,
+        "Orientations sur l'exercice du scepticisme, de la compétence et de la diligence tout au long de la mission, y compris la communication et le traitement de l'information."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2005" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Due Professional Care"@en,
+        "Diligence professionnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2005 (page 38)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2006 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on assessing and developing the professional competence of practitioners and teams to the level engagements require."@en,
+        "Orientations sur l'évaluation et le développement de la compétence des praticiens et des équipes au niveau exigé par les missions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2006" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Proficiency"@en,
+        "Compétence professionnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2006 (page 45)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2007 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on evaluating subject-matter assertions, including those prepared by third parties, and on reflecting them in conclusions and reports."@en,
+        "Orientations sur l'évaluation des assertions relatives à l'objet, y compris celles de tiers, et sur leur prise en compte dans les conclusions et rapports."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2007" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Assertions"@en,
+        "Assertions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2007 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2008 a skos:Concept ;
+    skos:broader itaf:ITAF-GEN ;
+    skos:definition "Guidance on selecting criteria and judging their suitability, acceptability and source, including changes made mid-engagement."@en,
+        "Orientations sur le choix des critères et l'appréciation de leur pertinence, de leur acceptabilité et de leur source, y compris leur modification en cours de mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2008" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Criteria"@en,
+        "Critères"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2008 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2201 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on risk assessment for the IT audit plan and individual engagements, including inherent, control and detection risk."@en,
+        "Orientations sur l'évaluation des risques pour le plan d'audit des TI et pour chaque mission, y compris les risques inhérent, de contrôle et de non-détection."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2201" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Assessment in Planning"@en,
+        "Évaluation des risques lors de la planification"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2201 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2202 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on defining and updating the audit universe and tying the audit schedule to engagement planning."@en,
+        "Orientations sur la définition et la mise à jour de l'univers d'audit et sur l'arrimage du calendrier à la planification des missions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2202" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Audit Scheduling"@en,
+        "Calendrier des audits"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2202 (page 74)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2203 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on setting engagement objectives and scope, applying a risk-based approach and documenting the project plan and audit program."@en,
+        "Orientations sur la fixation des objectifs et de la portée, l'approche fondée sur les risques et la documentation du plan de projet et du programme d'audit."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2203" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Planning"@en,
+        "Planification de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2203 (page 78)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2204 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on executing fieldwork, assigning roles, supervising staff, and documenting evidence and findings."@en,
+        "Orientations sur l'exécution des travaux, l'attribution des rôles, la supervision du personnel et la documentation des preuves et constats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2204" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Performance and Supervision"@en,
+        "Exécution et supervision"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2204 (page 86)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2205 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on the types of evidence and on obtaining, evaluating and documenting it to support conclusions."@en,
+        "Orientations sur les types d'éléments probants ainsi que sur leur obtention, leur appréciation et leur documentation à l'appui des conclusions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2205" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Evidence"@en,
+        "Éléments probants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2205 (page 94)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2206 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on deciding whether to use other experts, assessing their adequacy, and planning, reviewing and evaluating their work."@en,
+        "Orientations sur la décision de recourir à d'autres experts, l'appréciation de leur aptitude et la planification, la revue et l'évaluation de leurs travaux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2206" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Using the Work of Other Experts"@en,
+        "Recours aux travaux d'autres experts"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2206 (page 102)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2207 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Guidance on management and practitioner duties regarding irregularities and illegal acts and on responding to and reporting them."@en,
+        "Orientations sur les obligations de la direction et des praticiens face aux irrégularités et actes illégaux, et sur la réponse et le signalement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2207" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Irregularities and Illegal Acts"@en,
+        "Irrégularités et actes illégaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2207 (page 107)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2208 a skos:Concept ;
+    skos:broader itaf:ITAF-PERF ;
+    skos:definition "Companion guidance on designing, selecting and evaluating IT audit samples and on documenting sampling decisions and results."@en,
+        "Lignes directrices complémentaires sur la conception, la sélection et l'évaluation d'échantillons en audit des TI et la documentation des choix et résultats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2208" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Information Technology Audit Sampling"@en,
+        "Échantillonnage en audit des technologies de l'information"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2208 (page 9)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2401 a skos:Concept ;
+    skos:broader itaf:ITAF-REP ;
+    skos:definition "Guidance on the required content of engagement reports, subsequent events and other communication of results."@en,
+        "Orientations sur le contenu requis des rapports de mission, les événements postérieurs et les autres communications des résultats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2401" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Reporting"@en,
+        "Rapport"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2401 (page 119)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-2402 a skos:Concept ;
+    skos:broader itaf:ITAF-REP ;
+    skos:definition "Guidance on the follow-up process, including timing, extent, deferral, response formats and reporting of management actions."@en,
+        "Orientations sur le processus de suivi : calendrier, étendue, report, forme des réponses et rapport sur les mesures de la direction."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-2402" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Follow-up Activities"@en,
+        "Activités de suivi"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, guideline ITAF-2402 (page 125)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-REP a skos:Concept ;
+    skos:definition "ITAF category (1400 and 2400 series) governing how engagement results are communicated and how remediation of findings is tracked."@en,
+        "Catégorie de l'ITAF (séries 1400 et 2400) encadrant la communication des résultats de mission et le suivi de la correction des constats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-REP" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Reporting Standards"@en,
+        "Normes de rapport"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-REP (page 119)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-PERF a skos:Concept ;
+    skos:definition "ITAF category (1200 and 2200 series) governing how engagements are planned, staffed, supervised and executed, including evidence and reliance on experts."@en,
+        "Catégorie de l'ITAF (séries 1200 et 2200) encadrant la planification, la dotation, la supervision et l'exécution des missions, y compris la preuve et le recours aux experts."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-PERF" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Performance Standards"@en,
+        "Normes de réalisation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-PERF (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+itaf:ITAF-GEN a skos:Concept ;
+    skos:definition "ITAF category (1000 and 2000 series) fixing baseline expectations on charter, independence, objectivity, care, competence, assertions and criteria."@en,
+        "Catégorie de l'ITAF (séries 1000 et 2000) fixant les attentes de base sur la charte, l'indépendance, l'objectivité, la diligence, la compétence, les assertions et les critères."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/itaf> ;
+    skos:notation "ITAF-GEN" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "General Standards"@en,
+        "Normes générales"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/itaf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISACA ITAF 5th edition, group ITAF-GEN (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/itaf> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISACA" ;
+    dcterms:rights "Identifiers and headings (c) ISACA, cited for reference and mapping only under the project owner's licence to use the document; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "ISACA ITAF 5th edition and companion performance guideline 2208 (data/frameworks/grca/itaf.tsv)" ;
+    dcterms:title "ISACA ITAF 5th edition: standards and guidelines"@en,
+        "ITAF de l'ISACA, 5e édition : normes et lignes directrices"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/itaf> ;
+    owl:versionInfo "5th edition (copyright 2026)" ;
+    skos:hasTopConcept itaf:ITAF-GEN,
+        itaf:ITAF-PERF,
+        itaf:ITAF-REP ;
+    skos:scopeNote "General, performance and reporting standards and their guidelines; numbered statements inside each standard are not included. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

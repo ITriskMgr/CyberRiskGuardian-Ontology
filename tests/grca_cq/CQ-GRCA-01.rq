@@ -1,0 +1,8 @@
+# CQ-GRCA-01 Who owns each control measure on a given date, and which governance body oversees the risk it mitigates?
+# Parameters: ?asOf (xsd:dateTime). Owner comes from a control owner role assignment valid on ?asOf; unbound = unknown.
+SELECT ?measure ?owner ?scenario ?body WHERE {
+  ?scenario {{mitigatedBy}} ?measure .
+  OPTIONAL { ?role a {{ControlOwnerRole}} ; {{roleFor}} ?measure . ?asg {{assignmentOfRole}} ?role ; {{assignedTo}} ?owner ; {{validFrom}} ?from .
+             OPTIONAL { ?asg {{validUntil}} ?until } FILTER(?from <= ?asOf && (!BOUND(?until) || ?until >= ?asOf)) }
+  OPTIONAL { ?body {{oversees}} ?scenario . { ?body a {{GoverningBody}} } UNION { ?body a ?bc . ?bc rdfs:subClassOf* {{GovernanceCommittee}} } }
+}

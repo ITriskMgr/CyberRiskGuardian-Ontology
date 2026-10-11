@@ -1,0 +1,987 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nordelle: <https://example.org/crgo-sample/nordelle/> .
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-sample/nordelle-grca> a owl:Ontology ;
+    rdfs:label "Nordelle Market inc. - SYNTHETIC governance, audit, assurance and incident data for CRGO 0.9.0"@en ;
+    dcterms:type "synthetic test data" ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/nordelle/" ;
+    owl:imports <https://example.org/crgo-sample/nordelle>,
+        <https://w3id.org/crgo/vocab/gdpr>,
+        <https://w3id.org/crgo/vocab/legal>,
+        <https://w3id.org/crgo/vocab/loi25>,
+        <https://w3id.org/crgo/vocab/sp800-53a>,
+        <https://w3id.org/crgo/vocab/sp800-53r5> .
+
+<https://example.org/crgo-sample/nordelle/action/CA-2026-03-01b> a owl:NamedIndividual,
+        crgo:CRGO_0000546 ;
+    rdfs:label "Monitor backup job definitions for drift after platform changes"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000807 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000808 crgo:CRGO_0000677 ;
+    crgo:CRGO_0000868 "2026-11-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/conclusion> a owl:NamedIndividual,
+        crgo:CRGO_0000542 ;
+    rdfs:label "ENG-2026-03 conclusion: backup and recovery needs improvement"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0000796 <https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-2026-05>,
+        <https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-oe-2026> ;
+    crgo:CRGO_0000797 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000798 crgo:CRGO_0000666 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sample/01> a owl:NamedIndividual,
+        crgo:CRGO_0000530 ;
+    rdfs:label "Backup job of 2026-01-14"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "2026-01-14" ;
+    crgo:CRGO_0000758 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> ;
+    crgo:CRGO_0000759 crgo:CRGO_0000654 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sample/02> a owl:NamedIndividual,
+        crgo:CRGO_0000530 ;
+    rdfs:label "Backup job of 2026-02-09"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "2026-02-09" ;
+    crgo:CRGO_0000758 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> ;
+    crgo:CRGO_0000759 crgo:CRGO_0000654 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sample/03> a owl:NamedIndividual,
+        crgo:CRGO_0000530 ;
+    rdfs:label "Backup job of 2026-03-22"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "2026-03-22" ;
+    crgo:CRGO_0000758 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> ;
+    crgo:CRGO_0000759 crgo:CRGO_0000655 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sufficiency-old-procedure> a owl:NamedIndividual,
+        crgo:CRGO_0000525 ;
+    rdfs:label "Sufficiency of the 2023 restore procedure as evidence of the current procedure"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000464 "2026-05-16T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000764 <https://example.org/crgo-sample/nordelle/evidence/restore-procedure-2023> ;
+    crgo:CRGO_0000765 <https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> ;
+    crgo:CRGO_0000766 crgo:CRGO_0000628 ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sufficiency-restore> a owl:NamedIndividual,
+        crgo:CRGO_0000525 ;
+    rdfs:label "Sufficiency of the restore evidence for objective CP-04(04)[01]"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000464 "2026-05-16T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000764 <https://example.org/crgo-sample/nordelle/evidence/restore-reperformance-2026-05> ;
+    crgo:CRGO_0000765 <https://w3id.org/crgo/vocab/sp800-53a/CP-04_04_o01> ;
+    crgo:CRGO_0000766 crgo:CRGO_0000626 ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000533 ;
+    rdfs:label "Internal audit plan 2026 (approved by the audit committee)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000776 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> .
+
+<https://example.org/crgo-sample/nordelle/audit/universe> a owl:NamedIndividual,
+        crgo:CRGO_0000531 ;
+    rdfs:label "Nordelle audit universe 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000774 <https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> .
+
+<https://example.org/crgo-sample/nordelle/baseline/linux-server> a owl:NamedIndividual,
+        crgo:CRGO_0000501 ;
+    rdfs:label "Linux server baseline 2026 (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/coi/itops-rcsa> a owl:NamedIndividual,
+        crgo:CRGO_0000506 ;
+    rdfs:label "IT operations manager declares owning the backup control assessed in the September self-assessment"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000734 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000735 <https://example.org/crgo-sample/nordelle/control-assessment/backups-rcsa-2026-09> .
+
+<https://example.org/crgo-sample/nordelle/compliance/evidence-requirement-restore> a owl:NamedIndividual,
+        crgo:CRGO_0000512 ;
+    rdfs:label "Evidence for the restore-test policy statement: two signed restore test reports a year"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000749 <https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> ;
+    crgo:CRGO_0000847 "Restore test report signed by IT operations, each half-year, listing systems and components restored." .
+
+<https://example.org/crgo-sample/nordelle/compliance/nonconformity-restore-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000511 ;
+    rdfs:label "Nonconformity with the restore-test policy statement, 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000747 <https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> ;
+    crgo:CRGO_0000748 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000846 "2026-05-20T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/backups-2026-09> crgo:CRGO_0000737 crgo:CRGO_0000605 ;
+    crgo:CRGO_0000754 crgo:CRGO_0000616 .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/mfa-2026-09> crgo:CRGO_0000737 crgo:CRGO_0000605 .
+
+<https://example.org/crgo-sample/nordelle/decision/accept-legacy-risk> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CEO accepts the residual risk of the legacy server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/risk-acceptance/legacy-pos-2026> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000733 <https://example.org/crgo-sample/nordelle/gov/delegation-risk-acceptance> ;
+    crgo:CRGO_0000840 "2026-06-25T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000841 "Below appetite with segmentation; ends with the exception." .
+
+<https://example.org/crgo-sample/nordelle/decision/approve-edr-exception> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CEO approves the EDR exception for the legacy server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/exception/edr-legacy-pos> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000733 <https://example.org/crgo-sample/nordelle/gov/delegation-risk-acceptance> ;
+    crgo:CRGO_0000840 "2026-06-25T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000841 "Compensating segmentation in place; exception limited to six months." .
+
+<https://example.org/crgo-sample/nordelle/decision/defer-dlp> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "Audit committee defers the data loss prevention project"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/initiative/dlp> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/gov/audit-committee> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000590 ;
+    crgo:CRGO_0000840 "2026-09-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000841 "Waiting for the 2027 budget and the results of the EDR deployment." .
+
+<https://example.org/crgo-sample/nordelle/decision/reject-edr-delay> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "Board rejects accepting the EDR delay on all servers beyond 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/control/edr> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/gov/board> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000589 ;
+    crgo:CRGO_0000840 "2026-09-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000841 "Ransomware risk above appetite while EDR is missing; deployment must finish in 2026." ;
+    crgo:CRGO_0000883 <https://example.org/crgo-sample/nordelle/dss-result/ransomware-2026-10-02>,
+        <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> .
+
+<https://example.org/crgo-sample/nordelle/deficiency/backups-config-scope> a owl:NamedIndividual,
+        crgo:CRGO_0000527 ;
+    rdfs:label "Backup scope excludes the application configuration"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000748 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000760 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000761 <https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-2026-05> ;
+    crgo:CRGO_0000762 crgo:CRGO_0000616 ;
+    crgo:CRGO_0000763 crgo:CRGO_0000622 ;
+    crgo:CRGO_0000846 "2026-05-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/closure> a owl:NamedIndividual,
+        crgo:CRGO_0000548 ;
+    rdfs:label "Closure of F-2026-03-01 after follow-up verification"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000811 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000812 <https://example.org/crgo-sample/nordelle/action/CA-2026-03-01a/verification> ;
+    crgo:CRGO_0000875 "2026-08-26T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/reopening> a owl:NamedIndividual,
+        crgo:CRGO_0000549 ;
+    rdfs:label "Reopening of F-2026-03-01: the September restore test again missed the configuration"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/restore-test> ;
+    crgo:CRGO_0000813 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000876 "2026-09-22T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000877 "CISO restore test of 20 September 2026 (evidence restore-test) recovered no application configuration." .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/response> a owl:NamedIndividual,
+        crgo:CRGO_0000545 ;
+    rdfs:label "IT operations agrees and commits to fix the backup scope by July"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000464 "2026-05-27T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000803 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01>,
+        <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/recommendation> ;
+    crgo:CRGO_0000804 crgo:CRGO_0000670 ;
+    crgo:CRGO_0000805 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000806 <https://example.org/crgo-sample/nordelle/action/CA-2026-03-01a> .
+
+<https://example.org/crgo-sample/nordelle/gov/independence-cae-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000496 ;
+    rdfs:label "Independence of the internal audit lead with respect to backup and recovery, 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/chair> ;
+    crgo:CRGO_0000464 "2026-04-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000719 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000720 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000721 crgo:CRGO_0000594 ;
+    crgo:CRGO_0000843 "No operational role in IT since 2024; no backup responsibilities." .
+
+<https://example.org/crgo-sample/nordelle/gov/oversight-2026-06> a owl:NamedIndividual,
+        crgo:CRGO_0000495 ;
+    rdfs:label "Audit committee review of report ENG-2026-03, 18 June 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/ac-minutes-2026-06> ;
+    crgo:CRGO_0000717 <https://example.org/crgo-sample/nordelle/gov/audit-committee> ;
+    crgo:CRGO_0000718 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/report> .
+
+<https://example.org/crgo-sample/nordelle/gov/risk-committee> a owl:NamedIndividual,
+        crgo:CRGO_0000481 ;
+    rdfs:label "Nordelle risk committee (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000707 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0000884 <https://example.org/crgo-sample/nordelle/gov/board> .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/confirmation> a owl:NamedIndividual,
+        crgo:CRGO_0000552 ;
+    rdfs:label "CISO confirms the account compromise"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000815 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000816 <https://example.org/crgo-sample/nordelle/alert/2026-08-03-impossible-travel>,
+        <https://example.org/crgo-sample/nordelle/event/2026-08-03-phish> ;
+    crgo:CRGO_0000879 "2026-08-04T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/lesson> a owl:NamedIndividual,
+        crgo:CRGO_0000555 ;
+    rdfs:label "Customer-service accounts need phishing-resistant MFA, not only administrators"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000822 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000823 <https://example.org/crgo-sample/nordelle/control/mfa>,
+        <https://example.org/crgo-sample/nordelle/estimate/likelihood-cc> .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/reportability-gdpr> a owl:NamedIndividual,
+        crgo:CRGO_0000553 ;
+    rdfs:label "GDPR reportability of the phishing incident"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Unknown whether any of the 14 customers are in the EU; GDPR applicability itself awaits review."@en ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000464 "2026-08-06T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000817 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000818 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1> ;
+    crgo:CRGO_0000819 crgo:CRGO_0000690 .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/timeline/01> a owl:NamedIndividual,
+        crgo:CRGO_0000554 ;
+    rdfs:label "Alert raised and triaged"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000820 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000821 crgo:CRGO_0000693 ;
+    crgo:CRGO_0000878 "2026-08-03T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000881 "Alert raised and triaged" .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/timeline/02> a owl:NamedIndividual,
+        crgo:CRGO_0000554 ;
+    rdfs:label "Account disabled, sessions revoked"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000820 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000821 crgo:CRGO_0000694 ;
+    crgo:CRGO_0000878 "2026-08-03T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000881 "Account disabled, sessions revoked" .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/timeline/03> a owl:NamedIndividual,
+        crgo:CRGO_0000554 ;
+    rdfs:label "Password reset, mailbox rule removed"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000820 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000821 crgo:CRGO_0000695 ;
+    crgo:CRGO_0000878 "2026-08-04T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000881 "Password reset, mailbox rule removed" .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/timeline/04> a owl:NamedIndividual,
+        crgo:CRGO_0000554 ;
+    rdfs:label "Agent account restored with phishing-resistant MFA"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000820 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000821 crgo:CRGO_0000696 ;
+    crgo:CRGO_0000878 "2026-08-05T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000881 "Agent account restored with phishing-resistant MFA" .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/timeline/05> a owl:NamedIndividual,
+        crgo:CRGO_0000554 ;
+    rdfs:label "Review held; lesson recorded"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000820 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000821 crgo:CRGO_0000697 ;
+    crgo:CRGO_0000878 "2026-08-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000881 "Review held; lesson recorded" .
+
+<https://example.org/crgo-sample/nordelle/monitoring/backup-job-failure-2026-09-18> a owl:NamedIndividual,
+        crgo:CRGO_0000540 ;
+    rdfs:label "Backup monitoring alert: nightly job failed on 18 September 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000790 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000869 "2026-09-18T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/backup-owner-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: control owner role for backups (former holder)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/backup-owner-2023> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000837 "2023-06-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000838 "2024-12-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/backup-owner-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: control owner role for backups"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/backup-owner-2025> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000837 "2025-01-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/cae-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: chief audit executive role (2024-2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/cae-2024> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000837 "2024-01-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/chair-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: audit committee chair role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/chair-2025> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/chair> ;
+    crgo:CRGO_0000837 "2025-06-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/ciso-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: information security oversight role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/ciso-2023> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000837 "2023-06-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/compliance-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: compliance officer role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/compliance-2025> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000837 "2025-03-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/mfa-owner-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: control owner role for administrator MFA"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/mfa-owner-2024> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000837 "2024-01-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role-assignment/risk-owner-ransomware> a owl:NamedIndividual,
+        crgo:CRGO_0000493 ;
+    rdfs:label "Assignment: risk owner role for the ransomware scenario"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000714 <https://example.org/crgo-sample/nordelle/role/risk-owner-ransomware> ;
+    crgo:CRGO_0000715 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000837 "2026-01-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/soc2/cuec-backup-config> a owl:NamedIndividual,
+        crgo:CRGO_0000524 ;
+    rdfs:label "User entities define which of their data and configuration are backed up"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000772 <https://example.org/crgo-sample/nordelle/evidence/cumulus-soc2-2026> .
+
+<https://example.org/crgo-sample/nordelle/soc2/cuec-console-access> a owl:NamedIndividual,
+        crgo:CRGO_0000524 ;
+    rdfs:label "User entities manage access to their own hosting console accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000772 <https://example.org/crgo-sample/nordelle/evidence/cumulus-soc2-2026> ;
+    crgo:CRGO_0000773 <https://example.org/crgo-sample/nordelle/control/mfa> .
+
+<https://example.org/crgo-sample/nordelle/soc2/exception-change> a owl:NamedIndividual,
+        crgo:CRGO_0000523 ;
+    rdfs:label "Change approvals missing for 3 of 40 sampled changes"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000771 <https://example.org/crgo-sample/nordelle/evidence/cumulus-soc2-2026> .
+
+<https://example.org/crgo-sample/nordelle/trigger/hypothetical-p39-guidance> a owl:NamedIndividual,
+        crgo:CRGO_0000510 ;
+    rdfs:label "Review the Loi 25 security determination and incident procedure after the (hypothetical) guidance"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000745 <https://example.org/crgo-sample/nordelle/regulatory-change/hypothetical-p39-guidance> ;
+    crgo:CRGO_0000746 <https://example.org/crgo-sample/nordelle/compliance/loi25-security>,
+        <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/reportability-loi25> ;
+    crgo:CRGO_0000846 "2026-10-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/action/CA-2026-03-01a/verification> a owl:NamedIndividual,
+        crgo:CRGO_0000547 ;
+    rdfs:label "Follow-up verification of CA-2026-03-01a by internal audit"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/followup-restore-2026-08> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000464 "2026-08-25T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000809 <https://example.org/crgo-sample/nordelle/action/CA-2026-03-01a> ;
+    crgo:CRGO_0000810 crgo:CRGO_0000683 .
+
+<https://example.org/crgo-sample/nordelle/alert/2026-08-03-impossible-travel> a owl:NamedIndividual,
+        crgo:CRGO_0000551 ;
+    rdfs:label "Identity service alert: sign-in to the agent's account from an unusual country"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000814 <https://example.org/crgo-sample/nordelle/event/2026-08-03-phish> ;
+    crgo:CRGO_0000878 "2026-08-03T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> a owl:NamedIndividual,
+        crgo:CRGO_0000004 ;
+    rdfs:label "legacy point-of-sale server (end of support 2027)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp9> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "Criterion: system-level information is backed up at the defined frequency (SP 800-53A CP-09b.)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000780 <https://w3id.org/crgo/vocab/sp800-53a/CP-09b.> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/objective> a owl:NamedIndividual,
+        crgo:CRGO_0000537 ;
+    rdfs:label "Backups allow the ordering platform to be restored within two days"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/proc-jobs> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "Test that nightly backup jobs completed, on a sample of days"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000756 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/CP-09b.> ;
+    crgo:CRGO_0000785 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/request-logs> ;
+    crgo:CRGO_0000865 "Select a random sample of days and inspect the job log for completion and size."@en ;
+    crgo:CRGO_0000866 "A completed job for every sampled day."@en ;
+    crgo:CRGO_0000867 "A failed or missing job is a deviation."@en .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/proc-restore> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "Re-perform a full restore of the ordering platform into an isolated environment"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/CP-04_04_o01>,
+        <https://w3id.org/crgo/vocab/sp800-53a/CP-09_02> ;
+    crgo:CRGO_0000865 "Restore the latest backup set of the order database and application into an isolated environment and time it."@en ;
+    crgo:CRGO_0000866 "Database and application configuration restored and working within 48 hours."@en ;
+    crgo:CRGO_0000867 "Any component missing, or a restore longer than 48 hours, is an exception."@en .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/report> a owl:NamedIndividual,
+        crgo:CRGO_0000543 ;
+    rdfs:label "ENG-2026-03 audit report"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000799 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000800 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000874 "2026-06-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/request-logs> a owl:NamedIndividual,
+        crgo:CRGO_0000539 ;
+    rdfs:label "Request to IT operations for backup job logs January-April 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000786 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000787 <https://example.org/crgo-sample/nordelle/evidence/backup-job-logs-2026q1> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000868 "2026-05-11T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-oe-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000526 ;
+    rdfs:label "Internal audit test of backup operation, January-April 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/backup-job-logs-2026q1> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000404 ;
+    crgo:CRGO_0000464 "2026-05-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000754 crgo:CRGO_0000618 ;
+    crgo:CRGO_0000755 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/population> ;
+    crgo:CRGO_0000756 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000789 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/proc-jobs> ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-04-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000861 "25"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000862 "1"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/backups-rcsa-2026-09> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "IT operations self-assessment of backups, September 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/rcsa-questionnaire-2026-09> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000403 ;
+    crgo:CRGO_0000464 "2026-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000736 crgo:CRGO_0000600 ;
+    crgo:CRGO_0000737 crgo:CRGO_0000604 .
+
+<https://example.org/crgo-sample/nordelle/control/segmentation> a owl:NamedIndividual,
+        crgo:CRGO_0000503 ;
+    rdfs:label "Network segmentation of the legacy point-of-sale server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/dss-result/ransomware-2026-10-02> a owl:NamedIndividual,
+        crgo:CRGO_0000477 ;
+    rdfs:label "CyberRiskGuardian estimated risk for the ransomware scenario (written back, proposed)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000247 1200.0 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000288 <https://example.org/crgo-sample/nordelle/org/dss> ;
+    crgo:CRGO_0000698 crgo:CRGO_0000561 ;
+    crgo:CRGO_0000704 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000705 <https://example.org/crgo-sample/nordelle/estimate/impact-rw>,
+        <https://example.org/crgo-sample/nordelle/estimate/likelihood-rw> ;
+    crgo:CRGO_0000832 "CyberRiskGuardian" ;
+    crgo:CRGO_0000833 "1.1.0" ;
+    crgo:CRGO_0000834 "2026-10-02T14:05:00"^^xsd:dateTime ;
+    crgo:CRGO_0000835 "dss/v1" ;
+    crgo:CRGO_0000836 "9b2e64f0a1c3d5e7f9b1a3c5d7e9f1a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4" .
+
+<https://example.org/crgo-sample/nordelle/estimate/likelihood-cc> crgo:CRGO_0000698 crgo:CRGO_0000561 ;
+    crgo:CRGO_0000700 crgo:CRGO_0000575 ;
+    crgo:CRGO_0000701 <https://example.org/crgo-sample/nordelle/estimate/likelihood-cc/distribution> .
+
+<https://example.org/crgo-sample/nordelle/estimate/likelihood-cc/distribution> a owl:NamedIndividual,
+        crgo:CRGO_0000476 ;
+    rdfs:label "Triangular distribution of the credential-compromise likelihood"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000702 crgo:CRGO_0000580 ;
+    crgo:CRGO_0000831 "min=0.1;mode=0.3;max=0.6" .
+
+<https://example.org/crgo-sample/nordelle/evidence/ac-minutes-2026-06> a owl:NamedIndividual,
+        crgo:CRGO_0000521 ;
+    rdfs:label "Audit committee minutes, 18 June 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "ac-minutes-2026-06" ;
+    crgo:CRGO_0000848 "2026-06-18T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/followup-restore-2026-08> a owl:NamedIndividual,
+        crgo:CRGO_0000520 ;
+    rdfs:label "Internal audit follow-up restore including application configuration, August 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "followup-restore-2026-08" ;
+    crgo:CRGO_0000751 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000848 "2026-08-25T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/rcsa-questionnaire-2026-09> a owl:NamedIndividual,
+        crgo:CRGO_0000514 ;
+    rdfs:label "IT operations control self-assessment questionnaire, September 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "rcsa-questionnaire-2026-09" ;
+    crgo:CRGO_0000848 "2026-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000854 "Self-reported; no re-performance." .
+
+<https://example.org/crgo-sample/nordelle/exception/edr-legacy-pos> a owl:NamedIndividual,
+        crgo:CRGO_0000502 ;
+    rdfs:label "Exception: no EDR on the legacy point-of-sale server until replacement"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000726 <https://example.org/crgo-sample/nordelle/policy/infosec/edr> ;
+    crgo:CRGO_0000727 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> ;
+    crgo:CRGO_0000728 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000729 <https://example.org/crgo-sample/nordelle/control/segmentation> ;
+    crgo:CRGO_0000837 "2026-07-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000838 "2026-12-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000842 "The vendor does not support an EDR agent on this platform; replacement is planned for Q1 2027. Residual risk: undetected compromise of the server." .
+
+<https://example.org/crgo-sample/nordelle/function/internal-audit> a owl:NamedIndividual,
+        crgo:CRGO_0000009 ;
+    rdfs:label "internal audit function (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/hypothesis/migration-scope> a owl:NamedIndividual,
+        crgo:CRGO_0000475 ;
+    rdfs:label "The application configuration dropped out of the backup scope during the 2025 migration to Cumulus Hosting"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000698 crgo:CRGO_0000560 ;
+    crgo:CRGO_0000703 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/reportability-loi25> a owl:NamedIndividual,
+        crgo:CRGO_0000553 ;
+    rdfs:label "Loi 25 reportability of the phishing incident"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Logs show 14 order records viewed, no financial data; risk of serious injury judged absent (synthetic reasoning)."@en ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000464 "2026-08-06T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000817 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
+    crgo:CRGO_0000818 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> ;
+    crgo:CRGO_0000819 crgo:CRGO_0000689 .
+
+<https://example.org/crgo-sample/nordelle/initiative/dlp> a owl:NamedIndividual,
+        crgo:CRGO_0000032 ;
+    rdfs:label "Data loss prevention project (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/org/assurer> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Vérimax CPA (fictional service auditor)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/org/dss> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001017> ;
+    rdfs:label "CyberRiskGuardian decision-support system (software agent acting for Nordelle's analyst)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec-v2> a owl:NamedIndividual,
+        crgo:CRGO_0000497 ;
+    rdfs:label "Nordelle information security policy, version 2 (superseded)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000837 "2024-02-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000838 "2026-01-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/edr> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Endpoint detection and response runs on every server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000722 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0000723 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
+        <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> .
+
+<https://example.org/crgo-sample/nordelle/procedure/restore-test> a owl:NamedIndividual,
+        crgo:CRGO_0000500 ;
+    rdfs:label "Restore test procedure (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/regulatory-change/hypothetical-p39-guidance> a owl:NamedIndividual,
+        crgo:CRGO_0000509 ;
+    rdfs:label "HYPOTHETICAL test record: new regulator guidance on confidentiality-incident risk assessment (no such change is asserted)"@en ;
+    dcterms:type "synthetic test data" ;
+    rdfs:comment "Synthetic record for testing reassessment triggers; it does not describe any real publication."@en ;
+    crgo:CRGO_0000743 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> ;
+    crgo:CRGO_0000744 crgo:CRGO_0000613 ;
+    crgo:CRGO_0000845 "2026-11-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000846 "2026-10-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/risk-acceptance/legacy-pos-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000031 ;
+    rdfs:label "Acceptance of the residual risk of the legacy point-of-sale server until 31 December 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000221 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000272 "Chief executive, under the board delegation of January 2026" ;
+    crgo:CRGO_0000273 "2026-12-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role/obligated-loi25> a owl:NamedIndividual,
+        crgo:CRGO_0000513 ;
+    rdfs:label "Nordelle's role as an enterprise bound by the Québec private-sector Act"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000750 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://example.org/crgo-sample/nordelle/standard/backup> a owl:NamedIndividual,
+        crgo:CRGO_0000499 ;
+    rdfs:label "Backup standard: daily backups, 30-day retention, offline copy weekly (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/action/CA-2026-03-01a> a owl:NamedIndividual,
+        crgo:CRGO_0000546 ;
+    rdfs:label "Add application configuration to nightly backups and update the restore procedure"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000807 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> ;
+    crgo:CRGO_0000808 crgo:CRGO_0000679 ;
+    crgo:CRGO_0000868 "2026-07-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp4> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "Criterion: contingency plan tests include full recovery to a known state (SP 800-53A CP-04(04)[01]) and the restore-test policy statement"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000780 <https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests>,
+        <https://w3id.org/crgo/vocab/sp800-53a/CP-04_04_o01> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/population> a owl:NamedIndividual,
+        crgo:CRGO_0000528 ;
+    rdfs:label "Nightly backup jobs of the order database, 1 January to 30 April 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000855 "120"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "One job per night, from the backup system's job history." .
+
+<https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> a owl:NamedIndividual,
+        crgo:CRGO_0000532 ;
+    rdfs:label "Backup and recovery of the online ordering platform"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000775 <https://example.org/crgo-sample/nordelle/asset/backups>,
+        <https://example.org/crgo-sample/nordelle/process/online-ordering> .
+
+<https://example.org/crgo-sample/nordelle/event/2026-08-03-phish> a owl:NamedIndividual,
+        crgo:CRGO_0000550 ;
+    rdfs:label "Phishing e-mail opened by a customer-service agent"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000878 "2026-08-03T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/restore-procedure-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000514 ;
+    rdfs:label "Restore test procedure, 2023 version"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "restore-procedure-2023" ;
+    crgo:CRGO_0000838 "2025-12-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000848 "2026-05-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000854 "Superseded in 2026; kept to show the old scope." .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/recommendation> a owl:NamedIndividual,
+        crgo:CRGO_0000544 ;
+    rdfs:label "Add the application configuration to the backup scope and include it in every restore test"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000801 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> .
+
+<https://example.org/crgo-sample/nordelle/gov/delegation-risk-acceptance> a owl:NamedIndividual,
+        crgo:CRGO_0000494 ;
+    rdfs:label "Board delegation to the chief executive: accept cybersecurity risks below appetite for up to 12 months"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000710 <https://example.org/crgo-sample/nordelle/gov/board> ;
+    crgo:CRGO_0000711 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000837 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000838 "2026-12-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000839 "Risks rated below the board appetite; acceptance for at most 12 months" .
+
+<https://example.org/crgo-sample/nordelle/person/chair> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Audit committee chair (fictional)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/chair-2025> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec> a owl:NamedIndividual,
+        crgo:CRGO_0000497 ;
+    rdfs:label "Nordelle information security policy, version 3 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000739 <https://example.org/crgo-sample/nordelle/policy/infosec-v2> ;
+    crgo:CRGO_0000837 "2026-02-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/role/backup-owner-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000491 ;
+    rdfs:label "control owner role for backups (former holder)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org ;
+    crgo:CRGO_0000882 <https://example.org/crgo-sample/nordelle/control/backups> .
+
+<https://example.org/crgo-sample/nordelle/role/backup-owner-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000491 ;
+    rdfs:label "control owner role for backups"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org ;
+    crgo:CRGO_0000882 <https://example.org/crgo-sample/nordelle/control/backups> .
+
+<https://example.org/crgo-sample/nordelle/role/cae-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000488 ;
+    rdfs:label "chief audit executive role (2024-2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/chair-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000483 ;
+    rdfs:label "audit committee chair role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 <https://example.org/crgo-sample/nordelle/gov/audit-committee> .
+
+<https://example.org/crgo-sample/nordelle/role/ciso-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000485 ;
+    rdfs:label "information security oversight role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/compliance-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000489 ;
+    rdfs:label "compliance officer role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/mfa-owner-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000491 ;
+    rdfs:label "control owner role for administrator MFA"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org ;
+    crgo:CRGO_0000882 <https://example.org/crgo-sample/nordelle/control/mfa> .
+
+<https://example.org/crgo-sample/nordelle/role/risk-owner-ransomware> a owl:NamedIndividual,
+        crgo:CRGO_0000492 ;
+    rdfs:label "risk owner role for the ransomware scenario"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000716 nordelle:org ;
+    crgo:CRGO_0000882 <https://example.org/crgo-sample/nordelle/scenario/ransomware> .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-2026-05> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Internal audit restore test of backups, May 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/restore-procedure-2023>,
+        <https://example.org/crgo-sample/nordelle/evidence/restore-reperformance-2026-05> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000404 ;
+    crgo:CRGO_0000464 "2026-05-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000471 "Full restore into an isolated environment" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000754 crgo:CRGO_0000616 ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000789 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/proc-restore> .
+
+<https://example.org/crgo-sample/nordelle/control/mfa> crgo:CRGO_0000208 <https://w3id.org/crgo/vocab/sp800-53r5/IA-2_1> ;
+    crgo:CRGO_0000828 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._32_1>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> .
+
+<https://example.org/crgo-sample/nordelle/evidence/backup-job-logs-2026q1> a owl:NamedIndividual,
+        crgo:CRGO_0000516 ;
+    rdfs:label "Backup job logs, January to April 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "backup-job-logs-2026q1" ;
+    crgo:CRGO_0000751 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000752 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000848 "2026-05-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-04-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000852 "3f0c7a1e9b5d2c4486e1aa07b3d9c2f15e8a6b0d4c7f1e2a9b3c5d7e0f1a2b3c" ;
+    crgo:CRGO_0000853 "internal audit team only" .
+
+<https://example.org/crgo-sample/nordelle/evidence/cumulus-soc2-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000522 ;
+    rdfs:label "Cumulus Hosting SOC 2 type 2 report, July 2025 to June 2026 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000119 ;
+    crgo:CRGO_0000250 "cumulus-soc2-2026" ;
+    crgo:CRGO_0000767 crgo:CRGO_0000635 ;
+    crgo:CRGO_0000768 crgo:CRGO_0000642 ;
+    crgo:CRGO_0000769 <https://example.org/crgo-sample/nordelle/org/cloudco> ;
+    crgo:CRGO_0000770 <https://example.org/crgo-sample/nordelle/org/assurer> ;
+    crgo:CRGO_0000848 "2026-08-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000849 "2025-07-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000863 "Hosting platform; Security and Availability categories" ;
+    crgo:CRGO_0000874 "2026-08-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/restore-reperformance-2026-05> a owl:NamedIndividual,
+        crgo:CRGO_0000520 ;
+    rdfs:label "Internal audit re-performance of a full restore, May 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "restore-reperformance-2026-05" ;
+    crgo:CRGO_0000751 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000752 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000848 "2026-05-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000854 "One restore of the order database; other systems not restored." .
+
+<https://example.org/crgo-sample/nordelle/person/compliance> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle compliance officer (fictional)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/compliance-2025> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/gov/audit-committee> a owl:NamedIndividual,
+        crgo:CRGO_0000480 ;
+    rdfs:label "Nordelle audit committee (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000707 <https://example.org/crgo-sample/nordelle/function/internal-audit> ;
+    crgo:CRGO_0000884 <https://example.org/crgo-sample/nordelle/gov/board> .
+
+<https://example.org/crgo-sample/nordelle/gov/board> a owl:NamedIndividual,
+        crgo:CRGO_0000478 ;
+    rdfs:label "Nordelle board of directors (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000707 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000709 <https://example.org/crgo-sample/nordelle/person/ceo> .
+
+<https://example.org/crgo-sample/nordelle/person/ciso> a <https://www.commoncoreontologies.org/ont00001262> ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/backup-owner-2023>,
+        <https://example.org/crgo-sample/nordelle/role/ciso-2023>,
+        <https://example.org/crgo-sample/nordelle/role/mfa-owner-2024> ;
+    crgo:CRGO_0000708 <https://example.org/crgo-sample/nordelle/person/ceo> .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Backups of production systems are restored in a full test at least twice a year"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000722 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0000723 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
+        <https://w3id.org/crgo/vocab/sp800-53r5/CP-4>,
+        <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0000724 <https://example.org/crgo-sample/nordelle/standard/backup> ;
+    crgo:CRGO_0000725 <https://example.org/crgo-sample/nordelle/procedure/restore-test> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/sampling> a owl:NamedIndividual,
+        crgo:CRGO_0000529 ;
+    rdfs:label "Random sample of 25 nightly jobs"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000755 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/population> ;
+    crgo:CRGO_0000757 crgo:CRGO_0000647 ;
+    crgo:CRGO_0000857 "25"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000858 0.05 ;
+    crgo:CRGO_0000859 0.0 ;
+    crgo:CRGO_0000860 "25 items with no expected deviations supports reliance at a 5% tolerable rate (ITAF 2208 approach)."@en .
+
+<https://example.org/crgo-sample/nordelle/person/itops> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle IT operations manager (fictional)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/backup-owner-2025> ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000706 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000708 <https://example.org/crgo-sample/nordelle/person/ceo> ;
+    crgo:CRGO_0000712 <https://example.org/crgo-sample/nordelle/control/backups> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> a owl:NamedIndividual,
+        crgo:CRGO_0000536 ;
+    rdfs:label "ENG-2026-03 Backup and recovery"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000472 "Order database and application backups, January to May 2026" ;
+    crgo:CRGO_0000777 <https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> ;
+    crgo:CRGO_0000778 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/objective> ;
+    crgo:CRGO_0000779 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp4>,
+        <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp9> ;
+    crgo:CRGO_0000849 "2026-05-04T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> a owl:NamedIndividual,
+        crgo:CRGO_0000015 ;
+    rdfs:label "Compromise of a customer-service account by phishing (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000824 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> .
+
+<https://example.org/crgo-sample/nordelle/person/ceo> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle chief executive (fictional)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/risk-owner-ransomware> ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000706 <https://example.org/crgo-sample/nordelle/scenario/ransomware> .
+
+<https://example.org/crgo-sample/nordelle/control/backups> crgo:CRGO_0000208 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0000828 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> a owl:NamedIndividual,
+        crgo:CRGO_0000541 ;
+    rdfs:label "F-2026-03-01 Restores do not recover the application configuration"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/backup-job-logs-2026q1>,
+        <https://example.org/crgo-sample/nordelle/evidence/restore-reperformance-2026-05> ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0000779 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp4> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000792 <https://example.org/crgo-sample/nordelle/hypothesis/migration-scope> ;
+    crgo:CRGO_0000793 crgo:CRGO_0000661 ;
+    crgo:CRGO_0000794 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000795 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000796 <https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-2026-05> ;
+    crgo:CRGO_0000802 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01/recommendation> ;
+    crgo:CRGO_0000869 "2026-05-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000870 "The May restore recovered the database in 41 hours but not the application configuration; the platform could not run."@en ;
+    crgo:CRGO_0000871 "The backup job definitions list the database only."@en ;
+    crgo:CRGO_0000872 "After ransomware, recovery would take well beyond the two-day objective."@en ;
+    crgo:CRGO_0000873 "Nordelle internal audit rating guide 2026 (fictional)" .
+
+nordelle:org ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/obligated-loi25> .
+
+<https://example.org/crgo-sample/nordelle/person/cae> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle internal audit lead (fictional)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/cae-2024> ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000708 <https://example.org/crgo-sample/nordelle/gov/audit-committee> .
+

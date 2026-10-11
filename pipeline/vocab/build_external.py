@@ -135,14 +135,15 @@ TYPED = {"capec-attack": "attackPatternRelatedToTechnique", "capec-cwe": "attack
          "kev-cwe": "vulnerabilityInstanceOfWeakness", "d3fend-judged": "counteredByDefensiveTechnique",
          "loi25-a21": "sameObligationOtherRegime", "loi25-pipeda": "comparableObligation", "loi25-gdpr": "comparableObligation",
          "b13-csf2": "principleAddressedByCategory", "nist-csf2-800-53-derived": "subcategorySupportedByControl",
-         "nist-olir-800-53-iso27002": "controlCorrespondsToControl"}
+         "nist-olir-800-53-iso27002": "controlCorrespondsToControl", "sp800-53a-controls": "evaluatesControl"}
 cnt = collections.Counter()
 valid = {k: {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", k + ".ttl")).objects(None, SKOS.notation)} for k in ("cwe", "capec", "sp800-53r5", "d3fend", "kev")}
 valid["attack"] = att_ids
 def link(s_scheme, s_id, p, o_scheme, o_id, source, conf, kind, group, note=None):
     if s_id not in valid[s_scheme] or o_id not in valid[o_scheme]:
         cnt["skipped (identifier not in vocabulary): " + group] += 1; return
-    s = URIRef(VOC + s_scheme + "/" + BV.safe(s_id)); o = URIRef(VOC + o_scheme + "/" + BV.safe(o_id))
+    sf = lambda k, i: BV.safe_53a(i) if k == "sp800-53a" else BV.safe(i)
+    s = URIRef(VOC + s_scheme + "/" + sf(s_scheme, s_id)); o = URIRef(VOC + o_scheme + "/" + sf(o_scheme, o_id))
     ok = BV.APPROVALS.get(group)
     tg = m if ok and ok[0] == "Approve" else mp  # proposed correspondences go to the proposal file
     tp = TERM(TYPED[group.split("/")[1]])
@@ -215,6 +216,13 @@ for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_csf2_8
 for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_80053_iso27002.csv"), encoding="utf-8")):
     link("sp800-53r5", r["sp80053r5"], SKOS.relatedMatch, "iso27002-2022", r["iso27002"], "NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (updated 2023-10-12), Annex A controls",
          "H", "control related to ISO/IEC 27002 control", "mappings/nist-olir-800-53-iso27002")
+# 0.9.0 GRCA: SP 800-53A objectives bound to the exact SP 800-53 5.2.0 control or enhancement (pipeline/vocab/build_grca_vocab.py)
+_lt = os.path.join(ROOT, "data", "frameworks", "grca", "links.tsv")
+if os.path.exists(_lt):
+    valid["sp800-53a"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "sp800-53a.ttl")).objects(None, SKOS.notation)}
+    for r in _csv.DictReader(open(_lt, encoding="utf-8"), delimiter="\t"):
+        link(r["subject_scheme"], r["subject"], SKOS.relatedMatch, r["object_scheme"], r["object"],
+             "NIST SP 800-53 Rev. 5.2.0 OSCAL catalogue (assessment-objective part, link rel 'assessment-for')", "H", "assessment objective evaluates control", r["group"])
 m.serialize(os.path.join(ROOT, "ontology", "vocab", "mappings.ttl"), format="turtle")
 mp.serialize(os.path.join(ROOT, "ontology", "vocab", "mappings-proposed.ttl"), format="turtle")
 for k, n in NCON.items():

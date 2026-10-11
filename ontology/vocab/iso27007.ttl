@@ -1,0 +1,447 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iso27007: <https://w3id.org/crgo/vocab/iso27007/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iso27007:5.1 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Defers entirely to the general programme guidance of ISO 19011:2018."@en,
+        "Renvoie entièrement aux orientations générales de l'ISO 19011:2018 sur le programme."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.1" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "General"@en,
+        "Généralités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.1 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.2 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Setting the aims of an ISMS audit programme, with security-specific considerations."@en,
+        "Fixer les buts d'un programme d'audit de SMSI, avec des considérations propres à la sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.2" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Establishing audit programme objectives"@en,
+        "Détermination des objectifs du programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.2 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.3 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Weighing uncertainties affecting an ISMS audit programme (ISMS counterpart of ISO 19011:2018)."@en,
+        "Apprécier les incertitudes touchant un programme d'audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.3" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Determining and evaluating audit programme risks and opportunities"@en,
+        "Détermination et évaluation des risques et des opportunités du programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.3 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.4 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Setting up an ISMS audit programme: managers, their competence, extent and resources (ISMS counterpart of ISO 19011:2018)."@en,
+        "Mise en place d'un programme d'audit de SMSI: gestionnaires, compétence, étendue et moyens."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.4" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Establishing an audit programme"@en,
+        "Établissement d'un programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.4 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.5 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Applying the ISMS audit programme to each individual audit (ISMS counterpart of ISO 19011:2018)."@en,
+        "Application du programme d'audit de SMSI à chaque audit (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.5" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Implementing the audit programme"@en,
+        "Mise en œuvre du programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.5 (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.6 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Tracking progress of the ISMS audit programme (ISMS counterpart of ISO 19011:2018)."@en,
+        "Suivi de l'avancement du programme d'audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.6" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Monitoring the audit programme"@en,
+        "Surveillance du programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.6 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5.7 a skos:Concept ;
+    skos:broader iso27007:5 ;
+    skos:definition "Periodic assessment and enhancement of the ISMS audit programme (ISMS counterpart of ISO 19011:2018)."@en,
+        "Examen périodique et perfectionnement du programme d'audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5.7" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Reviewing and improving the audit programme"@en,
+        "Revue et amélioration du programme d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5.7 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.1 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Introductory remarks on carrying out an ISMS audit (ISMS counterpart of ISO 19011:2018)."@en,
+        "Remarques introductives sur la conduite d'un audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.1" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "General"@en,
+        "Généralités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.1 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.2 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Starting an ISMS audit, including contact with the auditee and feasibility (ISMS counterpart of ISO 19011:2018)."@en,
+        "Lancement d'un audit de SMSI, incluant contact avec l'audité et faisabilité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.2" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Initiating the audit"@en,
+        "Déclenchement de l'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.2 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.3 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Getting ready for an ISMS audit: document review, planning and task allocation (ISMS counterpart of ISO 19011:2018)."@en,
+        "Préparatifs d'un audit de SMSI: examen documentaire, planification et partage des tâches."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.3" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Preparing audit activities"@en,
+        "Préparation des activités d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.3 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.4 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "ISMS audit fieldwork, from opening meeting to findings and closing meeting (ISMS counterpart of ISO 19011:2018)."@en,
+        "Travail de terrain d'un audit de SMSI, de l'ouverture aux constatations puis à la clôture."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.4" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Conducting audit activities"@en,
+        "Réalisation des activités d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.4 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.5 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Writing and circulating the ISMS audit report (ISMS counterpart of ISO 19011:2018)."@en,
+        "Rédaction et transmission du rapport d'audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.5" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Preparing and distributing the audit report"@en,
+        "Préparation et diffusion du rapport d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.5 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.6 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Formally ending the ISMS audit (ISMS counterpart of ISO 19011:2018)."@en,
+        "Fin formelle de l'audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.6" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Completing the audit"@en,
+        "Clôture de l'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.6 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6.7 a skos:Concept ;
+    skos:broader iso27007:6 ;
+    skos:definition "Checking actions taken after an ISMS audit (ISMS counterpart of ISO 19011:2018)."@en,
+        "Vérification des actions prises après un audit de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6.7" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Conducting audit follow-up"@en,
+        "Réalisation du suivi d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6.7 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.1 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Introductory remarks on ISMS auditor competence (ISMS counterpart of ISO 19011:2018)."@en,
+        "Remarques introductives sur les capacités attendues des auditeurs de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.1" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "General"@en,
+        "Généralités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.1 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.2 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Defining behaviours, knowledge and skills ISMS auditors and team leaders need (ISMS counterpart of ISO 19011:2018)."@en,
+        "Définir comportements, connaissances et aptitudes requis des auditeurs et chefs d'équipe de SMSI."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.2" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Determining auditor competence"@en,
+        "Déterminer la compétence d'un auditeur"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.2 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.3 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Defining yardsticks for judging ISMS auditors (ISMS counterpart of ISO 19011:2018)."@en,
+        "Définir les repères servant à juger les auditeurs de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.3" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Establishing auditor evaluation criteria"@en,
+        "Déterminer les critères d'évaluation des auditeurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.3 (page 9)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.4 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Choosing a suitable way to assess ISMS auditors (ISMS counterpart of ISO 19011:2018)."@en,
+        "Choix d'une manière adaptée d'apprécier les auditeurs de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.4" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Selecting the appropriate auditor evaluation method"@en,
+        "Choisir la méthode d'évaluation des auditeurs appropriée"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.4 (page 9)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.5 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Carrying out the assessment of an ISMS auditor (ISMS counterpart of ISO 19011:2018)."@en,
+        "Mener l'appréciation d'un auditeur de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.5" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Conducting auditor evaluation"@en,
+        "Réaliser l'évaluation d'un auditeur"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.5 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7.6 a skos:Concept ;
+    skos:broader iso27007:7 ;
+    skos:definition "Keeping ISMS auditor skills current and developing them (ISMS counterpart of ISO 19011:2018)."@en,
+        "Tenir à jour et développer les capacités des auditeurs de SMSI (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7.6" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Maintaining and improving auditor competence"@en,
+        "Maintenir et améliorer la compétence du ou des auditeurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7.6 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:1 a skos:Concept ;
+    skos:definition "States the ISMS audit topics covered and the intended readers, beyond what ISO 19011 provides."@en,
+        "Précise les sujets d'audit de SMSI traités et le public visé, au-delà de l'ISO 19011."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "1" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Scope"@en,
+        "Domaine d'application"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 1 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:2 a skos:Concept ;
+    skos:definition "Lists the documents indispensable for applying this one, namely ISO 19011:2018 and ISO/IEC 27000:2018."@en,
+        "Énumère les documents indispensables à son application, soit l'ISO 19011:2018 et l'ISO/IEC 27000:2018."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "2" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Normative references"@en,
+        "Références normatives"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 2 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:3 a skos:Concept ;
+    skos:definition "Points to the vocabulary of ISO 19011 and ISO/IEC 27000 rather than defining new terms."@en,
+        "Renvoie aux vocabulaires ISO 19011 et ISO/IEC 27000 sans définir de nouveaux termes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "3" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Terms and definitions"@en,
+        "Termes et définitions"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 3 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:4 a skos:Concept ;
+    skos:definition "Adopts the ISO 19011:2018 audit principles without change for ISMS audits."@en,
+        "Reprend sans modification les principes d'audit de l'ISO 19011:2018 pour les audits de SMSI."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "4" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Principles of auditing"@en,
+        "Principes de l'audit"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 4 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:A a skos:Concept ;
+    skos:definition "Informative annex with practical ISMS audit advice, linked to ISO/IEC 27001:2013 clauses 4 to 10."@en,
+        "Annexe informative de conseils pratiques d'audit de SMSI, reliés aux articles 4 à 10 de l'ISO/IEC 27001:2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "A" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Annex A (informative) Guidance for ISMS auditing practice"@en,
+        "Annexe A (informative) Recommandations pour la pratique d'audit de SMSI"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, annex A (page 11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:7 a skos:Concept ;
+    skos:definition "Skills needed by ISMS auditors and how to assess them (ISMS counterpart of ISO 19011:2018)."@en,
+        "Capacités attendues des auditeurs de SMSI et façon de les apprécier (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "7" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Competence and evaluation of auditors"@en,
+        "Compétence et évaluation des auditeurs"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 7 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:5 a skos:Concept ;
+    skos:definition "Guidance on running an ISMS audit programme, building on ISO 19011:2018 clause 5."@en,
+        "Orientations pour piloter un programme d'audit de SMSI, en s'appuyant sur l'article 5 de l'ISO 19011:2018."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "5" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Managing an audit programme"@en,
+        "Management d'un programme d'audit"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 5 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso27007:6 a skos:Concept ;
+    skos:definition "Guidance on carrying out an individual ISMS audit (ISMS counterpart of ISO 19011:2018)."@en,
+        "Orientations pour mener un audit de SMSI particulier (pendant de l'ISO 19011:2018)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso27007> ;
+    skos:notation "6" ;
+    skos:note "French heading official; English heading translated by CRGO."@en ;
+    skos:prefLabel "Conducting an audit"@en,
+        "Réalisation d'un audit"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso27007> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO/IEC 27007:2020, clause 6 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iso27007> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISO/IEC JTC 1/SC 27" ;
+    dcterms:rights "Clause numbers and headings (c) ISO/IEC, cited for reference and mapping only; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "ISO/IEC 27007:2020 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
+    dcterms:title "ISO/IEC 27007:2020 Information security, cybersecurity and privacy protection — Guidelines for information security management systems auditing: clause structure"@en,
+        "ISO/IEC 27007:2020 Sécurité de l'information, cybersécurité et protection des données privées — Lignes directrices pour l'audit des systèmes de management de la sécurité de l'information : structure des articles"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso27007> ;
+    owl:versionInfo "Troisième édition, 2020-01" ;
+    skos:hasTopConcept iso27007:1,
+        iso27007:2,
+        iso27007:3,
+        iso27007:4,
+        iso27007:5,
+        iso27007:6,
+        iso27007:7,
+        iso27007:A ;
+    skos:scopeNote "Clauses to two levels and annex headings. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

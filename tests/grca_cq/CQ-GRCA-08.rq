@@ -1,0 +1,8 @@
+# CQ-GRCA-08 Where do management self-assessment results conflict with independent assessments of the same control
+# measure? Parameter: ?org. Both results are returned: neither overrides the other.
+SELECT ?measure ?self ?selfResult ?indep ?indepResult ?line WHERE {
+  ?self {{evaluatesControlMeasure}} ?measure ; {{performedInCapacity}} {{LineSelfAssessment}} ; {{hasTestResult}} ?selfResult ; {{concernsOrganisation}} ?org .
+  ?indep {{evaluatesControlMeasure}} ?measure ; {{performedInCapacity}} ?line ; {{hasTestResult}} ?indepResult .
+  FILTER(?line IN ({{LineSecond}}, {{LineInternalAudit}}, {{LineExternal}}) && ?selfResult != ?indepResult)
+  FILTER(?indepResult != {{TestNotTested}} && ?selfResult != {{TestNotTested}})
+}

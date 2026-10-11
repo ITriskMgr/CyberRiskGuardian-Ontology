@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "contract": "dss/v1",
+  "organizationId": "https://example.org/crgo-sample/nordelle/org",
+  "subjectId": "https://example.org/crgo-sample/nordelle/scenario/ransomware",
+  "assessmentKind": "estimated-risk",
+  "modelId": "CyberRiskGuardian",
+  "modelVersion": "1.1.0",
+  "computedAt": "2026-10-11T12:30:00Z",
+  "inputs": [
+    "https://example.org/crgo-sample/nordelle/estimate/likelihood-rw",
+    "https://example.org/crgo-sample/nordelle/estimate/impact-rw"
+  ],
+  "inputDocumentSha256": "89eccba45e12aa3017ec3a2c6aad8508cb50474a63f00d6c9f46e029c64efa03",
+  "ontologyRelease": "0.9.0",
+  "result": {
+    "value": 250000,
+    "unit": "currency"
+  },
+  "status": "proposed",
+  "provenance": {
+    "producer": "CyberRiskGuardian DSS",
+    "tool": "crg_risk",
+    "actor": "Nordelle risk analyst (fictional)"
+  }
+}

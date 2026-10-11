@@ -25,7 +25,8 @@ vocab = {}
 for f in sorted(glob.glob("ontology/vocab/*.ttl")):
     k = os.path.basename(f)[:-4]
     if k == "mappings": continue
-    g = Graph().parse(f); s = next(g.subjects(RDF.type, SKOS.ConceptScheme))
+    g = Graph().parse(f); s = next(g.subjects(RDF.type, SKOS.ConceptScheme), None)
+    if s is None: continue  # legal instruments, source records, proposal files
     cs = set(g.subjects(SKOS.inScheme, s))
     dep = {c for c in cs if (c, OWL.deprecated, Literal(True)) in g}
     top = set(g.objects(s, SKOS.hasTopConcept))

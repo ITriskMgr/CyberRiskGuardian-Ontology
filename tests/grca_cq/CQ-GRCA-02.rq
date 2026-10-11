@@ -1,0 +1,9 @@
+# CQ-GRCA-02 Which obligations does a control measure support (directly, or through the control it implements), what is the
+# applicability of their instrument for the organisation, and which conditions are undetermined or need review?
+# Parameters: ?measure, ?org. 'supports' is never 'proves': no compliance state is returned here.
+SELECT ?provision ?instrument ?state ?undetermined WHERE {
+  { ?measure {{supportsComplianceWith}} ?provision } UNION { ?measure {{implementsControl}} ?control . ?control {{supportsComplianceWith}} ?provision }
+  OPTIONAL { ?provision {{provisionOf}} ?instrument .
+             OPTIONAL { ?a {{applicabilityOf}} ?instrument ; {{concernsOrganisation}} ?org ; {{hasApplicabilityState}} ?state .
+                        OPTIONAL { ?a {{conditionUndetermined}} ?undetermined } } }
+}

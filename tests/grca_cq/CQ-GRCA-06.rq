@@ -1,0 +1,20 @@
+# CQ-GRCA-06 Which findings are late, reopened, disputed, or lack an independently verified action? Parameter: ?asOf.
+SELECT DISTINCT ?finding ?reason WHERE {
+  ?finding a {{AuditFinding}} .
+  {
+    ?act {{correctsFinding}} ?finding ; {{dueOn}} ?due . FILTER(?due < ?asOf)
+    FILTER NOT EXISTS { ?act {{hasActionStatus}} ?st . FILTER(?st IN ({{ActionVerified}}, {{ActionCancelled}})) }
+    BIND("late" AS ?reason)
+  } UNION {
+    ?r {{reopensFinding}} ?finding ; {{reopenedOn}} ?ro . FILTER(?ro <= ?asOf)
+    FILTER NOT EXISTS { ?c {{closesFinding}} ?finding ; {{closedOn}} ?co . FILTER(?co > ?ro && ?co <= ?asOf) }
+    BIND("reopened" AS ?reason)
+  } UNION {
+    ?resp {{responseTo}} ?finding ; {{hasResponseStance}} {{StanceDisagree}} . BIND("disputed" AS ?reason)
+  } UNION {
+    FILTER NOT EXISTS { ?act {{correctsFinding}} ?finding . ?v {{verifiesAction}} ?act ; {{hasVerificationResult}} {{VerifEffective}} ; {{assessedBy}} ?who .
+                        FILTER NOT EXISTS { ?act {{hasOwner}} ?who } }
+    FILTER NOT EXISTS { ?c {{closesFinding}} ?finding ; {{closureBasedOn}} ?ra . ?ra a {{RiskAcceptance}} }
+    BIND("no independently verified action" AS ?reason)
+  }
+}

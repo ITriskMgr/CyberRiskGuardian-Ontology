@@ -1,0 +1,11 @@
+# CQ-GRCA-09 Reconstruct the chain criterion -> evidence -> finding -> recommendation -> response -> action ->
+# verification -> closure for a finding. Parameter: ?finding. Unbound columns are the missing steps.
+SELECT ?criterion ?evidence ?recommendation ?response ?action ?verification ?result ?closure WHERE {
+  ?finding a {{AuditFinding}} .
+  OPTIONAL { ?finding {{usesCriterion}} ?criterion }
+  OPTIONAL { ?finding {{hasEvidence}} ?evidence }
+  OPTIONAL { ?recommendation {{recommendationFor}} ?finding }
+  OPTIONAL { ?response {{responseTo}} ?finding }
+  OPTIONAL { ?action {{correctsFinding}} ?finding . OPTIONAL { ?verification {{verifiesAction}} ?action ; {{hasVerificationResult}} ?result } }
+  OPTIONAL { ?closure {{closesFinding}} ?finding }
+}

@@ -1,7 +1,31 @@
 {
- "commit": "381f7f5",
+ "commit": "502394b",
  "branch": "v0.9",
  "modules": {
+  "crgo-assurance.ttl": {
+   "triples": 1350,
+   "classes": 24,
+   "object_properties": 23,
+   "data_properties": 16,
+   "annotation_properties": 0,
+   "named_individuals": 36,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-governance"
+   ]
+  },
+  "crgo-audit.ttl": {
+   "triples": 1394,
+   "classes": 24,
+   "object_properties": 40,
+   "data_properties": 14,
+   "annotation_properties": 0,
+   "named_individuals": 24,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-assurance"
+   ]
+  },
   "crgo-core.ttl": {
    "triples": 3097,
    "classes": 49,
@@ -28,8 +52,22 @@
     "https://w3id.org/crgo/crgo-measure"
    ]
   },
+  "crgo-evidence.ttl": {
+   "triples": 929,
+   "classes": 10,
+   "object_properties": 11,
+   "data_properties": 18,
+   "annotation_properties": 0,
+   "named_individuals": 26,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-measure",
+    "https://w3id.org/crgo/imports/prov-slice",
+    "https://w3id.org/crgo/imports/time-slice"
+   ]
+  },
   "crgo-full.ttl": {
-   "triples": 26,
+   "triples": 39,
    "classes": 0,
    "object_properties": 0,
    "data_properties": 0,
@@ -44,19 +82,32 @@
     "https://w3id.org/crgo/vocab/capec",
     "https://w3id.org/crgo/vocab/ccm41",
     "https://w3id.org/crgo/vocab/cobit2019",
+    "https://w3id.org/crgo/vocab/coso-erm",
     "https://w3id.org/crgo/vocab/csf2",
     "https://w3id.org/crgo/vocab/cwe",
     "https://w3id.org/crgo/vocab/d3fend",
     "https://w3id.org/crgo/vocab/gdpr",
+    "https://w3id.org/crgo/vocab/iia-gias",
+    "https://w3id.org/crgo/vocab/iia-tr",
+    "https://w3id.org/crgo/vocab/iso19011",
     "https://w3id.org/crgo/vocab/iso27002-2022",
+    "https://w3id.org/crgo/vocab/iso27007",
+    "https://w3id.org/crgo/vocab/iso27008",
+    "https://w3id.org/crgo/vocab/iso37301",
+    "https://w3id.org/crgo/vocab/iso37302",
+    "https://w3id.org/crgo/vocab/itaf",
     "https://w3id.org/crgo/vocab/kev",
+    "https://w3id.org/crgo/vocab/legal",
     "https://w3id.org/crgo/vocab/loi25",
     "https://w3id.org/crgo/vocab/lrsss",
     "https://w3id.org/crgo/vocab/mappings",
     "https://w3id.org/crgo/vocab/osfi-b13",
     "https://w3id.org/crgo/vocab/pipeda",
+    "https://w3id.org/crgo/vocab/sources",
+    "https://w3id.org/crgo/vocab/sp800-53a",
     "https://w3id.org/crgo/vocab/sp800-53r5",
-    "https://w3id.org/crgo/vocab/theme"
+    "https://w3id.org/crgo/vocab/theme",
+    "https://w3id.org/crgo/vocab/tsc"
    ]
   },
   "crgo-gov.ttl": {
@@ -69,6 +120,55 @@
    "version": "0.9.0",
    "imports": []
   },
+  "crgo-governance.ttl": {
+   "triples": 1082,
+   "classes": 31,
+   "object_properties": 33,
+   "data_properties": 7,
+   "annotation_properties": 0,
+   "named_individuals": 9,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-grc"
+   ]
+  },
+  "crgo-grc.ttl": {
+   "triples": 1525,
+   "classes": 20,
+   "object_properties": 33,
+   "data_properties": 13,
+   "annotation_properties": 0,
+   "named_individuals": 40,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-evidence",
+    "https://w3id.org/crgo/crgo-org"
+   ]
+  },
+  "crgo-incident.ttl": {
+   "triples": 470,
+   "classes": 8,
+   "object_properties": 11,
+   "data_properties": 4,
+   "annotation_properties": 0,
+   "named_individuals": 10,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-evidence"
+   ]
+  },
+  "crgo-mapping.ttl": {
+   "triples": 258,
+   "classes": 0,
+   "object_properties": 21,
+   "data_properties": 0,
+   "annotation_properties": 0,
+   "named_individuals": 0,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-gov"
+   ]
+  },
   "crgo-measure.ttl": {
    "triples": 422,
    "classes": 7,
@@ -80,9 +180,33 @@
    "imports": [
     "https://w3id.org/crgo/crgo-core"
    ]
+  },
+  "crgo-org.ttl": {
+   "triples": 709,
+   "classes": 6,
+   "object_properties": 10,
+   "data_properties": 1,
+   "annotation_properties": 0,
+   "named_individuals": 25,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-core"
+   ]
+  },
+  "crgo-vuln.ttl": {
+   "triples": 119,
+   "classes": 1,
+   "object_properties": 0,
+   "data_properties": 3,
+   "annotation_properties": 0,
+   "named_individuals": 0,
+   "version": "0.9.0",
+   "imports": [
+    "https://w3id.org/crgo/crgo-evidence"
+   ]
   }
  },
- "term_ids_minted": 336,
+ "term_ids_minted": 884,
  "vocabularies": {
   "a21": {
    "concepts": 18,
@@ -119,6 +243,13 @@
    "with_fr_label": 0,
    "version": "2019"
   },
+  "coso-erm": {
+   "concepts": 25,
+   "deprecated": 0,
+   "top_concepts": 5,
+   "with_fr_label": 25,
+   "version": "2017"
+  },
   "csf2": {
    "concepts": 225,
    "deprecated": 91,
@@ -147,12 +278,68 @@
    "with_fr_label": 40,
    "version": "Regulation (EU) 2016/679 of 27 April 2016, OJ L 119, 4.5.2016, p. 1 (CELEX 32016R0679); corrigenda not reviewed"
   },
+  "iia-gias": {
+   "concepts": 72,
+   "deprecated": 0,
+   "top_concepts": 5,
+   "with_fr_label": 72,
+   "version": "2024 (published 2024-01-09)"
+  },
+  "iia-tr": {
+   "concepts": 61,
+   "deprecated": 0,
+   "top_concepts": 3,
+   "with_fr_label": 61,
+   "version": "Cybersecurity (2025-02), Third-Party (2025-09), Organizational Behavior (2025-12)"
+  },
+  "iso19011": {
+   "concepts": 28,
+   "deprecated": 0,
+   "top_concepts": 8,
+   "with_fr_label": 28,
+   "version": "Troisième édition, 2018-07"
+  },
   "iso27002-2022": {
    "concepts": 97,
    "deprecated": 0,
    "top_concepts": 4,
    "with_fr_label": 0,
    "version": "2022 (corrected 2022-03)"
+  },
+  "iso27007": {
+   "concepts": 28,
+   "deprecated": 0,
+   "top_concepts": 8,
+   "with_fr_label": 28,
+   "version": "Troisième édition, 2020-01"
+  },
+  "iso27008": {
+   "concepts": 22,
+   "deprecated": 0,
+   "top_concepts": 11,
+   "with_fr_label": 22,
+   "version": "First edition, 2019-01"
+  },
+  "iso37301": {
+   "concepts": 37,
+   "deprecated": 0,
+   "top_concepts": 11,
+   "with_fr_label": 37,
+   "version": "First edition, 2021-04"
+  },
+  "iso37302": {
+   "concepts": 18,
+   "deprecated": 0,
+   "top_concepts": 8,
+   "with_fr_label": 18,
+   "version": "First edition, 2025-07"
+  },
+  "itaf": {
+   "concepts": 38,
+   "deprecated": 0,
+   "top_concepts": 3,
+   "with_fr_label": 38,
+   "version": "5th edition (copyright 2026)"
   },
   "kev": {
    "concepts": 1739,
@@ -189,6 +376,13 @@
    "with_fr_label": 13,
    "version": "S.C. 2000, c. 5, current to 2026-05-26 (last amended 2025-03-04)"
   },
+  "sp800-53a": {
+   "concepts": 6646,
+   "deprecated": 0,
+   "top_concepts": 3945,
+   "with_fr_label": 0,
+   "version": "SP 800-53 Rev. 5 OSCAL catalogue 5.2.0"
+  },
   "sp800-53r5": {
    "concepts": 1216,
    "deprecated": 182,
@@ -202,20 +396,27 @@
    "top_concepts": 23,
    "with_fr_label": 23,
    "version": "0.9.0"
+  },
+  "tsc": {
+   "concepts": 86,
+   "deprecated": 0,
+   "top_concepts": 5,
+   "with_fr_label": 86,
+   "version": "2017 (points of focus revised 2022)"
   }
  },
  "mappings": {
-  "annotation_records": 11554,
-  "distinct_correspondences": 11462,
+  "annotation_records": 11434,
+  "distinct_correspondences": 11342,
   "by_predicate": {
-   "relatedMatch": 11539,
+   "relatedMatch": 11419,
    "closeMatch": 15
   }
  },
  "library": {
-  "triples": 551664,
+  "triples": 515341,
   "types_top": {
-   "owl#Axiom": 26894,
+   "owl#Axiom": 21132,
    "CRGO_0000024": 1884,
    "CRGO_0000043": 1854,
    "CRGO_0000044": 1854,
@@ -226,7 +427,8 @@
    "CRGO_0000047": 1821,
    "CRGO_0000014": 1818,
    "CRGO_0000046": 1768,
-   "CRGO_0000297": 1739,
+   "owl#NamedIndividual": 1739,
+   "CRGO_0000340": 1739,
    "CRGO_0000294": 1612,
    "CRGO_0000049": 1147,
    "CRGO_0000027": 1111,
@@ -238,34 +440,36 @@
    "CRGO_0000052": 1096,
    "CRGO_0000032": 975,
    "CRGO_0000295": 764,
-   "CRGO_0000037": 111,
-   "CRGO_0000036": 17
+   "CRGO_0000037": 111
   }
  },
  "shacl": {
-  "node_shapes": 48,
-  "property_constraints": 60
+  "node_shapes": 145,
+  "property_constraints": 232
  },
  "tests": {
   "competency_questions": 27,
-  "owl_fixtures": 6,
-  "negative_fixtures": 5,
-  "shacl_fixtures": 8,
+  "owl_fixtures": 10,
+  "negative_fixtures": 9,
+  "shacl_fixtures": 40,
   "identification_checks": 17
  },
  "approvals": {
-  "rows": 403,
+  "rows": 413,
   "decisions": {
-   "Approve": 403
+   "Approve": 413
   }
  },
  "scripts": [
+  "pipeline/contracts/dss.py",
   "pipeline/crg/crg2rdf.py",
   "pipeline/external/ctid_check.py",
   "pipeline/external/nist_check.py",
   "pipeline/external/nist_crosswalks.py",
   "pipeline/external/vcdb.py",
+  "pipeline/grc/applicability.py",
   "pipeline/library/build_abox.py",
+  "pipeline/library/build_workprogrammes.py",
   "pipeline/library/parse_llm.py",
   "pipeline/library/repair.py",
   "pipeline/library/themes.py",
@@ -277,13 +481,18 @@
   "pipeline/query/store.py",
   "pipeline/vocab/build_ccm_private.py",
   "pipeline/vocab/build_external.py",
+  "pipeline/vocab/build_grca_vocab.py",
+  "pipeline/vocab/build_legal.py",
+  "pipeline/vocab/build_licensed_private.py",
   "pipeline/vocab/build_vocab.py",
   "pipeline/vocab/ids_loi25.py",
+  "scripts/change_report.py",
   "scripts/check.sh",
   "scripts/check_metadata.py",
   "scripts/check_modules.py",
   "scripts/check_pitfalls.py",
   "scripts/check_shacl.py",
+  "scripts/check_tenants.py",
   "scripts/check_vocab.py",
   "scripts/check_w3id.py",
   "scripts/inventory.py",
@@ -295,6 +504,8 @@
   "src/build.py",
   "src/build_shapes.py",
   "src/spec_core.py",
-  "src/spec_props.py"
+  "src/spec_grca.py",
+  "src/spec_props.py",
+  "src/spec_v09.py"
  ]
 }

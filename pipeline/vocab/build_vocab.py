@@ -38,9 +38,13 @@ def safe(i):
     i = i.replace("&", "and").replace(" ", "_").replace("(", "_").replace(")", "")
     return re.sub(r"[^A-Za-z0-9._-]", "", i)
 
+def safe_53a(i):
+    """SP 800-53A identifiers use both AC-01a.01 and AC-01a.[01]; keep them apart in the IRI (0.9.0)."""
+    return safe(i.replace("[", "_o").replace("]", ""))
+
 class Scheme:
     def __init__(self, key, title_en, title_fr, version, source, licence, rights, publisher, note_en=""):
-        self.g = Graph(); self.key = key
+        self.g = Graph(); self.key = key; self.safe = safe_53a if key == "sp800-53a" else safe
         for p, n in [("skos", SKOS), ("dcterms", DCTERMS), ("crgo", "https://w3id.org/crgo/"), ("owl", OWL), (key, VOC + key + "/")]:
             self.g.bind(p, n)
         self.ns = Namespace(VOC + key + "/")
@@ -64,7 +68,7 @@ class Scheme:
 
     def concept(self, notation, label_en, label_fr=None, broader=None, definition_en=None, definition_fr=None,
                 source=None, conf="H", deprecated=False, see_also=None, note=None, introduced="0.2.0"):
-        c = self.ns[safe(notation)]
+        c = self.ns[self.safe(notation)]
         g = self.g
         g.add((c, RDF.type, SKOS.Concept)); g.add((c, SKOS.inScheme, self.s))
         g.add((c, SKOS.notation, Literal(notation)))
@@ -78,7 +82,7 @@ class Scheme:
         if broader is None:
             g.add((c, SKOS.topConceptOf, self.s)); g.add((self.s, SKOS.hasTopConcept, c))
         else:
-            g.add((c, SKOS.broader, self.ns[safe(broader)]))
+            g.add((c, SKOS.broader, self.ns[self.safe(broader)]))
         if deprecated:
             g.add((c, OWL.deprecated, Literal(True)))
         if see_also:

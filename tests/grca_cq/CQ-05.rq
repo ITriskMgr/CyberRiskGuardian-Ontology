@@ -1,0 +1,6 @@
+# CQ-05 Which incidents are confirmed, and which risk scenarios they inform remain hypotheses (assessment scenarios)?
+SELECT ?incident ?confirmed ?scenario WHERE {
+  ?incident a {{Incident}} .
+  BIND(EXISTS { ?c {{confirmsIncident}} ?incident } AS ?confirmed)
+  OPTIONAL { ?incident {{incidentInformsScenario}} ?scenario . ?scenario a {{AssessmentScenario}} }
+}

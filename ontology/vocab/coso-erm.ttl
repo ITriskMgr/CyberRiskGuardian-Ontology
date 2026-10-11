@@ -1,0 +1,399 @@
+@prefix coso-erm: <https://w3id.org/crgo/vocab/coso-erm/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+coso-erm:ERM-P1 a skos:Concept ;
+    skos:broader coso-erm:ERM-C1 ;
+    skos:definition "The board oversees strategy and carries governance duties that help management achieve strategy and business objectives."@en,
+        "Le conseil supervise la stratégie et exerce son rôle de gouvernance pour appuyer la direction dans l'atteinte de ses buts."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P1" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Exercise board risk oversight"@en,
+        "Exercer une surveillance des risques par le conseil"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P1 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P10 a skos:Concept ;
+    skos:broader coso-erm:ERM-C3 ;
+    skos:definition "The organization detects risks that could affect achievement of strategy and business objectives."@en,
+        "L'organisation repère ce qui pourrait compromettre l'atteinte de sa stratégie et de ses buts d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P10" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Identify risk"@en,
+        "Identifier les risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P10 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P11 a skos:Concept ;
+    skos:broader coso-erm:ERM-C3 ;
+    skos:definition "The organization gauges how severe each identified risk is."@en,
+        "L'organisation mesure la gravité de chaque risque repéré."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P11" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Assess severity of risk"@en,
+        "Évaluer la criticité des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P11 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P12 a skos:Concept ;
+    skos:broader coso-erm:ERM-C3 ;
+    skos:definition "The organization ranks risks to guide the choice of responses."@en,
+        "L'organisation classe les risques par ordre d'importance pour orienter le choix des réponses."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P12" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Prioritize risks"@en,
+        "Prioriser les risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P12 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P13 a skos:Concept ;
+    skos:broader coso-erm:ERM-C3 ;
+    skos:definition "The organization identifies, selects and applies responses to its risks."@en,
+        "L'organisation détermine, choisit et applique les réponses à ses risques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P13" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Implement risk responses"@en,
+        "Mettre en œuvre les modalités de traitement des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P13 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P14 a skos:Concept ;
+    skos:broader coso-erm:ERM-C3 ;
+    skos:definition "The organization forms and evaluates an aggregate, entity-wide view of its risks."@en,
+        "L'organisation constitue et apprécie une vue agrégée de l'ensemble de ses risques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P14" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Develop portfolio view"@en,
+        "Développer une vision globale du portefeuille de risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P14 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P15 a skos:Concept ;
+    skos:broader coso-erm:ERM-C4 ;
+    skos:definition "The organization spots and evaluates changes that could significantly affect strategy and business objectives."@en,
+        "L'organisation repère et apprécie les évolutions pouvant toucher fortement sa stratégie et ses buts d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P15" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Assess substantial change"@en,
+        "Évaluer les changements substantiels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P15 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P16 a skos:Concept ;
+    skos:broader coso-erm:ERM-C4 ;
+    skos:definition "The organization reviews entity performance while taking risk into account."@en,
+        "L'organisation passe en revue ses résultats en tenant compte du risque."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P16" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Review risk and performance"@en,
+        "Réexaminer les risques et la performance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P16 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P17 a skos:Concept ;
+    skos:broader coso-erm:ERM-C4 ;
+    skos:definition "The organization continually enhances its enterprise risk management practices."@en,
+        "L'organisation perfectionne en continu ses pratiques de gestion des risques d'entreprise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P17" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Pursue improvement in enterprise risk management"@en,
+        "Poursuivre l'amélioration du management des risques de l'entreprise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P17 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P18 a skos:Concept ;
+    skos:broader coso-erm:ERM-C5 ;
+    skos:definition "The organization uses its information and technology systems to support enterprise risk management."@en,
+        "L'organisation mobilise ses systèmes d'information et ses technologies au service de la gestion des risques d'entreprise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P18" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Leverage data and technology"@en,
+        "Tirer parti des données et des technologies"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P18 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P19 a skos:Concept ;
+    skos:broader coso-erm:ERM-C5 ;
+    skos:definition "The organization uses communication channels to support enterprise risk management."@en,
+        "L'organisation recourt à ses canaux de communication pour appuyer la gestion des risques d'entreprise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P19" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Communicate risk information"@en,
+        "Communiquer les informations relatives aux risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P19 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P2 a skos:Concept ;
+    skos:broader coso-erm:ERM-C1 ;
+    skos:definition "The organization sets up structures suited to delivering its strategy and business objectives."@en,
+        "L'organisation met en place des structures adaptées à la réalisation de sa stratégie et de ses buts d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P2" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Establish organizational structures"@en,
+        "Définir les structures organisationnelles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P2 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P20 a skos:Concept ;
+    skos:broader coso-erm:ERM-C5 ;
+    skos:definition "The organization reports on risk, culture and performance at multiple levels throughout the entity."@en,
+        "L'organisation produit des rapports sur le risque, la culture et les résultats à plusieurs niveaux de l'entité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P20" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Report on risk, culture and performance"@en,
+        "Rendre compte des risques, de la culture et de la performance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P20 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P3 a skos:Concept ;
+    skos:broader coso-erm:ERM-C1 ;
+    skos:definition "The organization specifies the behaviours expected to embody the culture it aims for."@en,
+        "L'organisation précise les conduites attendues qui incarnent la culture qu'elle vise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P3" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Define desired culture"@en,
+        "Définir la culture souhaitée"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P3 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P4 a skos:Concept ;
+    skos:broader coso-erm:ERM-C1 ;
+    skos:definition "The organization shows through its actions that it upholds its fundamental values."@en,
+        "L'organisation prouve par ses actes qu'elle respecte ses valeurs de base."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P4" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Demonstrate commitment to core values"@en,
+        "Démontrer l'engagement en faveur de valeurs fondamentales"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P4 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P5 a skos:Concept ;
+    skos:broader coso-erm:ERM-C1 ;
+    skos:definition "The organization builds human capital consistent with its strategy and business objectives."@en,
+        "L'organisation bâtit un capital humain cohérent avec sa stratégie et ses buts d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P5" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Attract, develop and retain capable individuals"@en,
+        "Attirer, former et fidéliser des personnes compétentes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P5 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P6 a skos:Concept ;
+    skos:broader coso-erm:ERM-C2 ;
+    skos:definition "The organization weighs how its internal and external context may shape its risk profile."@en,
+        "L'organisation examine comment son environnement interne et externe peut modifier son profil de risque."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P6" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Analyze business context"@en,
+        "Analyser le contexte de l'organisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P6 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P7 a skos:Concept ;
+    skos:broader coso-erm:ERM-C2 ;
+    skos:definition "The organization sets the amount of risk it is willing to accept while creating, preserving and realizing value."@en,
+        "L'organisation fixe le niveau de risque qu'elle accepte d'assumer pour créer, protéger et réaliser de la valeur."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P7" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Define risk appetite"@en,
+        "Définir l'appétence pour le risque"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P7 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P8 a skos:Concept ;
+    skos:broader coso-erm:ERM-C2 ;
+    skos:definition "The organization compares strategic options and how each might alter its risk profile."@en,
+        "L'organisation compare les options stratégiques et la manière dont chacune pourrait modifier son profil de risque."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P8" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Evaluate alternative strategies"@en,
+        "Évaluer les stratégies alternatives"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P8 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-P9 a skos:Concept ;
+    skos:broader coso-erm:ERM-C2 ;
+    skos:definition "The organization considers risk when setting objectives at various levels that align with and support strategy."@en,
+        "L'organisation tient compte du risque en fixant, à plusieurs niveaux, des buts cohérents avec la stratégie."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-P9" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Formulate business objectives"@en,
+        "Définir les objectifs opérationnels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), principle ERM-P9 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-C4 a skos:Concept ;
+    skos:definition "Component in which the organization examines how its risk practices perform over time and after major change, and adjusts them."@en,
+        "Composante où l'organisation examine le fonctionnement de ses pratiques de gestion des risques dans le temps et après un changement majeur, puis les ajuste."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-C4" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Review and Revision"@en,
+        "Revue et amendement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C4 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-C5 a skos:Concept ;
+    skos:definition "Component addressing the continual capture and sharing of risk-related information from internal and external sources across the organization."@en,
+        "Composante visant la collecte et le partage continus d'informations sur les risques, de sources internes et externes, dans toute l'organisation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-C5" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Information, Communication, and Reporting"@en,
+        "Information, communication et reporting"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C5 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-C2 a skos:Concept ;
+    skos:definition "Component linking risk to strategic planning through context analysis, risk appetite, evaluation of strategic options and formulation of business objectives."@en,
+        "Composante liant le risque à la planification stratégique par l'analyse du contexte, l'appétence, l'examen des options stratégiques et la formulation des objectifs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-C2" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Strategy and Objective-Setting"@en,
+        "Stratégie et définition des objectifs"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C2 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-C1 a skos:Concept ;
+    skos:definition "Component covering board oversight, organizational structures, desired culture, core values and people capability that frame enterprise risk management."@en,
+        "Composante regroupant la surveillance par le conseil, les structures, la culture visée, les valeurs et le capital humain qui encadrent la gestion des risques d'entreprise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-C1" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Governance and Culture"@en,
+        "Gouvernance et culture"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C1 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+coso-erm:ERM-C3 a skos:Concept ;
+    skos:definition "Component covering identification, severity assessment, prioritization and response to risks, and a consolidated view of the risk portfolio."@en,
+        "Composante couvrant le repérage, la mesure de la gravité, la hiérarchisation et le traitement des risques ainsi qu'une vue consolidée du portefeuille."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/coso-erm> ;
+    skos:notation "ERM-C3" ;
+    skos:note "English label translated by CRGO; the official title is the French one."@en ;
+    skos:prefLabel "Performance"@en,
+        "Performance"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/coso-erm> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "COSO ERM 2017 (French summary), component ERM-C3 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/coso-erm> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "COSO" ;
+    dcterms:rights "Identifiers and headings (c) COSO, cited for reference and mapping only under the project owner's licence to use the document; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "COSO ERM 2017 French executive summary (data/frameworks/grca/coso_erm.tsv)" ;
+    dcterms:title "COSO Enterprise Risk Management (2017): components and principles"@en,
+        "COSO Gestion des risques de l'entreprise (2017) : composantes et principes"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/coso-erm> ;
+    owl:versionInfo "2017" ;
+    skos:hasTopConcept coso-erm:ERM-C1,
+        coso-erm:ERM-C2,
+        coso-erm:ERM-C3,
+        coso-erm:ERM-C4,
+        coso-erm:ERM-C5 ;
+    skos:scopeNote "French titles are those of the French executive summary; English titles are CRGO translations, the official English list not being in the files held. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

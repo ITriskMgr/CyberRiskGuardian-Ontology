@@ -5,7 +5,8 @@ from rdflib import RDF
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # each module and the modules it imports directly (src/build.py MODULES)
 DEPS = {"gov": [], "core": ["gov"], "measure": ["core"], "crg": ["measure"], "evidence": ["measure"], "org": ["core"],
-        "vuln": ["evidence"], "grc": ["evidence", "org"], "mapping": ["gov"]}
+        "vuln": ["evidence"], "grc": ["evidence", "org"], "mapping": ["gov"],
+        "governance": ["grc"], "assurance": ["governance"], "audit": ["assurance"], "incident": ["evidence"]}
 order = list(DEPS)
 def closure_of(m):
     out = {m}

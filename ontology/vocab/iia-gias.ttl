@@ -1,0 +1,1104 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iia-gias: <https://w3id.org/crgo/vocab/iia-gias/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iia-gias:1.1 a skos:Concept ;
+    skos:broader iia-gias:1 ;
+    skos:definition "Auditors must be truthful and accurate, and must voice concerns or unwelcome conclusions even under pressure."@en,
+        "Les auditeurs doivent être véridiques et exacts et exprimer leurs préoccupations ou conclusions défavorables, même sous pression."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "1.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Honesty and Professional Courage"@en,
+        "Honnêteté et courage professionnel"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 1.1 (page 17)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:1.2 a skos:Concept ;
+    skos:broader iia-gias:1 ;
+    skos:definition "Auditors must respect the organization's ethical expectations, and the chief audit executive should foster an ethical culture in the function."@en,
+        "Les auditeurs doivent respecter les attentes éthiques de l'organisation et le responsable doit favoriser une culture éthique au sein de la fonction."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "1.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Organization’s Ethical Expectations"@en,
+        "Attentes éthiques de l'organisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 1.2 (page 18)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:1.3 a skos:Concept ;
+    skos:broader iia-gias:1 ;
+    skos:definition "Auditors must avoid illegal or discreditable conduct and must observe the laws and regulations that apply."@en,
+        "Les auditeurs doivent éviter toute conduite illégale ou discréditante et respecter les lois et règlements applicables."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "1.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Legal and Ethical Behavior"@en,
+        "Comportement légal et éthique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 1.3 (page 19)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:10.1 a skos:Concept ;
+    skos:broader iia-gias:10 ;
+    skos:definition "The CAE must manage the function's budget so the mandate and plan can be delivered."@en,
+        "Le responsable doit gérer le budget de la fonction de façon à réaliser le mandat et le plan."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "10.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Financial Resource Management"@en,
+        "Gestion des ressources financières"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 10.1 (page 72)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:10.2 a skos:Concept ;
+    skos:broader iia-gias:10 ;
+    skos:definition "The chief audit executive must recruit, develop and retain staff with the right mix of competencies to perform the plan."@en,
+        "Le responsable doit recruter, développer et retenir un personnel doté de la bonne combinaison de compétences pour exécuter le plan."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "10.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Human Resources Management"@en,
+        "Gestion des ressources humaines"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 10.2 (page 73)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:10.3 a skos:Concept ;
+    skos:broader iia-gias:10 ;
+    skos:definition "The chief audit executive must ensure the function has technology that supports its processes and improves efficiency."@en,
+        "Le responsable doit doter la fonction d'outils technologiques qui soutiennent ses processus et accroissent son efficience."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "10.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Technological Resources"@en,
+        "Ressources technologiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 10.3 (page 76)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11.1 a skos:Concept ;
+    skos:broader iia-gias:11 ;
+    skos:definition "The chief audit executive must foster trusted relationships and ongoing dialogue with stakeholders to understand their needs."@en,
+        "Le responsable doit entretenir des relations de confiance et un dialogue continu avec les parties prenantes pour comprendre leurs besoins."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Building Relationships and Communicating with Stakeholders"@en,
+        "Établissement de relations et communication avec les parties prenantes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 11.1 (page 77)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11.2 a skos:Concept ;
+    skos:broader iia-gias:11 ;
+    skos:definition "Communications from the function must be truthful, unbiased, understandable, brief, helpful, complete and delivered on time."@en,
+        "Les communications de la fonction doivent être véridiques, impartiales, compréhensibles, brèves, utiles, complètes et livrées à temps."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Effective Communication"@en,
+        "Communication efficace"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 11.2 (page 79)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11.3 a skos:Concept ;
+    skos:broader iia-gias:11 ;
+    skos:definition "The chief audit executive must report engagement and overall results, including themes and conclusions, to senior management and the board."@en,
+        "Le responsable doit communiquer au conseil et à la direction générale les résultats des missions et d'ensemble, y compris thèmes et conclusions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Communicating Results"@en,
+        "Communication des résultats"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 11.3 (page 80)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11.4 a skos:Concept ;
+    skos:broader iia-gias:11 ;
+    skos:definition "When a final communication has a material error or omission, corrected information must go to everyone who received the original."@en,
+        "Lorsqu'une communication finale comporte une erreur ou omission importante, l'information corrigée doit être transmise à tous ses destinataires initiaux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11.4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Errors and Omissions"@en,
+        "Erreurs et omissions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 11.4 (page 83)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11.5 a skos:Concept ;
+    skos:broader iia-gias:11 ;
+    skos:definition "If management accepts a risk beyond the organization's appetite, the chief audit executive must discuss it with management and, if unresolved, escalate to the board."@en,
+        "Si la direction accepte un risque dépassant l'appétence de l'organisation, le responsable doit en discuter avec elle et, à défaut d'accord, saisir le conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11.5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Communicating the Acceptance of Risks"@en,
+        "Communication de l'acceptation des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 11.5 (page 84)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:12.1 a skos:Concept ;
+    skos:broader iia-gias:12 ;
+    skos:definition "The chief audit executive must carry out ongoing monitoring and periodic self-assessment of conformance and performance."@en,
+        "Le responsable doit assurer une surveillance continue et des autoévaluations périodiques de la conformité et de la performance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "12.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Internal Quality Assessment"@en,
+        "Évaluation interne de la qualité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 12.1 (page 86)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:12.2 a skos:Concept ;
+    skos:broader iia-gias:12 ;
+    skos:definition "The chief audit executive must define objectives and measures to evaluate the function's performance and drive improvement."@en,
+        "Le responsable doit définir des objectifs et des indicateurs pour évaluer la performance de la fonction et stimuler son amélioration."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "12.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Performance Measurement"@en,
+        "Mesure de la performance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 12.2 (page 88)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:12.3 a skos:Concept ;
+    skos:broader iia-gias:12 ;
+    skos:definition "The chief audit executive must supervise engagements so that work quality, sound conclusions and auditor development are assured."@en,
+        "Le responsable doit superviser les missions afin d'assurer la qualité du travail, la solidité des conclusions et le développement des auditeurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "12.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Oversee and Improve Engagement Performance"@en,
+        "Supervision et amélioration de l'exécution des missions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 12.3 (page 90)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.1 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must communicate with relevant stakeholders throughout each engagement, from planning to results."@en,
+        "Les auditeurs doivent communiquer avec les parties prenantes concernées tout au long de chaque mission, de la planification aux résultats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Communication"@en,
+        "Communication relative à la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.1 (page 93)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.2 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must understand the activity under review and assess its risks to focus the engagement."@en,
+        "Les auditeurs doivent comprendre l'activité examinée et en évaluer les risques afin de cibler la mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Risk Assessment"@en,
+        "Évaluation des risques de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.2 (page 95)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.3 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must set objectives and scope that reflect the assessed risks and the purpose of the engagement."@en,
+        "Les auditeurs doivent fixer des objectifs et un périmètre reflétant les risques évalués et la finalité de la mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Objectives and Scope"@en,
+        "Objectifs et périmètre de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.3 (page 98)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.4 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must identify suitable criteria against which governance, risk and control processes will be judged."@en,
+        "Les auditeurs doivent déterminer des critères appropriés pour juger les processus de gouvernance, de gestion des risques et de contrôle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Evaluation Criteria"@en,
+        "Critères d'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.4 (page 100)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.5 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must determine and secure the resources needed to achieve engagement objectives."@en,
+        "Les auditeurs doivent déterminer et obtenir les ressources nécessaires à l'atteinte des objectifs de la mission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Resources"@en,
+        "Ressources de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.5 (page 101)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13.6 a skos:Concept ;
+    skos:broader iia-gias:13 ;
+    skos:definition "Auditors must document a work program listing the tasks and procedures that will achieve the objectives."@en,
+        "Les auditeurs doivent documenter un programme de travail énumérant les tâches et procédures permettant d'atteindre les objectifs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13.6" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Work Program"@en,
+        "Programme de travail"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 13.6 (page 103)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.1 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must collect relevant, reliable and sufficient information to support their analyses."@en,
+        "Les auditeurs doivent recueillir une information pertinente, fiable et suffisante pour étayer leurs analyses."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Gathering Information for Analyses and Evaluation"@en,
+        "Collecte d'informations pour les analyses et l'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.1 (page 104)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.2 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must analyze information against criteria to spot possible findings, meaning gaps between conditions and criteria."@en,
+        "Les auditeurs doivent analyser l'information au regard des critères pour repérer des constats possibles, soit les écarts entre situation et critères."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Analyses and Potential Engagement Findings"@en,
+        "Analyses et constats potentiels de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.2 (page 106)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.3 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must judge the significance of each finding, considering root causes and potential effects, and prioritize them."@en,
+        "Les auditeurs doivent juger l'importance de chaque constat, en tenant compte des causes profondes et des effets potentiels, et les prioriser."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Evaluation of Findings"@en,
+        "Évaluation des constats"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.3 (page 107)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.4 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must propose recommendations or agree management action plans that address findings and their causes."@en,
+        "Les auditeurs doivent proposer des recommandations ou convenir de plans d'action de la direction qui traitent les constats et leurs causes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Recommendations and Action Plans"@en,
+        "Recommandations et plans d'action"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.4 (page 109)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.5 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must form an overall conclusion summarizing the significance of findings for the activity reviewed."@en,
+        "Les auditeurs doivent formuler une conclusion globale résumant l'importance des constats pour l'activité examinée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Conclusions"@en,
+        "Conclusions de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.5 (page 110)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14.6 a skos:Concept ;
+    skos:broader iia-gias:14 ;
+    skos:definition "Auditors must document information and analyses sufficient to support findings and conclusions, retaining records according to policy."@en,
+        "Les auditeurs doivent documenter l'information et les analyses étayant constats et conclusions, et conserver les dossiers selon la politique établie."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14.6" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Engagement Documentation"@en,
+        "Documentation de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 14.6 (page 111)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:15.1 a skos:Concept ;
+    skos:broader iia-gias:15 ;
+    skos:definition "Auditors must issue a final communication presenting objectives, scope, findings, conclusions and action plans."@en,
+        "Les auditeurs doivent émettre une communication finale présentant objectifs, périmètre, constats, conclusions et plans d'action."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "15.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Final Engagement Communication"@en,
+        "Communication finale de la mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 15.1 (page 113)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:15.2 a skos:Concept ;
+    skos:broader iia-gias:15 ;
+    skos:definition "Auditors must track and confirm that management has implemented recommendations or action plans, escalating when it has not."@en,
+        "Les auditeurs doivent suivre et confirmer la mise en œuvre par la direction des recommandations ou plans d'action, et escalader en cas de défaut."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "15.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Confirming the Implementation of Recommendations or Action Plans"@en,
+        "Confirmation de la mise en œuvre des recommandations ou des plans d'action"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 15.2 (page 114)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:2.1 a skos:Concept ;
+    skos:broader iia-gias:2 ;
+    skos:definition "Auditors must keep their judgment unbiased and avoid conflicts that could compromise impartiality."@en,
+        "Les auditeurs doivent garder un jugement sans parti pris et éviter les conflits susceptibles de compromettre leur impartialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "2.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Individual Objectivity"@en,
+        "Objectivité individuelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 2.1 (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:2.2 a skos:Concept ;
+    skos:broader iia-gias:2 ;
+    skos:definition "Auditors and the chief audit executive must recognize threats to objectivity and apply safeguards such as rotation or reassignment."@en,
+        "Les auditeurs et le responsable doivent reconnaître les menaces à l'objectivité et appliquer des mesures de sauvegarde, comme la rotation ou la réaffectation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "2.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Safeguarding Objectivity"@en,
+        "Protection de l'objectivité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 2.2 (page 22)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:2.3 a skos:Concept ;
+    skos:broader iia-gias:2 ;
+    skos:definition "Real or apparent impairments to objectivity must be reported promptly, with details, to the appropriate parties."@en,
+        "Toute atteinte réelle ou apparente à l'objectivité doit être signalée rapidement, avec précisions, aux parties concernées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "2.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Disclosing Impairments to Objectivity"@en,
+        "Divulgation des atteintes à l'objectivité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 2.3 (page 24)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:3.1 a skos:Concept ;
+    skos:broader iia-gias:3 ;
+    skos:definition "Auditors must have or acquire the knowledge, skills and abilities that their responsibilities and assignments require."@en,
+        "Les auditeurs doivent posséder ou acquérir les connaissances, aptitudes et habiletés exigées par leurs responsabilités et affectations."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "3.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Competency"@en,
+        "Compétence"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 3.1 (page 26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:3.2 a skos:Concept ;
+    skos:broader iia-gias:3 ;
+    skos:definition "Auditors must keep improving their competencies through ongoing learning, including any certification obligations."@en,
+        "Les auditeurs doivent améliorer constamment leurs compétences par la formation continue, y compris les exigences de certification."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "3.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Continuing Professional Development"@en,
+        "Perfectionnement professionnel continu"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 3.2 (page 28)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:4.1 a skos:Concept ;
+    skos:broader iia-gias:4 ;
+    skos:definition "Auditors must plan and perform services in line with the Standards and disclose any nonconformance."@en,
+        "Les auditeurs doivent planifier et réaliser les services conformément aux Normes et divulguer toute non-conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "4.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Conformance with the Global Internal Audit Standards"@en,
+        "Conformité aux Normes internationales d'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 4.1 (page 29)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:4.2 a skos:Concept ;
+    skos:broader iia-gias:4 ;
+    skos:definition "Auditors must apply the care and skill of a prudent professional, weighing scope, complexity, risk and cost."@en,
+        "Les auditeurs doivent faire preuve du soin et de la compétence d'un professionnel prudent, en tenant compte du périmètre, de la complexité, du risque et du coût."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "4.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Due Professional Care"@en,
+        "Diligence professionnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 4.2 (page 31)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:4.3 a skos:Concept ;
+    skos:broader iia-gias:4 ;
+    skos:definition "Auditors must maintain a questioning attitude, critically weighing evidence and staying alert to inconsistencies."@en,
+        "Les auditeurs doivent conserver une attitude interrogative, évaluer les preuves de façon critique et rester attentifs aux incohérences."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "4.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Professional Skepticism"@en,
+        "Scepticisme professionnel"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 4.3 (page 33)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:5.1 a skos:Concept ;
+    skos:broader iia-gias:5 ;
+    skos:definition "Auditors must use information only for professional purposes and never for personal gain or improper ends."@en,
+        "Les auditeurs doivent utiliser l'information uniquement à des fins professionnelles, jamais pour un gain personnel ou des fins indues."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "5.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Use of Information"@en,
+        "Utilisation de l'information"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 5.1 (page 34)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:5.2 a skos:Concept ;
+    skos:broader iia-gias:5 ;
+    skos:definition "Auditors must safeguard information and follow the policies governing its handling, retention and disclosure."@en,
+        "Les auditeurs doivent protéger l'information et suivre les politiques encadrant son traitement, sa conservation et sa divulgation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "5.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Protection of Information"@en,
+        "Protection de l'information"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 5.2 (page 35)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:6.1 a skos:Concept ;
+    skos:broader iia-gias:6 ;
+    skos:definition "The board, working with the chief audit executive and management, establishes the function's authority, role and responsibilities."@en,
+        "Le conseil, avec le responsable de l'audit interne et la direction, établit l'autorité, le rôle et les responsabilités de la fonction."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "6.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Internal Audit Mandate"@en,
+        "Mandat de l'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 6.1 (page 39)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:6.2 a skos:Concept ;
+    skos:broader iia-gias:6 ;
+    skos:definition "The chief audit executive must record the mandate and key arrangements in a charter approved by the board and reviewed periodically."@en,
+        "Le responsable doit consigner le mandat et les modalités clés dans une charte approuvée par le conseil et revue périodiquement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "6.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Internal Audit Charter"@en,
+        "Charte d'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 6.2 (page 42)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:6.3 a skos:Concept ;
+    skos:broader iia-gias:6 ;
+    skos:definition "The board and senior management must champion the function so it can fulfil its mandate."@en,
+        "Le conseil et la direction générale doivent soutenir activement la fonction afin qu'elle remplisse son mandat."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "6.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Board and Senior Management Support"@en,
+        "Soutien du conseil et de la direction générale"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 6.3 (page 44)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:7.1 a skos:Concept ;
+    skos:broader iia-gias:7 ;
+    skos:definition "The chief audit executive must report directly to the board, and the function must set scope, perform work and report without interference."@en,
+        "Le responsable doit relever directement du conseil et la fonction doit définir son périmètre, travailler et rendre compte sans ingérence."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "7.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Organizational Independence"@en,
+        "Indépendance organisationnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 7.1 (page 46)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:7.2 a skos:Concept ;
+    skos:broader iia-gias:7 ;
+    skos:definition "The board ensures the chief audit executive has the qualifications and competencies to lead the function and conform to the Standards."@en,
+        "Le conseil s'assure que le responsable possède les qualifications et compétences pour diriger la fonction et respecter les Normes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "7.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Chief Audit Executive Qualifications"@en,
+        "Qualifications du responsable de l'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 7.2 (page 50)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:8.1 a skos:Concept ;
+    skos:broader iia-gias:8 ;
+    skos:definition "The chief audit executive must communicate regularly with the board so it can oversee the function and gain needed insight."@en,
+        "Le responsable doit communiquer régulièrement avec le conseil afin qu'il supervise la fonction et obtienne l'éclairage nécessaire."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "8.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Board Interaction"@en,
+        "Interaction avec le conseil"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 8.1 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:8.2 a skos:Concept ;
+    skos:broader iia-gias:8 ;
+    skos:definition "The chief audit executive must judge whether resources suffice for the mandate and tell the board about the impact of any shortfall."@en,
+        "Le responsable doit juger si les ressources suffisent au mandat et informer le conseil de l'incidence de toute insuffisance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "8.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Resources"@en,
+        "Ressources"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 8.2 (page 54)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:8.3 a skos:Concept ;
+    skos:broader iia-gias:8 ;
+    skos:definition "The chief audit executive maintains a quality assurance and improvement program and reports its results to the board."@en,
+        "Le responsable maintient un programme d'assurance et d'amélioration de la qualité et en communique les résultats au conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "8.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Quality"@en,
+        "Qualité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 8.3 (page 55)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:8.4 a skos:Concept ;
+    skos:broader iia-gias:8 ;
+    skos:definition "A qualified independent assessor must review the function at least every five years, with results shared with the board."@en,
+        "Un évaluateur indépendant qualifié doit examiner la fonction au moins tous les cinq ans et les résultats doivent être transmis au conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "8.4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "External Quality Assessment"@en,
+        "Évaluation externe de la qualité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 8.4 (page 57)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9.1 a skos:Concept ;
+    skos:broader iia-gias:9 ;
+    skos:definition "The chief audit executive must understand how the organization governs, manages risk and exercises control, to inform strategy and planning."@en,
+        "Le responsable doit comprendre comment l'organisation gouverne, gère les risques et exerce le contrôle, afin d'éclairer la stratégie et la planification."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9.1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Understanding Governance, Risk Management, and Control Processes"@en,
+        "Compréhension des processus de gouvernance, de gestion des risques et de contrôle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 9.1 (page 61)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9.2 a skos:Concept ;
+    skos:broader iia-gias:9 ;
+    skos:definition "The CAE must develop and periodically revise a strategy aligning the function's vision and objectives with organizational priorities."@en,
+        "Le responsable doit élaborer et réviser périodiquement une stratégie alignant la vision et les objectifs de la fonction sur les priorités de l'organisation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9.2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Internal Audit Strategy"@en,
+        "Stratégie d'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 9.2 (page 63)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9.3 a skos:Concept ;
+    skos:broader iia-gias:9 ;
+    skos:definition "The chief audit executive must establish documented methods guiding how the function plans, performs and reports its services."@en,
+        "Le responsable doit établir des méthodes documentées encadrant la planification, la réalisation et la communication des services."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9.3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Methodologies"@en,
+        "Méthodologies"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 9.3 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9.4 a skos:Concept ;
+    skos:broader iia-gias:9 ;
+    skos:definition "The chief audit executive must build a risk-based plan, reviewed and approved by the board, and update it as risks change."@en,
+        "Le responsable doit bâtir un plan fondé sur les risques, examiné et approuvé par le conseil, et l'actualiser selon l'évolution des risques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9.4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Internal Audit Plan"@en,
+        "Plan d'audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 9.4 (page 66)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9.5 a skos:Concept ;
+    skos:broader iia-gias:9 ;
+    skos:definition "The CAE must coordinate with other assurance providers and judge whether their work can be relied upon."@en,
+        "Le responsable doit se coordonner avec les autres prestataires d'assurance et juger s'il peut s'appuyer sur leurs travaux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9.5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Coordination and Reliance"@en,
+        "Coordination et recours aux travaux d'autres prestataires"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, standard 9.5 (page 69)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:I a skos:Concept ;
+    skos:definition "Explains why internal auditing exists: helping the organization generate, safeguard and sustain value via independent, risk-based assurance and advice."@en,
+        "Explique la raison d'être de l'audit interne : aider l'organisation à créer, préserver et pérenniser de la valeur par une assurance et des conseils indépendants."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "I" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Purpose of Internal Auditing"@en,
+        "Raison d'être de l'audit interne"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-gias> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, domain I (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:15 a skos:Concept ;
+    skos:broader iia-gias:V ;
+    skos:definition "Internal auditors issue final engagement communications and confirm that agreed actions are carried out."@en,
+        "Les auditeurs internes émettent la communication finale de mission et confirment l'exécution des actions convenues."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "15" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Communicate Engagement Results and Monitor Action Plans"@en,
+        "Communiquer les résultats de mission et suivre les plans d'action"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 15 (page 112)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:3 a skos:Concept ;
+    skos:broader iia-gias:II ;
+    skos:definition "Internal auditors apply, and keep developing, the knowledge, skills and abilities their roles require."@en,
+        "Les auditeurs internes mettent en œuvre et développent les connaissances, aptitudes et habiletés requises par leurs fonctions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Demonstrate Competency"@en,
+        "Faire preuve de compétence"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 3 (page 25)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:5 a skos:Concept ;
+    skos:broader iia-gias:II ;
+    skos:definition "Internal auditors use and safeguard information appropriately, respecting its sensitivity."@en,
+        "Les auditeurs internes utilisent et protègent l'information de manière appropriée, en respectant sa sensibilité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Maintain Confidentiality"@en,
+        "Préserver la confidentialité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 5 (page 34)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:7 a skos:Concept ;
+    skos:broader iia-gias:III ;
+    skos:definition "The function is placed so it can work without interference, led by a qualified chief audit executive reporting to the board."@en,
+        "La fonction est positionnée pour travailler sans ingérence, sous la direction d'un responsable qualifié relevant du conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "7" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Positioned Independently"@en,
+        "Positionné de façon indépendante"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 7 (page 45)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:1 a skos:Concept ;
+    skos:broader iia-gias:II ;
+    skos:definition "Internal auditors act honestly and courageously, in line with ethical expectations, in all of their work."@en,
+        "Les auditeurs internes agissent avec honnêteté et courage, conformément aux attentes éthiques, dans l'ensemble de leurs travaux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Demonstrate Integrity"@en,
+        "Faire preuve d'intégrité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 1 (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:10 a skos:Concept ;
+    skos:broader iia-gias:IV ;
+    skos:definition "The chief audit executive obtains and deploys financial, human and technological resources to deliver the plan."@en,
+        "Le responsable de l'audit interne obtient et déploie les ressources financières, humaines et technologiques nécessaires au plan."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "10" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Manage Resources"@en,
+        "Gérer les ressources"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 10 (page 71)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:12 a skos:Concept ;
+    skos:broader iia-gias:IV ;
+    skos:definition "The function assesses itself, measures its performance and supervises engagements in order to improve continuously."@en,
+        "La fonction s'autoévalue, mesure sa performance et supervise les missions afin de s'améliorer en continu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "12" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Enhance Quality"@en,
+        "Améliorer la qualité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 12 (page 85)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:2 a skos:Concept ;
+    skos:broader iia-gias:II ;
+    skos:definition "Internal auditors keep an impartial, unbiased mindset and form judgments free from interference."@en,
+        "Les auditeurs internes conservent un état d'esprit impartial et sans parti pris et forment leurs jugements sans ingérence."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Maintain Objectivity"@en,
+        "Maintenir l'objectivité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 2 (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:4 a skos:Concept ;
+    skos:broader iia-gias:II ;
+    skos:definition "Internal auditors conform to the Standards and work with the prudence and skepticism suited to each service."@en,
+        "Les auditeurs internes se conforment aux Normes et travaillent avec la prudence et le scepticisme adaptés à chaque service."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Exercise Due Professional Care"@en,
+        "Exercer la diligence professionnelle requise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 4 (page 29)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:6 a skos:Concept ;
+    skos:broader iia-gias:III ;
+    skos:definition "The board confers, records and backs the function's authority, role and responsibilities."@en,
+        "Le conseil confère, consigne et soutient l'autorité, le rôle et les responsabilités de la fonction d'audit interne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "6" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Authorized by the Board"@en,
+        "Mandaté par le conseil"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 6 (page 39)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:8 a skos:Concept ;
+    skos:broader iia-gias:III ;
+    skos:definition "The board oversees the function's effectiveness, resources and quality, including periodic external assessment."@en,
+        "Le conseil supervise l'efficacité, les ressources et la qualité de la fonction, y compris l'évaluation externe périodique."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "8" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Overseen by the Board"@en,
+        "Supervisé par le conseil"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 8 (page 51)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:III a skos:Concept ;
+    skos:definition "Groups the principles on how the board and senior management authorize, position and oversee the internal audit function."@en,
+        "Regroupe les principes sur la manière dont le conseil et la direction générale autorisent, positionnent et supervisent la fonction d'audit interne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "III" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Governing the Internal Audit Function"@en,
+        "Gouvernance de la fonction d'audit interne"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-gias> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, domain III (page 37)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:V a skos:Concept ;
+    skos:definition "Groups the principles on planning engagements, conducting the work, communicating results and following up on agreed actions."@en,
+        "Regroupe les principes relatifs à la planification des missions, à la réalisation des travaux, à la communication des résultats et au suivi des actions convenues."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "V" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Performing Internal Audit Services"@en,
+        "Réalisation des services d'audit interne"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-gias> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, domain V (page 92)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:11 a skos:Concept ;
+    skos:broader iia-gias:IV ;
+    skos:definition "The function builds stakeholder relationships and delivers clear, timely and accurate communication of its results."@en,
+        "La fonction établit des relations avec les parties prenantes et communique ses résultats de façon claire, exacte et opportune."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "11" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Communicate Effectively"@en,
+        "Communiquer efficacement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 11 (page 77)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:9 a skos:Concept ;
+    skos:broader iia-gias:IV ;
+    skos:definition "The chief audit executive sets the function's direction and plan from an understanding of governance, risk and control."@en,
+        "Le responsable de l'audit interne définit l'orientation et le plan de la fonction à partir de sa compréhension de la gouvernance, des risques et du contrôle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "9" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Plan Strategically"@en,
+        "Planifier de façon stratégique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 9 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:IV a skos:Concept ;
+    skos:definition "Groups the principles guiding the chief audit executive in strategic planning, resourcing, communication and quality of the function."@en,
+        "Regroupe les principes qui guident le responsable de l'audit interne en matière de planification stratégique, de ressources, de communication et de qualité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "IV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Managing the Internal Audit Function"@en,
+        "Gestion de la fonction d'audit interne"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-gias> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, domain IV (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:13 a skos:Concept ;
+    skos:broader iia-gias:V ;
+    skos:definition "Internal auditors plan each engagement by assessing risks and setting objectives, scope, criteria, resources and a work program."@en,
+        "Les auditeurs internes planifient chaque mission en évaluant les risques et en fixant objectifs, périmètre, critères, ressources et programme de travail."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "13" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Plan Engagements Effectively"@en,
+        "Planifier efficacement les missions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 13 (page 93)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:14 a skos:Concept ;
+    skos:broader iia-gias:V ;
+    skos:definition "Internal auditors gather and analyze evidence, evaluate findings and reach documented engagement conclusions."@en,
+        "Les auditeurs internes recueillent et analysent des éléments probants, évaluent les constats et formulent des conclusions documentées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "14" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Conduct Engagement Work"@en,
+        "Réaliser les travaux de mission"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, principle 14 (page 104)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-gias:II a skos:Concept ;
+    skos:definition "Groups the principles that set the ethical conduct and professional behaviour expected of every internal auditor."@en,
+        "Regroupe les principes fixant la conduite éthique et le comportement professionnel attendus de tout auditeur interne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-gias> ;
+    skos:notation "II" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Ethics and Professionalism"@en,
+        "Éthique et professionnalisme"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-gias> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA GIAS 2024, domain II (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iia-gias> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "The Institute of Internal Auditors" ;
+    dcterms:rights "Identifiers and headings (c) The Institute of Internal Auditors, cited for reference and mapping only under the project owner's licence to use the document; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "IIA Global Internal Audit Standards, published 2024-01-09 (data/frameworks/grca/iia_gias.tsv)" ;
+    dcterms:title "IIA Global Internal Audit Standards (2024): domains, principles and standards"@en,
+        "Normes internationales d'audit interne de l'IIA (2024) : domaines, principes et normes"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iia-gias> ;
+    owl:versionInfo "2024 (published 2024-01-09)" ;
+    skos:hasTopConcept iia-gias:I,
+        iia-gias:II,
+        iia-gias:III,
+        iia-gias:IV,
+        iia-gias:V ;
+    skos:scopeNote "The file held states no effective date; see the IIA for it. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

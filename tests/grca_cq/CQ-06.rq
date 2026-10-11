@@ -1,0 +1,5 @@
+# CQ-06 Who decided each risk acceptance, and did they hold delegated authority on the date of the decision?
+SELECT ?acceptance ?maker ?date ?authorised WHERE {
+  ?d {{decisionOn}} ?acceptance ; {{decisionMadeBy}} ?maker ; {{decidedOn}} ?date . ?acceptance a {{RiskAcceptance}} .
+  BIND(EXISTS { ?del a {{DelegationOfAuthority}} ; {{delegationTo}} ?maker ; {{validFrom}} ?f ; {{validUntil}} ?u . FILTER(?f <= ?date && ?u >= ?date) } AS ?authorised)
+}

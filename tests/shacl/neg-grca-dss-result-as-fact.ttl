@@ -1,0 +1,20 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-grca-dss-result-as-fact> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    skos:note "expect: is a risk estimate" .
+
+x:r a crgo:CRGO_0000477 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000698 crgo:CRGO_0000558 ;
+    crgo:CRGO_0000704 x:scen ;
+    crgo:CRGO_0000832 "CyberRiskGuardian" ;
+    crgo:CRGO_0000833 "1.1.0" ;
+    crgo:CRGO_0000834 "2026-10-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000836 "0000000000000000000000000000000000000000000000000000000000000000" .
+

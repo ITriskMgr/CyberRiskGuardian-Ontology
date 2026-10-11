@@ -342,9 +342,27 @@ Built while the project owner was away ("Complete all the work now and proceed t
 
 ## 18. GRCA specification and the remaining-gaps specification (2026-10-11)
 
-The project owner supplied *CRGO GRCA Audit: Claude Implementation Specification* (v1.0) and *CRGO Remaining Gaps: Claude Implementation Specification* (draft v1.0, 20 domain packages and a CRGO–CyberRiskGuardian DSS contract). Phase 0 of the first: `docs/baseline/grca_phase0.md`. **Decisions of the project owner (2026-10-11, 15:10):**
+The project owner supplied *CRGO GRCA Audit: Claude Implementation Specification* (v1.0) and *CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains, with a Formal Interface to the Separate CyberRiskGuardian DSS* (draft v1.0; called the remaining-gaps specification here: 20 domain packages and a CRGO–CyberRiskGuardian DSS contract). Phase 0 of the first: `docs/baseline/grca_phase0.md`. **Decisions of the project owner (2026-10-11, 15:10):**
 - G1: the GRCA work is folded into 0.9.0 (no separate 0.10.0); the remaining-gaps work is also to be added to this version.
 - G2: three new modules, `crgo-governance`, `crgo-audit` (with remediation) and `crgo-assurance`; compliance additions in `crgo-grc`.
 - G3: the 0.9.0 control assessment is reused as the test execution, with who performed it (management, second line, internal audit, external assurer).
 - G4: all 3,715 SP 800-53A assessment objectives are imported.
 - G5: the project owner states that he is allowed to use the IIA, ISACA, ISO, COSO and AICPA texts and asked Claude to find them online.
+
+## 19. Remaining-gaps scope, DSS contract, tenants and licensed texts (2026-10-11)
+
+Phase 0 of the remaining-gaps specification: `docs/baseline/remaining_gaps_phase0.md`. **Decisions of the project owner (2026-10-11):**
+- R-a: 0.9.0 = the GRCA sprint plus packages R1–R9 (DSS boundary, identifiers and graph layers, DSS contract, policy and exceptions, control effectiveness, decision and uncertainty records, regulatory change, minimal incidents, competency questions); D02–D04 and D11–D20 move to the next version.
+- R-b: the DSS contract is JSON Schema documents exchanged through CRGO's MCP server, with two new tools, `crgo_risk_context` (read) and `crgo_submit_assessment` (write, stored as *proposed*); "the contract the document asks for should use what exists".
+- R-c: one graph per organisation under its own IRI base (never `https://w3id.org/crgo/`); reference files never point to organisation IRIs; recorded in ADR-008 and enforced by a check ("apply R-c as described", 15:43).
+- R-d: after G5, rather than Claude retrieving them online, the project owner supplied the licensed documents himself (IIA GIAS and Topical Requirements, ISACA ITAF, AICPA TSC, COSO ERM summary, ISO 19011, 27007, 27008, 37301, 37302 previews); they are used "as-is" but published as identifiers, short titles with attribution and CRGO's own paraphrases, as for ISO/IEC 27002; full texts may feed a private build only.
+
+**Points decided by Claude while building, for review** (`docs/review-0.9.0-grca.md`):
+- A fourth new module, `crgo-incident`, for package R8, which G2 did not foresee.
+- Group approvals of 2026-10-11 (`terms/evidence`, `terms/grc`, `terms/mapping`, `sources/records`) are scoped to what existed then (`GROUP_SCOPE` in `src/build.py`; record list in `pipeline/vocab/build_legal.py`), so terms and records added to those groups afterwards stay proposed.
+- Free-text data properties of the new modules have no datatype range, so that English and French values can carry language tags (a tagged literal against `xsd:string` made the sample inconsistent).
+- Evidence quality, deficiency severity, finding significance and engagement rating use CRGO's own scales: the documents held name no common scale, and the PCAOB terms were not used because the standard was not available.
+- None of the IIA documents held states an effective date; publication dates are recorded and flagged. COSO English titles are CRGO translations. Two ISO/IEC TS 27008 headings keep the source's typos. The COSO presentation file was rejected as a source (it shows the 2016 draft).
+- SP 800-53A: two objectives of SI-2(7) have no label in the 5.2.0 catalogue and get derived identifiers; seven method labels repeat in the catalogue, so method notations are built from the 800-53 control label; organisation-defined parameters are shown as `[organization-defined: label]`.
+- The specification's DSS example values `modelVersion: "TBD"` and `organizationId: "org-demo"` are not accepted by the contract (ADR-007).
+- The MediBec teaching case keeps its `https://w3id.org/crgo/data/medibec/` IRIs (grandfathered in ADR-008).

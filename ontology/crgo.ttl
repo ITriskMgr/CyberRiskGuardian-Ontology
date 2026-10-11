@@ -29,11 +29,15 @@ crgo:crgo a owl:Ontology ;
     bibo:status "released" ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
-    owl:imports crgo:crgo-core,
+    owl:imports crgo:crgo-assurance,
+        crgo:crgo-audit,
+        crgo:crgo-core,
         crgo:crgo-crg,
         crgo:crgo-evidence,
         crgo:crgo-gov,
+        crgo:crgo-governance,
         crgo:crgo-grc,
+        crgo:crgo-incident,
         crgo:crgo-mapping,
         crgo:crgo-measure,
         crgo:crgo-org,

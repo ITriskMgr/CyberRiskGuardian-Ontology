@@ -1,0 +1,27 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:c a crgo:CRGO_0000548 ;
+    crgo:CRGO_0000811 x:f ;
+    crgo:CRGO_0000812 x:v ;
+    crgo:CRGO_0000875 "2026-08-26T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-test/fixture/neg-grca-closure-self-verified> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    skos:note "expect: must not own" .
+
+x:a a crgo:CRGO_0000546 ;
+    crgo:CRGO_0000185 x:owner ;
+    crgo:CRGO_0000807 x:f ;
+    crgo:CRGO_0000868 "2026-07-31T00:00:00"^^xsd:dateTime .
+
+x:v a crgo:CRGO_0000547 ;
+    crgo:CRGO_0000435 x:owner ;
+    crgo:CRGO_0000464 "2026-08-25T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000809 x:a ;
+    crgo:CRGO_0000810 crgo:CRGO_0000683 .
+

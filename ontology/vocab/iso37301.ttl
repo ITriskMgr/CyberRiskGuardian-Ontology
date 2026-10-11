@@ -1,0 +1,585 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iso37301: <https://w3id.org/crgo/vocab/iso37301/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iso37301:10.1 a skos:Concept ;
+    skos:broader iso37301:10 ;
+    skos:definition "Ongoing enhancement of the compliance system."@en,
+        "Perfectionnement permanent du système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "10.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Continual improvement"@en,
+        "Amélioration continue"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 10.1 (page 18)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:10.2 a skos:Concept ;
+    skos:broader iso37301:10 ;
+    skos:definition "Handling unmet requirements and fixing their causes."@en,
+        "Traiter les exigences non satisfaites et éliminer leurs causes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "10.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Nonconformity and corrective action"@en,
+        "Non-conformité et action corrective"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 10.2 (page 19)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.1 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Grasping internal and external factors relevant to compliance."@en,
+        "Saisir les facteurs internes et externes pertinents pour la conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Understanding the organization and its context"@en,
+        "Compréhension de l'organisme et de son contexte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.1 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.2 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Identifying stakeholders and what they expect regarding compliance."@en,
+        "Repérer les parties prenantes et leurs attentes en matière de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Understanding the needs and expectations of interested parties"@en,
+        "Compréhension des besoins et attentes des parties intéressées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.2 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.3 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Fixing the boundaries of the compliance system."@en,
+        "Fixer les limites du système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Determining the scope of the compliance management system"@en,
+        "Détermination du domaine d'application du système de management de la conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.3 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.4 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Establishing and keeping the compliance system in place."@en,
+        "Instaurer et maintenir le système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Compliance management system"@en,
+        "Système de management de la conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.4 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.5 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Identifying the obligations the organization must or chooses to meet."@en,
+        "Recenser les obligations que l'organisme doit ou choisit de respecter."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Compliance obligations"@en,
+        "Obligations de conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.5 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4.6 a skos:Concept ;
+    skos:broader iso37301:4 ;
+    skos:definition "Evaluating the risk of failing to meet obligations."@en,
+        "Évaluer le risque de manquer aux obligations."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4.6" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Compliance risk assessment"@en,
+        "Appréciation du risque de conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4.6 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:5.1 a skos:Concept ;
+    skos:broader iso37301:5 ;
+    skos:definition "Senior leaders' commitment, compliance culture and governance arrangements."@en,
+        "Engagement des dirigeants, culture de conformité et dispositifs de gouvernance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "5.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Leadership and commitment"@en,
+        "Leadership et engagement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 5.1 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:5.2 a skos:Concept ;
+    skos:broader iso37301:5 ;
+    skos:definition "Formal statement of the organization's compliance intentions."@en,
+        "Énoncé formel des intentions de l'organisme en matière de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "5.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Compliance policy"@en,
+        "Politique de conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 5.2 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:5.3 a skos:Concept ;
+    skos:broader iso37301:5 ;
+    skos:definition "Allocation of compliance duties to leaders, the compliance function, managers and staff."@en,
+        "Répartition des devoirs de conformité entre dirigeants, fonction conformité, gestionnaires et personnel."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "5.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Roles, responsibilities and authorities"@en,
+        "Rôles, responsabilités et autorités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 5.3 (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:6.1 a skos:Concept ;
+    skos:broader iso37301:6 ;
+    skos:definition "Planning responses to uncertainties affecting the compliance system."@en,
+        "Planifier les réponses aux incertitudes touchant le système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "6.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Actions to address risks and opportunities"@en,
+        "Actions à mettre en œuvre face aux risques et opportunités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 6.1 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:6.2 a skos:Concept ;
+    skos:broader iso37301:6 ;
+    skos:definition "Setting compliance targets and the means to reach them."@en,
+        "Fixer des cibles de conformité et les moyens de les atteindre."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "6.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Compliance objectives and planning to achieve them"@en,
+        "Objectifs de conformité et planification des actions pour les atteindre"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 6.2 (page 11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:6.3 a skos:Concept ;
+    skos:broader iso37301:6 ;
+    skos:definition "Managing modifications to the compliance system in an orderly way."@en,
+        "Gérer de façon ordonnée les modifications du système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "6.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Planning of changes"@en,
+        "Planification des modifications"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 6.3 (page 11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7.1 a skos:Concept ;
+    skos:broader iso37301:7 ;
+    skos:definition "Providing the means the compliance system needs."@en,
+        "Fournir les moyens nécessaires au système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Resources"@en,
+        "Ressources"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7.1 (page 12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7.2 a skos:Concept ;
+    skos:broader iso37301:7 ;
+    skos:definition "Ensuring capable personnel through hiring practices and training."@en,
+        "Assurer un personnel capable grâce aux pratiques d'embauche et à la formation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Competence"@en,
+        "Compétence"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7.2 (page 12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7.3 a skos:Concept ;
+    skos:broader iso37301:7 ;
+    skos:definition "Making personnel conscious of compliance matters."@en,
+        "Rendre le personnel conscient des enjeux de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Awareness"@en,
+        "Sensibilisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7.3 (page 13)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7.4 a skos:Concept ;
+    skos:broader iso37301:7 ;
+    skos:definition "Internal and external exchanges on compliance."@en,
+        "Échanges internes et externes sur la conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Communication"@en,
+        "Communication"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7.4 (page 13)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7.5 a skos:Concept ;
+    skos:broader iso37301:7 ;
+    skos:definition "Creating, updating and controlling compliance records and documents."@en,
+        "Créer, mettre à jour et maîtriser les documents et enregistrements de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7.5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Documented information"@en,
+        "Informations documentées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7.5 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:8.1 a skos:Concept ;
+    skos:broader iso37301:8 ;
+    skos:definition "Planning and steering operational compliance activities."@en,
+        "Planifier et piloter les activités opérationnelles de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "8.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Operational planning and control"@en,
+        "Planification et maîtrise opérationnelles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 8.1 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:8.2 a skos:Concept ;
+    skos:broader iso37301:8 ;
+    skos:definition "Putting in place controls and procedures to meet obligations."@en,
+        "Mettre en place des mesures et procédures pour respecter les obligations."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "8.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Establishing controls and procedures"@en,
+        "Établissement de mesures de maîtrise et de procédures"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 8.2 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:8.3 a skos:Concept ;
+    skos:broader iso37301:8 ;
+    skos:definition "Channels for reporting suspected compliance problems."@en,
+        "Canaux de signalement des problèmes de conformité soupçonnés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "8.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Raising concerns"@en,
+        "Signalement des préoccupations"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 8.3 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:8.4 a skos:Concept ;
+    skos:broader iso37301:8 ;
+    skos:definition "Looking into reported or suspected compliance issues."@en,
+        "Examiner les problèmes de conformité signalés ou soupçonnés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "8.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Investigation processes"@en,
+        "Processus d'enquête"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 8.4 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:9.1 a skos:Concept ;
+    skos:broader iso37301:9 ;
+    skos:definition "Tracking compliance performance through feedback, indicators, reporting and records."@en,
+        "Suivre la performance de conformité par retours d'information, indicateurs, rapports et enregistrements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "9.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Monitoring, measurement, analysis and evaluation"@en,
+        "Surveillance, mesure, analyse et évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 9.1 (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:9.2 a skos:Concept ;
+    skos:broader iso37301:9 ;
+    skos:definition "Auditing the compliance system internally under a planned programme."@en,
+        "Auditer le système de conformité en interne selon un programme planifié."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "9.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Internal audit"@en,
+        "Audit interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 9.2 (page 17)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:9.3 a skos:Concept ;
+    skos:broader iso37301:9 ;
+    skos:definition "Leadership's periodic review of the compliance system, its inputs and outcomes."@en,
+        "Examen périodique du système de conformité par la direction, ses données d'entrée et ses résultats."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "9.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Management review"@en,
+        "Revue de direction"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 9.3 (page 17)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:1 a skos:Concept ;
+    skos:definition "States what the requirements cover and that they suit organizations of every sector and size."@en,
+        "Précise la portée des exigences et leur pertinence pour tout organisme, quels que soient secteur et taille."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Scope"@en,
+        "Domaine d'application"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 1 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:2 a skos:Concept ;
+    skos:definition "Placeholder clause; the standard cites no normative documents."@en,
+        "Article de forme; la norme ne cite aucun document normatif."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Normative references"@en,
+        "Références normatives"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 2 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:3 a skos:Concept ;
+    skos:definition "Vocabulary for compliance management used in the standard."@en,
+        "Vocabulaire du management de la conformité employé dans la norme."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Terms and definitions"@en,
+        "Termes et définitions"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 3 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:A a skos:Concept ;
+    skos:definition "Informative annex helping users apply the requirements."@en,
+        "Annexe informative aidant les utilisateurs à appliquer les exigences."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "A" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Annex A (informative) Guidance for the use of this document"@en,
+        "Annexe A (informative) Recommandations pour l'utilisation du présent document"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, annex A (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:10 a skos:Concept ;
+    skos:definition "Enhancing the compliance system and correcting failures."@en,
+        "Perfectionner le système de conformité et corriger les défaillances."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "10" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Improvement"@en,
+        "Amélioration"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 10 (page 18)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:5 a skos:Concept ;
+    skos:definition "Role of governing body and top management in driving compliance."@en,
+        "Rôle de l'organe de gouvernance et de la direction dans l'impulsion de la conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Leadership"@en,
+        "Leadership"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 5 (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:6 a skos:Concept ;
+    skos:definition "Planning how the compliance system will achieve its intended outcomes."@en,
+        "Planifier la manière dont le système de conformité atteindra ses résultats visés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "6" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Planning"@en,
+        "Planification"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 6 (page 10)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:9 a skos:Concept ;
+    skos:definition "Checking how well the compliance system is performing."@en,
+        "Vérifier le bon fonctionnement du système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "9" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Performance evaluation"@en,
+        "Évaluation des performances"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 9 (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:8 a skos:Concept ;
+    skos:definition "Running compliance processes day to day."@en,
+        "Exploitation quotidienne des processus de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "8" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Operation"@en,
+        "Réalisation des activités opérationnelles"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 8 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:7 a skos:Concept ;
+    skos:definition "Enablers of the compliance system: resources, people, awareness, communication and documentation."@en,
+        "Leviers du système de conformité: ressources, personnes, sensibilisation, communication et documentation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "7" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Support"@en,
+        "Support"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 7 (page 12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37301:4 a skos:Concept ;
+    skos:definition "Understanding the organization's situation, stakeholders, obligations and compliance risks to frame the system."@en,
+        "Comprendre la situation de l'organisme, ses parties prenantes, obligations et risques de conformité pour cadrer le système."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37301> ;
+    skos:notation "4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Context of the organization"@en,
+        "Contexte de l'organisme"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37301> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37301:2021, clause 4 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iso37301> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISO" ;
+    dcterms:rights "Clause numbers and headings (c) ISO, cited for reference and mapping only; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "ISO 37301:2021 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
+    dcterms:title "ISO 37301:2021 Compliance management systems — Requirements with guidance for use: clause structure"@en,
+        "ISO 37301:2021 Systèmes de management de la conformité — Exigences et recommandations pour la mise en oeuvre : structure des articles"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso37301> ;
+    owl:versionInfo "First edition, 2021-04" ;
+    skos:hasTopConcept iso37301:1,
+        iso37301:10,
+        iso37301:2,
+        iso37301:3,
+        iso37301:4,
+        iso37301:5,
+        iso37301:6,
+        iso37301:7,
+        iso37301:8,
+        iso37301:9,
+        iso37301:A ;
+    skos:scopeNote "Clauses to two levels and annex headings. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

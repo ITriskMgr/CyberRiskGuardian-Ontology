@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/crgo/contracts/dss/v1/error.schema.json",
+  "title": "CRGO contract error (dss/v1)",
+  "type": "object", "additionalProperties": false, "required": ["error", "code", "message"],
+  "properties": {
+    "error": {"const": true},
+    "code": {"enum": ["SCHEMA_INVALID", "UNKNOWN_ORGANISATION", "UNKNOWN_SUBJECT", "TENANT_MISMATCH", "REFERENCE_NAMESPACE", "STATUS_NOT_PROPOSED", "MODEL_VERSION_MISSING", "INPUT_UNKNOWN"]},
+    "message": {"type": "string"},
+    "details": {"type": "array", "items": {"type": "string"}}
+  }
+}

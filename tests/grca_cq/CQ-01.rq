@@ -1,0 +1,6 @@
+# CQ-01 Which policy statements implement a given legal obligation, and which exceptions to them are valid on ?asOf?
+# Parameters: ?provision, ?asOf. An exception never applies to the provision itself (SHACL forbids it).
+SELECT ?statement ?policy ?exception WHERE {
+  ?statement {{derivedFromRequirement}} ?provision ; {{statementOfPolicy}} ?policy .
+  OPTIONAL { ?exception {{exceptionTo}} ?statement ; {{validFrom}} ?f ; {{validUntil}} ?u . FILTER(?f <= ?asOf && ?u >= ?asOf) }
+}

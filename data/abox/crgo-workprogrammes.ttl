@@ -1,0 +1,325 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wp: <https://w3id.org/crgo/data/workprogrammes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/crgo/data/workprogrammes> a owl:Ontology ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "CRGO illustrative audit work programmes (not a validated methodology)"@en,
+        "Programmes de travail d'audit illustratifs de CRGO (méthodologie non validée)"@fr ;
+    owl:imports crgo:crgo,
+        <https://w3id.org/crgo/vocab/sp800-53a> ;
+    owl:versionIRI <https://w3id.org/crgo/data/0.9.0/workprogrammes> ;
+    owl:versionInfo "0.9.0" .
+
+wp:AUD-PAM-001 a owl:NamedIndividual,
+        crgo:CRGO_0000534 ;
+    rdfs:label "AUD-PAM-001 Privileged access management (illustrative)"@en,
+        "AUD-PAM-001 Gestion des accès privilégiés (illustratif)"@fr ;
+    crgo:CRGO_0000250 "AUD-PAM-001" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000778 <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/objective> ;
+    crgo:CRGO_0000782 <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/01>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/02>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/03>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/04>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/05>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/06> ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/criterion/AC-02> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "AUD-PAM-001: SP 800-53A objectives for AC-02"@en,
+        "AUD-PAM-001 : objectifs SP 800-53A pour AC-02"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000780 <https://w3id.org/crgo/vocab/sp800-53a/AC-02> ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/criterion/AC-06> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "AUD-PAM-001: SP 800-53A objectives for AC-06"@en,
+        "AUD-PAM-001 : objectifs SP 800-53A pour AC-06"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000780 <https://w3id.org/crgo/vocab/sp800-53a/AC-06> ;
+    crgo:CRGO_0000864 true .
+
+wp:AUD-VULN-001 a owl:NamedIndividual,
+        crgo:CRGO_0000534 ;
+    rdfs:label "AUD-VULN-001 Vulnerability remediation (illustrative)"@en,
+        "AUD-VULN-001 Correction des vulnérabilités (illustratif)"@fr ;
+    crgo:CRGO_0000250 "AUD-VULN-001" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000778 <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/objective> ;
+    crgo:CRGO_0000782 <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/01>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/02>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/03>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/04>,
+        <https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/05> ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/criterion/RA-05> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "AUD-VULN-001: SP 800-53A objectives for RA-05"@en,
+        "AUD-VULN-001 : objectifs SP 800-53A pour RA-05"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000780 <https://w3id.org/crgo/vocab/sp800-53a/RA-05> ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/criterion/SI-02> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "AUD-VULN-001: SP 800-53A objectives for SI-02"@en,
+        "AUD-VULN-001 : objectifs SP 800-53A pour SI-02"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000780 <https://w3id.org/crgo/vocab/sp800-53a/SI-02> ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/01> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-01 Inventory of privileged accounts"@en,
+        "AUD-PAM-001-01 Inventaire des comptes privilégiés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-02a._o01>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-02d.03_o01>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-06_05> ;
+    crgo:CRGO_0000860 "Full population: privileged accounts are few enough to inspect all of them."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Obtain the list of privileged accounts from each in-scope system and reconcile it with the documented account types and the list of authorised roles."@en ;
+    crgo:CRGO_0000866 "Every privileged account maps to a documented account type and an authorised role."@en ;
+    crgo:CRGO_0000867 "Any privileged account with no authorised owner or role is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/02> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-02 Approval before creation"@en,
+        "AUD-PAM-001-02 Approbation avant la création"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-02e.>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-02f._o01> ;
+    crgo:CRGO_0000860 "Random sample of 25 creations, or all if fewer, for a low tolerable deviation rate."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "For a sample of privileged accounts created in the period, inspect the access request and check that the designated approver approved it before the account was created."@en ;
+    crgo:CRGO_0000866 "Each sampled account has an approval dated on or before its creation."@en ;
+    crgo:CRGO_0000867 "A missing approval, or one dated after creation, is an exception; one exception in the sample means the control did not operate effectively."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/03> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-03 Periodic access review"@en,
+        "AUD-PAM-001-03 Revue périodique des accès"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-02j.>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-06_07> ;
+    crgo:CRGO_0000860 "Both reviews of the period are inspected; no sampling."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Inspect the evidence of the last two privileged access reviews: who reviewed, when, which accounts were confirmed or removed, and whether removals were carried out."@en ;
+    crgo:CRGO_0000866 "Reviews occurred at the defined frequency and every removal decided was carried out."@en ;
+    crgo:CRGO_0000867 "A missed review, or a removal decided but not done within the defined period, is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/04> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-04 Removal on departure"@en,
+        "AUD-PAM-001-04 Suppression au départ"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-02h.02>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-02l._o01> ;
+    crgo:CRGO_0000860 "All departures of people holding privileged access in the period."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Match HR departure records for the period against account deactivation dates and measure the delay for each departing person with privileged access."@en ;
+    crgo:CRGO_0000866 "Privileged access of every departing person is removed within the defined time."@en ;
+    crgo:CRGO_0000867 "Any privileged account still active after the defined time following departure is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/05> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-05 Logging of privileged functions"@en,
+        "AUD-PAM-001-05 Journalisation des fonctions privilégiées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-06_09> ;
+    crgo:CRGO_0000860 "Judgemental selection of one privileged function per in-scope platform."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Perform or observe a privileged action on a test system and confirm it appears in the security log with user, time and action."@en ;
+    crgo:CRGO_0000866 "The privileged action is logged with enough detail to attribute it."@en ;
+    crgo:CRGO_0000867 "An unlogged or unattributable privileged action is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/06> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-PAM-001-06 Interview of account managers"@en,
+        "AUD-PAM-001-06 Entretien avec les gestionnaires de comptes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000600 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/AC-02b.>,
+        <https://w3id.org/crgo/vocab/sp800-53a/AC-02l._o02> ;
+    crgo:CRGO_0000860 "Not applicable (interview)."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Interview the people who manage privileged accounts about how requests, reviews and removals are handled in practice, and compare with the documented procedure."@en ;
+    crgo:CRGO_0000866 "Practice matches the documented procedure."@en ;
+    crgo:CRGO_0000867 "A material difference between practice and procedure is noted for follow-up testing, not as an exception on its own."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-PAM-001/objective> a owl:NamedIndividual,
+        crgo:CRGO_0000537 ;
+    rdfs:label "Objective of AUD-PAM-001"@en,
+        "Objectif de AUD-PAM-001"@fr ;
+    skos:definition "Privileged accounts are limited to authorised people, approved before creation, reviewed periodically and removed promptly when no longer needed."@en,
+        "Les comptes privilégiés sont réservés aux personnes autorisées, approuvés avant leur création, revus périodiquement et supprimés rapidement lorsqu'ils ne sont plus nécessaires."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000864 true .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/01> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-VULN-001-01 Scanning coverage and frequency"@en,
+        "AUD-VULN-001-01 Couverture et fréquence des analyses"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/RA-05_03>,
+        <https://w3id.org/crgo/vocab/sp800-53a/RA-05a._o02> ;
+    crgo:CRGO_0000860 "Full population of in-scope systems against scan configuration."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Compare the asset inventory with the scan target lists and scan schedules for the period."@en ;
+    crgo:CRGO_0000866 "All in-scope systems are scanned at the defined frequency."@en ;
+    crgo:CRGO_0000867 "An in-scope system missing from scans, or a missed scheduled scan, is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/02> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-VULN-001-02 Analysis of scan results"@en,
+        "AUD-VULN-001-02 Analyse des résultats d'analyse"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000599 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/RA-05c.> ;
+    crgo:CRGO_0000860 "Random sample of 25 high or critical findings."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Inspect the triage records of scan results for the period to see that findings were analysed, false positives justified and risk ratings assigned."@en ;
+    crgo:CRGO_0000866 "Each finding of high or critical severity has a recorded analysis."@en ;
+    crgo:CRGO_0000867 "A high or critical finding with no analysis is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/03> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-VULN-001-03 Remediation within response times"@en,
+        "AUD-VULN-001-03 Correction dans les délais"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/RA-05d.>,
+        <https://w3id.org/crgo/vocab/sp800-53a/SI-02a._o03> ;
+    crgo:CRGO_0000860 "Random sample of 25, stratified by severity so that critical findings are all included."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "For a sample of remediated vulnerabilities, compute the time from detection to verified remediation and compare it with the defined response time for its severity."@en ;
+    crgo:CRGO_0000866 "Each sampled vulnerability is remediated within its response time, or covered by an approved exception."@en ;
+    crgo:CRGO_0000867 "A late remediation without an approved policy exception is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/04> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-VULN-001-04 Security update installation"@en,
+        "AUD-VULN-001-04 Installation des mises à jour de sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/SI-02_02>,
+        <https://w3id.org/crgo/vocab/sp800-53a/SI-02c._o01> ;
+    crgo:CRGO_0000860 "Random sample of 20 update-system pairs."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "For a sample of security updates released in the period, check installation dates on in-scope systems against the defined time period."@en ;
+    crgo:CRGO_0000866 "Security-relevant updates are installed within the defined time period."@en ;
+    crgo:CRGO_0000867 "An update installed late, or not installed without an approved exception, is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/05> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "AUD-VULN-001-05 Testing of updates before installation"@en,
+        "AUD-VULN-001-05 Essai des mises à jour avant installation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000600 ;
+    crgo:CRGO_0000783 <https://w3id.org/crgo/vocab/sp800-53a/SI-02b._o01>,
+        <https://w3id.org/crgo/vocab/sp800-53a/SI-02b._o02> ;
+    crgo:CRGO_0000860 "Judgemental selection of one recent update."@en ;
+    crgo:CRGO_0000864 true ;
+    crgo:CRGO_0000865 "Interview the patch management team about how updates are tested for effectiveness and side effects, and inspect one recent test record."@en ;
+    crgo:CRGO_0000866 "Updates are tested before production installation, with a record."@en ;
+    crgo:CRGO_0000867 "No test record for a recent update is an exception."@en .
+
+<https://w3id.org/crgo/data/workprogrammes/AUD-VULN-001/objective> a owl:NamedIndividual,
+        crgo:CRGO_0000537 ;
+    rdfs:label "Objective of AUD-VULN-001"@en,
+        "Objectif de AUD-VULN-001"@fr ;
+    skos:definition "Vulnerabilities are found by regular scanning, analysed, and remediated within the defined response times, and security updates are installed on time."@en,
+        "Les vulnérabilités sont détectées par des analyses régulières, analysées et corrigées dans les délais définis, et les mises à jour de sécurité sont installées à temps."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "GRCA specification section 8; NIST SP 800-53A Rev. 5 objectives (5.2.0 OSCAL catalogue)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000864 true .
+
