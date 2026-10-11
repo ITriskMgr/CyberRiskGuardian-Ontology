@@ -14,12 +14,13 @@ crgo:shapes a owl:Ontology ;
 shape:ApplicabilityAssessment a sh:NodeShape ;
     rdfs:comment "Applicability assessments: what, for whom, when, by whom, with what result."@en ;
     sh:property [ sh:maxCount 1 ;
+            sh:message "An applicability assessment needs exactly one value for the organisation."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000427 ],
+        [ sh:maxCount 1 ;
             sh:message "An applicability assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000464 ],
-        [ sh:message "An applicability assessment must name who made it."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
         [ sh:maxCount 1 ;
             sh:message "An applicability assessment needs exactly one value for the instrument or provision assessed."@en ;
             sh:minCount 1 ;
@@ -28,26 +29,25 @@ shape:ApplicabilityAssessment a sh:NodeShape ;
             sh:message "An applicability assessment needs exactly one value for the state reached."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000428 ],
-        [ sh:maxCount 1 ;
-            sh:message "An applicability assessment needs exactly one value for the organisation."@en ;
+        [ sh:message "An applicability assessment must name who made it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000427 ] ;
+            sh:path crgo:CRGO_0000435 ] ;
     sh:targetClass crgo:CRGO_0000345 .
 
 shape:ApplicabilityCondition a sh:NodeShape ;
     rdfs:comment "Conditions belong to an instrument and have one test."@en ;
     sh:property [ sh:maxCount 1 ;
+            sh:message "A condition needs exactly one kind."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000425 ],
+        [ sh:maxCount 1 ;
             sh:message "A condition needs exactly one machine-readable test."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000469 ;
             sh:pattern "^(required|anyof|exception)\\|[^|]+\\|(plain|interpretive)$" ],
         [ sh:message "A condition must say what it is a condition of."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000424 ],
-        [ sh:maxCount 1 ;
-            sh:message "A condition needs exactly one kind."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000425 ] ;
+            sh:path crgo:CRGO_0000424 ] ;
     sh:targetClass crgo:CRGO_0000344 .
 
 shape:CalculationActivity a sh:NodeShape ;
@@ -65,27 +65,27 @@ shape:ComplianceDetermination a sh:NodeShape ;
                         sh:path crgo:CRGO_0000213 ] ] [ sh:property [ sh:minCount 1 ;
                         sh:path crgo:CRGO_0000470 ] ] ) ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A compliance determination needs exactly one value for the state."@en ;
+            sh:message "A compliance determination needs exactly one value for the organisation."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000433 ],
+            sh:path crgo:CRGO_0000427 ],
         [ sh:message "A compliance determination must name its assessor."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000435 ],
-        [ sh:message "A compliance determination needs its jurisdictional scope."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000420 ],
         [ sh:maxCount 1 ;
             sh:message "A compliance determination needs exactly one value for the provision."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000432 ],
         [ sh:maxCount 1 ;
-            sh:message "A compliance determination needs exactly one value for the organisation."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000427 ],
-        [ sh:maxCount 1 ;
             sh:message "A compliance determination needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0000464 ],
+        [ sh:message "A compliance determination needs its jurisdictional scope."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000420 ],
+        [ sh:maxCount 1 ;
+            sh:message "A compliance determination needs exactly one value for the state."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000433 ] ;
     sh:sparql [ sh:message "A satisfied or partially satisfied compliance determination must cite evidence; an evidence gap alone is not enough."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000433> ?st . FILTER(?st IN (<https://w3id.org/crgo/CRGO_0000389>, <https://w3id.org/crgo/CRGO_0000390>)) FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000213> ?e }
@@ -102,13 +102,13 @@ shape:ControlAssessment a sh:NodeShape ;
             sh:message "A control assessment needs exactly one value for the control measure."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000436 ],
+        [ sh:message "A control assessment must name its assessor."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000435 ],
         [ sh:maxCount 1 ;
             sh:message "A control assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ],
-        [ sh:message "A control assessment must name its assessor."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ] ;
+            sh:path crgo:CRGO_0000464 ] ;
     sh:sparql [ sh:message "A tested control assessment must link the evidence gathered."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000437> ?r . FILTER(?r != <https://w3id.org/crgo/CRGO_0000406>) FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000213> ?e }
@@ -135,14 +135,14 @@ shape:EPSSObservation a sh:NodeShape ;
         [ sh:maxCount 1 ;
             sh:message "An EPSS observation has at most one model version."@en ;
             sh:path crgo:CRGO_0000460 ],
-        [ sh:class skos:Concept ;
-            sh:message "An EPSS observation is about a vulnerability concept."@en ;
-            sh:path crgo:CRGO_0000408 ],
         [ sh:maxCount 1 ;
             sh:maxInclusive 1.0 ;
             sh:message "An EPSS percentile is between 0 and 1."@en ;
             sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000461 ] ;
+            sh:path crgo:CRGO_0000461 ],
+        [ sh:class skos:Concept ;
+            sh:message "An EPSS observation is about a vulnerability concept."@en ;
+            sh:path crgo:CRGO_0000408 ] ;
     sh:sparql [ sh:message "Contradictory EPSS observations: two different scores for the same vulnerability on the same date."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000408> ?v ; <https://w3id.org/crgo/CRGO_0000458> ?d ; <https://w3id.org/crgo/CRGO_0000247> ?x .
@@ -152,13 +152,13 @@ shape:EPSSObservation a sh:NodeShape ;
 
 shape:Estimate a sh:NodeShape ;
     rdfs:comment "Every estimate has exactly one numeric value and is about something."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "An estimate must say what it is an estimate of."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000231 ],
+        [ sh:maxCount 1 ;
             sh:message "An estimate needs exactly one numeric value."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:message "An estimate must say what it is an estimate of."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000231 ] ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000037 .
 
 shape:EvidenceItem a sh:NodeShape ;
@@ -390,20 +390,20 @@ shape:Functional_valuationOf a sh:NodeShape ;
 
 shape:LegalInstrument a sh:NodeShape ;
     rdfs:comment "Legal instruments are cited, placed in a jurisdiction and sourced."@en ;
-    sh:property [ sh:message "A legal instrument must name its source record."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "A legal instrument needs exactly one kind."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000407 ],
+            sh:path crgo:CRGO_0000421 ],
         [ sh:message "A legal instrument needs a jurisdiction."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000420 ],
         [ sh:maxCount 1 ;
-            sh:message "A legal instrument needs exactly one kind."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000421 ],
-        [ sh:maxCount 1 ;
             sh:message "A legal instrument needs exactly one official citation."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000465 ] ;
+            sh:path crgo:CRGO_0000465 ],
+        [ sh:message "A legal instrument must name its source record."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000407 ] ;
     sh:targetClass crgo:CRGO_0000343 .
 
 shape:LibraryFamily a sh:NodeShape ;
@@ -426,17 +426,17 @@ shape:LibraryScenario a sh:NodeShape ;
 
 shape:LinkAnnotation a sh:NodeShape ;
     rdfs:comment "Every annotated CRGO link records its confidence, status and proposer (axioms of imported W3C slices are not CRGO links)."@en ;
-    sh:property [ sh:message "A link must record who proposed it."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000288 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A link needs exactly one governance status."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000283 ],
         [ sh:maxCount 1 ;
             sh:message "A link needs exactly one confidence level."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000284 ] ;
+            sh:path crgo:CRGO_0000284 ],
+        [ sh:message "A link must record who proposed it."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000288 ] ;
     sh:sparql [ sh:message "An approved link must record its approver and approval date."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> .
@@ -551,13 +551,13 @@ shape:Range_MaximumDamage a sh:NodeShape ;
 
 shape:Range_MitigatedRisk a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000053 .
 
 shape:Range_PreTreatmentRatio a sh:NodeShape ;
@@ -600,13 +600,13 @@ shape:Range_Resilience a sh:NodeShape ;
 
 shape:Range_RiskToToleranceRatio a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000055 .
 
 shape:Range_ThreatPresence a sh:NodeShape ;
@@ -619,13 +619,13 @@ shape:Range_ThreatPresence a sh:NodeShape ;
 
 shape:Range_ToleratedRisk a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000052 .
 
 shape:RiskAssessment a sh:NodeShape ;
@@ -654,25 +654,25 @@ shape:ScenarioStep a sh:NodeShape ;
 shape:SourceRecord a sh:NodeShape ;
     rdfs:comment "Source records carry the fields of specification section 7."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A source record needs exactly one version."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000450 ],
-        [ sh:message "A source record must state its licence or terms."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000453 ],
-        [ sh:maxCount 1 ;
-            sh:message "A source record has at most one retrieval date."@en ;
-            sh:path crgo:CRGO_0000449 ],
-        [ sh:message "A source record must name its issuer."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000452 ],
-        [ sh:maxCount 1 ;
             sh:message "A source record needs exactly one identifier."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000250 ],
+        [ sh:maxCount 1 ;
+            sh:message "A source record has at most one retrieval date."@en ;
+            sh:path crgo:CRGO_0000449 ],
+        [ sh:maxCount 1 ;
+            sh:message "A source record needs exactly one version."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000450 ],
         [ sh:message "A source record needs a title."@en ;
             sh:minCount 1 ;
-            sh:path rdfs:label ] ;
+            sh:path rdfs:label ],
+        [ sh:message "A source record must name its issuer."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000452 ],
+        [ sh:message "A source record must state its licence or terms."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000453 ] ;
     sh:targetClass crgo:CRGO_0000337 .
 
 shape:Target_0000228 a sh:NodeShape ;
