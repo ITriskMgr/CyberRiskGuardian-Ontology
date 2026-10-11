@@ -1,0 +1,7 @@
+# CQ22 (Identification, proposed 0.7.0)
+# Question: Which D3FEND defensive techniques counter the ATT&CK techniques of ransomware scenarios?
+# Expect: min_rows 3; contains notation=D3-RF
+SELECT DISTINCT ?notation ?title WHERE {
+  ?t skos:inScheme <https://w3id.org/crgo/vocab/attack> ; skos:notation "T1486" ; skos:relatedMatch ?d .
+  ?d skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ; skos:notation ?notation ; skos:prefLabel ?title .
+} ORDER BY ?notation

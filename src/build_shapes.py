@@ -22,7 +22,7 @@ SH = Namespace("http://www.w3.org/ns/shacl#")
 S = Namespace("https://w3id.org/crgo/shapes/")
 g = Graph(); g.bind("sh", SH); g.bind("crgo", "https://w3id.org/crgo/"); g.bind("shape", S); g.bind("xsd", XSD); g.bind("skos", SKOS)
 o = URIRef("https://w3id.org/crgo/shapes")
-g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.6.0")))
+g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.7.0")))
 
 def shape(name, target, msg_en):
     s = S[name]

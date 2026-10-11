@@ -15,7 +15,7 @@ C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 LIB = Namespace("https://w3id.org/crgo/data/library/")
 THEME = Namespace("https://w3id.org/crgo/vocab/theme/")
 VOC = "https://w3id.org/crgo/vocab/"
-SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25", "lrsss": "lrsss"}
+SCHEME_NS = {"attack": "attack", "csf2": "csf2", "sp80053r5": "sp800-53r5", "iso27002": "iso27002-2022", "loi25": "loi25", "lrsss": "lrsss", "cwe": "cwe"}
 CONF = {"H": "ConfHigh", "M": "ConfMedium", "L": "ConfLow"}
 CASE_APPETITE = {"CanaRetail": 0.50, "ACRB": 0.30, "MediBec": 0.40, "Chez": 0.40, "MediBec-CRG": 0.30}
 D = lambda v: Literal(repr(round(float(v), 6)), datatype=XSD.decimal)
@@ -58,7 +58,7 @@ for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
         if _d == "Approve":
             LINK_APPROVALS[_k] = (_who, _date)
 
-def annotated(g, s, p, o, conf, note=None, group=None):
+def annotated(g, s, p, o, conf, note=None, group=None, corroborated=None):
     """Assert s p o and annotate the assertion with its confidence and governance (OWL 2 axiom annotation).
     group (links/<scheme>/<confidence>) looks up a bulk approval recorded in src/approvals.tsv."""
     g.add((s, p, o))
@@ -72,6 +72,16 @@ def annotated(g, s, p, o, conf, note=None, group=None):
         g.add((a, C("approvedBy"), C("Agent" + ok[0]))); g.add((a, C("approvalDate"), Literal(ok[1], datatype=XSD.date)))
     if note:
         g.add((a, RDFS.comment, Literal(note, lang="en")))
+    if corroborated:
+        g.add((a, C("corroboratedBy"), Literal(corroborated, lang="en")))
+
+CORR = {}
+_cp = os.path.join(ROOT, "data", "library", "ctid_corroboration.csv")
+if os.path.exists(_cp):
+    import csv as _csv
+    for _r in _csv.DictReader(open(_cp, encoding="utf-8")):
+        if _r["corroborated"] == "yes":
+            CORR[(_r["family"], _r["control"])] = "MITRE CTID Mappings Explorer (ATT&CK 16.1 to SP 800-53 Rev. 5): control mitigates %s" % _r["via_techniques"]
 
 def main():
     f = pd.read_csv(os.path.join(ROOT, "data", "library", "families.csv"))
@@ -83,7 +93,7 @@ def main():
     o = URIRef("https://w3id.org/crgo/data/library")
     A = lambda *t: [g.add(x) for x in t]
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")),
-      (o, OWL.versionInfo, Literal("0.6.0")),
+      (o, OWL.versionInfo, Literal("0.7.0")),
       (o, RDFS.label, Literal("CRGO scenario library (from the 2023 generator, repaired)", lang="en")),
       (o, RDFS.label, Literal("Bibliothèque de scénarios CRGO (générateur 2023, réparée)", lang="fr")),
       (o, RDFS.comment, Literal("Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, "
@@ -143,7 +153,11 @@ def main():
                 A((s, C("suggestedMitigation"), Literal(m, lang="en")))
         for l in links_by.get(fid, []):
             target = URIRef(VOC + SCHEME_NS[l.scheme] + "/" + safe(l.id))
-            if l.basis.startswith("judged, Loi 25 pass"):
+            if l.basis.startswith("judged, CWE pass"):
+                note, grp = "Judged in the CWE pass of 2026-10-11" + (" (CWE-1104 replaced by CWE-1395 by rule)." if "replaced" in l.basis else "."), "links/cwe/%s" % l.confidence
+            elif l.basis.startswith("CTID mapping"):
+                note, grp = "Proposed from the MITRE CTID mapping and the controls usual for the same techniques (%s)." % l.basis.split(": ", 1)[1], "links/ctid-sp80053r5/%s" % l.confidence
+            elif l.basis.startswith("judged, Loi 25 pass"):
                 # second Loi 25 pass: its own approval group, so the 0.3.0 group approvals do not cover it
                 note, grp = "Judged in the Loi 25 pass of 2026-10-10 (families with a privacy impact and no judged obligation).", "links/loi25-pass2/%s" % l.confidence
             else:
@@ -151,10 +165,17 @@ def main():
                 grp = "links/%s/%s" % (l.scheme, l.confidence)
             if l.scheme == "attack":
                 annotated(g, ev, C("hasExternalReference"), target, l.confidence, note, grp)
+            elif l.scheme == "cwe":
+                vd = LIB[fid + "-weakness"]
+                if (s, C("hasVulnerabilityDescription"), vd) not in g:
+                    A((vd, RDF.type, C("VulnerabilityDescription")), (vd, RDFS.label, Literal("Weakness exploited in: " + r["name"], lang="en")))
+                    annotated(g, s, C("hasVulnerabilityDescription"), vd, "M", "Added with the CWE pass of 2026-10-11 to carry the CWE references.", "links/cwe/" + l.confidence)
+                annotated(g, vd, C("hasExternalReference"), target, l.confidence, note, grp)
             elif l.scheme == "loi25":
                 annotated(g, s, C("triggersObligation"), target, l.confidence, note, grp)
             else:
-                annotated(g, s, C("hasRelevantRequirement"), target, l.confidence, note, grp)
+                annotated(g, s, C("hasRelevantRequirement"), target, l.confidence, note, grp,
+                          corroborated=CORR.get((fid, l.id)) if l.scheme == "sp80053r5" else None)
             n_links += 1
         inputs = []
         for k, cls in PARAM_CLASS.items():

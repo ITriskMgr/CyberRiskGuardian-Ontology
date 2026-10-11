@@ -1,0 +1,3570 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix d3fend: <https://w3id.org/crgo/vocab/d3fend/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+d3fend:D3-ABPI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Application-basedProcessIsolation/> ;
+    skos:broader d3fend:D3-EI ;
+    skos:definition "Application code which prevents its own subroutines from accessing intra-process / internal memory space."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ABPI" ;
+    skos:prefLabel "Application-based Process Isolation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ACA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ActiveCertificateAnalysis/> ;
+    skos:broader d3fend:D3-CA ;
+    skos:definition "Actively collecting PKI certificates by connecting to the server and downloading its server certificates for analysis."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ACA" ;
+    skos:prefLabel "Active Certificate Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AEM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ApplicationExceptionMonitoring/> ;
+    skos:broader d3fend:D3-APM ;
+    skos:definition "Monitoring the failures of system counters and timers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AEM" ;
+    skos:prefLabel "Application Exception Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AccountLocking/> ;
+    skos:broader d3fend:D3-CE ;
+    skos:definition "The process of temporarily disabling user accounts on a system or domain."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AL" ;
+    skos:prefLabel "Account Locking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ALLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ActiveLogicalLinkMapping/> ;
+    skos:broader d3fend:D3-LLM ;
+    skos:definition "Active logical link mapping sends and receives network traffic as a means to map the whole data link layer, where the links represent logical data flows rather than physical connection"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ALLM" ;
+    skos:prefLabel "Active Logical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AccessModeling/> ;
+    skos:broader d3fend:D3-OAM ;
+    skos:definition "Access modeling captures and records the access permissions granted to identities (e.g., administrators, users, groups, systems) and optionally includes details on how these identities are stored, managed, and shared across systems."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AM" ;
+    skos:prefLabel "Access Modeling"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ANAA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AdministrativeNetworkActivityAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Detection of unauthorized use of administrative network protocols by analyzing network activity against a baseline."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ANAA" ;
+    skos:prefLabel "Administrative Network Activity Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ANCI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AuthenticationCacheInvalidation/> ;
+    skos:broader d3fend:D3-CE ;
+    skos:definition "Removing tokens or credentials from an authentication cache to prevent further user associated account accesses."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ANCI" ;
+    skos:prefLabel "Authentication Cache Invalidation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ANET a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AuthenticationEventThresholding/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Collecting authentication events, creating a baseline user profile, and determining whether authentication events are consistent with the baseline profile."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ANET" ;
+    skos:prefLabel "Authentication Event Thresholding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-APLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ActivePhysicalLinkMapping/> ;
+    skos:broader d3fend:D3-PLM ;
+    skos:definition "Active physical link mapping sends and receives network traffic as a means to map the physical layer."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-APLM" ;
+    skos:prefLabel "Active Physical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AZET a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AuthorizationEventThresholding/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Collecting authorization events, creating a baseline user profile, and determining whether authorization events are consistent with the baseline profile."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AZET" ;
+    skos:prefLabel "Authorization Event Thresholding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-BA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:BootloaderAuthentication/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Cryptographically authenticating the bootloader software before system boot."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-BA" ;
+    skos:prefLabel "Bootloader Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-BAN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:BiometricAuthentication/> ;
+    skos:broader d3fend:D3-AA ;
+    skos:definition "Using biological measures in order to authenticate a user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-BAN" ;
+    skos:prefLabel "Biometric Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-BDI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:BroadcastDomainIsolation/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Broadcast isolation restricts the number of computers a host can contact on their LAN."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-BDI" ;
+    skos:prefLabel "Broadcast Domain Isolation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-BMA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:BusMessageAuthentication/> ;
+    skos:broader d3fend:D3-MAN ;
+    skos:definition "Applies cryptographic primitives to individual bus frames to verify the sender's identity and ensure the integrity of the data payload."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-BMA" ;
+    skos:prefLabel "Bus Message Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-BSE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ByteSequenceEmulation/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing sequences of bytes and determining if they likely represent malicious shellcode."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-BSE" ;
+    skos:prefLabel "Byte Sequence Emulation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CAA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ConnectionAttemptAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing failed connections in a network to detect unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CAA" ;
+    skos:prefLabel "Connection Attempt Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CBAN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Certificate-basedAuthentication/> ;
+    skos:broader d3fend:D3-AA ;
+    skos:definition "Requiring a digital certificate in order to authenticate a user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CBAN" ;
+    skos:prefLabel "Certificate-based Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CCSA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialCompromiseScopeAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Determining which credentials may have been compromised by analyzing the user logon history of a particular system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CCSA" ;
+    skos:prefLabel "Credential Compromise Scope Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CDP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ChangeDefaultPassword/> ;
+    skos:broader d3fend:D3-SPP ;
+    skos:definition "Changing the default password means replacing the factory-set credentials with a strong, unique password before the device is deployed, preventing unauthorized access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CDP" ;
+    skos:prefLabel "Change Default Password"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CERO a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CertificateRotation/> ;
+    skos:broader d3fend:D3-CRO ;
+    skos:definition "Certificate rotation involves replacing digital certificates and their private keys to maintain cryptographic integrity and trust, mitigating key compromise risks and ensuring continuous secure communications."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CERO" ;
+    skos:prefLabel "Certificate Rotation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CFC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentFormatConversion/> ;
+    skos:broader d3fend:D3-CM ;
+    skos:definition "Content format conversion is mechanical transformation from one format to another which may be normalization or specifically flattening."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CFC" ;
+    skos:prefLabel "Content Format Conversion"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CFI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ControlFlowIntegrity/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Enforcing legal control flow transfers during application process execution."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CFI" ;
+    skos:prefLabel "Control Flow Integrity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CHN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ConnectedHoneynet/> ;
+    skos:broader d3fend:D3-DE ;
+    skos:definition "A decoy service, system, or environment, that is connected to the enterprise network, and simulates or emulates certain functionality to the network, without exposing full access to a production system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CHN" ;
+    skos:prefLabel "Connected Honeynet"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ConfigurationInventory/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Configuration inventory identifies and records the configuration of software and hardware and their components throughout the organization."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CI" ;
+    skos:prefLabel "Configuration Inventory"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CIA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContainerImageAnalysis/> ;
+    skos:broader d3fend:D3-AVE ;
+    skos:definition "Analyzing a Container Image with respect to a set of policies."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CIA" ;
+    skos:prefLabel "Container Image Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CNE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentExcision/> ;
+    skos:broader d3fend:D3-CM ;
+    skos:definition "Removing specific, potentially malicious, parts of content"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CNE" ;
+    skos:prefLabel "Content Excision"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CNR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentRebuild/> ;
+    skos:broader d3fend:D3-CM ;
+    skos:definition "Rebuild the file according to the spec so any unreferenced components or objects are removed."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CNR" ;
+    skos:prefLabel "Content Rebuild"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CNS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentSubstitution/> ;
+    skos:broader d3fend:D3-CM ;
+    skos:definition "Modifies specific digital content information by replacing it with something else."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CNS" ;
+    skos:prefLabel "Content Substitution"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CertificatePinning/> ;
+    skos:broader d3fend:D3-CH ;
+    skos:definition "Persisting either a server's X.509 certificate or their public key and comparing that to server's presented identity to allow for greater client confidence in the remote server's identity for SSL connections."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CP" ;
+    skos:prefLabel "Certificate Pinning"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CQ a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentQuarantine/> ;
+    skos:broader d3fend:D3-CF ;
+    skos:definition "Transfer content that does not comply with policy to a quarantine zone."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CQ" ;
+    skos:prefLabel "Content Quarantine"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialRevocation/> ;
+    skos:broader d3fend:D3-CE ;
+    skos:definition "Deleting a set of credentials permanently to prevent them from being used to authenticate."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CR" ;
+    skos:prefLabel "Credential Revocation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialScrubbing/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "The systematic removal of hard-coded credentials from source code to prevent accidental exposure and unauthorized access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CS" ;
+    skos:prefLabel "Credential Scrubbing"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CSPP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Client-serverPayloadProfiling/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Comparing client-server request and response payloads to a baseline profile to identify outliers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CSPP" ;
+    skos:prefLabel "Client-server Payload Profiling"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CTS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialTransmissionScoping/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Limiting the transmission of a credential to a scoped set of relying parties."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CTS" ;
+    skos:prefLabel "Credential Transmission Scoping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DynamicAnalysis/> ;
+    skos:broader d3fend:D3-FA ;
+    skos:definition "Executing or opening a file in a synthetic \"sandbox\" environment to determine if the file is a malicious program or if the file exploits another program such as a document reader."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DA" ;
+    skos:prefLabel "Dynamic Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DomainAccountMonitoring/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Monitoring the existence of or changes to Domain User Accounts."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DAM" ;
+    skos:prefLabel "Domain Account Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DCE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DeadCodeElimination/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Removing unreachable or \"dead code\" from compiled source code."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DCE" ;
+    skos:prefLabel "Dead Code Elimination"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DEM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DataExchangeMapping/> ;
+    skos:broader d3fend:D3-SYSM ;
+    skos:definition "Data exchange mapping identifies and models the organization's intended design for the flows of the data types, formats, and volumes between systems at the application layer."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DEM" ;
+    skos:prefLabel "Data Exchange Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DENCR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DiskEncryption/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Encrypting a hard disk partition to prevent cleartext access to a file system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DENCR" ;
+    skos:prefLabel "Disk Encryption"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyFile/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "A file created for the purposes of deceiving an adversary."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DF" ;
+    skos:prefLabel "Decoy File"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DataInventory/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Data inventorying identifies and records the schemas, formats, volumes, and locations of data stored and used on the organization's architecture."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DI" ;
+    skos:prefLabel "Data Inventory"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DKE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DiskErasure/> ;
+    skos:broader d3fend:D3-DKF ;
+    skos:definition "Disk Erasure is the process of securely deleting all data on a disk to ensure that it cannot be recovered by any means."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DKE" ;
+    skos:prefLabel "Disk Erasure"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DKP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DiskPartitioning/> ;
+    skos:broader d3fend:D3-DKF ;
+    skos:definition "Disk Partitioning is the process of dividing a disk into multiple distinct sections, known as partitions."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DKP" ;
+    skos:prefLabel "Disk Partitioning"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DLIC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DriverLoadIntegrityChecking/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Ensuring the integrity of drivers loaded during initialization of the operating system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DLIC" ;
+    skos:prefLabel "Driver Load Integrity Checking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DirectionalNetworkLink/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Enforce one-way network communication by preventing two-way communication."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNL" ;
+    skos:prefLabel "Directional Network Link"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyNetworkResource/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "Deploying a network resource for the purposes of deceiving an adversary."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNR" ;
+    skos:prefLabel "Decoy Network Resource"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DomainNameReputationAnalysis/> ;
+    skos:broader d3fend:D3-IRA ;
+    skos:definition "Analyzing the reputation of a domain name."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNRA" ;
+    skos:prefLabel "Domain Name Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNSAL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DNSAllowlisting/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Permitting only approved domains and their subdomains to be resolved."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNSAL" ;
+    skos:prefLabel "DNS Allowlisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNSCE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DNSCacheEviction/> ;
+    skos:broader d3fend:D3-OE ;
+    skos:definition "Flushing DNS to clear any IP addresses or other DNS records from the cache."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNSCE" ;
+    skos:prefLabel "DNS Cache Eviction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNSTA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DNSTrafficAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analysis of domain name metadata, including name and DNS records, to determine whether the domain is likely to resolve to an undesirable host."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNSTA" ;
+    skos:prefLabel "DNS Traffic Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyPersona/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "Establishing a fake online identity to misdirect, deceive, and or interact with adversaries."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DP" ;
+    skos:prefLabel "Decoy Persona"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DPLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DirectPhysicalLinkMapping/> ;
+    skos:broader d3fend:D3-PLM ;
+    skos:definition "Direct physical link mapping creates a physical link map by direct observation and recording of the physical network links."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DPLM" ;
+    skos:prefLabel "Direct Physical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DPR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyPublicRelease/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "Issuing publicly released media to deceive adversaries."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DPR" ;
+    skos:prefLabel "Decoy Public Release"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DQSA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DatabaseQueryStringAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing database queries to detect [SQL Injection](https://capec.mitre.org/data/definitions/66.html)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DQSA" ;
+    skos:prefLabel "Database Query String Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DisableRemoteAccess/> ;
+    skos:broader d3fend:D3-ACH ;
+    skos:definition "Limiting access to a computing device which is not required through or from a non-organization-controlled network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DRA" ;
+    skos:prefLabel "Disable Remote Access"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DRT a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DomainRegistrationTakedown/> ;
+    skos:broader d3fend:D3-OE ;
+    skos:definition "The process of performing a takedown of the attacker's domain registration infrastructure."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DRT" ;
+    skos:prefLabel "Domain Registration Takedown"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DST a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoySessionToken/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "An authentication token created for the purposes of deceiving an adversary."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DST" ;
+    skos:prefLabel "Decoy Session Token"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DTP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DomainTrustPolicy/> ;
+    skos:broader d3fend:D3-APA ;
+    skos:definition "Restricting inter-domain trust by modifying domain configuration."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DTP" ;
+    skos:prefLabel "Domain Trust Policy"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DUC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyUserCredential/> ;
+    skos:broader d3fend:D3-DO ;
+    skos:definition "A Credential created for the purpose of deceiving an adversary."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DUC" ;
+    skos:prefLabel "Decoy User Credential"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EAL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ExecutableAllowlisting/> ;
+    skos:broader d3fend:D3-EI ;
+    skos:definition "Using a digital signature to authenticate a file before opening."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EAL" ;
+    skos:prefLabel "Executable Allowlisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EBWSAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Endpoint-basedWebServerAccessMediation/> ;
+    skos:broader d3fend:D3-WSAM ;
+    skos:definition "Endpoint-based web server access mediation regulates web server access directly from user endpoints by implementing mechanisms such as client-side certificates and endpoint security software to authenticate devices and ensure compliant access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EBWSAM" ;
+    skos:prefLabel "Endpoint-based Web Server Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ExecutableDenylisting/> ;
+    skos:broader d3fend:D3-EI ;
+    skos:definition "Blocking the execution of files on a host in accordance with defined application policy rules."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EDL" ;
+    skos:prefLabel "Executable Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:EmailFiltering/> ;
+    skos:broader d3fend:D3-ITF ;
+    skos:definition "Filtering incoming email traffic based on specific criteria."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EF" ;
+    skos:prefLabel "Email Filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EFA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:EmulatedFileAnalysis/> ;
+    skos:broader d3fend:D3-FA ;
+    skos:definition "Emulating instructions in a file looking for specific patterns."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EFA" ;
+    skos:prefLabel "Emulated File Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EHB a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:EndpointHealthBeacon/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Monitoring the security status of an endpoint by sending periodic messages with health status, where absence of a response may indicate that the endpoint has been compromised."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EHB" ;
+    skos:prefLabel "Endpoint Health Beacon"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EHPV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ExceptionHandlerPointerValidation/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Validates that a referenced exception handler pointer is a valid exception handler."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EHPV" ;
+    skos:prefLabel "Exception Handler Pointer Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ELM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ElectronicLockMonitoring/> ;
+    skos:broader d3fend:D3-PHAM ;
+    skos:definition "Monitoring electronic lock and door hardware states and access events (e.g., locked/unlocked, access granted/denied, door forced/held, tamper) to detect and respond to unauthorized entry."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ELM" ;
+    skos:prefLabel "Electronic Lock Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EPL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PhysicalLocking/> ;
+    skos:broader d3fend:D3-PAM ;
+    skos:definition "Employ a mechanical locking device for securing moveable portions of physical barriers (e.g., doors, gates, drawers) in a secured position."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EPL" ;
+    skos:prefLabel "Physical Locking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ER a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:EmailRemoval/> ;
+    skos:broader d3fend:D3-FEV ;
+    skos:definition "The email removal technique deletes email files from system storage."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ER" ;
+    skos:prefLabel "Email Removal"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ET a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:EncryptedTunnels/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Encrypted encapsulation of routable network traffic."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ET" ;
+    skos:prefLabel "Encrypted Tunnels"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FAPA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileAccessPatternAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing the files accessed by a process to identify unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FAPA" ;
+    skos:prefLabel "File Access Pattern Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FBA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FirmwareBehaviorAnalysis/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Analyzing the behavior of embedded code in firmware and looking for anomalous behavior and suspicious activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FBA" ;
+    skos:prefLabel "Firmware Behavior Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileCarving/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Identifying and extracting files from network application protocols through the use of network stream reassembly software."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FC" ;
+    skos:prefLabel "File Carving"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FCA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileCreationAnalysis/> ;
+    skos:broader d3fend:D3-SCA ;
+    skos:definition "Analyzing the properties of file create system call invocations."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FCA" ;
+    skos:prefLabel "File Creation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FCDC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileContentDecompressionChecking/> ;
+    skos:broader d3fend:D3-FFV ;
+    skos:definition "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FCDC" ;
+    skos:prefLabel "File Content Decompression Checking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FCR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileContentRules/> ;
+    skos:broader d3fend:D3-FCOA ;
+    skos:definition "Employing a pattern matching rule language to analyze the content of files."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FCR" ;
+    skos:prefLabel "File Content Rules"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileEncryption/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Encrypting a file using a cryptographic key."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FE" ;
+    skos:prefLabel "File Encryption"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FEMC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FirmwareEmbeddedMonitoringCode/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Monitoring code is injected into firmware for integrity monitoring of firmware and firmware data."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FEMC" ;
+    skos:prefLabel "Firmware Embedded Monitoring Code"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileHashing/> ;
+    skos:broader d3fend:D3-FA ;
+    skos:definition "Employing file hash comparisons to detect known malware."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FH" ;
+    skos:prefLabel "File Hashing"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FHRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileHashReputationAnalysis/> ;
+    skos:broader d3fend:D3-IRA ;
+    skos:definition "Analyzing the reputation of a file hash."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FHRA" ;
+    skos:prefLabel "File Hash Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FIM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileIntegrityMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Detecting any suspicious changes to files in a computer system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FIM" ;
+    skos:prefLabel "File Integrity Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FISV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileInternalStructureVerification/> ;
+    skos:broader d3fend:D3-FFV ;
+    skos:definition "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FISV" ;
+    skos:prefLabel "File Internal Structure Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FMBV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileMagicByteVerification/> ;
+    skos:broader d3fend:D3-FMVV ;
+    skos:definition "Utilizing the magic number to verify the file"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FMBV" ;
+    skos:prefLabel "File Magic Byte Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FMCV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileMetadataConsistencyValidation/> ;
+    skos:broader d3fend:D3-FFV ;
+    skos:definition "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FMCV" ;
+    skos:prefLabel "File Metadata Consistency Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FRIDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ForwardResolutionIPDenylisting/> ;
+    skos:broader d3fend:D3-DNSDL ;
+    skos:definition "Blocking a DNS lookup's answer's IP address value."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FRIDL" ;
+    skos:prefLabel "Forward Resolution IP Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HBPI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Hardware-basedProcessIsolation/> ;
+    skos:broader d3fend:D3-EI ;
+    skos:definition "Preventing one process from writing to the memory space of another process through hardware based address manager implementations."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HBPI" ;
+    skos:prefLabel "Hardware-based Process Isolation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HBWP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Hardware-basedWriteProtection/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Physical methods of preventing data from being written to computer storage."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HBWP" ;
+    skos:prefLabel "Hardware-based Write Protection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HCI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HardwareComponentInventory/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Hardware component inventorying identifies and records the hardware items in the organization's architecture."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HCI" ;
+    skos:prefLabel "Hardware Component Inventory"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HomoglyphDetection/> ;
+    skos:broader d3fend:D3-ID ;
+    skos:definition "Comparing strings using a variety of techniques to determine if a deceptive or malicious string is being presented to a user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HD" ;
+    skos:prefLabel "Homoglyph Detection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HDDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HierarchicalDomainDenylisting/> ;
+    skos:broader d3fend:D3-FRDDL ;
+    skos:definition "Blocking the resolution of any subdomain of a specified domain name."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HDDL" ;
+    skos:prefLabel "Hierarchical Domain Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HomoglyphDenylisting/> ;
+    skos:broader d3fend:D3-FRDDL ;
+    skos:definition "Blocking DNS queries that are deceptively similar to legitimate domain names."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HDL" ;
+    skos:prefLabel "Homoglyph Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HostReboot/> ;
+    skos:broader d3fend:D3-HS ;
+    skos:definition "Initiating a host's reboot sequence to terminate all running processes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HR" ;
+    skos:prefLabel "Host Reboot"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IAA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IdentifierActivityAnalysis/> ;
+    skos:broader d3fend:D3-ID ;
+    skos:definition "Taking known malicious identifiers and determining if they are present in a system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IAA" ;
+    skos:prefLabel "Identifier Activity Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IBCA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IndirectBranchCallAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing vendor specific branch call recording in order to detect ROP style attacks."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IBCA" ;
+    skos:prefLabel "Indirect Branch Call Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IDA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:InputDeviceAnalysis/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Operating system level mechanisms to prevent abusive input device exploitation."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IDA" ;
+    skos:prefLabel "Input Device Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IHN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IntegratedHoneynet/> ;
+    skos:broader d3fend:D3-DE ;
+    skos:definition "The practice of setting decoys in a production environment to entice interaction from attackers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IHN" ;
+    skos:prefLabel "Integrated Honeynet"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IOPR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IOPortRestriction/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Limiting access to computer input/output (IO) ports to restrict unauthorized devices."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IOPR" ;
+    skos:prefLabel "IO Port Restriction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IPCTA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IPCTrafficAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing standard inter process communication (IPC) protocols to detect deviations from normal protocol activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IPCTA" ;
+    skos:prefLabel "IPC Traffic Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IPRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IPReputationAnalysis/> ;
+    skos:broader d3fend:D3-IRA ;
+    skos:definition "Analyzing the reputation of an IP address."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IPRA" ;
+    skos:prefLabel "IP Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IRV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IntegerRangeValidation/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "Ensuring that an integer is within a valid range."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IRV" ;
+    skos:prefLabel "Integer Range Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ISVA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:InboundSessionVolumeAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing inbound network session or connection attempt volume."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ISVA" ;
+    skos:prefLabel "Inbound Session Volume Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-JFAPA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:JobFunctionAccessPatternAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Detecting anomalies in user access patterns by comparing user access activity to behavioral profiles that categorize users by role such as job title, function, department."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-JFAPA" ;
+    skos:prefLabel "Job Function Access Pattern Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-KBPI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Kernel-basedProcessIsolation/> ;
+    skos:broader d3fend:D3-EI ;
+    skos:definition "Using kernel-level capabilities to isolate processes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-KBPI" ;
+    skos:prefLabel "Kernel-based Process Isolation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-LAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:LocalAccountMonitoring/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Analyzing local user accounts to detect unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-LAM" ;
+    skos:prefLabel "Local Account Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-LAMED a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:LANAccessMediation/> ;
+    skos:broader d3fend:D3-NAM ;
+    skos:definition "LAN access mediation encompasses the application of strict access control policies, systematic verification of devices, and authentication mechanisms to govern connectivity to a Local Area Network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-LAMED" ;
+    skos:prefLabel "LAN Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-LFAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:LocalFileAccessMediation/> ;
+    skos:broader d3fend:D3-SCF ;
+    skos:definition "Local file access mediation is the process of an operating system granting or denying a specific access request to a local file."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-LFAM" ;
+    skos:prefLabel "Local File Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-LFP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:LocalFilePermissions/> ;
+    skos:broader d3fend:D3-APA ;
+    skos:definition "Local file permissions is the systematic process of defining, implementing, and managing access control policies that dictate user permissions for accessing files on a local system through the configuration of operating system functionality."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-LFP" ;
+    skos:prefLabel "Local File Permissions"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MBSV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MemoryBlockStartValidation/> ;
+    skos:broader d3fend:D3-PV ;
+    skos:definition "Ensuring that a pointer accurately references the beginning of a designated memory block."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MBSV" ;
+    skos:prefLabel "Memory Block Start Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MBT a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MemoryBoundaryTracking/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Analyzing a call stack for return addresses which point to unexpected  memory locations."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MBT" ;
+    skos:prefLabel "Memory Boundary Tracking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MENCR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MessageEncryption/> ;
+    skos:broader d3fend:D3-MH ;
+    skos:definition "Encrypting a message body using a cryptographic key."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MENCR" ;
+    skos:prefLabel "Message Encryption"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MFA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Multi-factorAuthentication/> ;
+    skos:broader d3fend:D3-AA ;
+    skos:definition "Requiring proof of two or more pieces of evidence in order to authenticate a user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MFA" ;
+    skos:prefLabel "Multi-factor Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MSM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MotionSensorMonitoring/> ;
+    skos:broader d3fend:D3-PHAM ;
+    skos:definition "Monitoring events from motion detectors (e.g., passive IR, microwave, dual-technology) to detect presence or movement within protected areas."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MSM" ;
+    skos:prefLabel "Motion Sensor Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NNI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkNodeInventory/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Network node inventorying identifies and records all the network nodes (hosts, routers, switches, firewalls, etc.) in the organization's architecture."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NNI" ;
+    skos:prefLabel "Network Node Inventory"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NPC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NullPointerChecking/> ;
+    skos:broader d3fend:D3-PV ;
+    skos:definition "Checking if a pointer is NULL."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NPC" ;
+    skos:prefLabel "Null Pointer Checking"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NTCD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkTrafficCommunityDeviation/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Establishing baseline communities of network hosts and identifying statistically divergent inter-community communication."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NTCD" ;
+    skos:prefLabel "Network Traffic Community Deviation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NTPM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkTrafficPolicyMapping/> ;
+    skos:broader d3fend:D3-NM ;
+    skos:definition "Network traffic policy mapping identifies and models the allowed pathways of data at the network, transport, and/or application levels."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NTPM" ;
+    skos:prefLabel "Network Traffic Policy Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NTSA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkTrafficSignatureAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing network traffic and compares it to known signatures"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NTSA" ;
+    skos:prefLabel "Network Traffic Signature Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NVA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkVulnerabilityAssessment/> ;
+    skos:broader d3fend:D3-NM ;
+    skos:definition "Network vulnerability assessment relates all the vulnerabilities of a network's components in the context of their configuration and interdependencies and can also include assessing risk emerging from the network's design as a whole, not just the sum of individual network node or network segment vulnerabilities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NVA" ;
+    skos:prefLabel "Network Vulnerability Assessment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ODM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperationalDependencyMapping/> ;
+    skos:broader d3fend:D3-OAM ;
+    skos:definition "Operational dependency mapping identifies and models the dependencies of the organization's activities on each other and on the organization's performers (people, systems, and services.)  This may include modeling the higher- and lower-level activities of an organization forming a hierarchy, or layering, of the dependencies in an organization's activities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ODM" ;
+    skos:prefLabel "Operational Dependency Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OLV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperationalLogicValidation/> ;
+    skos:broader d3fend:D3-DLV ;
+    skos:definition "Validation of variable state in the context of the control logic of the operational application."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OLV" ;
+    skos:prefLabel "Operational Logic Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OrganizationMapping/> ;
+    skos:broader d3fend:D3-OAM ;
+    skos:definition "Organization mapping identifies and models the people, roles, and groups with an organization and the relations between them."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OM" ;
+    skos:prefLabel "Organization Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OMM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperatingModeMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Detects operating modes such as Program, Run, Remote, or Stop."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OMM" ;
+    skos:prefLabel "Operating Mode Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OPM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperationalProcessMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Monitoring physical parameters and operator actions related to an operational environment."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OPM" ;
+    skos:prefLabel "Operational Process Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OPR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperatingModeRestriction/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Restricting unauthorized changes to the operating mode prevents devices from switching into inappropriate or vulnerable states during normal use."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OPR" ;
+    skos:prefLabel "Operating Mode Restriction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ORA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperationalRiskAssessment/> ;
+    skos:broader d3fend:D3-OAM ;
+    skos:definition "Operational risk assessment identifies and models the vulnerabilities of, and risks to, an organization's activities individually and as a whole."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ORA" ;
+    skos:prefLabel "Operational Risk Assessment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OTF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OutboundTrafficFiltering/> ;
+    skos:broader d3fend:D3-NTF ;
+    skos:definition "Restricting network traffic originating from a private host or enclave destined towards untrusted networks."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OTF" ;
+    skos:prefLabel "Outbound Traffic Filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OTP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:One-timePassword/> ;
+    skos:broader d3fend:D3-PR ;
+    skos:definition "A one-time password is valid for only one user authentication."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OTP" ;
+    skos:prefLabel "One-time Password"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OVAR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OTVariableAccessRestriction/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Assign read/write access controls on designated registers or data tags to prevent unauthorized writes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OVAR" ;
+    skos:prefLabel "OT Variable Access Restriction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PAN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PointerAuthentication/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Comparing the cryptographic hash or derivative of a pointer's value to an expected value."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PAN" ;
+    skos:prefLabel "Pointer Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PBWSAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Proxy-basedWebServerAccessMediation/> ;
+    skos:broader d3fend:D3-WSAM ;
+    skos:definition "Proxy-based web server access mediation focuses on the regulation of web server access through intermediary proxy servers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PBWSAM" ;
+    skos:prefLabel "Proxy-based Web Server Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PCA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PassiveCertificateAnalysis/> ;
+    skos:broader d3fend:D3-CA ;
+    skos:definition "Collecting host certificates from network traffic or other passive sources like a certificate transparency log and analyzing them for unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PCA" ;
+    skos:prefLabel "Passive Certificate Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PCSV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessCodeSegmentVerification/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Comparing the \"text\" or \"code\" memory segments to a source of truth."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PCSV" ;
+    skos:prefLabel "Process Code Segment Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PEH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PhysicalEnclosureHardening/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Physical changes to a computer enclosure which reduce the ability for agents or the environment to affect the contained computer system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PEH" ;
+    skos:prefLabel "Physical Enclosure Hardening"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PFV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PeripheralFirmwareVerification/> ;
+    skos:broader d3fend:D3-FV ;
+    skos:definition "Cryptographically verifying peripheral firmware integrity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PFV" ;
+    skos:prefLabel "Peripheral Firmware Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PHDURA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PerHostDownload-UploadRatioAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Detecting anomalies that indicate malicious activity by comparing the amount of data downloaded versus data uploaded by a host."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PHDURA" ;
+    skos:prefLabel "Per Host Download-Upload Ratio Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PLA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessLineageAnalysis/> ;
+    skos:broader d3fend:D3-PSA ;
+    skos:definition "Identification of suspicious processes executing on an end-point device by examining the ancestry and siblings of a process, and the associated metadata of each node on the tree, such as process execution, duration, and order relative to siblings and ancestors."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PLA" ;
+    skos:prefLabel "Process Lineage Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PLLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PassiveLogicalLinkMapping/> ;
+    skos:broader d3fend:D3-LLM ;
+    skos:definition "Passive logical link mapping only listens to network traffic as a means to map the whole data link layer, where the links represent logical data flows rather than physical connections."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PLLM" ;
+    skos:prefLabel "Passive Logical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PMAD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProtocolMetadataAnomalyDetection/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Collecting network communication protocol metadata and identifying statistical outliers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PMAD" ;
+    skos:prefLabel "Protocol Metadata Anomaly Detection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessSuspension/> ;
+    skos:broader d3fend:D3-PE ;
+    skos:definition "Suspending a running process on a computer system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PS" ;
+    skos:prefLabel "Process Suspension"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PSEP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessSegmentExecutionPrevention/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Preventing execution of any address in a memory region other than the code segment."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PSEP" ;
+    skos:prefLabel "Process Segment Execution Prevention"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PSM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProximitySensorMonitoring/> ;
+    skos:broader d3fend:D3-PHAM ;
+    skos:definition "Monitoring events from proximity sensors that indicate a credential or tagged asset is within the sensor’s read range or a defined zone. Common enabling technologies include RFID, Bluetooth Low Energy (BLE), and Ultra-Wideband (UWB)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PSM" ;
+    skos:prefLabel "Proximity Sensor Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PSMD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessSelf-ModificationDetection/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Detects processes that modify, change, or replace their own code at runtime."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PSMD" ;
+    skos:prefLabel "Process Self-Modification Detection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PT a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessTermination/> ;
+    skos:broader d3fend:D3-PE ;
+    skos:definition "Terminating a running application process on a computer system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PT" ;
+    skos:prefLabel "Process Termination"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PUM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PlatformUptimeMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Monitor the amount of time since the last power cycle or restart."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PUM" ;
+    skos:prefLabel "Platform Uptime Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PWA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PasswordAuthentication/> ;
+    skos:broader d3fend:D3-AA ;
+    skos:definition "Password authentication is a security mechanism used to verify the identity of a user or entity attempting to access a system or resource by requiring the input of a secret string of characters, known as a password, that is associated with the user or entity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PWA" ;
+    skos:prefLabel "Password Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RoutingAccessMediation/> ;
+    skos:broader d3fend:D3-NAM ;
+    skos:definition "Routing access mediation is a network security approach that manages and controls access at the network layer using VPNs, tunneling protocols, firewall rules, and traffic inspection to ensure secure and efficient data routing."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RAM" ;
+    skos:prefLabel "Routing Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RAPA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ResourceAccessPatternAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Analyzing the resources accessed by a user to identify unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RAPA" ;
+    skos:prefLabel "Resource Access Pattern Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreConfiguration/> ;
+    skos:broader d3fend:D3-RO ;
+    skos:definition "Restoring an software configuration."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RC" ;
+    skos:prefLabel "Restore Configuration"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreDatabase/> ;
+    skos:broader d3fend:D3-RO ;
+    skos:definition "Restoring the data in a database."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RD" ;
+    skos:prefLabel "Restore Database"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RDI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreDiskImage/> ;
+    skos:broader d3fend:D3-RO ;
+    skos:definition "Restoring a previously captured disk image a hard drive."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RDI" ;
+    skos:prefLabel "Restore Disk Image"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreEmail/> ;
+    skos:broader d3fend:D3-RF ;
+    skos:definition "Restoring an email for an entity to access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RE" ;
+    skos:prefLabel "Restore Email"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RFAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RemoteFileAccessMediation/> ;
+    skos:broader d3fend:D3-NRAM ;
+    skos:definition "Remote file access mediation is the process of managing and securing access to file systems over a network to ensure that only authorized users or processes can interact with remote files."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RFAM" ;
+    skos:prefLabel "Remote File Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RFS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RFShielding/> ;
+    skos:broader d3fend:D3-EMH ;
+    skos:definition "Adding physical barriers to a platform to prevent undesired radio interference."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RFS" ;
+    skos:prefLabel "RF Shielding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RIC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ReissueCredential/> ;
+    skos:broader d3fend:D3-RA ;
+    skos:definition "Issue a new credential to a user which supersedes their old credential."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RIC" ;
+    skos:prefLabel "Reissue Credential"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RKD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RegistryKeyDeletion/> ;
+    skos:broader d3fend:D3-OE ;
+    skos:definition "Delete a registry key."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RKD" ;
+    skos:prefLabel "Registry Key Deletion"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ReferenceNullification/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition """Invalidating all pointers that reference a specific memory block, ensuring that the block cannot be accessed or modified after deallocation.
+"""@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RN" ;
+    skos:prefLabel "Reference Nullification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RNA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreNetworkAccess/> ;
+    skos:broader d3fend:D3-RA ;
+    skos:definition "Restoring a entity's access to a computer network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RNA" ;
+    skos:prefLabel "Restore Network Access"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RPA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RelayPatternAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "The detection of an internal host relaying traffic between the internal network and the external network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RPA" ;
+    skos:prefLabel "Relay Pattern Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RRID a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ReverseResolutionIPDenylisting/> ;
+    skos:broader d3fend:D3-DNSDL ;
+    skos:definition "Blocking a reverse lookup based on the query's IP address value."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RRID" ;
+    skos:prefLabel "Reverse Resolution IP Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreSoftware/> ;
+    skos:broader d3fend:D3-RO ;
+    skos:definition "Restoring software to a host."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RS" ;
+    skos:prefLabel "Restore Software"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RTA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RPCTrafficAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Monitoring the activity of remote procedure calls in communication traffic to establish standard protocol operations and potential attacker activities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RTA" ;
+    skos:prefLabel "RPC Traffic Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RTSD a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RemoteTerminalSessionDetection/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Detection of an unauthorized remote live terminal console session by examining network traffic to a network host."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RTSD" ;
+    skos:prefLabel "Remote Terminal Session Detection"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SAOR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SegmentAddressOffsetRandomization/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Randomizing the base (start) address of one or more segments of memory during the initialization of a process."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SAOR" ;
+    skos:prefLabel "Segment Address Offset Randomization"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SBV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ServiceBinaryVerification/> ;
+    skos:broader d3fend:D3-SFA ;
+    skos:definition "Analyzing changes in service binary files by comparing to a source of truth."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SBV" ;
+    skos:prefLabel "Service Binary Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SCP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemConfigurationPermissions/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Restricting system configuration modifications to a specific user or group of users."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SCP" ;
+    skos:prefLabel "System Configuration Permissions"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SDA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SessionDurationAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Analyzing the duration of user sessions in order to detect unauthorized  activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SDA" ;
+    skos:prefLabel "Session Duration Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SDM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemDaemonMonitoring/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Tracking changes to the state or configuration of critical system level processes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SDM" ;
+    skos:prefLabel "System Daemon Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SEA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ScriptExecutionAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing the execution of a script to detect unauthorized user activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SEA" ;
+    skos:prefLabel "Script Execution Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SFCV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:StackFrameCanaryValidation/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Comparing a value stored in a stack frame with a known good value in order to prevent or detect a memory segment overwrite."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SFCV" ;
+    skos:prefLabel "Stack Frame Canary Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SFV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemFirmwareVerification/> ;
+    skos:broader d3fend:D3-FV ;
+    skos:definition "Cryptographically verifying installed system firmware integrity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SFV" ;
+    skos:prefLabel "System Firmware Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SHN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:StandaloneHoneynet/> ;
+    skos:broader d3fend:D3-DE ;
+    skos:definition "An environment created for the purpose of attracting attackers and eliciting their behaviors that is not connected to any production enterprise systems."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SHN" ;
+    skos:prefLabel "Standalone Honeynet"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SICA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemInitConfigAnalysis/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Analysis of any system process startup configuration."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SICA" ;
+    skos:prefLabel "System Init Config Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SJA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ScheduledJobAnalysis/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Analysis of source files, processes, destination files, or destination servers associated with a scheduled job to detect unauthorized use of job scheduling."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SJA" ;
+    skos:prefLabel "Scheduled Job Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SMRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SenderMTAReputationAnalysis/> ;
+    skos:broader d3fend:D3-MA ;
+    skos:definition "Characterizing the reputation of mail transfer agents (MTA) to determine the security risk in emails."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SMRA" ;
+    skos:prefLabel "Sender MTA Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SenderReputationAnalysis/> ;
+    skos:broader d3fend:D3-MA ;
+    skos:definition "Ascertaining sender reputation based on information associated with a message (e.g. email/instant messaging)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SRA" ;
+    skos:prefLabel "Sender Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SSC a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ShadowStackComparisons/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Comparing a call stack in system memory with a shadow call stack maintained by the processor to determine unauthorized shellcode activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SSC" ;
+    skos:prefLabel "Shadow Stack Comparisons"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ST a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SessionTermination/> ;
+    skos:broader d3fend:D3-PE ;
+    skos:definition "Forcefully end all active sessions associated with compromised accounts or devices."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ST" ;
+    skos:prefLabel "Session Termination"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SU a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SoftwareUpdate/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Replacing old software on a computer system component."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SU" ;
+    skos:prefLabel "Software Update"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SVCDM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ServiceDependencyMapping/> ;
+    skos:broader d3fend:D3-SYSM ;
+    skos:definition "Service dependency mapping determines the services on which each given service relies."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SVCDM" ;
+    skos:prefLabel "Service Dependency Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SWI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SoftwareInventory/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Software inventorying identifies and records the software items in the organization's architecture."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SWI" ;
+    skos:prefLabel "Software Inventory"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SYSDM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemDependencyMapping/> ;
+    skos:broader d3fend:D3-SYSM ;
+    skos:definition "System dependency mapping identifies and models the dependencies of system components on each other to carry out their function."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SYSDM" ;
+    skos:prefLabel "System Dependency Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SYSVA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemVulnerabilityAssessment/> ;
+    skos:broader d3fend:D3-SYSM ;
+    skos:definition "System vulnerability assessment relates all the vulnerabilities of a system's components in the context of their configuration and internal dependencies and can also include assessing risk emerging from the system's design as a whole, not just the sum of individual component vulnerabilities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SYSVA" ;
+    skos:prefLabel "System Vulnerability Assessment"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-TAAN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:TransferAgentAuthentication/> ;
+    skos:broader d3fend:D3-MH ;
+    skos:definition "Validating that server components of a messaging infrastructure are authorized to send a particular message."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-TAAN" ;
+    skos:prefLabel "Transfer Agent Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-TB a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:TokenBinding/> ;
+    skos:broader d3fend:D3-CH ;
+    skos:definition "Token binding is a security mechanism used to enhance the protection of tokens, such as cookies or OAuth tokens, by binding them to a specific connection."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-TB" ;
+    skos:prefLabel "Token Binding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-TBA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:Token-basedAuthentication/> ;
+    skos:broader d3fend:D3-AA ;
+    skos:definition "Token-based authentication is an authentication protocol where users verify their identity in exchange for a unique access token. Users can then access the website, application, or resource for the life of the token without having to re-enter their credentials."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-TBA" ;
+    skos:prefLabel "Token-based Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-TBI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:TPMBootIntegrity/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Assuring the integrity of a platform by demonstrating that the boot process starts from a trusted combination of hardware and software and continues until the operating system has fully booted and applications are running.  Sometimes called Static Root of Trust Measurement (STRM)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-TBI" ;
+    skos:prefLabel "TPM Boot Integrity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-TL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:TrustedLibrary/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition """A trusted library is a collection of pre-verified and secure code modules or components that are used within software applications to perform specific functions. These libraries are considered reliable and have been vetted for security vulnerabilities, ensuring they do not introduce risks into the application.
+"""@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-TL" ;
+    skos:prefLabel "Trusted Library"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:URLAnalysis/> ;
+    skos:broader d3fend:D3-ID ;
+    skos:definition "Determining if a URL is benign or malicious by analyzing the URL or its components."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UA" ;
+    skos:prefLabel "URL Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UAP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserAccountPermissions/> ;
+    skos:broader d3fend:D3-APA ;
+    skos:definition "Restricting a user account's access to resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UAP" ;
+    skos:prefLabel "User Account Permissions"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UDTA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserDataTransferAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Analyzing the amount of data transferred by a user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UDTA" ;
+    skos:prefLabel "User Data Transfer Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UGLPA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserGeolocationLogonPatternAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Monitoring geolocation data of user logon attempts and comparing it to a baseline user behavior profile to identify anomalies in logon location."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UGLPA" ;
+    skos:prefLabel "User Geolocation Logon Pattern Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UGPH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserGroupPermissions/> ;
+    skos:broader d3fend:D3-APA ;
+    skos:definition "Access control where access is determined based on attributes associated with users and the objects being accessed. "@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UGPH" ;
+    skos:prefLabel "User Group Permissions"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ULA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UnlockAccount/> ;
+    skos:broader d3fend:D3-RUAA ;
+    skos:definition "Restoring a user account's access to resources by unlocking a locked User Account."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ULA" ;
+    skos:prefLabel "Unlock Account"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-URA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:URLReputationAnalysis/> ;
+    skos:broader d3fend:D3-IRA ;
+    skos:definition "Analyzing the reputation of a URL."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-URA" ;
+    skos:prefLabel "URL Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-USICA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserSessionInitConfigAnalysis/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Analyzing modifications to user session config files such as .bashrc or .bash_profile."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-USICA" ;
+    skos:prefLabel "User Session Init Config Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-VI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:VariableInitialization/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "Setting variables to a known value before use."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-VI" ;
+    skos:prefLabel "Variable Initialization"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-VS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:VideoSurveillance/> ;
+    skos:broader d3fend:D3-PHAM ;
+    skos:definition "Monitoring of physical areas via camera video feeds to deter, detect, and investigate unauthorized access and related security events."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-VS" ;
+    skos:prefLabel "Video Surveillance"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-VTV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:VariableTypeValidation/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "Ensuring that a variable has the correct type."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-VTV" ;
+    skos:prefLabel "Variable Type Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-WSAA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:WebSessionActivityAnalysis/> ;
+    skos:broader d3fend:D3-UBA ;
+    skos:definition "Monitoring changes in user web session behavior by comparing current web session activity to a baseline behavior profile or a catalog of predetermined malicious behavior."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-WSAA" ;
+    skos:prefLabel "Web Session Activity Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ACH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ApplicationConfigurationHardening/> ;
+    skos:broader d3fend:D3-AH ;
+    skos:definition "Modifying an application's configuration to reduce its attack surface."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ACH" ;
+    skos:prefLabel "Application Configuration Hardening"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-APM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ApplicationPerformanceMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Monitoring the count and duration of the application or program cycle."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-APM" ;
+    skos:prefLabel "Application Performance Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AVE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AssetVulnerabilityEnumeration/> ;
+    skos:broader d3fend:D3-AI ;
+    skos:definition "Asset vulnerability enumeration enriches inventory items with knowledge identifying their vulnerabilities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AVE" ;
+    skos:prefLabel "Asset Vulnerability Enumeration"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentValidation/> ;
+    skos:broader d3fend:D3-CF ;
+    skos:definition "Verify and validate contents complies with policy"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CV" ;
+    skos:prefLabel "Content Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DLV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DomainLogicValidation/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "Validation of variable state in the context of the domain application."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DLV" ;
+    skos:prefLabel "Domain Logic Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EMH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ElectromagneticRadiationHardening/> ;
+    skos:broader d3fend:D3-RH ;
+    skos:definition "The application of physical and material-level design measures to electronic systems, components, or facilities to reduce their susceptibility to damage or disruption from electromagnetic threats."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EMH" ;
+    skos:prefLabel "Electromagnetic Radiation Hardening"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FCOA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileContentAnalysis/> ;
+    skos:broader d3fend:D3-FA ;
+    skos:definition "Employing a pattern matching algorithm to statically analyze the content of files."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FCOA" ;
+    skos:prefLabel "File Content Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FEV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileEviction/> ;
+    skos:broader d3fend:D3-OE ;
+    skos:definition "File eviction techniques delete files from system storage."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FEV" ;
+    skos:prefLabel "File Eviction"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FMVV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileMetadataValueVerification/> ;
+    skos:broader d3fend:D3-FFV ;
+    skos:definition "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FMVV" ;
+    skos:prefLabel "File Metadata Value Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-HS a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:HostShutdown/> ;
+    skos:broader d3fend:D3-PE ;
+    skos:definition "Initiating a host's shutdown sequence to terminate all running processes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-HS" ;
+    skos:prefLabel "Host Shutdown"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ITF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:InboundTrafficFiltering/> ;
+    skos:broader d3fend:D3-NTF ;
+    skos:definition "Restricting network traffic originating from untrusted networks destined towards a private host or enclave."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ITF" ;
+    skos:prefLabel "Inbound Traffic Filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MAN a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MessageAuthentication/> ;
+    skos:broader d3fend:D3-MH ;
+    skos:definition "Authenticating the sender of a message and ensuring message integrity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MAN" ;
+    skos:prefLabel "Message Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PhysicalAccessMediation/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Physical access mediation is the process of granting or denying specific requests to enter specific physical facilities (e.g., Federal buildings, military establishments, border crossing entrances.)"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PAM" ;
+    skos:prefLabel "Physical Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PR a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PasswordRotation/> ;
+    skos:broader d3fend:D3-CRO ;
+    skos:definition "Password rotation is a security policy that mandates the periodic change of user account passwords to mitigate the risk of unauthorized access due to compromised credentials."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PR" ;
+    skos:prefLabel "Password Rotation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PSA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessSpawnAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing spawn arguments or attributes of a process to detect processes that are unauthorized."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PSA" ;
+    skos:prefLabel "Process Spawn Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreFile/> ;
+    skos:broader d3fend:D3-RO ;
+    skos:definition "Restoring a file for an entity to access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RF" ;
+    skos:prefLabel "Restore File"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RFUM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RemoteFirmwareUpdateMonitoring/> ;
+    skos:definition "Monitoring of remote firmware update commands to identify unauthorized software installations."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RFUM" ;
+    skos:prefLabel "Remote Firmware Update Monitoring"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RadiationHardening/> ;
+    skos:broader d3fend:D3-PH ;
+    skos:definition "Radiation hardening is the process of making electronic components and circuits resistant to damage or malfunction caused by high levels of ionizing radiation."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RH" ;
+    skos:prefLabel "Radiation Hardening"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RUAA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreUserAccountAccess/> ;
+    skos:broader d3fend:D3-RA ;
+    skos:definition "Restoring a user account's access to resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RUAA" ;
+    skos:prefLabel "Restore User Account Access"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SCA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemCallAnalysis/> ;
+    skos:broader d3fend:D3-PA ;
+    skos:definition "Analyzing system calls to determine whether a process is exhibiting unauthorized behavior."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SCA" ;
+    skos:prefLabel "System Call Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SCF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemCallFiltering/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Controlling access to local computer system resources with kernel-level capabilities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SCF" ;
+    skos:prefLabel "System Call Filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SFA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemFileAnalysis/> ;
+    skos:broader d3fend:D3-OSM ;
+    skos:definition "Monitoring system files such as authentication databases, configuration files, system logs, and system executables for modification or tampering."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SFA" ;
+    skos:prefLabel "System File Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SPP a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:StrongPasswordPolicy/> ;
+    skos:broader d3fend:D3-CH ;
+    skos:definition "Modifying system configuration to increase password strength."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SPP" ;
+    skos:prefLabel "Strong Password Policy"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CertificateAnalysis/> ;
+    skos:broader d3fend:D3-NTA ;
+    skos:definition "Analyzing Public Key Infrastructure certificates to detect if they have been misconfigured or spoofed using both network traffic, certificate fields and third-party logs."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CA" ;
+    skos:prefLabel "Certificate Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CRO a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialRotation/> ;
+    skos:broader d3fend:D3-CH ;
+    skos:definition "Credential rotation is a security procedure in which authentication credentials, such as passwords, API keys, or certificates, are regularly changed or replaced to minimize the risk of unauthorized access."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CRO" ;
+    skos:prefLabel "Credential Rotation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DKF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DiskFormatting/> ;
+    skos:broader d3fend:D3-OE ;
+    skos:definition "Disk Formatting is the process of preparing a data storage device, such as a hard drive, solid-state drive, or USB flash drive, for initial use."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DKF" ;
+    skos:prefLabel "Disk Formatting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FRDDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ForwardResolutionDomainDenylisting/> ;
+    skos:broader d3fend:D3-DNSDL ;
+    skos:definition "Blocking a lookup based on the query's domain name value."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FRDDL" ;
+    skos:prefLabel "Forward Resolution Domain Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FirmwareVerification/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "Cryptographically verifying firmware integrity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FV" ;
+    skos:prefLabel "Firmware Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-LLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:LogicalLinkMapping/> ;
+    skos:broader d3fend:D3-NM ;
+    skos:definition "Logical link mapping creates a model of existing or previous node-to-node connections using network-layer data or metadata."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-LLM" ;
+    skos:prefLabel "Logical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkAccessMediation/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Network access mediation is the control method for authorizing access to a system by a user (or a process acting on behalf of a user) communicating through a network, including a local area network, a wide area network, and the Internet."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NAM" ;
+    skos:prefLabel "Network Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NRAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkResourceAccessMediation/> ;
+    skos:broader d3fend:D3-AMED ;
+    skos:definition "Control of access to organizational systems and services by users or processes over a network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NRAM" ;
+    skos:prefLabel "Network Resource Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NTF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkTrafficFiltering/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Restricting network traffic originating from any location."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NTF" ;
+    skos:prefLabel "Network Traffic Filtering"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PLM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PhysicalLinkMapping/> ;
+    skos:broader d3fend:D3-NM ;
+    skos:definition "Physical link mapping identifies and models the link connectivity of the network devices within a physical network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PLM" ;
+    skos:prefLabel "Physical Link Mapping"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PointerValidation/> ;
+    skos:broader d3fend:D3-SCH ;
+    skos:definition "Ensuring that a pointer variable has the required properties for use. "@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PV" ;
+    skos:prefLabel "Pointer Validation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-WSAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:WebSessionAccessMediation/> ;
+    skos:broader d3fend:D3-NRAM ;
+    skos:definition "Web session access mediation secures user sessions in web applications by employing robust authentication and integrity validation, along with adaptive threat mitigation techniques, to ensure that access to web resources is authorized and protected from session-related attacks."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-WSAM" ;
+    skos:prefLabel "Web Session Access Mediation"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DNSDL a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DNSDenylisting/> ;
+    skos:broader d3fend:D3-NI ;
+    skos:definition "Blocking DNS Network Traffic based on criteria such as IP address, domain name, or DNS query type."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DNSDL" ;
+    skos:prefLabel "DNS Denylisting"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MessageAnalysis/> ;
+    skos:definition "Analyzing email or instant message content to detect unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MA" ;
+    skos:prefLabel "Message Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialEviction/> ;
+    skos:definition "Credential Eviction techniques disable or remove compromised credentials from a computer network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CE" ;
+    skos:prefLabel "Credential Eviction"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CF a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentFiltering/> ;
+    skos:definition "Content Filtering techniques aid in the process of analyzing an input file for malicious or erroneous content and outputting a sanitized version."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CF" ;
+    skos:prefLabel "Content Filtering"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ContentModification/> ;
+    skos:broader d3fend:D3-CF ;
+    skos:definition "Modify content that does not comply with policy."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CM" ;
+    skos:prefLabel "Content Modification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyEnvironment/> ;
+    skos:definition "A Decoy Environment comprises hosts and networks for the purposes of deceiving an attacker."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DE" ;
+    skos:prefLabel "Decoy Environment"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FFV a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileFormatVerification/> ;
+    skos:broader d3fend:D3-CV ;
+    skos:definition "Verifying that a file conforms to its expected format specifications"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FFV" ;
+    skos:prefLabel "File Format Verification"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-IRA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IdentifierReputationAnalysis/> ;
+    skos:broader d3fend:D3-ID ;
+    skos:definition "Analyzing the reputation of an identifier."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-IRA" ;
+    skos:prefLabel "Identifier Reputation Analysis"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-MH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:MessageHardening/> ;
+    skos:definition "The application of security controls to user-to-user and system-to-system communications so messages remain confidential, unaltered, and verifiable while resisting injection, replay, and tampering."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-MH" ;
+    skos:prefLabel "Message Hardening"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreAccess/> ;
+    skos:definition "Restoring an entity's access to resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RA" ;
+    skos:prefLabel "Restore Access"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-APA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AccessPolicyAdministration/> ;
+    skos:definition "Access policy administration is the systematic process of defining, implementing, and managing access control policies that dictate user permissions to resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-APA" ;
+    skos:prefLabel "Access Policy Administration"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-CH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:CredentialHardening/> ;
+    skos:definition "Credential Hardening techniques modify system or network properties in order to protect system or network/domain credentials."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-CH" ;
+    skos:prefLabel "Credential Hardening"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-FA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:FileAnalysis/> ;
+    skos:definition "File Analysis is an analytic process to determine a file's status. For example: virus, trojan, benign, malicious, trusted, unauthorized, sensitive, etc."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-FA" ;
+    skos:prefLabel "File Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-ID a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:IdentifierAnalysis/> ;
+    skos:definition "Analyzing identifier artifacts such as IP address, domain names, or URL(I)s."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-ID" ;
+    skos:prefLabel "Identifier Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkMapping/> ;
+    skos:definition "Network mapping encompasses the techniques to identify and model the physical layer, network layer, and data exchange layers of the organization's network and their physical location, and determine allowed pathways through that network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NM" ;
+    skos:prefLabel "Network Mapping"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperationalActivityMapping/> ;
+    skos:definition "Operational activity mapping identifies activities of the organization and the organization's suborganizations, groups, roles, and individuals that carry out the activities and then establishes the dependencies of the activities on the systems and people that perform those activities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OAM" ;
+    skos:prefLabel "Operational Activity Mapping"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessEviction/> ;
+    skos:definition "Process eviction techniques terminate or remove running process."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PE" ;
+    skos:prefLabel "Process Eviction"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PHAM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PhysicalAccessMonitoring/> ;
+    skos:definition "Monitoring the physical access of a specified environment through detection, recording, reviewing, and logging of who/what enters and exists areas."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PHAM" ;
+    skos:prefLabel "Physical Access Monitoring"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SYSM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SystemMapping/> ;
+    skos:definition "System mapping encompasses the techniques to identify the organization's systems, how they are configured and decomposed into subsystems and components, how they are dependent on one another, and where they are physically located."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SYSM" ;
+    skos:prefLabel "System Mapping"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AgentAuthentication/> ;
+    skos:definition "Agent authentication is the process of verifying the identities of agents to ensure they are authorized and trustworthy participants within a system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AA" ;
+    skos:prefLabel "Agent Authentication"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-EI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ExecutionIsolation/> ;
+    skos:definition "Execution Isolation techniques prevent application processes from accessing non-essential system resources, such as memory, devices, or files."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-EI" ;
+    skos:prefLabel "Execution Isolation"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OE a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ObjectEviction/> ;
+    skos:definition "Terminate or remove an object from a host machine. This is the broadest class for object eviction."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OE" ;
+    skos:prefLabel "Object Eviction"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-RO a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:RestoreObject/> ;
+    skos:definition "Restoring an object for an entity to access. This is the broadest class for object restoral."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-RO" ;
+    skos:prefLabel "Restore Object"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AssetInventory/> ;
+    skos:definition "Asset inventorying identifies and records the organization's assets and enriches each inventory item with knowledge about their vulnerabilities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AI" ;
+    skos:prefLabel "Asset Inventory"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-DO a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:DecoyObject/> ;
+    skos:definition "A Decoy Object is created and deployed for the purposes of deceiving attackers."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-DO" ;
+    skos:prefLabel "Decoy Object"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NI a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkIsolation/> ;
+    skos:definition "Network Isolation techniques prevent network hosts from accessing non-essential system network resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NI" ;
+    skos:prefLabel "Network Isolation"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-OSM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:OperatingSystemMonitoring/> ;
+    skos:broader d3fend:D3-PM ;
+    skos:definition "The operating system software, for D3FEND's purposes, includes the kernel and its process management functions, hardware drivers, initialization or boot logic. It also includes and other key system daemons and their configuration. The monitoring or analysis of these components for unauthorized activity constitute **Operating System Monitoring**."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-OSM" ;
+    skos:prefLabel "Operating System Monitoring"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ApplicationHardening/> ;
+    skos:definition "Application Hardening makes an executable application more resilient to a class of exploits which either introduce new code or execute unwanted existing code. These techniques may be applied at compile-time or on an application binary."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AH" ;
+    skos:prefLabel "Application Hardening"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-AMED a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:AccessMediation/> ;
+    skos:definition "Access mediation is the process of granting or denying specific requests to: 1) obtain and use information and related information processing services; and 2) enter specific physical facilities (e.g., Federal buildings, military establishments, border crossing entrances). Access mediation decisions should enforce least privilege by granting access for scoped durations to prevent privilege creep and, where applicable, implement just-in-time (JIT) access. Denial decisions may prevent initial access or terminate access that has already been granted, ensuring continuous enforcement of security policies."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-AMED" ;
+    skos:prefLabel "Access Mediation"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-SCH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:SourceCodeHardening/> ;
+    skos:definition "Hardening source code with the intention of making it more difficult to exploit and less error prone."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-SCH" ;
+    skos:prefLabel "Source Code Hardening"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:ProcessAnalysis/> ;
+    skos:definition "Process Analysis consists of observing a running application process and analyzing it to watch for certain behaviors or conditions which may indicate adversary activity. Analysis can occur inside of the process or through a third-party monitoring application. Examples include monitoring system and privileged calls, monitoring process initiation chains, and memory boundary allocations."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PA" ;
+    skos:prefLabel "Process Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PM a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PlatformMonitoring/> ;
+    skos:definition "Monitoring platform components such as operating systems software, hardware devices, or firmware."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PM" ;
+    skos:prefLabel "Platform Monitoring"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-PH a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:PlatformHardening/> ;
+    skos:definition """Hardening components of a Platform with the intention of making them more difficult to exploit.
+
+Platforms includes components such as:
+* BIOS UEFI Subsystems
+* Hardware security devices such as Trusted Platform Modules
+* Boot process logic or code
+* Kernel software components"""@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-PH" ;
+    skos:prefLabel "Platform Hardening"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-UBA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:UserBehaviorAnalysis/> ;
+    skos:definition "User behavior analytics (\"UBA\") as defined by Gartner, is a cybersecurity process about detection of insider threats, targeted attacks, and financial fraud. UBA solutions look at patterns of human behavior, and then apply algorithms and statistical analysis to detect meaningful anomalies from those patterns-anomalies that indicate potential threats.' Instead of tracking devices or security events, UBA tracks a system's users. Big data platforms are increasing UBA functionality by allowing them to analyze petabytes worth of data to detect insider threats and advanced persistent threats."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-UBA" ;
+    skos:prefLabel "User Behavior Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+d3fend:D3-NTA a skos:Concept ;
+    rdfs:seeAlso <https://d3fend.mitre.org/technique/d3f:NetworkTrafficAnalysis/> ;
+    skos:definition "Analyzing intercepted or summarized computer network traffic to detect unauthorized activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/d3fend> ;
+    skos:notation "D3-NTA" ;
+    skos:prefLabel "Network Traffic Analysis"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/d3fend> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "MITRE D3FEND 1.6.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
+<https://w3id.org/crgo/vocab/d3fend> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:license <https://opensource.org/licenses/MIT> ;
+    dcterms:publisher "The MITRE Corporation" ;
+    dcterms:rights "D3FEND (c) The MITRE Corporation, MIT licence."@en ;
+    dcterms:source "https://github.com/d3fend/d3fend-ontology (src/ontology/d3fend-protege.ttl, 2026-10-08)" ;
+    dcterms:title "MITRE D3FEND defensive techniques"@en,
+        "Techniques défensives MITRE D3FEND"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/d3fend> ;
+    owl:versionInfo "1.6.0" ;
+    skos:hasTopConcept d3fend:D3-AA,
+        d3fend:D3-AH,
+        d3fend:D3-AI,
+        d3fend:D3-AMED,
+        d3fend:D3-APA,
+        d3fend:D3-CE,
+        d3fend:D3-CF,
+        d3fend:D3-CH,
+        d3fend:D3-DE,
+        d3fend:D3-DO,
+        d3fend:D3-EI,
+        d3fend:D3-FA,
+        d3fend:D3-ID,
+        d3fend:D3-MA,
+        d3fend:D3-MH,
+        d3fend:D3-NI,
+        d3fend:D3-NM,
+        d3fend:D3-NTA,
+        d3fend:D3-OAM,
+        d3fend:D3-OE,
+        d3fend:D3-PA,
+        d3fend:D3-PE,
+        d3fend:D3-PH,
+        d3fend:D3-PHAM,
+        d3fend:D3-PM,
+        d3fend:D3-RA,
+        d3fend:D3-RFUM,
+        d3fend:D3-RO,
+        d3fend:D3-SCH,
+        d3fend:D3-SYSM,
+        d3fend:D3-UBA ;
+    skos:scopeNote "Defensive techniques; broader = parent technique; top concepts are D3FEND's tactics."@en .
+

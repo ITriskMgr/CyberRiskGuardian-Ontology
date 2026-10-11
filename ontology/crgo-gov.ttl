@@ -74,23 +74,6 @@ crgo:CRGO_0000065 a owl:NamedIndividual,
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- proposed
-crgo:CRGO_0000068 a owl:NamedIndividual,
-        crgo:CRGO_0000066 ;
-    rdfs:label "proposed"@en,
-        "proposé"@fr ;
-    skos:definition "Drafted and awaiting review by the domain expert."@en,
-        "Rédigé et en attente d'examen par l'expert du domaine."@fr ;
-    skos:inScheme crgo:CRGO_0000067 ;
-    skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
-
 # --- rejected
 crgo:CRGO_0000070 a owl:NamedIndividual,
         crgo:CRGO_0000066 ;
@@ -267,10 +250,22 @@ crgo:CRGO_0000292 a owl:AnnotationProperty ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
+# --- corroborated by
+crgo:CRGO_0000336 a owl:AnnotationProperty ;
+    rdfs:label "corroborated by"@en,
+        "corroboré par"@fr ;
+    skos:definition "Independent published source that supports the element, for example an expert mapping made by a third party; the value names the source and what it supports."@en,
+        "Source publiée et indépendante qui appuie l'élément, par exemple une correspondance établie par un tiers expert; la valeur nomme la source et ce qu'elle appuie."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.7.0" .
+
 crgo:crgo-gov a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.6.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.7.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
@@ -286,11 +281,28 @@ crgo:crgo-gov a owl:Ontology ;
     bibo:status "released" ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
-    owl:priorVersion <https://w3id.org/crgo/0.5.0/crgo-gov> ;
-    owl:versionIRI <https://w3id.org/crgo/0.6.0/crgo-gov> ;
-    owl:versionInfo "0.6.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.6.0/crgo-gov> ;
+    owl:versionIRI <https://w3id.org/crgo/0.7.0/crgo-gov> ;
+    owl:versionInfo "0.7.0" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
+
+# --- proposed
+crgo:CRGO_0000068 a owl:NamedIndividual,
+        crgo:CRGO_0000066 ;
+    rdfs:label "proposed"@en,
+        "proposé"@fr ;
+    skos:definition "Drafted and awaiting review by the domain expert."@en,
+        "Rédigé et en attente d'examen par l'expert du domaine."@fr ;
+    skos:inScheme crgo:CRGO_0000067 ;
+    skos:notation "1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" .
 
 dcterms:source a owl:AnnotationProperty .
 
@@ -362,6 +374,38 @@ crgo:CRGO_0000066 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
+# --- approved
+crgo:CRGO_0000069 a owl:NamedIndividual,
+        crgo:CRGO_0000066 ;
+    rdfs:label "approved"@en,
+        "approuvé"@fr ;
+    skos:definition "Explicitly approved by the domain expert."@en,
+        "Approuvé explicitement par l'expert du domaine."@fr ;
+    skos:inScheme crgo:CRGO_0000067 ;
+    skos:notation "2" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" .
+
+# --- Marc-André Léger
+crgo:CRGO_0000182 a owl:NamedIndividual,
+        cco:ont00001262 ;
+    rdfs:label "Marc-André Léger"@en,
+        "Marc-André Léger"@fr ;
+    skos:definition "Domain expert and approver of the ontology."@en,
+        "Expert du domaine et approbateur de l'ontologie."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" .
+
 # --- high confidence
 crgo:CRGO_0000063 a owl:NamedIndividual,
         crgo:CRGO_0000061 ;
@@ -380,44 +424,12 @@ crgo:CRGO_0000063 a owl:NamedIndividual,
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- approved
-crgo:CRGO_0000069 a owl:NamedIndividual,
-        crgo:CRGO_0000066 ;
-    rdfs:label "approved"@en,
-        "approuvé"@fr ;
-    skos:definition "Explicitly approved by the domain expert."@en,
-        "Approuvé explicitement par l'expert du domaine."@fr ;
-    skos:inScheme crgo:CRGO_0000067 ;
-    skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
-
 # --- Claude (Anthropic), drafting assistant
 crgo:CRGO_0000181 a owl:NamedIndividual ;
     rdfs:label "Claude (Anthropic), drafting assistant"@en,
         "Claude (Anthropic), assistant de rédaction"@fr ;
     skos:definition "AI system that drafted proposed elements of this ontology."@en,
         "Système d'IA qui a rédigé les éléments proposés de cette ontologie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
-
-# --- Marc-André Léger
-crgo:CRGO_0000182 a owl:NamedIndividual,
-        cco:ont00001262 ;
-    rdfs:label "Marc-André Léger"@en,
-        "Marc-André Léger"@fr ;
-    skos:definition "Domain expert and approver of the ontology."@en,
-        "Expert du domaine et approbateur de l'ontologie."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;

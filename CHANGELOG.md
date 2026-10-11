@@ -2,6 +2,23 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.7.0] — draft, not yet approved
+
+Public sources added to the ontology. All new links and cross-references are *proposed* until reviewed.
+
+### Added
+- Vocabularies: MITRE CWE (943 weaknesses, from D3FEND 1.6.0), MITRE D3FEND (270 defensive techniques), MITRE CAPEC (559 attack patterns), CISA KEV (1,739 actively exploited vulnerabilities). Sources, versions and licences in `NOTICE.md`.
+- `ontology/vocab/mappings.ttl`: 10,337 cross-references between vocabularies, each with its source, confidence and status: CAPEC→ATT&CK (270), CAPEC→CWE (1,212), ATT&CK→SP 800-53 from MITRE CTID (5,236), KEV→ATT&CK from CTID (1,183), KEV→CWE from CISA (1,616), ATT&CK→D3FEND judged for the 212 techniques the library uses (820).
+- CWE references on 590 scenarios (1,135 links, judged), carried by the scenario's weakness description.
+- 680 SP 800-53 links proposed from the CTID mapping, filtered to controls usual for the same techniques.
+- Corroboration: 2,152 existing SP 800-53 links carry `corroborated by` naming the CTID mapping that supports them. Within CTID's control families, 83% of high-, 74% of medium- and 54% of low-confidence links are corroborated.
+- New term, proposed: `corroborated by` (annotation property, crgo-gov).
+- Identification interface: scenario detail now lists CWE weaknesses, D3FEND countermeasures and KEV exploitation evidence (counts and ransomware use); controls show their corroboration.
+- Competency questions CQ21–CQ23 (proposed) on CWE, D3FEND and KEV.
+
+### Rejected during the work
+- Inferring ATT&CK→D3FEND from shared digital artifacts, D3FEND's own method, was tried in two variants and rejected after independent review (40-link samples: 14 correct, 15 weak, 11 wrong; then 16, 12, 12). Judged links replaced it (45-link sample: 28 correct, 16 weak, 1 wrong).
+
 ## [0.6.0] — 2026-10-10, approved
 
 ### Added

@@ -15,8 +15,13 @@
         <https://w3id.org/crgo/vocab/iso27002-2022>,
         <https://w3id.org/crgo/vocab/loi25>,
         <https://w3id.org/crgo/vocab/lrsss>,
+        <https://w3id.org/crgo/vocab/cwe>,
+        <https://w3id.org/crgo/vocab/d3fend>,
+        <https://w3id.org/crgo/vocab/capec>,
+        <https://w3id.org/crgo/vocab/kev>,
+        <https://w3id.org/crgo/vocab/mappings>,
         <https://w3id.org/crgo/vocab/sp800-53r5>,
         <https://w3id.org/crgo/vocab/theme> ;
-    owl:versionIRI <https://w3id.org/crgo/0.6.0/crgo-full> ;
-    owl:versionInfo "0.6.0" .
+    owl:versionIRI <https://w3id.org/crgo/0.7.0/crgo-full> ;
+    owl:versionInfo "0.7.0" .
 

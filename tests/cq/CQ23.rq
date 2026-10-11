@@ -1,0 +1,7 @@
+# CQ23 (Estimation, proposed 0.7.0)
+# Question: How many actively exploited vulnerabilities (CISA KEV) are mapped to each of the ten most used ATT&CK techniques of the library?
+# Expect: min_rows 5; contains technique=T1190
+SELECT ?technique (COUNT(DISTINCT ?k) AS ?kev) WHERE {
+  ?k skos:inScheme <https://w3id.org/crgo/vocab/kev> ; skos:relatedMatch ?t .
+  ?t skos:inScheme <https://w3id.org/crgo/vocab/attack> ; skos:notation ?technique .
+} GROUP BY ?technique ORDER BY DESC(?kev) LIMIT 10

@@ -217,7 +217,7 @@ ccm41:UEM a skos:Concept ;
     dcterms:source "see data/frameworks/ccm41_domains.tsv" ;
     dcterms:title "CSA Cloud Controls Matrix v4.1 domains"@en,
         "Domaines de la Cloud Controls Matrix v4.1 de la CSA"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.6.0/ccm41> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/ccm41> ;
     owl:versionInfo "4.1 (January 2026)" ;
     skos:hasTopConcept ccm41:AIS,
         ccm41:AandA,

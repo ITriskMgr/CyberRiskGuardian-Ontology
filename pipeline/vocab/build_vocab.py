@@ -26,7 +26,7 @@ RAW = os.path.join(ROOT, "data", "raw")
 FW = os.path.join(ROOT, "data", "frameworks")
 OUT = os.path.join(ROOT, "ontology", "vocab")
 RETRIEVED = "2026-10-08"
-VERSION = "0.6.0"
+VERSION = "0.7.0"
 CONF = {"H": C("ConfHigh"), "M": C("ConfMedium"), "L": C("ConfLow")}
 APPROVALS = {}
 for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
@@ -85,7 +85,7 @@ class Scheme:
             g.add((c, RDFS.seeAlso, URIRef(see_also)))
         if note:
             g.add((c, SKOS.note, Literal(note, lang="en")))
-        a = APPROVALS.get("%s/%s" % (self.key, notation))
+        a = APPROVALS.get("%s/%s" % (self.key, notation)) or APPROVALS.get("%s/*" % self.key)  # whole-vocabulary approval
         if a and a[0] == "Approve":
             g.add((c, C("governanceStatus"), C("StatusApproved")))
             g.add((c, C("approvedBy"), C("Agent" + a[1])))

@@ -1,0 +1,8 @@
+# CQ21 (Identification, proposed 0.7.0)
+# Question: Which CWE weaknesses does a scenario's weakness involve, with confidence?
+# Expect: min_rows 1; contains notation=CWE-798
+SELECT DISTINCT ?scenario ?notation ?title ?confidence WHERE {
+  ?scenario rdfs:label ?n ; {{hasVulnerabilityDescription}} ?v . FILTER(CONTAINS(LCASE(STR(?n)), "default credentials"))
+  ?v {{hasExternalReference}} ?c . ?c skos:inScheme <https://w3id.org/crgo/vocab/cwe> ; skos:notation ?notation ; skos:prefLabel ?title .
+  ?ax a owl:Axiom ; owl:annotatedSource ?v ; owl:annotatedTarget ?c ; {{confidence}} ?conf . ?conf rdfs:label ?confidence FILTER(lang(?confidence) = "en")
+} ORDER BY ?notation

@@ -1,6 +1,6 @@
 # Using the CyberRiskGuardian Ontology (CRGO) — brief for AI agents
 
-CRGO is an OWL 2 ontology (BFO-2020) for cybersecurity risk assessment, aligned with CyberRiskGuardian (CRG). It holds 1,881 risk scenarios (library and teaching cases) linked to MITRE ATT&CK, NIST CSF 2.0, SP 800-53 Rev. 5, ISO/IEC 27002:2022, Québec's Loi 25 (P-39.1) and the Québec health-information act (R-22.1), with calibration estimates for the CRG v1.0c parameters. Labels and definitions in English and French.
+CRGO is an OWL 2 ontology (BFO-2020) for cybersecurity risk assessment, aligned with CyberRiskGuardian (CRG). It holds 1,881 risk scenarios (library and teaching cases) linked to MITRE ATT&CK, NIST CSF 2.0, SP 800-53 Rev. 5, ISO/IEC 27002:2022, Québec's Loi 25 (P-39.1) and the Québec health-information act (R-22.1), with calibration estimates for the CRG v1.0c parameters. From 0.7.0 it also carries MITRE CWE, CAPEC and D3FEND, the CISA KEV catalogue, and cross-references between them (ATT&CK→SP 800-53 from MITRE CTID). Labels and definitions in English and French.
 
 - Home and documentation: https://itriskmgr.github.io/CyberRiskGuardian-Ontology/
 - Repository: https://github.com/ITriskMgr/CyberRiskGuardian-Ontology (latest release: see Releases)
@@ -20,7 +20,7 @@ Replace `main` with a release tag (for example `v0.6.0`) to pin a version.
 ```json
 "crgo-ontology": { "command": "/absolute/path/to/python3", "args": ["/absolute/path/to/CyberRiskGuardian-Ontology/pipeline/mcp/crgo_server.py"] }
 ```
-Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (targeted filters), `crgo_scenario` (full detail of one scenario), `crgo_controls_for_technique`, `crgo_scenarios_for_control`, `crgo_list_values` (allowed filter values).
+Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (targeted filters), `crgo_scenario` (full detail of one scenario, including CWE weaknesses, D3FEND countermeasures and KEV exploitation evidence), `crgo_controls_for_technique`, `crgo_scenarios_for_control`, `crgo_list_values` (allowed filter values).
 
 ## Rules for using the results
 
@@ -29,6 +29,7 @@ Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (
 - **Every link carries a confidence (H/M/L) and a status.** *approved* = reviewed by the project owner (high and medium links); *proposed* = suggestion (low links, R-22.1 rule equivalents, scenarios F1812–F1814). Cite low/proposed links as suggestions only. Default filter `min_confidence="M"`.
 - **Sector bias.** The library is healthcare-worded; for other sectors, translate scenario names and check for missing sector risks (for example ATM malware). Combined risks (vendor × remote access, insider × fraud) may need targeted `crgo_identify` calls.
 - **Privacy law.** Loi 25 links assume a private-sector organisation (P-39.1); public bodies fall under A-2.1, which is not modelled yet.
+- **Exploitation evidence is not an inventory.** KEV counts show that a technique or weakness is actively exploited somewhere; they say nothing about the organisation's own systems.
 - **Never invent identifiers.** Use only ATT&CK, control and obligation IDs returned by the ontology; revoked ATT&CK IDs come back with their replacement.
 - **Evaluation hygiene.** When testing identification on a known case, pass `holdout=["<case key>"]` so the case's own scenarios are not returned.
 

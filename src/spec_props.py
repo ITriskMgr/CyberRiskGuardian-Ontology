@@ -152,4 +152,5 @@ ANNOTATION_PROPERTIES = [
 ("approvalDate", "approval date", "date d'approbation", "Date of approval.", "Date d'approbation."),
 ("introducedIn", "introduced in", "introduit dans", "Ontology version in which the element first appeared.", "Version de l'ontologie dans laquelle l'élément est apparu."),
 ("reviewNote", "review note", "note de révision", "Open question or comment for the reviewer.", "Question ouverte ou commentaire pour le réviseur."),
+("corroboratedBy", "corroborated by", "corroboré par", "Independent published source that supports the element, for example an expert mapping made by a third party; the value names the source and what it supports.", "Source publiée et indépendante qui appuie l'élément, par exemple une correspondance établie par un tiers expert; la valeur nomme la source et ce qu'elle appuie."),
 ]
