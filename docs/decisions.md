@@ -339,3 +339,12 @@ Built while the project owner was away ("Complete all the work now and proceed t
 - **Specification adaptations** listed in `docs/baseline/gap_analysis.md` section D (no thirteen-module split, no folder migration, no reified record per link, no single-scenario constraint on risk assessments, since a CRG assessment covers many scenarios).
 
 **Decision of the project owner (2026-10-11, 14:28).** 0.9.0 approved: the five term groups (138 terms), the 29 source records, the 11 legal instruments, all 19 applicability conditions including the 5 interpretive ones (option a), ADR-001 to ADR-006, the Sprint 1 test assets; opening the w3id.org pull request and publishing the release approved.
+
+## 18. GRCA specification and the remaining-gaps specification (2026-10-11)
+
+The project owner supplied *CRGO GRCA Audit: Claude Implementation Specification* (v1.0) and *CRGO Remaining Gaps: Claude Implementation Specification* (draft v1.0, 20 domain packages and a CRGO–CyberRiskGuardian DSS contract). Phase 0 of the first: `docs/baseline/grca_phase0.md`. **Decisions of the project owner (2026-10-11, 15:10):**
+- G1: the GRCA work is folded into 0.9.0 (no separate 0.10.0); the remaining-gaps work is also to be added to this version.
+- G2: three new modules, `crgo-governance`, `crgo-audit` (with remediation) and `crgo-assurance`; compliance additions in `crgo-grc`.
+- G3: the 0.9.0 control assessment is reused as the test execution, with who performed it (management, second line, internal audit, external assurer).
+- G4: all 3,715 SP 800-53A assessment objectives are imported.
+- G5: the project owner states that he is allowed to use the IIA, ISACA, ISO, COSO and AICPA texts and asked Claude to find them online.
