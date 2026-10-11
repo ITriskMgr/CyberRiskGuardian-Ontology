@@ -7,7 +7,7 @@ from rdflib import URIRef
 from rdflib.namespace import RDF, RDFS, OWL, SKOS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g = rdflib.Graph()
-for f in ["ontology/crgo.ttl"] + ["ontology/crgo-%s.ttl" % m for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping")]:
+for f in ["ontology/crgo.ttl"] + ["ontology/crgo-%s.ttl" % m for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident")]:
     g.parse(os.path.join(ROOT, f))
 umb = URIRef("https://w3id.org/crgo/crgo")
 for o in list(g.subjects(RDF.type, OWL.Ontology)):
