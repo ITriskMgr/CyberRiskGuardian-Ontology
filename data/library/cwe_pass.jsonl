@@ -1,0 +1,824 @@
+{"family": "F0018", "cwe": [{"id": "CWE-308", "c": "H"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F0019", "cwe": [{"id": "CWE-285", "c": "H"}, {"id": "CWE-1220", "c": "M"}], "note": ""}
+{"family": "F0022", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1391", "c": "H"}], "note": ""}
+{"family": "F0025", "cwe": [{"id": "CWE-287", "c": "H"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F0031", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F0032", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F0035", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "H"}], "note": ""}
+{"family": "F0036", "cwe": [{"id": "CWE-308", "c": "H"}], "note": ""}
+{"family": "F0038", "cwe": [{"id": "CWE-285", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0039", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-862", "c": "L"}], "note": ""}
+{"family": "F0045", "cwe": [{"id": "CWE-1004", "c": "M"}, {"id": "CWE-614", "c": "M"}, {"id": "CWE-613", "c": "L"}], "note": ""}
+{"family": "F0048", "cwe": [{"id": "CWE-286", "c": "M"}, {"id": "CWE-672", "c": "L"}], "note": ""}
+{"family": "F0049", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F0050", "cwe": [{"id": "CWE-347", "c": "M"}, {"id": "CWE-287", "c": "M"}, {"id": "CWE-345", "c": "L"}], "note": ""}
+{"family": "F0054", "cwe": [{"id": "CWE-286", "c": "L"}], "note": ""}
+{"family": "F0055", "cwe": [], "note": ""}
+{"family": "F0056", "cwe": [{"id": "CWE-1390", "c": "H"}, {"id": "CWE-287", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0060", "cwe": [{"id": "CWE-942", "c": "H"}, {"id": "CWE-346", "c": "M"}], "note": ""}
+{"family": "F0061", "cwe": [{"id": "CWE-1390", "c": "H"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F0062", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F0068", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F0072", "cwe": [{"id": "CWE-269", "c": "H"}, {"id": "CWE-250", "c": "M"}], "note": ""}
+{"family": "F0075", "cwe": [{"id": "CWE-306", "c": "H"}, {"id": "CWE-1188", "c": "M"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F0086", "cwe": [{"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F0089", "cwe": [{"id": "CWE-1104", "c": "L"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F0102", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "M"}, {"id": "CWE-916", "c": "L"}], "note": ""}
+{"family": "F0106", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1391", "c": "H"}], "note": ""}
+{"family": "F0116", "cwe": [{"id": "CWE-308", "c": "H"}, {"id": "CWE-307", "c": "M"}], "note": ""}
+{"family": "F0117", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "M"}, {"id": "CWE-1391", "c": "M"}], "note": ""}
+{"family": "F0121", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1391", "c": "M"}], "note": ""}
+{"family": "F0123", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "M"}], "note": ""}
+{"family": "F0138", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-308", "c": "H"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0139", "cwe": [{"id": "CWE-1391", "c": "H"}, {"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0140", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1391", "c": "H"}], "note": ""}
+{"family": "F0141", "cwe": [{"id": "CWE-284", "c": "H"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F0145", "cwe": [{"id": "CWE-308", "c": "H"}], "note": ""}
+{"family": "F0150", "cwe": [{"id": "CWE-269", "c": "H"}, {"id": "CWE-732", "c": "M"}, {"id": "CWE-250", "c": "M"}], "note": ""}
+{"family": "F0151", "cwe": [], "note": "Continuous validation gap; no specific weakness named or implied."}
+{"family": "F0152", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-732", "c": "M"}], "note": ""}
+{"family": "F0153", "cwe": [{"id": "CWE-324", "c": "M"}, {"id": "CWE-262", "c": "L"}], "note": ""}
+{"family": "F0154", "cwe": [{"id": "CWE-269", "c": "H"}, {"id": "CWE-250", "c": "M"}], "note": ""}
+{"family": "F0155", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F0156", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0157", "cwe": [{"id": "CWE-287", "c": "H"}, {"id": "CWE-1390", "c": "M"}], "note": ""}
+{"family": "F0158", "cwe": [{"id": "CWE-1220", "c": "M"}, {"id": "CWE-654", "c": "M"}], "note": ""}
+{"family": "F0159", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-863", "c": "L"}], "note": ""}
+{"family": "F0160", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0161", "cwe": [{"id": "CWE-434", "c": "M"}, {"id": "CWE-94", "c": "L"}], "note": ""}
+{"family": "F0162", "cwe": [{"id": "CWE-89", "c": "H"}, {"id": "CWE-943", "c": "M"}], "note": ""}
+{"family": "F0163", "cwe": [{"id": "CWE-598", "c": "H"}], "note": ""}
+{"family": "F0164", "cwe": [{"id": "CWE-770", "c": "H"}, {"id": "CWE-307", "c": "M"}, {"id": "CWE-799", "c": "M"}], "note": ""}
+{"family": "F0165", "cwe": [{"id": "CWE-20", "c": "H"}], "note": ""}
+{"family": "F0166", "cwe": [{"id": "CWE-710", "c": "M"}], "note": ""}
+{"family": "F0167", "cwe": [], "note": ""}
+{"family": "F0168", "cwe": [], "note": ""}
+{"family": "F0169", "cwe": [], "note": ""}
+{"family": "F0170", "cwe": [{"id": "CWE-494", "c": "H"}, {"id": "CWE-347", "c": "M"}], "note": ""}
+{"family": "F0171", "cwe": [{"id": "CWE-798", "c": "M"}, {"id": "CWE-540", "c": "M"}, {"id": "CWE-494", "c": "L"}], "note": ""}
+{"family": "F0172", "cwe": [{"id": "CWE-710", "c": "M"}], "note": ""}
+{"family": "F0173", "cwe": [{"id": "CWE-527", "c": "L"}, {"id": "CWE-540", "c": "L"}], "note": ""}
+{"family": "F0174", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F0175", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-276", "c": "M"}], "note": ""}
+{"family": "F0176", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0177", "cwe": [{"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0178", "cwe": [{"id": "CWE-1230", "c": "H"}, {"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F0179", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}, {"id": "CWE-829", "c": "M"}], "note": ""}
+{"family": "F0180", "cwe": [{"id": "CWE-862", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0181", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0182", "cwe": [{"id": "CWE-639", "c": "H"}, {"id": "CWE-566", "c": "M"}], "note": ""}
+{"family": "F0183", "cwe": [{"id": "CWE-1230", "c": "H"}, {"id": "CWE-212", "c": "M"}], "note": ""}
+{"family": "F0184", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F0185", "cwe": [], "note": ""}
+{"family": "F0186", "cwe": [{"id": "CWE-862", "c": "M"}, {"id": "CWE-732", "c": "M"}], "note": ""}
+{"family": "F0187", "cwe": [{"id": "CWE-862", "c": "M"}, {"id": "CWE-353", "c": "L"}], "note": ""}
+{"family": "F0188", "cwe": [{"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F0189", "cwe": [{"id": "CWE-311", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0190", "cwe": [{"id": "CWE-613", "c": "H"}], "note": ""}
+{"family": "F0191", "cwe": [{"id": "CWE-863", "c": "M"}, {"id": "CWE-269", "c": "L"}], "note": ""}
+{"family": "F0192", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-285", "c": "L"}], "note": ""}
+{"family": "F0193", "cwe": [], "note": ""}
+{"family": "F0194", "cwe": [], "note": ""}
+{"family": "F0195", "cwe": [], "note": ""}
+{"family": "F0196", "cwe": [{"id": "CWE-798", "c": "H"}, {"id": "CWE-540", "c": "H"}], "note": ""}
+{"family": "F0197", "cwe": [{"id": "CWE-269", "c": "H"}, {"id": "CWE-1220", "c": "M"}], "note": ""}
+{"family": "F0198", "cwe": [{"id": "CWE-20", "c": "H"}, {"id": "CWE-1286", "c": "M"}], "note": ""}
+{"family": "F0199", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0200", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0201", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-924", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F0202", "cwe": [], "note": ""}
+{"family": "F0203", "cwe": [], "note": ""}
+{"family": "F0204", "cwe": [], "note": ""}
+{"family": "F0205", "cwe": [], "note": ""}
+{"family": "F0206", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F0207", "cwe": [{"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F0208", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F0209", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0210", "cwe": [{"id": "CWE-311", "c": "M"}, {"id": "CWE-319", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F0211", "cwe": [], "note": ""}
+{"family": "F0212", "cwe": [{"id": "CWE-943", "c": "M"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F0213", "cwe": [{"id": "CWE-862", "c": "M"}, {"id": "CWE-202", "c": "M"}], "note": ""}
+{"family": "F0214", "cwe": [{"id": "CWE-506", "c": "M"}, {"id": "CWE-1357", "c": "L"}], "note": ""}
+{"family": "F0215", "cwe": [{"id": "CWE-506", "c": "M"}, {"id": "CWE-494", "c": "M"}], "note": ""}
+{"family": "F0216", "cwe": [{"id": "CWE-1263", "c": "M"}], "note": ""}
+{"family": "F0217", "cwe": [], "note": ""}
+{"family": "F0218", "cwe": [], "note": "Social-engineering lure; no product weakness named or implied."}
+{"family": "F0219", "cwe": [{"id": "CWE-799", "c": "H"}, {"id": "CWE-770", "c": "M"}, {"id": "CWE-837", "c": "L"}], "note": ""}
+{"family": "F0220", "cwe": [{"id": "CWE-345", "c": "M"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F0221", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0222", "cwe": [], "note": ""}
+{"family": "F0223", "cwe": [], "note": ""}
+{"family": "F0224", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0225", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-552", "c": "L"}], "note": ""}
+{"family": "F0226", "cwe": [], "note": ""}
+{"family": "F0227", "cwe": [{"id": "CWE-799", "c": "M"}, {"id": "CWE-770", "c": "L"}], "note": ""}
+{"family": "F0228", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0229", "cwe": [{"id": "CWE-710", "c": "M"}], "note": ""}
+{"family": "F0230", "cwe": [], "note": ""}
+{"family": "F0231", "cwe": [{"id": "CWE-656", "c": "L"}], "note": "Ambiguous: attacker obfuscation versus reliance on obscurity; weak link."}
+{"family": "F0232", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-295", "c": "M"}, {"id": "CWE-924", "c": "L"}], "note": ""}
+{"family": "F0233", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0234", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0235", "cwe": [], "note": ""}
+{"family": "F0236", "cwe": [], "note": ""}
+{"family": "F0237", "cwe": [], "note": ""}
+{"family": "F0238", "cwe": [], "note": ""}
+{"family": "F0239", "cwe": [], "note": ""}
+{"family": "F0240", "cwe": [], "note": ""}
+{"family": "F0241", "cwe": [], "note": ""}
+{"family": "F0242", "cwe": [], "note": ""}
+{"family": "F0243", "cwe": [], "note": ""}
+{"family": "F0244", "cwe": [{"id": "CWE-638", "c": "M"}, {"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F0245", "cwe": [{"id": "CWE-1120", "c": "L"}], "note": ""}
+{"family": "F0246", "cwe": [{"id": "CWE-657", "c": "H"}], "note": ""}
+{"family": "F0247", "cwe": [], "note": "Generic code review process gap; no specific weakness implied."}
+{"family": "F0248", "cwe": [], "note": "Testing process gap; no specific weakness implied."}
+{"family": "F0249", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}, {"id": "CWE-829", "c": "L"}], "note": ""}
+{"family": "F0250", "cwe": [], "note": "Generic secure coding gap; any coding weakness possible."}
+{"family": "F0251", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F0252", "cwe": [], "note": ""}
+{"family": "F0253", "cwe": [{"id": "CWE-1357", "c": "H"}, {"id": "CWE-1395", "c": "M"}, {"id": "CWE-829", "c": "M"}], "note": ""}
+{"family": "F0254", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0255", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0256", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0257", "cwe": [], "note": "Zero-day; exploited weakness unspecified."}
+{"family": "F0258", "cwe": [{"id": "CWE-94", "c": "M"}, {"id": "CWE-502", "c": "L"}, {"id": "CWE-78", "c": "L"}], "note": ""}
+{"family": "F0259", "cwe": [], "note": "DNS account takeover via phishing; no product weakness named."}
+{"family": "F0260", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-94", "c": "M"}, {"id": "CWE-79", "c": "L"}], "note": ""}
+{"family": "F0261", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0262", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0263", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0264", "cwe": [{"id": "CWE-79", "c": "H"}], "note": ""}
+{"family": "F0265", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0266", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F0267", "cwe": [], "note": "Zero-day; exploited weakness unspecified."}
+{"family": "F0268", "cwe": [{"id": "CWE-943", "c": "H"}, {"id": "CWE-89", "c": "M"}], "note": ""}
+{"family": "F0269", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-521", "c": "M"}], "note": ""}
+{"family": "F0270", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0271", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0272", "cwe": [{"id": "CWE-1395", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0273", "cwe": [{"id": "CWE-830", "c": "M"}], "note": "Third-party ad scripts included from untrusted source."}
+{"family": "F0274", "cwe": [{"id": "CWE-91", "c": "M"}, {"id": "CWE-74", "c": "M"}, {"id": "CWE-611", "c": "L"}], "note": ""}
+{"family": "F0275", "cwe": [{"id": "CWE-300", "c": "M"}, {"id": "CWE-319", "c": "M"}, {"id": "CWE-295", "c": "M"}], "note": ""}
+{"family": "F0276", "cwe": [{"id": "CWE-770", "c": "H"}, {"id": "CWE-799", "c": "M"}], "note": ""}
+{"family": "F0277", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F0278", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-922", "c": "L"}], "note": ""}
+{"family": "F0281", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-311", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0284", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}, {"id": "CWE-522", "c": "L"}], "note": ""}
+{"family": "F0285", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-922", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0286", "cwe": [{"id": "CWE-1188", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0290", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F0291", "cwe": [{"id": "CWE-732", "c": "L"}, {"id": "CWE-250", "c": "L"}], "note": ""}
+{"family": "F0292", "cwe": [{"id": "CWE-1188", "c": "M"}, {"id": "CWE-306", "c": "L"}, {"id": "CWE-250", "c": "L"}], "note": ""}
+{"family": "F0294", "cwe": [], "note": ""}
+{"family": "F0295", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0296", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0298", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0299", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-506", "c": "L"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F0300", "cwe": [{"id": "CWE-653", "c": "H"}, {"id": "CWE-250", "c": "L"}], "note": ""}
+{"family": "F0302", "cwe": [{"id": "CWE-312", "c": "M"}, {"id": "CWE-321", "c": "M"}, {"id": "CWE-922", "c": "M"}], "note": ""}
+{"family": "F0303", "cwe": [], "note": ""}
+{"family": "F0304", "cwe": [{"id": "CWE-20", "c": "M"}, {"id": "CWE-345", "c": "M"}], "note": ""}
+{"family": "F0305", "cwe": [], "note": ""}
+{"family": "F0312", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-319", "c": "M"}], "note": ""}
+{"family": "F0313", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0319", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F0320", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-732", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0324", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F0325", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F0326", "cwe": [{"id": "CWE-770", "c": "H"}, {"id": "CWE-799", "c": "M"}], "note": ""}
+{"family": "F0327", "cwe": [{"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F0328", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F0330", "cwe": [{"id": "CWE-312", "c": "M"}, {"id": "CWE-922", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0331", "cwe": [{"id": "CWE-532", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F0332", "cwe": [{"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0333", "cwe": [{"id": "CWE-922", "c": "L"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0335", "cwe": [{"id": "CWE-286", "c": "L"}], "note": ""}
+{"family": "F0337", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0338", "cwe": [{"id": "CWE-250", "c": "M"}, {"id": "CWE-732", "c": "M"}, {"id": "CWE-862", "c": "L"}], "note": ""}
+{"family": "F0339", "cwe": [{"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F0342", "cwe": [], "note": ""}
+{"family": "F0344", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-311", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0345", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F0346", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F0350", "cwe": [{"id": "CWE-653", "c": "H"}, {"id": "CWE-250", "c": "L"}], "note": ""}
+{"family": "F0351", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F0353", "cwe": [{"id": "CWE-653", "c": "H"}], "note": ""}
+{"family": "F0354", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0355", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0356", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0360", "cwe": [], "note": ""}
+{"family": "F0361", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0362", "cwe": [], "note": ""}
+{"family": "F0363", "cwe": [], "note": ""}
+{"family": "F0364", "cwe": [], "note": ""}
+{"family": "F0365", "cwe": [], "note": ""}
+{"family": "F0368", "cwe": [], "note": ""}
+{"family": "F0369", "cwe": [], "note": ""}
+{"family": "F0370", "cwe": [], "note": ""}
+{"family": "F0371", "cwe": [], "note": ""}
+{"family": "F0378", "cwe": [], "note": ""}
+{"family": "F0379", "cwe": [], "note": ""}
+{"family": "F0380", "cwe": [], "note": ""}
+{"family": "F0381", "cwe": [], "note": ""}
+{"family": "F0382", "cwe": [], "note": ""}
+{"family": "F0383", "cwe": [], "note": ""}
+{"family": "F0386", "cwe": [], "note": ""}
+{"family": "F0387", "cwe": [], "note": ""}
+{"family": "F0388", "cwe": [], "note": ""}
+{"family": "F0395", "cwe": [], "note": ""}
+{"family": "F0396", "cwe": [], "note": ""}
+{"family": "F0400", "cwe": [], "note": ""}
+{"family": "F0401", "cwe": [], "note": ""}
+{"family": "F0402", "cwe": [], "note": ""}
+{"family": "F0403", "cwe": [], "note": ""}
+{"family": "F0404", "cwe": [], "note": ""}
+{"family": "F0407", "cwe": [], "note": ""}
+{"family": "F0408", "cwe": [], "note": ""}
+{"family": "F0409", "cwe": [], "note": ""}
+{"family": "F0410", "cwe": [], "note": ""}
+{"family": "F0411", "cwe": [], "note": ""}
+{"family": "F0412", "cwe": [], "note": ""}
+{"family": "F0413", "cwe": [], "note": ""}
+{"family": "F0414", "cwe": [], "note": ""}
+{"family": "F0415", "cwe": [], "note": ""}
+{"family": "F0416", "cwe": [], "note": ""}
+{"family": "F0417", "cwe": [], "note": ""}
+{"family": "F0421", "cwe": [], "note": ""}
+{"family": "F0422", "cwe": [], "note": ""}
+{"family": "F0423", "cwe": [], "note": ""}
+{"family": "F0424", "cwe": [], "note": ""}
+{"family": "F0426", "cwe": [], "note": ""}
+{"family": "F0427", "cwe": [], "note": ""}
+{"family": "F0428", "cwe": [], "note": ""}
+{"family": "F0430", "cwe": [], "note": ""}
+{"family": "F0431", "cwe": [], "note": ""}
+{"family": "F0432", "cwe": [], "note": ""}
+{"family": "F0433", "cwe": [], "note": ""}
+{"family": "F0434", "cwe": [], "note": ""}
+{"family": "F0435", "cwe": [], "note": ""}
+{"family": "F0438", "cwe": [], "note": ""}
+{"family": "F0439", "cwe": [], "note": ""}
+{"family": "F0441", "cwe": [], "note": ""}
+{"family": "F0442", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-212", "c": "M"}], "note": ""}
+{"family": "F0443", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0444", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}, {"id": "CWE-326", "c": "M"}], "note": ""}
+{"family": "F0445", "cwe": [{"id": "CWE-916", "c": "H"}, {"id": "CWE-759", "c": "M"}, {"id": "CWE-328", "c": "M"}], "note": ""}
+{"family": "F0446", "cwe": [{"id": "CWE-1300", "c": "M"}, {"id": "CWE-208", "c": "M"}], "note": ""}
+{"family": "F0447", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-522", "c": "L"}], "note": ""}
+{"family": "F0448", "cwe": [{"id": "CWE-327", "c": "H"}, {"id": "CWE-757", "c": "L"}], "note": ""}
+{"family": "F0449", "cwe": [{"id": "CWE-510", "c": "M"}, {"id": "CWE-912", "c": "M"}, {"id": "CWE-327", "c": "L"}], "note": ""}
+{"family": "F0450", "cwe": [{"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F0451", "cwe": [{"id": "CWE-327", "c": "H"}, {"id": "CWE-326", "c": "M"}], "note": ""}
+{"family": "F0452", "cwe": [], "note": "Performance issue rather than a security weakness."}
+{"family": "F0453", "cwe": [{"id": "CWE-202", "c": "H"}], "note": ""}
+{"family": "F0454", "cwe": [{"id": "CWE-202", "c": "M"}, {"id": "CWE-359", "c": "M"}], "note": ""}
+{"family": "F0455", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F0456", "cwe": [{"id": "CWE-212", "c": "M"}, {"id": "CWE-359", "c": "M"}], "note": ""}
+{"family": "F0457", "cwe": [{"id": "CWE-202", "c": "M"}, {"id": "CWE-212", "c": "M"}], "note": ""}
+{"family": "F0458", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-319", "c": "H"}, {"id": "CWE-312", "c": "H"}], "note": ""}
+{"family": "F0459", "cwe": [{"id": "CWE-212", "c": "M"}, {"id": "CWE-359", "c": "L"}], "note": ""}
+{"family": "F0460", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0461", "cwe": [{"id": "CWE-312", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0462", "cwe": [{"id": "CWE-347", "c": "M"}, {"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F0463", "cwe": [{"id": "CWE-295", "c": "H"}, {"id": "CWE-347", "c": "M"}], "note": ""}
+{"family": "F0464", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-522", "c": "M"}, {"id": "CWE-321", "c": "L"}], "note": ""}
+{"family": "F0465", "cwe": [{"id": "CWE-308", "c": "H"}], "note": ""}
+{"family": "F0466", "cwe": [{"id": "CWE-522", "c": "M"}, {"id": "CWE-308", "c": "L"}, {"id": "CWE-285", "c": "L"}], "note": ""}
+{"family": "F0467", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0468", "cwe": [{"id": "CWE-521", "c": "M"}, {"id": "CWE-916", "c": "M"}, {"id": "CWE-326", "c": "M"}], "note": ""}
+{"family": "F0469", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-552", "c": "M"}, {"id": "CWE-522", "c": "L"}], "note": ""}
+{"family": "F0470", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-324", "c": "L"}, {"id": "CWE-321", "c": "L"}], "note": ""}
+{"family": "F0471", "cwe": [{"id": "CWE-312", "c": "L"}], "note": ""}
+{"family": "F0472", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-522", "c": "L"}], "note": ""}
+{"family": "F0473", "cwe": [{"id": "CWE-326", "c": "H"}], "note": ""}
+{"family": "F0474", "cwe": [{"id": "CWE-327", "c": "H"}], "note": ""}
+{"family": "F0475", "cwe": [{"id": "CWE-326", "c": "M"}, {"id": "CWE-327", "c": "L"}, {"id": "CWE-522", "c": "L"}], "note": ""}
+{"family": "F0476", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0477", "cwe": [], "note": "Exfiltration technique; no specific weakness in the victim system named."}
+{"family": "F0478", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F0479", "cwe": [{"id": "CWE-327", "c": "L"}], "note": ""}
+{"family": "F0480", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1395", "c": "M"}, {"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F0481", "cwe": [{"id": "CWE-327", "c": "H"}], "note": ""}
+{"family": "F0482", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-295", "c": "L"}], "note": ""}
+{"family": "F0483", "cwe": [{"id": "CWE-347", "c": "M"}, {"id": "CWE-327", "c": "L"}], "note": ""}
+{"family": "F0484", "cwe": [{"id": "CWE-312", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0485", "cwe": [{"id": "CWE-312", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0486", "cwe": [{"id": "CWE-494", "c": "M"}, {"id": "CWE-347", "c": "M"}], "note": ""}
+{"family": "F0487", "cwe": [{"id": "CWE-326", "c": "M"}, {"id": "CWE-327", "c": "M"}, {"id": "CWE-319", "c": "M"}], "note": ""}
+{"family": "F0488", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "H"}], "note": ""}
+{"family": "F0489", "cwe": [{"id": "CWE-922", "c": "H"}, {"id": "CWE-312", "c": "M"}, {"id": "CWE-321", "c": "L"}], "note": ""}
+{"family": "F0490", "cwe": [{"id": "CWE-298", "c": "M"}, {"id": "CWE-295", "c": "L"}], "note": ""}
+{"family": "F0491", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0492", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0493", "cwe": [{"id": "CWE-326", "c": "H"}, {"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F0497", "cwe": [{"id": "CWE-285", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F0506", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-212", "c": "M"}], "note": ""}
+{"family": "F0507", "cwe": [{"id": "CWE-922", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F0509", "cwe": [{"id": "CWE-359", "c": "L"}], "note": ""}
+{"family": "F0510", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0512", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0515", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0516", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0518", "cwe": [], "note": ""}
+{"family": "F0521", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F0523", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "H"}], "note": ""}
+{"family": "F0524", "cwe": [{"id": "CWE-326", "c": "H"}, {"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F0534", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0542", "cwe": [], "note": ""}
+{"family": "F0551", "cwe": [{"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F0552", "cwe": [], "note": ""}
+{"family": "F0553", "cwe": [], "note": ""}
+{"family": "F0555", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0558", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F0564", "cwe": [], "note": ""}
+{"family": "F0567", "cwe": [{"id": "CWE-922", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F0570", "cwe": [], "note": "Management-process gap; no specific technical weakness named."}
+{"family": "F0572", "cwe": [{"id": "CWE-1230", "c": "H"}, {"id": "CWE-212", "c": "M"}], "note": ""}
+{"family": "F0573", "cwe": [], "note": ""}
+{"family": "F0575", "cwe": [{"id": "CWE-326", "c": "H"}, {"id": "CWE-327", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0578", "cwe": [{"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0579", "cwe": [], "note": ""}
+{"family": "F0589", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1390", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0590", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-285", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0594", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F0599", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-311", "c": "M"}, {"id": "CWE-552", "c": "L"}], "note": ""}
+{"family": "F0601", "cwe": [{"id": "CWE-530", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0604", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F0607", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F0608", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}, {"id": "CWE-530", "c": "L"}], "note": ""}
+{"family": "F0610", "cwe": [{"id": "CWE-507", "c": "M"}], "note": ""}
+{"family": "F0613", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-552", "c": "M"}], "note": ""}
+{"family": "F0616", "cwe": [{"id": "CWE-20", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0626", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F0630", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-521", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F0644", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}, {"id": "CWE-1390", "c": "M"}], "note": ""}
+{"family": "F0645", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0649", "cwe": [{"id": "CWE-313", "c": "H"}, {"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0651", "cwe": [{"id": "CWE-313", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0652", "cwe": [], "note": ""}
+{"family": "F0657", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F0658", "cwe": [{"id": "CWE-313", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0659", "cwe": [{"id": "CWE-313", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0661", "cwe": [{"id": "CWE-530", "c": "M"}, {"id": "CWE-732", "c": "M"}], "note": ""}
+{"family": "F0663", "cwe": [{"id": "CWE-311", "c": "M"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0667", "cwe": [{"id": "CWE-285", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-639", "c": "L"}], "note": ""}
+{"family": "F0668", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0669", "cwe": [], "note": "Resilience/architecture gap; no CWE weakness applies."}
+{"family": "F0677", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F0678", "cwe": [{"id": "CWE-770", "c": "H"}, {"id": "CWE-799", "c": "M"}, {"id": "CWE-400", "c": "M"}], "note": ""}
+{"family": "F0681", "cwe": [], "note": ""}
+{"family": "F0686", "cwe": [], "note": "Resilience/architecture gap; no CWE weakness applies."}
+{"family": "F0687", "cwe": [], "note": ""}
+{"family": "F0689", "cwe": [{"id": "CWE-345", "c": "M"}, {"id": "CWE-290", "c": "L"}], "note": ""}
+{"family": "F0690", "cwe": [{"id": "CWE-1293", "c": "M"}], "note": ""}
+{"family": "F0718", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0720", "cwe": [{"id": "CWE-922", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F0722", "cwe": [], "note": "Audit-process gap; specific smart-contract flaws not named."}
+{"family": "F0723", "cwe": [{"id": "CWE-522", "c": "M"}, {"id": "CWE-922", "c": "M"}, {"id": "CWE-321", "c": "L"}], "note": ""}
+{"family": "F0727", "cwe": [], "note": ""}
+{"family": "F0728", "cwe": [{"id": "CWE-1426", "c": "M"}], "note": ""}
+{"family": "F0730", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0732", "cwe": [], "note": ""}
+{"family": "F0739", "cwe": [{"id": "CWE-1265", "c": "L"}, {"id": "CWE-190", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0740", "cwe": [], "note": ""}
+{"family": "F0743", "cwe": [], "note": ""}
+{"family": "F0744", "cwe": [], "note": ""}
+{"family": "F0750", "cwe": [{"id": "CWE-1039", "c": "M"}], "note": ""}
+{"family": "F0751", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}, {"id": "CWE-502", "c": "L"}], "note": ""}
+{"family": "F0753", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0754", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0756", "cwe": [], "note": "Performance monitoring gap; no CWE weakness applies."}
+{"family": "F0757", "cwe": [{"id": "CWE-653", "c": "H"}], "note": ""}
+{"family": "F0761", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0764", "cwe": [{"id": "CWE-327", "c": "L"}, {"id": "CWE-326", "c": "L"}], "note": ""}
+{"family": "F0765", "cwe": [], "note": ""}
+{"family": "F0766", "cwe": [{"id": "CWE-327", "c": "H"}, {"id": "CWE-1240", "c": "M"}], "note": ""}
+{"family": "F0767", "cwe": [{"id": "CWE-322", "c": "M"}, {"id": "CWE-1300", "c": "L"}], "note": ""}
+{"family": "F0772", "cwe": [{"id": "CWE-327", "c": "M"}, {"id": "CWE-326", "c": "M"}], "note": ""}
+{"family": "F0773", "cwe": [], "note": ""}
+{"family": "F0774", "cwe": [], "note": ""}
+{"family": "F0778", "cwe": [{"id": "CWE-359", "c": "M"}, {"id": "CWE-671", "c": "L"}], "note": ""}
+{"family": "F0783", "cwe": [], "note": ""}
+{"family": "F0784", "cwe": [], "note": "DLP coverage gap is a control absence, not a product weakness."}
+{"family": "F0786", "cwe": [], "note": "Missing detection capability; no software weakness named."}
+{"family": "F0787", "cwe": [], "note": "Media usage-control gap; no specific product weakness named."}
+{"family": "F0794", "cwe": [], "note": "Device-management control gap; no specific product weakness named."}
+{"family": "F0798", "cwe": [{"id": "CWE-226", "c": "M"}, {"id": "CWE-1266", "c": "M"}], "note": ""}
+{"family": "F0799", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-494", "c": "L"}], "note": ""}
+{"family": "F0802", "cwe": [{"id": "CWE-829", "c": "L"}], "note": ""}
+{"family": "F0807", "cwe": [], "note": ""}
+{"family": "F0813", "cwe": [], "note": ""}
+{"family": "F0814", "cwe": [], "note": ""}
+{"family": "F0815", "cwe": [], "note": ""}
+{"family": "F0816", "cwe": [], "note": ""}
+{"family": "F0818", "cwe": [], "note": ""}
+{"family": "F0819", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F0824", "cwe": [], "note": ""}
+{"family": "F0825", "cwe": [], "note": ""}
+{"family": "F0827", "cwe": [], "note": ""}
+{"family": "F0841", "cwe": [{"id": "CWE-286", "c": "M"}, {"id": "CWE-672", "c": "L"}], "note": ""}
+{"family": "F0848", "cwe": [], "note": ""}
+{"family": "F0850", "cwe": [], "note": ""}
+{"family": "F0852", "cwe": [], "note": ""}
+{"family": "F0853", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F0857", "cwe": [{"id": "CWE-532", "c": "L"}], "note": ""}
+{"family": "F0858", "cwe": [{"id": "CWE-640", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F0862", "cwe": [], "note": ""}
+{"family": "F0863", "cwe": [], "note": ""}
+{"family": "F0865", "cwe": [], "note": ""}
+{"family": "F0866", "cwe": [{"id": "CWE-286", "c": "M"}, {"id": "CWE-672", "c": "L"}], "note": ""}
+{"family": "F0867", "cwe": [{"id": "CWE-286", "c": "M"}, {"id": "CWE-672", "c": "L"}], "note": ""}
+{"family": "F0868", "cwe": [], "note": ""}
+{"family": "F0869", "cwe": [], "note": ""}
+{"family": "F0870", "cwe": [], "note": ""}
+{"family": "F0871", "cwe": [], "note": ""}
+{"family": "F0877", "cwe": [], "note": ""}
+{"family": "F0888", "cwe": [], "note": ""}
+{"family": "F0893", "cwe": [], "note": ""}
+{"family": "F0913", "cwe": [], "note": ""}
+{"family": "F0928", "cwe": [], "note": ""}
+{"family": "F0929", "cwe": [{"id": "CWE-521", "c": "M"}, {"id": "CWE-1391", "c": "M"}], "note": ""}
+{"family": "F0930", "cwe": [], "note": ""}
+{"family": "F0931", "cwe": [], "note": ""}
+{"family": "F0932", "cwe": [], "note": ""}
+{"family": "F0933", "cwe": [], "note": ""}
+{"family": "F0967", "cwe": [], "note": ""}
+{"family": "F1023", "cwe": [{"id": "CWE-1391", "c": "M"}, {"id": "CWE-521", "c": "L"}], "note": ""}
+{"family": "F1072", "cwe": [{"id": "CWE-353", "c": "M"}, {"id": "CWE-345", "c": "M"}], "note": ""}
+{"family": "F1074", "cwe": [], "note": ""}
+{"family": "F1078", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F1079", "cwe": [{"id": "CWE-345", "c": "H"}, {"id": "CWE-350", "c": "L"}], "note": ""}
+{"family": "F1084", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F1094", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F1100", "cwe": [{"id": "CWE-779", "c": "H"}], "note": ""}
+{"family": "F1101", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F1102", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F1110", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F1140", "cwe": [{"id": "CWE-778", "c": "H"}], "note": ""}
+{"family": "F1144", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1148", "cwe": [{"id": "CWE-1188", "c": "H"}, {"id": "CWE-1392", "c": "M"}, {"id": "CWE-276", "c": "L"}], "note": ""}
+{"family": "F1155", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1157", "cwe": [{"id": "CWE-1390", "c": "H"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F1158", "cwe": [{"id": "CWE-922", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1165", "cwe": [{"id": "CWE-1329", "c": "M"}, {"id": "CWE-1277", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1168", "cwe": [{"id": "CWE-1392", "c": "M"}, {"id": "CWE-1188", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1169", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F1170", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1171", "cwe": [{"id": "CWE-306", "c": "H"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F1174", "cwe": [{"id": "CWE-327", "c": "H"}, {"id": "CWE-326", "c": "M"}, {"id": "CWE-757", "c": "L"}], "note": ""}
+{"family": "F1175", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1176", "cwe": [{"id": "CWE-1277", "c": "M"}, {"id": "CWE-1329", "c": "M"}, {"id": "CWE-1395", "c": "L"}], "note": ""}
+{"family": "F1177", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F1183", "cwe": [], "note": "Resilience/redundancy gap; no software weakness named."}
+{"family": "F1192", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1199", "cwe": [{"id": "CWE-284", "c": "H"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F1202", "cwe": [{"id": "CWE-1395", "c": "L"}, {"id": "CWE-306", "c": "L"}, {"id": "CWE-1392", "c": "L"}], "note": ""}
+{"family": "F1215", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1220", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}, {"id": "CWE-326", "c": "L"}], "note": ""}
+{"family": "F1221", "cwe": [{"id": "CWE-322", "c": "M"}, {"id": "CWE-306", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F1222", "cwe": [{"id": "CWE-1329", "c": "M"}, {"id": "CWE-1277", "c": "L"}, {"id": "CWE-1395", "c": "L"}], "note": ""}
+{"family": "F1223", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F1224", "cwe": [{"id": "CWE-778", "c": "L"}], "note": ""}
+{"family": "F1228", "cwe": [], "note": ""}
+{"family": "F1229", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-523", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F1234", "cwe": [{"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F1243", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F1252", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-295", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F1253", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-300", "c": "M"}, {"id": "CWE-295", "c": "L"}], "note": ""}
+{"family": "F1259", "cwe": [{"id": "CWE-923", "c": "M"}, {"id": "CWE-653", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F1260", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1261", "cwe": [{"id": "CWE-778", "c": "M"}], "note": ""}
+{"family": "F1263", "cwe": [], "note": "Missing detection/prevention control; no software weakness named."}
+{"family": "F1264", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-300", "c": "M"}, {"id": "CWE-924", "c": "L"}], "note": ""}
+{"family": "F1265", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F1266", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F1268", "cwe": [{"id": "CWE-410", "c": "L"}], "note": ""}
+{"family": "F1272", "cwe": [], "note": ""}
+{"family": "F1273", "cwe": [{"id": "CWE-308", "c": "M"}, {"id": "CWE-307", "c": "M"}, {"id": "CWE-521", "c": "L"}], "note": ""}
+{"family": "F1275", "cwe": [{"id": "CWE-319", "c": "M"}], "note": ""}
+{"family": "F1276", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-290", "c": "L"}], "note": ""}
+{"family": "F1279", "cwe": [{"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F1282", "cwe": [{"id": "CWE-923", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1294", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-523", "c": "M"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F1296", "cwe": [{"id": "CWE-308", "c": "M"}, {"id": "CWE-287", "c": "M"}, {"id": "CWE-1395", "c": "L"}], "note": ""}
+{"family": "F1308", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-1391", "c": "H"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F1319", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-319", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1322", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1326", "cwe": [], "note": ""}
+{"family": "F1327", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-322", "c": "M"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F1330", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1332", "cwe": [], "note": ""}
+{"family": "F1333", "cwe": [{"id": "CWE-1266", "c": "M"}, {"id": "CWE-226", "c": "L"}], "note": ""}
+{"family": "F1345", "cwe": [{"id": "CWE-1263", "c": "L"}], "note": ""}
+{"family": "F1346", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-923", "c": "M"}], "note": ""}
+{"family": "F1347", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-923", "c": "M"}], "note": ""}
+{"family": "F1349", "cwe": [], "note": ""}
+{"family": "F1355", "cwe": [], "note": ""}
+{"family": "F1369", "cwe": [], "note": ""}
+{"family": "F1371", "cwe": [{"id": "CWE-668", "c": "M"}, {"id": "CWE-923", "c": "M"}], "note": ""}
+{"family": "F1373", "cwe": [], "note": ""}
+{"family": "F1374", "cwe": [], "note": ""}
+{"family": "F1375", "cwe": [], "note": ""}
+{"family": "F1376", "cwe": [], "note": ""}
+{"family": "F1377", "cwe": [{"id": "CWE-1266", "c": "H"}, {"id": "CWE-226", "c": "M"}], "note": ""}
+{"family": "F1378", "cwe": [], "note": ""}
+{"family": "F1379", "cwe": [], "note": ""}
+{"family": "F1399", "cwe": [{"id": "CWE-284", "c": "H"}, {"id": "CWE-923", "c": "M"}], "note": ""}
+{"family": "F1400", "cwe": [], "note": ""}
+{"family": "F1401", "cwe": [{"id": "CWE-313", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F1407", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-923", "c": "M"}], "note": ""}
+{"family": "F1424", "cwe": [{"id": "CWE-1391", "c": "H"}, {"id": "CWE-521", "c": "M"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F1433", "cwe": [], "note": "Missing endpoint protection control; no software weakness named."}
+{"family": "F1435", "cwe": [{"id": "CWE-693", "c": "L"}], "note": ""}
+{"family": "F1459", "cwe": [], "note": ""}
+{"family": "F1488", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1495", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1503", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1512", "cwe": [], "note": ""}
+{"family": "F1562", "cwe": [], "note": ""}
+{"family": "F1627", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1357", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1628", "cwe": [], "note": ""}
+{"family": "F1629", "cwe": [], "note": "Vendor platform weakness unspecified"}
+{"family": "F1630", "cwe": [], "note": ""}
+{"family": "F1634", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1636", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1638", "cwe": [{"id": "CWE-506", "c": "M"}, {"id": "CWE-1357", "c": "M"}, {"id": "CWE-829", "c": "L"}], "note": ""}
+{"family": "F1642", "cwe": [], "note": ""}
+{"family": "F1643", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-287", "c": "M"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F1646", "cwe": [], "note": ""}
+{"family": "F1647", "cwe": [], "note": ""}
+{"family": "F1648", "cwe": [], "note": ""}
+{"family": "F1659", "cwe": [], "note": ""}
+{"family": "F1660", "cwe": [{"id": "CWE-1357", "c": "M"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1661", "cwe": [], "note": ""}
+{"family": "F1668", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F1673", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1674", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F1675", "cwe": [{"id": "CWE-284", "c": "H"}, {"id": "CWE-1220", "c": "L"}], "note": ""}
+{"family": "F1679", "cwe": [], "note": ""}
+{"family": "F1694", "cwe": [{"id": "CWE-1357", "c": "M"}, {"id": "CWE-1395", "c": "L"}], "note": ""}
+{"family": "F1698", "cwe": [], "note": "Vendor's security weakness unspecified"}
+{"family": "F1711", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1712", "cwe": [{"id": "CWE-79", "c": "H"}, {"id": "CWE-20", "c": "M"}, {"id": "CWE-116", "c": "M"}], "note": ""}
+{"family": "F1713", "cwe": [{"id": "CWE-89", "c": "H"}, {"id": "CWE-20", "c": "M"}], "note": ""}
+{"family": "F1714", "cwe": [], "note": ""}
+{"family": "F1715", "cwe": [], "note": ""}
+{"family": "F1716", "cwe": [], "note": ""}
+{"family": "F1717", "cwe": [{"id": "CWE-1039", "c": "M"}, {"id": "CWE-290", "c": "L"}], "note": ""}
+{"family": "F1718", "cwe": [{"id": "CWE-1188", "c": "M"}, {"id": "CWE-276", "c": "L"}], "note": ""}
+{"family": "F1719", "cwe": [], "note": "Process gap; weakness depends on resulting misconfiguration"}
+{"family": "F1720", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1721", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-1269", "c": "L"}], "note": ""}
+{"family": "F1722", "cwe": [{"id": "CWE-1188", "c": "H"}, {"id": "CWE-276", "c": "M"}], "note": ""}
+{"family": "F1723", "cwe": [], "note": ""}
+{"family": "F1724", "cwe": [], "note": ""}
+{"family": "F1725", "cwe": [{"id": "CWE-668", "c": "L"}], "note": "Unnecessary services: no exact CWE; exposure class used"}
+{"family": "F1726", "cwe": [{"id": "CWE-15", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F1727", "cwe": [{"id": "CWE-74", "c": "H"}, {"id": "CWE-89", "c": "M"}, {"id": "CWE-79", "c": "L"}], "note": ""}
+{"family": "F1728", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-1188", "c": "M"}, {"id": "CWE-943", "c": "L"}], "note": ""}
+{"family": "F1729", "cwe": [{"id": "CWE-287", "c": "M"}, {"id": "CWE-300", "c": "L"}, {"id": "CWE-290", "c": "L"}], "note": ""}
+{"family": "F1730", "cwe": [{"id": "CWE-923", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F1731", "cwe": [{"id": "CWE-345", "c": "L"}], "note": "Consensus flaws mapped to data authenticity verification"}
+{"family": "F1732", "cwe": [{"id": "CWE-1250", "c": "L"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F1733", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1734", "cwe": [{"id": "CWE-1266", "c": "H"}], "note": ""}
+{"family": "F1735", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-1329", "c": "L"}], "note": ""}
+{"family": "F1736", "cwe": [{"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1737", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1738", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1739", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}, {"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F1740", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1741", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1742", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1743", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1744", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F1745", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-693", "c": "L"}], "note": ""}
+{"family": "F1746", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1747", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F1748", "cwe": [{"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1749", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1750", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1751", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1752", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "M"}], "note": ""}
+{"family": "F1753", "cwe": [{"id": "CWE-521", "c": "M"}, {"id": "CWE-326", "c": "M"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F1754", "cwe": [{"id": "CWE-941", "c": "L"}], "note": "Routing misconfiguration; weak CWE fit"}
+{"family": "F1755", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1756", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1757", "cwe": [], "note": ""}
+{"family": "F1758", "cwe": [{"id": "CWE-347", "c": "L"}, {"id": "CWE-506", "c": "L"}], "note": ""}
+{"family": "F1759", "cwe": [{"id": "CWE-347", "c": "M"}, {"id": "CWE-1326", "c": "M"}, {"id": "CWE-494", "c": "L"}], "note": ""}
+{"family": "F1760", "cwe": [{"id": "CWE-269", "c": "M"}], "note": ""}
+{"family": "F1761", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1762", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1763", "cwe": [], "note": ""}
+{"family": "F1764", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1765", "cwe": [], "note": ""}
+{"family": "F1766", "cwe": [{"id": "CWE-1328", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1767", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-15", "c": "L"}], "note": ""}
+{"family": "F1768", "cwe": [], "note": "Availability design issue; no matching CWE"}
+{"family": "F1769", "cwe": [{"id": "CWE-494", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1770", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F1771", "cwe": [], "note": ""}
+{"family": "F1772", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F1773", "cwe": [{"id": "CWE-653", "c": "M"}], "note": ""}
+{"family": "F1774", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1775", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1776", "cwe": [{"id": "CWE-1104", "c": "H"}], "note": ""}
+{"family": "F1777", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1778", "cwe": [{"id": "CWE-1188", "c": "M"}, {"id": "CWE-306", "c": "M"}], "note": ""}
+{"family": "F1779", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1780", "cwe": [{"id": "CWE-922", "c": "M"}, {"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F1781", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F1782", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-125", "c": "L"}], "note": ""}
+{"family": "F1783", "cwe": [{"id": "CWE-290", "c": "M"}, {"id": "CWE-400", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F1784", "cwe": [{"id": "CWE-308", "c": "M"}, {"id": "CWE-521", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F1785", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1786", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1787", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1788", "cwe": [{"id": "CWE-20", "c": "M"}, {"id": "CWE-284", "c": "L"}, {"id": "CWE-352", "c": "L"}], "note": ""}
+{"family": "F1789", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1790", "cwe": [], "note": "Zero-day: underlying weakness unspecified"}
+{"family": "F1791", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1792", "cwe": [{"id": "CWE-94", "c": "M"}, {"id": "CWE-20", "c": "M"}, {"id": "CWE-502", "c": "L"}], "note": ""}
+{"family": "F1793", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1794", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1795", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1796", "cwe": [{"id": "CWE-287", "c": "H"}, {"id": "CWE-288", "c": "L"}], "note": ""}
+{"family": "F1797", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F1798", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1799", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1800", "cwe": [{"id": "CWE-307", "c": "M"}, {"id": "CWE-308", "c": "M"}, {"id": "CWE-521", "c": "L"}], "note": ""}
+{"family": "F1801", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1802", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1803", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-521", "c": "M"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1804", "cwe": [{"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1805", "cwe": [], "note": "Exploited vulnerability unspecified"}
+{"family": "F1806", "cwe": [{"id": "CWE-287", "c": "L"}, {"id": "CWE-1395", "c": "L"}], "note": ""}
+{"family": "F1807", "cwe": [{"id": "CWE-668", "c": "M"}, {"id": "CWE-923", "c": "L"}], "note": ""}
+{"family": "F1808", "cwe": [{"id": "CWE-757", "c": "M"}, {"id": "CWE-326", "c": "M"}, {"id": "CWE-327", "c": "M"}], "note": ""}
+{"family": "F1809", "cwe": [{"id": "CWE-287", "c": "M"}, {"id": "CWE-300", "c": "L"}], "note": ""}
+{"family": "F1810", "cwe": [{"id": "CWE-757", "c": "H"}], "note": ""}
+{"family": "F1811", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-863", "c": "L"}], "note": ""}
+{"family": "F0008", "cwe": [{"id": "CWE-94", "c": "M"}, {"id": "CWE-79", "c": "L"}, {"id": "CWE-345", "c": "L"}], "note": ""}
+{"family": "F0013", "cwe": [], "note": "generic exploitation of unspecified vulnerabilities"}
+{"family": "F0041", "cwe": [{"id": "CWE-384", "c": "M"}, {"id": "CWE-613", "c": "M"}, {"id": "CWE-614", "c": "L"}], "note": ""}
+{"family": "F0042", "cwe": [{"id": "CWE-269", "c": "M"}, {"id": "CWE-250", "c": "L"}], "note": ""}
+{"family": "F0046", "cwe": [{"id": "CWE-384", "c": "M"}, {"id": "CWE-613", "c": "M"}, {"id": "CWE-614", "c": "L"}], "note": ""}
+{"family": "F0058", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F0071", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1393", "c": "H"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0073", "cwe": [{"id": "CWE-1390", "c": "H"}, {"id": "CWE-308", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0095", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-307", "c": "M"}], "note": ""}
+{"family": "F0103", "cwe": [{"id": "CWE-1390", "c": "M"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F0104", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-521", "c": "M"}], "note": ""}
+{"family": "F0111", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F0113", "cwe": [{"id": "CWE-521", "c": "M"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F0114", "cwe": [{"id": "CWE-1392", "c": "M"}, {"id": "CWE-287", "c": "L"}], "note": ""}
+{"family": "F0115", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F0125", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-521", "c": "H"}], "note": ""}
+{"family": "F0126", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1390", "c": "H"}, {"id": "CWE-308", "c": "L"}], "note": ""}
+{"family": "F0127", "cwe": [{"id": "CWE-284", "c": "H"}, {"id": "CWE-285", "c": "M"}], "note": ""}
+{"family": "F0128", "cwe": [{"id": "CWE-521", "c": "M"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F0130", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-308", "c": "M"}], "note": ""}
+{"family": "F0132", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-916", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0135", "cwe": [{"id": "CWE-286", "c": "H"}], "note": "Former employee account not deprovisioned"}
+{"family": "F0136", "cwe": [{"id": "CWE-521", "c": "H"}, {"id": "CWE-1395", "c": "M"}, {"id": "CWE-307", "c": "L"}], "note": ""}
+{"family": "F0142", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0144", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-288", "c": "M"}], "note": ""}
+{"family": "F0293", "cwe": [{"id": "CWE-285", "c": "M"}, {"id": "CWE-200", "c": "M"}, {"id": "CWE-639", "c": "L"}], "note": ""}
+{"family": "F0308", "cwe": [{"id": "CWE-943", "c": "M"}, {"id": "CWE-89", "c": "M"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F0309", "cwe": [{"id": "CWE-1230", "c": "H"}], "note": ""}
+{"family": "F0321", "cwe": [], "note": ""}
+{"family": "F0358", "cwe": [{"id": "CWE-732", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-1188", "c": "L"}], "note": ""}
+{"family": "F0359", "cwe": [{"id": "CWE-732", "c": "H"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0372", "cwe": [{"id": "CWE-200", "c": "L"}], "note": ""}
+{"family": "F0501", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-359", "c": "L"}], "note": ""}
+{"family": "F0504", "cwe": [{"id": "CWE-693", "c": "L"}], "note": "vague; protection mechanism failure only plausible"}
+{"family": "F0526", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0559", "cwe": [{"id": "CWE-319", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F0560", "cwe": [], "note": ""}
+{"family": "F0571", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-312", "c": "L"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0595", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0598", "cwe": [{"id": "CWE-89", "c": "L"}, {"id": "CWE-20", "c": "L"}], "note": ""}
+{"family": "F0600", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0605", "cwe": [{"id": "CWE-284", "c": "L"}, {"id": "CWE-319", "c": "L"}], "note": ""}
+{"family": "F0614", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0615", "cwe": [], "note": "generic exploitation of unspecified vulnerabilities"}
+{"family": "F0617", "cwe": [], "note": ""}
+{"family": "F0619", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-313", "c": "M"}], "note": ""}
+{"family": "F0622", "cwe": [], "note": "generic exploitation of unspecified vulnerabilities"}
+{"family": "F0624", "cwe": [{"id": "CWE-530", "c": "M"}, {"id": "CWE-732", "c": "M"}, {"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0625", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-530", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F0627", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F0629", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0631", "cwe": [{"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0637", "cwe": [], "note": "third-party provider breach; weakness unspecified"}
+{"family": "F0643", "cwe": [], "note": "generic exploitation of unspecified vulnerabilities"}
+{"family": "F0646", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0647", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0648", "cwe": [{"id": "CWE-200", "c": "L"}, {"id": "CWE-941", "c": "L"}], "note": ""}
+{"family": "F0693", "cwe": [{"id": "CWE-89", "c": "H"}], "note": ""}
+{"family": "F0703", "cwe": [], "note": "unspecified zero-day vulnerability; no weakness class identifiable"}
+{"family": "F0709", "cwe": [], "note": "vulnerability discovery technique; no specific weakness"}
+{"family": "F0735", "cwe": [{"id": "CWE-1265", "c": "L"}, {"id": "CWE-190", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F0759", "cwe": [], "note": "generic exploitation of unspecified vulnerabilities"}
+{"family": "F0788", "cwe": [{"id": "CWE-359", "c": "M"}], "note": ""}
+{"family": "F0806", "cwe": [], "note": ""}
+{"family": "F0843", "cwe": [{"id": "CWE-1427", "c": "M"}, {"id": "CWE-200", "c": "L"}], "note": ""}
+{"family": "F0906", "cwe": [{"id": "CWE-1427", "c": "M"}, {"id": "CWE-1426", "c": "L"}], "note": ""}
+{"family": "F0936", "cwe": [], "note": ""}
+{"family": "F0937", "cwe": [{"id": "CWE-285", "c": "L"}], "note": ""}
+{"family": "F0942", "cwe": [{"id": "CWE-311", "c": "L"}], "note": ""}
+{"family": "F0945", "cwe": [], "note": ""}
+{"family": "F0952", "cwe": [], "note": ""}
+{"family": "F0955", "cwe": [], "note": ""}
+{"family": "F0956", "cwe": [], "note": ""}
+{"family": "F0960", "cwe": [], "note": ""}
+{"family": "F0968", "cwe": [], "note": ""}
+{"family": "F0988", "cwe": [], "note": ""}
+{"family": "F0992", "cwe": [], "note": ""}
+{"family": "F0994", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F0997", "cwe": [], "note": ""}
+{"family": "F0998", "cwe": [], "note": ""}
+{"family": "F1012", "cwe": [], "note": ""}
+{"family": "F1019", "cwe": [{"id": "CWE-269", "c": "L"}], "note": ""}
+{"family": "F1021", "cwe": [{"id": "CWE-494", "c": "H"}, {"id": "CWE-1357", "c": "M"}], "note": ""}
+{"family": "F1024", "cwe": [{"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1032", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1058", "cwe": [{"id": "CWE-176", "c": "L"}, {"id": "CWE-20", "c": "L"}], "note": "Inferred from title only; encoding/input handling weakness assumed."}
+{"family": "F1142", "cwe": [{"id": "CWE-494", "c": "M"}, {"id": "CWE-1277", "c": "L"}], "note": ""}
+{"family": "F1143", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-732", "c": "L"}], "note": ""}
+{"family": "F1149", "cwe": [{"id": "CWE-1384", "c": "L"}, {"id": "CWE-1247", "c": "L"}], "note": "Hardware power/environmental weakness inferred from title only."}
+{"family": "F1156", "cwe": [{"id": "CWE-200", "c": "M"}, {"id": "CWE-359", "c": "L"}], "note": ""}
+{"family": "F1172", "cwe": [{"id": "CWE-494", "c": "H"}, {"id": "CWE-347", "c": "M"}, {"id": "CWE-1326", "c": "L"}], "note": ""}
+{"family": "F1173", "cwe": [{"id": "CWE-1392", "c": "H"}, {"id": "CWE-1393", "c": "M"}, {"id": "CWE-798", "c": "M"}], "note": ""}
+{"family": "F1182", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1194", "cwe": [{"id": "CWE-1104", "c": "L"}, {"id": "CWE-1329", "c": "L"}], "note": ""}
+{"family": "F1195", "cwe": [{"id": "CWE-1104", "c": "L"}, {"id": "CWE-1329", "c": "L"}], "note": ""}
+{"family": "F1196", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1198", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1200", "cwe": [{"id": "CWE-306", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F1201", "cwe": [{"id": "CWE-494", "c": "M"}, {"id": "CWE-347", "c": "M"}, {"id": "CWE-1326", "c": "L"}], "note": ""}
+{"family": "F1204", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1206", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1208", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1209", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1210", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1211", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "M"}], "note": ""}
+{"family": "F1212", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1213", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1214", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1216", "cwe": [{"id": "CWE-653", "c": "M"}, {"id": "CWE-284", "c": "M"}], "note": ""}
+{"family": "F1217", "cwe": [{"id": "CWE-20", "c": "L"}], "note": "Zero-day; specific weakness unspecified."}
+{"family": "F1286", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F1287", "cwe": [{"id": "CWE-307", "c": "H"}, {"id": "CWE-521", "c": "H"}], "note": ""}
+{"family": "F1289", "cwe": [{"id": "CWE-319", "c": "H"}], "note": ""}
+{"family": "F1291", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-311", "c": "M"}], "note": ""}
+{"family": "F1298", "cwe": [{"id": "CWE-300", "c": "M"}, {"id": "CWE-319", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1306", "cwe": [{"id": "CWE-1390", "c": "M"}, {"id": "CWE-284", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1309", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-924", "c": "M"}], "note": ""}
+{"family": "F1310", "cwe": [{"id": "CWE-319", "c": "H"}, {"id": "CWE-300", "c": "M"}], "note": ""}
+{"family": "F1311", "cwe": [{"id": "CWE-1390", "c": "M"}, {"id": "CWE-307", "c": "M"}, {"id": "CWE-521", "c": "M"}], "note": ""}
+{"family": "F1313", "cwe": [{"id": "CWE-300", "c": "M"}, {"id": "CWE-319", "c": "M"}, {"id": "CWE-924", "c": "M"}], "note": ""}
+{"family": "F1316", "cwe": [{"id": "CWE-1390", "c": "M"}, {"id": "CWE-287", "c": "M"}], "note": ""}
+{"family": "F1334", "cwe": [{"id": "CWE-1329", "c": "M"}, {"id": "CWE-1277", "c": "L"}], "note": ""}
+{"family": "F1353", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F1395", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1403", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1404", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F1405", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-668", "c": "L"}], "note": ""}
+{"family": "F1417", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1420", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}], "note": ""}
+{"family": "F1422", "cwe": [{"id": "CWE-74", "c": "M"}, {"id": "CWE-79", "c": "M"}, {"id": "CWE-20", "c": "M"}], "note": ""}
+{"family": "F1425", "cwe": [{"id": "CWE-311", "c": "H"}, {"id": "CWE-312", "c": "M"}, {"id": "CWE-1263", "c": "L"}], "note": ""}
+{"family": "F1429", "cwe": [{"id": "CWE-284", "c": "M"}, {"id": "CWE-306", "c": "L"}], "note": ""}
+{"family": "F1480", "cwe": [{"id": "CWE-79", "c": "M"}, {"id": "CWE-94", "c": "L"}, {"id": "CWE-434", "c": "L"}], "note": ""}
+{"family": "F1481", "cwe": [{"id": "CWE-20", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1486", "cwe": [{"id": "CWE-79", "c": "M"}, {"id": "CWE-94", "c": "L"}, {"id": "CWE-434", "c": "L"}], "note": ""}
+{"family": "F1487", "cwe": [{"id": "CWE-20", "c": "L"}], "note": "Zero-day; specific weakness unspecified."}
+{"family": "F1496", "cwe": [{"id": "CWE-494", "c": "M"}, {"id": "CWE-347", "c": "M"}, {"id": "CWE-1326", "c": "L"}], "note": ""}
+{"family": "F1499", "cwe": [{"id": "CWE-1104", "c": "M"}, {"id": "CWE-653", "c": "L"}], "note": ""}
+{"family": "F1515", "cwe": [], "note": ""}
+{"family": "F1519", "cwe": [], "note": ""}
+{"family": "F1545", "cwe": [], "note": ""}
+{"family": "F1621", "cwe": [{"id": "CWE-20", "c": "L"}], "note": "Zero-day; specific weakness unspecified."}
+{"family": "F1622", "cwe": [{"id": "CWE-640", "c": "L"}], "note": "Help desk credential reset abuse implied."}
+{"family": "F1635", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1104", "c": "L"}], "note": ""}
+{"family": "F1637", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1357", "c": "M"}], "note": ""}
+{"family": "F1639", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1644", "cwe": [{"id": "CWE-1395", "c": "M"}, {"id": "CWE-1357", "c": "L"}], "note": ""}
+{"family": "F1663", "cwe": [{"id": "CWE-1357", "c": "M"}, {"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1671", "cwe": [{"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1678", "cwe": [{"id": "CWE-1357", "c": "L"}], "note": ""}
+{"family": "F1681", "cwe": [{"id": "CWE-1104", "c": "H"}, {"id": "CWE-1329", "c": "L"}], "note": ""}
+{"family": "F1683", "cwe": [{"id": "CWE-653", "c": "L"}, {"id": "CWE-284", "c": "L"}], "note": ""}
+{"family": "F1684", "cwe": [{"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1690", "cwe": [{"id": "CWE-20", "c": "L"}], "note": "Zero-day; specific weakness unspecified."}
+{"family": "F1693", "cwe": [{"id": "CWE-200", "c": "M"}], "note": ""}
+{"family": "F1699", "cwe": [{"id": "CWE-506", "c": "H"}, {"id": "CWE-1357", "c": "M"}], "note": ""}
+{"family": "F1700", "cwe": [{"id": "CWE-200", "c": "L"}], "note": ""}
+{"family": "F1701", "cwe": [{"id": "CWE-1395", "c": "M"}], "note": ""}
+{"family": "F1702", "cwe": [{"id": "CWE-494", "c": "H"}, {"id": "CWE-347", "c": "M"}, {"id": "CWE-506", "c": "M"}], "note": ""}
+{"family": "F1704", "cwe": [{"id": "CWE-1395", "c": "H"}, {"id": "CWE-1104", "c": "M"}], "note": ""}
+{"family": "F1705", "cwe": [{"id": "CWE-20", "c": "L"}], "note": "Zero-day; specific weakness unspecified."}
+{"family": "F1707", "cwe": [{"id": "CWE-506", "c": "H"}, {"id": "CWE-1357", "c": "M"}], "note": ""}

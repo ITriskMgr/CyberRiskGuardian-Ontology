@@ -80,16 +80,19 @@ def list_values(kind):
 
 def _links(subject, prop, min_conf):
     """Annotated links from subject through prop, with confidence and status, filtered by confidence."""
-    rows = _q("""SELECT ?c ?n ?l ?scheme ?conf ?status WHERE {
+    rows = _q("""SELECT ?c ?n ?l ?scheme ?conf ?status ?corr WHERE {
       <%s> %s ?c . ?c skos:notation ?n ; skos:prefLabel ?l ; skos:inScheme ?scheme . FILTER(lang(?l) = "en")
       ?ax a owl:Axiom ; owl:annotatedSource <%s> ; owl:annotatedProperty %s ; owl:annotatedTarget ?c ; %s ?conf ; %s ?status .
-    }""" % (subject, T(prop), subject, T(prop), T("confidence"), T("governanceStatus")))
+      OPTIONAL { ?ax %s ?corr }
+    }""" % (subject, T(prop), subject, T(prop), T("confidence"), T("governanceStatus"), T("corroboratedBy")))
     out = []
     for r in rows:
         c = CONF_ORDER.get(KEY_OF.get(_v(r["conf"]), ""), "L")
         if c in ALLOW[min_conf]:
             out.append({"id": _v(r["n"]), "title": _v(r["l"]), "framework": _v(r["scheme"]).rsplit("/", 1)[-1], "confidence": c,
                         "status": "approved" if KEY_OF.get(_v(r["status"])) == "StatusApproved" else "proposed"})
+            if r["corr"] is not None:
+                out[-1]["corroborated_by"] = _v(r["corr"])
     return sorted(out, key=lambda x: ("HML".index(x["confidence"]), x["id"]))
 
 def _estimates(s):
@@ -143,6 +146,14 @@ def scenario(id_, min_confidence="M", brief=False, holdout=()):
     req = _links(s, "hasRelevantRequirement", min_confidence)
     d["controls"] = {fw: [x for x in req if x["framework"] == fw] for fw in ("csf2", "sp800-53r5", "iso27002-2022")}
     d["obligations"] = _links(s, "triggersObligation", min_confidence)
+    vds = one(T("hasVulnerabilityDescription"))
+    d["cwe"] = sorted({(x["id"], x["title"], x["confidence"], x["status"]) for v in vds for x in _links(v, "hasExternalReference", min_confidence)},
+                      key=lambda x: ("HML".index(x[2]), x[0]))
+    d["cwe"] = [{"id": i, "title": t, "confidence": c, "status": st} for i, t, c, st in d["cwe"]]
+    tids = [x["id"] for x in d["attack_techniques"]]
+    if tids:
+        d["countermeasures_d3fend"] = defences_for_techniques(tids)
+        d["exploitation_evidence"] = kev_evidence(tids, [x["id"] for x in d["cwe"]])
     if not d["attack_techniques"] and not req:  # case scenarios inherit from the families they refine
         fams = one(T("refines"))
         if fams:
@@ -399,6 +410,38 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
             "themes_covered": sorted({theme_of.get(s, "ThemeOther") for s in chosen}),
             "theme_gaps": sorted(set(wanted) - {theme_of.get(r) for r in reps if r in score}), "baseline_gaps": base_gaps,
             "scenarios": out, "risk_unit": RISK_UNIT, "caveat": CAVEAT}
+
+def defences_for_techniques(tids, top=8):
+    """D3FEND defensive techniques judged for the ATT&CK techniques (0.7.0): most shared, then most confident first."""
+    vals = " ".join('"%s"' % t for t in tids)
+    rows = _q("""SELECT ?n ?l ?t ?conf ?st WHERE { VALUES ?tn { %s } ?t skos:notation ?tn ; skos:inScheme <%sattack> ;
+                 skos:relatedMatch ?d . ?d skos:inScheme <%sd3fend> ; skos:notation ?n ; skos:prefLabel ?l .
+                 ?ax owl:annotatedSource ?t ; owl:annotatedTarget ?d ; %s ?conf ; %s ?st }""" % (vals, VOC, VOC, T("confidence"), T("governanceStatus")))
+    agg = {}
+    for r in rows:
+        c = CONF_ORDER.get(KEY_OF.get(_v(r["conf"]), ""), "L")
+        e = agg.setdefault(_v(r["n"]), {"id": _v(r["n"]), "title": _v(r["l"]), "techniques": set(), "confidence": "L",
+                                        "status": "approved" if KEY_OF.get(_v(r["st"])) == "StatusApproved" else "proposed"})
+        e["techniques"].add(_v(r["t"]).rsplit("/", 1)[-1])
+        if "HML".index(c) < "HML".index(e["confidence"]): e["confidence"] = c
+    out = sorted(agg.values(), key=lambda e: (-len(e["techniques"]), "HML".index(e["confidence"]), e["title"]))[:top]
+    for e in out:
+        e["for_techniques"] = sorted(e.pop("techniques")); e["source"] = "judged against MITRE D3FEND 1.6.0"
+    return out
+
+def kev_evidence(tids, cwes=()):
+    """Exploitation evidence: CISA KEV vulnerabilities mapped (MITRE CTID) to the scenario's ATT&CK techniques, and KEV
+    vulnerabilities that are instances of its CWE weaknesses; counts and ransomware use. Evidence, not inventory."""
+    out = {}
+    for kind, ids, scheme in (("by_technique", tids, "attack"), ("by_weakness", cwes, "cwe")):
+        if not ids: continue
+        vals = " ".join('"%s"' % i for i in ids)
+        rows = _q("""SELECT ?x (COUNT(DISTINCT ?k) AS ?n) (SUM(IF(CONTAINS(?note, "ransomware campaign use: Known"), 1, 0)) AS ?r) WHERE {
+                     VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%s%s> . ?k skos:relatedMatch ?c ; skos:inScheme <%skev> ; skos:note ?note }
+                     GROUP BY ?x""" % (vals, VOC, scheme, VOC))
+        out[kind] = [{"id": _v(r["x"]), "kev_vulnerabilities": int(_v(r["n"])), "known_ransomware_use": int(_v(r["r"]))} for r in rows]
+    out["source"] = "CISA KEV catalogue; KEV to ATT&CK mapping by MITRE CTID. Shows that such weaknesses and techniques are actively exploited; not a list of the organisation's vulnerabilities."
+    return out
 
 def scenario_id(iri):
     r = _q('SELECT ?i WHERE { <%s> %s ?i } LIMIT 1' % (iri, T("localIdentifier")))

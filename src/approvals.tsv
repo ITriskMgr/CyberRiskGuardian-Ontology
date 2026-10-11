@@ -375,3 +375,19 @@ links/loi25/M	Approve	MAL	2026-10-10
 # 2026-10-10: 0.6.0 review: Loi 25 pass 2 links approved by group (H and M); low-confidence links stay proposed. Their R-22.1 rule equivalents stay proposed.
 links/loi25-pass2/H	Approve	MAL	2026-10-10	
 links/loi25-pass2/M	Approve	MAL	2026-10-10	
+# 2026-10-11: 0.7.0 review: all groups decided as recommended in CRGO-0.7.0-review.xlsx (term corroboratedBy, four vocabularies, published cross-references, judged H and M groups approved; judged L groups stay proposed; CQ21-CQ23 adopted).
+corroboratedBy	Approve	MAL	2026-10-11	
+cwe/*	Approve	MAL	2026-10-11	
+d3fend/*	Approve	MAL	2026-10-11	
+capec/*	Approve	MAL	2026-10-11	
+kev/*	Approve	MAL	2026-10-11	
+mappings/capec-attack	Approve	MAL	2026-10-11	
+mappings/capec-cwe	Approve	MAL	2026-10-11	
+mappings/ctid-attack-800-53	Approve	MAL	2026-10-11	
+mappings/ctid-kev-attack	Approve	MAL	2026-10-11	
+mappings/kev-cwe	Approve	MAL	2026-10-11	
+mappings/d3fend-judged/H	Approve	MAL	2026-10-11	
+mappings/d3fend-judged/M	Approve	MAL	2026-10-11	
+links/cwe/H	Approve	MAL	2026-10-11	
+links/cwe/M	Approve	MAL	2026-10-11	
+links/ctid-sp80053r5/M	Approve	MAL	2026-10-11	

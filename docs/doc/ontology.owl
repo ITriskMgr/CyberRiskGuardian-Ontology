@@ -14,10 +14,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
     <owl:Ontology rdf:about="https://w3id.org/crgo/crgo">
-        <owl:versionIRI rdf:resource="https://w3id.org/crgo/0.6.0/crgo"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/crgo/0.7.0/crgo"/>
         <terms:abstract xml:lang="fr">L&apos;ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d&apos;appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l&apos;ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&amp;CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d&apos;environ 1 900 scénarios de risque génériques liés à ces vocabulaires.</terms:abstract>
         <terms:abstract xml:lang="en">The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&amp;CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them.</terms:abstract>
-        <terms:bibliographicCitation>Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.6.0. https://github.com/ITriskMgr/cyberriskguardian-ontology</terms:bibliographicCitation>
+        <terms:bibliographicCitation>Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.7.0. https://github.com/ITriskMgr/cyberriskguardian-ontology</terms:bibliographicCitation>
         <terms:contributor>Claude (Anthropic), AI drafting assistant; every element approved by the creator</terms:contributor>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-08</terms:created>
         <terms:creator>Marc-André Léger</terms:creator>
@@ -33,8 +33,8 @@
         <bibo:status>released</bibo:status>
         <vann:preferredNamespacePrefix>crgo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/crgo/</vann:preferredNamespaceUri>
-        <owl:priorVersion rdf:resource="https://w3id.org/crgo/0.5.0/crgo"/>
-        <owl:versionInfo>0.6.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://w3id.org/crgo/0.6.0/crgo"/>
+        <owl:versionInfo>0.7.0</owl:versionInfo>
         <foaf:homepage rdf:resource="https://w3id.org/crgo/crgo"/>
         <schema:codeRepository rdf:resource="https://github.com/ITriskMgr/cyberriskguardian-ontology"/>
     </owl:Ontology>
@@ -388,6 +388,25 @@
         <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
         <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-08</crgo:CRGO_0000290>
         <crgo:CRGO_0000291>0.1.0</crgo:CRGO_0000291>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/crgo/CRGO_0000336 -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/crgo/CRGO_0000336">
+        <rdfs:label xml:lang="en">corroborated by</rdfs:label>
+        <rdfs:label xml:lang="fr">corroboré par</rdfs:label>
+        <skos:definition xml:lang="en">Independent published source that supports the element, for example an expert mapping made by a third party; the value names the source and what it supports.</skos:definition>
+        <skos:definition xml:lang="fr">Source publiée et indépendante qui appuie l&apos;élément, par exemple une correspondance établie par un tiers expert; la valeur nomme la source et ce qu&apos;elle appuie.</skos:definition>
+        <crgo:CRGO_0000283 rdf:resource="https://w3id.org/crgo/CRGO_0000069"/>
+        <crgo:CRGO_0000284 rdf:resource="https://w3id.org/crgo/CRGO_0000063"/>
+        <crgo:CRGO_0000286 xml:lang="en">Phase 1 report (8 Oct 2026), section 5 and recorded decisions</crgo:CRGO_0000286>
+        <crgo:CRGO_0000288 rdf:resource="https://w3id.org/crgo/CRGO_0000181"/>
+        <crgo:CRGO_0000289 rdf:resource="https://w3id.org/crgo/CRGO_0000182"/>
+        <crgo:CRGO_0000290 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-11</crgo:CRGO_0000290>
+        <crgo:CRGO_0000291>0.7.0</crgo:CRGO_0000291>
     </owl:AnnotationProperty>
     
 

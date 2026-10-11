@@ -18,4 +18,9 @@
   <uri name="https://w3id.org/crgo/vocab/sp800-53r5" uri="vocab/sp800-53r5.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/theme" uri="vocab/theme.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/lrsss" uri="vocab/lrsss.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/cwe" uri="vocab/cwe.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/d3fend" uri="vocab/d3fend.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/capec" uri="vocab/capec.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/kev" uri="vocab/kev.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/mappings" uri="vocab/mappings.ttl"/>
 </catalog>

@@ -2786,7 +2786,7 @@ csf2:PR.IP a skos:Concept ;
     dcterms:source "https://github.com/usnistgov/oscal-content/tree/main/nist.gov/CSF/v2.0 (NIST CSWP 29, 26 Feb 2024)" ;
     dcterms:title "NIST Cybersecurity Framework 2.0"@en,
         "Cadre de cybersécurité du NIST 2.0"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.6.0/csf2> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/csf2> ;
     owl:versionInfo "2.0 (OSCAL catalogue 1.2.0)" ;
     skos:hasTopConcept csf2:DE,
         csf2:GV,

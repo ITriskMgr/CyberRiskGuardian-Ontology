@@ -21,7 +21,7 @@ import themes as T  # noqa: E402
 valid = json.load(open(os.path.join(W, "valid_ids.json")))
 valid = {k: set(v) for k, v in valid.items()}
 SCHEME = {"attack": "attack", "csf": "csf2", "sp80053": "sp80053r5", "iso": "iso27002", "loi25": "loi25"}
-SCHEMES_ALL = list(SCHEME.values()) + ["lrsss"]
+SCHEMES_ALL = list(SCHEME.values()) + ["lrsss", "cwe"]
 loi_rows = list(csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "loi25.tsv"), encoding="utf-8"), delimiter="\t"))
 old_loi = {}
 for r in loi_rows:
@@ -71,6 +71,33 @@ for l in open(os.path.join(ROOT, "data", "library", "loi25_pass2.jsonl"), encodi
         if item["id"] not in valid["loi25"]:
             dropped["invalid loi25 id (pass 2)"] += 1; continue
         links.append((x["family"], "loi25", item["id"], item["c"], PASS2))
+# 0.7.0 CWE pass: families with a weakness, application-security, vulnerability-management or cryptography theme judged
+# against MITRE CWE (prompt data/library/cwe_pass_prompt.md, results data/library/cwe_pass.jsonl). Rule applied after an
+# independent review: CWE-1104 (unmaintained component) is replaced by CWE-1395 (vulnerable component) unless the
+# scenario says the software is unsupported, end-of-life, legacy or obsolete.
+CWEPASS = "judged, CWE pass 2026-10-11"
+fam_text = {}
+import pandas as _pd
+for _r in _pd.read_csv(os.path.join(ROOT, "data", "library", "families.csv")).itertuples():
+    fam_text[_r.family] = "%s %s" % (_r.name, _r.narrative if isinstance(_r.narrative, str) else "")
+EOL = re.compile(r"(?i)end[- ]of[- ]life|unsupported|legacy|obsolete|unmaintained|out[- ]of[- ]support|outdated")
+cwe_valid = {l.split(" | ")[0] for l in open(os.path.join(ROOT, "data", "library", "cwe_reference.md"), encoding="utf-8") if l.startswith("CWE-")}
+for l in open(os.path.join(ROOT, "data", "library", "cwe_pass.jsonl"), encoding="utf-8"):
+    x = json.loads(l); got = set()
+    for item in x["cwe"]:
+        i = item["id"]
+        if i == "CWE-1104" and not EOL.search(fam_text.get(x["family"], "")):
+            i = "CWE-1395"
+        if i not in cwe_valid or i in got:
+            dropped["cwe duplicate or invalid"] += 1; continue
+        got.add(i)
+        c = item["c"]
+        if i in ("CWE-311", "CWE-312") and c == "H" and not re.search(r"(?i)encrypt", fam_text.get(x["family"], "")):
+            c = "M"  # rule: missing encryption is only implied, not stated, by device-theft scenarios that do not mention it
+        links.append((x["family"], "cwe", i, c, CWEPASS + (" (CWE-1104 replaced by rule)" if i != item["id"] else "")))
+# 0.7.0 controls proposed from the MITRE CTID mapping (pipeline/external/ctid_check.py)
+for _r in csv.DictReader(open(os.path.join(ROOT, "data", "library", "ctid_proposals.csv"), encoding="utf-8")):
+    links.append((_r["family"], "sp80053r5", _r["control"], _r["confidence"], "CTID mapping 2026-10-11: " + _r["basis"]))
 # rule: every family that involves personal information also engages P-39.1 s. 10 (security measures proportionate to
 # sensitivity), the preventive duty; the judges could not choose it because it was added to the reference afterwards.
 import pandas as pd

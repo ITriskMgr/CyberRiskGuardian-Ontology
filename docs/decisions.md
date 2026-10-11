@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.6.0
+# Design decisions — CRGO 0.7.0
 
 This file records why the ontology looks the way it does.
 
@@ -263,3 +263,25 @@ Decided by the project owner at the Phase 5 checkpoint. Population: the 176 fami
 - **Reviewer caveat.** Most library scenarios are set in a hospital; in Québec a public hospital falls under the public-sector access act (CQLR c. A-2.1), not P-39.1. The library uses P-39.1 because the generator's organisation is treated as a private health body (and R-22.1 for health information); a public-sector deployment needs A-2.1 (roadmap).
 
 **Decision of the project owner (2026-10-10).** Pass 2 links approved by group: high (77) and medium (234) approved; low (247) stay proposed, as in 0.3.0. The 497 R-22.1 rule equivalents stay proposed with the other R-22.1 links.
+
+## 13. Public sources (0.7.0 draft, 2026-10-11)
+
+Requested by the project owner: grow and improve the ontology with internet sources (crosswalks, D3FEND, CWE and CAPEC, exploitation data; incident data and legal frameworks follow in 0.8.0).
+
+### 13.1 What could be reached
+GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND, MITRE CTI (CAPEC), CISA KEV (mirror), VERIS. Blocked from the build environment: cwe.mitre.org, capec.mitre.org, d3fend.mitre.org, FIRST EPSS, NIST csrc (OLIR crosswalks CSF↔800-53↔ISO). CWE was taken from D3FEND, which carries 943 CWE weaknesses with their hierarchy; CAPEC from the STIX bundle. EPSS and the NIST crosswalks need a file from the project owner.
+
+### 13.2 Modelling
+- New vocabularies are SKOS schemes like the others; vocabulary-to-vocabulary references are `skos:relatedMatch` assertions in `mappings.ttl`, annotated (OWL 2 axiom annotations) with source, confidence, comment (the relation, for example "technique mitigated by control") and status, grouped for approval as `mappings/<source>`.
+- Scenario CWE links are `hasExternalReference` from the scenario's vulnerability description; 108 scenarios without one received a description node labelled "Weakness exploited in: …".
+- D3FEND is used as a vocabulary of countermeasures linked to ATT&CK techniques, not to scenarios directly; the identification interface derives a scenario's countermeasures through its techniques. D3FEND's own OWL classes are not imported: its upper structure differs from BFO/CCO (an official D3FEND–CCO alignment exists, `mappings/d3fend-cco.ttl` in the D3FEND repository, for a later alignment module).
+- KEV vulnerabilities are evidence of exploitation for techniques and weaknesses, never an inventory of an organisation's vulnerabilities.
+- New annotation property `corroborated by` (proposed) records an independent source supporting a link.
+
+### 13.3 Measurements
+- CTID corroboration of the existing SP 800-53 links (within CTID's control families AC, CA, CM, SC, SI, CP, IA, SA, RA, MP, SR; 594 links in other families cannot be checked): high 83%, medium 74%, low 54%. The gradient supports the 0.3.0 confidence grades.
+- CTID-based proposals (independent review, 40): medium 6 useful, 1 redundant, 0 wrong of 7; low 16 useful, 10 redundant, 7 wrong of 33. Recommendation: approve medium, keep low as suggestions.
+- CWE pass (independent review of 40 scenarios, 59 links, batches 1–5): high 11 correct, 1 defensible; medium 18, 13, 2 wrong; low 2, 10, 2 wrong; all 10 "no weakness" judgements right. Two rules applied afterwards: CWE-1104 replaced by CWE-1395 unless end-of-life is stated; CWE-311/312 lowered from high to medium where encryption is not mentioned. A second CWE batch (162 scenarios outside the first scope that name a weakness) was added after a competency question exposed the gap; it was spot-checked, not sampled.
+- D3FEND: artifact-based inference rejected twice (see changelog); judged links: 28 correct, 16 weak, 1 wrong on 45 (high 9/10 correct). Main weakness: threshold and reputation defences paired with techniques built to evade them.
+
+**Decision of the project owner (2026-10-11).** All groups decided as recommended: `corroborated by` approved; CWE, D3FEND, CAPEC and KEV vocabularies approved as whole vocabularies (`<scheme>/*`); CAPEC, CTID and KEV cross-references approved; judged ATT&CK→D3FEND, scenario→CWE and CTID-proposed SP 800-53 links approved for high and medium confidence, low stays proposed; CQ21–CQ23 added to the test suite.

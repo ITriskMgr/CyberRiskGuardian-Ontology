@@ -1,0 +1,212 @@
+{"technique": "T1078", "d3fend": [{"id": "D3-ANET", "c": "H"}, {"id": "D3-UGLPA", "c": "H"}, {"id": "D3-MFA", "c": "H"}, {"id": "D3-DAM", "c": "M"}, {"id": "D3-LAM", "c": "M"}]}
+{"technique": "T1190", "d3fend": [{"id": "D3-SU", "c": "H"}, {"id": "D3-DQSA", "c": "H"}, {"id": "D3-CSPP", "c": "M"}, {"id": "D3-AVE", "c": "M"}, {"id": "D3-PSEP", "c": "L"}]}
+{"technique": "T1565.001", "d3fend": [{"id": "D3-FIM", "c": "H"}, {"id": "D3-RD", "c": "H"}, {"id": "D3-RF", "c": "M"}, {"id": "D3-LFP", "c": "M"}, {"id": "D3-FH", "c": "M"}]}
+{"technique": "T1557", "d3fend": [{"id": "D3-ET", "c": "H"}, {"id": "D3-MENCR", "c": "H"}, {"id": "D3-CP", "c": "M"}, {"id": "D3-PCA", "c": "M"}, {"id": "D3-DNSTA", "c": "L"}]}
+{"technique": "T1040", "d3fend": [{"id": "D3-ET", "c": "H"}, {"id": "D3-MENCR", "c": "H"}, {"id": "D3-BDI", "c": "M"}, {"id": "D3-LAMED", "c": "M"}]}
+{"technique": "T1210", "d3fend": [{"id": "D3-SU", "c": "H"}, {"id": "D3-NVA", "c": "H"}, {"id": "D3-NTF", "c": "M"}, {"id": "D3-CAA", "c": "M"}, {"id": "D3-PSEP", "c": "L"}]}
+{"technique": "T1566", "d3fend": [{"id": "D3-EF", "c": "H"}, {"id": "D3-SRA", "c": "H"}, {"id": "D3-URA", "c": "M"}, {"id": "D3-DA", "c": "M"}, {"id": "D3-ER", "c": "M"}]}
+{"technique": "T1213", "d3fend": [{"id": "D3-RAPA", "c": "H"}, {"id": "D3-JFAPA", "c": "M"}, {"id": "D3-UAP", "c": "M"}, {"id": "D3-UGPH", "c": "M"}, {"id": "D3-DF", "c": "L"}]}
+{"technique": "T1567", "d3fend": [{"id": "D3-OTF", "c": "H"}, {"id": "D3-UDTA", "c": "H"}, {"id": "D3-PHDURA", "c": "M"}, {"id": "D3-URA", "c": "M"}]}
+{"technique": "T1566.002", "d3fend": [{"id": "D3-URA", "c": "H"}, {"id": "D3-UA", "c": "H"}, {"id": "D3-EF", "c": "H"}, {"id": "D3-HD", "c": "M"}, {"id": "D3-SRA", "c": "M"}]}
+{"technique": "T1485", "d3fend": [{"id": "D3-RF", "c": "H"}, {"id": "D3-RDI", "c": "H"}, {"id": "D3-RD", "c": "M"}, {"id": "D3-FAPA", "c": "M"}, {"id": "D3-LFP", "c": "M"}]}
+{"technique": "T1199", "d3fend": [{"id": "D3-NAM", "c": "H"}, {"id": "D3-RAPA", "c": "M"}, {"id": "D3-MFA", "c": "M"}, {"id": "D3-NTF", "c": "M"}, {"id": "D3-CAA", "c": "L"}]}
+{"technique": "T1565", "d3fend": [{"id": "D3-FIM", "c": "H"}, {"id": "D3-RD", "c": "M"}, {"id": "D3-RF", "c": "M"}, {"id": "D3-FH", "c": "M"}, {"id": "D3-LFP", "c": "L"}]}
+{"technique": "T1133", "d3fend": [{"id": "D3-MFA", "c": "H"}, {"id": "D3-UGLPA", "c": "H"}, {"id": "D3-ANET", "c": "M"}, {"id": "D3-DRA", "c": "M"}, {"id": "D3-SDA", "c": "M"}]}
+{"technique": "T1204.002", "d3fend": [{"id": "D3-DA", "c": "H"}, {"id": "D3-EAL", "c": "H"}, {"id": "D3-FHRA", "c": "M"}, {"id": "D3-EFA", "c": "M"}, {"id": "D3-FFV", "c": "M"}]}
+{"technique": "T1565.002", "d3fend": [{"id": "D3-MAN", "c": "H"}, {"id": "D3-MENCR", "c": "H"}, {"id": "D3-ET", "c": "M"}, {"id": "D3-CP", "c": "M"}]}
+{"technique": "T1530", "d3fend": [{"id": "D3-RAPA", "c": "H"}, {"id": "D3-UAP", "c": "H"}, {"id": "D3-UDTA", "c": "M"}, {"id": "D3-FE", "c": "M"}]}
+{"technique": "T1041", "d3fend": [{"id": "D3-NTSA", "c": "H"}, {"id": "D3-OTF", "c": "M"}, {"id": "D3-PHDURA", "c": "M"}, {"id": "D3-CSPP", "c": "M"}, {"id": "D3-NTCD", "c": "M"}]}
+{"technique": "T1110", "d3fend": [{"id": "D3-ANET", "c": "H"}, {"id": "D3-AL", "c": "H"}, {"id": "D3-MFA", "c": "H"}, {"id": "D3-SPP", "c": "M"}]}
+{"technique": "T1498", "d3fend": [{"id": "D3-ISVA", "c": "H"}, {"id": "D3-ITF", "c": "H"}, {"id": "D3-NTF", "c": "M"}]}
+{"technique": "T1566.001", "d3fend": [{"id": "D3-EF", "c": "H"}, {"id": "D3-DA", "c": "H"}, {"id": "D3-EFA", "c": "M"}, {"id": "D3-CNR", "c": "M"}, {"id": "D3-SRA", "c": "M"}]}
+{"technique": "T1486", "d3fend": [{"id": "D3-RF", "c": "H"}, {"id": "D3-RDI", "c": "H"}, {"id": "D3-FAPA", "c": "H"}, {"id": "D3-FCA", "c": "M"}, {"id": "D3-DF", "c": "M"}]}
+{"technique": "T1068", "d3fend": [{"id": "D3-SU", "c": "H"}, {"id": "D3-SYSVA", "c": "M"}, {"id": "D3-MBT", "c": "M"}, {"id": "D3-PSEP", "c": "M"}, {"id": "D3-SFCV", "c": "L"}]}
+{"technique": "T1584.002", "d3fend": [{"id": "D3-DNRA", "c": "L"}, {"id": "D3-DNSDL", "c": "L"}]}
+{"technique": "T1200", "d3fend": [{"id": "D3-IOPR", "c": "H"}, {"id": "D3-HCI", "c": "H"}, {"id": "D3-LAMED", "c": "H"}, {"id": "D3-NNI", "c": "M"}, {"id": "D3-PAM", "c": "M"}]}
+{"technique": "T1091", "d3fend": [{"id": "D3-IOPR", "c": "H"}, {"id": "D3-EAL", "c": "H"}, {"id": "D3-FCOA", "c": "M"}, {"id": "D3-DA", "c": "L"}]}
+{"technique": "T1203", "d3fend": [{"id": "D3-SU", "c": "H"}, {"id": "D3-PSEP", "c": "M"}, {"id": "D3-SAOR", "c": "M"}, {"id": "D3-ABPI", "c": "M"}, {"id": "D3-CFI", "c": "M"}]}
+{"technique": "T1598.004", "d3fend": []}
+{"technique": "T1499", "d3fend": [{"id": "D3-ISVA", "c": "H"}, {"id": "D3-ITF", "c": "H"}, {"id": "D3-AH", "c": "M"}]}
+{"technique": "T1490", "d3fend": [{"id": "D3-RDI", "c": "H"}, {"id": "D3-SCP", "c": "M"}, {"id": "D3-PLA", "c": "M"}, {"id": "D3-SFA", "c": "L"}]}
+{"technique": "T1489", "d3fend": [{"id": "D3-SDM", "c": "H"}, {"id": "D3-RS", "c": "M"}, {"id": "D3-UAP", "c": "M"}, {"id": "D3-PT", "c": "L"}]}
+{"technique": "T1195.001", "d3fend": [{"id": "D3-SWI", "c": "H"}, {"id": "D3-FHRA", "c": "M"}, {"id": "D3-AVE", "c": "M"}, {"id": "D3-TL", "c": "M"}]}
+{"technique": "T1598", "d3fend": [{"id": "D3-EF", "c": "M"}, {"id": "D3-SRA", "c": "M"}, {"id": "D3-URA", "c": "M"}]}
+{"technique": "T1098", "d3fend": [{"id": "D3-DAM", "c": "H"}, {"id": "D3-LAM", "c": "H"}, {"id": "D3-UAP", "c": "M"}, {"id": "D3-AZET", "c": "M"}]}
+{"technique": "T1195.002", "d3fend": [{"id": "D3-SWI", "c": "M"}, {"id": "D3-FH", "c": "M"}, {"id": "D3-SBV", "c": "M"}, {"id": "D3-DA", "c": "M"}]}
+{"technique": "T1052.001", "d3fend": [{"id": "D3-IOPR", "c": "H"}, {"id": "D3-UDTA", "c": "M"}]}
+{"technique": "T1078.004", "d3fend": [{"id": "D3-MFA", "c": "H"}, {"id": "D3-UGLPA", "c": "H"}, {"id": "D3-ANET", "c": "M"}, {"id": "D3-RAPA", "c": "M"}]}
+{"technique": "T1491.002", "d3fend": [{"id": "D3-FIM", "c": "H"}, {"id": "D3-RF", "c": "H"}, {"id": "D3-WSAM", "c": "M"}, {"id": "D3-LFP", "c": "M"}]}
+{"technique": "T1189", "d3fend": [{"id": "D3-URA", "c": "H"}, {"id": "D3-UA", "c": "M"}, {"id": "D3-ABPI", "c": "M"}, {"id": "D3-SU", "c": "M"}, {"id": "D3-PSEP", "c": "L"}]}
+{"technique": "T1005", "d3fend": [{"id": "D3-LFP", "c": "H"}, {"id": "D3-FAPA", "c": "M"}, {"id": "D3-FE", "c": "M"}, {"id": "D3-DF", "c": "M"}]}
+{"technique": "T1110.002", "d3fend": [{"id": "D3-SPP", "c": "H"}, {"id": "D3-MFA", "c": "M"}, {"id": "D3-CRO", "c": "M"}]}
+{"technique": "T1534", "d3fend": [{"id": "D3-EF", "c": "M"}, {"id": "D3-URA", "c": "M"}, {"id": "D3-DA", "c": "M"}, {"id": "D3-ER", "c": "M"}]}
+{"technique": "T1557.004", "d3fend": [{"id": "D3-CBAN", "c": "M"}, {"id": "D3-LAMED", "c": "M"}, {"id": "D3-CP", "c": "M"}, {"id": "D3-ET", "c": "M"}]}
+{"technique": "T1048", "d3fend": [{"id": "D3-OTF", "c": "H"}, {"id": "D3-DNSTA", "c": "H"}, {"id": "D3-PHDURA", "c": "M"}, {"id": "D3-PMAD", "c": "M"}]}
+{"technique": "T1110.004", "d3fend": [{"id": "D3-MFA", "c": "H"}, {"id": "D3-ANET", "c": "H"}, {"id": "D3-UGLPA", "c": "M"}, {"id": "D3-SPP", "c": "M"}]}
+{"technique": "T1078.001", "d3fend": [{"id": "D3-CDP", "c": "H"}, {"id": "D3-LAM", "c": "M"}, {"id": "D3-DAM", "c": "M"}]}
+{"technique": "T1123", "d3fend": [{"id": "D3-IOPR", "c": "M"}, {"id": "D3-SCA", "c": "L"}]}
+{"technique": "T1669", "d3fend": [{"id": "D3-CBAN", "c": "M"}, {"id": "D3-LAMED", "c": "M"}, {"id": "D3-NNI", "c": "M"}]}
+{"technique": "T1213.004", "d3fend": [{"id": "D3-RAPA", "c": "H"}, {"id": "D3-JFAPA", "c": "M"}, {"id": "D3-UAP", "c": "M"}, {"id": "D3-UDTA", "c": "M"}]}
+{"technique": "T1598.003", "d3fend": [{"id": "D3-URA", "c": "H"}, {"id": "D3-UA", "c": "H"}, {"id": "D3-EF", "c": "M"}, {"id": "D3-HD", "c": "M"}]}
+{"technique": "T1021", "d3fend": [{"id": "D3-RTSD", "c": "H"}, {"id": "D3-ANAA", "c": "H"}, {"id": "D3-NTF", "c": "M"}, {"id": "D3-LAM", "c": "M"}, {"id": "D3-MFA", "c": "M"}]}
+{"technique": "T1552.004", "d3fend": [{"id": "D3-FE", "c": "M"}, {"id": "D3-LFP", "c": "M"}, {"id": "D3-CRO", "c": "M"}, {"id": "D3-CR", "c": "M"}, {"id": "D3-DUC", "c": "L"}]}
+{"technique": "T1570", "d3fend": [{"id": "D3-FCA", "c": "M"}, {"id": "D3-NTSA", "c": "M"}, {"id": "D3-FC", "c": "M"}, {"id": "D3-ANAA", "c": "M"}, {"id": "D3-RFAM", "c": "M"}]}
+{"technique":"T1566.004","d3fend":[]}
+{"technique":"T1593.001","d3fend":[{"id":"D3-DP","c":"L"}]}
+{"technique":"T1585.001","d3fend":[]}
+{"technique":"T1685","d3fend":[{"id":"D3-EHB","c":"H"},{"id":"D3-SDM","c":"H"},{"id":"D3-SCP","c":"M"},{"id":"D3-RC","c":"M"},{"id":"D3-SICA","c":"L"}]}
+{"technique":"T1110.001","d3fend":[{"id":"D3-ANET","c":"H"},{"id":"D3-AL","c":"H"},{"id":"D3-SPP","c":"H"},{"id":"D3-MFA","c":"H"},{"id":"D3-CDP","c":"M"}]}
+{"technique":"T1586.001","d3fend":[]}
+{"technique":"T1125","d3fend":[{"id":"D3-IOPR","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1589","d3fend":[]}
+{"technique":"T1657","d3fend":[{"id":"D3-JFAPA","c":"L"},{"id":"D3-SRA","c":"L"}]}
+{"technique":"T1499.003","d3fend":[{"id":"D3-ISVA","c":"H"},{"id":"D3-ITF","c":"M"},{"id":"D3-APM","c":"M"},{"id":"D3-CSPP","c":"L"}]}
+{"technique":"T1611","d3fend":[{"id":"D3-KBPI","c":"H"},{"id":"D3-SCF","c":"H"},{"id":"D3-HBPI","c":"M"},{"id":"D3-SCA","c":"M"},{"id":"D3-CIA","c":"L"}]}
+{"technique":"T1495","d3fend":[{"id":"D3-FV","c":"H"},{"id":"D3-SFV","c":"H"},{"id":"D3-HBWP","c":"H"},{"id":"D3-RFUM","c":"M"},{"id":"D3-FBA","c":"M"}]}
+{"technique":"T1027","d3fend":[{"id":"D3-DA","c":"H"},{"id":"D3-EFA","c":"M"},{"id":"D3-FCDC","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-FCR","c":"M"}]}
+{"technique":"T1684.001","d3fend":[{"id":"D3-SRA","c":"M"},{"id":"D3-HD","c":"M"},{"id":"D3-MAN","c":"M"},{"id":"D3-EF","c":"L"}]}
+{"technique":"T1213.006","d3fend":[{"id":"D3-DQSA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-JFAPA","c":"M"}]}
+{"technique":"T1056.003","d3fend":[{"id":"D3-FIM","c":"H"},{"id":"D3-WSAA","c":"L"},{"id":"D3-MFA","c":"L"}]}
+{"technique":"T1204.001","d3fend":[{"id":"D3-URA","c":"H"},{"id":"D3-UA","c":"H"},{"id":"D3-HD","c":"M"},{"id":"D3-DNRA","c":"M"},{"id":"D3-FRDDL","c":"M"}]}
+{"technique":"T1195","d3fend":[{"id":"D3-SWI","c":"M"},{"id":"D3-AVE","c":"M"},{"id":"D3-CIA","c":"M"},{"id":"D3-TL","c":"M"},{"id":"D3-FHRA","c":"L"}]}
+{"technique":"T1529","d3fend":[{"id":"D3-PUM","c":"H"},{"id":"D3-EHB","c":"M"},{"id":"D3-UAP","c":"L"}]}
+{"technique":"T1070","d3fend":[{"id":"D3-FIM","c":"M"},{"id":"D3-LFP","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1036","d3fend":[{"id":"D3-EAL","c":"H"},{"id":"D3-SBV","c":"M"},{"id":"D3-FMBV","c":"M"},{"id":"D3-PLA","c":"M"},{"id":"D3-FMCV","c":"M"}]}
+{"technique":"T1114.002","d3fend":[{"id":"D3-RAPA","c":"M"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-MFA","c":"M"},{"id":"D3-WSAA","c":"M"}]}
+{"technique":"T1552.001","d3fend":[{"id":"D3-CS","c":"H"},{"id":"D3-LFP","c":"M"},{"id":"D3-FAPA","c":"M"},{"id":"D3-DUC","c":"M"},{"id":"D3-FE","c":"L"}]}
+{"technique":"T1078.002","d3fend":[{"id":"D3-DAM","c":"H"},{"id":"D3-MFA","c":"H"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-AZET","c":"M"},{"id":"D3-CR","c":"M"}]}
+{"technique":"T1499.002","d3fend":[{"id":"D3-ISVA","c":"H"},{"id":"D3-ITF","c":"M"},{"id":"D3-CAA","c":"M"},{"id":"D3-APM","c":"L"}]}
+{"technique":"T1567.002","d3fend":[{"id":"D3-UDTA","c":"H"},{"id":"D3-PHDURA","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-DNSAL","c":"M"}]}
+{"technique":"T1600","d3fend":[{"id":"D3-CI","c":"M"},{"id":"D3-SFV","c":"M"},{"id":"D3-RC","c":"M"},{"id":"D3-PMAD","c":"L"}]}
+{"technique":"T1204","d3fend":[{"id":"D3-EAL","c":"H"},{"id":"D3-DA","c":"M"},{"id":"D3-EFA","c":"M"},{"id":"D3-UA","c":"M"},{"id":"D3-PLA","c":"M"}]}
+{"technique":"T1542.001","d3fend":[{"id":"D3-SFV","c":"H"},{"id":"D3-TBI","c":"H"},{"id":"D3-BA","c":"M"},{"id":"D3-HBWP","c":"M"},{"id":"D3-FBA","c":"L"}]}
+{"technique":"T1566.003","d3fend":[{"id":"D3-URA","c":"H"},{"id":"D3-UA","c":"M"},{"id":"D3-HD","c":"M"},{"id":"D3-DA","c":"M"},{"id":"D3-DNRA","c":"M"}]}
+{"technique":"T1195.003","d3fend":[{"id":"D3-HCI","c":"M"},{"id":"D3-FV","c":"M"},{"id":"D3-TBI","c":"M"},{"id":"D3-PFV","c":"M"}]}
+{"technique":"T1572","d3fend":[{"id":"D3-PMAD","c":"H"},{"id":"D3-DNSTA","c":"H"},{"id":"D3-RPA","c":"M"},{"id":"D3-CSPP","c":"M"},{"id":"D3-OTF","c":"M"}]}
+{"technique":"T1599","d3fend":[{"id":"D3-NTPM","c":"M"},{"id":"D3-CI","c":"M"},{"id":"D3-ANAA","c":"M"},{"id":"D3-FV","c":"L"},{"id":"D3-PMAD","c":"L"}]}
+{"technique":"T1185","d3fend":[{"id":"D3-WSAA","c":"M"},{"id":"D3-TB","c":"M"},{"id":"D3-SDA","c":"L"}]}
+{"technique":"T1556","d3fend":[{"id":"D3-SFA","c":"H"},{"id":"D3-FIM","c":"H"},{"id":"D3-DLIC","c":"M"},{"id":"D3-SICA","c":"M"},{"id":"D3-SCP","c":"M"}]}
+{"technique":"T1528","d3fend":[{"id":"D3-TB","c":"H"},{"id":"D3-CR","c":"M"},{"id":"D3-WSAA","c":"M"},{"id":"D3-URA","c":"L"}]}
+{"technique":"T1608.004","d3fend":[{"id":"D3-URA","c":"L"},{"id":"D3-DNRA","c":"L"}]}
+{"technique":"T1565.003","d3fend":[{"id":"D3-PSMD","c":"M"},{"id":"D3-PCSV","c":"M"},{"id":"D3-OLV","c":"M"},{"id":"D3-MBT","c":"L"}]}
+{"technique":"T1136","d3fend":[{"id":"D3-LAM","c":"H"},{"id":"D3-DAM","c":"H"},{"id":"D3-UAP","c":"M"},{"id":"D3-AL","c":"M"}]}
+{"technique":"T1609","d3fend":[{"id":"D3-SCA","c":"M"},{"id":"D3-PLA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-ANAA","c":"M"},{"id":"D3-EAL","c":"L"}]}
+{"technique":"T1610","d3fend":[{"id":"D3-CIA","c":"H"},{"id":"D3-EAL","c":"M"},{"id":"D3-ANAA","c":"M"},{"id":"D3-UAP","c":"M"}]}
+{"technique":"T1539","d3fend":[{"id":"D3-TB","c":"H"},{"id":"D3-SDA","c":"M"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-ST","c":"M"},{"id":"D3-FAPA","c":"M"}]}
+{"technique":"T1606.002","d3fend":[{"id":"D3-CERO","c":"H"},{"id":"D3-DAM","c":"M"},{"id":"D3-CCSA","c":"M"},{"id":"D3-CR","c":"M"},{"id":"D3-AZET","c":"L"}]}
+{"technique":"T1213.003","d3fend":[{"id":"D3-CS","c":"H"},{"id":"D3-RAPA","c":"M"},{"id":"D3-UGPH","c":"M"},{"id":"D3-JFAPA","c":"M"}]}
+{"technique":"T1505.003","d3fend":[{"id":"D3-FIM","c":"H"},{"id":"D3-PLA","c":"H"},{"id":"D3-FCA","c":"M"},{"id":"D3-FCR","c":"M"},{"id":"D3-CSPP","c":"M"}]}
+{"technique":"T1059","d3fend":[{"id":"D3-SEA","c":"H"},{"id":"D3-PLA","c":"H"},{"id":"D3-EAL","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1059.007","d3fend":[{"id":"D3-SEA","c":"H"},{"id":"D3-DA","c":"M"},{"id":"D3-PLA","c":"M"},{"id":"D3-FCR","c":"M"}]}
+{"technique":"T1619","d3fend":[{"id":"D3-RAPA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-AZET","c":"M"}]}
+{"technique":"T1070.006","d3fend":[{"id":"D3-FMCV","c":"M"},{"id":"D3-FIM","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1553.002","d3fend":[{"id":"D3-EAL","c":"M"},{"id":"D3-FHRA","c":"M"},{"id":"D3-CR","c":"M"},{"id":"D3-DA","c":"M"}]}
+{"technique":"T1557.002","d3fend":[{"id":"D3-PMAD","c":"H"},{"id":"D3-BDI","c":"M"},{"id":"D3-ET","c":"M"},{"id":"D3-NTSA","c":"M"},{"id":"D3-PLLM","c":"L"}]}
+{"technique":"T1021.001","d3fend":[{"id":"D3-RTSD","c":"H"},{"id":"D3-DRA","c":"H"},{"id":"D3-MFA","c":"H"},{"id":"D3-NTF","c":"M"},{"id":"D3-ANAA","c":"M"}]}
+{"technique":"T1659","d3fend":[{"id":"D3-ET","c":"H"},{"id":"D3-CP","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-CSPP","c":"L"},{"id":"D3-URA","c":"L"}]}
+{"technique":"T1090","d3fend":[{"id":"D3-RPA","c":"H"},{"id":"D3-OTF","c":"H"},{"id":"D3-CAA","c":"M"},{"id":"D3-IPRA","c":"M"},{"id":"D3-PMAD","c":"M"}]}
+{"technique":"T1538","d3fend":[{"id":"D3-UGLPA","c":"M"},{"id":"D3-WSAA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-UAP","c":"M"}]}
+{"technique":"T1039","d3fend":[{"id":"D3-RFAM","c":"H"},{"id":"D3-FAPA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-UDTA","c":"M"},{"id":"D3-DF","c":"L"}]}
+{"technique":"T1550.004","d3fend":[{"id":"D3-TB","c":"H"},{"id":"D3-WSAA","c":"M"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-ST","c":"M"},{"id":"D3-DST","c":"L"}]}
+{"technique":"T1550.001","d3fend":[{"id":"D3-TB","c":"H"},{"id":"D3-CR","c":"H"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-DST","c":"L"}]}
+{"technique":"T1555.006","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-RAPA","c":"M"},{"id":"D3-CRO","c":"M"},{"id":"D3-AZET","c":"M"},{"id":"D3-DUC","c":"L"}]}
+{"technique":"T1006","d3fend":[{"id":"D3-SCA","c":"M"},{"id":"D3-FAPA","c":"M"},{"id":"D3-DENCR","c":"M"},{"id":"D3-FE","c":"L"}]}
+{"technique":"T1110.003","d3fend":[{"id":"D3-ANET","c":"H"},{"id":"D3-MFA","c":"H"},{"id":"D3-SPP","c":"H"},{"id":"D3-AL","c":"M"},{"id":"D3-UGLPA","c":"M"}]}
+{"technique":"T1589.003","d3fend":[{"id":"D3-DP","c":"L"}]}
+{"technique":"T1072","d3fend":[{"id":"D3-UGPH","c":"H"},{"id":"D3-MFA","c":"M"},{"id":"D3-ANAA","c":"M"},{"id":"D3-PSA","c":"M"},{"id":"D3-EAL","c":"M"}]}
+{"technique":"T1491.001","d3fend":[{"id":"D3-FIM","c":"H"},{"id":"D3-RF","c":"H"},{"id":"D3-LFP","c":"M"},{"id":"D3-RS","c":"M"}]}
+{"technique":"T1608.006","d3fend":[{"id":"D3-URA","c":"M"},{"id":"D3-DNRA","c":"M"},{"id":"D3-UA","c":"L"}]}
+{"technique":"T1648","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-AZET","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-OTF","c":"L"}]}
+{"technique":"T1537","d3fend":[{"id":"D3-UDTA","c":"H"},{"id":"D3-OTF","c":"M"},{"id":"D3-PHDURA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-UAP","c":"M"}]}
+{"technique":"T1070.004","d3fend":[{"id":"D3-FIM","c":"M"},{"id":"D3-FCA","c":"M"},{"id":"D3-FAPA","c":"M"},{"id":"D3-RF","c":"M"}]}
+{"technique":"T1578.001","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-AZET","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-CI","c":"L"}]}
+{"technique":"T1677","d3fend":[{"id":"D3-UGPH","c":"H"},{"id":"D3-CS","c":"M"},{"id":"D3-PSA","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-ABPI","c":"M"}]}
+{"technique":"T1498.001","d3fend":[{"id":"D3-ISVA","c":"H"},{"id":"D3-ITF","c":"H"},{"id":"D3-NTCD","c":"M"}]}
+{"technique":"T1053","d3fend":[{"id":"D3-SJA","c":"H"},{"id":"D3-PLA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-EAL","c":"M"}]}
+{"technique":"T1689","d3fend":[{"id":"D3-ACH","c":"H"},{"id":"D3-PMAD","c":"M"},{"id":"D3-CP","c":"M"},{"id":"D3-ACA","c":"L"}]}
+{"technique":"T1584.001","d3fend":[{"id":"D3-DNRA","c":"M"},{"id":"D3-PCA","c":"L"},{"id":"D3-DNSDL","c":"L"}]}
+{"technique":"T1046","d3fend":[{"id":"D3-CAA","c":"H"},{"id":"D3-NTCD","c":"M"},{"id":"D3-DNR","c":"M"},{"id":"D3-ITF","c":"M"},{"id":"D3-CHN","c":"L"}]}
+{"technique":"T1056.001","d3fend":[{"id":"D3-IDA","c":"H"},{"id":"D3-SCA","c":"M"},{"id":"D3-PCSV","c":"M"},{"id":"D3-EAL","c":"M"}]}
+{"technique":"T1583.005","d3fend":[{"id":"D3-IPRA","c":"M"},{"id":"D3-ISVA","c":"L"}]}
+{"technique":"T1027.014","d3fend":[{"id":"D3-DA","c":"H"},{"id":"D3-EFA","c":"M"},{"id":"D3-PSMD","c":"M"},{"id":"D3-EAL","c":"M"}]}
+{"technique":"T1014","d3fend":[{"id":"D3-DLIC","c":"H"},{"id":"D3-TBI","c":"H"},{"id":"D3-BA","c":"M"},{"id":"D3-SFV","c":"M"},{"id":"D3-SFA","c":"M"}]}
+{"technique":"T1583.001","d3fend":[{"id":"D3-DNRA","c":"M"},{"id":"D3-HD","c":"M"},{"id":"D3-DRT","c":"L"},{"id":"D3-FRDDL","c":"L"}]}
+{"technique":"T1591","d3fend":[{"id":"D3-DP","c":"L"},{"id":"D3-DPR","c":"L"}]}
+{"technique":"T1547.006","d3fend":[{"id":"D3-DLIC","c":"H"},{"id":"D3-SFA","c":"M"},{"id":"D3-SICA","c":"M"},{"id":"D3-SCP","c":"M"}]}
+{"technique":"T1684.002","d3fend":[{"id":"D3-TAAN","c":"H"},{"id":"D3-SRA","c":"M"},{"id":"D3-SMRA","c":"M"},{"id":"D3-EF","c":"M"},{"id":"D3-HD","c":"M"}]}
+{"technique":"T1595","d3fend":[{"id":"D3-CAA","c":"H"},{"id":"D3-ITF","c":"M"},{"id":"D3-IPRA","c":"M"},{"id":"D3-DNR","c":"L"},{"id":"D3-CHN","c":"L"}]}
+{"technique":"T1548","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-PLA","c":"M"},{"id":"D3-SCA","c":"M"},{"id":"D3-SCP","c":"M"},{"id":"D3-EAL","c":"M"}]}
+{"technique":"T1683.002","d3fend":[]}
+{"technique":"T1563","d3fend":[{"id":"D3-RTSD","c":"M"},{"id":"D3-ST","c":"M"},{"id":"D3-SDA","c":"M"},{"id":"D3-DRA","c":"M"},{"id":"D3-UGLPA","c":"L"}]}
+{"technique":"T1556.007","d3fend":[{"id":"D3-SCP","c":"M"},{"id":"D3-DAM","c":"M"},{"id":"D3-ANET","c":"L"},{"id":"D3-SFA","c":"L"}]}
+{"technique":"T1578.005","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-CI","c":"M"},{"id":"D3-AZET","c":"M"},{"id":"D3-RC","c":"M"}]}
+{"technique":"T1059.012","d3fend":[{"id":"D3-DRA","c":"H"},{"id":"D3-ANAA","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-UGPH","c":"M"}]}
+{"technique":"T1675","d3fend":[{"id":"D3-DRA","c":"H"},{"id":"D3-ANAA","c":"M"},{"id":"D3-UGPH","c":"M"},{"id":"D3-RTA","c":"L"}]}
+{"technique":"T1531","d3fend":[{"id":"D3-RUAA","c":"H"},{"id":"D3-ULA","c":"H"},{"id":"D3-DAM","c":"M"},{"id":"D3-LAM","c":"M"},{"id":"D3-UAP","c":"M"}]}
+{"technique":"T1114.003","d3fend":[{"id":"D3-ACH","c":"H"},{"id":"D3-UDTA","c":"M"},{"id":"D3-OTF","c":"L"}]}
+{"technique":"T1056","d3fend":[{"id":"D3-IDA","c":"H"},{"id":"D3-SCA","c":"M"},{"id":"D3-PCSV","c":"M"},{"id":"D3-UA","c":"L"}]}
+{"technique":"T1593.002","d3fend":[]}
+{"technique":"T1594","d3fend":[{"id":"D3-WSAA","c":"L"},{"id":"D3-DPR","c":"L"}]}
+{"technique":"T1140","d3fend":[{"id":"D3-DA","c":"H"},{"id":"D3-EFA","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-FCDC","c":"L"}]}
+{"technique":"T1583.008","d3fend":[{"id":"D3-URA","c":"M"},{"id":"D3-DNRA","c":"M"},{"id":"D3-CF","c":"M"},{"id":"D3-UA","c":"L"}]}
+{"technique":"T1119","d3fend":[{"id":"D3-FAPA","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-DF","c":"L"}]}
+{"technique":"T1578.002","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-AZET","c":"M"},{"id":"D3-NNI","c":"M"},{"id":"D3-RAPA","c":"M"}]}
+{"technique":"T1578.003","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-AZET","c":"M"},{"id":"D3-RDI","c":"M"},{"id":"D3-RAPA","c":"L"}]}
+{"technique":"T1578","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-AZET","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-CI","c":"M"}]}
+{"technique":"T1204.003","d3fend":[{"id":"D3-CIA","c":"H"},{"id":"D3-EAL","c":"M"},{"id":"D3-FHRA","c":"M"},{"id":"D3-SWI","c":"L"}]}
+{"technique":"T1525","d3fend":[{"id":"D3-CIA","c":"H"},{"id":"D3-UAP","c":"M"},{"id":"D3-FH","c":"M"},{"id":"D3-SWI","c":"L"}]}
+{"technique":"T1496","d3fend":[{"id":"D3-PUM","c":"L"},{"id":"D3-PSA","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-NTSA","c":"M"},{"id":"D3-RAPA","c":"M"}]}
+{"technique":"T1098.003","d3fend":[{"id":"D3-UAP","c":"H"},{"id":"D3-DAM","c":"M"},{"id":"D3-AZET","c":"M"},{"id":"D3-APA","c":"M"}]}
+{"technique":"T1613","d3fend":[{"id":"D3-UAP","c":"M"},{"id":"D3-RAPA","c":"M"},{"id":"D3-ANAA","c":"L"}]}
+{"technique":"T1496.001","d3fend":[{"id":"D3-NTSA","c":"M"},{"id":"D3-FRDDL","c":"M"},{"id":"D3-FHRA","c":"M"},{"id":"D3-PT","c":"M"}]}
+{"technique":"T1499.001","d3fend":[{"id":"D3-ISVA","c":"H"},{"id":"D3-ITF","c":"H"},{"id":"D3-CAA","c":"M"}]}
+{"technique":"T1600.001","d3fend":[{"id":"D3-SFV","c":"M"},{"id":"D3-RC","c":"M"},{"id":"D3-CI","c":"M"},{"id":"D3-PCA","c":"L"}]}
+{"technique":"T1048.001","d3fend":[{"id":"D3-OTF","c":"H"},{"id":"D3-UDTA","c":"M"},{"id":"D3-PHDURA","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-CSPP","c":"L"}]}
+{"technique":"T1573","d3fend":[{"id":"D3-CA","c":"M"},{"id":"D3-PCA","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-NTCD","c":"L"}]}
+{"technique":"T1588.003","d3fend":[{"id":"D3-FHRA","c":"M"},{"id":"D3-EAL","c":"L"}]}
+{"technique":"T1649","d3fend":[{"id":"D3-CR","c":"H"},{"id":"D3-CERO","c":"M"},{"id":"D3-CCSA","c":"M"},{"id":"D3-FAPA","c":"M"},{"id":"D3-PCA","c":"L"}]}
+{"technique":"T1029","d3fend":[{"id":"D3-UDTA","c":"M"},{"id":"D3-NTCD","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-PHDURA","c":"M"}]}
+{"technique":"T1030","d3fend":[{"id":"D3-UDTA","c":"M"},{"id":"D3-PHDURA","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-NTCD","c":"L"}]}
+{"technique":"T1011","d3fend":[{"id":"D3-IOPR","c":"M"},{"id":"D3-RFS","c":"L"},{"id":"D3-HCI","c":"L"}]}
+{"technique":"T1001.002","d3fend":[{"id":"D3-CFC","c":"M"},{"id":"D3-CNR","c":"M"},{"id":"D3-CSPP","c":"L"},{"id":"D3-NTCD","c":"L"}]}
+{"technique":"T1027.003","d3fend":[{"id":"D3-FCOA","c":"M"},{"id":"D3-CNR","c":"M"},{"id":"D3-CFC","c":"M"},{"id":"D3-DA","c":"L"}]}
+{"technique":"T1592","d3fend":[]}
+{"technique":"T1498.002","d3fend":[{"id":"D3-ISVA","c":"H"},{"id":"D3-ITF","c":"H"},{"id":"D3-NTF","c":"M"}]}
+{"technique":"T1587.004","d3fend":[]}
+{"technique":"T1595.002","d3fend":[{"id":"D3-CAA","c":"M"},{"id":"D3-ITF","c":"M"},{"id":"D3-NTSA","c":"M"}]}
+{"technique":"T1496.002","d3fend":[{"id":"D3-PHDURA","c":"M"},{"id":"D3-NTCD","c":"M"},{"id":"D3-OTF","c":"M"}]}
+{"technique":"T1674","d3fend":[{"id":"D3-IDA","c":"H"},{"id":"D3-IOPR","c":"H"},{"id":"D3-HCI","c":"L"}]}
+{"technique":"T1614","d3fend":[{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1580","d3fend":[{"id":"D3-RAPA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-AZET","c":"L"},{"id":"D3-JFAPA","c":"L"}]}
+{"technique":"T1484.002","d3fend":[{"id":"D3-DTP","c":"H"},{"id":"D3-DAM","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-RC","c":"M"}]}
+{"technique":"T1679","d3fend":[{"id":"D3-DF","c":"L"},{"id":"D3-FAPA","c":"L"}]}
+{"technique":"T1213.005","d3fend":[{"id":"D3-RAPA","c":"M"},{"id":"D3-UDTA","c":"M"},{"id":"D3-UAP","c":"M"},{"id":"D3-JFAPA","c":"L"}]}
+{"technique":"T1078.003","d3fend":[{"id":"D3-LAM","c":"H"},{"id":"D3-SPP","c":"M"},{"id":"D3-CDP","c":"M"},{"id":"D3-ANET","c":"M"},{"id":"D3-UGLPA","c":"L"}]}
+{"technique":"T1561","d3fend":[{"id":"D3-RDI","c":"H"},{"id":"D3-HBWP","c":"M"},{"id":"D3-SCA","c":"M"},{"id":"D3-RF","c":"M"}]}
+{"technique":"T1048.003","d3fend":[{"id":"D3-OTF","c":"H"},{"id":"D3-UDTA","c":"M"},{"id":"D3-NTSA","c":"M"},{"id":"D3-PHDURA","c":"M"},{"id":"D3-PMAD","c":"M"}]}
+{"technique":"T1685.005","d3fend":[{"id":"D3-LFP","c":"M"},{"id":"D3-FIM","c":"M"},{"id":"D3-PSA","c":"M"},{"id":"D3-SCP","c":"M"}]}
+{"technique":"T1505","d3fend":[{"id":"D3-FIM","c":"H"},{"id":"D3-PSA","c":"H"},{"id":"D3-PLA","c":"H"},{"id":"D3-SBV","c":"M"},{"id":"D3-FCR","c":"M"}]}
+{"technique":"T1554","d3fend":[{"id":"D3-FIM","c":"H"},{"id":"D3-FH","c":"M"},{"id":"D3-SBV","c":"M"},{"id":"D3-EAL","c":"M"},{"id":"D3-RS","c":"M"}]}
+{"technique":"T1568.001","d3fend":[{"id":"D3-DNSTA","c":"H"},{"id":"D3-DNRA","c":"M"},{"id":"D3-FRDDL","c":"M"},{"id":"D3-IPRA","c":"L"}]}
+{"technique":"T1071.004","d3fend":[{"id":"D3-DNSTA","c":"H"},{"id":"D3-DNSAL","c":"M"},{"id":"D3-FRDDL","c":"M"},{"id":"D3-DNRA","c":"M"}]}
+{"technique":"T1205","d3fend":[{"id":"D3-NTSA","c":"M"},{"id":"D3-CAA","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-ITF","c":"M"}]}
+{"technique":"T1557.003","d3fend":[{"id":"D3-LAMED","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-BDI","c":"L"}]}
+{"technique":"T1595.001","d3fend":[{"id":"D3-CAA","c":"M"},{"id":"D3-ITF","c":"M"},{"id":"D3-ISVA","c":"L"}]}
+{"technique":"T1111","d3fend":[{"id":"D3-CBAN","c":"M"},{"id":"D3-UGLPA","c":"M"},{"id":"D3-ANET","c":"L"}]}
+{"technique":"T1563.002","d3fend":[{"id":"D3-RTSD","c":"H"},{"id":"D3-PSA","c":"M"},{"id":"D3-SDA","c":"M"},{"id":"D3-DRA","c":"M"},{"id":"D3-LAM","c":"L"}]}
+{"technique":"T1071","d3fend":[{"id":"D3-NTSA","c":"M"},{"id":"D3-PMAD","c":"M"},{"id":"D3-CSPP","c":"M"},{"id":"D3-OTF","c":"M"},{"id":"D3-CA","c":"L"}]}
+{"technique":"T1584.008","d3fend":[{"id":"D3-IPRA","c":"L"}]}
+{"technique":"T1027.011","d3fend":[{"id":"D3-RKD","c":"M"},{"id":"D3-SEA","c":"M"},{"id":"D3-SICA","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1059.001","d3fend":[{"id":"D3-SEA","c":"H"},{"id":"D3-PSA","c":"M"},{"id":"D3-EAL","c":"M"},{"id":"D3-PLA","c":"M"},{"id":"D3-ACH","c":"M"}]}
+{"technique":"T1620","d3fend":[{"id":"D3-PSMD","c":"M"},{"id":"D3-PCSV","c":"M"},{"id":"D3-PSEP","c":"M"},{"id":"D3-SCA","c":"L"}]}
+{"technique":"T1542","d3fend":[{"id":"D3-TBI","c":"H"},{"id":"D3-BA","c":"H"},{"id":"D3-SFV","c":"H"},{"id":"D3-FV","c":"M"},{"id":"D3-FBA","c":"L"}]}
+{"technique":"T1114","d3fend":[{"id":"D3-RAPA","c":"M"},{"id":"D3-UDTA","c":"M"},{"id":"D3-MFA","c":"M"},{"id":"D3-UGLPA","c":"L"},{"id":"D3-MENCR","c":"L"}]}
+{"technique":"T1589.001","d3fend":[{"id":"D3-MFA","c":"M"},{"id":"D3-CRO","c":"M"},{"id":"D3-DUC","c":"L"}]}
+{"technique":"T1586.002","d3fend":[{"id":"D3-SRA","c":"M"},{"id":"D3-EF","c":"M"},{"id":"D3-MA","c":"L"}]}
+{"technique":"T1591.002","d3fend":[]}
+{"technique":"T1176","d3fend":[{"id":"D3-EAL","c":"M"},{"id":"D3-SWI","c":"M"},{"id":"D3-ACH","c":"M"},{"id":"D3-FIM","c":"L"}]}
+{"technique":"T1686","d3fend":[{"id":"D3-SCP","c":"H"},{"id":"D3-CI","c":"M"},{"id":"D3-RC","c":"M"},{"id":"D3-EHB","c":"L"}]}
+{"technique":"T1052","d3fend":[{"id":"D3-IOPR","c":"H"},{"id":"D3-UDTA","c":"L"},{"id":"D3-FAPA","c":"L"}]}
+{"technique":"T1542.003","d3fend":[{"id":"D3-BA","c":"H"},{"id":"D3-TBI","c":"H"},{"id":"D3-SFV","c":"M"}]}
+{"technique":"T1601.002","d3fend":[{"id":"D3-SFV","c":"M"},{"id":"D3-FV","c":"M"},{"id":"D3-SU","c":"M"},{"id":"D3-CI","c":"M"}]}
+{"technique":"T1601","d3fend":[{"id":"D3-SFV","c":"H"},{"id":"D3-FV","c":"M"},{"id":"D3-RFUM","c":"M"},{"id":"D3-RS","c":"M"},{"id":"D3-CI","c":"L"}]}
