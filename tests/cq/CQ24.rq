@@ -1,0 +1,8 @@
+# CQ24 (Identification, proposed 0.8.0)
+# Question: For a public body in Québec, which A-2.1 obligations correspond to the Loi 25 obligations of a scenario?
+# Expect: min_rows 3; contains notation=A-2.1 s. 63.8
+SELECT DISTINCT ?notation ?title WHERE {
+  ?scenario rdfs:label "Ransomware Attack on Hospital Systems"@en ; {{triggersObligation}} ?o .
+  ?o skos:inScheme <https://w3id.org/crgo/vocab/loi25> ; skos:closeMatch ?a .
+  ?a skos:inScheme <https://w3id.org/crgo/vocab/a21> ; skos:notation ?notation ; skos:prefLabel ?title . FILTER(lang(?title) = "en")
+} ORDER BY ?notation

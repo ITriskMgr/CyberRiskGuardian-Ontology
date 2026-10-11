@@ -1,0 +1,302 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix osfi-b13: <https://w3id.org/crgo/vocab/osfi-b13/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+osfi-b13:P1 a skos:Concept ;
+    skos:broader osfi-b13:D1 ;
+    skos:definition "Senior management assigns responsibility for managing technology and cyber risks to senior officers."@en,
+        "La haute direction confie la responsabilité de la gestion des risques technologiques et cybernétiques à des cadres supérieurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P1" ;
+    skos:prefLabel "1.1 Accountability and organizational structure"@en,
+        "1.1 Responsabilité et structure organisationnelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P10 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "Technology incidents are detected, logged, managed, resolved, monitored and reported, minimizing their impact."@en,
+        "Les incidents technologiques sont détectés, consignés, gérés, résolus, surveillés et signalés de manière à en limiter l'impact."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P10" ;
+    skos:prefLabel "2.7 Incident and problem management"@en,
+        "2.7 Gestion des incidents et des problèmes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P11 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "Service and capacity standards and monitoring processes ensure technology operations meet business needs."@en,
+        "Des normes de service et de capacité et des processus de surveillance assurent que les opérations technologiques répondent aux besoins d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P11" ;
+    skos:prefLabel "2.8 Technology service measurement and monitoring"@en,
+        "2.8 Mesure et surveillance des services technologiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P12 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "The institution establishes and maintains an enterprise disaster recovery programme supporting service delivery through disruption."@en,
+        "L'institution établit et maintient un programme de reprise après sinistre qui soutient la prestation des services en cas de perturbation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P12" ;
+    skos:prefLabel "2.9 Disaster recovery (programme)"@en,
+        "2.9 Reprise après sinistre (programme)"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P13 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "Disaster recovery capabilities are tested with scenarios to confirm services operate as expected through disruption."@en,
+        "Les capacités de reprise sont mises à l'essai au moyen de scénarios pour confirmer que les services fonctionnent comme prévu en cas de perturbation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P13" ;
+    skos:prefLabel "2.9 Disaster recovery (scenario testing)"@en,
+        "2.9 Reprise après sinistre (tests de scénarios)"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P14 a skos:Concept ;
+    skos:broader osfi-b13:D3 ;
+    skos:definition "Practices and tools identify and assess cyber weaknesses that external and insider threat actors could exploit."@en,
+        "Des pratiques et des outils permettent de cerner et d'évaluer les faiblesses que des acteurs de menace externes ou internes pourraient exploiter."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P14" ;
+    skos:prefLabel "3.1 Identify"@en,
+        "3.1 Identifier"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P15 a skos:Concept ;
+    skos:broader osfi-b13:D3 ;
+    skos:definition "Multi-layer preventive cyber security controls safeguard technology assets."@en,
+        "Des contrôles préventifs de cybersécurité à plusieurs niveaux protègent les actifs technologiques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P15" ;
+    skos:prefLabel "3.2 Defend"@en,
+        "3.2 Défendre"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P16 a skos:Concept ;
+    skos:broader osfi-b13:D3 ;
+    skos:definition "Continuous security detection capabilities support monitoring, alerting and forensic investigation."@en,
+        "Des capacités de détection continue soutiennent la surveillance, les alertes et les enquêtes judiciaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P16" ;
+    skos:prefLabel "3.3 Detect"@en,
+        "3.3 Détecter"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P17 a skos:Concept ;
+    skos:broader osfi-b13:D3 ;
+    skos:definition "Cyber incidents affecting technology assets, including at third-party providers, are responded to, contained, recovered from and learned from."@en,
+        "Les cyberincidents touchant les actifs technologiques, y compris chez les fournisseurs, font l'objet d'une intervention, d'un confinement, d'un rétablissement et d'un apprentissage."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P17" ;
+    skos:prefLabel "3.4 Respond, recover and learn"@en,
+        "3.4 Intervenir, rétablir et apprendre"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P2 a skos:Concept ;
+    skos:broader osfi-b13:D1 ;
+    skos:definition "The institution defines, documents, approves and implements a technology and cyber strategic plan aligned with its business strategy."@en,
+        "L'institution définit, documente, approuve et met en œuvre un plan stratégique technologique et cybernétique arrimé à sa stratégie d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P2" ;
+    skos:prefLabel "1.2 Technology and cyber strategy"@en,
+        "1.2 Stratégie technologique et cybernétique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P3 a skos:Concept ;
+    skos:broader osfi-b13:D1 ;
+    skos:definition "The institution establishes a technology and cyber risk management framework that sets risk appetite and governs risk processes."@en,
+        "L'institution établit un cadre de gestion des risques technologiques et cybernétiques qui fixe l'appétit pour le risque et encadre les processus de gestion des risques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P3" ;
+    skos:prefLabel "1.3 Technology and cyber risk management framework"@en,
+        "1.3 Cadre de gestion des risques technologiques et cybernétiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P4 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "An architecture framework with supporting processes ensures solutions meet business, technology and security requirements."@en,
+        "Un cadre d'architecture et ses processus font en sorte que les solutions répondent aux exigences d'affaires, technologiques et de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P4" ;
+    skos:prefLabel "2.1 Technology architecture"@en,
+        "2.1 Architecture technologique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P5 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "The institution maintains an up-to-date inventory of all technology assets supporting business processes or functions."@en,
+        "L'institution tient un inventaire à jour de tous les actifs technologiques qui soutiennent ses processus ou fonctions d'affaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P5" ;
+    skos:prefLabel "2.2 Technology asset management"@en,
+        "2.2 Gestion des actifs technologiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P6 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "Technology projects are governed from initiation to closure so that outcomes meet business objectives within risk appetite."@en,
+        "Les projets technologiques sont encadrés du lancement à la clôture afin que les résultats atteignent les objectifs d'affaires dans les limites de l'appétit pour le risque."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P6" ;
+    skos:prefLabel "2.3 Technology project management"@en,
+        "2.3 Gestion des projets technologiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P7 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "An SDLC framework ensures secure development, acquisition and maintenance of systems that perform as expected."@en,
+        "Un cadre de cycle de vie du développement assure le développement, l'acquisition et la maintenance sécuritaires de systèmes qui fonctionnent comme prévu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P7" ;
+    skos:prefLabel "2.4 System development life cycle"@en,
+        "2.4 Cycle de vie du développement des systèmes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P8 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "A controlled change and release process minimizes disruption to the production environment."@en,
+        "Un processus contrôlé de gestion des changements et des mises en production limite les perturbations de l'environnement de production."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P8" ;
+    skos:prefLabel "2.5 Change and release management"@en,
+        "2.5 Gestion des changements et des mises en production"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:P9 a skos:Concept ;
+    skos:broader osfi-b13:D2 ;
+    skos:definition "Patches are applied in a controlled and timely manner to address vulnerabilities and flaws."@en,
+        "Les correctifs sont appliqués de façon contrôlée et en temps opportun pour corriger les vulnérabilités et les défauts."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "P9" ;
+    skos:prefLabel "2.6 Patch management"@en,
+        "2.6 Gestion des correctifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:D1 a skos:Concept ;
+    skos:definition "Technology and cyber risks are governed through clear accountabilities and structures, supported by comprehensive strategies and frameworks."@en,
+        "Les risques technologiques et cybernétiques sont gouvernés par des responsabilités et des structures claires, appuyées par des stratégies et des cadres complets."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "D1" ;
+    skos:prefLabel "Governance and risk management"@en,
+        "Gouvernance et gestion des risques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:D3 a skos:Concept ;
+    skos:definition "A secure technology posture that maintains the confidentiality, integrity and availability of technology assets."@en,
+        "Une posture technologique sécuritaire qui préserve la confidentialité, l'intégrité et la disponibilité des actifs technologiques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "D3" ;
+    skos:prefLabel "Cyber security"@en,
+        "Cybersécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+osfi-b13:D2 a skos:Concept ;
+    skos:definition "A stable, scalable and resilient technology environment, kept current and supported by robust operations and recovery processes."@en,
+        "Un environnement technologique stable, évolutif et résilient, maintenu à jour et soutenu par des processus d'exploitation et de rétablissement robustes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/osfi-b13> ;
+    skos:notation "D2" ;
+    skos:prefLabel "Technology operations and resilience"@en,
+        "Opérations et résilience technologiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+<https://w3id.org/crgo/vocab/osfi-b13> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "Office of the Superintendent of Financial Institutions (source text)" ;
+    dcterms:rights "Labels and definitions are CRGO paraphrases; the official text is published by OSFI."@en ;
+    dcterms:source "Office of the Superintendent of Financial Institutions, osfi-bsif.gc.ca; see data/frameworks/osfi_b13.tsv" ;
+    dcterms:title "OSFI Guideline B-13 Technology and Cyber Risk Management: domains and principles"@en,
+        "Ligne directrice B-13 du BSIF, Gestion des risques technologiques et cybernétiques : domaines et principes"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/osfi-b13> ;
+    owl:versionInfo "July 2022 (page modified 2024-02-20)" ;
+    skos:hasTopConcept osfi-b13:D1,
+        osfi-b13:D2,
+        osfi-b13:D3 ;
+    skos:scopeNote "Three domains and seventeen principles, for federally regulated financial institutions. Correspondences to NIST CSF 2.0 categories (CRGO judgement) in mappings.ttl."@en .
+

@@ -157,6 +157,34 @@ for l in open(os.path.join(ROOT, "data", "library", "d3fend_judged.jsonl"), enco
     for it in x["d3fend"]:
         link("attack", norm_t(x["technique"]), SKOS.relatedMatch, "d3fend", it["id"], "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)", it["c"],
              "technique countered by defensive technique", "mappings/d3fend-judged/" + it["c"])
+# Québec public-sector Act (A-2.1) <-> private-sector Act (Loi 25): same duty under the other regime (0.8.0)
+import csv as _csv
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "a21.tsv"), encoding="utf-8"), delimiter="\t"):
+    for eq in filter(None, r["loi25_equivalent"].split("|")):
+        if "a21" not in valid:
+            valid["a21"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "a21.ttl")).objects(None, SKOS.notation)}
+            valid["loi25"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "loi25.ttl")).objects(None, SKOS.notation)}
+        link("loi25", eq, SKOS.closeMatch, "a21", "A-2.1 s. " + r["section"], "CRGO correspondence between CQLR c. P-39.1 and c. A-2.1 (texts verified on LégisQuébec, 2026-10-11)",
+             "H", "same obligation for a public body", "mappings/loi25-a21")
+# PIPEDA <-> Loi 25 (comparable obligation under federal law) and OSFI B-13 principle <-> CSF 2.0 category (0.8.0)
+for k in ("pipeda", "osfi-b13", "csf2"):
+    valid[k] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", k + ".ttl")).objects(None, SKOS.notation)}
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "pipeda.tsv"), encoding="utf-8"), delimiter="\t"):
+    for eq in filter(None, r["loi25_equivalent"].split("|")):
+        link("loi25", eq, SKOS.relatedMatch, "pipeda", "PIPEDA " + r["provision"], "CRGO correspondence between CQLR c. P-39.1 and PIPEDA (texts verified, 2026-10-11)",
+             "M", "comparable obligation under federal private-sector law", "mappings/loi25-pipeda")
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "osfi_b13.tsv"), encoding="utf-8"), delimiter="\t"):
+    for c in filter(None, r["csf2"].split("|")):
+        link("osfi-b13", r["id"], SKOS.relatedMatch, "csf2", c, "CRGO correspondence between OSFI B-13 principles and NIST CSF 2.0 categories (judged, 2026-10-11)",
+             "M", "principle addressed by CSF category", "mappings/b13-csf2")
+# NIST crosswalks supplied by the project owner (0.8.0; pipeline/external/nist_crosswalks.py)
+valid["iso27002-2022"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "iso27002-2022.ttl")).objects(None, SKOS.notation)}
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_csf2_80053.csv"), encoding="utf-8")):
+    link("csf2", r["csf2"], SKOS.relatedMatch, "sp800-53r5", r["sp80053r5"], "Derived by CRGO from NIST's CSF 1.1 to SP 800-53r5 mapping and the CSF 2.0 withdrawal records (NIST CPRT export, 2026-10-11)",
+         "M", "subcategory supported by control" + ("" if r["basis"] == "kept" else " (" + r["basis"] + ")"), "mappings/nist-csf2-800-53-derived")
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_80053_iso27002.csv"), encoding="utf-8")):
+    link("sp800-53r5", r["sp80053r5"], SKOS.relatedMatch, "iso27002-2022", r["iso27002"], "NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (updated 2023-10-12), Annex A controls",
+         "H", "control related to ISO/IEC 27002 control", "mappings/nist-olir-800-53-iso27002")
 m.serialize(os.path.join(ROOT, "ontology", "vocab", "mappings.ttl"), format="turtle")
 for k, n in NCON.items():
     print("%-8s %5d concepts" % (k, n))

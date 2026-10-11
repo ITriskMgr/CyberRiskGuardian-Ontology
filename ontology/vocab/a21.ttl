@@ -1,0 +1,289 @@
+@prefix a21: <https://w3id.org/crgo/vocab/a21/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a21:A-2.1_s._63.1 a skos:Concept ;
+    skos:definition "The body takes reasonable security measures to protect personal information throughout its life cycle, considering its sensitivity, purpose, quantity, distribution and medium."@en,
+        "L'organisme prend des mesures de sécurité raisonnables pour protéger les renseignements personnels tout au long de leur cycle de vie, compte tenu de leur sensibilité, de leur finalité, de leur quantité, de leur répartition et de leur support."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.1" ;
+    skos:prefLabel "Security measures proportionate to sensitivity"@en,
+        "Mesures de sécurité proportionnées à la sensibilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.10 a skos:Concept ;
+    skos:definition "In assessing the risk of injury, the body considers the sensitivity of the information, the anticipated consequences of its use and the likelihood of injurious use, and consults its person in charge."@en,
+        "Pour évaluer le risque de préjudice, l'organisme considère la sensibilité du renseignement, les conséquences appréhendées de son utilisation et la probabilité qu'il soit utilisé à des fins préjudiciables, et consulte son responsable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.10" ;
+    skos:prefLabel "Assessment of the risk of serious injury"@en,
+        "Évaluation du risque de préjudice sérieux"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.11 a skos:Concept ;
+    skos:definition "The body keeps a register of confidentiality incidents and gives a copy to the Commission on request."@en,
+        "L'organisme tient un registre des incidents de confidentialité et en transmet une copie à la Commission sur demande."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.11" ;
+    skos:prefLabel "Register of confidentiality incidents"@en,
+        "Registre des incidents de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.2 a skos:Concept ;
+    skos:definition "The body applies the personal information protection measures prescribed by government regulation."@en,
+        "L'organisme applique les mesures de protection des renseignements personnels prévues par règlement du gouvernement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.2" ;
+    skos:prefLabel "Protection measures prescribed by regulation"@en,
+        "Mesures de protection prévues par règlement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.3 a skos:Concept ;
+    skos:definition "The body publishes on its website governance rules for personal information approved by its committee."@en,
+        "L'organisme publie sur son site Internet des règles de gouvernance à l'égard des renseignements personnels approuvées par son comité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.3" ;
+    skos:prefLabel "Governance rules for personal information"@en,
+        "Règles de gouvernance des renseignements personnels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.4 a skos:Concept ;
+    skos:definition "A body that collects personal information by technological means publishes a privacy policy in clear and simple terms, and gives notice of any change."@en,
+        "L'organisme qui recueille des renseignements personnels par un moyen technologique publie une politique de confidentialité en termes simples et clairs, et diffuse un avis de toute modification."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.4" ;
+    skos:prefLabel "Published privacy policy for technological collection"@en,
+        "Politique de confidentialité publiée pour la collecte technologique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.5 a skos:Concept ;
+    skos:definition "The body assesses privacy impacts for any project to acquire, develop or overhaul an information system or electronic service delivery involving personal information, consulting its committee from the start."@en,
+        "L'organisme évalue les facteurs relatifs à la vie privée de tout projet d'acquisition, de développement ou de refonte d'un système d'information ou de prestation électronique de services visant des renseignements personnels, en consultant son comité dès le début."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.5" ;
+    skos:prefLabel "Privacy impact assessment for information system or electronic service projects"@en,
+        "Évaluation des facteurs relatifs à la vie privée pour les projets de système d'information ou de prestation électronique de services"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.7 a skos:Concept ;
+    skos:definition "For a technological product or service offered to the public, the privacy settings provide the highest level of confidentiality by default, without intervention by the person."@en,
+        "Pour un produit ou service technologique offert au public, les paramètres de confidentialité assurent par défaut, sans intervention de la personne, le plus haut niveau de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.7" ;
+    skos:prefLabel "Highest level of confidentiality by default"@en,
+        "Plus haut niveau de confidentialité par défaut"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.8 a skos:Concept ;
+    skos:definition "When it has reason to believe a confidentiality incident occurred, the body takes reasonable measures to reduce the risk of injury and prevent recurrence and, where there is a risk of serious injury, notifies the Commission and the persons concerned."@en,
+        "Lorsqu'il a des motifs de croire qu'un incident de confidentialité est survenu, l'organisme prend des mesures raisonnables pour diminuer le risque de préjudice et éviter la récurrence et, s'il existe un risque de préjudice sérieux, avise la Commission et les personnes concernées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.8" ;
+    skos:prefLabel "Measures and notification after a confidentiality incident"@en,
+        "Mesures et avis à la suite d'un incident de confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._63.9 a skos:Concept ;
+    skos:definition "Defines a confidentiality incident: access, use or communication not authorised by law, or loss or other breach of the protection of personal information."@en,
+        "Définit l'incident de confidentialité : accès, utilisation ou communication non autorisés par la loi, ou perte ou autre atteinte à la protection d'un renseignement personnel."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 63.9" ;
+    skos:prefLabel "Confidentiality incident (definition)"@en,
+        "Incident de confidentialité (définition)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._64 a skos:Concept ;
+    skos:definition "No one may collect personal information on behalf of a public body unless it is necessary for the body's functions or a programme it manages."@en,
+        "Nul ne peut recueillir de renseignements personnels au nom d'un organisme public s'ils ne sont pas nécessaires à ses attributions ou à un programme dont il a la gestion."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 64" ;
+    skos:prefLabel "Collection limited to what is necessary"@en,
+        "Collecte limitée au nécessaire"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._65 a skos:Concept ;
+    skos:definition "Whoever collects personal information from the person on behalf of a public body informs them of the body, the purposes, the means, whether the request is mandatory, the consequences of refusal and their rights."@en,
+        "Quiconque recueille des renseignements personnels auprès de la personne au nom d'un organisme public l'informe de l'organisme, des fins, des moyens, du caractère obligatoire ou facultatif de la demande, des conséquences d'un refus et de ses droits."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 65" ;
+    skos:prefLabel "Information to be provided at collection"@en,
+        "Information à fournir lors de la collecte"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._67.2 a skos:Concept ;
+    skos:definition "A body that communicates personal information to a mandatary or contractor does so under a written agreement specifying the applicable provisions and protection measures, with confidentiality undertakings."@en,
+        "L'organisme qui communique des renseignements personnels à un mandataire ou à un contractant le fait par entente écrite précisant les dispositions applicables et les mesures de protection, avec engagements de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 67.2" ;
+    skos:prefLabel "Written mandate or contract with service providers"@en,
+        "Mandat ou contrat écrit avec les mandataires et prestataires"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._67.3 a skos:Concept ;
+    skos:definition "The body records in a register the communications of personal information made under the listed provisions."@en,
+        "L'organisme inscrit dans un registre les communications de renseignements personnels faites en vertu des dispositions énumérées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 67.3" ;
+    skos:prefLabel "Register of communications of personal information"@en,
+        "Registre des communications de renseignements personnels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._70.1 a skos:Concept ;
+    skos:definition "Before communicating personal information outside Québec, the body assesses privacy factors, including the legal framework of the destination, and communicates only under a written agreement if protection is adequate; this also applies to processing on its behalf outside Québec."@en,
+        "Avant de communiquer des renseignements personnels à l'extérieur du Québec, l'organisme évalue les facteurs relatifs à la vie privée, dont le régime juridique applicable, et ne communique que par entente écrite si la protection est adéquate; cela vaut aussi pour le traitement pour son compte hors Québec."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 70.1" ;
+    skos:prefLabel "Communication outside Québec"@en,
+        "Communication à l'extérieur du Québec"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._73 a skos:Concept ;
+    skos:definition "When the purposes for which personal information was collected or used are achieved, the body destroys it or anonymizes it for serious and legitimate purposes, subject to the Archives Act."@en,
+        "Lorsque les fins pour lesquelles un renseignement personnel a été recueilli ou utilisé sont accomplies, l'organisme le détruit ou l'anonymise à des fins sérieuses et légitimes, sous réserve de la Loi sur les archives."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 73" ;
+    skos:prefLabel "Destruction or anonymization at end of purpose"@en,
+        "Destruction ou anonymisation à la fin de la finalité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._8 a skos:Concept ;
+    skos:definition "The person with the highest authority ensures the Act is applied, exercises or delegates in writing the functions of person in charge of access and of the protection of personal information, and gives their contact details to the Commission."@en,
+        "La personne ayant la plus haute autorité veille à l'application de la loi, exerce ou délègue par écrit les fonctions de responsable de l'accès et de la protection des renseignements personnels, et en communique les coordonnées à la Commission."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 8" ;
+    skos:prefLabel "Person in charge of the protection of personal information"@en,
+        "Responsable de la protection des renseignements personnels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+a21:A-2.1_s._8.1 a skos:Concept ;
+    skos:definition "A committee made up of the persons in charge and other useful expertise supports the body in meeting its obligations and reports to its highest authority."@en,
+        "Un comité formé des responsables et de toute personne dont l'expertise est utile soutient l'organisme dans ses obligations et relève de sa plus haute autorité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/a21> ;
+    skos:notation "A-2.1 s. 8.1" ;
+    skos:prefLabel "Committee on access to information and privacy"@en,
+        "Comité sur l'accès à l'information et la protection des renseignements personnels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+<https://w3id.org/crgo/vocab/a21> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "Gouvernement du Québec (source text)" ;
+    dcterms:rights "Labels and definitions are CRGO paraphrases; the official text is in LégisQuébec."@en ;
+    dcterms:source "LégisQuébec, CQLR c. A-2.1 (French and English texts); see data/frameworks/a21.tsv" ;
+    dcterms:title "Québec Act respecting access to documents held by public bodies and the protection of personal information: obligations"@en,
+        "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels : obligations"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/a21> ;
+    owl:versionInfo "CQLR c. A-2.1, as consolidated in LégisQuébec, current to 2026-08-12" ;
+    skos:hasTopConcept a21:A-2.1_s._63.1,
+        a21:A-2.1_s._63.10,
+        a21:A-2.1_s._63.11,
+        a21:A-2.1_s._63.2,
+        a21:A-2.1_s._63.3,
+        a21:A-2.1_s._63.4,
+        a21:A-2.1_s._63.5,
+        a21:A-2.1_s._63.7,
+        a21:A-2.1_s._63.8,
+        a21:A-2.1_s._63.9,
+        a21:A-2.1_s._64,
+        a21:A-2.1_s._65,
+        a21:A-2.1_s._67.2,
+        a21:A-2.1_s._67.3,
+        a21:A-2.1_s._70.1,
+        a21:A-2.1_s._73,
+        a21:A-2.1_s._8,
+        a21:A-2.1_s._8.1 ;
+    skos:scopeNote "Applies to public bodies (ministries, municipalities, school service centres, public health and social services institutions...). For health information held by health and social services bodies, R-22.1 applies instead. Correspondences to the private-sector Act (Loi 25, P-39.1) are in ontology/vocab/mappings.ttl."@en .
+

@@ -318,5 +318,270 @@
     "M"
    ]
   ]
+ },
+ {
+  "key": "AUTH-004",
+  "name": "ATM jackpotting through malware or a device connected to the cash dispenser",
+  "statement": "An attacker opens an automated teller machine or reaches its maintenance port and connects a device or installs malware that commands the cash dispenser to pay out, causing direct cash loss, fraud investigations and reputational damage.",
+  "theme": "ThemeEndpoint",
+  "asset_categories": [
+   "CatOTIoT",
+   "CatEndpoint"
+  ],
+  "threat_source_types": [
+   "SrcAdversarial"
+  ],
+  "impact_dimensions": [
+   "DimFinancial",
+   "DimIntegrity",
+   "DimReputation",
+   "DimLegal"
+  ],
+  "weaknesses": [
+   "Physical access to the ATM top hat or maintenance port not protected or monitored",
+   "ATM software allows unauthorised executables or unencrypted dispenser communication"
+  ],
+  "attack": [
+   [
+    "T1200",
+    "H"
+   ],
+   [
+    "T1091",
+    "M"
+   ]
+  ],
+  "csf2": [
+   [
+    "PR.AA-06",
+    "H"
+   ],
+   [
+    "PR.PS-05",
+    "H"
+   ],
+   [
+    "PR.DS-02",
+    "M"
+   ],
+   [
+    "DE.CM-02",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "PE-3",
+    "H"
+   ],
+   [
+    "CM-7",
+    "H"
+   ],
+   [
+    "SC-41",
+    "H"
+   ],
+   [
+    "SI-7",
+    "M"
+   ],
+   [
+    "SC-8",
+    "M"
+   ],
+   [
+    "PE-6",
+    "M"
+   ]
+  ],
+  "iso27002": [
+   [
+    "7.2",
+    "H"
+   ],
+   [
+    "8.19",
+    "H"
+   ],
+   [
+    "7.8",
+    "M"
+   ],
+   [
+    "8.7",
+    "M"
+   ],
+   [
+    "7.4",
+    "M"
+   ]
+  ],
+  "loi25": []
+ },
+ {
+  "key": "AUTH-005",
+  "name": "Service outage caused by an expired digital certificate",
+  "statement": "A TLS, code-signing or authentication certificate expires unnoticed because certificates are not inventoried or renewed automatically, and online banking, APIs, payment links or internal services stop working until the certificate is replaced.",
+  "theme": "ThemeContinuity",
+  "asset_categories": [
+   "CatApplication",
+   "CatInfrastructure"
+  ],
+  "threat_source_types": [
+   "SrcAccidental",
+   "SrcStructural"
+  ],
+  "impact_dimensions": [
+   "DimAvailability",
+   "DimOperational",
+   "DimReputation",
+   "DimFinancial"
+  ],
+  "weaknesses": [
+   "No inventory of certificates and their expiry dates",
+   "Certificate renewal not automated or monitored"
+  ],
+  "attack": [],
+  "csf2": [
+   [
+    "ID.AM-08",
+    "H"
+   ],
+   [
+    "PR.PS-02",
+    "M"
+   ],
+   [
+    "DE.CM-09",
+    "M"
+   ],
+   [
+    "ID.AM-02",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "SC-17",
+    "H"
+   ],
+   [
+    "SC-12",
+    "H"
+   ],
+   [
+    "CM-8",
+    "M"
+   ],
+   [
+    "IA-5",
+    "M"
+   ],
+   [
+    "CP-2",
+    "M"
+   ]
+  ],
+  "iso27002": [
+   [
+    "8.24",
+    "H"
+   ],
+   [
+    "8.9",
+    "M"
+   ],
+   [
+    "5.9",
+    "M"
+   ],
+   [
+    "8.16",
+    "M"
+   ],
+   [
+    "5.30",
+    "M"
+   ]
+  ],
+  "loi25": []
+ },
+ {
+  "key": "AUTH-006",
+  "name": "Incomplete inventory of technology assets leaves systems unmanaged",
+  "statement": "Devices, cloud workloads, ATMs, point-of-sale terminals or applications are missing from the asset inventory, so they are not patched, monitored, backed up or covered by risk assessment, and an attacker or failure exploits the unmanaged asset.",
+  "theme": "ThemeITGov",
+  "asset_categories": [
+   "CatInfrastructure",
+   "CatCloud",
+   "CatApplication",
+   "CatEndpoint"
+  ],
+  "threat_source_types": [
+   "SrcStructural",
+   "SrcAdversarial"
+  ],
+  "impact_dimensions": [
+   "DimOperational",
+   "DimConfidentiality",
+   "DimAvailability",
+   "DimLegal"
+  ],
+  "weaknesses": [
+   "Asset inventory incomplete or not reconciled with network discovery"
+  ],
+  "attack": [],
+  "csf2": [
+   [
+    "ID.AM-01",
+    "H"
+   ],
+   [
+    "ID.AM-02",
+    "H"
+   ],
+   [
+    "ID.AM-08",
+    "M"
+   ],
+   [
+    "ID.AM-04",
+    "M"
+   ]
+  ],
+  "sp80053r5": [
+   [
+    "CM-8",
+    "H"
+   ],
+   [
+    "PM-5",
+    "M"
+   ],
+   [
+    "CM-2",
+    "M"
+   ],
+   [
+    "RA-5",
+    "M"
+   ]
+  ],
+  "iso27002": [
+   [
+    "5.9",
+    "H"
+   ],
+   [
+    "8.8",
+    "M"
+   ],
+   [
+    "5.23",
+    "M"
+   ]
+  ],
+  "loi25": []
  }
 ]

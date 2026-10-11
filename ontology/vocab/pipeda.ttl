@@ -1,0 +1,214 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pipeda: <https://w3id.org/crgo/vocab/pipeda/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pipeda:PIPEDA_Sch._1_4.1 a skos:Concept ;
+    skos:definition "An organization is responsible for personal information under its control and designates one or more individuals accountable for its compliance."@en,
+        "Une organisation est responsable des renseignements personnels dont elle a la gestion et désigne une ou des personnes qui en répondent."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.1" ;
+    skos:prefLabel "Accountability"@en,
+        "Responsabilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.1.3 a skos:Concept ;
+    skos:definition "The organization remains responsible for information transferred to a third party for processing and uses contractual or other means to provide a comparable level of protection."@en,
+        "L'organisation demeure responsable des renseignements confiés à un tiers pour traitement et prend des moyens contractuels ou autres pour assurer un niveau de protection comparable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.1.3" ;
+    skos:prefLabel "Protection during processing by a third party"@en,
+        "Protection lors du traitement par un tiers"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.3.6 a skos:Concept ;
+    skos:definition "The form of consent depends on the circumstances and sensitivity: express consent is generally required for sensitive information, implied consent may suffice for less sensitive information."@en,
+        "La forme du consentement dépend des circonstances et de la sensibilité : un consentement exprès est généralement requis pour les renseignements sensibles; un consentement implicite peut suffire pour les autres."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.3.6" ;
+    skos:prefLabel "Express consent for sensitive information"@en,
+        "Consentement exprès pour les renseignements sensibles"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.4 a skos:Concept ;
+    skos:definition "Personal information is collected only as necessary for the identified purposes and by fair and lawful means."@en,
+        "Les renseignements personnels ne sont recueillis que dans la mesure nécessaire aux fins déterminées, par des moyens honnêtes et licites."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.4" ;
+    skos:prefLabel "Limiting collection"@en,
+        "Limitation de la collecte"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.5 a skos:Concept ;
+    skos:definition "Personal information is not used or disclosed for other purposes without consent or legal requirement, and is retained only as long as necessary."@en,
+        "Les renseignements personnels ne sont pas utilisés ni communiqués à d'autres fins sans consentement ou obligation légale, et ne sont conservés que le temps nécessaire."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.5" ;
+    skos:prefLabel "Limiting use, disclosure and retention"@en,
+        "Limitation de l'utilisation, de la communication et de la conservation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.5.3 a skos:Concept ;
+    skos:definition "Personal information no longer required for the identified purposes is destroyed, erased or made anonymous under documented procedures."@en,
+        "Les renseignements qui ne sont plus nécessaires aux fins déterminées sont détruits, effacés ou dépersonnalisés selon des procédures établies."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.5.3" ;
+    skos:prefLabel "Destruction or anonymization when no longer needed"@en,
+        "Destruction ou anonymisation lorsqu'ils ne sont plus nécessaires"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.7 a skos:Concept ;
+    skos:definition "Personal information is protected by security safeguards appropriate to its sensitivity, against loss, theft and unauthorized access, disclosure, copying, use or modification, combining physical, organizational and technological measures."@en,
+        "Les renseignements personnels sont protégés par des mesures de sécurité adaptées à leur sensibilité, contre la perte, le vol et l'accès, la communication, la copie, l'utilisation ou la modification non autorisés, au moyen de mesures matérielles, administratives et techniques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.7" ;
+    skos:prefLabel "Safeguards appropriate to sensitivity"@en,
+        "Mesures de sécurité adaptées à la sensibilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_Sch._1_4.7.5 a skos:Concept ;
+    skos:definition "Personal information is disposed of or destroyed with care so that unauthorized parties cannot access it."@en,
+        "Les renseignements personnels sont éliminés ou détruits avec soin pour empêcher tout accès non autorisé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA Sch. 1, 4.7.5" ;
+    skos:prefLabel "Careful disposal"@en,
+        "Élimination prudente"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_s._10.1_1 a skos:Concept ;
+    skos:definition "An organization reports to the Privacy Commissioner any breach of security safeguards involving personal information under its control if it is reasonable to believe the breach creates a real risk of significant harm to an individual."@en,
+        "Une organisation déclare au Commissaire à la protection de la vie privée toute atteinte aux mesures de sécurité visant des renseignements personnels dont elle a la gestion s'il est raisonnable de croire qu'elle présente un risque réel de préjudice grave."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA s. 10.1(1)" ;
+    skos:prefLabel "Report of a breach of security safeguards to the Commissioner"@en,
+        "Déclaration d'une atteinte aux mesures de sécurité au Commissaire"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_s._10.1_3 a skos:Concept ;
+    skos:definition "Unless otherwise prohibited by law, the organization notifies an individual of a breach that creates a real risk of significant harm to that individual."@en,
+        "Sauf interdiction légale, l'organisation avise la personne concernée d'une atteinte qui présente pour elle un risque réel de préjudice grave."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA s. 10.1(3)" ;
+    skos:prefLabel "Notification of affected individuals"@en,
+        "Avis aux personnes concernées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_s._10.1_8 a skos:Concept ;
+    skos:definition "Whether a breach creates a real risk of significant harm depends on the sensitivity of the personal information, the probability that it is misused and any prescribed factor."@en,
+        "L'existence d'un risque réel de préjudice grave dépend de la sensibilité des renseignements, de la probabilité qu'ils soient mal utilisés et de tout facteur prévu par règlement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA s. 10.1(8)" ;
+    skos:prefLabel "Factors for a real risk of significant harm"@en,
+        "Facteurs du risque réel de préjudice grave"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_s._10.2_1 a skos:Concept ;
+    skos:definition "An organization that notifies an individual also notifies other organizations or government institutions that may be able to reduce or mitigate the harm."@en,
+        "L'organisation qui avise une personne avise aussi les organisations ou institutions gouvernementales qui pourraient réduire ou atténuer le préjudice."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA s. 10.2(1)" ;
+    skos:prefLabel "Notification of organizations that can reduce the harm"@en,
+        "Avis aux organisations pouvant réduire le préjudice"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+pipeda:PIPEDA_s._10.3_1 a skos:Concept ;
+    skos:definition "An organization keeps and maintains a record of every breach of security safeguards involving personal information under its control."@en,
+        "Une organisation tient et conserve un registre de toutes les atteintes aux mesures de sécurité visant des renseignements personnels dont elle a la gestion."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/pipeda> ;
+    skos:notation "PIPEDA s. 10.3(1)" ;
+    skos:prefLabel "Records of breaches of security safeguards"@en,
+        "Registre des atteintes aux mesures de sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.8.0" .
+
+<https://w3id.org/crgo/vocab/pipeda> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "Government of Canada (source text)" ;
+    dcterms:rights "Labels and definitions are CRGO paraphrases; the official text is on the Justice Laws Website."@en ;
+    dcterms:source "Justice Laws Website, laws-lois.justice.gc.ca, P-8.6; see data/frameworks/pipeda.tsv" ;
+    dcterms:title "Personal Information Protection and Electronic Documents Act (Canada): security and breach provisions"@en,
+        "Loi sur la protection des renseignements personnels et les documents électroniques (Canada) : dispositions de sécurité et d'atteinte"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/pipeda> ;
+    owl:versionInfo "S.C. 2000, c. 5, current to 2026-05-26 (last amended 2025-03-04)" ;
+    skos:hasTopConcept pipeda:PIPEDA_Sch._1_4.1,
+        pipeda:PIPEDA_Sch._1_4.1.3,
+        pipeda:PIPEDA_Sch._1_4.3.6,
+        pipeda:PIPEDA_Sch._1_4.4,
+        pipeda:PIPEDA_Sch._1_4.5,
+        pipeda:PIPEDA_Sch._1_4.5.3,
+        pipeda:PIPEDA_Sch._1_4.7,
+        pipeda:PIPEDA_Sch._1_4.7.5,
+        pipeda:PIPEDA_s._10.1_1,
+        pipeda:PIPEDA_s._10.1_3,
+        pipeda:PIPEDA_s._10.1_8,
+        pipeda:PIPEDA_s._10.2_1,
+        pipeda:PIPEDA_s._10.3_1 ;
+    skos:scopeNote "Applies to private-sector organizations in the course of commercial activities, and to federally regulated businesses such as banks; in Québec, organizations subject to the private-sector Act (P-39.1) are exempt for activities within the province. Correspondences to Loi 25 in mappings.ttl."@en .
+

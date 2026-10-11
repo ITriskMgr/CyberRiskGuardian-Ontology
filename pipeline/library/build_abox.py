@@ -3,7 +3,7 @@
 data/abox/crgo-library.ttl. One LibraryScenario per family, with descriptions, theme, asset
 categories, CRG parameter estimates (family medians, low confidence) and, where computable,
 the CRG v1.0c risk quantities from a single recorded calculation run."""
-import json, math, os, statistics
+import csv, json, math, os, statistics
 import pandas as pd
 from rdflib import BNode, Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, OWL, XSD
@@ -83,6 +83,14 @@ if os.path.exists(_cp):
         if _r["corroborated"] == "yes":
             CORR[(_r["family"], _r["control"])] = "MITRE CTID Mappings Explorer (ATT&CK 16.1 to SP 800-53 Rev. 5): control mitigates %s" % _r["via_techniques"]
 
+_np = os.path.join(ROOT, "data", "library", "nist_corroboration.csv")
+if os.path.exists(_np):
+    import csv as _csv2
+    for _r in _csv2.DictReader(open(_np, encoding="utf-8")):
+        if _r["corroborated"] == "yes":
+            CORR[(_r["family"], _r["scheme"], _r["id"])] = ("NIST crosswalk via this scenario's SP 800-53 links (%s): " % _r["via_controls"]) + (
+                "CSF 1.1 to SP 800-53r5 mapping carried to CSF 2.0" if _r["scheme"] == "csf2" else "OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 Annex A")
+
 def main():
     f = pd.read_csv(os.path.join(ROOT, "data", "library", "families.csv"))
     review = pd.read_csv(os.path.join(ROOT, "data", "library", "family_review.csv")).set_index("family")
@@ -93,7 +101,7 @@ def main():
     o = URIRef("https://w3id.org/crgo/data/library")
     A = lambda *t: [g.add(x) for x in t]
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")),
-      (o, OWL.versionInfo, Literal("0.7.0")),
+      (o, OWL.versionInfo, Literal("0.8.0")),
       (o, RDFS.label, Literal("CRGO scenario library (from the 2023 generator, repaired)", lang="en")),
       (o, RDFS.label, Literal("Bibliothèque de scénarios CRGO (générateur 2023, réparée)", lang="fr")),
       (o, RDFS.comment, Literal("Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, "
@@ -175,7 +183,7 @@ def main():
                 annotated(g, s, C("triggersObligation"), target, l.confidence, note, grp)
             else:
                 annotated(g, s, C("hasRelevantRequirement"), target, l.confidence, note, grp,
-                          corroborated=CORR.get((fid, l.id)) if l.scheme == "sp80053r5" else None)
+                          corroborated=CORR.get((fid, l.id)) if l.scheme == "sp80053r5" else CORR.get((fid, l.scheme, l.id)))
             n_links += 1
         inputs = []
         for k, cls in PARAM_CLASS.items():
@@ -212,6 +220,48 @@ def main():
     n_auth = authored(g, A)
     n_case = cases(g, A, f)
     out = os.path.join(ROOT, "data", "abox"); os.makedirs(out, exist_ok=True)
+    # 0.8.0: FIRST EPSS scores for the CISA KEV vulnerabilities, as likelihood estimates of each KEV concept
+    epss_file = os.path.join(ROOT, "data", "raw", "external", "epss_scores-2026-10-04.csv.gz")
+    kev_file = os.path.join(ROOT, "data", "raw", "external", "cisa_kev.json")
+    n_epss = 0
+    if os.path.exists(epss_file) and os.path.exists(kev_file):
+        import gzip, json as _json
+        kev_ids = {v["cveID"] for v in _json.load(open(kev_file))["vulnerabilities"]}
+        ev = LIB["E-EPSS-2026-10-04"]
+        A((ev, RDF.type, C("EvidenceItem")), (ev, C("localIdentifier"), Literal("FIRST-EPSS-2026-10-04")), (ev, C("hasEvidenceBasis"), C("EvExternal")),
+          (ev, C("evidenceLocator"), Literal("FIRST Exploit Prediction Scoring System, scores of 2026-10-04, model v2026.06.15 (epss_scores-2026-10-04.csv.gz, retrieved by CyberRiskGuardian; https://www.first.org/epss/)")),
+          (ev, RDFS.comment, Literal("EPSS estimates the probability that a published vulnerability is exploited in the wild in the next 30 days. Scores change daily; these are a dated snapshot, kept only for the vulnerabilities of the CISA KEV catalogue.", lang="en")))
+        with gzip.open(epss_file, "rt") as fh:
+            fh.readline()
+            for row in csv.DictReader(fh):
+                if row["cve"] not in kev_ids: continue
+                e = LIB["EPSS-" + row["cve"]]
+                A((e, RDF.type, C("Likelihood")), (e, C("estimateOf"), URIRef(VOC + "kev/" + safe(row["cve"]))), (e, C("numericValue"), D(row["epss"])),
+                  (e, C("onScale"), C("ScaleUnitInterval")), (e, C("hasConfidence"), C("ConfMedium")), (e, C("hasEvidence"), ev),
+                  (e, RDFS.comment, Literal("EPSS percentile %s" % row["percentile"], lang="en")))
+                n_epss += 1
+    print("EPSS estimates for KEV vulnerabilities:", n_epss)
+    # 0.8.0: sector frequency evidence from VCDB (pipeline/external/vcdb.py): share of a sector's confirmed public incidents
+    # (2015-2025, campaigns counted once) that involve a theme or a threat-source type
+    vf = os.path.join(ROOT, "data", "library", "vcdb_frequencies.csv")
+    n_vcdb = 0
+    if os.path.exists(vf):
+        seen_ev = set()
+        for r in csv.DictReader(open(vf, encoding="utf-8")):
+            ev = LIB["E-VCDB-" + r["sector"]]
+            if ev not in seen_ev:
+                seen_ev.add(ev)
+                A((ev, RDF.type, C("EvidenceItem")), (ev, C("localIdentifier"), Literal("VCDB-" + r["sector"])), (ev, C("hasEvidenceBasis"), C("EvExternal")),
+                  (ev, RDFS.label, Literal("VCDB incidents, %s, 2015-2025 (n = %s)" % (r["sector_label"], r["incidents"]), lang="en")),
+                  (ev, C("evidenceLocator"), Literal("VERIS Community Database, github.com/vz-risk/VCDB, commit f6f98c0 (2026-09-30), CC BY-SA 4.0; counts derived by pipeline/external/vcdb.py")),
+                  (ev, RDFS.comment, Literal("Built from public reports: over-represents disclosed breaches and sectors with mandatory reporting. Shares are relative frequencies in that record, not incident rates.", lang="en")))
+            target = THEME[r["category"]] if r["category"].startswith("Theme") else C(r["category"])
+            e = LIB["VCDB-%s-%s" % (r["sector"], r["category"])]
+            A((e, RDF.type, C("Estimate")), (e, C("estimateOf"), target), (e, C("numericValue"), D(r["share"])), (e, C("onScale"), C("ScaleUnitInterval")),
+              (e, C("hasConfidence"), C("ConfMedium")), (e, C("hasEvidence"), ev), (e, C("sampleSize"), Literal(int(r["incidents"]), datatype=XSD.nonNegativeInteger)),
+              (e, RDFS.label, Literal("Share of %s incidents involving %s: %s of %s" % (r["sector_label"], r["category"], r["count"], r["incidents"]), lang="en")))
+            n_vcdb += 1
+    print("VCDB sector frequency estimates:", n_vcdb)
     g.serialize(os.path.join(out, "crgo-library.ttl"), format="turtle")
     print("authored %d; " % n_auth, end="")
     print("families %d, estimates %d, risk quantities %d, framework links %d, weaknesses %d, %s, triples %d" % (len(f), n_est, n_kri, n_links, n_weak[0], n_case, len(g)))
@@ -225,8 +275,11 @@ def authored(g, A):
         fid = frozen[a["key"]]; s = LIB[fid]
         A((s, RDF.type, C("LibraryScenario")), (s, C("localIdentifier"), Literal("LIB-" + fid)), (s, RDFS.label, Literal(a["name"], lang="en")),
           (s, C("statement"), Literal(a["statement"], lang="en")), (s, C("applicableSector"), Literal("generic")),
-          (s, C("hasScenarioCategory"), THEME[a["theme"]]), (s, C("derivedFrom"), Literal("Authored by Claude (Phase 4 gap analysis), " + a["key"])),
-          (s, C("proposedBy"), C("AgentClaude")), (s, C("governanceStatus"), C("StatusProposed")), (LIB.Run2026, C("includesScenario"), s))
+          (s, C("hasScenarioCategory"), THEME[a["theme"]]), (s, C("derivedFrom"), Literal("Authored by Claude (gap analysis: Phase 4 blind test for AUTH-001 to 003, ACRB evaluation for AUTH-004 to 006), " + a["key"])),
+          (s, C("proposedBy"), C("AgentClaude")), (LIB.Run2026, C("includesScenario"), s))
+        ok = LINK_APPROVALS.get("links/authored/" + a["key"])  # approving a written scenario's group approves the scenario too
+        A((s, C("governanceStatus"), C("StatusApproved" if ok else "StatusProposed")))
+        if ok: A((s, C("approvedBy"), C("Agent" + ok[0])), (s, C("approvalDate"), Literal(ok[1], datatype=XSD.date)))
         ev = LIB[fid + "-event"]
         A((ev, RDF.type, C("ThreatEventDescription")), (ev, RDFS.label, Literal(a["name"], lang="en")), (s, C("hasThreatEvent"), ev))
         ts = LIB[fid + "-source"]
@@ -243,9 +296,10 @@ def authored(g, A):
         for scheme in ("attack", "csf2", "sp80053r5", "iso27002", "loi25", "lrsss"):
             for i, c in a.get(scheme, []):
                 target = URIRef(VOC + SCHEME_NS[scheme] + "/" + safe(i))
-                if scheme == "attack": annotated(g, ev, C("hasExternalReference"), target, c)
-                elif scheme in ("loi25", "lrsss"): annotated(g, s, C("triggersObligation"), target, c)
-                else: annotated(g, s, C("hasRelevantRequirement"), target, c)
+                grp = "links/authored/" + a["key"]  # one approval group per written scenario
+                if scheme == "attack": annotated(g, ev, C("hasExternalReference"), target, c, None, grp)
+                elif scheme in ("loi25", "lrsss"): annotated(g, s, C("triggersObligation"), target, c, None, grp)
+                else: annotated(g, s, C("hasRelevantRequirement"), target, c, None, grp)
         n += 1
     return n
 

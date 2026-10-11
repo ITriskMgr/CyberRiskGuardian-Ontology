@@ -10829,7 +10829,7 @@ attack:TA0007 a skos:Concept ;
     dcterms:source "https://github.com/mitre-attack/attack-stix-data (enterprise-attack.json)" ;
     dcterms:title "MITRE ATT&CK Enterprise tactics and techniques"@en,
         "Tactiques et techniques MITRE ATT&CK Enterprise"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/attack> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/attack> ;
     owl:versionInfo "19.2" ;
     skos:hasTopConcept attack:TA0001,
         attack:TA0002,

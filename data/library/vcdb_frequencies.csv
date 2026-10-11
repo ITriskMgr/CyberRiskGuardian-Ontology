@@ -1,0 +1,112 @@
+sector,sector_label,category,incidents,count,share
+all,All sectors,SrcAccidental,3577,1037,0.2899
+all,All sectors,SrcAdversarial,3577,2564,0.7168
+all,All sectors,SrcEnvironmental,3577,2,0.0006
+all,All sectors,ThemeAccess,3577,271,0.0758
+all,All sectors,ThemeDataBreach,3577,2676,0.7481
+all,All sectors,ThemeDoS,3577,39,0.0109
+all,All sectors,ThemeInsider,3577,620,0.1733
+all,All sectors,ThemePhysical,3577,636,0.1778
+all,All sectors,ThemeRansomware,3577,316,0.0883
+all,All sectors,ThemeSocialEng,3577,297,0.083
+all,All sectors,ThemeThirdParty,3577,132,0.0369
+all,All sectors,ThemeVulnMgmt,3577,132,0.0369
+healthcare,Health care (NAICS 62),SrcAccidental,1012,275,0.2717
+healthcare,Health care (NAICS 62),SrcAdversarial,1012,756,0.747
+healthcare,Health care (NAICS 62),SrcEnvironmental,1012,1,0.001
+healthcare,Health care (NAICS 62),ThemeAccess,1012,49,0.0484
+healthcare,Health care (NAICS 62),ThemeDataBreach,1012,721,0.7125
+healthcare,Health care (NAICS 62),ThemeDoS,1012,1,0.001
+healthcare,Health care (NAICS 62),ThemeInsider,1012,269,0.2658
+healthcare,Health care (NAICS 62),ThemePhysical,1012,200,0.1976
+healthcare,Health care (NAICS 62),ThemeRansomware,1012,131,0.1294
+healthcare,Health care (NAICS 62),ThemeSocialEng,1012,98,0.0968
+healthcare,Health care (NAICS 62),ThemeThirdParty,1012,55,0.0543
+healthcare,Health care (NAICS 62),ThemeVulnMgmt,1012,9,0.0089
+public,Public administration (NAICS 92),SrcAccidental,601,273,0.4542
+public,Public administration (NAICS 92),SrcAdversarial,601,336,0.5591
+public,Public administration (NAICS 92),SrcEnvironmental,601,1,0.0017
+public,Public administration (NAICS 92),ThemeAccess,601,23,0.0383
+public,Public administration (NAICS 92),ThemeDataBreach,601,455,0.7571
+public,Public administration (NAICS 92),ThemeDoS,601,9,0.015
+public,Public administration (NAICS 92),ThemeInsider,601,129,0.2146
+public,Public administration (NAICS 92),ThemePhysical,601,97,0.1614
+public,Public administration (NAICS 92),ThemeRansomware,601,35,0.0582
+public,Public administration (NAICS 92),ThemeSocialEng,601,42,0.0699
+public,Public administration (NAICS 92),ThemeThirdParty,601,28,0.0466
+public,Public administration (NAICS 92),ThemeVulnMgmt,601,15,0.025
+education,Education (NAICS 61),SrcAccidental,230,69,0.3
+education,Education (NAICS 61),SrcAdversarial,230,162,0.7043
+education,Education (NAICS 61),ThemeAccess,230,18,0.0783
+education,Education (NAICS 61),ThemeDataBreach,230,147,0.6391
+education,Education (NAICS 61),ThemeDoS,230,4,0.0174
+education,Education (NAICS 61),ThemeInsider,230,15,0.0652
+education,Education (NAICS 61),ThemePhysical,230,20,0.087
+education,Education (NAICS 61),ThemeRansomware,230,39,0.1696
+education,Education (NAICS 61),ThemeSocialEng,230,37,0.1609
+education,Education (NAICS 61),ThemeThirdParty,230,6,0.0261
+education,Education (NAICS 61),ThemeVulnMgmt,230,7,0.0304
+finance,Finance and insurance (NAICS 52),SrcAccidental,310,70,0.2258
+finance,Finance and insurance (NAICS 52),SrcAdversarial,310,234,0.7548
+finance,Finance and insurance (NAICS 52),ThemeAccess,310,21,0.0677
+finance,Finance and insurance (NAICS 52),ThemeDataBreach,310,238,0.7677
+finance,Finance and insurance (NAICS 52),ThemeDoS,310,6,0.0194
+finance,Finance and insurance (NAICS 52),ThemeInsider,310,36,0.1161
+finance,Finance and insurance (NAICS 52),ThemePhysical,310,115,0.371
+finance,Finance and insurance (NAICS 52),ThemeRansomware,310,8,0.0258
+finance,Finance and insurance (NAICS 52),ThemeSocialEng,310,22,0.071
+finance,Finance and insurance (NAICS 52),ThemeThirdParty,310,12,0.0387
+finance,Finance and insurance (NAICS 52),ThemeVulnMgmt,310,8,0.0258
+information,Information (NAICS 51),SrcAccidental,381,121,0.3176
+information,Information (NAICS 51),SrcAdversarial,381,260,0.6824
+information,Information (NAICS 51),ThemeAccess,381,52,0.1365
+information,Information (NAICS 51),ThemeDataBreach,381,312,0.8189
+information,Information (NAICS 51),ThemeDoS,381,11,0.0289
+information,Information (NAICS 51),ThemeInsider,381,24,0.063
+information,Information (NAICS 51),ThemePhysical,381,5,0.0131
+information,Information (NAICS 51),ThemeRansomware,381,23,0.0604
+information,Information (NAICS 51),ThemeSocialEng,381,17,0.0446
+information,Information (NAICS 51),ThemeThirdParty,381,8,0.021
+information,Information (NAICS 51),ThemeVulnMgmt,381,54,0.1417
+professional,Professional services (NAICS 54),SrcAccidental,229,75,0.3275
+professional,Professional services (NAICS 54),SrcAdversarial,229,155,0.6769
+professional,Professional services (NAICS 54),ThemeAccess,229,31,0.1354
+professional,Professional services (NAICS 54),ThemeDataBreach,229,182,0.7948
+professional,Professional services (NAICS 54),ThemeDoS,229,2,0.0087
+professional,Professional services (NAICS 54),ThemeInsider,229,23,0.1004
+professional,Professional services (NAICS 54),ThemePhysical,229,9,0.0393
+professional,Professional services (NAICS 54),ThemeRansomware,229,26,0.1135
+professional,Professional services (NAICS 54),ThemeSocialEng,229,13,0.0568
+professional,Professional services (NAICS 54),ThemeThirdParty,229,5,0.0218
+professional,Professional services (NAICS 54),ThemeVulnMgmt,229,8,0.0349
+retail,Retail (NAICS 44-45),SrcAccidental,273,37,0.1355
+retail,Retail (NAICS 44-45),SrcAdversarial,273,233,0.8535
+retail,Retail (NAICS 44-45),ThemeAccess,273,23,0.0842
+retail,Retail (NAICS 44-45),ThemeDataBreach,273,196,0.7179
+retail,Retail (NAICS 44-45),ThemeDoS,273,2,0.0073
+retail,Retail (NAICS 44-45),ThemeInsider,273,24,0.0879
+retail,Retail (NAICS 44-45),ThemePhysical,273,130,0.4762
+retail,Retail (NAICS 44-45),ThemeRansomware,273,5,0.0183
+retail,Retail (NAICS 44-45),ThemeSocialEng,273,9,0.033
+retail,Retail (NAICS 44-45),ThemeThirdParty,273,4,0.0147
+retail,Retail (NAICS 44-45),ThemeVulnMgmt,273,7,0.0256
+manufacturing,Manufacturing (NAICS 31-33),SrcAccidental,90,19,0.2111
+manufacturing,Manufacturing (NAICS 31-33),SrcAdversarial,90,72,0.8
+manufacturing,Manufacturing (NAICS 31-33),ThemeAccess,90,11,0.1222
+manufacturing,Manufacturing (NAICS 31-33),ThemeDataBreach,90,71,0.7889
+manufacturing,Manufacturing (NAICS 31-33),ThemeInsider,90,19,0.2111
+manufacturing,Manufacturing (NAICS 31-33),ThemePhysical,90,7,0.0778
+manufacturing,Manufacturing (NAICS 31-33),ThemeRansomware,90,13,0.1444
+manufacturing,Manufacturing (NAICS 31-33),ThemeSocialEng,90,17,0.1889
+manufacturing,Manufacturing (NAICS 31-33),ThemeThirdParty,90,1,0.0111
+manufacturing,Manufacturing (NAICS 31-33),ThemeVulnMgmt,90,5,0.0556
+accommodation,Accommodation and food (NAICS 72),SrcAccidental,80,11,0.1375
+accommodation,Accommodation and food (NAICS 72),SrcAdversarial,80,69,0.8625
+accommodation,Accommodation and food (NAICS 72),ThemeAccess,80,6,0.075
+accommodation,Accommodation and food (NAICS 72),ThemeDataBreach,80,61,0.7625
+accommodation,Accommodation and food (NAICS 72),ThemeInsider,80,20,0.25
+accommodation,Accommodation and food (NAICS 72),ThemePhysical,80,11,0.1375
+accommodation,Accommodation and food (NAICS 72),ThemeRansomware,80,4,0.05
+accommodation,Accommodation and food (NAICS 72),ThemeSocialEng,80,4,0.05
+accommodation,Accommodation and food (NAICS 72),ThemeThirdParty,80,1,0.0125
+accommodation,Accommodation and food (NAICS 72),ThemeVulnMgmt,80,4,0.05

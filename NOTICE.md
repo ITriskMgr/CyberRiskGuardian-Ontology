@@ -57,3 +57,15 @@ reproduced; definitions in CRGO are original wording.
 MITRE ATT&CK, CWE, CAPEC and D3FEND are trademarks of The MITRE Corporation. Labels and definitions are reproduced from these sources as published; CRGO adds no endorsement by MITRE, CISA or NIST. The raw downloads are kept in `data/raw/external/` (not versioned); `pipeline/vocab/build_external.py` rebuilds the vocabularies from them.
 
 The VERIS schema (github.com/vz-risk/veris) is under CC BY-SA 4.0, a share-alike licence that is not compatible with CRGO's CC BY-NC 4.0 for copied text. If VERIS is used in 0.8.0, CRGO will reference VERIS identifiers without copying its descriptions, or publish the VERIS-derived file separately under CC BY-SA.
+
+## Sources added in 0.8.0
+
+| Content | Source | Version used | Licence or terms |
+|---|---|---|---|
+| EPSS estimates for the KEV vulnerabilities (`data/abox/crgo-library.ttl`) | FIRST Exploit Prediction Scoring System, file retrieved by CyberRiskGuardian | scores of 2026-10-04, model v2026.06.15 | FIRST EPSS usage terms (free use with attribution to FIRST, https://www.first.org/epss/) |
+| Sector frequency estimates (`data/library/vcdb_frequencies.csv`, library estimates `VCDB-*`) | VERIS Community Database, github.com/vz-risk/VCDB | commit f6f98c0 (2026-09-30) | CC BY-SA 4.0. CRGO stores only counts and shares derived from VCDB, with this attribution; no incident text or VERIS description is copied. |
+| `ontology/vocab/a21.ttl` | LégisQuébec, CQLR c. A-2.1 | current to 2026-08-12 | Labels and definitions are CRGO paraphrases of the official text |
+| `ontology/vocab/pipeda.ttl` | Justice Laws Website, S.C. 2000, c. 5 | current to 2026-05-26 | CRGO paraphrases of the official text |
+| `ontology/vocab/osfi-b13.ttl` | OSFI Guideline B-13 | July 2022, page modified 2024-02-20 | CRGO paraphrases; short principle names follow OSFI's headings |
+| CSF 2.0 → SP 800-53 (derived) and SP 800-53 → ISO/IEC 27002 cross-references in `mappings.ttl` | NIST CPRT CSF 2.0 export, NIST CSF 1.1 to SP 800-53r5 mapping, NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (files supplied by the project owner from csrc.nist.gov) | downloaded 2026-10-11 | U.S. government works |
+| French labels of CSF 2.0 (`csf2.ttl`, `data/frameworks/csf2_fr.json`) | NIST CSWP 29, French translation | as published by NIST | NIST publication |

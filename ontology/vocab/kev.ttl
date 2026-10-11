@@ -27838,7 +27838,7 @@ kev:CVE-2026-9586 a skos:Concept ;
     dcterms:source "https://github.com/cisagov/kev-data (known_exploited_vulnerabilities.json)" ;
     dcterms:title "CISA Known Exploited Vulnerabilities"@en,
         "Vulnérabilités exploitées connues (CISA)"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/kev> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/kev> ;
     owl:versionInfo "2026.10.08" ;
     skos:hasTopConcept kev:CVE-2002-0367,
         kev:CVE-2004-0210,
