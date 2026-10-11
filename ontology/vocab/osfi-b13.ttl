@@ -13,10 +13,12 @@ osfi-b13:P1 a skos:Concept ;
     skos:notation "P1" ;
     skos:prefLabel "1.1 Accountability and organizational structure"@en,
         "1.1 Responsabilité et structure organisationnelle"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P10 a skos:Concept ;
@@ -27,10 +29,12 @@ osfi-b13:P10 a skos:Concept ;
     skos:notation "P10" ;
     skos:prefLabel "2.7 Incident and problem management"@en,
         "2.7 Gestion des incidents et des problèmes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P11 a skos:Concept ;
@@ -41,10 +45,12 @@ osfi-b13:P11 a skos:Concept ;
     skos:notation "P11" ;
     skos:prefLabel "2.8 Technology service measurement and monitoring"@en,
         "2.8 Mesure et surveillance des services technologiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P12 a skos:Concept ;
@@ -55,10 +61,12 @@ osfi-b13:P12 a skos:Concept ;
     skos:notation "P12" ;
     skos:prefLabel "2.9 Disaster recovery (programme)"@en,
         "2.9 Reprise après sinistre (programme)"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P13 a skos:Concept ;
@@ -69,10 +77,12 @@ osfi-b13:P13 a skos:Concept ;
     skos:notation "P13" ;
     skos:prefLabel "2.9 Disaster recovery (scenario testing)"@en,
         "2.9 Reprise après sinistre (tests de scénarios)"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P14 a skos:Concept ;
@@ -83,10 +93,12 @@ osfi-b13:P14 a skos:Concept ;
     skos:notation "P14" ;
     skos:prefLabel "3.1 Identify"@en,
         "3.1 Identifier"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P15 a skos:Concept ;
@@ -97,10 +109,12 @@ osfi-b13:P15 a skos:Concept ;
     skos:notation "P15" ;
     skos:prefLabel "3.2 Defend"@en,
         "3.2 Défendre"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P16 a skos:Concept ;
@@ -111,10 +125,12 @@ osfi-b13:P16 a skos:Concept ;
     skos:notation "P16" ;
     skos:prefLabel "3.3 Detect"@en,
         "3.3 Détecter"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P17 a skos:Concept ;
@@ -125,10 +141,12 @@ osfi-b13:P17 a skos:Concept ;
     skos:notation "P17" ;
     skos:prefLabel "3.4 Respond, recover and learn"@en,
         "3.4 Intervenir, rétablir et apprendre"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P2 a skos:Concept ;
@@ -139,10 +157,12 @@ osfi-b13:P2 a skos:Concept ;
     skos:notation "P2" ;
     skos:prefLabel "1.2 Technology and cyber strategy"@en,
         "1.2 Stratégie technologique et cybernétique"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P3 a skos:Concept ;
@@ -153,10 +173,12 @@ osfi-b13:P3 a skos:Concept ;
     skos:notation "P3" ;
     skos:prefLabel "1.3 Technology and cyber risk management framework"@en,
         "1.3 Cadre de gestion des risques technologiques et cybernétiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P4 a skos:Concept ;
@@ -167,10 +189,12 @@ osfi-b13:P4 a skos:Concept ;
     skos:notation "P4" ;
     skos:prefLabel "2.1 Technology architecture"@en,
         "2.1 Architecture technologique"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P5 a skos:Concept ;
@@ -181,10 +205,12 @@ osfi-b13:P5 a skos:Concept ;
     skos:notation "P5" ;
     skos:prefLabel "2.2 Technology asset management"@en,
         "2.2 Gestion des actifs technologiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P6 a skos:Concept ;
@@ -195,10 +221,12 @@ osfi-b13:P6 a skos:Concept ;
     skos:notation "P6" ;
     skos:prefLabel "2.3 Technology project management"@en,
         "2.3 Gestion des projets technologiques"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P7 a skos:Concept ;
@@ -209,10 +237,12 @@ osfi-b13:P7 a skos:Concept ;
     skos:notation "P7" ;
     skos:prefLabel "2.4 System development life cycle"@en,
         "2.4 Cycle de vie du développement des systèmes"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P8 a skos:Concept ;
@@ -223,10 +253,12 @@ osfi-b13:P8 a skos:Concept ;
     skos:notation "P8" ;
     skos:prefLabel "2.5 Change and release management"@en,
         "2.5 Gestion des changements et des mises en production"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:P9 a skos:Concept ;
@@ -237,10 +269,12 @@ osfi-b13:P9 a skos:Concept ;
     skos:notation "P9" ;
     skos:prefLabel "2.6 Patch management"@en,
         "2.6 Gestion des correctifs"@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:D1 a skos:Concept ;
@@ -251,10 +285,12 @@ osfi-b13:D1 a skos:Concept ;
     skos:prefLabel "Governance and risk management"@en,
         "Gouvernance et gestion des risques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:D3 a skos:Concept ;
@@ -265,10 +301,12 @@ osfi-b13:D3 a skos:Concept ;
     skos:prefLabel "Cyber security"@en,
         "Cybersécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 osfi-b13:D2 a skos:Concept ;
@@ -279,10 +317,12 @@ osfi-b13:D2 a skos:Concept ;
     skos:prefLabel "Technology operations and resilience"@en,
         "Opérations et résilience technologiques"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/osfi-b13> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/technology-cyber-risk-management (Guideline B-13, July 2022, modified 2024-02-20)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 <https://w3id.org/crgo/vocab/osfi-b13> a owl:Ontology,

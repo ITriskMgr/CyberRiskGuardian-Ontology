@@ -391,3 +391,20 @@ mappings/d3fend-judged/M	Approve	MAL	2026-10-11
 links/cwe/H	Approve	MAL	2026-10-11	
 links/cwe/M	Approve	MAL	2026-10-11	
 links/ctid-sp80053r5/M	Approve	MAL	2026-10-11	
+# 2026-10-11: 0.8.0 review: all groups approved as recommended in CRGO-0.8.0-review.xlsx (A-2.1, PIPEDA, OSFI B-13 vocabularies; Loi 25-A-2.1, Loi 25-PIPEDA, B-13-CSF, NIST crosswalks; CSF French labels; EPSS and VCDB evidence; written scenarios AUTH-001 to 006 with their links; four added commonly assessed risks; banking synonyms and ranking change; CQ24-CQ26). GDPR left for a later decision (supplied PDF is the UK GDPR).
+a21/*	Approve	MAL	2026-10-11	
+pipeda/*	Approve	MAL	2026-10-11	
+osfi-b13/*	Approve	MAL	2026-10-11	
+mappings/loi25-a21	Approve	MAL	2026-10-11	
+mappings/loi25-pipeda	Approve	MAL	2026-10-11	
+mappings/b13-csf2	Approve	MAL	2026-10-11	
+mappings/nist-csf2-800-53-derived	Approve	MAL	2026-10-11	
+mappings/nist-olir-800-53-iso27002	Approve	MAL	2026-10-11	
+evidence/epss	Approve	MAL	2026-10-11	
+evidence/vcdb	Approve	MAL	2026-10-11	
+links/authored/AUTH-001	Approve	MAL	2026-10-11	
+links/authored/AUTH-002	Approve	MAL	2026-10-11	
+links/authored/AUTH-003	Approve	MAL	2026-10-11	
+links/authored/AUTH-004	Approve	MAL	2026-10-11	
+links/authored/AUTH-005	Approve	MAL	2026-10-11	
+links/authored/AUTH-006	Approve	MAL	2026-10-11	

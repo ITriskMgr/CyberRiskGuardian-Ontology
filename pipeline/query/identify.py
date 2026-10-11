@@ -253,7 +253,7 @@ BASELINE = [("phishing and credential theft", ["phishing", "credential theft"]),
             ("impersonation of the organisation", ["impersonat", "spoofed domain", "fake website", "brand"]),
             ("web application vulnerability", ["web application", "sql injection", "cross-site", "portal vulnerability"]),
             ("denial of service", ["denial of service", "ddos"]), ("privileged account misuse", ["privileged account", "admin account", "privileged access"]),
-            # 0.8.0, proposed (ACRB evaluation): risks that combine two concepts, and two risks the library lacked
+            # 0.8.0, approved 2026-10-11 (ACRB evaluation): risks that combine two concepts, and two risks the library lacked
             ("vendor remote access", ["remote access by suppliers", "unauthorized remote access by suppliers", "vendor remote", "remote support tool", "supplier remote access", "vendor with remote access"]),
             ("insider fraud or record manipulation", ["embezzlement", "financial records", "record manipulation", "manipulation of financial"]),
             ("asset inventory gaps", ["inventory of technology assets", "asset inventory", "unmanaged asset", "unmanaged device"]),

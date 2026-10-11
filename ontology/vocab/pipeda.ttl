@@ -13,10 +13,12 @@ pipeda:PIPEDA_Sch._1_4.1 a skos:Concept ;
     skos:prefLabel "Accountability"@en,
         "Responsabilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.1.3 a skos:Concept ;
@@ -27,10 +29,12 @@ pipeda:PIPEDA_Sch._1_4.1.3 a skos:Concept ;
     skos:prefLabel "Protection during processing by a third party"@en,
         "Protection lors du traitement par un tiers"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.3.6 a skos:Concept ;
@@ -41,10 +45,12 @@ pipeda:PIPEDA_Sch._1_4.3.6 a skos:Concept ;
     skos:prefLabel "Express consent for sensitive information"@en,
         "Consentement exprès pour les renseignements sensibles"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.4 a skos:Concept ;
@@ -55,10 +61,12 @@ pipeda:PIPEDA_Sch._1_4.4 a skos:Concept ;
     skos:prefLabel "Limiting collection"@en,
         "Limitation de la collecte"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.5 a skos:Concept ;
@@ -69,10 +77,12 @@ pipeda:PIPEDA_Sch._1_4.5 a skos:Concept ;
     skos:prefLabel "Limiting use, disclosure and retention"@en,
         "Limitation de l'utilisation, de la communication et de la conservation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.5.3 a skos:Concept ;
@@ -83,10 +93,12 @@ pipeda:PIPEDA_Sch._1_4.5.3 a skos:Concept ;
     skos:prefLabel "Destruction or anonymization when no longer needed"@en,
         "Destruction ou anonymisation lorsqu'ils ne sont plus nécessaires"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.7 a skos:Concept ;
@@ -97,10 +109,12 @@ pipeda:PIPEDA_Sch._1_4.7 a skos:Concept ;
     skos:prefLabel "Safeguards appropriate to sensitivity"@en,
         "Mesures de sécurité adaptées à la sensibilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_Sch._1_4.7.5 a skos:Concept ;
@@ -111,10 +125,12 @@ pipeda:PIPEDA_Sch._1_4.7.5 a skos:Concept ;
     skos:prefLabel "Careful disposal"@en,
         "Élimination prudente"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_s._10.1_1 a skos:Concept ;
@@ -125,10 +141,12 @@ pipeda:PIPEDA_s._10.1_1 a skos:Concept ;
     skos:prefLabel "Report of a breach of security safeguards to the Commissioner"@en,
         "Déclaration d'une atteinte aux mesures de sécurité au Commissaire"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_s._10.1_3 a skos:Concept ;
@@ -139,10 +157,12 @@ pipeda:PIPEDA_s._10.1_3 a skos:Concept ;
     skos:prefLabel "Notification of affected individuals"@en,
         "Avis aux personnes concernées"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_s._10.1_8 a skos:Concept ;
@@ -153,10 +173,12 @@ pipeda:PIPEDA_s._10.1_8 a skos:Concept ;
     skos:prefLabel "Factors for a real risk of significant harm"@en,
         "Facteurs du risque réel de préjudice grave"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_s._10.2_1 a skos:Concept ;
@@ -167,10 +189,12 @@ pipeda:PIPEDA_s._10.2_1 a skos:Concept ;
     skos:prefLabel "Notification of organizations that can reduce the harm"@en,
         "Avis aux organisations pouvant réduire le préjudice"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 pipeda:PIPEDA_s._10.3_1 a skos:Concept ;
@@ -181,10 +205,12 @@ pipeda:PIPEDA_s._10.3_1 a skos:Concept ;
     skos:prefLabel "Records of breaches of security safeguards"@en,
         "Registre des atteintes aux mesures de sécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/pipeda> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/FullText.html (current to 2026-05-26)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 <https://w3id.org/crgo/vocab/pipeda> a owl:Ontology,

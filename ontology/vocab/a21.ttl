@@ -13,10 +13,12 @@ a21:A-2.1_s._63.1 a skos:Concept ;
     skos:prefLabel "Security measures proportionate to sensitivity"@en,
         "Mesures de sécurité proportionnées à la sensibilité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.10 a skos:Concept ;
@@ -27,10 +29,12 @@ a21:A-2.1_s._63.10 a skos:Concept ;
     skos:prefLabel "Assessment of the risk of serious injury"@en,
         "Évaluation du risque de préjudice sérieux"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.11 a skos:Concept ;
@@ -41,10 +45,12 @@ a21:A-2.1_s._63.11 a skos:Concept ;
     skos:prefLabel "Register of confidentiality incidents"@en,
         "Registre des incidents de confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.2 a skos:Concept ;
@@ -55,10 +61,12 @@ a21:A-2.1_s._63.2 a skos:Concept ;
     skos:prefLabel "Protection measures prescribed by regulation"@en,
         "Mesures de protection prévues par règlement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.3 a skos:Concept ;
@@ -69,10 +77,12 @@ a21:A-2.1_s._63.3 a skos:Concept ;
     skos:prefLabel "Governance rules for personal information"@en,
         "Règles de gouvernance des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.4 a skos:Concept ;
@@ -83,10 +93,12 @@ a21:A-2.1_s._63.4 a skos:Concept ;
     skos:prefLabel "Published privacy policy for technological collection"@en,
         "Politique de confidentialité publiée pour la collecte technologique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.5 a skos:Concept ;
@@ -97,10 +109,12 @@ a21:A-2.1_s._63.5 a skos:Concept ;
     skos:prefLabel "Privacy impact assessment for information system or electronic service projects"@en,
         "Évaluation des facteurs relatifs à la vie privée pour les projets de système d'information ou de prestation électronique de services"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.7 a skos:Concept ;
@@ -111,10 +125,12 @@ a21:A-2.1_s._63.7 a skos:Concept ;
     skos:prefLabel "Highest level of confidentiality by default"@en,
         "Plus haut niveau de confidentialité par défaut"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.8 a skos:Concept ;
@@ -125,10 +141,12 @@ a21:A-2.1_s._63.8 a skos:Concept ;
     skos:prefLabel "Measures and notification after a confidentiality incident"@en,
         "Mesures et avis à la suite d'un incident de confidentialité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._63.9 a skos:Concept ;
@@ -139,10 +157,12 @@ a21:A-2.1_s._63.9 a skos:Concept ;
     skos:prefLabel "Confidentiality incident (definition)"@en,
         "Incident de confidentialité (définition)"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._64 a skos:Concept ;
@@ -153,10 +173,12 @@ a21:A-2.1_s._64 a skos:Concept ;
     skos:prefLabel "Collection limited to what is necessary"@en,
         "Collecte limitée au nécessaire"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._65 a skos:Concept ;
@@ -167,10 +189,12 @@ a21:A-2.1_s._65 a skos:Concept ;
     skos:prefLabel "Information to be provided at collection"@en,
         "Information à fournir lors de la collecte"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._67.2 a skos:Concept ;
@@ -181,10 +205,12 @@ a21:A-2.1_s._67.2 a skos:Concept ;
     skos:prefLabel "Written mandate or contract with service providers"@en,
         "Mandat ou contrat écrit avec les mandataires et prestataires"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._67.3 a skos:Concept ;
@@ -195,10 +221,12 @@ a21:A-2.1_s._67.3 a skos:Concept ;
     skos:prefLabel "Register of communications of personal information"@en,
         "Registre des communications de renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._70.1 a skos:Concept ;
@@ -209,10 +237,12 @@ a21:A-2.1_s._70.1 a skos:Concept ;
     skos:prefLabel "Communication outside Québec"@en,
         "Communication à l'extérieur du Québec"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._73 a skos:Concept ;
@@ -223,10 +253,12 @@ a21:A-2.1_s._73 a skos:Concept ;
     skos:prefLabel "Destruction or anonymization at end of purpose"@en,
         "Destruction ou anonymisation à la fin de la finalité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._8 a skos:Concept ;
@@ -237,10 +269,12 @@ a21:A-2.1_s._8 a skos:Concept ;
     skos:prefLabel "Person in charge of the protection of personal information"@en,
         "Responsable de la protection des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 a21:A-2.1_s._8.1 a skos:Concept ;
@@ -251,10 +285,12 @@ a21:A-2.1_s._8.1 a skos:Concept ;
     skos:prefLabel "Committee on access to information and privacy"@en,
         "Comité sur l'accès à l'information et la protection des renseignements personnels"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/a21> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1 ; https://www.legisquebec.gouv.qc.ca/fr/pdf/lc/A-2.1.pdf ; https://www.legisquebec.gouv.qc.ca/en/pdf/cs/A-2.1.pdf"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
     crgo:CRGO_0000291 "0.8.0" .
 
 <https://w3id.org/crgo/vocab/a21> a owl:Ontology,

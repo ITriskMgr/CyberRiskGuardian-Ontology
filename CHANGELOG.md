@@ -2,9 +2,9 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
-## [0.8.0] — draft, not yet approved
+## [0.8.0] — 2026-10-11, approved
 
-Calibration evidence, other sectors and other legal regimes. All new elements are *proposed* until reviewed.
+Calibration evidence, other sectors and other legal regimes. Approved in full by the project owner on 2026-10-11, including the written scenarios AUTH-001 to AUTH-006 and their links.
 
 ### Added
 - **Exploitation probability:** FIRST EPSS scores (2026-10-04) for the 1,739 KEV vulnerabilities, as likelihood estimates; scenario evidence now gives the median and maximum EPSS of the exploited vulnerabilities behind its techniques and weaknesses.
@@ -16,7 +16,7 @@ Calibration evidence, other sectors and other legal regimes. All new elements ar
 - Competency questions CQ24–CQ26 (proposed).
 
 ### Not yet included
-- GDPR: waiting for the text (EUR-Lex does not serve it to the build environment).
+- GDPR: the PDF supplied is the UK GDPR (legislation.gov.uk), not the EU Regulation; which text to model is left to the project owner.
 
 ## [0.7.0] — 2026-10-11, approved
 

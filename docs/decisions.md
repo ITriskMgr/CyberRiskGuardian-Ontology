@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.8.0 draft
+# Design decisions — CRGO 0.8.0
 
 This file records why the ontology looks the way it does.
 
@@ -305,3 +305,5 @@ GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND,
 ### 14.4 Other sectors
 - Three generic scenarios written from the ACRB findings (F1815–F1817), reviewed independently (20 correct, 11 defensible, 1 wrong link; the ATM scenario narrowed to jackpotting, missing controls added).
 - Banking synonyms, a small ranking penalty for healthcare wording when the profile has no health term, and four proposed commonly assessed risks. These changes were derived from the ACRB evaluation, so ACRB can no longer measure them; the next recall measurement needs a new case from another sector.
+
+**Decision of the project owner (2026-10-11).** 0.8.0 approved in full: the three vocabularies, all cross-references, the CSF French labels, the EPSS and VCDB evidence, the written scenarios AUTH-001 to AUTH-006 with their links (each through its own group `links/authored/<key>`), the four added commonly assessed risks, the banking synonyms and ranking change, and CQ24–CQ26. GDPR is left open: the text supplied is the UK GDPR.
