@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
 A = lambda k: rdflib.URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 g = rdflib.Graph()
-for m in ["gov", "core", "measure", "crg"]:
+for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping"]:
     g.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 terms = {s for s in g.subjects() if str(s).startswith("https://w3id.org/crgo/CRGO_")}
 lang = lambda s, p, l: any(getattr(o, "language", None) == l for o in g.objects(s, p))

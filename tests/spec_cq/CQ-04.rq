@@ -1,0 +1,9 @@
+# CQ-04: Which existing control implementations are assessed as mitigating the scenarios, and with what result?
+# Existing = status 'in place'; assessed = the latest control assessment of the measure is effective or partly effective.
+SELECT ?scenario ?measure ?result ?date WHERE {
+  ?scenario {{mitigatedBy}} ?measure .
+  ?measure {{hasControlStatus}} {{CtlInPlace}} .
+  ?ca {{evaluatesControlMeasure}} ?measure ; {{hasTestResult}} ?result ; {{assessedOn}} ?date .
+  FILTER NOT EXISTS { ?later {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 . FILTER(?d2 > ?date) }
+  FILTER(?result IN ({{TestEffective}}, {{TestPartlyEffective}}))
+} ORDER BY ?scenario ?measure

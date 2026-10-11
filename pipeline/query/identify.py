@@ -512,7 +512,7 @@ def kev_evidence(tids, cwes=()):
         vals = " ".join('"%s"' % i for i in ids)
         rows = _q("""SELECT ?x ?k ?note ?epss WHERE {
                      VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%s%s> . ?k skos:relatedMatch ?c ; skos:inScheme <%skev> ; skos:note ?note .
-                     OPTIONAL { ?e %s ?k ; %s ?epss } }""" % (vals, VOC, scheme, VOC, T("estimateOf"), T("numericValue")))
+                     OPTIONAL { ?e %s ?k ; %s ?epss } }""" % (vals, VOC, scheme, VOC, T("observationOf"), T("numericValue")))
         agg = {}
         for r in rows:
             a = agg.setdefault(_v(r["x"]), {"kev": set(), "ransom": set(), "epss": {}})

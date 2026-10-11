@@ -23,6 +23,8 @@
         <https://w3id.org/crgo/vocab/pipeda>,
         <https://w3id.org/crgo/vocab/gdpr>,
         <https://w3id.org/crgo/vocab/osfi-b13>,
+        <https://w3id.org/crgo/vocab/legal>,
+        <https://w3id.org/crgo/vocab/sources>,
         <https://w3id.org/crgo/vocab/mappings>,
         <https://w3id.org/crgo/vocab/sp800-53r5>,
         <https://w3id.org/crgo/vocab/theme> ;

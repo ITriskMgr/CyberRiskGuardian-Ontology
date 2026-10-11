@@ -1,0 +1,12 @@
+# CQ-11: Which assumptions and source versions were used in an assessment?
+# Assumptions of the estimates made in the assessment, and the versions of the legal sources behind its compliance
+# determinations. Estimates outside the assessment are excluded.
+SELECT DISTINCT ?kind ?item ?detail WHERE {
+  {
+    ?e {{assessedIn}} ?ra ; {{dependsOnAssumption}} ?item . ?item rdfs:label ?detail . BIND("assumption" AS ?kind)
+  } UNION {
+    ?d a {{ComplianceDetermination}} ; {{concernsOrganisation}} ?org ; {{complianceWith}} ?p .
+    ?ra {{assessesOrganization}} ?org .
+    ?p {{provisionOf}} ?inst . ?inst {{hasSourceRecord}} ?item . ?item {{sourceVersion}} ?detail . BIND("source version" AS ?kind)
+  }
+} ORDER BY ?kind ?item

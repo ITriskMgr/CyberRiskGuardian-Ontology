@@ -14,6 +14,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
+import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
+S.update(V9.SOURCES_09)
+CLASSES = CLASSES + V9.CLASSES_09; VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09; INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09; DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09
 
 VERSION = "0.9.0"
 PRIOR = "0.8.0"
@@ -24,14 +28,23 @@ CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
 CCO = Namespace("https://www.commoncoreontologies.org/")
 VANN = Namespace("http://purl.org/vocab/vann/")
+PROV = Namespace("http://www.w3.org/ns/prov#")
+TIME = Namespace("http://www.w3.org/2006/time#")
 LICENSE = "https://creativecommons.org/licenses/by-nc/4.0/"
 MODULES = {
     "gov": ("crgo-gov", "CyberRiskGuardian Ontology - governance module", "Ontologie CyberRiskGuardian - module de gouvernance", []),
     "core": ("crgo-core", "CyberRiskGuardian Ontology - core module", "Ontologie CyberRiskGuardian - module central", ["gov", "IMPORT:bfo", "IMPORT:cco"]),
     "measure": ("crgo-measure", "CyberRiskGuardian Ontology - measurement module", "Ontologie CyberRiskGuardian - module de mesure", ["core"]),
     "crg": ("crgo-crg", "CyberRiskGuardian Ontology - CyberRiskGuardian method module", "Ontologie CyberRiskGuardian - module de la méthode CyberRiskGuardian", ["measure"]),
+    # 0.9.0 (decision D2: new content in new modules, the four modules above unchanged)
+    "evidence": ("crgo-evidence", "CyberRiskGuardian Ontology - sources, observations and assumptions module", "Ontologie CyberRiskGuardian - module des sources, observations et hypothèses", ["measure", "IMPORT:prov", "IMPORT:time"]),
+    "org": ("crgo-org", "CyberRiskGuardian Ontology - organisation profile module", "Ontologie CyberRiskGuardian - module du profil d'organisation", ["core"]),
+    "vuln": ("crgo-vuln", "CyberRiskGuardian Ontology - vulnerability observations module", "Ontologie CyberRiskGuardian - module des observations de vulnérabilités", ["evidence"]),
+    "grc": ("crgo-grc", "CyberRiskGuardian Ontology - legal applicability and compliance module", "Ontologie CyberRiskGuardian - module d'applicabilité juridique et de conformité", ["evidence", "org"]),
+    "mapping": ("crgo-mapping", "CyberRiskGuardian Ontology - typed correspondence relations module", "Ontologie CyberRiskGuardian - module des relations de correspondance typées", ["gov"]),
 }
-IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice"}
+IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice",
+           "IMPORT:prov": BASE + "imports/prov-slice", "IMPORT:time": BASE + "imports/time-slice"}
 
 # ---------------------------------------------------------------- stable ids
 ids_path = os.path.join(ROOT, "src", "ids.tsv")
@@ -44,7 +57,7 @@ if os.path.exists(ids_path):
 def iri(key):
     if ":" in key:  # external CURIE
         p, local = key.split(":", 1)
-        return {"bfo": BFO, "cco": CCO, "skos": SKOS, "xsd": XSD}[p][local]
+        return {"bfo": BFO, "cco": CCO, "skos": SKOS, "xsd": XSD, "prov": PROV, "time": TIME}[p][local]
     if key not in ids:
         ids[key] = max(ids.values(), default=0) + 1
     return CRGO["CRGO_%07d" % ids[key]]
@@ -83,7 +96,7 @@ graphs = {m: Graph() for m in MODULES}
 terms = []  # for the review workbook
 
 def bind(g):
-    for p, n in [("crgo", CRGO), ("obo", BFO), ("cco", CCO), ("skos", SKOS), ("owl", OWL), ("xsd", XSD), ("dcterms", DCTERMS), ("vann", VANN)]:
+    for p, n in [("crgo", CRGO), ("obo", BFO), ("cco", CCO), ("skos", SKOS), ("owl", OWL), ("xsd", XSD), ("dcterms", DCTERMS), ("vann", VANN), ("prov", PROV), ("time", TIME)]:
         g.bind(p, n)
 
 def gov(g, s, sources, conf, rationale):
@@ -182,7 +195,9 @@ for key, module, en, fr, den, dfr, srcs, members in VALUE_SETS:
 # value sets it can see, so the axiom holds whichever module is loaded.
 from rdflib import BNode as _B
 from rdflib.collection import Collection as _Col
-SEES = {"gov": ["gov"], "core": ["gov", "core"], "measure": ["gov", "core", "measure"], "crg": ["gov", "core", "measure", "crg"]}
+SEES = {"gov": ["gov"], "core": ["gov", "core"], "measure": ["gov", "core", "measure"], "crg": ["gov", "core", "measure", "crg"],
+        "evidence": ["gov", "core", "measure", "evidence"], "org": ["gov", "core", "org"], "vuln": ["gov", "core", "measure", "evidence", "vuln"],
+        "grc": ["gov", "core", "measure", "evidence", "org", "grc"], "mapping": ["gov"]}
 for m, seen in SEES.items():
     vs = [iri(v[0]) for v in VALUE_SETS if v[1] in seen]
     if len(vs) > 1:
@@ -190,6 +205,13 @@ for m, seen in SEES.items():
         graphs[m].add((ax, RDF.type, OWL.AllDisjointClasses)); graphs[m].add((ax, OWL.members, lst))
         _Col(graphs[m], lst, vs)
 graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
+MODULE_OF = {c[0]: c[1] for c in CLASSES}
+ORDER = list(MODULES)
+for a, b in V9.DISJOINT_09:  # stated in the later of the two modules, which sees both
+    graphs[max(MODULE_OF[a], MODULE_OF[b], key=ORDER.index)].add((iri(a), OWL.disjointWith, iri(b)))
+# SKOS mapping relations are the super-properties of the typed correspondences (no SKOS import)
+for p in (SKOS.relatedMatch, SKOS.closeMatch):
+    graphs["mapping"].add((p, RDF.type, OWL.ObjectProperty))
 
 # ---------------------------------------------------------------- other individuals
 for key, module, types, en, fr, den, dfr, srcs in INDIVIDUALS:

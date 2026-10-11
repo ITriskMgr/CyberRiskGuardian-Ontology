@@ -1,0 +1,20 @@
+id	instrument	role	kind	test	interpretive	citation	label_en	label_fr
+P39-1-QC	P-39.1	required	CondTerritorial	establishedIn=JurQuebec	n	P-39.1 s. 1	Carries on an enterprise in Québec	Exploite une entreprise au Québec
+P39-1-ENT	P-39.1	required	CondOrgType	orgType=OrgEnterprise	n	P-39.1 s. 1; CCQ art. 1525	Is a person carrying on an enterprise	Est une personne qui exploite une entreprise
+P39-1-PI	P-39.1	required	CondProcessing	processesPersonalInfo	n	P-39.1 s. 1	Collects, holds, uses or communicates personal information	Recueille, détient, utilise ou communique des renseignements personnels
+P39-3-PB	P-39.1	exception	CondException	orgType=OrgPublicBody	n	P-39.1 s. 3	Is a public body (A-2.1 applies instead)	Est un organisme public (la loi c. A-2.1 s'applique plutôt)
+C11-44-BIO	C-1.1	required	CondDataCategory	processesData=DataBiometric	y	C-1.1 ss. 44-45	Uses biometric characteristics to verify or confirm identity	Utilise des caractéristiques biométriques pour vérifier ou confirmer l'identité
+C11-QC	C-1.1	required	CondTerritorial	establishedIn=JurQuebec	n	C-1.1 s. 1	Operates in Québec	Exerce ses activités au Québec
+A21-3-PB	A-2.1	required	CondOrgType	orgType=OrgPublicBody	n	A-2.1 s. 3	Is a public body	Est un organisme public
+R221-4-HB	R-22.1	required	CondOrgType	orgType=OrgHealthBody	n	R-22.1 s. 4 and Schedules I-II	Is a health and social services body	Est un organisme du secteur de la santé et des services sociaux
+R221-2-HD	R-22.1	required	CondDataCategory	processesData=DataHealth	n	R-22.1 s. 2	Holds health and social services information	Détient des renseignements de santé et de services sociaux
+PIPEDA-FW	PIPEDA	anyof	CondOrgType	orgType=OrgFederalWork	n	PIPEDA s. 4(1)(b)	Operates a federal work, undertaking or business	Exploite une entreprise fédérale
+PIPEDA-FRFI	PIPEDA	anyof	CondOrgType	orgType=OrgFRFI	n	PIPEDA s. 4(1)(b)	Is a federally regulated financial institution (a federal undertaking)	Est une institution financière fédérale (entreprise fédérale)
+PIPEDA-XB	PIPEDA	anyof	CondTerritorial	transfersOutside=JurQuebec	y	PIPEDA s. 4(1)(a); s. 26(2)(b) exemption order for Québec	Discloses personal information across provincial or national borders in commercial activity	Communique des renseignements personnels au-delà des frontières provinciales ou nationales dans le cadre d'une activité commerciale
+PIPEDA-OP	PIPEDA	anyof	CondTerritorial	establishedIn=JurCanadaOtherProvince	y	PIPEDA s. 4(1)(a); s. 26(2)(b)	Carries on commercial activity in a province without substantially similar legislation	Exerce une activité commerciale dans une province sans loi essentiellement similaire
+PIPEDA-PI	PIPEDA	required	CondProcessing	processesPersonalInfo	n	PIPEDA s. 4(1)	Collects, uses or discloses personal information	Recueille, utilise ou communique des renseignements personnels
+GDPR-3-1	GDPR	anyof	CondTerritorial	establishedIn=JurEU	n	GDPR Art. 3(1)	Has an establishment in the Union	A un établissement dans l'Union
+GDPR-3-2a	GDPR	anyof	CondTerritorial	offersServicesIn=JurEU	y	GDPR Art. 3(2)(a)	Offers goods or services to people in the Union	Offre des biens ou des services à des personnes se trouvant dans l'Union
+GDPR-3-2b	GDPR	anyof	CondTerritorial	monitorsBehaviourIn=JurEU	y	GDPR Art. 3(2)(b)	Monitors the behaviour of people in the Union	Suit le comportement de personnes se trouvant dans l'Union
+GDPR-2-1	GDPR	required	CondProcessing	processesPersonalInfo	n	GDPR Art. 2(1)	Processes personal data	Traite des données à caractère personnel
+B13-FRFI	OSFI-B-13	required	CondOrgType	orgType=OrgFRFI	n	OSFI B-13, A. Purpose and scope	Is a federally regulated financial institution	Est une institution financière fédérale

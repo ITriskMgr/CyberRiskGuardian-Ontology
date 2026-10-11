@@ -6,6 +6,13 @@
   <uri name="https://w3id.org/crgo/crgo-core" uri="crgo-core.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-measure" uri="crgo-measure.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-crg" uri="crgo-crg.ttl"/>
+  <uri name="https://w3id.org/crgo/imports/prov-slice" uri="../imports/prov-slice.ttl"/>
+  <uri name="https://w3id.org/crgo/imports/time-slice" uri="../imports/time-slice.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-evidence" uri="crgo-evidence.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-org" uri="crgo-org.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-vuln" uri="crgo-vuln.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-grc" uri="crgo-grc.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-mapping" uri="crgo-mapping.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../data/abox/crgo-library.ttl"/>
@@ -27,4 +34,6 @@
   <uri name="https://w3id.org/crgo/vocab/pipeda" uri="vocab/pipeda.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/gdpr" uri="vocab/gdpr.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/osfi-b13" uri="vocab/osfi-b13.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/legal" uri="vocab/legal.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/sources" uri="vocab/sources.ttl"/>
 </catalog>

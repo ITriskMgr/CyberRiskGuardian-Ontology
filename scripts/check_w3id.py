@@ -27,7 +27,9 @@ def resolve(path, accept):
                 return m.expand(target.replace("$", "\\"))
     return None
 iris = set()
-for f in ["ontology/crgo.ttl", "ontology/crgo-core.ttl", "ontology/crgo-full.ttl", "ontology/vocab/csf2.ttl", "data/abox/crgo-library.ttl"]:
+import glob
+for f in sorted(glob.glob(os.path.join(ROOT, "ontology", "crgo*.ttl"))) + ["ontology/vocab/csf2.ttl", "ontology/vocab/legal.ttl", "ontology/vocab/sources.ttl",
+          "ontology/vocab/mappings-proposed.ttl", "data/abox/crgo-library.ttl", "data/abox/crgo-library-proposed.ttl"]:
     g = rdflib.Graph(); g.parse(os.path.join(ROOT, f))
     iris |= {str(t) for t in set(g.subjects()) | set(g.objects()) if isinstance(t, rdflib.URIRef) and str(t).startswith("https://w3id.org/crgo/")}
 bad, samples = [], {}

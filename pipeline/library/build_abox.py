@@ -6,7 +6,7 @@ the CRG v1.0c risk quantities from a single recorded calculation run."""
 import csv, json, math, os, statistics
 import pandas as pd
 from rdflib import BNode, Graph, Namespace, Literal, URIRef
-from rdflib.namespace import RDF, RDFS, OWL, XSD
+from rdflib.namespace import RDF, RDFS, OWL, XSD, DCTERMS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -58,12 +58,18 @@ for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
         if _d == "Approve":
             LINK_APPROVALS[_k] = (_who, _date)
 
+PROPOSED = Graph()
+
 def annotated(g, s, p, o, conf, note=None, group=None, corroborated=None):
     """Assert s p o and annotate the assertion with its confidence and governance (OWL 2 axiom annotation).
-    group (links/<scheme>/<confidence>) looks up a bulk approval recorded in src/approvals.tsv."""
+    group (links/<scheme>/<confidence>) looks up a bulk approval recorded in src/approvals.tsv.
+    0.9.0: a link with an approval group that is not approved is written to the proposal graph PROPOSED
+    (data/abox/crgo-library-proposed.ttl, not imported by crgo-full) instead of the library (gap G5)."""
+    ok = LINK_APPROVALS.get(group) if group else None
+    if group and not ok:
+        g = PROPOSED
     g.add((s, p, o))
     a = BNode()
-    ok = LINK_APPROVALS.get(group) if group else None
     for t in [(a, RDF.type, OWL.Axiom), (a, OWL.annotatedSource, s), (a, OWL.annotatedProperty, p), (a, OWL.annotatedTarget, o),
               (a, C("confidence"), C(CONF[conf])), (a, C("proposedBy"), C("AgentClaude")),
               (a, C("governanceStatus"), C("StatusApproved" if ok else "StatusProposed"))]:
@@ -235,12 +241,20 @@ def main():
             fh.readline()
             for row in csv.DictReader(fh):
                 if row["cve"] not in kev_ids: continue
+                # 0.9.0 (decision D4): a dated EPSS observation of the vulnerability, not a scenario likelihood
+                o = LIB["EPSS-%s-2026-10-04" % row["cve"]]
+                A((o, RDF.type, C("EPSSObservation")), (o, C("observationOf"), URIRef(VOC + "kev/" + safe(row["cve"]))),
+                  (o, C("numericValue"), D(row["epss"])), (o, C("epssPercentile"), D(row["percentile"])),
+                  (o, C("observedOn"), Literal("2026-10-04T00:00:00", datatype=XSD.dateTime)), (o, C("observationHorizon"), Literal("next 30 days")),
+                  (o, C("sourceModelVersion"), Literal("v2026.06.15")), (o, C("hasSourceRecord"), URIRef(VOC + "sources/first-epss")),
+                  (o, C("hasEvidence"), ev), (o, RDFS.label, Literal("EPSS of %s on 2026-10-04" % row["cve"], lang="en")))
+                # the 0.8.0 likelihood estimate keeps its IRI as a deprecated stub pointing to the observation
                 e = LIB["EPSS-" + row["cve"]]
-                A((e, RDF.type, C("Likelihood")), (e, C("estimateOf"), URIRef(VOC + "kev/" + safe(row["cve"]))), (e, C("numericValue"), D(row["epss"])),
-                  (e, C("onScale"), C("ScaleUnitInterval")), (e, C("hasConfidence"), C("ConfMedium")), (e, C("hasEvidence"), ev),
-                  (e, RDFS.comment, Literal("EPSS percentile %s" % row["percentile"], lang="en")))
+                A((e, RDF.type, OWL.NamedIndividual), (e, OWL.deprecated, Literal(True)), (e, DCTERMS.isReplacedBy, o),
+                  (e, C("governanceStatus"), C("StatusDeprecated")),
+                  (e, RDFS.comment, Literal("Deprecated in 0.9.0 (decision D4, 2026-10-11): EPSS is an observation about a vulnerability, not a scenario likelihood. See the replacing EPSS observation.", lang="en")))
                 n_epss += 1
-    print("EPSS estimates for KEV vulnerabilities:", n_epss)
+    print("EPSS observations for KEV vulnerabilities:", n_epss)
     # 0.8.0: sector frequency evidence from VCDB (pipeline/external/vcdb.py): share of a sector's confirmed public incidents
     # (2015-2025, campaigns counted once) that involve a theme or a threat-source type
     vf = os.path.join(ROOT, "data", "library", "vcdb_frequencies.csv")
@@ -263,6 +277,13 @@ def main():
             n_vcdb += 1
     print("VCDB sector frequency estimates:", n_vcdb)
     g.serialize(os.path.join(out, "crgo-library.ttl"), format="turtle")
+    po = URIRef("https://w3id.org/crgo/data/library-proposed")
+    for p_, n_ in g.namespaces(): PROPOSED.bind(p_, n_)
+    PROPOSED.add((po, RDF.type, OWL.Ontology)); PROPOSED.add((po, OWL.versionInfo, Literal("0.9.0")))
+    PROPOSED.add((po, OWL.imports, URIRef("https://w3id.org/crgo/data/library")))
+    PROPOSED.add((po, RDFS.label, Literal("CRGO scenario library: proposed links awaiting review (not imported by crgo-full)", lang="en")))
+    PROPOSED.serialize(os.path.join(out, "crgo-library-proposed.ttl"), format="turtle")
+    print("proposed links kept apart: %d triples" % len(PROPOSED))
     print("authored %d; " % n_auth, end="")
     print("families %d, estimates %d, risk quantities %d, framework links %d, weaknesses %d, %s, triples %d" % (len(f), n_est, n_kri, n_links, n_weak[0], n_case, len(g)))
 

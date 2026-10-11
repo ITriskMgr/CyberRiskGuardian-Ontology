@@ -1,0 +1,6 @@
+# CQ-08: Which evidence supports each compliance determination, and where is the evaluation undetermined?
+SELECT ?determination ?provision ?state ?evidence ?gap WHERE {
+  ?determination a {{ComplianceDetermination}} ; {{concernsOrganisation}} ?org ; {{complianceWith}} ?provision ; {{hasComplianceState}} ?state .
+  OPTIONAL { ?determination {{hasEvidence}} ?evidence }
+  OPTIONAL { ?determination {{evidenceGap}} ?gap }
+} ORDER BY ?determination ?evidence

@@ -1,0 +1,24 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-epss-contradictory> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en .
+
+x:o1 a crgo:CRGO_0000340 ;
+    crgo:CRGO_0000247 0.97 ;
+    crgo:CRGO_0000407 x:src ;
+    crgo:CRGO_0000408 <https://w3id.org/crgo/vocab/kev/CVE-2021-44228> ;
+    crgo:CRGO_0000458 "2026-10-04T00:00:00"^^xsd:dateTime .
+
+x:o2 a crgo:CRGO_0000340 ;
+    crgo:CRGO_0000247 0.42 ;
+    crgo:CRGO_0000407 x:src ;
+    crgo:CRGO_0000408 <https://w3id.org/crgo/vocab/kev/CVE-2021-44228> ;
+    crgo:CRGO_0000458 "2026-10-04T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
+

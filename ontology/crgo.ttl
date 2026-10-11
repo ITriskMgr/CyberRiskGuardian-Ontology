@@ -31,8 +31,13 @@ crgo:crgo a owl:Ontology ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-core,
         crgo:crgo-crg,
+        crgo:crgo-evidence,
         crgo:crgo-gov,
-        crgo:crgo-measure ;
+        crgo:crgo-grc,
+        crgo:crgo-mapping,
+        crgo:crgo-measure,
+        crgo:crgo-org,
+        crgo:crgo-vuln ;
     owl:priorVersion <https://w3id.org/crgo/0.8.0/crgo> ;
     owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo> ;
     owl:versionInfo "0.9.0" ;

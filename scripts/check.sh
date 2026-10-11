@@ -75,7 +75,17 @@ if [ "${WITH_LIBRARY:-0}" = 1 ]; then
   python3 tests/identify/test_identify.py | tail -1 || fail=1
 fi
 
-echo "13. w3id.org redirect rules"
+echo "13. Sample organisation (synthetic Nordelle Market inc.), applicability and specification competency questions"
+python3 tests/samples/make_nordelle.py | sed 's/^/   /' || fail=1
+( cd tests/samples && printf '@prefix owl: <http://www.w3.org/2002/07/owl#> .\n<https://example.org/crgo-sample/nordelle-all> a owl:Ontology ; owl:imports <https://example.org/crgo-sample/nordelle>, <https://w3id.org/crgo/vocab/legal> .\n' > _all.ttl
+  $ROBOT merge --catalog catalog-v001.xml --input _all.ttl --input nordelle-applicability.ttl --output ../../build/nordelle-merged.ttl > ../../build/nordelle-merge.log 2>&1; rm -f _all.ttl )
+if $ROBOT reason --input build/nordelle-merged.ttl --reasoner HermiT --output build/nordelle-inferred.ttl > build/nordelle-reason.log 2>&1; then
+  echo "   nordelle with legal instruments and applicability: consistent"; else echo "   nordelle: INCONSISTENT (see build/nordelle-reason.log)"; fail=1; fi
+if $ROBOT validate-profile --input build/nordelle-merged.ttl --profile DL --output build/nordelle-profile.txt > /dev/null 2>&1; then
+  echo "   nordelle: in OWL 2 DL"; else echo "   nordelle: NOT in OWL 2 DL"; fail=1; fi
+python3 tests/spec_cq/run_spec_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+
+echo "14. w3id.org redirect rules"
 python3 scripts/check_w3id.py | tail -1 || fail=1
 
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"

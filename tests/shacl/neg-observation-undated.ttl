@@ -1,0 +1,15 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+<https://example.org/crgo-test/fixture/neg-observation-undated> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en .
+
+x:o1 a crgo:CRGO_0000338 ;
+    crgo:CRGO_0000407 x:src ;
+    crgo:CRGO_0000408 <https://w3id.org/crgo/vocab/kev/CVE-2021-44228> .
+
+<https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
+

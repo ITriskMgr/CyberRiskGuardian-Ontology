@@ -1,0 +1,5 @@
+# CQ-07 (unknown part): For which instruments could applicability not be determined, and which facts are missing?
+SELECT ?instrument ?condition WHERE {
+  ?a a {{ApplicabilityAssessment}} ; {{concernsOrganisation}} ?org ; {{applicabilityOf}} ?instrument ;
+     {{hasApplicabilityState}} {{AppUnknown}} ; {{conditionUndetermined}} ?condition .
+} ORDER BY ?instrument ?condition

@@ -37,8 +37,8 @@
 #    Datatypes
 #################################################################
 
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
+###  http://www.w3.org/2001/XMLSchema#dateTimeStamp
+xsd:dateTimeStamp rdfs:label "sello de tiempo"@es .
 
 
 #################################################################
@@ -127,14 +127,14 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                      "length of, or element of the length of, a temporal extent expressed in hours"@en .
 
 
-###  http://www.w3.org/2006/time#inXSDDate
-<http://www.w3.org/2006/time#inXSDDate> rdf:type owl:DatatypeProperty ;
-                                        rdfs:domain <http://www.w3.org/2006/time#Instant> ;
-                                        rdfs:range xsd:date ;
-                                        rdfs:label "en fecha XSD"@es ,
-                                                   "in XSD date"@en ;
-                                        <http://www.w3.org/2004/02/skos/core#definition> "Posición de un instante, expresado utilizando xsd:date."@es ,
-                                                                                         "Position of an instant, expressed using xsd:date"@en .
+###  http://www.w3.org/2006/time#inXSDDateTimeStamp
+<http://www.w3.org/2006/time#inXSDDateTimeStamp> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.w3.org/2006/time#Instant> ;
+                                                 rdfs:range xsd:dateTimeStamp ;
+                                                 rdfs:label "en fecha-sello de tiempo XSD"@es ,
+                                                            "in XSD Date-Time-Stamp"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "Posición de un instante, expresado utilizando xsd:dateTimeStamp."@es ,
+                                                                                                  "Position of an instant, expressed using xsd:dateTimeStamp"@en .
 
 
 ###  http://www.w3.org/2006/time#minutes

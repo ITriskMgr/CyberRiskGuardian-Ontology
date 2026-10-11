@@ -16,6 +16,8 @@ from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_props import OBJECT_PROPERTIES  # noqa: E402
+import spec_v09 as V9  # noqa: E402
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09
 ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
 C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 SH = Namespace("http://www.w3.org/ns/shacl#")
@@ -105,6 +107,77 @@ s = shape("CalculationActivity", ("class", C("CalculationActivity")), "Calculati
 prop(s, C("usesMethod"), "A calculation needs exactly one method.", minCount=1, maxCount=1)
 s = shape("RiskAssessment", ("class", C("RiskAssessment")), "Assessments that compute tolerance state their appetite once.")
 prop(s, C("hasRiskAppetite"), "An assessment has at most one risk appetite statement.", maxCount=1)
+
+# 6. 0.9.0: sources, observations, legal applicability, compliance, control assessment, typed mappings (specification section 13)
+def sparql(s, msg, select):
+    sp = BNode(); g.add((s, SH.sparql, sp)); g.add((sp, SH.message, Literal(msg, lang="en"))); g.add((sp, SH.select, Literal(select)))
+D01 = dict(minInclusive=Literal(0, datatype=XSD.decimal), maxInclusive=Literal(1, datatype=XSD.decimal))
+s = shape("SourceRecord", ("class", C("SourceRecord")), "Source records carry the fields of specification section 7.")
+prop(s, C("localIdentifier"), "A source record needs exactly one identifier.", minCount=1, maxCount=1)
+prop(s, RDFS.label, "A source record needs a title.", minCount=1)
+prop(s, C("issuerName"), "A source record must name its issuer.", minCount=1)
+prop(s, C("sourceVersion"), "A source record needs exactly one version.", minCount=1, maxCount=1)
+prop(s, C("licenceTerms"), "A source record must state its licence or terms.", minCount=1)
+prop(s, C("retrievedOn"), "A source record has at most one retrieval date.", maxCount=1)
+s = shape("Observation", ("class", C("Observation")), "Observations are dated and about one thing.")
+prop(s, C("observationOf"), "An observation is about exactly one entity.", minCount=1, maxCount=1)
+prop(s, C("observedOn"), "An observation needs exactly one date.", minCount=1, maxCount=1)
+prop(s, C("hasSourceRecord"), "An observation must name its source record.", minCount=1)
+s = shape("EPSSObservation", ("class", C("EPSSObservation")), "EPSS observations: one CVE, one date, one probability in 0..1, publisher, model version.")
+prop(s, C("numericValue"), "An EPSS observation needs exactly one probability between 0 and 1.", minCount=1, maxCount=1, **D01)
+prop(s, C("epssPercentile"), "An EPSS percentile is between 0 and 1.", maxCount=1, **D01)
+prop(s, C("observationOf"), "An EPSS observation is about a vulnerability concept.", **{"class": SKOS.Concept})
+prop(s, C("sourceModelVersion"), "An EPSS observation has at most one model version.", maxCount=1)
+sparql(s, "Contradictory EPSS observations: two different scores for the same vulnerability on the same date.", """SELECT $this WHERE {
+  $this <%(of)s> ?v ; <%(on)s> ?d ; <%(val)s> ?x .
+  ?other a <%(cls)s> ; <%(of)s> ?v ; <%(on)s> ?d ; <%(val)s> ?y . FILTER(?other != $this && ?x != ?y)
+}""" % {"of": C("observationOf"), "on": C("observedOn"), "val": C("numericValue"), "cls": C("EPSSObservation")})
+s = shape("VocabularySource", ("class", SKOS.ConceptScheme), "Every imported vocabulary names its source record.")
+sparql(s, "A CRGO vocabulary must name its source record (has source record).", """SELECT $this WHERE {
+  FILTER(STRSTARTS(STR($this), "https://w3id.org/crgo/vocab/") && STR($this) != "https://w3id.org/crgo/vocab/theme")
+  FILTER NOT EXISTS { $this <%s> ?src }
+}""" % C("hasSourceRecord"))
+s = shape("LegalInstrument", ("class", C("LegalInstrument")), "Legal instruments are cited, placed in a jurisdiction and sourced.")
+prop(s, C("officialCitation"), "A legal instrument needs exactly one official citation.", minCount=1, maxCount=1)
+prop(s, C("hasJurisdiction"), "A legal instrument needs a jurisdiction.", minCount=1)
+prop(s, C("hasInstrumentKind"), "A legal instrument needs exactly one kind.", minCount=1, maxCount=1)
+prop(s, C("hasSourceRecord"), "A legal instrument must name its source record.", minCount=1)
+s = shape("ApplicabilityCondition", ("class", C("ApplicabilityCondition")), "Conditions belong to an instrument and have one test.")
+prop(s, C("conditionOf"), "A condition must say what it is a condition of.", minCount=1)
+prop(s, C("conditionTest"), "A condition needs exactly one machine-readable test.", minCount=1, maxCount=1, pattern=Literal("^(required|anyof|exception)\\|[^|]+\\|(plain|interpretive)$"))
+prop(s, C("hasConditionKind"), "A condition needs exactly one kind.", minCount=1, maxCount=1)
+s = shape("ApplicabilityAssessment", ("class", C("ApplicabilityAssessment")), "Applicability assessments: what, for whom, when, by whom, with what result.")
+for k, m in (("applicabilityOf", "the instrument or provision assessed"), ("concernsOrganisation", "the organisation"), ("hasApplicabilityState", "the state reached"), ("assessedOn", "the date")):
+    prop(s, C(k), "An applicability assessment needs exactly one value for %s." % m, minCount=1, maxCount=1)
+prop(s, C("assessedBy"), "An applicability assessment must name who made it.", minCount=1)
+s = shape("ComplianceDetermination", ("class", C("ComplianceDetermination")), "Compliance determinations: section 13 fields, and evidence or an explicit evidence gap.")
+for k, m in (("concernsOrganisation", "the organisation"), ("complianceWith", "the provision"), ("hasComplianceState", "the state"), ("assessedOn", "the date")):
+    prop(s, C(k), "A compliance determination needs exactly one value for %s." % m, minCount=1, maxCount=1)
+prop(s, C("hasJurisdiction"), "A compliance determination needs its jurisdictional scope.", minCount=1)
+prop(s, C("assessedBy"), "A compliance determination must name its assessor.", minCount=1)
+alt = BNode(); g.add((s, SH["or"], alt)); b1, b2 = BNode(), BNode()
+for b, path in ((b1, C("hasEvidence")), (b2, C("evidenceGap"))):
+    pp = BNode(); g.add((b, SH.property, pp)); g.add((pp, SH.path, path)); g.add((pp, SH.minCount, Literal(1)))
+Collection(g, alt, [b1, b2])
+g.add((s, SH.message, Literal("A compliance determination needs evidence, or an explicit statement of the missing evidence.", lang="en")))
+s = shape("ControlAssessment", ("class", C("ControlAssessment")), "Control assessments: measure, date, result, assessor; evidence unless not tested.")
+for k, m in (("evaluatesControlMeasure", "the control measure"), ("assessedOn", "the date"), ("hasTestResult", "the result")):
+    prop(s, C(k), "A control assessment needs exactly one value for %s." % m, minCount=1, maxCount=1)
+prop(s, C("assessedBy"), "A control assessment must name its assessor.", minCount=1)
+sparql(s, "A tested control assessment must link the evidence gathered.", """SELECT $this WHERE {
+  $this <%s> ?r . FILTER(?r != <%s>) FILTER NOT EXISTS { $this <%s> ?e }
+}""" % (C("hasTestResult"), C("TestNotTested"), C("hasEvidence")))
+s = shape("ControlMeasureNotControl", ("class", C("ControlMeasure")), "An implementation is never the same individual as an abstract control.")
+sparql(s, "A control measure must not be owl:sameAs a control.", """SELECT $this WHERE {
+  { $this <http://www.w3.org/2002/07/owl#sameAs> ?c } UNION { ?c <http://www.w3.org/2002/07/owl#sameAs> $this }
+  ?c a <%s> .
+}""" % C("Control"))
+s = shape("TypedMapping", ("class", OWL.Axiom), "Every correspondence between vocabulary concepts has a typed relation (decision D3).")
+sparql(s, "A correspondence needs a typed relation (a CRGO sub-property of the SKOS mapping relation) between the same concepts.", """SELECT $this WHERE {
+  $this <http://www.w3.org/2002/07/owl#annotatedProperty> ?p ; <http://www.w3.org/2002/07/owl#annotatedSource> ?s ; <http://www.w3.org/2002/07/owl#annotatedTarget> ?o .
+  FILTER(?p IN (<http://www.w3.org/2004/02/skos/core#relatedMatch>, <http://www.w3.org/2004/02/skos/core#closeMatch>))
+  FILTER NOT EXISTS { ?s ?tp ?o . ?tp <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ?p . FILTER(?tp != ?p) }
+}""")
 
 os.makedirs(os.path.join(ROOT, "shapes"), exist_ok=True)
 g.serialize(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"), format="turtle")
