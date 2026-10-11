@@ -1,0 +1,9 @@
+# CQ-07 Which assumptions and uncertainty descriptions lie behind an analytical (residual or estimated) risk result?
+# Parameter: ?result. Low or very low evidence quality marks an assumption as material for review.
+SELECT ?input ?assumption ?family ?quality ?material WHERE {
+  ?result {{computedFromInput}} ?input .
+  OPTIONAL { ?input {{dependsOnAssumption}} ?assumption }
+  OPTIONAL { ?input {{hasDistribution}} ?d . ?d {{hasDistributionFamily}} ?family }
+  OPTIONAL { ?input {{hasEvidenceQuality}} ?quality }
+  BIND(BOUND(?quality) && ?quality IN ({{QualityLow}}, {{QualityVeryLow}}) AS ?material)
+}

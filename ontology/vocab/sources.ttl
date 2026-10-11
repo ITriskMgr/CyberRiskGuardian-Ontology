@@ -1,0 +1,1050 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/crgo/data/library> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/crg-2023-scenarios>,
+        <https://w3id.org/crgo/vocab/sources/first-epss>,
+        <https://w3id.org/crgo/vocab/sources/teaching-cases>,
+        <https://w3id.org/crgo/vocab/sources/vcdb> .
+
+<https://w3id.org/crgo/vocab/a21> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-a-2.1> .
+
+<https://w3id.org/crgo/vocab/attack> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> .
+
+<https://w3id.org/crgo/vocab/capec> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-capec-3.9> .
+
+<https://w3id.org/crgo/vocab/ccm41> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/csa-ccm-4.1> .
+
+<https://w3id.org/crgo/vocab/cobit2019> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cobit-2019> .
+
+<https://w3id.org/crgo/vocab/coso-erm> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/coso-erm-2017> .
+
+<https://w3id.org/crgo/vocab/csf2> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/nist-csf-2.0>,
+        <https://w3id.org/crgo/vocab/sources/nist-csf-2.0-fr> .
+
+<https://w3id.org/crgo/vocab/cwe> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-cwe-via-d3fend> .
+
+<https://w3id.org/crgo/vocab/d3fend> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-d3fend-1.6.0> .
+
+<https://w3id.org/crgo/vocab/gdpr> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/eu-gdpr> .
+
+<https://w3id.org/crgo/vocab/iia-gias> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iia-gias-2024> .
+
+<https://w3id.org/crgo/vocab/iia-tr> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iia-tr-cyber>,
+        <https://w3id.org/crgo/vocab/sources/iia-tr-orgbehav>,
+        <https://w3id.org/crgo/vocab/sources/iia-tr-third-party> .
+
+<https://w3id.org/crgo/vocab/iso19011> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-19011-2018> .
+
+<https://w3id.org/crgo/vocab/iso27002-2022> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-27002-2022> .
+
+<https://w3id.org/crgo/vocab/iso27007> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-27007-2020> .
+
+<https://w3id.org/crgo/vocab/iso27008> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-ts-27008-2019> .
+
+<https://w3id.org/crgo/vocab/iso37301> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-37301-2021> .
+
+<https://w3id.org/crgo/vocab/iso37302> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-37302-2025> .
+
+<https://w3id.org/crgo/vocab/itaf> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/isaca-itaf-5> .
+
+<https://w3id.org/crgo/vocab/kev> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cisa-kev> .
+
+<https://w3id.org/crgo/vocab/loi25> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> .
+
+<https://w3id.org/crgo/vocab/lrsss> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-r-22.1> .
+
+<https://w3id.org/crgo/vocab/mappings> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cisa-kev>,
+        <https://w3id.org/crgo/vocab/sources/ctid-mappings>,
+        <https://w3id.org/crgo/vocab/sources/mitre-capec-3.9>,
+        <https://w3id.org/crgo/vocab/sources/mitre-d3fend-1.6.0>,
+        <https://w3id.org/crgo/vocab/sources/nist-cprt-csf>,
+        <https://w3id.org/crgo/vocab/sources/nist-csf11-80053>,
+        <https://w3id.org/crgo/vocab/sources/nist-olir-80053-27001>,
+        <https://w3id.org/crgo/vocab/sources/nist-sp800-53a-r5> .
+
+<https://w3id.org/crgo/vocab/osfi-b13> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/osfi-b13> .
+
+<https://w3id.org/crgo/vocab/pipeda> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ca-pipeda> .
+
+<https://w3id.org/crgo/vocab/sources> a owl:Ontology ;
+    dcterms:description "One source record per dataset, publication or legal text CRGO content comes from (docs/baseline/source_registry.csv)."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "CRGO source records"@en,
+        "Notices de source de CRGO"@fr ;
+    owl:imports crgo:crgo ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/sources> ;
+    owl:versionInfo "0.9.0" .
+
+<https://w3id.org/crgo/vocab/sources/bfo-2020> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Basic Formal Ontology 2020 (core)"@en ;
+    crgo:CRGO_0000250 "bfo-2020" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "BFO-2020 core OWL" ;
+    crgo:CRGO_0000451 "https://github.com/BFO-ontology/BFO-2020" ;
+    crgo:CRGO_0000452 "BFO-ontology / ISO/IEC JTC 1" ;
+    crgo:CRGO_0000453 "CC BY 4.0" ;
+    crgo:CRGO_0000454 "copy, unmodified" ;
+    crgo:CRGO_0000456 "verified (ROBOT merge, HermiT)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/cco-2.2> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Common Core Ontologies 2.2 (BOT slice)"@en ;
+    rdfs:comment "seeds in imports/cco-seeds.txt"@en ;
+    crgo:CRGO_0000250 "cco-2.2" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2.2" ;
+    crgo:CRGO_0000451 "https://github.com/CommonCoreOntology/CommonCoreOntologies" ;
+    crgo:CRGO_0000452 "CUBRC" ;
+    crgo:CRGO_0000453 "BSD 3-Clause" ;
+    crgo:CRGO_0000454 "subset extracted with ROBOT, axioms unchanged" ;
+    crgo:CRGO_0000456 "verified (consistent)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/coso-erm-2017-presentation> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "COSO ERM 2017 presentation slides"@en ;
+    rdfs:comment "rejected as a source for titles because it predates the final 2017 framework"@en ;
+    crgo:CRGO_0000250 "coso-erm-2017-presentation" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2016 draft content" ;
+    crgo:CRGO_0000452 "R. Richtermeyer (presentation)" ;
+    crgo:CRGO_0000453 "© author" ;
+    crgo:CRGO_0000454 "not used" ;
+    crgo:CRGO_0000455 "857d327e36580953609a70cf5280c9b3aa228d47fd3bd946ba97f9cf0bdfe0c9" ;
+    crgo:CRGO_0000456 "not the framework: shows the 2016 exposure draft (23 principles)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000570 .
+
+<https://w3id.org/crgo/vocab/sources/isaca-itaf-cobit-dtef> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ITAF, COBIT and DTEF mappings (workbook)"@en ;
+    rdfs:comment "candidate for ITAF to COBIT links in a later version"@en ;
+    crgo:CRGO_0000250 "isaca-itaf-cobit-dtef" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "5th edition companion" ;
+    crgo:CRGO_0000451 "ISACA, https://www.isaca.org" ;
+    crgo:CRGO_0000452 "ISACA" ;
+    crgo:CRGO_0000453 "© ISACA" ;
+    crgo:CRGO_0000454 "not used in 0.9.0" ;
+    crgo:CRGO_0000455 "202120f8d7501d2820237bd3efd5fcad0744c71fb0f81c9eb449b7d6508f8294" ;
+    crgo:CRGO_0000456 "held, not ingested" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-27005-31000-sp80030> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC 27005:2022; ISO 31000:2018; NIST SP 800-30 Rev. 1"@en ;
+    crgo:CRGO_0000250 "iso-27005-31000-sp80030" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000450 "2022; 2018; 2012" ;
+    crgo:CRGO_0000451 "cited by title and clause" ;
+    crgo:CRGO_0000452 "ISO/IEC, ISO, NIST" ;
+    crgo:CRGO_0000453 "ISO licensed; NIST public" ;
+    crgo:CRGO_0000454 "cited in evidenceSource only, no text" ;
+    crgo:CRGO_0000456 "ISO clause numbers marked 'to verify against the licensed text'" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/uk-gdpr> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "UK General Data Protection Regulation (legislation.gov.uk)"@en ;
+    rdfs:comment "kept for a possible separate regime"@en ;
+    crgo:CRGO_0000250 "uk-gdpr" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "as downloaded" ;
+    crgo:CRGO_0000451 "https://www.legislation.gov.uk/eur/2016/679" ;
+    crgo:CRGO_0000452 "UK Government" ;
+    crgo:CRGO_0000453 "Open Government Licence" ;
+    crgo:CRGO_0000454 "not used" ;
+    crgo:CRGO_0000455 "edc061e4b07cd17194f2fc5aca0c169a66166c7cd800ab15a6021788ae5c81e2" ;
+    crgo:CRGO_0000456 "not ingested" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sp800-53a> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/nist-sp800-53a-r5> .
+
+<https://w3id.org/crgo/vocab/sp800-53r5> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/nist-sp800-53r5> .
+
+<https://w3id.org/crgo/vocab/tsc> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/aicpa-tsc-2017> .
+
+<https://w3id.org/crgo/vocab/sources/aicpa-tsc-2017> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (revised points of focus, 2022)"@en ;
+    rdfs:comment "5 categories, 20 groups, 61 criteria; CC1-CC5 to COSO 2013 principles as stated in the criteria"@en ;
+    crgo:CRGO_0000250 "aicpa-tsc-2017" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2017 (points of focus revised 2022)" ;
+    crgo:CRGO_0000451 "AICPA TSP section 100, 2017 Trust Services Criteria (revised points of focus 2022)" ;
+    crgo:CRGO_0000452 "AICPA" ;
+    crgo:CRGO_0000453 "© AICPA" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "23a099dd1dc273b7a45fda2351f376344c33fcb2911d586036c0e0d631b8ad69" ;
+    crgo:CRGO_0000456 "as above" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/ca-pipeda> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Personal Information Protection and Electronic Documents Act"@en ;
+    rdfs:comment "bilingual PDF snapshot, current to 2026-09-21; snapshots saved 2026-10-11 by the project owner. Vocabulary not yet re-checked against the snapshot"@en ;
+    crgo:CRGO_0000250 "ca-pipeda" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "current to 2026-05-26" ;
+    crgo:CRGO_0000451 "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/" ;
+    crgo:CRGO_0000452 "Government of Canada" ;
+    crgo:CRGO_0000453 "official text; CRGO paraphrases" ;
+    crgo:CRGO_0000454 "paraphrased provisions" ;
+    crgo:CRGO_0000455 "b9d497dbcdbd14d3b6dbf7438e95b86d6676ec5a5a6632a2b5a3d0561bb328ce" ;
+    crgo:CRGO_0000456 "verified on Justice Laws at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/cobit-2019> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "COBIT 2019 governance and management objectives"@en ;
+    rdfs:comment "licensing gate as for ISO"@en ;
+    crgo:CRGO_0000250 "cobit-2019" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000450 "2019" ;
+    crgo:CRGO_0000451 "COBIT 2019 Framework" ;
+    crgo:CRGO_0000452 "ISACA" ;
+    crgo:CRGO_0000453 "© ISACA" ;
+    crgo:CRGO_0000454 "identifiers and objective names only" ;
+    crgo:CRGO_0000456 "verified against secondary listings at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/coso-erm-2017> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Enterprise Risk Management: Integrating with Strategy and Performance (French executive summary)"@en ;
+    rdfs:comment "English titles are CRGO translations: the official English list was not in the files held"@en ;
+    crgo:CRGO_0000250 "coso-erm-2017" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2017" ;
+    crgo:CRGO_0000451 "COSO ERM (2017), https://www.coso.org" ;
+    crgo:CRGO_0000452 "COSO" ;
+    crgo:CRGO_0000453 "© COSO" ;
+    crgo:CRGO_0000454 "component and principle titles (French official, English translated by CRGO) and CRGO paraphrases" ;
+    crgo:CRGO_0000455 "cdbac1377fbed3b12b62cf90437ab94d0076219d498764d152e4ba7d11d153b0" ;
+    crgo:CRGO_0000456 "as above; the full framework is not held" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/crg-2023-scenarios> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CyberRiskGuardian scenario rows (combined_file.xlsx, 2023)"@en ;
+    crgo:CRGO_0000250 "crg-2023-scenarios" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2023 export" ;
+    crgo:CRGO_0000451 "github.com/ITriskMgr/CyberRiskGuardian" ;
+    crgo:CRGO_0000452 "Marc-André Léger / CyberRiskGuardian" ;
+    crgo:CRGO_0000453 "© author, CC BY-NC 4.0" ;
+    crgo:CRGO_0000454 "repaired and grouped into families" ;
+    crgo:CRGO_0000455 "f73fcfb3791c890a03a4d822b806bf4495c37670c61af1ccdcea63588fc1760e" ;
+    crgo:CRGO_0000456 "repaired (REPAIR_REPORT.md)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/csa-ccm-4.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Cloud Controls Matrix v4.1"@en ;
+    rdfs:comment "full CCM only through the private build (pipeline/vocab/build_ccm_private.py); no private file present"@en ;
+    crgo:CRGO_0000250 "csa-ccm-4.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000450 "4.1 (January 2026)" ;
+    crgo:CRGO_0000451 "https://cloudsecurityalliance.org/research/cloud-controls-matrix" ;
+    crgo:CRGO_0000452 "Cloud Security Alliance" ;
+    crgo:CRGO_0000453 "CSA licence; control text not redistributable" ;
+    crgo:CRGO_0000454 "domain identifiers and names only" ;
+    crgo:CRGO_0000456 "verified against secondary listings at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/ctid-mappings> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Mappings Explorer: ATT&CK to SP 800-53r5; KEV to ATT&CK"@en ;
+    rdfs:comment "mapped ATT&CK version (16.1) older than vocabulary (19.2)"@en ;
+    crgo:CRGO_0000250 "ctid-mappings" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "commit a85e55a (2026-10-04); ATT&CK 16.1 mappings" ;
+    crgo:CRGO_0000451 "https://github.com/center-for-threat-informed-defense/mappings-explorer" ;
+    crgo:CRGO_0000452 "MITRE Center for Threat-Informed Defense" ;
+    crgo:CRGO_0000453 "Apache License 2.0" ;
+    crgo:CRGO_0000454 "mappings reproduced" ;
+    crgo:CRGO_0000455 "355ae97d309c00eb2428e5af07754ff4ca16cfe63928194081d0e883aed929c8",
+        "b57b3d382809d9159fdda6701d21f0e67a2d655444d89301caab2c39ad54bdc7" ;
+    crgo:CRGO_0000456 "verified against files" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/eu-gdpr> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Regulation (EU) 2016/679 (General Data Protection Regulation)"@en ;
+    rdfs:comment "corrigendum OJ L 127, 23.5.2018 not reviewed; supplied by project owner"@en ;
+    crgo:CRGO_0000250 "eu-gdpr" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "OJ L 119, 4.5.2016" ;
+    crgo:CRGO_0000451 "CELEX 32016R0679; https://eur-lex.europa.eu/eli/reg/2016/679/oj" ;
+    crgo:CRGO_0000452 "European Union" ;
+    crgo:CRGO_0000453 "Commission Decision 2011/833/EU (reuse); only OJ text authentic" ;
+    crgo:CRGO_0000454 "paraphrased provisions" ;
+    crgo:CRGO_0000455 "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/first-epss> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Exploit Prediction Scoring System scores"@en ;
+    rdfs:comment "retrieved by CyberRiskGuardian; stored as likelihood estimates (see gap analysis)"@en ;
+    crgo:CRGO_0000250 "first-epss" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "scores of 2026-10-04, model v2026.06.15" ;
+    crgo:CRGO_0000451 "https://www.first.org/epss/" ;
+    crgo:CRGO_0000452 "FIRST" ;
+    crgo:CRGO_0000453 "FIRST EPSS usage terms" ;
+    crgo:CRGO_0000454 "scores for KEV vulnerabilities only" ;
+    crgo:CRGO_0000455 "aa00e855fa265ddd70f3d9d303806b03e753da829a75f29d3b4551ba26bcb88f" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/iia-gias-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Global Internal Audit Standards"@en ;
+    rdfs:comment "5 domains, 15 principles, 52 standards"@en ;
+    crgo:CRGO_0000250 "iia-gias-2024" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2024 (published 2024-01-09)" ;
+    crgo:CRGO_0000451 "IIA Global Internal Audit Standards (2024), https://www.theiia.org" ;
+    crgo:CRGO_0000452 "The Institute of Internal Auditors (IIA)" ;
+    crgo:CRGO_0000453 "© IIA; individual use" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "00810f01a93bd442d83b522de657eef409910dbe067c9707560fc8e2f5db0ad9" ;
+    crgo:CRGO_0000456 "checked by script: no paraphrase shares more than 6 consecutive words with the source" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iia-tr-cyber> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Topical Requirement: Cybersecurity (with user guide)"@en ;
+    rdfs:comment "3 areas, 17 lettered requirements"@en ;
+    crgo:CRGO_0000250 "iia-tr-cyber" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "dated February 2025" ;
+    crgo:CRGO_0000451 "IIA Topical Requirement: Cybersecurity, https://www.theiia.org" ;
+    crgo:CRGO_0000452 "The Institute of Internal Auditors (IIA)" ;
+    crgo:CRGO_0000453 "© IIA" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "59ad68ab0aa54de1a035e8bdac0e282adf872682587f86e63d938eb86b7cd9ae",
+        "be80ee890b666db5cd84a37acff4f14e8e177259d4e1c5d85d815c0d14b1f904" ;
+    crgo:CRGO_0000456 "as above" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iia-tr-orgbehav> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Topical Requirement: Organizational Behavior"@en ;
+    rdfs:comment "3 areas, 15 lettered requirements"@en ;
+    crgo:CRGO_0000250 "iia-tr-orgbehav" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "dated December 2025" ;
+    crgo:CRGO_0000451 "IIA Topical Requirement: Organizational Behavior, https://www.theiia.org" ;
+    crgo:CRGO_0000452 "The Institute of Internal Auditors (IIA)" ;
+    crgo:CRGO_0000453 "© IIA" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "02abd31adb655bc07f2efe8f997bf852247bca07d83e94cb42a2bf01caaf869d" ;
+    crgo:CRGO_0000456 "as above" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iia-tr-third-party> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Topical Requirement: Third-Party (with user guide)"@en ;
+    rdfs:comment "3 areas, 17 lettered requirements"@en ;
+    crgo:CRGO_0000250 "iia-tr-third-party" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "dated September 2025" ;
+    crgo:CRGO_0000451 "IIA Topical Requirement: Third-Party, https://www.theiia.org" ;
+    crgo:CRGO_0000452 "The Institute of Internal Auditors (IIA)" ;
+    crgo:CRGO_0000453 "© IIA" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "a83c86870da5e8c7525daacae05cf0daf2739683fdd256cd5c7e4b7d52e5e1e6",
+        "d2bb25f423d65cb4e820cab29bc1d31308ba456b5f450cc3f5d8773241ee2983" ;
+    crgo:CRGO_0000456 "as above" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/isaca-itaf-5> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ITAF: A Professional Practices Framework for IT Audit, 5th edition (with companion performance guideline 2208)"@en ;
+    rdfs:comment "17 standards, 18 guidelines"@en ;
+    crgo:CRGO_0000250 "isaca-itaf-5" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "5th edition (© 2026; file created 2026-01-27)" ;
+    crgo:CRGO_0000451 "ISACA ITAF 5th edition, https://www.isaca.org" ;
+    crgo:CRGO_0000452 "ISACA" ;
+    crgo:CRGO_0000453 "© ISACA" ;
+    crgo:CRGO_0000454 "identifiers, official titles and CRGO paraphrases only (decision R-d); no text reproduced" ;
+    crgo:CRGO_0000455 "5e4acd69910b067ffb3eb35e8cb100c86860bb8faa7f0fe5dfe5b6594700cd92",
+        "a5da35a213d776ab5891dad655c04bcc0f4e62ec867c858bb7423534096d0127" ;
+    crgo:CRGO_0000456 "as above" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-19011-2018> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO 19011:2018 Guidelines for auditing management systems (French edition, preview)"@en ;
+    rdfs:comment "paraphrases based on headings and scope only"@en ;
+    crgo:CRGO_0000250 "iso-19011-2018" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "3rd edition 2018-07" ;
+    crgo:CRGO_0000451 "ISO 19011:2018" ;
+    crgo:CRGO_0000452 "ISO" ;
+    crgo:CRGO_0000453 "© ISO; licensed standard" ;
+    crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "0e49600425e889dcbb12b7a99a35c2a7110ef4f84ec31ccaa510044711d32b0c" ;
+    crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-37301-2021> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO 37301:2021 Compliance management systems: requirements with guidance for use (preview)"@en ;
+    crgo:CRGO_0000250 "iso-37301-2021" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1st edition 2021-04" ;
+    crgo:CRGO_0000451 "ISO 37301:2021" ;
+    crgo:CRGO_0000452 "ISO" ;
+    crgo:CRGO_0000453 "© ISO; licensed standard" ;
+    crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "25e63f0fe34e3a51dcc2ccce17f8d4b71a2f287865a0ac2e8489396308a070cd" ;
+    crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-37302-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO 37302:2025 Compliance management systems: guidelines for evaluating effectiveness (preview)"@en ;
+    crgo:CRGO_0000250 "iso-37302-2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1st edition 2025-07" ;
+    crgo:CRGO_0000451 "ISO 37302:2025" ;
+    crgo:CRGO_0000452 "ISO" ;
+    crgo:CRGO_0000453 "© ISO; licensed standard" ;
+    crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "7e3e49bc8cd03b56afa70ed7e3f1e40f28a2f927f5fd05199d01c20e4e3b5dcf" ;
+    crgo:CRGO_0000456 "table of contents of a 7-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-iec-27002-2022> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC 27002:2022 information security controls"@en ;
+    rdfs:comment "licensing gate: confirm that reproducing the 93 titles is acceptable, or keep identifiers only"@en ;
+    crgo:CRGO_0000250 "iso-iec-27002-2022" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000450 "2022 (corrected 2022-03)" ;
+    crgo:CRGO_0000451 "ISO/IEC 27002:2022" ;
+    crgo:CRGO_0000452 "ISO/IEC" ;
+    crgo:CRGO_0000453 "© ISO/IEC; licensed standard" ;
+    crgo:CRGO_0000454 "identifiers and control titles only, no control text" ;
+    crgo:CRGO_0000456 "verified against secondary listings at ingestion, not against the standard" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-iec-27007-2020> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC 27007:2020 Guidelines for information security management systems auditing (French edition, preview)"@en ;
+    crgo:CRGO_0000250 "iso-iec-27007-2020" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "3rd edition 2020-01" ;
+    crgo:CRGO_0000451 "ISO/IEC 27007:2020" ;
+    crgo:CRGO_0000452 "ISO/IEC" ;
+    crgo:CRGO_0000453 "© ISO/IEC; licensed standard" ;
+    crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "bbeb48e0aefd35c8c6f9587045c95cf2e8c6017d901ee131428bc4a43c911996" ;
+    crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-iec-ts-27008-2019> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC TS 27008:2019 Guidelines for the assessment of information security controls (preview)"@en ;
+    rdfs:comment "two headings carry typos in the source, kept as printed"@en ;
+    crgo:CRGO_0000250 "iso-iec-ts-27008-2019" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1st edition 2019-01" ;
+    crgo:CRGO_0000451 "ISO/IEC TS 27008:2019" ;
+    crgo:CRGO_0000452 "ISO/IEC" ;
+    crgo:CRGO_0000453 "© ISO/IEC; licensed standard" ;
+    crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "dd9de7cef173bd2c445cbabf8a65fbb2f3e4e4b6f6949d71f1c0f6bb0ed0cd68" ;
+    crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ATT&CK Enterprise, STIX"@en ;
+    rdfs:comment "873 concepts incl. 161 deprecated or revoked; groups, software and campaigns not imported"@en ;
+    crgo:CRGO_0000250 "mitre-attack-19.2" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "19.2" ;
+    crgo:CRGO_0000451 "https://github.com/mitre-attack/attack-stix-data" ;
+    crgo:CRGO_0000452 "MITRE" ;
+    crgo:CRGO_0000453 "ATT&CK Terms of Use" ;
+    crgo:CRGO_0000454 "names and descriptions reproduced with attribution" ;
+    crgo:CRGO_0000455 "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/mitre-cwe-via-d3fend> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CWE weaknesses as carried in D3FEND 1.6.0"@en ;
+    rdfs:comment "not the CWE catalogue itself; CWE version not stated by D3FEND"@en ;
+    crgo:CRGO_0000250 "mitre-cwe-via-d3fend" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "CWE content in D3FEND 1.6.0" ;
+    crgo:CRGO_0000451 "https://github.com/d3fend/d3fend-ontology" ;
+    crgo:CRGO_0000452 "MITRE" ;
+    crgo:CRGO_0000453 "CWE Terms of Use" ;
+    crgo:CRGO_0000454 "names reproduced with attribution" ;
+    crgo:CRGO_0000455 "77cc4bbb0dbc4a266c035b94f8d0d5a6fb64d39aabeaf85cafb22c2ada8822ed" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-cprt-csf> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CSF 2.0 export and CSF 1.1 export (with withdrawal records)"@en ;
+    rdfs:comment "supplied by project owner"@en ;
+    crgo:CRGO_0000250 "nist-cprt-csf" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "CPRT exports of 2026-10-11" ;
+    crgo:CRGO_0000451 "https://csrc.nist.gov/projects/cprt" ;
+    crgo:CRGO_0000452 "NIST CPRT" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "derived mappings only" ;
+    crgo:CRGO_0000455 "05d501102c04929022b480f02cb71bae743a369d49987ef4263eb57f2ed91a2a",
+        "0c62eb0169b5d040e4cab8deaf6f6b37bef49dc2778d6a41984ea9be24e31e7f" ;
+    crgo:CRGO_0000456 "verified against files" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-csf-2.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Cybersecurity Framework 2.0, OSCAL catalogue"@en ;
+    rdfs:comment "225 concepts = 6 functions + 22 categories + 106 subcategories + 91 withdrawn CSF 1.1 items kept as deprecated"@en ;
+    crgo:CRGO_0000250 "nist-csf-2.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2.0 (OSCAL catalogue 1.2.0)" ;
+    crgo:CRGO_0000451 "https://github.com/usnistgov/oscal-content" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "US Government work (17 U.S.C. 105)" ;
+    crgo:CRGO_0000454 "labels and statements reproduced" ;
+    crgo:CRGO_0000455 "4836943f21d393f2821df85ada4e6f3c0617243b4ddf44263fe68205400210b4" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-csf-2.0-fr> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CSWP 29, French translation of CSF 2.0"@en ;
+    rdfs:comment "supplied by project owner"@en ;
+    crgo:CRGO_0000250 "nist-csf-2.0-fr" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "as published" ;
+    crgo:CRGO_0000451 "https://doi.org/10.6028/NIST.CSWP.29.fre" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "NIST publication" ;
+    crgo:CRGO_0000454 "French labels and definitions reproduced" ;
+    crgo:CRGO_0000455 "cb2659b032689aed9ae02881cdad20f99f16de1a105bdb8164b1110426e09b49" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-csf11-80053> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CSF 1.1 to SP 800-53 Rev. 5 mapping"@en ;
+    rdfs:comment "supplied by project owner"@en ;
+    crgo:CRGO_0000250 "nist-csf11-80053" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "as downloaded" ;
+    crgo:CRGO_0000451 "https://csrc.nist.gov/" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "derived mappings only" ;
+    crgo:CRGO_0000455 "8b09e8c5bd11dcfa494d2f5beec2d32d98df934285c0214712d020abefc162f1" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-olir-80053-27001> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "SP 800-53r5 to ISO/IEC 27001:2022 mapping"@en ;
+    rdfs:comment "supplied by project owner"@en ;
+    crgo:CRGO_0000250 "nist-olir-80053-27001" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2023-10-12 (updated)" ;
+    crgo:CRGO_0000451 "https://csrc.nist.gov/projects/olir" ;
+    crgo:CRGO_0000452 "NIST OLIR" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "Annex A references used as ISO/IEC 27002 control ids" ;
+    crgo:CRGO_0000455 "e631de234a1fac057991773f015c221226940540f5602e1b70a3768eaff5cbd9" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-sp800-53r5> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "SP 800-53 Rev. 5 security and privacy controls, OSCAL catalogue"@en ;
+    rdfs:comment "1,216 concepts = 1,014 current controls and enhancements + 20 family concepts + 182 withdrawn kept as deprecated (counts from the vocabulary file)"@en ;
+    crgo:CRGO_0000250 "nist-sp800-53r5" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "5.2.0" ;
+    crgo:CRGO_0000451 "https://github.com/usnistgov/oscal-content" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "titles and statements reproduced" ;
+    crgo:CRGO_0000455 "01f37cf90ea99d92242c936cbfbdebcc338eef1f71454e2acac36cc56e9bc062" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/osfi-b13> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Guideline B-13 Technology and Cyber Risk Management"@en ;
+    rdfs:comment "PDF generated from OSFI page, guideline dated 2022-07-31; snapshots saved 2026-10-11 by the project owner. Vocabulary not yet re-checked against the snapshot"@en ;
+    crgo:CRGO_0000250 "osfi-b13" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "July 2022 (page modified 2024-02-20)" ;
+    crgo:CRGO_0000451 "https://www.osfi-bsif.gc.ca/" ;
+    crgo:CRGO_0000452 "OSFI" ;
+    crgo:CRGO_0000453 "official text; CRGO paraphrases" ;
+    crgo:CRGO_0000454 "paraphrased principles" ;
+    crgo:CRGO_0000455 "08fe6d28cbf1c0cee96c53a53fbfd0d7e64a037390faeddb6ba0e54de6c7d07c",
+        "3d1fe144a9ece972c176c4964f2c2d898bf0243213268f2aaad80b90a81d23fb" ;
+    crgo:CRGO_0000456 "verified on OSFI page at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/qc-a-2.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Act respecting access to documents held by public bodies and the protection of personal information"@en ;
+    rdfs:comment "PDF snapshot updated to 2026-08-12; snapshots saved 2026-10-11 by the project owner. Vocabulary not yet re-checked against the snapshot"@en ;
+    crgo:CRGO_0000250 "qc-a-2.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-11T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "current to 2026-08-12" ;
+    crgo:CRGO_0000451 "https://www.legisquebec.gouv.qc.ca/ (CQLR c. A-2.1)" ;
+    crgo:CRGO_0000452 "Gouvernement du Québec" ;
+    crgo:CRGO_0000453 "official text; CRGO paraphrases" ;
+    crgo:CRGO_0000454 "paraphrased obligations" ;
+    crgo:CRGO_0000455 "1ace8cf160f35ec43167fda2b44578281ab64935614f5116c9bb7922f19b8ea8",
+        "ab6366cfc4b667fd0357f36ec5058d2a1d79920da63023c9a31b3766add46a79" ;
+    crgo:CRGO_0000456 "verified on LégisQuébec at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/qc-p-39.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Act respecting the protection of personal information in the private sector (Loi 25 amendments), and C-1.1 ss. 44-45"@en ;
+    rdfs:comment "PDF snapshots: P-39.1 and C-1.1 updated to 2026-08-12; A-2.1 r. 3.1 and r. 0.1 updated to 2026-06-01; snapshots saved 2026-10-11 by the project owner. Vocabulary not yet re-checked against the snapshot"@en ;
+    crgo:CRGO_0000250 "qc-p-39.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "consolidation of 2026-10-08" ;
+    crgo:CRGO_0000451 "https://www.legisquebec.gouv.qc.ca/ (CQLR c. P-39.1; c. C-1.1)" ;
+    crgo:CRGO_0000452 "Gouvernement du Québec" ;
+    crgo:CRGO_0000453 "official text; CRGO paraphrases" ;
+    crgo:CRGO_0000454 "paraphrased obligations with citations" ;
+    crgo:CRGO_0000455 "08049c065294e10f258e6568443d79cafa8424d6f4ba7becae67ee4d2c536cd0",
+        "35d8ac5f2ad9aedee2151012214d85fb64d0d884ee696c54ea6c76053a915421",
+        "3ac79ab34b922000f9177174fbf294f91a56bf58a3ac83f8c4258b77878a93ea",
+        "465be8fa14095ea490ef699f162eac69fbff2817ba7982e422a04954cfeda0ee",
+        "c9bae6c3b633d7a24cff67e40ba29fd93f634ba16010dab6ac537ed7138e309e",
+        "d9d87c519ea5d37a8aa5850fc72479fa4322137fdad5244ec6bd8ac5591e89b1" ;
+    crgo:CRGO_0000456 "verified on LégisQuébec at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/qc-r-22.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Act respecting health and social services information and regulations r. 1, r. 2"@en ;
+    rdfs:comment "PDF snapshots: Act updated to 2026-08-12; r. 1 and r. 2 updated to 2026-06-01; snapshots saved 2026-10-11 by the project owner. Vocabulary not yet re-checked against the snapshot"@en ;
+    crgo:CRGO_0000250 "qc-r-22.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "consolidation of 2026-10-10" ;
+    crgo:CRGO_0000451 "https://www.legisquebec.gouv.qc.ca/ (CQLR c. R-22.1)" ;
+    crgo:CRGO_0000452 "Gouvernement du Québec" ;
+    crgo:CRGO_0000453 "official text; CRGO paraphrases" ;
+    crgo:CRGO_0000454 "paraphrased obligations" ;
+    crgo:CRGO_0000455 "588e13ffbae41dea30f092e0be0a8203f05634c812d9ecbdb822e8d9457580db",
+        "5c77cfe8e3bbaf1f2f0f68e73df8c608d8417b5a2bd48f06421fb1812bbe3a13",
+        "c0960c28fbde59547c725dfa616b585055df6fc8894de7abe104f82ff7f57f41",
+        "c8c038f65bad72fadd2cc567a8ff29ca10904db70c5bb281b8f8a423a3b9e2b6" ;
+    crgo:CRGO_0000456 "verified on LégisQuébec at ingestion" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/teaching-cases> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Teaching cases CanaRetail, ACRB, MediBec, Chez Pierre"@en ;
+    rdfs:comment "fictional organisations"@en ;
+    crgo:CRGO_0000250 "teaching-cases" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-09T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "as supplied" ;
+    crgo:CRGO_0000451 "author's course material" ;
+    crgo:CRGO_0000452 "Marc-André Léger" ;
+    crgo:CRGO_0000453 "© author, used with permission" ;
+    crgo:CRGO_0000454 "values quoted as calibration aids" ;
+    crgo:CRGO_0000456 "as supplied" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/vcdb> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "VERIS Community Database"@en ;
+    crgo:CRGO_0000250 "vcdb" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "commit f6f98c0 (2026-09-30)" ;
+    crgo:CRGO_0000451 "https://github.com/vz-risk/VCDB" ;
+    crgo:CRGO_0000452 "VERIS / Verizon" ;
+    crgo:CRGO_0000453 "CC BY-SA 4.0" ;
+    crgo:CRGO_0000454 "derived counts only" ;
+    crgo:CRGO_0000455 "e4be5dd432ccfad16520a6b60dd83e9d47c63b0f3352c26c4d43a5dd774c32c0" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/cisa-kev> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Known Exploited Vulnerabilities catalogue"@en ;
+    rdfs:comment "dateAdded and ransomware use held only in a text note"@en ;
+    crgo:CRGO_0000250 "cisa-kev" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2026.10.08" ;
+    crgo:CRGO_0000451 "https://github.com/cisagov/kev-data" ;
+    crgo:CRGO_0000452 "CISA" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "entries reproduced" ;
+    crgo:CRGO_0000455 "fb1621beec7db19d99c1f919dede3d4cc01ad88acd16f79f1592929c4826dfee" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/mitre-capec-3.9> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CAPEC, STIX bundle in mitre/cti"@en ;
+    rdfs:comment "deprecated patterns excluded"@en ;
+    crgo:CRGO_0000250 "mitre-capec-3.9" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "3.9 (commit 8543c5b, 2026-08-05)" ;
+    crgo:CRGO_0000451 "https://github.com/mitre/cti" ;
+    crgo:CRGO_0000452 "MITRE" ;
+    crgo:CRGO_0000453 "CAPEC Terms of Use" ;
+    crgo:CRGO_0000454 "names and descriptions reproduced with attribution" ;
+    crgo:CRGO_0000455 "ee6244f48259c1963d0507535e1843d67ba08fe58b4dfe351c1b74f9e376fa69" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/mitre-d3fend-1.6.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "D3FEND ontology"@en ;
+    rdfs:comment "only DefensiveTechnique descendants with D3- identifiers (270)"@en ;
+    crgo:CRGO_0000250 "mitre-d3fend-1.6.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1.6.0 (commit 577623b)" ;
+    crgo:CRGO_0000451 "https://github.com/d3fend/d3fend-ontology" ;
+    crgo:CRGO_0000452 "MITRE" ;
+    crgo:CRGO_0000453 "MIT licence" ;
+    crgo:CRGO_0000454 "defensive techniques reproduced" ;
+    crgo:CRGO_0000455 "77cc4bbb0dbc4a266c035b94f8d0d5a6fb64d39aabeaf85cafb22c2ada8822ed" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/nist-sp800-53a-r5> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "SP 800-53A Rev. 5 assessment objectives, methods and objects"@en ;
+    rdfs:comment "Same file as nist-sp800-53r5; the parts named assessment-objective and assessment-method (decision G4)"@en ;
+    crgo:CRGO_0000250 "nist-sp800-53a-r5" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "5.2.0 (OSCAL catalogue, 2026-05-11)" ;
+    crgo:CRGO_0000451 "https://github.com/usnistgov/oscal-content/tree/main/nist.gov/SP800-53/rev5" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "US Government work" ;
+    crgo:CRGO_0000454 "copy of objective identifiers and prose, methods and object lists" ;
+    crgo:CRGO_0000455 "01f37cf90ea99d92242c936cbfbdebcc338eef1f71454e2acac36cc56e9bc062" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+

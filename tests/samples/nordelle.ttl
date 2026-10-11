@@ -1,0 +1,429 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nordelle: <https://example.org/crgo-sample/nordelle/> .
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-sample/nordelle> a owl:Ontology ;
+    rdfs:label "Nordelle Market inc. - SYNTHETIC test data for CRGO 0.9.0"@en ;
+    dcterms:type "synthetic test data" ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/nordelle/" ;
+    rdfs:comment "Fictional organisation for the CRGO acceptance demonstration (specification section 22). All facts and values are invented; estimates are not empirically validated."@en ;
+    owl:imports crgo:crgo .
+
+<https://example.org/crgo-sample/nordelle/asset/kiosk> a owl:NamedIndividual,
+        crgo:CRGO_0000004 ;
+    rdfs:label "in-store price kiosk (no scenario affects it)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/assumption/no-eu-establishment> a owl:NamedIndividual,
+        crgo:CRGO_0000339 ;
+    rdfs:label "Nordelle has no establishment in the European Union"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/compliance/gdpr-notification> a owl:NamedIndividual,
+        crgo:CRGO_0000346 ;
+    rdfs:label "Compliance with GDPR Art. 33(1) (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000353 ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000393 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000470 "No documented procedure to notify an EU supervisory authority within 72 hours; GDPR applicability under Art. 3(2) awaits qualified review." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-pia> a owl:NamedIndividual,
+        crgo:CRGO_0000346 ;
+    rdfs:label "Compliance with P-39.1 s. 3.3 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.3> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000392 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000470 "Not yet assessed." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-register> a owl:NamedIndividual,
+        crgo:CRGO_0000346 ;
+    rdfs:label "Compliance with P-39.1 s. 3.8 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/incident-register> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000389 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-security> a owl:NamedIndividual,
+        crgo:CRGO_0000346 ;
+    rdfs:label "Compliance with P-39.1 s. 10 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/mfa-config>,
+        <https://example.org/crgo-sample/nordelle/evidence/restore-test> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000390 ;
+    crgo:CRGO_0000434 <https://example.org/crgo-sample/nordelle/control-assessment/backups-2026-09>,
+        <https://example.org/crgo-sample/nordelle/control-assessment/mfa-2026-09> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000470 "Endpoint detection not yet deployed; the restore test missed the application configuration." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/edr-2026-09> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Assessment of edr, 2026-09-30"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/edr> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000406 ;
+    crgo:CRGO_0000464 "2026-09-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000471 "Not deployed yet" .
+
+<https://example.org/crgo-sample/nordelle/estimate/impact-cc> a owl:NamedIndividual,
+        crgo:CRGO_0000298 ;
+    rdfs:label "ImpactEstimate of credential-compromise (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000231 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0000232 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000247 0.6 ;
+    crgo:CRGO_0000249 "Synthetic value for testing; not empirically validated."@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/admin-targeting> .
+
+<https://example.org/crgo-sample/nordelle/estimate/impact-rw> a owl:NamedIndividual,
+        crgo:CRGO_0000298 ;
+    rdfs:label "ImpactEstimate of ransomware (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000231 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000232 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000247 0.8 ;
+    crgo:CRGO_0000249 "Synthetic value for testing; not empirically validated."@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/restore-time> .
+
+<https://example.org/crgo-sample/nordelle/estimate/likelihood-cc> a owl:NamedIndividual,
+        crgo:CRGO_0000297 ;
+    rdfs:label "Likelihood of credential-compromise (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000231 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0000232 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000247 0.3 ;
+    crgo:CRGO_0000249 "Synthetic value for testing; not empirically validated."@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/admin-targeting> .
+
+<https://example.org/crgo-sample/nordelle/estimate/likelihood-rw> a owl:NamedIndividual,
+        crgo:CRGO_0000297 ;
+    rdfs:label "Likelihood of ransomware (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000231 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000232 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000234 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000247 0.15 ;
+    crgo:CRGO_0000249 "Synthetic value for testing; not empirically validated."@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/restore-time> .
+
+<https://example.org/crgo-sample/nordelle/estimate/unrelated> a owl:NamedIndividual,
+        crgo:CRGO_0000297 ;
+    rdfs:label "Likelihood from an older assessment (not in the 2026 assessment)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000231 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000233 crgo:CRGO_0000174 ;
+    crgo:CRGO_0000247 0.5 ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/old> .
+
+<https://example.org/crgo-sample/nordelle/org/delivco> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Rapide Livraison (fictional delivery partner)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/delivco-supplier> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/processing/customer-orders> a owl:NamedIndividual,
+        crgo:CRGO_0000341 ;
+    rdfs:label "processing of customer orders"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000414 nordelle:org ;
+    crgo:CRGO_0000415 crgo:CRGO_0000368,
+        crgo:CRGO_0000369,
+        crgo:CRGO_0000375 ;
+    crgo:CRGO_0000416 crgo:CRGO_0000364 ;
+    crgo:CRGO_0000417 crgo:CRGO_0000350,
+        crgo:CRGO_0000352,
+        crgo:CRGO_0000353 .
+
+<https://example.org/crgo-sample/nordelle/asset/backups> a owl:NamedIndividual,
+        crgo:CRGO_0000002 ;
+    rdfs:label "nightly backups of the order database"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/asset/payment-service> a owl:NamedIndividual,
+        crgo:CRGO_0000007 ;
+    rdfs:label "card payment service"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000189 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000192 <https://example.org/crgo-sample/nordelle/org/payco> .
+
+<https://example.org/crgo-sample/nordelle/assumption/old> a owl:NamedIndividual,
+        crgo:CRGO_0000339 ;
+    rdfs:label "Superseded assumption from 2024"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/backups-2026-09> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Assessment of backups, 2026-09-20"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/restore-test> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000404 ;
+    crgo:CRGO_0000464 "2026-09-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000471 "Full restore test into an isolated environment" .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/mfa-2026-09> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Assessment of mfa, 2026-09-15"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/mfa-config> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/mfa> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000403 ;
+    crgo:CRGO_0000464 "2026-09-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000471 "Inspection of the enforced policy and a sample of 10 administrator sign-ins" .
+
+<https://example.org/crgo-sample/nordelle/evidence/incident-register> a owl:NamedIndividual,
+        crgo:CRGO_0000036 ;
+    rdfs:label "Extract of the confidentiality incident register"@en ;
+    dcterms:date "2026-09-30T00:00:00"^^xsd:dateTime ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "incident-register" ;
+    crgo:CRGO_0000251 "registers/incidents-2026.xlsx (fictional)" .
+
+<https://example.org/crgo-sample/nordelle/objective/online-revenue> a owl:NamedIndividual,
+        crgo:CRGO_0000010 ;
+    rdfs:label "grow online revenue while keeping customer trust"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/org/cloudco> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Cumulus Hosting Ltd. (fictional cloud provider)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/cloudco-supplier> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/org/idco> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Clef Identity Services (fictional identity provider)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/idco-supplier> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/org/payco> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Paysage Payments Corp. (fictional payment provider)"@en ;
+    ns1:BFO_0000196 <https://example.org/crgo-sample/nordelle/role/payco-supplier> ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/role/cloudco-supplier> a owl:NamedIndividual,
+        crgo:CRGO_0000342 ;
+    rdfs:label "supplier role of Cumulus Hosting Ltd. (fictional cloud provider)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000419 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/delivco-supplier> a owl:NamedIndividual,
+        crgo:CRGO_0000342 ;
+    rdfs:label "supplier role of Rapide Livraison (fictional delivery partner)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000419 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/idco-supplier> a owl:NamedIndividual,
+        crgo:CRGO_0000342 ;
+    rdfs:label "supplier role of Clef Identity Services (fictional identity provider)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000419 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/role/payco-supplier> a owl:NamedIndividual,
+        crgo:CRGO_0000342 ;
+    rdfs:label "supplier role of Paysage Payments Corp. (fictional payment provider)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000419 nordelle:org .
+
+<https://example.org/crgo-sample/nordelle/scenario/credential-compromise/consequence> a owl:NamedIndividual,
+        crgo:CRGO_0000027 ;
+    rdfs:label "Customer data disclosed and orders manipulated"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/scenario/credential-compromise/event> a owl:NamedIndividual,
+        crgo:CRGO_0000014 ;
+    rdfs:label "Compromise of an administrator account of the ordering application"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1078> .
+
+<https://example.org/crgo-sample/nordelle/scenario/ransomware/consequence> a owl:NamedIndividual,
+        crgo:CRGO_0000027 ;
+    rdfs:label "Online sales stopped for several days"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/scenario/ransomware/event> a owl:NamedIndividual,
+        crgo:CRGO_0000014 ;
+    rdfs:label "Ransomware encrypts the ordering application and its database"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1486> .
+
+<https://example.org/crgo-sample/nordelle/asset/cloud-hosting> a owl:NamedIndividual,
+        crgo:CRGO_0000007 ;
+    rdfs:label "cloud hosting of the ordering application"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000189 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000192 <https://example.org/crgo-sample/nordelle/org/cloudco> .
+
+<https://example.org/crgo-sample/nordelle/asset/identity-service> a owl:NamedIndividual,
+        crgo:CRGO_0000007 ;
+    rdfs:label "customer and staff identity service"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000189 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000192 <https://example.org/crgo-sample/nordelle/org/idco> .
+
+<https://example.org/crgo-sample/nordelle/asset/order-app> a owl:NamedIndividual,
+        crgo:CRGO_0000003 ;
+    rdfs:label "online ordering application"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000189 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000191 <https://example.org/crgo-sample/nordelle/asset/cloud-hosting>,
+        <https://example.org/crgo-sample/nordelle/asset/customer-db>,
+        <https://example.org/crgo-sample/nordelle/asset/identity-service>,
+        <https://example.org/crgo-sample/nordelle/asset/payment-service> .
+
+<https://example.org/crgo-sample/nordelle/assumption/admin-targeting> a owl:NamedIndividual,
+        crgo:CRGO_0000339 ;
+    rdfs:label "Attackers try stolen administrator passwords against small online retailers at least once a year"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/assumption/restore-time> a owl:NamedIndividual,
+        crgo:CRGO_0000339 ;
+    rdfs:label "A full restore from backup takes about two days"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/control/backups> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Nightly offline backups of the order database"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000209 <https://example.org/crgo-sample/nordelle/asset/backups> ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/control/edr> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Endpoint detection and response on servers"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000210 crgo:CRGO_0000099 .
+
+<https://example.org/crgo-sample/nordelle/control/mfa> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Multi-factor authentication for administrator accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/evidence/mfa-config> a owl:NamedIndividual,
+        crgo:CRGO_0000036 ;
+    rdfs:label "Identity service policy export showing MFA enforced for administrators"@en ;
+    dcterms:date "2026-09-15T00:00:00"^^xsd:dateTime ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "mfa-config" ;
+    crgo:CRGO_0000251 "exports/idp-policy-2026-09-15.json (fictional)" .
+
+<https://example.org/crgo-sample/nordelle/evidence/restore-test> a owl:NamedIndividual,
+        crgo:CRGO_0000036 ;
+    rdfs:label "Restore test report: database restored in 41 hours, application configuration missing"@en ;
+    dcterms:date "2026-09-20T00:00:00"^^xsd:dateTime ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000214 crgo:CRGO_0000118 ;
+    crgo:CRGO_0000250 "restore-test" ;
+    crgo:CRGO_0000251 "reports/restore-test-2026-09-20.pdf (fictional)" .
+
+<https://example.org/crgo-sample/nordelle/asset/customer-db> a owl:NamedIndividual,
+        crgo:CRGO_0000002 ;
+    rdfs:label "customer and order database"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000189 <https://example.org/crgo-sample/nordelle/process/online-ordering> .
+
+<https://example.org/crgo-sample/nordelle/scenario/credential-compromise> a owl:NamedIndividual,
+        crgo:CRGO_0000025 ;
+    rdfs:label "Compromise of an administrator account of the ordering application (hypothetical)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000196 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise/event> ;
+    crgo:CRGO_0000198 <https://example.org/crgo-sample/nordelle/asset/customer-db>,
+        <https://example.org/crgo-sample/nordelle/asset/identity-service>,
+        <https://example.org/crgo-sample/nordelle/asset/order-app> ;
+    crgo:CRGO_0000199 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000200 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise/consequence> ;
+    crgo:CRGO_0000207 <https://example.org/crgo-sample/nordelle/control/mfa> ;
+    crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> .
+
+<https://example.org/crgo-sample/nordelle/assessment/2026> a owl:NamedIndividual,
+        crgo:CRGO_0000028 ;
+    rdfs:label "Nordelle cybersecurity risk assessment 2026 (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000215 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise>,
+        <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0000216 nordelle:org ;
+    crgo:CRGO_0000262 "next 12 months" .
+
+<https://example.org/crgo-sample/nordelle/scenario/ransomware> a owl:NamedIndividual,
+        crgo:CRGO_0000025 ;
+    rdfs:label "Ransomware encrypts the ordering application and its database (hypothetical)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000196 <https://example.org/crgo-sample/nordelle/scenario/ransomware/event> ;
+    crgo:CRGO_0000198 <https://example.org/crgo-sample/nordelle/asset/cloud-hosting>,
+        <https://example.org/crgo-sample/nordelle/asset/customer-db>,
+        <https://example.org/crgo-sample/nordelle/asset/order-app> ;
+    crgo:CRGO_0000199 <https://example.org/crgo-sample/nordelle/process/online-ordering> ;
+    crgo:CRGO_0000200 <https://example.org/crgo-sample/nordelle/scenario/ransomware/consequence> ;
+    crgo:CRGO_0000207 <https://example.org/crgo-sample/nordelle/control/backups>,
+        <https://example.org/crgo-sample/nordelle/control/edr> ;
+    crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> .
+
+<https://example.org/crgo-sample/nordelle/person/ciso> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle information security lead (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/process/online-ordering> a owl:NamedIndividual,
+        crgo:CRGO_0000009 ;
+    rdfs:label "online ordering and fulfilment"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000190 <https://example.org/crgo-sample/nordelle/objective/online-revenue> .
+
+nordelle:org a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "Nordelle Market inc. (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000410 crgo:CRGO_0000357 ;
+    crgo:CRGO_0000411 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000412 crgo:CRGO_0000350,
+        crgo:CRGO_0000352,
+        crgo:CRGO_0000353 ;
+    crgo:CRGO_0000474 "carriedOutBy",
+        "dataSubjectsIn",
+        "establishedIn",
+        "hasOrganisationType",
+        "monitorsBehaviourIn",
+        "offersServicesIn",
+        "processesDataCategory" .
+

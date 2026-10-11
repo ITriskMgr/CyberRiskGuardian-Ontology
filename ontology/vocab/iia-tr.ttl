@@ -1,0 +1,1059 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iia-tr: <https://w3id.org/crgo/vocab/iia-tr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iia-tr:TR-CYBER-CTL-A a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Internal and supplier safeguards protect confidentiality, integrity and availability, and their effectiveness is evaluated periodically."@en,
+        "Des mesures internes et fournisseurs protègent la confidentialité, l'intégrité et la disponibilité, et leur efficacité est évaluée périodiquement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Internal and vendor controls"@en,
+        "Contrôles internes et des fournisseurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-A (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-B a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Training and talent processes build and sustain technical cybersecurity skills and are reviewed periodically."@en,
+        "Des processus de formation et de gestion des talents développent et maintiennent les compétences techniques en cybersécurité et sont revus périodiquement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cybersecurity talent management"@en,
+        "Gestion des talents en cybersécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-B (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-C a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "New threats and vulnerabilities are watched and reported on an ongoing basis, and improvements are prioritized and implemented."@en,
+        "Les nouvelles menaces et vulnérabilités sont surveillées et signalées en continu, et les améliorations sont priorisées et mises en œuvre."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Threat and vulnerability monitoring"@en,
+        "Surveillance des menaces et vulnérabilités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-C (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-D a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Cybersecurity is embedded throughout acquisition, use, upkeep and disposal of hardware, software and vendor services."@en,
+        "La cybersécurité est intégrée à l'acquisition, l'utilisation, l'entretien et l'élimination du matériel, des logiciels et des services fournisseurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "IT asset life cycle security"@en,
+        "Sécurité du cycle de vie des actifs TI"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-D (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-E a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Processes cover configuration, device management, encryption, patching, access management and availability monitoring, with security built into development."@en,
+        "Des processus couvrent configuration, gestion des appareils, chiffrement, correctifs, gestion des accès et surveillance de disponibilité, la sécurité étant intégrée au développement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-E" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Security hardening processes"@en,
+        "Processus de renforcement de la sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-E (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-F a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Network protections such as segmentation, firewalls, restricted external links, VPN or zero trust, IoT safeguards and intrusion detection are in place."@en,
+        "Des protections réseau comme la segmentation, les pare-feu, les liens externes restreints, le RPV ou zéro confiance, l'IdO et la détection d'intrusion sont en place."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-F" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Network controls"@en,
+        "Contrôles réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-F (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL-G a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-CTL ;
+    skos:definition "Channels such as email, browsers, conferencing, messaging, social platforms, cloud services and file sharing are secured."@en,
+        "Les canaux tels que courriel, navigateurs, visioconférence, messagerie, médias sociaux, infonuagique et partage de fichiers sont sécurisés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL-G" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Endpoint communication security"@en,
+        "Sécurité des communications des terminaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL-G (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-GOV-A a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-GOV ;
+    skos:definition "A documented cybersecurity strategy with objectives exists, is refreshed periodically, and progress, resourcing and budget are reported to the board."@en,
+        "Une stratégie de cybersécurité documentée, assortie d'objectifs, existe et est actualisée ; l'avancement, les ressources et le budget sont présentés au conseil."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-GOV-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cybersecurity strategy and objectives"@en,
+        "Stratégie et objectifs de cybersécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-A (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-GOV-B a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-GOV ;
+    skos:definition "Cybersecurity policies and procedures exist and are revised regularly to reinforce the control environment."@en,
+        "Des politiques et procédures de cybersécurité existent et sont révisées régulièrement pour renforcer l'environnement de contrôle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-GOV-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cybersecurity policies and procedures"@en,
+        "Politiques et procédures de cybersécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-B (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-GOV-C a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-GOV ;
+    skos:definition "Cybersecurity roles are defined, and the capabilities of the people holding them are reassessed periodically."@en,
+        "Les rôles de cybersécurité sont définis et les capacités des titulaires sont réévaluées périodiquement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-GOV-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cybersecurity roles and competencies"@en,
+        "Rôles et compétences en cybersécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-C (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-GOV-D a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-GOV ;
+    skos:definition "Key internal and external stakeholders take part in discussing and addressing current weaknesses and new threats."@en,
+        "Les principales parties prenantes internes et externes participent à l'analyse et au traitement des faiblesses actuelles et des nouvelles menaces."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-GOV-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Stakeholder engagement on threats"@en,
+        "Mobilisation des parties prenantes face aux menaces"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV-D (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-A a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "Risk processes identify, analyze, treat and track cyber threats and their impact on strategic objectives."@en,
+        "Les processus de risque identifient, analysent, traitent et suivent les cybermenaces et leur incidence sur les objectifs stratégiques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cyber threat risk assessment"@en,
+        "Évaluation des risques liés aux cybermenaces"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-A (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-B a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "Cyber risk is managed across the organization, covering technology, enterprise risk, people, legal, compliance, operations, suppliers and finance."@en,
+        "Le cyberrisque est géré dans toute l'organisation : technologie, risques d'entreprise, personnel, juridique, conformité, opérations, fournisseurs et finances."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Enterprise-wide cyber risk scope"@en,
+        "Portée organisationnelle du cyberrisque"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-B (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-C a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "Ownership of cyber risk is assigned, with someone periodically monitoring and reporting treatment, resource needs and emerging threats."@en,
+        "La responsabilité du cyberrisque est attribuée ; une personne ou équipe surveille et rend compte périodiquement du traitement, des besoins et des menaces émergentes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Accountability for cyber risk"@en,
+        "Responsabilité du cyberrisque"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-C (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-D a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "Cyber risks exceeding tolerance or legal limits are escalated promptly, weighing both financial and nonfinancial impacts."@en,
+        "Les cyberrisques dépassant la tolérance ou les limites légales sont remontés rapidement, en considérant leurs impacts financiers et non financiers."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Escalation of unacceptable cyber risk"@en,
+        "Remontée des cyberrisques inacceptables"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-D (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-E a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "Cyber risk awareness reaches staff and management, who regularly review gaps and failures and remediate them promptly."@en,
+        "La sensibilisation au cyberrisque atteint le personnel et la direction, qui revoient régulièrement lacunes et défaillances et y remédient rapidement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-E" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Cyber risk awareness and issue review"@en,
+        "Sensibilisation et revue des problèmes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-E (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM-F a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER-RM ;
+    skos:definition "A tested incident response and recovery capability covers detection, containment, restoration and lessons learned."@en,
+        "Une capacité éprouvée de réponse aux incidents et de reprise couvre détection, confinement, rétablissement et retour d'expérience."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM-F" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Incident response and recovery"@en,
+        "Réponse aux incidents et reprise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM-F (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-A a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "An approach finds and mitigates risky conduct patterns, for example through behaviour-focused performance or operational reviews."@en,
+        "Une démarche repère et atténue les schémas de conduite à risque, par exemple au moyen de revues de performance ou opérationnelles axées sur le comportement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Pattern detection and mitigation"@en,
+        "Détection et atténuation des schémas"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-A (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-B a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Expected conduct is communicated clearly through trusted channels, with structured feedback to gauge employee understanding."@en,
+        "Les conduites attendues sont communiquées clairement par des canaux de confiance, avec une rétroaction structurée pour mesurer la compréhension du personnel."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Tone and feedback"@en,
+        "Ton et rétroaction"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-B (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-C a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Reporting of conflicting conduct is encouraged through processes offering protection and resolution."@en,
+        "Le signalement des conduites contraires est encouragé par des processus offrant protection et résolution."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Speak-up processes"@en,
+        "Processus de signalement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-C (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-D a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Financial and nonfinancial rewards align with objectives and regulation, and consequences for improper conduct exist."@en,
+        "Les récompenses financières et non financières sont alignées sur les objectifs et la réglementation, et des conséquences existent pour les conduites inappropriées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Incentives and consequences"@en,
+        "Incitatifs et conséquences"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-D (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-E a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Misaligned conduct patterns are identified, corrected and escalated when needed."@en,
+        "Les schémas de conduite désalignés sont repérés, corrigés et remontés au besoin."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-E" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Behavioral issue management"@en,
+        "Gestion des problèmes comportementaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-E (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-F a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Training and awareness on expected conduct are delivered periodically and effectively."@en,
+        "La formation et la sensibilisation aux conduites attendues sont offertes périodiquement et efficacement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-F" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Training and awareness"@en,
+        "Formation et sensibilisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-F (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL-G a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-CTL ;
+    skos:definition "Recruitment and onboarding reflect conduct expectations and assess behavioural competencies."@en,
+        "Le recrutement et l'intégration reflètent les attentes en matière de conduite et évaluent les compétences comportementales."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL-G" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Hiring and onboarding"@en,
+        "Recrutement et intégration"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL-G (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-GOV-A a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-GOV ;
+    skos:definition "Board oversight and management design of roles prevent unintended results of misaligned conduct, such as conflicts of interest or unclear decisions."@en,
+        "La supervision du conseil et la conception des rôles par la direction préviennent les effets indésirables de conduites désalignées, comme les conflits d'intérêts."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-GOV-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Role structuring"@en,
+        "Structuration des rôles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-A (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-GOV-B a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-GOV ;
+    skos:definition "Individual and team accountability for expected conduct is set and sustained so roles stay owned, understood and aligned with objectives."@en,
+        "La responsabilité individuelle et collective quant aux conduites attendues est établie et maintenue afin que les rôles restent assumés, compris et alignés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-GOV-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Behavioral accountability"@en,
+        "Responsabilisation comportementale"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-B (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-GOV-C a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-GOV ;
+    skos:definition "Governance regularly monitors, evaluates and challenges whether behavioural insights fit objectives, and acts on any mismatch."@en,
+        "La gouvernance surveille, évalue et remet en question régulièrement l'adéquation des constats comportementaux aux objectifs et agit sur tout écart."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-GOV-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Monitoring of behavioral alignment"@en,
+        "Surveillance de l'alignement comportemental"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-C (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-GOV-D a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-GOV ;
+    skos:definition "Behavioural risk policies are set, reviewed periodically, communicated and embedded in operations and decisions."@en,
+        "Des politiques sur le risque comportemental sont établies, revues périodiquement, communiquées et intégrées aux opérations et aux décisions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-GOV-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Behavioral risk policies"@en,
+        "Politiques sur le risque comportemental"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV-D (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-RM-A a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-RM ;
+    skos:definition "A defined approach manages behavioural risk, including the conduct traits critical to achieving objectives."@en,
+        "Une démarche définie gère le risque comportemental, y compris les traits de conduite essentiels à l'atteinte des objectifs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-RM-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Behavioral risk approach"@en,
+        "Démarche de gestion du risque comportemental"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-A (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-RM-B a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-RM ;
+    skos:definition "Conduct is monitored adequately and promptly, and results are shared with stakeholders."@en,
+        "Les conduites sont surveillées de façon adéquate et opportune et les résultats sont partagés avec les parties prenantes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-RM-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Behavior monitoring"@en,
+        "Surveillance des comportements"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-B (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-RM-C a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-RM ;
+    skos:definition "Differences between expected and actual conduct, with their root causes, are reported consistently to stakeholders."@en,
+        "Les écarts entre conduites attendues et réelles, avec leurs causes profondes, sont signalés de façon constante aux parties prenantes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-RM-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Gap and root-cause reporting"@en,
+        "Signalement des écarts et des causes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-C (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-RM-D a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV-RM ;
+    skos:definition "Behavioural gaps are closed with stakeholder input, tracked to completion and measured for adequacy."@en,
+        "Les écarts comportementaux sont comblés avec l'apport des parties prenantes, suivis jusqu'à résolution et mesurés quant à leur suffisance."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-RM-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Gap resolution"@en,
+        "Résolution des écarts"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM-D (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-A a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Outside parties are selected through rigorous vetting supported by an approved justification of the relationship."@en,
+        "Les tiers sont choisis au terme d'un contrôle rigoureux appuyé par une justification approuvée de la relation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Due diligence and business case"@en,
+        "Diligence raisonnable et dossier d'affaires"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-A (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-B a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Contracting follows third-party risk policies and involves the appropriate organizational units."@en,
+        "La contractualisation respecte les politiques de risque liées aux tiers et associe les unités organisationnelles appropriées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Contracting and approval"@en,
+        "Contractualisation et approbation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-B (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-C a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Contracts are approved by relevant functions including legal, signed by authorized people, stored securely and given a named owner."@en,
+        "Les contrats sont approuvés par les fonctions concernées, dont le juridique, signés par des personnes autorisées, conservés en sécurité et confiés à un responsable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Contract execution and custody"@en,
+        "Signature et conservation des contrats"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-C (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-D a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "A complete, accurate, up-to-date register of all outside-party relationships is kept."@en,
+        "Un registre complet, exact et à jour de toutes les relations avec des tiers est tenu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party inventory"@en,
+        "Inventaire des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-D (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-E a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Documented onboarding is followed so outside parties can meet agreed terms."@en,
+        "Une intégration documentée est suivie afin que les tiers puissent respecter les modalités convenues."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-E" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party onboarding"@en,
+        "Intégration des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-E (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-F a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Third-party performance and obligations are monitored throughout the relationship, verifying data reliability and reassessing when terms change."@en,
+        "La performance et les obligations des tiers sont suivies pendant toute la relation, en vérifiant la fiabilité des données et en réévaluant lors de changements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-F" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Ongoing performance monitoring"@en,
+        "Suivi continu de la performance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-F (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-G a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Protocols trigger corrective action for underperformance or elevated risk, with severity-based escalation, post-incident review and root-cause analysis."@en,
+        "Des protocoles déclenchent des mesures correctives en cas de sous-performance ou de risque accru, avec remontée selon la gravité, revue post-incident et analyse des causes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-G" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Corrective action protocols"@en,
+        "Protocoles de mesures correctives"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-G (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-H a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "Contract end and renewal dates are tracked and acted upon."@en,
+        "Les dates d'échéance et de renouvellement des contrats sont suivies et donnent lieu aux actions requises."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-H" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Renewal and expiry monitoring"@en,
+        "Suivi des échéances et renouvellements"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-H (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL-I a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-CTL ;
+    skos:definition "A formal exit plan covers termination, replacement, return or destruction of sensitive data, and revocation of access."@en,
+        "Un plan de sortie formel couvre la résiliation, le remplacement, la restitution ou destruction des données sensibles et la révocation des accès."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL-I" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party offboarding"@en,
+        "Sortie des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL-I (page 6)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-GOV-A a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-GOV ;
+    skos:definition "A formal, periodically reviewed method decides whether to use an outside party, based on criteria about required and available resources."@en,
+        "Une méthode formelle, revue périodiquement, détermine le recours à un tiers selon des critères relatifs aux ressources requises et disponibles."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-GOV-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Sourcing decision approach"@en,
+        "Démarche de décision d'impartition"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-A (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-GOV-B a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-GOV ;
+    skos:definition "Policies govern third-party relationships and risks across the life cycle, comply with regulation and are refreshed regularly."@en,
+        "Des politiques encadrent les relations et risques liés aux tiers sur tout le cycle de vie, respectent la réglementation et sont mises à jour régulièrement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-GOV-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party policies and procedures"@en,
+        "Politiques et procédures relatives aux tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-B (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-GOV-C a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-GOV ;
+    skos:definition "Duties for choosing, managing and overseeing outside parties are assigned, and the competence of assignees is ensured."@en,
+        "Les tâches de sélection, de gestion et de surveillance des tiers sont attribuées et la compétence des titulaires est assurée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-GOV-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party roles and competencies"@en,
+        "Rôles et compétences de gestion des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-C (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-GOV-D a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-GOV ;
+    skos:definition "Defined protocols give stakeholders timely reports on the performance, risk and legal compliance of risk-prioritized third parties."@en,
+        "Des protocoles définis fournissent aux parties prenantes des rapports opportuns sur la performance, les risques et la conformité légale des tiers prioritaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-GOV-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Stakeholder reporting protocols"@en,
+        "Protocoles de reddition de comptes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV-D (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-RM-A a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-RM ;
+    skos:definition "Comprehensive, standardized third-party risk processes with clear roles address key risk categories, and deviations are corrected."@en,
+        "Des processus complets et normalisés, aux rôles clairs, couvrent les principales catégories de risques liés aux tiers et les écarts sont corrigés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-RM-A" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Standardized third-party risk processes"@en,
+        "Processus normalisés de gestion des risques liés aux tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-A (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-RM-B a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-RM ;
+    skos:definition "Third-party risks, downstream parties included, are assessed regularly and used to rank both parties and responses."@en,
+        "Les risques liés aux tiers, y compris en aval, sont évalués régulièrement et servent à classer les tiers comme les réponses."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-RM-B" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Life-cycle risk assessment"@en,
+        "Évaluation des risques sur le cycle de vie"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-B (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-RM-C a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-RM ;
+    skos:definition "Risk responses match the ranking and are approved, implemented, monitored and adjusted."@en,
+        "Les réponses aux risques correspondent au classement et sont approuvées, mises en œuvre, suivies et ajustées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-RM-C" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party risk responses"@en,
+        "Réponses aux risques liés aux tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-C (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-RM-D a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY-RM ;
+    skos:definition "Third-party issues are managed and escalated, and unresolved concerns lead management to reconsider, remediate or end the relationship."@en,
+        "Les problèmes liés aux tiers sont gérés et remontés ; les préoccupations non résolues amènent la direction à reconsidérer, corriger ou rompre la relation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-RM-D" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party issue escalation"@en,
+        "Remontée des problèmes liés aux tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM-D (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER a skos:Concept ;
+    skos:definition "Mandatory IIA baseline for auditing cybersecurity governance, risk and controls; no effective date is stated in the source, which is dated February 2025 (PDF p. 5)."@en,
+        "Socle obligatoire de l'IIA pour auditer gouvernance, risques et contrôles de cybersécurité ; aucune date d'entrée en vigueur indiquée, document daté de février 2025 (p. 5)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Cybersecurity Topical Requirement"@en,
+        "Exigence thématique sur la cybersécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-CYBER (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-GOV a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER ;
+    skos:definition "Auditors examine the strategy, policies, roles and stakeholder involvement through which the organization directs cybersecurity."@en,
+        "Les auditeurs examinent la stratégie, les politiques, les rôles et la participation des parties prenantes par lesquels l'organisation dirige la cybersécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-GOV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Governance"@en,
+        "Gouvernance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-GOV (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV a skos:Concept ;
+    skos:definition "Mandatory IIA baseline for auditing governance, risk and controls over organizational behavior; no effective date is stated in the source, which is dated December 2025 (PDF p. 6)."@en,
+        "Socle obligatoire de l'IIA pour auditer gouvernance, risques et contrôles du comportement organisationnel ; aucune date d'entrée en vigueur indiquée, document daté de décembre 2025 (p. 6)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Organizational Behavior Topical Requirement"@en,
+        "Exigence thématique sur le comportement organisationnel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-ORGBEHAV (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-GOV a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV ;
+    skos:definition "Auditors examine how the board and senior management structure roles, accountability, monitoring and policies for workplace conduct."@en,
+        "Les auditeurs examinent comment le conseil et la direction structurent les rôles, la responsabilisation, la surveillance et les politiques relatives aux conduites."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-GOV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Governance"@en,
+        "Gouvernance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-GOV (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-RM a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV ;
+    skos:definition "Auditors examine how behavioural risk is defined, monitored, reported and resolved with stakeholders."@en,
+        "Les auditeurs examinent comment le risque comportemental est défini, surveillé, signalé et résolu avec les parties prenantes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-RM" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Management"@en,
+        "Gestion des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-RM (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY a skos:Concept ;
+    skos:definition "Mandatory IIA baseline for auditing third-party governance, risk and controls; no effective date is stated in the source, which is dated September 2025 (PDF p. 6)."@en,
+        "Socle obligatoire de l'IIA pour auditer gouvernance, risques et contrôles liés aux tiers ; aucune date d'entrée en vigueur indiquée, document daté de septembre 2025 (p. 6)."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Third-Party Topical Requirement"@en,
+        "Exigence thématique sur les tiers"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iia-tr> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, topical_requirement TR-THIRD-PARTY (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-GOV a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY ;
+    skos:definition "Auditors examine board oversight, sourcing decisions, policies, roles and stakeholder reporting for third-party relationships."@en,
+        "Les auditeurs examinent la supervision du conseil, les décisions d'approvisionnement, les politiques, les rôles et la reddition de comptes sur les tiers."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-GOV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Governance"@en,
+        "Gouvernance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-GOV (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-RM a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY ;
+    skos:definition "Auditors examine how third-party risks are identified, ranked, answered and escalated over the life cycle."@en,
+        "Les auditeurs examinent comment les risques liés aux tiers sont identifiés, classés, traités et remontés sur le cycle de vie."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-RM" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Management"@en,
+        "Gestion des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-RM (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-RM a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER ;
+    skos:definition "Auditors examine how cyber risks are identified, owned, escalated, communicated and answered, incidents included."@en,
+        "Les auditeurs examinent comment les cyberrisques sont identifiés, attribués, remontés, communiqués et traités, incidents compris."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-RM" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Management"@en,
+        "Gestion des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-RM (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-CYBER-CTL a skos:Concept ;
+    skos:broader iia-tr:TR-CYBER ;
+    skos:definition "Auditors examine internal and vendor safeguards, monitoring, asset life cycle, hardening, network and endpoint protections."@en,
+        "Les auditeurs examinent les mesures internes et fournisseurs, la surveillance, le cycle de vie des actifs, le durcissement et les protections réseau et terminaux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-CYBER-CTL" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Controls"@en,
+        "Contrôles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-CYBER-CTL (page 4)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-ORGBEHAV-CTL a skos:Concept ;
+    skos:broader iia-tr:TR-ORGBEHAV ;
+    skos:definition "Auditors examine the mechanisms that detect, shape, reward, report and correct conduct across the employee life cycle."@en,
+        "Les auditeurs examinent les mécanismes qui détectent, orientent, récompensent, signalent et corrigent les conduites sur le cycle de vie des employés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-ORGBEHAV-CTL" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Controls"@en,
+        "Contrôles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-ORGBEHAV-CTL (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iia-tr:TR-THIRD-PARTY-CTL a skos:Concept ;
+    skos:broader iia-tr:TR-THIRD-PARTY ;
+    skos:definition "Auditors examine life-cycle safeguards from due diligence and contracting through monitoring, renewal and exit for risk-prioritized third parties."@en,
+        "Les auditeurs examinent les mesures du cycle de vie, de la diligence raisonnable et la contractualisation jusqu'au suivi, au renouvellement et à la sortie des tiers prioritaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iia-tr> ;
+    skos:notation "TR-THIRD-PARTY-CTL" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Controls"@en,
+        "Contrôles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "IIA Topical Requirements, requirement TR-THIRD-PARTY-CTL (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iia-tr> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "The Institute of Internal Auditors" ;
+    dcterms:rights "Identifiers and headings (c) The Institute of Internal Auditors, cited for reference and mapping only under the project owner's licence to use the document; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "IIA Topical Requirements and user guides (data/frameworks/grca/iia_topical.tsv)" ;
+    dcterms:title "IIA Topical Requirements: cybersecurity, third-party and organizational behavior"@en,
+        "Exigences thématiques de l'IIA : cybersécurité, tiers et comportement organisationnel"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iia-tr> ;
+    owl:versionInfo "Cybersecurity (2025-02), Third-Party (2025-09), Organizational Behavior (2025-12)" ;
+    skos:hasTopConcept iia-tr:TR-CYBER,
+        iia-tr:TR-ORGBEHAV,
+        iia-tr:TR-THIRD-PARTY ;
+    skos:scopeNote "Requirement areas carry official headings; lettered requirements carry CRGO labels. The files held state publication months, not effective dates. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

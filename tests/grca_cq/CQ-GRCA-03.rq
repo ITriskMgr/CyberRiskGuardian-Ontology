@@ -1,0 +1,6 @@
+# CQ-GRCA-03 Which control measures of an organisation's scenarios have no operating-effectiveness test assessed
+# within the review period [?start, ?end]?
+SELECT DISTINCT ?measure WHERE {
+  ?scenario {{mitigatedBy}} ?measure .
+  FILTER NOT EXISTS { ?t a {{OperatingEffectivenessAssessment}} ; {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?on . FILTER(?on >= ?start && ?on <= ?end) }
+}

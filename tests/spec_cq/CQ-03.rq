@@ -1,0 +1,8 @@
+# CQ-03 (specification section 12): Which hypothetical causal risk scenarios involve the given asset and could impair stated objectives?
+# Parameter: ?asset. Only risk scenarios (descriptions of hypotheses) are returned, never incidents.
+SELECT DISTINCT ?scenario ?process ?objective WHERE {
+  ?scenario a/rdfs:subClassOf* {{RiskScenario}} ; {{affectsAsset}} ?asset .
+  OPTIONAL { ?scenario {{affectsProcess}} ?process . ?process {{supportsObjective}} ?obj1 }
+  OPTIONAL { ?asset {{supportsProcess}} ?process2 . ?process2 {{supportsObjective}} ?obj2 }
+  BIND(COALESCE(?obj1, ?obj2) AS ?objective)
+} ORDER BY ?scenario

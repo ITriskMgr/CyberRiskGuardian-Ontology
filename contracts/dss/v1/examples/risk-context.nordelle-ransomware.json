@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0",
+  "contract": "dss/v1",
+  "ontologyRelease": "0.9.0",
+  "organizationId": "https://example.org/crgo-sample/nordelle/org",
+  "asOf": "2026-10-11",
+  "generatedAt": "2026-10-11T12:00:00Z",
+  "scenario": {
+    "id": "https://example.org/crgo-sample/nordelle/scenario/ransomware",
+    "label": "Ransomware encrypts the ordering application and its database (hypothetical)",
+    "kind": "assessment",
+    "knowledgeStatus": "analytical-hypothesis",
+    "threatEvents": [
+      {
+        "id": "https://example.org/crgo-sample/nordelle/scenario/ransomware/event",
+        "label": "Ransomware encrypts the ordering application and its database"
+      }
+    ],
+    "techniques": [
+      "T1486"
+    ]
+  },
+  "relatedAssets": [
+    {
+      "id": "https://example.org/crgo-sample/nordelle/asset/cloud-hosting",
+      "label": "cloud hosting of the ordering application",
+      "relation": "affects"
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/asset/customer-db",
+      "label": "customer and order database",
+      "relation": "affects"
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/asset/order-app",
+      "label": "online ordering application",
+      "relation": "affects"
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/asset/identity-service",
+      "label": "customer and staff identity service",
+      "relation": "depends-on"
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/asset/payment-service",
+      "label": "card payment service",
+      "relation": "depends-on"
+    }
+  ],
+  "candidateObligations": [
+    {
+      "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._10",
+      "applicability": "applicable",
+      "notation": "P-39.1 s. 10",
+      "instrument": "https://w3id.org/crgo/vocab/legal/P-39.1",
+      "complianceState": "partially-satisfied",
+      "evidenceGap": "Endpoint detection not yet deployed; the restore test missed the application configuration."
+    },
+    {
+      "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.",
+      "applicability": "applicable",
+      "notation": "P-39.1 s. 3.5 (2nd para.)",
+      "instrument": "https://w3id.org/crgo/vocab/legal/P-39.1"
+    }
+  ],
+  "controlLinks": [
+    {
+      "id": "https://example.org/crgo-sample/nordelle/control/backups",
+      "label": "Nightly offline backups of the order database",
+      "mappingStatus": "organisation-fact",
+      "latestAssessments": [
+        {
+          "id": "https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-oe-2026",
+          "result": "partly-effective",
+          "line": "internal-audit",
+          "assessedOn": "2026-05-20",
+          "aspect": "operation"
+        },
+        {
+          "id": "https://example.org/crgo-sample/nordelle/control-assessment/backups-2026-09",
+          "result": "partly-effective",
+          "line": "second-line",
+          "assessedOn": "2026-09-20",
+          "aspect": "design"
+        },
+        {
+          "id": "https://example.org/crgo-sample/nordelle/control-assessment/backups-rcsa-2026-09",
+          "result": "effective",
+          "line": "self-assessment",
+          "assessedOn": "2026-09-01"
+        }
+      ],
+      "openFindings": [
+        "https://example.org/crgo-sample/nordelle/finding/F-2026-03-01"
+      ],
+      "controlStatus": "in-place"
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/control/edr",
+      "label": "Endpoint detection and response on servers",
+      "mappingStatus": "organisation-fact",
+      "latestAssessments": [
+        {
+          "id": "https://example.org/crgo-sample/nordelle/control-assessment/edr-2026-09",
+          "result": "not-tested",
+          "line": "unstated",
+          "assessedOn": "2026-09-30"
+        }
+      ],
+      "openFindings": [],
+      "controlStatus": "planned"
+    }
+  ],
+  "estimates": [
+    {
+      "id": "https://example.org/crgo-sample/nordelle/estimate/impact-rw",
+      "kind": "ImpactEstimate",
+      "value": 0.8,
+      "scale": "ScaleUnitInterval",
+      "confidence": "medium",
+      "assumptions": [
+        {
+          "id": "https://example.org/crgo-sample/nordelle/assumption/restore-time",
+          "label": "A full restore from backup takes about two days"
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/crgo-sample/nordelle/estimate/likelihood-rw",
+      "kind": "Likelihood",
+      "value": 0.15,
+      "scale": "ScaleUnitInterval",
+      "confidence": "medium",
+      "assumptions": [
+        {
+          "id": "https://example.org/crgo-sample/nordelle/assumption/restore-time",
+          "label": "A full restore from backup takes about two days"
+        }
+      ]
+    }
+  ],
+  "evidenceRefs": [
+    "https://example.org/crgo-sample/nordelle/evidence/backup-job-logs-2026q1",
+    "https://example.org/crgo-sample/nordelle/evidence/rcsa-questionnaire-2026-09",
+    "https://example.org/crgo-sample/nordelle/evidence/restore-test"
+  ],
+  "caveats": [
+    "CRGO states facts, links and their review status; it does not compute risk. Scores come from the DSS (ADR-007).",
+    "Applicability states are CRGO evaluations over the organisation profile, not legal advice; 'potentially applicable' needs qualified review.",
+    "A control mapped to an obligation supports compliance; it never proves it.",
+    "Estimates are analyst estimates: validation required (CyberRiskGuardian evidence discipline).",
+    "1 estimate(s) not attached to any risk assessment were left out."
+  ]
+}

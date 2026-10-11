@@ -1,0 +1,21 @@
+# ADR-009 Governance, audit and assurance modelling; licensed standards
+
+Status: approved (0.9.0, project owner, 2026-10-11). GRCA specification sections 4-13 (decisions G1-G5); remaining-gaps packages R4-R8 (decisions R-a, R-d).
+
+## Decision
+- **Modules** (G2): `crgo-governance` (imports grc), `crgo-assurance` (imports governance), `crgo-audit` (imports assurance), and `crgo-incident` (imports evidence) for package R8, which the GRCA specification did not foresee. Additions to `crgo-evidence`, `crgo-grc` and `crgo-mapping`, all new in 0.9.0; the four 0.8.0 modules are unchanged (D2). The group approvals of 2026-10-11 cover only the terms that existed then (`GROUP_SCOPE` in `src/build.py`), so every new term is proposed.
+- **Roles are BFO roles** (anti-rigid): Three Lines roles, chief audit executive, compliance officer, control and risk owner. Who held a role when is a `role assignment` with a validity period; `role for` ties a role to the control or risk it concerns. First-, second- and third-line roles and the external assurance role are pairwise disjoint.
+- **Control test** (G3): the 0.9.0 `control assessment` stays the test execution; `performed in capacity` (management self-assessment, second line, internal audit, external assurer), `assesses aspect` (design, implementation, operation) and `executes procedure` are added. `operating effectiveness assessment` is the sub-class for a period and a population or sample.
+- **Audit lifecycle**: universe, auditable entity, plan, engagement, objective, criterion, work programme, procedure, evidence request, monitoring exception, finding, conclusion, report, recommendation, management response, corrective action, follow-up verification, closure, reopening. A monitoring exception is disjoint from a finding and becomes the basis of one only through an engagement. Records (findings, decisions, closures) are information content; engagements, verifications and oversight are planned acts.
+- **Epistemic status** (GRCA section 11): seven-value `knowledge status`. Findings, determinations and analytical results must carry one; an analytical result from the DSS can only be a risk estimate; a finding cannot be a reference fact or a verified outcome.
+- **Evidence**: typed sub-classes of the 0.1.0 evidence item; collection date, validity, covered period, boundary, hash, custodian, access restriction, limitation; explicit sufficiency assessments; external assurance reports with type, period, opinion, exceptions and complementary user entity controls.
+- **Policy and exceptions** (R4): policy, policy statement, technical standard, procedure, baseline; a policy exception is scoped, justified, approved, compensated and expires, and can never waive a legal provision (SHACL).
+- **Decision records** (R6): outcome, maker, date, rationale (required when rejected or deferred), delegation, informing results; conflict-of-interest declarations.
+- **SP 800-53A** (G4): all 3,715 objectives and 2,931 methods from the 5.2.0 OSCAL catalogue; each top objective is bound to its exact 800-53 control or enhancement by `evaluates control` (1,014 links, approved 2026-10-11).
+- **Licensed standards** (G5, R-d): IIA GIAS 2024 and Topical Requirements, ISACA ITAF 5th edition, AICPA 2017 TSC, COSO ERM 2017 and the clause structure of ISO 19011, 27007, 27008, 37301 and 37302 are published as identifiers, official headings and CRGO paraphrases (checked by script: no run of more than six consecutive words shared with the source). Full texts stay in `data/raw/` and may feed a private build (`pipeline/vocab/build_licensed_private.py` writes `ontology/vocab-private/`, never committed).
+
+## Alternatives
+A separate `control test` class beside `control assessment` was rejected (G3). Modelling "confirmed incident" or "closed finding" as classes was rejected: both are states reached by a dated record, so they are records (`incident confirmation`, `finding closure`).
+
+## Counterexample and test
+Twenty-one SHACL negative fixtures `tests/shacl/neg-grca-*` (two of them warnings: role conflict, stale evidence) and three OWL fixtures `tests/fixtures/neg-grca-*` (exception that is a finding, hypothesis that is an assumption, a role that is both first and third line). `tests/grca_cq/run_grca_cq.py`: 57 checks over CQ-GRCA-01, 02, 03, 04, 06, 08, 09, 11 and CQ-01, 04, 05, 06, 07, 08, 16, 17, 18.

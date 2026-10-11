@@ -1,0 +1,10 @@
+# CQ-07: Which legal instruments potentially apply to the organisation, by jurisdiction, at the assessment date,
+# and how many provisions (obligations) of each does CRGO hold? States 'applicable' and 'potentially applicable';
+# 'unknown' is reported separately by CQ-07u.
+SELECT ?instrument ?jurisdiction ?state ?date (COUNT(DISTINCT ?provision) AS ?provisions) WHERE {
+  ?a a {{ApplicabilityAssessment}} ; {{concernsOrganisation}} ?org ; {{applicabilityOf}} ?instrument ;
+     {{hasApplicabilityState}} ?state ; {{assessedOn}} ?date .
+  FILTER(?state IN ({{AppApplicable}}, {{AppPotentiallyApplicable}}))
+  ?instrument {{hasJurisdiction}} ?jurisdiction .
+  OPTIONAL { ?provision {{provisionOf}} ?instrument }
+} GROUP BY ?instrument ?jurisdiction ?state ?date ORDER BY ?instrument

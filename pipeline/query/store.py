@@ -17,7 +17,7 @@ SUBCLASS = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
 SUBPROP = "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
 
 SOURCES = ["imports/bfo-core.ttl", "imports/cco-slice.ttl", "ontology/crgo-*.ttl", "ontology/vocab/*.ttl",
-           "ontology/vocab-private/*.ttl", "data/abox/crgo-library.ttl", "tests/crg/medibec30.ttl"]
+           "ontology/vocab-private/*.ttl", "data/abox/crgo-library.ttl", "data/abox/crgo-library-proposed.ttl", "tests/crg/medibec30.ttl"]
 
 def build(src=None, path=STORE):
     """Load the repository files directly (the union of the crgo-full import closure, the private vocabularies if

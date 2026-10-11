@@ -7,7 +7,7 @@ from rdflib import URIRef
 from rdflib.namespace import RDF, RDFS, OWL, SKOS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g = rdflib.Graph()
-for f in ["ontology/crgo.ttl"] + ["ontology/crgo-%s.ttl" % m for m in ("gov", "core", "measure", "crg")]:
+for f in ["ontology/crgo.ttl"] + ["ontology/crgo-%s.ttl" % m for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident")]:
     g.parse(os.path.join(ROOT, f))
 umb = URIRef("https://w3id.org/crgo/crgo")
 for o in list(g.subjects(RDF.type, OWL.Ontology)):
@@ -15,9 +15,9 @@ for o in list(g.subjects(RDF.type, OWL.Ontology)):
         for t in list(g.triples((o, None, None))): g.remove(t)
 for t in list(g.triples((umb, OWL.imports, None))): g.remove(t)
 ext = rdflib.Graph()
-for f in ("imports/bfo-core.ttl", "imports/cco-slice.ttl"):
+for f in ("imports/bfo-core.ttl", "imports/cco-slice.ttl", "imports/prov-slice.ttl", "imports/time-slice.ttl"):
     ext.parse(os.path.join(ROOT, f))
-used = {o for o in g.objects() if isinstance(o, URIRef) and ("commoncoreontologies" in str(o) or "purl.obolibrary.org/obo/BFO_" in str(o))}
+used = {o for o in g.objects() if isinstance(o, URIRef) and ("commoncoreontologies" in str(o) or "purl.obolibrary.org/obo/BFO_" in str(o) or "w3.org/ns/prov#" in str(o) or "w3.org/2006/time#" in str(o))}
 for t in used:
     for p in (RDFS.label, SKOS.definition, URIRef("http://purl.obolibrary.org/obo/IAO_0000115")):
         for v in ext.objects(t, p):

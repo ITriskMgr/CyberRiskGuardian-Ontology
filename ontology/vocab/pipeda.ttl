@@ -221,7 +221,7 @@ pipeda:PIPEDA_s._10.3_1 a skos:Concept ;
     dcterms:source "Justice Laws Website, laws-lois.justice.gc.ca, P-8.6; see data/frameworks/pipeda.tsv" ;
     dcterms:title "Personal Information Protection and Electronic Documents Act (Canada): security and breach provisions"@en,
         "Loi sur la protection des renseignements personnels et les documents électroniques (Canada) : dispositions de sécurité et d'atteinte"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/pipeda> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/pipeda> ;
     owl:versionInfo "S.C. 2000, c. 5, current to 2026-05-26 (last amended 2025-03-04)" ;
     skos:hasTopConcept pipeda:PIPEDA_Sch._1_4.1,
         pipeda:PIPEDA_Sch._1_4.1.3,

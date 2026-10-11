@@ -82,6 +82,8 @@ for o in sorted(patterns, key=lambda o: int(cext(o)["external_id"].split("-")[1]
             cap_map_attack.append((cid, "T" + r["external_id"].lstrip("T")))
         if r.get("source_name") == "cwe" and r.get("external_id"):
             cap_map_cwe.append((cid, r["external_id"]))
+_ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
+TERM = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(_ids[k]))
 # --- KEV -------------------------------------------------------------------------------------------------------------
 kevd = json.load(open(os.path.join(X, "cisa_kev.json")))
 kev = BV.Scheme("kev", "CISA Known Exploited Vulnerabilities", "Vulnérabilités exploitées connues (CISA)", kevd["catalogVersion"],
@@ -91,8 +93,11 @@ kev = BV.Scheme("kev", "CISA Known Exploited Vulnerabilities", "Vulnérabilités
 kev_cwe = []
 for v in kevd["vulnerabilities"]:
     note = "Added to KEV %s; known ransomware campaign use: %s." % (v["dateAdded"], v.get("knownRansomwareCampaignUse", "Unknown"))
-    kev.concept(v["cveID"], v["vulnerabilityName"], definition_en=v.get("shortDescription"), note=note,
+    kc = kev.concept(v["cveID"], v["vulnerabilityName"], definition_en=v.get("shortDescription"), note=note,
                 see_also="https://nvd.nist.gov/vuln/detail/%s" % v["cveID"], source="CISA KEV catalogue %s" % kevd["catalogVersion"], introduced=INTRO)
+    # 0.9.0: KEV date and ransomware use as typed data (gap G7); the note is kept for readers
+    kev.g.add((kc, TERM("kevDateAdded"), Literal(v["dateAdded"] + "T00:00:00", datatype=XSD.dateTime)))
+    kev.g.add((kc, TERM("knownRansomwareUse"), Literal(v.get("knownRansomwareCampaignUse", "Unknown"))))
     for w in v.get("cwes") or []:
         kev_cwe.append((v["cveID"], w))
 NCON = {sc.key: sc.save() for sc in (cwe, dfd, cap, kev)}
@@ -115,22 +120,41 @@ m.add((mo, DCTERMS.title, Literal("Correspondances CRGO entre vocabulaires de r�
 m.add((mo, OWL.versionInfo, Literal(BV.VERSION)))
 m.add((mo, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-nc/4.0/")))
 m.add((mo, DCTERMS.rights, Literal("Cross-references compiled by CRGO from the sources named on each assertion: MITRE CAPEC references, MITRE CTID Mappings Explorer (Apache 2.0), CISA KEV, D3FEND (MIT).", lang="en")))
+m.add((mo, OWL.imports, URIRef("https://w3id.org/crgo/crgo-mapping")))
+# 0.9.0: proposed correspondences are kept apart, in mappings-proposed.ttl, which crgo-full does not import (gap G5)
+mp = Graph(); mpo = URIRef(VOC + "mappings-proposed")
+for p_, n_ in m.namespaces(): mp.bind(p_, n_)
+mp.add((mpo, RDF.type, OWL.Ontology)); mp.add((mpo, OWL.versionIRI, URIRef(VOC + BV.VERSION + "/mappings-proposed")))
+mp.add((mpo, OWL.versionInfo, Literal(BV.VERSION))); mp.add((mpo, OWL.imports, URIRef("https://w3id.org/crgo/crgo-mapping")))
+mp.add((mpo, DCTERMS.title, Literal("CRGO proposed cross-references (not approved; not imported by crgo-full)", lang="en")))
+mp.add((mpo, DCTERMS.title, Literal("Correspondances proposées par CRGO (non approuvées; non importées par crgo-full)", lang="fr")))
+mp.add((mpo, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-nc/4.0/")))
+# 0.9.0: each meaning has its own relation, a sub-property of the SKOS one (decision D3); keyed by approval group
+TYPED = {"capec-attack": "attackPatternRelatedToTechnique", "capec-cwe": "attackPatternExploitsWeakness",
+         "ctid-attack-800-53": "mitigatedByControl", "ctid-kev-attack": "vulnerabilityAssociatedWithTechnique",
+         "kev-cwe": "vulnerabilityInstanceOfWeakness", "d3fend-judged": "counteredByDefensiveTechnique",
+         "loi25-a21": "sameObligationOtherRegime", "loi25-pipeda": "comparableObligation", "loi25-gdpr": "comparableObligation",
+         "b13-csf2": "principleAddressedByCategory", "nist-csf2-800-53-derived": "subcategorySupportedByControl",
+         "nist-olir-800-53-iso27002": "controlCorrespondsToControl", "sp800-53a-controls": "evaluatesControl"}
 cnt = collections.Counter()
 valid = {k: {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", k + ".ttl")).objects(None, SKOS.notation)} for k in ("cwe", "capec", "sp800-53r5", "d3fend", "kev")}
 valid["attack"] = att_ids
 def link(s_scheme, s_id, p, o_scheme, o_id, source, conf, kind, group, note=None):
     if s_id not in valid[s_scheme] or o_id not in valid[o_scheme]:
         cnt["skipped (identifier not in vocabulary): " + group] += 1; return
-    s = URIRef(VOC + s_scheme + "/" + BV.safe(s_id)); o = URIRef(VOC + o_scheme + "/" + BV.safe(o_id))
-    m.add((s, p, o)); a = BNode()
+    sf = lambda k, i: BV.safe_53a(i) if k == "sp800-53a" else BV.safe(i)
+    s = URIRef(VOC + s_scheme + "/" + sf(s_scheme, s_id)); o = URIRef(VOC + o_scheme + "/" + sf(o_scheme, o_id))
     ok = BV.APPROVALS.get(group)
+    tg = m if ok and ok[0] == "Approve" else mp  # proposed correspondences go to the proposal file
+    tp = TERM(TYPED[group.split("/")[1]])
+    tg.add((s, p, o)); tg.add((s, tp, o)); a = BNode()
     for t in [(a, RDF.type, OWL.Axiom), (a, OWL.annotatedSource, s), (a, OWL.annotatedProperty, p), (a, OWL.annotatedTarget, o),
               (a, BV.C("confidence"), BV.CONF[conf]), (a, BV.C("proposedBy"), BV.C("AgentClaude")),
               (a, BV.C("evidenceSource"), Literal(source, lang="en")), (a, RDFS.comment, Literal(kind + ((": " + note) if note else ""), lang="en")),
               (a, BV.C("governanceStatus"), BV.C("StatusApproved" if ok and ok[0] == "Approve" else "StatusProposed"))]:
-        m.add(t)
+        tg.add(t)
     if ok and ok[0] == "Approve":
-        m.add((a, BV.C("approvedBy"), BV.C("Agent" + ok[1]))); m.add((a, BV.C("approvalDate"), Literal(ok[2], datatype=XSD.date)))
+        tg.add((a, BV.C("approvedBy"), BV.C("Agent" + ok[1]))); tg.add((a, BV.C("approvalDate"), Literal(ok[2], datatype=XSD.date)))
     cnt[group] += 1
 for c, t in sorted(set(cap_map_attack)):
     link("capec", c, SKOS.relatedMatch, "attack", norm_t(t), "MITRE CAPEC (ATT&CK reference)", "H", "CAPEC pattern related to ATT&CK technique", "mappings/capec-attack")
@@ -173,6 +197,13 @@ for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "pipeda.t
     for eq in filter(None, r["loi25_equivalent"].split("|")):
         link("loi25", eq, SKOS.relatedMatch, "pipeda", "PIPEDA " + r["provision"], "CRGO correspondence between CQLR c. P-39.1 and PIPEDA (texts verified, 2026-10-11)",
              "M", "comparable obligation under federal private-sector law", "mappings/loi25-pipeda")
+# GDPR <-> Loi 25 (comparable obligation under EU law), 0.9.0
+valid["gdpr"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "gdpr.ttl")).objects(None, SKOS.notation)}
+for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "gdpr.tsv"), encoding="utf-8"), delimiter="\t"):
+    for eq in filter(None, r["loi25_equivalent"].split("|")):
+        link("loi25", eq, SKOS.relatedMatch, "gdpr", "GDPR " + r["provision"], "CRGO correspondence between CQLR c. P-39.1 and Regulation (EU) 2016/679 (OJ text read 2026-10-11)",
+             r["match_conf"], "comparable obligation under EU law" if r["match_conf"] == "M" else "partly comparable obligation under EU law (differences in scope or trigger)",
+             "mappings/loi25-gdpr/" + r["match_conf"])
 for r in _csv.DictReader(open(os.path.join(ROOT, "data", "frameworks", "osfi_b13.tsv"), encoding="utf-8"), delimiter="\t"):
     for c in filter(None, r["csf2"].split("|")):
         link("osfi-b13", r["id"], SKOS.relatedMatch, "csf2", c, "CRGO correspondence between OSFI B-13 principles and NIST CSF 2.0 categories (judged, 2026-10-11)",
@@ -185,7 +216,15 @@ for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_csf2_8
 for r in _csv.DictReader(open(os.path.join(ROOT, "data", "library", "nist_80053_iso27002.csv"), encoding="utf-8")):
     link("sp800-53r5", r["sp80053r5"], SKOS.relatedMatch, "iso27002-2022", r["iso27002"], "NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (updated 2023-10-12), Annex A controls",
          "H", "control related to ISO/IEC 27002 control", "mappings/nist-olir-800-53-iso27002")
+# 0.9.0 GRCA: SP 800-53A objectives bound to the exact SP 800-53 5.2.0 control or enhancement (pipeline/vocab/build_grca_vocab.py)
+_lt = os.path.join(ROOT, "data", "frameworks", "grca", "links.tsv")
+if os.path.exists(_lt):
+    valid["sp800-53a"] = {str(o) for o in Graph().parse(os.path.join(ROOT, "ontology", "vocab", "sp800-53a.ttl")).objects(None, SKOS.notation)}
+    for r in _csv.DictReader(open(_lt, encoding="utf-8"), delimiter="\t"):
+        link(r["subject_scheme"], r["subject"], SKOS.relatedMatch, r["object_scheme"], r["object"],
+             "NIST SP 800-53 Rev. 5.2.0 OSCAL catalogue (assessment-objective part, link rel 'assessment-for')", "H", "assessment objective evaluates control", r["group"])
 m.serialize(os.path.join(ROOT, "ontology", "vocab", "mappings.ttl"), format="turtle")
+mp.serialize(os.path.join(ROOT, "ontology", "vocab", "mappings-proposed.ttl"), format="turtle")
 for k, n in NCON.items():
     print("%-8s %5d concepts" % (k, n))
 for k, v in sorted(cnt.items()): print("  %-50s %d" % (k, v))

@@ -1,0 +1,901 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.10> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.11> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._63.9> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._64> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._65> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._67.2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._67.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._70.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._73> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/a21/A-2.1_s._8.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._13> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._17> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._20> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._22> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._24> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._25_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._25_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._28> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._30> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._32_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._32_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._34_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._34_3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._35_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._36_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._37_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._39_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._3_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._44> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._46> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._4_12> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._4_5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._58_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._5_1_b> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._5_1_c> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._5_1_e> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._5_1_f> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._5_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._6_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._82> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._83_2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._83_4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._83_5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/gdpr/GDPR_Art._9> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/GDPR> .
+
+<https://w3id.org/crgo/vocab/legal> a owl:Ontology ;
+    dcterms:description "Legal instruments behind the CRGO legal vocabularies, their provisions and the conditions under which they apply. Conditions are CRGO paraphrases for evaluation over an organisation profile; they are not legal advice."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "CRGO legal instruments and applicability conditions"@en,
+        "Instruments juridiques et conditions d'applicabilité de CRGO"@fr ;
+    owl:imports crgo:crgo,
+        <https://w3id.org/crgo/vocab/sources> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/legal> ;
+    owl:versionInfo "0.9.0" .
+
+<https://w3id.org/crgo/vocab/legal/condition/A21-3-PB> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a public body"@en,
+        "Est un organisme public"@fr ;
+    skos:note "Citation: A-2.1 s. 3"@en ;
+    crgo:CRGO_0000250 "A21-3-PB" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of A-2.1 s. 3 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/A-2.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgType=OrgPublicBody|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/B13-FRFI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a federally regulated financial institution"@en,
+        "Est une institution financière fédérale"@fr ;
+    skos:note "Citation: OSFI B-13, A. Purpose and scope"@en ;
+    crgo:CRGO_0000250 "B13-FRFI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of OSFI B-13, A. Purpose and scope (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgType=OrgFRFI|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/C11-44-BIO> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Uses a biometric process to verify or confirm a person's identity (s. 44); a biometric database must be disclosed to the Commission before it is put into service (s. 45)"@en,
+        "Utilise un procédé biométrique pour vérifier ou confirmer l'identité d'une personne (art. 44); une banque de caractéristiques biométriques doit être divulguée à la Commission avant sa mise en service (art. 45)"@fr ;
+    skos:note "Citation: C-1.1 ss. 44-45"@en ;
+    crgo:CRGO_0000250 "C11-44-BIO" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of C-1.1 ss. 44-45 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/C-1.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000399 ;
+    crgo:CRGO_0000469 "required|processesData=DataBiometric|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/GDPR-2-1> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Processes personal data"@en,
+        "Traite des données à caractère personnel"@fr ;
+    skos:note "Citation: GDPR Art. 2(1)"@en ;
+    crgo:CRGO_0000250 "GDPR-2-1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of GDPR Art. 2(1) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/GDPR> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000398 ;
+    crgo:CRGO_0000469 "required|processesPersonalInfo|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/GDPR-3-1> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Has an establishment in the Union"@en,
+        "A un établissement dans l'Union"@fr ;
+    skos:note "Citation: GDPR Art. 3(1)"@en ;
+    crgo:CRGO_0000250 "GDPR-3-1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of GDPR Art. 3(1) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/GDPR> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|establishedIn=JurEU|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/GDPR-3-2a> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Offers goods or services to people in the Union"@en,
+        "Offre des biens ou des services à des personnes se trouvant dans l'Union"@fr ;
+    skos:note "Citation: GDPR Art. 3(2)(a)"@en ;
+    crgo:CRGO_0000250 "GDPR-3-2a" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of GDPR Art. 3(2)(a) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/GDPR> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|offersServicesIn=JurEU|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/GDPR-3-2b> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Monitors the behaviour of people in the Union"@en,
+        "Suit le comportement de personnes se trouvant dans l'Union"@fr ;
+    skos:note "Citation: GDPR Art. 3(2)(b)"@en ;
+    crgo:CRGO_0000250 "GDPR-3-2b" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of GDPR Art. 3(2)(b) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/GDPR> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|monitorsBehaviourIn=JurEU|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-ENT> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a person carrying on an enterprise"@en,
+        "Est une personne qui exploite une entreprise"@fr ;
+    skos:note "Citation: P-39.1 s. 1; CCQ art. 1525"@en ;
+    crgo:CRGO_0000250 "P39-1-ENT" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1; CCQ art. 1525 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgType=OrgEnterprise|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-PI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Collects, holds, uses or communicates personal information"@en,
+        "Recueille, détient, utilise ou communique des renseignements personnels"@fr ;
+    skos:note "Citation: P-39.1 s. 1"@en ;
+    crgo:CRGO_0000250 "P39-1-PI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000398 ;
+    crgo:CRGO_0000469 "required|processesPersonalInfo|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-ACT> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Collects personal information from persons in Québec, or offers them goods or services, without an establishment in Québec"@en,
+        "Recueille des renseignements personnels auprès de personnes au Québec, ou leur offre des biens ou services, sans établissement au Québec"@fr ;
+    skos:note "Citation: P-39.1 s. 1 (territorial reach interpreted)"@en ;
+    crgo:CRGO_0000250 "P39-1-QC-ACT" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1 (territorial reach interpreted) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|activeIn=JurQuebec|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-1-QC-EST> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Carries on an enterprise established in Québec"@en,
+        "Exploite une entreprise établie au Québec"@fr ;
+    skos:note "Citation: P-39.1 s. 1"@en ;
+    crgo:CRGO_0000250 "P39-1-QC-EST" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|establishedIn=JurQuebec|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/P39-3-PB> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a public body (A-2.1 applies instead)"@en,
+        "Est un organisme public (la loi c. A-2.1 s'applique plutôt)"@fr ;
+    skos:note "Citation: P-39.1 s. 3, para. 1"@en ;
+    crgo:CRGO_0000250 "P39-3-PB" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of P-39.1 s. 3, para. 1 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000400 ;
+    crgo:CRGO_0000469 "exception|orgType=OrgPublicBody|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-COM> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Acts in the course of commercial activities, or is a federal work"@en,
+        "Agit dans le cadre d'activités commerciales, ou est une entreprise fédérale"@fr ;
+    skos:note "Citation: PIPEDA s. 2(1) (commercial activity), s. 4(1)"@en ;
+    crgo:CRGO_0000250 "PIPEDA-COM" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 2(1) (commercial activity), s. 4(1) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgTypeIn=OrgEnterprise,OrgFederalWork|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-FW> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Operates a federal work, undertaking or business, such as a bank, airline or telecommunications carrier"@en,
+        "Exploite une entreprise fédérale, comme une banque, un transporteur aérien ou une entreprise de télécommunications"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)(a)-(b); the Québec exemption order (SOR/2003-374) does not cover federal works"@en ;
+    crgo:CRGO_0000250 "PIPEDA-FW" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a)-(b); the Québec exemption order (SOR/2003-374) does not cover federal works (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "anyof|orgType=OrgFederalWork|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-OP> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Carries on commercial activity in a province or territory without substantially similar legislation"@en,
+        "Exerce une activité commerciale dans une province ou un territoire sans loi essentiellement similaire"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)(a); s. 26(2)(b)"@en ;
+    crgo:CRGO_0000250 "PIPEDA-OP" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a); s. 26(2)(b) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|establishedIn=JurCanadaOtherProvince|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-PI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Collects, uses or discloses personal information"@en,
+        "Recueille, utilise ou communique des renseignements personnels"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)"@en ;
+    crgo:CRGO_0000250 "PIPEDA-PI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000398 ;
+    crgo:CRGO_0000469 "required|processesPersonalInfo|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/PIPEDA-XB> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Collects personal information from, or discloses it to, persons outside Québec in the course of commercial activity"@en,
+        "Recueille des renseignements personnels auprès de personnes hors du Québec, ou les leur communique, dans le cadre d'une activité commerciale"@fr ;
+    skos:note "Citation: PIPEDA s. 4(1)(a); s. 26(2)(b) and SOR/2003-374"@en ;
+    crgo:CRGO_0000250 "PIPEDA-XB" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of PIPEDA s. 4(1)(a); s. 26(2)(b) and SOR/2003-374 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/PIPEDA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000396 ;
+    crgo:CRGO_0000469 "anyof|transfersOutside=JurQuebec|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/R221-2-HD> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Holds health and social services information"@en,
+        "Détient des renseignements de santé et de services sociaux"@fr ;
+    skos:note "Citation: R-22.1 s. 2"@en ;
+    crgo:CRGO_0000250 "R221-2-HD" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of R-22.1 s. 2 (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/R-22.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000399 ;
+    crgo:CRGO_0000469 "required|processesData=DataHealth|plain" .
+
+<https://w3id.org/crgo/vocab/legal/condition/R221-4-HB> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a health and social services body"@en,
+        "Est un organisme du secteur de la santé et des services sociaux"@fr ;
+    skos:note "Citation: R-22.1 s. 4 and Schedules I-II"@en ;
+    crgo:CRGO_0000250 "R221-4-HB" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of R-22.1 s. 4 and Schedules I-II (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/R-22.1> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgType=OrgHealthBody|plain" .
+
+<https://w3id.org/crgo/vocab/loi25/C-1.1_s._44> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/C-1.1> .
+
+<https://w3id.org/crgo/vocab/loi25/C-1.1_s._45> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/C-1.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._12> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._12.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._14> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._17> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._18.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._18.4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._21> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._23> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1-r0.1>,
+        <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._27__3rd_para.> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._28.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__1st_para.> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1-r3.1>,
+        <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.6> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/A-2.1-r3.1>,
+        <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._4.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._8.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._8.2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._9.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._90.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._90.12> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._91> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._92.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/loi25/P-39.1_s._93.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/P-39.1_s._3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/P-39.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._10> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._11> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._13> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._15> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._16> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._1_s._8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._10> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._12> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._13> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._14> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._15> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._16> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._17> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._6> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_r._2_s._8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1-r2> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._100> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._102> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._103> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._104> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._105> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._106> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._107> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._108> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._109> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._110> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._111> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._112> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._124> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._13> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._159> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._16> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._160> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._161> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._162> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._18> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._38> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._39> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._73> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._77> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._78> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._90> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._93> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._97> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/lrsss/R-22.1_s._99> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/R-22.1> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/D1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/D2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/D3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P10> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P11> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P12> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P13> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P14> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P15> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P16> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P17> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P2> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P6> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/osfi-b13/P9> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/OSFI-B-13> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.1.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.3.6> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.4> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.5.3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.7> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_Sch._1_4.7.5> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_s._10.1_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_s._10.1_3> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_s._10.1_8> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_s._10.2_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/pipeda/PIPEDA_s._10.3_1> crgo:CRGO_0000422 <https://w3id.org/crgo/vocab/legal/PIPEDA> .
+
+<https://w3id.org/crgo/vocab/legal/A-2.1-r0.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Regulation respecting the anonymization of personal information"@en,
+        "Règlement sur l'anonymisation des renseignements personnels"@fr ;
+    rdfs:comment "Made under A-2.1 and P-39.1."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000379 ;
+    crgo:CRGO_0000465 "CQLR c. A-2.1, r. 0.1" ;
+    crgo:CRGO_0000468 "2026-06-01T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/GDPR-in-force> a owl:NamedIndividual,
+        time:ProperInterval ;
+    time:hasBeginning <https://w3id.org/crgo/vocab/legal/GDPR-in-force-start> .
+
+<https://w3id.org/crgo/vocab/legal/GDPR-in-force-start> a owl:NamedIndividual,
+        time:Instant ;
+    time:inXSDDateTimeStamp "2016-05-24T00:00:00Z"^^xsd:dateTimeStamp .
+
+<https://w3id.org/crgo/vocab/legal/A-2.1-r3.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Regulation respecting confidentiality incidents"@en,
+        "Règlement sur les incidents de confidentialité"@fr ;
+    rdfs:comment "Made under A-2.1 and P-39.1."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000379 ;
+    crgo:CRGO_0000465 "CQLR c. A-2.1, r. 3.1" ;
+    crgo:CRGO_0000468 "2026-06-01T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/C-1.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Act to establish a legal framework for information technology"@en,
+        "Loi concernant le cadre juridique des technologies de l'information"@fr ;
+    rdfs:comment "Only ss. 44-45 (biometrics) are modelled."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "CQLR c. C-1.1 (enacted 2001, c. 32)" ;
+    crgo:CRGO_0000468 "2026-08-12T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/R-22.1-r1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Regulation respecting the application of certain provisions of the Act respecting health and social services information"@en,
+        "Règlement d'application de certaines dispositions de la Loi sur les renseignements de santé et de services sociaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-r-22.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000379 ;
+    crgo:CRGO_0000465 "CQLR c. R-22.1, r. 1" ;
+    crgo:CRGO_0000468 "2026-06-01T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/R-22.1-r2> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Regulation respecting the governance of health and social services information"@en,
+        "Règlement sur la gouvernance des renseignements de santé et de services sociaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-r-22.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000379 ;
+    crgo:CRGO_0000465 "CQLR c. R-22.1, r. 2" ;
+    crgo:CRGO_0000468 "2026-06-01T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/PIPEDA> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Personal Information Protection and Electronic Documents Act"@en,
+        "Loi sur la protection des renseignements personnels et les documents électroniques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ca-pipeda> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000351 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "S.C. 2000, c. 5" ;
+    crgo:CRGO_0000467 "2025-03-04T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000468 "2026-09-21T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/A-2.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Act respecting access to documents held by public bodies and the protection of personal information"@en,
+        "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-a-2.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "CQLR c. A-2.1 (enacted 1982, c. 30)" ;
+    crgo:CRGO_0000468 "2026-08-12T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/OSFI-B-13> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "OSFI Guideline B-13 Technology and Cyber Risk Management"@en,
+        "Ligne directrice B-13 du BSIF, Gestion du risque lié aux technologies et du cyberrisque"@fr ;
+    rdfs:comment "Effective date not stated in the guideline PDF used; left unknown."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/osfi-b13> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000351 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000380 ;
+    crgo:CRGO_0000457 "2022-07-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000465 "OSFI Guideline B-13 (July 2022)" .
+
+<https://w3id.org/crgo/vocab/legal/P-39.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Act respecting the protection of personal information in the private sector"@en,
+        "Loi sur la protection des renseignements personnels dans le secteur privé"@fr ;
+    rdfs:comment "In-force date of the original Act not stated in the consolidation; Loi 25 provisions carry their own in-force dates in the loi25 vocabulary. Out of scope of the applicability conditions for now: s. 3, para. 2 (information held on behalf of a public body) and para. 3 (health and social services information held by an R-22.1 body), which exclude data rather than organisations."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "CQLR c. P-39.1 (enacted 1993, c. 17; amended by S.Q. 2021, c. 25, Loi 25)" ;
+    crgo:CRGO_0000468 "2026-08-12T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/R-22.1> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Act respecting health and social services information"@en,
+        "Loi sur les renseignements de santé et de services sociaux"@fr ;
+    rdfs:comment "Most of the Act in force since 2024-07-01 (data/frameworks/lrsss_scope.md)."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-r-22.1> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "CQLR c. R-22.1 (enacted 2023, c. 5)" ;
+    crgo:CRGO_0000468 "2026-08-12T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/crgo/vocab/legal/GDPR> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "General Data Protection Regulation (Regulation (EU) 2016/679)"@en,
+        "Règlement général sur la protection des données (règlement (UE) 2016/679)"@fr ;
+    rdfs:comment "Art. 99: in force on the twentieth day after publication (4.5.2016), i.e. 2016-05-24; applies from 2018-05-25. Corrigendum OJ L 127, 23.5.2018 not reviewed."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/eu-gdpr> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000353 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000423 <https://w3id.org/crgo/vocab/legal/GDPR-in-force> ;
+    crgo:CRGO_0000457 "2016-05-04T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000465 "Regulation (EU) 2016/679, OJ L 119, 4.5.2016, p. 1" ;
+    crgo:CRGO_0000466 "2018-05-25T00:00:00"^^xsd:dateTime .
+

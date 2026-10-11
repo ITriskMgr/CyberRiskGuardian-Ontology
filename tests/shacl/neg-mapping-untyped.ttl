@@ -1,0 +1,21 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://example.org/crgo-test/fixture/neg-mapping-untyped> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0): must be rejected."@en ;
+    skos:note "expect: needs a typed relation" .
+
+<https://w3id.org/crgo/vocab/kev/CVE-2021-44228> a skos:Concept .
+
+<https://w3id.org/crgo/vocab/attack/T1078> skos:relatedMatch <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1078> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+

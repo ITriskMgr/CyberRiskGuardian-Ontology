@@ -1,0 +1,8 @@
+# CQ-GRCA-04 For a work programme, which criteria, procedures, methods, 800-53A objectives, sampling rationales and
+# expected evidence are needed? Parameter: ?programme.
+SELECT ?criterion ?procedure ?method ?objective ?sampling ?expected WHERE {
+  ?programme {{hasProcedure}} ?procedure .
+  ?procedure {{usesAssessmentMethod}} ?method ; {{servesObjective}} ?objective .
+  OPTIONAL { ?procedure {{samplingRationale}} ?sampling } OPTIONAL { ?procedure {{expectedResult}} ?expected }
+  OPTIONAL { ?criterion a {{AuditCriterion}} . FILTER(STRSTARTS(STR(?criterion), CONCAT(STR(?programme), "/criterion/"))) }
+}

@@ -408,3 +408,43 @@ links/authored/AUTH-003	Approve	MAL	2026-10-11
 links/authored/AUTH-004	Approve	MAL	2026-10-11	
 links/authored/AUTH-005	Approve	MAL	2026-10-11	
 links/authored/AUTH-006	Approve	MAL	2026-10-11	
+# 2026-10-11: 0.9.0 review: all approved by the project owner ("Approve all"): GDPR vocabulary, Loi 25-GDPR correspondences (comparable M and partly comparable L), CQ27.
+gdpr/*	Approve	MAL	2026-10-11	
+mappings/loi25-gdpr/M	Approve	MAL	2026-10-11	
+mappings/loi25-gdpr/L	Approve	MAL	2026-10-11	
+# 2026-10-11: 0.9.0 Sprint 1 review: all groups approved by the project owner (decisions 1-10 YES, 8 = a: all 19 conditions); w3id.org pull request and release approved (11, 12).
+terms/evidence	Approve	MAL	2026-10-11	scope: up to CRGO_0000474 (the terms that existed when approved)
+terms/org	Approve	MAL	2026-10-11	scope: up to CRGO_0000474 (the terms that existed when approved)
+terms/vuln	Approve	MAL	2026-10-11	scope: up to CRGO_0000474 (the terms that existed when approved)
+terms/grc	Approve	MAL	2026-10-11	scope: up to CRGO_0000474 (the terms that existed when approved)
+terms/mapping	Approve	MAL	2026-10-11	scope: up to CRGO_0000474 (the terms that existed when approved)
+sources/records	Approve	MAL	2026-10-11	
+legal/instruments	Approve	MAL	2026-10-11	
+legal/conditions	Approve	MAL	2026-10-11	
+adr/ADR-001-006	Approve	MAL	2026-10-11	
+tests/sprint1	Approve	MAL	2026-10-11	
+terms/governance	Approve	MAL	2026-10-11	GRCA review item 1
+terms/assurance	Approve	MAL	2026-10-11	GRCA review item 2
+terms/audit	Approve	MAL	2026-10-11	GRCA review item 3
+terms/incident	Approve	MAL	2026-10-11	GRCA review item 4 (module kept)
+terms/evidence	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
+terms/grc	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
+terms/mapping	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
+sp800-53a/*	Approve	MAL	2026-10-11	GRCA review item 6
+mappings/sp800-53a-controls	Approve	MAL	2026-10-11	GRCA review item 6
+iia-gias/*	Approve	MAL	2026-10-11	GRCA review item 7
+iia-tr/*	Approve	MAL	2026-10-11	GRCA review item 7
+itaf/*	Approve	MAL	2026-10-11	GRCA review item 7
+tsc/*	Approve	MAL	2026-10-11	GRCA review item 7
+coso-erm/*	Approve	MAL	2026-10-11	GRCA review item 7
+iso19011/*	Approve	MAL	2026-10-11	GRCA review item 7
+iso27007/*	Approve	MAL	2026-10-11	GRCA review item 7
+iso27008/*	Approve	MAL	2026-10-11	GRCA review item 7
+iso37301/*	Approve	MAL	2026-10-11	GRCA review item 7
+iso37302/*	Approve	MAL	2026-10-11	GRCA review item 7
+sources/records-grca	Approve	MAL	2026-10-11	GRCA review item 8
+workprogrammes/illustrative	Approve	MAL	2026-10-11	GRCA review item 9 (illustrative, not a validated methodology)
+adr/ADR-007-009	Approve	MAL	2026-10-11	GRCA review item 10
+contracts/dss-v1	Approve	MAL	2026-10-11	GRCA review item 11
+tests/grca	Approve	MAL	2026-10-11	GRCA review item 12
+w3id/pr-6862-grca-rules	Approve	MAL	2026-10-11	GRCA review item 13 (commit pushed to the fork branch of PR #6862)

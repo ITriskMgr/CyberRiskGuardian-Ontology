@@ -1,0 +1,8 @@
+# CQ-17 Reconstruct a decision: who made it, when, under which delegation, informed by which analytical results (model
+# and version, contract version) and findings, with the ontology release in use. Parameter: ?decision.
+SELECT ?maker ?date ?outcome ?delegation ?input ?model ?version ?contract ?release WHERE {
+  ?decision {{decisionMadeBy}} ?maker ; {{decidedOn}} ?date ; {{hasDecisionOutcome}} ?outcome .
+  OPTIONAL { ?decision {{underDelegation}} ?delegation }
+  OPTIONAL { ?decision {{informedBy}} ?input . OPTIONAL { ?input {{modelName}} ?model ; {{modelVersion}} ?version } OPTIONAL { ?input {{contractVersion}} ?contract } }
+  OPTIONAL { <https://w3id.org/crgo/crgo> owl:versionInfo ?release }
+}

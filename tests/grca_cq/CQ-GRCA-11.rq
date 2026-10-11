@@ -1,0 +1,15 @@
+# CQ-GRCA-11 Which evidence relied on is stale, unverified (no integrity hash) or judged out of scope?
+SELECT DISTINCT ?evidence ?reason WHERE {
+  { ?x {{hasEvidence}} ?evidence } UNION { ?s {{sufficiencyOf}} ?evidence }
+  {
+    ?a {{hasEvidence}} ?evidence ; {{assessedOn}} ?on . ?evidence {{validUntil}} ?u . FILTER(?u < ?on) BIND("expired when relied on" AS ?reason)
+  } UNION {
+    ?a {{hasEvidence}} ?evidence ; {{periodStart}} ?ps . ?evidence {{periodEnd}} ?pe . FILTER(?pe < ?ps) BIND("period not covered" AS ?reason)
+  } UNION {
+    ?s {{sufficiencyOf}} ?evidence ; {{hasSufficiencyConclusion}} ?c . FILTER(?c IN ({{SuffStale}}, {{SuffOutOfScope}}, {{SuffInsufficient}}))
+    BIND(IF(?c = {{SuffStale}}, "judged out of date", IF(?c = {{SuffOutOfScope}}, "judged out of scope", "judged insufficient")) AS ?reason)
+  } UNION {
+    ?evidence a ?k . ?k rdfs:subClassOf* {{EvidenceItem}} . FILTER NOT EXISTS { ?evidence {{evidenceHash}} ?h } FILTER(?k != {{ExternalAssuranceReport}})
+    BIND("unverified (no integrity hash)" AS ?reason)
+  }
+}

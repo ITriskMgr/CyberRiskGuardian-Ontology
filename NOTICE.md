@@ -69,3 +69,30 @@ The VERIS schema (github.com/vz-risk/veris) is under CC BY-SA 4.0, a share-alike
 | `ontology/vocab/osfi-b13.ttl` | OSFI Guideline B-13 | July 2022, page modified 2024-02-20 | CRGO paraphrases; short principle names follow OSFI's headings |
 | CSF 2.0 → SP 800-53 (derived) and SP 800-53 → ISO/IEC 27002 cross-references in `mappings.ttl` | NIST CPRT CSF 2.0 export, NIST CSF 1.1 to SP 800-53r5 mapping, NIST OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 (files supplied by the project owner from csrc.nist.gov) | downloaded 2026-10-11 | U.S. government works |
 | French labels of CSF 2.0 (`csf2.ttl`, `data/frameworks/csf2_fr.json`) | NIST CSWP 29, French translation | as published by NIST | NIST publication |
+
+## Sources added in 0.9.0
+
+| Vocabulary or file | Source | Version used | Licence or terms |
+|---|---|---|---|
+| `ontology/vocab/gdpr.ttl`, Loi 25 ↔ GDPR in `mappings.ttl` | Regulation (EU) 2016/679, Official Journal of the European Union L 119, 4.5.2016, p. 1 (EUR-Lex, CELEX 32016R0679), English text; French terminology from the official French version | as published 2016 (corrigenda not reviewed) | EU legislative texts may be reused (Commission Decision 2011/833/EU); labels and definitions are CRGO paraphrases; only the Official Journal text is authentic |
+
+## Sources added in 0.9.0 (Sprint 1)
+
+| File | Source | Version used | Licence or terms |
+|---|---|---|---|
+| `imports/prov-slice.ttl` | W3C PROV-O: The PROV Ontology (github.com/w3c/prov, ontology/prov-o.ttl), BOT module extracted with ROBOT | W3C Recommendation 2013-04-30 | W3C Software and Document License |
+| `imports/time-slice.ttl` | W3C Time Ontology in OWL (github.com/w3c/sdw-time, rdf/time.ttl), BOT module extracted with ROBOT | edition of 2025-08-27 | CC BY 4.0 |
+| `ontology/vocab/legal.ttl`, `ontology/vocab/sources.ttl` | Official texts of P-39.1, C-1.1, A-2.1 (r. 0.1, r. 3.1), R-22.1 (r. 1, r. 2) (LégisQuébec), PIPEDA (Justice Laws Website), OSFI B-13, Regulation (EU) 2016/679 (EUR-Lex): PDF snapshots saved by the project owner on 2026-10-11 | dates printed on each file (`docs/baseline/source_registry.csv`) | CRGO stores citations, dates and paraphrased conditions only; the PDFs stay in `data/raw/` and are not redistributed |
+
+`tests/samples/` (Nordelle Market inc.) is synthetic test data written for CRGO; it describes no real organisation.
+
+
+## Sources added in 0.9.0 (GRCA sprint and remaining-gaps packages, proposed)
+
+- **NIST SP 800-53A Rev. 5** assessment objectives and methods (`ontology/vocab/sp800-53a.ttl`): from the SP 800-53 Rev. 5.2.0 OSCAL catalogue (https://github.com/usnistgov/oscal-content). US Government work, not subject to copyright in the United States (17 U.S.C. 105). Credit: National Institute of Standards and Technology.
+- **The Institute of Internal Auditors**: *Global Internal Audit Standards* (published 2024-01-09) and the Topical Requirements on Cybersecurity, Third-Party and Organizational Behavior (`iia-gias.ttl`, `iia-tr.ttl`). © The Institute of Internal Auditors. Identifiers and official headings cited for reference and mapping only; all definitions are CRGO paraphrases; no text of the Standards or Requirements is reproduced. Obtain them from the IIA.
+- **ISACA**: *ITAF, A Professional Practices Framework for IT Audit*, 5th edition, and companion guideline 2208 (`itaf.ttl`). © ISACA. Identifiers and titles only, with CRGO paraphrases.
+- **AICPA**: *2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy* (with revised points of focus, 2022), TSP section 100 (`tsc.ttl`). © AICPA. Criterion identifiers and group headings only; criteria are labelled and paraphrased by CRGO; no criterion text or point of focus is reproduced.
+- **COSO**: *Enterprise Risk Management: Integrating with Strategy and Performance* (2017) (`coso-erm.ttl`). © COSO. Component and principle titles (French titles from the French executive summary; English titles translated by CRGO) and CRGO paraphrases only.
+- **ISO and ISO/IEC**: ISO 19011:2018, ISO/IEC 27007:2020, ISO/IEC TS 27008:2019, ISO 37301:2021, ISO 37302:2025 (`iso19011.ttl` … `iso37302.ttl`). © ISO / ISO/IEC. Clause numbers and headings from the publishers' previews, cited for reference and mapping only; definitions are CRGO paraphrases of what each heading covers. Obtain the standards from ISO or a national standards body.
+- Full texts of the licensed documents are held by the project owner under his own licences in `data/raw/` and are never committed; `pipeline/vocab/build_licensed_private.py` can build private reading copies in `ontology/vocab-private/`, also never committed (decision R-d).

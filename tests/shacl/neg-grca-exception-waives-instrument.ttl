@@ -1,0 +1,21 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:e a crgo:CRGO_0000502 ;
+    crgo:CRGO_0000726 <https://w3id.org/crgo/vocab/legal/P-39.1> ;
+    crgo:CRGO_0000727 x:asset ;
+    crgo:CRGO_0000728 x:ceo ;
+    crgo:CRGO_0000837 "2026-07-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000838 "2026-12-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000842 "why" .
+
+<https://example.org/crgo-test/fixture/neg-grca-exception-waives-instrument> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    skos:note "expect: cannot waive a legal provision" .
+
+<https://w3id.org/crgo/vocab/legal/P-39.1> a crgo:CRGO_0000343 .
+

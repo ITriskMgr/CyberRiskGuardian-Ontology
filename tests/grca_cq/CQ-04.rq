@@ -1,0 +1,9 @@
+# CQ-04 For an asset, what is the latest independent operating effectiveness assessment of each control protecting it,
+# on ?asOf? Self-assessments are not verified results and are excluded.
+SELECT ?measure ?assessment ?on ?result WHERE {
+  ?measure {{protectsAsset}} ?asset .
+  ?assessment a {{OperatingEffectivenessAssessment}} ; {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?on ; {{hasTestResult}} ?result ; {{performedInCapacity}} ?line .
+  FILTER(?line != {{LineSelfAssessment}} && ?on <= ?asOf)
+  FILTER NOT EXISTS { ?later a {{OperatingEffectivenessAssessment}} ; {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?on2 ; {{performedInCapacity}} ?l2 .
+                      FILTER(?l2 != {{LineSelfAssessment}} && ?on2 > ?on && ?on2 <= ?asOf) }
+}

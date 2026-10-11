@@ -823,7 +823,7 @@ lrsss:R-22.1_s._99 a skos:Concept ;
     dcterms:source "LégisQuébec, CQLR c. R-22.1, R-22.1 r. 1, R-22.1 r. 2; see data/frameworks/lrsss.tsv and lrsss_scope.md" ;
     dcterms:title "Québec Act respecting health and social services information: obligations"@en,
         "Loi sur les renseignements de santé et de services sociaux : obligations"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/lrsss> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/lrsss> ;
     owl:versionInfo "S.Q. 2023, c. 5 (CQLR c. R-22.1) and regulations r. 1 and r. 2, as consolidated in LégisQuébec on 2026-10-10" ;
     skos:hasTopConcept lrsss:P-39.1_s._3,
         lrsss:R-22.1_r._1_s._1,

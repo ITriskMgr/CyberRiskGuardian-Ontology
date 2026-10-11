@@ -8397,7 +8397,7 @@ capec:CAPEC-312 a skos:Concept ;
     dcterms:source "https://github.com/mitre/cti (capec/2.1/stix-capec.json)" ;
     dcterms:title "MITRE CAPEC attack patterns"@en,
         "Patrons d'attaque MITRE CAPEC"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/capec> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/capec> ;
     owl:versionInfo "3.9" ;
     skos:hasTopConcept capec:CAPEC-112,
         capec:CAPEC-113,

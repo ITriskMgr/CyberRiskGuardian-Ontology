@@ -1,0 +1,1486 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tsc: <https://w3id.org/crgo/vocab/tsc/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tsc:TSC-A1.1 a skos:Concept ;
+    skos:broader tsc:TSC-A1 ;
+    skos:definition "Current capacity and component usage are tracked and evaluated so demand can be met and capacity expanded when needed."@en,
+        "La capacité actuelle et l'utilisation des composants sont suivies et évaluées afin de répondre à la demande et d'accroître la capacité au besoin."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-A1.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Capacity management"@en,
+        "Gestion de la capacité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.1 (page 50)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-A1.2 a skos:Concept ;
+    skos:broader tsc:TSC-A1 ;
+    skos:definition "Environmental safeguards, backup processes and recovery infrastructure are established, operated and monitored to sustain availability."@en,
+        "Les protections environnementales, les processus de sauvegarde et l'infrastructure de reprise sont mis en place, exploités et surveillés pour assurer la disponibilité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-A1.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Environmental protection, backup and recovery infrastructure"@en,
+        "Protection environnementale, sauvegarde et infrastructure de reprise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.2 (page 50)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-A1.3 a skos:Concept ;
+    skos:broader tsc:TSC-A1 ;
+    skos:definition "Procedures in the recovery plan are tested to confirm the system can be restored."@en,
+        "Les procédures du plan de reprise sont mises à l'essai pour confirmer que le système peut être rétabli."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-A1.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Recovery plan testing"@en,
+        "Essais du plan de reprise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-A1.3 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-C1.1 a skos:Concept ;
+    skos:broader tsc:TSC-C1 ;
+    skos:definition "Information deemed confidential is identified and safeguarded according to confidentiality objectives."@en,
+        "L'information jugée confidentielle est repérée et protégée selon les objectifs de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-C1.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Confidential information identification and protection"@en,
+        "Identification et protection de l'information confidentielle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-C1.1 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-C1.2 a skos:Concept ;
+    skos:broader tsc:TSC-C1 ;
+    skos:definition "Confidential information is destroyed or discarded in line with confidentiality objectives."@en,
+        "L'information confidentielle est détruite ou éliminée conformément aux objectifs de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-C1.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Confidential information disposal"@en,
+        "Élimination de l'information confidentielle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-C1.2 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC1 ;
+    skos:definition "The entity shows through conduct and standards that it values integrity and ethical behaviour; aligned with COSO 2013 principle 1."@en,
+        "L'entité montre par sa conduite et ses normes qu'elle valorise l'intégrité et un comportement éthique; correspond au principe 1 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Integrity and ethics commitment"@en,
+        "Engagement envers l'intégrité et l'éthique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.1 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC1 ;
+    skos:definition "The board stays independent of management and oversees how internal control is designed and performs; aligned with COSO 2013 principle 2."@en,
+        "Le conseil demeure indépendant de la direction et surveille la conception et le fonctionnement du contrôle interne; correspond au principe 2 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Board independence and oversight"@en,
+        "Indépendance et surveillance du conseil"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.2 (page 15)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC1 ;
+    skos:definition "Management, overseen by the board, sets up organizational structures, reporting lines and delegated authority to pursue objectives; aligned with COSO 2013 principle 3."@en,
+        "Sous la surveillance du conseil, la direction établit les structures, les liens hiérarchiques et les délégations de pouvoir nécessaires aux objectifs; correspond au principe 3 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Structures, reporting lines and authority"@en,
+        "Structures, lignes hiérarchiques et pouvoirs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.3 (page 16)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1.4 a skos:Concept ;
+    skos:broader tsc:TSC-CC1 ;
+    skos:definition "The entity attracts, develops and keeps capable people consistent with its objectives; aligned with COSO 2013 principle 4."@en,
+        "L'entité attire, développe et fidélise des personnes compétentes en cohérence avec ses objectifs; correspond au principe 4 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Competent workforce"@en,
+        "Personnel compétent"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.4 (page 17)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1.5 a skos:Concept ;
+    skos:broader tsc:TSC-CC1 ;
+    skos:definition "Individuals are held answerable for their internal control duties in pursuing objectives; aligned with COSO 2013 principle 5."@en,
+        "Chaque personne répond de ses obligations en matière de contrôle interne dans la poursuite des objectifs; correspond au principe 5 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1.5" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Accountability for internal control"@en,
+        "Responsabilisation en matière de contrôle interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC1.5 (page 18)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC2.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC2 ;
+    skos:definition "The entity obtains or produces relevant, reliable information and uses it to support internal control; aligned with COSO 2013 principle 13."@en,
+        "L'entité obtient ou produit une information pertinente et fiable et s'en sert pour soutenir le contrôle interne; correspond au principe 13 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC2.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Quality information for internal control"@en,
+        "Information de qualité pour le contrôle interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.1 (page 19)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC2.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC2 ;
+    skos:definition "Information on control objectives and responsibilities is communicated within the entity to sustain internal control; aligned with COSO 2013 principle 14."@en,
+        "L'information sur les objectifs et responsabilités de contrôle circule au sein de l'entité pour soutenir le contrôle interne; correspond au principe 14 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC2.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Internal communication"@en,
+        "Communication interne"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.2 (page 21)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC2.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC2 ;
+    skos:definition "The entity exchanges information with outside parties on matters that affect internal control; aligned with COSO 2013 principle 15."@en,
+        "L'entité échange de l'information avec des parties externes sur les questions touchant le contrôle interne; correspond au principe 15 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC2.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "External communication"@en,
+        "Communication externe"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC2.3 (page 22)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC3.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC3 ;
+    skos:definition "Objectives are stated clearly enough that related risks can be identified and assessed; aligned with COSO 2013 principle 6."@en,
+        "Les objectifs sont formulés assez clairement pour permettre de cerner et d'évaluer les risques connexes; correspond au principe 6 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC3.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Objective specification"@en,
+        "Précision des objectifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.1 (page 24)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC3.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC3 ;
+    skos:definition "Entity-wide risks to objectives are identified and analyzed to decide how they should be handled; aligned with COSO 2013 principle 7."@en,
+        "Les risques pesant sur les objectifs sont relevés et analysés à l'échelle de l'entité afin de décider de leur traitement; correspond au principe 7 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC3.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Risk identification and analysis"@en,
+        "Identification et analyse des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.2 (page 27)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC3.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC3 ;
+    skos:definition "Fraud potential is taken into account when assessing risks to objectives; aligned with COSO 2013 principle 8."@en,
+        "La possibilité de fraude est prise en compte lors de l'évaluation des risques liés aux objectifs; correspond au principe 8 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC3.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Fraud risk consideration"@en,
+        "Prise en compte du risque de fraude"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.3 (page 28)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC3.4 a skos:Concept ;
+    skos:broader tsc:TSC-CC3 ;
+    skos:definition "Changes that could materially affect the internal control system are identified and assessed; aligned with COSO 2013 principle 9."@en,
+        "Les changements susceptibles d'affecter sensiblement le système de contrôle interne sont repérés et évalués; correspond au principe 9 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC3.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Assessment of significant change"@en,
+        "Évaluation des changements importants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC3.4 (page 29)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC4.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC4 ;
+    skos:definition "Continuous or periodic evaluations determine whether internal control components are present and working; aligned with COSO 2013 principle 16."@en,
+        "Des évaluations continues ou périodiques établissent si les composantes du contrôle interne existent et fonctionnent; correspond au principe 16 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC4.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Ongoing and separate evaluations"@en,
+        "Évaluations continues et ponctuelles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC4.1 (page 30)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC4.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC4 ;
+    skos:definition "Control deficiencies are evaluated and promptly reported to those who must correct them, up to senior management and the board; aligned with COSO 2013 principle 17."@en,
+        "Les déficiences sont évaluées et signalées promptement aux responsables de leur correction, jusqu'à la haute direction et au conseil; correspond au principe 17 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC4.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Deficiency evaluation and communication"@en,
+        "Évaluation et communication des déficiences"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC4.2 (page 31)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC5.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC5 ;
+    skos:definition "Control activities are chosen and built to bring risks to objectives down to acceptable levels; aligned with COSO 2013 principle 10."@en,
+        "Des activités de contrôle sont choisies et conçues pour ramener les risques liés aux objectifs à un niveau acceptable; correspond au principe 10 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC5.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Risk-mitigating control activities"@en,
+        "Activités de contrôle d'atténuation des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.1 (page 31)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC5.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC5 ;
+    skos:definition "General controls over technology are chosen and built to support objectives; aligned with COSO 2013 principle 11."@en,
+        "Des contrôles généraux sur la technologie sont choisis et conçus pour soutenir les objectifs; correspond au principe 11 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC5.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Technology general controls"@en,
+        "Contrôles généraux informatiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.2 (page 32)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC5.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC5 ;
+    skos:definition "Control activities are put in place through policies stating expectations and procedures that carry them out; aligned with COSO 2013 principle 12."@en,
+        "Les activités de contrôle sont déployées par des politiques énonçant les attentes et des procédures qui les concrétisent; correspond au principe 12 du COSO 2013."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC5.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Policies and procedures"@en,
+        "Politiques et procédures"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC5.3 (page 33)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Logical access software, infrastructure and architecture shield protected information assets against security events."@en,
+        "Les logiciels, l'infrastructure et l'architecture d'accès logique protègent les actifs informationnels contre les événements de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Logical access security architecture"@en,
+        "Architecture de sécurité des accès logiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.1 (page 34)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Users are registered and authorized before receiving credentials, and their credentials are revoked once access is no longer justified."@en,
+        "Les utilisateurs sont inscrits et autorisés avant de recevoir des identifiants, lesquels sont révoqués dès que l'accès n'est plus justifié."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "User registration and credential lifecycle"@en,
+        "Inscription des utilisateurs et cycle de vie des identifiants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.2 (page 36)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Access to protected assets is granted, changed or withdrawn according to roles, applying least privilege and separation of duties."@en,
+        "L'accès aux actifs protégés est accordé, modifié ou retiré selon les rôles, en appliquant le moindre privilège et la séparation des tâches."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Role-based access authorization"@en,
+        "Autorisation des accès selon les rôles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.3 (page 36)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.4 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Physical entry to facilities and sensitive asset locations is limited to authorized staff."@en,
+        "L'entrée physique dans les installations et les lieux abritant des actifs sensibles est réservée au personnel autorisé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Physical access restriction"@en,
+        "Restriction de l'accès physique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.4 (page 37)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.5 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Protections on physical assets are removed only after data on them can no longer be read or recovered."@en,
+        "Les protections des actifs physiques ne sont levées qu'une fois leurs données rendues illisibles ou irrécupérables."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.5" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Secure asset decommissioning"@en,
+        "Mise hors service sécurisée des actifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.5 (page 37)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.6 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Logical security measures defend against threats originating outside the system boundary."@en,
+        "Des mesures de sécurité logique protègent contre les menaces provenant de l'extérieur du périmètre du système."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.6" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Boundary protection"@en,
+        "Protection du périmètre"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.6 (page 38)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.7 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Movement and removal of information is limited to authorized users and processes, and the information is protected while in transit."@en,
+        "Le déplacement et la sortie de l'information sont réservés aux utilisateurs et processus autorisés, et l'information est protégée en transit."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.7" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Information transmission controls"@en,
+        "Contrôles de transmission de l'information"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.7 (page 38)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6.8 a skos:Concept ;
+    skos:broader tsc:TSC-CC6 ;
+    skos:definition "Controls block or detect, and respond to, unauthorized or malicious software."@en,
+        "Des contrôles bloquent ou détectent les logiciels non autorisés ou malveillants et permettent d'y réagir."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6.8" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Malicious software prevention"@en,
+        "Prévention des logiciels malveillants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC6.8 (page 39)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC7 ;
+    skos:definition "Detection and monitoring reveal configuration changes that introduce weaknesses and exposure to newly discovered vulnerabilities."@en,
+        "La détection et la surveillance révèlent les changements de configuration créant des faiblesses et l'exposition aux vulnérabilités nouvellement découvertes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Vulnerability and configuration monitoring"@en,
+        "Surveillance des vulnérabilités et des configurations"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.1 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC7 ;
+    skos:definition "System components are watched for anomalies signalling attacks, disasters or errors, which are analyzed as potential security events."@en,
+        "Les composants du système sont surveillés afin de repérer les anomalies signalant attaques, sinistres ou erreurs, analysées comme événements de sécurité potentiels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Anomaly monitoring"@en,
+        "Surveillance des anomalies"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.2 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7.3 a skos:Concept ;
+    skos:broader tsc:TSC-CC7 ;
+    skos:definition "Security events are assessed to decide whether they amount to incidents, and action is taken to prevent or address them."@en,
+        "Les événements de sécurité sont évalués pour déterminer s'ils constituent des incidents, et des mesures sont prises pour les prévenir ou les traiter."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Security event evaluation"@en,
+        "Évaluation des événements de sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.3 (page 41)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7.4 a skos:Concept ;
+    skos:broader tsc:TSC-CC7 ;
+    skos:definition "Confirmed incidents are managed under a formal response program covering analysis, containment, remediation and communication."@en,
+        "Les incidents confirmés sont gérés selon un programme formel couvrant l'analyse, le confinement, la correction et la communication."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Incident response"@en,
+        "Réponse aux incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.4 (page 42)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7.5 a skos:Concept ;
+    skos:broader tsc:TSC-CC7 ;
+    skos:definition "Recovery activities are planned and carried out to restore operations after security incidents."@en,
+        "Des activités de rétablissement sont planifiées et menées pour restaurer les opérations après un incident de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7.5" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Incident recovery"@en,
+        "Rétablissement après incident"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC7.5 (page 44)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC8.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC8 ;
+    skos:definition "Modifications to infrastructure, software, data and procedures pass through controlled authorization, design, testing, approval and deployment."@en,
+        "Les modifications de l'infrastructure, des logiciels, des données et des procédures suivent un processus maîtrisé d'autorisation, de conception, d'essai, d'approbation et de déploiement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC8.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Change management"@en,
+        "Gestion des changements"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC8.1 (page 45)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC9.1 a skos:Concept ;
+    skos:broader tsc:TSC-CC9 ;
+    skos:definition "Mitigation activities are chosen and developed for risks from possible business disruptions."@en,
+        "Des mesures d'atténuation sont choisies et élaborées pour les risques découlant d'éventuelles interruptions des activités."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC9.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Business disruption risk mitigation"@en,
+        "Atténuation des risques d'interruption des activités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC9.1 (page 47)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC9.2 a skos:Concept ;
+    skos:broader tsc:TSC-CC9 ;
+    skos:definition "Risks arising from vendors and business partners are assessed and managed."@en,
+        "Les risques découlant des fournisseurs et des partenaires d'affaires sont évalués et gérés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC9.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Vendor and partner risk management"@en,
+        "Gestion des risques liés aux fournisseurs et partenaires"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-CC9.2 (page 48)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P1.1 a skos:Concept ;
+    skos:broader tsc:TSC-P1 ;
+    skos:definition "Data subjects receive notice of privacy practices, refreshed promptly when practices or uses of personal information change."@en,
+        "Les personnes concernées reçoivent un avis sur les pratiques de confidentialité, mis à jour promptement lorsque ces pratiques ou les usages changent."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P1.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Privacy notice"@en,
+        "Avis de confidentialité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P1.1 (page 57)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P2.1 a skos:Concept ;
+    skos:broader tsc:TSC-P2 ;
+    skos:definition "Data subjects are told their options and consequences for handling of personal information, and explicit consent is obtained where required."@en,
+        "Les personnes concernées sont informées de leurs options et de leurs conséquences, et leur consentement explicite est obtenu lorsque requis."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P2.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Choice and consent"@en,
+        "Choix et consentement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P2.1 (page 58)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P3.1 a skos:Concept ;
+    skos:broader tsc:TSC-P3 ;
+    skos:definition "Personal information is gathered only as the entity privacy objectives allow."@en,
+        "Les renseignements personnels ne sont recueillis que dans la mesure permise par les objectifs de confidentialité de l'entité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P3.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Collection limitation"@en,
+        "Limitation de la collecte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P3.1 (page 59)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P3.2 a skos:Concept ;
+    skos:broader tsc:TSC-P3 ;
+    skos:definition "Where explicit consent is needed, its necessity and the effect of refusal are explained and consent is secured before collection."@en,
+        "Lorsqu'un consentement explicite est nécessaire, sa raison et l'effet d'un refus sont expliqués, et il est obtenu avant la collecte."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P3.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Explicit consent for collection"@en,
+        "Consentement explicite à la collecte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P3.2 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P4.1 a skos:Concept ;
+    skos:broader tsc:TSC-P4 ;
+    skos:definition "The entity employs personal information solely for purposes defined in its privacy objectives."@en,
+        "Les renseignements personnels ne servent qu'aux fins prévues par les objectifs de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P4.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Use limitation"@en,
+        "Limitation de l'utilisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.1 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P4.2 a skos:Concept ;
+    skos:broader tsc:TSC-P4 ;
+    skos:definition "Personal information is kept only as long as privacy objectives warrant."@en,
+        "Les renseignements personnels ne sont conservés que le temps justifié par les objectifs de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P4.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Retention"@en,
+        "Conservation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.2 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P4.3 a skos:Concept ;
+    skos:broader tsc:TSC-P4 ;
+    skos:definition "Personal information is destroyed securely in line with privacy objectives."@en,
+        "Les renseignements personnels sont détruits de façon sécuritaire conformément aux objectifs de confidentialité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P4.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Secure disposal"@en,
+        "Élimination sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P4.3 (page 61)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P5.1 a skos:Concept ;
+    skos:broader tsc:TSC-P5 ;
+    skos:definition "Verified data subjects can review and obtain copies of their stored personal information, and are told the reason if access is refused."@en,
+        "Les personnes concernées dûment vérifiées peuvent consulter leurs renseignements et en obtenir copie, et sont informées du motif de tout refus."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P5.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Data subject access"@en,
+        "Accès des personnes concernées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P5.1 (page 61)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P5.2 a skos:Concept ;
+    skos:broader tsc:TSC-P5 ;
+    skos:definition "Personal information is corrected or supplemented at the data subject request, changes are passed to third parties, and refusals are explained."@en,
+        "Les renseignements sont rectifiés ou complétés à la demande de la personne concernée, les tiers en sont avisés et tout refus est motivé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P5.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Correction of personal information"@en,
+        "Rectification des renseignements personnels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P5.2 (page 62)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.1 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "Personal information is shared with third parties only after obtaining explicit prior consent of data subjects."@en,
+        "Les renseignements personnels ne sont communiqués à des tiers qu'après l'obtention du consentement explicite préalable des personnes concernées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party disclosure with consent"@en,
+        "Communication à des tiers avec consentement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.1 (page 63)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.2 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "The entity keeps a full, accurate and current register of every authorized release of personal information."@en,
+        "L'entité tient un registre complet, exact et à jour de chaque communication autorisée de renseignements personnels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Record of authorized disclosures"@en,
+        "Registre des communications autorisées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.2 (page 63)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.3 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "The entity keeps a full, accurate and current register of detected or reported unauthorized releases, including breaches."@en,
+        "L'entité tient un registre complet, exact et à jour des communications non autorisées détectées ou signalées, y compris les atteintes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Record of unauthorized disclosures"@en,
+        "Registre des communications non autorisées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.3 (page 64)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.4 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "Vendors and third parties handling personal information commit to privacy obligations, and their compliance is periodically assessed and corrected."@en,
+        "Les fournisseurs et tiers traitant des renseignements personnels s'engagent envers la confidentialité, et leur conformité est évaluée et corrigée périodiquement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party privacy commitments"@en,
+        "Engagements de confidentialité des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.4 (page 64)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.5 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "Third parties with access commit to report suspected unauthorized disclosures, which are escalated and handled through incident-response procedures."@en,
+        "Les tiers ayant accès s'engagent à signaler toute communication non autorisée soupçonnée, laquelle est remontée et traitée selon les procédures d'incident."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.5" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Third-party breach notification commitments"@en,
+        "Engagements de notification des tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.5 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.6 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "Affected data subjects, regulators and others are notified of breaches and incidents."@en,
+        "Les personnes touchées, les autorités de réglementation et les autres parties concernées sont avisées des atteintes et incidents."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.6" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Breach notification"@en,
+        "Notification des atteintes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.6 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6.7 a skos:Concept ;
+    skos:broader tsc:TSC-P6 ;
+    skos:definition "On request, data subjects receive an account of their personal information held and of its disclosures."@en,
+        "Sur demande, les personnes concernées reçoivent un relevé des renseignements détenus à leur sujet et de leurs communications."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6.7" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Accounting of disclosures"@en,
+        "Relevé des communications"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P6.7 (page 65)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P7.1 a skos:Concept ;
+    skos:broader tsc:TSC-P7 ;
+    skos:definition "Personal information is kept accurate, current, complete and relevant."@en,
+        "Les renseignements personnels sont tenus exacts, à jour, complets et pertinents."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P7.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Data quality"@en,
+        "Qualité des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P7.1 (page 66)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P8.1 a skos:Concept ;
+    skos:broader tsc:TSC-P8 ;
+    skos:definition "Inquiries, complaints and disputes are received and resolved, compliance is monitored, and identified deficiencies are corrected promptly."@en,
+        "Les demandes, plaintes et différends sont reçus et réglés, la conformité est surveillée et les lacunes relevées sont corrigées promptement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P8.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Complaints handling and compliance monitoring"@en,
+        "Traitement des plaintes et surveillance de la conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-P8.1 (page 66)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1.1 a skos:Concept ;
+    skos:broader tsc:TSC-PI1 ;
+    skos:definition "Relevant information on processing objectives, data definitions and product or service specifications is produced and shared to support proper use."@en,
+        "Une information pertinente sur les objectifs de traitement, les définitions de données et les spécifications est produite et diffusée pour en permettre le bon usage."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1.1" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Processing specifications and information"@en,
+        "Spécifications et information de traitement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.1 (page 53)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1.2 a skos:Concept ;
+    skos:broader tsc:TSC-PI1 ;
+    skos:definition "Policies and procedures over inputs ensure their completeness and accuracy."@en,
+        "Des politiques et procédures encadrant les entrées en assurent l'exhaustivité et l'exactitude."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1.2" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Input controls"@en,
+        "Contrôles des entrées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.2 (page 54)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1.3 a skos:Concept ;
+    skos:broader tsc:TSC-PI1 ;
+    skos:definition "Policies and procedures govern system processing so that resulting outputs and reports meet objectives."@en,
+        "Des politiques et procédures encadrent le traitement afin que les produits et rapports qui en résultent atteignent les objectifs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1.3" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Processing controls"@en,
+        "Contrôles du traitement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.3 (page 54)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1.4 a skos:Concept ;
+    skos:broader tsc:TSC-PI1 ;
+    skos:definition "Policies and procedures ensure outputs are delivered fully, correctly and on time according to specifications."@en,
+        "Des politiques et procédures garantissent la livraison complète, exacte et ponctuelle des sorties selon les spécifications."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1.4" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Output controls"@en,
+        "Contrôles des sorties"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.4 (page 55)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1.5 a skos:Concept ;
+    skos:broader tsc:TSC-PI1 ;
+    skos:definition "Policies and procedures ensure inputs, in-process items and outputs are stored fully, correctly and on time per specifications."@en,
+        "Des politiques et procédures garantissent le stockage complet, exact et ponctuel des entrées, des éléments en cours et des sorties."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1.5" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Storage of inputs, in-process items and outputs"@en,
+        "Stockage des entrées, des éléments en cours et des sorties"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, criterion TSC-PI1.5 (page 56)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC8 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Supplemental common criterion on controlling modifications to infrastructure, software, data and procedures."@en,
+        "Critère commun supplémentaire portant sur la maîtrise des modifications apportées à l'infrastructure, aux logiciels, aux données et aux procédures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC8" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Change Management"@en,
+        "Gestion des changements"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC8 (page 45)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P1 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria on informing data subjects of privacy practices and of changes to them."@en,
+        "Critères de protection des renseignements personnels portant sur l'information des personnes concernées quant aux pratiques et à leurs changements."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Notice and Communication of Objectives Related to Privacy"@en,
+        "Avis et communication des objectifs de confidentialité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P1 (page 57)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P2 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria on offering choices and obtaining consent regarding personal information."@en,
+        "Critères portant sur l'offre de choix et l'obtention du consentement relativement aux renseignements personnels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Choice and Consent"@en,
+        "Choix et consentement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P2 (page 58)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P7 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criterion on keeping personal information accurate, complete, current and relevant."@en,
+        "Critère portant sur l'exactitude, l'exhaustivité, l'actualité et la pertinence des renseignements personnels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P7" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Quality"@en,
+        "Qualité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P7 (page 66)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P8 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criterion on handling complaints and disputes and on monitoring privacy compliance."@en,
+        "Critère portant sur le traitement des plaintes et différends et la surveillance de la conformité en matière de vie privée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P8" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Monitoring and Enforcement"@en,
+        "Surveillance et application"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P8 (page 66)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-AVL a skos:Concept ;
+    skos:definition "Category concerned with keeping information and systems usable and accessible when needed to meet the entity objectives."@en,
+        "Catégorie visant à garder l'information et les systèmes utilisables et accessibles au besoin pour atteindre les objectifs de l'entité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-AVL" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Availability"@en,
+        "Disponibilité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-AVL (page 7)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-C1 a skos:Concept ;
+    skos:broader tsc:TSC-CONF ;
+    skos:definition "Confidentiality-specific criteria on identifying, protecting and disposing of confidential information."@en,
+        "Critères propres à la confidentialité portant sur l'identification, la protection et l'élimination de l'information confidentielle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-C1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Additional Criteria for Confidentiality"@en,
+        "Critères additionnels pour la confidentialité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-C1 (page 52)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC4 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Common criteria on evaluating whether internal control components operate and on reporting deficiencies for correction."@en,
+        "Critères communs portant sur l'évaluation du fonctionnement des composantes du contrôle interne et la communication des déficiences à corriger."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Monitoring Activities"@en,
+        "Activités de pilotage"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC4 (page 30)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC9 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Supplemental common criteria on mitigating business disruption risk and managing vendor and business partner risk."@en,
+        "Critères communs supplémentaires portant sur l'atténuation des risques d'interruption des activités et la gestion des risques liés aux fournisseurs et partenaires."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC9" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Mitigation"@en,
+        "Atténuation des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC9 (page 47)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CONF a skos:Concept ;
+    skos:definition "Category concerned with protecting information designated as confidential throughout its life, from collection to final disposal."@en,
+        "Catégorie visant la protection de l'information désignée confidentielle durant tout son cycle de vie, de la collecte à l'élimination."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CONF" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Confidentiality"@en,
+        "Confidentialité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-CONF (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P3 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria on gathering personal information in line with privacy objectives and consent requirements."@en,
+        "Critères portant sur la collecte des renseignements personnels conformément aux objectifs de confidentialité et aux exigences de consentement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Collection"@en,
+        "Collecte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P3 (page 59)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P5 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria on letting data subjects view and correct their personal information."@en,
+        "Critères portant sur la possibilité pour les personnes concernées de consulter et de rectifier leurs renseignements personnels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Access"@en,
+        "Accès"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P5 (page 61)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI a skos:Concept ;
+    skos:definition "Category concerned with whether a system processes data fully, correctly, on time and only with authorization."@en,
+        "Catégorie visant un traitement des données par le système qui soit complet, exact, ponctuel et dûment autorisé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Processing Integrity"@en,
+        "Intégrité du traitement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-PI (page 7)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-A1 a skos:Concept ;
+    skos:broader tsc:TSC-AVL ;
+    skos:definition "Availability-specific criteria on capacity, environmental protection, backup and recovery."@en,
+        "Critères propres à la disponibilité portant sur la capacité, la protection environnementale, la sauvegarde et la reprise."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-A1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Additional Criteria for Availability"@en,
+        "Critères additionnels pour la disponibilité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-A1 (page 50)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC2 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Common criteria on producing quality information and communicating it internally and to outside parties to support internal control."@en,
+        "Critères communs portant sur la production d'une information de qualité et sa communication interne et externe au service du contrôle interne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC2" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Information and Communication"@en,
+        "Information et communication"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC2 (page 19)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC5 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Common criteria on selecting, developing and deploying control activities, including technology general controls, via policies and procedures."@en,
+        "Critères communs portant sur le choix, l'élaboration et le déploiement des activités de contrôle, y compris les contrôles généraux informatiques, par des politiques et procédures."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC5" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Control Activities"@en,
+        "Activités de contrôle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC5 (page 31)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P4 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria restricting how personal information is used, kept and destroyed to the purposes stated."@en,
+        "Critères portant sur la limitation de l'utilisation, de la conservation et de l'élimination des renseignements personnels aux fins déclarées."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P4" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Use, Retention, and Disposal"@en,
+        "Utilisation, conservation et élimination"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P4 (page 60)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC3 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Common criteria on setting objectives and identifying, analyzing and assessing risks, including fraud and significant change."@en,
+        "Critères communs portant sur la fixation des objectifs et l'identification, l'analyse et l'évaluation des risques, y compris la fraude et les changements importants."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC3" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Risk Assessment"@en,
+        "Évaluation des risques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC3 (page 24)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC1 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Common criteria on the tone, structures, competence and accountability that form the foundation of internal control."@en,
+        "Critères communs portant sur le ton, les structures, la compétence et la responsabilisation qui fondent le contrôle interne."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Control Environment"@en,
+        "Environnement de contrôle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC1 (page 14)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC7 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Supplemental common criteria on detecting vulnerabilities and anomalies and on handling and recovering from security incidents."@en,
+        "Critères communs supplémentaires portant sur la détection des vulnérabilités et anomalies ainsi que la gestion des incidents de sécurité et le rétablissement."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC7" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "System Operations"@en,
+        "Exploitation des systèmes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC7 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PI1 a skos:Concept ;
+    skos:broader tsc:TSC-PI ;
+    skos:definition "Processing-integrity-specific criteria on processing specifications, inputs, processing, outputs and storage."@en,
+        "Critères propres à l'intégrité du traitement portant sur les spécifications, les entrées, le traitement, les sorties et le stockage."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PI1" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Additional Criteria for Processing Integrity (Over the Provision of Services or the Production, Manufacturing, or Distribution of Goods)"@en,
+        "Critères additionnels pour l'intégrité du traitement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-PI1 (page 53)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-P6 a skos:Concept ;
+    skos:broader tsc:TSC-PRIV ;
+    skos:definition "Privacy criteria on third-party disclosures, disclosure records, vendor commitments and breach notification."@en,
+        "Critères portant sur les communications à des tiers, les registres de communication, les engagements des fournisseurs et la notification des atteintes."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-P6" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy Criteria Related to Disclosure and Notification"@en,
+        "Communication et notification"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-P6 (page 63)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-CC6 a skos:Concept ;
+    skos:broader tsc:TSC-SEC ;
+    skos:definition "Supplemental common criteria on restricting, granting and removing logical and physical access and blocking unauthorized access."@en,
+        "Critères communs supplémentaires portant sur la restriction, l'octroi et le retrait des accès logiques et physiques et le blocage des accès non autorisés."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-CC6" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Logical and Physical Access Controls"@en,
+        "Contrôles des accès logiques et physiques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, group TSC-CC6 (page 34)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-PRIV a skos:Concept ;
+    skos:definition "Category concerned with how personal information is collected, used, kept, disclosed and disposed of in line with entity objectives."@en,
+        "Catégorie visant la collecte, l'utilisation, la conservation, la communication et l'élimination des renseignements personnels conformément aux objectifs de l'entité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-PRIV" ;
+    skos:note "French label translated by CRGO."@en ;
+    skos:prefLabel "Privacy"@en,
+        "Protection des renseignements personnels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-PRIV (page 8)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+tsc:TSC-SEC a skos:Concept ;
+    skos:definition "Category concerned with protecting information and systems from unauthorized access, disclosure and damage; its common criteria apply to every category."@en,
+        "Catégorie visant la protection de l'information et des systèmes contre l'accès, la divulgation et les dommages non autorisés; ses critères communs valent pour toutes les catégories."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/tsc> ;
+    skos:notation "TSC-SEC" ;
+    skos:note "Label written by CRGO: the source gives no heading for this item."@en ;
+    skos:prefLabel "Security (Common Criteria)"@en,
+        "Sécurité (critères communs)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/tsc> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "AICPA 2017 TSC, category TSC-SEC (page 7)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/tsc> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "AICPA" ;
+    dcterms:rights "Identifiers and headings (c) AICPA, cited for reference and mapping only under the project owner's licence to use the document; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "AICPA TSP section 100 (data/frameworks/grca/tsc.tsv)" ;
+    dcterms:title "AICPA 2017 Trust Services Criteria (revised points of focus, 2022)"@en,
+        "Critères des services de confiance 2017 de l'AICPA (points d'attention révisés, 2022)"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/tsc> ;
+    owl:versionInfo "2017 (points of focus revised 2022)" ;
+    skos:hasTopConcept tsc:TSC-AVL,
+        tsc:TSC-CONF,
+        tsc:TSC-PI,
+        tsc:TSC-PRIV,
+        tsc:TSC-SEC ;
+    skos:scopeNote "Categories and criterion groups carry official headings; criteria carry CRGO labels. CC1-CC5 definitions name the COSO 2013 principle each criterion states it relates to. The common criteria (CC1-CC9) are placed under Security although they apply to every category. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

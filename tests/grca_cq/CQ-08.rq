@@ -1,0 +1,10 @@
+# CQ-08 Which earlier assessments or determinations call for review after a regulatory change? Either a trigger names
+# them, or they concern the changed provision and were made before the change was identified. Historical results are
+# not modified: they are listed for review.
+SELECT DISTINCT ?change ?record ?how WHERE {
+  ?change a {{RegulatoryChange}} ; {{identifiedOn}} ?idOn .
+  { ?t {{triggeredBy}} ?change ; {{requiresReviewOf}} ?record . BIND("named by a trigger" AS ?how) }
+  UNION
+  { ?change {{changeOf}} ?prov ; {{identifiedOn}} ?idOn2 . VALUES ?rp { {{complianceWith}} {{reportableUnder}} {{applicabilityOf}} } ?record ?rp ?prov ; {{assessedOn}} ?on .
+    FILTER(?on < ?idOn2) BIND("concerns the changed provision" AS ?how) }
+}

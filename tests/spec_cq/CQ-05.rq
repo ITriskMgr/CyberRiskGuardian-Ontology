@@ -1,0 +1,7 @@
+# CQ-05: What evidence supports each control effectiveness claim, and when was it gathered?
+# Every assessment is listed; an assessment without evidence shows an empty ?evidence (an evidence gap), and two
+# assessments of the same measure are both returned, so contradictions stay visible.
+SELECT ?measure ?ca ?result ?assessed ?evidence ?gathered WHERE {
+  ?ca {{evaluatesControlMeasure}} ?measure ; {{hasTestResult}} ?result ; {{assessedOn}} ?assessed .
+  OPTIONAL { ?ca {{hasEvidence}} ?evidence . OPTIONAL { ?evidence dcterms:date ?gathered } }
+} ORDER BY ?measure ?assessed

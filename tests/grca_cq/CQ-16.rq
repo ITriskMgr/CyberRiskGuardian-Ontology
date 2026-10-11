@@ -1,0 +1,7 @@
+# CQ-16 Which results written back by the DSS are proposed rather than approved, and has any been treated as a
+# decision? (A proposed estimate must not be cited as the subject of a risk acceptance or funding decision.)
+SELECT ?result ?status ?model ?version ?misused WHERE {
+  ?result a {{AnalyticalResult}} ; {{modelName}} ?model ; {{modelVersion}} ?version .
+  OPTIONAL { ?result {{governanceStatus}} ?status }
+  BIND(EXISTS { ?d {{decisionOn}} ?result } || EXISTS { ?ra a {{RiskAcceptance}} ; {{hasEvidence}} ?result } AS ?misused)
+}

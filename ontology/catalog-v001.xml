@@ -6,9 +6,21 @@
   <uri name="https://w3id.org/crgo/crgo-core" uri="crgo-core.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-measure" uri="crgo-measure.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-crg" uri="crgo-crg.ttl"/>
+  <uri name="https://w3id.org/crgo/imports/prov-slice" uri="../imports/prov-slice.ttl"/>
+  <uri name="https://w3id.org/crgo/imports/time-slice" uri="../imports/time-slice.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-evidence" uri="crgo-evidence.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-org" uri="crgo-org.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-vuln" uri="crgo-vuln.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-grc" uri="crgo-grc.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-mapping" uri="crgo-mapping.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-governance" uri="crgo-governance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-assurance" uri="crgo-assurance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-audit" uri="crgo-audit.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-incident" uri="crgo-incident.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../data/abox/crgo-library.ttl"/>
+  <uri name="https://w3id.org/crgo/data/workprogrammes" uri="../data/abox/crgo-workprogrammes.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/attack" uri="vocab/attack.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/ccm41" uri="vocab/ccm41.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/cobit2019" uri="vocab/cobit2019.ttl"/>
@@ -25,5 +37,19 @@
   <uri name="https://w3id.org/crgo/vocab/mappings" uri="vocab/mappings.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/a21" uri="vocab/a21.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/pipeda" uri="vocab/pipeda.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/gdpr" uri="vocab/gdpr.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/osfi-b13" uri="vocab/osfi-b13.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/legal" uri="vocab/legal.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/sources" uri="vocab/sources.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/sp800-53a" uri="vocab/sp800-53a.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iia-gias" uri="vocab/iia-gias.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iia-tr" uri="vocab/iia-tr.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/itaf" uri="vocab/itaf.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/tsc" uri="vocab/tsc.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/coso-erm" uri="vocab/coso-erm.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso19011" uri="vocab/iso19011.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso27007" uri="vocab/iso27007.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso27008" uri="vocab/iso27008.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso37301" uri="vocab/iso37301.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/iso37302" uri="vocab/iso37302.ttl"/>
 </catalog>

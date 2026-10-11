@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://w3id.org/crgo/contracts/dss/v1/risk-context.schema.json",
+  "title": "CRGO risk context for the CyberRiskGuardian DSS (read document, contract dss/v1)",
+  "description": "What CRGO gives the decision-support system for one organisation and one scenario at a date. CRGO states facts, links and their status; it never computes risk scores (ADR-007). Organisation identifiers are IRIs under the organisation's own base, never under https://w3id.org/crgo/ (ADR-008).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "contract", "ontologyRelease", "organizationId", "scenario", "asOf", "generatedAt"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "contract": {"const": "dss/v1"},
+    "ontologyRelease": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "organizationId": {"$ref": "#/$defs/orgIri"},
+    "asOf": {"type": "string", "format": "date"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "scenario": {
+      "type": "object", "additionalProperties": false, "required": ["id", "label", "kind"],
+      "properties": {
+        "id": {"$ref": "#/$defs/iri"}, "label": {"type": "string"},
+        "kind": {"enum": ["assessment", "library"]},
+        "knowledgeStatus": {"const": "analytical-hypothesis", "description": "A scenario is a hypothesis about what could happen, never an observed fact."},
+        "threatEvents": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+        "techniques": {"type": "array", "items": {"type": "string", "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"}}
+      }
+    },
+    "relatedAssets": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "relation"],
+      "properties": {"id": {"$ref": "#/$defs/iri"}, "label": {"type": "string"}, "relation": {"enum": ["affects", "depends-on", "protected-by-control"]}}}},
+    "candidateObligations": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "applicability"],
+      "properties": {
+        "id": {"$ref": "#/$defs/iri"}, "notation": {"type": "string"}, "instrument": {"$ref": "#/$defs/iri"},
+        "applicability": {"enum": ["applicable", "not-applicable", "potentially-applicable", "unknown", "not-assessed"]},
+        "unresolvedConditions": {"type": "array", "items": {"$ref": "#/$defs/iri"}},
+        "complianceState": {"enum": ["satisfied", "partially-satisfied", "unsatisfied", "not-assessed", "undetermined"]},
+        "evidenceGap": {"type": "string"}}}},
+    "controlLinks": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "mappingStatus"],
+      "properties": {
+        "id": {"$ref": "#/$defs/iri"}, "label": {"type": "string"},
+        "mappingStatus": {"enum": ["organisation-fact", "approved", "proposed"]},
+        "controlStatus": {"enum": ["in-place", "planned", "proposed"]},
+        "latestAssessments": {"type": "array", "items": {
+          "type": "object", "additionalProperties": false, "required": ["id", "result", "line", "assessedOn"],
+          "properties": {"id": {"$ref": "#/$defs/iri"}, "result": {"enum": ["effective", "partly-effective", "ineffective", "not-tested"]},
+                         "line": {"enum": ["self-assessment", "second-line", "internal-audit", "external", "unstated"]},
+                         "aspect": {"enum": ["design", "implementation", "operation"]}, "assessedOn": {"type": "string", "format": "date"}}}},
+        "openFindings": {"type": "array", "items": {"$ref": "#/$defs/iri"}}}}},
+    "estimates": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "kind", "value"],
+      "properties": {"id": {"$ref": "#/$defs/iri"}, "kind": {"type": "string"}, "value": {"type": "number"},
+                     "scale": {"type": "string"}, "confidence": {"enum": ["high", "medium", "low"]},
+                     "assumptions": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+                     "distribution": {"type": "object", "additionalProperties": false, "properties": {"family": {"type": "string"}, "parameters": {"type": "string"}}},
+                     "evidenceQuality": {"enum": ["high", "moderate", "low", "very-low"]}}}},
+    "evidenceRefs": {"type": "array", "items": {"$ref": "#/$defs/iri"}},
+    "caveats": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "iri": {"type": "string", "pattern": "^https?://"},
+    "orgIri": {"type": "string", "pattern": "^https?://", "not": {"pattern": "^https://w3id\\.org/crgo/"}},
+    "ref": {"type": "object", "additionalProperties": false, "required": ["id"], "properties": {"id": {"$ref": "#/$defs/iri"}, "label": {"type": "string"}}}
+  }
+}

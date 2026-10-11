@@ -1,0 +1,333 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iso37302: <https://w3id.org/crgo/vocab/iso37302/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iso37302:5.1 a skos:Concept ;
+    skos:broader iso37302:5 ;
+    skos:definition "Introductory remarks on the evaluation method."@en,
+        "Remarques introductives sur la méthode d'évaluation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "5.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "General"@en,
+        "Généralités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 5.1 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:5.2 a skos:Concept ;
+    skos:broader iso37302:5 ;
+    skos:definition "Rating scales used to score effectiveness."@en,
+        "Échelles de notation servant à coter l'efficacité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "5.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation scales"@en,
+        "Échelles d'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 5.2 (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:5.3 a skos:Concept ;
+    skos:broader iso37302:5 ;
+    skos:definition "Structured set of indicators against which effectiveness is judged."@en,
+        "Ensemble structuré d'indicateurs servant à juger l'efficacité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "5.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation indicator framework"@en,
+        "Cadre d'indicateurs d'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 5.3 (page 3)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:6.1 a skos:Concept ;
+    skos:broader iso37302:6 ;
+    skos:definition "Criteria for how well the compliance system was designed and set up, from context to resourcing."@en,
+        "Critères sur la qualité de conception et d'instauration du système, du contexte jusqu'aux ressources."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "6.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Planning and establishment of the compliance management system"@en,
+        "Planification et établissement du système de management de la conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 6.1 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:6.2 a skos:Concept ;
+    skos:broader iso37302:6 ;
+    skos:definition "Criteria for how well the designed compliance system is put into operation."@en,
+        "Critères sur la qualité de mise en exploitation du système de conformité conçu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "6.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Implementation of the planned compliance management system"@en,
+        "Mise en œuvre du système de management de la conformité planifié"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 6.2 (page 20)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:6.3 a skos:Concept ;
+    skos:broader iso37302:6 ;
+    skos:definition "Criteria covering monitoring, audit, management review, correction and improvement of the compliance system."@en,
+        "Critères portant sur surveillance, audit, revue de direction, correction et amélioration du système."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "6.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluating performance and improvement of the compliance management system"@en,
+        "Évaluation des performances et amélioration du système de management de la conformité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 6.3 (page 33)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:7.1 a skos:Concept ;
+    skos:broader iso37302:7 ;
+    skos:definition "Purposes an effectiveness evaluation serves."@en,
+        "Finalités d'une évaluation de l'efficacité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "7.1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Objectives"@en,
+        "Objectifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 7.1 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:7.2 a skos:Concept ;
+    skos:broader iso37302:7 ;
+    skos:definition "Orderly sequence for performing the evaluation."@en,
+        "Séquence ordonnée pour réaliser l'évaluation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "7.2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Structured approach"@en,
+        "Approche structurée"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 7.2 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:7.3 a skos:Concept ;
+    skos:broader iso37302:7 ;
+    skos:definition "Who performs the evaluation."@en,
+        "Personnes chargées de l'évaluation."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "7.3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluators"@en,
+        "Évaluateurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 7.3 (page 41)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:7.4 a skos:Concept ;
+    skos:broader iso37302:7 ;
+    skos:definition "Designing, executing and reporting on the evaluation, including responses."@en,
+        "Concevoir, exécuter et rapporter l'évaluation, y compris les suites données."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "7.4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation method"@en,
+        "Méthode d'évaluation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 7.4 (page 41)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:1 a skos:Concept ;
+    skos:definition "States the evaluation topics covered, that no new requirements are added, and that any organization may use it."@en,
+        "Précise les sujets d'évaluation traités, l'absence d'exigences nouvelles et l'applicabilité à tout organisme."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "1" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Scope"@en,
+        "Domaine d'application"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 1 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:2 a skos:Concept ;
+    skos:definition "Lists ISO 37301 as the indispensable reference."@en,
+        "Désigne l'ISO 37301 comme référence indispensable."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "2" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Normative references"@en,
+        "Références normatives"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 2 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:3 a skos:Concept ;
+    skos:definition "Vocabulary for effectiveness evaluation, adding indicator terms to those of ISO 37301."@en,
+        "Vocabulaire de l'évaluation de l'efficacité, ajoutant des termes sur les indicateurs à ceux de l'ISO 37301."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "3" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Terms and definitions"@en,
+        "Termes et définitions"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 3 (page 1)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:4 a skos:Concept ;
+    skos:definition "Guiding principles for evaluating compliance system effectiveness."@en,
+        "Principes directeurs pour évaluer l'efficacité du système de conformité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "4" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "General principles"@en,
+        "Principes généraux"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 4 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:A a skos:Concept ;
+    skos:definition "Informative diagram depicting the indicator framework."@en,
+        "Schéma informatif représentant le cadre d'indicateurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "A" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Annex A (informative) Figure of the evaluation indicator framework"@en,
+        "Annexe A (informative) Figure du cadre d'indicateurs d'évaluation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, annex A (page 43)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:5 a skos:Concept ;
+    skos:definition "How the effectiveness evaluation is structured."@en,
+        "Structuration de l'évaluation de l'efficacité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "5" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation methodology"@en,
+        "Méthodologie d'évaluation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 5 (page 2)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:6 a skos:Concept ;
+    skos:definition "Criteria for judging each part of the compliance system across its life cycle."@en,
+        "Critères pour juger chaque volet du système de conformité tout au long de son cycle."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "6" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation criteria"@en,
+        "Critères d'évaluation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 6 (page 5)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+iso37302:7 a skos:Concept ;
+    skos:definition "How an effectiveness evaluation is organized and carried out."@en,
+        "Organisation et déroulement d'une évaluation de l'efficacité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/iso37302> ;
+    skos:notation "7" ;
+    skos:note "English heading official; French heading translated by CRGO."@en ;
+    skos:prefLabel "Evaluation process"@en,
+        "Processus d'évaluation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/iso37302> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "ISO 37302:2025, clause 7 (page 40)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" .
+
+<https://w3id.org/crgo/vocab/iso37302> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:publisher "ISO" ;
+    dcterms:rights "Clause numbers and headings (c) ISO, cited for reference and mapping only; definitions are CRGO paraphrases. No text is reproduced."@en ;
+    dcterms:source "ISO 37302:2025 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
+    dcterms:title "ISO 37302:2025 Compliance management systems — Guidance for the evaluation of effectiveness: clause structure"@en,
+        "ISO 37302:2025 Systèmes de management de la conformité — Lignes directrices pour l'évaluation de l'efficacité : structure des articles"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso37302> ;
+    owl:versionInfo "First edition, 2025-07" ;
+    skos:hasTopConcept iso37302:1,
+        iso37302:2,
+        iso37302:3,
+        iso37302:4,
+        iso37302:5,
+        iso37302:6,
+        iso37302:7,
+        iso37302:A ;
+    skos:scopeNote "Clauses to two levels and annex headings. Definitions are CRGO paraphrases written for this vocabulary; no text of the standard is reproduced. Obtain the standard from its publisher."@en .
+

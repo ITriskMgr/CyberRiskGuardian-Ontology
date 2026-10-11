@@ -1,0 +1,21 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:ca a crgo:CRGO_0000347 ;
+    crgo:CRGO_0000213 x:ev ;
+    crgo:CRGO_0000435 x:bob ;
+    crgo:CRGO_0000436 x:m ;
+    crgo:CRGO_0000437 crgo:CRGO_0000403 ;
+    crgo:CRGO_0000464 "2026-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000605 .
+
+<https://example.org/crgo-test/fixture/neg-grca-stale-evidence-warning> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.9.0 GRCA): must be rejected."@en ;
+    skos:note "expect: had expired" .
+
+x:ev crgo:CRGO_0000838 "2025-12-31T00:00:00"^^xsd:dateTime .
+

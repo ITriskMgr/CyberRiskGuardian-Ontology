@@ -307,3 +307,72 @@ GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND,
 - Banking synonyms, a small ranking penalty for healthcare wording when the profile has no health term, and four proposed commonly assessed risks. These changes were derived from the ACRB evaluation, so ACRB can no longer measure them; the next recall measurement needs a new case from another sector.
 
 **Decision of the project owner (2026-10-11).** 0.8.0 approved in full: the three vocabularies, all cross-references, the CSF French labels, the EPSS and VCDB evidence, the written scenarios AUTH-001 to AUTH-006 with their links (each through its own group `links/authored/<key>`), the four added commonly assessed risks, the banking synonyms and ranking change, and CQ24–CQ26. GDPR is left open: the text supplied is the UK GDPR.
+
+## 15. EU General Data Protection Regulation (0.9.0 draft, 2026-10-11)
+
+- **Text.** The project owner supplied the Official Journal PDF of Regulation (EU) 2016/679 (OJ L 119, 4.5.2016; CELEX 32016R0679) after the 0.8.0 review found that the earlier file was the UK GDPR. The UK GDPR is not modelled; it is a separate regime that would get its own vocabulary if needed. The 2018 corrigendum was not reviewed.
+- **Scope.** 40 provisions chosen for cybersecurity risk assessment and for parity with the Loi 25 vocabulary: what makes the Regulation apply to an organisation outside the EU (Art. 3(2)), the breach and pseudonymisation definitions, security and breach duties and their exemptions, accountability and governance, transfers, and the consequences (corrective powers, compensation, fines and the factors that set them). Notations are `GDPR Art. n(p)(x)`.
+- **Correspondences.** As for PIPEDA, `skos:relatedMatch` from the Loi 25 obligation to the GDPR provision: the duties are comparable, not identical. An independent review (20 correct, 6 partial, 1 leaning wrong) led to these changes: the six partial correspondences (5(2)↔3.1, 9↔12, 22↔12.1, 24↔3.2, 35(1)↔3.3, 37(1)↔3.1) get confidence low with the reason stated; the 4% fine tier (Art. 83(5)) corresponds to Loi 25's administrative maximum (s. 90.12), not to its penal fines (s. 91), because both GDPR tiers are administrative; Art. 33(2) (processor notifies the controller) corresponds to s. 18.3; the definitions of Arts. 13, 17, 30, 83(4) and 83(5) were completed (exceptions, the 250-employee exemption, all infringements of the 4% tier); the scope label covers processors; and Arts. 4(5), 6(1), 33(3), 58(2) and 83(2) were added.
+- **Differences an analyst should keep in mind.** Notification thresholds differ (GDPR: risk, 72 hours, and high risk for individuals; Loi 25: risk of serious injury, promptly). The GDPR impact assessment is triggered by high risk, the Loi 25 one by any information-system project. A data protection officer is required only in listed cases, whereas Loi 25 always has a person in charge.
+
+## 16. v0.8 → v1.0 specification: Stage 0 decisions (2026-10-11)
+
+The project owner supplied *CRGO v0.8 to v1.0 Claude Implementation Specification* (11 October 2026). Stage 0 produced `docs/baseline/` (inventory, source registry, gap analysis, Sprint 1 plan). **Decisions of the project owner (2026-10-11):**
+- D1: the GDPR and Sprint 1 are released together as 0.9.0.
+- D2: the four existing modules stay unchanged; new content goes into new modules.
+- D3: each mapping meaning gets its own relation (sub-property of `skos:relatedMatch`), keeping the existing annotations; no reified record per link.
+- D4: EPSS scores become dated observations; the approved 0.8.0 *likelihood* individuals are deprecated with a pointer to their replacement.
+- D5: ISO/IEC 27002, COBIT and CCM short titles are kept, with attribution.
+- D6: the project owner downloads the official PDFs of the Québec and federal texts and OSFI B-13; CRGO records their dates and checksums.
+- D7: a new fictional test company is built; the teaching cases stay reserved for measuring identification recall.
+
+## 17. Sprint 1 of the v0.8 → v1.0 specification (0.9.0, prepared 2026-10-11)
+
+Built while the project owner was away ("Complete all the work now and proceed to get everything ready", 2026-10-11), within decisions D1–D7. Design records: `docs/adr/ADR-001` to `ADR-006`. Points decided by Claude in the owner's absence, for review:
+- **Modules and names**: `crgo-evidence`, `crgo-org`, `crgo-vuln`, `crgo-grc`, `crgo-mapping`; control assessment placed in `crgo-grc` rather than a separate assurance module.
+- **W3C imports as slices**: neither PROV-O nor OWL-Time is OWL 2 DL as published, so ROBOT BOT modules are imported (as for CCO). OWL-Time instants use `time:inXSDDateTimeStamp`, because HermiT rejects `xsd:date` literals.
+- **Dates left unknown rather than guessed**: the Québec Acts' original in-force dates and OSFI B-13's effective date are not printed in the PDFs used, so no in-force interval is asserted for them; the GDPR interval (2016-05-24, applying from 2018-05-25) comes from its Art. 99.
+- **Reading of organisation profiles** in the applicability evaluator (ADR-004): unlisted values count as absent only where the profile declares the property complete (*profile complete for*), recorded as an Assumption on every assessment.
+- **Interpretive conditions** (5) can only yield *potentially applicable*.
+- **Independent review (2026-10-11)** of the Sprint 1 work found 4 high, 8 medium and 5 low issues (missing data turned into *not applicable*; Loi 25 territorial test; PIPEDA rules for financial institutions, citations and commercial activity; jurisdiction of the federal order used as a place; satisfied determinations without evidence; untested exception; vacuous checks; counts). All were fixed before release, except the documented open points of ADR-004.
+- **Proposed links**: library links whose approval group is unapproved move to `crgo-library-proposed.ttl`; links proposed without a group (second themes, case-to-family *refines*, rule-added weaknesses) stay in the library because identification depends on them; to be revisited.
+- **Specification adaptations** listed in `docs/baseline/gap_analysis.md` section D (no thirteen-module split, no folder migration, no reified record per link, no single-scenario constraint on risk assessments, since a CRG assessment covers many scenarios).
+
+**Decision of the project owner (2026-10-11, 14:28).** 0.9.0 approved: the five term groups (138 terms), the 29 source records, the 11 legal instruments, all 19 applicability conditions including the 5 interpretive ones (option a), ADR-001 to ADR-006, the Sprint 1 test assets; opening the w3id.org pull request and publishing the release approved.
+
+## 18. GRCA specification and the remaining-gaps specification (2026-10-11)
+
+The project owner supplied *CRGO GRCA Audit: Claude Implementation Specification* (v1.0) and *CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains, with a Formal Interface to the Separate CyberRiskGuardian DSS* (draft v1.0; called the remaining-gaps specification here: 20 domain packages and a CRGO–CyberRiskGuardian DSS contract). Phase 0 of the first: `docs/baseline/grca_phase0.md`. **Decisions of the project owner (2026-10-11, 15:10):**
+- G1: the GRCA work is folded into 0.9.0 (no separate 0.10.0); the remaining-gaps work is also to be added to this version.
+- G2: three new modules, `crgo-governance`, `crgo-audit` (with remediation) and `crgo-assurance`; compliance additions in `crgo-grc`.
+- G3: the 0.9.0 control assessment is reused as the test execution, with who performed it (management, second line, internal audit, external assurer).
+- G4: all 3,715 SP 800-53A assessment objectives are imported.
+- G5: the project owner states that he is allowed to use the IIA, ISACA, ISO, COSO and AICPA texts and asked Claude to find them online.
+
+## 19. Remaining-gaps scope, DSS contract, tenants and licensed texts (2026-10-11)
+
+Phase 0 of the remaining-gaps specification: `docs/baseline/remaining_gaps_phase0.md`. **Decisions of the project owner (2026-10-11):**
+- R-a: 0.9.0 = the GRCA sprint plus packages R1–R9 (DSS boundary, identifiers and graph layers, DSS contract, policy and exceptions, control effectiveness, decision and uncertainty records, regulatory change, minimal incidents, competency questions); D02–D04 and D11–D20 move to the next version.
+- R-b: the DSS contract is JSON Schema documents exchanged through CRGO's MCP server, with two new tools, `crgo_risk_context` (read) and `crgo_submit_assessment` (write, stored as *proposed*); "the contract the document asks for should use what exists".
+- R-c: one graph per organisation under its own IRI base (never `https://w3id.org/crgo/`); reference files never point to organisation IRIs; recorded in ADR-008 and enforced by a check ("apply R-c as described", 15:43).
+- R-d: after G5, rather than Claude retrieving them online, the project owner supplied the licensed documents himself (IIA GIAS and Topical Requirements, ISACA ITAF, AICPA TSC, COSO ERM summary, ISO 19011, 27007, 27008, 37301, 37302 previews); they are used "as-is" but published as identifiers, short titles with attribution and CRGO's own paraphrases, as for ISO/IEC 27002; full texts may feed a private build only.
+
+**Points decided by Claude while building, for review** (`docs/review-0.9.0-grca.md`):
+- A fourth new module, `crgo-incident`, for package R8, which G2 did not foresee.
+- Group approvals of 2026-10-11 (`terms/evidence`, `terms/grc`, `terms/mapping`, `sources/records`) are scoped to what existed then (`GROUP_SCOPE` in `src/build.py`; record list in `pipeline/vocab/build_legal.py`), so terms and records added to those groups afterwards stay proposed.
+- Free-text data properties of the new modules have no datatype range, so that English and French values can carry language tags (a tagged literal against `xsd:string` made the sample inconsistent).
+- Evidence quality, deficiency severity, finding significance and engagement rating use CRGO's own scales: the documents held name no common scale, and the PCAOB terms were not used because the standard was not available.
+- None of the IIA documents held states an effective date; publication dates are recorded and flagged. COSO English titles are CRGO translations. Two ISO/IEC TS 27008 headings keep the source's typos. The COSO presentation file was rejected as a source (it shows the 2016 draft).
+- SP 800-53A: two objectives of SI-2(7) have no label in the 5.2.0 catalogue and get derived identifiers; seven method labels repeat in the catalogue, so method notations are built from the 800-53 control label; organisation-defined parameters are shown as `[organization-defined: label]`.
+- The specification's DSS example values `modelVersion: "TBD"` and `organizationId: "org-demo"` are not accepted by the contract (ADR-007).
+- The MediBec teaching case keeps its `https://w3id.org/crgo/data/medibec/` IRIs (grandfathered in ADR-008).
+
+**Answers of the project owner to the review points (2026-10-11, 18:04):**
+- `crgo-incident` is kept as a separate module.
+- The IIA effective dates are not available; the publication dates stay, flagged as such.
+- COSO English titles as CRGO translations: accepted.
+- CRGO's own scales for evidence quality, deficiency severity and finding significance: accepted.
+- The alternative label "hypothesis" is removed from the approved term *assumption* (CRGO_0000339), so that it no longer competes with *analytical hypothesis*; the term is otherwise unchanged and stays approved.
+- w3id.org: the open pull request #6862 is not merged (upstream `master` still carries only the original CRGO rules of #6858, checked by git fetch at 18:10); the extra commit stays local until the project owner decides.
+
+**Decision of the project owner (2026-10-11, 18:12).** All 13 groups of `docs/review-0.9.0-grca.md` approved: the four new modules and the additions to evidence, grc and mapping (387 terms), SP 800-53A and its 1,014 *evaluates control* links, the ten licensed-standard vocabularies, the 15 source records, the illustrative work programmes (now imported by `crgo-full`), ADR-007 to ADR-009, the DSS contract dss/v1, the GRCA test assets, and the w3id.org rules (commit c0a4bdb pushed to the fork branch of PR #6862, which is still open). Release of 0.9.0 awaits the project owner's go-ahead.

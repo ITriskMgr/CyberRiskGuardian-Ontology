@@ -301,7 +301,7 @@ a21:A-2.1_s._8.1 a skos:Concept ;
     dcterms:source "LégisQuébec, CQLR c. A-2.1 (French and English texts); see data/frameworks/a21.tsv" ;
     dcterms:title "Québec Act respecting access to documents held by public bodies and the protection of personal information: obligations"@en,
         "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels : obligations"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/a21> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/a21> ;
     owl:versionInfo "CQLR c. A-2.1, as consolidated in LégisQuébec, current to 2026-08-12" ;
     skos:hasTopConcept a21:A-2.1_s._63.1,
         a21:A-2.1_s._63.10,
