@@ -366,3 +366,11 @@ Phase 0 of the remaining-gaps specification: `docs/baseline/remaining_gaps_phase
 - SP 800-53A: two objectives of SI-2(7) have no label in the 5.2.0 catalogue and get derived identifiers; seven method labels repeat in the catalogue, so method notations are built from the 800-53 control label; organisation-defined parameters are shown as `[organization-defined: label]`.
 - The specification's DSS example values `modelVersion: "TBD"` and `organizationId: "org-demo"` are not accepted by the contract (ADR-007).
 - The MediBec teaching case keeps its `https://w3id.org/crgo/data/medibec/` IRIs (grandfathered in ADR-008).
+
+**Answers of the project owner to the review points (2026-10-11, 18:04):**
+- `crgo-incident` is kept as a separate module.
+- The IIA effective dates are not available; the publication dates stay, flagged as such.
+- COSO English titles as CRGO translations: accepted.
+- CRGO's own scales for evidence quality, deficiency severity and finding significance: accepted.
+- The alternative label "hypothesis" is removed from the approved term *assumption* (CRGO_0000339), so that it no longer competes with *analytical hypothesis*; the term is otherwise unchanged and stays approved.
+- w3id.org: the open pull request #6862 is not merged (upstream `master` still carries only the original CRGO rules of #6858, checked by git fetch at 18:10); the extra commit stays local until the project owner decides.

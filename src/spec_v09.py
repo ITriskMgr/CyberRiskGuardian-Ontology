@@ -46,7 +46,7 @@ CLASSES_09 = [
 ("Assumption", "evidence", [DESC], "assumption", "hypothèse",
  "A statement taken as true without verification for an estimate, an assessment or a decision, recorded so that the result can be reviewed when the statement turns out to be false or changes.",
  "Énoncé tenu pour vrai sans vérification aux fins d'une estimation, d'une appréciation ou d'une décision, consigné afin que le résultat puisse être revu si l'énoncé se révèle faux ou change.",
- ["SPEC"], "H", "Specification sections 6, 7 and 11 (assessments depend on assumptions).", [("hypothesis", "en")]),
+ ["SPEC"], "H", "Specification sections 6, 7 and 11 (assessments depend on assumptions). Alt label 'hypothesis' removed 2026-10-11 (project owner), to keep it apart from analytical hypothesis.", []),
 # ---- vuln
 ("EPSSObservation", "vuln", ["Observation"], "EPSS observation", "observation EPSS",
  "An observation of the Exploit Prediction Scoring System score of a published vulnerability on a given day: FIRST's estimated probability that the vulnerability is exploited in the wild in the following 30 days, with its percentile among all scored vulnerabilities. It concerns the vulnerability in general, not its presence in any organisation, and it is not the likelihood of a risk scenario.",

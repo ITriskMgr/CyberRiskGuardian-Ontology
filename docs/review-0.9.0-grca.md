@@ -7,7 +7,7 @@ Prepared 2026-10-11, after an independent review whose 4 high, 9 medium and 10 l
 | 1 | Terms `crgo-governance` (`terms/governance`) | 78 terms + 2 schemes: governing body, committees, Three Lines roles, role assignments, delegation, oversight, independence; policy, statement, standard, procedure, baseline, policy exception, compensating control; decision records, conflict-of-interest declarations | Approve |
 | 2 | Terms `crgo-assurance` (`terms/assurance`) | 92 terms + 7 schemes: evidence sub-types and metadata, sufficiency, external assurance reports and CUECs, operating effectiveness, deficiency, sampling | Approve |
 | 3 | Terms `crgo-audit` (`terms/audit`) | 97 terms + 5 schemes: the audit lifecycle from universe to closure and reopening | Approve |
-| 4 | Terms `crgo-incident` (`terms/incident`), **a fourth module not foreseen by G2** | 31 terms + 2 schemes: event, alert, incident confirmation, reportability assessment, timeline, lesson learned | Approve the module and its terms, or ask to fold them into `crgo-grc` |
+| 4 | Terms `crgo-incident` (`terms/incident`), **a fourth module not foreseen by G2** | 31 terms + 2 schemes: event, alert, incident confirmation, reportability assessment, timeline, lesson learned | Module kept (your answer, 18:04); approve its terms |
 | 5 | Additions to `crgo-evidence`, `crgo-grc`, `crgo-mapping` (re-approve `terms/evidence`, `terms/grc`, `terms/mapping` without scope) | 43 + 40 + 6 terms: knowledge status, access status, evidence quality, distributions, hypothesis, analytical result; assessment method, assessor line, instrument version, amendment, regulatory change, reassessment trigger, nonconformity, evidence requirement, obligated party; six mapping relations | Approve |
 | 6 | SP 800-53A (`sp800-53a/*`, `mappings/sp800-53a-controls`) | 3,715 objectives, 2,931 methods; 1,014 *evaluates control* links (now in the proposal file) | Approve (NIST content, exact version match) |
 | 7 | Licensed vocabularies (`iia-gias/*`, `iia-tr/*`, `itaf/*`, `tsc/*`, `coso-erm/*`, `iso19011/*`, `iso27007/*`, `iso27008/*`, `iso37301/*`, `iso37302/*`) | identifiers, official headings, CRGO paraphrases (script-checked, max 6 shared words); CRGO labels and translations marked in notes | Approve, after spot-reading a few paraphrases |
@@ -27,7 +27,7 @@ Prepared 2026-10-11, after an independent review whose 4 high, 9 medium and 10 l
 - **SP 800-53A**: two unlabelled SI-2(7) objectives got derived identifiers; method notations use the 800-53 label because seven catalogue labels repeat.
 - **DSS contract**: the specification's `modelVersion: "TBD"` and `organizationId: "org-demo"` are refused by design.
 - **MediBec** keeps its `w3id.org/crgo/data/medibec/` IRIs (grandfathered).
-- **Assumption's alt label "hypothesis"** (approved in Sprint 1) now sits next to the new class *analytical hypothesis*; I suggest removing that alt label (a change to an approved term, so your call).
+- **Assumption's alt label "hypothesis"**: removed on your instruction (18:04).
 
 ## Independent review findings and fixes
 

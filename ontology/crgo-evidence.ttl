@@ -850,12 +850,11 @@ crgo:CRGO_0000339 a owl:Class ;
     rdfs:label "assumption"@en,
         "hypothèse"@fr ;
     rdfs:subClassOf cco:ont00000853 ;
-    skos:altLabel "hypothesis"@en ;
     skos:definition "A statement taken as true without verification for an estimate, an assessment or a decision, recorded so that the result can be reviewed when the statement turns out to be false or changes."@en,
         "Énoncé tenu pour vrai sans vérification aux fins d'une estimation, d'une appréciation ou d'une décision, consigné afin que le résultat puisse être revu si l'énoncé se révèle faux ou change."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "Specification sections 6, 7 and 11 (assessments depend on assumptions)."@en ;
+    crgo:CRGO_0000285 "Specification sections 6, 7 and 11 (assessments depend on assumptions). Alt label 'hypothesis' removed 2026-10-11 (project owner), to keep it apart from analytical hypothesis."@en ;
     crgo:CRGO_0000286 "CRGO v0.8 to v1.0 Claude Implementation Specification (project owner, 2026-10-11), sections 3-13"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
