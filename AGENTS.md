@@ -28,7 +28,8 @@ Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (
 - **Risk values are CRG risk units** (relative, appetite-based), not 0–1 scores or currency.
 - **Every link carries a confidence (H/M/L) and a status.** *approved* = reviewed by the project owner (high and medium links); *proposed* = suggestion (low links, R-22.1 rule equivalents, scenarios F1812–F1814). Cite low/proposed links as suggestions only. Default filter `min_confidence="M"`.
 - **Sector bias.** The library is healthcare-worded; for other sectors, translate scenario names and check for missing sector risks (for example ATM malware). Combined risks (vendor × remote access, insider × fraud) may need targeted `crgo_identify` calls.
-- **Privacy law.** Loi 25 links assume a private-sector organisation (P-39.1); public bodies fall under A-2.1, which is not modelled yet.
+- **Privacy law.** Scenario links are to Loi 25 (P-39.1, Québec private sector). `other_regimes` in the scenario detail gives the corresponding A-2.1 obligations (Québec public bodies), PIPEDA provisions (federal private sector, federally regulated businesses) and OSFI B-13 principles (federally regulated financial institutions). Check which regime applies to the organisation.
+- **Sector frequencies.** `sector_frequency` in a sweep comes from public incident records (VCDB); it shows which themes dominate disclosed incidents in a sector, not incident rates.
 - **Exploitation evidence is not an inventory.** KEV counts show that a technique or weakness is actively exploited somewhere; they say nothing about the organisation's own systems.
 - **Never invent identifiers.** Use only ATT&CK, control and obligation IDs returned by the ontology; revoked ATT&CK IDs come back with their replacement.
 - **Evaluation hygiene.** When testing identification on a known case, pass `holdout=["<case key>"]` so the case's own scenarios are not returned.

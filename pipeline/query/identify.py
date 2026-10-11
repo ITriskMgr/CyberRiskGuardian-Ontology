@@ -150,6 +150,9 @@ def scenario(id_, min_confidence="M", brief=False, holdout=()):
     d["cwe"] = sorted({(x["id"], x["title"], x["confidence"], x["status"]) for v in vds for x in _links(v, "hasExternalReference", min_confidence)},
                       key=lambda x: ("HML".index(x[2]), x[0]))
     d["cwe"] = [{"id": i, "title": t, "confidence": c, "status": st} for i, t, c, st in d["cwe"]]
+    if d["obligations"] or req:
+        d["other_regimes"] = other_regimes([x["id"] for x in d["obligations"] if x["framework"] == "loi25"],
+                                           [x["id"] for x in d["controls"]["csf2"]])
     tids = [x["id"] for x in d["attack_techniques"]]
     if tids:
         d["countermeasures_d3fend"] = defences_for_techniques(tids)
@@ -182,7 +185,24 @@ SYNONYMS = [["telehealth", "telemedicine", "teleconsultation", "virtual care", "
             ["asset inventory", "inventory", "unmanaged device", "shadow it"], ["adaptive authentication", "conditional access", "contextual access"],
             ["insider sabotage", "sabotage", "disgruntled", "departing employee"],
             ["help desk", "helpdesk", "service desk"], ["vendor", "supplier", "third party", "third-party"],
-            ["patient portal", "web portal", "online portal"], ["disposal", "decommission", "retired device", "e-waste"]]
+            ["patient portal", "web portal", "online portal"], ["disposal", "decommission", "retired device", "e-waste"],
+            # 0.8.0: banking and payments (ACRB evaluation); scenarios are mostly worded for healthcare, so these find the generic ones
+            ["atm", "automated teller", "cash machine", "jackpotting", "teller machine"],
+            ["pos", "point of sale", "point-of-sale", "payment terminal", "card reader", "skimming"],
+            ["core banking", "mainframe", "general ledger", "financial records", "financial management system"],
+            ["online banking", "e-banking", "internet banking", "mobile banking", "customer portal", "web portal", "online portal"],
+            ["payment processor", "payment provider", "card processor", "payment gateway", "payment system"],
+            ["account enumeration", "rate limiting", "api abuse", "credential stuffing"],
+            ["certificate", "tls", "ssl", "pki", "certificate expiry", "expired certificate"],
+            ["fraud", "embezzlement", "financial manipulation", "unauthorized transaction", "unauthorised transaction"]]
+HEALTH_WORDS = re.compile(r"(?i)\b(patient|patients|medical|health|healthcare|hospital|clinic|clinical|ehr|emr|pharmacy|prescription|laborator|nurse|physician|telemedicine|telehealth)")
+def _health_penalty(score, sector, keywords):
+    """0.8.0: lower healthcare-worded scenarios slightly when the profile has no health term, so that generic or
+    sector-appropriate wording ranks first for other sectors (ACRB evaluation, observation 2)."""
+    profile = " ".join([sector or ""] + list(keywords))
+    if HEALTH_WORDS.search(profile):
+        return score
+    return {s: v - 0.5 if HEALTH_WORDS.search(_label(s) or "") else v for s, v in score.items()}
 CAVEAT_SHORT = "Calibration priors, not organisational evidence: label 'Analyst estimate - validation required'."
 RISK_UNIT = "CRG risk units (Excel Guide v1.0c, factor 1000, appetite 0.30): relative, comparable across scenarios, not a 0-1 score"
 _text = None
@@ -232,7 +252,12 @@ BASELINE = [("phishing and credential theft", ["phishing", "credential theft"]),
             ("backup and recovery failure", ["backup", "recovery failure", "restore"]),
             ("impersonation of the organisation", ["impersonat", "spoofed domain", "fake website", "brand"]),
             ("web application vulnerability", ["web application", "sql injection", "cross-site", "portal vulnerability"]),
-            ("denial of service", ["denial of service", "ddos"]), ("privileged account misuse", ["privileged account", "admin account", "privileged access"])]
+            ("denial of service", ["denial of service", "ddos"]), ("privileged account misuse", ["privileged account", "admin account", "privileged access"]),
+            # 0.8.0, approved 2026-10-11 (ACRB evaluation): risks that combine two concepts, and two risks the library lacked
+            ("vendor remote access", ["remote access by suppliers", "unauthorized remote access by suppliers", "vendor remote", "remote support tool", "supplier remote access", "vendor with remote access"]),
+            ("insider fraud or record manipulation", ["embezzlement", "financial records", "record manipulation", "manipulation of financial"]),
+            ("asset inventory gaps", ["inventory of technology assets", "asset inventory", "unmanaged asset", "unmanaged device"]),
+            ("certificate expiry", ["expired digital certificate", "expired certificate", "certificate expir"])]
 
 def _baseline_hits(text):
     """Commonly assessed risks named in a scenario NAME (whole-word match), not anywhere in its text."""
@@ -329,6 +354,7 @@ def identify(asset_categories=(), themes=(), sector=None, techniques=(), keyword
     if asset_categories and len(asset_categories) > 1:
         for v in asset_categories:
             for s in _members("affectsAssetCategory", [v], "asset_category") & set(score): score[s] += 1
+    score = _health_penalty(score, sector, keywords)
     risk = _library_risk(holdout)
     ranked = sorted(score, key=lambda s: (-score[s], -risk.get(s, (0, 0))[1]))
     out = [_brief(s, min_confidence, risk, score[s], holdout) for s in ranked[:limit]]
@@ -368,6 +394,7 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
     if sector:
         sec = _sector_members(sector)
         score = {s: v + (1 if s in sec else 0) for s, v in score.items()}
+    score = _health_penalty(score, sector, keywords)
     theme_of = {}
     for r in _q("SELECT ?s ?th WHERE { ?s %s ?th }" % T("hasScenarioCategory")):
         theme_of.setdefault(_v(r["s"]), _v(r["th"]).rsplit("/", 1)[-1])
@@ -404,12 +431,13 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
         d["selected_because"] = why[s]
         d["see_also"] = [{"id": scenario_id(x), "name": name[x]} for x in seen.get(s, [])[:6]]
         out.append(d)
+    _sf = sector_frequency(sector) if sector else None
     return {"profile": {k: v for k, v in dict(asset_categories=list(asset_categories), themes=list(themes), sector=sector, techniques=list(techniques),
                                               keywords=list(keywords), holdout=list(holdout)).items() if v},
             "candidates": len(pool), "distinct": len(reps), "returned": len(out),
             "themes_covered": sorted({theme_of.get(s, "ThemeOther") for s in chosen}),
             "theme_gaps": sorted(set(wanted) - {theme_of.get(r) for r in reps if r in score}), "baseline_gaps": base_gaps,
-            "scenarios": out, "risk_unit": RISK_UNIT, "caveat": CAVEAT}
+            "scenarios": out, "sector_frequency": _sf, "risk_unit": RISK_UNIT, "caveat": CAVEAT}
 
 def defences_for_techniques(tids, top=8):
     """D3FEND defensive techniques judged for the ATT&CK techniques (0.7.0): most shared, then most confident first."""
@@ -429,18 +457,76 @@ def defences_for_techniques(tids, top=8):
         e["for_techniques"] = sorted(e.pop("techniques")); e["source"] = "judged against MITRE D3FEND 1.6.0"
     return out
 
+def other_regimes(loi25_ids, csf_ids):
+    """The scenario's obligations under other regimes, through CRGO's correspondences (0.8.0): Québec public bodies
+    (A-2.1) and federal private sector (PIPEDA) from its Loi 25 obligations; OSFI B-13 principles (federally regulated
+    financial institutions) from the CSF 2.0 categories of its CSF links. Which regime applies depends on the organisation."""
+    out = {}
+    if loi25_ids:
+        vals = " ".join('"%s"' % i for i in loi25_ids)
+        for scheme, key in (("a21", "quebec_public_bodies_A-2.1"), ("pipeda", "federal_private_sector_PIPEDA")):
+            rows = _q("""SELECT DISTINCT ?n ?l WHERE { VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%sloi25> .
+                         { ?c skos:closeMatch ?o } UNION { ?c skos:relatedMatch ?o } ?o skos:inScheme <%s%s> ; skos:notation ?n ; skos:prefLabel ?l .
+                         FILTER(lang(?l) = "en") } ORDER BY ?n""" % (vals, VOC, VOC, scheme))
+            if rows: out[key] = [{"id": _v(r["n"]), "title": _v(r["l"])} for r in rows]
+    if csf_ids:
+        cats = sorted({i.split("-")[0] for i in csf_ids})
+        vals = " ".join('"%s"' % c for c in cats)
+        rows = _q("""SELECT DISTINCT ?n ?l WHERE { VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%scsf2> .
+                     ?p skos:relatedMatch ?c ; skos:inScheme <%sosfi-b13> ; skos:notation ?n ; skos:prefLabel ?l . FILTER(lang(?l) = "en") } ORDER BY ?n""" % (vals, VOC, VOC))
+        if rows: out["financial_institutions_OSFI_B-13"] = [{"id": _v(r["n"]), "title": _v(r["l"])} for r in rows]
+    if out:
+        out["note"] = "Correspondences compiled by CRGO; check which regime applies to the organisation (public body, federally regulated, private sector in Québec, health body under R-22.1)."
+    return out
+
+VCDB_SECTOR = [("finance", r"bank|financ|insur|credit union|caisse|payment"), ("healthcare", r"health|hospital|clinic|medical|care"),
+               ("public", r"public|government|municipal|ministry|agency"), ("education", r"educat|school|universit|college"),
+               ("retail", r"retail|shop|store|commerce"), ("manufacturing", r"manufactur|industr|factory"),
+               ("information", r"information|software|telecom|media|technology"), ("professional", r"professional|consult|law|account"),
+               ("accommodation", r"hotel|restaurant|hospitality|accommodation|food service")]
+
+def sector_frequency(sector):
+    """Share of confirmed public incidents (VCDB, 2015-2025, campaigns counted once) in the matching sector that involve
+    each theme or threat-source type, next to all sectors. Relative frequencies in a record of disclosed incidents."""
+    key = next((k for k, rx in VCDB_SECTOR if re.search(rx, sector or "", re.I)), None)
+    if not key:
+        return None
+    out = {}
+    for k in (key, "all"):
+        rows = _q("""SELECT ?t ?v ?n ?lab WHERE { ?ev %s "VCDB-%s" ; rdfs:label ?lab . ?e %s ?ev ; %s ?t ; %s ?v ; %s ?n }""" % (
+            T("localIdentifier"), k, T("hasEvidence"), T("estimateOf"), T("numericValue"), T("sampleSize")))
+        out[k] = {"evidence": _v(rows[0]["lab"]) if rows else None,
+                  "shares": sorted([{"category": _label(_v(r["t"])) or _v(r["t"]).rsplit("/", 1)[-1], "share": float(_v(r["v"]))} for r in rows],
+                                   key=lambda x: -x["share"])}
+    out["source"] = "VERIS Community Database (CC BY-SA 4.0), counts derived by CRGO; over-represents disclosed breaches and sectors with mandatory reporting."
+    return out
+
 def kev_evidence(tids, cwes=()):
     """Exploitation evidence: CISA KEV vulnerabilities mapped (MITRE CTID) to the scenario's ATT&CK techniques, and KEV
-    vulnerabilities that are instances of its CWE weaknesses; counts and ransomware use. Evidence, not inventory."""
+    vulnerabilities that are instances of its CWE weaknesses; counts, ransomware use and the FIRST EPSS scores of those
+    vulnerabilities (median and maximum). Evidence that such techniques and weaknesses are exploited, not an inventory."""
+    import statistics
     out = {}
     for kind, ids, scheme in (("by_technique", tids, "attack"), ("by_weakness", cwes, "cwe")):
         if not ids: continue
         vals = " ".join('"%s"' % i for i in ids)
-        rows = _q("""SELECT ?x (COUNT(DISTINCT ?k) AS ?n) (SUM(IF(CONTAINS(?note, "ransomware campaign use: Known"), 1, 0)) AS ?r) WHERE {
-                     VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%s%s> . ?k skos:relatedMatch ?c ; skos:inScheme <%skev> ; skos:note ?note }
-                     GROUP BY ?x""" % (vals, VOC, scheme, VOC))
-        out[kind] = [{"id": _v(r["x"]), "kev_vulnerabilities": int(_v(r["n"])), "known_ransomware_use": int(_v(r["r"]))} for r in rows]
-    out["source"] = "CISA KEV catalogue; KEV to ATT&CK mapping by MITRE CTID. Shows that such weaknesses and techniques are actively exploited; not a list of the organisation's vulnerabilities."
+        rows = _q("""SELECT ?x ?k ?note ?epss WHERE {
+                     VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%s%s> . ?k skos:relatedMatch ?c ; skos:inScheme <%skev> ; skos:note ?note .
+                     OPTIONAL { ?e %s ?k ; %s ?epss } }""" % (vals, VOC, scheme, VOC, T("estimateOf"), T("numericValue")))
+        agg = {}
+        for r in rows:
+            a = agg.setdefault(_v(r["x"]), {"kev": set(), "ransom": set(), "epss": {}})
+            k = _v(r["k"]); a["kev"].add(k)
+            if "ransomware campaign use: Known" in _v(r["note"]): a["ransom"].add(k)
+            if r["epss"] is not None: a["epss"][k] = float(_v(r["epss"]))
+        out[kind] = [{"id": x, "kev_vulnerabilities": len(a["kev"]), "known_ransomware_use": len(a["ransom"]),
+                      "epss_median": round(statistics.median(a["epss"].values()), 3) if a["epss"] else None,
+                      "epss_max": round(max(a["epss"].values()), 3) if a["epss"] else None}
+                     for x, a in sorted(agg.items(), key=lambda kv: -len(kv[1]["kev"]))]
+    out["source"] = ("CISA KEV catalogue; KEV to ATT&CK mapping by MITRE CTID; FIRST EPSS scores of 2026-10-04 (probability of exploitation "
+                     "in the next 30 days). KEV vulnerabilities are already exploited, so their EPSS is high (median about 0.49, against "
+                     "about 0.007 for all published vulnerabilities). Evidence that such techniques and weaknesses are exploited somewhere, "
+                     "not a list of the organisation's vulnerabilities and not a direct value for CRG's probability of exploitation.")
     return out
 
 def scenario_id(iri):

@@ -26,7 +26,7 @@ RAW = os.path.join(ROOT, "data", "raw")
 FW = os.path.join(ROOT, "data", "frameworks")
 OUT = os.path.join(ROOT, "ontology", "vocab")
 RETRIEVED = "2026-10-08"
-VERSION = "0.7.0"
+VERSION = "0.8.0"
 CONF = {"H": C("ConfHigh"), "M": C("ConfMedium"), "L": C("ConfLow")}
 APPROVALS = {}
 for _l in open(os.path.join(ROOT, "src", "approvals.tsv"), encoding="utf-8"):
@@ -125,20 +125,23 @@ report.append(("theme", s.save()))
 # --- NIST CSF 2.0 (OSCAL)
 d = json.load(open(os.path.join(RAW, "NIST_CSF_v2.0_catalog.json"), encoding="utf-8"))["catalog"]
 m = d["metadata"]
+# French labels: NIST's French translation of CSF 2.0 (NIST CSWP 29, fre), extracted to data/frameworks/csf2_fr.json (0.8.0)
+CSF_FR = json.load(open(os.path.join(FW, "csf2_fr.json"), encoding="utf-8"))
 s = Scheme("csf2", "NIST Cybersecurity Framework 2.0", "Cadre de cybersécurité du NIST 2.0", "2.0 (OSCAL catalogue %s)" % m.get("version"),
            "https://github.com/usnistgov/oscal-content/tree/main/nist.gov/CSF/v2.0 (NIST CSWP 29, 26 Feb 2024)",
            None, "US Government work, not subject to copyright in the United States (17 U.S.C. 105). Credit: NIST.", "NIST",
            "Functions, categories and subcategories. Items NIST withdrew from 2.0 are kept as deprecated concepts so that old mappings resolve.")
 for f in d["groups"]:
-    s.concept(f["id"], f["title"].capitalize(), source="NIST CSF 2.0 OSCAL catalogue")
+    s.concept(f["id"], f["title"].capitalize(), CSF_FR["functions"].get(f["id"]), source="NIST CSF 2.0 OSCAL catalogue")
     for c in f["controls"]:
         p = props(c); wd = p.get("status") == "withdrawn"
         st = next((x.get("prose") for x in c.get("parts", []) if x["name"] == "statement"), None)
-        s.concept(c["id"], c["title"], broader=f["id"], definition_en=st, deprecated=wd, source="NIST CSF 2.0 OSCAL catalogue")
+        s.concept(c["id"], c["title"], CSF_FR["categories"].get(c["id"]), broader=f["id"], definition_en=st, deprecated=wd, source="NIST CSF 2.0 OSCAL catalogue")
         for sc in c.get("controls", []):
             p = props(sc); wd = p.get("status") == "withdrawn"
             st = next((x.get("prose") for x in sc.get("parts", []) if x["name"] == "statement"), None)
-            s.concept(sc["id"], st or sc["title"], broader=c["id"], definition_en=st, deprecated=wd, source="NIST CSF 2.0 OSCAL catalogue")
+            s.concept(sc["id"], st or sc["title"], CSF_FR["subcategories"].get(sc["id"]), broader=c["id"], definition_en=st,
+                      definition_fr=CSF_FR["subcategories"].get(sc["id"]), deprecated=wd, source="NIST CSF 2.0 OSCAL catalogue")
 report.append(("csf2", s.save()))
 
 # --- NIST SP 800-53 Rev. 5.2.0 (OSCAL)
@@ -216,6 +219,42 @@ for r in tsv("lrsss.tsv"):
               source=r["sources"].replace(";", " ; "), conf="H" if r["status"] == "verified" else "M",
               note="In force: %s." % r["in_force"], introduced="0.4.0")
 report.append(("lrsss", s.save()))
+
+# --- Québec public-sector Act (A-2.1), 0.8.0: obligations verified on LégisQuébec (text current to 2026-08-12)
+s = Scheme("a21", "Québec Act respecting access to documents held by public bodies and the protection of personal information: obligations",
+           "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels : obligations",
+           "CQLR c. A-2.1, as consolidated in LégisQuébec, current to 2026-08-12",
+           "LégisQuébec, CQLR c. A-2.1 (French and English texts); see data/frameworks/a21.tsv", None,
+           "Labels and definitions are CRGO paraphrases; the official text is in LégisQuébec.", "Gouvernement du Québec (source text)",
+           "Applies to public bodies (ministries, municipalities, school service centres, public health and social services institutions...). "
+           "For health information held by health and social services bodies, R-22.1 applies instead. Correspondences to the "
+           "private-sector Act (Loi 25, P-39.1) are in ontology/vocab/mappings.ttl.")
+for r in tsv("a21.tsv"):
+    s.concept("%s s. %s" % (r["act"], r["section"]), r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"].replace(";", " ; "), conf="H", introduced="0.8.0")
+report.append(("a21", s.save()))
+
+# --- PIPEDA (federal private-sector Act), 0.8.0: provisions verified on Justice Canada (current to 2026-05-26)
+s = Scheme("pipeda", "Personal Information Protection and Electronic Documents Act (Canada): security and breach provisions",
+           "Loi sur la protection des renseignements personnels et les documents électroniques (Canada) : dispositions de sécurité et d'atteinte",
+           "S.C. 2000, c. 5, current to 2026-05-26 (last amended 2025-03-04)", "Justice Laws Website, laws-lois.justice.gc.ca, P-8.6; see data/frameworks/pipeda.tsv", None,
+           "Labels and definitions are CRGO paraphrases; the official text is on the Justice Laws Website.", "Government of Canada (source text)",
+           "Applies to private-sector organizations in the course of commercial activities, and to federally regulated businesses such as banks; "
+           "in Québec, organizations subject to the private-sector Act (P-39.1) are exempt for activities within the province. Correspondences to Loi 25 in mappings.ttl.")
+for r in tsv("pipeda.tsv"):
+    s.concept("PIPEDA " + r["provision"], r["label_en"], r["label_fr"], definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"], conf="H", introduced="0.8.0")
+report.append(("pipeda", s.save()))
+# --- OSFI Guideline B-13 (federally regulated financial institutions), 0.8.0
+s = Scheme("osfi-b13", "OSFI Guideline B-13 Technology and Cyber Risk Management: domains and principles",
+           "Ligne directrice B-13 du BSIF, Gestion des risques technologiques et cybernétiques : domaines et principes",
+           "July 2022 (page modified 2024-02-20)", "Office of the Superintendent of Financial Institutions, osfi-bsif.gc.ca; see data/frameworks/osfi_b13.tsv", None,
+           "Labels and definitions are CRGO paraphrases; the official text is published by OSFI.", "Office of the Superintendent of Financial Institutions (source text)",
+           "Three domains and seventeen principles, for federally regulated financial institutions. Correspondences to NIST CSF 2.0 categories (CRGO judgement) in mappings.ttl.")
+for r in tsv("osfi_b13.tsv"):
+    s.concept(r["id"], r["label_en"], r["label_fr"], broader=r["domain"] or None, definition_en=r["definition_en"], definition_fr=r["definition_fr"],
+              source=r["sources"], conf="H", introduced="0.8.0")
+report.append(("osfi-b13", s.save()))
 
 # --- CSA CCM v4.1: domains only (control titles are not licensed for redistribution)
 s = Scheme("ccm41", "CSA Cloud Controls Matrix v4.1 domains", "Domaines de la Cloud Controls Matrix v4.1 de la CSA", "4.1 (January 2026)",

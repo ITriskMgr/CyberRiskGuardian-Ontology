@@ -1,4 +1,4 @@
-# Design decisions — CRGO 0.7.0
+# Design decisions — CRGO 0.8.0
 
 This file records why the ontology looks the way it does.
 
@@ -285,3 +285,25 @@ GitHub-hosted sources could be downloaded: MITRE CTID Mappings Explorer, D3FEND,
 - D3FEND: artifact-based inference rejected twice (see changelog); judged links: 28 correct, 16 weak, 1 wrong on 45 (high 9/10 correct). Main weakness: threshold and reputation defences paired with techniques built to evade them.
 
 **Decision of the project owner (2026-10-11).** All groups decided as recommended: `corroborated by` approved; CWE, D3FEND, CAPEC and KEV vocabularies approved as whole vocabularies (`<scheme>/*`); CAPEC, CTID and KEV cross-references approved; judged ATT&CK→D3FEND, scenario→CWE and CTID-proposed SP 800-53 links approved for high and medium confidence, low stays proposed; CQ21–CQ23 added to the test suite.
+
+## 14. Calibration, sectors and legal regimes (0.8.0 draft, 2026-10-11)
+
+### 14.1 Evidence for calibration
+- **EPSS** (file retrieved by CyberRiskGuardian, scores of 2026-10-04): kept only for the KEV vulnerabilities, as `Likelihood` estimates of each KEV concept with a FIRST evidence item. KEV vulnerabilities are exploited by definition, so their EPSS is high (median 0.49 against 0.007 for all 382,621 scored vulnerabilities); the interface says it is evidence of exploitation in the wild, not a value for CRG's probability of exploitation.
+- **VCDB** (CC BY-SA 4.0): only derived counts are stored, with attribution, so CRGO's CC BY-NC licence is not affected by share-alike terms. Shares are computed per sector (NAICS two-digit groups) for confirmed incidents of 2015–2025, with rules from VERIS fields to CRGO themes and threat-source types (`pipeline/external/vcdb.py`). Mass campaigns are counted once per sector (VCDB campaign identifiers, and five named supply-chain compromises), after the MOVEit breach was found to make up 613 of 842 education records. VCDB comes from public reports and over-represents disclosed breaches and sectors with mandatory reporting.
+- No library estimate was changed: the new evidence sits beside the 2023 values for an analyst (or CyberRiskGuardian) to use.
+
+### 14.2 Legal regimes
+- A-2.1 and PIPEDA provisions were verified on the official consolidated texts (LégisQuébec, current to 2026-08-12; Justice Laws, current to 2026-05-26); OSFI B-13 from OSFI's page. Labels and definitions are CRGO paraphrases.
+- Regimes are connected through correspondences, not by duplicating scenario links: a scenario's Loi 25 obligations give its A-2.1 obligations (`skos:closeMatch`, same obligation) and its PIPEDA provisions (`skos:relatedMatch`, comparable); its CSF links give the B-13 principles (`skos:relatedMatch` from principle to CSF category). Which regime applies depends on the organisation, and the interface says so.
+- Independent review: Loi 25 ↔ A-2.1 15/15 correct; Loi 25 ↔ PIPEDA 7 correct, 3 partial (fixed: risk factors are in s. 10.1(8); express consent in Sch. 1, 4.3.6; disposal clause 4.7.5 is not the destruction duty); B-13 ↔ CSF 21 correct, 11 partial, 0 wrong (missing categories added: GV.OV, GV.SC, RS.CO, RS.AN, PR.AT, ID.RA for change management; DE.CM removed from service monitoring).
+
+### 14.3 NIST crosswalks
+- NIST publishes the SP 800-53 mapping for CSF 1.1, not 2.0; the CSF 2.0 export records where each withdrawn 1.1 subcategory went ("Incorporated into …", "Moved to …"). Chaining the two gives a derived CSF 2.0 → SP 800-53 mapping (confidence medium). The OLIR mapping of SP 800-53 to ISO/IEC 27001:2022 is used for its Annex A references, which are the ISO/IEC 27002 controls (confidence high).
+- Corroboration of CSF and ISO links uses the scenario's own SP 800-53 links as the bridge, so it measures consistency across frameworks rather than independent correctness, unlike the CTID check of 0.7.0.
+
+### 14.4 Other sectors
+- Three generic scenarios written from the ACRB findings (F1815–F1817), reviewed independently (20 correct, 11 defensible, 1 wrong link; the ATM scenario narrowed to jackpotting, missing controls added).
+- Banking synonyms, a small ranking penalty for healthcare wording when the profile has no health term, and four proposed commonly assessed risks. These changes were derived from the ACRB evaluation, so ACRB can no longer measure them; the next recall measurement needs a new case from another sector.
+
+**Decision of the project owner (2026-10-11).** 0.8.0 approved in full: the three vocabularies, all cross-references, the CSF French labels, the EPSS and VCDB evidence, the written scenarios AUTH-001 to AUTH-006 with their links (each through its own group `links/authored/<key>`), the four added commonly assessed risks, the banking synonyms and ranking change, and CQ24–CQ26. GDPR is left open: the text supplied is the UK GDPR.

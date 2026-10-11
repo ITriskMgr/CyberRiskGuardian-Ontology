@@ -1,0 +1,6 @@
+# CQ25 (Estimation, proposed 0.8.0)
+# Question: In public incident records for finance, what share of incidents involves each theme or threat-source type?
+# Expect: min_rows 5
+SELECT ?category ?share ?n WHERE {
+  ?ev {{localIdentifier}} "VCDB-finance" . ?e {{hasEvidence}} ?ev ; {{estimateOf}} ?category ; {{numericValue}} ?share ; {{sampleSize}} ?n .
+} ORDER BY DESC(?share)

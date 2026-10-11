@@ -14159,7 +14159,7 @@ cwe:CWE-284 a skos:Concept ;
     dcterms:source "https://github.com/d3fend/d3fend-ontology (src/ontology/d3fend-protege.ttl, 2026-10-08)" ;
     dcterms:title "MITRE CWE weaknesses (as carried by D3FEND)"@en,
         "Faiblesses MITRE CWE (telles que reprises par D3FEND)"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/cwe> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/cwe> ;
     owl:versionInfo "D3FEND 1.6.0" ;
     skos:hasTopConcept cwe:CWE-284,
         cwe:CWE-435,

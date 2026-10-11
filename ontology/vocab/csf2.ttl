@@ -20,10 +20,12 @@ csf2:DE.AE-01 a skos:Concept ;
 
 csf2:DE.AE-02 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "Potentially adverse events are analyzed to better understand associated activities"@en ;
+    skos:definition "Potentially adverse events are analyzed to better understand associated activities"@en,
+        "Les événements potentiellement indésirables sont analysés pour mieux comprendre les activités associées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-02" ;
-    skos:prefLabel "Potentially adverse events are analyzed to better understand associated activities"@en ;
+    skos:prefLabel "Potentially adverse events are analyzed to better understand associated activities"@en,
+        "Les événements potentiellement indésirables sont analysés pour mieux comprendre les activités associées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -32,10 +34,12 @@ csf2:DE.AE-02 a skos:Concept ;
 
 csf2:DE.AE-03 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "Information is correlated from multiple sources"@en ;
+    skos:definition "Information is correlated from multiple sources"@en,
+        "Les informations sont corrélées à partir de sources multiples"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-03" ;
-    skos:prefLabel "Information is correlated from multiple sources"@en ;
+    skos:prefLabel "Information is correlated from multiple sources"@en,
+        "Les informations sont corrélées à partir de sources multiples"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -44,10 +48,12 @@ csf2:DE.AE-03 a skos:Concept ;
 
 csf2:DE.AE-04 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "The estimated impact and scope of adverse events are understood"@en ;
+    skos:definition "The estimated impact and scope of adverse events are understood"@en,
+        "L'impact et la portée estimés des événements indésirables sont compris"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-04" ;
-    skos:prefLabel "The estimated impact and scope of adverse events are understood"@en ;
+    skos:prefLabel "The estimated impact and scope of adverse events are understood"@en,
+        "L'impact et la portée estimés des événements indésirables sont compris"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -69,10 +75,12 @@ csf2:DE.AE-05 a skos:Concept ;
 
 csf2:DE.AE-06 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "Information on adverse events is provided to authorized staff and tools"@en ;
+    skos:definition "Information on adverse events is provided to authorized staff and tools"@en,
+        "Les informations sur les événements indésirables sont fournies au personnel et aux outils autorisés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-06" ;
-    skos:prefLabel "Information on adverse events is provided to authorized staff and tools"@en ;
+    skos:prefLabel "Information on adverse events is provided to authorized staff and tools"@en,
+        "Les informations sur les événements indésirables sont fournies au personnel et aux outils autorisés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -81,10 +89,12 @@ csf2:DE.AE-06 a skos:Concept ;
 
 csf2:DE.AE-07 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "Cyber threat intelligence and other contextual information are integrated into the analysis"@en ;
+    skos:definition "Cyber threat intelligence and other contextual information are integrated into the analysis"@en,
+        "Les renseignements sur les cybermenaces et d'autres informations contextuelles sont intégrés dans l'analyse"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-07" ;
-    skos:prefLabel "Cyber threat intelligence and other contextual information are integrated into the analysis"@en ;
+    skos:prefLabel "Cyber threat intelligence and other contextual information are integrated into the analysis"@en,
+        "Les renseignements sur les cybermenaces et d'autres informations contextuelles sont intégrés dans l'analyse"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -93,10 +103,12 @@ csf2:DE.AE-07 a skos:Concept ;
 
 csf2:DE.AE-08 a skos:Concept ;
     skos:broader csf2:DE.AE ;
-    skos:definition "Incidents are declared when adverse events meet the defined incident criteria"@en ;
+    skos:definition "Incidents are declared when adverse events meet the defined incident criteria"@en,
+        "Les incidents sont déclarés lorsque les événements indésirables répondent aux critères d'incident définis"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE-08" ;
-    skos:prefLabel "Incidents are declared when adverse events meet the defined incident criteria"@en ;
+    skos:prefLabel "Incidents are declared when adverse events meet the defined incident criteria"@en,
+        "Les incidents sont déclarés lorsque les événements indésirables répondent aux critères d'incident définis"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -105,10 +117,12 @@ csf2:DE.AE-08 a skos:Concept ;
 
 csf2:DE.CM-01 a skos:Concept ;
     skos:broader csf2:DE.CM ;
-    skos:definition "Networks and network services are monitored to find potentially adverse events"@en ;
+    skos:definition "Networks and network services are monitored to find potentially adverse events"@en,
+        "Les réseaux et services réseau sont surveillés pour détecter les événements potentiellement indésirables"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM-01" ;
-    skos:prefLabel "Networks and network services are monitored to find potentially adverse events"@en ;
+    skos:prefLabel "Networks and network services are monitored to find potentially adverse events"@en,
+        "Les réseaux et services réseau sont surveillés pour détecter les événements potentiellement indésirables"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -117,10 +131,12 @@ csf2:DE.CM-01 a skos:Concept ;
 
 csf2:DE.CM-02 a skos:Concept ;
     skos:broader csf2:DE.CM ;
-    skos:definition "The physical environment is monitored to find potentially adverse events"@en ;
+    skos:definition "The physical environment is monitored to find potentially adverse events"@en,
+        "L'environnement physique est surveillé pour détecter les événements potentiellement indésirables 24"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM-02" ;
-    skos:prefLabel "The physical environment is monitored to find potentially adverse events"@en ;
+    skos:prefLabel "The physical environment is monitored to find potentially adverse events"@en,
+        "L'environnement physique est surveillé pour détecter les événements potentiellement indésirables 24"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -129,10 +145,12 @@ csf2:DE.CM-02 a skos:Concept ;
 
 csf2:DE.CM-03 a skos:Concept ;
     skos:broader csf2:DE.CM ;
-    skos:definition "Personnel activity and technology usage are monitored to find potentially adverse events"@en ;
+    skos:definition "Personnel activity and technology usage are monitored to find potentially adverse events"@en,
+        "L'activité du personnel et l'utilisation de la technologie sont surveillées pour détecter les événements potentiellement indésirables"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM-03" ;
-    skos:prefLabel "Personnel activity and technology usage are monitored to find potentially adverse events"@en ;
+    skos:prefLabel "Personnel activity and technology usage are monitored to find potentially adverse events"@en,
+        "L'activité du personnel et l'utilisation de la technologie sont surveillées pour détecter les événements potentiellement indésirables"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -167,10 +185,12 @@ csf2:DE.CM-05 a skos:Concept ;
 
 csf2:DE.CM-06 a skos:Concept ;
     skos:broader csf2:DE.CM ;
-    skos:definition "External service provider activities and services are monitored to find potentially adverse events"@en ;
+    skos:definition "External service provider activities and services are monitored to find potentially adverse events"@en,
+        "Les activités et services des prestataires de services externes sont surveillés pour détecter les événements potentiellement indésirables"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM-06" ;
-    skos:prefLabel "External service provider activities and services are monitored to find potentially adverse events"@en ;
+    skos:prefLabel "External service provider activities and services are monitored to find potentially adverse events"@en,
+        "Les activités et services des prestataires de services externes sont surveillés pour détecter les événements potentiellement indésirables"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -205,10 +225,12 @@ csf2:DE.CM-08 a skos:Concept ;
 
 csf2:DE.CM-09 a skos:Concept ;
     skos:broader csf2:DE.CM ;
-    skos:definition "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events"@en ;
+    skos:definition "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events"@en,
+        "Le matériel informatique et les logiciels, les environnements d'exécution et leurs données sont surveillés pour détecter les événements potentiellement indésirables •"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM-09" ;
-    skos:prefLabel "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events"@en ;
+    skos:prefLabel "Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events"@en,
+        "Le matériel informatique et les logiciels, les environnements d'exécution et leurs données sont surveillés pour détecter les événements potentiellement indésirables •"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -282,10 +304,12 @@ csf2:DE.DP-05 a skos:Concept ;
 
 csf2:GV.OC-01 a skos:Concept ;
     skos:broader csf2:GV.OC ;
-    skos:definition "The organizational mission is understood and informs cybersecurity risk management"@en ;
+    skos:definition "The organizational mission is understood and informs cybersecurity risk management"@en,
+        "La mission organisationnelle est comprise et informe la gestion des risques de cybersécurité"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC-01" ;
-    skos:prefLabel "The organizational mission is understood and informs cybersecurity risk management"@en ;
+    skos:prefLabel "The organizational mission is understood and informs cybersecurity risk management"@en,
+        "La mission organisationnelle est comprise et informe la gestion des risques de cybersécurité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -294,10 +318,12 @@ csf2:GV.OC-01 a skos:Concept ;
 
 csf2:GV.OC-02 a skos:Concept ;
     skos:broader csf2:GV.OC ;
-    skos:definition "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered"@en ;
+    skos:definition "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered"@en,
+        "Les parties prenantes internes et externes sont comprises, et leurs besoins et attentes en matière de gestion des risques de cybersécurité sont compris et pris en compte"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC-02" ;
-    skos:prefLabel "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered"@en ;
+    skos:prefLabel "Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered"@en,
+        "Les parties prenantes internes et externes sont comprises, et leurs besoins et attentes en matière de gestion des risques de cybersécurité sont compris et pris en compte"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -306,10 +332,12 @@ csf2:GV.OC-02 a skos:Concept ;
 
 csf2:GV.OC-03 a skos:Concept ;
     skos:broader csf2:GV.OC ;
-    skos:definition "Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed"@en ;
+    skos:definition "Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed"@en,
+        "Les exigences légales, réglementaires et contractuelles en matière de cybersécurité, y compris les obligations en matière de vie privée et de libertés civiles, sont comprises et gérées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC-03" ;
-    skos:prefLabel "Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed"@en ;
+    skos:prefLabel "Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed"@en,
+        "Les exigences légales, réglementaires et contractuelles en matière de cybersécurité, y compris les obligations en matière de vie privée et de libertés civiles, sont comprises et gérées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -318,10 +346,12 @@ csf2:GV.OC-03 a skos:Concept ;
 
 csf2:GV.OC-04 a skos:Concept ;
     skos:broader csf2:GV.OC ;
-    skos:definition "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated"@en ;
+    skos:definition "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated"@en,
+        "Les objectifs, capacités et services critiques dont dépendent les parties prenantes externes ou qu'ils attendent de l'organisation sont compris et communiqués"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC-04" ;
-    skos:prefLabel "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated"@en ;
+    skos:prefLabel "Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated"@en,
+        "Les objectifs, capacités et services critiques dont dépendent les parties prenantes externes ou qu'ils attendent de l'organisation sont compris et communiqués"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -330,10 +360,12 @@ csf2:GV.OC-04 a skos:Concept ;
 
 csf2:GV.OC-05 a skos:Concept ;
     skos:broader csf2:GV.OC ;
-    skos:definition "Outcomes, capabilities, and services that the organization depends on are understood and communicated"@en ;
+    skos:definition "Outcomes, capabilities, and services that the organization depends on are understood and communicated"@en,
+        "Les résultats, les capacités et les services dont dépend l'organisation sont compris et communiqués"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC-05" ;
-    skos:prefLabel "Outcomes, capabilities, and services that the organization depends on are understood and communicated"@en ;
+    skos:prefLabel "Outcomes, capabilities, and services that the organization depends on are understood and communicated"@en,
+        "Les résultats, les capacités et les services dont dépend l'organisation sont compris et communiqués"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -342,10 +374,12 @@ csf2:GV.OC-05 a skos:Concept ;
 
 csf2:GV.OV-01 a skos:Concept ;
     skos:broader csf2:GV.OV ;
-    skos:definition "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction"@en ;
+    skos:definition "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction"@en,
+        "Les résultats de la stratégie de gestion des risques de cybersécurité sont examinés pour éclairer et ajuster la stratégie et l'orientation"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OV-01" ;
-    skos:prefLabel "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction"@en ;
+    skos:prefLabel "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction"@en,
+        "Les résultats de la stratégie de gestion des risques de cybersécurité sont examinés pour éclairer et ajuster la stratégie et l'orientation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -354,10 +388,12 @@ csf2:GV.OV-01 a skos:Concept ;
 
 csf2:GV.OV-02 a skos:Concept ;
     skos:broader csf2:GV.OV ;
-    skos:definition "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks"@en ;
+    skos:definition "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks"@en,
+        "La stratégie de gestion des risques de cybersécurité est revue et ajustée pour garantir la couverture des exigences et des risques organisationnels"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OV-02" ;
-    skos:prefLabel "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks"@en ;
+    skos:prefLabel "The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks"@en,
+        "La stratégie de gestion des risques de cybersécurité est revue et ajustée pour garantir la couverture des exigences et des risques organisationnels"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -366,10 +402,12 @@ csf2:GV.OV-02 a skos:Concept ;
 
 csf2:GV.OV-03 a skos:Concept ;
     skos:broader csf2:GV.OV ;
-    skos:definition "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed"@en ;
+    skos:definition "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed"@en,
+        "La performance de la gestion des risques de cybersécurité organisationnelle est évaluée et révisée pour les ajustements nécessaires"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OV-03" ;
-    skos:prefLabel "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed"@en ;
+    skos:prefLabel "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed"@en,
+        "La performance de la gestion des risques de cybersécurité organisationnelle est évaluée et révisée pour les ajustements nécessaires"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -378,10 +416,12 @@ csf2:GV.OV-03 a skos:Concept ;
 
 csf2:GV.PO-01 a skos:Concept ;
     skos:broader csf2:GV.PO ;
-    skos:definition "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced"@en ;
+    skos:definition "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced"@en,
+        "La politique de gestion des risques de cybersécurité est établie en fonction du contexte organisationnel, de la stratégie de cybersécurité et des priorités, et est communiquée et appliquée"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.PO-01" ;
-    skos:prefLabel "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced"@en ;
+    skos:prefLabel "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced"@en,
+        "La politique de gestion des risques de cybersécurité est établie en fonction du contexte organisationnel, de la stratégie de cybersécurité et des priorités, et est communiquée et appliquée"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -390,10 +430,12 @@ csf2:GV.PO-01 a skos:Concept ;
 
 csf2:GV.PO-02 a skos:Concept ;
     skos:broader csf2:GV.PO ;
-    skos:definition "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission"@en ;
+    skos:definition "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission"@en,
+        "La politique de gestion des risques de cybersécurité est revue, mise à jour, communiquée et appliquée pour refléter les changements dans les exigences, les menaces, la technologie et la mission organisationnelle"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.PO-02" ;
-    skos:prefLabel "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission"@en ;
+    skos:prefLabel "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission"@en,
+        "La politique de gestion des risques de cybersécurité est revue, mise à jour, communiquée et appliquée pour refléter les changements dans les exigences, les menaces, la technologie et la mission organisationnelle"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -402,10 +444,12 @@ csf2:GV.PO-02 a skos:Concept ;
 
 csf2:GV.RM-01 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Risk management objectives are established and agreed to by organizational stakeholders"@en ;
+    skos:definition "Risk management objectives are established and agreed to by organizational stakeholders"@en,
+        "Les objectifs de gestion des risques sont établis et acceptés par les parties prenantes organisationnelles"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-01" ;
-    skos:prefLabel "Risk management objectives are established and agreed to by organizational stakeholders"@en ;
+    skos:prefLabel "Risk management objectives are established and agreed to by organizational stakeholders"@en,
+        "Les objectifs de gestion des risques sont établis et acceptés par les parties prenantes organisationnelles"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -414,10 +458,12 @@ csf2:GV.RM-01 a skos:Concept ;
 
 csf2:GV.RM-02 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Risk appetite and risk tolerance statements are established, communicated, and maintained"@en ;
+    skos:definition "Risk appetite and risk tolerance statements are established, communicated, and maintained"@en,
+        "Les déclarations d'appétence et de tolérance au risque sont établies, communiquées et maintenues"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-02" ;
-    skos:prefLabel "Risk appetite and risk tolerance statements are established, communicated, and maintained"@en ;
+    skos:prefLabel "Risk appetite and risk tolerance statements are established, communicated, and maintained"@en,
+        "Les déclarations d'appétence et de tolérance au risque sont établies, communiquées et maintenues"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -426,10 +472,12 @@ csf2:GV.RM-02 a skos:Concept ;
 
 csf2:GV.RM-03 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes"@en ;
+    skos:definition "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes"@en,
+        "Les activités et les résultats de la gestion des risques de cybersécurité sont inclus dans les processus de gestion des risques de l'entreprise"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-03" ;
-    skos:prefLabel "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes"@en ;
+    skos:prefLabel "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes"@en,
+        "Les activités et les résultats de la gestion des risques de cybersécurité sont inclus dans les processus de gestion des risques de l'entreprise"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -438,10 +486,12 @@ csf2:GV.RM-03 a skos:Concept ;
 
 csf2:GV.RM-04 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Strategic direction that describes appropriate risk response options is established and communicated"@en ;
+    skos:definition "Strategic direction that describes appropriate risk response options is established and communicated"@en,
+        "Une orientation stratégique décrivant les options de réponse aux risques appropriées est établie et communiquée"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-04" ;
-    skos:prefLabel "Strategic direction that describes appropriate risk response options is established and communicated"@en ;
+    skos:prefLabel "Strategic direction that describes appropriate risk response options is established and communicated"@en,
+        "Une orientation stratégique décrivant les options de réponse aux risques appropriées est établie et communiquée"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -450,10 +500,12 @@ csf2:GV.RM-04 a skos:Concept ;
 
 csf2:GV.RM-05 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties"@en ;
+    skos:definition "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties"@en,
+        "Les lignes de communication au sein de l'organisation sont établies pour les risques de cybersécurité, y compris les risques liés aux fournisseurs et autres tiers"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-05" ;
-    skos:prefLabel "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties"@en ;
+    skos:prefLabel "Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties"@en,
+        "Les lignes de communication au sein de l'organisation sont établies pour les risques de cybersécurité, y compris les risques liés aux fournisseurs et autres tiers"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -462,10 +514,12 @@ csf2:GV.RM-05 a skos:Concept ;
 
 csf2:GV.RM-06 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated"@en ;
+    skos:definition "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated"@en,
+        "Une méthode normalisée de calcul, de documentation, de catégorisation et de priorisation des risques de cybersécurité est établie et communiquée"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-06" ;
-    skos:prefLabel "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated"@en ;
+    skos:prefLabel "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated"@en,
+        "Une méthode normalisée de calcul, de documentation, de catégorisation et de priorisation des risques de cybersécurité est établie et communiquée"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -474,10 +528,12 @@ csf2:GV.RM-06 a skos:Concept ;
 
 csf2:GV.RM-07 a skos:Concept ;
     skos:broader csf2:GV.RM ;
-    skos:definition "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions"@en ;
+    skos:definition "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions"@en,
+        "Les opportunités stratégiques (c-à-d., les risques positifs) sont caractérisées et incluses dans les discussions sur les risques de cybersécurité organisationnels 19"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM-07" ;
-    skos:prefLabel "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions"@en ;
+    skos:prefLabel "Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions"@en,
+        "Les opportunités stratégiques (c-à-d., les risques positifs) sont caractérisées et incluses dans les discussions sur les risques de cybersécurité organisationnels 19"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -486,10 +542,12 @@ csf2:GV.RM-07 a skos:Concept ;
 
 csf2:GV.RR-01 a skos:Concept ;
     skos:broader csf2:GV.RR ;
-    skos:definition "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving"@en ;
+    skos:definition "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving"@en,
+        "La direction organisationnelle est responsable des risques liés à la cybersécurité et favorise une culture consciente des risques, éthique et en constante amélioration"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RR-01" ;
-    skos:prefLabel "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving"@en ;
+    skos:prefLabel "Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving"@en,
+        "La direction organisationnelle est responsable des risques liés à la cybersécurité et favorise une culture consciente des risques, éthique et en constante amélioration"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -498,10 +556,12 @@ csf2:GV.RR-01 a skos:Concept ;
 
 csf2:GV.RR-02 a skos:Concept ;
     skos:broader csf2:GV.RR ;
-    skos:definition "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced"@en ;
+    skos:definition "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced"@en,
+        "Les rôles, responsabilités et autorités liés à la gestion des risques de cybersécurité sont établis, communiqués, compris et appliqués"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RR-02" ;
-    skos:prefLabel "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced"@en ;
+    skos:prefLabel "Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced"@en,
+        "Les rôles, responsabilités et autorités liés à la gestion des risques de cybersécurité sont établis, communiqués, compris et appliqués"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -510,10 +570,12 @@ csf2:GV.RR-02 a skos:Concept ;
 
 csf2:GV.RR-03 a skos:Concept ;
     skos:broader csf2:GV.RR ;
-    skos:definition "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies"@en ;
+    skos:definition "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies"@en,
+        "Les ressources adéquates sont allouées en fonction de la stratégie, des rôles, des responsabilités et des politiques en matière de risques de cybersécurité"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RR-03" ;
-    skos:prefLabel "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies"@en ;
+    skos:prefLabel "Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies"@en,
+        "Les ressources adéquates sont allouées en fonction de la stratégie, des rôles, des responsabilités et des politiques en matière de risques de cybersécurité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -522,10 +584,12 @@ csf2:GV.RR-03 a skos:Concept ;
 
 csf2:GV.RR-04 a skos:Concept ;
     skos:broader csf2:GV.RR ;
-    skos:definition "Cybersecurity is included in human resources practices"@en ;
+    skos:definition "Cybersecurity is included in human resources practices"@en,
+        "La cybersécurité est incluse dans les pratiques en matières des ressources humaines"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RR-04" ;
-    skos:prefLabel "Cybersecurity is included in human resources practices"@en ;
+    skos:prefLabel "Cybersecurity is included in human resources practices"@en,
+        "La cybersécurité est incluse dans les pratiques en matières des ressources humaines"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -534,10 +598,12 @@ csf2:GV.RR-04 a skos:Concept ;
 
 csf2:GV.SC-01 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders"@en ;
+    skos:definition "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders"@en,
+        "Un programme, une stratégie, des objectifs, des politiques et des processus de gestion des risques liés à la chaîne d'approvisionnement en matière de cybersécurité sont établis et acceptés par les parties prenantes de l'organisation"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-01" ;
-    skos:prefLabel "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders"@en ;
+    skos:prefLabel "A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders"@en,
+        "Un programme, une stratégie, des objectifs, des politiques et des processus de gestion des risques liés à la chaîne d'approvisionnement en matière de cybersécurité sont établis et acceptés par les parties prenantes de l'organisation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -546,10 +612,12 @@ csf2:GV.SC-01 a skos:Concept ;
 
 csf2:GV.SC-02 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally"@en ;
+    skos:definition "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally"@en,
+        "Les rôles et responsabilités en matière de cybersécurité pour les fournisseurs, les clients et les partenaires sont établis, communiqués et coordonnés en interne et en externe"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-02" ;
-    skos:prefLabel "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally"@en ;
+    skos:prefLabel "Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally"@en,
+        "Les rôles et responsabilités en matière de cybersécurité pour les fournisseurs, les clients et les partenaires sont établis, communiqués et coordonnés en interne et en externe"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -558,10 +626,12 @@ csf2:GV.SC-02 a skos:Concept ;
 
 csf2:GV.SC-03 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes"@en ;
+    skos:definition "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes"@en,
+        "La gestion des risques de la chaîne d'approvisionnement en cybersécurité est intégrée aux processus de cybersécurité et de gestion des risques d'entreprise, d'évaluation des risques et d'amélioration"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-03" ;
-    skos:prefLabel "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes"@en ;
+    skos:prefLabel "Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes"@en,
+        "La gestion des risques de la chaîne d'approvisionnement en cybersécurité est intégrée aux processus de cybersécurité et de gestion des risques d'entreprise, d'évaluation des risques et d'amélioration"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -570,10 +640,12 @@ csf2:GV.SC-03 a skos:Concept ;
 
 csf2:GV.SC-04 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Suppliers are known and prioritized by criticality"@en ;
+    skos:definition "Suppliers are known and prioritized by criticality"@en,
+        "Les fournisseurs sont connus et priorisés par criticité"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-04" ;
-    skos:prefLabel "Suppliers are known and prioritized by criticality"@en ;
+    skos:prefLabel "Suppliers are known and prioritized by criticality"@en,
+        "Les fournisseurs sont connus et priorisés par criticité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -582,10 +654,12 @@ csf2:GV.SC-04 a skos:Concept ;
 
 csf2:GV.SC-05 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties"@en ;
+    skos:definition "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties"@en,
+        "Les exigences visant à s'adresser aux risques de cybersécurité dans les chaînes d'approvisionnement sont établies, priorisées et intégrées dans les contrats et autres types d'accords avec les fournisseurs et autres tiers concernés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-05" ;
-    skos:prefLabel "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties"@en ;
+    skos:prefLabel "Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties"@en,
+        "Les exigences visant à s'adresser aux risques de cybersécurité dans les chaînes d'approvisionnement sont établies, priorisées et intégrées dans les contrats et autres types d'accords avec les fournisseurs et autres tiers concernés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -594,10 +668,12 @@ csf2:GV.SC-05 a skos:Concept ;
 
 csf2:GV.SC-06 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships"@en ;
+    skos:definition "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships"@en,
+        "La planification et la diligence raisonnable sont effectuées pour réduire les risques avant d'entrer dans des relations formelles avec des fournisseurs ou d'autres tiers"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-06" ;
-    skos:prefLabel "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships"@en ;
+    skos:prefLabel "Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships"@en,
+        "La planification et la diligence raisonnable sont effectuées pour réduire les risques avant d'entrer dans des relations formelles avec des fournisseurs ou d'autres tiers"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -606,10 +682,12 @@ csf2:GV.SC-06 a skos:Concept ;
 
 csf2:GV.SC-07 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship"@en ;
+    skos:definition "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship"@en,
+        "Les risques posés par un fournisseur, ses produits et services et d'autres tiers sont compris, enregistrés, priorisés, évalués, traités et surveillés tout au long de la relation"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-07" ;
-    skos:prefLabel "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship"@en ;
+    skos:prefLabel "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship"@en,
+        "Les risques posés par un fournisseur, ses produits et services et d'autres tiers sont compris, enregistrés, priorisés, évalués, traités et surveillés tout au long de la relation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -618,10 +696,12 @@ csf2:GV.SC-07 a skos:Concept ;
 
 csf2:GV.SC-08 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities"@en ;
+    skos:definition "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities"@en,
+        "Les fournisseurs concernés et autres tiers sont inclus dans les activités de planification, de réponse et de récupération en cas d'incident"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-08" ;
-    skos:prefLabel "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities"@en ;
+    skos:prefLabel "Relevant suppliers and other third parties are included in incident planning, response, and recovery activities"@en,
+        "Les fournisseurs concernés et autres tiers sont inclus dans les activités de planification, de réponse et de récupération en cas d'incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -630,10 +710,12 @@ csf2:GV.SC-08 a skos:Concept ;
 
 csf2:GV.SC-09 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle"@en ;
+    skos:definition "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle"@en,
+        "Les pratiques de sécurité de la chaîne d'approvisionnement sont intégrées aux programmes de cybersécurité et de gestion des risques d'entreprise, et leurs performances sont surveillées tout au long du cycle de vie des produits et services technologiques"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-09" ;
-    skos:prefLabel "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle"@en ;
+    skos:prefLabel "Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle"@en,
+        "Les pratiques de sécurité de la chaîne d'approvisionnement sont intégrées aux programmes de cybersécurité et de gestion des risques d'entreprise, et leurs performances sont surveillées tout au long du cycle de vie des produits et services technologiques"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -642,10 +724,12 @@ csf2:GV.SC-09 a skos:Concept ;
 
 csf2:GV.SC-10 a skos:Concept ;
     skos:broader csf2:GV.SC ;
-    skos:definition "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement"@en ;
+    skos:definition "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement"@en,
+        "Les plans de gestion des risques de la chaîne d'approvisionnement en matière de cybersécurité comprennent des dispositions pour les activités qui se produisent après la conclusion d'un accord de partenariat ou de service"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC-10" ;
-    skos:prefLabel "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement"@en ;
+    skos:prefLabel "Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement"@en,
+        "Les plans de gestion des risques de la chaîne d'approvisionnement en matière de cybersécurité comprennent des dispositions pour les activités qui se produisent après la conclusion d'un accord de partenariat ou de service"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -654,10 +738,12 @@ csf2:GV.SC-10 a skos:Concept ;
 
 csf2:ID.AM-01 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Inventories of hardware managed by the organization are maintained"@en ;
+    skos:definition "Inventories of hardware managed by the organization are maintained"@en,
+        "Les inventaires du matériel géré par l'organisation sont maintenus"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-01" ;
-    skos:prefLabel "Inventories of hardware managed by the organization are maintained"@en ;
+    skos:prefLabel "Inventories of hardware managed by the organization are maintained"@en,
+        "Les inventaires du matériel géré par l'organisation sont maintenus"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -666,10 +752,12 @@ csf2:ID.AM-01 a skos:Concept ;
 
 csf2:ID.AM-02 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Inventories of software, services, and systems managed by the organization are maintained"@en ;
+    skos:definition "Inventories of software, services, and systems managed by the organization are maintained"@en,
+        "Les inventaires des logiciels, services et systèmes gérés par l'organisation sont maintenus"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-02" ;
-    skos:prefLabel "Inventories of software, services, and systems managed by the organization are maintained"@en ;
+    skos:prefLabel "Inventories of software, services, and systems managed by the organization are maintained"@en,
+        "Les inventaires des logiciels, services et systèmes gérés par l'organisation sont maintenus"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -678,10 +766,12 @@ csf2:ID.AM-02 a skos:Concept ;
 
 csf2:ID.AM-03 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Representations of the organization's authorized network communication and internal and external network data flows are maintained"@en ;
+    skos:definition "Representations of the organization's authorized network communication and internal and external network data flows are maintained"@en,
+        "Les représentations des communications réseau autorisées de l'organisation et des flux de données réseau internes et externes sont maintenues"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-03" ;
-    skos:prefLabel "Representations of the organization's authorized network communication and internal and external network data flows are maintained"@en ;
+    skos:prefLabel "Representations of the organization's authorized network communication and internal and external network data flows are maintained"@en,
+        "Les représentations des communications réseau autorisées de l'organisation et des flux de données réseau internes et externes sont maintenues"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -690,10 +780,12 @@ csf2:ID.AM-03 a skos:Concept ;
 
 csf2:ID.AM-04 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Inventories of services provided by suppliers are maintained"@en ;
+    skos:definition "Inventories of services provided by suppliers are maintained"@en,
+        "Les inventaires des services fournis par les fournisseurs sont maintenus 21"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-04" ;
-    skos:prefLabel "Inventories of services provided by suppliers are maintained"@en ;
+    skos:prefLabel "Inventories of services provided by suppliers are maintained"@en,
+        "Les inventaires des services fournis par les fournisseurs sont maintenus 21"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -702,10 +794,12 @@ csf2:ID.AM-04 a skos:Concept ;
 
 csf2:ID.AM-05 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Assets are prioritized based on classification, criticality, resources, and impact on the mission"@en ;
+    skos:definition "Assets are prioritized based on classification, criticality, resources, and impact on the mission"@en,
+        "Les actifs sont priorisés en fonction de la classification, de la criticité, des ressources et de l'impact sur la mission"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-05" ;
-    skos:prefLabel "Assets are prioritized based on classification, criticality, resources, and impact on the mission"@en ;
+    skos:prefLabel "Assets are prioritized based on classification, criticality, resources, and impact on the mission"@en,
+        "Les actifs sont priorisés en fonction de la classification, de la criticité, des ressources et de l'impact sur la mission"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -727,10 +821,12 @@ csf2:ID.AM-06 a skos:Concept ;
 
 csf2:ID.AM-07 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Inventories of data and corresponding metadata for designated data types are maintained"@en ;
+    skos:definition "Inventories of data and corresponding metadata for designated data types are maintained"@en,
+        "Les inventaires de données et les métadonnées correspondantes pour les types de données désignés sont maintenus"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-07" ;
-    skos:prefLabel "Inventories of data and corresponding metadata for designated data types are maintained"@en ;
+    skos:prefLabel "Inventories of data and corresponding metadata for designated data types are maintained"@en,
+        "Les inventaires de données et les métadonnées correspondantes pour les types de données désignés sont maintenus"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -739,10 +835,12 @@ csf2:ID.AM-07 a skos:Concept ;
 
 csf2:ID.AM-08 a skos:Concept ;
     skos:broader csf2:ID.AM ;
-    skos:definition "Systems, hardware, software, services, and data are managed throughout their life cycles"@en ;
+    skos:definition "Systems, hardware, software, services, and data are managed throughout their life cycles"@en,
+        "Les systèmes, matériels, logiciels, services et données sont gérés tout au long de leur cycle de vie •"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM-08" ;
-    skos:prefLabel "Systems, hardware, software, services, and data are managed throughout their life cycles"@en ;
+    skos:prefLabel "Systems, hardware, software, services, and data are managed throughout their life cycles"@en,
+        "Les systèmes, matériels, logiciels, services et données sont gérés tout au long de leur cycle de vie •"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -868,10 +966,12 @@ csf2:ID.GV-04 a skos:Concept ;
 
 csf2:ID.IM-01 a skos:Concept ;
     skos:broader csf2:ID.IM ;
-    skos:definition "Improvements are identified from evaluations"@en ;
+    skos:definition "Improvements are identified from evaluations"@en,
+        "Les améliorations sont identifiées à partir des évaluations"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.IM-01" ;
-    skos:prefLabel "Improvements are identified from evaluations"@en ;
+    skos:prefLabel "Improvements are identified from evaluations"@en,
+        "Les améliorations sont identifiées à partir des évaluations"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -880,10 +980,12 @@ csf2:ID.IM-01 a skos:Concept ;
 
 csf2:ID.IM-02 a skos:Concept ;
     skos:broader csf2:ID.IM ;
-    skos:definition "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties"@en ;
+    skos:definition "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties"@en,
+        "Les améliorations sont identifiées à partir de tests et d'exercices de sécurité, y compris ceux effectués en coordination avec les fournisseurs et les tiers concernés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.IM-02" ;
-    skos:prefLabel "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties"@en ;
+    skos:prefLabel "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties"@en,
+        "Les améliorations sont identifiées à partir de tests et d'exercices de sécurité, y compris ceux effectués en coordination avec les fournisseurs et les tiers concernés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -892,10 +994,12 @@ csf2:ID.IM-02 a skos:Concept ;
 
 csf2:ID.IM-03 a skos:Concept ;
     skos:broader csf2:ID.IM ;
-    skos:definition "Improvements are identified from execution of operational processes, procedures, and activities"@en ;
+    skos:definition "Improvements are identified from execution of operational processes, procedures, and activities"@en,
+        "Les améliorations sont identifiées à partir de l'exécution des processus opérationnels, des procédures et des activités"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.IM-03" ;
-    skos:prefLabel "Improvements are identified from execution of operational processes, procedures, and activities"@en ;
+    skos:prefLabel "Improvements are identified from execution of operational processes, procedures, and activities"@en,
+        "Les améliorations sont identifiées à partir de l'exécution des processus opérationnels, des procédures et des activités"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -904,10 +1008,12 @@ csf2:ID.IM-03 a skos:Concept ;
 
 csf2:ID.IM-04 a skos:Concept ;
     skos:broader csf2:ID.IM ;
-    skos:definition "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved"@en ;
+    skos:definition "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved"@en,
+        "Les plans de réponse aux incidents et d'autres plans de cybersécurité qui affectent les opérations sont établis, communiqués, maintenus et améliorés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.IM-04" ;
-    skos:prefLabel "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved"@en ;
+    skos:prefLabel "Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved"@en,
+        "Les plans de réponse aux incidents et d'autres plans de cybersécurité qui affectent les opérations sont établis, communiqués, maintenus et améliorés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -916,10 +1022,12 @@ csf2:ID.IM-04 a skos:Concept ;
 
 csf2:ID.RA-01 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Vulnerabilities in assets are identified, validated, and recorded"@en ;
+    skos:definition "Vulnerabilities in assets are identified, validated, and recorded"@en,
+        "Les vulnérabilités des actifs sont identifiées, validées et enregistrées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-01" ;
-    skos:prefLabel "Vulnerabilities in assets are identified, validated, and recorded"@en ;
+    skos:prefLabel "Vulnerabilities in assets are identified, validated, and recorded"@en,
+        "Les vulnérabilités des actifs sont identifiées, validées et enregistrées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -928,10 +1036,12 @@ csf2:ID.RA-01 a skos:Concept ;
 
 csf2:ID.RA-02 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Cyber threat intelligence is received from information sharing forums and sources"@en ;
+    skos:definition "Cyber threat intelligence is received from information sharing forums and sources"@en,
+        "Les renseignements sur les cybermenaces sont reçus de forums et de sources de partage d'informations"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-02" ;
-    skos:prefLabel "Cyber threat intelligence is received from information sharing forums and sources"@en ;
+    skos:prefLabel "Cyber threat intelligence is received from information sharing forums and sources"@en,
+        "Les renseignements sur les cybermenaces sont reçus de forums et de sources de partage d'informations"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -940,10 +1050,12 @@ csf2:ID.RA-02 a skos:Concept ;
 
 csf2:ID.RA-03 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Internal and external threats to the organization are identified and recorded"@en ;
+    skos:definition "Internal and external threats to the organization are identified and recorded"@en,
+        "Les menaces internes et externes à l'organisation sont identifiées et enregistrées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-03" ;
-    skos:prefLabel "Internal and external threats to the organization are identified and recorded"@en ;
+    skos:prefLabel "Internal and external threats to the organization are identified and recorded"@en,
+        "Les menaces internes et externes à l'organisation sont identifiées et enregistrées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -952,10 +1064,12 @@ csf2:ID.RA-03 a skos:Concept ;
 
 csf2:ID.RA-04 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded"@en ;
+    skos:definition "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded"@en,
+        "Les impacts potentiels et les probabilités des menaces exploitant les vulnérabilités sont identifiés et enregistrés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-04" ;
-    skos:prefLabel "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded"@en ;
+    skos:prefLabel "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded"@en,
+        "Les impacts potentiels et les probabilités des menaces exploitant les vulnérabilités sont identifiés et enregistrés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -964,10 +1078,12 @@ csf2:ID.RA-04 a skos:Concept ;
 
 csf2:ID.RA-05 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization"@en ;
+    skos:definition "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization"@en,
+        "Les menaces, les vulnérabilités, les probabilités et les impacts sont utilisés pour comprendre les risques inhérents et informer la priorisation des réponses aux risques"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-05" ;
-    skos:prefLabel "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization"@en ;
+    skos:prefLabel "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization"@en,
+        "Les menaces, les vulnérabilités, les probabilités et les impacts sont utilisés pour comprendre les risques inhérents et informer la priorisation des réponses aux risques"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -976,10 +1092,12 @@ csf2:ID.RA-05 a skos:Concept ;
 
 csf2:ID.RA-06 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Risk responses are chosen, prioritized, planned, tracked, and communicated"@en ;
+    skos:definition "Risk responses are chosen, prioritized, planned, tracked, and communicated"@en,
+        "Les réponses aux risques sont choisies, priorisées, planifiées, suivies et communiquées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-06" ;
-    skos:prefLabel "Risk responses are chosen, prioritized, planned, tracked, and communicated"@en ;
+    skos:prefLabel "Risk responses are chosen, prioritized, planned, tracked, and communicated"@en,
+        "Les réponses aux risques sont choisies, priorisées, planifiées, suivies et communiquées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -988,10 +1106,12 @@ csf2:ID.RA-06 a skos:Concept ;
 
 csf2:ID.RA-07 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked"@en ;
+    skos:definition "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked"@en,
+        "Les changements et les exceptions sont gérés, évalués en termes d'impact sur les risques, enregistrés et suivis"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-07" ;
-    skos:prefLabel "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked"@en ;
+    skos:prefLabel "Changes and exceptions are managed, assessed for risk impact, recorded, and tracked"@en,
+        "Les changements et les exceptions sont gérés, évalués en termes d'impact sur les risques, enregistrés et suivis"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1000,10 +1120,12 @@ csf2:ID.RA-07 a skos:Concept ;
 
 csf2:ID.RA-08 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Processes for receiving, analyzing, and responding to vulnerability disclosures are established"@en ;
+    skos:definition "Processes for receiving, analyzing, and responding to vulnerability disclosures are established"@en,
+        "Les processus de réception, d'analyse et de réponse aux divulgations de vulnérabilités sont établis"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-08" ;
-    skos:prefLabel "Processes for receiving, analyzing, and responding to vulnerability disclosures are established"@en ;
+    skos:prefLabel "Processes for receiving, analyzing, and responding to vulnerability disclosures are established"@en,
+        "Les processus de réception, d'analyse et de réponse aux divulgations de vulnérabilités sont établis"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1012,10 +1134,12 @@ csf2:ID.RA-08 a skos:Concept ;
 
 csf2:ID.RA-09 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "The authenticity and integrity of hardware and software are assessed prior to acquisition and use"@en ;
+    skos:definition "The authenticity and integrity of hardware and software are assessed prior to acquisition and use"@en,
+        "L'authenticité et l'intégrité du matériel et des logiciels sont évaluées avant l'acquisition et l'utilisation"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-09" ;
-    skos:prefLabel "The authenticity and integrity of hardware and software are assessed prior to acquisition and use"@en ;
+    skos:prefLabel "The authenticity and integrity of hardware and software are assessed prior to acquisition and use"@en,
+        "L'authenticité et l'intégrité du matériel et des logiciels sont évaluées avant l'acquisition et l'utilisation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1024,10 +1148,12 @@ csf2:ID.RA-09 a skos:Concept ;
 
 csf2:ID.RA-10 a skos:Concept ;
     skos:broader csf2:ID.RA ;
-    skos:definition "Critical suppliers are assessed prior to acquisition"@en ;
+    skos:definition "Critical suppliers are assessed prior to acquisition"@en,
+        "Les fournisseurs critiques sont évalués avant l'acquisition"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA-10" ;
-    skos:prefLabel "Critical suppliers are assessed prior to acquisition"@en ;
+    skos:prefLabel "Critical suppliers are assessed prior to acquisition"@en,
+        "Les fournisseurs critiques sont évalués avant l'acquisition"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1140,10 +1266,12 @@ csf2:ID.SC-05 a skos:Concept ;
 
 csf2:PR.AA-01 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Identities and credentials for authorized users, services, and hardware are managed by the organization"@en ;
+    skos:definition "Identities and credentials for authorized users, services, and hardware are managed by the organization"@en,
+        "Les identités et les informations d'identification des utilisateurs, services et matériels autorisés sont gérées par l'organisation"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-01" ;
-    skos:prefLabel "Identities and credentials for authorized users, services, and hardware are managed by the organization"@en ;
+    skos:prefLabel "Identities and credentials for authorized users, services, and hardware are managed by the organization"@en,
+        "Les identités et les informations d'identification des utilisateurs, services et matériels autorisés sont gérées par l'organisation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1152,10 +1280,12 @@ csf2:PR.AA-01 a skos:Concept ;
 
 csf2:PR.AA-02 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Identities are proofed and bound to credentials based on the context of interactions"@en ;
+    skos:definition "Identities are proofed and bound to credentials based on the context of interactions"@en,
+        "Les identités sont vérifiées et liées aux informations d'identification en fonction du contexte des interactions"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-02" ;
-    skos:prefLabel "Identities are proofed and bound to credentials based on the context of interactions"@en ;
+    skos:prefLabel "Identities are proofed and bound to credentials based on the context of interactions"@en,
+        "Les identités sont vérifiées et liées aux informations d'identification en fonction du contexte des interactions"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1164,10 +1294,12 @@ csf2:PR.AA-02 a skos:Concept ;
 
 csf2:PR.AA-03 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Users, services, and hardware are authenticated"@en ;
+    skos:definition "Users, services, and hardware are authenticated"@en,
+        "Les utilisateurs, les services et le matériel sont authentifiés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-03" ;
-    skos:prefLabel "Users, services, and hardware are authenticated"@en ;
+    skos:prefLabel "Users, services, and hardware are authenticated"@en,
+        "Les utilisateurs, les services et le matériel sont authentifiés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1176,10 +1308,12 @@ csf2:PR.AA-03 a skos:Concept ;
 
 csf2:PR.AA-04 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Identity assertions are protected, conveyed, and verified"@en ;
+    skos:definition "Identity assertions are protected, conveyed, and verified"@en,
+        "Les affirmations d'identité sont protégées, transmises et vérifiées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-04" ;
-    skos:prefLabel "Identity assertions are protected, conveyed, and verified"@en ;
+    skos:prefLabel "Identity assertions are protected, conveyed, and verified"@en,
+        "Les affirmations d'identité sont protégées, transmises et vérifiées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1188,10 +1322,12 @@ csf2:PR.AA-04 a skos:Concept ;
 
 csf2:PR.AA-05 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties"@en ;
+    skos:definition "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties"@en,
+        "Les autorisations d'accès, les droits et les autorisations sont définis dans une politique, gérés, appliqués et revus, et intègrent les principes du moindre privilège et de la séparation des tâches"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-05" ;
-    skos:prefLabel "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties"@en ;
+    skos:prefLabel "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties"@en,
+        "Les autorisations d'accès, les droits et les autorisations sont définis dans une politique, gérés, appliqués et revus, et intègrent les principes du moindre privilège et de la séparation des tâches"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1200,10 +1336,12 @@ csf2:PR.AA-05 a skos:Concept ;
 
 csf2:PR.AA-06 a skos:Concept ;
     skos:broader csf2:PR.AA ;
-    skos:definition "Physical access to assets is managed, monitored, and enforced commensurate with risk"@en ;
+    skos:definition "Physical access to assets is managed, monitored, and enforced commensurate with risk"@en,
+        "L'accès physique aux actifs est géré, surveillé et appliqué en fonction du risque"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA-06" ;
-    skos:prefLabel "Physical access to assets is managed, monitored, and enforced commensurate with risk"@en ;
+    skos:prefLabel "Physical access to assets is managed, monitored, and enforced commensurate with risk"@en,
+        "L'accès physique aux actifs est géré, surveillé et appliqué en fonction du risque"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1303,10 +1441,12 @@ csf2:PR.AC-07 a skos:Concept ;
 
 csf2:PR.AT-01 a skos:Concept ;
     skos:broader csf2:PR.AT ;
-    skos:definition "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind"@en ;
+    skos:definition "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind"@en,
+        "Le personnel est sensibilisé et formé afin qu'il possède les connaissances et les compétences nécessaires pour effectuer des tâches générales en tenant compte des risques de cybersécurité"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AT-01" ;
-    skos:prefLabel "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind"@en ;
+    skos:prefLabel "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind"@en,
+        "Le personnel est sensibilisé et formé afin qu'il possède les connaissances et les compétences nécessaires pour effectuer des tâches générales en tenant compte des risques de cybersécurité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1315,10 +1455,12 @@ csf2:PR.AT-01 a skos:Concept ;
 
 csf2:PR.AT-02 a skos:Concept ;
     skos:broader csf2:PR.AT ;
-    skos:definition "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind"@en ;
+    skos:definition "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind"@en,
+        "Les personnes occupant des postes spécialisés reçoivent une sensibilisation et une formation afin qu'elles possèdent les connaissances et les compétences nécessaires pour effectuer des tâches pertinentes en tenant compte des risques de cybersécurité"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AT-02" ;
-    skos:prefLabel "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind"@en ;
+    skos:prefLabel "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind"@en,
+        "Les personnes occupant des postes spécialisés reçoivent une sensibilisation et une formation afin qu'elles possèdent les connaissances et les compétences nécessaires pour effectuer des tâches pertinentes en tenant compte des risques de cybersécurité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1366,10 +1508,12 @@ csf2:PR.AT-05 a skos:Concept ;
 
 csf2:PR.DS-01 a skos:Concept ;
     skos:broader csf2:PR.DS ;
-    skos:definition "The confidentiality, integrity, and availability of data-at-rest are protected"@en ;
+    skos:definition "The confidentiality, integrity, and availability of data-at-rest are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données au repos sont protégées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.DS-01" ;
-    skos:prefLabel "The confidentiality, integrity, and availability of data-at-rest are protected"@en ;
+    skos:prefLabel "The confidentiality, integrity, and availability of data-at-rest are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données au repos sont protégées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1378,10 +1522,12 @@ csf2:PR.DS-01 a skos:Concept ;
 
 csf2:PR.DS-02 a skos:Concept ;
     skos:broader csf2:PR.DS ;
-    skos:definition "The confidentiality, integrity, and availability of data-in-transit are protected"@en ;
+    skos:definition "The confidentiality, integrity, and availability of data-in-transit are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données en transit sont protégées 23"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.DS-02" ;
-    skos:prefLabel "The confidentiality, integrity, and availability of data-in-transit are protected"@en ;
+    skos:prefLabel "The confidentiality, integrity, and availability of data-in-transit are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données en transit sont protégées 23"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1468,10 +1614,12 @@ csf2:PR.DS-08 a skos:Concept ;
 
 csf2:PR.DS-10 a skos:Concept ;
     skos:broader csf2:PR.DS ;
-    skos:definition "The confidentiality, integrity, and availability of data-in-use are protected"@en ;
+    skos:definition "The confidentiality, integrity, and availability of data-in-use are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données en cours d'utilisation sont protégées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.DS-10" ;
-    skos:prefLabel "The confidentiality, integrity, and availability of data-in-use are protected"@en ;
+    skos:prefLabel "The confidentiality, integrity, and availability of data-in-use are protected"@en,
+        "La confidentialité, l'intégrité et la disponibilité des données en cours d'utilisation sont protégées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1480,10 +1628,12 @@ csf2:PR.DS-10 a skos:Concept ;
 
 csf2:PR.DS-11 a skos:Concept ;
     skos:broader csf2:PR.DS ;
-    skos:definition "Backups of data are created, protected, maintained, and tested"@en ;
+    skos:definition "Backups of data are created, protected, maintained, and tested"@en,
+        "Les sauvegardes des données sont créées, protégées, maintenues et testées •"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.DS-11" ;
-    skos:prefLabel "Backups of data are created, protected, maintained, and tested"@en ;
+    skos:prefLabel "Backups of data are created, protected, maintained, and tested"@en,
+        "Les sauvegardes des données sont créées, protégées, maintenues et testées •"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1648,10 +1798,12 @@ csf2:PR.IP-12 a skos:Concept ;
 
 csf2:PR.IR-01 a skos:Concept ;
     skos:broader csf2:PR.IR ;
-    skos:definition "Networks and environments are protected from unauthorized logical access and usage"@en ;
+    skos:definition "Networks and environments are protected from unauthorized logical access and usage"@en,
+        "Les réseaux et les environnements sont protégés contre les accès logiques et les utilisations non autorisés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.IR-01" ;
-    skos:prefLabel "Networks and environments are protected from unauthorized logical access and usage"@en ;
+    skos:prefLabel "Networks and environments are protected from unauthorized logical access and usage"@en,
+        "Les réseaux et les environnements sont protégés contre les accès logiques et les utilisations non autorisés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1660,10 +1812,12 @@ csf2:PR.IR-01 a skos:Concept ;
 
 csf2:PR.IR-02 a skos:Concept ;
     skos:broader csf2:PR.IR ;
-    skos:definition "The organization's technology assets are protected from environmental threats"@en ;
+    skos:definition "The organization's technology assets are protected from environmental threats"@en,
+        "Les actifs technologiques de l'organisation sont protégés contres les menaces environnementales"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.IR-02" ;
-    skos:prefLabel "The organization's technology assets are protected from environmental threats"@en ;
+    skos:prefLabel "The organization's technology assets are protected from environmental threats"@en,
+        "Les actifs technologiques de l'organisation sont protégés contres les menaces environnementales"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1672,10 +1826,12 @@ csf2:PR.IR-02 a skos:Concept ;
 
 csf2:PR.IR-03 a skos:Concept ;
     skos:broader csf2:PR.IR ;
-    skos:definition "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations"@en ;
+    skos:definition "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations"@en,
+        "Les mécanismes sont mis en œuvre pour satisfaire aux exigences de résilience dans des situations normales et défavorables"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.IR-03" ;
-    skos:prefLabel "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations"@en ;
+    skos:prefLabel "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations"@en,
+        "Les mécanismes sont mis en œuvre pour satisfaire aux exigences de résilience dans des situations normales et défavorables"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1684,10 +1840,12 @@ csf2:PR.IR-03 a skos:Concept ;
 
 csf2:PR.IR-04 a skos:Concept ;
     skos:broader csf2:PR.IR ;
-    skos:definition "Adequate resource capacity to ensure availability is maintained"@en ;
+    skos:definition "Adequate resource capacity to ensure availability is maintained"@en,
+        "Les capacité de ressources adéquate pour assurer la disponibilité sont maintenues"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.IR-04" ;
-    skos:prefLabel "Adequate resource capacity to ensure availability is maintained"@en ;
+    skos:prefLabel "Adequate resource capacity to ensure availability is maintained"@en,
+        "Les capacité de ressources adéquate pour assurer la disponibilité sont maintenues"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1722,10 +1880,12 @@ csf2:PR.MA-02 a skos:Concept ;
 
 csf2:PR.PS-01 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Configuration management practices are established and applied"@en ;
+    skos:definition "Configuration management practices are established and applied"@en,
+        "Les pratiques de gestion de la configuration sont établies et appliquées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-01" ;
-    skos:prefLabel "Configuration management practices are established and applied"@en ;
+    skos:prefLabel "Configuration management practices are established and applied"@en,
+        "Les pratiques de gestion de la configuration sont établies et appliquées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1734,10 +1894,12 @@ csf2:PR.PS-01 a skos:Concept ;
 
 csf2:PR.PS-02 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Software is maintained, replaced, and removed commensurate with risk"@en ;
+    skos:definition "Software is maintained, replaced, and removed commensurate with risk"@en,
+        "Le logiciel est maintenu, remplacé et supprimé en fonction du risque"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-02" ;
-    skos:prefLabel "Software is maintained, replaced, and removed commensurate with risk"@en ;
+    skos:prefLabel "Software is maintained, replaced, and removed commensurate with risk"@en,
+        "Le logiciel est maintenu, remplacé et supprimé en fonction du risque"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1746,10 +1908,12 @@ csf2:PR.PS-02 a skos:Concept ;
 
 csf2:PR.PS-03 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Hardware is maintained, replaced, and removed commensurate with risk"@en ;
+    skos:definition "Hardware is maintained, replaced, and removed commensurate with risk"@en,
+        "Le matériel est entretenu, remplacé et retiré en fonction du risque"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-03" ;
-    skos:prefLabel "Hardware is maintained, replaced, and removed commensurate with risk"@en ;
+    skos:prefLabel "Hardware is maintained, replaced, and removed commensurate with risk"@en,
+        "Le matériel est entretenu, remplacé et retiré en fonction du risque"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1758,10 +1922,12 @@ csf2:PR.PS-03 a skos:Concept ;
 
 csf2:PR.PS-04 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Log records are generated and made available for continuous monitoring"@en ;
+    skos:definition "Log records are generated and made available for continuous monitoring"@en,
+        "Les enregistrements de journaux sont générés et mis à disposition pour une surveillance continue"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-04" ;
-    skos:prefLabel "Log records are generated and made available for continuous monitoring"@en ;
+    skos:prefLabel "Log records are generated and made available for continuous monitoring"@en,
+        "Les enregistrements de journaux sont générés et mis à disposition pour une surveillance continue"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1770,10 +1936,12 @@ csf2:PR.PS-04 a skos:Concept ;
 
 csf2:PR.PS-05 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Installation and execution of unauthorized software are prevented"@en ;
+    skos:definition "Installation and execution of unauthorized software are prevented"@en,
+        "L'installation et l'exécution de logiciels non autorisés sont empêchées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-05" ;
-    skos:prefLabel "Installation and execution of unauthorized software are prevented"@en ;
+    skos:prefLabel "Installation and execution of unauthorized software are prevented"@en,
+        "L'installation et l'exécution de logiciels non autorisés sont empêchées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1782,10 +1950,12 @@ csf2:PR.PS-05 a skos:Concept ;
 
 csf2:PR.PS-06 a skos:Concept ;
     skos:broader csf2:PR.PS ;
-    skos:definition "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle"@en ;
+    skos:definition "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle"@en,
+        "Les pratiques de développement de logiciels sécurisés sont intégrées et leurs performances sont surveillées tout au long du cycle de vie du développement logiciel"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS-06" ;
-    skos:prefLabel "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle"@en ;
+    skos:prefLabel "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle"@en,
+        "Les pratiques de développement de logiciels sécurisés sont intégrées et leurs performances sont surveillées tout au long du cycle de vie du développement logiciel"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1885,10 +2055,12 @@ csf2:RC.CO-02 a skos:Concept ;
 
 csf2:RC.CO-03 a skos:Concept ;
     skos:broader csf2:RC.CO ;
-    skos:definition "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders"@en ;
+    skos:definition "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders"@en,
+        "Les activités de récupération et les progrès réalisés dans la restauration des capacités opérationnelles sont communiqués aux parties prenantes internes et externes désignées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.CO-03" ;
-    skos:prefLabel "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders"@en ;
+    skos:prefLabel "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders"@en,
+        "Les activités de récupération et les progrès réalisés dans la restauration des capacités opérationnelles sont communiqués aux parties prenantes internes et externes désignées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1897,10 +2069,12 @@ csf2:RC.CO-03 a skos:Concept ;
 
 csf2:RC.CO-04 a skos:Concept ;
     skos:broader csf2:RC.CO ;
-    skos:definition "Public updates on incident recovery are shared using approved methods and messaging"@en ;
+    skos:definition "Public updates on incident recovery are shared using approved methods and messaging"@en,
+        "Les mises à jour publiques sur la récupération après incident sont partagées à l'aide de méthodes et de messages approuvés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.CO-04" ;
-    skos:prefLabel "Public updates on incident recovery are shared using approved methods and messaging"@en ;
+    skos:prefLabel "Public updates on incident recovery are shared using approved methods and messaging"@en,
+        "Les mises à jour publiques sur la récupération après incident sont partagées à l'aide de méthodes et de messages approuvés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1935,10 +2109,12 @@ csf2:RC.IM-02 a skos:Concept ;
 
 csf2:RC.RP-01 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "The recovery portion of the incident response plan is executed once initiated from the incident response process"@en ;
+    skos:definition "The recovery portion of the incident response plan is executed once initiated from the incident response process"@en,
+        "La partie récupération du plan de réponse aux incidents est exécutée une fois lancée à partir du processus de réponse aux incidents"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-01" ;
-    skos:prefLabel "The recovery portion of the incident response plan is executed once initiated from the incident response process"@en ;
+    skos:prefLabel "The recovery portion of the incident response plan is executed once initiated from the incident response process"@en,
+        "La partie récupération du plan de réponse aux incidents est exécutée une fois lancée à partir du processus de réponse aux incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1947,10 +2123,12 @@ csf2:RC.RP-01 a skos:Concept ;
 
 csf2:RC.RP-02 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "Recovery actions are selected, scoped, prioritized, and performed"@en ;
+    skos:definition "Recovery actions are selected, scoped, prioritized, and performed"@en,
+        "Les actions de récupération sont sélectionnées, délimitées, priorisées et exécutées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-02" ;
-    skos:prefLabel "Recovery actions are selected, scoped, prioritized, and performed"@en ;
+    skos:prefLabel "Recovery actions are selected, scoped, prioritized, and performed"@en,
+        "Les actions de récupération sont sélectionnées, délimitées, priorisées et exécutées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1959,10 +2137,12 @@ csf2:RC.RP-02 a skos:Concept ;
 
 csf2:RC.RP-03 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "The integrity of backups and other restoration assets is verified before using them for restoration"@en ;
+    skos:definition "The integrity of backups and other restoration assets is verified before using them for restoration"@en,
+        "L'intégrité des sauvegardes et autres actifs de restauration est vérifiée avant de les utiliser pour la restauration"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-03" ;
-    skos:prefLabel "The integrity of backups and other restoration assets is verified before using them for restoration"@en ;
+    skos:prefLabel "The integrity of backups and other restoration assets is verified before using them for restoration"@en,
+        "L'intégrité des sauvegardes et autres actifs de restauration est vérifiée avant de les utiliser pour la restauration"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1971,10 +2151,12 @@ csf2:RC.RP-03 a skos:Concept ;
 
 csf2:RC.RP-04 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms"@en ;
+    skos:definition "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms"@en,
+        "Les fonctions critiques de la mission et la gestion des risques de cybersécurité sont considérées pour établir des normes opérationnelles après incident"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-04" ;
-    skos:prefLabel "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms"@en ;
+    skos:prefLabel "Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms"@en,
+        "Les fonctions critiques de la mission et la gestion des risques de cybersécurité sont considérées pour établir des normes opérationnelles après incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1983,10 +2165,12 @@ csf2:RC.RP-04 a skos:Concept ;
 
 csf2:RC.RP-05 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed"@en ;
+    skos:definition "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed"@en,
+        "L'intégrité des actifs restaurés est vérifiée, les systèmes et services sont restaurés et l'état de fonctionnement normal est confirmé"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-05" ;
-    skos:prefLabel "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed"@en ;
+    skos:prefLabel "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed"@en,
+        "L'intégrité des actifs restaurés est vérifiée, les systèmes et services sont restaurés et l'état de fonctionnement normal est confirmé"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -1995,10 +2179,12 @@ csf2:RC.RP-05 a skos:Concept ;
 
 csf2:RC.RP-06 a skos:Concept ;
     skos:broader csf2:RC.RP ;
-    skos:definition "The end of incident recovery is declared based on criteria, and incident-related documentation is completed"@en ;
+    skos:definition "The end of incident recovery is declared based on criteria, and incident-related documentation is completed"@en,
+        "La fin de la reprise après incident est déclarée sur la base de critères et la documentation relative à l'incident est complétée"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP-06" ;
-    skos:prefLabel "The end of incident recovery is declared based on criteria, and incident-related documentation is completed"@en ;
+    skos:prefLabel "The end of incident recovery is declared based on criteria, and incident-related documentation is completed"@en,
+        "La fin de la reprise après incident est déclarée sur la base de critères et la documentation relative à l'incident est complétée"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2033,10 +2219,12 @@ csf2:RS.AN-02 a skos:Concept ;
 
 csf2:RS.AN-03 a skos:Concept ;
     skos:broader csf2:RS.AN ;
-    skos:definition "Analysis is performed to establish what has taken place during an incident and the root cause of the incident"@en ;
+    skos:definition "Analysis is performed to establish what has taken place during an incident and the root cause of the incident"@en,
+        "Une analyse est effectuée pour établir ce qui s'est passé lors d'un incident et la cause profonde de l'incident"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.AN-03" ;
-    skos:prefLabel "Analysis is performed to establish what has taken place during an incident and the root cause of the incident"@en ;
+    skos:prefLabel "Analysis is performed to establish what has taken place during an incident and the root cause of the incident"@en,
+        "Une analyse est effectuée pour établir ce qui s'est passé lors d'un incident et la cause profonde de l'incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2071,10 +2259,12 @@ csf2:RS.AN-05 a skos:Concept ;
 
 csf2:RS.AN-06 a skos:Concept ;
     skos:broader csf2:RS.AN ;
-    skos:definition "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved"@en ;
+    skos:definition "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved"@en,
+        "Les actions effectuées au cours d'une enquête sont enregistrées et l'intégrité et la provenance des enregistrements sont préservées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.AN-06" ;
-    skos:prefLabel "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved"@en ;
+    skos:prefLabel "Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved"@en,
+        "Les actions effectuées au cours d'une enquête sont enregistrées et l'intégrité et la provenance des enregistrements sont préservées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2083,10 +2273,12 @@ csf2:RS.AN-06 a skos:Concept ;
 
 csf2:RS.AN-07 a skos:Concept ;
     skos:broader csf2:RS.AN ;
-    skos:definition "Incident data and metadata are collected, and their integrity and provenance are preserved"@en ;
+    skos:definition "Incident data and metadata are collected, and their integrity and provenance are preserved"@en,
+        "Les données et métadonnées relatives aux incidents sont collectées, et leur intégrité et leur provenance sont préservées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.AN-07" ;
-    skos:prefLabel "Incident data and metadata are collected, and their integrity and provenance are preserved"@en ;
+    skos:prefLabel "Incident data and metadata are collected, and their integrity and provenance are preserved"@en,
+        "Les données et métadonnées relatives aux incidents sont collectées, et leur intégrité et leur provenance sont préservées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2095,10 +2287,12 @@ csf2:RS.AN-07 a skos:Concept ;
 
 csf2:RS.AN-08 a skos:Concept ;
     skos:broader csf2:RS.AN ;
-    skos:definition "An incident's magnitude is estimated and validated"@en ;
+    skos:definition "An incident's magnitude is estimated and validated"@en,
+        "L'ampleur d'un incident est estimée et validée •"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.AN-08" ;
-    skos:prefLabel "An incident's magnitude is estimated and validated"@en ;
+    skos:prefLabel "An incident's magnitude is estimated and validated"@en,
+        "L'ampleur d'un incident est estimée et validée •"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2120,10 +2314,12 @@ csf2:RS.CO-01 a skos:Concept ;
 
 csf2:RS.CO-02 a skos:Concept ;
     skos:broader csf2:RS.CO ;
-    skos:definition "Internal and external stakeholders are notified of incidents"@en ;
+    skos:definition "Internal and external stakeholders are notified of incidents"@en,
+        "Les parties prenantes internes et externes sont informées des incidents"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.CO-02" ;
-    skos:prefLabel "Internal and external stakeholders are notified of incidents"@en ;
+    skos:prefLabel "Internal and external stakeholders are notified of incidents"@en,
+        "Les parties prenantes internes et externes sont informées des incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2132,10 +2328,12 @@ csf2:RS.CO-02 a skos:Concept ;
 
 csf2:RS.CO-03 a skos:Concept ;
     skos:broader csf2:RS.CO ;
-    skos:definition "Information is shared with designated internal and external stakeholders"@en ;
+    skos:definition "Information is shared with designated internal and external stakeholders"@en,
+        "Les informations sont partagées avec des parties prenantes internes et externes désignées"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.CO-03" ;
-    skos:prefLabel "Information is shared with designated internal and external stakeholders"@en ;
+    skos:prefLabel "Information is shared with designated internal and external stakeholders"@en,
+        "Les informations sont partagées avec des parties prenantes internes et externes désignées"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2196,10 +2394,12 @@ csf2:RS.IM-02 a skos:Concept ;
 
 csf2:RS.MA-01 a skos:Concept ;
     skos:broader csf2:RS.MA ;
-    skos:definition "The incident response plan is executed in coordination with relevant third parties once an incident is declared"@en ;
+    skos:definition "The incident response plan is executed in coordination with relevant third parties once an incident is declared"@en,
+        "Le plan de réponse aux incidents est exécuté en coordination avec les tiers concernés une fois qu'un incident est déclaré"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA-01" ;
-    skos:prefLabel "The incident response plan is executed in coordination with relevant third parties once an incident is declared"@en ;
+    skos:prefLabel "The incident response plan is executed in coordination with relevant third parties once an incident is declared"@en,
+        "Le plan de réponse aux incidents est exécuté en coordination avec les tiers concernés une fois qu'un incident est déclaré"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2208,10 +2408,12 @@ csf2:RS.MA-01 a skos:Concept ;
 
 csf2:RS.MA-02 a skos:Concept ;
     skos:broader csf2:RS.MA ;
-    skos:definition "Incident reports are triaged and validated"@en ;
+    skos:definition "Incident reports are triaged and validated"@en,
+        "Les rapports d'incidents sont triés et validés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA-02" ;
-    skos:prefLabel "Incident reports are triaged and validated"@en ;
+    skos:prefLabel "Incident reports are triaged and validated"@en,
+        "Les rapports d'incidents sont triés et validés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2220,10 +2422,12 @@ csf2:RS.MA-02 a skos:Concept ;
 
 csf2:RS.MA-03 a skos:Concept ;
     skos:broader csf2:RS.MA ;
-    skos:definition "Incidents are categorized and prioritized"@en ;
+    skos:definition "Incidents are categorized and prioritized"@en,
+        "Les incidents sont catégorisés et priorisés"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA-03" ;
-    skos:prefLabel "Incidents are categorized and prioritized"@en ;
+    skos:prefLabel "Incidents are categorized and prioritized"@en,
+        "Les incidents sont catégorisés et priorisés"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2232,10 +2436,12 @@ csf2:RS.MA-03 a skos:Concept ;
 
 csf2:RS.MA-04 a skos:Concept ;
     skos:broader csf2:RS.MA ;
-    skos:definition "Incidents are escalated or elevated as needed"@en ;
+    skos:definition "Incidents are escalated or elevated as needed"@en,
+        "Les incidents sont escaladés ou augmentés selon les besoins"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA-04" ;
-    skos:prefLabel "Incidents are escalated or elevated as needed"@en ;
+    skos:prefLabel "Incidents are escalated or elevated as needed"@en,
+        "Les incidents sont escaladés ou augmentés selon les besoins"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2244,10 +2450,12 @@ csf2:RS.MA-04 a skos:Concept ;
 
 csf2:RS.MA-05 a skos:Concept ;
     skos:broader csf2:RS.MA ;
-    skos:definition "The criteria for initiating incident recovery are applied"@en ;
+    skos:definition "The criteria for initiating incident recovery are applied"@en,
+        "Les critères d'initiation de la reprise après incident sont appliqués"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA-05" ;
-    skos:prefLabel "The criteria for initiating incident recovery are applied"@en ;
+    skos:prefLabel "The criteria for initiating incident recovery are applied"@en,
+        "Les critères d'initiation de la reprise après incident sont appliqués"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2256,10 +2464,12 @@ csf2:RS.MA-05 a skos:Concept ;
 
 csf2:RS.MI-01 a skos:Concept ;
     skos:broader csf2:RS.MI ;
-    skos:definition "Incidents are contained"@en ;
+    skos:definition "Incidents are contained"@en,
+        "Les incidents sont contenus"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MI-01" ;
-    skos:prefLabel "Incidents are contained"@en ;
+    skos:prefLabel "Incidents are contained"@en,
+        "Les incidents sont contenus"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2268,10 +2478,12 @@ csf2:RS.MI-01 a skos:Concept ;
 
 csf2:RS.MI-02 a skos:Concept ;
     skos:broader csf2:RS.MI ;
-    skos:definition "Incidents are eradicated"@en ;
+    skos:definition "Incidents are eradicated"@en,
+        "Les incidents sont éradiqués"@fr ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MI-02" ;
-    skos:prefLabel "Incidents are eradicated"@en ;
+    skos:prefLabel "Incidents are eradicated"@en,
+        "Les incidents sont éradiqués"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2321,7 +2533,8 @@ csf2:GV.PO a skos:Concept ;
     skos:definition "Organizational cybersecurity policy is established, communicated, and enforced"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.PO" ;
-    skos:prefLabel "Policy"@en ;
+    skos:prefLabel "Policy"@en,
+        "Politique"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2369,7 +2582,8 @@ csf2:GV.OV a skos:Concept ;
     skos:definition "Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OV" ;
-    skos:prefLabel "Oversight"@en ;
+    skos:prefLabel "Oversight"@en,
+        "Surveillance"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2393,7 +2607,8 @@ csf2:RS.MI a skos:Concept ;
     skos:definition "Activities are performed to prevent expansion of an event and mitigate its effects"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MI" ;
-    skos:prefLabel "Incident Mitigation"@en ;
+    skos:prefLabel "Incident Mitigation"@en,
+        "Atténuation des incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2403,7 +2618,8 @@ csf2:RS.MI a skos:Concept ;
 csf2:DE a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE" ;
-    skos:prefLabel "Detect"@en ;
+    skos:prefLabel "Detect"@en,
+        "Détecter"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2416,7 +2632,8 @@ csf2:GV.RR a skos:Concept ;
     skos:definition "Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RR" ;
-    skos:prefLabel "Roles, Responsibilities, and Authorities"@en ;
+    skos:prefLabel "Roles, Responsibilities, and Authorities"@en,
+        "Rôles, responsabilités et autorités"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2440,7 +2657,8 @@ csf2:ID.IM a skos:Concept ;
     skos:definition "Improvements to organizational cybersecurity risk management processes, procedures and activities are identified across all CSF Functions"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.IM" ;
-    skos:prefLabel "Improvement"@en ;
+    skos:prefLabel "Improvement"@en,
+        "Amélioration"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2452,7 +2670,8 @@ csf2:PR.IR a skos:Concept ;
     skos:definition "Security architectures are managed with the organization's risk strategy to protect asset confidentiality, integrity, and availability, and organizational resilience"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.IR" ;
-    skos:prefLabel "Technology Infrastructure Resilience"@en ;
+    skos:prefLabel "Technology Infrastructure Resilience"@en,
+        "Résilience de l'infrastructure technologique"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2462,7 +2681,8 @@ csf2:PR.IR a skos:Concept ;
 csf2:RC a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC" ;
-    skos:prefLabel "Recover"@en ;
+    skos:prefLabel "Recover"@en,
+        "Récupérer"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2475,7 +2695,8 @@ csf2:RC.CO a skos:Concept ;
     skos:definition "Restoration activities are coordinated with internal and external parties"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.CO" ;
-    skos:prefLabel "Incident Recovery Communication"@en ;
+    skos:prefLabel "Incident Recovery Communication"@en,
+        "Communication de récupération après incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2499,7 +2720,8 @@ csf2:GV.OC a skos:Concept ;
     skos:definition "The circumstances - mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements - surrounding the organization's cybersecurity risk management decisions are understood"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.OC" ;
-    skos:prefLabel "Organizational Context"@en ;
+    skos:prefLabel "Organizational Context"@en,
+        "Contexte organisationnel"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2535,7 +2757,8 @@ csf2:PR.AT a skos:Concept ;
     skos:definition "The organization's personnel are provided with cybersecurity awareness and training so that they can perform their cybersecurity-related tasks"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AT" ;
-    skos:prefLabel "Awareness and Training"@en ;
+    skos:prefLabel "Awareness and Training"@en,
+        "Sensibilisation et formation"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2559,7 +2782,8 @@ csf2:RS.CO a skos:Concept ;
     skos:definition "Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.CO" ;
-    skos:prefLabel "Incident Response Reporting and Communication"@en ;
+    skos:prefLabel "Incident Response Reporting and Communication"@en,
+        "Rapports et communications en matière de réponse aux incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2571,7 +2795,8 @@ csf2:RS.MA a skos:Concept ;
     skos:definition "Responses to detected cybersecurity incidents are managed"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.MA" ;
-    skos:prefLabel "Incident Management"@en ;
+    skos:prefLabel "Incident Management"@en,
+        "Gestion des incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2583,7 +2808,8 @@ csf2:PR.AA a skos:Concept ;
     skos:definition "Access to physical and logical assets is limited to authorized users, services, and hardware and managed commensurate with the assessed risk of unauthorized access"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.AA" ;
-    skos:prefLabel "Identity Management, Authentication, and Access Control"@en ;
+    skos:prefLabel "Identity Management, Authentication, and Access Control"@en,
+        "Gestion des identités, authentification et contrôle d'accès"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2595,7 +2821,8 @@ csf2:PR.PS a skos:Concept ;
     skos:definition "The hardware, software (e.g., firmware, operating systems, applications), and services of physical and virtual platforms are managed consistent with the organization's risk strategy to protect their confidentiality, integrity, and availability"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.PS" ;
-    skos:prefLabel "Platform Security"@en ;
+    skos:prefLabel "Platform Security"@en,
+        "Sécurité de la plateforme"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2607,7 +2834,8 @@ csf2:RC.RP a skos:Concept ;
     skos:definition "Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RC.RP" ;
-    skos:prefLabel "Incident Recovery Plan Execution"@en ;
+    skos:prefLabel "Incident Recovery Plan Execution"@en,
+        "Exécution du plan de reprise après incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2617,7 +2845,8 @@ csf2:RC.RP a skos:Concept ;
 csf2:GV a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV" ;
-    skos:prefLabel "Govern"@en ;
+    skos:prefLabel "Govern"@en,
+        "Gouverner"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2630,7 +2859,8 @@ csf2:GV.RM a skos:Concept ;
     skos:definition "The organization's priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.RM" ;
-    skos:prefLabel "Risk Management Strategy"@en ;
+    skos:prefLabel "Risk Management Strategy"@en,
+        "Stratégie de gestion des risques"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2652,7 +2882,8 @@ csf2:PR.AC a skos:Concept ;
 csf2:RS a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS" ;
-    skos:prefLabel "Respond"@en ;
+    skos:prefLabel "Respond"@en,
+        "Répondre"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2665,7 +2896,8 @@ csf2:DE.AE a skos:Concept ;
     skos:definition "Anomalies, indicators of compromise, and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.AE" ;
-    skos:prefLabel "Adverse Event Analysis"@en ;
+    skos:prefLabel "Adverse Event Analysis"@en,
+        "Analyse des événements indésirables"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2675,7 +2907,8 @@ csf2:DE.AE a skos:Concept ;
 csf2:ID a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID" ;
-    skos:prefLabel "Identify"@en ;
+    skos:prefLabel "Identify"@en,
+        "Identifier"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2688,7 +2921,8 @@ csf2:ID.AM a skos:Concept ;
     skos:definition "Assets (e.g., data, hardware, software, systems, facilities, services, people) that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization's risk strategy"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.AM" ;
-    skos:prefLabel "Asset Management"@en ;
+    skos:prefLabel "Asset Management"@en,
+        "Gestion des actifs"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2700,7 +2934,8 @@ csf2:RS.AN a skos:Concept ;
     skos:definition "Investigations are conducted to ensure effective response and support forensics and recovery activities"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "RS.AN" ;
-    skos:prefLabel "Incident Analysis"@en ;
+    skos:prefLabel "Incident Analysis"@en,
+        "Analyse des incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2712,7 +2947,8 @@ csf2:DE.CM a skos:Concept ;
     skos:definition "Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "DE.CM" ;
-    skos:prefLabel "Continuous Monitoring"@en ;
+    skos:prefLabel "Continuous Monitoring"@en,
+        "Surveillance continue"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2724,7 +2960,8 @@ csf2:GV.SC a skos:Concept ;
     skos:definition "Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "GV.SC" ;
-    skos:prefLabel "Cybersecurity Supply Chain Risk Management"@en ;
+    skos:prefLabel "Cybersecurity Supply Chain Risk Management"@en,
+        "Gestion des risques de la chaîne d'approvisionnement de cybersécurité"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2736,7 +2973,8 @@ csf2:ID.RA a skos:Concept ;
     skos:definition "The cybersecurity risk to the organization, assets, and individuals is understood by the organization"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "ID.RA" ;
-    skos:prefLabel "Risk Assessment"@en ;
+    skos:prefLabel "Risk Assessment"@en,
+        "Évaluation des risques"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2746,7 +2984,8 @@ csf2:ID.RA a skos:Concept ;
 csf2:PR a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR" ;
-    skos:prefLabel "Protect"@en ;
+    skos:prefLabel "Protect"@en,
+        "Protéger"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/csf2> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -2759,7 +2998,8 @@ csf2:PR.DS a skos:Concept ;
     skos:definition "Data are managed consistent with the organization's risk strategy to protect the confidentiality, integrity, and availability of information"@en ;
     skos:inScheme <https://w3id.org/crgo/vocab/csf2> ;
     skos:notation "PR.DS" ;
-    skos:prefLabel "Data Security"@en ;
+    skos:prefLabel "Data Security"@en,
+        "Sécurité des données"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST CSF 2.0 OSCAL catalogue"@en ;
@@ -2786,7 +3026,7 @@ csf2:PR.IP a skos:Concept ;
     dcterms:source "https://github.com/usnistgov/oscal-content/tree/main/nist.gov/CSF/v2.0 (NIST CSWP 29, 26 Feb 2024)" ;
     dcterms:title "NIST Cybersecurity Framework 2.0"@en,
         "Cadre de cybersécurité du NIST 2.0"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.7.0/csf2> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.8.0/csf2> ;
     owl:versionInfo "2.0 (OSCAL catalogue 1.2.0)" ;
     skos:hasTopConcept csf2:DE,
         csf2:GV,

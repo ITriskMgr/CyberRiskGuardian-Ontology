@@ -16664,7 +16664,7 @@
     "@value" : "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."
   } ],
   "http://purl.org/dc/terms/bibliographicCitation" : [ {
-    "@value" : "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.7.0. https://github.com/ITriskMgr/cyberriskguardian-ontology"
+    "@value" : "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.8.0. https://github.com/ITriskMgr/cyberriskguardian-ontology"
   } ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Claude (Anthropic), AI drafting assistant; every element approved by the creator"
@@ -16717,13 +16717,13 @@
     "@value" : "https://w3id.org/crgo/"
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
-    "@id" : "https://w3id.org/crgo/0.6.0/crgo"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/crgo/0.7.0/crgo"
   } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/crgo/0.8.0/crgo"
+  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.7.0"
+    "@value" : "0.8.0"
   } ],
   "http://xmlns.com/foaf/0.1/homepage" : [ {
     "@id" : "https://w3id.org/crgo/crgo"

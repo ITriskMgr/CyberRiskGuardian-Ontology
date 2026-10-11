@@ -1,0 +1,8 @@
+# CQ26 (Estimation, proposed 0.8.0)
+# Question: What is the EPSS exploitation probability of the known exploited vulnerabilities linked to ransomware encryption (T1486)?
+# Expect: min_rows 5
+SELECT ?cve ?epss WHERE {
+  ?t skos:inScheme <https://w3id.org/crgo/vocab/attack> ; skos:notation "T1486" .
+  ?k skos:inScheme <https://w3id.org/crgo/vocab/kev> ; skos:relatedMatch ?t ; skos:notation ?cve .
+  ?e {{estimateOf}} ?k ; {{numericValue}} ?epss .
+} ORDER BY DESC(?epss)

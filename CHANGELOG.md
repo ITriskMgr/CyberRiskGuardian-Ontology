@@ -2,6 +2,22 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.8.0] — 2026-10-11, approved
+
+Calibration evidence, other sectors and other legal regimes. Approved in full by the project owner on 2026-10-11, including the written scenarios AUTH-001 to AUTH-006 and their links.
+
+### Added
+- **Exploitation probability:** FIRST EPSS scores (2026-10-04) for the 1,739 KEV vulnerabilities, as likelihood estimates; scenario evidence now gives the median and maximum EPSS of the exploited vulnerabilities behind its techniques and weaknesses.
+- **Sector frequencies:** 111 estimates from the VERIS Community Database: for 9 sectors and all sectors, the share of confirmed public incidents (2015–2025) involving each theme or threat-source type; mass campaigns counted once (the 2023 MOVEit breach alone was 613 of 842 education records). `crgo_sweep` reports them when a profile names a sector.
+- **Legal regimes:** Québec public-sector Act A-2.1 (18 obligations, verified on LégisQuébec), PIPEDA (13 provisions, verified on the Justice Laws Website), OSFI B-13 (3 domains, 17 principles). Cross-references: Loi 25 ↔ A-2.1 (15, same obligation), Loi 25 ↔ PIPEDA (10, comparable obligation), B-13 ↔ CSF 2.0 categories (42). Scenario detail lists a scenario's obligations under each regime.
+- **NIST crosswalks** (files supplied by the project owner): CSF 2.0 → SP 800-53 (707, derived from NIST's CSF 1.1 mapping and the CSF 2.0 withdrawal records) and SP 800-53 → ISO/IEC 27002 (418, NIST OLIR). 6,858 CSF and ISO links carry `corroborated by`: CSF high 92%, medium 71%, low 41%; ISO high 76%, medium 58%, low 38%.
+- **French labels and definitions** for all CSF 2.0 functions, categories and subcategories, from NIST's French translation.
+- **Other sectors:** three scenarios from the ACRB evaluation (ATM jackpotting, outage from an expired certificate, incomplete asset inventory); banking and payments synonyms; healthcare-worded scenarios ranked slightly lower when the profile has no health term; four commonly assessed risks proposed (vendor remote access, insider fraud, asset inventory gaps, certificate expiry).
+- Competency questions CQ24–CQ26 (proposed).
+
+### Not yet included
+- GDPR: the PDF supplied is the UK GDPR (legislation.gov.uk), not the EU Regulation; which text to model is left to the project owner.
+
 ## [0.7.0] — 2026-10-11, approved
 
 Public sources added to the ontology. Approved by group on 2026-10-11: the new term, the four vocabularies, the cross-references published by MITRE and CISA, and the high- and medium-confidence judged links; low-confidence judged links stay *proposed*.

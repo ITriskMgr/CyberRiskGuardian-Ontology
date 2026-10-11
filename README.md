@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.7.0, approved by the project owner on 2026-10-11 (adds MITRE CWE, D3FEND, CAPEC, CISA KEV and the MITRE CTID crosswalks to 0.6.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
+**Status: 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
