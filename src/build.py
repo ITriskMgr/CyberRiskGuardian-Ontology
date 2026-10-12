@@ -16,16 +16,36 @@ from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
 import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
-S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA)
-CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA; VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA
-INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA
-DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA
+import spec_pca as VP  # noqa: E402  (0.10.0: policy, compliance and audit management; decisions D1-D14)
+S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA); S.update(VP.SOURCES_PCA)
+CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA + VP.CLASSES_PCA
+VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA + VP.VALUE_SETS_PCA
+INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA + VP.INDIVIDUALS_PCA
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA
+DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA + VP.DATA_PROPERTIES_PCA
+EXTENSIONS = VP.EXTENSIONS_PCA  # members added to earlier value sets
+# Decision D9 (0.10.0): widenings of approved terms; fields replaced by key, with a change note on the term.
+CHANGE_NOTES = {}
+def _modify(rows, layout):
+    out = []
+    for r in rows:
+        m = VP.MODIFY_PCA.get(r[0])
+        if m:
+            r = list(r)
+            for f, v in m.items():
+                if f in layout: r[layout[f]] = v
+            CHANGE_NOTES[r[0]] = m["note"]; r = tuple(r)
+        out.append(r)
+    return out
+CLASSES = _modify(CLASSES, {"den": 5, "dfr": 6, "alts": 10})
+OBJECT_PROPERTIES = _modify(OBJECT_PROPERTIES, {"den": 4, "dfr": 5, "dom": 6, "rng": 7})
+DATA_PROPERTIES = _modify(DATA_PROPERTIES, {"den": 4, "dfr": 5, "dom": 6, "rng": 7})
+assert set(CHANGE_NOTES) == set(VP.MODIFY_PCA), set(VP.MODIFY_PCA) - set(CHANGE_NOTES)
 
-VERSION = "0.9.0"
-PRIOR = "0.8.0"
+VERSION = "0.10.0"
+PRIOR = "0.9.0"
 ISSUED = "2026-10-10"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336}  # highest term number introduced in each earlier release
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -44,12 +64,15 @@ MODULES = {
     "org": ("crgo-org", "CyberRiskGuardian Ontology - organisation profile module", "Ontologie CyberRiskGuardian - module du profil d'organisation", ["core"]),
     "vuln": ("crgo-vuln", "CyberRiskGuardian Ontology - vulnerability observations module", "Ontologie CyberRiskGuardian - module des observations de vulnérabilités", ["evidence"]),
     "grc": ("crgo-grc", "CyberRiskGuardian Ontology - legal applicability and compliance module", "Ontologie CyberRiskGuardian - module d'applicabilité juridique et de conformité", ["evidence", "org"]),
-    "mapping": ("crgo-mapping", "CyberRiskGuardian Ontology - typed correspondence relations module", "Ontologie CyberRiskGuardian - module des relations de correspondance typées", ["gov"]),
+    "mapping": ("crgo-mapping", "CyberRiskGuardian Ontology - typed correspondence relations module", "Ontologie CyberRiskGuardian - module des relations de correspondance typées", ["core"]),  # 0.10.0: was ["gov"]; mapping assertions are CCO information content entities
     # 0.9.0 GRCA sprint (decision G2) and remaining-gaps package R8
     "governance": ("crgo-governance", "CyberRiskGuardian Ontology - corporate governance, policy and decision records module", "Ontologie CyberRiskGuardian - module de gouvernance d'entreprise, des politiques et des décisions", ["grc"]),
     "assurance": ("crgo-assurance", "CyberRiskGuardian Ontology - assurance, evidence and control effectiveness module", "Ontologie CyberRiskGuardian - module d'assurance, de preuves et d'efficacité des mesures", ["governance"]),
-    "audit": ("crgo-audit", "CyberRiskGuardian Ontology - audit lifecycle and remediation module", "Ontologie CyberRiskGuardian - module du cycle d'audit et de la remédiation", ["assurance"]),
+    "audit": ("crgo-audit", "CyberRiskGuardian Ontology - audit lifecycle and remediation module", "Ontologie CyberRiskGuardian - module du cycle d'audit et de la remédiation", ["assurance", "compliance"]),
     "incident": ("crgo-incident", "CyberRiskGuardian Ontology - security events and incidents module", "Ontologie CyberRiskGuardian - module des événements et incidents de sécurité", ["evidence"]),
+    # 0.10.0 (decision D1)
+    "policy": ("crgo-policy", "CyberRiskGuardian Ontology - policy management module", "Ontologie CyberRiskGuardian - module de gestion des politiques", ["governance", "mapping"]),
+    "compliance": ("crgo-compliance", "CyberRiskGuardian Ontology - compliance management module", "Ontologie CyberRiskGuardian - module de gestion de la conformité", ["grc", "policy"]),
 }
 IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice",
            "IMPORT:prov": BASE + "imports/prov-slice", "IMPORT:time": BASE + "imports/time-slice"}
@@ -74,6 +97,8 @@ def iri(key):
 all_keys = [c[0] for c in CLASSES]
 for vs in VALUE_SETS:
     all_keys += [vs[0], vs[0] + "Scheme"] + [m[0] for m in vs[7]]
+for ext in EXTENSIONS:
+    all_keys += [m[0] for m in ext[3]]
 all_keys += [i[0] for i in INDIVIDUALS]
 all_keys += [p[0] for p in OBJECT_PROPERTIES] + [p[0] for p in DATA_PROPERTIES] + [p[0] for p in ANNOTATION_PROPERTIES]
 assert len(all_keys) == len(set(all_keys)), "duplicate keys: %s" % [k for k in all_keys if all_keys.count(k) > 1]
@@ -118,7 +143,10 @@ def gov(g, s, sources, conf, rationale):
     # a term is approved by its own key, or (0.9.0) by its module's group key terms/<module>, within GROUP_SCOPE
     num = int(str(s).rsplit("_", 1)[1])
     a = APPROVALS.get(KEY_OF.get(s))
-    if not a:
+    changed = KEY_OF.get(s) in CHANGE_NOTES and KEY_OF.get(s) not in VP.D9_APPROVED  # changed in 0.10.0, not covered by D9
+    if changed:
+        a = APPROVALS.get("changes/0.10.0")
+    if not a and not changed:
         a = APPROVALS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""))
         if a and scope_of(a[3]) is not None and num > scope_of(a[3]):
             a = None
@@ -211,18 +239,31 @@ for key, module, en, fr, den, dfr, srcs, members in VALUE_SETS:
         gov(g, m, srcs, "H", "")
         record("value", module, mk, men, mfr, mden, mdfr, en, srcs, "H", "")
 
+# ---------------------------------------------------------------- members added to earlier value sets (0.10.0)
+for vskey, module, srcs, members in EXTENSIONS:
+    g = graphs[module]; c = iri(vskey); sch = iri(vskey + "Scheme")
+    base_n = len(next(v for v in VALUE_SETS if v[0] == vskey)[7])
+    en_vs = next(v for v in VALUE_SETS if v[0] == vskey)[2]
+    for i, (mk, men, mfr, mden, mdfr) in enumerate(members, base_n + 1):
+        m = iri(mk)
+        g.add((m, RDF.type, OWL.NamedIndividual)); g.add((m, RDF.type, c))
+        g.add((m, SKOS.inScheme, sch))
+        g.add((m, SKOS.notation, Literal(str(i))))
+        labels(g, m, men, mfr, mden, mdfr)
+        gov(g, m, srcs, "H", "")
+        record("value", module, mk, men, mfr, mden, mdfr, en_vs, srcs, "H", "added in 0.10.0")
+
 # ---------------------------------------------------------------- disjointness (approved 2026-10-10, Phase 4 review)
 # Value sets are pairwise disjoint (a confidence level is never a threat source type); each module states it for the
 # value sets it can see, so the axiom holds whichever module is loaded.
 from rdflib import BNode as _B
 from rdflib.collection import Collection as _Col
-SEES = {"gov": ["gov"], "core": ["gov", "core"], "measure": ["gov", "core", "measure"], "crg": ["gov", "core", "measure", "crg"],
-        "evidence": ["gov", "core", "measure", "evidence"], "org": ["gov", "core", "org"], "vuln": ["gov", "core", "measure", "evidence", "vuln"],
-        "grc": ["gov", "core", "measure", "evidence", "org", "grc"], "mapping": ["gov"],
-        "governance": ["gov", "core", "measure", "evidence", "org", "grc", "governance"],
-        "assurance": ["gov", "core", "measure", "evidence", "org", "grc", "governance", "assurance"],
-        "audit": ["gov", "core", "measure", "evidence", "org", "grc", "governance", "assurance", "audit"],
-        "incident": ["gov", "core", "measure", "evidence", "incident"]}
+def _closure(m):  # the module and every crgo module it imports, directly or not (0.10.0: computed, was a hand list)
+    out = {m}
+    for i in MODULES[m][3]:
+        if not i.startswith("IMPORT:"): out |= _closure(i)
+    return out
+SEES = {m: sorted(_closure(m), key=list(MODULES).index) for m in MODULES}
 for m, seen in SEES.items():
     vs = [iri(v[0]) for v in VALUE_SETS if v[1] in seen]
     if len(vs) > 1:
@@ -232,8 +273,11 @@ for m, seen in SEES.items():
 graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
 MODULE_OF = {c[0]: c[1] for c in CLASSES}
 ORDER = list(MODULES)
-for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA:  # stated in the later of the two modules, which sees both
-    graphs[max(MODULE_OF[a], MODULE_OF[b], key=ORDER.index)].add((iri(a), OWL.disjointWith, iri(b)))
+for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA + VP.DISJOINT_PCA:  # stated in the module that sees both
+    ma, mb = MODULE_OF[a], MODULE_OF[b]
+    home = ma if mb in SEES[ma] else mb if ma in SEES[mb] else next((m for m in MODULES if ma in SEES[m] and mb in SEES[m]), None)
+    assert home, "no module sees both %s and %s" % (a, b)
+    graphs[home].add((iri(a), OWL.disjointWith, iri(b)))
 # SKOS mapping relations are the super-properties of the typed correspondences (no SKOS import)
 for p in (SKOS.relatedMatch, SKOS.closeMatch, SKOS.broadMatch, SKOS.narrowMatch):
     graphs["mapping"].add((p, RDF.type, OWL.ObjectProperty))
@@ -276,6 +320,13 @@ for key, module, en, fr, den, dfr, dom, rng, srcs, conf, rat, functional in DATA
     gov(g, s, srcs, conf, rat)
     record("data property", module, key, en, fr, den, dfr, "domain: %s; range: %s" % (label_of(dom) or "—", rng or "literal"), srcs, conf, rat,
            "functional" if functional else "")
+
+# ---------------------------------------------------------------- change notes (decision D9, 0.10.0)
+graphs["gov"].add((SKOS.changeNote, RDF.type, OWL.AnnotationProperty))
+for k, note in CHANGE_NOTES.items():
+    s = iri(k)
+    home = next(gg for gg in graphs.values() if (s, RDFS.label, None) in gg)
+    home.add((s, SKOS.changeNote, Literal(note, lang="en")))
 
 # ---------------------------------------------------------------- ontology headers and output
 os.makedirs(os.path.join(ROOT, "ontology"), exist_ok=True)

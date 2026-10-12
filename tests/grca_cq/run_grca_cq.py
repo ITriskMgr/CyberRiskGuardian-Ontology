@@ -26,7 +26,7 @@ def concept(scheme, notation):
     return _voc[scheme][notation]
 
 base = Graph()
-for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident"):
+for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance"):
     base.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 base.parse(os.path.join(ROOT, "ontology", "crgo.ttl"))
 for v in ("legal", "sources", "loi25", "gdpr", "sp800-53r5", "sp800-53a"):
@@ -201,8 +201,9 @@ rows = q("CQ-16", g)
 check("CQ-16 unknown: a result with no status is reported without one (not as approved)", rows and all(r.status is None for r in rows))
 # ---------------------------------------------------------------- CQ-17 reconstruct a decision
 rows = q("CQ-17", base, decision=N["decision/reject-edr-delay"])
-check("CQ-17 positive: the board's rejection is reconstructed with CyberRiskGuardian 1.1.0, contract dss/v1, the finding and release 0.9.0",
-      any(r.model is not None and str(r.version) == "1.1.0" and str(r.contract) == "dss/v1" and str(r.release) == "0.9.0" for r in rows)
+_release = str(next(Graph().parse(os.path.join(ROOT, "ontology", "crgo.ttl")).objects(URIRef("https://w3id.org/crgo/crgo"), OWL.versionInfo)))
+check("CQ-17 positive: the board's rejection is reconstructed with CyberRiskGuardian 1.1.0, contract dss/v1, the finding and the current release (%s)" % _release,
+      any(r.model is not None and str(r.version) == "1.1.0" and str(r.contract) == "dss/v1" and str(r.release) == _release for r in rows)
       and N["finding/F-2026-03-01"] in {r.input for r in rows} and all(r.maker == N["gov/board"] for r in rows))
 rows = q("CQ-17", base, decision=N["decision/defer-dlp"])
 check("CQ-17 negative: a decision informed by no analytical result shows no model", rows and all(r.model is None for r in rows))

@@ -423,13 +423,13 @@ legal/instruments	Approve	MAL	2026-10-11
 legal/conditions	Approve	MAL	2026-10-11	
 adr/ADR-001-006	Approve	MAL	2026-10-11	
 tests/sprint1	Approve	MAL	2026-10-11	
-terms/governance	Approve	MAL	2026-10-11	GRCA review item 1
-terms/assurance	Approve	MAL	2026-10-11	GRCA review item 2
-terms/audit	Approve	MAL	2026-10-11	GRCA review item 3
-terms/incident	Approve	MAL	2026-10-11	GRCA review item 4 (module kept)
-terms/evidence	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
-terms/grc	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
-terms/mapping	Approve	MAL	2026-10-11	GRCA review item 5 (all terms, including the GRCA additions)
+terms/governance	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 1
+terms/assurance	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 2
+terms/audit	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 3
+terms/incident	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 4 (module kept)
+terms/evidence	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 5 (all terms, including the GRCA additions)
+terms/grc	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 5 (all terms, including the GRCA additions)
+terms/mapping	Approve	MAL	2026-10-11	scope: up to CRGO_0000884 (the terms that existed when approved); GRCA review item 5 (all terms, including the GRCA additions)
 sp800-53a/*	Approve	MAL	2026-10-11	GRCA review item 6
 mappings/sp800-53a-controls	Approve	MAL	2026-10-11	GRCA review item 6
 iia-gias/*	Approve	MAL	2026-10-11	GRCA review item 7
@@ -448,3 +448,4 @@ adr/ADR-007-009	Approve	MAL	2026-10-11	GRCA review item 10
 contracts/dss-v1	Approve	MAL	2026-10-11	GRCA review item 11
 tests/grca	Approve	MAL	2026-10-11	GRCA review item 12
 w3id/pr-6862-grca-rules	Approve	MAL	2026-10-11	GRCA review item 13 (commit pushed to the fork branch of PR #6862)
+phase0/0.10.0-pca	Approve	MAL	2026-10-12	D1-D14 of docs/baseline/policy_compliance_audit_phase0.md as recommended; D12: ISO 37301:2021/Amd 1:2024 supplied

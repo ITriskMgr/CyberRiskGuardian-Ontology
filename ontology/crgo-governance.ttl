@@ -1031,7 +1031,7 @@ crgo:CRGO_0000884 a owl:ObjectProperty ;
 crgo:crgo-governance a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.9.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.10.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
@@ -1048,9 +1048,9 @@ crgo:crgo-governance a owl:Ontology ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-grc ;
-    owl:priorVersion <https://w3id.org/crgo/0.8.0/crgo-governance> ;
-    owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo-governance> ;
-    owl:versionInfo "0.9.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.9.0/crgo-governance> ;
+    owl:versionIRI <https://w3id.org/crgo/0.10.0/crgo-governance> ;
+    owl:versionInfo "0.10.0" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
 
@@ -1167,17 +1167,17 @@ crgo:CRGO_0000498 a owl:Class ;
     rdfs:label "policy statement"@en,
         "énoncé de politique"@fr ;
     rdfs:subClassOf cco:ont00000965 ;
+    skos:altLabel "policy requirement"@en,
+        "exigence de politique"@fr ;
+    skos:changeNote "0.10.0 (2026-10-12): alternative labels 'policy requirement' / 'exigence de politique' added (POL PolicyRequirement)."@en ;
     skos:definition "A single rule within a policy, stated so that compliance with it can be assessed, such as 'privileged access is reviewed every quarter'."@en,
         "Règle unique d'une politique, formulée de manière à pouvoir en évaluer le respect, comme « les accès privilégiés sont revus chaque trimestre »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GAPS D01 (obligation, control objective, policy statement, procedure chain)."@en ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 1"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- conflict-of-interest declaration
 crgo:CRGO_0000506 a owl:Class ;

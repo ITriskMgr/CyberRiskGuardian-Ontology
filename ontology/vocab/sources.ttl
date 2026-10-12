@@ -44,7 +44,8 @@
 
 <https://w3id.org/crgo/vocab/iso27008> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-ts-27008-2019> .
 
-<https://w3id.org/crgo/vocab/iso37301> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-37301-2021> .
+<https://w3id.org/crgo/vocab/iso37301> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-37301-2021>,
+        <https://w3id.org/crgo/vocab/sources/iso-37301-2021-amd1-2024> .
 
 <https://w3id.org/crgo/vocab/iso37302> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-37302-2025> .
 
@@ -557,6 +558,26 @@
     crgo:CRGO_0000454 "clause numbers, official titles and CRGO paraphrases only" ;
     crgo:CRGO_0000455 "25e63f0fe34e3a51dcc2ccce17f8d4b71a2f287865a0ac2e8489396308a070cd" ;
     crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-37301-2021-amd1-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO 37301:2021/Amd 1:2024 Compliance management systems: requirements with guidance for use. Amendment 1: Climate action changes (French edition, corrected version 2024-09)"@en ;
+    rdfs:comment "Supplied by the project owner on 2026-10-12 (decision D12 of 0.10.0 Phase 0)."@en ;
+    crgo:CRGO_0000250 "iso-37301-2021-amd1-2024" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "Amendment 1, 2024-02; corrected version 2024-09" ;
+    crgo:CRGO_0000451 "ISO 37301:2021/Amd.1:2024(fr)" ;
+    crgo:CRGO_0000452 "ISO" ;
+    crgo:CRGO_0000453 "© ISO; single-user licence supplied by the project owner" ;
+    crgo:CRGO_0000454 "identifier, official title, affected clause numbers and CRGO paraphrases only" ;
+    crgo:CRGO_0000455 "901c390a172dceaceec1d62da63751e00bbf0495019447a655a78c2f1a72a88b" ;
+    crgo:CRGO_0000456 "full text read (1 page): amends clause 4.1 (determine whether climate change is a relevant issue) and adds a note to 4.2 (interested parties may have climate-related requirements); clause titles unchanged" ;
     crgo:CRGO_0000699 crgo:CRGO_0000569 .
 
 <https://w3id.org/crgo/vocab/sources/iso-37302-2025> a owl:NamedIndividual,

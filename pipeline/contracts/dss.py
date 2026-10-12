@@ -60,7 +60,7 @@ def org_base(org, g):
 def load(org_files, reference=True):
     g = Graph()
     if reference:
-        for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident"):
+        for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance"):
             g.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
         for v in ("legal", "attack", "loi25", "gdpr", "a21", "pipeda", "sp800-53r5"):
             g.parse(os.path.join(ROOT, "ontology", "vocab", v + ".ttl"))

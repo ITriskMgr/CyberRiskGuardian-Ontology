@@ -380,3 +380,28 @@ Phase 0 of the remaining-gaps specification: `docs/baseline/remaining_gaps_phase
 **w3id.org (checked 2026-10-12).** PR perma-id/w3id.org#6862 was merged on 2026-10-11 (merge commit 94beb63), including commit c0a4bdb. Live tests through a browser: `crgo/data/workprogrammes`, `crgo/0.9.0/crgo-assurance` (file at tag v0.9.0), `crgo/contracts/dss/v1/risk-context.schema.json`, `crgo/vocab/sp800-53a/...` and `crgo/CRGO_0000600` (documentation anchor) all redirect as intended; the documentation site shows the GRCA terms.
 
 **0.9.1 (2026-10-12).** Patch release approved by the project owner ("Prepare and push the 0.9.1 release"): the CRG bridge fix only (organisation base and organisation individual in converted CyberRiskGuardian assessments). Ontology files are unchanged and keep their 0.9.0 version IRIs. Checks re-run: MediBec round trip (84,491 / 41,104), MediBec consistency and SHACL, query store and 27 CQs, identification tests, tenant check, 29 contract checks.
+
+## 20. Policy, compliance and audit management — 0.10.0 (2026-10-12)
+
+The project owner supplied three specifications: *Information Security Policy Governance, Compliance Traceability and Assurance* (O-ISPMS-001 v1.0), a compliance management extension specification (v1.0) and an audit management extension specification (v1.0). Phase 0: `docs/baseline/policy_compliance_audit_phase0.md`.
+
+**Decision of the project owner (2026-10-12, 18:07):** "I will follow your recommendations on all decisions". D1–D14 are therefore decided as recommended in Phase 0, section 6:
+
+- D1: two new modules, `crgo-policy` (imports governance) and `crgo-compliance` (imports grc and policy); audit additions in `crgo-audit`; `MappingAssertion` in `crgo-mapping`.
+- D2: opaque `CRGO_nnnnnnn` IRIs in the single CRGO namespace; the specifications' `crgop:`/`crgoc:` prefixes are not used.
+- D3: target version 0.10.0.
+- D4: a generalised directive version, with a policy version subclass.
+- D5: instrument-level versions kept; a provision version is added for amended wording only.
+- D6: qualified mapping assertions for organisation crosswalks and newly reviewed mappings; the approved direct mappings are not reified.
+- D7: training requirement and policy acknowledgement included; auditor competency excluded.
+- D8: a separate audit observation class, disjoint from audit finding.
+- D9: two widenings of approved terms: *closes finding* also ranges over nonconformities; applicability assessment and condition also cover policy statements.
+- D10: "not applicable" is not added to the compliance states; applicability stays a separate determination.
+- D11: a read-only compliance contract (`contracts/compliance/v1`) and MCP tool in 0.10.0.
+- D12: the project owner supplied ISO 37301:2021/Amd 1:2024 (French edition, corrected version 2024-09). Read in full: it adds to clause 4.1 that the organisation determines whether climate change is a relevant issue, and a note to 4.2 that interested parties may have climate-related requirements; clause titles are unchanged. Registered as source `iso-37301-2021-amd1-2024` (identifier, title and affected clause numbers only; file kept in `data/raw/`, not committed); its source record stays proposed (`sources/records-pca`).
+- D13: CRGO's own scales for the new value sets.
+- D14: all 30 specification competency questions, adapted only in vocabulary (POL CQ09 read as "which version and source were in force on date D").
+
+**Points decided by Claude for P1, for review.** The 0.9.0 group approvals `terms/governance`, `terms/assurance`, `terms/audit`, `terms/incident`, `terms/evidence`, `terms/grc` and `terms/mapping` are scoped to the terms that existed when they were given (up to CRGO_0000884), so that 0.10.0 terms added to those modules stay proposed until approved.
+
+**P1 (2026-10-12).** Term list drafted in `src/spec_pca.py` (CRGO_0000885–0001096), built and checked; independent review findings addressed. For review: `docs/review-0.10.0-p1-terms.md` (seven approval groups, including six changes to approved terms that go beyond D9 and are proposed again until approved).

@@ -61,7 +61,7 @@ SCHEME_SOURCES = {"a21": ["qc-a-2.1"], "attack": ["mitre-attack-19.2"], "capec":
                   "sp800-53r5": ["nist-sp800-53r5"], "sp800-53a": ["nist-sp800-53a-r5"], "iia-gias": ["iia-gias-2024"],
                   "iia-tr": ["iia-tr-cyber", "iia-tr-third-party", "iia-tr-orgbehav"], "itaf": ["isaca-itaf-5"], "tsc": ["aicpa-tsc-2017"],
                   "coso-erm": ["coso-erm-2017"], "iso19011": ["iso-19011-2018"], "iso27007": ["iso-iec-27007-2020"], "iso27008": ["iso-iec-ts-27008-2019"],
-                  "iso37301": ["iso-37301-2021"], "iso37302": ["iso-37302-2025"],
+                  "iso37301": ["iso-37301-2021", "iso-37301-2021-amd1-2024"], "iso37302": ["iso-37302-2025"],
                   "mappings": ["ctid-mappings", "nist-cprt-csf", "nist-csf11-80053", "nist-olir-80053-27001", "mitre-capec-3.9", "cisa-kev", "mitre-d3fend-1.6.0", "nist-sp800-53a-r5"]}
 LIB_SOURCES = ["crg-2023-scenarios", "teaching-cases", "first-epss", "vcdb"]
 ACCESS = {"VERIFIED": "AccessVerified", "PENDING_ACCESS": "AccessPendingAccess", "LICENSE_RESTRICTED": "AccessLicenceRestricted", "REJECTED": "AccessRejected"}
@@ -69,6 +69,7 @@ RECORDS_2026_10_11 = {"bfo-2020", "cco-2.2", "nist-csf-2.0", "nist-csf-2.0-fr", 
     "iso-iec-27002-2022", "cobit-2019", "csa-ccm-4.1", "mitre-attack-19.2", "mitre-capec-3.9", "mitre-d3fend-1.6.0", "mitre-cwe-via-d3fend", "cisa-kev",
     "ctid-mappings", "first-epss", "vcdb", "qc-p-39.1", "qc-a-2.1", "qc-r-22.1", "ca-pipeda", "osfi-b13", "eu-gdpr", "uk-gdpr", "crg-2023-scenarios",
     "teaching-cases", "iso-27005-31000-sp80030"}
+RECORDS_PCA = {"iso-37301-2021-amd1-2024"}  # 0.10.0 (policy, compliance and audit management): proposed until approved
 reg = list(csv.DictReader(open(os.path.join(ROOT, "docs", "baseline", "source_registry.csv"), encoding="utf-8")))
 known = set()
 for r in reg:
@@ -85,7 +86,8 @@ for r in reg:
     if r.get("access_status"):
         gs.add((s, T("hasAccessStatus"), T(ACCESS[r["access_status"]])))
     # the group approval sources/records of 2026-10-11 covers the 29 records that existed then; later records have their own group
-    gov(gs, s, "sources/records" if r["source_id"] in RECORDS_2026_10_11 else "sources/records-grca", "H", "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)")
+    group = "sources/records" if r["source_id"] in RECORDS_2026_10_11 else "sources/records-pca" if r["source_id"] in RECORDS_PCA else "sources/records-grca"
+    gov(gs, s, group, "H", "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)")
 for k, srcs in SCHEME_SOURCES.items():
     for sid in srcs:
         assert sid in known, sid

@@ -17,6 +17,8 @@
   <uri name="https://w3id.org/crgo/crgo-assurance" uri="../../ontology/crgo-assurance.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-audit" uri="../../ontology/crgo-audit.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-incident" uri="../../ontology/crgo-incident.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-policy" uri="../../ontology/crgo-policy.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-compliance" uri="../../ontology/crgo-compliance.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="../../ontology/crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="../../ontology/crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../../data/abox/crgo-library.ttl"/>

@@ -1380,10 +1380,40 @@ crgo:CRGO_0000863 a owl:DatatypeProperty ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000292 "GRCA review item 2"@en .
 
+# --- sufficient with limitations
+crgo:CRGO_0001003 a owl:NamedIndividual,
+        crgo:CRGO_0000624 ;
+    rdfs:label "sufficient with limitations"@en,
+        "suffisantes avec limites"@fr ;
+    skos:definition "The evidence supports a conclusion only with stated limitations."@en,
+        "Les preuves permettent de conclure seulement sous réserve de limites précisées."@fr ;
+    skos:inScheme crgo:CRGO_0000625 ;
+    skos:notation "5" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+# --- unavailable
+crgo:CRGO_0001004 a owl:NamedIndividual,
+        crgo:CRGO_0000624 ;
+    rdfs:label "unavailable"@en,
+        "non disponibles"@fr ;
+    skos:definition "The evidence needed could not be obtained."@en,
+        "Les preuves nécessaires n'ont pu être obtenues."@fr ;
+    skos:inScheme crgo:CRGO_0000625 ;
+    skos:notation "6" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
 crgo:crgo-assurance a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.9.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.10.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
@@ -1400,9 +1430,9 @@ crgo:crgo-assurance a owl:Ontology ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-governance ;
-    owl:priorVersion <https://w3id.org/crgo/0.8.0/crgo-assurance> ;
-    owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo-assurance> ;
-    owl:versionInfo "0.9.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.9.0/crgo-assurance> ;
+    owl:versionIRI <https://w3id.org/crgo/0.10.0/crgo-assurance> ;
+    owl:versionInfo "0.10.0" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
 
@@ -1558,22 +1588,6 @@ crgo:CRGO_0000528 a owl:Class ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000292 "GRCA review item 2"@en .
 
-# --- sufficiency conclusion scheme
-crgo:CRGO_0000625 a owl:NamedIndividual,
-        skos:ConceptScheme ;
-    rdfs:label "sufficiency conclusion scheme"@en,
-        "schéma : conclusion sur le caractère suffisant"@fr ;
-    skos:definition "Concept scheme of the sufficiency conclusion value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « conclusion sur le caractère suffisant »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 2"@en .
-
 # --- assurance opinion scheme
 crgo:CRGO_0000640 a owl:NamedIndividual,
         skos:ConceptScheme ;
@@ -1677,16 +1691,15 @@ crgo:CRGO_0000614 a owl:Class ;
     crgo:CRGO_0000291 "0.9.0" ;
     crgo:CRGO_0000292 "GRCA review item 2"@en .
 
-# --- sufficiency conclusion
-crgo:CRGO_0000624 a owl:Class ;
-    rdfs:label "sufficiency conclusion"@en,
-        "conclusion sur le caractère suffisant"@fr ;
-    rdfs:subClassOf skos:Concept ;
-    skos:definition "The conclusion of an evidence sufficiency assessment."@en,
-        "Conclusion d'une évaluation du caractère suffisant des preuves."@fr ;
+# --- sufficiency conclusion scheme
+crgo:CRGO_0000625 a owl:NamedIndividual,
+        skos:ConceptScheme ;
+    rdfs:label "sufficiency conclusion scheme"@en,
+        "schéma : conclusion sur le caractère suffisant"@fr ;
+    skos:definition "Concept scheme of the sufficiency conclusion value set."@en,
+        "Schéma de concepts de l'ensemble de valeurs « conclusion sur le caractère suffisant »."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
@@ -1758,6 +1771,23 @@ crgo:CRGO_0000645 a owl:Class ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en,
         "ISO/IEC TS 27008:2019, Guidelines for the assessment of information security controls (1st edition, 2019-01); clause identifiers cited"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "GRCA review item 2"@en .
+
+# --- sufficiency conclusion
+crgo:CRGO_0000624 a owl:Class ;
+    rdfs:label "sufficiency conclusion"@en,
+        "conclusion sur le caractère suffisant"@fr ;
+    rdfs:subClassOf skos:Concept ;
+    skos:definition "The conclusion of an evidence sufficiency assessment."@en,
+        "Conclusion d'une évaluation du caractère suffisant des preuves."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "Value set; members listed below."@en ;
+    crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
