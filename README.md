@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.9.1 (2026-10-12: CRG bridge fix for the data contract; ontology unchanged). 0.9.0, approved by the project owner on 2026-10-11: the EU GDPR, Sprint 1 of the v0.8 → v1.0 specification (sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS observations), and the governance, risk, compliance and assurance (GRCA) extension: governance, assurance, audit and incident modules, SP 800-53A, audit and assurance standards (identifiers and paraphrases), illustrative work programmes, and the CyberRiskGuardian data contract dss/v1 (see `CHANGELOG.md`). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
+**Status: 0.10.0 in preparation (not released): policy, compliance and audit management, and security monitoring and response (SIEM and SOAR): four new modules, ATT&CK detection and OCSF vocabularies, read contracts compliance/v1 and secops/v1 (see `CHANGELOG.md`). 0.9.1 (2026-10-12: CRG bridge fix for the data contract; ontology unchanged). 0.9.0, approved by the project owner on 2026-10-11: the EU GDPR, Sprint 1 of the v0.8 → v1.0 specification (sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS observations), and the governance, risk, compliance and assurance (GRCA) extension: governance, assurance, audit and incident modules, SP 800-53A, audit and assurance standards (identifiers and paraphrases), illustrative work programmes, and the CyberRiskGuardian data contract dss/v1 (see `CHANGELOG.md`). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
 
 CRGO is an OWL 2 ontology for cybersecurity risk assessment. It gives a formal,
 reasoner-checked meaning to the data that [CyberRiskGuardian](https://github.com/ITriskMgr/CyberRiskGuardian)
@@ -30,6 +30,10 @@ from them. It replaces the earlier MOACCO ontology, which is retired.
 | crgo-assurance | `https://w3id.org/crgo/crgo-assurance` | 0.9.0 GRCA: typed evidence, sufficiency, external assurance reports, operating effectiveness, deficiencies, sampling |
 | crgo-audit | `https://w3id.org/crgo/crgo-audit` | 0.9.0 GRCA: audit plan, engagement, programme, procedure, finding, recommendation, response, corrective action, follow-up, closure |
 | crgo-incident | `https://w3id.org/crgo/crgo-incident` | 0.9.0: security events, alerts, incident confirmation, breach reportability, timeline, lessons learned |
+| crgo-policy | `https://w3id.org/crgo/crgo-policy` | 0.10.0: directive and policy versions, lifecycle, clauses, guidelines, policy families, reviews, attestations and acknowledgements, training requirements |
+| crgo-compliance | `https://w3id.org/crgo/crgo-compliance` | 0.10.0: compliance programme, interpretations, regulatory authorities, framework adoption, campaigns, provision versions, deadlines, submissions, exemptions, root causes |
+| crgo-siem | `https://w3id.org/crgo/crgo-siem` | 0.10.0: telemetry, event records, normalisation, detection strategies and rules, coverage, gaps and tests, threat indicators, hunting |
+| crgo-soar | `https://w3id.org/crgo/crgo-soar` | 0.10.0: investigations, incident classification, playbooks and versions, response actions, approval gates and decisions, execution records, response evidence, recovery |
 | crgo (umbrella) | `https://w3id.org/crgo/crgo` | Imports all thirteen |
 | crgo-full | `https://w3id.org/crgo/crgo-full` | crgo + scenario library (`data/abox/crgo-library.ttl`) + all vocabularies |
 
@@ -59,7 +63,7 @@ data/export/     crgo-identification.json (all scenarios with links, estimates a
 data/library/    repaired 2023 scenario library: rows, families, category map, repair report
 data/abox/       library instance data (crgo-library.ttl), proposed links awaiting review (crgo-library-proposed.ttl) and illustrative audit work programmes (crgo-workprogrammes.ttl); the proposal file is not imported by crgo-full
 data/frameworks/ verified framework tables with their sources
-contracts/       contracts/dss/v1: JSON Schemas of the CyberRiskGuardian data contract, examples, invalid cases (pipeline/contracts/dss.py implements them)
+contracts/       dss/v1: JSON Schemas of the CyberRiskGuardian data contract, examples, invalid cases (pipeline/contracts/dss.py); compliance/v1 and secops/v1: read contracts (pipeline/contracts/views.py)
 docs/            baseline/ (Stage 0 audit), adr/ (design records), review-0.9.0.md, review-0.9.0-grca.md, decisions.md, crg-mapping.md, crg-integration.md (using CRGO from CyberRiskGuardian), evaluation and pitfall reports
 ```
 

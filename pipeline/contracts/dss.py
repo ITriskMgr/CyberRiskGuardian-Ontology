@@ -134,6 +134,8 @@ def risk_context(org_files, organization, scenario, as_of, g=None):
         for a in g.subjects(T("evaluatesControlMeasure"), m):
             on = g.value(a, T("assessedOn"))
             if on is None or on > asof or not mine(a): continue
+            if (a, RDF.type, T("DetectionTest")) in g or (a, RDF.type, T("PlaybookSimulation")) in g:
+                continue  # 0.10.0: a test of one rule or playbook is not an assessment of the whole measure
             line = _key(g.value(a, T("performedInCapacity")), LINE) or "unstated"
             if line not in latest or on > latest[line][0]:
                 latest[line] = (on, a)

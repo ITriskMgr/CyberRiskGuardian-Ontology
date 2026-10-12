@@ -90,9 +90,9 @@ g = variant((N["standard/network/no-inbound-pos"], T("appliesToScope"), N["asset
 check("POL CQ08 negative: with different scopes there is no candidate conflict", q("POL-08", g) == [])
 rows = q("POL-09", base, directive=N["policy/infosec"], date=dt("2026-06-01"))
 check("POL CQ09 positive: on 2026-06-01 version 3 was in force, approved by the board decision", [(str(r.label), r.decision) for r in rows] == [("3", N["decision/approve-infosec-3"])])
-rows = q("POL-09", base, directive=N["policy/infosec-v2"], date=dt("2025-06-01"))
+rows = q("POL-09", base, directive=N["policy/infosec"], date=dt("2025-06-01"))
 check("POL CQ09 temporal: on 2025-06-01 version 2 was in force (no approval record held for it)", [str(r.label) for r in rows] == ["2"])
-check("POL CQ09 negative: version 2 was not in force on 2026-06-01", q("POL-09", base, directive=N["policy/infosec-v2"], date=dt("2026-06-01")) == [])
+check("POL CQ09 negative: on 2023-01-01 no version of the policy was in force in the records", q("POL-09", base, directive=N["policy/infosec"], date=dt("2023-01-01")) == [])
 rows = {(r.finding, r.action) for r in q("POL-10", base, asOf=ASOF)}
 check("POL CQ10 positive: the PAM nonconformity, F-2026-05-01 (shared action due 2026-09-30) and F-2026-03-02 persist past due",
       rows == {(N["compliance/nonconformity-pam-2026"], N["action/CA-NC-2026-07"]), (N["finding/F-2026-05-01"], N["action/CA-NC-2026-07"]),
@@ -201,7 +201,7 @@ check("CQ-SIEM-01 negative: website defacement (impact 0.3) is below the materia
 rows = {(r.rule, r.source, r.state) for r in q("SIEM-02", base)}
 check("CQ-SIEM-02 positive: the impossible-travel v2 rule needs silent EDR telemetry; the ransomware rule needs degraded POS syslog",
       rows == {(N["detection-rule/impossible-travel-v2"], N["telemetry/edr-servers"], T("HealthSilent")), (N["detection-rule/rw-encryption"], N["telemetry/pos-syslog"], T("HealthDegraded"))}, str(len(rows)))
-check("CQ-SIEM-02 negative: the healthy IdP source and the testing correlation rule are not listed", not any(s == N["telemetry/idp-signin"] for _, s, _ in rows))
+check("CQ-SIEM-02 negative: the healthy IdP source (also needed by the testing correlation rule) is not listed", not any(s == N["telemetry/idp-signin"] for _, s, _ in rows))
 rows = {r.alert for r in q("SIEM-03", base)}
 check("CQ-SIEM-03 positive: the payment-service admin alert is untriaged on a crown jewel", rows == {N["alert/2026-10-11-payment-admin"]}, str(short(rows)))
 check("CQ-SIEM-03 negative: the kiosk alert is untriaged but the kiosk is not a crown jewel; the false positive is triaged", N["alert/2026-10-10-kiosk"] not in rows)
@@ -212,10 +212,10 @@ rows = {r.requirement for r in q("SIEM-05", base)}
 check("CQ-SIEM-05 positive: the EDR statement requires monitoring (SI-4)", EDR in rows, str(short(rows)))
 check("CQ-SIEM-05 negative: the restore-test statement does not require logging or monitoring", RESTORE not in rows)
 rows = q("SIEM-06", base, alert=N["alert/2026-08-03-impossible-travel"])
-check("CQ-SIEM-06 positive: the August alert came from rule v1, through parser v1, with ATT&CK 19.2",
-      [(str(r.ruleVersion), str(r.parserVersion), str(r.attackVersion)) for r in rows] == [("1", "1", "19.2")], str([(r.ruleVersion, r.parserVersion) for r in rows]))
+check("CQ-SIEM-06 positive: the August alert came from rule v1, through parser v1, mapped against ATT&CK 17.1",
+      [(str(r.ruleVersion), str(r.parserVersion), str(r.attackVersion)) for r in rows] == [("1", "1", "17.1")], str([(r.ruleVersion, r.parserVersion, r.attackVersion) for r in rows]))
 rows = q("SIEM-06", base, alert=N["alert/2026-10-11-payment-admin"])
-check("CQ-SIEM-06 variant: the October alert came from rule v2 (no parsed event record held)", [str(r.ruleVersion) for r in rows] == ["2"])
+check("CQ-SIEM-06 variant: the October alert came from rule v2 mapped against ATT&CK 19.2 (no parsed event record held)", [(str(r.ruleVersion), str(r.attackVersion)) for r in rows] == [("2", "19.2")])
 
 # ================================================================ SOAR
 rows = {r.action for r in q("SOAR-01", base)}
@@ -223,8 +223,16 @@ check("CQ-SOAR-01 positive: disabling accounts and isolating hosts need approval
       rows == {N["response-action/disable-account"], N["response-action/isolate-host"]}, str(short(rows)))
 check("CQ-SOAR-01 negative: collecting logs (read-only) needs no approval", N["response-action/collect-logs"] not in rows)
 rows = {(r.execution, str(r.why)) for r in q("SOAR-02", base)}
-check("CQ-SOAR-02 positive: the October kiosk isolation ran on a pre-authorisation that expired on 2026-09-30",
-      rows == {(N["action-execution/2026-10-10-isolate"], "expired")}, str(rows))
+check("CQ-SOAR-02 positive: the October kiosk isolation ran on a pre-authorisation that expired on 2026-09-30 (invalid)",
+      rows == {(N["action-execution/2026-10-10-isolate"], "invalid")}, str(rows))
+X1, APPR = N["action-execution/2026-08-03-disable"], N["approval/2026-08-03-disable-adm"]
+g = variant((APPR, T("decidedOn"), dt("2026-08-03T09:30:00")), (APPR, T("validFrom"), dt("2026-08-03T09:30:00")),
+            add=[(APPR, T("decidedOn"), dt("2026-08-04T09:00:00")), (APPR, T("validFrom"), dt("2026-08-04T09:00:00"))])
+check("CQ-SOAR-02 variant: an approval given after the execution (retroactive) does not count", (X1, "invalid") in {(r.execution, str(r.why)) for r in q("SOAR-02", g)})
+g = variant((APPR, T("decisionOn"), X1), add=[(APPR, T("decisionOn"), N["response-action/collect-logs"])])
+check("CQ-SOAR-02 variant: an approval about another action does not count", (X1, "invalid") in {(r.execution, str(r.why)) for r in q("SOAR-02", g)})
+g = variant((APPR, T("decisionMadeBy"), N["person/soc-lead"]), add=[(APPR, T("decisionMadeBy"), N["person/soc-analyst"])])
+check("CQ-SOAR-02 variant: an approval by someone who is not a gate authority does not count", (X1, "invalid") in {(r.execution, str(r.why)) for r in q("SOAR-02", g)})
 g = variant((N["action-execution/2026-08-03-disable"], T("authorizedBy"), N["approval/2026-08-03-disable-adm"]))
 check("CQ-SOAR-02 variant: without its approval the August disablement is reported as absent",
       (N["action-execution/2026-08-03-disable"], "absent") in {(r.execution, str(r.why)) for r in q("SOAR-02", g)})

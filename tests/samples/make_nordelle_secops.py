@@ -106,12 +106,12 @@ st_va = ind("detection-strategy/valid-account-abuse", "DetectionStrategy", "Dete
             adaptsReferenceStrategy=det("DET0560"))
 rule_rw = ind("detection-rule/rw-encryption", "DetectionRule", "Rule: burst of file renames with high-entropy extensions", implementsStrategy=st_rw,
               hasDetectionStatus=T("DetEnabled"), versionLabel=Literal("3"), ruleLanguage=Literal("Sigma"), ruleIdentifier=Literal("nordelle-rw-0003"),
-              requiresSource=pos, ruleForMeasure=mon, targetsTechnique=T1486)
+              requiresSource=pos, ruleForMeasure=mon, targetsTechnique=T1486, referenceVersion=Literal("19.2"))
 rule_va1 = ind("detection-rule/impossible-travel-v1", "DetectionRule", "Rule: impossible travel for administrators (v1)", implementsStrategy=st_va,
-               hasDetectionStatus=T("DetRetired"), versionLabel=Literal("1"), ruleLanguage=Literal("native"), ruleForMeasure=mon)
+               hasDetectionStatus=T("DetRetired"), versionLabel=Literal("1"), ruleLanguage=Literal("native"), ruleForMeasure=mon, referenceVersion=Literal("17.1"))
 rule_va2 = ind("detection-rule/impossible-travel-v2", "DetectionRule", "Rule: impossible travel for administrators (v2)", implementsStrategy=st_va,
                hasDetectionStatus=T("DetEnabled"), versionLabel=Literal("2"), ruleLanguage=Literal("native"), requiresSource=[idp, edr], ruleForMeasure=mon,
-               targetsTechnique=T1078)
+               targetsTechnique=T1078, referenceVersion=Literal("19.2"))
 add(rule_va2, "supersedes", rule_va1)
 corr = ind("detection-rule/brute-then-success", "CorrelationRule", "Correlation: failed sign-ins followed by success", implementsStrategy=st_va,
            hasDetectionStatus=T("DetTesting"), versionLabel=Literal("1"), requiresSource=idp, targetsTechnique=T1110)
@@ -131,13 +131,13 @@ add(N["scenario/credential-compromise"], "hasControlGap", gap)
 # alerts
 a_old = N["alert/2026-08-03-impossible-travel"]
 add(a_old, "generatedByRule", rule_va1); add(a_old, "hasAlertDisposition", T("DispTruePositive")); add(a_old, "involvesAsset", N["asset/identity-service"])
-add(a_old, "openedInvestigation", N["investigation/2026-08-phishing"])
+add(a_old, "openedInvestigation", N["investigation/2026-08-phishing"]); add(a_old, "recordedAt", dt("2026-08-03T09:13:00"))
 a_new = ind("alert/2026-10-11-payment-admin", "SecurityAlert", "Impossible travel on a payment-service administrator (unreviewed)", generatedByRule=rule_va2,
             hasAlertDisposition=T("DispUnreviewed"), involvesAsset=N["asset/payment-service"], recordedAt=dt("2026-10-11T22:05:00"))
-a_kiosk = ind("alert/2026-10-10-kiosk", "SecurityAlert", "Malware beacon from an in-store kiosk (unreviewed)", generatedByRule=rule_va2,
-              hasAlertDisposition=T("DispUnreviewed"), involvesAsset=N["asset/kiosk"])
+a_kiosk = ind("alert/2026-10-10-kiosk", "SecurityAlert", "Malware beacon from an in-store kiosk, raised by the kiosk antivirus (unreviewed)",
+              hasAlertDisposition=T("DispUnreviewed"), involvesAsset=N["asset/kiosk"], recordedAt=dt("2026-10-10T13:45:00"), sourceSystem=Literal("kiosk antivirus (fictional)"))
 a_fp = ind("alert/2026-10-09-payment-fp", "SecurityAlert", "Impossible travel on payment admin: VPN exit node (false positive)", generatedByRule=rule_va2,
-           hasAlertDisposition=T("DispFalsePositive"), involvesAsset=N["asset/payment-service"])
+           hasAlertDisposition=T("DispFalsePositive"), involvesAsset=N["asset/payment-service"], recordedAt=dt("2026-10-09T07:30:00"))
 ti_src = ind("cti/isac-feed", "ThreatIntelligenceSource", "Retail ISAC indicator feed (fictional)", localIdentifier=Literal("retail-isac-feed"),
              issuerName=Literal("Fictional Retail ISAC"), sourceVersion=Literal("2026-10"), licenceTerms=Literal("member sharing agreement"),
              hasAccessStatus=T("AccessVerified"), hasInformationMarking=T("TlpAmber"))
@@ -147,7 +147,7 @@ ioc = ind("indicator/2026-10-domain", "ThreatIndicator", "Phishing domain used a
           potentiallyIndicates=N["scenario/credential-compromise/event"])
 add(a_new, "matchedIndicator", ioc)
 ind("hunt/2026-10-dormant-admins", "HuntingHypothesis", "Dormant administrator accounts may be used after the August phishing", hypothesisAbout=N["scenario/credential-compromise"])
-ind("baseline/admin-signins", "BehavioralBaseline", "Sign-in baseline of administrator accounts", baselineOf=N["asset/identity-service"], baselinePeriod=txt("2026-01-01 to 2026-06-30"))
+ind("baseline/admin-signins", "BehavioralBaseline", "Sign-in baseline of administrator accounts", baselineOf=N["asset/identity-service"], periodStart=dt("2026-01-01"), periodEnd=dt("2026-06-30"))
 
 # ------------------------------------------------------------------ response
 inv = ind("investigation/2026-08-phishing", "SecurityInvestigation", "Investigation of the August impossible-travel alert", investigatesAlert=a_old,
@@ -187,7 +187,7 @@ ind("control/incident-response", "ControlMeasure", "Incident response capability
     implementsControl=concept("sp800-53r5", "IR-4"))
 ind("evidence/sim-report-2026-09", "DocumentaryEvidence", "Simulation report, compromised-account playbook v2", localIdentifier=Literal("sim-2026-09"))
 # August: account disablement under v1 with a granted approval (CQ-SOAR-06)
-appr = ind("approval/2026-08-03-disable-adm", "ApprovalDecision", "SOC lead approves disabling the compromised account", decisionOn=act_disable,
+appr = ind("approval/2026-08-03-disable-adm", "ApprovalDecision", "SOC lead approves disabling the compromised account", decisionOn=N["action-execution/2026-08-03-disable"],
            decisionMadeBy=P["soc2"], hasDecisionOutcome=T("DecApproved"), decidedOn=dt("2026-08-03T09:30:00"), hasApprovalStatus=T("ApprGranted"),
            validFrom=dt("2026-08-03T09:30:00"), validUntil=dt("2026-08-03T21:30:00"))
 run1 = ind("execution/2026-08-03-run", "AutomationExecution", "Run of the compromised-account playbook v1 (August)", usesPlaybookVersion=v1,
@@ -229,7 +229,7 @@ ind("communication/2026-08-cai", "IncidentCommunication", "Notice to the CAI", c
     recordedAsSubmission=N["compliance/submission/cai-notice-2026-08"])
 ind("communication/2026-08-board", "IncidentCommunication", "Briefing of the audit committee", communicationAbout=inc, hasAudience=T("AudGoverningBody"), sentAt=dt("2026-08-10"))
 ind("recovery/2026-08-identity", "RecoveryVerification", "Identity service verified clean and accounts restored", verifiesRecoveryOf=N["asset/identity-service"],
-    recoveryAfter=inc, verifiedAt=dt("2026-08-05"), assessedBy=P["ciso"], hasEvidence=N["evidence/disable-log"])
+    recoveryAfter=inc, assessedOn=dt("2026-08-05"), assessedBy=P["ciso"], hasEvidence=N["evidence/disable-log"])
 ind("measurement/2026-08-ttc", "ResponseMeasurement", "Time to contain, August phishing incident", measuresMetric=T("MetricTimeToContain"), valueHours=dec(0.4),
     metricMethod=txt("From the alert (09:12) to the account disablement (09:35)"), measurementOf=inc)
 ca = ind("action/CA-IR-2026-08", "CorrectiveAction", "Deploy phishing-resistant MFA for administrators", correctsFinding=N["finding/F-2026-05-01"],

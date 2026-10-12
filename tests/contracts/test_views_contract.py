@@ -61,6 +61,45 @@ g2 = copy.deepcopy(G); g2.add((URIRef(N + "exception/edr-legacy-pos"), dss.T("ex
 g2.add((URIRef(B + "alert/x"), dss.T("involvesAsset"), URIRef(N + "asset/payment-service")))
 c_l = views.compliance_context(FILES, N + "org", "2026-10-12", g=g2); s_l = views.secops_context(FILES, N + "org", "2026-10-12", g=g2)
 check("tenant: another organisation's records are withheld and reported", B not in json.dumps(c_l) and B not in json.dumps(s_l) and any("withheld" in x for x in c_l["caveats"]))
+# injection: foreign records about Nordelle subjects must have no influence (health, simulation, assessment, closure)
+from rdflib.namespace import RDF as _RDF
+g5 = copy.deepcopy(G); T = dss.T
+dtl = lambda d: Literal(d, datatype=XSD.dateTime)
+for s_, p_, o_ in ((URIRef(B + "health/x"), T("observationOf"), URIRef(N + "telemetry/edr-servers")), (URIRef(B + "health/x"), T("observedOn"), dtl("2026-10-12T00:00:00")),
+                   (URIRef(B + "health/x"), T("hasTelemetryHealthState"), T("HealthHealthy")),
+                   (URIRef(B + "sim/x"), _RDF.type, T("PlaybookSimulation")), (URIRef(B + "sim/x"), T("simulatedPlaybook"), URIRef(N + "playbook-version/ransomware-1")),
+                   (URIRef(B + "sim/x"), T("hasTestResult"), T("TestEffective")), (URIRef(B + "sim/x"), T("assessedOn"), dtl("2026-10-01T00:00:00")),
+                   (URIRef(B + "ca/x"), T("evaluatesControlMeasure"), URIRef(N + "control/pam-review")), (URIRef(B + "ca/x"), T("assessedOn"), dtl("2026-10-11T00:00:00")),
+                   (URIRef(B + "ca/x"), T("hasTestResult"), T("TestEffective")),
+                   (URIRef(B + "closure/x"), T("closesFinding"), URIRef(N + "finding/F-2026-05-01")), (URIRef(B + "closure/x"), T("closedOn"), dtl("2026-10-01T00:00:00"))):
+    g5.add((s_, p_, o_))
+s5 = views.secops_context(FILES, N + "org", "2026-10-12", g=g5); c5 = views.compliance_context(FILES, N + "org", "2026-10-12", g=g5)
+check("tenant/injection: another organisation's health observation, simulation, assessment and closure change nothing",
+      {x["id"]: x["health"] for x in {r["id"]: r for r in s5["detectionRules"]}[N + "detection-rule/impossible-travel-v2"]["requiredSources"]}[N + "telemetry/edr-servers"] == "silent"
+      and not {x["id"]: x for x in s5["scenarios"]}[N + "scenario/ransomware"]["playbooks"][0]["simulationPassed"]
+      and {f["id"]: f for f in c5["findings"]}[N + "finding/F-2026-05-01"]["open"]
+      and all(m.get("latestResult") != "effective" for o in c5["obligations"] for m in o["implementingMeasures"] if m["id"] == N + "control/pam-review")
+      and any("withheld" in x for x in s5["caveats"]) and any("withheld" in x for x in c5["caveats"]))
+s_e = views.secops_context(FILES, N + "org", "2026-05-01", g=G)
+sc_e = {x["id"]: x for x in s_e["scenarios"]}
+check("secops/temporal: on 2026-05-01 no coverage is reported (dated later) and playbook v2 (effective 2026-09-15) is not current",
+      sc_e[N + "scenario/ransomware"]["coverage"] == [] and all(N + "playbook-version/compromised-account-2" not in p["currentVersions"]
+      for p in sc_e[N + "scenario/credential-compromise"]["playbooks"]) and s_e["untriagedAlerts"] == [])
+APPR, X1 = URIRef(N + "approval/2026-08-03-disable-adm"), URIRef(N + "action-execution/2026-08-03-disable")
+def reason_with(remove, add):
+    g6 = copy.deepcopy(G)
+    for tr in remove: g6.remove(tr)
+    for tr in add: g6.add(tr)
+    return {e["id"]: e["reason"] for e in views.secops_context(FILES, N + "org", "2026-10-12", g=g6)["executionsWithoutValidApproval"]}.get(str(X1))
+check("approval: a retroactive approval is reported as not yet valid",
+      reason_with([(APPR, T("decidedOn"), None), (APPR, T("validFrom"), None)], [(APPR, T("decidedOn"), dtl("2026-08-04T09:00:00")), (APPR, T("validFrom"), dtl("2026-08-04T09:00:00"))]) == "not-yet-valid")
+check("approval: an approval about another action is reported as not corresponding",
+      reason_with([(APPR, T("decisionOn"), X1)], [(APPR, T("decisionOn"), URIRef(N + "response-action/collect-logs"))]) == "not-corresponding")
+check("approval: an approval by someone who is not a gate authority is reported as such",
+      reason_with([(APPR, T("decisionMadeBy"), None)], [(APPR, T("decisionMadeBy"), URIRef(N + "person/soc-analyst"))]) == "wrong-authority")
+check("approval: a revoked approval is reported as revoked", reason_with([], [(APPR, T("revokedOn"), dtl("2026-08-03T09:31:00"))]) == "revoked")
+e3 = views.secops_context(FILES, N + "org", "12/10/2026", g=G)
+check("error: a malformed date is refused", e3.get("code") == "SCHEMA_INVALID" and dss.validate_doc(e3, "error.schema.json") == [])
 b = views.compliance_context(FILES, B + "org", "2026-10-12", g=G)
 check("tenant: Boréal's context contains nothing of Nordelle", N not in json.dumps(b) and views.validate(b, "compliance/v1") == [])
 for org, code in (("https://w3id.org/crgo/data/x/org", "REFERENCE_NAMESPACE"), ("https://example.org/unknown/org", "UNKNOWN_ORGANISATION")):

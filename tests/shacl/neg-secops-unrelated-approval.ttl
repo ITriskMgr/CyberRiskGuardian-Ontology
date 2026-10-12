@@ -1,0 +1,30 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-secops-unrelated-approval> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: executed without a corresponding approval" .
+
+x:x a crgo:CRGO_0001121 ;
+    crgo:CRGO_0001287 crgo:CRGO_0001177 ;
+    crgo:CRGO_0001289 x:act ;
+    crgo:CRGO_0001290 x:host ;
+    crgo:CRGO_0001291 x:ap ;
+    crgo:CRGO_0001314 "2026-10-10T14:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001316 "a-1" .
+
+x:act a crgo:CRGO_0001117 ;
+    crgo:CRGO_0001277 crgo:CRGO_0001192 .
+
+x:ap a crgo:CRGO_0001119 ;
+    crgo:CRGO_0000730 x:otheraction ;
+    crgo:CRGO_0000731 x:lead ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000837 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000840 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001282 crgo:CRGO_0001184 .
+

@@ -936,6 +936,7 @@
 <https://w3id.org/crgo/vocab/sources/ocsf-1.9.0> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "Open Cybersecurity Schema Framework schema"@en ;
+    rdfs:comment "git tag 1.9.0 = commit 856d462bd20dc46cc1ffed2dfffe3b91ef0fbeba (a directory, so no single file checksum); NOTICE reproduced in NOTICE.md"@en ;
     crgo:CRGO_0000250 "ocsf-1.9.0" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;

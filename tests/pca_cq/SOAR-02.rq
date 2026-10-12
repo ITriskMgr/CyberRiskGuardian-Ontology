@@ -1,10 +1,17 @@
-# CQ-SOAR-02 Which executions of approval-gated or containment/destructive actions had no granted approval valid at their start?
-SELECT DISTINCT ?execution ?action ?approval ?why WHERE {
+# CQ-SOAR-02 Which executions of approval-gated or containment/destructive actions had no corresponding approval valid at their start?
+# The validity rule is the one of the SHACL shape ActionApproval and of the secops/v1 contract (src/build_shapes.py VALID_APPROVAL):
+# outcome approved; decided and valid at the start; not denied, expired or revoked before it; about this execution, its
+# action or its risk class; made by a gate authority when the action's gates name one.
+SELECT DISTINCT ?execution ?action ?why WHERE {
   ?execution {{performsAction}} ?action ; {{executionStartedAt}} ?t .
   { ?action {{hasActionRiskClass}} ?c . FILTER(?c IN ({{RiskContainment}}, {{RiskDestructive}})) } UNION { ?action {{requiresApproval}} ?g }
-  OPTIONAL { ?execution {{authorizedBy}} ?approval }
-  BIND(IF(!BOUND(?approval), "absent",
-       IF(EXISTS { ?approval {{validUntil}} ?u . FILTER(?u < ?t) }, "expired",
-       IF(EXISTS { ?approval {{hasApprovalStatus}} {{ApprGranted}} } || EXISTS { ?approval {{hasApprovalStatus}} {{ApprExpired}} }, "valid", "not granted"))) AS ?why)
-  FILTER(?why != "valid")
+  FILTER NOT EXISTS {
+    ?execution {{authorizedBy}} ?d . ?d {{hasDecisionOutcome}} {{DecApproved}} ; {{decidedOn}} ?dd ; {{validFrom}} ?from . FILTER(?dd <= ?t && ?from <= ?t)
+    FILTER NOT EXISTS { ?d {{validUntil}} ?until . FILTER(?until < ?t) } FILTER NOT EXISTS { ?d {{revokedOn}} ?ro . FILTER(?ro <= ?t) }
+    FILTER NOT EXISTS { ?d {{hasApprovalStatus}} {{ApprDenied}} }
+    FILTER (EXISTS { ?d {{decisionOn}} ?execution } || EXISTS { ?d {{decisionOn}} ?action } || EXISTS { ?d {{preauthorisesAction}} ?action }
+            || EXISTS { ?d {{preauthorisesAction}} ?rcl . ?action {{hasActionRiskClass}} ?rcl })
+    FILTER (NOT EXISTS { ?action {{requiresApproval}} ?g1 . ?g1 {{gateAuthority}} ?a1 } || EXISTS { ?action {{requiresApproval}} ?g2 . ?g2 {{gateAuthority}} ?who . ?d {{decisionMadeBy}} ?who })
+  }
+  BIND(IF(EXISTS { ?execution {{authorizedBy}} ?any }, "invalid", "absent") AS ?why)
 }

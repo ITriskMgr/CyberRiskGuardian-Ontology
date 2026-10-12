@@ -2,7 +2,7 @@
 SELECT ?statement ?measure ?result ?assessed ?evidenceUntil WHERE {
   ?statement {{intendedToMitigate}} ?scenario .
   OPTIONAL { ?statement {{statementImplementedBy}} ?measure .
-    OPTIONAL { ?a {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?assessed ; {{hasTestResult}} ?result .
-      FILTER NOT EXISTS { ?a2 {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 . FILTER(?d2 > ?assessed) }
+    OPTIONAL { ?a {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?assessed ; {{hasTestResult}} ?result . FILTER NOT EXISTS { ?a a {{DetectionTest}} } FILTER NOT EXISTS { ?a a {{PlaybookSimulation}} }
+      FILTER NOT EXISTS { ?a2 {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 . FILTER(?d2 > ?assessed) FILTER NOT EXISTS { ?a2 a {{DetectionTest}} } FILTER NOT EXISTS { ?a2 a {{PlaybookSimulation}} } }
       OPTIONAL { ?a {{hasEvidence}} ?e . ?e {{validUntil}} ?evidenceUntil } } }
 }

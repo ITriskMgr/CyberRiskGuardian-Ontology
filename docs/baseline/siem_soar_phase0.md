@@ -33,9 +33,9 @@ The specifications ask for reuse of existing concepts:
 
 **ATT&CK 19.2**, which CRGO already holds as a raw bundle, contains:
 
-- 699 detection strategies;
+- 699 detection strategies (697 neither revoked nor deprecated);
 - 1,758 analytics;
-- 109 data components.
+- 109 data components (106 neither revoked nor deprecated).
 
 The bundle also holds 697 *detects* relationships from detection strategies to techniques. CRGO's ATT&CK vocabulary so far used only tactics and techniques.
 
@@ -70,7 +70,7 @@ The bundle also holds 697 *detects* relationships from detection strategies to t
 | SecurityInvestigation | **new** | `SecurityInvestigation` (planned act) + `CaseStatus` |
 | SecurityIncident | **reuse** `Incident` and `IncidentConfirmation` | `concludedIncident` (never a confirmation by itself) |
 | IncidentClassification | **new value sets** | `IncidentCategory`, `IncidentSeverity` (CRGO's own scales; NIST SP 800-61 Rev. 3 defines none) |
-| ResponsePlaybook, PlaybookVersion, PlaybookStep | **new** | `ResponsePlaybook`, `PlaybookVersion` ⊑ `DirectiveVersion`, `PlaybookStep` |
+| ResponsePlaybook, PlaybookVersion, PlaybookStep | **new** | `ResponsePlaybook` ⊑ `Procedure`, `PlaybookVersion` ⊑ `DirectiveVersion`, `PlaybookStep` |
 | PlaybookTrigger | **new** | `PlaybookTrigger` + `TriggerKind` |
 | ResponseAction, ActionRiskClass | **new** | `ResponseAction` (definition, not execution) + `ActionRiskClass`; may point to a D3FEND technique |
 | ApprovalGate | **new** | `ApprovalGate` (risk classes it covers, authority, critical-asset rule) |
@@ -87,10 +87,10 @@ The bundle also holds 697 *detects* relationships from detection strategies to t
 
 **Result:**
 
-- 33 new classes;
+- 32 new classes;
 - 14 new value sets with 74 values;
 - 73 object properties;
-- 20 data properties;
+- 20 data properties (after review: *verified at* and *baseline period* dropped in favour of *assessed on* and the period properties; *reference version* and *revoked on* added);
 - 2 reference vocabularies: ATT&CK detection objects, and OCSF categories and classes;
 - 7 new source records.
 
@@ -138,3 +138,14 @@ The bundle also holds 697 *detects* relationships from detection strategies to t
 | CACAO 2.0 | Committee Specification 01 (2023-11-27) | Cited: playbook, workflow step types |
 | FIRST TLP 2.0 | Authoritative from August 2022 | The four labels and AMBER+STRICT, cited |
 | OpenTelemetry logs data model | As published | Cited only (S11) |
+
+## 5. Changes after the independent review (2026-10-12)
+
+- **Tenant separation in the contracts**: every reverse lookup (health observations, playbook versions, simulations, detection tests, assessments, closures, exemptions, mappings) keeps only the organisation's own records; others are withheld and reported. Injection tests added.
+- **Dating in secops/v1**: coverage statements, tests, playbook versions, simulations, alerts and reportability assessments are taken on or before the date asked; undated ones are left out; statuses are documented as last recorded.
+- **One approval validity rule** for the SHACL warning, CQ-SOAR-02 and secops/v1: outcome approved; decided and valid at the start; not denied or revoked before it; about this execution, its action or its risk class; made by a gate authority when the gates name one. New property *revoked on*; approval status and decision outcome checked for agreement.
+- **No accidental incident classification**: the domains of *has incident category*, *has incident severity* and *has observed impact*, and the ranges of *concluded incident*, *communication about* and *recovery after*, were removed and replaced by SHACL checks; an investigation is disjoint from an incident.
+- **A test is not a measure's effectiveness**: detection tests and playbook simulations are left out wherever a control measure's latest result is reported (dss/v1, compliance/v1, POL CQ02/04/07).
+- **CQs**: CQ-SIEM-06 reads the ATT&CK version the rule was mapped against (*reference version*); CQ-SIEM-05 only current statements and approved mappings; CQ-SIEM-02 includes rules deployed for testing; CQ-SIEM-04 requires an effective test of a provider for validated coverage.
+- **Reuse**: a response playbook is a procedure; *verified at* replaced by *assessed on*; behavioural baselines use the period properties.
+- **Licensing**: the OCSF NOTICE is reproduced; the TLP:RED meaning is a CRGO paraphrase.

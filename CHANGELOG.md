@@ -2,6 +2,31 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [0.10.0] — unreleased, awaiting the project owner's go-ahead
+
+Policy, compliance and audit management (three specifications of 2026-10-12, decisions D1–D14) and security monitoring and response (SIEM and SOAR specifications of 2026-10-12, decisions S1–S12). Design in ADR-010 and ADR-011; analyses in `docs/baseline/policy_compliance_audit_phase0.md` and `docs/baseline/siem_soar_phase0.md`; reviews in `docs/review-0.10.0-p1-terms.md` and `docs/review-0.10.0.md`.
+
+### Added
+- **Four new modules and additions** (CRGO_0000885 to CRGO_0001323 with their concept schemes):
+  - `crgo-policy`: directive and policy versions with lifecycle states, policy clauses, guidelines, policy families, directive reviews and triggers, attestations and policy acknowledgements, training requirements, normative modality.
+  - `crgo-compliance`: compliance programme and objectives, requirement interpretations, regulatory authorities, framework adoption, compliance assessment campaigns, provision versions, compliance deadlines, regulatory submissions and exemptions, compliance attestations, root-cause categories.
+  - `crgo-siem`: telemetry sources and health, security event records, normalisation profiles and parsers, detection strategies, rules and correlation rules, alert disposition, threat indicators and intelligence sources, detection coverage, gaps and tests, hunting hypotheses, behavioural baselines, TLP 2.0 information marking.
+  - `crgo-soar`: security investigations and case status, incident category and severity, response playbooks, versions, steps and triggers, response actions and risk classes, approval gates and decisions, automation and action execution records, response evidence, forensic artefacts, incident impact and communications, recovery verification, response measurements, playbook simulations.
+  - Additions to `crgo-audit` (audit function, charter, methodology, plan entries, workpapers, observations, quality reviews, engagement type and state) and `crgo-mapping` (mapping assertions, mapping type, review state).
+- **Vocabularies**: ATT&CK 19.2 detection strategies (697), analytics (1,758) and data components (106) with 697 *targets technique*, 1,745 *uses analytic* and 4,170 *uses data component* links (`vocab/attack-detection`); OCSF 1.9.0 categories (8) and event classes (79) (`vocab/ocsf`).
+- **Source records**: ISO 37301:2021/Amd 1:2024 (supplied by the project owner), NIST SP 800-61 Rev. 3, OCSF 1.9.0, Sigma specification 2.1.0, STIX 2.1, CACAO 2.0, FIRST TLP 2.0, OpenTelemetry logs (cited only).
+- **Read contracts** `contracts/compliance/v1` and `contracts/secops/v1` with MCP tools `crgo_compliance_context` and `crgo_secops_context` (read only; tenant-filtered; dated).
+- **Synthetic Nordelle data** for policy, compliance and audit management (`tests/samples/nordelle-pca.ttl`) and for SIEM and SOAR (`tests/samples/nordelle-secops.ttl`).
+- **Tests**: SHACL shapes for the new terms (lifecycle profiles, mapping qualification, exemption authority, deadlines, submissions, D10, workpaper self-review, observations, engagement type, detection status and coverage, indicator confidence, one approval validity rule (warning: an audit signal, never an authorisation), incident links checked by SHACL instead of OWL domains, regulator communications); 31 SHACL and 4 OWL negative fixtures; 91 checks over the 42 specification competency questions; 31 contract checks (including tenant-injection, temporal and approval cases); `scripts/check.sh` steps 13 (extended) and 17.
+
+### Changed
+- Approved terms widened (decision D9 and the P1 review, each with a `skos:changeNote`): *closes finding* and *reopens finding* also range over nonconformities; *applicability condition*, *applicability assessment*, *condition of* and *applicability of* also cover policy statements; *version label* has no domain; *legal instrument* covers contracts and directives to be transposed; *compliance determination* covers contractual obligations and adopted framework requirements; *audit finding* loses its alternative label "audit observation"; *policy statement* gains "policy requirement".
+- Values added to *instrument kind* (contract, directive to be transposed), *condition kind* (role, asset category) and *sufficiency conclusion* (sufficient with limitations, unavailable).
+- `crgo-mapping` imports `crgo-core` (was `crgo-gov`); `crgo-audit` also imports `crgo-compliance`.
+- Group approvals keep every row of a key, so a later scoped approval extends an earlier one without changing its date; 0.9.0 group approvals scoped to CRGO_0000884.
+- The compliance determination shape requires a jurisdiction only for legal provisions and obligations.
+- Synthetic Nordelle: the information security policy has versions; its statements belong to version 3 and state their modality.
+
 ## [0.9.1] — 2026-10-12, patch
 
 Tooling only: the ontology modules, vocabularies and data are unchanged and keep their 0.9.0 version IRIs.

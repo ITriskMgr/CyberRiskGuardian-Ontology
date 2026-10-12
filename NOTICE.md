@@ -22,6 +22,20 @@ licences apply to the files listed, not the CC BY-NC 4.0 licence of CRGO.
 
 - **NIST CSF 2.0 and NIST SP 800-53 Rev. 5.2.0**: built from the OSCAL catalogues in https://github.com/usnistgov/oscal-content. US Government works, not subject to copyright in the United States (17 U.S.C. 105). Credit: National Institute of Standards and Technology.
 - **MITRE ATT&CK Enterprise 19.2**: built from https://github.com/mitre-attack/attack-stix-data. © The MITRE Corporation. Reproduced and distributed with the permission of The MITRE Corporation under the ATT&CK Terms of Use, https://attack.mitre.org/resources/legal-and-branding/terms-of-use/.
+- **MITRE ATT&CK detection strategies, analytics and data components** (0.10.0, `ontology/vocab/attack-detection.ttl`): from the same ATT&CK 19.2 bundle and under the same terms.
+- **OCSF 1.9.0** (0.10.0, `ontology/vocab/ocsf.ttl`): category and event-class identifiers, captions and descriptions from https://github.com/ocsf/ocsf-schema (git tag 1.9.0). Licensed under the Apache License 2.0, https://www.apache.org/licenses/LICENSE-2.0. Descriptions are reproduced with light markup removal; nothing else was changed. The OCSF NOTICE file reads:
+
+  > Open Cybersecurity Schema Framework
+  >
+  > Copyright © OCSF a Series of LF Projects, LLC
+  > For web site terms of use, trademark policy and other project policies please see https://lfprojects.org.
+  >
+  > This project includes the ICD Schema developed by Symantec, a division of Broadcom.
+  >
+  > Licensed under the Apache 2 license.
+  > Refer to the Apache 2 license in the file LICENSE.
+- **FIRST Traffic Light Protocol 2.0** (0.10.0): the labels TLP:RED, TLP:AMBER+STRICT, TLP:AMBER, TLP:GREEN and TLP:CLEAR are cited; their meanings are CRGO paraphrases. © FIRST.
+- **ISO 37301:2021/Amd 1:2024** (0.10.0): identifier, title and the numbers of the clauses it amends only, © ISO; the copy supplied by the project owner stays outside Git.
 - **ISO/IEC 27002:2022**: control identifiers and titles only, © ISO/IEC, cited for reference and mapping. No control text is reproduced; obtain the standard from ISO or a national standards body.
 - **COBIT 2019**: objective identifiers and names only, © ISACA, cited for reference and mapping.
 - **CSA Cloud Controls Matrix v4.1**: domain identifiers and names only, © Cloud Security Alliance, attributed to the Cloud Security Alliance Cloud Controls Matrix Version 4.

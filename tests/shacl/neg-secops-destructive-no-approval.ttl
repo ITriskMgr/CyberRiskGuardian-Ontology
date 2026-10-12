@@ -7,7 +7,7 @@
 
 <https://example.org/crgo-test/fixture/neg-secops-destructive-no-approval> a owl:Ontology ;
     rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
-    skos:note "expect: executed without an approval decision" .
+    skos:note "expect: executed without a corresponding approval" .
 
 x:x a crgo:CRGO_0001121 ;
     crgo:CRGO_0001287 crgo:CRGO_0001177 ;

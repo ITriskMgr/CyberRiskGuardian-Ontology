@@ -71,9 +71,9 @@ crgo:crgo-vuln a owl:Ontology ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-10-10"^^xsd:date ;
+    dcterms:issued "2026-10-12"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-10"^^xsd:date ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - vulnerability observations module"@en,

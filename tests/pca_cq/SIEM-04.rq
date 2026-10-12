@@ -1,5 +1,6 @@
-# CQ-SIEM-04 Which techniques have only untested, degraded or missing coverage (no validated coverage)?
+# CQ-SIEM-04 Which techniques have only untested, degraded or missing coverage: no coverage validated by an effective test of a strategy or rule that provides it?
 SELECT ?technique (GROUP_CONCAT(DISTINCT STR(?status); separator=" ") AS ?statuses) WHERE {
   ?c {{coversTechnique}} ?technique ; {{hasCoverageStatus}} ?status .
-  FILTER NOT EXISTS { ?c2 {{coversTechnique}} ?technique ; {{hasCoverageStatus}} {{CovValidated}} }
+  FILTER NOT EXISTS { ?c2 {{coversTechnique}} ?technique ; {{hasCoverageStatus}} {{CovValidated}} ; {{coverageBy}} ?r ; {{supportedByTest}} ?t .
+                      ?t {{hasTestResult}} {{TestEffective}} ; {{testedRule}} ?r }
 } GROUP BY ?technique

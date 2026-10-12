@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Negative fixtures of 0.10.0 (policy, compliance and audit management; SIEM and SOAR): SHACL graphs that must be
-rejected by shapes/crgo-shapes.ttl (tests/shacl/neg-pca-*.ttl and neg-secops-*.ttl, two of them by a warning) and OWL
+rejected by shapes/crgo-shapes.ttl (tests/shacl/neg-pca-*.ttl and neg-secops-*.ttl; six of them by warning-severity shapes) and OWL
 graphs that must be inconsistent (tests/fixtures/neg-pca-*.ttl, neg-secops-*.ttl). Each SHACL fixture names the message
 it must trigger (skos:note "expect: ...")."""
 import os
@@ -109,9 +109,17 @@ write("neg-secops-coverage-nothing", [(X.cov, RDF.type, T("DetectionCoverage")),
 write("neg-secops-indicator-confidence-no-method", [(X.i, RDF.type, T("ThreatIndicator")), (X.i, T("indicatorPattern"), Literal("[ipv4-addr:value = '198.51.100.7']")),
       (X.i, T("patternLanguage"), Literal("stix")), (X.i, T("indicatorFromSource"), X.feed), (X.i, T("validFrom"), dt("2026-10-01")), (X.i, T("statedConfidence"), dec(80))],
       expect="needs its method")
-write("neg-secops-destructive-no-approval", action_exec(), expect="executed without an approval decision")
+write("neg-secops-destructive-no-approval", action_exec(), expect="executed without a corresponding approval")
 write("neg-secops-expired-approval", action_exec("RiskContainment", ("ApprGranted", "DecApproved", "2026-07-01T00:00:00", "2026-09-30T00:00:00")),
-      expect="executed without an approval decision")
+      expect="executed without a corresponding approval")
+write("neg-secops-retroactive-approval", action_exec("RiskContainment", ("ApprGranted", "DecApproved", "2026-10-11T00:00:00", None)), expect="executed without a corresponding approval")
+write("neg-secops-unrelated-approval", [t for t in action_exec("RiskContainment", ("ApprGranted", "DecApproved", "2026-10-01T00:00:00", None)) if t[1] != T("decisionOn")]
+      + [(X.ap, T("decisionOn"), X.otheraction)], expect="executed without a corresponding approval")
+write("neg-secops-category-on-investigation", [(X.inv, RDF.type, T("SecurityInvestigation")), (X.inv, T("hasCaseStatus"), T("CaseNew")),
+      (X.inv, T("investigationOpenedAt"), dt("2026-10-10T10:00:00")), (X.inv, T("hasIncidentCategory"), T("CatMalware"))], expect="Only an incident can carry")
+write("neg-secops-validated-by-other-rule", [(X.cov, RDF.type, T("DetectionCoverage")), (X.cov, T("coverageBy"), X.r), (X.cov, T("coversScenario"), X.scen),
+      (X.cov, T("hasCoverageStatus"), T("CovValidated")), (X.cov, T("supportedByTest"), X.t), (X.t, T("hasTestResult"), T("TestEffective")), (X.t, T("testedRule"), X.otherrule)],
+      expect="of a strategy or rule that provides the coverage")
 write("neg-secops-execution-no-version", [(X.r, RDF.type, T("AutomationExecution")), (X.r, T("hasExecutionStatus"), T("ExecRunning")),
       (X.r, T("executionStartedAt"), dt("2026-10-10T14:00:00")), (X.r, T("attemptIdentifier"), Literal("r-1"))], expect="the playbook version")
 write("neg-secops-concluded-unconfirmed-warning", [(X.inv, RDF.type, T("SecurityInvestigation")), (X.inv, T("hasCaseStatus"), T("CaseInvestigating")),

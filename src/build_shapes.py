@@ -326,6 +326,20 @@ req(s, "triggeredBy", "the cause", "A reassessment trigger", one=False); req(s, 
 # 8. 0.10.0: policy, compliance and audit management (decisions D1-D14) and SIEM/SOAR (decisions S1-S12)
 def one_of(s, key, allowed, msg):
     sparql(s, msg, """SELECT $this WHERE { $this %s ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (%s)) } }""" % (P(key), ", ".join(P(a) for a in allowed)))
+# One validity rule for an approval relied on by an action execution ($this, action ?act, start ?t), shared by SHACL,
+# the CQ-SOAR-02 query and the secops/v1 contract: outcome approved, decided and valid at the start, not denied or
+# revoked before it, corresponding to this execution, its action or its risk class, and made by a gate authority when the
+# action's gates name one.
+APPROVAL_VARS = {"pa": P("performsAction"), "start": P("executionStartedAt"), "rc": P("hasActionRiskClass"), "cont": P("RiskContainment"),
+                 "destr": P("RiskDestructive"), "ra": P("requiresApproval")}
+VALID_APPROVAL = """$this %(auth)s ?d . ?d %(out)s %(approved)s ; %(don)s ?dd ; %(vf)s ?from . FILTER(?dd <= ?t && ?from <= ?t)
+    FILTER NOT EXISTS { ?d %(vu)s ?until . FILTER(?until < ?t) } FILTER NOT EXISTS { ?d %(rev)s ?ro . FILTER(?ro <= ?t) }
+    FILTER NOT EXISTS { ?d %(as)s %(denied)s }
+    FILTER (EXISTS { ?d %(on)s $this } || EXISTS { ?d %(on)s ?act } || EXISTS { ?d %(pre)s ?act } || EXISTS { ?d %(pre)s ?rcl . ?act %(rc)s ?rcl })
+    FILTER (NOT EXISTS { ?act %(ra)s ?g1 . ?g1 %(ga)s ?a1 } || EXISTS { ?act %(ra)s ?g2 . ?g2 %(ga)s ?who . ?d %(by)s ?who })""" % {
+    "auth": P("authorizedBy"), "out": P("hasDecisionOutcome"), "approved": P("DecApproved"), "don": P("decidedOn"), "vf": P("validFrom"),
+    "vu": P("validUntil"), "rev": P("revokedOn"), "as": P("hasApprovalStatus"), "denied": P("ApprDenied"), "on": P("decisionOn"),
+    "pre": P("preauthorisesAction"), "rc": P("hasActionRiskClass"), "ra": P("requiresApproval"), "ga": P("gateAuthority"), "by": P("decisionMadeBy")}
 def ordered(s, a, b, msg):
     sparql(s, msg, """SELECT $this WHERE { $this %s ?a ; %s ?b . FILTER(?b < ?a) }""" % (P(a), P(b)))
 # --- D9: closure and reopening apply to audit findings and nonconformities
@@ -447,10 +461,11 @@ sparql(s, "An enabled detection rule must declare the telemetry sources or data 
   $this %s %s FILTER NOT EXISTS { $this %s ?src } }""" % (P("hasDetectionStatus"), P("DetEnabled"), P("requiresSource")))
 s = shape("DetectionCoverage", ("class", C("DetectionCoverage")), "Coverage needs a strategy or rule, a scenario or technique, and its status (SIEM section 5).")
 req(s, "coverageBy", "the strategy or rule", "A detection coverage statement", one=False); req(s, "hasCoverageStatus", "the coverage status", "A detection coverage statement")
-sparql(s, "A detection coverage statement must say what it covers: a risk scenario or a technique.", """SELECT $this WHERE {
-  FILTER NOT EXISTS { $this %s ?x } FILTER NOT EXISTS { $this %s ?y } }""" % (P("coversScenario"), P("coversTechnique")))
-sparql(s, "Validated coverage needs a supporting detection test found effective.", """SELECT $this WHERE {
-  $this %s %s FILTER NOT EXISTS { $this %s ?t . ?t %s %s } }""" % (P("hasCoverageStatus"), P("CovValidated"), P("supportedByTest"), P("hasTestResult"), P("TestEffective")))
+sparql(s, "A detection coverage statement must say what it covers: a risk scenario, a technique or an asset.", """SELECT $this WHERE {
+  FILTER NOT EXISTS { $this %s ?x } FILTER NOT EXISTS { $this %s ?y } FILTER NOT EXISTS { $this %s ?z } }""" % (P("coversScenario"), P("coversTechnique"), P("coversAsset")))
+sparql(s, "Validated coverage needs a supporting detection test, found effective, of a strategy or rule that provides the coverage.", """SELECT $this WHERE {
+  $this %s %s FILTER NOT EXISTS { $this %s ?t ; %s ?r . ?t %s %s ; %s ?r } }""" % (P("hasCoverageStatus"), P("CovValidated"), P("supportedByTest"), P("coverageBy"),
+  P("hasTestResult"), P("TestEffective"), P("testedRule")))
 s = shape("DetectionTest", ("class", C("DetectionTest")), "Detection tests name the rule or strategy exercised.")
 req(s, "testedRule", "the rule or strategy tested", "A detection test", one=False)
 s = shape("ThreatIndicator", ("class", C("ThreatIndicator")), "Indicators: pattern, language, source, validity; confidence with its method (SIEM sections 2 and 4).")
@@ -487,16 +502,20 @@ for k, w, one in (("performsAction", "the action", True), ("actionTarget", "the 
 ordered(s, "executionStartedAt", "executionEndedAt", "An execution ends after it starts.")
 s = shape("ActionApproval", ("class", C("ActionExecution")), "Warning (audit signal): impactful actions need a granted approval valid when they started (SOAR section 5, decision S6). A record of an unapproved action is a correct record of a control failure, so this is a warning, not a violation.")
 warn(s)
-sparql(s, "A containment or destructive action, or one behind an approval gate, was executed without an approval decision that was granted and valid when it started (an audit signal, never an authorisation).", """SELECT $this WHERE {
+sparql(s, "A containment or destructive action, or one behind an approval gate, was executed without a corresponding approval that was granted and valid when it started (an audit signal, never an authorisation).", """SELECT $this WHERE {
   $this %(pa)s ?act ; %(start)s ?t .
   { ?act %(rc)s ?c . FILTER(?c IN (%(cont)s, %(destr)s)) } UNION { ?act %(ra)s ?gate }
-  FILTER NOT EXISTS {
-    $this %(auth)s ?d . ?d %(as)s %(granted)s ; %(out)s %(approved)s ; %(don)s ?dd ; %(vf)s ?from .
-    FILTER(?dd <= ?t && ?from <= ?t)
-    FILTER NOT EXISTS { ?d %(vu)s ?until . FILTER(?until < ?t) } } }""" % {
-  "pa": P("performsAction"), "start": P("executionStartedAt"), "rc": P("hasActionRiskClass"), "cont": P("RiskContainment"), "destr": P("RiskDestructive"),
-  "ra": P("requiresApproval"), "auth": P("authorizedBy"), "as": P("hasApprovalStatus"), "granted": P("ApprGranted"), "out": P("hasDecisionOutcome"),
-  "approved": P("DecApproved"), "don": P("decidedOn"), "vf": P("validFrom"), "vu": P("validUntil")})
+  FILTER NOT EXISTS { %(valid)s } }""" % dict(APPROVAL_VARS, valid=VALID_APPROVAL))
+s = shape("ApprovalDecisionConsistent", ("class", C("ApprovalDecision")), "Approval status and decision outcome agree.")
+sparql(s, "An approval granted must have the outcome 'approved'; an approval denied must have the outcome 'rejected'.", """SELECT $this WHERE {
+  { $this %s %s FILTER NOT EXISTS { $this %s %s } } UNION { $this %s %s FILTER NOT EXISTS { $this %s %s } } }""" % (
+  P("hasApprovalStatus"), P("ApprGranted"), P("hasDecisionOutcome"), P("DecApproved"), P("hasApprovalStatus"), P("ApprDenied"), P("hasDecisionOutcome"), P("DecRejected")))
+for key in ("concludedIncident", "communicationAbout", "recoveryAfter"):
+    s = shape("Target_%s" % key, ("subjectsOf", C(key)), "Incident links point to incidents (ranges are left open to avoid classifying records as incidents).")
+    one_of(s, key, ["Incident"], "'%s' must point to an incident." % key)
+for key in ("hasIncidentCategory", "hasIncidentSeverity", "hasObservedImpact"):
+    s = shape("Subject_%s" % key, ("subjectsOf", C(key)), "Only incidents are categorised, rated or given impacts (domains are left open to avoid classifying cases as incidents).")
+    sparql(s, "Only an incident can carry '%s'; categorise the incident, not the investigation or alert." % key, """SELECT $this WHERE { FILTER NOT EXISTS { $this a %s } }""" % P("Incident"))
 s = shape("ForensicArtifact", ("class", C("ForensicArtifact")), "Forensic artefacts: custodian, integrity hash, collection date.")
 req(s, "custodian", "the custodian", "A forensic artefact", one=False); req(s, "evidenceHash", "the integrity hash", "A forensic artefact"); req(s, "collectedOn", "the collection date", "A forensic artefact")
 s = shape("IncidentCommunication", ("class", C("IncidentCommunication")), "Communications: incident, audience, date.")
@@ -507,7 +526,7 @@ warn(s)
 sparql(s, "A communication to a regulator is not linked to a regulatory submission.", """SELECT $this WHERE {
   $this %s %s FILTER NOT EXISTS { $this %s ?sub } }""" % (P("hasAudience"), P("AudRegulator"), P("recordedAsSubmission")))
 s = shape("RecoveryVerification", ("class", C("RecoveryVerification")), "Recovery verifications: what, when, by whom, on what evidence.")
-for k, w, one in (("verifiesRecoveryOf", "what was restored", False), ("verifiedAt", "the time", True), ("assessedBy", "who verified", False), ("hasEvidence", "the evidence", False)):
+for k, w, one in (("verifiesRecoveryOf", "what was restored", False), ("assessedOn", "the time", True), ("assessedBy", "who verified", False), ("hasEvidence", "the evidence", False)):
     req(s, k, w, "A recovery verification", one=one)
 s = shape("ResponseMeasurement", ("class", C("ResponseMeasurement")), "Response measurements: metric, value in hours, method and what was measured (SOAR section 2).")
 req(s, "measuresMetric", "the metric", "A response effectiveness measurement"); req(s, "metricMethod", "the method", "A response effectiveness measurement", one=False)

@@ -31,10 +31,10 @@ crgo:CRGO_0001122 a owl:Class ;
 # --- forensic artefact
 crgo:CRGO_0001123 a owl:Class ;
     rdfs:label "forensic artefact"@en,
-        "artefact forensique"@fr ;
+        "artefact d'investigation numérique"@fr ;
     rdfs:subClassOf crgo:CRGO_0000036 ;
     skos:altLabel "forensic artifact"@en,
-        "artefact d'investigation numérique"@fr ;
+        "artefact forensique"@fr ;
     skos:definition "An evidence item collected for forensic analysis, such as a disk or memory image, kept under recorded custody with its integrity hash."@en,
         "Élément de preuve recueilli pour une analyse forensique, comme une image de disque ou de mémoire, conservé sous une garde consignée avec son empreinte d'intégrité."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -289,8 +289,8 @@ crgo:CRGO_0001184 a owl:NamedIndividual,
         crgo:CRGO_0001181 ;
     rdfs:label "approval granted"@en,
         "approbation accordée"@fr ;
-    skos:definition "Granted for the stated scope and period."@en,
-        "Accordée pour le périmètre et la période précisés."@fr ;
+    skos:definition "Granted for the stated scope and period; the decision outcome is 'approved'."@en,
+        "Accordée pour le périmètre et la période précisés; le résultat de la décision est « approuvée »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "2" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -304,8 +304,8 @@ crgo:CRGO_0001185 a owl:NamedIndividual,
         crgo:CRGO_0001181 ;
     rdfs:label "approval denied"@en,
         "approbation refusée"@fr ;
-    skos:definition "Refused."@en,
-        "Refusée."@fr ;
+    skos:definition "Refused; the decision outcome is 'rejected'."@en,
+        "Refusée; le résultat de la décision est « rejetée »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "3" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -334,8 +334,8 @@ crgo:CRGO_0001187 a owl:NamedIndividual,
         crgo:CRGO_0001181 ;
     rdfs:label "approval revoked"@en,
         "approbation révoquée"@fr ;
-    skos:definition "Withdrawn before it expired."@en,
-        "Retirée avant son expiration."@fr ;
+    skos:definition "Withdrawn before it expired, on the date recorded as 'revoked on'."@en,
+        "Retirée avant son expiration, à la date consignée comme « révoquée le »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -488,7 +488,7 @@ crgo:CRGO_0001200 a owl:NamedIndividual,
 crgo:CRGO_0001201 a owl:NamedIndividual,
         crgo:CRGO_0001194 ;
     rdfs:label "insider misuse"@en,
-        "utilisation abusive par un initié"@fr ;
+        "utilisation abusive par une personne de l'interne"@fr ;
     skos:definition "An authorised user misused their access."@en,
         "Un utilisateur autorisé a abusé de son accès."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
@@ -866,7 +866,6 @@ crgo:CRGO_0001268 a owl:ObjectProperty ;
     rdfs:label "concluded incident"@en,
         "a conclu à l'incident"@fr ;
     rdfs:domain crgo:CRGO_0001112 ;
-    rdfs:range crgo:CRGO_0000015 ;
     skos:definition "Relates a security investigation to the incident it concluded had occurred. The incident is confirmed by an incident confirmation, not by this link alone."@en,
         "Relie une enquête de sécurité à l'incident dont elle a conclu l'existence. L'incident est confirmé par une confirmation d'incident, et non par ce seul lien."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -880,7 +879,6 @@ crgo:CRGO_0001268 a owl:ObjectProperty ;
 crgo:CRGO_0001269 a owl:ObjectProperty ;
     rdfs:label "has incident category"@en,
         "a pour catégorie d'incident"@fr ;
-    rdfs:domain crgo:CRGO_0000015 ;
     rdfs:range crgo:CRGO_0001194 ;
     skos:definition "Gives a broad category of an incident."@en,
         "Indique une grande catégorie d'un incident."@fr ;
@@ -894,7 +892,6 @@ crgo:CRGO_0001269 a owl:ObjectProperty ;
 crgo:CRGO_0001270 a owl:ObjectProperty ;
     rdfs:label "has incident severity"@en,
         "a pour gravité d'incident"@fr ;
-    rdfs:domain crgo:CRGO_0000015 ;
     rdfs:range crgo:CRGO_0001204 ;
     skos:definition "Gives the severity of an incident as last rated."@en,
         "Indique la gravité d'un incident selon la dernière cote attribuée."@fr ;
@@ -1219,7 +1216,6 @@ crgo:CRGO_0001292 a owl:ObjectProperty ;
 crgo:CRGO_0001293 a owl:ObjectProperty ;
     rdfs:label "has observed impact"@en,
         "a pour impact constaté"@fr ;
-    rdfs:domain crgo:CRGO_0000015 ;
     rdfs:range crgo:CRGO_0001124 ;
     skos:definition "Relates an incident to an impact it had or is estimated to have had."@en,
         "Relie un incident à un impact qu'il a eu ou qu'il est estimé avoir eu."@fr ;
@@ -1250,7 +1246,6 @@ crgo:CRGO_0001295 a owl:ObjectProperty ;
     rdfs:label "communication about"@en,
         "communication concernant"@fr ;
     rdfs:domain crgo:CRGO_0001125 ;
-    rdfs:range crgo:CRGO_0000015 ;
     skos:definition "Relates an incident communication to the incident it concerns."@en,
         "Relie une communication relative à l'incident à l'incident qu'elle concerne."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -1319,7 +1314,6 @@ crgo:CRGO_0001300 a owl:ObjectProperty ;
     rdfs:label "recovery after"@en,
         "rétablissement après"@fr ;
     rdfs:domain crgo:CRGO_0001126 ;
-    rdfs:range crgo:CRGO_0000015 ;
     skos:definition "Relates a recovery verification to the incident it follows."@en,
         "Relie une vérification du rétablissement à l'incident qu'elle suit."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -1374,7 +1368,7 @@ crgo:CRGO_0001303 a owl:ObjectProperty ;
 crgo:CRGO_0001313 a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:label "opened at"@en,
-        "ouvert le"@fr ;
+        "ouverte le"@fr ;
     rdfs:domain crgo:CRGO_0001112 ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a security investigation was opened."@en,
@@ -1487,21 +1481,6 @@ crgo:CRGO_0001320 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
-# --- verified at
-crgo:CRGO_0001321 a owl:DatatypeProperty,
-        owl:FunctionalProperty ;
-    rdfs:label "verified at"@en,
-        "vérifié le"@fr ;
-    rdfs:domain crgo:CRGO_0001126 ;
-    rdfs:range xsd:dateTime ;
-    skos:definition "Gives when a recovery verification was made."@en,
-        "Indique quand une vérification du rétablissement a été effectuée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
-
 # --- value (hours)
 crgo:CRGO_0001322 a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -1530,6 +1509,21 @@ crgo:CRGO_0001323 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
+# --- revoked on
+crgo:CRGO_0001325 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "revoked on"@en,
+        "révoquée le"@fr ;
+    rdfs:domain crgo:CRGO_0001119 ;
+    rdfs:range xsd:dateTime ;
+    skos:definition "Gives when an approval decision was revoked."@en,
+        "Indique quand une décision d'approbation a été révoquée."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
 crgo:crgo-soar a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
@@ -1539,9 +1533,9 @@ crgo:crgo-soar a owl:Ontology ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-10-10"^^xsd:date ;
+    dcterms:issued "2026-10-12"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-10"^^xsd:date ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - security orchestration, automation and response (SOAR) module"@en,
@@ -1561,12 +1555,12 @@ crgo:crgo-soar a owl:Ontology ;
 crgo:CRGO_0001113 a owl:Class ;
     rdfs:label "response playbook"@en,
         "guide de réponse"@fr ;
-    rdfs:subClassOf cco:ont00000965 ;
+    rdfs:subClassOf crgo:CRGO_0000500 ;
     owl:disjointWith crgo:CRGO_0001117 ;
     skos:altLabel "playbook"@en,
         "guide d'intervention"@fr ;
-    skos:definition "A directive that sets the steps, conditions, actions and approvals by which a kind of alert or incident is to be handled, manually or by automation, such as a CACAO playbook."@en,
-        "Directive qui fixe les étapes, conditions, actions et approbations selon lesquelles un type d'alerte ou d'incident doit être traité, manuellement ou par automatisation, comme un guide CACAO."@fr ;
+    skos:definition "A procedure that sets the steps, conditions, actions and approvals by which a kind of alert or incident is to be handled, manually or by automation, such as a CACAO playbook."@en,
+        "Procédure qui fixe les étapes, conditions, actions et approbations selon lesquelles un type d'alerte ou d'incident doit être traité, manuellement ou par automatisation, comme un guide CACAO."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2; CACAO 2.0 playbook. Versioned through playbook versions (directive versions, 0.10.0)."@en ;
@@ -1584,7 +1578,7 @@ crgo:CRGO_0001128 a owl:Class ;
         "Évaluation de mesure dans laquelle une version de guide est exécutée dans un environnement d'essai ou lors d'un exercice pour vérifier qu'elle se comporte comme prévu."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "SOAR CQ-SOAR-04 (playbooks that have not passed simulation); reuses control assessment (decision S3)."@en ;
+    crgo:CRGO_0000285 "SOAR CQ-SOAR-04 (playbooks that have not passed simulation); reuses control assessment (decision S3). It tests one playbook version, not the whole response capability: consumers that report a measure's effectiveness leave simulations out."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
@@ -1599,35 +1593,6 @@ crgo:CRGO_0001116 a owl:Class ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (PlaybookTrigger)."@en ;
-    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
-
-# --- playbook version
-crgo:CRGO_0001114 a owl:Class ;
-    rdfs:label "playbook version"@en,
-        "version de guide de réponse"@fr ;
-    rdfs:subClassOf crgo:CRGO_0000886 ;
-    skos:definition "A directive version of a response playbook. Executions cite the exact version they ran."@en,
-        "Version de directive d'un guide de réponse. Les exécutions citent la version précise qu'elles ont exécutée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "SOAR section 2 (PlaybookVersion: immutable deployable version)."@en ;
-    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
-        "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
-
-# --- approval decision
-crgo:CRGO_0001119 a owl:Class ;
-    rdfs:label "approval decision"@en,
-        "décision d'approbation"@fr ;
-    rdfs:subClassOf crgo:CRGO_0000504 ;
-    skos:definition "A decision record granting or denying the execution of a response action, or pre-authorising a stated class of actions for a stated scope and period, by an identified authority."@en,
-        "Relevé de décision qui accorde ou refuse l'exécution d'une action de réponse, ou qui préautorise une classe d'actions précisée pour un périmètre et une période donnés, par une autorité identifiée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "SOAR section 2 (ApprovalDecision); reuses decision record (decision S3). An approval is about one execution or a narrowly scoped pre-authorisation."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
@@ -1647,11 +1612,27 @@ crgo:CRGO_0001126 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
+# --- playbook version
+crgo:CRGO_0001114 a owl:Class ;
+    rdfs:label "playbook version"@en,
+        "version de guide de réponse"@fr ;
+    rdfs:subClassOf crgo:CRGO_0000886 ;
+    skos:definition "A directive version of a response playbook. Executions cite the exact version they ran."@en,
+        "Version de directive d'un guide de réponse. Les exécutions citent la version précise qu'elles ont exécutée."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "SOAR section 2 (PlaybookVersion: immutable deployable version)."@en ;
+    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
+        "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
 # --- security investigation
 crgo:CRGO_0001112 a owl:Class ;
     rdfs:label "security investigation"@en,
         "enquête de sécurité"@fr ;
     rdfs:subClassOf cco:ont00000228 ;
+    owl:disjointWith crgo:CRGO_0000015 ;
     skos:altLabel "security case"@en,
         "dossier de sécurité"@fr ;
     skos:definition "A planned act in which analysts examine one or more alerts, events or reports to establish what happened, whether it is an incident and what its scope is, with its case status as last recorded."@en,
@@ -1689,6 +1670,20 @@ crgo:CRGO_0001118 a owl:Class ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR sections 2 and 5."@en ;
+    crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+# --- approval decision
+crgo:CRGO_0001119 a owl:Class ;
+    rdfs:label "approval decision"@en,
+        "décision d'approbation"@fr ;
+    rdfs:subClassOf crgo:CRGO_0000504 ;
+    skos:definition "A decision record granting or denying the execution of a response action, or pre-authorising a stated class of actions for a stated scope and period, by an identified authority."@en,
+        "Relevé de décision qui accorde ou refuse l'exécution d'une action de réponse, ou qui préautorise une classe d'actions précisée pour un périmètre et une période donnés, par une autorité identifiée."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "SOAR section 2 (ApprovalDecision); reuses decision record (decision S3). An approval is about one execution or a narrowly scoped pre-authorisation."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .

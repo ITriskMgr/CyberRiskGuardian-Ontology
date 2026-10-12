@@ -339,8 +339,8 @@ crgo:CRGO_0001158 a owl:NamedIndividual,
         crgo:CRGO_0001156 ;
     rdfs:label "TLP:RED"@en,
         "TLP:RED"@fr ;
-    skos:definition "For the eyes and ears of individual recipients only."@en,
-        "Réservé aux seuls destinataires individuels."@fr ;
+    skos:definition "Only the named recipients may see it; it is not passed on to anyone else."@en,
+        "Seuls les destinataires nommés peuvent en prendre connaissance; elle n'est transmise à personne d'autre."@fr ;
     skos:inScheme crgo:CRGO_0001157 ;
     skos:notation "1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
@@ -540,9 +540,9 @@ crgo:CRGO_0001239 a owl:ObjectProperty ;
 # --- uses analytic
 crgo:CRGO_0001240 a owl:ObjectProperty ;
     rdfs:label "uses analytic"@en,
-        "utilise l'analytique"@fr ;
+        "utilise l'analyse"@fr ;
     skos:definition "Relates a detection strategy to an analytic it uses, such as an ATT&CK analytic."@en,
-        "Relie une stratégie de détection à un analytique qu'elle utilise, comme un analytique ATT&CK."@fr ;
+        "Relie une stratégie de détection à une analyse qu'elle utilise, comme une analyse ATT&CK."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Also used in vocab/attack-detection between reference strategies and analytics."@en ;
@@ -581,9 +581,9 @@ crgo:CRGO_0001242 a owl:ObjectProperty ;
 # --- analytic uses data component
 crgo:CRGO_0001243 a owl:ObjectProperty ;
     rdfs:label "analytic uses data component"@en,
-        "l'analytique utilise la composante de données"@fr ;
+        "l'analyse utilise la composante de données"@fr ;
     skos:definition "Relates an analytic to a kind of data it reads, such as an ATT&CK data component."@en,
-        "Relie un analytique à un type de données qu'il lit, comme une composante de données ATT&CK."@fr ;
+        "Relie une analyse à un type de données qu'elle lit, comme une composante de données ATT&CK."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "MITRE ATT&CK Enterprise 19.2: detection strategies, analytics and data components (STIX bundle enterprise-attack.json)"@en ;
@@ -866,7 +866,7 @@ crgo:CRGO_0001263 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001109 ;
     rdfs:range crgo:CRGO_0001150 ;
     skos:definition "Gives the state reported by a telemetry health observation."@en,
-        "Indique l'état indiqué par une observation de l'état de la télémétrie."@fr ;
+        "Indique l'état que rapporte une observation de l'état de la télémétrie."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -1016,16 +1016,19 @@ crgo:CRGO_0001311 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
-# --- baseline period
-crgo:CRGO_0001312 a owl:DatatypeProperty ;
-    rdfs:label "baseline period"@en,
-        "période de référence"@fr ;
-    rdfs:domain crgo:CRGO_0001111 ;
-    skos:definition "States the period of activity a behavioural baseline was built from."@en,
-        "Indique la période d'activité à partir de laquelle une référence comportementale a été établie."@fr ;
+# --- reference version
+crgo:CRGO_0001324 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "reference version"@en,
+        "version de référence"@fr ;
+    rdfs:range xsd:string ;
+    skos:definition "Gives the version of the reference vocabulary, such as ATT&CK, that a detection strategy or rule was mapped against, so that historical alerts can be read against it."@en,
+        "Indique la version du vocabulaire de référence, comme ATT&CK, selon laquelle une stratégie ou une règle de détection a été mise en correspondance, afin que les alertes passées puissent être lues en conséquence."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000285 "SIEM section 5 (temporal snapshots: historical queries reproduce the ATT&CK version)."@en ;
+    crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
+        "MITRE ATT&CK Enterprise 19.2: detection strategies, analytics and data components (STIX bundle enterprise-attack.json)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
@@ -1038,9 +1041,9 @@ crgo:crgo-siem a owl:Ontology ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-10-10"^^xsd:date ;
+    dcterms:issued "2026-10-12"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-10"^^xsd:date ;
+    dcterms:modified "2026-10-12"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - security monitoring and detection (SIEM) module"@en,
@@ -1104,6 +1107,21 @@ crgo:CRGO_0001105 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
 
+# --- behavioural baseline
+crgo:CRGO_0001111 a owl:Class ;
+    rdfs:label "behavioural baseline"@en,
+        "référence comportementale"@fr ;
+    rdfs:subClassOf cco:ont00000853 ;
+    skos:altLabel "behavioral baseline"@en ;
+    skos:definition "A description of the usual behaviour of a user, account, host or service over a stated period, against which deviations are measured. CRGO holds its metadata, not the profile data."@en,
+        "Description du comportement habituel d'un utilisateur, d'un compte, d'un hôte ou d'un service pendant une période donnée, à partir de laquelle les écarts sont mesurés. CRGO en conserve les métadonnées, et non les données du profil."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "SIEM section 2 (BehavioralBaseline)."@en ;
+    crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
 # --- detection gap
 crgo:CRGO_0001107 a owl:Class ;
     rdfs:label "detection gap"@en,
@@ -1127,7 +1145,7 @@ crgo:CRGO_0001108 a owl:Class ;
         "Évaluation de mesure dans laquelle une règle ou une stratégie de détection est mise à l'épreuve dans des conditions contrôlées, par exemple en rejouant ou en simulant la technique, pour vérifier qu'elle déclenche l'alerte attendue."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "SIEM section 2 (DetectionTest). Reuses control assessment: test result, assessor, date and evidence (decision S3)."@en ;
+    crgo:CRGO_0000285 "SIEM section 2 (DetectionTest). Reuses control assessment: test result, assessor, date and evidence (decision S3). It tests one rule or strategy, not the whole control measure: consumers that report a measure's effectiveness leave detection tests out."@en ;
     crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
@@ -1142,21 +1160,6 @@ crgo:CRGO_0001109 a owl:Class ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SIEM section 2 (TelemetryHealthObservation)."@en ;
-    crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
-
-# --- behavioural baseline
-crgo:CRGO_0001111 a owl:Class ;
-    rdfs:label "behavioural baseline"@en,
-        "référence comportementale"@fr ;
-    rdfs:subClassOf cco:ont00000853 ;
-    skos:altLabel "behavioral baseline"@en ;
-    skos:definition "A description of the usual behaviour of a user, account, host or service over a stated period, against which deviations are measured. CRGO holds its metadata, not the profile data."@en,
-        "Description du comportement habituel d'un utilisateur, d'un compte, d'un hôte ou d'un service pendant une période donnée, à partir de laquelle les écarts sont mesurés. CRGO en conserve les métadonnées, et non les données du profil."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "SIEM section 2 (BehavioralBaseline)."@en ;
     crgo:CRGO_0000286 "CRGO SIEM Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.10.0" .
@@ -1182,7 +1185,7 @@ crgo:CRGO_0001101 a owl:Class ;
         "stratégie de détection"@fr ;
     rdfs:subClassOf cco:ont00000974 ;
     skos:definition "An organisation's documented approach to detecting a technique or behaviour, stating what to look for, in which data, and which analytics and rules carry it out; it may adapt a reference strategy such as an ATT&CK detection strategy."@en,
-        "Approche documentée d'une organisation pour détecter une technique ou un comportement, qui précise ce qu'il faut rechercher, dans quelles données, et quels analytiques et règles la mettent en œuvre; elle peut adapter une stratégie de référence comme une stratégie de détection ATT&CK."@fr ;
+        "Approche documentée d'une organisation pour détecter une technique ou un comportement, qui précise ce qu'il faut rechercher, dans quelles données, et quelles analyses et règles la mettent en œuvre; elle peut adapter une stratégie de référence comme une stratégie de détection ATT&CK."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SIEM section 2. ATT&CK detection strategies and analytics are reference concepts in vocab/attack-detection; this class is the organisation's own (decision S4)."@en ;

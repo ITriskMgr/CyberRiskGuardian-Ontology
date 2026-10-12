@@ -121,7 +121,7 @@ ps_edr = ind("policy/infosec/edr", "PolicyStatement", "Endpoint detection and re
 # 0.10.0: the policy document has versions; statements belong to an exact version and state their modality (POL section 8)
 pv3 = ind("policy-version/infosec-3", "PolicyVersion", "Nordelle information security policy, version 3", versionOfDirective=pol, versionLabel=Literal("3"),
           hasLifecycleState=T("LifePublished"), effectiveOn=dt("2026-02-01"), reviewDueOn=dt("2027-02-01"), reviewIntervalMonths=nni(12))
-pv2 = ind("policy-version/infosec-2", "PolicyVersion", "Nordelle information security policy, version 2", versionOfDirective=pol2, versionLabel=Literal("2"),
+pv2 = ind("policy-version/infosec-2", "PolicyVersion", "Nordelle information security policy, version 2", versionOfDirective=pol, versionLabel=Literal("2"),
           hasLifecycleState=T("LifeSuperseded"), effectiveOn=dt("2024-02-01"), retiredOn=dt("2026-01-31"))
 add(pv3, "supersedes", pv2)
 ind("decision/approve-infosec-3", "DecisionRecord", "Board approves version 3 of the information security policy", decisionOn=pv3, decisionMadeBy=board,

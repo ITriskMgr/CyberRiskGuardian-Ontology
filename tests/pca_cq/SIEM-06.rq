@@ -1,6 +1,7 @@
 # CQ-SIEM-06 Which parser, rule and ATT&CK versions were in effect for historical alert ?alert?
+# The ATT&CK version is the one the rule was mapped against (reference version), not the vocabulary currently loaded.
 SELECT ?rule ?ruleVersion ?parser ?parserVersion ?attackVersion WHERE {
   ?alert {{generatedByRule}} ?rule . ?rule {{versionLabel}} ?ruleVersion .
+  OPTIONAL { ?rule {{referenceVersion}} ?attackVersion }
   OPTIONAL { ?alert {{alertAbout}} ?event . ?rec {{observationOf}} ?event ; {{parsedBy}} ?parser . ?parser {{versionLabel}} ?parserVersion }
-  OPTIONAL { <https://w3id.org/crgo/vocab/attack-detection> owl:versionInfo ?attackVersion }
 }

@@ -1,6 +1,8 @@
-# CQ-SIEM-05 Which current policy statements or obligations require logging or monitoring, read through their mappings to SP 800-53 AU and SI-4 controls?
+# CQ-SIEM-05 Which current policy statements require logging or monitoring, read through their links to SP 800-53 AU-family and SI-4 controls?
+# Current = in a published directive version. Links: derived from, an approved mapping, or an implementing measure.
 SELECT DISTINCT ?requirement ?control WHERE {
-  { ?requirement {{derivedFromRequirement}} ?control } UNION { ?m {{mappingSource}} ?requirement ; {{mappingTarget}} ?control }
-  UNION { ?mx {{implementsControl}} ?control . ?requirement {{statementImplementedBy}} ?mx }
+  ?requirement a {{PolicyStatement}} ; {{statementInVersion}} ?v . ?v {{hasLifecycleState}} {{LifePublished}} .
+  { ?requirement {{derivedFromRequirement}} ?control } UNION { ?m {{mappingSource}} ?requirement ; {{mappingTarget}} ?control ; {{hasReviewState}} {{RevApproved}} }
+  UNION { ?requirement {{statementImplementedBy}} ?mx . ?mx {{implementsControl}} ?control }
   FILTER(STRSTARTS(STR(?control), "https://w3id.org/crgo/vocab/sp800-53r5/AU-") || STR(?control) = "https://w3id.org/crgo/vocab/sp800-53r5/SI-4")
 }

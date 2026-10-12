@@ -173,6 +173,7 @@
  "caveats": [
   "Coverage is a claim to be tested; only coverage supported by a detection test found effective is reported as validated.",
   "An indicator match or an alert never implies an incident or an attribution; incidents are confirmed by incident confirmations.",
-  "No inference made in CRGO authorises a response action; approval checks are audit signals (ADR-011)."
+  "No inference made in CRGO authorises a response action; approval checks are audit signals (ADR-011).",
+  "Rule, alert, case and approval statuses are as last recorded; dated records (coverage, tests, versions, health, executions, assessments) are taken on or before the date asked, and undated ones are left out."
  ]
 }

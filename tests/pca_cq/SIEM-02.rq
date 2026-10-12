@@ -1,6 +1,6 @@
-# CQ-SIEM-02 Which enabled rules require a telemetry source that is missing or whose latest health observation is not healthy?
+# CQ-SIEM-02 Which deployed rules (enabled, or deployed for testing) require a telemetry source that is missing or whose latest health observation is not healthy?
 SELECT DISTINCT ?rule ?source ?state WHERE {
-  ?rule {{hasDetectionStatus}} {{DetEnabled}} ; {{requiresSource}} ?source . ?source a {{TelemetrySource}} .
+  ?rule {{hasDetectionStatus}} ?ds ; {{requiresSource}} ?source . FILTER(?ds IN ({{DetEnabled}}, {{DetTesting}})) ?source a {{TelemetrySource}} .
   OPTIONAL { ?h {{observationOf}} ?source ; {{observedOn}} ?d ; {{hasTelemetryHealthState}} ?state .
              FILTER NOT EXISTS { ?h2 {{observationOf}} ?source ; {{observedOn}} ?d2 ; {{hasTelemetryHealthState}} ?s2 . FILTER(?d2 > ?d) } }
   FILTER(!BOUND(?state) || ?state != {{HealthHealthy}})

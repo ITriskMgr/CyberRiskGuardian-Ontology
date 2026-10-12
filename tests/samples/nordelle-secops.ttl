@@ -16,20 +16,6 @@
         <https://w3id.org/crgo/vocab/d3fend>,
         <https://w3id.org/crgo/vocab/ocsf> .
 
-<https://example.org/crgo-sample/nordelle/action-execution/2026-08-03-disable> a owl:NamedIndividual,
-        crgo:CRGO_0001121 ;
-    rdfs:label "Disable account adm-07"@en ;
-    dcterms:type "synthetic test data" ;
-    crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
-    crgo:CRGO_0001287 crgo:CRGO_0001177 ;
-    crgo:CRGO_0001288 <https://example.org/crgo-sample/nordelle/execution/2026-08-03-run> ;
-    crgo:CRGO_0001289 <https://example.org/crgo-sample/nordelle/response-action/disable-account> ;
-    crgo:CRGO_0001290 <https://example.org/crgo-sample/nordelle/account/adm-07> ;
-    crgo:CRGO_0001291 <https://example.org/crgo-sample/nordelle/approval/2026-08-03-disable-adm> ;
-    crgo:CRGO_0001292 <https://example.org/crgo-sample/nordelle/evidence/disable-log> ;
-    crgo:CRGO_0001314 "2026-08-03T09:35:00"^^xsd:dateTime ;
-    crgo:CRGO_0001316 "run-5521-2" .
-
 <https://example.org/crgo-sample/nordelle/action-execution/2026-10-10-collect> a owl:NamedIndividual,
         crgo:CRGO_0001121 ;
     rdfs:label "Collect kiosk logs"@en ;
@@ -61,7 +47,8 @@
     dcterms:type "synthetic test data" ;
     crgo:CRGO_0001246 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v2> ;
     crgo:CRGO_0001247 crgo:CRGO_0001141 ;
-    crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/payment-service> .
+    crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/payment-service> ;
+    crgo:CRGO_0001305 "2026-10-09T07:30:00"^^xsd:dateTime .
 
 <https://example.org/crgo-sample/nordelle/alert/2026-10-11-payment-admin> a owl:NamedIndividual,
         crgo:CRGO_0000551 ;
@@ -77,8 +64,9 @@
         crgo:CRGO_0001111 ;
     rdfs:label "Sign-in baseline of administrator accounts"@en ;
     dcterms:type "synthetic test data" ;
-    crgo:CRGO_0001264 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
-    crgo:CRGO_0001312 "2026-01-01 to 2026-06-30"@en .
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001264 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
 
 <https://example.org/crgo-sample/nordelle/communication/2026-08-board> a owl:NamedIndividual,
         crgo:CRGO_0001125 ;
@@ -239,9 +227,9 @@
     dcterms:type "synthetic test data" ;
     crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/disable-log> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-08-05T00:00:00"^^xsd:dateTime ;
     crgo:CRGO_0001299 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
-    crgo:CRGO_0001300 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> ;
-    crgo:CRGO_0001321 "2026-08-05T00:00:00"^^xsd:dateTime .
+    crgo:CRGO_0001300 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing> .
 
 <https://example.org/crgo-sample/nordelle/simulation/compromised-account-2> a owl:NamedIndividual,
         crgo:CRGO_0001128 ;
@@ -287,6 +275,20 @@
     rdfs:label "Administrator account adm-07 (fictional)"@en ;
     dcterms:type "synthetic test data" .
 
+<https://example.org/crgo-sample/nordelle/action-execution/2026-08-03-disable> a owl:NamedIndividual,
+        crgo:CRGO_0001121 ;
+    rdfs:label "Disable account adm-07"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
+    crgo:CRGO_0001287 crgo:CRGO_0001177 ;
+    crgo:CRGO_0001288 <https://example.org/crgo-sample/nordelle/execution/2026-08-03-run> ;
+    crgo:CRGO_0001289 <https://example.org/crgo-sample/nordelle/response-action/disable-account> ;
+    crgo:CRGO_0001290 <https://example.org/crgo-sample/nordelle/account/adm-07> ;
+    crgo:CRGO_0001291 <https://example.org/crgo-sample/nordelle/approval/2026-08-03-disable-adm> ;
+    crgo:CRGO_0001292 <https://example.org/crgo-sample/nordelle/evidence/disable-log> ;
+    crgo:CRGO_0001314 "2026-08-03T09:35:00"^^xsd:dateTime ;
+    crgo:CRGO_0001316 "run-5521-2" .
+
 <https://example.org/crgo-sample/nordelle/action/CA-IR-2026-08> a owl:NamedIndividual,
         crgo:CRGO_0000546 ;
     rdfs:label "Deploy phishing-resistant MFA for administrators"@en ;
@@ -300,7 +302,7 @@
         crgo:CRGO_0001119 ;
     rdfs:label "SOC lead approves disabling the compromised account"@en ;
     dcterms:type "synthetic test data" ;
-    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/response-action/disable-account> ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/action-execution/2026-08-03-disable> ;
     crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/soc-lead> ;
     crgo:CRGO_0000732 crgo:CRGO_0000588 ;
     crgo:CRGO_0000837 "2026-08-03T09:30:00"^^xsd:dateTime ;
@@ -487,16 +489,18 @@
 <https://example.org/crgo-sample/nordelle/alert/2026-08-03-impossible-travel> crgo:CRGO_0001246 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v1> ;
     crgo:CRGO_0001247 crgo:CRGO_0001140 ;
     crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
-    crgo:CRGO_0001265 <https://example.org/crgo-sample/nordelle/investigation/2026-08-phishing> .
+    crgo:CRGO_0001265 <https://example.org/crgo-sample/nordelle/investigation/2026-08-phishing> ;
+    crgo:CRGO_0001305 "2026-08-03T09:13:00"^^xsd:dateTime .
 
 <https://example.org/crgo-sample/nordelle/alert/2026-10-10-kiosk> a owl:NamedIndividual,
         crgo:CRGO_0000551 ;
-    rdfs:label "Malware beacon from an in-store kiosk (unreviewed)"@en ;
+    rdfs:label "Malware beacon from an in-store kiosk, raised by the kiosk antivirus (unreviewed)"@en ;
     dcterms:type "synthetic test data" ;
-    crgo:CRGO_0001246 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v2> ;
     crgo:CRGO_0001247 crgo:CRGO_0001139 ;
     crgo:CRGO_0001249 <https://example.org/crgo-sample/nordelle/asset/kiosk> ;
-    crgo:CRGO_0001265 <https://example.org/crgo-sample/nordelle/investigation/2026-10-kiosk> .
+    crgo:CRGO_0001265 <https://example.org/crgo-sample/nordelle/investigation/2026-10-kiosk> ;
+    crgo:CRGO_0001304 "kiosk antivirus (fictional)" ;
+    crgo:CRGO_0001305 "2026-10-10T13:45:00"^^xsd:dateTime .
 
 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v1> a owl:NamedIndividual,
         crgo:CRGO_0001102 ;
@@ -506,7 +510,8 @@
     crgo:CRGO_0001238 <https://example.org/crgo-sample/nordelle/detection-strategy/valid-account-abuse> ;
     crgo:CRGO_0001244 <https://example.org/crgo-sample/nordelle/control/siem-monitoring> ;
     crgo:CRGO_0001245 crgo:CRGO_0001136 ;
-    crgo:CRGO_0001306 "native" .
+    crgo:CRGO_0001306 "native" ;
+    crgo:CRGO_0001324 "17.1" .
 
 <https://example.org/crgo-sample/nordelle/detection-rule/rw-encryption> a owl:NamedIndividual,
         crgo:CRGO_0001102 ;
@@ -519,7 +524,8 @@
     crgo:CRGO_0001244 <https://example.org/crgo-sample/nordelle/control/siem-monitoring> ;
     crgo:CRGO_0001245 crgo:CRGO_0001134 ;
     crgo:CRGO_0001306 "Sigma" ;
-    crgo:CRGO_0001307 "nordelle-rw-0003" .
+    crgo:CRGO_0001307 "nordelle-rw-0003" ;
+    crgo:CRGO_0001324 "19.2" .
 
 <https://example.org/crgo-sample/nordelle/detection-strategy/ransomware-encryption> a owl:NamedIndividual,
         crgo:CRGO_0001101 ;
@@ -614,6 +620,21 @@
     dcterms:type "synthetic test data" ;
     crgo:CRGO_0001231 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> .
 
+<https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v2> a owl:NamedIndividual,
+        crgo:CRGO_0001102 ;
+    rdfs:label "Rule: impossible travel for administrators (v2)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000739 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v1> ;
+    crgo:CRGO_0000844 "2" ;
+    crgo:CRGO_0001238 <https://example.org/crgo-sample/nordelle/detection-strategy/valid-account-abuse> ;
+    crgo:CRGO_0001241 <https://w3id.org/crgo/vocab/attack/T1078> ;
+    crgo:CRGO_0001242 <https://example.org/crgo-sample/nordelle/telemetry/edr-servers>,
+        <https://example.org/crgo-sample/nordelle/telemetry/idp-signin> ;
+    crgo:CRGO_0001244 <https://example.org/crgo-sample/nordelle/control/siem-monitoring> ;
+    crgo:CRGO_0001245 crgo:CRGO_0001134 ;
+    crgo:CRGO_0001306 "native" ;
+    crgo:CRGO_0001324 "19.2" .
+
 <https://example.org/crgo-sample/nordelle/incident/2026-10-kiosk-malware> a owl:NamedIndividual,
         crgo:CRGO_0000015 ;
     rdfs:label "Malware on an in-store kiosk (October 2026)"@en ;
@@ -633,6 +654,14 @@
     crgo:CRGO_0001271 <https://example.org/crgo-sample/nordelle/playbook-step/v1-collect>,
         <https://example.org/crgo-sample/nordelle/playbook-step/v1-contain> ;
     crgo:CRGO_0001274 <https://example.org/crgo-sample/nordelle/trigger/admin-impossible-travel> .
+
+<https://example.org/crgo-sample/nordelle/response-action/disable-account> a owl:NamedIndividual,
+        crgo:CRGO_0001117 ;
+    rdfs:label "Disable a user account"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001277 crgo:CRGO_0001192 ;
+    crgo:CRGO_0001278 <https://w3id.org/crgo/vocab/d3fend/D3-AL> ;
+    crgo:CRGO_0001279 <https://example.org/crgo-sample/nordelle/approval-gate/containment> .
 
 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> crgo:CRGO_0000320 <https://example.org/crgo-sample/nordelle/detection-gap/edr-servers> .
 
@@ -657,20 +686,6 @@
     crgo:CRGO_0000210 crgo:CRGO_0000098 ;
     crgo:CRGO_0000211 crgo:CRGO_0000137 .
 
-<https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v2> a owl:NamedIndividual,
-        crgo:CRGO_0001102 ;
-    rdfs:label "Rule: impossible travel for administrators (v2)"@en ;
-    dcterms:type "synthetic test data" ;
-    crgo:CRGO_0000739 <https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v1> ;
-    crgo:CRGO_0000844 "2" ;
-    crgo:CRGO_0001238 <https://example.org/crgo-sample/nordelle/detection-strategy/valid-account-abuse> ;
-    crgo:CRGO_0001241 <https://w3id.org/crgo/vocab/attack/T1078> ;
-    crgo:CRGO_0001242 <https://example.org/crgo-sample/nordelle/telemetry/edr-servers>,
-        <https://example.org/crgo-sample/nordelle/telemetry/idp-signin> ;
-    crgo:CRGO_0001244 <https://example.org/crgo-sample/nordelle/control/siem-monitoring> ;
-    crgo:CRGO_0001245 crgo:CRGO_0001134 ;
-    crgo:CRGO_0001306 "native" .
-
 <https://example.org/crgo-sample/nordelle/detection-strategy/valid-account-abuse> a owl:NamedIndividual,
         crgo:CRGO_0001101 ;
     rdfs:label "Detect abuse of valid administrator accounts"@en ;
@@ -683,14 +698,6 @@
     rdfs:label "Collect sign-in logs"@en ;
     dcterms:type "synthetic test data" ;
     crgo:CRGO_0001277 crgo:CRGO_0001190 .
-
-<https://example.org/crgo-sample/nordelle/response-action/disable-account> a owl:NamedIndividual,
-        crgo:CRGO_0001117 ;
-    rdfs:label "Disable a user account"@en ;
-    dcterms:type "synthetic test data" ;
-    crgo:CRGO_0001277 crgo:CRGO_0001192 ;
-    crgo:CRGO_0001278 <https://w3id.org/crgo/vocab/d3fend/D3-AL> ;
-    crgo:CRGO_0001279 <https://example.org/crgo-sample/nordelle/approval-gate/containment> .
 
 <https://example.org/crgo-sample/nordelle/response-action/isolate-host> a owl:NamedIndividual,
         crgo:CRGO_0001117 ;

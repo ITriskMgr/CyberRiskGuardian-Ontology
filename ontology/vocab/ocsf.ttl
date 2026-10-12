@@ -1140,8 +1140,8 @@ ocsf:5 a skos:Concept ;
         skos:ConceptScheme ;
     dcterms:date "2026-10-08"^^xsd:date ;
     dcterms:license <https://www.apache.org/licenses/LICENSE-2.0> ;
-    dcterms:publisher "OCSF project" ;
-    dcterms:rights "OCSF schema (c) OCSF contributors, Apache License 2.0; captions and descriptions reproduced with attribution."@en ;
+    dcterms:publisher "OCSF a Series of LF Projects, LLC" ;
+    dcterms:rights "Open Cybersecurity Schema Framework. Copyright (c) OCSF a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see https://lfprojects.org. This project includes the ICD Schema developed by Symantec, a division of Broadcom. Licensed under the Apache 2 license (NOTICE of OCSF 1.9.0, reproduced). Captions and descriptions reproduced; light markup removed."@en ;
     dcterms:source "https://github.com/ocsf/ocsf-schema (git tag 1.9.0)" ;
     dcterms:title "Open Cybersecurity Schema Framework (OCSF) categories and event classes"@en,
         "Catégories et classes d'événements de l'Open Cybersecurity Schema Framework (OCSF)"@fr ;

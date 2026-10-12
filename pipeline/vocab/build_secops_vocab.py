@@ -83,7 +83,9 @@ ver = json.load(open(os.path.join(OC, "version.json")))["version"]
 s = BV.Scheme("ocsf", "Open Cybersecurity Schema Framework (OCSF) categories and event classes",
               "Catégories et classes d'événements de l'Open Cybersecurity Schema Framework (OCSF)", ver,
               "https://github.com/ocsf/ocsf-schema (git tag %s)" % ver, "https://www.apache.org/licenses/LICENSE-2.0",
-              "OCSF schema (c) OCSF contributors, Apache License 2.0; captions and descriptions reproduced with attribution.", "OCSF project",
+              "Open Cybersecurity Schema Framework. Copyright (c) OCSF a Series of LF Projects, LLC. For web site terms of use, trademark policy and other "
+              "project policies please see https://lfprojects.org. This project includes the ICD Schema developed by Symantec, a division of Broadcom. "
+              "Licensed under the Apache 2 license (NOTICE of OCSF 1.9.0, reproduced). Captions and descriptions reproduced; light markup removed.", "OCSF a Series of LF Projects, LLC",
               "Event categories and event classes of OCSF %s (no attributes or profiles). Notation: category uid, or class uid = category uid x 1000 "
               "+ class uid. Linking a normalisation profile or rule to a class states a correspondence, not an equivalence of taxonomies." % ver)
 cats = json.load(open(os.path.join(OC, "categories.json"), encoding="utf-8"))["attributes"]

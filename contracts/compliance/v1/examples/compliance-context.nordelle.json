@@ -60,16 +60,16 @@
      "latestAssessedOn": "2026-09-20"
     },
     {
-     "id": "https://example.org/crgo-sample/nordelle/control/edr",
-     "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/edr",
-     "latestResult": "not-tested",
-     "latestAssessedOn": "2026-09-30"
-    },
-    {
      "id": "https://example.org/crgo-sample/nordelle/control/backups",
      "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests",
      "latestResult": "partly-effective",
      "latestAssessedOn": "2026-09-20"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/control/edr",
+     "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/edr",
+     "latestResult": "not-tested",
+     "latestAssessedOn": "2026-09-30"
     },
     {
      "id": "https://example.org/crgo-sample/nordelle/control/mfa",
@@ -147,7 +147,7 @@
   },
   {
    "id": "https://example.org/crgo-sample/nordelle/policy-version/infosec-2",
-   "directive": "https://example.org/crgo-sample/nordelle/policy/infosec-v2",
+   "directive": "https://example.org/crgo-sample/nordelle/policy/infosec",
    "versionLabel": "2",
    "state": "superseded",
    "effectiveOn": "2024-02-01",

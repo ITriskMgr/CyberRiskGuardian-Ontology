@@ -20,7 +20,7 @@ Replace `main` with a release tag (for example `v0.6.0`) to pin a version.
 ```json
 "crgo-ontology": { "command": "/absolute/path/to/python3", "args": ["/absolute/path/to/CyberRiskGuardian-Ontology/pipeline/mcp/crgo_server.py"] }
 ```
-Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (targeted filters), `crgo_scenario` (full detail of one scenario, including CWE weaknesses, D3FEND countermeasures and KEV exploitation evidence), `crgo_controls_for_technique`, `crgo_scenarios_for_control`, `crgo_list_values` (allowed filter values); from 0.9.0, `crgo_risk_context` and `crgo_submit_assessment` implement the CyberRiskGuardian data contract `dss/v1` (`contracts/dss/v1/`): the second stores a DSS result only as a proposed risk estimate in the organisation's own graph.
+Tools: `crgo_sweep` (start here: profile-wide identification), `crgo_identify` (targeted filters), `crgo_scenario` (full detail of one scenario, including CWE weaknesses, D3FEND countermeasures and KEV exploitation evidence), `crgo_controls_for_technique`, `crgo_scenarios_for_control`, `crgo_list_values` (allowed filter values); from 0.9.0, `crgo_risk_context` and `crgo_submit_assessment` implement the CyberRiskGuardian data contract `dss/v1` (`contracts/dss/v1/`): the second stores a DSS result only as a proposed risk estimate in the organisation's own graph. From 0.10.0, `crgo_compliance_context` and `crgo_secops_context` return read-only views (`contracts/compliance/v1/`, `contracts/secops/v1/`) of one organisation's obligations, policies, exceptions, deadlines and findings, and of its detection coverage, alerts, approval gates and regulatory triage; neither is a compliance claim or an authorisation.
 
 ## Rules for using the results
 

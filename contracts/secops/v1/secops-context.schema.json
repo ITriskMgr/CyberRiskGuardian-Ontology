@@ -274,6 +274,10 @@
       "enum": [
        "absent",
        "expired",
+       "revoked",
+       "not-yet-valid",
+       "wrong-authority",
+       "not-corresponding",
        "not-granted"
       ]
      }
