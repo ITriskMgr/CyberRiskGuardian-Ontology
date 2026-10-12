@@ -325,7 +325,7 @@ req(s, "triggeredBy", "the cause", "A reassessment trigger", one=False); req(s, 
 
 # 8. 0.10.0: policy, compliance and audit management (decisions D1-D14) and SIEM/SOAR (decisions S1-S12)
 def one_of(s, key, allowed, msg):
-    sparql(s, msg, """SELECT $this WHERE { $this %s ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (%s)) } }""" % (P(key), ", ".join(P(a) for a in allowed)))
+    sparql(s, msg, """SELECT $this WHERE { $this %s ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (%s)) } }""" % (P(key), ", ".join(P(a) for a in allowed)))
 # One validity rule for an approval relied on by an action execution ($this, action ?act, start ?t), shared by SHACL,
 # the CQ-SOAR-02 query and the secops/v1 contract: outcome approved, decided and valid at the start, not denied or
 # revoked before it, corresponding to this execution, its action or its risk class, and made by a gate authority when the

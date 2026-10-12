@@ -415,3 +415,5 @@ The project owner supplied two further specifications, *CRGO SIEM Ontology Exten
 Consequences recorded here:
 - Design decisions for the SIEM and SOAR work, and the remaining 0.10.0 steps (P2–P5), are taken by Claude, following the reuse-first and evidence rules, and are recorded with their reasons in `docs/baseline/siem_soar_phase0.md` and in this file. They are listed again in the final review for the project owner to see before pushing.
 - Pushing, tagging and releasing still wait for the project owner's go-ahead, and terms added after CRGO_0001096 stay *proposed* until that go-ahead (the release gate CQ17 shows them).
+
+**SIEM/SOAR and completion of 0.10.0 (2026-10-12, under the delegation above).** Decisions S1–S12 are recorded in `docs/baseline/siem_soar_phase0.md` and ADR-011; ADR-010 records D1–D14. A second independent review (3 high, 6 medium, 6 low findings) led to the changes listed in `docs/baseline/siem_soar_phase0.md` §5 and `docs/review-0.10.0.md`. The project owner asked, at 19:46, to "carry on to the end", including the read contracts. Final review and the seven groups awaiting the go-ahead: `docs/review-0.10.0.md`. Nothing is pushed.

@@ -27,17 +27,9 @@ shape:ActionApproval a sh:NodeShape ;
 
 shape:ActionExecution a sh:NodeShape ;
     rdfs:comment "Action executions: action, target, status, start, attempt identifier; impactful actions need a valid approval (SOAR section 5)."@en ;
-    sh:property [ sh:maxCount 1 ;
-            sh:message "An action execution record needs exactly one value for the action."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001289 ],
-        [ sh:message "An action execution record needs at least one value for the target."@en ;
+    sh:property [ sh:message "An action execution record needs at least one value for the target."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001290 ],
-        [ sh:maxCount 1 ;
-            sh:message "An action execution record needs exactly one value for the execution status."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001287 ],
         [ sh:maxCount 1 ;
             sh:message "An action execution record needs exactly one value for the start time."@en ;
             sh:minCount 1 ;
@@ -45,7 +37,15 @@ shape:ActionExecution a sh:NodeShape ;
         [ sh:maxCount 1 ;
             sh:message "An action execution record needs exactly one value for the attempt identifier."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001316 ] ;
+            sh:path crgo:CRGO_0001316 ],
+        [ sh:maxCount 1 ;
+            sh:message "An action execution record needs exactly one value for the execution status."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001287 ],
+        [ sh:maxCount 1 ;
+            sh:message "An action execution record needs exactly one value for the action."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001289 ] ;
     sh:sparql [ sh:message "An execution ends after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001314> ?a ; <https://w3id.org/crgo/CRGO_0001315> ?b . FILTER(?b < ?a) }" ] ;
     sh:targetClass crgo:CRGO_0001121 .
@@ -53,65 +53,62 @@ shape:ActionExecution a sh:NodeShape ;
 shape:AnalyticalResult a sh:NodeShape ;
     rdfs:comment "Results computed by an external model are traceable and stay risk estimates (ADR-007)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "An analytical result needs exactly one governance status (proposed until a person approves it)."@en ;
+            sh:message "An analytical result needs exactly one value for the input document checksum."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000283 ],
-        [ sh:maxCount 1 ;
-            sh:message "An analytical result needs exactly one value for the model version."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000833 ],
+            sh:path crgo:CRGO_0000836 ],
         [ sh:message "An analytical result needs at least one value for what it is computed for."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000704 ],
         [ sh:maxCount 1 ;
-            sh:message "An analytical result needs exactly one value for the input document checksum."@en ;
+            sh:message "An analytical result needs exactly one value for the model name."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000836 ],
+            sh:path crgo:CRGO_0000832 ],
+        [ sh:maxCount 1 ;
+            sh:message "An analytical result needs exactly one value for the model version."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000833 ],
+        [ sh:maxCount 1 ;
+            sh:message "An analytical result needs exactly one governance status (proposed until a person approves it)."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000283 ],
         [ sh:maxCount 1 ;
             sh:message "An analytical result needs exactly one value for the computation time."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000834 ],
-        [ sh:maxCount 1 ;
-            sh:message "An analytical result needs exactly one value for the model name."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000832 ] ;
-    sh:sparql [ sh:message "An analytical result computed outside CRGO is a risk estimate, never a fact, conclusion or decision."@en ;
+            sh:path crgo:CRGO_0000834 ] ;
+    sh:sparql [ sh:message "An approved analytical result must name the person who approved it and when; a write-back alone never approves it."@en ;
             sh:select """SELECT $this WHERE {
-  $this <https://w3id.org/crgo/CRGO_0000698> ?k . FILTER(?k != <https://w3id.org/crgo/CRGO_0000561>) }""" ],
-        [ sh:message "An approved analytical result must name the person who approved it and when; a write-back alone never approves it."@en ;
+  $this <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> . FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000289> ?who ; <https://w3id.org/crgo/CRGO_0000290> ?d } }""" ],
+        [ sh:message "An analytical result computed outside CRGO is a risk estimate, never a fact, conclusion or decision."@en ;
             sh:select """SELECT $this WHERE {
-  $this <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> . FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000289> ?who ; <https://w3id.org/crgo/CRGO_0000290> ?d } }""" ] ;
+  $this <https://w3id.org/crgo/CRGO_0000698> ?k . FILTER(?k != <https://w3id.org/crgo/CRGO_0000561>) }""" ] ;
     sh:targetClass crgo:CRGO_0000477 .
 
 shape:ApplicabilityAssessment a sh:NodeShape ;
     rdfs:comment "Applicability assessments: what, for whom, when, by whom, with what result."@en ;
-    sh:property [ sh:message "An applicability assessment must name who made it."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "An applicability assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
-        [ sh:maxCount 1 ;
-            sh:message "An applicability assessment needs exactly one value for the state reached."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000428 ],
-        [ sh:maxCount 1 ;
-            sh:message "An applicability assessment needs exactly one value for the instrument or provision assessed."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000426 ],
+            sh:path crgo:CRGO_0000464 ],
         [ sh:maxCount 1 ;
             sh:message "An applicability assessment needs exactly one value for the organisation."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000427 ],
         [ sh:maxCount 1 ;
-            sh:message "An applicability assessment needs exactly one value for the date."@en ;
+            sh:message "An applicability assessment needs exactly one value for the instrument or provision assessed."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0000426 ],
+        [ sh:message "An applicability assessment must name who made it."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000435 ],
+        [ sh:maxCount 1 ;
+            sh:message "An applicability assessment needs exactly one value for the state reached."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000428 ] ;
     sh:targetClass crgo:CRGO_0000345 .
 
 shape:ApplicabilityCondition a sh:NodeShape ;
     rdfs:comment "Conditions belong to an instrument and have one test."@en ;
-    sh:property [ sh:message "A condition must say what it is a condition of."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000424 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A condition needs exactly one machine-readable test."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000469 ;
@@ -119,7 +116,10 @@ shape:ApplicabilityCondition a sh:NodeShape ;
         [ sh:maxCount 1 ;
             sh:message "A condition needs exactly one kind."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000425 ] ;
+            sh:path crgo:CRGO_0000425 ],
+        [ sh:message "A condition must say what it is a condition of."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000424 ] ;
     sh:targetClass crgo:CRGO_0000344 .
 
 shape:ApprovalDecision a sh:NodeShape ;
@@ -154,27 +154,27 @@ shape:AuditCharter a sh:NodeShape ;
 
 shape:AuditFinding a sh:NodeShape ;
     rdfs:comment "A finding needs criterion, condition and evidence, within an engagement (GRCA WP3)."@en ;
-    sh:property [ sh:message "An audit finding needs at least one value for the evidence relied on."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000213 ],
-        [ sh:maxCount 1 ;
-            sh:message "An audit finding needs exactly one value for the significance."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000793 ],
-        [ sh:maxCount 1 ;
-            sh:message "An audit finding needs exactly one value for the date raised."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000869 ],
-        [ sh:message "An audit finding needs at least one value for the criterion."@en ;
+    sh:property [ sh:message "An audit finding needs at least one value for the criterion."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000779 ],
         [ sh:maxCount 1 ;
             sh:message "An audit finding needs exactly one value for the engagement it was raised in."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000788 ],
+        [ sh:message "An audit finding needs at least one value for the evidence relied on."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000213 ],
+        [ sh:maxCount 1 ;
+            sh:message "An audit finding needs exactly one value for the date raised."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000869 ],
         [ sh:message "An audit finding needs at least one value for the condition found."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000870 ] ;
+            sh:path crgo:CRGO_0000870 ],
+        [ sh:maxCount 1 ;
+            sh:message "An audit finding needs exactly one value for the significance."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000793 ] ;
     sh:sparql [ sh:message "An audit finding cannot have the knowledge status of a reference fact or a verified outcome."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000698> ?k . FILTER(?k IN (<https://w3id.org/crgo/CRGO_0000558>, <https://w3id.org/crgo/CRGO_0000564>)) }""" ] ;
@@ -225,7 +225,10 @@ shape:AuditProgramme a sh:NodeShape ;
 
 shape:AuditQualityReview a sh:NodeShape ;
     rdfs:comment "Quality reviews: subject, kind, reviewer, date."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "An audit quality review needs at least one value for what is reviewed."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001058 ],
+        [ sh:maxCount 1 ;
             sh:message "An audit quality review needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000464 ],
@@ -235,24 +238,21 @@ shape:AuditQualityReview a sh:NodeShape ;
             sh:path crgo:CRGO_0001059 ],
         [ sh:message "An audit quality review needs at least one value for the reviewer."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
-        [ sh:message "An audit quality review needs at least one value for what is reviewed."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001058 ] ;
+            sh:path crgo:CRGO_0000435 ] ;
     sh:targetClass crgo:CRGO_0000911 .
 
 shape:AuditWorkpaper a sh:NodeShape ;
     rdfs:comment "Workpapers: what they document, preparer, date; no sole self-review (AUD section 9)."@en ;
-    sh:property [ sh:maxCount 1 ;
-            sh:message "An audit workpaper needs exactly one value for the preparation date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001090 ],
-        [ sh:message "An audit workpaper needs at least one value for what it documents."@en ;
+    sh:property [ sh:message "An audit workpaper needs at least one value for what it documents."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001055 ],
         [ sh:message "An audit workpaper needs at least one value for the preparer."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001056 ] ;
+            sh:path crgo:CRGO_0001056 ],
+        [ sh:maxCount 1 ;
+            sh:message "An audit workpaper needs exactly one value for the preparation date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001090 ] ;
     sh:sparql [ sh:message "Self-review: the only reviewer of a workpaper is its preparer."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0001065> ?r . FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001065> ?r2 . FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001056> ?r2 } } }""" ] ;
@@ -261,45 +261,45 @@ shape:AuditWorkpaper a sh:NodeShape ;
 shape:AutomationExecution a sh:NodeShape ;
     rdfs:comment "Executions cite the exact playbook version and an attempt identifier (SOAR section 5)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "An automation execution record needs exactly one value for the attempt identifier."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001316 ],
-        [ sh:maxCount 1 ;
-            sh:message "An automation execution record needs exactly one value for the playbook version."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001284 ],
-        [ sh:maxCount 1 ;
             sh:message "An automation execution record needs exactly one value for the execution status."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001287 ],
         [ sh:maxCount 1 ;
+            sh:message "An automation execution record needs exactly one value for the attempt identifier."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001316 ],
+        [ sh:maxCount 1 ;
             sh:message "An automation execution record needs exactly one value for the start time."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001314 ] ;
+            sh:path crgo:CRGO_0001314 ],
+        [ sh:maxCount 1 ;
+            sh:message "An automation execution record needs exactly one value for the playbook version."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001284 ] ;
     sh:sparql [ sh:message "An execution ends after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001314> ?a ; <https://w3id.org/crgo/CRGO_0001315> ?b . FILTER(?b < ?a) }" ] ;
     sh:targetClass crgo:CRGO_0001120 .
 
 shape:BreachReportability a sh:NodeShape ;
     rdfs:comment "Reportability assessments: incident, provision, state, date, assessor."@en ;
-    sh:property [ sh:message "A breach reportability assessment needs at least one value for the assessor."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A breach reportability assessment needs exactly one value for the incident."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000817 ],
         [ sh:maxCount 1 ;
-            sh:message "A breach reportability assessment needs exactly one value for the state."@en ;
+            sh:message "A breach reportability assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000819 ],
+            sh:path crgo:CRGO_0000464 ],
+        [ sh:message "A breach reportability assessment needs at least one value for the assessor."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000435 ],
         [ sh:message "A breach reportability assessment needs at least one value for the provision."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000818 ],
         [ sh:maxCount 1 ;
-            sh:message "A breach reportability assessment needs exactly one value for the date."@en ;
+            sh:message "A breach reportability assessment needs exactly one value for the state."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0000819 ] ;
     sh:targetClass crgo:CRGO_0000553 .
 
 shape:CalculationActivity a sh:NodeShape ;
@@ -315,16 +315,16 @@ shape:ComplianceAttestation a sh:NodeShape ;
     sh:property [ sh:message "A compliance attestation needs at least one value for what is attested."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001022 ],
-        [ sh:message "A compliance attestation needs at least one value for the signatory."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001021 ],
         [ sh:maxCount 1 ;
             sh:message "A compliance attestation needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001070 ],
         [ sh:message "A compliance attestation needs at least one value for the scope and basis."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001071 ] ;
+            sh:path crgo:CRGO_0001071 ],
+        [ sh:message "A compliance attestation needs at least one value for the signatory."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001021 ] ;
     sh:targetClass crgo:CRGO_0000904 .
 
 shape:ComplianceDeadline a sh:NodeShape ;
@@ -348,13 +348,13 @@ shape:ComplianceDetermination a sh:NodeShape ;
                         sh:path crgo:CRGO_0000213 ] ] [ sh:property [ sh:minCount 1 ;
                         sh:path crgo:CRGO_0000470 ] ] ) ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A compliance determination needs exactly one value for the provision."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000432 ],
-        [ sh:maxCount 1 ;
             sh:message "A compliance determination needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000464 ],
+        [ sh:maxCount 1 ;
+            sh:message "A compliance determination needs exactly one value for the provision."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000432 ],
         [ sh:message "A compliance determination must name its assessor."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000435 ],
@@ -386,9 +386,9 @@ shape:ConcludedIncidentConfirmed a sh:NodeShape ;
 shape:ControlAssessment a sh:NodeShape ;
     rdfs:comment "Control assessments: measure, date, result, assessor; evidence unless not tested."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A control assessment needs exactly one value for the control measure."@en ;
+            sh:message "A control assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000436 ],
+            sh:path crgo:CRGO_0000464 ],
         [ sh:message "A control assessment must name its assessor."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000435 ],
@@ -397,9 +397,9 @@ shape:ControlAssessment a sh:NodeShape ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000437 ],
         [ sh:maxCount 1 ;
-            sh:message "A control assessment needs exactly one value for the date."@en ;
+            sh:message "A control assessment needs exactly one value for the control measure."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0000436 ] ;
     sh:sparql [ sh:message "A tested control assessment must link the evidence gathered."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000437> ?r . FILTER(?r != <https://w3id.org/crgo/CRGO_0000406>) FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000213> ?e }
@@ -408,11 +408,7 @@ shape:ControlAssessment a sh:NodeShape ;
 
 shape:ControlDeficiency a sh:NodeShape ;
     rdfs:comment "Deficiencies: control measure, assessment, aspect, severity."@en ;
-    sh:property [ sh:maxCount 1 ;
-            sh:message "A control deficiency needs exactly one value for the control measure."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000760 ],
-        [ sh:message "A control deficiency needs at least one value for the assessment that found it."@en ;
+    sh:property [ sh:message "A control deficiency needs at least one value for the assessment that found it."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000761 ],
         [ sh:maxCount 1 ;
@@ -422,7 +418,11 @@ shape:ControlDeficiency a sh:NodeShape ;
         [ sh:maxCount 1 ;
             sh:message "A control deficiency needs exactly one value for the severity."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000763 ] ;
+            sh:path crgo:CRGO_0000763 ],
+        [ sh:maxCount 1 ;
+            sh:message "A control deficiency needs exactly one value for the control measure."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000760 ] ;
     sh:targetClass crgo:CRGO_0000527 .
 
 shape:ControlMeasureNotControl a sh:NodeShape ;
@@ -436,13 +436,13 @@ shape:ControlMeasureNotControl a sh:NodeShape ;
 
 shape:CorrectiveAction a sh:NodeShape ;
     rdfs:comment "Corrective actions have an owner, a due date and what they correct."@en ;
-    sh:property [ sh:message "A corrective action needs at least one value for what it corrects."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000807 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A corrective action needs exactly one value for the due date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000868 ],
+        [ sh:message "A corrective action needs at least one value for what it corrects."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000807 ],
         [ sh:message "A corrective action needs at least one value for its owner."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000185 ] ;
@@ -451,16 +451,16 @@ shape:CorrectiveAction a sh:NodeShape ;
 shape:DecisionRecord a sh:NodeShape ;
     rdfs:comment "Decision records: subject, decision maker, outcome, date; reasons when rejected or deferred (GAPS D07)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A decision record needs exactly one value for the date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000840 ],
-        [ sh:maxCount 1 ;
             sh:message "A decision record needs exactly one value for the outcome."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000732 ],
         [ sh:message "A decision record needs at least one value for the subject."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000730 ],
+        [ sh:maxCount 1 ;
+            sh:message "A decision record needs exactly one value for the date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000840 ],
         [ sh:message "A decision record needs at least one value for the decision maker."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000731 ] ;
@@ -478,24 +478,24 @@ shape:DetectionCoverage a sh:NodeShape ;
         [ sh:message "A detection coverage statement needs at least one value for the strategy or rule."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001254 ] ;
-    sh:sparql [ sh:message "A detection coverage statement must say what it covers: a risk scenario, a technique or an asset."@en ;
+    sh:sparql [ sh:message "Validated coverage needs a supporting detection test, found effective, of a strategy or rule that provides the coverage."@en ;
             sh:select """SELECT $this WHERE {
-  FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001255> ?x } FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001256> ?y } FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001257> ?z } }""" ],
-        [ sh:message "Validated coverage needs a supporting detection test, found effective, of a strategy or rule that provides the coverage."@en ;
+  $this <https://w3id.org/crgo/CRGO_0001258> <https://w3id.org/crgo/CRGO_0001147> FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001259> ?t ; <https://w3id.org/crgo/CRGO_0001254> ?r . ?t <https://w3id.org/crgo/CRGO_0000437> <https://w3id.org/crgo/CRGO_0000403> ; <https://w3id.org/crgo/CRGO_0001260> ?r } }""" ],
+        [ sh:message "A detection coverage statement must say what it covers: a risk scenario, a technique or an asset."@en ;
             sh:select """SELECT $this WHERE {
-  $this <https://w3id.org/crgo/CRGO_0001258> <https://w3id.org/crgo/CRGO_0001147> FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001259> ?t ; <https://w3id.org/crgo/CRGO_0001254> ?r . ?t <https://w3id.org/crgo/CRGO_0000437> <https://w3id.org/crgo/CRGO_0000403> ; <https://w3id.org/crgo/CRGO_0001260> ?r } }""" ] ;
+  FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001255> ?x } FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001256> ?y } FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001257> ?z } }""" ] ;
     sh:targetClass crgo:CRGO_0001106 .
 
 shape:DetectionRule a sh:NodeShape ;
     rdfs:comment "Detection rules: status and version; enabled rules declare their telemetry (SIEM section 5)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A detection rule needs exactly one value for the detection status."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001245 ],
-        [ sh:maxCount 1 ;
             sh:message "A detection rule needs exactly one value for the version."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000844 ] ;
+            sh:path crgo:CRGO_0000844 ],
+        [ sh:maxCount 1 ;
+            sh:message "A detection rule needs exactly one value for the detection status."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001245 ] ;
     sh:sparql [ sh:message "An enabled detection rule must declare the telemetry sources or data components it needs."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0001245> <https://w3id.org/crgo/CRGO_0001134> FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001242> ?src } }""" ] ;
@@ -510,16 +510,16 @@ shape:DetectionTest a sh:NodeShape ;
 
 shape:DirectiveReview a sh:NodeShape ;
     rdfs:comment "Directive reviews: what, why and when."@en ;
-    sh:property [ sh:message "A directive review needs at least one value for the trigger."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "A directive review needs exactly one value for the review date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000464 ],
+        [ sh:message "A directive review needs at least one value for the trigger."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001019 ],
         [ sh:message "A directive review needs at least one value for what is reviewed."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001018 ],
-        [ sh:maxCount 1 ;
-            sh:message "A directive review needs exactly one value for the review date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0001018 ] ;
     sh:targetClass crgo:CRGO_0000890 .
 
 shape:DirectiveVersion a sh:NodeShape ;
@@ -554,17 +554,17 @@ shape:EPSSObservation a sh:NodeShape ;
             sh:minCount 1 ;
             sh:minInclusive 0.0 ;
             sh:path crgo:CRGO_0000247 ],
+        [ sh:class skos:Concept ;
+            sh:message "An EPSS observation is about a vulnerability concept."@en ;
+            sh:path crgo:CRGO_0000408 ],
+        [ sh:maxCount 1 ;
+            sh:message "An EPSS observation has at most one model version."@en ;
+            sh:path crgo:CRGO_0000460 ],
         [ sh:maxCount 1 ;
             sh:maxInclusive 1.0 ;
             sh:message "An EPSS percentile is between 0 and 1."@en ;
             sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000461 ],
-        [ sh:maxCount 1 ;
-            sh:message "An EPSS observation has at most one model version."@en ;
-            sh:path crgo:CRGO_0000460 ],
-        [ sh:class skos:Concept ;
-            sh:message "An EPSS observation is about a vulnerability concept."@en ;
-            sh:path crgo:CRGO_0000408 ] ;
+            sh:path crgo:CRGO_0000461 ] ;
     sh:sparql [ sh:message "Contradictory EPSS observations: two different scores for the same vulnerability on the same date."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000408> ?v ; <https://w3id.org/crgo/CRGO_0000458> ?d ; <https://w3id.org/crgo/CRGO_0000247> ?x .
@@ -606,33 +606,33 @@ shape:EvidenceSufficiency a sh:NodeShape ;
             sh:message "An evidence sufficiency assessment needs exactly one value for the conclusion."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000766 ],
-        [ sh:message "An evidence sufficiency assessment needs at least one value for the assessor."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
-        [ sh:message "An evidence sufficiency assessment needs at least one value for the evidence judged."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000764 ],
-        [ sh:message "An evidence sufficiency assessment needs at least one value for the objective."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000765 ],
         [ sh:maxCount 1 ;
             sh:message "An evidence sufficiency assessment needs exactly one value for the date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000464 ] ;
+            sh:path crgo:CRGO_0000464 ],
+        [ sh:message "An evidence sufficiency assessment needs at least one value for the assessor."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000435 ],
+        [ sh:message "An evidence sufficiency assessment needs at least one value for the objective."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000765 ],
+        [ sh:message "An evidence sufficiency assessment needs at least one value for the evidence judged."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000764 ] ;
     sh:targetClass crgo:CRGO_0000525 .
 
 shape:ExternalAssuranceReport a sh:NodeShape ;
     rdfs:comment "External assurance reports: type, assurer, service, and a period for type 2 reports."@en ;
-    sh:property [ sh:message "An external assurance report needs at least one value for the assurer."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000770 ],
-        [ sh:message "An external assurance report needs at least one value for the organisation covered."@en ;
+    sh:property [ sh:message "An external assurance report needs at least one value for the organisation covered."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000769 ],
         [ sh:maxCount 1 ;
             sh:message "An external assurance report needs exactly one value for the report type."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000767 ] ;
+            sh:path crgo:CRGO_0000767 ],
+        [ sh:message "An external assurance report needs at least one value for the assurer."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000770 ] ;
     sh:sparql [ sh:message "A type 2 report covers a period: it needs a period start and end."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000767> ?t . FILTER(?t IN (<https://w3id.org/crgo/CRGO_0000633>, <https://w3id.org/crgo/CRGO_0000635>)) FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0000849> ?a ; <https://w3id.org/crgo/CRGO_0000850> ?b } }""" ] ;
@@ -644,13 +644,13 @@ shape:FindingClosure a sh:NodeShape ;
             sh:message "A finding closure needs exactly one value for the finding closed."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000811 ],
-        [ sh:message "A finding closure needs at least one value for the verification or risk acceptance it relies on."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000812 ],
         [ sh:maxCount 1 ;
             sh:message "A finding closure needs exactly one value for the closure date."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000875 ] ;
+            sh:path crgo:CRGO_0000875 ],
+        [ sh:message "A finding closure needs at least one value for the verification or risk acceptance it relies on."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000812 ] ;
     sh:sparql [ sh:message "Closure needs an independent verification: the verifier must not own, be accountable for, or have committed to the corrective action, nor own the control the finding is about."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000812> ?v . ?v <https://w3id.org/crgo/CRGO_0000809> ?a ; <https://w3id.org/crgo/CRGO_0000435> ?who .
@@ -682,39 +682,39 @@ shape:FollowUpVerification a sh:NodeShape ;
             sh:message "A follow-up verification needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000464 ],
-        [ sh:message "A follow-up verification needs at least one value for the assessor."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000435 ],
         [ sh:maxCount 1 ;
             sh:message "A follow-up verification needs exactly one value for the result."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000810 ] ;
+            sh:path crgo:CRGO_0000810 ],
+        [ sh:message "A follow-up verification needs at least one value for the assessor."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000435 ] ;
     sh:targetClass crgo:CRGO_0000547 .
 
 shape:ForensicArtifact a sh:NodeShape ;
     rdfs:comment "Forensic artefacts: custodian, integrity hash, collection date."@en ;
-    sh:property [ sh:maxCount 1 ;
-            sh:message "A forensic artefact needs exactly one value for the collection date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000848 ],
-        [ sh:message "A forensic artefact needs at least one value for the custodian."@en ;
+    sh:property [ sh:message "A forensic artefact needs at least one value for the custodian."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000752 ],
         [ sh:maxCount 1 ;
             sh:message "A forensic artefact needs exactly one value for the integrity hash."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000852 ] ;
+            sh:path crgo:CRGO_0000852 ],
+        [ sh:maxCount 1 ;
+            sh:message "A forensic artefact needs exactly one value for the collection date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000848 ] ;
     sh:targetClass crgo:CRGO_0001123 .
 
 shape:FrameworkAdoption a sh:NodeShape ;
     rdfs:comment "Adoptions: what is adopted and by whom."@en ;
-    sh:property [ sh:message "A framework adoption needs at least one value for what is adopted."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001029 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A framework adoption needs exactly one value for the organisation."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000427 ] ;
+            sh:path crgo:CRGO_0000427 ],
+        [ sh:message "A framework adoption needs at least one value for what is adopted."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001029 ] ;
     sh:targetClass crgo:CRGO_0000898 .
 
 shape:Functional_allocatedTo a sh:NodeShape ;
@@ -1559,13 +1559,13 @@ shape:Guideline a sh:NodeShape ;
 
 shape:IncidentCommunication a sh:NodeShape ;
     rdfs:comment "Communications: incident, audience, date."@en ;
-    sh:property [ sh:message "An incident communication needs at least one value for the audience."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001296 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "An incident communication needs exactly one value for the incident."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001295 ],
+        [ sh:message "An incident communication needs at least one value for the audience."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001296 ],
         [ sh:maxCount 1 ;
             sh:message "An incident communication needs exactly one value for the time sent."@en ;
             sh:minCount 1 ;
@@ -1621,22 +1621,22 @@ shape:LegalInstrument a sh:NodeShape ;
             sh:message "A legal instrument needs exactly one kind."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000421 ],
-        [ sh:message "A legal instrument needs a jurisdiction."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000420 ],
         [ sh:message "A legal instrument must name its source record."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000407 ] ;
+            sh:path crgo:CRGO_0000407 ],
+        [ sh:message "A legal instrument needs a jurisdiction."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000420 ] ;
     sh:targetClass crgo:CRGO_0000343 .
 
 shape:LibraryFamily a sh:NodeShape ;
     rdfs:comment "Linked scenarios have a theme and a threat event."@en ;
-    sh:property [ sh:message "A linked library scenario needs a theme."@en ;
+    sh:property [ sh:message "A linked library scenario needs a threat event description."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000246 ],
-        [ sh:message "A linked library scenario needs a threat event description."@en ;
+            sh:path crgo:CRGO_0000196 ],
+        [ sh:message "A linked library scenario needs a theme."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000196 ] ;
+            sh:path crgo:CRGO_0000246 ] ;
     sh:targetSubjectsOf crgo:CRGO_0000335 .
 
 shape:LibraryScenario a sh:NodeShape ;
@@ -1649,17 +1649,17 @@ shape:LibraryScenario a sh:NodeShape ;
 
 shape:LinkAnnotation a sh:NodeShape ;
     rdfs:comment "Every annotated CRGO link records its confidence, status and proposer (axioms of imported W3C slices are not CRGO links)."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "A link must record who proposed it."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000288 ],
+        [ sh:maxCount 1 ;
             sh:message "A link needs exactly one governance status."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000283 ],
         [ sh:maxCount 1 ;
             sh:message "A link needs exactly one confidence level."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000284 ],
-        [ sh:message "A link must record who proposed it."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000288 ] ;
+            sh:path crgo:CRGO_0000284 ] ;
     sh:sparql [ sh:message "An approved link must record its approver and approval date."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0000283> <https://w3id.org/crgo/CRGO_0000069> .
@@ -1670,35 +1670,32 @@ shape:LinkAnnotation a sh:NodeShape ;
 
 shape:ManagementResponse a sh:NodeShape ;
     rdfs:comment "Management responses name the finding, the stance and who responded."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "A management response needs at least one value for who responded."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000805 ],
+        [ sh:maxCount 1 ;
             sh:message "A management response needs exactly one value for the stance."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000804 ],
         [ sh:message "A management response needs at least one value for the finding or recommendation answered."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000803 ],
-        [ sh:message "A management response needs at least one value for who responded."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000805 ] ;
+            sh:path crgo:CRGO_0000803 ] ;
     sh:targetClass crgo:CRGO_0000545 .
 
 shape:MappingAssertion a sh:NodeShape ;
     rdfs:comment "Mapping assertions: source, target, type, review state and rationale (POL section 8, CMP section 10)."@en ;
-    sh:property [ sh:message "A mapping assertion needs at least one value for the rationale."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "A mapping assertion needs exactly one value for the review state."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000249 ],
-        [ sh:maxCount 1 ;
-            sh:message "A mapping assertion needs exactly one value for the source."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001060 ],
+            sh:path crgo:CRGO_0001064 ],
         [ sh:maxCount 1 ;
             sh:message "A mapping assertion needs exactly one value for the mapping type."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001062 ],
         [ sh:maxCount 1 ;
-            sh:message "A mapping assertion needs exactly one value for the review state."@en ;
+            sh:message "A mapping assertion needs exactly one value for the source."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001064 ],
+            sh:path crgo:CRGO_0001060 ],
         [ sh:maxCount 1 ;
             sh:message "A mapping assertion needs exactly one value for the target."@en ;
             sh:minCount 1 ;
@@ -1707,7 +1704,10 @@ shape:MappingAssertion a sh:NodeShape ;
             sh:maxInclusive 1.0 ;
             sh:message "Mapping confidence is between 0 and 1."@en ;
             sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0001091 ] ;
+            sh:path crgo:CRGO_0001091 ],
+        [ sh:message "A mapping assertion needs at least one value for the rationale."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000249 ] ;
     sh:sparql [ sh:message "An exact or full-coverage mapping needs a reviewer, a review date, the editions mapped and an approved review state."@en ;
             sh:select """SELECT $this WHERE {
   $this <https://w3id.org/crgo/CRGO_0001062> ?t . FILTER(?t IN (<https://w3id.org/crgo/CRGO_0000987>, <https://w3id.org/crgo/CRGO_0000988>))
@@ -1717,16 +1717,16 @@ shape:MappingAssertion a sh:NodeShape ;
 shape:Nonconformity a sh:NodeShape ;
     rdfs:comment "Nonconformities: requirement, organisation, date."@en ;
     sh:property [ sh:maxCount 1 ;
+            sh:message "A nonconformity needs exactly one value for the date identified."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000846 ],
+        [ sh:maxCount 1 ;
             sh:message "A nonconformity needs exactly one value for the organisation."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000427 ],
         [ sh:message "A nonconformity needs at least one value for the requirement."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000747 ],
-        [ sh:maxCount 1 ;
-            sh:message "A nonconformity needs exactly one value for the date identified."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000846 ] ;
+            sh:path crgo:CRGO_0000747 ] ;
     sh:targetClass crgo:CRGO_0000511 .
 
 shape:NotApplicableNotAssessed a sh:NodeShape ;
@@ -1756,17 +1756,17 @@ shape:Observation a sh:NodeShape ;
 shape:OperatingEffectiveness a sh:NodeShape ;
     rdfs:comment "Operating effectiveness is tested over a period and a population or sample (GAPS D05)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "An operating effectiveness assessment needs exactly one value for the number of items tested."@en ;
+            sh:message "An operating effectiveness assessment needs exactly one value for the start of the period tested."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000861 ],
+            sh:path crgo:CRGO_0000849 ],
         [ sh:maxCount 1 ;
             sh:message "An operating effectiveness assessment needs exactly one value for the end of the period tested."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000850 ],
         [ sh:maxCount 1 ;
-            sh:message "An operating effectiveness assessment needs exactly one value for the start of the period tested."@en ;
+            sh:message "An operating effectiveness assessment needs exactly one value for the number of items tested."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000849 ] ;
+            sh:path crgo:CRGO_0000861 ] ;
     sh:sparql [ sh:message "Deviations found cannot exceed the items tested, and the period must end after it starts."@en ;
             sh:select """SELECT $this WHERE {
   { $this <https://w3id.org/crgo/CRGO_0000861> ?n ; <https://w3id.org/crgo/CRGO_0000862> ?d . FILTER(?d > ?n) } UNION { $this <https://w3id.org/crgo/CRGO_0000849> ?a ; <https://w3id.org/crgo/CRGO_0000850> ?b . FILTER(?b <= ?a) } }""" ] ;
@@ -1819,31 +1819,23 @@ shape:PlaybookVersion a sh:NodeShape ;
 
 shape:PolicyAcknowledgement a sh:NodeShape ;
     rdfs:comment "Acknowledgements name who, when and the exact policy version (POL section 4)."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "A policy acknowledgement needs at least one value for who made it."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001021 ],
+        [ sh:maxCount 1 ;
             sh:message "A policy acknowledgement needs exactly one value for the date."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001070 ],
         [ sh:message "A policy acknowledgement needs at least one value for the policy version acknowledged."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001022 ],
-        [ sh:message "A policy acknowledgement needs at least one value for who made it."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001021 ] ;
+            sh:path crgo:CRGO_0001022 ] ;
     sh:sparql [ sh:message "A policy acknowledgement must be about an exact directive version, not a policy in general."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001022> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000886>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001022> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000886>)) } }" ] ;
     sh:targetClass crgo:CRGO_0000892 .
 
 shape:PolicyException a sh:NodeShape ;
     rdfs:comment "Exceptions are scoped, justified, approved by an authority and expire (GAPS D01)."@en ;
-    sh:property [ sh:maxCount 1 ;
-            sh:message "A policy exception needs exactly one value for its expiry date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000838 ],
-        [ sh:maxCount 1 ;
-            sh:message "A policy exception needs exactly one value for its start date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000837 ],
-        [ sh:message "A policy exception needs at least one value for its approving authority."@en ;
+    sh:property [ sh:message "A policy exception needs at least one value for its approving authority."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000728 ],
         [ sh:message "A policy exception needs at least one value for its scope."@en ;
@@ -1852,9 +1844,17 @@ shape:PolicyException a sh:NodeShape ;
         [ sh:message "A policy exception needs at least one value for what it deviates from."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000726 ],
+        [ sh:maxCount 1 ;
+            sh:message "A policy exception needs exactly one value for its start date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000837 ],
         [ sh:message "A policy exception needs at least one value for its justification."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000842 ] ;
+            sh:path crgo:CRGO_0000842 ],
+        [ sh:maxCount 1 ;
+            sh:message "A policy exception needs exactly one value for its expiry date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000838 ] ;
     sh:sparql [ sh:message "A policy exception expires after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000837> ?a ; <https://w3id.org/crgo/CRGO_0000838> ?b . FILTER(?b <= ?a) }" ],
         [ sh:message "A policy exception cannot waive a legal provision; only internal rules and controls can be excepted."@en ;
@@ -1865,25 +1865,25 @@ shape:PolicyException a sh:NodeShape ;
 shape:PolicyStatementVersioned a sh:NodeShape ;
     rdfs:comment "Policy statements belong to an exact version and state how binding they are (POL section 8)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A policy statement needs exactly one value for the directive version it belongs to."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001007 ],
-        [ sh:maxCount 1 ;
             sh:message "A policy statement needs exactly one value for the normative modality."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001011 ] ;
+            sh:path crgo:CRGO_0001011 ],
+        [ sh:maxCount 1 ;
+            sh:message "A policy statement needs exactly one value for the directive version it belongs to."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001007 ] ;
     sh:targetClass crgo:CRGO_0000498 .
 
 shape:ProvisionVersion a sh:NodeShape ;
     rdfs:comment "Provision versions: the provision and the start of the wording."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A provision version needs exactly one value for the provision."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001031 ],
-        [ sh:maxCount 1 ;
             sh:message "A provision version needs exactly one value for when the wording took effect."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000837 ] ;
+            sh:path crgo:CRGO_0000837 ],
+        [ sh:maxCount 1 ;
+            sh:message "A provision version needs exactly one value for the provision."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001031 ] ;
     sh:sparql [ sh:message "A provision version ends after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000837> ?a ; <https://w3id.org/crgo/CRGO_0000838> ?b . FILTER(?b < ?a) }" ] ;
     sh:targetClass crgo:CRGO_0000900 .
@@ -1949,13 +1949,13 @@ shape:Range_MaximumDamage a sh:NodeShape ;
 
 shape:Range_MitigatedRisk a sh:NodeShape ;
     rdfs:comment "Computed risk quantities are non-negative and come from a calculation."@en ;
-    sh:property [ sh:message "Value must be non-negative."@en ;
-            sh:minInclusive 0.0 ;
-            sh:path crgo:CRGO_0000247 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A computed quantity must record the calculation that produced it."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000238 ] ;
+            sh:path crgo:CRGO_0000238 ],
+        [ sh:message "Value must be non-negative."@en ;
+            sh:minInclusive 0.0 ;
+            sh:path crgo:CRGO_0000247 ] ;
     sh:targetClass crgo:CRGO_0000053 .
 
 shape:Range_PreTreatmentRatio a sh:NodeShape ;
@@ -2038,13 +2038,13 @@ shape:ReassessmentTrigger a sh:NodeShape ;
 
 shape:RecoveryVerification a sh:NodeShape ;
     rdfs:comment "Recovery verifications: what, when, by whom, on what evidence."@en ;
-    sh:property [ sh:message "A recovery verification needs at least one value for the evidence."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000213 ],
-        [ sh:maxCount 1 ;
+    sh:property [ sh:maxCount 1 ;
             sh:message "A recovery verification needs exactly one value for the time."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000464 ],
+        [ sh:message "A recovery verification needs at least one value for the evidence."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000213 ],
         [ sh:message "A recovery verification needs at least one value for who verified."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000435 ],
@@ -2067,53 +2067,53 @@ shape:RegulatoryChange a sh:NodeShape ;
             sh:message "A regulatory change needs exactly one value for the change type."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000744 ],
+        [ sh:message "A regulatory change needs at least one value for what changed."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000743 ],
         [ sh:maxCount 1 ;
             sh:message "A regulatory change needs exactly one value for the date identified."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000846 ],
-        [ sh:message "A regulatory change needs at least one value for what changed."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000743 ] ;
+            sh:path crgo:CRGO_0000846 ] ;
     sh:targetClass crgo:CRGO_0000509 .
 
 shape:RegulatoryExemption a sh:NodeShape ;
     rdfs:comment "Exemptions come from an authority, on a legal basis, for an organisation and a period (CMP section 10)."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A regulatory exemption needs exactly one value for the start date."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000837 ],
-        [ sh:maxCount 1 ;
             sh:message "A regulatory exemption needs exactly one value for the granting authority."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001043 ],
+        [ sh:maxCount 1 ;
+            sh:message "A regulatory exemption needs exactly one value for the start date."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000837 ],
+        [ sh:message "A regulatory exemption needs at least one value for what it relieves from."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001042 ],
         [ sh:message "A regulatory exemption needs at least one value for the organisation."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000427 ],
         [ sh:message "A regulatory exemption needs at least one value for the legal basis."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001074 ],
-        [ sh:message "A regulatory exemption needs at least one value for what it relieves from."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001042 ] ;
+            sh:path crgo:CRGO_0001074 ] ;
     sh:sparql [ sh:message "A regulatory exemption ends after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000837> ?a ; <https://w3id.org/crgo/CRGO_0000838> ?b . FILTER(?b < ?a) }" ],
         [ sh:message "A regulatory exemption must be granted by a regulatory authority, not by an internal approver."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001043> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000897>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001043> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000897>)) } }" ] ;
     sh:targetClass crgo:CRGO_0000903 .
 
 shape:RegulatorySubmission a sh:NodeShape ;
     rdfs:comment "Submissions: authority, obligation, state; date once sent; receipt once acknowledged (CMP section 10)."@en ;
     sh:property [ sh:maxCount 1 ;
+            sh:message "A regulatory submission needs exactly one value for the state."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001040 ],
+        [ sh:maxCount 1 ;
             sh:message "A regulatory submission needs exactly one value for the authority."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001037 ],
         [ sh:message "A regulatory submission needs at least one value for the obligation or provision."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001038 ],
-        [ sh:maxCount 1 ;
-            sh:message "A regulatory submission needs exactly one value for the state."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001040 ] ;
+            sh:path crgo:CRGO_0001038 ] ;
     sh:sparql [ sh:message "A submitted or acknowledged submission needs its submission date; an acknowledged one needs its receipt evidence."@en ;
             sh:select """SELECT $this WHERE {
   { $this <https://w3id.org/crgo/CRGO_0001040> ?st . FILTER(?st IN (<https://w3id.org/crgo/CRGO_0000944>, <https://w3id.org/crgo/CRGO_0000945>, <https://w3id.org/crgo/CRGO_0000946>)) FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001079> ?d } } UNION { $this <https://w3id.org/crgo/CRGO_0001040> <https://w3id.org/crgo/CRGO_0000945> FILTER NOT EXISTS { $this <https://w3id.org/crgo/CRGO_0001041> ?e } } }""" ] ;
@@ -2121,13 +2121,13 @@ shape:RegulatorySubmission a sh:NodeShape ;
 
 shape:RequirementInterpretation a sh:NodeShape ;
     rdfs:comment "Interpretations: what they interpret and their legal review state."@en ;
-    sh:property [ sh:maxCount 1 ;
+    sh:property [ sh:message "A requirement interpretation needs at least one value for what it interprets."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001025 ],
+        [ sh:maxCount 1 ;
             sh:message "A requirement interpretation needs exactly one value for the legal review state."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001026 ],
-        [ sh:message "A requirement interpretation needs at least one value for what it interprets."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001025 ] ;
+            sh:path crgo:CRGO_0001026 ] ;
     sh:targetClass crgo:CRGO_0000896 .
 
 shape:ResponseAction a sh:NodeShape ;
@@ -2140,21 +2140,21 @@ shape:ResponseAction a sh:NodeShape ;
 
 shape:ResponseMeasurement a sh:NodeShape ;
     rdfs:comment "Response measurements: metric, value in hours, method and what was measured (SOAR section 2)."@en ;
-    sh:property [ sh:message "A response effectiveness measurement needs at least one value for what was measured."@en ;
+    sh:property [ sh:message "A response effectiveness measurement needs at least one value for the method."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001302 ],
+            sh:path crgo:CRGO_0001323 ],
         [ sh:maxCount 1 ;
             sh:message "A response effectiveness measurement needs exactly one non-negative value in hours."@en ;
             sh:minCount 1 ;
             sh:minInclusive 0.0 ;
             sh:path crgo:CRGO_0001322 ],
-        [ sh:message "A response effectiveness measurement needs at least one value for the method."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001323 ],
         [ sh:maxCount 1 ;
             sh:message "A response effectiveness measurement needs exactly one value for the metric."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001301 ] ;
+            sh:path crgo:CRGO_0001301 ],
+        [ sh:message "A response effectiveness measurement needs at least one value for what was measured."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001302 ] ;
     sh:targetClass crgo:CRGO_0001127 .
 
 shape:RiskAssessment a sh:NodeShape ;
@@ -2201,13 +2201,13 @@ shape:RoleConflict a sh:NodeShape ;
 shape:SampleItem a sh:NodeShape ;
     rdfs:comment "Sample items: plan and result."@en ;
     sh:property [ sh:maxCount 1 ;
-            sh:message "A sample item needs exactly one value for the result."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000759 ],
-        [ sh:maxCount 1 ;
             sh:message "A sample item needs exactly one value for the sampling plan."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000758 ] ;
+            sh:path crgo:CRGO_0000758 ],
+        [ sh:maxCount 1 ;
+            sh:message "A sample item needs exactly one value for the result."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000759 ] ;
     sh:targetClass crgo:CRGO_0000530 .
 
 shape:SamplingPlan a sh:NodeShape ;
@@ -2216,6 +2216,9 @@ shape:SamplingPlan a sh:NodeShape ;
             sh:message "A sampling plan needs exactly one value for the sample size."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000857 ],
+        [ sh:message "A sampling plan needs at least one value for the rationale."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000860 ],
         [ sh:maxCount 1 ;
             sh:message "A sampling plan needs exactly one value for the population."@en ;
             sh:minCount 1 ;
@@ -2223,10 +2226,7 @@ shape:SamplingPlan a sh:NodeShape ;
         [ sh:maxCount 1 ;
             sh:message "A sampling plan needs exactly one value for the method."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000757 ],
-        [ sh:message "A sampling plan needs at least one value for the rationale."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000860 ] ;
+            sh:path crgo:CRGO_0000757 ] ;
     sh:targetClass crgo:CRGO_0000529 .
 
 shape:ScenarioStep a sh:NodeShape ;
@@ -2272,26 +2272,26 @@ shape:SourceAccess a sh:NodeShape ;
 
 shape:SourceRecord a sh:NodeShape ;
     rdfs:comment "Source records carry the fields of specification section 7."@en ;
-    sh:property [ sh:message "A source record needs a title."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "A source record needs exactly one identifier."@en ;
             sh:minCount 1 ;
-            sh:path rdfs:label ],
+            sh:path crgo:CRGO_0000250 ],
         [ sh:maxCount 1 ;
             sh:message "A source record has at most one retrieval date."@en ;
             sh:path crgo:CRGO_0000449 ],
-        [ sh:maxCount 1 ;
-            sh:message "A source record needs exactly one version."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000450 ],
-        [ sh:message "A source record must name its issuer."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0000452 ],
         [ sh:message "A source record must state its licence or terms."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0000453 ],
-        [ sh:maxCount 1 ;
-            sh:message "A source record needs exactly one identifier."@en ;
+        [ sh:message "A source record must name its issuer."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000250 ] ;
+            sh:path crgo:CRGO_0000452 ],
+        [ sh:message "A source record needs a title."@en ;
+            sh:minCount 1 ;
+            sh:path rdfs:label ],
+        [ sh:maxCount 1 ;
+            sh:message "A source record needs exactly one version."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0000450 ] ;
     sh:targetClass crgo:CRGO_0000337 .
 
 shape:StaleEvidence a sh:NodeShape ;
@@ -2339,37 +2339,37 @@ shape:Target_0000335 a sh:NodeShape ;
 shape:Target_FindingClosure_0100 a sh:NodeShape ;
     rdfs:comment "A closure or reopening concerns an audit finding or a nonconformity (decision D9)."@en ;
     sh:sparql [ sh:message "A finding closure or reopening must concern an audit finding or a nonconformity."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000811> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000541>, <https://w3id.org/crgo/CRGO_0000511>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000811> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000541>, <https://w3id.org/crgo/CRGO_0000511>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0000811 .
 
 shape:Target_FindingReopening_0100 a sh:NodeShape ;
     rdfs:comment "A closure or reopening concerns an audit finding or a nonconformity (decision D9)."@en ;
     sh:sparql [ sh:message "A finding closure or reopening must concern an audit finding or a nonconformity."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000813> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000541>, <https://w3id.org/crgo/CRGO_0000511>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000813> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000541>, <https://w3id.org/crgo/CRGO_0000511>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0000813 .
 
 shape:Target_communicationAbout a sh:NodeShape ;
     rdfs:comment "Incident links point to incidents (ranges are left open to avoid classifying records as incidents)."@en ;
     sh:sparql [ sh:message "'communicationAbout' must point to an incident."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001295> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001295> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0001295 .
 
 shape:Target_concludedIncident a sh:NodeShape ;
     rdfs:comment "Incident links point to incidents (ranges are left open to avoid classifying records as incidents)."@en ;
     sh:sparql [ sh:message "'concludedIncident' must point to an incident."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001268> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001268> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0001268 .
 
 shape:Target_openedInvestigation a sh:NodeShape ;
     rdfs:comment "Alerts open security investigations."@en ;
     sh:sparql [ sh:message "'opened investigation' must point to a security investigation."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001265> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0001112>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001265> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0001112>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0001265 .
 
 shape:Target_recoveryAfter a sh:NodeShape ;
     rdfs:comment "Incident links point to incidents (ranges are left open to avoid classifying records as incidents)."@en ;
     sh:sparql [ sh:message "'recoveryAfter' must point to an incident."@en ;
-            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001300> ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
+            sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0001300> ?v . FILTER NOT EXISTS { ?v a/<http://www.w3.org/2000/01/rdf-schema#subClassOf>* ?c . FILTER(?c IN (<https://w3id.org/crgo/CRGO_0000015>)) } }" ] ;
     sh:targetSubjectsOf crgo:CRGO_0001300 .
 
 shape:TelemetryHealthObservation a sh:NodeShape ;
@@ -2389,20 +2389,20 @@ shape:TelemetrySource a sh:NodeShape ;
 
 shape:ThreatIndicator a sh:NodeShape ;
     rdfs:comment "Indicators: pattern, language, source, validity; confidence with its method (SIEM sections 2 and 4)."@en ;
-    sh:property [ sh:message "A threat indicator needs at least one value for the source."@en ;
+    sh:property [ sh:maxCount 1 ;
+            sh:message "A threat indicator needs exactly one value for the pattern language."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0001252 ],
+            sh:path crgo:CRGO_0001309 ],
         [ sh:message "A threat indicator needs at least one value for the pattern."@en ;
             sh:minCount 1 ;
             sh:path crgo:CRGO_0001308 ],
         [ sh:maxCount 1 ;
-            sh:message "A threat indicator needs exactly one value for the pattern language."@en ;
-            sh:minCount 1 ;
-            sh:path crgo:CRGO_0001309 ],
-        [ sh:maxCount 1 ;
             sh:message "A threat indicator needs exactly one value for the start of validity."@en ;
             sh:minCount 1 ;
-            sh:path crgo:CRGO_0000837 ] ;
+            sh:path crgo:CRGO_0000837 ],
+        [ sh:message "A threat indicator needs at least one value for the source."@en ;
+            sh:minCount 1 ;
+            sh:path crgo:CRGO_0001252 ] ;
     sh:sparql [ sh:message "A threat indicator's validity ends after it starts."@en ;
             sh:select "SELECT $this WHERE { $this <https://w3id.org/crgo/CRGO_0000837> ?a ; <https://w3id.org/crgo/CRGO_0000838> ?b . FILTER(?b < ?a) }" ],
         [ sh:message "A stated confidence needs its method (how it is defined and on which scale)."@en ;
