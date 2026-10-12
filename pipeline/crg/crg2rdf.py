@@ -6,7 +6,10 @@ instance data (Turtle and JSON-LD). Risk quantities are computed with CRG's own 
 re-implemented, so the RDF reproduces CRG's numbers exactly.
 
 Usage:
-    python3 pipeline/crg/crg2rdf.py ASSESSMENT.json --crg-calc PATH/TO/crg_calc.py --base https://example.org/a/ [--out out.ttl]
+    python3 pipeline/crg/crg2rdf.py ASSESSMENT.json --crg-calc PATH/TO/crg_calc.py --base https://example.org/a/ [--org-label NAME] [--out out.ttl]
+
+The base must be the organisation's own namespace (never under https://w3id.org/crgo/, ADR-008); the output declares
+it with vann:preferredNamespaceUri and names the assessed organisation <base>org.
 
 Mapping notes (lossy fields are kept as text; see docs/crg-mapping.md):
 - params {v, qual, rat, ev, conf} -> CRG parameter estimate with numericValue, qualitativeReading, rationale,
@@ -62,7 +65,10 @@ def load_calc(path):
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
     return m
 
-def convert(data, calc, base):
+VANN_NS = URIRef("http://purl.org/vocab/vann/preferredNamespaceUri")
+ORG_CLASS = URIRef("https://www.commoncoreontologies.org/ont00001180")
+
+def convert(data, calc, base, org_label=None):
     X = Namespace(base)
     g = Graph()
     for p, n in [("crgo", "https://w3id.org/crgo/"), ("x", X), ("xsd", XSD), ("owl", OWL)]:
@@ -70,12 +76,17 @@ def convert(data, calc, base):
     A = lambda *t: [g.add(x) for x in t]
     o = URIRef(base.rstrip("/#"))
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")))
+    # 0.9.0 (ADR-008): the organisation graph declares its base, and the assessed organisation is an individual,
+    # so that the DSS contract (crgo_risk_context, crgo_submit_assessment) can scope requests to it
+    A((o, VANN_NS, Literal(str(X))), (X.org, RDF.type, OWL.NamedIndividual), (X.org, RDF.type, ORG_CLASS))
+    if org_label: A((X.org, RDFS.label, Literal(org_label, lang="en")))
     run = calc.run(data)
     res = {r["id"]: r for r in run["results"]}
     a = X.assessment
     A((a, RDF.type, C("RiskAssessment")), (a, C("usesCalculationMethod"), C("MethodCRG_v1_0c")),
       (a, C("assessmentFactor"), D(run["factor"])), (a, C("hasRiskAppetite"), X.appetite),
-      (X.appetite, RDF.type, C("RiskAppetiteStatement")), (X.appetite, C("numericValue"), D(run["appetite"])))
+      (X.appetite, RDF.type, C("RiskAppetiteStatement")), (X.appetite, C("numericValue"), D(run["appetite"])),
+      (a, C("assessesOrganization"), X.org))
     if "PERIOD" in data: A((a, C("assessmentHorizon"), Literal(data["PERIOD"])))
     if "CASE_APPETITE" in data: A((a, C("caseAppetite"), D(data["CASE_APPETITE"])))
     if "CURRENCY" in data: A((a, C("currencyCode"), Literal(data["CURRENCY"])))
@@ -218,9 +229,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("assessment"); ap.add_argument("--crg-calc", required=True); ap.add_argument("--base", required=True)
     ap.add_argument("--out"); ap.add_argument("--jsonld")
+    ap.add_argument("--org-label", help="name of the assessed organisation (its IRI is <base>org)")
     a = ap.parse_args()
     data = json.load(open(a.assessment, encoding="utf-8"))
-    g, run = convert(data, load_calc(a.crg_calc), a.base)
+    g, run = convert(data, load_calc(a.crg_calc), a.base, a.org_label)
     out = a.out or os.path.splitext(a.assessment)[0] + ".ttl"
     g.serialize(out, format="turtle")
     if a.jsonld:

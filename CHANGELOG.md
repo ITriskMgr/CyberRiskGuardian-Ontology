@@ -2,6 +2,11 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
+## [Unreleased]
+
+### Changed
+- CRG bridge (`pipeline/crg/crg2rdf.py`): the output now declares the organisation's base (`vann:preferredNamespaceUri`) and names the assessed organisation `<base>org` (option `--org-label`), so converted CyberRiskGuardian assessments can be used directly with the DSS contract tools (ADR-008). MediBec regression unchanged (84,491 estimated, 41,104 residual).
+
 ## [0.9.0] — 2026-10-11, approved
 
 EU GDPR, and Sprint 1 of the v0.8 → v1.0 implementation specification: sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS as observations. The GDPR content and, after review, all Sprint 1 groups (`docs/review-0.9.0.md`: 138 terms, 29 source records, 11 legal instruments, all 19 applicability conditions, design records, test assets) were approved by the project owner on 2026-10-11. The four 0.8.0 modules are unchanged (decision D2); the change report against v0.8.0 is in `releases/0.9.0/`.

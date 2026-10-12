@@ -1,10 +1,12 @@
 @prefix crgo: <https://w3id.org/crgo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix x: <https://w3id.org/crgo/data/medibec/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/crgo/data/medibec> a owl:Ontology ;
+    vann:preferredNamespaceUri "https://w3id.org/crgo/data/medibec/" ;
     owl:imports crgo:crgo .
 
 x:S1-EstimatedRisk a crgo:CRGO_0000051 ;
@@ -5837,6 +5839,10 @@ x:event-S8 a crgo:CRGO_0000014 ;
 x:event-S9 a crgo:CRGO_0000014 ;
     rdfs:label "Intrusion through a trusted third-party access path."@en .
 
+x:org a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001180> ;
+    rdfs:label "MediBec (fictional teaching case)"@en .
+
 x:source-S1 a crgo:CRGO_0000294 ;
     rdfs:label "Cybercriminal (initial-access broker or ransomware affiliate)."@en .
 
@@ -11266,6 +11272,7 @@ x:assessment a crgo:CRGO_0000028 ;
         x:scenario-S7,
         x:scenario-S8,
         x:scenario-S9 ;
+    crgo:CRGO_0000216 x:org ;
     crgo:CRGO_0000217 x:appetite ;
     crgo:CRGO_0000218 crgo:CRGO_0000178 ;
     crgo:CRGO_0000261 1000.0 ;
