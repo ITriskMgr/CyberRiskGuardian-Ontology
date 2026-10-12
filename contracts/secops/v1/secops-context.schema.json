@@ -1,0 +1,336 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/secops/v1/secops-context.schema.json",
+ "title": "CRGO security operations context (read document, contract secops/v1)",
+ "description": "What CRGO gives an application about one organisation's detection coverage, telemetry, untriaged alerts, approval gates, unapproved executions and open regulatory triage at a date. Read-only; it never authorises an action (ADR-011).",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schemaVersion",
+  "contract",
+  "ontologyRelease",
+  "organizationId",
+  "asOf",
+  "generatedAt",
+  "scenarios",
+  "detectionRules",
+  "untriagedAlerts",
+  "approvalGates",
+  "executionsWithoutValidApproval",
+  "openRegulatoryTriage",
+  "caveats"
+ ],
+ "properties": {
+  "schemaVersion": {
+   "const": "1.0"
+  },
+  "contract": {
+   "const": "secops/v1"
+  },
+  "ontologyRelease": {
+   "type": "string",
+   "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+  },
+  "organizationId": {
+   "$ref": "#/$defs/orgIri"
+  },
+  "asOf": {
+   "type": "string",
+   "format": "date"
+  },
+  "generatedAt": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "caveats": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "minItems": 1
+  },
+  "scenarios": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "coverage",
+     "detectionGaps",
+     "playbooks"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "label": {
+      "type": "string"
+     },
+     "coverage": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id",
+        "status",
+        "validatedByTest",
+        "techniques"
+       ],
+       "properties": {
+        "id": {
+         "$ref": "#/$defs/iri"
+        },
+        "status": {
+         "enum": [
+          "untested",
+          "validated",
+          "degraded",
+          "missing"
+         ]
+        },
+        "validatedByTest": {
+         "type": "boolean"
+        },
+        "techniques": {
+         "type": "array",
+         "items": {
+          "type": "string",
+          "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+         }
+        }
+       }
+      }
+     },
+     "detectionGaps": {
+      "$ref": "#/$defs/iris"
+     },
+     "playbooks": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id",
+        "currentVersions",
+        "simulationPassed"
+       ],
+       "properties": {
+        "id": {
+         "$ref": "#/$defs/iri"
+        },
+        "currentVersions": {
+         "$ref": "#/$defs/iris"
+        },
+        "simulationPassed": {
+         "type": "boolean"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "detectionRules": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "status",
+     "version",
+     "requiredSources"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "label": {
+      "type": "string"
+     },
+     "status": {
+      "enum": [
+       "draft",
+       "testing",
+       "approved",
+       "enabled",
+       "suppressed",
+       "retired"
+      ]
+     },
+     "version": {
+      "type": "string"
+     },
+     "requiredSources": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id",
+        "health"
+       ],
+       "properties": {
+        "id": {
+         "$ref": "#/$defs/iri"
+        },
+        "health": {
+         "enum": [
+          "healthy",
+          "degraded",
+          "silent",
+          "unknown",
+          "not-a-source"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "untriagedAlerts": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "assets",
+     "crownJewel"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "assets": {
+      "$ref": "#/$defs/iris"
+     },
+     "crownJewel": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "approvalGates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "riskClasses",
+     "criticalAssets",
+     "authorities",
+     "actions"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "riskClasses": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "read-only",
+        "administrative",
+        "containment",
+        "destructive"
+       ]
+      }
+     },
+     "criticalAssets": {
+      "type": "boolean"
+     },
+     "authorities": {
+      "$ref": "#/$defs/iris"
+     },
+     "actions": {
+      "$ref": "#/$defs/iris"
+     }
+    }
+   }
+  },
+  "executionsWithoutValidApproval": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "action",
+     "reason"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "action": {
+      "$ref": "#/$defs/iri"
+     },
+     "reason": {
+      "enum": [
+       "absent",
+       "expired",
+       "not-granted"
+      ]
+     }
+    }
+   }
+  },
+  "openRegulatoryTriage": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "incident",
+     "assessments",
+     "reason"
+    ],
+    "properties": {
+     "incident": {
+      "$ref": "#/$defs/iri"
+     },
+     "assessments": {
+      "$ref": "#/$defs/iris"
+     },
+     "reason": {
+      "enum": [
+       "no-assessment",
+       "undetermined"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "$defs": {
+  "iri": {
+   "type": "string",
+   "format": "iri",
+   "pattern": "^https?://"
+  },
+  "orgIri": {
+   "allOf": [
+    {
+     "$ref": "#/$defs/iri"
+    },
+    {
+     "not": {
+      "pattern": "^https://w3id.org/crgo/"
+     }
+    }
+   ],
+   "description": "An IRI under the organisation's own base, never under https://w3id.org/crgo/ (ADR-008)."
+  },
+  "iris": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/iri"
+   }
+  }
+ }
+}

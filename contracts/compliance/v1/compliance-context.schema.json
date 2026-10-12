@@ -1,0 +1,401 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/compliance/v1/compliance-context.schema.json",
+ "title": "CRGO compliance context (read document, contract compliance/v1)",
+ "description": "What CRGO gives an application about one organisation's obligations, policies, exceptions, deadlines and findings at a date. Read-only. Nothing in it is a compliance or effectiveness claim made by CRGO: compliance states are the organisation's latest recorded determinations (ADR-010).",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schemaVersion",
+  "contract",
+  "ontologyRelease",
+  "organizationId",
+  "asOf",
+  "generatedAt",
+  "obligations",
+  "directiveVersions",
+  "exceptions",
+  "deadlines",
+  "findings",
+  "caveats"
+ ],
+ "properties": {
+  "schemaVersion": {
+   "const": "1.0"
+  },
+  "contract": {
+   "const": "compliance/v1"
+  },
+  "ontologyRelease": {
+   "type": "string",
+   "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+  },
+  "organizationId": {
+   "$ref": "#/$defs/orgIri"
+  },
+  "asOf": {
+   "type": "string",
+   "format": "date"
+  },
+  "generatedAt": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "caveats": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "minItems": 1
+  },
+  "obligations": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "applicability",
+     "complianceState",
+     "evidenceStatus",
+     "owners",
+     "supportingStatements",
+     "implementingMeasures",
+     "openFindings"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "label": {
+      "type": "string"
+     },
+     "applicability": {
+      "enum": [
+       "applicable",
+       "not-applicable",
+       "potentially-applicable",
+       "unknown",
+       "not-assessed"
+      ]
+     },
+     "complianceState": {
+      "enum": [
+       "satisfied",
+       "partially-satisfied",
+       "unsatisfied",
+       "not-assessed",
+       "undetermined"
+      ]
+     },
+     "determinedOn": {
+      "type": "string",
+      "format": "date"
+     },
+     "determination": {
+      "$ref": "#/$defs/iri"
+     },
+     "evidenceStatus": {
+      "enum": [
+       "current",
+       "expired",
+       "judged-insufficient",
+       "none"
+      ]
+     },
+     "owners": {
+      "$ref": "#/$defs/iris"
+     },
+     "supportingStatements": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id",
+        "mapping",
+        "mappingType",
+        "reviewState"
+       ],
+       "properties": {
+        "id": {
+         "$ref": "#/$defs/iri"
+        },
+        "mapping": {
+         "$ref": "#/$defs/iri"
+        },
+        "version": {
+         "$ref": "#/$defs/iri"
+        },
+        "mappingType": {
+         "enum": [
+          "exact",
+          "full-coverage",
+          "partial-coverage",
+          "broader",
+          "narrower",
+          "related",
+          "conflicting"
+         ]
+        },
+        "reviewState": {
+         "enum": [
+          "draft",
+          "under-review",
+          "approved",
+          "rejected",
+          "withdrawn"
+         ]
+        }
+       }
+      }
+     },
+     "implementingMeasures": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id"
+       ],
+       "properties": {
+        "id": {
+         "$ref": "#/$defs/iri"
+        },
+        "viaStatement": {
+         "$ref": "#/$defs/iri"
+        },
+        "latestResult": {
+         "enum": [
+          "effective",
+          "partly-effective",
+          "ineffective",
+          "not-tested"
+         ]
+        },
+        "latestAssessedOn": {
+         "type": "string",
+         "format": "date"
+        },
+        "mapping": {
+         "$ref": "#/$defs/iri"
+        },
+        "mappingType": {
+         "enum": [
+          "exact",
+          "full-coverage",
+          "partial-coverage",
+          "broader",
+          "narrower",
+          "related",
+          "conflicting"
+         ]
+        }
+       },
+       "description": "A control measure implementing a supporting statement (viaStatement), or mapped directly to the obligation (mapping)."
+      }
+     },
+     "openFindings": {
+      "$ref": "#/$defs/iris"
+     }
+    }
+   }
+  },
+  "directiveVersions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "directive",
+     "versionLabel",
+     "state",
+     "reviewOverdue"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "directive": {
+      "$ref": "#/$defs/iri"
+     },
+     "versionLabel": {
+      "type": "string"
+     },
+     "state": {
+      "enum": [
+       "draft",
+       "under-review",
+       "approved",
+       "published",
+       "retired",
+       "superseded"
+      ]
+     },
+     "effectiveOn": {
+      "type": "string",
+      "format": "date"
+     },
+     "reviewDueOn": {
+      "type": "string",
+      "format": "date"
+     },
+     "reviewOverdue": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "exceptions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "exceptionTo",
+     "active",
+     "legalProvisionsConcerned",
+     "provisionsWithoutExemption"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "exceptionTo": {
+      "$ref": "#/$defs/iris"
+     },
+     "validFrom": {
+      "type": "string",
+      "format": "date"
+     },
+     "validUntil": {
+      "type": "string",
+      "format": "date"
+     },
+     "active": {
+      "type": "boolean"
+     },
+     "riskAcceptance": {
+      "$ref": "#/$defs/iri"
+     },
+     "legalProvisionsConcerned": {
+      "$ref": "#/$defs/iris"
+     },
+     "provisionsWithoutExemption": {
+      "$ref": "#/$defs/iris"
+     }
+    }
+   }
+  },
+  "deadlines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "deadlineFor",
+     "trigger",
+     "answered"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "deadlineFor": {
+      "$ref": "#/$defs/iris"
+     },
+     "trigger": {
+      "enum": [
+       "calendar",
+       "event"
+      ]
+     },
+     "due": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+     },
+     "answered": {
+      "type": "boolean"
+     },
+     "jurisdiction": {
+      "$ref": "#/$defs/iri"
+     }
+    }
+   }
+  },
+  "findings": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "kind",
+     "open",
+     "rootCauses",
+     "overdueActions"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/iri"
+     },
+     "kind": {
+      "enum": [
+       "audit-finding",
+       "nonconformity"
+      ]
+     },
+     "open": {
+      "type": "boolean"
+     },
+     "rootCauses": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "people",
+        "process",
+        "technology",
+        "governance",
+        "third-party",
+        "design",
+        "resourcing"
+       ]
+      }
+     },
+     "overdueActions": {
+      "$ref": "#/$defs/iris"
+     }
+    }
+   }
+  }
+ },
+ "$defs": {
+  "iri": {
+   "type": "string",
+   "format": "iri",
+   "pattern": "^https?://"
+  },
+  "orgIri": {
+   "allOf": [
+    {
+     "$ref": "#/$defs/iri"
+    },
+    {
+     "not": {
+      "pattern": "^https://w3id.org/crgo/"
+     }
+    }
+   ],
+   "description": "An IRI under the organisation's own base, never under https://w3id.org/crgo/ (ADR-008)."
+  },
+  "iris": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/iri"
+   }
+  }
+ }
+}

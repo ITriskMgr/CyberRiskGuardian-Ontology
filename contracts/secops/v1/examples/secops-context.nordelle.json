@@ -1,0 +1,178 @@
+{
+ "schemaVersion": "1.0",
+ "contract": "secops/v1",
+ "ontologyRelease": "0.10.0",
+ "organizationId": "https://example.org/crgo-sample/nordelle/org",
+ "asOf": "2026-10-12",
+ "generatedAt": "2026-10-12T18:00:00Z",
+ "scenarios": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/scenario/credential-compromise",
+   "label": "Compromise of an administrator account of the ordering application (hypothetical)",
+   "coverage": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/coverage/credential-compromise",
+     "status": "untested",
+     "validatedByTest": false,
+     "techniques": [
+      "T1078"
+     ]
+    }
+   ],
+   "detectionGaps": [
+    "https://example.org/crgo-sample/nordelle/detection-gap/edr-servers"
+   ],
+   "playbooks": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/playbook/compromised-account",
+     "currentVersions": [
+      "https://example.org/crgo-sample/nordelle/playbook-version/compromised-account-2"
+     ],
+     "simulationPassed": true
+    }
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/scenario/ransomware",
+   "label": "Ransomware encrypts the ordering application and its database (hypothetical)",
+   "coverage": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/coverage/ransomware",
+     "status": "validated",
+     "validatedByTest": true,
+     "techniques": [
+      "T1486"
+     ]
+    }
+   ],
+   "detectionGaps": [],
+   "playbooks": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/playbook/ransomware",
+     "currentVersions": [
+      "https://example.org/crgo-sample/nordelle/playbook-version/ransomware-1"
+     ],
+     "simulationPassed": false
+    }
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/scenario/web-defacement",
+   "label": "Defacement of the marketing website",
+   "coverage": [],
+   "detectionGaps": [],
+   "playbooks": []
+  }
+ ],
+ "detectionRules": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/detection-rule/brute-then-success",
+   "label": "Correlation: failed sign-ins followed by success",
+   "status": "testing",
+   "version": "1",
+   "requiredSources": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/telemetry/idp-signin",
+     "health": "healthy"
+    }
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v1",
+   "label": "Rule: impossible travel for administrators (v1)",
+   "status": "retired",
+   "version": "1",
+   "requiredSources": []
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/detection-rule/impossible-travel-v2",
+   "label": "Rule: impossible travel for administrators (v2)",
+   "status": "enabled",
+   "version": "2",
+   "requiredSources": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/telemetry/edr-servers",
+     "health": "silent"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/telemetry/idp-signin",
+     "health": "healthy"
+    }
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/detection-rule/rw-encryption",
+   "label": "Rule: burst of file renames with high-entropy extensions",
+   "status": "enabled",
+   "version": "3",
+   "requiredSources": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/telemetry/pos-syslog",
+     "health": "degraded"
+    }
+   ]
+  }
+ ],
+ "untriagedAlerts": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/alert/2026-10-10-kiosk",
+   "assets": [
+    "https://example.org/crgo-sample/nordelle/asset/kiosk"
+   ],
+   "crownJewel": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/alert/2026-10-11-payment-admin",
+   "assets": [
+    "https://example.org/crgo-sample/nordelle/asset/payment-service"
+   ],
+   "crownJewel": true
+  }
+ ],
+ "approvalGates": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/approval-gate/containment",
+   "riskClasses": [
+    "containment",
+    "destructive"
+   ],
+   "criticalAssets": true,
+   "authorities": [
+    "https://example.org/crgo-sample/nordelle/person/ciso",
+    "https://example.org/crgo-sample/nordelle/person/soc-lead"
+   ],
+   "actions": [
+    "https://example.org/crgo-sample/nordelle/response-action/disable-account",
+    "https://example.org/crgo-sample/nordelle/response-action/isolate-host"
+   ]
+  }
+ ],
+ "executionsWithoutValidApproval": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/action-execution/2026-10-10-isolate",
+   "action": "https://example.org/crgo-sample/nordelle/response-action/isolate-host",
+   "reason": "expired"
+  }
+ ],
+ "openRegulatoryTriage": [
+  {
+   "incident": "https://example.org/crgo-sample/nordelle/incident/2026-08-phishing",
+   "assessments": [
+    "https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/reportability-gdpr"
+   ],
+   "reason": "undetermined"
+  },
+  {
+   "incident": "https://example.org/crgo-sample/nordelle/incident/2026-10-kiosk-malware",
+   "assessments": [
+    "https://example.org/crgo-sample/nordelle/incident/2026-10-kiosk-malware/reportability-gdpr"
+   ],
+   "reason": "undetermined"
+  }
+ ],
+ "caveats": [
+  "Coverage is a claim to be tested; only coverage supported by a detection test found effective is reported as validated.",
+  "An indicator match or an alert never implies an incident or an attribution; incidents are confirmed by incident confirmations.",
+  "No inference made in CRGO authorises a response action; approval checks are audit signals (ADR-011)."
+ ]
+}

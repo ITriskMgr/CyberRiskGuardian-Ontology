@@ -1,0 +1,33 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/secops/v1/error.schema.json",
+ "title": "CRGO contract error (secops/v1)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "error",
+  "code",
+  "message"
+ ],
+ "properties": {
+  "error": {
+   "const": true
+  },
+  "code": {
+   "enum": [
+    "UNKNOWN_ORGANISATION",
+    "REFERENCE_NAMESPACE",
+    "SCHEMA_INVALID"
+   ]
+  },
+  "message": {
+   "type": "string"
+  },
+  "details": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

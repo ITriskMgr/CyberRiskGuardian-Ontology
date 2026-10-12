@@ -13,6 +13,10 @@ Tools (read-only unless stated):
   - crgo_risk_context           DSS contract dss/v1, read document for one organisation and scenario (0.9.0)
   - crgo_submit_assessment      DSS contract dss/v1, write-back: stores a DSS result as PROPOSED in the organisation's
                                 own proposed graph file, never in CRGO reference files (0.9.0)
+  - crgo_compliance_context     contract compliance/v1 (read): obligations, policy versions, exceptions, deadlines and
+                                findings of one organisation at a date (0.10.0)
+  - crgo_secops_context         contract secops/v1 (read): detection coverage, telemetry, untriaged alerts, approval
+                                gates, executions without valid approval, open regulatory triage (0.10.0)
 
 Every answer carries confidence and approval status per link and a caveat: library and case values are
 calibration priors, never organisational evidence (CyberRiskGuardian evidence discipline).
@@ -129,6 +133,25 @@ def crgo_submit_assessment(document: dict, org_graph_files: list[str]) -> dict:
         return dss.error("UNKNOWN_ORGANISATION", "No file declares the base %s." % base)
     out = os.path.join(os.path.dirname(home), os.path.splitext(os.path.basename(home))[0].split("-")[0] + "-dss-proposed.ttl")
     return dss.submit_assessment(document, files, out, g=g)
+
+
+@mcp.tool()
+def crgo_compliance_context(org_graph_files: list[str], organization: str, as_of: str) -> dict:
+    """Contract compliance/v1 (read only). org_graph_files: the organisation's own RDF files; organization: its IRI
+    (own base, never https://w3id.org/crgo/); as_of: yyyy-mm-dd. Returns a document valid against
+    contracts/compliance/v1/compliance-context.schema.json, or an error document. Compliance states are the
+    organisation's latest recorded determinations; a mapping, statement or attestation is never evidence of compliance."""
+    import views
+    return views.compliance_context(_org_files(org_graph_files), organization, as_of)
+
+
+@mcp.tool()
+def crgo_secops_context(org_graph_files: list[str], organization: str, as_of: str) -> dict:
+    """Contract secops/v1 (read only). Same parameters as crgo_compliance_context. Returns a document valid against
+    contracts/secops/v1/secops-context.schema.json, or an error document. It reports approval gaps as audit signals and
+    never authorises a response action (ADR-011)."""
+    import views
+    return views.secops_context(_org_files(org_graph_files), organization, as_of)
 
 
 if __name__ == "__main__":

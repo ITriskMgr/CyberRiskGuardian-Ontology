@@ -1,0 +1,296 @@
+{
+ "schemaVersion": "1.0",
+ "contract": "compliance/v1",
+ "ontologyRelease": "0.10.0",
+ "organizationId": "https://example.org/crgo-sample/nordelle/org",
+ "asOf": "2026-10-12",
+ "generatedAt": "2026-10-12T18:00:00Z",
+ "obligations": [
+  {
+   "id": "https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1",
+   "applicability": "potentially-applicable",
+   "complianceState": "undetermined",
+   "determinedOn": "2026-10-01",
+   "determination": "https://example.org/crgo-sample/nordelle/compliance/gdpr-notification",
+   "evidenceStatus": "none",
+   "owners": [],
+   "supportingStatements": [],
+   "implementingMeasures": [],
+   "openFindings": []
+  },
+  {
+   "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._10",
+   "applicability": "applicable",
+   "complianceState": "partially-satisfied",
+   "determinedOn": "2026-10-01",
+   "determination": "https://example.org/crgo-sample/nordelle/compliance/loi25-security",
+   "evidenceStatus": "current",
+   "owners": [
+    "https://example.org/crgo-sample/nordelle/person/compliance"
+   ],
+   "supportingStatements": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/policy/infosec/edr",
+     "mapping": "https://example.org/crgo-sample/nordelle/mapping/edr-loi25-s10",
+     "mappingType": "partial-coverage",
+     "reviewState": "approved",
+     "version": "https://example.org/crgo-sample/nordelle/policy-version/infosec-3"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/policy/infosec/mfa-admin",
+     "mapping": "https://example.org/crgo-sample/nordelle/mapping/mfa-loi25-s10",
+     "mappingType": "partial-coverage",
+     "reviewState": "approved",
+     "version": "https://example.org/crgo-sample/nordelle/policy-version/infosec-3"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests",
+     "mapping": "https://example.org/crgo-sample/nordelle/mapping/restore-loi25-s10",
+     "mappingType": "partial-coverage",
+     "reviewState": "approved",
+     "version": "https://example.org/crgo-sample/nordelle/policy-version/infosec-3"
+    }
+   ],
+   "implementingMeasures": [
+    {
+     "id": "https://example.org/crgo-sample/nordelle/control/backups",
+     "mapping": "https://example.org/crgo-sample/nordelle/mapping/backups-P-39.1_s._10",
+     "mappingType": "partial-coverage",
+     "latestResult": "partly-effective",
+     "latestAssessedOn": "2026-09-20"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/control/edr",
+     "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/edr",
+     "latestResult": "not-tested",
+     "latestAssessedOn": "2026-09-30"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/control/backups",
+     "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests",
+     "latestResult": "partly-effective",
+     "latestAssessedOn": "2026-09-20"
+    },
+    {
+     "id": "https://example.org/crgo-sample/nordelle/control/mfa",
+     "viaStatement": "https://example.org/crgo-sample/nordelle/policy/infosec/mfa-admin",
+     "latestResult": "effective",
+     "latestAssessedOn": "2026-09-15"
+    }
+   ],
+   "openFindings": [
+    "https://example.org/crgo-sample/nordelle/audit/ENG-2026-03",
+    "https://example.org/crgo-sample/nordelle/finding/F-2026-03-01"
+   ]
+  },
+  {
+   "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.3",
+   "applicability": "not-assessed",
+   "complianceState": "not-assessed",
+   "determinedOn": "2026-10-01",
+   "determination": "https://example.org/crgo-sample/nordelle/compliance/loi25-pia",
+   "evidenceStatus": "none",
+   "owners": [],
+   "supportingStatements": [],
+   "implementingMeasures": [],
+   "openFindings": []
+  },
+  {
+   "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__1st_para.",
+   "applicability": "not-assessed",
+   "complianceState": "not-assessed",
+   "evidenceStatus": "none",
+   "owners": [],
+   "supportingStatements": [],
+   "implementingMeasures": [],
+   "openFindings": []
+  },
+  {
+   "id": "https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8",
+   "applicability": "not-assessed",
+   "complianceState": "satisfied",
+   "determinedOn": "2026-10-01",
+   "determination": "https://example.org/crgo-sample/nordelle/compliance/loi25-register",
+   "evidenceStatus": "judged-insufficient",
+   "owners": [
+    "https://example.org/crgo-sample/nordelle/person/ciso"
+   ],
+   "supportingStatements": [],
+   "implementingMeasures": [],
+   "openFindings": []
+  }
+ ],
+ "directiveVersions": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/playbook-version/compromised-account-1",
+   "directive": "https://example.org/crgo-sample/nordelle/playbook/compromised-account",
+   "versionLabel": "1",
+   "state": "superseded",
+   "effectiveOn": "2025-11-01",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/playbook-version/compromised-account-2",
+   "directive": "https://example.org/crgo-sample/nordelle/playbook/compromised-account",
+   "versionLabel": "2",
+   "state": "published",
+   "effectiveOn": "2026-09-15",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/playbook-version/ransomware-1",
+   "directive": "https://example.org/crgo-sample/nordelle/playbook/ransomware",
+   "versionLabel": "1",
+   "state": "published",
+   "effectiveOn": "2026-05-01",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/policy-version/infosec-2",
+   "directive": "https://example.org/crgo-sample/nordelle/policy/infosec-v2",
+   "versionLabel": "2",
+   "state": "superseded",
+   "effectiveOn": "2024-02-01",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/policy-version/infosec-3",
+   "directive": "https://example.org/crgo-sample/nordelle/policy/infosec",
+   "versionLabel": "3",
+   "state": "published",
+   "effectiveOn": "2026-02-01",
+   "reviewDueOn": "2027-02-01",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/policy-version/infosec-4",
+   "directive": "https://example.org/crgo-sample/nordelle/policy/infosec",
+   "versionLabel": "4-draft",
+   "state": "draft",
+   "reviewOverdue": false
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/standard-version/access-control-1",
+   "directive": "https://example.org/crgo-sample/nordelle/standard/access-control",
+   "versionLabel": "1.0",
+   "state": "published",
+   "effectiveOn": "2024-09-01",
+   "reviewDueOn": "2025-09-01",
+   "reviewOverdue": true
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/standard-version/network-2",
+   "directive": "https://example.org/crgo-sample/nordelle/standard/network",
+   "versionLabel": "2.0",
+   "state": "published",
+   "effectiveOn": "2026-03-01",
+   "reviewOverdue": false
+  }
+ ],
+ "exceptions": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/exception/edr-legacy-pos",
+   "exceptionTo": [
+    "https://example.org/crgo-sample/nordelle/policy/infosec/edr"
+   ],
+   "validFrom": "2026-07-01",
+   "validUntil": "2026-12-31",
+   "active": true,
+   "riskAcceptance": "https://example.org/crgo-sample/nordelle/risk-acceptance/legacy-pos-2026",
+   "legalProvisionsConcerned": [
+    "https://w3id.org/crgo/vocab/loi25/P-39.1_s._10"
+   ],
+   "provisionsWithoutExemption": [
+    "https://w3id.org/crgo/vocab/loi25/P-39.1_s._10"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/compliance/deadline/annual-privacy-report-2026",
+   "deadlineFor": [
+    "https://example.org/crgo-sample/nordelle/compliance/programme"
+   ],
+   "trigger": "calendar",
+   "due": "2026-10-31T00:00:00",
+   "answered": false,
+   "jurisdiction": "https://w3id.org/crgo/CRGO_0000350"
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/compliance/deadline/cai-register-2027",
+   "deadlineFor": [
+    "https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8"
+   ],
+   "trigger": "calendar",
+   "due": "2027-01-15T00:00:00",
+   "answered": false,
+   "jurisdiction": "https://w3id.org/crgo/CRGO_0000350"
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/compliance/deadline/gdpr-72h-2026-08",
+   "deadlineFor": [
+    "https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1"
+   ],
+   "trigger": "event",
+   "due": "2026-08-07T00:00:00",
+   "answered": false,
+   "jurisdiction": "https://w3id.org/crgo/CRGO_0000353"
+  }
+ ],
+ "findings": [
+  {
+   "id": "https://example.org/crgo-sample/nordelle/compliance/nonconformity-pam-2026",
+   "kind": "nonconformity",
+   "open": true,
+   "rootCauses": [
+    "process"
+   ],
+   "overdueActions": [
+    "https://example.org/crgo-sample/nordelle/action/CA-NC-2026-07"
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/compliance/nonconformity-restore-2026",
+   "kind": "nonconformity",
+   "open": true,
+   "rootCauses": [
+    "process"
+   ],
+   "overdueActions": []
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/finding/F-2026-03-01",
+   "kind": "audit-finding",
+   "open": true,
+   "rootCauses": [],
+   "overdueActions": []
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/finding/F-2026-03-02",
+   "kind": "audit-finding",
+   "open": true,
+   "rootCauses": [
+    "process"
+   ],
+   "overdueActions": [
+    "https://example.org/crgo-sample/nordelle/action/CA-2026-03-02"
+   ]
+  },
+  {
+   "id": "https://example.org/crgo-sample/nordelle/finding/F-2026-05-01",
+   "kind": "audit-finding",
+   "open": true,
+   "rootCauses": [
+    "process"
+   ],
+   "overdueActions": [
+    "https://example.org/crgo-sample/nordelle/action/CA-NC-2026-07"
+   ]
+  }
+ ],
+ "caveats": [
+  "CRGO states records, links and their review status. A mapping, a policy statement, an acknowledgement or an attestation is never evidence of compliance or effectiveness.",
+  "Applicability states are evaluations over the organisation profile, not legal advice; 'potentially applicable' needs qualified review.",
+  "Compliance states are the latest determination made on or before the date asked; open-world data: an absent record is not a negative finding."
+ ]
+}
