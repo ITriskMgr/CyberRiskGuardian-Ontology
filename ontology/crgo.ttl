@@ -43,6 +43,8 @@ crgo:crgo a owl:Ontology ;
         crgo:crgo-measure,
         crgo:crgo-org,
         crgo:crgo-policy,
+        crgo:crgo-siem,
+        crgo:crgo-soar,
         crgo:crgo-vuln ;
     owl:priorVersion <https://w3id.org/crgo/0.9.0/crgo> ;
     owl:versionIRI <https://w3id.org/crgo/0.10.0/crgo> ;

@@ -1,0 +1,1159 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ocsf: <https://w3id.org/crgo/vocab/ocsf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ocsf:1001 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "File System Activity events report when a process performs an action on a file or folder."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1001" ;
+    skos:note "OCSF class name: file_activity"@en ;
+    skos:prefLabel "File System Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/file_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1002 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Kernel Extension events report when a driver/extension is loaded or unloaded into the kernel"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1002" ;
+    skos:note "OCSF class name: kernel_extension_activity"@en ;
+    skos:prefLabel "Kernel Extension Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/kernel_extension_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1003 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Kernel Activity events report when an process creates, reads, or deletes a kernel resource."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1003" ;
+    skos:note "OCSF class name: kernel_activity"@en ;
+    skos:prefLabel "Kernel Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/kernel_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1004 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Memory Activity events report when a process has memory allocated, read/modified, or other manipulation activities - such as a buffer overflow or turning off data execution protection (DEP)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1004" ;
+    skos:note "OCSF class name: memory_activity"@en ;
+    skos:prefLabel "Memory Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/memory_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1005 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Module Activity events report when an endpoint process acts on a module."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1005" ;
+    skos:note "OCSF class name: module_activity"@en ;
+    skos:prefLabel "Module Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/module_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1006 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Scheduled Job Activity events report activities related to scheduled jobs or tasks."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1006" ;
+    skos:note "OCSF class name: scheduled_job_activity"@en ;
+    skos:prefLabel "Scheduled Job Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/scheduled_job_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1007 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Process Activity events report when a process launches, injects, opens or terminates another process, successful or otherwise."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1007" ;
+    skos:note "OCSF class name: process_activity"@en ;
+    skos:prefLabel "Process Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/process_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1008 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Event Log Activity events report actions pertaining to the system's event logging service(s), such as disabling logging or clearing the log data."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1008" ;
+    skos:note "OCSF class name: event_log_actvity"@en ;
+    skos:prefLabel "Event Log Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/event_log_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1009 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Script Activity events report when a process executes a script."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1009" ;
+    skos:note "OCSF class name: script_activity"@en ;
+    skos:prefLabel "Script Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/script_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1010 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Peripheral Activity events log a system's interactions with external, connectable, and detachable hardware. These events provide visibility into the external devices connected to and used by a system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1010" ;
+    skos:note "OCSF class name: peripheral_activity"@en ;
+    skos:prefLabel "Peripheral Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/peripheral_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1011 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Device Power State Activity events report activities related to power state changes of a system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1011" ;
+    skos:note "OCSF class name: device_power_state_activity"@en ;
+    skos:prefLabel "Device Power State Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/device_power_state_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1012 a skos:Concept ;
+    skos:broader ocsf:1 ;
+    skos:definition "Clipboard Activity events report when a process performs an action on a clipboard."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1012" ;
+    skos:note "OCSF class name: clipboard_activity"@en ;
+    skos:prefLabel "Clipboard Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/system/clipboard_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2001 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "Security Finding events describe findings, detections, anomalies, alerts and/or actions performed by security products"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2001" ;
+    skos:note "OCSF class name: security_finding"@en ;
+    skos:prefLabel "Security Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/security_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2002 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "The Vulnerability Finding event is a notification about weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source. Note: if the event producer is a security control, the security_control profile should be applied and its attacks information, if present, should be duplicated into the finding_info object. <br><strong>Note: </strong>If the Finding is an incident, i.e. requires incident workflow, also apply the incident profile  or aggregate this finding into an Incident Finding."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2002" ;
+    skos:note "OCSF class name: vulnerability_finding"@en ;
+    skos:prefLabel "Vulnerability Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/vulnerability_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2003 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "Compliance Finding events describe results of evaluations performed against resources, to check compliance with various Industry Frameworks or Security Standards such as NIST SP 800-53, CIS AWS Foundations Benchmark v1.4.0, ISO/IEC 27001 etc. Note: if the event producer is a security control, the security_control profile should be applied and its attacks information, if present, should be duplicated into the finding_info object. <br><strong>Note: </strong>If the Finding is an incident, i.e. requires incident workflow, also apply the incident profile or aggregate this finding into an Incident Finding."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2003" ;
+    skos:note "OCSF class name: compliance_finding"@en ;
+    skos:prefLabel "Compliance Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/compliance_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2004 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "A Detection Finding describes detections or alerts generated by security products using correlation engines, detection engines or other methodologies.<br><strong>Note: </strong>If the event producer is a security control, the Security Control profile should be applied and its attacks information, if present, should be duplicated into the finding_info object. <br><strong>Note: </strong>If the Finding is an incident, i.e. requires incident workflow, also apply the Incident profile or aggregate the finding into an Incident Finding.<p><strong>Note: </strong>Findings are mutable and as such have a lifecycle, via Update activities. When modeling atomic alerts, you are encouraged to consider using the Security Control profile with the activity event associated with the alert. See the referenced article below."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2004" ;
+    skos:note "OCSF class name: detection_finding"@en ;
+    skos:prefLabel "Detection Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/detection_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2005 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "An Incident Finding reports the creation, update, or closure of security incidents as a result of detections and/or analytics. <br><strong>Note: </strong>Incident Finding implicitly includes the incident profile and it should be added to the metadata.profiles[] array."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2005" ;
+    skos:note "OCSF class name: incident_finding"@en ;
+    skos:prefLabel "Incident Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/incident_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2006 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "A Data Security Finding describes detections or alerts generated by various data security products such as Data Loss Prevention (DLP), Data Classification, Secrets Management, Digital Rights Management (DRM), Data Security Posture Management (DSPM), and similar tools. These detections or alerts can be created using fingerprinting, statistical analysis, machine learning or other methodologies. The finding describes the actors and endpoints who accessed or own the sensitive data, as well as the resources which store the sensitive data. Note: if the event producer is a security control, the security_control profile should be applied and its attacks information, if present, should be duplicated into the finding_info object. <br><strong>Note: </strong>If the Finding is an incident, i.e. requires incident workflow, also apply the incident profile  or aggregate this finding into an Incident Finding."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2006" ;
+    skos:note "OCSF class name: data_security_finding"@en ;
+    skos:prefLabel "Data Security Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/data_security_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2007 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "The Application Security Posture Finding event is a notification about any bug, defect, deficiency, exploit, vulnerability, weakness or any other issue with software and related systems. Application Security Posture Findings typically involve reporting on the greater context including compliance, impacted resources, remediation guidance, specific code defects, and/or vulnerability metadata. Application Security Posture Findings can be reported by Threat & Vulnerability Management (TVM) tools, Application Security Posture Management (ASPM) tools, or other similar tools. Note: if the event producer is a security control, the security_control profile should be applied and its attacks information, if present, should be duplicated into the finding_info object. <br><strong>Note: </strong>If the Finding is an incident, i.e. requires incident workflow, also apply the incident profile or aggregate this finding into an Incident Finding."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2007" ;
+    skos:note "OCSF class name: application_security_posture_finding"@en ;
+    skos:prefLabel "Application Security Posture Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/application_security_posture_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2008 a skos:Concept ;
+    skos:broader ocsf:2 ;
+    skos:definition "This finding represents an IAM analysis result, which evaluates IAM policies, access patterns, and IAM configurations for potential security risks. The analysis can focus on either an identity (user, role, service account) or a resource to assess permissions, access patterns, and security posture within the IAM domain. <br><strong>Note:</strong> Use permission_analysis_results for identity-centric analysis (evaluating what an identity can do) and access_analysis_result for resource-centric analysis (evaluating who can access a resource). These complement each other for comprehensive IAM security assessment.<br><strong>Note:</strong> If the Finding is an incident, i.e. requires incident workflow, also apply the incident profile or aggregate this finding into an Incident Finding."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2008" ;
+    skos:note "OCSF class name: iam_analysis_finding"@en ;
+    skos:prefLabel "IAM Analysis Finding"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/iam_analysis_finding.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3001 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Account Change events report when specific user account management tasks are performed, such as a user/role being created or role assigned, changed, deleted, renamed, disabled, enabled, locked out or unlocked."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3001" ;
+    skos:note "OCSF class name: account_change"@en ;
+    skos:prefLabel "Account Change"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/account_change.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3002 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Authentication events report authentication session activities, including user attempts to log on or log off, regardless of success, as well as other key stages within the authentication process. These events are typically generated by authentication services, such as Kerberos, OIDC, or SAML, and may include information about the user, the authentication method used, and the status of the authentication attempt."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3002" ;
+    skos:note "OCSF class name: authentication"@en ;
+    skos:prefLabel "Authentication"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/authentication.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3003 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Authorize Session events report privileges, groups or roles assigned to a new user session, usually at login time."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3003" ;
+    skos:note "OCSF class name: authorize_session"@en ;
+    skos:prefLabel "Authorize Session"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/authorize_session.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3004 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Entity Management events report activity by a managed client, a micro service, or a user at a management console. The activity can be a create, read, update, and delete operation on a managed entity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3004" ;
+    skos:note "OCSF class name: entity_management"@en ;
+    skos:prefLabel "Entity Management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/entity_management.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3005 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "User Access Management events report management updates to a user's privileges."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3005" ;
+    skos:note "OCSF class name: user_access"@en ;
+    skos:prefLabel "User Access Management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/user_access.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3006 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Group Management events report lifecycle management of a group, as well as privileges, roles, and resources associated with the group. There are two ways updates to the state of a group may be expressed: Using the Update activity, for example when updating multiple items at one time, the updated_group reflects the changes made to group. Using discrete activities, such as Assign Privileges the state change is expressed by the privileges attribute. Optionally, on success, the updated_group reflects the new state of the group."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3006" ;
+    skos:note "OCSF class name: group_management"@en ;
+    skos:prefLabel "Group Management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/group_management.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3007 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "User Management events report lifecycle management of a user and account management tasks that are performed, such as a password change or reset, a user being created, updated, deleted, disabled, enabled, locked out or unlocked. There are two ways updates to the state of a user may be expressed: Using the Update activity, for example when updating multiple items at one time, the updated_user reflects the changes made to user. Using discrete activities, such as Assign Privileges the state change is expressed by the privileges attribute. Optionally, on successful changes, the updated_user reflects the new state of the user."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3007" ;
+    skos:note "OCSF class name: user_management"@en ;
+    skos:prefLabel "User Management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/user_management.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3008 a skos:Concept ;
+    skos:broader ocsf:3 ;
+    skos:definition "Role Management events report lifecycle management of a role, as well as privileges, policies, credentials, and resources associated with the role. There are two ways updates to the state of a role may be expressed: Using the Update activity, for example when updating multiple items at one time, the updated_role reflects the changes made to iam_role. Using discrete activities, such as Assign Privileges the state change is expressed by the privileges attribute. Optionally, on success, the updated_role reflects the new state of the role. Roles assigned or removed from users and groups are expressed by the User Management and Group Management classes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3008" ;
+    skos:note "OCSF class name: role_management"@en ;
+    skos:prefLabel "Role Management"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/role_management.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4001 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Network Activity events report network connection and traffic activity."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4001" ;
+    skos:note "OCSF class name: network_activity"@en ;
+    skos:prefLabel "Network Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/network_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4002 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "HTTP Activity events report HTTP connection and traffic information."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4002" ;
+    skos:note "OCSF class name: http_activity"@en ;
+    skos:prefLabel "HTTP Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/http_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4003 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "DNS Activity events report DNS queries and answers as seen on the network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4003" ;
+    skos:note "OCSF class name: dns_activity"@en ;
+    skos:prefLabel "DNS Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/dns_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4004 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "DHCP Activity events report MAC to IP assignment via DHCP from a client or server."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4004" ;
+    skos:note "OCSF class name: dhcp_activity"@en ;
+    skos:prefLabel "DHCP Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/dhcp_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4005 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Remote Desktop Protocol (RDP) Activity events report post-authentication remote client connections between clients and servers over the network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4005" ;
+    skos:note "OCSF class name: rdp_activity"@en ;
+    skos:prefLabel "RDP Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/rdp_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4006 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Server Message Block (SMB) Protocol Activity events report client/server connections sharing resources within the network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4006" ;
+    skos:note "OCSF class name: smb_activity"@en ;
+    skos:prefLabel "SMB Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/smb_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4007 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "SSH Activity events report remote client connections to a server using the Secure Shell (SSH) Protocol."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4007" ;
+    skos:note "OCSF class name: ssh_activity"@en ;
+    skos:prefLabel "SSH Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ssh_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4008 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "File Transfer Protocol (FTP) Activity events report file transfers between a server and a client as seen on the network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4008" ;
+    skos:note "OCSF class name: ftp_activity"@en ;
+    skos:prefLabel "FTP Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ftp_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4009 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Email Activity events report SMTP protocol and email activities including those with embedded URLs and files. See the Email object for details."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4009" ;
+    skos:note "OCSF class name: email_activity"@en ;
+    skos:prefLabel "Email Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4010 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Network File Activity events report file activities traversing the network, including file storage services such as Box, MS OneDrive, or Google Drive."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4010" ;
+    skos:note "OCSF class name: network_file_activity"@en ;
+    skos:prefLabel "Network File Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/network_file_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4011 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Email File Activity events report files within emails."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4011" ;
+    skos:note "OCSF class name: email_file_activity"@en ;
+    skos:prefLabel "Email File Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_file_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4012 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Email URL Activity events report URLs within an email."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4012" ;
+    skos:note "OCSF class name: email_url_activity"@en ;
+    skos:prefLabel "Email URL Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_url_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4013 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "The Network Time Protocol (NTP) Activity events report instances of remote clients synchronizing their clocks with an NTP server, as observed on the network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4013" ;
+    skos:note "OCSF class name: ntp_activity"@en ;
+    skos:prefLabel "NTP Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ntp_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4014 a skos:Concept ;
+    skos:broader ocsf:4 ;
+    skos:definition "Tunnel Activity events report secure tunnel establishment (such as VPN), teardowns, renewals, and other network tunnel specific actions."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4014" ;
+    skos:note "OCSF class name: tunnel_activity"@en ;
+    skos:prefLabel "Tunnel Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/network/tunnel_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5001 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Device Inventory Info events report device inventory data that is either logged or proactively collected. For example, when collecting device information from a CMDB or running a network sweep of connected devices."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5001" ;
+    skos:note "OCSF class name: inventory_info"@en ;
+    skos:prefLabel "Device Inventory Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/inventory_info.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5002 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Device Config State events report device configuration data, device assessments, and/or CIS Benchmark results."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5002" ;
+    skos:note "OCSF class name: config_state"@en ;
+    skos:prefLabel "Device Config State"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/config_state.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5003 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "User Inventory Info events report user inventory data that is either logged or proactively collected. For example, when collecting user information from Active Directory entries."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5003" ;
+    skos:note "OCSF class name: user_inventory"@en ;
+    skos:prefLabel "User Inventory Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/user_inventory.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5004 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Operating System Patch State reports the installation of an OS patch to a device and any associated knowledgebase articles."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5004" ;
+    skos:note "OCSF class name: patch_state"@en ;
+    skos:prefLabel "Operating System Patch State"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/patch_state.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5006 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Kernel Object Query events report information about discovered kernel resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5006" ;
+    skos:note "OCSF class name: kernel_object_query"@en ;
+    skos:prefLabel "Kernel Object Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/kernel_object_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5007 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "File Query events report information about files that are present on the system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5007" ;
+    skos:note "OCSF class name: file_query"@en ;
+    skos:prefLabel "File Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/file_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5008 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Folder Query events report information about folders that are present on the system."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5008" ;
+    skos:note "OCSF class name: folder_query"@en ;
+    skos:prefLabel "Folder Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/folder_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5009 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Admin Group Query events report information about administrative groups."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5009" ;
+    skos:note "OCSF class name: admin_group_query"@en ;
+    skos:prefLabel "Admin Group Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/admin_group_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5010 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Job Query events report information about scheduled jobs."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5010" ;
+    skos:note "OCSF class name: job_query"@en ;
+    skos:prefLabel "Job Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/job_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5011 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Module Query events report information about loaded modules."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5011" ;
+    skos:note "OCSF class name: module_query"@en ;
+    skos:prefLabel "Module Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/module_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5012 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Network Connection Query events report information about active network connections."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5012" ;
+    skos:note "OCSF class name: network_connection_query"@en ;
+    skos:prefLabel "Network Connection Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/network_connection_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5013 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Networks Query events report information about network adapters."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5013" ;
+    skos:note "OCSF class name: networks_query"@en ;
+    skos:prefLabel "Networks Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/networks_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5014 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Peripheral Device Query events report information about peripheral devices."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5014" ;
+    skos:note "OCSF class name: peripheral_device_query"@en ;
+    skos:prefLabel "Peripheral Device Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/peripheral_device_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5015 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Process Query events report information about running processes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5015" ;
+    skos:note "OCSF class name: process_query"@en ;
+    skos:prefLabel "Process Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/process_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5016 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Service Query events report information about running services."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5016" ;
+    skos:note "OCSF class name: service_query"@en ;
+    skos:prefLabel "Service Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/service_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5017 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "User Session Query events report information about existing user sessions."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5017" ;
+    skos:note "OCSF class name: session_query"@en ;
+    skos:prefLabel "User Session Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/session_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5018 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "User Query events report user data that have been discovered, queried, polled or searched. This event differs from User Inventory as it describes the result of a targeted search by filtering a subset of user attributes."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5018" ;
+    skos:note "OCSF class name: user_query"@en ;
+    skos:prefLabel "User Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/user_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5019 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Device Config State Change events report state changes that impact the security of the device."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5019" ;
+    skos:note "OCSF class name: device_config_state_change"@en ;
+    skos:prefLabel "Device Config State Change"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/device_config_state_change.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5020 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Software Inventory Info events report device software inventory data that is either logged or proactively collected. For example, when collecting device information from a CMDB or running a network sweep of connected devices."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5020" ;
+    skos:note "OCSF class name: software_info"@en ;
+    skos:prefLabel "Software Inventory Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/software_info.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5021 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "OSINT Inventory Info events report open source intelligence or threat intelligence inventory data that is either logged or proactively collected. For example, when collecting OSINT information from Threat Intelligence Platforms (TIPs) or Extended Detection and Response (XDR) platforms, or collecting data from OSINT or other generic threat intelligence and enrichment feeds such as APIs and datastores."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5021" ;
+    skos:note "OCSF class name: osint_inventory_info"@en ;
+    skos:prefLabel "OSINT Inventory Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/osint_inventory_info.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5022 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Startup Item Query events report information about discovered items, e.g., application components that are generally configured to run automatically."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5022" ;
+    skos:note "OCSF class name: startup_item_query"@en ;
+    skos:prefLabel "Startup Item Query"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/startup_item_query.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5023 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Cloud Resources Inventory Info events report cloud asset inventory data. This data can be either logged or proactively collected. For example, use this event class when creating an inventory of cloud resource information from a Configuration Management Database (CMDB), Cyber Asset Attack Surface Management (CAASM), direct public cloud service provider APIs, Software-as-a-Service (SaaS) APIs, or otherwise."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5023" ;
+    skos:note "OCSF class name: cloud_resources_inventory_info"@en ;
+    skos:prefLabel "Cloud Resources Inventory Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/cloud_resources_inventory_info.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5040 a skos:Concept ;
+    skos:broader ocsf:5 ;
+    skos:definition "Data collected directly from devices that represents forensic information pulled, queried, or discovered from devices that may indicate malicious activity. It contains a number of child objects, each representing a distinct evidence domain (network connections, file artifacts, registry entries, etc.). When mapping raw telemetry data users should select Query Evidence and then the appropriate child object that best matches the evidence type."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5040" ;
+    skos:note "OCSF class name: evidence_info"@en ;
+    skos:prefLabel "Live Evidence Info"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/evidence_info.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6001 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Web Resources Activity events describe actions executed on a set of Web Resources."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6001" ;
+    skos:note "OCSF class name: web_resources_activity"@en ;
+    skos:prefLabel "Web Resources Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/web_resources_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6002 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Application Lifecycle events report installation, removal, start, stop of an application or service."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6002" ;
+    skos:note "OCSF class name: application_lifecycle"@en ;
+    skos:prefLabel "Application Lifecycle"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/application_lifecycle.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6003 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "API events describe general CRUD (Create, Read, Update, Delete) API activities, e.g. (AWS Cloudtrail)"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6003" ;
+    skos:note "OCSF class name: api_activity"@en ;
+    skos:prefLabel "API Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/api_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6004 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Web Resource Access Activity events describe successful/failed attempts to access a web resource over HTTP."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6004" ;
+    skos:note "OCSF class name: web_resource_access_activity"@en ;
+    skos:prefLabel "Web Resource Access Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/web_resource_access_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6005 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Datastore events describe general activities (Read, Update, Query, Delete, etc.) which affect datastores or data within those datastores, e.g. (AWS RDS, AWS S3)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6005" ;
+    skos:note "OCSF class name: datastore_activity"@en ;
+    skos:prefLabel "Datastore Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/datastore_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6006 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "File Hosting Activity events report the actions taken by file management applications, including file sharing servers like Sharepoint and services such as Box, MS OneDrive, Google Drive, or network file share services."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6006" ;
+    skos:note "OCSF class name: file_hosting"@en ;
+    skos:prefLabel "File Hosting Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/file_hosting.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6007 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Scan events report the start, completion, and results of a scan job. The scan event includes the number of items that were scanned and the number of detections that were resolved."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6007" ;
+    skos:note "OCSF class name: scan_activity"@en ;
+    skos:prefLabel "Scan Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/scan_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6008 a skos:Concept ;
+    skos:broader ocsf:6 ;
+    skos:definition "Application Error events describe issues with an applications. The error message should be put in the event's message attribute. The metadata.product attribute can be used to capture the originating application information. The host profile can used to include the generating device information. This class is helpful for applications that generate or handle OCSF events and can also be used for errors in upstream products and services."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6008" ;
+    skos:note "OCSF class name: application_error"@en ;
+    skos:prefLabel "Application Error"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/application/application_error.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:7001 a skos:Concept ;
+    skos:broader ocsf:7 ;
+    skos:definition "Remediation Activity events report on attempts at remediating a compromised device or computer network."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "7001" ;
+    skos:note "OCSF class name: remediation_activity"@en ;
+    skos:prefLabel "Remediation Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/remediation_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:7002 a skos:Concept ;
+    skos:broader ocsf:7 ;
+    skos:definition "File Remediation Activity events report on attempts at remediating files. Sub-techniques of countermeasures will include File, such as File Removal or Restore File."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "7002" ;
+    skos:note "OCSF class name: file_remediation_activity"@en ;
+    skos:prefLabel "File Remediation Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/file_remediation_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:7003 a skos:Concept ;
+    skos:broader ocsf:7 ;
+    skos:definition "Process Remediation Activity events report on attempts at remediating processes. Sub-techniques of countermeasures will include Process Eviction, such as Process Termination or Kernel-based Process Isolation."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "7003" ;
+    skos:note "OCSF class name: process_remediation_activity"@en ;
+    skos:prefLabel "Process Remediation Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/process_remediation_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:7004 a skos:Concept ;
+    skos:broader ocsf:7 ;
+    skos:definition "Network Remediation Activity events report on attempts at remediating computer networks. Techniques and Sub-techniques of countermeasures will include Network, such as Network Isolation or Network Traffic Filtering."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "7004" ;
+    skos:note "OCSF class name: network_remediation_activity"@en ;
+    skos:prefLabel "Network Remediation Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/network_remediation_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:8001 a skos:Concept ;
+    skos:broader ocsf:8 ;
+    skos:definition "Drone Flights Activity events report the activity of Unmanned Aerial Systems (UAS), their Operators, and mission-planning and authorization metadata as reported by the UAS platforms themselves, by Counter-UAS (CUAS) systems, or other remote monitoring or sensing infrastructure. Based on the Remote ID defined in Standard Specification for Remote ID and Tracking (ASTM Designation: F3411-22a)."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "8001" ;
+    skos:note "OCSF class name: drone_flights_activity"@en ;
+    skos:prefLabel "Drone Flights Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/unmanned_systems/drone_flights_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:8002 a skos:Concept ;
+    skos:broader ocsf:8 ;
+    skos:definition "Airborne Broadcast Activity events report the activity of any aircraft or unmanned system as reported and tracked by Automatic Dependent Surveillance - Broadcast (ADS-B) receivers. Based on the ADS-B standards described in Code of Federal Regulations (CFR) Title 14 Chapter I Subchapter F Part 91 and in other general Federal Aviation Administration (FAA) supplemental orders and guidance."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "8002" ;
+    skos:note "OCSF class name: airborne_broadcast_activity"@en ;
+    skos:prefLabel "Airborne Broadcast Activity"@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 events/unmanned_systems/airborne_broadcast_activity.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:8 a skos:Concept ;
+    skos:definition "Unmanned Systems events report the activity, existence, and/or state of unmanned systems for tracking, mission planning, and other related activities."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "8" ;
+    skos:note "OCSF category name: unmanned_systems"@en ;
+    skos:prefLabel "Unmanned Systems"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:7 a skos:Concept ;
+    skos:definition "Remediation events report the results of remediation commands targeting files, processes, and other objects."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "7" ;
+    skos:note "OCSF category name: remediation"@en ;
+    skos:prefLabel "Remediation"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:2 a skos:Concept ;
+    skos:definition "Findings events report findings, detections, and possible resolutions of malware, anomalies, or other actions performed by security products."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "2" ;
+    skos:note "OCSF category name: findings"@en ;
+    skos:prefLabel "Findings"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:3 a skos:Concept ;
+    skos:definition "Identity & Access Management (IAM) events relate to the supervision of the system's authentication and access control model. Examples of such events are the success or failure of authentication, granting of authority, password change, entity change, privileged use etc."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "3" ;
+    skos:note "OCSF category name: iam"@en ;
+    skos:prefLabel "Identity & Access Management"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:6 a skos:Concept ;
+    skos:definition "Application Activity events report detailed information about the behavior of applications and services."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "6" ;
+    skos:note "OCSF category name: application"@en ;
+    skos:prefLabel "Application Activity"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:1 a skos:Concept ;
+    skos:definition "System Activity events."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "1" ;
+    skos:note "OCSF category name: system"@en ;
+    skos:prefLabel "System Activity"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:4 a skos:Concept ;
+    skos:definition "Network Activity events."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "4" ;
+    skos:note "OCSF category name: network"@en ;
+    skos:prefLabel "Network Activity"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+ocsf:5 a skos:Concept ;
+    skos:definition "Discovery events report the existence and state of devices, files, configurations, processes, registry keys, and other objects."@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/ocsf> ;
+    skos:notation "5" ;
+    skos:note "OCSF category name: discovery"@en ;
+    skos:prefLabel "Discovery"@en ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" .
+
+<https://w3id.org/crgo/vocab/ocsf> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-10-08"^^xsd:date ;
+    dcterms:license <https://www.apache.org/licenses/LICENSE-2.0> ;
+    dcterms:publisher "OCSF project" ;
+    dcterms:rights "OCSF schema (c) OCSF contributors, Apache License 2.0; captions and descriptions reproduced with attribution."@en ;
+    dcterms:source "https://github.com/ocsf/ocsf-schema (git tag 1.9.0)" ;
+    dcterms:title "Open Cybersecurity Schema Framework (OCSF) categories and event classes"@en,
+        "Catégories et classes d'événements de l'Open Cybersecurity Schema Framework (OCSF)"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/ocsf> ;
+    owl:versionInfo "1.9.0" ;
+    skos:hasTopConcept ocsf:1,
+        ocsf:2,
+        ocsf:3,
+        ocsf:4,
+        ocsf:5,
+        ocsf:6,
+        ocsf:7,
+        ocsf:8 ;
+    skos:scopeNote "Event categories and event classes of OCSF 1.9.0 (no attributes or profiles). Notation: category uid, or class uid = category uid x 1000 + class uid. Linking a normalisation profile or rule to a class states a correspondence, not an equivalence of taxonomies."@en .
+

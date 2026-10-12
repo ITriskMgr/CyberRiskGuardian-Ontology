@@ -478,7 +478,7 @@ loi25:P-39.1_s._93.1 a skos:Concept ;
     dcterms:source "LégisQuébec, CQLR c. P-39.1 and c. C-1.1; see data/frameworks/loi25.tsv" ;
     dcterms:title "Québec Law 25: obligations under the private-sector privacy Act"@en,
         "Loi 25 du Québec : obligations de la Loi sur le secteur privé"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/loi25> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/loi25> ;
     owl:versionInfo "S.Q. 2021, c. 25, as consolidated in LégisQuébec on 2026-10-08" ;
     skos:hasTopConcept loi25:C-1.1_s._44,
         loi25:C-1.1_s._45,

@@ -489,7 +489,7 @@ iso19011:6 a skos:Concept ;
     dcterms:source "ISO 19011:2018 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
     dcterms:title "ISO 19011:2018 Guidelines for auditing management systems: clause structure"@en,
         "ISO 19011:2018 Lignes directrices pour l'audit des systèmes de management : structure des articles"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso19011> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/iso19011> ;
     owl:versionInfo "Troisième édition, 2018-07" ;
     skos:hasTopConcept iso19011:1,
         iso19011:2,

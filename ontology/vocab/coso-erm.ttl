@@ -438,7 +438,7 @@ coso-erm:ERM-C3 a skos:Concept ;
     dcterms:source "COSO ERM 2017 French executive summary (data/frameworks/grca/coso_erm.tsv)" ;
     dcterms:title "COSO Enterprise Risk Management (2017): components and principles"@en,
         "COSO Gestion des risques de l'entreprise (2017) : composantes et principes"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/coso-erm> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/coso-erm> ;
     owl:versionInfo "2017" ;
     skos:hasTopConcept coso-erm:ERM-C1,
         coso-erm:ERM-C2,

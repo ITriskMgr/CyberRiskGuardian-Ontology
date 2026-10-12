@@ -659,7 +659,7 @@ itaf:ITAF-GEN a skos:Concept ;
     dcterms:source "ISACA ITAF 5th edition and companion performance guideline 2208 (data/frameworks/grca/itaf.tsv)" ;
     dcterms:title "ISACA ITAF 5th edition: standards and guidelines"@en,
         "ITAF de l'ISACA, 5e édition : normes et lignes directrices"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/itaf> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/itaf> ;
     owl:versionInfo "5th edition (copyright 2026)" ;
     skos:hasTopConcept itaf:ITAF-GEN,
         itaf:ITAF-PERF,

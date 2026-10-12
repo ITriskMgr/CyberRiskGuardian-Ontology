@@ -100932,7 +100932,7 @@ sp800-53a:IA-13_03 a skos:Concept ;
     dcterms:source "https://github.com/usnistgov/oscal-content/tree/main/nist.gov/SP800-53/rev5" ;
     dcterms:title "NIST SP 800-53A Rev. 5 assessment objectives and methods"@en,
         "Objectifs et méthodes d'évaluation NIST SP 800-53A rév. 5"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/sp800-53a> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/sp800-53a> ;
     owl:versionInfo "SP 800-53 Rev. 5 OSCAL catalogue 5.2.0" ;
     skos:hasTopConcept sp800-53a:AC-01,
         sp800-53a:AC-02,

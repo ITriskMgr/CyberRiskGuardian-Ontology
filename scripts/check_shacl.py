@@ -25,7 +25,7 @@ for m, n in msgs.most_common(10):
 # negative tests: each small graph must violate the shapes (TBox modules give the class hierarchy)
 import glob
 tbox = rdflib.Graph()
-for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance"]:
+for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar"]:
     tbox.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 neg_ok = True
 for f in sorted(glob.glob(os.path.join(ROOT, "tests", "shacl", "neg-*.ttl"))):

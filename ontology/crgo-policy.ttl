@@ -21,13 +21,16 @@ crgo:CRGO_0000887 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000886 ;
     skos:definition "A directive version of a policy."@en,
         "Version de directive d'une politique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 4 (PolicyVersion); decision D4."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- guideline
 crgo:CRGO_0000889 a owl:Class ;
@@ -38,12 +41,15 @@ crgo:CRGO_0000889 a owl:Class ;
     skos:altLabel "policy guideline"@en ;
     skos:definition "A directive, issued as guidance separate from any policy, that recommends a practice without making it mandatory. Departing from a guideline needs no exception. A 'should' or 'may' statement written inside a policy is a policy statement, not a guideline."@en,
         "Directive, publiée à titre d'orientation distincte de toute politique, qui recommande une pratique sans la rendre obligatoire. S'en écarter n'exige aucune dérogation. Un énoncé « devrait » ou « peut » rédigé dans une politique est un énoncé de politique, et non une ligne directrice."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 4 (PolicyGuideline). Disjoint from policy statement, so that a guidance document is never read as a binding requirement; modality distinguishes binding from non-binding statements within a policy."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- policy acknowledgement
 crgo:CRGO_0000892 a owl:Class ;
@@ -52,12 +58,15 @@ crgo:CRGO_0000892 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000891 ;
     skos:definition "An attestation by a person that they have received and read an exact policy version that applies to them. Acknowledging a policy is not understanding or complying with it."@en,
         "Attestation par laquelle une personne déclare avoir reçu et lu une version précise d'une politique qui s'applique à elle. Prendre connaissance d'une politique n'équivaut ni à la comprendre ni à la respecter."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL sections 4 and 7 (acknowledged is not understood or compliant). Instances belong in organisation graphs or the application (POL section 1: no employee PII in CRGO)."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- must
 crgo:CRGO_0000915 a owl:NamedIndividual,
@@ -68,11 +77,14 @@ crgo:CRGO_0000915 a owl:NamedIndividual,
         "L'énoncé est obligatoire (doit)."@fr ;
     skos:inScheme crgo:CRGO_0000914 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- must not
 crgo:CRGO_0000916 a owl:NamedIndividual,
@@ -83,11 +95,14 @@ crgo:CRGO_0000916 a owl:NamedIndividual,
         "L'énoncé interdit quelque chose."@fr ;
     skos:inScheme crgo:CRGO_0000914 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- should
 crgo:CRGO_0000917 a owl:NamedIndividual,
@@ -98,11 +113,14 @@ crgo:CRGO_0000917 a owl:NamedIndividual,
         "L'énoncé est recommandé; s'en écarter exige un motif consigné."@fr ;
     skos:inScheme crgo:CRGO_0000914 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- may
 crgo:CRGO_0000918 a owl:NamedIndividual,
@@ -113,11 +131,14 @@ crgo:CRGO_0000918 a owl:NamedIndividual,
         "L'énoncé permet quelque chose sans l'exiger."@fr ;
     skos:inScheme crgo:CRGO_0000914 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- draft (directive)
 crgo:CRGO_0000921 a owl:NamedIndividual,
@@ -128,12 +149,15 @@ crgo:CRGO_0000921 a owl:NamedIndividual,
         "En cours de rédaction; non contraignante."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- under review (directive)
 crgo:CRGO_0000922 a owl:NamedIndividual,
@@ -144,12 +168,15 @@ crgo:CRGO_0000922 a owl:NamedIndividual,
         "Soumise à la revue ou à l'approbation; non contraignante."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- approved (directive)
 crgo:CRGO_0000923 a owl:NamedIndividual,
@@ -160,12 +187,15 @@ crgo:CRGO_0000923 a owl:NamedIndividual,
         "Approuvée par l'autorité compétente; pas encore en vigueur."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- published (directive)
 crgo:CRGO_0000924 a owl:NamedIndividual,
@@ -176,12 +206,15 @@ crgo:CRGO_0000924 a owl:NamedIndividual,
         "Communiquée et en vigueur."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- retired (directive)
 crgo:CRGO_0000925 a owl:NamedIndividual,
@@ -192,12 +225,15 @@ crgo:CRGO_0000925 a owl:NamedIndividual,
         "N'est plus en vigueur et n'est pas remplacée."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- superseded (directive)
 crgo:CRGO_0000926 a owl:NamedIndividual,
@@ -208,12 +244,15 @@ crgo:CRGO_0000926 a owl:NamedIndividual,
         "N'est plus en vigueur; remplacée par une version ultérieure."@fr ;
     skos:inScheme crgo:CRGO_0000920 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- scheduled review
 crgo:CRGO_0000929 a owl:NamedIndividual,
@@ -224,12 +263,15 @@ crgo:CRGO_0000929 a owl:NamedIndividual,
         "L'intervalle de revue est écoulé."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- regulatory change (trigger)
 crgo:CRGO_0000930 a owl:NamedIndividual,
@@ -240,12 +282,15 @@ crgo:CRGO_0000930 a owl:NamedIndividual,
         "Un changement juridique ou réglementaire touche la directive."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- incident (trigger)
 crgo:CRGO_0000931 a owl:NamedIndividual,
@@ -256,12 +301,15 @@ crgo:CRGO_0000931 a owl:NamedIndividual,
         "Un incident a révélé que la directive est inadéquate."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- audit or assessment finding (trigger)
 crgo:CRGO_0000932 a owl:NamedIndividual,
@@ -272,12 +320,15 @@ crgo:CRGO_0000932 a owl:NamedIndividual,
         "Une constatation ou une non-conformité porte sur la directive."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- risk change (trigger)
 crgo:CRGO_0000933 a owl:NamedIndividual,
@@ -288,12 +339,15 @@ crgo:CRGO_0000933 a owl:NamedIndividual,
         "Un changement du risque évalué ou de l'appétence au risque."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- organisational change (trigger)
 crgo:CRGO_0000934 a owl:NamedIndividual,
@@ -304,12 +358,15 @@ crgo:CRGO_0000934 a owl:NamedIndividual,
         "Un changement de structure, de mandat, d'activités ou de rôles."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- technology change (trigger)
 crgo:CRGO_0000935 a owl:NamedIndividual,
@@ -320,12 +377,15 @@ crgo:CRGO_0000935 a owl:NamedIndividual,
         "Un changement de systèmes, de services ou de technologie."@fr ;
     skos:inScheme crgo:CRGO_0000928 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- version of directive
 crgo:CRGO_0001006 a owl:ObjectProperty ;
@@ -335,12 +395,15 @@ crgo:CRGO_0001006 a owl:ObjectProperty ;
     skos:definition "Relates a directive version to the policy, technical standard, procedure, guideline, charter or methodology it is a version of."@en,
         "Relie une version de directive à la politique, la norme technique, la procédure, la ligne directrice, la charte ou la méthodologie dont elle est une version."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL hasVersion, inverted so that the version points to its directive."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- statement in version
 crgo:CRGO_0001007 a owl:ObjectProperty ;
@@ -351,12 +414,15 @@ crgo:CRGO_0001007 a owl:ObjectProperty ;
     skos:definition "Relates a policy statement to the directive version it is part of."@en,
         "Relie un énoncé de politique à la version de directive dont il fait partie."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL derivedFromVersion: a statement belongs to one exact version."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- clause of
 crgo:CRGO_0001008 a owl:ObjectProperty ;
@@ -367,11 +433,14 @@ crgo:CRGO_0001008 a owl:ObjectProperty ;
     skos:definition "Relates a policy clause to the directive version it is part of."@en,
         "Relie un article de politique à la version de directive dont il fait partie."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- in clause
 crgo:CRGO_0001009 a owl:ObjectProperty ;
@@ -382,11 +451,14 @@ crgo:CRGO_0001009 a owl:ObjectProperty ;
     skos:definition "Relates a policy statement to the clause where it appears."@en,
         "Relie un énoncé de politique à l'article où il figure."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- in policy family
 crgo:CRGO_0001010 a owl:ObjectProperty ;
@@ -395,11 +467,14 @@ crgo:CRGO_0001010 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000885 ;
     skos:definition "Relates a directive to a policy family it belongs to."@en,
         "Relie une directive à une famille de politiques dont elle fait partie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- has normative modality
 crgo:CRGO_0001011 a owl:ObjectProperty ;
@@ -410,11 +485,14 @@ crgo:CRGO_0001011 a owl:ObjectProperty ;
     skos:definition "Gives how binding a policy statement is."@en,
         "Indique le degré de contrainte d'un énoncé de politique."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- has lifecycle state
 crgo:CRGO_0001012 a owl:ObjectProperty ;
@@ -425,11 +503,14 @@ crgo:CRGO_0001012 a owl:ObjectProperty ;
     skos:definition "Gives the lifecycle state of a directive version, as last recorded."@en,
         "Indique l'état du cycle de vie d'une version de directive, selon le dernier enregistrement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- statement implemented by
 crgo:CRGO_0001013 a owl:ObjectProperty ;
@@ -439,12 +520,15 @@ crgo:CRGO_0001013 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000020 ;
     skos:definition "Relates a policy statement to a control measure the organisation relies on to meet it. Implementation is not evidence that the measure is effective."@en,
         "Relie un énoncé de politique à une mesure appliquée sur laquelle l'organisation s'appuie pour le respecter. L'application ne prouve pas que la mesure est efficace."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Conflict C7: separate from 'implemented by procedure'."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- intended to mitigate
 crgo:CRGO_0001014 a owl:ObjectProperty ;
@@ -454,12 +538,15 @@ crgo:CRGO_0001014 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates a policy statement to a risk scenario it is meant to reduce. States intent only; it does not say that the risk is reduced."@en,
         "Relie un énoncé de politique à un scénario de risque qu'il vise à réduire. N'indique que l'intention; il n'affirme pas que le risque est réduit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Conflict C6: deliberately not a sub-property of 'mitigated by'."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- applies to scope
 crgo:CRGO_0001015 a owl:ObjectProperty ;
@@ -467,12 +554,15 @@ crgo:CRGO_0001015 a owl:ObjectProperty ;
         "s'applique au périmètre"@fr ;
     skos:definition "Relates a policy statement, guideline or directive to an asset, process, role, organisational unit or jurisdiction it explicitly applies to."@en,
         "Relie un énoncé de politique, une ligne directrice ou une directive à un actif, un processus, un rôle, une unité organisationnelle ou une juridiction auquel il s'applique explicitement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL scopedToAsset generalised. Conditional applicability goes through applicability conditions."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- requires training
 crgo:CRGO_0001016 a owl:ObjectProperty ;
@@ -482,11 +572,14 @@ crgo:CRGO_0001016 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000893 ;
     skos:definition "Relates a policy statement to a training requirement for those it applies to."@en,
         "Relie un énoncé de politique à une exigence de formation pour les personnes visées."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- authorised by risk acceptance
 crgo:CRGO_0001017 a owl:ObjectProperty ;
@@ -496,12 +589,15 @@ crgo:CRGO_0001017 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000031 ;
     skos:definition "Relates a policy exception to the risk acceptance decision that accepts the risk it leaves. A policy exception does not imply a risk acceptance; the link is stated when one was made."@en,
         "Relie une dérogation à la décision d'acceptation du risque qui accepte le risque qu'elle laisse subsister. Une dérogation n'implique pas une acceptation du risque; le lien est indiqué lorsqu'il y en a une."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 7 (no implied risk acceptance)."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review of
 crgo:CRGO_0001018 a owl:ObjectProperty ;
@@ -510,11 +606,14 @@ crgo:CRGO_0001018 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000890 ;
     skos:definition "Relates a directive review to the directive, directive version or policy statement reviewed."@en,
         "Relie une revue de directive à la directive, la version de directive ou l'énoncé de politique revu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- has review trigger
 crgo:CRGO_0001019 a owl:ObjectProperty ;
@@ -524,11 +623,14 @@ crgo:CRGO_0001019 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000927 ;
     skos:definition "Gives what caused a directive review."@en,
         "Indique ce qui a provoqué une revue de directive."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review triggered by
 crgo:CRGO_0001020 a owl:ObjectProperty ;
@@ -537,12 +639,15 @@ crgo:CRGO_0001020 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000890 ;
     skos:definition "Relates a directive review to the regulatory change, incident, finding or other record that caused it."@en,
         "Relie une revue de directive au changement réglementaire, à l'incident, à la constatation ou à tout autre enregistrement qui l'a provoquée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL raisedBy (PolicyChangeEvent)."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- attested by
 crgo:CRGO_0001021 a owl:ObjectProperty ;
@@ -551,13 +656,16 @@ crgo:CRGO_0001021 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000891 ;
     skos:definition "Relates an attestation to the agent who made it."@en,
         "Relie une attestation à l'agent qui l'a faite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Not functional: an attestation may have joint signatories."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- attestation about
 crgo:CRGO_0001022 a owl:ObjectProperty ;
@@ -566,12 +674,15 @@ crgo:CRGO_0001022 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000891 ;
     skos:definition "Relates an attestation to what it declares about, such as an exact policy version or a set of obligations."@en,
         "Relie une attestation à ce sur quoi porte la déclaration, comme une version précise de politique ou un ensemble d'obligations."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- statement text
 crgo:CRGO_0001066 a owl:DatatypeProperty ;
@@ -580,12 +691,15 @@ crgo:CRGO_0001066 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000498 ;
     skos:definition "Gives the wording of an organisation's own policy statement. Never used for the text of a licensed standard."@en,
         "Indique le libellé d'un énoncé de politique de l'organisation. N'est jamais utilisé pour le texte d'une norme sous licence."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Conflict C5; rule R-d."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- retired on
 crgo:CRGO_0001067 a owl:DatatypeProperty,
@@ -596,11 +710,14 @@ crgo:CRGO_0001067 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a directive version ceased to be in effect."@en,
         "Indique quand une version de directive a cessé d'être en vigueur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review due on
 crgo:CRGO_0001068 a owl:DatatypeProperty ;
@@ -609,13 +726,16 @@ crgo:CRGO_0001068 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives the date by which a directive or directive version must next be reviewed, as last recorded."@en,
         "Indique la date à laquelle une directive ou une version de directive doit faire l'objet de sa prochaine revue, selon le dernier enregistrement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "xsd:dateTime rather than xsd:date (conflict C4, ADR-006). Not functional in OWL, so that a moved date does not make data inconsistent; the latest value is selected by queries."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-53 Rev. 5, control PL-1 (Policy and Procedures) and the -1 controls of each family"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review interval (months)
 crgo:CRGO_0001069 a owl:DatatypeProperty,
@@ -625,12 +745,15 @@ crgo:CRGO_0001069 a owl:DatatypeProperty,
     rdfs:range xsd:nonNegativeInteger ;
     skos:definition "Gives the number of months between scheduled reviews of a directive."@en,
         "Indique le nombre de mois entre les revues planifiées d'une directive."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-53 Rev. 5, control PL-1 (Policy and Procedures) and the -1 controls of each family"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- attested on
 crgo:CRGO_0001070 a owl:DatatypeProperty,
@@ -641,12 +764,15 @@ crgo:CRGO_0001070 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an attestation was made."@en,
         "Indique quand une attestation a été faite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- attestation scope
 crgo:CRGO_0001071 a owl:DatatypeProperty ;
@@ -655,11 +781,14 @@ crgo:CRGO_0001071 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000891 ;
     skos:definition "States the scope and period an attestation covers and what it is based on."@en,
         "Indique le périmètre et la période que couvre une attestation et ce sur quoi elle se fonde."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 crgo:crgo-policy a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -695,12 +824,15 @@ crgo:CRGO_0000885 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A named grouping of related directives, such as all the documents on access control, used to find the policies, standards and procedures that cover the same subject."@en,
         "Regroupement nommé de directives apparentées, comme l'ensemble des documents sur le contrôle d'accès, servant à repérer les politiques, normes et procédures qui portent sur un même sujet."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 4 (PolicyFamily); needed by POL CQ03 and CQ08."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- training requirement
 crgo:CRGO_0000893 a owl:Class ;
@@ -709,12 +841,15 @@ crgo:CRGO_0000893 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive that persons in a stated role or scope complete stated training, usually because a policy statement applies to them. Completing training is not the same as acknowledging or complying."@en,
         "Directive exigeant que les personnes d'un rôle ou d'un périmètre précisés suivent une formation donnée, généralement parce qu'un énoncé de politique s'applique à elles. Suivre la formation ne revient ni à prendre connaissance de la politique ni à la respecter."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL sections 4-5 (TrainingRequirement, requiresTraining); decision D7."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- policy clause
 crgo:CRGO_0000888 a owl:Class ;
@@ -723,12 +858,15 @@ crgo:CRGO_0000888 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A numbered or titled part of a directive version that contains one or more policy statements, used to cite where a statement appears."@en,
         "Partie numérotée ou titrée d'une version de directive qui contient un ou plusieurs énoncés de politique, servant à citer l'emplacement d'un énoncé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 4 (PolicyClause). Optional in data: a statement may be cited by its own identifier."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- directive review
 crgo:CRGO_0000890 a owl:Class ;
@@ -738,7 +876,7 @@ crgo:CRGO_0000890 a owl:Class ;
     skos:altLabel "policy review"@en ;
     skos:definition "A planned act in which a directive or some of its statements are reviewed, on schedule or after a trigger such as a regulatory change, an incident or an audit finding, ending in a decision to keep, revise or retire them."@en,
         "Acte planifié par lequel une directive ou certains de ses énoncés sont revus, selon le calendrier ou à la suite d'un déclencheur comme un changement réglementaire, un incident ou une constatation d'audit, et qui aboutit à la décision de les maintenir, de les réviser ou de les retirer."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 4 (PolicyReview, PolicyChangeEvent); CSF 2.0 GV.PO-02; SP 800-53 PL-1 (review and update frequency); ISO/IEC 27002:2022 control 5.1 (cited by number)."@en ;
     crgo:CRGO_0000286 "ISO/IEC 27002:2022, control 5.1 (Policies for information security); identifier cited"@en,
@@ -746,7 +884,10 @@ crgo:CRGO_0000890 a owl:Class ;
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en,
         "NIST SP 800-53 Rev. 5, control PL-1 (Policy and Procedures) and the -1 controls of each family"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- normative modality scheme
 crgo:CRGO_0000914 a owl:NamedIndividual,
@@ -755,11 +896,14 @@ crgo:CRGO_0000914 a owl:NamedIndividual,
         "schéma : modalité normative"@fr ;
     skos:definition "Concept scheme of the normative modality value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « modalité normative »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- attestation
 crgo:CRGO_0000891 a owl:Class ;
@@ -769,14 +913,17 @@ crgo:CRGO_0000891 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000346 ;
     skos:definition "A dated declaration by an identified agent about a stated subject and scope, such as having read a policy version or that a requirement is met. It records what the agent declares, not what was verified."@en,
         "Déclaration datée d'un agent identifié portant sur un objet et un périmètre précisés, comme le fait d'avoir lu une version de politique ou le fait qu'une exigence soit respectée. Elle consigne ce que l'agent déclare, et non ce qui a été vérifié."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Improvement I2: common parent of policy acknowledgement and compliance attestation; disjoint from compliance determination and audit conclusion."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- directive version
 crgo:CRGO_0000886 a owl:Class ;
@@ -786,13 +933,16 @@ crgo:CRGO_0000886 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000507 ;
     skos:definition "A fixed release of a policy, technical standard, procedure, guideline, audit charter or methodology, identified by a version label, with its approval, effective and retirement dates. Once effective its content does not change; a change makes a new version."@en,
         "Diffusion figée d'une politique, d'une norme technique, d'une procédure, d'une ligne directrice, d'une charte ou d'une méthodologie d'audit, désignée par un libellé de version, avec ses dates d'approbation, d'entrée en vigueur et de retrait. Une fois en vigueur, son contenu ne change plus; toute modification crée une nouvelle version."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision D4: one version class for all directives (POL PolicyVersion generalised). Distinct from instrument version, which is a version of a legal instrument."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- normative modality
 crgo:CRGO_0000913 a owl:Class ;
@@ -801,12 +951,15 @@ crgo:CRGO_0000913 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How binding a policy statement is."@en,
         "Degré de contrainte d'un énoncé de politique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- directive lifecycle state scheme
 crgo:CRGO_0000920 a owl:NamedIndividual,
@@ -815,12 +968,15 @@ crgo:CRGO_0000920 a owl:NamedIndividual,
         "schéma : état du cycle de vie d'une directive"@fr ;
     skos:definition "Concept scheme of the directive lifecycle state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état du cycle de vie d'une directive »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review trigger scheme
 crgo:CRGO_0000928 a owl:NamedIndividual,
@@ -829,12 +985,15 @@ crgo:CRGO_0000928 a owl:NamedIndividual,
         "schéma : déclencheur de revue"@fr ;
     skos:definition "Concept scheme of the review trigger value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « déclencheur de revue »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- directive lifecycle state
 crgo:CRGO_0000919 a owl:Class ;
@@ -843,13 +1002,16 @@ crgo:CRGO_0000919 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of a directive version in the organisation's document lifecycle. Not the governance status of a CRGO term."@en,
         "État d'une version de directive dans le cycle de vie documentaire de l'organisation. Ce n'est pas le statut de gouvernance d'un terme de CRGO."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 # --- review trigger
 crgo:CRGO_0000927 a owl:Class ;
@@ -858,13 +1020,16 @@ crgo:CRGO_0000927 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "What caused a directive review."@en,
         "Ce qui a provoqué une revue de directive."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en,
         "NIST CSF 2.0 (CSWP 29), category GV.PO (Policy), subcategories GV.PO-01 and GV.PO-02"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 1 (\"I'll follow your recommendations for all the decisions\", 19:26)"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000586 crgo:CRGO_0000592 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0000913 crgo:CRGO_0000919 crgo:CRGO_0000927 crgo:CRGO_0000985 crgo:CRGO_0000994 ) .

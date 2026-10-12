@@ -449,3 +449,11 @@ contracts/dss-v1	Approve	MAL	2026-10-11	GRCA review item 11
 tests/grca	Approve	MAL	2026-10-11	GRCA review item 12
 w3id/pr-6862-grca-rules	Approve	MAL	2026-10-11	GRCA review item 13 (commit pushed to the fork branch of PR #6862)
 phase0/0.10.0-pca	Approve	MAL	2026-10-12	D1-D14 of docs/baseline/policy_compliance_audit_phase0.md as recommended; D12: ISO 37301:2021/Amd 1:2024 supplied
+terms/policy	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 1 ("I'll follow your recommendations for all the decisions", 19:26)
+terms/compliance	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 2
+terms/audit	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 3 (0.10.0 additions)
+terms/mapping	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 4 (0.10.0 additions)
+terms/grc	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 5 (values added to instrument kind and condition kind)
+terms/assurance	Approve	MAL	2026-10-12	scope: up to CRGO_0001096 (the terms that existed when approved); P1 review group 5 (values added to sufficiency conclusion)
+changes/0.10.0	Approve	MAL	2026-10-12	P1 review group 6: changes to approved terms beyond D9 (reopens finding, version label, audit finding, policy statement, legal instrument, compliance determination)
+sources/records-pca	Approve	MAL	2026-10-12	P1 review group 7: source record ISO 37301:2021/Amd 1:2024

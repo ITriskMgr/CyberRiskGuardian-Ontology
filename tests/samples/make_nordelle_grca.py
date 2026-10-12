@@ -51,7 +51,7 @@ g.add((o, RDF.type, OWL.Ontology)); g.add((o, OWL.imports, URIRef("https://examp
 g.add((o, URIRef("http://purl.org/vocab/vann/preferredNamespaceUri"), Literal(str(N))))  # organisation base, declared (ADR-008)
 for v in ("legal", "loi25", "gdpr", "sp800-53r5", "sp800-53a"):
     g.add((o, OWL.imports, URIRef(BASE + "vocab/" + v)))
-g.add((o, RDFS.label, Literal("Nordelle Market inc. - SYNTHETIC governance, audit, assurance and incident data for CRGO 0.9.0", lang="en")))
+g.add((o, RDFS.label, Literal("Nordelle Market inc. - SYNTHETIC governance, audit, assurance and incident data for CRGO 0.9.0 and 0.10.0", lang="en")))
 g.add((o, DCTERMS.type, Literal("synthetic test data")))
 dt = lambda d: Literal(d + "T00:00:00", datatype=XSD.dateTime)
 dec = lambda x: Literal(str(x), datatype=XSD.decimal)
@@ -118,6 +118,16 @@ ps_restore = ind("policy/infosec/restore-tests", "PolicyStatement", "Backups of 
                  statementOfPolicy=pol, derivedFromRequirement=[concept("loi25", "P-39.1 s. 10"), concept("sp800-53r5", "CP-9"), concept("sp800-53r5", "CP-4")])
 ps_edr = ind("policy/infosec/edr", "PolicyStatement", "Endpoint detection and response runs on every server", statementOfPolicy=pol,
              derivedFromRequirement=[concept("sp800-53r5", "SI-4"), concept("loi25", "P-39.1 s. 10")])
+# 0.10.0: the policy document has versions; statements belong to an exact version and state their modality (POL section 8)
+pv3 = ind("policy-version/infosec-3", "PolicyVersion", "Nordelle information security policy, version 3", versionOfDirective=pol, versionLabel=Literal("3"),
+          hasLifecycleState=T("LifePublished"), effectiveOn=dt("2026-02-01"), reviewDueOn=dt("2027-02-01"), reviewIntervalMonths=nni(12))
+pv2 = ind("policy-version/infosec-2", "PolicyVersion", "Nordelle information security policy, version 2", versionOfDirective=pol2, versionLabel=Literal("2"),
+          hasLifecycleState=T("LifeSuperseded"), effectiveOn=dt("2024-02-01"), retiredOn=dt("2026-01-31"))
+add(pv3, "supersedes", pv2)
+ind("decision/approve-infosec-3", "DecisionRecord", "Board approves version 3 of the information security policy", decisionOn=pv3, decisionMadeBy=board,
+    hasDecisionOutcome=T("DecApproved"), decidedOn=dt("2026-01-20"))
+for st in (ps_restore, ps_edr):
+    add(st, "statementInVersion", pv3); add(st, "hasNormativeModality", T("ModalityMust"))
 std = ind("standard/backup", "TechnicalStandard", "Backup standard: daily backups, 30-day retention, offline copy weekly (fictional)")
 add(ps_restore, "specifiedByStandard", std)
 procd = ind("procedure/restore-test", "Procedure", "Restore test procedure (fictional)"); add(ps_restore, "implementedByProcedure", procd)

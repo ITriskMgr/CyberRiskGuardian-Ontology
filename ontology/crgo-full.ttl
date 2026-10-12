@@ -10,6 +10,8 @@
         <https://w3id.org/crgo/data/library>,
         <https://w3id.org/crgo/data/workprogrammes>,
         <https://w3id.org/crgo/vocab/attack>,
+        <https://w3id.org/crgo/vocab/attack-detection>,
+        <https://w3id.org/crgo/vocab/ocsf>,
         <https://w3id.org/crgo/vocab/ccm41>,
         <https://w3id.org/crgo/vocab/cobit2019>,
         <https://w3id.org/crgo/vocab/csf2>,

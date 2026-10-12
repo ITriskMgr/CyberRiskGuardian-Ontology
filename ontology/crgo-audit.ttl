@@ -1046,11 +1046,14 @@ crgo:CRGO_0000813 a owl:ObjectProperty ;
     skos:definition "Relates a finding reopening to the audit finding or nonconformity it reopens."@en,
         "Relie une réouverture de constatation à la constatation d'audit ou à la non-conformité qu'elle rouvre."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "P1 review group 6: changes to approved terms beyond D9 (reopens finding, version label, audit finding, policy statement, legal instrument, compliance determination)"@en .
 
 # --- illustrative only
 crgo:CRGO_0000864 a owl:DatatypeProperty,
@@ -1297,13 +1300,16 @@ crgo:CRGO_0000907 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive that sets how an audit function plans, performs and reports engagements, including its sampling and rating rules, identified by version."@en,
         "Directive qui fixe la façon dont une fonction d'audit planifie, réalise et communique ses missions, y compris ses règles d'échantillonnage et de cotation, désignée par sa version."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD section 5 (AuditMethodology); GIAS Standard 9.3 (cited by number)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 crgo:CRGO_0000912 owl:disjointWith crgo:CRGO_0000346 .
 
@@ -1316,12 +1322,15 @@ crgo:CRGO_0000962 a owl:NamedIndividual,
         "Donne une opinion ou une conclusion sur la gouvernance, la gestion des risques ou le contrôle."@fr ;
     skos:inScheme crgo:CRGO_0000961 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- advisory engagement
 crgo:CRGO_0000963 a owl:NamedIndividual,
@@ -1332,12 +1341,15 @@ crgo:CRGO_0000963 a owl:NamedIndividual,
         "Donne des conseils à la demande de la direction; ne donne aucune assurance."@fr ;
     skos:inScheme crgo:CRGO_0000961 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- compliance audit
 crgo:CRGO_0000964 a owl:NamedIndividual,
@@ -1348,12 +1360,15 @@ crgo:CRGO_0000964 a owl:NamedIndividual,
         "Vérifie la conformité à des obligations ou exigences précisées."@fr ;
     skos:inScheme crgo:CRGO_0000961 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- follow-up engagement
 crgo:CRGO_0000965 a owl:NamedIndividual,
@@ -1364,12 +1379,15 @@ crgo:CRGO_0000965 a owl:NamedIndividual,
         "Vérifie l'état et l'efficacité d'actions correctives antérieures."@fr ;
     skos:inScheme crgo:CRGO_0000961 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- engagement planning
 crgo:CRGO_0000968 a owl:NamedIndividual,
@@ -1380,11 +1398,14 @@ crgo:CRGO_0000968 a owl:NamedIndividual,
         "Le périmètre, les objectifs et le programme sont en cours d'établissement."@fr ;
     skos:inScheme crgo:CRGO_0000967 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- fieldwork
 crgo:CRGO_0000969 a owl:NamedIndividual,
@@ -1395,11 +1416,14 @@ crgo:CRGO_0000969 a owl:NamedIndividual,
         "Les procédures sont en cours d'exécution."@fr ;
     skos:inScheme crgo:CRGO_0000967 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- engagement reporting
 crgo:CRGO_0000970 a owl:NamedIndividual,
@@ -1410,11 +1434,14 @@ crgo:CRGO_0000970 a owl:NamedIndividual,
         "Les constatations et conclusions sont en cours de communication."@fr ;
     skos:inScheme crgo:CRGO_0000967 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- engagement closed
 crgo:CRGO_0000971 a owl:NamedIndividual,
@@ -1425,11 +1452,14 @@ crgo:CRGO_0000971 a owl:NamedIndividual,
         "Le rapport est émis et le dossier est clos."@fr ;
     skos:inScheme crgo:CRGO_0000967 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- engagement cancelled
 crgo:CRGO_0000972 a owl:NamedIndividual,
@@ -1440,11 +1470,14 @@ crgo:CRGO_0000972 a owl:NamedIndividual,
         "Arrêtée avant d'être menée à terme."@fr ;
     skos:inScheme crgo:CRGO_0000967 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- proposed (plan entry)
 crgo:CRGO_0000975 a owl:NamedIndividual,
@@ -1455,11 +1488,14 @@ crgo:CRGO_0000975 a owl:NamedIndividual,
         "Mission envisagée, pas encore approuvée."@fr ;
     skos:inScheme crgo:CRGO_0000974 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- approved (plan entry)
 crgo:CRGO_0000976 a owl:NamedIndividual,
@@ -1470,11 +1506,14 @@ crgo:CRGO_0000976 a owl:NamedIndividual,
         "Approuvée dans le cadre du plan."@fr ;
     skos:inScheme crgo:CRGO_0000974 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- deferred (plan entry)
 crgo:CRGO_0000977 a owl:NamedIndividual,
@@ -1485,11 +1524,14 @@ crgo:CRGO_0000977 a owl:NamedIndividual,
         "Reportée à une période ultérieure, avec un motif et un auteur consignés."@fr ;
     skos:inScheme crgo:CRGO_0000974 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- cancelled (plan entry)
 crgo:CRGO_0000978 a owl:NamedIndividual,
@@ -1500,11 +1542,14 @@ crgo:CRGO_0000978 a owl:NamedIndividual,
         "Retirée du plan, avec un motif et un auteur consignés."@fr ;
     skos:inScheme crgo:CRGO_0000974 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- completed (plan entry)
 crgo:CRGO_0000979 a owl:NamedIndividual,
@@ -1515,11 +1560,14 @@ crgo:CRGO_0000979 a owl:NamedIndividual,
         "La mission a été réalisée."@fr ;
     skos:inScheme crgo:CRGO_0000974 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- supervisory review
 crgo:CRGO_0000982 a owl:NamedIndividual,
@@ -1530,12 +1578,15 @@ crgo:CRGO_0000982 a owl:NamedIndividual,
         "Revue des travaux d'une mission par son superviseur."@fr ;
     skos:inScheme crgo:CRGO_0000981 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- internal quality assessment
 crgo:CRGO_0000983 a owl:NamedIndividual,
@@ -1546,12 +1597,15 @@ crgo:CRGO_0000983 a owl:NamedIndividual,
         "Autoévaluation périodique de la fonction d'audit."@fr ;
     skos:inScheme crgo:CRGO_0000981 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- external quality assessment
 crgo:CRGO_0000984 a owl:NamedIndividual,
@@ -1562,12 +1616,15 @@ crgo:CRGO_0000984 a owl:NamedIndividual,
         "Évaluation de la fonction d'audit par un évaluateur indépendant qualifié."@fr ;
     skos:inScheme crgo:CRGO_0000981 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- charter of
 crgo:CRGO_0001046 a owl:ObjectProperty ;
@@ -1578,11 +1635,14 @@ crgo:CRGO_0001046 a owl:ObjectProperty ;
     skos:definition "Relates an audit charter to the audit function it governs."@en,
         "Relie une charte d'audit à la fonction d'audit qu'elle régit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- entry in plan
 crgo:CRGO_0001047 a owl:ObjectProperty ;
@@ -1593,11 +1653,14 @@ crgo:CRGO_0001047 a owl:ObjectProperty ;
     skos:definition "Relates an audit plan entry to the audit plan it belongs to."@en,
         "Relie une entrée du plan d'audit au plan d'audit dont elle fait partie."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- entry for engagement
 crgo:CRGO_0001048 a owl:ObjectProperty ;
@@ -1608,11 +1671,14 @@ crgo:CRGO_0001048 a owl:ObjectProperty ;
     skos:definition "Relates an audit plan entry to the engagement it plans."@en,
         "Relie une entrée du plan d'audit à la mission qu'elle prévoit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- entry for auditable entity
 crgo:CRGO_0001049 a owl:ObjectProperty ;
@@ -1622,11 +1688,14 @@ crgo:CRGO_0001049 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000532 ;
     skos:definition "Relates an audit plan entry to an auditable entity it covers."@en,
         "Relie une entrée du plan d'audit à une entité auditable qu'elle vise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- has plan entry state
 crgo:CRGO_0001050 a owl:ObjectProperty ;
@@ -1637,11 +1706,14 @@ crgo:CRGO_0001050 a owl:ObjectProperty ;
     skos:definition "Gives the state of an audit plan entry."@en,
         "Indique l'état d'une entrée du plan d'audit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- entry informed by
 crgo:CRGO_0001051 a owl:ObjectProperty ;
@@ -1650,13 +1722,16 @@ crgo:CRGO_0001051 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000908 ;
     skos:definition "Relates an audit plan entry to a risk assessment or risk scenario that informed its priority."@en,
         "Relie une entrée du plan d'audit à une appréciation du risque ou à un scénario de risque qui en a éclairé la priorité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD informedByRiskAssessment; GIAS Standard 9.4 (risk-based plan)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- has engagement type
 crgo:CRGO_0001052 a owl:ObjectProperty ;
@@ -1666,12 +1741,15 @@ crgo:CRGO_0001052 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000960 ;
     skos:definition "Gives the nature, and where relevant the focus, of an audit engagement."@en,
         "Indique la nature et, le cas échéant, l'objet d'une mission d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Not functional: one nature (assurance or advisory) and at most one focus (compliance or follow-up); checked by SHACL."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- has engagement state
 crgo:CRGO_0001053 a owl:ObjectProperty ;
@@ -1682,11 +1760,14 @@ crgo:CRGO_0001053 a owl:ObjectProperty ;
     skos:definition "Gives the recorded stage of an audit engagement."@en,
         "Indique l'étape consignée d'une mission d'audit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- follows methodology
 crgo:CRGO_0001054 a owl:ObjectProperty ;
@@ -1694,11 +1775,14 @@ crgo:CRGO_0001054 a owl:ObjectProperty ;
         "suit la méthodologie"@fr ;
     skos:definition "Relates an audit engagement or plan to the audit methodology version it follows."@en,
         "Relie une mission ou un plan d'audit à la version de méthodologie d'audit qu'il suit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- workpaper for
 crgo:CRGO_0001055 a owl:ObjectProperty ;
@@ -1707,11 +1791,14 @@ crgo:CRGO_0001055 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000909 ;
     skos:definition "Relates an audit workpaper to the engagement, procedure or control assessment it documents."@en,
         "Relie une feuille de travail d'audit à la mission, la procédure ou l'évaluation de mesure qu'elle documente."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- prepared by
 crgo:CRGO_0001056 a owl:ObjectProperty ;
@@ -1719,11 +1806,14 @@ crgo:CRGO_0001056 a owl:ObjectProperty ;
         "préparée par"@fr ;
     skos:definition "Relates an audit workpaper or report to an agent who prepared it."@en,
         "Relie une feuille de travail ou un rapport d'audit à un agent qui l'a préparé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- validated as
 crgo:CRGO_0001057 a owl:ObjectProperty ;
@@ -1734,11 +1824,14 @@ crgo:CRGO_0001057 a owl:ObjectProperty ;
     skos:definition "Relates an audit observation to the audit finding it became after validation."@en,
         "Relie une observation d'audit à la constatation d'audit qu'elle est devenue après validation."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- quality review of
 crgo:CRGO_0001058 a owl:ObjectProperty ;
@@ -1747,11 +1840,14 @@ crgo:CRGO_0001058 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000911 ;
     skos:definition "Relates an audit quality review to the engagement, workpaper or audit function reviewed."@en,
         "Relie une revue de qualité de l'audit à la mission, à la feuille de travail ou à la fonction d'audit revue."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- has quality review kind
 crgo:CRGO_0001059 a owl:ObjectProperty ;
@@ -1762,11 +1858,14 @@ crgo:CRGO_0001059 a owl:ObjectProperty ;
     skos:definition "Gives the kind of an audit quality review."@en,
         "Indique le type d'une revue de qualité de l'audit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- priority rationale
 crgo:CRGO_0001084 a owl:DatatypeProperty ;
@@ -1775,11 +1874,14 @@ crgo:CRGO_0001084 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000908 ;
     skos:definition "States why an audit plan entry has its priority, such as the risks and mandatory requirements it addresses."@en,
         "Indique pourquoi une entrée du plan d'audit a sa priorité, comme les risques et les exigences obligatoires qu'elle vise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- deferral reason
 crgo:CRGO_0001085 a owl:DatatypeProperty ;
@@ -1788,11 +1890,14 @@ crgo:CRGO_0001085 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000908 ;
     skos:definition "States why an audit plan entry was deferred or cancelled."@en,
         "Indique pourquoi une entrée du plan d'audit a été reportée ou annulée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- estimated effort (hours)
 crgo:CRGO_0001086 a owl:DatatypeProperty,
@@ -1803,11 +1908,14 @@ crgo:CRGO_0001086 a owl:DatatypeProperty,
     rdfs:range xsd:nonNegativeInteger ;
     skos:definition "Gives the estimated effort of a planned engagement, in hours."@en,
         "Indique l'effort estimé d'une mission prévue, en heures."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- mandatory engagement
 crgo:CRGO_0001087 a owl:DatatypeProperty,
@@ -1818,11 +1926,14 @@ crgo:CRGO_0001087 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States that an audit plan entry is required by law, regulation or the governing body, whatever its risk ranking."@en,
         "Indique qu'une entrée du plan d'audit est exigée par la loi, la réglementation ou l'organe de gouvernance, quel que soit son classement selon le risque."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- sampling seed
 crgo:CRGO_0001088 a owl:DatatypeProperty,
@@ -1833,12 +1944,15 @@ crgo:CRGO_0001088 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the seed or starting point used to select a random or systematic sample, so that the selection can be reproduced."@en,
         "Indique le germe ou le point de départ utilisé pour tirer un échantillon aléatoire ou systématique, pour que la sélection puisse être reproduite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD section 7 (reproducibility)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- report audience
 crgo:CRGO_0001089 a owl:DatatypeProperty ;
@@ -1847,11 +1961,14 @@ crgo:CRGO_0001089 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000543 ;
     skos:definition "States who an audit report is addressed to."@en,
         "Indique à qui s'adresse un rapport d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- prepared on
 crgo:CRGO_0001090 a owl:DatatypeProperty,
@@ -1862,11 +1979,14 @@ crgo:CRGO_0001090 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an audit workpaper was completed by its preparer."@en,
         "Indique quand une feuille de travail d'audit a été terminée par son auteur."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 crgo:crgo-audit a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -1940,13 +2060,16 @@ crgo:CRGO_0000905 a owl:Class ;
         "fonction d'audit interne"@fr ;
     skos:definition "The group of agents in an organisation that performs internal audit under a charter, led by the chief audit executive."@en,
         "Groupe d'agents d'une organisation qui exerce l'audit interne en vertu d'une charte, sous la direction du responsable de l'audit interne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD section 5; GIAS Domain III (cited by number). The function is the unit; the chief audit executive role is held within it."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit charter
 crgo:CRGO_0000906 a owl:Class ;
@@ -1957,13 +2080,16 @@ crgo:CRGO_0000906 a owl:Class ;
         "charte d'audit interne"@fr ;
     skos:definition "A directive approved by the governing body that sets the internal audit function's purpose, authority, responsibilities and reporting lines."@en,
         "Directive approuvée par l'organe de gouvernance qui fixe la mission, les pouvoirs, les responsabilités et les liens hiérarchiques de la fonction d'audit interne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD section 5; GIAS Standard 6.2 (cited by number). Versioned through directive versions."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit observation
 crgo:CRGO_0000910 a owl:Class ;
@@ -1973,13 +2099,16 @@ crgo:CRGO_0000910 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000541 ;
     skos:definition "A preliminary record of a condition noted during an engagement that has not yet been validated against criteria and evidence. It is not a finding and carries no audit conclusion."@en,
         "Enregistrement préliminaire d'une situation relevée pendant une mission, qui n'a pas encore été validée au regard des critères et des preuves. Ce n'est pas une constatation et elle ne porte aucune conclusion d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision D8: disjoint from audit finding; a validated observation is linked to the finding it became."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit plan
 crgo:CRGO_0000533 a owl:Class ;
@@ -2103,14 +2232,17 @@ crgo:CRGO_0000909 a owl:Class ;
         "dossier de travail"@fr ;
     skos:definition "A record prepared by an auditor that documents work performed, evidence examined and conclusions reached in an engagement, with who prepared it and who reviewed it. CRGO holds its metadata, not its content."@en,
         "Document établi par un auditeur qui consigne les travaux effectués, les preuves examinées et les conclusions tirées dans une mission, avec son auteur et son réviseur. CRGO en conserve les métadonnées, et non le contenu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD sections 5 and 9 (self-review check); GIAS Standard 14.6 (Engagement Documentation); ITAF 1204 (Performance and Supervision); cited by number."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISACA IT Audit Framework (ITAF), 5th edition (copyright 2026 ISACA); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit quality review
 crgo:CRGO_0000911 a owl:Class ;
@@ -2119,13 +2251,16 @@ crgo:CRGO_0000911 a owl:Class ;
     rdfs:subClassOf cco:ont00000228 ;
     skos:definition "A planned act in which the work of an engagement or of the audit function is evaluated against its methodology and the standards it follows, by a supervisor, an internal quality assessor or an external assessor."@en,
         "Acte planifié par lequel les travaux d'une mission ou de la fonction d'audit sont évalués au regard de sa méthodologie et des normes qu'elle suit, par un superviseur, un évaluateur interne de la qualité ou un évaluateur externe."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD section 5; GIAS Standards 8.3-8.4, 12.1 and 12.3 (cited by number)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- evidence request
 crgo:CRGO_0000539 a owl:Class ;
@@ -2237,12 +2372,15 @@ crgo:CRGO_0000981 a owl:NamedIndividual,
         "schéma : type de revue de qualité"@fr ;
     skos:definition "Concept scheme of the quality review kind value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de revue de qualité »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- auditable entity
 crgo:CRGO_0000532 a owl:Class ;
@@ -2353,12 +2491,15 @@ crgo:CRGO_0000961 a owl:NamedIndividual,
         "schéma : type de mission"@fr ;
     skos:definition "Concept scheme of the engagement type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de mission »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- engagement rating
 crgo:CRGO_0000663 a owl:Class ;
@@ -2418,11 +2559,14 @@ crgo:CRGO_0000967 a owl:NamedIndividual,
         "schéma : état de la mission"@fr ;
     skos:definition "Concept scheme of the engagement state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de la mission »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- plan entry state scheme
 crgo:CRGO_0000974 a owl:NamedIndividual,
@@ -2431,11 +2575,14 @@ crgo:CRGO_0000974 a owl:NamedIndividual,
         "schéma : état de l'entrée du plan"@fr ;
     skos:definition "Concept scheme of the plan entry state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de l'entrée du plan »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- quality review kind
 crgo:CRGO_0000980 a owl:Class ;
@@ -2444,13 +2591,16 @@ crgo:CRGO_0000980 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of an audit quality review."@en,
         "Type d'une revue de qualité de l'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit procedure
 crgo:CRGO_0000535 a owl:Class ;
@@ -2511,13 +2661,16 @@ crgo:CRGO_0000960 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of an audit engagement: its nature (assurance or advisory) and, where relevant, its focus (compliance or follow-up). An engagement may have one nature and one focus."@en,
         "Type d'une mission d'audit : sa nature (assurance ou conseil) et, le cas échéant, son objet (conformité ou suivi). Une mission peut avoir une nature et un objet."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- corrective action status
 crgo:CRGO_0000674 a owl:Class ;
@@ -2543,12 +2696,15 @@ crgo:CRGO_0000966 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The recorded stage of an audit engagement."@en,
         "Étape consignée d'une mission d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- plan entry state
 crgo:CRGO_0000973 a owl:Class ;
@@ -2557,12 +2713,15 @@ crgo:CRGO_0000973 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of an audit plan entry."@en,
         "État d'une entrée du plan d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit engagement
 crgo:CRGO_0000536 a owl:Class ;
@@ -2590,13 +2749,16 @@ crgo:CRGO_0000908 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "An entry of an audit plan for one candidate or planned engagement, with its priority rationale, its state (proposed, approved, deferred, cancelled or completed) and, when deferred or cancelled, the reason and who authorised it."@en,
         "Entrée d'un plan d'audit pour une mission envisagée ou prévue, avec la justification de sa priorité, son état (proposée, approuvée, reportée, annulée ou réalisée) et, en cas de report ou d'annulation, le motif et l'auteur de l'autorisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "AUD sections 5 and 7; needed by AUD CQ-09 (changes between plan versions and who authorised deferrals)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 3 (0.10.0 additions)"@en .
 
 # --- audit finding
 crgo:CRGO_0000541 a owl:Class ;
@@ -2607,14 +2769,17 @@ crgo:CRGO_0000541 a owl:Class ;
     skos:changeNote "0.10.0 (decision D8, 2026-10-12): alternative label 'audit observation' removed; audit observation is now a separate class, disjoint from audit finding."@en ;
     skos:definition "A record, made in an audit engagement, of the difference between a criterion and the condition found, with its observed or hypothesised cause, its effect, its significance and the evidence relied on."@en,
         "Enregistrement, établi dans une mission d'audit, de l'écart entre un critère et la situation constatée, avec sa cause observée ou présumée, son effet, son importance et les preuves retenues."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GIAS Standards 14.2-14.3; ISO 19011:2018 clause 6.4."@en ;
     crgo:CRGO_0000286 "CRGO Governance, Risk, Compliance and Assurance (GRCA) Audit: Claude Implementation Specification (project owner, v1.0, 2026-10-11)"@en,
         "IIA Global Internal Audit Standards (published 2024-01-09); identifiers and titles cited, text not reproduced"@en,
         "ISO 19011:2018, Guidelines for auditing management systems (3rd edition, 2018-07); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "P1 review group 6: changes to approved terms beyond D9 (reopens finding, version label, audit finding, policy statement, legal instrument, compliance determination)"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000586 crgo:CRGO_0000592 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0000614 crgo:CRGO_0000619 crgo:CRGO_0000624 crgo:CRGO_0000630 crgo:CRGO_0000639 crgo:CRGO_0000645 crgo:CRGO_0000652 crgo:CRGO_0000657 crgo:CRGO_0000663 crgo:CRGO_0000668 crgo:CRGO_0000674 crgo:CRGO_0000681 crgo:CRGO_0000913 crgo:CRGO_0000919 crgo:CRGO_0000927 crgo:CRGO_0000936 crgo:CRGO_0000941 crgo:CRGO_0000947 crgo:CRGO_0000951 crgo:CRGO_0000960 crgo:CRGO_0000966 crgo:CRGO_0000973 crgo:CRGO_0000980 crgo:CRGO_0000985 crgo:CRGO_0000994 ) .

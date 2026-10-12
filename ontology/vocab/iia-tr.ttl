@@ -1050,7 +1050,7 @@ iia-tr:TR-THIRD-PARTY-CTL a skos:Concept ;
     dcterms:source "IIA Topical Requirements and user guides (data/frameworks/grca/iia_topical.tsv)" ;
     dcterms:title "IIA Topical Requirements: cybersecurity, third-party and organizational behavior"@en,
         "Exigences thématiques de l'IIA : cybersécurité, tiers et comportement organisationnel"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iia-tr> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/iia-tr> ;
     owl:versionInfo "Cybersecurity (2025-02), Third-Party (2025-09), Organizational Behavior (2025-12)" ;
     skos:hasTopConcept iia-tr:TR-CYBER,
         iia-tr:TR-ORGBEHAV,

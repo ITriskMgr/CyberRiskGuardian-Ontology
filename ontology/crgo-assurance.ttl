@@ -1389,11 +1389,14 @@ crgo:CRGO_0001003 a owl:NamedIndividual,
         "Les preuves permettent de conclure seulement sous réserve de limites précisées."@fr ;
     skos:inScheme crgo:CRGO_0000625 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 5 (values added to sufficiency conclusion)"@en .
 
 # --- unavailable
 crgo:CRGO_0001004 a owl:NamedIndividual,
@@ -1404,11 +1407,14 @@ crgo:CRGO_0001004 a owl:NamedIndividual,
         "Les preuves nécessaires n'ont pu être obtenues."@fr ;
     skos:inScheme crgo:CRGO_0000625 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 5 (values added to sufficiency conclusion)"@en .
 
 crgo:crgo-assurance a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,

@@ -13,6 +13,8 @@
 
 <https://w3id.org/crgo/vocab/attack> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> .
 
+<https://w3id.org/crgo/vocab/attack-detection> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> .
+
 <https://w3id.org/crgo/vocab/capec> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-capec-3.9> .
 
 <https://w3id.org/crgo/vocab/ccm41> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/csa-ccm-4.1> .
@@ -66,6 +68,8 @@
         <https://w3id.org/crgo/vocab/sources/nist-olir-80053-27001>,
         <https://w3id.org/crgo/vocab/sources/nist-sp800-53a-r5> .
 
+<https://w3id.org/crgo/vocab/ocsf> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ocsf-1.9.0> .
+
 <https://w3id.org/crgo/vocab/osfi-b13> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/osfi-b13> .
 
 <https://w3id.org/crgo/vocab/pipeda> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ca-pipeda> .
@@ -76,8 +80,8 @@
     dcterms:title "CRGO source records"@en,
         "Notices de source de CRGO"@fr ;
     owl:imports crgo:crgo ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/sources> ;
-    owl:versionInfo "0.9.0" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/sources> ;
+    owl:versionInfo "0.10.0" .
 
 <https://w3id.org/crgo/vocab/sources/bfo-2020> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
@@ -85,7 +89,7 @@
     crgo:CRGO_0000250 "bfo-2020" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -106,7 +110,7 @@
     crgo:CRGO_0000250 "cco-2.2" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -127,7 +131,7 @@
     crgo:CRGO_0000250 "coso-erm-2017-presentation" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -141,6 +145,24 @@
     crgo:CRGO_0000456 "not the framework: shows the 2016 exposure draft (23 principles)" ;
     crgo:CRGO_0000699 crgo:CRGO_0000570 .
 
+<https://w3id.org/crgo/vocab/sources/first-tlp-2.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Traffic Light Protocol (TLP) version 2.0"@en ;
+    crgo:CRGO_0000250 "first-tlp-2.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2.0" ;
+    crgo:CRGO_0000451 "https://www.first.org/tlp/" ;
+    crgo:CRGO_0000452 "FIRST" ;
+    crgo:CRGO_0000453 "(c) FIRST; labels cited" ;
+    crgo:CRGO_0000454 "the five labels, with CRGO paraphrases of their meaning" ;
+    crgo:CRGO_0000456 "page read (version, labels); exact publication day not stated" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/isaca-itaf-cobit-dtef> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "ITAF, COBIT and DTEF mappings (workbook)"@en ;
@@ -148,7 +170,7 @@
     crgo:CRGO_0000250 "isaca-itaf-cobit-dtef" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -169,7 +191,7 @@
     crgo:CRGO_0000250 "iso-27005-31000-sp80030" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -182,6 +204,96 @@
     crgo:CRGO_0000456 "ISO clause numbers marked 'to verify against the licensed text'" ;
     crgo:CRGO_0000699 crgo:CRGO_0000569 .
 
+<https://w3id.org/crgo/vocab/sources/nist-sp800-61r3> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile"@en ;
+    rdfs:comment "SIEM/SOAR specifications, references"@en ;
+    crgo:CRGO_0000250 "nist-sp800-61r3" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "Revision 3 (April 2025)" ;
+    crgo:CRGO_0000451 "https://doi.org/10.6028/NIST.SP.800-61r3" ;
+    crgo:CRGO_0000452 "NIST" ;
+    crgo:CRGO_0000453 "US Government work (17 U.S.C. 105)" ;
+    crgo:CRGO_0000454 "cited; no text reproduced" ;
+    crgo:CRGO_0000456 "publication page read (title, date, DOI, authors)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/oasis-cacao-2.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CACAO Security Playbooks Version 2.0"@en ;
+    crgo:CRGO_0000250 "oasis-cacao-2.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "Committee Specification 01" ;
+    crgo:CRGO_0000451 "https://docs.oasis-open.org/cacao/security-playbooks/v2.0/security-playbooks-v2.0.html" ;
+    crgo:CRGO_0000452 "OASIS" ;
+    crgo:CRGO_0000453 "OASIS IPR policy; specification freely available" ;
+    crgo:CRGO_0000454 "cited: playbook, workflow step types" ;
+    crgo:CRGO_0000456 "specification page read (title, stage, date, step types)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/oasis-stix-2.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "STIX Version 2.1 (with Errata 01)"@en ;
+    crgo:CRGO_0000250 "oasis-stix-2.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2.1, Errata 01 (2025-04-02)" ;
+    crgo:CRGO_0000451 "https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html" ;
+    crgo:CRGO_0000452 "OASIS" ;
+    crgo:CRGO_0000453 "OASIS IPR policy; specification freely available" ;
+    crgo:CRGO_0000454 "cited: indicator, confidence 0-100" ;
+    crgo:CRGO_0000456 "specification page read (title, stage, date, confidence range)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/otel-logs> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "OpenTelemetry logs data model"@en ;
+    crgo:CRGO_0000250 "otel-logs" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000450 "not pinned (cited only)" ;
+    crgo:CRGO_0000451 "https://opentelemetry.io/docs/specs/otel/logs/" ;
+    crgo:CRGO_0000452 "OpenTelemetry (CNCF)" ;
+    crgo:CRGO_0000453 "Apache License 2.0" ;
+    crgo:CRGO_0000454 "cited only (decision S11)" ;
+    crgo:CRGO_0000456 "not read; cited from the specification's reference list" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000568 .
+
+<https://w3id.org/crgo/vocab/sources/sigma-spec-2.1.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Sigma rules specification"@en ;
+    crgo:CRGO_0000250 "sigma-spec-2.1.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "v2.1.0" ;
+    crgo:CRGO_0000451 "https://github.com/SigmaHQ/sigma-specification" ;
+    crgo:CRGO_0000452 "SigmaHQ" ;
+    crgo:CRGO_0000453 "see repository licence" ;
+    crgo:CRGO_0000454 "cited by name only" ;
+    crgo:CRGO_0000456 "release page read (version and date)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/uk-gdpr> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "UK General Data Protection Regulation (legislation.gov.uk)"@en ;
@@ -189,7 +301,7 @@
     crgo:CRGO_0000250 "uk-gdpr" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -217,7 +329,7 @@
     crgo:CRGO_0000250 "aicpa-tsc-2017" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -239,7 +351,7 @@
     crgo:CRGO_0000250 "ca-pipeda" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -261,7 +373,7 @@
     crgo:CRGO_0000250 "cobit-2019" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -281,7 +393,7 @@
     crgo:CRGO_0000250 "coso-erm-2017" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -302,7 +414,7 @@
     crgo:CRGO_0000250 "crg-2023-scenarios" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -324,7 +436,7 @@
     crgo:CRGO_0000250 "csa-ccm-4.1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -344,7 +456,7 @@
     crgo:CRGO_0000250 "ctid-mappings" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -367,7 +479,7 @@
     crgo:CRGO_0000250 "eu-gdpr" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -389,7 +501,7 @@
     crgo:CRGO_0000250 "first-epss" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -411,7 +523,7 @@
     crgo:CRGO_0000250 "iia-gias-2024" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -433,7 +545,7 @@
     crgo:CRGO_0000250 "iia-tr-cyber" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -456,7 +568,7 @@
     crgo:CRGO_0000250 "iia-tr-orgbehav" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -478,7 +590,7 @@
     crgo:CRGO_0000250 "iia-tr-third-party" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -501,7 +613,7 @@
     crgo:CRGO_0000250 "isaca-itaf-5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -524,7 +636,7 @@
     crgo:CRGO_0000250 "iso-19011-2018" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -545,7 +657,7 @@
     crgo:CRGO_0000250 "iso-37301-2021" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -565,11 +677,13 @@
     rdfs:label "ISO 37301:2021/Amd 1:2024 Compliance management systems: requirements with guidance for use. Amendment 1: Climate action changes (French edition, corrected version 2024-09)"@en ;
     rdfs:comment "Supplied by the project owner on 2026-10-12 (decision D12 of 0.10.0 Phase 0)."@en ;
     crgo:CRGO_0000250 "iso-37301-2021-amd1-2024" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
     crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
     crgo:CRGO_0000450 "Amendment 1, 2024-02; corrected version 2024-09" ;
     crgo:CRGO_0000451 "ISO 37301:2021/Amd.1:2024(fr)" ;
@@ -586,7 +700,7 @@
     crgo:CRGO_0000250 "iso-37302-2025" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -608,7 +722,7 @@
     crgo:CRGO_0000250 "iso-iec-27002-2022" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -627,7 +741,7 @@
     crgo:CRGO_0000250 "iso-iec-27007-2020" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -649,7 +763,7 @@
     crgo:CRGO_0000250 "iso-iec-ts-27008-2019" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -664,28 +778,6 @@
     crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
     crgo:CRGO_0000699 crgo:CRGO_0000569 .
 
-<https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> a owl:NamedIndividual,
-        crgo:CRGO_0000337 ;
-    rdfs:label "ATT&CK Enterprise, STIX"@en ;
-    rdfs:comment "873 concepts incl. 161 deprecated or revoked; groups, software and campaigns not imported"@en ;
-    crgo:CRGO_0000250 "mitre-attack-19.2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
-    crgo:CRGO_0000450 "19.2" ;
-    crgo:CRGO_0000451 "https://github.com/mitre-attack/attack-stix-data" ;
-    crgo:CRGO_0000452 "MITRE" ;
-    crgo:CRGO_0000453 "ATT&CK Terms of Use" ;
-    crgo:CRGO_0000454 "names and descriptions reproduced with attribution" ;
-    crgo:CRGO_0000455 "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4" ;
-    crgo:CRGO_0000456 "verified against file" ;
-    crgo:CRGO_0000699 crgo:CRGO_0000567 .
-
 <https://w3id.org/crgo/vocab/sources/mitre-cwe-via-d3fend> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "CWE weaknesses as carried in D3FEND 1.6.0"@en ;
@@ -693,7 +785,7 @@
     crgo:CRGO_0000250 "mitre-cwe-via-d3fend" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -715,7 +807,7 @@
     crgo:CRGO_0000250 "nist-cprt-csf" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -738,7 +830,7 @@
     crgo:CRGO_0000250 "nist-csf-2.0" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -760,7 +852,7 @@
     crgo:CRGO_0000250 "nist-csf-2.0-fr" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -782,7 +874,7 @@
     crgo:CRGO_0000250 "nist-csf11-80053" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -804,7 +896,7 @@
     crgo:CRGO_0000250 "nist-olir-80053-27001" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -826,7 +918,7 @@
     crgo:CRGO_0000250 "nist-sp800-53r5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -841,6 +933,24 @@
     crgo:CRGO_0000456 "verified against file" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
 
+<https://w3id.org/crgo/vocab/sources/ocsf-1.9.0> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Open Cybersecurity Schema Framework schema"@en ;
+    crgo:CRGO_0000250 "ocsf-1.9.0" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000449 "2026-10-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1.9.0 (git tag)" ;
+    crgo:CRGO_0000451 "https://github.com/ocsf/ocsf-schema" ;
+    crgo:CRGO_0000452 "OCSF project" ;
+    crgo:CRGO_0000453 "Apache License 2.0" ;
+    crgo:CRGO_0000454 "category and event-class identifiers, captions and descriptions, with attribution" ;
+    crgo:CRGO_0000456 "schema files read (categories.json, events/)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/osfi-b13> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "Guideline B-13 Technology and Cyber Risk Management"@en ;
@@ -848,7 +958,7 @@
     crgo:CRGO_0000250 "osfi-b13" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -871,7 +981,7 @@
     crgo:CRGO_0000250 "qc-a-2.1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -894,7 +1004,7 @@
     crgo:CRGO_0000250 "qc-p-39.1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -921,7 +1031,7 @@
     crgo:CRGO_0000250 "qc-r-22.1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -946,7 +1056,7 @@
     crgo:CRGO_0000250 "teaching-cases" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -966,7 +1076,7 @@
     crgo:CRGO_0000250 "vcdb" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -988,7 +1098,7 @@
     crgo:CRGO_0000250 "cisa-kev" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -1003,6 +1113,28 @@
     crgo:CRGO_0000456 "verified against file" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
 
+<https://w3id.org/crgo/vocab/sources/mitre-attack-19.2> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ATT&CK Enterprise, STIX"@en ;
+    rdfs:comment "873 concepts incl. 161 deprecated or revoked; groups, software and campaigns not imported"@en ;
+    crgo:CRGO_0000250 "mitre-attack-19.2" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000449 "2026-10-08T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "19.2" ;
+    crgo:CRGO_0000451 "https://github.com/mitre-attack/attack-stix-data" ;
+    crgo:CRGO_0000452 "MITRE" ;
+    crgo:CRGO_0000453 "ATT&CK Terms of Use" ;
+    crgo:CRGO_0000454 "names and descriptions reproduced with attribution" ;
+    crgo:CRGO_0000455 "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4" ;
+    crgo:CRGO_0000456 "verified against file" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/mitre-capec-3.9> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "CAPEC, STIX bundle in mitre/cti"@en ;
@@ -1010,7 +1142,7 @@
     crgo:CRGO_0000250 "mitre-capec-3.9" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -1032,7 +1164,7 @@
     crgo:CRGO_0000250 "mitre-d3fend-1.6.0" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
@@ -1054,7 +1186,7 @@
     crgo:CRGO_0000250 "nist-sp800-53a-r5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0 and GRCA sprint, 2026-10-11)"@en ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;

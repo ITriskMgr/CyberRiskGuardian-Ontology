@@ -21,13 +21,16 @@ crgo:CRGO_0000904 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000891 ;
     skos:definition "An attestation by an identified signatory that an organisation meets stated obligations or requirements for a stated scope and period, citing what it is based on. It is a management declaration, not an audit conclusion."@en,
         "Attestation par laquelle un signataire identifié déclare qu'une organisation respecte des obligations ou des exigences précisées pour un périmètre et une période donnés, en citant ce sur quoi elle se fonde. C'est une déclaration de la direction, et non une conclusion d'audit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4; AUD section 7 (management attestation is not an independent audit conclusion)."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- not legally reviewed
 crgo:CRGO_0000938 a owl:NamedIndividual,
@@ -38,11 +41,14 @@ crgo:CRGO_0000938 a owl:NamedIndividual,
         "Aucune revue juridique; l'interprétation est provisoire."@fr ;
     skos:inScheme crgo:CRGO_0000937 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legal review in progress
 crgo:CRGO_0000939 a owl:NamedIndividual,
@@ -53,11 +59,14 @@ crgo:CRGO_0000939 a owl:NamedIndividual,
         "Soumise au conseiller juridique."@fr ;
     skos:inScheme crgo:CRGO_0000937 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legally reviewed
 crgo:CRGO_0000940 a owl:NamedIndividual,
@@ -68,11 +77,14 @@ crgo:CRGO_0000940 a owl:NamedIndividual,
         "Revue et acceptée par le conseiller juridique pour la situation précisée."@fr ;
     skos:inScheme crgo:CRGO_0000937 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submission in preparation
 crgo:CRGO_0000943 a owl:NamedIndividual,
@@ -83,11 +95,14 @@ crgo:CRGO_0000943 a owl:NamedIndividual,
         "En préparation; non transmise."@fr ;
     skos:inScheme crgo:CRGO_0000942 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submitted
 crgo:CRGO_0000944 a owl:NamedIndividual,
@@ -98,11 +113,14 @@ crgo:CRGO_0000944 a owl:NamedIndividual,
         "Transmise à l'autorité; pas encore d'accusé de réception."@fr ;
     skos:inScheme crgo:CRGO_0000942 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- acknowledged by the authority
 crgo:CRGO_0000945 a owl:NamedIndividual,
@@ -113,11 +131,14 @@ crgo:CRGO_0000945 a owl:NamedIndividual,
         "L'autorité en a accusé réception."@fr ;
     skos:inScheme crgo:CRGO_0000942 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- rejected by the authority
 crgo:CRGO_0000946 a owl:NamedIndividual,
@@ -128,11 +149,14 @@ crgo:CRGO_0000946 a owl:NamedIndividual,
         "L'autorité l'a refusée ou renvoyée."@fr ;
     skos:inScheme crgo:CRGO_0000942 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- calendar deadline
 crgo:CRGO_0000949 a owl:NamedIndividual,
@@ -143,11 +167,14 @@ crgo:CRGO_0000949 a owl:NamedIndividual,
         "Une date fixe ou récurrente, comme un dépôt annuel."@fr ;
     skos:inScheme crgo:CRGO_0000948 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- event-triggered deadline
 crgo:CRGO_0000950 a owl:NamedIndividual,
@@ -158,11 +185,14 @@ crgo:CRGO_0000950 a owl:NamedIndividual,
         "Un délai compté à partir d'un événement, comme la prise de connaissance d'une atteinte."@fr ;
     skos:inScheme crgo:CRGO_0000948 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- people (cause)
 crgo:CRGO_0000953 a owl:NamedIndividual,
@@ -173,13 +203,16 @@ crgo:CRGO_0000953 a owl:NamedIndividual,
         "Sensibilisation, compétences, charge de travail ou comportement."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- process (cause)
 crgo:CRGO_0000954 a owl:NamedIndividual,
@@ -190,13 +223,16 @@ crgo:CRGO_0000954 a owl:NamedIndividual,
         "Un processus absent, imprécis ou non suivi."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- technology (cause)
 crgo:CRGO_0000955 a owl:NamedIndividual,
@@ -207,13 +243,16 @@ crgo:CRGO_0000955 a owl:NamedIndividual,
         "Un outil, un système ou une configuration qui ne soutient pas la mesure."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- governance (cause)
 crgo:CRGO_0000956 a owl:NamedIndividual,
@@ -224,13 +263,16 @@ crgo:CRGO_0000956 a owl:NamedIndividual,
         "Responsabilité, surveillance ou orientation imprécises."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- third party (cause)
 crgo:CRGO_0000957 a owl:NamedIndividual,
@@ -241,13 +283,16 @@ crgo:CRGO_0000957 a owl:NamedIndividual,
         "Un fournisseur ou une autre partie externe n'a pas agi comme exigé."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- control design (cause)
 crgo:CRGO_0000958 a owl:NamedIndividual,
@@ -258,13 +303,16 @@ crgo:CRGO_0000958 a owl:NamedIndividual,
         "La mesure n'atteindrait pas son objectif même si elle fonctionnait comme prévu."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- resourcing (cause)
 crgo:CRGO_0000959 a owl:NamedIndividual,
@@ -275,13 +323,16 @@ crgo:CRGO_0000959 a owl:NamedIndividual,
         "Budget, personnel ou temps insuffisants."@fr ;
     skos:inScheme crgo:CRGO_0000952 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- programme covers
 crgo:CRGO_0001023 a owl:ObjectProperty ;
@@ -290,12 +341,15 @@ crgo:CRGO_0001023 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000894 ;
     skos:definition "Relates a compliance programme to an obligation, legal instrument, framework adoption or commitment within its scope."@en,
         "Relie un programme de conformité à une obligation, un instrument juridique, une adoption de référentiel ou un engagement compris dans son périmètre."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- objective of programme
 crgo:CRGO_0001024 a owl:ObjectProperty ;
@@ -306,11 +360,14 @@ crgo:CRGO_0001024 a owl:ObjectProperty ;
     skos:definition "Relates a compliance objective to the compliance programme that sets it."@en,
         "Relie un objectif de conformité au programme de conformité qui le fixe."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- interpretation of
 crgo:CRGO_0001025 a owl:ObjectProperty ;
@@ -319,12 +376,15 @@ crgo:CRGO_0001025 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000896 ;
     skos:definition "Relates a requirement interpretation to the obligation, provision or requirement it interprets."@en,
         "Relie une interprétation d'exigence à l'obligation, la disposition ou l'exigence qu'elle interprète."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Not functional: one interpretation may cover several provisions read together."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- has legal review state
 crgo:CRGO_0001026 a owl:ObjectProperty ;
@@ -335,11 +395,14 @@ crgo:CRGO_0001026 a owl:ObjectProperty ;
     skos:definition "Gives how far a requirement interpretation has been reviewed by counsel."@en,
         "Indique le degré de revue d'une interprétation d'exigence par un conseiller juridique."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- enforced by
 crgo:CRGO_0001028 a owl:ObjectProperty ;
@@ -348,11 +411,14 @@ crgo:CRGO_0001028 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000897 ;
     skos:definition "Relates a legal instrument or provision to a regulatory authority that supervises or enforces it."@en,
         "Relie un instrument juridique ou une disposition à une autorité de réglementation qui en surveille ou en assure l'application."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- adopts framework
 crgo:CRGO_0001029 a owl:ObjectProperty ;
@@ -361,11 +427,14 @@ crgo:CRGO_0001029 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000898 ;
     skos:definition "Relates a framework adoption to the framework, or the part of a framework, adopted."@en,
         "Relie une adoption de référentiel au référentiel, ou à la partie de référentiel, adopté."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- determination in
 crgo:CRGO_0001030 a owl:ObjectProperty ;
@@ -376,11 +445,14 @@ crgo:CRGO_0001030 a owl:ObjectProperty ;
     skos:definition "Relates a compliance determination to the compliance assessment campaign that produced it."@en,
         "Relie un constat de conformité à la campagne d'évaluation de la conformité qui l'a produit."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- provision version of
 crgo:CRGO_0001031 a owl:ObjectProperty ;
@@ -390,11 +462,14 @@ crgo:CRGO_0001031 a owl:ObjectProperty ;
     skos:definition "Relates a provision version to the provision whose wording it records."@en,
         "Relie une version de disposition à la disposition dont elle consigne le libellé."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- in instrument version
 crgo:CRGO_0001032 a owl:ObjectProperty ;
@@ -404,11 +479,14 @@ crgo:CRGO_0001032 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000507 ;
     skos:definition "Relates a provision version to the instrument version that carries that wording."@en,
         "Relie une version de disposition à la version de l'instrument qui porte ce libellé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- evaluates provision version
 crgo:CRGO_0001033 a owl:ObjectProperty ;
@@ -417,12 +495,15 @@ crgo:CRGO_0001033 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000900 ;
     skos:definition "Relates a compliance or applicability determination to the exact provision version it evaluated, when the wording has changed over time."@en,
         "Relie un constat de conformité ou d'applicabilité à la version précise de la disposition évaluée, lorsque le libellé a changé au fil du temps."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP evaluatesObligation (historical snapshot)."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- deadline for
 crgo:CRGO_0001034 a owl:ObjectProperty ;
@@ -431,11 +512,14 @@ crgo:CRGO_0001034 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000901 ;
     skos:definition "Relates a compliance deadline to the obligation or provision that sets it."@en,
         "Relie une échéance de conformité à l'obligation ou à la disposition qui la fixe."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- has deadline trigger kind
 crgo:CRGO_0001035 a owl:ObjectProperty ;
@@ -446,11 +530,14 @@ crgo:CRGO_0001035 a owl:ObjectProperty ;
     skos:definition "Gives whether a compliance deadline is a calendar date or counted from an event."@en,
         "Indique si une échéance de conformité est une date calendaire ou un délai compté à partir d'un événement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- deadline triggered by
 crgo:CRGO_0001036 a owl:ObjectProperty ;
@@ -459,11 +546,14 @@ crgo:CRGO_0001036 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000901 ;
     skos:definition "Relates an event-triggered compliance deadline to the record of the triggering event, such as an incident confirmation."@en,
         "Relie une échéance déclenchée par un événement à l'enregistrement de cet événement, comme une confirmation d'incident."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submission to
 crgo:CRGO_0001037 a owl:ObjectProperty ;
@@ -474,11 +564,14 @@ crgo:CRGO_0001037 a owl:ObjectProperty ;
     skos:definition "Relates a regulatory submission to the authority it was sent to."@en,
         "Relie une transmission réglementaire à l'autorité à laquelle elle a été envoyée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submission under
 crgo:CRGO_0001038 a owl:ObjectProperty ;
@@ -487,11 +580,14 @@ crgo:CRGO_0001038 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000902 ;
     skos:definition "Relates a regulatory submission to the obligation or provision it is made under."@en,
         "Relie une transmission réglementaire à l'obligation ou à la disposition en vertu de laquelle elle est faite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- has submission state
 crgo:CRGO_0001040 a owl:ObjectProperty ;
@@ -502,11 +598,14 @@ crgo:CRGO_0001040 a owl:ObjectProperty ;
     skos:definition "Gives the state of a regulatory submission, as last recorded."@en,
         "Indique l'état d'une transmission réglementaire, selon le dernier enregistrement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- receipt evidence
 crgo:CRGO_0001041 a owl:ObjectProperty ;
@@ -516,11 +615,14 @@ crgo:CRGO_0001041 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000036 ;
     skos:definition "Relates a regulatory submission to the evidence item recording its submission or the authority's acknowledgement."@en,
         "Relie une transmission réglementaire à l'élément de preuve qui en consigne l'envoi ou l'accusé de réception de l'autorité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- exemption from
 crgo:CRGO_0001042 a owl:ObjectProperty ;
@@ -529,11 +631,14 @@ crgo:CRGO_0001042 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000903 ;
     skos:definition "Relates a regulatory exemption to the obligation or provision it relieves the organisation from."@en,
         "Relie une dispense réglementaire à l'obligation ou à la disposition dont elle dispense l'organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- granted by
 crgo:CRGO_0001043 a owl:ObjectProperty ;
@@ -545,12 +650,15 @@ crgo:CRGO_0001043 a owl:ObjectProperty ;
     skos:definition "Relates a regulatory exemption to the authority that granted it."@en,
         "Relie une dispense réglementaire à l'autorité qui l'a accordée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Sub-property of 'issued by authority'."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- obligation at stake in
 crgo:CRGO_0001044 a owl:ObjectProperty ;
@@ -559,12 +667,15 @@ crgo:CRGO_0001044 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates an obligation or provision to a risk scenario in which failing to meet it is part of the consequence."@en,
         "Relie une obligation ou une disposition à un scénario de risque dont le non-respect fait partie des conséquences."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP ComplianceRiskLink as a property; no link class needed."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- has root-cause category
 crgo:CRGO_0001045 a owl:ObjectProperty ;
@@ -573,13 +684,16 @@ crgo:CRGO_0001045 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000951 ;
     skos:definition "Gives a broad category of the cause of a finding or nonconformity."@en,
         "Indique une grande catégorie de la cause d'une constatation ou d'une non-conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Improvement I5; AUD CQ-10 and CMP CQ-9."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legally privileged
 crgo:CRGO_0001073 a owl:DatatypeProperty,
@@ -589,12 +703,15 @@ crgo:CRGO_0001073 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States that a record contains or summarises legally privileged advice and must not be passed to general reasoning, reporting or AI services."@en,
         "Indique qu'un enregistrement contient ou résume un avis protégé par le secret professionnel et ne doit pas être transmis à des services généraux de raisonnement, de rapport ou d'IA."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 9."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legal basis
 crgo:CRGO_0001074 a owl:DatatypeProperty ;
@@ -603,11 +720,14 @@ crgo:CRGO_0001074 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000903 ;
     skos:definition "States the legal basis on which a regulatory exemption is granted."@en,
         "Indique le fondement juridique sur lequel une dispense réglementaire est accordée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- adoption scope
 crgo:CRGO_0001075 a owl:DatatypeProperty ;
@@ -616,11 +736,14 @@ crgo:CRGO_0001075 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000898 ;
     skos:definition "States which parts of a framework are adopted and for which entities, systems or services."@en,
         "Indique quelles parties d'un référentiel sont adoptées et pour quelles entités, quels systèmes ou quels services."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- provision wording
 crgo:CRGO_0001076 a owl:DatatypeProperty ;
@@ -629,12 +752,15 @@ crgo:CRGO_0001076 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000900 ;
     skos:definition "Gives the wording of a provision version, only for texts CRGO may reproduce, such as legislation; otherwise only its citation."@en,
         "Indique le libellé d'une version de disposition, seulement pour les textes que CRGO peut reproduire, comme une loi; sinon seulement sa citation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Rule R-d."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- due offset (hours)
 crgo:CRGO_0001077 a owl:DatatypeProperty,
@@ -645,12 +771,15 @@ crgo:CRGO_0001077 a owl:DatatypeProperty,
     rdfs:range xsd:nonNegativeInteger ;
     skos:definition "Gives the number of hours, counted from the triggering event, within which an event-triggered deadline falls."@en,
         "Indique le nombre d'heures, comptées à partir de l'événement déclencheur, dans lequel tombe une échéance déclenchée par un événement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Integer hours rather than xsd:duration, which is outside the OWL 2 datatype map (conflict C4); hours cover the 72-hour notices."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- deadline computation
 crgo:CRGO_0001078 a owl:DatatypeProperty ;
@@ -659,11 +788,14 @@ crgo:CRGO_0001078 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000901 ;
     skos:definition "States how a compliance deadline is computed, such as calendar or business days, time zone and the provision cited."@en,
         "Indique comment une échéance de conformité est calculée, comme en jours civils ou ouvrables, le fuseau horaire et la disposition citée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submitted on
 crgo:CRGO_0001079 a owl:DatatypeProperty,
@@ -674,11 +806,14 @@ crgo:CRGO_0001079 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a regulatory submission was sent."@en,
         "Indique quand une transmission réglementaire a été envoyée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- rule version
 crgo:CRGO_0001081 a owl:DatatypeProperty,
@@ -688,12 +823,15 @@ crgo:CRGO_0001081 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the version of the applicability rules used by an applicability assessment, so that it can be reproduced."@en,
         "Indique la version des règles d'applicabilité utilisée par une évaluation de l'applicabilité, pour qu'elle puisse être reproduite."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 8."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- fact relied on
 crgo:CRGO_0001082 a owl:DatatypeProperty ;
@@ -702,12 +840,15 @@ crgo:CRGO_0001082 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000345 ;
     skos:definition "States a fact about the organisation that an applicability assessment relied on."@en,
         "Indique un fait relatif à l'organisation sur lequel s'est appuyée une évaluation de l'applicabilité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 8."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- missing fact
 crgo:CRGO_0001083 a owl:DatatypeProperty ;
@@ -716,12 +857,15 @@ crgo:CRGO_0001083 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0000345 ;
     skos:definition "States a fact that an applicability assessment needed but did not have."@en,
         "Indique un fait dont une évaluation de l'applicabilité avait besoin et dont elle ne disposait pas."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 8."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- answers deadline
 crgo:CRGO_0001095 a owl:ObjectProperty ;
@@ -731,11 +875,14 @@ crgo:CRGO_0001095 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000901 ;
     skos:definition "Relates a regulatory submission to the compliance deadline it answers. Whether it was on time is computed from the dates, not stated."@en,
         "Relie une transmission réglementaire à l'échéance de conformité à laquelle elle répond. Le respect du délai se calcule à partir des dates; il n'est pas affirmé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- receipt acknowledged on
 crgo:CRGO_0001096 a owl:DatatypeProperty,
@@ -746,11 +893,14 @@ crgo:CRGO_0001096 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when the authority acknowledged a regulatory submission."@en,
         "Indique quand l'autorité a accusé réception d'une transmission réglementaire."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 crgo:crgo-compliance a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -786,13 +936,16 @@ crgo:CRGO_0000895 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000010 ;
     skos:definition "A measurable objective that a compliance programme sets itself, such as reviewing every obligation of the register once a year."@en,
         "Objectif mesurable que se fixe un programme de conformité, comme revoir chaque obligation du registre une fois par année."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4; ISO 37301:2021 clause 6.2."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- compliance assessment campaign
 crgo:CRGO_0000899 a owl:Class ;
@@ -801,13 +954,16 @@ crgo:CRGO_0000899 a owl:Class ;
     rdfs:subClassOf cco:ont00000228 ;
     skos:definition "A planned act in which an organisation assesses compliance with a stated set of obligations or requirements, for a stated scope, period and method, producing compliance determinations."@en,
         "Acte planifié par lequel une organisation évalue sa conformité à un ensemble précisé d'obligations ou d'exigences, pour un périmètre, une période et une méthode donnés, et qui produit des constats de conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4 (ComplianceAssessment as a campaign); conflict C3: the per-requirement result stays the compliance determination."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- issued by authority
 crgo:CRGO_0001027 a owl:ObjectProperty ;
@@ -816,11 +972,14 @@ crgo:CRGO_0001027 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000897 ;
     skos:definition "Relates a legal instrument, guidance or exemption to the regulatory authority that issued it."@en,
         "Relie un instrument juridique, une orientation ou une dispense à l'autorité de réglementation qui l'a émis."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- compliance programme
 crgo:CRGO_0000894 a owl:Class ;
@@ -829,13 +988,16 @@ crgo:CRGO_0000894 a owl:Class ;
     rdfs:subClassOf cco:ont00000974 ;
     skos:definition "The plan by which an organisation operates its compliance management system: its scope, the obligations and commitments it covers, its objectives, the roles involved and its review cycle."@en,
         "Plan par lequel une organisation exploite son système de management de la conformité : son périmètre, les obligations et engagements qu'il couvre, ses objectifs, les rôles en cause et son cycle de revue."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4 (ComplianceProgram); ISO 37301:2021 clauses 4.3-4.4 and 6.2 (cited by number)."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "ISO 37301:2021, Compliance management systems: requirements with guidance for use (1st edition, 2021-04); clause identifiers cited"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- requirement interpretation
 crgo:CRGO_0000896 a owl:Class ;
@@ -844,12 +1006,15 @@ crgo:CRGO_0000896 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A statement, subject to legal review, of how an organisation reads an obligation, provision or framework requirement for its own situation, with the assumptions made and its legal review state. It is the organisation's reading, not the text and not legal advice."@en,
         "Énoncé, soumis à une revue juridique, de la façon dont une organisation lit une obligation, une disposition ou une exigence de référentiel au regard de sa propre situation, avec les hypothèses retenues et l'état de sa revue juridique. C'est la lecture de l'organisation, et non le texte ni un avis juridique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP sections 4 and 9 (privilege flag)."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- framework adoption
 crgo:CRGO_0000898 a owl:Class ;
@@ -858,13 +1023,16 @@ crgo:CRGO_0000898 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000504 ;
     skos:definition "A decision record by which an organisation has committed to meet a framework, or a stated part of it, for a stated scope, which makes its requirements commitments of that organisation. It records the commitment, not conformity."@en,
         "Relevé de décision par lequel une organisation s'engage à respecter un référentiel, ou une partie précisée de celui-ci, pour un périmètre donné, ce qui fait de ses exigences des engagements de cette organisation. Il consigne l'engagement, et non la conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Improvement I4; CMP section 7 (source kind 'voluntary standard', 'internal commitment'). A decision record, so it reuses decided on, decision made by and decision outcome."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- deadline trigger kind scheme
 crgo:CRGO_0000948 a owl:NamedIndividual,
@@ -873,11 +1041,14 @@ crgo:CRGO_0000948 a owl:NamedIndividual,
         "schéma : type de déclenchement d'échéance"@fr ;
     skos:definition "Concept scheme of the deadline trigger kind value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de déclenchement d'échéance »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- regulatory exemption
 crgo:CRGO_0000903 a owl:Class ;
@@ -887,12 +1058,15 @@ crgo:CRGO_0000903 a owl:Class ;
     owl:disjointWith crgo:CRGO_0000502 ;
     skos:definition "A directive issued by an authority that relieves an organisation, for a stated scope and period, from an obligation or part of it, on a stated legal basis. Only an authority with power over the obligation can grant it; an internal approval cannot."@en,
         "Directive émise par une autorité qui dispense une organisation, pour un périmètre et une période donnés, de tout ou partie d'une obligation, sur un fondement juridique précisé. Seule une autorité compétente à l'égard de l'obligation peut l'accorder; une approbation interne ne le peut pas."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP sections 4 and 9 (ComplianceException: internal approval does not remove a binding duty). Distinct from policy exception, which cannot waive law."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legal review state scheme
 crgo:CRGO_0000937 a owl:NamedIndividual,
@@ -901,11 +1075,14 @@ crgo:CRGO_0000937 a owl:NamedIndividual,
         "schéma : état de la revue juridique"@fr ;
     skos:definition "Concept scheme of the legal review state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de la revue juridique »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- regulatory authority
 crgo:CRGO_0000897 a owl:Class ;
@@ -916,12 +1093,15 @@ crgo:CRGO_0000897 a owl:Class ;
         "organisme de réglementation"@fr ;
     skos:definition "An organisation with legal power to issue, supervise or enforce legal instruments in a jurisdiction, such as a data protection authority."@en,
         "Organisation ayant le pouvoir légal d'édicter, de surveiller ou de faire appliquer des instruments juridiques dans une juridiction, comme une autorité de protection des données."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4 (RegulatoryAuthority). Until now CRGO recorded issuers only as text on source records."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- provision version
 crgo:CRGO_0000900 a owl:Class ;
@@ -930,13 +1110,16 @@ crgo:CRGO_0000900 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record of the wording of a provision as in force over a stated period, kept when an amendment changes that wording, so that earlier assessments can be reproduced against the text that applied then."@en,
         "Enregistrement du libellé d'une disposition tel qu'il était en vigueur pendant une période donnée, conservé lorsqu'une modification change ce libellé, afin que les évaluations antérieures puissent être reproduites au regard du texte alors applicable."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Decision D5 (a): versions stay at instrument level; a provision version is recorded only when an amendment changes the wording."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submission state scheme
 crgo:CRGO_0000942 a owl:NamedIndividual,
@@ -945,11 +1128,14 @@ crgo:CRGO_0000942 a owl:NamedIndividual,
         "schéma : état de la transmission"@fr ;
     skos:definition "Concept scheme of the submission state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de la transmission »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- deadline trigger kind
 crgo:CRGO_0000947 a owl:Class ;
@@ -958,12 +1144,15 @@ crgo:CRGO_0000947 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How a compliance deadline is set."@en,
         "Façon dont une échéance de conformité est fixée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- legal review state
 crgo:CRGO_0000936 a owl:Class ;
@@ -972,12 +1161,15 @@ crgo:CRGO_0000936 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How far a requirement interpretation has been reviewed by legal counsel."@en,
         "Degré de revue d'une interprétation d'exigence par un conseiller juridique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- compliance deadline
 crgo:CRGO_0000901 a owl:Class ;
@@ -986,12 +1178,15 @@ crgo:CRGO_0000901 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record of when an obligation must be met, either on a calendar date or within a period counted from a triggering event, such as 72 hours after becoming aware of a breach, with how the date is computed."@en,
         "Enregistrement du moment où une obligation doit être respectée, soit à une date fixe, soit dans un délai compté à partir d'un événement déclencheur, comme 72 heures après la prise de connaissance d'une atteinte, avec le mode de calcul de la date."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP sections 4 and 8; generalises the incident-specific 'notification due by'."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- submission state
 crgo:CRGO_0000941 a owl:Class ;
@@ -1000,12 +1195,15 @@ crgo:CRGO_0000941 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of a regulatory submission."@en,
         "État d'une transmission réglementaire."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- regulatory submission
 crgo:CRGO_0000902 a owl:Class ;
@@ -1016,12 +1214,15 @@ crgo:CRGO_0000902 a owl:Class ;
         "déclaration à l'autorité"@fr ;
     skos:definition "A record of a notice, filing or report sent to an authority under an obligation, with when it was submitted, its state and the receipt or acknowledgement obtained."@en,
         "Enregistrement d'un avis, d'un dépôt ou d'un rapport transmis à une autorité en vertu d'une obligation, avec sa date de transmission, son état et l'accusé de réception obtenu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CMP section 4 (RegulatorySubmission); links to breach reportability assessments for incident notices."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- root-cause category scheme
 crgo:CRGO_0000952 a owl:NamedIndividual,
@@ -1030,13 +1231,16 @@ crgo:CRGO_0000952 a owl:NamedIndividual,
         "schéma : catégorie de cause fondamentale"@fr ;
     skos:definition "Concept scheme of the root-cause category value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « catégorie de cause fondamentale »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 # --- root-cause category
 crgo:CRGO_0000951 a owl:Class ;
@@ -1045,14 +1249,17 @@ crgo:CRGO_0000951 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A broad category of the cause of a finding or nonconformity, used to group recurring causes. CRGO's own scale."@en,
         "Grande catégorie de la cause d'une constatation ou d'une non-conformité, servant à regrouper les causes récurrentes. Échelle propre à CRGO."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 2"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000586 crgo:CRGO_0000592 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0000913 crgo:CRGO_0000919 crgo:CRGO_0000927 crgo:CRGO_0000936 crgo:CRGO_0000941 crgo:CRGO_0000947 crgo:CRGO_0000951 crgo:CRGO_0000985 crgo:CRGO_0000994 ) .

@@ -642,7 +642,7 @@ iso37301:4 a skos:Concept ;
     dcterms:source "ISO 37301:2021 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
     dcterms:title "ISO 37301:2021 Compliance management systems — Requirements with guidance for use: clause structure"@en,
         "ISO 37301:2021 Systèmes de management de la conformité — Exigences et recommandations pour la mise en oeuvre : structure des articles"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso37301> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/iso37301> ;
     owl:versionInfo "First edition, 2021-04" ;
     skos:hasTopConcept iso37301:1,
         iso37301:10,

@@ -17,13 +17,14 @@ from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES
 import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
 import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
 import spec_pca as VP  # noqa: E402  (0.10.0: policy, compliance and audit management; decisions D1-D14)
-S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA); S.update(VP.SOURCES_PCA)
-CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA + VP.CLASSES_PCA
-VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA + VP.VALUE_SETS_PCA
-INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA + VP.INDIVIDUALS_PCA
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA
-DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA + VP.DATA_PROPERTIES_PCA
-EXTENSIONS = VP.EXTENSIONS_PCA  # members added to earlier value sets
+import spec_secops as VS  # noqa: E402  (0.10.0: SIEM and SOAR; decisions S1-S12)
+S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA); S.update(VP.SOURCES_PCA); S.update(VS.SOURCES_SECOPS)
+CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA + VP.CLASSES_PCA + VS.CLASSES_SECOPS
+VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA + VP.VALUE_SETS_PCA + VS.VALUE_SETS_SECOPS
+INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA + VP.INDIVIDUALS_PCA + VS.INDIVIDUALS_SECOPS
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS
+DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA + VP.DATA_PROPERTIES_PCA + VS.DATA_PROPERTIES_SECOPS
+EXTENSIONS = VP.EXTENSIONS_PCA + VS.EXTENSIONS_SECOPS  # members added to earlier value sets
 # Decision D9 (0.10.0): widenings of approved terms; fields replaced by key, with a change note on the term.
 CHANGE_NOTES = {}
 def _modify(rows, layout):
@@ -73,6 +74,8 @@ MODULES = {
     # 0.10.0 (decision D1)
     "policy": ("crgo-policy", "CyberRiskGuardian Ontology - policy management module", "Ontologie CyberRiskGuardian - module de gestion des politiques", ["governance", "mapping"]),
     "compliance": ("crgo-compliance", "CyberRiskGuardian Ontology - compliance management module", "Ontologie CyberRiskGuardian - module de gestion de la conformité", ["grc", "policy"]),
+    "siem": ("crgo-siem", "CyberRiskGuardian Ontology - security monitoring and detection (SIEM) module", "Ontologie CyberRiskGuardian - module de surveillance et de détection de sécurité (SIEM)", ["incident", "grc"]),
+    "soar": ("crgo-soar", "CyberRiskGuardian Ontology - security orchestration, automation and response (SOAR) module", "Ontologie CyberRiskGuardian - module d'orchestration, d'automatisation et de réponse de sécurité (SOAR)", ["siem", "audit"]),
 }
 IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice",
            "IMPORT:prov": BASE + "imports/prov-slice", "IMPORT:time": BASE + "imports/time-slice"}
@@ -117,6 +120,7 @@ AGENTS = {"MAL": iri("AgentMAL")}
 KEY_OF = {iri(k): k for k in all_keys}
 # Review decisions recorded by the project owner: key, decision, approver, date, comment.
 APPROVALS = {}
+GROUP_ROWS = {}  # 0.10.0: every row of a group key, so that a later, scoped approval extends an earlier one
 _ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "approvals.tsv")
 if os.path.exists(_ap):
     for line in open(_ap, encoding="utf-8"):
@@ -124,6 +128,7 @@ if os.path.exists(_ap):
             continue
         k, decision, who, date, *note = line.rstrip("\n").split("\t")
         APPROVALS[k] = (decision, who, date, note[0] if note else "")
+        GROUP_ROWS.setdefault(k, []).append(APPROVALS[k])
 
 graphs = {m: Graph() for m in MODULES}
 terms = []  # for the review workbook
@@ -147,9 +152,9 @@ def gov(g, s, sources, conf, rationale):
     if changed:
         a = APPROVALS.get("changes/0.10.0")
     if not a and not changed:
-        a = APPROVALS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""))
-        if a and scope_of(a[3]) is not None and num > scope_of(a[3]):
-            a = None
+        # the first row of terms/<module> whose scope covers this term (rows without a scope cover every term)
+        rows = GROUP_ROWS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""), [])
+        a = next((r for r in rows if scope_of(r[3]) is None or num <= scope_of(r[3])), None)
     if a and a[0] in STATUS:
         g.add((s, ann["governanceStatus"], STATUS[a[0]]))
         g.add((s, ann["approvedBy"], AGENTS[a[1]]))
@@ -273,7 +278,7 @@ for m, seen in SEES.items():
 graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
 MODULE_OF = {c[0]: c[1] for c in CLASSES}
 ORDER = list(MODULES)
-for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA + VP.DISJOINT_PCA:  # stated in the module that sees both
+for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA + VP.DISJOINT_PCA + VS.DISJOINT_SECOPS:  # stated in the module that sees both
     ma, mb = MODULE_OF[a], MODULE_OF[b]
     home = ma if mb in SEES[ma] else mb if ma in SEES[mb] else next((m for m in MODULES if ma in SEES[m] and mb in SEES[m]), None)
     assert home, "no module sees both %s and %s" % (a, b)

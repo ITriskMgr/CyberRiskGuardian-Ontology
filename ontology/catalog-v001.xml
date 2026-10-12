@@ -19,11 +19,15 @@
   <uri name="https://w3id.org/crgo/crgo-incident" uri="crgo-incident.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-policy" uri="crgo-policy.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-compliance" uri="crgo-compliance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-siem" uri="crgo-siem.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-soar" uri="crgo-soar.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../data/abox/crgo-library.ttl"/>
   <uri name="https://w3id.org/crgo/data/workprogrammes" uri="../data/abox/crgo-workprogrammes.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/attack" uri="vocab/attack.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/attack-detection" uri="vocab/attack-detection.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/ocsf" uri="vocab/ocsf.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/ccm41" uri="vocab/ccm41.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/cobit2019" uri="vocab/cobit2019.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/csf2" uri="vocab/csf2.ttl"/>

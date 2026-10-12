@@ -1172,12 +1172,15 @@ crgo:CRGO_0000498 a owl:Class ;
     skos:changeNote "0.10.0 (2026-10-12): alternative labels 'policy requirement' / 'exigence de politique' added (POL PolicyRequirement)."@en ;
     skos:definition "A single rule within a policy, stated so that compliance with it can be assessed, such as 'privileged access is reviewed every quarter'."@en,
         "Règle unique d'une politique, formulée de manière à pouvoir en évaluer le respect, comme « les accès privilégiés sont revus chaque trimestre »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "GAPS D01 (obligation, control objective, policy statement, procedure chain)."@en ;
     crgo:CRGO_0000286 "CRGO Knowledge Expansion: Remaining GRC, Cybersecurity and Operational Knowledge Domains (project owner, draft v1.0, 2026-10-11)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.9.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.9.0" ;
+    crgo:CRGO_0000292 "P1 review group 6: changes to approved terms beyond D9 (reopens finding, version label, audit finding, policy statement, legal instrument, compliance determination)"@en .
 
 # --- conflict-of-interest declaration
 crgo:CRGO_0000506 a owl:Class ;

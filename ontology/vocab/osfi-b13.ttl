@@ -333,7 +333,7 @@ osfi-b13:D2 a skos:Concept ;
     dcterms:source "Office of the Superintendent of Financial Institutions, osfi-bsif.gc.ca; see data/frameworks/osfi_b13.tsv" ;
     dcterms:title "OSFI Guideline B-13 Technology and Cyber Risk Management: domains and principles"@en,
         "Ligne directrice B-13 du BSIF, Gestion des risques technologiques et cybernétiques : domaines et principes"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/osfi-b13> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/osfi-b13> ;
     owl:versionInfo "July 2022 (page modified 2024-02-20)" ;
     skos:hasTopConcept osfi-b13:D1,
         osfi-b13:D2,

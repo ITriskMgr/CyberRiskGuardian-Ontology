@@ -405,3 +405,13 @@ The project owner supplied three specifications: *Information Security Policy Go
 **Points decided by Claude for P1, for review.** The 0.9.0 group approvals `terms/governance`, `terms/assurance`, `terms/audit`, `terms/incident`, `terms/evidence`, `terms/grc` and `terms/mapping` are scoped to the terms that existed when they were given (up to CRGO_0000884), so that 0.10.0 terms added to those modules stay proposed until approved.
 
 **P1 (2026-10-12).** Term list drafted in `src/spec_pca.py` (CRGO_0000885–0001096), built and checked; independent review findings addressed. For review: `docs/review-0.10.0-p1-terms.md` (seven approval groups, including six changes to approved terms that go beyond D9 and are proposed again until approved).
+
+## 21. P1 approved; SIEM and SOAR; delegation of decisions (2026-10-12, 19:26)
+
+**Decision of the project owner:** "I'll follow your recommendations for all the decisions." All seven groups of `docs/review-0.10.0-p1-terms.md` are therefore approved: the `crgo-policy` and `crgo-compliance` terms, the 0.10.0 additions to `crgo-audit` and `crgo-mapping`, the values added to instrument kind, condition kind and sufficiency conclusion, the six changes to approved terms beyond D9 (`changes/0.10.0`) and the source record of ISO 37301:2021/Amd 1:2024. Approval rows are scoped to CRGO_0001096; `src/build.py` now keeps every row of a group key, so an earlier approval keeps its date for the terms it covered.
+
+The project owner supplied two further specifications, *CRGO SIEM Ontology Extension Specification* and *CRGO SOAR Ontology Extension Specification* (v1.0, 2026-10-12), and stated: "No need to get my approval on decisions, since I seem to always follow your recommendations. Just go ahead and complete the work and let me know when you are ready to push."
+
+Consequences recorded here:
+- Design decisions for the SIEM and SOAR work, and the remaining 0.10.0 steps (P2–P5), are taken by Claude, following the reuse-first and evidence rules, and are recorded with their reasons in `docs/baseline/siem_soar_phase0.md` and in this file. They are listed again in the final review for the project owner to see before pushing.
+- Pushing, tagging and releasing still wait for the project owner's go-ahead, and terms added after CRGO_0001096 stay *proposed* until that go-ahead (the release gate CQ17 shows them).

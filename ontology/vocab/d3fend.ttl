@@ -4073,7 +4073,7 @@ d3fend:D3-NTA a skos:Concept ;
     dcterms:source "https://github.com/d3fend/d3fend-ontology (src/ontology/d3fend-protege.ttl, 2026-10-08)" ;
     dcterms:title "MITRE D3FEND defensive techniques"@en,
         "Techniques défensives MITRE D3FEND"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/d3fend> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/d3fend> ;
     owl:versionInfo "1.6.0" ;
     skos:hasTopConcept d3fend:D3-AA,
         d3fend:D3-AH,

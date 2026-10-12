@@ -1475,7 +1475,7 @@ tsc:TSC-SEC a skos:Concept ;
     dcterms:source "AICPA TSP section 100 (data/frameworks/grca/tsc.tsv)" ;
     dcterms:title "AICPA 2017 Trust Services Criteria (revised points of focus, 2022)"@en,
         "Critères des services de confiance 2017 de l'AICPA (points d'attention révisés, 2022)"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/tsc> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/tsc> ;
     owl:versionInfo "2017 (points of focus revised 2022)" ;
     skos:hasTopConcept tsc:TSC-AVL,
         tsc:TSC-CONF,

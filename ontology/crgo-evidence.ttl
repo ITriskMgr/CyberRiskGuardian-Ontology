@@ -31,8 +31,7 @@ crgo:CRGO_0000407 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- observation of
 crgo:CRGO_0000408 a owl:ObjectProperty ;
@@ -50,8 +49,7 @@ crgo:CRGO_0000408 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- depends on assumption
 crgo:CRGO_0000409 a owl:ObjectProperty ;
@@ -66,8 +64,7 @@ crgo:CRGO_0000409 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- retrieved on
 crgo:CRGO_0000449 a owl:DatatypeProperty,
@@ -84,8 +81,7 @@ crgo:CRGO_0000449 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- source version
 crgo:CRGO_0000450 a owl:DatatypeProperty,
@@ -102,8 +98,7 @@ crgo:CRGO_0000450 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- official identifier
 crgo:CRGO_0000451 a owl:DatatypeProperty ;
@@ -119,8 +114,7 @@ crgo:CRGO_0000451 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- issuer
 crgo:CRGO_0000452 a owl:DatatypeProperty ;
@@ -136,8 +130,7 @@ crgo:CRGO_0000452 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- licence or terms
 crgo:CRGO_0000453 a owl:DatatypeProperty ;
@@ -153,8 +146,7 @@ crgo:CRGO_0000453 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- redistribution in CRGO
 crgo:CRGO_0000454 a owl:DatatypeProperty ;
@@ -170,8 +162,7 @@ crgo:CRGO_0000454 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- SHA-256 checksum
 crgo:CRGO_0000455 a owl:DatatypeProperty ;
@@ -187,8 +178,7 @@ crgo:CRGO_0000455 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- verification note
 crgo:CRGO_0000456 a owl:DatatypeProperty ;
@@ -204,8 +194,7 @@ crgo:CRGO_0000456 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- published on
 crgo:CRGO_0000457 a owl:DatatypeProperty ;
@@ -220,8 +209,7 @@ crgo:CRGO_0000457 a owl:DatatypeProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- observed on
 crgo:CRGO_0000458 a owl:DatatypeProperty,
@@ -238,8 +226,7 @@ crgo:CRGO_0000458 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- observation horizon
 crgo:CRGO_0000459 a owl:DatatypeProperty,
@@ -256,8 +243,7 @@ crgo:CRGO_0000459 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- model version
 crgo:CRGO_0000460 a owl:DatatypeProperty,
@@ -274,8 +260,7 @@ crgo:CRGO_0000460 a owl:DatatypeProperty,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- reference fact
 crgo:CRGO_0000558 a owl:NamedIndividual,
@@ -985,8 +970,7 @@ crgo:CRGO_0000339 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- estimate distribution
 crgo:CRGO_0000476 a owl:Class ;
@@ -1054,8 +1038,7 @@ crgo:CRGO_0000338 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- analytical result
 crgo:CRGO_0000477 a owl:Class ;
@@ -1194,8 +1177,7 @@ crgo:CRGO_0000337 a owl:Class ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 ) .

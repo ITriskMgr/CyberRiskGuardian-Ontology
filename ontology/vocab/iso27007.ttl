@@ -489,7 +489,7 @@ iso27007:6 a skos:Concept ;
     dcterms:source "ISO/IEC 27007:2020 (publisher preview: cover, foreword, introduction, scope, table of contents)" ;
     dcterms:title "ISO/IEC 27007:2020 Information security, cybersecurity and privacy protection — Guidelines for information security management systems auditing: clause structure"@en,
         "ISO/IEC 27007:2020 Sécurité de l'information, cybersécurité et protection des données privées — Lignes directrices pour l'audit des systèmes de management de la sécurité de l'information : structure des articles"@fr ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/iso27007> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/iso27007> ;
     owl:versionInfo "Troisième édition, 2020-01" ;
     skos:hasTopConcept iso27007:1,
         iso27007:2,

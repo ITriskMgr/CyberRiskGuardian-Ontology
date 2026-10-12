@@ -9,8 +9,8 @@
     dcterms:title "CRGO proposed cross-references (not approved; not imported by crgo-full)"@en,
         "Correspondances proposées par CRGO (non approuvées; non importées par crgo-full)"@fr ;
     owl:imports crgo:crgo-mapping ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.9.0/mappings-proposed> ;
-    owl:versionInfo "0.9.0" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/mappings-proposed> ;
+    owl:versionInfo "0.10.0" .
 
 <https://w3id.org/crgo/vocab/attack/T1006> skos:relatedMatch <https://w3id.org/crgo/vocab/d3fend/D3-FE> ;
     crgo:CRGO_0000439 <https://w3id.org/crgo/vocab/d3fend/D3-FE> .
@@ -357,258 +357,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1689> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ACA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1565.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MBT> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1679> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1199> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CAA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1611> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CIA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1620> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1552.004> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1685> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SICA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1595.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ISVA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1593.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1542> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FBA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1583.008> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1027.011> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1039> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1111> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANET> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1052> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UDTA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1679> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FAPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1563.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-LAM> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1204.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SWI> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1059> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1091> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNRA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1499.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1046> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CHN> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1056> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.004> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNRA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1578.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-RAPA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -619,456 +369,6 @@
     owl:annotatedProperty skos:relatedMatch ;
     owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.001> ;
     owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1213.005> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1568.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-IPRA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1648> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-OTF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1195> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FHRA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1550.004> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DST> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1123> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1563> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1006> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FE> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1030> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-NTCD> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PLLM> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1070> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1613> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANAA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-BDI> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1659> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1190> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1552.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FE> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1213> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1595> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNR> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1070.006> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1599> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PMAD> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1594> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-WSAA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1609> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EAL> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1686> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EHB> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1589.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1586.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1071> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1499.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-APM> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1001.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1606.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-AZET> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1496> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PUM> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1600.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PCA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1565> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-LFP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1052> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FAPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1119> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1176> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FIM> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1591> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DPR> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1068> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFCV> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1078.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1589.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.006> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MENCR> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1528> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1657> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SRA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1674> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-HCI> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1087,8 +387,48 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1580> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-AZET> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1210> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1528> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1052> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FAPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1556.007> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1030> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-NTCD> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1107,28 +447,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1659> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1599> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FV> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.004> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1594> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DPR> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1147,8 +467,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.008> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-IPRA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.006> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1157,168 +477,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1583.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DRT> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1185> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SDA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSDL> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1555.006> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1578.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-RAPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1600> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PMAD> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1594> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DPR> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1001.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-NTCD> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1591> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1056.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-WSAA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1556.007> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1556.007> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANET> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.002> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSDL> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1542.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FBA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1489> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PT> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-OTF> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1550.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DST> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1195> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FHRA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1337,8 +497,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1048.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSDL> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1347,8 +507,68 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1529> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UAP> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1185> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SDA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1070.006> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1123> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1056> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1176> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FIM> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1550.004> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DST> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1490> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1367,8 +587,28 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1125> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1048.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1659> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1555.006> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1378,7 +618,7 @@
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
     owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1056.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MFA> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-WSAA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1387,8 +627,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1525> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SWI> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1550.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DST> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1397,8 +637,28 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1684.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EF> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1496> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PUM> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1674> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-HCI> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1583.008> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1417,8 +677,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1578.001> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CI> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1594> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-WSAA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1427,8 +687,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSTA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1091> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1437,8 +697,128 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1210> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1046> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CHN> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1657> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SRA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1556.007> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANET> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1600> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PMAD> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1056.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MFA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1685> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SICA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1599> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PMAD> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-BDI> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1059> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1070> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1689> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ACA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1580> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-AZET> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1457,18 +837,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1657> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    rdfs:comment "technique countered by defensive technique"@en ;
-    owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1580> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1589.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1487,8 +857,8 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1189> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1679> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1507,8 +877,178 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1027.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1684.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSTA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1542.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FBA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1499.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-APM> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1600.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1599> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FV> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1679> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FAPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1565.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MBT> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1213> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1125> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1006> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FE> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1659> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1001.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-NTCD> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1204.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SWI> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1111> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANET> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1593.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1591> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1001.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1527,8 +1067,28 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1588.003> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EAL> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1027.011> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNSDL> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1595.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ISVA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
@@ -1547,8 +1107,448 @@
 [] a owl:Axiom ;
     rdfs:comment "technique countered by defensive technique"@en ;
     owl:annotatedProperty skos:relatedMatch ;
-    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1490> ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFA> ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1565> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-LFP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1588.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EAL> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1119> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1039> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-OTF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1606.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-AZET> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1580> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.008> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-IPRA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1591> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DPR> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1589.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1557.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PLLM> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1584.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNRA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.004> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNRA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1189> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1190> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PSEP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1552.004> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DUC> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1613> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-ANAA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1578.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CI> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1525> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SWI> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1027.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1071> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1199> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CAA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1552.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FE> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1542> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-FBA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1686> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EHB> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1563> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1595> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DNR> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1489> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-PT> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1052> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UDTA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1586.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1609> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-EAL> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1657> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1563.002> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-LAM> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1529> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UAP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1648> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-OTF> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1611> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CIA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1114> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-MENCR> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1068> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SFCV> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1620> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-SCA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1078.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-UGLPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1213.005> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-JFAPA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1583.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-DRT> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1568.001> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-IPRA> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1499.003> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-CSPP> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    rdfs:comment "technique countered by defensive technique"@en ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <https://w3id.org/crgo/vocab/attack/T1608.004> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/d3fend/D3-URA> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000286 "Judged by Claude against MITRE D3FEND 1.6.0 (2026-10-11)"@en ;

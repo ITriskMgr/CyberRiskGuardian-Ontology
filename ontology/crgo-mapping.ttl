@@ -27,8 +27,7 @@ crgo:CRGO_0000438 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- technique countered by defensive technique
 crgo:CRGO_0000439 a owl:ObjectProperty ;
@@ -44,8 +43,7 @@ crgo:CRGO_0000439 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- attack pattern exploits weakness
 crgo:CRGO_0000440 a owl:ObjectProperty ;
@@ -60,8 +58,7 @@ crgo:CRGO_0000440 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- attack pattern related to technique
 crgo:CRGO_0000441 a owl:ObjectProperty ;
@@ -76,8 +73,7 @@ crgo:CRGO_0000441 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- vulnerability is an instance of weakness
 crgo:CRGO_0000442 a owl:ObjectProperty ;
@@ -92,8 +88,7 @@ crgo:CRGO_0000442 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- vulnerability associated with technique
 crgo:CRGO_0000443 a owl:ObjectProperty ;
@@ -108,8 +103,7 @@ crgo:CRGO_0000443 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- subcategory supported by control
 crgo:CRGO_0000444 a owl:ObjectProperty ;
@@ -125,8 +119,7 @@ crgo:CRGO_0000444 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- control corresponds to control
 crgo:CRGO_0000445 a owl:ObjectProperty ;
@@ -141,8 +134,7 @@ crgo:CRGO_0000445 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- principle addressed by category
 crgo:CRGO_0000446 a owl:ObjectProperty ;
@@ -157,8 +149,7 @@ crgo:CRGO_0000446 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- comparable obligation
 crgo:CRGO_0000447 a owl:ObjectProperty ;
@@ -174,8 +165,7 @@ crgo:CRGO_0000447 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- same obligation in another regime
 crgo:CRGO_0000448 a owl:ObjectProperty ;
@@ -190,8 +180,7 @@ crgo:CRGO_0000448 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-11"^^xsd:date ;
-    crgo:CRGO_0000291 "0.9.0" ;
-    crgo:CRGO_0000292 "GRCA review item 5 (all terms, including the GRCA additions)"@en .
+    crgo:CRGO_0000291 "0.9.0" .
 
 # --- narrower than
 crgo:CRGO_0000825 a owl:ObjectProperty ;
@@ -309,12 +298,15 @@ crgo:CRGO_0000987 a owl:NamedIndividual,
         "La source et la cible disent la même chose."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- full coverage
 crgo:CRGO_0000988 a owl:NamedIndividual,
@@ -325,12 +317,15 @@ crgo:CRGO_0000988 a owl:NamedIndividual,
         "Respecter la source permet de respecter toute la cible."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- partial coverage
 crgo:CRGO_0000989 a owl:NamedIndividual,
@@ -341,12 +336,15 @@ crgo:CRGO_0000989 a owl:NamedIndividual,
         "Respecter la source ne permet de respecter qu'une partie de la cible."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- broader mapping
 crgo:CRGO_0000990 a owl:NamedIndividual,
@@ -357,12 +355,15 @@ crgo:CRGO_0000990 a owl:NamedIndividual,
         "La source est plus large que la cible."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- narrower mapping
 crgo:CRGO_0000991 a owl:NamedIndividual,
@@ -373,12 +374,15 @@ crgo:CRGO_0000991 a owl:NamedIndividual,
         "La source est plus étroite que la cible."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- related mapping
 crgo:CRGO_0000992 a owl:NamedIndividual,
@@ -389,12 +393,15 @@ crgo:CRGO_0000992 a owl:NamedIndividual,
         "La source et la cible portent sur le même sujet sans couverture."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- conflicting mapping
 crgo:CRGO_0000993 a owl:NamedIndividual,
@@ -405,12 +412,15 @@ crgo:CRGO_0000993 a owl:NamedIndividual,
         "Respecter la source rend la cible plus difficile ou impossible à respecter."@fr ;
     skos:inScheme crgo:CRGO_0000986 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- draft (record)
 crgo:CRGO_0000996 a owl:NamedIndividual,
@@ -421,11 +431,14 @@ crgo:CRGO_0000996 a owl:NamedIndividual,
         "Rédigé; pas encore soumis à la revue."@fr ;
     skos:inScheme crgo:CRGO_0000995 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- under review (record)
 crgo:CRGO_0000997 a owl:NamedIndividual,
@@ -436,11 +449,14 @@ crgo:CRGO_0000997 a owl:NamedIndividual,
         "Soumis à la revue."@fr ;
     skos:inScheme crgo:CRGO_0000995 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- approved (record)
 crgo:CRGO_0000998 a owl:NamedIndividual,
@@ -451,11 +467,14 @@ crgo:CRGO_0000998 a owl:NamedIndividual,
         "Approuvé par le réviseur."@fr ;
     skos:inScheme crgo:CRGO_0000995 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- rejected (record)
 crgo:CRGO_0000999 a owl:NamedIndividual,
@@ -466,11 +485,14 @@ crgo:CRGO_0000999 a owl:NamedIndividual,
         "Rejeté par le réviseur."@fr ;
     skos:inScheme crgo:CRGO_0000995 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- withdrawn (record)
 crgo:CRGO_0001000 a owl:NamedIndividual,
@@ -481,11 +503,14 @@ crgo:CRGO_0001000 a owl:NamedIndividual,
         "Retiré par son auteur ou n'étant plus valide."@fr ;
     skos:inScheme crgo:CRGO_0000995 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapping source
 crgo:CRGO_0001060 a owl:ObjectProperty ;
@@ -495,12 +520,15 @@ crgo:CRGO_0001060 a owl:ObjectProperty ;
     skos:definition "Relates a mapping assertion to its source requirement, such as a policy statement or a control."@en,
         "Relie une assertion de correspondance à son exigence source, comme un énoncé de politique ou une mesure."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapping target
 crgo:CRGO_0001061 a owl:ObjectProperty ;
@@ -510,12 +538,15 @@ crgo:CRGO_0001061 a owl:ObjectProperty ;
     skos:definition "Relates a mapping assertion to its target requirement, such as an obligation or a framework requirement."@en,
         "Relie une assertion de correspondance à son exigence cible, comme une obligation ou une exigence de référentiel."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- has mapping type
 crgo:CRGO_0001062 a owl:ObjectProperty ;
@@ -526,12 +557,15 @@ crgo:CRGO_0001062 a owl:ObjectProperty ;
     skos:definition "Gives how the source of a mapping assertion corresponds to its target."@en,
         "Indique comment la source d'une assertion de correspondance correspond à sa cible."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapped edition
 crgo:CRGO_0001063 a owl:ObjectProperty ;
@@ -540,13 +574,16 @@ crgo:CRGO_0001063 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0000912 ;
     skos:definition "Relates a mapping assertion to the source record or version of each side that was mapped, so that a later edition does not silently change it."@en,
         "Relie une assertion de correspondance à la notice de source ou à la version de chaque côté mise en correspondance, pour qu'une édition ultérieure ne la modifie pas à l'insu de tous."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "POL section 10 (edition changes must not silently mutate historical claims)."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- has review state
 crgo:CRGO_0001064 a owl:ObjectProperty ;
@@ -556,11 +593,14 @@ crgo:CRGO_0001064 a owl:ObjectProperty ;
     skos:definition "Gives the review state of an organisation record such as a mapping assertion. A requirement interpretation also has a legal review state, which says whether counsel has reviewed it."@en,
         "Indique l'état de la revue d'un enregistrement d'une organisation, comme une assertion de correspondance. Une interprétation d'exigence a aussi un état de revue juridique, qui indique si un conseiller juridique l'a revue."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- reviewed by
 crgo:CRGO_0001065 a owl:ObjectProperty ;
@@ -568,13 +608,16 @@ crgo:CRGO_0001065 a owl:ObjectProperty ;
         "revu par"@fr ;
     skos:definition "Relates a record, such as a mapping assertion, a requirement interpretation, an audit workpaper or a report, to an agent who reviewed it."@en,
         "Relie un enregistrement, comme une assertion de correspondance, une interprétation d'exigence, une feuille de travail ou un rapport d'audit, à un agent qui l'a revu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapping confidence
 crgo:CRGO_0001091 a owl:DatatypeProperty,
@@ -585,12 +628,15 @@ crgo:CRGO_0001091 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the reviewer's confidence in a mapping assertion, from 0 to 1."@en,
         "Indique la confiance du réviseur dans une assertion de correspondance, de 0 à 1."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- reviewed on
 crgo:CRGO_0001092 a owl:DatatypeProperty ;
@@ -599,14 +645,17 @@ crgo:CRGO_0001092 a owl:DatatypeProperty ;
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a record was reviewed."@en,
         "Indique quand un enregistrement a été revu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Not functional: a record may be reviewed more than once."@en ;
     crgo:CRGO_0000286 "Audit management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 crgo:crgo-mapping a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -647,14 +696,17 @@ crgo:CRGO_0000912 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A directional statement, subject to review, that a source requirement corresponds to a target requirement in a stated way (exact, full or partial coverage, broader, narrower, related or conflicting), with the editions mapped, the rationale, the confidence, the reviewer and its review state. A mapping is not evidence of compliance."@en,
         "Énoncé orienté, soumis à une revue, selon lequel une exigence source correspond à une exigence cible d'une façon précisée (exacte, couverture totale ou partielle, plus large, plus étroite, liée ou contradictoire), avec les éditions mises en correspondance, la justification, le degré de confiance, le réviseur et l'état de la revue. Une correspondance ne prouve pas la conformité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Improvement I1; decision D6 (organisation crosswalks and newly reviewed mappings; approved direct mappings are not reified)."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 Phase 0 analysis and decisions D1-D14 (docs/baseline/policy_compliance_audit_phase0.md, approved 2026-10-12)"@en,
         "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- review state scheme
 crgo:CRGO_0000995 a owl:NamedIndividual,
@@ -663,11 +715,14 @@ crgo:CRGO_0000995 a owl:NamedIndividual,
         "schéma : état de la revue"@fr ;
     skos:definition "Concept scheme of the review state value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de la revue »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapping type scheme
 crgo:CRGO_0000986 a owl:NamedIndividual,
@@ -676,12 +731,15 @@ crgo:CRGO_0000986 a owl:NamedIndividual,
         "schéma : type de correspondance"@fr ;
     skos:definition "Concept scheme of the mapping type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de correspondance »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- review state
 crgo:CRGO_0000994 a owl:Class ;
@@ -690,12 +748,15 @@ crgo:CRGO_0000994 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The review state of an organisation record such as a mapping assertion or a requirement interpretation. Not the governance status of a CRGO term."@en,
         "État de la revue d'un enregistrement d'une organisation, comme une assertion de correspondance ou une interprétation d'exigence. Ce n'est pas le statut de gouvernance d'un terme de CRGO."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 # --- mapping type
 crgo:CRGO_0000985 a owl:Class ;
@@ -704,13 +765,16 @@ crgo:CRGO_0000985 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How the source of a mapping assertion corresponds to its target."@en,
         "Façon dont la source d'une assertion de correspondance correspond à sa cible."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Compliance management ontology extension: implementation specification v1.0 (project owner, 2026-10-12)"@en,
         "Information Security Policy Governance, Compliance Traceability and Assurance, specification O-ISPMS-001 v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-12"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "P1 review group 4 (0.10.0 additions)"@en .
 
 skos:relatedMatch a owl:ObjectProperty .
 

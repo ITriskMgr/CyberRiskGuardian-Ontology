@@ -19,10 +19,14 @@
   <uri name="https://w3id.org/crgo/crgo-incident" uri="../../ontology/crgo-incident.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-policy" uri="../../ontology/crgo-policy.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-compliance" uri="../../ontology/crgo-compliance.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-siem" uri="../../ontology/crgo-siem.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-soar" uri="../../ontology/crgo-soar.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="../../ontology/crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="../../ontology/crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../../data/abox/crgo-library.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/attack" uri="../../ontology/vocab/attack.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/attack-detection" uri="../../ontology/vocab/attack-detection.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/ocsf" uri="../../ontology/vocab/ocsf.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/ccm41" uri="../../ontology/vocab/ccm41.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/cobit2019" uri="../../ontology/vocab/cobit2019.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/csf2" uri="../../ontology/vocab/csf2.ttl"/>

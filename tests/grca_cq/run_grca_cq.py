@@ -26,7 +26,7 @@ def concept(scheme, notation):
     return _voc[scheme][notation]
 
 base = Graph()
-for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance"):
+for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar"):
     base.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 base.parse(os.path.join(ROOT, "ontology", "crgo.ttl"))
 for v in ("legal", "sources", "loi25", "gdpr", "sp800-53r5", "sp800-53a"):

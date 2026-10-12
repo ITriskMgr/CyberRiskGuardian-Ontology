@@ -18,14 +18,16 @@ sys.path.insert(0, os.path.join(ROOT, "src"))
 from spec_props import OBJECT_PROPERTIES  # noqa: E402
 import spec_v09 as V9  # noqa: E402
 import spec_grca as VG  # noqa: E402
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA
+import spec_pca as VP  # noqa: E402
+import spec_secops as VS  # noqa: E402
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS
 ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
 C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 SH = Namespace("http://www.w3.org/ns/shacl#")
 S = Namespace("https://w3id.org/crgo/shapes/")
 g = Graph(); g.bind("sh", SH); g.bind("crgo", "https://w3id.org/crgo/"); g.bind("shape", S); g.bind("xsd", XSD); g.bind("skos", SKOS)
 o = URIRef("https://w3id.org/crgo/shapes")
-g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.9.0")))
+g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.10.0")))
 
 def shape(name, target, msg_en):
     s = S[name]
@@ -157,8 +159,10 @@ prop(s, C("assessedBy"), "An applicability assessment must name who made it.", m
 s = shape("ComplianceDetermination", ("class", C("ComplianceDetermination")), "Compliance determinations: section 13 fields, and evidence or an explicit evidence gap.")
 for k, m in (("concernsOrganisation", "the organisation"), ("complianceWith", "the provision"), ("hasComplianceState", "the state"), ("assessedOn", "the date")):
     prop(s, C(k), "A compliance determination needs exactly one value for %s." % m, minCount=1, maxCount=1)
-prop(s, C("hasJurisdiction"), "A compliance determination needs its jurisdictional scope.", minCount=1)
 prop(s, C("assessedBy"), "A compliance determination must name its assessor.", minCount=1)
+# 0.10.0: the jurisdiction is required when the determination is about a legal provision or obligation (frameworks and contracts may have none)
+sparql(s, "A compliance determination about a legal provision or obligation needs its jurisdictional scope.", """SELECT $this WHERE {
+  $this <%s> ?t . { ?t <%s> ?i } UNION { ?t a <%s> } FILTER NOT EXISTS { $this <%s> ?j } }""" % (C("complianceWith"), C("provisionOf"), C("LegalObligation"), C("hasJurisdiction")))
 alt = BNode(); g.add((s, SH["or"], alt)); b1, b2 = BNode(), BNode()
 for b, path in ((b1, C("hasEvidence")), (b2, C("evidenceGap"))):
     pp = BNode(); g.add((b, SH.property, pp)); g.add((pp, SH.path, path)); g.add((pp, SH.minCount, Literal(1)))
@@ -318,6 +322,197 @@ req(s, "changeOf", "what changed", "A regulatory change", one=False); req(s, "ha
 req(s, "identifiedOn", "the date identified", "A regulatory change")
 s = shape("ReassessmentTrigger", ("class", C("ReassessmentTrigger")), "Triggers name their cause and what must be reviewed.")
 req(s, "triggeredBy", "the cause", "A reassessment trigger", one=False); req(s, "requiresReviewOf", "what must be reviewed", "A reassessment trigger", one=False)
+
+# 8. 0.10.0: policy, compliance and audit management (decisions D1-D14) and SIEM/SOAR (decisions S1-S12)
+def one_of(s, key, allowed, msg):
+    sparql(s, msg, """SELECT $this WHERE { $this %s ?v . FILTER NOT EXISTS { ?v a ?c . FILTER(?c IN (%s)) } }""" % (P(key), ", ".join(P(a) for a in allowed)))
+def ordered(s, a, b, msg):
+    sparql(s, msg, """SELECT $this WHERE { $this %s ?a ; %s ?b . FILTER(?b < ?a) }""" % (P(a), P(b)))
+# --- D9: closure and reopening apply to audit findings and nonconformities
+for name, key in (("FindingClosure", "closesFinding"), ("FindingReopening", "reopensFinding")):
+    s = shape("Target_%s_0100" % name, ("subjectsOf", C(key)), "A closure or reopening concerns an audit finding or a nonconformity (decision D9).")
+    one_of(s, key, ["AuditFinding", "Nonconformity"], "A finding closure or reopening must concern an audit finding or a nonconformity.")
+s = shape("FindingClosureNonconformity", ("class", C("FindingClosure")), "Independence of closure also covers nonconformities raised from a control assessment.")
+sparql(s, "Closure of a nonconformity needs an independent verification: the verifier must not own the control whose assessment raised it.", """SELECT $this WHERE {
+  $this %(cb)s ?v ; %(closes)s ?f . ?v %(by)s ?who . ?f a %(nc)s ; %(rf)s ?ca . ?ca %(ecm)s ?m .
+  { ?m %(own)s ?who } UNION { ?who %(op)s ?m } UNION { ?role %(rolefor)s ?m ; a %(cor)s . ?asg %(aor)s ?role ; %(at)s ?who }
+}""" % {"cb": P("closureBasedOn"), "closes": P("closesFinding"), "by": P("assessedBy"), "nc": P("Nonconformity"), "rf": P("raisedFrom"),
+        "ecm": P("evaluatesControlMeasure"), "own": P("hasOwner"), "op": P("operatesControl"), "rolefor": P("roleFor"), "cor": P("ControlOwnerRole"),
+        "aor": P("assignmentOfRole"), "at": P("assignedTo")})
+# --- policy
+s = shape("DirectiveVersion", ("class", C("DirectiveVersion")), "Directive versions: the directive, the lifecycle state, a version label (POL section 8).")
+req(s, "versionOfDirective", "the directive it is a version of", "A directive version")
+req(s, "hasLifecycleState", "the lifecycle state", "A directive version")
+req(s, "versionLabel", "the version label", "A directive version")
+sparql(s, "An approved or published directive version needs its effective date and an approval decision about this exact version.", """SELECT $this WHERE {
+  $this %s ?st . FILTER(?st IN (%s, %s))
+  FILTER (NOT EXISTS { $this %s ?eff } || NOT EXISTS { ?d %s $this ; %s %s }) }""" % (P("hasLifecycleState"), P("LifeApproved"), P("LifePublished"),
+  P("effectiveOn"), P("decisionOn"), P("hasDecisionOutcome"), P("DecApproved")))
+sparql(s, "A retired or superseded directive version needs its retirement date, after its effective date.", """SELECT $this WHERE {
+  $this %s ?st . FILTER(?st IN (%s, %s))
+  FILTER (NOT EXISTS { $this %s ?r } || EXISTS { $this %s ?r2 ; %s ?e . FILTER(?r2 <= ?e) }) }""" % (P("hasLifecycleState"), P("LifeRetired"), P("LifeSuperseded"),
+  P("retiredOn"), P("retiredOn"), P("effectiveOn")))
+s = shape("PolicyStatementVersioned", ("class", C("PolicyStatement")), "Policy statements belong to an exact version and state how binding they are (POL section 8).")
+req(s, "statementInVersion", "the directive version it belongs to", "A policy statement")
+req(s, "hasNormativeModality", "the normative modality", "A policy statement")
+s = shape("PolicyAcknowledgement", ("class", C("PolicyAcknowledgement")), "Acknowledgements name who, when and the exact policy version (POL section 4).")
+req(s, "attestedBy", "who made it", "A policy acknowledgement", one=False)
+req(s, "attestedOn", "the date", "A policy acknowledgement")
+req(s, "attestationAbout", "the policy version acknowledged", "A policy acknowledgement", one=False)
+one_of(s, "attestationAbout", ["DirectiveVersion"], "A policy acknowledgement must be about an exact directive version, not a policy in general.")
+s = shape("Attestation", ("class", C("Attestation")), "Attestations are management declarations (improvement I2).")
+sparql(s, "An attestation records a management declaration: its knowledge status, if stated, is a management decision.", """SELECT $this WHERE {
+  $this %s ?k . FILTER(?k != %s) }""" % (P("hasKnowledgeStatus"), P("KsManagementDecision")))
+s = shape("ComplianceAttestation", ("class", C("ComplianceAttestation")), "Compliance attestations: signatory, date, subject and scope.")
+req(s, "attestedBy", "the signatory", "A compliance attestation", one=False); req(s, "attestedOn", "the date", "A compliance attestation")
+req(s, "attestationAbout", "what is attested", "A compliance attestation", one=False); req(s, "attestationScope", "the scope and basis", "A compliance attestation", one=False)
+s = shape("DirectiveReview", ("class", C("DirectiveReview")), "Directive reviews: what, why and when.")
+req(s, "reviewOf", "what is reviewed", "A directive review", one=False); req(s, "hasReviewTrigger", "the trigger", "A directive review", one=False)
+req(s, "assessedOn", "the review date", "A directive review")
+s = shape("Guideline", ("class", C("Guideline")), "Guidelines are not binding (POL section 4).")
+sparql(s, "A guideline cannot carry a 'must' or 'must not' modality; a binding rule is a policy statement.", """SELECT $this WHERE {
+  $this %s ?m . FILTER(?m IN (%s, %s)) }""" % (P("hasNormativeModality"), P("ModalityMust"), P("ModalityMustNot")))
+# --- mapping assertions (I1)
+s = shape("MappingAssertion", ("class", C("MappingAssertion")), "Mapping assertions: source, target, type, review state and rationale (POL section 8, CMP section 10).")
+for k, w in (("mappingSource", "the source"), ("mappingTarget", "the target"), ("hasMappingType", "the mapping type"), ("hasReviewState", "the review state")):
+    req(s, k, w, "A mapping assertion")
+req(s, "rationale", "the rationale", "A mapping assertion", one=False)
+prop(s, C("mappingConfidence"), "Mapping confidence is between 0 and 1.", maxCount=1, minInclusive=Literal(0, datatype=XSD.decimal), maxInclusive=Literal(1, datatype=XSD.decimal))
+sparql(s, "An exact or full-coverage mapping needs a reviewer, a review date, the editions mapped and an approved review state.", """SELECT $this WHERE {
+  $this %s ?t . FILTER(?t IN (%s, %s))
+  FILTER (NOT EXISTS { $this %s ?r } || NOT EXISTS { $this %s ?d } || NOT EXISTS { $this %s ?e } || NOT EXISTS { $this %s %s }) }""" % (
+  P("hasMappingType"), P("MapExact"), P("MapFullCoverage"), P("reviewedBy"), P("reviewedOn"), P("mappedEdition"), P("hasReviewState"), P("RevApproved")))
+# --- compliance
+s = shape("RequirementInterpretation", ("class", C("RequirementInterpretation")), "Interpretations: what they interpret and their legal review state.")
+req(s, "interpretationOf", "what it interprets", "A requirement interpretation", one=False); req(s, "hasLegalReviewState", "the legal review state", "A requirement interpretation")
+s = shape("RegulatoryExemption", ("class", C("RegulatoryExemption")), "Exemptions come from an authority, on a legal basis, for an organisation and a period (CMP section 10).")
+for k, w, one in (("exemptionFrom", "what it relieves from", False), ("grantedBy", "the granting authority", True), ("legalBasis", "the legal basis", False),
+                  ("concernsOrganisation", "the organisation", False), ("validFrom", "the start date", True)):
+    req(s, k, w, "A regulatory exemption", one=one)
+one_of(s, "grantedBy", ["RegulatoryAuthority"], "A regulatory exemption must be granted by a regulatory authority, not by an internal approver.")
+ordered(s, "validFrom", "validUntil", "A regulatory exemption ends after it starts.")
+s = shape("ComplianceDeadline", ("class", C("ComplianceDeadline")), "Deadlines: what sets them and how they are computed (CMP section 8).")
+req(s, "deadlineFor", "the obligation or provision", "A compliance deadline", one=False); req(s, "hasDeadlineTriggerKind", "the trigger kind", "A compliance deadline")
+sparql(s, "An event-triggered deadline needs its offset in hours; a calendar deadline needs its due date.", """SELECT $this WHERE {
+  { $this %s %s FILTER NOT EXISTS { $this %s ?h } } UNION { $this %s %s FILTER NOT EXISTS { $this %s ?d } } }""" % (
+  P("hasDeadlineTriggerKind"), P("DeadlineEvent"), P("dueOffsetHours"), P("hasDeadlineTriggerKind"), P("DeadlineCalendar"), P("dueOn")))
+s = shape("RegulatorySubmission", ("class", C("RegulatorySubmission")), "Submissions: authority, obligation, state; date once sent; receipt once acknowledged (CMP section 10).")
+req(s, "submissionTo", "the authority", "A regulatory submission"); req(s, "submissionUnder", "the obligation or provision", "A regulatory submission", one=False)
+req(s, "hasSubmissionState", "the state", "A regulatory submission")
+sparql(s, "A submitted or acknowledged submission needs its submission date; an acknowledged one needs its receipt evidence.", """SELECT $this WHERE {
+  { $this %s ?st . FILTER(?st IN (%s, %s, %s)) FILTER NOT EXISTS { $this %s ?d } } UNION { $this %s %s FILTER NOT EXISTS { $this %s ?e } } }""" % (
+  P("hasSubmissionState"), P("SubSubmitted"), P("SubAcknowledged"), P("SubRejected"), P("submittedOn"), P("hasSubmissionState"), P("SubAcknowledged"), P("receiptEvidence")))
+s = shape("FrameworkAdoption", ("class", C("FrameworkAdoption")), "Adoptions: what is adopted and by whom.")
+req(s, "adoptsFramework", "what is adopted", "A framework adoption", one=False); req(s, "concernsOrganisation", "the organisation", "A framework adoption")
+s = shape("ProvisionVersion", ("class", C("ProvisionVersion")), "Provision versions: the provision and the start of the wording.")
+req(s, "provisionVersionOf", "the provision", "A provision version"); req(s, "validFrom", "when the wording took effect", "A provision version")
+ordered(s, "validFrom", "validUntil", "A provision version ends after it starts.")
+s = shape("NotApplicableNotAssessed", ("class", C("ComplianceDetermination")), "Decision D10: no compliance determination for a requirement assessed as not applicable at that date.")
+sparql(s, "A compliance determination concerns a requirement that an applicability assessment for the same organisation found not applicable on or before this date.", """SELECT $this WHERE {
+  $this %(cw)s ?req ; %(org)s ?o ; %(on)s ?d .
+  ?a %(ao)s ?req ; %(org)s ?o ; %(st)s %(na)s ; %(on)s ?ad . FILTER(?ad <= ?d)
+  FILTER NOT EXISTS { ?a2 %(ao)s ?req ; %(org)s ?o ; %(st)s ?s2 ; %(on)s ?ad2 . FILTER(?ad2 > ?ad && ?ad2 <= ?d && ?s2 != %(na)s) } }""" % {
+  "cw": P("complianceWith"), "org": P("concernsOrganisation"), "on": P("assessedOn"), "ao": P("applicabilityOf"), "st": P("hasApplicabilityState"), "na": P("AppNotApplicable")})
+# --- audit
+s = shape("AuditPlanEntry", ("class", C("AuditPlanEntry")), "Plan entries: plan, state; reason and authoriser when deferred or cancelled (AUD section 7).")
+req(s, "entryInPlan", "the plan", "An audit plan entry"); req(s, "hasPlanEntryState", "the state", "An audit plan entry")
+sparql(s, "A deferred or cancelled plan entry needs its reason and who authorised it.", """SELECT $this WHERE {
+  $this %s ?st . FILTER(?st IN (%s, %s)) FILTER (NOT EXISTS { $this %s ?r } || NOT EXISTS { $this %s ?a }) }""" % (
+  P("hasPlanEntryState"), P("EntryDeferred"), P("EntryCancelled"), P("deferralReason"), P("approvingAuthority")))
+s = shape("AuditWorkpaper", ("class", C("AuditWorkpaper")), "Workpapers: what they document, preparer, date; no sole self-review (AUD section 9).")
+req(s, "workpaperFor", "what it documents", "An audit workpaper", one=False); req(s, "preparedBy", "the preparer", "An audit workpaper", one=False)
+req(s, "preparedOn", "the preparation date", "An audit workpaper")
+sparql(s, "Self-review: the only reviewer of a workpaper is its preparer.", """SELECT $this WHERE {
+  $this %s ?r . FILTER NOT EXISTS { $this %s ?r2 . FILTER NOT EXISTS { $this %s ?r2 } } }""" % (P("reviewedBy"), P("reviewedBy"), P("preparedBy")))
+s = shape("AuditObservation", ("class", C("AuditObservation")), "Observations belong to an engagement and carry no audit conclusion (decision D8).")
+req(s, "withinEngagement", "the engagement", "An audit observation")
+sparql(s, "An audit observation is preliminary: it cannot have the knowledge status of an audit conclusion, a reference fact or a verified outcome.", """SELECT $this WHERE {
+  $this %s ?k . FILTER(?k IN (%s, %s, %s)) }""" % (P("hasKnowledgeStatus"), P("KsAuditConclusion"), P("KsReferenceFact"), P("KsVerifiedOutcome")))
+s = shape("AuditQualityReview", ("class", C("AuditQualityReview")), "Quality reviews: subject, kind, reviewer, date.")
+req(s, "qualityReviewOf", "what is reviewed", "An audit quality review", one=False); req(s, "hasQualityReviewKind", "the kind", "An audit quality review")
+req(s, "assessedBy", "the reviewer", "An audit quality review", one=False); req(s, "assessedOn", "the date", "An audit quality review")
+s = shape("AuditCharter", ("class", C("AuditCharter")), "Charters govern an audit function.")
+req(s, "charterOf", "the audit function", "An audit charter")
+s = shape("EngagementType", ("subjectsOf", C("hasEngagementType")), "An engagement has one nature (assurance or advisory) and at most one focus (compliance or follow-up).")
+sparql(s, "An engagement can be either an assurance or an advisory engagement, not both, and has at most one focus.", """SELECT $this WHERE {
+  { $this %s %s , %s } UNION { $this %s %s , %s } }""" % (P("hasEngagementType"), P("EngAssurance"), P("EngAdvisory"), P("hasEngagementType"), P("EngCompliance"), P("EngFollowUp")))
+# --- SIEM
+s = shape("TelemetrySource", ("class", C("TelemetrySource")), "Telemetry sources name the asset they report from.")
+req(s, "sourceAsset", "the asset", "A telemetry source", one=False)
+s = shape("SecurityEventRecord", ("class", C("SecurityEventRecord")), "Event records: emitting source and the time recorded, apart from the time observed (SIEM section 1).")
+req(s, "emittedBy", "the emitting source", "A security event record"); req(s, "recordedAt", "the time recorded", "A security event record")
+s = shape("DetectionRule", ("class", C("DetectionRule")), "Detection rules: status and version; enabled rules declare their telemetry (SIEM section 5).")
+req(s, "hasDetectionStatus", "the detection status", "A detection rule"); req(s, "versionLabel", "the version", "A detection rule")
+sparql(s, "An enabled detection rule must declare the telemetry sources or data components it needs.", """SELECT $this WHERE {
+  $this %s %s FILTER NOT EXISTS { $this %s ?src } }""" % (P("hasDetectionStatus"), P("DetEnabled"), P("requiresSource")))
+s = shape("DetectionCoverage", ("class", C("DetectionCoverage")), "Coverage needs a strategy or rule, a scenario or technique, and its status (SIEM section 5).")
+req(s, "coverageBy", "the strategy or rule", "A detection coverage statement", one=False); req(s, "hasCoverageStatus", "the coverage status", "A detection coverage statement")
+sparql(s, "A detection coverage statement must say what it covers: a risk scenario or a technique.", """SELECT $this WHERE {
+  FILTER NOT EXISTS { $this %s ?x } FILTER NOT EXISTS { $this %s ?y } }""" % (P("coversScenario"), P("coversTechnique")))
+sparql(s, "Validated coverage needs a supporting detection test found effective.", """SELECT $this WHERE {
+  $this %s %s FILTER NOT EXISTS { $this %s ?t . ?t %s %s } }""" % (P("hasCoverageStatus"), P("CovValidated"), P("supportedByTest"), P("hasTestResult"), P("TestEffective")))
+s = shape("DetectionTest", ("class", C("DetectionTest")), "Detection tests name the rule or strategy exercised.")
+req(s, "testedRule", "the rule or strategy tested", "A detection test", one=False)
+s = shape("ThreatIndicator", ("class", C("ThreatIndicator")), "Indicators: pattern, language, source, validity; confidence with its method (SIEM sections 2 and 4).")
+for k, w, one in (("indicatorPattern", "the pattern", False), ("patternLanguage", "the pattern language", True), ("indicatorFromSource", "the source", False), ("validFrom", "the start of validity", True)):
+    req(s, k, w, "A threat indicator", one=one)
+sparql(s, "A stated confidence needs its method (how it is defined and on which scale).", """SELECT $this WHERE {
+  $this %s ?c . FILTER NOT EXISTS { $this %s ?m } }""" % (P("statedConfidence"), P("confidenceMethod")))
+ordered(s, "validFrom", "validUntil", "A threat indicator's validity ends after it starts.")
+s = shape("TelemetryHealthObservation", ("class", C("TelemetryHealthObservation")), "Health observations give a state.")
+req(s, "hasTelemetryHealthState", "the health state", "A telemetry health observation")
+s = shape("Target_openedInvestigation", ("subjectsOf", C("openedInvestigation")), "Alerts open security investigations.")
+one_of(s, "openedInvestigation", ["SecurityInvestigation"], "'opened investigation' must point to a security investigation.")
+# --- SOAR
+s = shape("SecurityInvestigation", ("class", C("SecurityInvestigation")), "Investigations: case status and opening time.")
+req(s, "hasCaseStatus", "the case status", "A security investigation"); req(s, "investigationOpenedAt", "the opening time", "A security investigation")
+s = shape("ConcludedIncidentConfirmed", ("class", C("SecurityInvestigation")), "Warning: an investigation's conclusion counts only with an incident confirmation (decision S5).")
+warn(s)
+sparql(s, "The incident this investigation concluded has no incident confirmation yet.", """SELECT $this WHERE {
+  $this %s ?i . FILTER NOT EXISTS { ?c %s ?i } }""" % (P("concludedIncident"), P("confirmsIncident")))
+s = shape("PlaybookVersion", ("class", C("PlaybookVersion")), "Playbook versions contain steps.")
+req(s, "includesStep", "a step", "A playbook version", one=False)
+s = shape("ResponseAction", ("class", C("ResponseAction")), "Response actions state their risk class.")
+req(s, "hasActionRiskClass", "the risk class", "A response action")
+s = shape("ApprovalDecision", ("class", C("ApprovalDecision")), "Approval decisions state their approval status.")
+req(s, "hasApprovalStatus", "the approval status", "An approval decision")
+s = shape("AutomationExecution", ("class", C("AutomationExecution")), "Executions cite the exact playbook version and an attempt identifier (SOAR section 5).")
+for k, w in (("usesPlaybookVersion", "the playbook version"), ("hasExecutionStatus", "the execution status"), ("executionStartedAt", "the start time"), ("attemptIdentifier", "the attempt identifier")):
+    req(s, k, w, "An automation execution record")
+ordered(s, "executionStartedAt", "executionEndedAt", "An execution ends after it starts.")
+s = shape("ActionExecution", ("class", C("ActionExecution")), "Action executions: action, target, status, start, attempt identifier; impactful actions need a valid approval (SOAR section 5).")
+for k, w, one in (("performsAction", "the action", True), ("actionTarget", "the target", False), ("hasExecutionStatus", "the execution status", True),
+                  ("executionStartedAt", "the start time", True), ("attemptIdentifier", "the attempt identifier", True)):
+    req(s, k, w, "An action execution record", one=one)
+ordered(s, "executionStartedAt", "executionEndedAt", "An execution ends after it starts.")
+sparql(s, "A containment or destructive action, or one behind an approval gate, was executed without an approval decision that was granted and valid when it started (an audit signal, never an authorisation).", """SELECT $this WHERE {
+  $this %(pa)s ?act ; %(start)s ?t .
+  { ?act %(rc)s ?c . FILTER(?c IN (%(cont)s, %(destr)s)) } UNION { ?act %(ra)s ?gate }
+  FILTER NOT EXISTS {
+    $this %(auth)s ?d . ?d %(as)s %(granted)s ; %(out)s %(approved)s ; %(don)s ?dd ; %(vf)s ?from .
+    FILTER(?dd <= ?t && ?from <= ?t)
+    FILTER NOT EXISTS { ?d %(vu)s ?until . FILTER(?until < ?t) } } }""" % {
+  "pa": P("performsAction"), "start": P("executionStartedAt"), "rc": P("hasActionRiskClass"), "cont": P("RiskContainment"), "destr": P("RiskDestructive"),
+  "ra": P("requiresApproval"), "auth": P("authorizedBy"), "as": P("hasApprovalStatus"), "granted": P("ApprGranted"), "out": P("hasDecisionOutcome"),
+  "approved": P("DecApproved"), "don": P("decidedOn"), "vf": P("validFrom"), "vu": P("validUntil")})
+s = shape("ForensicArtifact", ("class", C("ForensicArtifact")), "Forensic artefacts: custodian, integrity hash, collection date.")
+req(s, "custodian", "the custodian", "A forensic artefact", one=False); req(s, "evidenceHash", "the integrity hash", "A forensic artefact"); req(s, "collectedOn", "the collection date", "A forensic artefact")
+s = shape("IncidentCommunication", ("class", C("IncidentCommunication")), "Communications: incident, audience, date.")
+req(s, "communicationAbout", "the incident", "An incident communication"); req(s, "hasAudience", "the audience", "An incident communication", one=False)
+req(s, "sentAt", "the time sent", "An incident communication")
+s = shape("RegulatorCommunication", ("class", C("IncidentCommunication")), "Warning: a notice to a regulator should also be recorded as a regulatory submission.")
+warn(s)
+sparql(s, "A communication to a regulator is not linked to a regulatory submission.", """SELECT $this WHERE {
+  $this %s %s FILTER NOT EXISTS { $this %s ?sub } }""" % (P("hasAudience"), P("AudRegulator"), P("recordedAsSubmission")))
+s = shape("RecoveryVerification", ("class", C("RecoveryVerification")), "Recovery verifications: what, when, by whom, on what evidence.")
+for k, w, one in (("verifiesRecoveryOf", "what was restored", False), ("verifiedAt", "the time", True), ("assessedBy", "who verified", False), ("hasEvidence", "the evidence", False)):
+    req(s, k, w, "A recovery verification", one=one)
+s = shape("ResponseMeasurement", ("class", C("ResponseMeasurement")), "Response measurements: metric, value in hours, method and what was measured (SOAR section 2).")
+req(s, "measuresMetric", "the metric", "A response effectiveness measurement"); req(s, "metricMethod", "the method", "A response effectiveness measurement", one=False)
+req(s, "measurementOf", "what was measured", "A response effectiveness measurement", one=False)
+prop(s, C("valueHours"), "A response effectiveness measurement needs exactly one non-negative value in hours.", minCount=1, maxCount=1, minInclusive=Literal(0, datatype=XSD.decimal))
+s = shape("PlaybookSimulation", ("class", C("PlaybookSimulation")), "Simulations name the playbook version run.")
+req(s, "simulatedPlaybook", "the playbook version", "A playbook simulation")
 
 os.makedirs(os.path.join(ROOT, "shapes"), exist_ok=True)
 g.serialize(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"), format="turtle")

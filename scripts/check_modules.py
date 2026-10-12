@@ -7,7 +7,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEPS = {"gov": [], "core": ["gov"], "measure": ["core"], "crg": ["measure"], "evidence": ["measure"], "org": ["core"],
         "vuln": ["evidence"], "grc": ["evidence", "org"], "mapping": ["core"],
         "governance": ["grc"], "assurance": ["governance"], "audit": ["assurance", "compliance"], "incident": ["evidence"],
-        "policy": ["governance", "mapping"], "compliance": ["grc", "policy"]}
+        "policy": ["governance", "mapping"], "compliance": ["grc", "policy"],
+        "siem": ["incident", "grc"], "soar": ["siem", "audit"]}
 order = list(DEPS)
 def closure_of(m):
     out = {m}
