@@ -1,0 +1,10 @@
+# CQ-SOAR-02 Which executions of approval-gated or containment/destructive actions had no granted approval valid at their start?
+SELECT DISTINCT ?execution ?action ?approval ?why WHERE {
+  ?execution {{performsAction}} ?action ; {{executionStartedAt}} ?t .
+  { ?action {{hasActionRiskClass}} ?c . FILTER(?c IN ({{RiskContainment}}, {{RiskDestructive}})) } UNION { ?action {{requiresApproval}} ?g }
+  OPTIONAL { ?execution {{authorizedBy}} ?approval }
+  BIND(IF(!BOUND(?approval), "absent",
+       IF(EXISTS { ?approval {{validUntil}} ?u . FILTER(?u < ?t) }, "expired",
+       IF(EXISTS { ?approval {{hasApprovalStatus}} {{ApprGranted}} } || EXISTS { ?approval {{hasApprovalStatus}} {{ApprExpired}} }, "valid", "not granted"))) AS ?why)
+  FILTER(?why != "valid")
+}

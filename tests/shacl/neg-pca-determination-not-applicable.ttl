@@ -1,0 +1,27 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:a a crgo:CRGO_0000345 ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0000427 x:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000384 ;
+    crgo:CRGO_0000435 x:bob ;
+    crgo:CRGO_0000464 "2026-09-01T00:00:00"^^xsd:dateTime .
+
+x:c a crgo:CRGO_0000346 ;
+    crgo:CRGO_0000213 x:ev ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 x:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000389 ;
+    crgo:CRGO_0000435 x:bob ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-test/fixture/neg-pca-determination-not-applicable> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: found not applicable" .
+

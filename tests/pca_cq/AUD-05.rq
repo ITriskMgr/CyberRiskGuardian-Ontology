@@ -1,0 +1,6 @@
+# AUD CQ-05 What evidence and procedures support the issued conclusion of engagement ?eng, with the exact versions of the requirements tested?
+SELECT DISTINCT ?conclusion ?report ?test ?procedure ?evidence ?statement ?versionLabel WHERE {
+  ?conclusion {{conclusionOf}} ?eng . ?report {{reportOf}} ?eng ; {{issuedOn}} ?i .
+  ?test {{withinEngagement}} ?eng ; {{hasEvidence}} ?evidence . OPTIONAL { ?test {{executesProcedure}} ?procedure }
+  OPTIONAL { ?eng {{usesCriterion}} ?c . ?c {{criterionRefersTo}} ?statement . ?statement {{statementInVersion}} ?v . ?v {{versionLabel}} ?versionLabel }
+}

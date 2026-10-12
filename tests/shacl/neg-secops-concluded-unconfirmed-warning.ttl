@@ -1,0 +1,16 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-secops-concluded-unconfirmed-warning> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: no incident confirmation" .
+
+x:inv a crgo:CRGO_0001112 ;
+    crgo:CRGO_0001267 crgo:CRGO_0001167 ;
+    crgo:CRGO_0001268 x:inc ;
+    crgo:CRGO_0001313 "2026-10-10T10:00:00"^^xsd:dateTime .
+

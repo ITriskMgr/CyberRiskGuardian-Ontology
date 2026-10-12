@@ -1,0 +1,6 @@
+# CMP CQ4 Which obligations are assessed compliant but rely on evidence that had expired or was judged insufficient or out of date?
+SELECT DISTINCT ?det ?req ?evidence ?why WHERE {
+  ?det {{complianceWith}} ?req ; {{hasComplianceState}} {{CompSatisfied}} ; {{assessedOn}} ?d ; {{hasEvidence}} ?evidence .
+  { ?det {{assessedOn}} ?d1 . ?evidence {{validUntil}} ?u . FILTER(?u < ?d1) BIND("expired" AS ?why) }
+  UNION { ?s {{sufficiencyOf}} ?evidence ; {{hasSufficiencyConclusion}} ?c . FILTER(?c IN ({{SuffInsufficient}}, {{SuffStale}})) BIND("judged insufficient or out of date" AS ?why) }
+}

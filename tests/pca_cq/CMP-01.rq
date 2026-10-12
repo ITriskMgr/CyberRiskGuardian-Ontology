@@ -1,0 +1,7 @@
+# CMP CQ1 Which obligations potentially apply to ?org, and on which rules and facts (latest applicability assessment per requirement)?
+SELECT ?req ?state ?rule ?fact ?missing ?met ?undetermined WHERE {
+  ?a {{applicabilityOf}} ?req ; {{concernsOrganisation}} ?org ; {{hasApplicabilityState}} ?state ; {{assessedOn}} ?d . FILTER(?state IN ({{AppApplicable}}, {{AppPotentiallyApplicable}}))
+  FILTER NOT EXISTS { ?a2 {{applicabilityOf}} ?req ; {{concernsOrganisation}} ?org ; {{assessedOn}} ?d2 . FILTER(?d2 > ?d) }
+  OPTIONAL { ?a {{ruleVersion}} ?rule } OPTIONAL { ?a {{factRelied}} ?fact } OPTIONAL { ?a {{missingFact}} ?missing }
+  OPTIONAL { ?a {{conditionMet}} ?met } OPTIONAL { ?a {{conditionUndetermined}} ?undetermined }
+}

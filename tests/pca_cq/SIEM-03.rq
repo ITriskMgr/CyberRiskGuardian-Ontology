@@ -1,0 +1,5 @@
+# CQ-SIEM-03 Which alerts involve a crown-jewel asset but remain untriaged (unreviewed, or no disposition)?
+SELECT DISTINCT ?alert ?asset WHERE {
+  ?alert a {{SecurityAlert}} ; {{involvesAsset}} ?asset . ?val {{valuationOf}} ?asset ; {{isCrownJewel}} true .
+  FILTER NOT EXISTS { ?alert {{hasAlertDisposition}} ?d . FILTER(?d != {{DispUnreviewed}}) }
+}

@@ -1,0 +1,5 @@
+# CMP CQ8 What were the compliance conclusions of ?org on ?date (latest determination per requirement made on or before that date)?
+SELECT ?req ?state ?d WHERE {
+  ?det {{complianceWith}} ?req ; {{concernsOrganisation}} ?org ; {{hasComplianceState}} ?state ; {{assessedOn}} ?d . FILTER(?d <= ?date)
+  FILTER NOT EXISTS { ?det2 {{complianceWith}} ?req ; {{concernsOrganisation}} ?org ; {{assessedOn}} ?d2 . FILTER(?d2 > ?d && ?d2 <= ?date) }
+}

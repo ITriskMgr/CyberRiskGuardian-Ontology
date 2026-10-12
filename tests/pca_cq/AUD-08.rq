@@ -1,0 +1,6 @@
+# AUD CQ-08 Which engagements have a workpaper without independent review, or a declared conflict of interest?
+SELECT DISTINCT ?engagement ?why ?item WHERE {
+  { ?item {{workpaperFor}} ?x . { ?x {{withinEngagement}} ?engagement } UNION { FILTER(?x = ?engagement) ?x a {{AuditEngagement}} }
+    FILTER NOT EXISTS { ?item {{reviewedBy}} ?r . FILTER NOT EXISTS { ?item {{preparedBy}} ?r } } BIND("no independent review" AS ?why) }
+  UNION { ?item {{conflictConcerns}} ?engagement ; a {{ConflictOfInterestDeclaration}} . ?engagement a {{AuditEngagement}} . BIND("declared conflict" AS ?why) }
+}

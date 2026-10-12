@@ -1,0 +1,7 @@
+# POL CQ03 What policies and owners are affected by a revised framework control? Parameter: ?change (a regulatory change record).
+SELECT DISTINCT ?control ?statement ?directive ?owner WHERE {
+  ?change {{changeOf}} ?control .
+  { ?statement {{derivedFromRequirement}} ?control } UNION { ?m {{mappingSource}} ?statement ; {{mappingTarget}} ?control }
+  ?statement {{statementInVersion}} ?v . ?v {{versionOfDirective}} ?directive .
+  OPTIONAL { ?directive {{hasOwner}} ?owner }
+}

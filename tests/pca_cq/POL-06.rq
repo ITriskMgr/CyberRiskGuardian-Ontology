@@ -1,0 +1,6 @@
+# POL CQ06 Which current directive versions are overdue for review on ?asOf (due date passed, or last review older than the interval)?
+SELECT DISTINCT ?version ?due WHERE {
+  ?version {{hasLifecycleState}} {{LifePublished}} ; {{reviewDueOn}} ?due .
+  FILTER NOT EXISTS { ?version {{reviewDueOn}} ?later . FILTER(?later > ?due) }
+  FILTER(?due < ?asOf)
+}

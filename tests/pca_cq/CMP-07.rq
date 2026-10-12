@@ -1,0 +1,7 @@
+# CMP CQ7 Which exceptions active on ?asOf concern statements derived from or mapped to a legal provision, with no regulatory exemption for it?
+SELECT DISTINCT ?exception ?statement ?provision WHERE {
+  ?exception {{exceptionTo}} ?statement ; {{validFrom}} ?f ; {{validUntil}} ?u . FILTER(?f <= ?asOf && ?u >= ?asOf)
+  { ?statement {{derivedFromRequirement}} ?provision } UNION { ?m {{mappingSource}} ?statement ; {{mappingTarget}} ?provision }
+  ?provision {{provisionOf}} ?instrument .
+  FILTER NOT EXISTS { ?x {{exemptionFrom}} ?provision ; {{validFrom}} ?xf . FILTER(?xf <= ?asOf) FILTER NOT EXISTS { ?x {{validUntil}} ?xu . FILTER(?xu < ?asOf) } }
+}

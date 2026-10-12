@@ -1,0 +1,6 @@
+# AUD CQ-02 What criteria, procedures and evidence support finding ?finding?
+SELECT DISTINCT ?criterion ?requirement ?procedure ?evidence WHERE {
+  ?finding {{usesCriterion}} ?criterion . OPTIONAL { ?criterion {{criterionRefersTo}} ?requirement }
+  OPTIONAL { ?finding {{hasEvidence}} ?evidence }
+  OPTIONAL { ?finding {{basedOnAssessment}} ?test . ?test {{executesProcedure}} ?procedure }
+}

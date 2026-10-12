@@ -1,0 +1,5 @@
+# AUD CQ-07 Which audit tests relied on evidence that had expired before, or ended before, the period they tested?
+SELECT DISTINCT ?test ?engagement ?evidence WHERE {
+  ?test {{withinEngagement}} ?engagement ; {{hasEvidence}} ?evidence ; {{periodStart}} ?ps .
+  { ?test {{periodStart}} ?ps1 . ?evidence {{validUntil}} ?u . FILTER(?u < ?ps1) } UNION { ?test {{periodStart}} ?ps2 . ?evidence {{periodEnd}} ?pe . FILTER(?pe < ?ps2) }
+}

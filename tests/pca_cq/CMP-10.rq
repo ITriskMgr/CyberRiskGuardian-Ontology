@@ -1,0 +1,10 @@
+# CMP CQ10 Which deadlines fall within 30 days after ?asOf (or are already past) without a submission answering them, by jurisdiction?
+SELECT ?deadline ?due ?jurisdiction WHERE {
+  ?deadline a {{ComplianceDeadline}} .
+  { ?deadline {{dueOn}} ?due }
+  UNION { ?deadline {{dueOffsetHours}} ?h ; {{deadlineTriggeredBy}} ?ev . ?ev {{confirmedOn}} ?t .
+          BIND(?t + STRDT(CONCAT("PT", STR(?h), "H"), xsd:dayTimeDuration) AS ?due) }
+  FILTER(?due <= ?asOf + "P30D"^^xsd:dayTimeDuration)
+  FILTER NOT EXISTS { ?s {{answersDeadline}} ?deadline }
+  OPTIONAL { ?deadline {{hasJurisdiction}} ?jurisdiction }
+}

@@ -1,0 +1,1003 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nordelle: <https://example.org/crgo-sample/nordelle/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-sample/nordelle-pca> a owl:Ontology ;
+    rdfs:label "Nordelle Market inc. - SYNTHETIC policy, compliance and audit management data for CRGO 0.10.0"@en ;
+    dcterms:type "synthetic test data" ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/nordelle/" ;
+    owl:imports <https://example.org/crgo-sample/nordelle-grca>,
+        <https://w3id.org/crgo/vocab/csf2>,
+        <https://w3id.org/crgo/vocab/iso27002-2022> .
+
+<https://example.org/crgo-sample/nordelle/ack/itops-infosec-3> a owl:NamedIndividual,
+        crgo:CRGO_0000892 ;
+    rdfs:label "Acknowledgement of policy v3 by itops"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000698 crgo:CRGO_0000563 ;
+    crgo:CRGO_0001021 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0001022 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> ;
+    crgo:CRGO_0001070 "2026-02-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/ack/store-mgr-infosec-3> a owl:NamedIndividual,
+        crgo:CRGO_0000892 ;
+    rdfs:label "Acknowledgement of policy v3 by store-mgr"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000698 crgo:CRGO_0000563 ;
+    crgo:CRGO_0001021 <https://example.org/crgo-sample/nordelle/person/store-mgr> ;
+    crgo:CRGO_0001022 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> ;
+    crgo:CRGO_0001070 "2026-02-10T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/applicability/art33-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of GDPR Art. 33(1) to Nordelle (provision level)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000353 ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000385 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001081 "legal-conditions 0.10.0" ;
+    crgo:CRGO_0001082 "Online shop delivers to customers in France"@en ;
+    crgo:CRGO_0001083 "Whether goods are offered to persons in the EU in the sense of Art. 3(2)(a)"@en .
+
+<https://example.org/crgo-sample/nordelle/applicability/s10-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of Loi 25 s. 10 to Nordelle (provision level)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000383 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001081 "legal-conditions 0.10.0" ;
+    crgo:CRGO_0001082 "Establishment in Québec"@en,
+        "Holds customer personal information"@en .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/wp-01> a owl:NamedIndividual,
+        crgo:CRGO_0000909 ;
+    rdfs:label "WP-01 Restore re-performance"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001055 <https://example.org/crgo-sample/nordelle/control-assessment/backups-audit-2026-05> ;
+    crgo:CRGO_0001056 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/chair> ;
+    crgo:CRGO_0001090 "2026-05-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001092 "2026-05-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/conclusion> a owl:NamedIndividual,
+        crgo:CRGO_0000542 ;
+    rdfs:label "ENG-2026-05 conclusion: needs improvement"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0000797 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0000798 crgo:CRGO_0000666 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/observation-1> a owl:NamedIndividual,
+        crgo:CRGO_0000910 ;
+    rdfs:label "Observation: Q2 review evidence missing for one account"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0001057 <https://example.org/crgo-sample/nordelle/finding/F-2026-05-01> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sample/adm-01> a owl:NamedIndividual,
+        crgo:CRGO_0000530 ;
+    rdfs:label "Account adm-01"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000758 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sampling> ;
+    crgo:CRGO_0000759 crgo:CRGO_0000654 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sample/adm-07> a owl:NamedIndividual,
+        crgo:CRGO_0000530 ;
+    rdfs:label "Account adm-07"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000758 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sampling> ;
+    crgo:CRGO_0000759 crgo:CRGO_0000655 .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/wp-01> a owl:NamedIndividual,
+        crgo:CRGO_0000909 ;
+    rdfs:label "WP-01 Sample selection and testing of privileged reviews"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001055 <https://example.org/crgo-sample/nordelle/control-assessment/pam-review-2026-07> ;
+    crgo:CRGO_0001056 <https://example.org/crgo-sample/nordelle/person/auditor2> ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0001090 "2026-07-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001092 "2026-07-18T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/wp-02> a owl:NamedIndividual,
+        crgo:CRGO_0000909 ;
+    rdfs:label "WP-02 Design review of the privileged access procedure"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001055 <https://example.org/crgo-sample/nordelle/control-assessment/pam-design-2026-07> ;
+    crgo:CRGO_0001056 <https://example.org/crgo-sample/nordelle/person/auditor2> ;
+    crgo:CRGO_0001090 "2026-07-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/charter-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000906 ;
+    rdfs:label "Internal audit charter, approved by the audit committee (2025)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001046 <https://example.org/crgo-sample/nordelle/audit/function> .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v1-backup> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v1-backup"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026> ;
+    crgo:CRGO_0001048 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000976 ;
+    crgo:CRGO_0001051 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0001084 "Risk-based priority from the 2026 risk assessment"@en .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v1-iam> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v1-iam"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026> ;
+    crgo:CRGO_0001048 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/identity-access> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000976 ;
+    crgo:CRGO_0001051 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0001084 "Risk-based priority from the 2026 risk assessment"@en ;
+    crgo:CRGO_0001087 false .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v1-stores> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v1-stores"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/store-operations> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000976 ;
+    crgo:CRGO_0001084 "Ransomware exposure of point-of-sale systems"@en ;
+    crgo:CRGO_0001086 "120"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v2-backup> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v2-backup"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026-v2> ;
+    crgo:CRGO_0001048 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000979 ;
+    crgo:CRGO_0001051 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0001084 "Risk-based priority from the 2026 risk assessment"@en .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v2-iam> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v2-iam"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026-v2> ;
+    crgo:CRGO_0001048 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/identity-access> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000976 ;
+    crgo:CRGO_0001051 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0001084 "Risk-based priority from the 2026 risk assessment"@en .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-entry/v2-stores> a owl:NamedIndividual,
+        crgo:CRGO_0000908 ;
+    rdfs:label "Plan entry v2-stores"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000728 <https://example.org/crgo-sample/nordelle/gov/audit-committee> ;
+    crgo:CRGO_0001047 <https://example.org/crgo-sample/nordelle/audit/plan-2026-v2> ;
+    crgo:CRGO_0001049 <https://example.org/crgo-sample/nordelle/audit/entity/store-operations> ;
+    crgo:CRGO_0001050 crgo:CRGO_0000977 ;
+    crgo:CRGO_0001051 <https://example.org/crgo-sample/nordelle/assessment/2026> ;
+    crgo:CRGO_0001084 "Risk-based priority from the 2026 risk assessment"@en ;
+    crgo:CRGO_0001085 "Point-of-sale replacement in Q1 2027; audit after replacement."@en .
+
+<https://example.org/crgo-sample/nordelle/audit/quality-review-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000911 ;
+    rdfs:label "External quality assessment of the internal audit function (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/qa-assessor> ;
+    crgo:CRGO_0000464 "2026-09-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001058 <https://example.org/crgo-sample/nordelle/audit/function> ;
+    crgo:CRGO_0001059 crgo:CRGO_0000984 .
+
+<https://example.org/crgo-sample/nordelle/audit/universe> crgo:CRGO_0000774 <https://example.org/crgo-sample/nordelle/audit/entity/identity-access>,
+        <https://example.org/crgo-sample/nordelle/audit/entity/store-operations> .
+
+<https://example.org/crgo-sample/nordelle/coi/auditor2-iam> a owl:NamedIndividual,
+        crgo:CRGO_0000506 ;
+    rdfs:label "Auditor 2 declares a prior role in the identity team (until 2025)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000734 <https://example.org/crgo-sample/nordelle/person/auditor2> ;
+    crgo:CRGO_0000735 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> .
+
+<https://example.org/crgo-sample/nordelle/compliance/deadline/annual-privacy-report-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000901 ;
+    rdfs:label "Annual report of the privacy officer to the board (internal commitment), due 2026-10-31"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000868 "2026-10-31T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001034 <https://example.org/crgo-sample/nordelle/compliance/programme> ;
+    crgo:CRGO_0001035 crgo:CRGO_0000949 .
+
+<https://example.org/crgo-sample/nordelle/compliance/deadline/cai-register-2027> a owl:NamedIndividual,
+        crgo:CRGO_0000901 ;
+    rdfs:label "Register review before the 2027 audit cycle (internal commitment), due 2027-01-15"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000868 "2027-01-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001034 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
+    crgo:CRGO_0001035 crgo:CRGO_0000949 .
+
+<https://example.org/crgo-sample/nordelle/compliance/deadline/gdpr-72h-2026-08> a owl:NamedIndividual,
+        crgo:CRGO_0000901 ;
+    rdfs:label "GDPR Art. 33(1) notice for the August phishing incident: 72 hours from awareness"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000353 ;
+    crgo:CRGO_0001034 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1> ;
+    crgo:CRGO_0001035 crgo:CRGO_0000950 ;
+    crgo:CRGO_0001036 <https://example.org/crgo-sample/nordelle/incident/2026-08-phishing/confirmation> ;
+    crgo:CRGO_0001077 "72"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001078 "72 hours from the incident confirmation (awareness), calendar hours, Montréal time; applies only if GDPR applies"@en .
+
+<https://example.org/crgo-sample/nordelle/compliance/interpretation-s10> a owl:NamedIndividual,
+        crgo:CRGO_0000896 ;
+    rdfs:label "Nordelle reading of Loi 25 s. 10 for its retail systems"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0001025 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001026 crgo:CRGO_0000939 ;
+    crgo:CRGO_0001073 false .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-pia> crgo:CRGO_0001030 <https://example.org/crgo-sample/nordelle/compliance/campaign-2026> .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-register> crgo:CRGO_0001030 <https://example.org/crgo-sample/nordelle/compliance/campaign-2026> .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-register-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000346 ;
+    rdfs:label "Loi 25 s. 3.8 register: 2025 determination"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/incident-register> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000432 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
+    crgo:CRGO_0000433 crgo:CRGO_0000390 ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2025-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000470 "Register incomplete for 2024 incidents." ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 .
+
+<https://example.org/crgo-sample/nordelle/compliance/loi25-security> crgo:CRGO_0001030 <https://example.org/crgo-sample/nordelle/compliance/campaign-2026> ;
+    crgo:CRGO_0001033 <https://example.org/crgo-sample/nordelle/compliance/provision-version/s10-2021> .
+
+<https://example.org/crgo-sample/nordelle/compliance/nonconformity-restore-2026> crgo:CRGO_0001045 crgo:CRGO_0000954 .
+
+<https://example.org/crgo-sample/nordelle/compliance/objective-register-review> a owl:NamedIndividual,
+        crgo:CRGO_0000895 ;
+    rdfs:label "Review every obligation of the register at least once a year"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001024 <https://example.org/crgo-sample/nordelle/compliance/programme> .
+
+<https://example.org/crgo-sample/nordelle/compliance/submission/cai-notice-2026-08> a owl:NamedIndividual,
+        crgo:CRGO_0000902 ;
+    rdfs:label "Notice to the CAI of the August confidentiality incident (synthetic test record)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001037 <https://example.org/crgo-sample/nordelle/authority/cai> ;
+    crgo:CRGO_0001038 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__1st_para.> ;
+    crgo:CRGO_0001040 crgo:CRGO_0000945 ;
+    crgo:CRGO_0001041 <https://example.org/crgo-sample/nordelle/evidence/cai-receipt-2026-08> ;
+    crgo:CRGO_0001079 "2026-08-06T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001096 "2026-08-07T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/compliance/sufficiency-register> a owl:NamedIndividual,
+        crgo:CRGO_0000525 ;
+    rdfs:label "Sufficiency of the incident register as evidence for s. 3.8"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000464 "2026-10-05T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000764 <https://example.org/crgo-sample/nordelle/evidence/incident-register> ;
+    crgo:CRGO_0000765 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
+    crgo:CRGO_0000766 crgo:CRGO_0000628 .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/mfa-2026-09> crgo:CRGO_0000849 "2026-07-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/decision/approve-access-standard-1> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CISO approves the access control standard v1"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/standard-version/access-control-1> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000840 "2024-08-20T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/decision/approve-network-standard-2> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CISO approves the network standard v2"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/standard-version/network-2> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000840 "2026-02-20T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/decision/approve-report-ENG-2026-05> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CAE approves the ENG-2026-05 report"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/report> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000840 "2026-08-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/exception/edr-legacy-pos> crgo:CRGO_0001017 <https://example.org/crgo-sample/nordelle/risk-acceptance/legacy-pos-2026> .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-02/response> a owl:NamedIndividual,
+        crgo:CRGO_0000545 ;
+    rdfs:label "Store operations agree"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000803 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-02> ;
+    crgo:CRGO_0000804 crgo:CRGO_0000670 ;
+    crgo:CRGO_0000805 <https://example.org/crgo-sample/nordelle/person/store-mgr> ;
+    crgo:CRGO_0000806 <https://example.org/crgo-sample/nordelle/action/CA-2026-03-02> .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-05-01/response> a owl:NamedIndividual,
+        crgo:CRGO_0000545 ;
+    rdfs:label "IAM lead agrees and will automate reminders"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000803 <https://example.org/crgo-sample/nordelle/finding/F-2026-05-01> ;
+    crgo:CRGO_0000804 crgo:CRGO_0000670 ;
+    crgo:CRGO_0000805 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000806 <https://example.org/crgo-sample/nordelle/action/CA-NC-2026-07> .
+
+<https://example.org/crgo-sample/nordelle/guideline/password-managers> a owl:NamedIndividual,
+        crgo:CRGO_0000889 ;
+    rdfs:label "Guideline: staff may use the approved password manager"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
+
+<https://example.org/crgo-sample/nordelle/mapping/backups-CP-9> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Backup measure maps to CP-9"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "The backup measure implements CP-9 as written."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000988 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/nist-sp800-53r5> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.8 ;
+    crgo:CRGO_0001092 "2026-04-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/backups-GDPR_Art._32_1> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Backup measure maps to GDPR_Art._32_1"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Art. 32(1)(c) names the ability to restore availability."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._32_1> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/eu-gdpr> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.8 ;
+    crgo:CRGO_0001092 "2026-04-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/backups-P-39.1_s._10> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Backup measure maps to P-39.1_s._10"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Backups protect availability of personal information."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.8 ;
+    crgo:CRGO_0001092 "2026-04-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/edr-loi25-s10> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "EDR statement partly covers Loi 25 s. 10"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Detection on servers is one of the security measures s. 10 requires."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/edr> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.6 ;
+    crgo:CRGO_0001092 "2026-03-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/mfa-gdpr-32> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "MFA statement partly covers GDPR Art. 32(1) (draft)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Pending qualified review of GDPR applicability."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/mfa-admin> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._32_1> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001064 crgo:CRGO_0000996 ;
+    crgo:CRGO_0001091 0.5 .
+
+<https://example.org/crgo-sample/nordelle/mapping/mfa-loi25-s10> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "MFA statement partly covers Loi 25 s. 10"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Strong authentication of administrators is a security measure under s. 10."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/mfa-admin> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.7 ;
+    crgo:CRGO_0001092 "2026-03-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/pam-ac2-1> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Privileged review statement maps fully to SP 800-53 AC-2(1)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "The statement requires the periodic review that AC-2(1) automates; Nordelle's review is manual, which AC-2(1) does not exclude."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/privileged-review> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_1> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000988 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/nist-sp800-53r5> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.9 ;
+    crgo:CRGO_0001092 "2026-03-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/mapping/pam-gvpo> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Privileged review statement relates to CSF GV.PO-01"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "The statement is part of the policy GV.PO-01 asks to establish."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/privileged-review> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/csf2/GV.PO-01> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000992 ;
+    crgo:CRGO_0001064 crgo:CRGO_0000997 ;
+    crgo:CRGO_0001091 0.4 .
+
+<https://example.org/crgo-sample/nordelle/mapping/restore-loi25-s10> a owl:NamedIndividual,
+        crgo:CRGO_0000912 ;
+    rdfs:label "Restore-test statement partly covers Loi 25 s. 10"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000249 "Restore tests address availability safeguards only; s. 10 also covers confidentiality measures."@en ;
+    crgo:CRGO_0001060 <https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000989 ;
+    crgo:CRGO_0001063 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0001064 crgo:CRGO_0000998 ;
+    crgo:CRGO_0001065 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0001091 0.7 ;
+    crgo:CRGO_0001092 "2026-03-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec-4/pam-monthly> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Privileged access is reviewed monthly (draft)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000722 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0001007 <https://example.org/crgo-sample/nordelle/policy-version/infosec-4> ;
+    crgo:CRGO_0001011 crgo:CRGO_0000915 .
+
+<https://example.org/crgo-sample/nordelle/regulatory-change/hypothetical-ac2-revision> a owl:NamedIndividual,
+        crgo:CRGO_0000509 ;
+    rdfs:label "HYPOTHETICAL test record: revision of SP 800-53 AC-2(1) wording"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000743 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_1> ;
+    crgo:CRGO_0000744 crgo:CRGO_0000611 ;
+    crgo:CRGO_0000846 "2026-10-05T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/review/access-standard-2024> a owl:NamedIndividual,
+        crgo:CRGO_0000890 ;
+    rdfs:label "Review of the access control standard at issue (2024)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2024-08-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001018 <https://example.org/crgo-sample/nordelle/standard-version/access-control-1> ;
+    crgo:CRGO_0001019 crgo:CRGO_0000929 .
+
+<https://example.org/crgo-sample/nordelle/review/infosec-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000890 ;
+    rdfs:label "Review of the information security policy after the 2025 audit (led to v3)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-01-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001018 <https://example.org/crgo-sample/nordelle/policy-version/infosec-2> ;
+    crgo:CRGO_0001019 crgo:CRGO_0000929,
+        crgo:CRGO_0000932 ;
+    crgo:CRGO_0001020 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-01> .
+
+<https://example.org/crgo-sample/nordelle/review/network-standard-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000890 ;
+    rdfs:label "Review of the network standard at issue (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/netops> ;
+    crgo:CRGO_0000464 "2026-02-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001018 <https://example.org/crgo-sample/nordelle/standard-version/network-2> ;
+    crgo:CRGO_0001019 crgo:CRGO_0000935 .
+
+<https://example.org/crgo-sample/nordelle/standard/access-control/vendor-remote> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Vendor remote administration of point-of-sale systems uses the vendor VPN"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001007 <https://example.org/crgo-sample/nordelle/standard-version/access-control-1> ;
+    crgo:CRGO_0001011 crgo:CRGO_0000915 ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> .
+
+<https://example.org/crgo-sample/nordelle/standard/network/no-inbound-pos> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "No inbound remote access to the point-of-sale segment"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001007 <https://example.org/crgo-sample/nordelle/standard-version/network-2> ;
+    crgo:CRGO_0001011 crgo:CRGO_0000916 ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> .
+
+<https://example.org/crgo-sample/nordelle/valuation/customer-db> a owl:NamedIndividual,
+        crgo:CRGO_0000011 ;
+    rdfs:label "Valuation of the customer database (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000183 <https://example.org/crgo-sample/nordelle/asset/customer-db> ;
+    crgo:CRGO_0000184 nordelle:org ;
+    crgo:CRGO_0000255 true .
+
+<https://example.org/crgo-sample/nordelle/valuation/identity-service> a owl:NamedIndividual,
+        crgo:CRGO_0000011 ;
+    rdfs:label "Valuation of the identity service (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000183 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
+    crgo:CRGO_0000184 nordelle:org ;
+    crgo:CRGO_0000255 true .
+
+<https://example.org/crgo-sample/nordelle/valuation/kiosk> a owl:NamedIndividual,
+        crgo:CRGO_0000011 ;
+    rdfs:label "Valuation of the in-store kiosk (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000183 <https://example.org/crgo-sample/nordelle/asset/kiosk> ;
+    crgo:CRGO_0000184 nordelle:org ;
+    crgo:CRGO_0000255 false .
+
+<https://example.org/crgo-sample/nordelle/valuation/legacy-pos> a owl:NamedIndividual,
+        crgo:CRGO_0000011 ;
+    rdfs:label "Valuation of the legacy point-of-sale server (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000183 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> ;
+    crgo:CRGO_0000184 nordelle:org ;
+    crgo:CRGO_0000255 true .
+
+<https://example.org/crgo-sample/nordelle/valuation/payment-service> a owl:NamedIndividual,
+        crgo:CRGO_0000011 ;
+    rdfs:label "Valuation of the payment service (2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000183 <https://example.org/crgo-sample/nordelle/asset/payment-service> ;
+    crgo:CRGO_0000184 nordelle:org ;
+    crgo:CRGO_0000255 true .
+
+<https://example.org/crgo-sample/nordelle/action/CA-2026-03-02> a owl:NamedIndividual,
+        crgo:CRGO_0000546 ;
+    rdfs:label "Re-train store managers on the weekly checklist"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/store-mgr> ;
+    crgo:CRGO_0000807 <https://example.org/crgo-sample/nordelle/finding/F-2026-03-02> ;
+    crgo:CRGO_0000808 crgo:CRGO_0000678 ;
+    crgo:CRGO_0000868 "2026-08-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/action/CA-NC-2026-07> a owl:NamedIndividual,
+        crgo:CRGO_0000546 ;
+    rdfs:label "Automate the quarterly privileged-access review reminder and evidence capture"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000807 <https://example.org/crgo-sample/nordelle/compliance/nonconformity-pam-2026>,
+        <https://example.org/crgo-sample/nordelle/finding/F-2026-05-01> ;
+    crgo:CRGO_0000808 crgo:CRGO_0000677 ;
+    crgo:CRGO_0000868 "2026-09-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/population> a owl:NamedIndividual,
+        crgo:CRGO_0000528 ;
+    rdfs:label "Privileged accounts on 2026-06-30"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000855 "14"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Export of the PAM vault, 2026-06-30"@en .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/programme> a owl:NamedIndividual,
+        crgo:CRGO_0000534 ;
+    rdfs:label "ENG-2026-05 work programme"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000782 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/proc-pam> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/report> a owl:NamedIndividual,
+        crgo:CRGO_0000543 ;
+    rdfs:label "ENG-2026-05 report, revision 1"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000799 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0000800 <https://example.org/crgo-sample/nordelle/finding/F-2026-05-01> ;
+    crgo:CRGO_0000844 "rev. 1" ;
+    crgo:CRGO_0000874 "2026-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001056 <https://example.org/crgo-sample/nordelle/person/cae> ;
+    crgo:CRGO_0001089 "Audit committee; CISO; IAM lead"@en .
+
+<https://example.org/crgo-sample/nordelle/authority/cai> a owl:NamedIndividual,
+        crgo:CRGO_0000897 ;
+    rdfs:label "Commission d'accès à l'information du Québec"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000420 crgo:CRGO_0000350 .
+
+<https://example.org/crgo-sample/nordelle/compliance/adoption-csf2> a owl:NamedIndividual,
+        crgo:CRGO_0000898 ;
+    rdfs:label "Nordelle adopts NIST CSF 2.0 (Govern and Protect functions) for its Québec operations"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000730 <https://w3id.org/crgo/vocab/csf2> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/gov/board> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000837 "2026-02-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000840 "2026-01-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001029 <https://w3id.org/crgo/vocab/csf2> ;
+    crgo:CRGO_0001075 "Functions GV and PR, all Québec stores and the online shop"@en .
+
+<https://example.org/crgo-sample/nordelle/compliance/nonconformity-pam-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000511 ;
+    rdfs:label "Privileged access not reviewed in Q2 2026 (statement PREQ-000014)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000747 <https://example.org/crgo-sample/nordelle/policy/infosec/privileged-review> ;
+    crgo:CRGO_0000748 <https://example.org/crgo-sample/nordelle/control-assessment/pam-review-2026-07> ;
+    crgo:CRGO_0000846 "2026-07-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001045 crgo:CRGO_0000954 .
+
+<https://example.org/crgo-sample/nordelle/compliance/provision-version/s10-2021> a owl:NamedIndividual,
+        crgo:CRGO_0000900 ;
+    rdfs:label "Loi 25 s. 10 as in force since 22 September 2023"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/qc-p-39.1> ;
+    crgo:CRGO_0000837 "2023-09-22T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001031 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/pam-design-2026-07> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Internal audit design review of the privileged access procedure"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/pam-policy-2023> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/auditor2> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/pam-review> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000404 ;
+    crgo:CRGO_0000464 "2026-07-05T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000754 crgo:CRGO_0000616 ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/cai-receipt-2026-08> a owl:NamedIndividual,
+        crgo:CRGO_0000036 ;
+    rdfs:label "Acknowledgement of receipt from the CAI portal (synthetic)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "cai-receipt-2026-08" ;
+    crgo:CRGO_0000848 "2026-08-07T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/pam-policy-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000514 ;
+    rdfs:label "Privileged access procedure (2023 edition)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "pam-procedure-2023" ;
+    crgo:CRGO_0000838 "2025-12-31T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/person/qa-assessor> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "External quality assessor (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy-family/network> a owl:NamedIndividual,
+        crgo:CRGO_0000885 ;
+    rdfs:label "Network security family"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy-version/infosec-4> a owl:NamedIndividual,
+        crgo:CRGO_0000887 ;
+    rdfs:label "Nordelle information security policy, version 4 (draft)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000739 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> ;
+    crgo:CRGO_0000844 "4-draft" ;
+    crgo:CRGO_0001006 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0001012 crgo:CRGO_0000921 .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/edr> crgo:CRGO_0000250 "PREQ-000022" ;
+    crgo:CRGO_0001013 <https://example.org/crgo-sample/nordelle/control/edr> ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/restore-tests> crgo:CRGO_0000250 "PREQ-000021" ;
+    crgo:CRGO_0001013 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0001014 <https://example.org/crgo-sample/nordelle/scenario/ransomware> ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/customer-db> .
+
+<https://example.org/crgo-sample/nordelle/standard/access-control> a owl:NamedIndividual,
+        crgo:CRGO_0000499 ;
+    rdfs:label "Access control standard"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0001010 <https://example.org/crgo-sample/nordelle/policy-family/access-control> .
+
+<https://example.org/crgo-sample/nordelle/standard/network> a owl:NamedIndividual,
+        crgo:CRGO_0000499 ;
+    rdfs:label "Network segmentation standard"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/netops> ;
+    crgo:CRGO_0001010 <https://example.org/crgo-sample/nordelle/policy-family/network> .
+
+<https://example.org/crgo-sample/nordelle/training/privileged-users> a owl:NamedIndividual,
+        crgo:CRGO_0000893 ;
+    rdfs:label "Annual privileged-user security training"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/criterion-pam> a owl:NamedIndividual,
+        crgo:CRGO_0000538 ;
+    rdfs:label "Criterion: policy statement PREQ-000014 (quarterly privileged access review)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000780 <https://example.org/crgo-sample/nordelle/policy/infosec/privileged-review> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/objective> a owl:NamedIndividual,
+        crgo:CRGO_0000537 ;
+    rdfs:label "Privileged access is reviewed as policy requires"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/proc-pam> a owl:NamedIndividual,
+        crgo:CRGO_0000535 ;
+    rdfs:label "Re-perform the quarterly privileged access review for two sampled accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000736 crgo:CRGO_0000601 ;
+    crgo:CRGO_0000783 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/objective> ;
+    crgo:CRGO_0000865 "Select two privileged accounts; obtain Q1 and Q2 review evidence; compare."@en .
+
+<https://example.org/crgo-sample/nordelle/audit/entity/backup-recovery> crgo:CRGO_0000775 <https://example.org/crgo-sample/nordelle/scenario/ransomware> .
+
+<https://example.org/crgo-sample/nordelle/audit/function> a owl:NamedIndividual,
+        crgo:CRGO_0000905 ;
+    rdfs:label "Nordelle internal audit function"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/compliance/programme> a owl:NamedIndividual,
+        crgo:CRGO_0000894 ;
+    rdfs:label "Nordelle compliance programme 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0001023 <https://example.org/crgo-sample/nordelle/compliance/adoption-csf2>,
+        <https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__1st_para.>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> .
+
+<https://example.org/crgo-sample/nordelle/evidence/incident-register> crgo:CRGO_0000838 "2026-06-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/evidence/pam-review-export-q2> a owl:NamedIndividual,
+        crgo:CRGO_0000520 ;
+    rdfs:label "PAM review export, Q1-Q2 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "pam-review-export-q2" ;
+    crgo:CRGO_0000848 "2026-07-10T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000852 "9f2c000000000000000000000000000000000000000000000000000000000000" .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-03-02> a owl:NamedIndividual,
+        crgo:CRGO_0000541 ;
+    rdfs:label "F-2026-03-02 Store backup checklist not followed"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/store-mgr> ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/restore-reperformance-2026-05> ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0000779 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03/criterion-cp9> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> ;
+    crgo:CRGO_0000793 crgo:CRGO_0000660 ;
+    crgo:CRGO_0000795 <https://example.org/crgo-sample/nordelle/control/backups> ;
+    crgo:CRGO_0000869 "2026-06-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000870 "Two stores skipped the weekly checklist"@en ;
+    crgo:CRGO_0001045 crgo:CRGO_0000954 .
+
+<https://example.org/crgo-sample/nordelle/person/netops> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle network operations lead (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy-clause/infosec-3/5> a owl:NamedIndividual,
+        crgo:CRGO_0000888 ;
+    rdfs:label "Information security policy v3, section 5 (access)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "5" ;
+    crgo:CRGO_0001008 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> .
+
+<https://example.org/crgo-sample/nordelle/policy-family/access-control> a owl:NamedIndividual,
+        crgo:CRGO_0000885 ;
+    rdfs:label "Access control family"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/mfa-admin> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Administrator accounts use multi-factor authentication"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "PREQ-000015" ;
+    crgo:CRGO_0000722 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0001007 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> ;
+    crgo:CRGO_0001009 <https://example.org/crgo-sample/nordelle/policy-clause/infosec-3/5> ;
+    crgo:CRGO_0001011 crgo:CRGO_0000915 ;
+    crgo:CRGO_0001013 <https://example.org/crgo-sample/nordelle/control/mfa> ;
+    crgo:CRGO_0001014 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-03> crgo:CRGO_0001052 crgo:CRGO_0000962 ;
+    crgo:CRGO_0001053 crgo:CRGO_0000971 ;
+    crgo:CRGO_0001054 <https://example.org/crgo-sample/nordelle/audit/methodology-2026> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sampling> a owl:NamedIndividual,
+        crgo:CRGO_0000529 ;
+    rdfs:label "Judgemental sample of two administrator accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000755 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/population> ;
+    crgo:CRGO_0000757 crgo:CRGO_0000651 ;
+    crgo:CRGO_0000857 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000860 "Highest-privilege accounts"@en ;
+    crgo:CRGO_0001088 "n/a (judgemental)" .
+
+<https://example.org/crgo-sample/nordelle/audit/entity/store-operations> a owl:NamedIndividual,
+        crgo:CRGO_0000532 ;
+    rdfs:label "Store operations (point of sale)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000775 <https://example.org/crgo-sample/nordelle/scenario/ransomware> .
+
+<https://example.org/crgo-sample/nordelle/audit/methodology-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000907 ;
+    rdfs:label "Nordelle internal audit methodology 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000844 "2026.1" .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-2026-v2> a owl:NamedIndividual,
+        crgo:CRGO_0000533 ;
+    rdfs:label "Internal audit plan 2026, version 2 (June revision)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000739 <https://example.org/crgo-sample/nordelle/audit/plan-2026> ;
+    crgo:CRGO_0001054 <https://example.org/crgo-sample/nordelle/audit/methodology-2026> .
+
+<https://example.org/crgo-sample/nordelle/compliance/campaign-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000899 ;
+    rdfs:label "Compliance assessment campaign 2026 (Loi 25)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000472 "Loi 25 security and incident obligations, all systems" .
+
+<https://example.org/crgo-sample/nordelle/control-assessment/pam-review-2026-07> a owl:NamedIndividual,
+        crgo:CRGO_0000347 ;
+    rdfs:label "Internal audit test of the quarterly privileged access review (H1 2026)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/pam-review-export-q2> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/auditor2> ;
+    crgo:CRGO_0000436 <https://example.org/crgo-sample/nordelle/control/pam-review> ;
+    crgo:CRGO_0000437 crgo:CRGO_0000405 ;
+    crgo:CRGO_0000464 "2026-07-12T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000737 crgo:CRGO_0000606 ;
+    crgo:CRGO_0000756 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/sampling> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0000789 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/proc-pam> ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/scenario/ransomware> crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> .
+
+<https://example.org/crgo-sample/nordelle/standard-version/access-control-1> a owl:NamedIndividual,
+        crgo:CRGO_0000886 ;
+    rdfs:label "Access control standard, version 1"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000844 "1.0" ;
+    crgo:CRGO_0000845 "2024-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001006 <https://example.org/crgo-sample/nordelle/standard/access-control> ;
+    crgo:CRGO_0001012 crgo:CRGO_0000924 ;
+    crgo:CRGO_0001068 "2025-09-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001069 "12"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/standard-version/network-2> a owl:NamedIndividual,
+        crgo:CRGO_0000886 ;
+    rdfs:label "Network segmentation standard, version 2"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000844 "2.0" ;
+    crgo:CRGO_0000845 "2026-03-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001006 <https://example.org/crgo-sample/nordelle/standard/network> ;
+    crgo:CRGO_0001012 crgo:CRGO_0000924 ;
+    crgo:CRGO_0001069 "12"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/audit/entity/identity-access> a owl:NamedIndividual,
+        crgo:CRGO_0000532 ;
+    rdfs:label "Identity and access management"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000775 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> .
+
+<https://example.org/crgo-sample/nordelle/audit/plan-2026> crgo:CRGO_0000776 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> .
+
+<https://example.org/crgo-sample/nordelle/control/pam-review> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Quarterly privileged access review"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000208 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_1> ;
+    crgo:CRGO_0000209 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/finding/F-2026-05-01> a owl:NamedIndividual,
+        crgo:CRGO_0000541 ;
+    rdfs:label "F-2026-05-01 Quarterly privileged access review not performed for all accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/pam-review-export-q2> ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0000779 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/criterion-pam> ;
+    crgo:CRGO_0000788 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> ;
+    crgo:CRGO_0000793 crgo:CRGO_0000661 ;
+    crgo:CRGO_0000794 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0000795 <https://example.org/crgo-sample/nordelle/control/pam-review> ;
+    crgo:CRGO_0000796 <https://example.org/crgo-sample/nordelle/control-assessment/pam-review-2026-07> ;
+    crgo:CRGO_0000869 "2026-07-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000870 "No Q2 review evidence for account adm-07"@en ;
+    crgo:CRGO_0001045 crgo:CRGO_0000954 .
+
+<https://example.org/crgo-sample/nordelle/person/cae> crgo:CRGO_0000706 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> .
+
+<https://example.org/crgo-sample/nordelle/person/store-mgr> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle store operations manager (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec/privileged-review> a owl:NamedIndividual,
+        crgo:CRGO_0000498 ;
+    rdfs:label "Privileged access is reviewed quarterly"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "PREQ-000014" ;
+    crgo:CRGO_0000722 <https://example.org/crgo-sample/nordelle/policy/infosec> ;
+    crgo:CRGO_0000723 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_1> ;
+    crgo:CRGO_0001007 <https://example.org/crgo-sample/nordelle/policy-version/infosec-3> ;
+    crgo:CRGO_0001009 <https://example.org/crgo-sample/nordelle/policy-clause/infosec-3/5> ;
+    crgo:CRGO_0001011 crgo:CRGO_0000915 ;
+    crgo:CRGO_0001013 <https://example.org/crgo-sample/nordelle/control/pam-review> ;
+    crgo:CRGO_0001014 <https://example.org/crgo-sample/nordelle/scenario/credential-compromise> ;
+    crgo:CRGO_0001015 <https://example.org/crgo-sample/nordelle/asset/identity-service>,
+        <https://example.org/crgo-sample/nordelle/asset/payment-service> ;
+    crgo:CRGO_0001016 <https://example.org/crgo-sample/nordelle/training/privileged-users> ;
+    crgo:CRGO_0001066 "Privileged access shall be reviewed quarterly."@en .
+
+<https://example.org/crgo-sample/nordelle/person/auditor2> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle internal auditor (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/person/iam-lead> a owl:NamedIndividual,
+        <https://www.commoncoreontologies.org/ont00001262> ;
+    rdfs:label "Nordelle identity and access lead (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/policy/infosec> crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0001010 <https://example.org/crgo-sample/nordelle/policy-family/access-control> .
+
+<https://example.org/crgo-sample/nordelle/policy-version/infosec-3> crgo:CRGO_0001068 "2027-02-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/person/ciso> crgo:CRGO_0000706 <https://example.org/crgo-sample/nordelle/policy/infosec>,
+        <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> .
+
+<https://example.org/crgo-sample/nordelle/audit/ENG-2026-05> a owl:NamedIndividual,
+        crgo:CRGO_0000536 ;
+    rdfs:label "ENG-2026-05 Identity and access management audit"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "ENG-2026-05" ;
+    crgo:CRGO_0000777 <https://example.org/crgo-sample/nordelle/audit/entity/identity-access> ;
+    crgo:CRGO_0000778 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/objective> ;
+    crgo:CRGO_0000779 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/criterion-pam> ;
+    crgo:CRGO_0000781 <https://example.org/crgo-sample/nordelle/audit/ENG-2026-05/programme> ;
+    crgo:CRGO_0000849 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000850 "2026-06-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001052 crgo:CRGO_0000962,
+        crgo:CRGO_0000964 ;
+    crgo:CRGO_0001053 crgo:CRGO_0000970 ;
+    crgo:CRGO_0001054 <https://example.org/crgo-sample/nordelle/audit/methodology-2026> .
+
+<https://example.org/crgo-sample/nordelle/person/compliance> crgo:CRGO_0000706 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> .
+

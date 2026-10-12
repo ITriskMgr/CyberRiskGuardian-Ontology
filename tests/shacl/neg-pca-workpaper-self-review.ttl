@@ -1,0 +1,17 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-pca-workpaper-self-review> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: Self-review" .
+
+x:w a crgo:CRGO_0000909 ;
+    crgo:CRGO_0001055 x:eng ;
+    crgo:CRGO_0001056 x:bob ;
+    crgo:CRGO_0001065 x:bob ;
+    crgo:CRGO_0001090 "2026-07-01T00:00:00"^^xsd:dateTime .
+

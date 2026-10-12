@@ -11,7 +11,8 @@ t0 = time.time()
 data = rdflib.Graph()
 for f in ["build/crgo-full-merged.ttl", "tests/crg/medibec30.ttl", "tests/fixtures/crg-template-s1.ttl",
           "ontology/vocab/mappings-proposed.ttl", "data/abox/crgo-library-proposed.ttl", "tests/samples/nordelle.ttl", "tests/samples/nordelle-applicability.ttl",
-          "tests/samples/nordelle-grca.ttl", "data/abox/crgo-workprogrammes.ttl"]:
+          "tests/samples/nordelle-grca.ttl", "data/abox/crgo-workprogrammes.ttl",
+          "tests/samples/nordelle-pca.ttl", "tests/samples/nordelle-secops.ttl"]:
     data.parse(os.path.join(ROOT, f))
 shapes = rdflib.Graph().parse(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"))
 conforms, rep_g, rep_t = validate(data, shacl_graph=shapes, inference="none", advanced=True, allow_warnings=True)

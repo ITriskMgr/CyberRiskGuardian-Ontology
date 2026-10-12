@@ -1,0 +1,7 @@
+# CMP CQ3 Which obligations in the compliance programme of ?org lack an applicability decision or an accountable owner?
+SELECT DISTINCT ?req ?noApplicability ?noOwner WHERE {
+  ?p a {{ComplianceProgramme}} ; {{concernsOrganisation}} ?org ; {{programmeCovers}} ?req . FILTER NOT EXISTS { ?req a {{FrameworkAdoption}} }
+  BIND(NOT EXISTS { ?a {{applicabilityOf}} ?req ; {{concernsOrganisation}} ?org } AS ?noApplicability)
+  BIND(NOT EXISTS { ?who {{accountableFor}} ?req } AS ?noOwner)
+  FILTER(?noApplicability || ?noOwner)
+}

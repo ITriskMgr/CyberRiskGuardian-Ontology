@@ -1,0 +1,7 @@
+# POL CQ10 Which audit findings or nonconformities persist after the due date of a corrective action, on ?asOf (no closure since)?
+SELECT DISTINCT ?finding ?action ?due WHERE {
+  ?action {{correctsFinding}} ?finding ; {{dueOn}} ?due . FILTER(?due < ?asOf)
+  FILTER NOT EXISTS { ?action {{hasActionStatus}} ?s . FILTER(?s IN ({{ActionVerified}}, {{ActionCancelled}})) }
+  FILTER NOT EXISTS { ?c {{closesFinding}} ?finding ; {{closedOn}} ?cd . FILTER(?cd <= ?asOf)
+                      FILTER NOT EXISTS { ?ro {{reopensFinding}} ?finding ; {{reopenedOn}} ?rd . FILTER(?rd > ?cd && ?rd <= ?asOf) } }
+}

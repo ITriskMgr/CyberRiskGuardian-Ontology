@@ -59,4 +59,6 @@
   <uri name="https://w3id.org/crgo/vocab/iso37302" uri="../../ontology/vocab/iso37302.ttl"/>
   <uri name="https://example.org/crgo-sample/nordelle" uri="nordelle.ttl"/>
   <uri name="https://example.org/crgo-sample/nordelle-grca" uri="nordelle-grca.ttl"/>
+  <uri name="https://example.org/crgo-sample/nordelle-pca" uri="nordelle-pca.ttl"/>
+  <uri name="https://example.org/crgo-sample/nordelle-secops" uri="nordelle-secops.ttl"/>
 </catalog>

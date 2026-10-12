@@ -1,0 +1,18 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:a a crgo:CRGO_0000904 ;
+    crgo:CRGO_0000698 crgo:CRGO_0000562 ;
+    crgo:CRGO_0001021 x:cfo ;
+    crgo:CRGO_0001022 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001070 "2026-02-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001071 "all stores, 2026" .
+
+<https://example.org/crgo-test/fixture/neg-pca-attestation-as-conclusion> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: management decision" .
+

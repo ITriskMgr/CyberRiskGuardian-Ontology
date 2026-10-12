@@ -1,0 +1,6 @@
+# POL CQ05 Which exceptions to requirement ?statement are active on ?asOf, expiring within 30 days, or linked to a risk acceptance?
+SELECT ?exception ?until ?expiring ?acceptance WHERE {
+  ?exception {{exceptionTo}} ?statement ; {{validFrom}} ?from ; {{validUntil}} ?until . FILTER(?from <= ?asOf && ?until >= ?asOf)
+  BIND(?until <= ?asOf + "P30D"^^xsd:dayTimeDuration AS ?expiring)
+  OPTIONAL { ?exception {{authorisedByRiskAcceptance}} ?acceptance }
+}

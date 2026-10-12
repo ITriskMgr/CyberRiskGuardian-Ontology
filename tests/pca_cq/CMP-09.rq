@@ -1,0 +1,6 @@
+# CMP CQ9 Which findings or nonconformities share a root-cause category with another and have a corrective action past due on ?asOf without verification?
+SELECT DISTINCT ?item ?cause ?action WHERE {
+  ?item {{hasRootCauseCategory}} ?cause . ?other {{hasRootCauseCategory}} ?cause . FILTER(?other != ?item)
+  ?action {{correctsFinding}} ?item ; {{dueOn}} ?due . FILTER(?due < ?asOf)
+  FILTER NOT EXISTS { ?v {{verifiesAction}} ?action }
+}

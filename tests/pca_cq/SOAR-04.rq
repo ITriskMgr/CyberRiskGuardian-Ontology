@@ -1,0 +1,5 @@
+# CQ-SOAR-04 Which playbooks addressing a high-impact scenario (impact >= ?threshold) have no current version that passed simulation?
+SELECT DISTINCT ?playbook ?scenario WHERE {
+  ?playbook {{addressesScenario}} ?scenario . ?e {{estimateOf}} ?scenario ; a {{ImpactEstimate}} ; {{numericValue}} ?v . FILTER(?v >= ?threshold)
+  FILTER NOT EXISTS { ?ver {{versionOfDirective}} ?playbook ; {{hasLifecycleState}} {{LifePublished}} . ?s {{simulatedPlaybook}} ?ver ; {{hasTestResult}} {{TestEffective}} }
+}

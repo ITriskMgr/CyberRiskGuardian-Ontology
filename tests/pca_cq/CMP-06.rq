@@ -1,0 +1,5 @@
+# CMP CQ6 Which controls (or statements) support obligations from more than one source vocabulary, and with what coverage?
+SELECT ?source (COUNT(DISTINCT ?scheme) AS ?schemes) (GROUP_CONCAT(DISTINCT STR(?type); separator=" ") AS ?types) WHERE {
+  ?m {{mappingSource}} ?source ; {{mappingTarget}} ?target ; {{hasMappingType}} ?type ; {{hasReviewState}} {{RevApproved}} .
+  BIND(REPLACE(STR(?target), "^(https://w3id.org/crgo/vocab/[^/]+)/.*$", "$1") AS ?scheme)
+} GROUP BY ?source HAVING (COUNT(DISTINCT ?scheme) > 1)

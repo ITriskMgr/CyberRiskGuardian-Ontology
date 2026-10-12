@@ -1,0 +1,18 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-secops-indicator-confidence-no-method> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: needs its method" .
+
+x:i a crgo:CRGO_0001104 ;
+    crgo:CRGO_0000837 "2026-10-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001252 x:feed ;
+    crgo:CRGO_0001308 "[ipv4-addr:value = '198.51.100.7']" ;
+    crgo:CRGO_0001309 "stix" ;
+    crgo:CRGO_0001310 80.0 .
+

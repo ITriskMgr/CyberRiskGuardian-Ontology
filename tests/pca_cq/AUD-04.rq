@@ -1,0 +1,7 @@
+# AUD CQ-04 Which obligations are determined satisfied while an open audit finding's criterion maps to them (directly or through a policy statement)?
+SELECT DISTINCT ?req ?det ?finding WHERE {
+  ?det {{complianceWith}} ?req ; {{hasComplianceState}} {{CompSatisfied}} .
+  ?finding a {{AuditFinding}} ; {{usesCriterion}} ?c . ?c {{criterionRefersTo}} ?x .
+  { FILTER(?x = ?req) } UNION { ?m {{mappingSource}} ?x ; {{mappingTarget}} ?req } UNION { ?x {{derivedFromRequirement}} ?req }
+  FILTER NOT EXISTS { ?cl {{closesFinding}} ?finding FILTER NOT EXISTS { ?ro {{reopensFinding}} ?finding } }
+}

@@ -1,0 +1,6 @@
+# POL CQ08 Candidate conflicts: statements in different current directives with the same scope and opposite modality (for human review).
+SELECT DISTINCT ?s1 ?s2 ?scope WHERE {
+  ?s1 {{appliesToScope}} ?scope ; {{hasNormativeModality}} {{ModalityMust}} ; {{statementInVersion}} ?v1 .
+  ?s2 {{appliesToScope}} ?scope ; {{hasNormativeModality}} {{ModalityMustNot}} ; {{statementInVersion}} ?v2 .
+  ?v1 {{hasLifecycleState}} {{LifePublished}} ; {{versionOfDirective}} ?d1 . ?v2 {{hasLifecycleState}} {{LifePublished}} ; {{versionOfDirective}} ?d2 . FILTER(?d1 != ?d2)
+}

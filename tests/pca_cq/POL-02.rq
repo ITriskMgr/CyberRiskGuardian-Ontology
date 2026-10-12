@@ -1,0 +1,10 @@
+# POL CQ02 Which current policy requirements lack a validated implementing control?
+# Current = in a published version. Validated = an implementing measure whose latest assessment found it effective.
+SELECT DISTINCT ?statement ?measure ?latestResult WHERE {
+  ?statement {{statementInVersion}} ?v . ?v {{hasLifecycleState}} {{LifePublished}} .
+  OPTIONAL { ?statement {{statementImplementedBy}} ?measure .
+    OPTIONAL { ?a {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d ; {{hasTestResult}} ?latestResult .
+      FILTER NOT EXISTS { ?a2 {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 ; {{hasTestResult}} ?r2 . FILTER(?d2 > ?d) } } }
+  FILTER NOT EXISTS { ?statement {{statementImplementedBy}} ?m3 . ?a3 {{evaluatesControlMeasure}} ?m3 ; {{assessedOn}} ?d3 ; {{hasTestResult}} {{TestEffective}} .
+    FILTER NOT EXISTS { ?a4 {{evaluatesControlMeasure}} ?m3 ; {{assessedOn}} ?d4 ; {{hasTestResult}} ?r4 . FILTER(?d4 > ?d3) } }
+}

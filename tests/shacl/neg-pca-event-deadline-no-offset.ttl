@@ -1,0 +1,14 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+x:dl a crgo:CRGO_0000901 ;
+    crgo:CRGO_0001034 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001035 crgo:CRGO_0000950 .
+
+<https://example.org/crgo-test/fixture/neg-pca-event-deadline-no-offset> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: offset in hours" .
+

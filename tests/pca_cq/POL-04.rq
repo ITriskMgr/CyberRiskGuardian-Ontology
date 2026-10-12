@@ -1,0 +1,7 @@
+# POL CQ04 Which crown-jewel assets have requirements whose implementing control failed its latest assessment?
+SELECT DISTINCT ?asset ?statement ?measure ?result WHERE {
+  ?val {{valuationOf}} ?asset ; {{isCrownJewel}} true .
+  ?statement {{appliesToScope}} ?asset ; {{statementImplementedBy}} ?measure .
+  ?a {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d ; {{hasTestResult}} ?result . FILTER(?result IN ({{TestIneffective}}, {{TestPartlyEffective}}))
+  FILTER NOT EXISTS { ?a2 {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 . FILTER(?d2 > ?d) }
+}

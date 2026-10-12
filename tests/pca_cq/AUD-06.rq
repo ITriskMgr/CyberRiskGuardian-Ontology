@@ -1,0 +1,6 @@
+# AUD CQ-06 Which corrective actions that management agreed to are not yet independently verified?
+SELECT DISTINCT ?action ?finding WHERE {
+  ?r {{commitsToAction}} ?action ; {{hasResponseStance}} ?st . FILTER(?st IN ({{StanceAgree}}, {{StancePartlyAgree}}))
+  ?action {{correctsFinding}} ?finding .
+  FILTER NOT EXISTS { ?v {{verifiesAction}} ?action ; {{hasVerificationResult}} ?vr }
+}

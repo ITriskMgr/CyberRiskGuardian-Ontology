@@ -94,6 +94,15 @@ if $ROBOT reason --input build/nordelle-grca-merged.ttl --reasoner HermiT --outp
 if $ROBOT validate-profile --input build/nordelle-grca-merged.ttl --profile DL --output build/nordelle-grca-profile.txt > /dev/null 2>&1; then
   echo "   nordelle-grca: in OWL 2 DL"; else echo "   nordelle-grca: NOT in OWL 2 DL"; fail=1; fi
 python3 tests/grca_cq/run_grca_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+# 0.10.0: policy, compliance and audit management; SIEM and SOAR (synthetic Nordelle), 42 specification competency questions
+python3 tests/samples/make_nordelle_pca.py | sed 's/^/   /' || fail=1
+python3 tests/samples/make_nordelle_secops.py | sed 's/^/   /' || fail=1
+( cd tests/samples && $ROBOT merge --catalog catalog-v001.xml --input nordelle-secops.ttl --input nordelle-applicability.ttl --input tenant-b.ttl --output ../../build/nordelle-0100-merged.ttl > ../../build/nordelle-0100-merge.log 2>&1 )
+if $ROBOT reason --input build/nordelle-0100-merged.ttl --reasoner HermiT --output build/nordelle-0100-inferred.ttl > build/nordelle-0100-reason.log 2>&1; then
+  echo "   nordelle policy/compliance/audit and SIEM/SOAR records: consistent"; else echo "   nordelle-0100: INCONSISTENT (see build/nordelle-0100-reason.log)"; fail=1; fi
+if $ROBOT validate-profile --input build/nordelle-0100-merged.ttl --profile DL --output build/nordelle-0100-profile.txt > /dev/null 2>&1; then
+  echo "   nordelle-0100: in OWL 2 DL"; else echo "   nordelle-0100: NOT in OWL 2 DL"; fail=1; fi
+python3 tests/pca_cq/run_pca_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
 
 echo "14. w3id.org redirect rules"
 python3 scripts/check_w3id.py | tail -1; [ ${PIPESTATUS[0]} = 0 ] || fail=1

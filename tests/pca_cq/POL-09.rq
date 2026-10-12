@@ -1,0 +1,6 @@
+# POL CQ09 Which version of directive ?directive was in force on ?date, and what is its source (approval decision)?
+SELECT ?version ?label ?decision WHERE {
+  ?version {{versionOfDirective}} ?directive ; {{versionLabel}} ?label ; {{effectiveOn}} ?eff . FILTER(?eff <= ?date)
+  FILTER NOT EXISTS { ?version {{retiredOn}} ?r . FILTER(?r <= ?date) }
+  OPTIONAL { ?decision {{decisionOn}} ?version ; {{hasDecisionOutcome}} {{DecApproved}} }
+}

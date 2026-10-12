@@ -1,0 +1,5 @@
+# CQ-SOAR-05 Which containment actions produced verifiable evidence (an evidence item with an identifier and collection time)?
+SELECT DISTINCT ?execution ?evidence ?collected WHERE {
+  ?execution {{performsAction}} ?a ; {{producedEvidence}} ?evidence . ?a {{hasActionRiskClass}} {{RiskContainment}} .
+  ?evidence {{localIdentifier}} ?id ; {{collectedOn}} ?collected .
+}

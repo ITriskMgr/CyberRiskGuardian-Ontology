@@ -1,0 +1,5 @@
+# AUD CQ-10 Which root-cause categories recur across findings or nonconformities about distinct auditable entities or requirements?
+SELECT ?cause (COUNT(DISTINCT ?item) AS ?items) (COUNT(DISTINCT ?unit) AS ?units) WHERE {
+  ?item {{hasRootCauseCategory}} ?cause .
+  { ?item {{withinEngagement}} ?eng . ?eng {{engagementOn}} ?unit } UNION { ?item {{nonconformityWith}} ?unit }
+} GROUP BY ?cause HAVING (COUNT(DISTINCT ?unit) > 1)

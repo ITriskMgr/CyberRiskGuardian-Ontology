@@ -1,0 +1,15 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+x:cov a crgo:CRGO_0001106 ;
+    crgo:CRGO_0001254 x:r ;
+    crgo:CRGO_0001255 x:scen ;
+    crgo:CRGO_0001258 crgo:CRGO_0001147 .
+
+<https://example.org/crgo-test/fixture/neg-secops-validated-coverage-untested> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: found effective" .
+

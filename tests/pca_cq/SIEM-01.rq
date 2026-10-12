@@ -1,0 +1,5 @@
+# CQ-SIEM-01 Which material risks (impact estimate >= ?threshold) have no detection coverage validated by a test found effective?
+SELECT DISTINCT ?scenario WHERE {
+  ?e {{estimateOf}} ?scenario ; a {{ImpactEstimate}} ; {{numericValue}} ?v . FILTER(?v >= ?threshold)
+  FILTER NOT EXISTS { ?c {{coversScenario}} ?scenario ; {{hasCoverageStatus}} {{CovValidated}} ; {{supportedByTest}} ?t . ?t {{hasTestResult}} {{TestEffective}} }
+}

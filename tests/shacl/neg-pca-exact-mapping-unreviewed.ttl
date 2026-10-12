@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-pca-exact-mapping-unreviewed> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: exact or full-coverage mapping" .
+
+x:m a crgo:CRGO_0000912 ;
+    crgo:CRGO_0000249 "why" ;
+    crgo:CRGO_0001060 x:stmt ;
+    crgo:CRGO_0001061 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001062 crgo:CRGO_0000987 ;
+    crgo:CRGO_0001064 crgo:CRGO_0000996 ;
+    crgo:CRGO_0001091 0.8 .
+

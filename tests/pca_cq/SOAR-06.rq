@@ -1,0 +1,5 @@
+# CQ-SOAR-06 Which playbook version and authority justified account disablement ?execution?
+SELECT ?version ?versionLabel ?approval ?authority ?decided ?status WHERE {
+  ?execution {{partOfExecution}} ?run . ?run {{usesPlaybookVersion}} ?version . ?version {{versionLabel}} ?versionLabel .
+  OPTIONAL { ?execution {{authorizedBy}} ?approval . ?approval {{decisionMadeBy}} ?authority ; {{decidedOn}} ?decided ; {{hasApprovalStatus}} ?status }
+}

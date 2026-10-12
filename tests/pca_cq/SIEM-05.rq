@@ -1,0 +1,6 @@
+# CQ-SIEM-05 Which current policy statements or obligations require logging or monitoring, read through their mappings to SP 800-53 AU and SI-4 controls?
+SELECT DISTINCT ?requirement ?control WHERE {
+  { ?requirement {{derivedFromRequirement}} ?control } UNION { ?m {{mappingSource}} ?requirement ; {{mappingTarget}} ?control }
+  UNION { ?mx {{implementsControl}} ?control . ?requirement {{statementImplementedBy}} ?mx }
+  FILTER(STRSTARTS(STR(?control), "https://w3id.org/crgo/vocab/sp800-53r5/AU-") || STR(?control) = "https://w3id.org/crgo/vocab/sp800-53r5/SI-4")
+}

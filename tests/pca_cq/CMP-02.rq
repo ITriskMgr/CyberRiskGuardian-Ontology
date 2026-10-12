@@ -1,0 +1,7 @@
+# CMP CQ2 Which approved policy statements and implemented controls support obligation ?req (and which provision version is on record)?
+SELECT DISTINCT ?statement ?type ?measure ?status ?pversion WHERE {
+  ?m {{mappingSource}} ?statement ; {{mappingTarget}} ?req ; {{hasReviewState}} {{RevApproved}} ; {{hasMappingType}} ?type .
+  ?statement {{statementInVersion}} ?v . ?v {{hasLifecycleState}} ?st . FILTER(?st IN ({{LifeApproved}}, {{LifePublished}}))
+  OPTIONAL { ?statement {{statementImplementedBy}} ?measure . OPTIONAL { ?measure {{hasControlStatus}} ?status } }
+  OPTIONAL { ?pversion {{provisionVersionOf}} ?req }
+}

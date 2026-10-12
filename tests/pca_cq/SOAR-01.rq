@@ -1,0 +1,5 @@
+# CQ-SOAR-01 Which response actions need approval because they can target a crown-jewel asset (gate for critical assets) or by risk class?
+SELECT DISTINCT ?action ?gate ?class WHERE {
+  ?action {{requiresApproval}} ?gate . ?gate {{gateForCriticalAssets}} true . ?action {{hasActionRiskClass}} ?class .
+  ?gate {{gateForRiskClass}} ?class .
+}

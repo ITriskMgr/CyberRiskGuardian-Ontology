@@ -1,0 +1,8 @@
+# AUD CQ-03 Which open audit findings involve control measure or policy statement ?subject, across engagements, on ?asOf?
+SELECT DISTINCT ?finding ?engagement WHERE {
+  ?finding a {{AuditFinding}} ; {{withinEngagement}} ?engagement .
+  { ?finding {{findingOnControl}} ?subject } UNION { ?finding {{usesCriterion}} ?c . ?c {{criterionRefersTo}} ?subject }
+  UNION { ?finding {{usesCriterion}} ?c2 . ?c2 {{criterionRefersTo}} ?st . ?st {{statementImplementedBy}} ?subject }
+  FILTER NOT EXISTS { ?cl {{closesFinding}} ?finding ; {{closedOn}} ?cd . FILTER(?cd <= ?asOf)
+                      FILTER NOT EXISTS { ?ro {{reopensFinding}} ?finding ; {{reopenedOn}} ?rd . FILTER(?rd > ?cd && ?rd <= ?asOf) } }
+}

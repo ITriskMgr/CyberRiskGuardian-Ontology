@@ -1,0 +1,8 @@
+# POL CQ07 For risk scenario ?scenario, which requirements and controls are meant to mitigate it, with their latest assessment and evidence currency?
+SELECT ?statement ?measure ?result ?assessed ?evidenceUntil WHERE {
+  ?statement {{intendedToMitigate}} ?scenario .
+  OPTIONAL { ?statement {{statementImplementedBy}} ?measure .
+    OPTIONAL { ?a {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?assessed ; {{hasTestResult}} ?result .
+      FILTER NOT EXISTS { ?a2 {{evaluatesControlMeasure}} ?measure ; {{assessedOn}} ?d2 . FILTER(?d2 > ?assessed) }
+      OPTIONAL { ?a {{hasEvidence}} ?e . ?e {{validUntil}} ?evidenceUntil } } }
+}

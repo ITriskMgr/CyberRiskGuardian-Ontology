@@ -1,0 +1,6 @@
+# AUD CQ-01 Which auditable entities tied to a high-impact scenario (impact >= ?threshold) have no engagement within [?since, ?asOf]?
+SELECT DISTINCT ?entity ?scenario WHERE {
+  ?entity {{auditableEntityFor}} ?scenario . ?e {{estimateOf}} ?scenario ; a {{ImpactEstimate}} ; {{numericValue}} ?v . FILTER(?v >= ?threshold)
+  FILTER NOT EXISTS { ?eng {{engagementOn}} ?entity ; {{periodEnd}} ?pe . FILTER(?pe >= ?since && ?pe <= ?asOf) }
+  FILTER NOT EXISTS { ?eng2 {{engagementOn}} ?entity . ?c {{conclusionOf}} ?eng2 . ?r {{reportOf}} ?eng2 ; {{issuedOn}} ?i . FILTER(?i >= ?since && ?i <= ?asOf) }
+}

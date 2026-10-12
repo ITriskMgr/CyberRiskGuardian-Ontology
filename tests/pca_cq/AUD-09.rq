@@ -1,0 +1,8 @@
+# AUD CQ-09 What changed between audit plan ?old and the plan that supersedes it, and who authorised deferrals or cancellations?
+SELECT ?entity ?oldState ?newState ?reason ?authority WHERE {
+  ?new {{supersedes}} ?old .
+  ?e2 {{entryInPlan}} ?new ; {{entryForAuditableEntity}} ?entity ; {{hasPlanEntryState}} ?newState .
+  OPTIONAL { ?e1 {{entryInPlan}} ?old ; {{entryForAuditableEntity}} ?entity ; {{hasPlanEntryState}} ?oldState }
+  OPTIONAL { ?e2 {{deferralReason}} ?reason } OPTIONAL { ?e2 {{approvingAuthority}} ?authority }
+  FILTER(!BOUND(?oldState) || ?oldState != ?newState)
+}

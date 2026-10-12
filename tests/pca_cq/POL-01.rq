@@ -1,0 +1,6 @@
+# POL CQ01 Which approved policy requirements implement obligation ?target in edition ?edition?
+# Approved = the statement's version is approved or published and the mapping assertion is approved. Not a compliance claim.
+SELECT DISTINCT ?statement ?version ?type WHERE {
+  ?m {{mappingSource}} ?statement ; {{mappingTarget}} ?target ; {{mappedEdition}} ?edition ; {{hasReviewState}} {{RevApproved}} ; {{hasMappingType}} ?type .
+  ?statement {{statementInVersion}} ?version . ?version {{hasLifecycleState}} ?st . FILTER(?st IN ({{LifeApproved}}, {{LifePublished}}))
+}

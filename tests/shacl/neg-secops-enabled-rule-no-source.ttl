@@ -1,0 +1,14 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+<https://example.org/crgo-test/fixture/neg-secops-enabled-rule-no-source> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: declare the telemetry" .
+
+x:r a crgo:CRGO_0001102 ;
+    crgo:CRGO_0000844 "1" ;
+    crgo:CRGO_0001245 crgo:CRGO_0001134 .
+

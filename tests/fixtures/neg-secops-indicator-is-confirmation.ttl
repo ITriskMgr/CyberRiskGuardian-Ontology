@@ -1,0 +1,13 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+<https://example.org/crgo-test/fixture/neg-secops-indicator-is-confirmation> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    owl:imports crgo:crgo .
+
+x:x a owl:NamedIndividual,
+        crgo:CRGO_0000552,
+        crgo:CRGO_0001104 .
+

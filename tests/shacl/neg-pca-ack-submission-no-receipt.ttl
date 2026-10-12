@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-pca-ack-submission-no-receipt> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: receipt evidence" .
+
+x:s a crgo:CRGO_0000902 ;
+    crgo:CRGO_0001037 x:auth ;
+    crgo:CRGO_0001038 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001040 crgo:CRGO_0000945 ;
+    crgo:CRGO_0001079 "2026-08-06T00:00:00"^^xsd:dateTime .
+
+x:auth a crgo:CRGO_0000897 .
+

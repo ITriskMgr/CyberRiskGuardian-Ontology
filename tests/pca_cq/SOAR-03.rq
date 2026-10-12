@@ -1,0 +1,6 @@
+# CQ-SOAR-03 Which confirmed incidents have unresolved regulatory triage: no reportability assessment, or one still undetermined?
+SELECT DISTINCT ?incident ?assessment WHERE {
+  ?conf {{confirmsIncident}} ?incident .
+  OPTIONAL { ?assessment {{reportabilityOf}} ?incident ; {{hasReportabilityState}} {{ReportUndetermined}} }
+  FILTER(BOUND(?assessment) || NOT EXISTS { ?x {{reportabilityOf}} ?incident })
+}

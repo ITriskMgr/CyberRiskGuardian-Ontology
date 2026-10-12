@@ -1,0 +1,20 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:e a crgo:CRGO_0000903 ;
+    crgo:CRGO_0000427 x:org ;
+    crgo:CRGO_0000837 "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001042 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
+    crgo:CRGO_0001043 x:ceo ;
+    crgo:CRGO_0001074 "none" .
+
+<https://example.org/crgo-test/fixture/neg-pca-exemption-internal> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: granted by a regulatory authority" .
+
+x:ceo a <https://www.commoncoreontologies.org/ont00001262> .
+

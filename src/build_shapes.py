@@ -485,6 +485,8 @@ for k, w, one in (("performsAction", "the action", True), ("actionTarget", "the 
                   ("executionStartedAt", "the start time", True), ("attemptIdentifier", "the attempt identifier", True)):
     req(s, k, w, "An action execution record", one=one)
 ordered(s, "executionStartedAt", "executionEndedAt", "An execution ends after it starts.")
+s = shape("ActionApproval", ("class", C("ActionExecution")), "Warning (audit signal): impactful actions need a granted approval valid when they started (SOAR section 5, decision S6). A record of an unapproved action is a correct record of a control failure, so this is a warning, not a violation.")
+warn(s)
 sparql(s, "A containment or destructive action, or one behind an approval gate, was executed without an approval decision that was granted and valid when it started (an audit signal, never an authorisation).", """SELECT $this WHERE {
   $this %(pa)s ?act ; %(start)s ?t .
   { ?act %(rc)s ?c . FILTER(?c IN (%(cont)s, %(destr)s)) } UNION { ?act %(ra)s ?gate }

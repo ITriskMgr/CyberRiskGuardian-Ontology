@@ -1,0 +1,9 @@
+# CMP CQ5 What obligations, policy statements, controls and risks derive from change ?change?
+# Statements derived from or mapped to the changed item, the measures implementing them, the scenarios they mitigate,
+# and the scenarios that cite the changed item directly.
+SELECT DISTINCT ?changed ?statement ?measure ?scenario WHERE {
+  ?change {{changeOf}} ?changed .
+  { { ?statement {{derivedFromRequirement}} ?changed } UNION { ?m {{mappingSource}} ?statement ; {{mappingTarget}} ?changed }
+    OPTIONAL { ?statement {{statementImplementedBy}} ?measure } OPTIONAL { ?statement {{intendedToMitigate}} ?scenario } }
+  UNION { { ?scenario {{triggersObligation}} ?changed } UNION { ?scenario {{hasRelevantRequirement}} ?changed } }
+}

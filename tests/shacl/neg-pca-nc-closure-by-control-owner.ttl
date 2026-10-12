@@ -1,0 +1,34 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:c a crgo:CRGO_0000548 ;
+    crgo:CRGO_0000811 x:nc ;
+    crgo:CRGO_0000812 x:v ;
+    crgo:CRGO_0000875 "2026-08-21T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-test/fixture/neg-pca-nc-closure-by-control-owner> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.10.0): must be rejected."@en ;
+    skos:note "expect: must not own the control whose assessment raised it" .
+
+x:act a crgo:CRGO_0000546 ;
+    crgo:CRGO_0000185 x:alice ;
+    crgo:CRGO_0000807 x:nc ;
+    crgo:CRGO_0000868 "2026-08-01T00:00:00"^^xsd:dateTime .
+
+x:ca crgo:CRGO_0000436 x:m .
+
+x:m crgo:CRGO_0000185 x:bob .
+
+x:v a crgo:CRGO_0000547 ;
+    crgo:CRGO_0000435 x:bob ;
+    crgo:CRGO_0000464 "2026-08-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000809 x:act ;
+    crgo:CRGO_0000810 crgo:CRGO_0000683 .
+
+x:nc a crgo:CRGO_0000511 ;
+    crgo:CRGO_0000748 x:ca .
+
