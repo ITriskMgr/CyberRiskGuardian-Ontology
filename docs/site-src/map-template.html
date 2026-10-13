@@ -1,0 +1,128 @@
+<title>CRGO Ontology Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: header strip, two relation diagrams (risk scenario; control measure across governance and operations), data-layer chips, then all classes in BFO columns with a sticky detail panel. Colour = module family. */
+:root{
+  --bg:#f5f6f4; --surface:#ffffff; --ink:#18212b; --muted:#5b6672; --line:#d6dbd8; --soft:#eceeeb;
+  --core:#1f7a72; --evid:#b07a14; --grc:#6a5fa8; --assur:#2f6aa3; --ops:#b0473a; --vocab:#66707a;
+  --core-t:#e3f1ef; --evid-t:#f6eedb; --grc-t:#ecebf6; --assur-t:#e3ecf6; --ops-t:#f5e5e2; --vocab-t:#eceef0;
+  --display:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+  --body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12171d; --surface:#1a2129; --ink:#e6eaee; --muted:#9aa6b2; --line:#2e3843; --soft:#222a33;
+  --core:#5cc2b6; --evid:#e0b04f; --grc:#a69ce0; --assur:#7fb0e6; --ops:#e57f70; --vocab:#a3adb8;
+  --core-t:#16302d; --evid-t:#33290f; --grc-t:#26233b; --assur-t:#182a3d; --ops-t:#3a201c; --vocab-t:#232a32; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12171d; --surface:#1a2129; --ink:#e6eaee; --muted:#9aa6b2; --line:#2e3843; --soft:#222a33;
+  --core:#5cc2b6; --evid:#e0b04f; --grc:#a69ce0; --assur:#7fb0e6; --ops:#e57f70; --vocab:#a3adb8;
+  --core-t:#16302d; --evid-t:#33290f; --grc-t:#26233b; --assur-t:#182a3d; --ops-t:#3a201c; --vocab-t:#232a32; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1280px;margin:0 auto;padding-inline:20px;padding-block:28px 60px}
+header{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:18px}
+h1{font-family:var(--display);font-size:clamp(1.7rem,3.4vw,2.5rem);line-height:1.05;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1 small{display:block;font-family:var(--mono);font-size:.78rem;font-weight:400;color:var(--muted);letter-spacing:.02em;margin-top:8px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 22px;font-variant-numeric:tabular-nums;color:var(--muted);font-size:.85rem}
+.facts b{color:var(--ink);font-family:var(--display);font-size:1.15rem;font-weight:600;margin-right:4px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 6px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{font:500 .82rem var(--body);background:var(--surface);color:var(--muted);border:0;padding:6px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.chip{font:500 .8rem var(--body);display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 11px;cursor:pointer}
+.chip[aria-pressed="false"]{opacity:.45}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+input[type=search]{font:400 .9rem var(--body);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 10px;min-width:0;width:220px;max-width:100%}
+button:focus-visible,input:focus-visible,.cls:focus-visible,.node:focus-visible{outline:2px solid var(--core);outline-offset:2px}
+h2{font-family:var(--display);font-weight:600;font-size:1.25rem;margin:34px 0 4px}
+.lede{color:var(--muted);margin:0 0 12px;max-width:72ch}
+.hub{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+.hub svg{display:block;min-width:820px;width:100%;height:auto}
+.hub text{font-family:var(--body);fill:var(--ink)}
+.hub .band{font:600 11px var(--mono);letter-spacing:.08em;fill:var(--muted)}
+.hub .elab{font:500 10.5px var(--mono);fill:var(--muted)}
+.hub .edge{stroke:var(--line);stroke-width:1.6;fill:none}
+.hub .edge.hot{stroke:var(--ink);stroke-width:2}
+.hub .node{cursor:pointer}
+.hub .node rect{stroke-width:1.5}
+.hub .node:hover rect,.hub .node.sel rect{stroke-width:3}
+.hub .nl{font:600 13px var(--body)}
+.hub .nm{font:500 9.5px var(--mono);letter-spacing:.06em}
+.layer{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.vchip{font:500 .78rem var(--mono);background:var(--vocab-t);color:var(--ink);border:1px dashed var(--vocab);border-radius:6px;padding:4px 9px;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:20px;align-items:start;margin-top:10px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+.cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;align-items:start}
+.col{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 12px 14px;min-width:0}
+.col.wide{grid-column:1/-1}
+.col.wide .tree{columns:3 230px;column-gap:18px}
+.col h3{font:600 .72rem var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 2px}
+.col .bfo{font-size:.78rem;color:var(--muted);margin:0 0 8px}
+.grp{break-inside:avoid;margin:0 0 10px}
+.grp>.gh{font:500 .72rem var(--mono);color:var(--muted);margin:6px 0 3px;border-top:1px dashed var(--line);padding-top:5px}
+.cls{display:flex;align-items:center;gap:7px;width:100%;text-align:left;font:500 .86rem var(--body);color:var(--ink);background:none;border:0;border-left:3px solid transparent;padding:3px 6px;border-radius:0 5px 5px 0;cursor:pointer}
+.cls:hover{background:var(--soft)}
+.cls.sel{background:var(--soft);border-left-color:var(--ink)}
+.cls .n{font:400 .7rem var(--mono);color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums}
+.cls.dim{opacity:.25}
+.kids{margin-left:12px;border-left:1px solid var(--line);padding-left:4px}
+.panel{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;max-height:calc(100vh - 24px);overflow:auto;min-width:0}
+.panel .tag{display:inline-block;font:600 .68rem var(--mono);letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:2px 7px}
+.panel h4{font-family:var(--display);font-size:1.35rem;margin:8px 0 2px;line-height:1.15}
+.panel .alt{color:var(--muted);font-size:.88rem;margin:0}
+.panel .iri{font:400 .74rem var(--mono);color:var(--muted);word-break:break-all;margin:6px 0 10px}
+.panel p.def{margin:0 0 12px}
+.panel h5{font:600 .7rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.panel ul{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.panel li{font-size:.86rem;line-height:1.35}
+.panel .rel{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.panel .lnk{font:inherit;color:var(--ink);background:none;border:0;padding:0;border-bottom:1px solid var(--line);cursor:pointer}
+.panel .lnk:hover{border-bottom-color:var(--ink)}
+.panel .inh{font:400 .68rem var(--mono);color:var(--muted)}
+.chain{font-size:.82rem;color:var(--muted)}
+.vals{display:flex;flex-wrap:wrap;gap:5px}
+.vals span{font-size:.78rem;background:var(--soft);border-radius:4px;padding:2px 7px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--muted)}
+footer{margin-top:36px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+footer a{color:inherit}
+@media (prefers-reduced-motion:no-preference){.cls,.hub .edge{transition:opacity .15s,stroke .15s}}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.tabs button{font:500 .84rem var(--body);background:var(--surface);color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.layer .vg{display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:100%}
+.layer .vgh{font:600 .68rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);min-width:11rem}
+.panel .iri a{color:inherit}
+.new{font:600 .62rem var(--mono);letter-spacing:.06em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;margin-left:4px}
+</style>
+<div class="wrap">
+<header>
+  <h1>CyberRiskGuardian Ontology <span id="t-map">map</span><small id="sub"></small></h1>
+  <div class="facts" id="facts"></div>
+</header>
+<div class="controls">
+  <div class="seg" role="group" aria-label="Language">
+    <button id="l-en" aria-pressed="true">English</button><button id="l-fr" aria-pressed="false">Français</button>
+  </div>
+  <div id="mods" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+  <input type="search" id="q" placeholder="Find a class…" aria-label="Find a class">
+</div>
+
+<h2 id="h-hub">How the main classes connect</h2>
+<p class="lede" id="l-hub"></p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="hub"><svg id="hub" viewBox="0 0 1100 760" role="img" aria-label="Diagram of related classes"></svg></div>
+<h2 id="h-voc">Reference vocabularies</h2>
+<p class="lede" id="l-voc"></p>
+<div class="layer" id="layer"></div>
+
+<h2 id="h-all">All classes, by kind of thing</h2>
+<p class="lede" id="l-all"></p>
+<div class="legend" id="legend"></div>
+<div class="grid">
+  <div class="cols" id="cols"></div>
+  <aside class="panel" id="panel" aria-live="polite"></aside>
+</div>
+<footer id="foot"></footer>
+</div>

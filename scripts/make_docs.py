@@ -55,3 +55,6 @@ shutil.copytree(os.path.join(out, "doc"), os.path.join(site, "doc"))
 shutil.copy(os.path.join(src, "index.html"), os.path.join(site, "index.html"))
 open(os.path.join(site, ".nojekyll"), "w").close()
 print("site: docs/index.html and docs/doc/ (English and French)")
+
+# interactive ontology map (docs/map/index.html)
+subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "make_map.py")], check=True)
