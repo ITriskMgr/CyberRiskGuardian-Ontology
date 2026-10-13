@@ -1,6 +1,6 @@
 # ADR-010 Policy, compliance and audit management
 
-Status: proposed for 0.10.0 (decisions D1-D14 approved by the project owner on 2026-10-12; the P1 terms approved the same day; the design record itself awaits the release go-ahead).
+Status: approved (0.10.0; decisions D1-D14 and the P1 terms approved by the project owner on 2026-10-12, this record on 2026-10-13).
 
 ## Decision
 - **Modules** (D1): `crgo-policy` (imports governance and mapping) and `crgo-compliance` (imports grc and policy); additions to `crgo-audit` (which now also imports compliance) and `crgo-mapping` (which now imports core, for the CCO parent of mapping assertions). Opaque IRIs in the single namespace (D2).

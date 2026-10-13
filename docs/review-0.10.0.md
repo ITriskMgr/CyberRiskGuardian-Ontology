@@ -1,6 +1,6 @@
 # CRGO 0.10.0 — final review before release
 
-**Status: ready to push, awaiting the project owner's go-ahead.** Prepared 2026-10-12.
+**Decision of the project owner (2026-10-13, 02:42): "go ahead". Groups 1–7 approved; release 0.10.0.** Prepared 2026-10-12.
 
 ## What 0.10.0 contains
 
@@ -19,11 +19,11 @@
   - Competency questions: 42 specification CQs, checked by 91 checks.
   - Negative fixtures: 31 SHACL and 4 OWL.
   - Contract checks: 31.
-- **Documentation.** ADR-010 and ADR-011, the CHANGELOG, README, AGENTS.md and NOTICE.md (OCSF NOTICE reproduced) are updated, and the documentation site is regenerated. A brief for the CyberRiskGuardian application is in `CRGO-0.10.0-brief-for-CyberRiskGuardian.md`, delivered in the session.
+- **Documentation.** ADR-010 and ADR-011, the CHANGELOG, README, AGENTS.md and NOTICE.md (OCSF NOTICE reproduced) are updated, and the documentation site is regenerated. A brief for the CyberRiskGuardian application is in `docs/crg-brief-0.10.0.md`.
 
-## Groups needing the go-ahead
+## Groups approved on 2026-10-13
 
-Approving them writes one row each in `src/approvals.tsv`. Until then the terms concerned stay *proposed*, and the release gate CQ17 lists them.
+Each group has one row, dated 2026-10-13, in `src/approvals.tsv`.
 
 | # | Group (key) | Content | Recommendation |
 |---|---|---|---|
@@ -91,7 +91,7 @@ The w3id.org rules already cover the new modules and contract schemas (`check_w3
 | Tenants | Separated |
 | Contracts | dss/v1 29/29; compliance/v1 and secops/v1 31/31 |
 
-Two results are expected at this checkpoint:
+Two results were expected at that checkpoint (before the go-ahead); the release check after approval is recorded in the CHANGELOG:
 
 - **SHACL.** That run reported two violations from the subclass bug. After the fix, the data conforms with only the three deliberate warnings: two stale-evidence cases and the October kiosk isolation without a valid approval. All 31 new negative fixtures are rejected with their expected messages.
 - **CQ17 ("terms not yet approved")** lists the 227 SIEM/SOAR identifiers awaiting groups 1–2. It passes once they are approved.

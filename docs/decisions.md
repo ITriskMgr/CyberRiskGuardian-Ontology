@@ -417,3 +417,5 @@ Consequences recorded here:
 - Pushing, tagging and releasing still wait for the project owner's go-ahead, and terms added after CRGO_0001096 stay *proposed* until that go-ahead (the release gate CQ17 shows them).
 
 **SIEM/SOAR and completion of 0.10.0 (2026-10-12, under the delegation above).** Decisions S1–S12 are recorded in `docs/baseline/siem_soar_phase0.md` and ADR-011; ADR-010 records D1–D14. A second independent review (3 high, 6 medium, 6 low findings) led to the changes listed in `docs/baseline/siem_soar_phase0.md` §5 and `docs/review-0.10.0.md`. The project owner asked, at 19:46, to "carry on to the end", including the read contracts. Final review and the seven groups awaiting the go-ahead: `docs/review-0.10.0.md`. Nothing is pushed.
+
+**Release go-ahead (2026-10-13, 02:42).** "go ahead": the seven groups of `docs/review-0.10.0.md` approved (rows dated 2026-10-13 in `src/approvals.tsv`; term groups scoped to CRGO_0001325). 0.10.0 released; the project owner also asked for a document for the Claude session that will build the features in the CyberRiskGuardian application (`docs/crg-brief-0.10.0.md`).

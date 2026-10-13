@@ -2,7 +2,10 @@
 
 All notable changes to the CyberRiskGuardian Ontology (CRGO). Versions follow [semantic versioning](https://semver.org/) as applied to ontologies: a minor version adds terms or data; term IRIs (`https://w3id.org/crgo/CRGO_nnnnnnn`) never change meaning or disappear, and retired terms are deprecated, not deleted. Each version records who approved what in `src/approvals.tsv`; design reasons are in `docs/decisions.md`.
 
-## [0.10.0] — unreleased, awaiting the project owner's go-ahead
+## [0.10.0] — 2026-10-13, approved
+
+Approved by the project owner: decisions D1–D14 and the P1 terms on 2026-10-12; the seven groups of `docs/review-0.10.0.md` (SIEM and SOAR terms, ATT&CK detection and OCSF vocabularies, source records, ADR-010 and ADR-011, read contracts, tests) on 2026-10-13. The change report against v0.9.1 is in `releases/0.10.0/`.
+ Release check (`scripts/check.sh`, `WITH_LIBRARY=1`, after approval): all checks passed, including the release gate CQ17; SHACL conforms with the three deliberate warnings. Briefs for the CyberRiskGuardian application: `docs/crg-brief-0.10.0.md` (with `docs/crg-brief-0.9.1.md`).
 
 Policy, compliance and audit management (three specifications of 2026-10-12, decisions D1–D14) and security monitoring and response (SIEM and SOAR specifications of 2026-10-12, decisions S1–S12). Design in ADR-010 and ADR-011; analyses in `docs/baseline/policy_compliance_audit_phase0.md` and `docs/baseline/siem_soar_phase0.md`; reviews in `docs/review-0.10.0-p1-terms.md` and `docs/review-0.10.0.md`.
 

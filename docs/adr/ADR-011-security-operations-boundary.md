@@ -1,6 +1,6 @@
 # ADR-011 Security monitoring and response (SIEM and SOAR): boundary and modelling
 
-Status: proposed for 0.10.0 (decisions S1-S12 taken by Claude under the project owner's delegation of 2026-10-12; listed for review before pushing).
+Status: approved (0.10.0, project owner, 2026-10-13; decisions S1-S12 taken by Claude under the project owner's delegation of 2026-10-12).
 
 ## Decision
 - **Boundary.** CRGO holds reusable concepts, reference vocabularies (ATT&CK detection strategies, analytics and data components; OCSF categories and event classes) and selected organisation records. Event streams, alert payloads, execution histories, baselines and secrets stay in operational stores; CRGO records point to them (S7).

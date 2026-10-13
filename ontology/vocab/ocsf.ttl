@@ -12,10 +12,12 @@ ocsf:1001 a skos:Concept ;
     skos:notation "1001" ;
     skos:note "OCSF class name: file_activity"@en ;
     skos:prefLabel "File System Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/file_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1002 a skos:Concept ;
@@ -25,10 +27,12 @@ ocsf:1002 a skos:Concept ;
     skos:notation "1002" ;
     skos:note "OCSF class name: kernel_extension_activity"@en ;
     skos:prefLabel "Kernel Extension Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/kernel_extension_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1003 a skos:Concept ;
@@ -38,10 +42,12 @@ ocsf:1003 a skos:Concept ;
     skos:notation "1003" ;
     skos:note "OCSF class name: kernel_activity"@en ;
     skos:prefLabel "Kernel Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/kernel_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1004 a skos:Concept ;
@@ -51,10 +57,12 @@ ocsf:1004 a skos:Concept ;
     skos:notation "1004" ;
     skos:note "OCSF class name: memory_activity"@en ;
     skos:prefLabel "Memory Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/memory_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1005 a skos:Concept ;
@@ -64,10 +72,12 @@ ocsf:1005 a skos:Concept ;
     skos:notation "1005" ;
     skos:note "OCSF class name: module_activity"@en ;
     skos:prefLabel "Module Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/module_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1006 a skos:Concept ;
@@ -77,10 +87,12 @@ ocsf:1006 a skos:Concept ;
     skos:notation "1006" ;
     skos:note "OCSF class name: scheduled_job_activity"@en ;
     skos:prefLabel "Scheduled Job Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/scheduled_job_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1007 a skos:Concept ;
@@ -90,10 +102,12 @@ ocsf:1007 a skos:Concept ;
     skos:notation "1007" ;
     skos:note "OCSF class name: process_activity"@en ;
     skos:prefLabel "Process Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/process_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1008 a skos:Concept ;
@@ -103,10 +117,12 @@ ocsf:1008 a skos:Concept ;
     skos:notation "1008" ;
     skos:note "OCSF class name: event_log_actvity"@en ;
     skos:prefLabel "Event Log Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/event_log_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1009 a skos:Concept ;
@@ -116,10 +132,12 @@ ocsf:1009 a skos:Concept ;
     skos:notation "1009" ;
     skos:note "OCSF class name: script_activity"@en ;
     skos:prefLabel "Script Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/script_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1010 a skos:Concept ;
@@ -129,10 +147,12 @@ ocsf:1010 a skos:Concept ;
     skos:notation "1010" ;
     skos:note "OCSF class name: peripheral_activity"@en ;
     skos:prefLabel "Peripheral Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/peripheral_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1011 a skos:Concept ;
@@ -142,10 +162,12 @@ ocsf:1011 a skos:Concept ;
     skos:notation "1011" ;
     skos:note "OCSF class name: device_power_state_activity"@en ;
     skos:prefLabel "Device Power State Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/device_power_state_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1012 a skos:Concept ;
@@ -155,10 +177,12 @@ ocsf:1012 a skos:Concept ;
     skos:notation "1012" ;
     skos:note "OCSF class name: clipboard_activity"@en ;
     skos:prefLabel "Clipboard Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/system/clipboard_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2001 a skos:Concept ;
@@ -168,10 +192,12 @@ ocsf:2001 a skos:Concept ;
     skos:notation "2001" ;
     skos:note "OCSF class name: security_finding"@en ;
     skos:prefLabel "Security Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/security_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2002 a skos:Concept ;
@@ -181,10 +207,12 @@ ocsf:2002 a skos:Concept ;
     skos:notation "2002" ;
     skos:note "OCSF class name: vulnerability_finding"@en ;
     skos:prefLabel "Vulnerability Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/vulnerability_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2003 a skos:Concept ;
@@ -194,10 +222,12 @@ ocsf:2003 a skos:Concept ;
     skos:notation "2003" ;
     skos:note "OCSF class name: compliance_finding"@en ;
     skos:prefLabel "Compliance Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/compliance_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2004 a skos:Concept ;
@@ -207,10 +237,12 @@ ocsf:2004 a skos:Concept ;
     skos:notation "2004" ;
     skos:note "OCSF class name: detection_finding"@en ;
     skos:prefLabel "Detection Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/detection_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2005 a skos:Concept ;
@@ -220,10 +252,12 @@ ocsf:2005 a skos:Concept ;
     skos:notation "2005" ;
     skos:note "OCSF class name: incident_finding"@en ;
     skos:prefLabel "Incident Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/incident_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2006 a skos:Concept ;
@@ -233,10 +267,12 @@ ocsf:2006 a skos:Concept ;
     skos:notation "2006" ;
     skos:note "OCSF class name: data_security_finding"@en ;
     skos:prefLabel "Data Security Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/data_security_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2007 a skos:Concept ;
@@ -246,10 +282,12 @@ ocsf:2007 a skos:Concept ;
     skos:notation "2007" ;
     skos:note "OCSF class name: application_security_posture_finding"@en ;
     skos:prefLabel "Application Security Posture Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/application_security_posture_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2008 a skos:Concept ;
@@ -259,10 +297,12 @@ ocsf:2008 a skos:Concept ;
     skos:notation "2008" ;
     skos:note "OCSF class name: iam_analysis_finding"@en ;
     skos:prefLabel "IAM Analysis Finding"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/findings/iam_analysis_finding.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3001 a skos:Concept ;
@@ -272,10 +312,12 @@ ocsf:3001 a skos:Concept ;
     skos:notation "3001" ;
     skos:note "OCSF class name: account_change"@en ;
     skos:prefLabel "Account Change"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/account_change.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3002 a skos:Concept ;
@@ -285,10 +327,12 @@ ocsf:3002 a skos:Concept ;
     skos:notation "3002" ;
     skos:note "OCSF class name: authentication"@en ;
     skos:prefLabel "Authentication"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/authentication.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3003 a skos:Concept ;
@@ -298,10 +342,12 @@ ocsf:3003 a skos:Concept ;
     skos:notation "3003" ;
     skos:note "OCSF class name: authorize_session"@en ;
     skos:prefLabel "Authorize Session"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/authorize_session.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3004 a skos:Concept ;
@@ -311,10 +357,12 @@ ocsf:3004 a skos:Concept ;
     skos:notation "3004" ;
     skos:note "OCSF class name: entity_management"@en ;
     skos:prefLabel "Entity Management"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/entity_management.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3005 a skos:Concept ;
@@ -324,10 +372,12 @@ ocsf:3005 a skos:Concept ;
     skos:notation "3005" ;
     skos:note "OCSF class name: user_access"@en ;
     skos:prefLabel "User Access Management"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/user_access.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3006 a skos:Concept ;
@@ -337,10 +387,12 @@ ocsf:3006 a skos:Concept ;
     skos:notation "3006" ;
     skos:note "OCSF class name: group_management"@en ;
     skos:prefLabel "Group Management"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/group_management.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3007 a skos:Concept ;
@@ -350,10 +402,12 @@ ocsf:3007 a skos:Concept ;
     skos:notation "3007" ;
     skos:note "OCSF class name: user_management"@en ;
     skos:prefLabel "User Management"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/user_management.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3008 a skos:Concept ;
@@ -363,10 +417,12 @@ ocsf:3008 a skos:Concept ;
     skos:notation "3008" ;
     skos:note "OCSF class name: role_management"@en ;
     skos:prefLabel "Role Management"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/iam/role_management.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4001 a skos:Concept ;
@@ -376,10 +432,12 @@ ocsf:4001 a skos:Concept ;
     skos:notation "4001" ;
     skos:note "OCSF class name: network_activity"@en ;
     skos:prefLabel "Network Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/network_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4002 a skos:Concept ;
@@ -389,10 +447,12 @@ ocsf:4002 a skos:Concept ;
     skos:notation "4002" ;
     skos:note "OCSF class name: http_activity"@en ;
     skos:prefLabel "HTTP Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/http_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4003 a skos:Concept ;
@@ -402,10 +462,12 @@ ocsf:4003 a skos:Concept ;
     skos:notation "4003" ;
     skos:note "OCSF class name: dns_activity"@en ;
     skos:prefLabel "DNS Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/dns_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4004 a skos:Concept ;
@@ -415,10 +477,12 @@ ocsf:4004 a skos:Concept ;
     skos:notation "4004" ;
     skos:note "OCSF class name: dhcp_activity"@en ;
     skos:prefLabel "DHCP Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/dhcp_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4005 a skos:Concept ;
@@ -428,10 +492,12 @@ ocsf:4005 a skos:Concept ;
     skos:notation "4005" ;
     skos:note "OCSF class name: rdp_activity"@en ;
     skos:prefLabel "RDP Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/rdp_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4006 a skos:Concept ;
@@ -441,10 +507,12 @@ ocsf:4006 a skos:Concept ;
     skos:notation "4006" ;
     skos:note "OCSF class name: smb_activity"@en ;
     skos:prefLabel "SMB Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/smb_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4007 a skos:Concept ;
@@ -454,10 +522,12 @@ ocsf:4007 a skos:Concept ;
     skos:notation "4007" ;
     skos:note "OCSF class name: ssh_activity"@en ;
     skos:prefLabel "SSH Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ssh_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4008 a skos:Concept ;
@@ -467,10 +537,12 @@ ocsf:4008 a skos:Concept ;
     skos:notation "4008" ;
     skos:note "OCSF class name: ftp_activity"@en ;
     skos:prefLabel "FTP Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ftp_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4009 a skos:Concept ;
@@ -480,10 +552,12 @@ ocsf:4009 a skos:Concept ;
     skos:notation "4009" ;
     skos:note "OCSF class name: email_activity"@en ;
     skos:prefLabel "Email Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4010 a skos:Concept ;
@@ -493,10 +567,12 @@ ocsf:4010 a skos:Concept ;
     skos:notation "4010" ;
     skos:note "OCSF class name: network_file_activity"@en ;
     skos:prefLabel "Network File Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/network_file_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4011 a skos:Concept ;
@@ -506,10 +582,12 @@ ocsf:4011 a skos:Concept ;
     skos:notation "4011" ;
     skos:note "OCSF class name: email_file_activity"@en ;
     skos:prefLabel "Email File Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_file_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4012 a skos:Concept ;
@@ -519,10 +597,12 @@ ocsf:4012 a skos:Concept ;
     skos:notation "4012" ;
     skos:note "OCSF class name: email_url_activity"@en ;
     skos:prefLabel "Email URL Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/email_url_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4013 a skos:Concept ;
@@ -532,10 +612,12 @@ ocsf:4013 a skos:Concept ;
     skos:notation "4013" ;
     skos:note "OCSF class name: ntp_activity"@en ;
     skos:prefLabel "NTP Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/ntp_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4014 a skos:Concept ;
@@ -545,10 +627,12 @@ ocsf:4014 a skos:Concept ;
     skos:notation "4014" ;
     skos:note "OCSF class name: tunnel_activity"@en ;
     skos:prefLabel "Tunnel Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/network/tunnel_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5001 a skos:Concept ;
@@ -558,10 +642,12 @@ ocsf:5001 a skos:Concept ;
     skos:notation "5001" ;
     skos:note "OCSF class name: inventory_info"@en ;
     skos:prefLabel "Device Inventory Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/inventory_info.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5002 a skos:Concept ;
@@ -571,10 +657,12 @@ ocsf:5002 a skos:Concept ;
     skos:notation "5002" ;
     skos:note "OCSF class name: config_state"@en ;
     skos:prefLabel "Device Config State"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/config_state.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5003 a skos:Concept ;
@@ -584,10 +672,12 @@ ocsf:5003 a skos:Concept ;
     skos:notation "5003" ;
     skos:note "OCSF class name: user_inventory"@en ;
     skos:prefLabel "User Inventory Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/user_inventory.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5004 a skos:Concept ;
@@ -597,10 +687,12 @@ ocsf:5004 a skos:Concept ;
     skos:notation "5004" ;
     skos:note "OCSF class name: patch_state"@en ;
     skos:prefLabel "Operating System Patch State"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/patch_state.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5006 a skos:Concept ;
@@ -610,10 +702,12 @@ ocsf:5006 a skos:Concept ;
     skos:notation "5006" ;
     skos:note "OCSF class name: kernel_object_query"@en ;
     skos:prefLabel "Kernel Object Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/kernel_object_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5007 a skos:Concept ;
@@ -623,10 +717,12 @@ ocsf:5007 a skos:Concept ;
     skos:notation "5007" ;
     skos:note "OCSF class name: file_query"@en ;
     skos:prefLabel "File Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/file_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5008 a skos:Concept ;
@@ -636,10 +732,12 @@ ocsf:5008 a skos:Concept ;
     skos:notation "5008" ;
     skos:note "OCSF class name: folder_query"@en ;
     skos:prefLabel "Folder Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/folder_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5009 a skos:Concept ;
@@ -649,10 +747,12 @@ ocsf:5009 a skos:Concept ;
     skos:notation "5009" ;
     skos:note "OCSF class name: admin_group_query"@en ;
     skos:prefLabel "Admin Group Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/admin_group_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5010 a skos:Concept ;
@@ -662,10 +762,12 @@ ocsf:5010 a skos:Concept ;
     skos:notation "5010" ;
     skos:note "OCSF class name: job_query"@en ;
     skos:prefLabel "Job Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/job_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5011 a skos:Concept ;
@@ -675,10 +777,12 @@ ocsf:5011 a skos:Concept ;
     skos:notation "5011" ;
     skos:note "OCSF class name: module_query"@en ;
     skos:prefLabel "Module Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/module_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5012 a skos:Concept ;
@@ -688,10 +792,12 @@ ocsf:5012 a skos:Concept ;
     skos:notation "5012" ;
     skos:note "OCSF class name: network_connection_query"@en ;
     skos:prefLabel "Network Connection Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/network_connection_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5013 a skos:Concept ;
@@ -701,10 +807,12 @@ ocsf:5013 a skos:Concept ;
     skos:notation "5013" ;
     skos:note "OCSF class name: networks_query"@en ;
     skos:prefLabel "Networks Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/networks_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5014 a skos:Concept ;
@@ -714,10 +822,12 @@ ocsf:5014 a skos:Concept ;
     skos:notation "5014" ;
     skos:note "OCSF class name: peripheral_device_query"@en ;
     skos:prefLabel "Peripheral Device Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/peripheral_device_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5015 a skos:Concept ;
@@ -727,10 +837,12 @@ ocsf:5015 a skos:Concept ;
     skos:notation "5015" ;
     skos:note "OCSF class name: process_query"@en ;
     skos:prefLabel "Process Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/process_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5016 a skos:Concept ;
@@ -740,10 +852,12 @@ ocsf:5016 a skos:Concept ;
     skos:notation "5016" ;
     skos:note "OCSF class name: service_query"@en ;
     skos:prefLabel "Service Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/service_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5017 a skos:Concept ;
@@ -753,10 +867,12 @@ ocsf:5017 a skos:Concept ;
     skos:notation "5017" ;
     skos:note "OCSF class name: session_query"@en ;
     skos:prefLabel "User Session Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/session_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5018 a skos:Concept ;
@@ -766,10 +882,12 @@ ocsf:5018 a skos:Concept ;
     skos:notation "5018" ;
     skos:note "OCSF class name: user_query"@en ;
     skos:prefLabel "User Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/user_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5019 a skos:Concept ;
@@ -779,10 +897,12 @@ ocsf:5019 a skos:Concept ;
     skos:notation "5019" ;
     skos:note "OCSF class name: device_config_state_change"@en ;
     skos:prefLabel "Device Config State Change"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/device_config_state_change.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5020 a skos:Concept ;
@@ -792,10 +912,12 @@ ocsf:5020 a skos:Concept ;
     skos:notation "5020" ;
     skos:note "OCSF class name: software_info"@en ;
     skos:prefLabel "Software Inventory Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/software_info.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5021 a skos:Concept ;
@@ -805,10 +927,12 @@ ocsf:5021 a skos:Concept ;
     skos:notation "5021" ;
     skos:note "OCSF class name: osint_inventory_info"@en ;
     skos:prefLabel "OSINT Inventory Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/osint_inventory_info.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5022 a skos:Concept ;
@@ -818,10 +942,12 @@ ocsf:5022 a skos:Concept ;
     skos:notation "5022" ;
     skos:note "OCSF class name: startup_item_query"@en ;
     skos:prefLabel "Startup Item Query"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/startup_item_query.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5023 a skos:Concept ;
@@ -831,10 +957,12 @@ ocsf:5023 a skos:Concept ;
     skos:notation "5023" ;
     skos:note "OCSF class name: cloud_resources_inventory_info"@en ;
     skos:prefLabel "Cloud Resources Inventory Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/cloud_resources_inventory_info.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5040 a skos:Concept ;
@@ -844,10 +972,12 @@ ocsf:5040 a skos:Concept ;
     skos:notation "5040" ;
     skos:note "OCSF class name: evidence_info"@en ;
     skos:prefLabel "Live Evidence Info"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/discovery/evidence_info.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6001 a skos:Concept ;
@@ -857,10 +987,12 @@ ocsf:6001 a skos:Concept ;
     skos:notation "6001" ;
     skos:note "OCSF class name: web_resources_activity"@en ;
     skos:prefLabel "Web Resources Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/web_resources_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6002 a skos:Concept ;
@@ -870,10 +1002,12 @@ ocsf:6002 a skos:Concept ;
     skos:notation "6002" ;
     skos:note "OCSF class name: application_lifecycle"@en ;
     skos:prefLabel "Application Lifecycle"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/application_lifecycle.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6003 a skos:Concept ;
@@ -883,10 +1017,12 @@ ocsf:6003 a skos:Concept ;
     skos:notation "6003" ;
     skos:note "OCSF class name: api_activity"@en ;
     skos:prefLabel "API Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/api_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6004 a skos:Concept ;
@@ -896,10 +1032,12 @@ ocsf:6004 a skos:Concept ;
     skos:notation "6004" ;
     skos:note "OCSF class name: web_resource_access_activity"@en ;
     skos:prefLabel "Web Resource Access Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/web_resource_access_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6005 a skos:Concept ;
@@ -909,10 +1047,12 @@ ocsf:6005 a skos:Concept ;
     skos:notation "6005" ;
     skos:note "OCSF class name: datastore_activity"@en ;
     skos:prefLabel "Datastore Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/datastore_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6006 a skos:Concept ;
@@ -922,10 +1062,12 @@ ocsf:6006 a skos:Concept ;
     skos:notation "6006" ;
     skos:note "OCSF class name: file_hosting"@en ;
     skos:prefLabel "File Hosting Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/file_hosting.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6007 a skos:Concept ;
@@ -935,10 +1077,12 @@ ocsf:6007 a skos:Concept ;
     skos:notation "6007" ;
     skos:note "OCSF class name: scan_activity"@en ;
     skos:prefLabel "Scan Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/scan_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6008 a skos:Concept ;
@@ -948,10 +1092,12 @@ ocsf:6008 a skos:Concept ;
     skos:notation "6008" ;
     skos:note "OCSF class name: application_error"@en ;
     skos:prefLabel "Application Error"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/application/application_error.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:7001 a skos:Concept ;
@@ -961,10 +1107,12 @@ ocsf:7001 a skos:Concept ;
     skos:notation "7001" ;
     skos:note "OCSF class name: remediation_activity"@en ;
     skos:prefLabel "Remediation Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/remediation_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:7002 a skos:Concept ;
@@ -974,10 +1122,12 @@ ocsf:7002 a skos:Concept ;
     skos:notation "7002" ;
     skos:note "OCSF class name: file_remediation_activity"@en ;
     skos:prefLabel "File Remediation Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/file_remediation_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:7003 a skos:Concept ;
@@ -987,10 +1137,12 @@ ocsf:7003 a skos:Concept ;
     skos:notation "7003" ;
     skos:note "OCSF class name: process_remediation_activity"@en ;
     skos:prefLabel "Process Remediation Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/process_remediation_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:7004 a skos:Concept ;
@@ -1000,10 +1152,12 @@ ocsf:7004 a skos:Concept ;
     skos:notation "7004" ;
     skos:note "OCSF class name: network_remediation_activity"@en ;
     skos:prefLabel "Network Remediation Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/remediation/network_remediation_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:8001 a skos:Concept ;
@@ -1013,10 +1167,12 @@ ocsf:8001 a skos:Concept ;
     skos:notation "8001" ;
     skos:note "OCSF class name: drone_flights_activity"@en ;
     skos:prefLabel "Drone Flights Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/unmanned_systems/drone_flights_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:8002 a skos:Concept ;
@@ -1026,10 +1182,12 @@ ocsf:8002 a skos:Concept ;
     skos:notation "8002" ;
     skos:note "OCSF class name: airborne_broadcast_activity"@en ;
     skos:prefLabel "Airborne Broadcast Activity"@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 events/unmanned_systems/airborne_broadcast_activity.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:8 a skos:Concept ;
@@ -1039,10 +1197,12 @@ ocsf:8 a skos:Concept ;
     skos:note "OCSF category name: unmanned_systems"@en ;
     skos:prefLabel "Unmanned Systems"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:7 a skos:Concept ;
@@ -1052,10 +1212,12 @@ ocsf:7 a skos:Concept ;
     skos:note "OCSF category name: remediation"@en ;
     skos:prefLabel "Remediation"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:2 a skos:Concept ;
@@ -1065,10 +1227,12 @@ ocsf:2 a skos:Concept ;
     skos:note "OCSF category name: findings"@en ;
     skos:prefLabel "Findings"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:3 a skos:Concept ;
@@ -1078,10 +1242,12 @@ ocsf:3 a skos:Concept ;
     skos:note "OCSF category name: iam"@en ;
     skos:prefLabel "Identity & Access Management"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:6 a skos:Concept ;
@@ -1091,10 +1257,12 @@ ocsf:6 a skos:Concept ;
     skos:note "OCSF category name: application"@en ;
     skos:prefLabel "Application Activity"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:1 a skos:Concept ;
@@ -1104,10 +1272,12 @@ ocsf:1 a skos:Concept ;
     skos:note "OCSF category name: system"@en ;
     skos:prefLabel "System Activity"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:4 a skos:Concept ;
@@ -1117,10 +1287,12 @@ ocsf:4 a skos:Concept ;
     skos:note "OCSF category name: network"@en ;
     skos:prefLabel "Network Activity"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 ocsf:5 a skos:Concept ;
@@ -1130,10 +1302,12 @@ ocsf:5 a skos:Concept ;
     skos:note "OCSF category name: discovery"@en ;
     skos:prefLabel "Discovery"@en ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/ocsf> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OCSF 1.9.0 categories.json"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
     crgo:CRGO_0000291 "0.10.0" .
 
 <https://w3id.org/crgo/vocab/ocsf> a owl:Ontology,

@@ -21,12 +21,15 @@ crgo:CRGO_0001122 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000036 ;
     skos:definition "An evidence item recording that a response action was carried out and with what result, such as a system log entry or a screenshot of the changed configuration."@en,
         "Élément de preuve qui consigne qu'une action de réponse a été effectuée et avec quel résultat, comme une entrée de journal système ou une capture de la configuration modifiée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ResponseEvidence)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- forensic artefact
 crgo:CRGO_0001123 a owl:Class ;
@@ -37,13 +40,16 @@ crgo:CRGO_0001123 a owl:Class ;
         "artefact forensique"@fr ;
     skos:definition "An evidence item collected for forensic analysis, such as a disk or memory image, kept under recorded custody with its integrity hash."@en,
         "Élément de preuve recueilli pour une analyse forensique, comme une image de disque ou de mémoire, conservé sous une garde consignée avec son empreinte d'intégrité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ForensicArtifact); reuses custodian, evidence hash and collection date."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- new (case)
 crgo:CRGO_0001165 a owl:NamedIndividual,
@@ -54,12 +60,15 @@ crgo:CRGO_0001165 a owl:NamedIndividual,
         "Ouvert; pas encore trié."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- triaged (case)
 crgo:CRGO_0001166 a owl:NamedIndividual,
@@ -70,12 +79,15 @@ crgo:CRGO_0001166 a owl:NamedIndividual,
         "Priorité et responsable attribués."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- investigating
 crgo:CRGO_0001167 a owl:NamedIndividual,
@@ -86,12 +98,15 @@ crgo:CRGO_0001167 a owl:NamedIndividual,
         "Étendue et cause en cours d'établissement."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- contained
 crgo:CRGO_0001168 a owl:NamedIndividual,
@@ -102,12 +117,15 @@ crgo:CRGO_0001168 a owl:NamedIndividual,
         "Propagation ou effet arrêtés."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- recovering
 crgo:CRGO_0001169 a owl:NamedIndividual,
@@ -118,12 +136,15 @@ crgo:CRGO_0001169 a owl:NamedIndividual,
         "Services et données touchés en cours de rétablissement."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- resolved (case)
 crgo:CRGO_0001170 a owl:NamedIndividual,
@@ -134,12 +155,15 @@ crgo:CRGO_0001170 a owl:NamedIndividual,
         "Réponse terminée; suivi en attente."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- closed (case)
 crgo:CRGO_0001171 a owl:NamedIndividual,
@@ -150,12 +174,15 @@ crgo:CRGO_0001171 a owl:NamedIndividual,
         "Suivi effectué et dossier clos."@fr ;
     skos:inScheme crgo:CRGO_0001164 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- pending (execution)
 crgo:CRGO_0001174 a owl:NamedIndividual,
@@ -166,12 +193,15 @@ crgo:CRGO_0001174 a owl:NamedIndividual,
         "Prévue mais non commencée."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- running
 crgo:CRGO_0001175 a owl:NamedIndividual,
@@ -182,12 +212,15 @@ crgo:CRGO_0001175 a owl:NamedIndividual,
         "Commencée et non terminée."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- awaiting approval
 crgo:CRGO_0001176 a owl:NamedIndividual,
@@ -198,12 +231,15 @@ crgo:CRGO_0001176 a owl:NamedIndividual,
         "Arrêtée à un point d'approbation."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- succeeded
 crgo:CRGO_0001177 a owl:NamedIndividual,
@@ -214,12 +250,15 @@ crgo:CRGO_0001177 a owl:NamedIndividual,
         "Terminée avec le résultat attendu."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- failed
 crgo:CRGO_0001178 a owl:NamedIndividual,
@@ -230,12 +269,15 @@ crgo:CRGO_0001178 a owl:NamedIndividual,
         "Terminée sans le résultat attendu."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- cancelled (execution)
 crgo:CRGO_0001179 a owl:NamedIndividual,
@@ -246,12 +288,15 @@ crgo:CRGO_0001179 a owl:NamedIndividual,
         "Arrêtée avant d'être menée à terme."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- compensated
 crgo:CRGO_0001180 a owl:NamedIndividual,
@@ -262,12 +307,15 @@ crgo:CRGO_0001180 a owl:NamedIndividual,
         "Ses effets ont été annulés par une action compensatoire."@fr ;
     skos:inScheme crgo:CRGO_0001173 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval requested
 crgo:CRGO_0001183 a owl:NamedIndividual,
@@ -278,11 +326,14 @@ crgo:CRGO_0001183 a owl:NamedIndividual,
         "Demandée; aucune décision encore."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval granted
 crgo:CRGO_0001184 a owl:NamedIndividual,
@@ -293,11 +344,14 @@ crgo:CRGO_0001184 a owl:NamedIndividual,
         "Accordée pour le périmètre et la période précisés; le résultat de la décision est « approuvée »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval denied
 crgo:CRGO_0001185 a owl:NamedIndividual,
@@ -308,11 +362,14 @@ crgo:CRGO_0001185 a owl:NamedIndividual,
         "Refusée; le résultat de la décision est « rejetée »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval expired
 crgo:CRGO_0001186 a owl:NamedIndividual,
@@ -323,11 +380,14 @@ crgo:CRGO_0001186 a owl:NamedIndividual,
         "Sa période de validité a pris fin."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval revoked
 crgo:CRGO_0001187 a owl:NamedIndividual,
@@ -338,11 +398,14 @@ crgo:CRGO_0001187 a owl:NamedIndividual,
         "Retirée avant son expiration, à la date consignée comme « révoquée le »."@fr ;
     skos:inScheme crgo:CRGO_0001182 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- read-only action
 crgo:CRGO_0001190 a owl:NamedIndividual,
@@ -353,11 +416,14 @@ crgo:CRGO_0001190 a owl:NamedIndividual,
         "Recueille de l'information; ne change rien."@fr ;
     skos:inScheme crgo:CRGO_0001189 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- administrative action
 crgo:CRGO_0001191 a owl:NamedIndividual,
@@ -368,11 +434,14 @@ crgo:CRGO_0001191 a owl:NamedIndividual,
         "Modifie des dossiers ou des billets, et non des systèmes."@fr ;
     skos:inScheme crgo:CRGO_0001189 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- containment action
 crgo:CRGO_0001192 a owl:NamedIndividual,
@@ -383,11 +452,14 @@ crgo:CRGO_0001192 a owl:NamedIndividual,
         "Restreint un utilisateur, un hôte ou un service, de façon réversible."@fr ;
     skos:inScheme crgo:CRGO_0001189 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- destructive action
 crgo:CRGO_0001193 a owl:NamedIndividual,
@@ -398,11 +470,14 @@ crgo:CRGO_0001193 a owl:NamedIndividual,
         "Supprime, efface ou modifie autrement quelque chose de façon irréversible."@fr ;
     skos:inScheme crgo:CRGO_0001189 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- malware incident
 crgo:CRGO_0001196 a owl:NamedIndividual,
@@ -413,12 +488,15 @@ crgo:CRGO_0001196 a owl:NamedIndividual,
         "Un code malveillant s'est exécuté ou a été installé, y compris un rançongiciel."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- unauthorised access
 crgo:CRGO_0001197 a owl:NamedIndividual,
@@ -429,12 +507,15 @@ crgo:CRGO_0001197 a owl:NamedIndividual,
         "Un compte, un système ou des données ont été consultés sans autorisation."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- data exposure
 crgo:CRGO_0001198 a owl:NamedIndividual,
@@ -445,12 +526,15 @@ crgo:CRGO_0001198 a owl:NamedIndividual,
         "Des informations ont été divulguées, exfiltrées ou rendues accessibles à des tiers non autorisés."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- denial of service
 crgo:CRGO_0001199 a owl:NamedIndividual,
@@ -461,12 +545,15 @@ crgo:CRGO_0001199 a owl:NamedIndividual,
         "Un service a été rendu indisponible ou dégradé délibérément."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- social engineering
 crgo:CRGO_0001200 a owl:NamedIndividual,
@@ -477,12 +564,15 @@ crgo:CRGO_0001200 a owl:NamedIndividual,
         "Des personnes ont été trompées, par exemple par hameçonnage ou fraude au paiement."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- insider misuse
 crgo:CRGO_0001201 a owl:NamedIndividual,
@@ -493,12 +583,15 @@ crgo:CRGO_0001201 a owl:NamedIndividual,
         "Un utilisateur autorisé a abusé de son accès."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- loss or theft
 crgo:CRGO_0001202 a owl:NamedIndividual,
@@ -509,12 +602,15 @@ crgo:CRGO_0001202 a owl:NamedIndividual,
         "Un appareil ou un support contenant de l'information a été perdu ou volé."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- misconfiguration exposure
 crgo:CRGO_0001203 a owl:NamedIndividual,
@@ -525,12 +621,15 @@ crgo:CRGO_0001203 a owl:NamedIndividual,
         "Une erreur de configuration a exposé un système ou des données."@fr ;
     skos:inScheme crgo:CRGO_0001195 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- low severity
 crgo:CRGO_0001206 a owl:NamedIndividual,
@@ -541,12 +640,15 @@ crgo:CRGO_0001206 a owl:NamedIndividual,
         "Peu d'effet; traité dans le cadre des activités normales."@fr ;
     skos:inScheme crgo:CRGO_0001205 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- medium severity
 crgo:CRGO_0001207 a owl:NamedIndividual,
@@ -557,12 +659,15 @@ crgo:CRGO_0001207 a owl:NamedIndividual,
         "Effet notable sur un service ou des données; exige une réponse coordonnée."@fr ;
     skos:inScheme crgo:CRGO_0001205 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- high severity
 crgo:CRGO_0001208 a owl:NamedIndividual,
@@ -573,12 +678,15 @@ crgo:CRGO_0001208 a owl:NamedIndividual,
         "Effet grave sur des services critiques ou des données sensibles; la direction est informée."@fr ;
     skos:inScheme crgo:CRGO_0001205 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- critical severity
 crgo:CRGO_0001209 a owl:NamedIndividual,
@@ -589,12 +697,15 @@ crgo:CRGO_0001209 a owl:NamedIndividual,
         "Menace les activités ou les obligations de l'organisation; les procédures de crise s'appliquent."@fr ;
     skos:inScheme crgo:CRGO_0001205 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- alert trigger
 crgo:CRGO_0001212 a owl:NamedIndividual,
@@ -605,11 +716,14 @@ crgo:CRGO_0001212 a owl:NamedIndividual,
         "Une alerte répondant à des conditions données."@fr ;
     skos:inScheme crgo:CRGO_0001211 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- event trigger
 crgo:CRGO_0001213 a owl:NamedIndividual,
@@ -620,11 +734,14 @@ crgo:CRGO_0001213 a owl:NamedIndividual,
         "Un événement répondant à des conditions données."@fr ;
     skos:inScheme crgo:CRGO_0001211 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- scheduled trigger
 crgo:CRGO_0001214 a owl:NamedIndividual,
@@ -635,11 +752,14 @@ crgo:CRGO_0001214 a owl:NamedIndividual,
         "Un calendrier."@fr ;
     skos:inScheme crgo:CRGO_0001211 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- manual trigger
 crgo:CRGO_0001215 a owl:NamedIndividual,
@@ -650,11 +770,14 @@ crgo:CRGO_0001215 a owl:NamedIndividual,
         "Une demande d'un analyste."@fr ;
     skos:inScheme crgo:CRGO_0001211 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- internal escalation
 crgo:CRGO_0001218 a owl:NamedIndividual,
@@ -665,12 +788,15 @@ crgo:CRGO_0001218 a owl:NamedIndividual,
         "Intervenants, responsables ou direction au sein de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- governing body (audience)
 crgo:CRGO_0001219 a owl:NamedIndividual,
@@ -681,12 +807,15 @@ crgo:CRGO_0001219 a owl:NamedIndividual,
         "Le conseil ou l'un de ses comités."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- affected persons
 crgo:CRGO_0001220 a owl:NamedIndividual,
@@ -697,12 +826,15 @@ crgo:CRGO_0001220 a owl:NamedIndividual,
         "Personnes dont les informations ou les services ont été touchés."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- customers and partners
 crgo:CRGO_0001221 a owl:NamedIndividual,
@@ -713,12 +845,15 @@ crgo:CRGO_0001221 a owl:NamedIndividual,
         "Clients, fournisseurs ou partenaires."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- regulator (audience)
 crgo:CRGO_0001222 a owl:NamedIndividual,
@@ -729,12 +864,15 @@ crgo:CRGO_0001222 a owl:NamedIndividual,
         "Une autorité de réglementation ou de surveillance."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- law enforcement
 crgo:CRGO_0001223 a owl:NamedIndividual,
@@ -745,12 +883,15 @@ crgo:CRGO_0001223 a owl:NamedIndividual,
         "La police ou d'autres organismes chargés de l'application de la loi."@fr ;
     skos:inScheme crgo:CRGO_0001217 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- time to detect
 crgo:CRGO_0001226 a owl:NamedIndividual,
@@ -761,12 +902,15 @@ crgo:CRGO_0001226 a owl:NamedIndividual,
         "Du début de l'activité malveillante à sa détection."@fr ;
     skos:inScheme crgo:CRGO_0001225 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- time to acknowledge
 crgo:CRGO_0001227 a owl:NamedIndividual,
@@ -777,12 +921,15 @@ crgo:CRGO_0001227 a owl:NamedIndividual,
         "D'une alerte à sa prise en charge par un analyste."@fr ;
     skos:inScheme crgo:CRGO_0001225 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- time to contain
 crgo:CRGO_0001228 a owl:NamedIndividual,
@@ -793,12 +940,15 @@ crgo:CRGO_0001228 a owl:NamedIndividual,
         "De la détection au confinement."@fr ;
     skos:inScheme crgo:CRGO_0001225 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- time to recover
 crgo:CRGO_0001229 a owl:NamedIndividual,
@@ -809,12 +959,15 @@ crgo:CRGO_0001229 a owl:NamedIndividual,
         "De la détection au rétablissement vérifié."@fr ;
     skos:inScheme crgo:CRGO_0001225 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- dwell time
 crgo:CRGO_0001230 a owl:NamedIndividual,
@@ -825,12 +978,15 @@ crgo:CRGO_0001230 a owl:NamedIndividual,
         "Du début de l'activité malveillante à son confinement."@fr ;
     skos:inScheme crgo:CRGO_0001225 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- investigates alert
 crgo:CRGO_0001266 a owl:ObjectProperty ;
@@ -840,11 +996,14 @@ crgo:CRGO_0001266 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000551 ;
     skos:definition "Relates a security investigation to an alert it examines."@en,
         "Relie une enquête de sécurité à une alerte qu'elle examine."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has case status
 crgo:CRGO_0001267 a owl:ObjectProperty ;
@@ -855,11 +1014,14 @@ crgo:CRGO_0001267 a owl:ObjectProperty ;
     skos:definition "Gives the recorded stage of a security investigation, as last recorded."@en,
         "Indique l'étape consignée d'une enquête de sécurité, selon le dernier enregistrement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- concluded incident
 crgo:CRGO_0001268 a owl:ObjectProperty ;
@@ -868,12 +1030,15 @@ crgo:CRGO_0001268 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001112 ;
     skos:definition "Relates a security investigation to the incident it concluded had occurred. The incident is confirmed by an incident confirmation, not by this link alone."@en,
         "Relie une enquête de sécurité à l'incident dont elle a conclu l'existence. L'incident est confirmé par une confirmation d'incident, et non par ce seul lien."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR classifiesAs; SIEM/SOAR section 1 (no implied confirmation)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has incident category
 crgo:CRGO_0001269 a owl:ObjectProperty ;
@@ -882,11 +1047,14 @@ crgo:CRGO_0001269 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001194 ;
     skos:definition "Gives a broad category of an incident."@en,
         "Indique une grande catégorie d'un incident."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has incident severity
 crgo:CRGO_0001270 a owl:ObjectProperty ;
@@ -896,11 +1064,14 @@ crgo:CRGO_0001270 a owl:ObjectProperty ;
     skos:definition "Gives the severity of an incident as last rated."@en,
         "Indique la gravité d'un incident selon la dernière cote attribuée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- includes step
 crgo:CRGO_0001271 a owl:ObjectProperty ;
@@ -910,12 +1081,15 @@ crgo:CRGO_0001271 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001115 ;
     skos:definition "Relates a playbook version to a step it contains."@en,
         "Relie une version de guide à une étape qu'elle contient."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- next playbook step
 crgo:CRGO_0001272 a owl:ObjectProperty ;
@@ -925,12 +1099,15 @@ crgo:CRGO_0001272 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001115 ;
     skos:definition "Relates a playbook step to a step that follows it."@en,
         "Relie une étape de guide à une étape qui la suit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Distinct from the core 'next step' of scenario steps."@en ;
     crgo:CRGO_0000286 "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- step performs action
 crgo:CRGO_0001273 a owl:ObjectProperty ;
@@ -940,12 +1117,15 @@ crgo:CRGO_0001273 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001117 ;
     skos:definition "Relates a playbook step to the response action it carries out."@en,
         "Relie une étape de guide à l'action de réponse qu'elle exécute."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has playbook trigger
 crgo:CRGO_0001274 a owl:ObjectProperty ;
@@ -954,11 +1134,14 @@ crgo:CRGO_0001274 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001116 ;
     skos:definition "Relates a response playbook or version to a trigger that starts it."@en,
         "Relie un guide de réponse ou une version de guide à un déclencheur qui le lance."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has trigger kind
 crgo:CRGO_0001275 a owl:ObjectProperty ;
@@ -969,11 +1152,14 @@ crgo:CRGO_0001275 a owl:ObjectProperty ;
     skos:definition "Gives what kind of thing a playbook trigger is."@en,
         "Indique le type d'un déclencheur de guide."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- addresses scenario
 crgo:CRGO_0001276 a owl:ObjectProperty ;
@@ -983,11 +1169,14 @@ crgo:CRGO_0001276 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000023 ;
     skos:definition "Relates a response playbook to a risk scenario whose occurrence it is meant to handle. States intent; it does not reduce the scenario's risk by itself."@en,
         "Relie un guide de réponse à un scénario de risque dont il doit traiter la survenance. N'exprime que l'intention; il ne réduit pas à lui seul le risque du scénario."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has action risk class
 crgo:CRGO_0001277 a owl:ObjectProperty ;
@@ -998,11 +1187,14 @@ crgo:CRGO_0001277 a owl:ObjectProperty ;
     skos:definition "Gives the risk class of a response action."@en,
         "Indique la classe de risque d'une action de réponse."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- corresponds to defensive technique
 crgo:CRGO_0001278 a owl:ObjectProperty ;
@@ -1011,11 +1203,14 @@ crgo:CRGO_0001278 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001117 ;
     skos:definition "Relates a response action to a defensive technique it carries out, such as a D3FEND technique."@en,
         "Relie une action de réponse à une technique défensive qu'elle met en œuvre, comme une technique D3FEND."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- requires approval
 crgo:CRGO_0001279 a owl:ObjectProperty ;
@@ -1024,11 +1219,14 @@ crgo:CRGO_0001279 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001118 ;
     skos:definition "Relates a response action or playbook step to an approval gate it must pass."@en,
         "Relie une action de réponse ou une étape de guide à un point d'approbation qu'elle doit franchir."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- gate for risk class
 crgo:CRGO_0001280 a owl:ObjectProperty ;
@@ -1038,11 +1236,14 @@ crgo:CRGO_0001280 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001188 ;
     skos:definition "Relates an approval gate to an action risk class it applies to."@en,
         "Relie un point d'approbation à une classe de risque d'action à laquelle il s'applique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- gate authority
 crgo:CRGO_0001281 a owl:ObjectProperty ;
@@ -1051,11 +1252,14 @@ crgo:CRGO_0001281 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001118 ;
     skos:definition "Relates an approval gate to the role or agent whose approval it requires."@en,
         "Relie un point d'approbation au rôle ou à l'agent dont il exige l'approbation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has approval status
 crgo:CRGO_0001282 a owl:ObjectProperty ;
@@ -1066,11 +1270,14 @@ crgo:CRGO_0001282 a owl:ObjectProperty ;
     skos:definition "Gives the state of an approval decision, as last recorded."@en,
         "Indique l'état d'une décision d'approbation, selon le dernier enregistrement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- pre-authorises action
 crgo:CRGO_0001283 a owl:ObjectProperty ;
@@ -1079,11 +1286,14 @@ crgo:CRGO_0001283 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001119 ;
     skos:definition "Relates an approval decision to a response action or risk class it pre-authorises for its scope and period."@en,
         "Relie une décision d'approbation à une action de réponse ou à une classe de risque qu'elle préautorise pour son périmètre et sa période."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- uses playbook version
 crgo:CRGO_0001284 a owl:ObjectProperty ;
@@ -1094,11 +1304,14 @@ crgo:CRGO_0001284 a owl:ObjectProperty ;
     skos:definition "Relates an automation execution record to the playbook version that ran."@en,
         "Relie un enregistrement d'exécution automatisée à la version de guide exécutée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- execution triggered by
 crgo:CRGO_0001285 a owl:ObjectProperty ;
@@ -1107,12 +1320,15 @@ crgo:CRGO_0001285 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001120 ;
     skos:definition "Relates an automation execution record to the trigger, alert or request that started it."@en,
         "Relie un enregistrement d'exécution automatisée au déclencheur, à l'alerte ou à la demande qui l'a lancée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Distinct from the grc 'triggered by', whose domain is reassessment trigger."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- execution for
 crgo:CRGO_0001286 a owl:ObjectProperty ;
@@ -1121,11 +1337,14 @@ crgo:CRGO_0001286 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001120 ;
     skos:definition "Relates an automation execution record to the investigation or incident it served."@en,
         "Relie un enregistrement d'exécution automatisée à l'enquête ou à l'incident qu'elle a servi."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has execution status
 crgo:CRGO_0001287 a owl:ObjectProperty ;
@@ -1135,11 +1354,14 @@ crgo:CRGO_0001287 a owl:ObjectProperty ;
     skos:definition "Gives the state of an automation or action execution, as last recorded."@en,
         "Indique l'état d'une exécution automatisée ou d'une exécution d'action, selon le dernier enregistrement."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- part of execution
 crgo:CRGO_0001288 a owl:ObjectProperty ;
@@ -1150,11 +1372,14 @@ crgo:CRGO_0001288 a owl:ObjectProperty ;
     skos:definition "Relates an action execution record to the automation execution it was part of."@en,
         "Relie un enregistrement d'exécution d'action à l'exécution automatisée dont il faisait partie."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- performs action
 crgo:CRGO_0001289 a owl:ObjectProperty ;
@@ -1165,11 +1390,14 @@ crgo:CRGO_0001289 a owl:ObjectProperty ;
     skos:definition "Relates an action execution record to the response action attempted."@en,
         "Relie un enregistrement d'exécution d'action à l'action de réponse tentée."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- action target
 crgo:CRGO_0001290 a owl:ObjectProperty ;
@@ -1178,11 +1406,14 @@ crgo:CRGO_0001290 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001121 ;
     skos:definition "Relates an action execution record to the asset, account or other entity it acted on."@en,
         "Relie un enregistrement d'exécution d'action à l'actif, au compte ou à toute autre entité sur lequel elle a agi."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- authorised by
 crgo:CRGO_0001291 a owl:ObjectProperty ;
@@ -1192,11 +1423,14 @@ crgo:CRGO_0001291 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001119 ;
     skos:definition "Relates an action execution record to the approval decision it relied on."@en,
         "Relie un enregistrement d'exécution d'action à la décision d'approbation sur laquelle elle s'est appuyée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- produced evidence
 crgo:CRGO_0001292 a owl:ObjectProperty ;
@@ -1206,11 +1440,14 @@ crgo:CRGO_0001292 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000036 ;
     skos:definition "Relates an action execution record to an evidence item it produced."@en,
         "Relie un enregistrement d'exécution d'action à un élément de preuve qu'elle a produit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has observed impact
 crgo:CRGO_0001293 a owl:ObjectProperty ;
@@ -1219,11 +1456,14 @@ crgo:CRGO_0001293 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001124 ;
     skos:definition "Relates an incident to an impact it had or is estimated to have had."@en,
         "Relie un incident à un impact qu'il a eu ou qu'il est estimé avoir eu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- impact on dimension
 crgo:CRGO_0001294 a owl:ObjectProperty ;
@@ -1234,12 +1474,15 @@ crgo:CRGO_0001294 a owl:ObjectProperty ;
     skos:definition "Gives the impact dimension of an incident impact."@en,
         "Indique la dimension d'impact d'un impact d'incident."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Separate from 'has impact dimension', whose domain is consequence description."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- communication about
 crgo:CRGO_0001295 a owl:ObjectProperty ;
@@ -1248,11 +1491,14 @@ crgo:CRGO_0001295 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001125 ;
     skos:definition "Relates an incident communication to the incident it concerns."@en,
         "Relie une communication relative à l'incident à l'incident qu'elle concerne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- has audience
 crgo:CRGO_0001296 a owl:ObjectProperty ;
@@ -1262,11 +1508,14 @@ crgo:CRGO_0001296 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001216 ;
     skos:definition "Gives who an incident communication is addressed to."@en,
         "Indique à qui s'adresse une communication relative à l'incident."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- recorded as submission
 crgo:CRGO_0001297 a owl:ObjectProperty ;
@@ -1276,11 +1525,14 @@ crgo:CRGO_0001297 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000902 ;
     skos:definition "Relates an incident communication to a regulator to the regulatory submission that records it."@en,
         "Relie une communication adressée à une autorité à la transmission réglementaire qui la consigne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- led to action
 crgo:CRGO_0001298 a owl:ObjectProperty ;
@@ -1290,11 +1542,14 @@ crgo:CRGO_0001298 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000546 ;
     skos:definition "Relates a lesson learned to a corrective action it led to."@en,
         "Relie une leçon apprise à une action corrective à laquelle elle a donné lieu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- verifies recovery of
 crgo:CRGO_0001299 a owl:ObjectProperty ;
@@ -1303,11 +1558,14 @@ crgo:CRGO_0001299 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001126 ;
     skos:definition "Relates a recovery verification to the asset or business process checked."@en,
         "Relie une vérification du rétablissement à l'actif ou au processus d'affaires vérifié."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- recovery after
 crgo:CRGO_0001300 a owl:ObjectProperty ;
@@ -1316,11 +1574,14 @@ crgo:CRGO_0001300 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001126 ;
     skos:definition "Relates a recovery verification to the incident it follows."@en,
         "Relie une vérification du rétablissement à l'incident qu'elle suit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- measures metric
 crgo:CRGO_0001301 a owl:ObjectProperty ;
@@ -1331,11 +1592,14 @@ crgo:CRGO_0001301 a owl:ObjectProperty ;
     skos:definition "Gives the metric of a response effectiveness measurement."@en,
         "Indique l'indicateur d'une mesure de l'efficacité de la réponse."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- measurement of
 crgo:CRGO_0001302 a owl:ObjectProperty ;
@@ -1344,11 +1608,14 @@ crgo:CRGO_0001302 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001127 ;
     skos:definition "Relates a response effectiveness measurement to the incident or set of incidents measured."@en,
         "Relie une mesure de l'efficacité de la réponse à l'incident ou à l'ensemble d'incidents mesuré."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- simulated playbook
 crgo:CRGO_0001303 a owl:ObjectProperty ;
@@ -1358,11 +1625,14 @@ crgo:CRGO_0001303 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001114 ;
     skos:definition "Relates a playbook simulation to the playbook version it ran."@en,
         "Relie une simulation de guide à la version de guide exécutée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- opened at
 crgo:CRGO_0001313 a owl:DatatypeProperty,
@@ -1373,11 +1643,14 @@ crgo:CRGO_0001313 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when a security investigation was opened."@en,
         "Indique quand une enquête de sécurité a été ouverte."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- started at
 crgo:CRGO_0001314 a owl:DatatypeProperty,
@@ -1387,11 +1660,14 @@ crgo:CRGO_0001314 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an automation or action execution started."@en,
         "Indique quand une exécution automatisée ou une exécution d'action a commencé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- ended at
 crgo:CRGO_0001315 a owl:DatatypeProperty,
@@ -1401,11 +1677,14 @@ crgo:CRGO_0001315 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an automation or action execution ended."@en,
         "Indique quand une exécution automatisée ou une exécution d'action a pris fin."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- attempt identifier
 crgo:CRGO_0001316 a owl:DatatypeProperty,
@@ -1415,12 +1694,15 @@ crgo:CRGO_0001316 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the operational identifier of an execution attempt, so that it can be traced in the store."@en,
         "Indique l'identifiant opérationnel d'une tentative d'exécution, pour qu'elle puisse être retracée dans le dépôt."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 5 (attempt identifiers)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- gate for critical assets
 crgo:CRGO_0001317 a owl:DatatypeProperty,
@@ -1431,12 +1713,15 @@ crgo:CRGO_0001317 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States that an approval gate applies whenever the action targets an asset the organisation values as a crown jewel."@en,
         "Indique qu'un point d'approbation s'applique chaque fois que l'action vise un actif que l'organisation désigne comme un joyau de la couronne."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR CQ-SOAR-01."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- impact is estimated
 crgo:CRGO_0001318 a owl:DatatypeProperty,
@@ -1447,11 +1732,14 @@ crgo:CRGO_0001318 a owl:DatatypeProperty,
     rdfs:range xsd:boolean ;
     skos:definition "States that an incident impact is an estimate rather than an observed value."@en,
         "Indique qu'un impact d'incident est une estimation plutôt qu'une valeur constatée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- impact description
 crgo:CRGO_0001319 a owl:DatatypeProperty ;
@@ -1460,11 +1748,14 @@ crgo:CRGO_0001319 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0001124 ;
     skos:definition "Describes an incident impact, such as hours of service lost or records exposed."@en,
         "Décrit un impact d'incident, comme les heures de service perdues ou les enregistrements exposés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- sent at
 crgo:CRGO_0001320 a owl:DatatypeProperty,
@@ -1475,11 +1766,14 @@ crgo:CRGO_0001320 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an incident communication was sent."@en,
         "Indique quand une communication relative à l'incident a été envoyée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- value (hours)
 crgo:CRGO_0001322 a owl:DatatypeProperty,
@@ -1490,11 +1784,14 @@ crgo:CRGO_0001322 a owl:DatatypeProperty,
     rdfs:range xsd:decimal ;
     skos:definition "Gives the value of a response effectiveness measurement, in hours."@en,
         "Indique la valeur d'une mesure de l'efficacité de la réponse, en heures."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- metric method
 crgo:CRGO_0001323 a owl:DatatypeProperty ;
@@ -1503,11 +1800,14 @@ crgo:CRGO_0001323 a owl:DatatypeProperty ;
     rdfs:domain crgo:CRGO_0001127 ;
     skos:definition "States how a response effectiveness measurement was computed, such as the start and end events used and the incidents included."@en,
         "Indique comment une mesure de l'efficacité de la réponse a été calculée, comme les événements de début et de fin retenus et les incidents inclus."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- revoked on
 crgo:CRGO_0001325 a owl:DatatypeProperty,
@@ -1518,11 +1818,14 @@ crgo:CRGO_0001325 a owl:DatatypeProperty,
     rdfs:range xsd:dateTime ;
     skos:definition "Gives when an approval decision was revoked."@en,
         "Indique quand une décision d'approbation a été révoquée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 crgo:crgo-soar a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -1533,9 +1836,9 @@ crgo:crgo-soar a owl:Ontology ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-10-12"^^xsd:date ;
+    dcterms:issued "2026-10-13"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-12"^^xsd:date ;
+    dcterms:modified "2026-10-13"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - security orchestration, automation and response (SOAR) module"@en,
@@ -1561,13 +1864,16 @@ crgo:CRGO_0001113 a owl:Class ;
         "guide d'intervention"@fr ;
     skos:definition "A procedure that sets the steps, conditions, actions and approvals by which a kind of alert or incident is to be handled, manually or by automation, such as a CACAO playbook."@en,
         "Procédure qui fixe les étapes, conditions, actions et approbations selon lesquelles un type d'alerte ou d'incident doit être traité, manuellement ou par automatisation, comme un guide CACAO."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2; CACAO 2.0 playbook. Versioned through playbook versions (directive versions, 0.10.0)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- playbook simulation
 crgo:CRGO_0001128 a owl:Class ;
@@ -1576,12 +1882,15 @@ crgo:CRGO_0001128 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000347 ;
     skos:definition "A control assessment in which a playbook version is run in a test environment or exercise to check that it behaves as intended."@en,
         "Évaluation de mesure dans laquelle une version de guide est exécutée dans un environnement d'essai ou lors d'un exercice pour vérifier qu'elle se comporte comme prévu."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR CQ-SOAR-04 (playbooks that have not passed simulation); reuses control assessment (decision S3). It tests one playbook version, not the whole response capability: consumers that report a measure's effectiveness leave simulations out."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- playbook trigger
 crgo:CRGO_0001116 a owl:Class ;
@@ -1590,12 +1899,15 @@ crgo:CRGO_0001116 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of what starts a playbook: an alert or event matching stated conditions, a schedule, or a request by an analyst."@en,
         "Description de ce qui lance un guide : une alerte ou un événement répondant à des conditions données, un calendrier, ou une demande d'un analyste."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (PlaybookTrigger)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- recovery verification
 crgo:CRGO_0001126 a owl:Class ;
@@ -1604,13 +1916,16 @@ crgo:CRGO_0001126 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A dated record that an asset or business process affected by an incident was checked to be restored to its expected operation, by whom and on what evidence."@en,
         "Enregistrement daté indiquant qu'un actif ou un processus d'affaires touché par un incident a été vérifié comme rétabli dans son fonctionnement attendu, par qui et sur quelles preuves."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (RecoveryVerification)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- playbook version
 crgo:CRGO_0001114 a owl:Class ;
@@ -1619,13 +1934,16 @@ crgo:CRGO_0001114 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000886 ;
     skos:definition "A directive version of a response playbook. Executions cite the exact version they ran."@en,
         "Version de directive d'un guide de réponse. Les exécutions citent la version précise qu'elles ont exécutée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (PlaybookVersion: immutable deployable version)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- security investigation
 crgo:CRGO_0001112 a owl:Class ;
@@ -1637,13 +1955,16 @@ crgo:CRGO_0001112 a owl:Class ;
         "dossier de sécurité"@fr ;
     skos:definition "A planned act in which analysts examine one or more alerts, events or reports to establish what happened, whether it is an incident and what its scope is, with its case status as last recorded."@en,
         "Acte planifié par lequel des analystes examinent une ou plusieurs alertes, événements ou signalements pour établir ce qui s'est passé, s'il s'agit d'un incident et quelle en est l'étendue, avec l'état du dossier selon le dernier enregistrement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (SecurityInvestigation). The incident itself is the existing incident; its confirmation is the existing incident confirmation (decision S5)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- playbook step
 crgo:CRGO_0001115 a owl:Class ;
@@ -1652,13 +1973,16 @@ crgo:CRGO_0001115 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive that is one step of a playbook version, such as an action, a condition, a branch or a parallel block, with its order and what follows it."@en,
         "Directive qui constitue une étape d'une version de guide, comme une action, une condition, un embranchement ou un bloc parallèle, avec son ordre et ce qui la suit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2; CACAO 2.0 workflow steps (start, end, action, playbook-action, parallel, if-, while- and switch-condition)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval gate
 crgo:CRGO_0001118 a owl:Class ;
@@ -1667,12 +1991,15 @@ crgo:CRGO_0001118 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive that an action, or a class of actions, may be executed only after a stated authority has approved it, or under a stated pre-authorisation, for example when it targets a critical asset."@en,
         "Directive selon laquelle une action, ou une classe d'actions, ne peut être exécutée qu'après l'approbation d'une autorité précisée, ou en vertu d'une préautorisation précisée, par exemple lorsqu'elle vise un actif critique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR sections 2 and 5."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval decision
 crgo:CRGO_0001119 a owl:Class ;
@@ -1681,12 +2008,15 @@ crgo:CRGO_0001119 a owl:Class ;
     rdfs:subClassOf crgo:CRGO_0000504 ;
     skos:definition "A decision record granting or denying the execution of a response action, or pre-authorising a stated class of actions for a stated scope and period, by an identified authority."@en,
         "Relevé de décision qui accorde ou refuse l'exécution d'une action de réponse, ou qui préautorise une classe d'actions précisée pour un périmètre et une période donnés, par une autorité identifiée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ApprovalDecision); reuses decision record (decision S3). An approval is about one execution or a narrowly scoped pre-authorisation."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- automation execution record
 crgo:CRGO_0001120 a owl:Class ;
@@ -1696,12 +2026,15 @@ crgo:CRGO_0001120 a owl:Class ;
     owl:disjointWith crgo:CRGO_0001121 ;
     skos:definition "A record of one run of a playbook version: what triggered it, when it started and ended, its status and the investigation or incident it served. The full execution history stays in the operational store."@en,
         "Enregistrement d'une exécution d'une version de guide : ce qui l'a déclenchée, son début et sa fin, son état et l'enquête ou l'incident qu'elle a servi. L'historique complet reste dans le dépôt opérationnel."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (AutomationExecution)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident impact
 crgo:CRGO_0001124 a owl:Class ;
@@ -1710,12 +2043,15 @@ crgo:CRGO_0001124 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A description of a consequence an incident had, or is estimated to have had, along one impact dimension, such as hours of service lost or the number of records exposed, with whether it is observed or estimated."@en,
         "Description d'une conséquence qu'un incident a eue, ou est estimé avoir eue, selon une dimension d'impact, comme les heures de service perdues ou le nombre d'enregistrements exposés, en précisant si elle est observée ou estimée."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (IncidentImpact). Distinct from a scenario's consequence description, which is what could happen."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident communication
 crgo:CRGO_0001125 a owl:Class ;
@@ -1724,13 +2060,16 @@ crgo:CRGO_0001125 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record of a notification or escalation about an incident to a stated audience, such as management, affected persons, customers or a regulator, with when it was sent and what it covered."@en,
         "Enregistrement d'un avis ou d'une transmission à un niveau supérieur concernant un incident, adressé à un public précisé, comme la direction, les personnes concernées, des clients ou une autorité, avec la date d'envoi et ce qu'il couvrait."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (IncidentCommunication). A notice to a regulator is also recorded as a regulatory submission (0.10.0)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- response effectiveness measurement
 crgo:CRGO_0001127 a owl:Class ;
@@ -1739,13 +2078,16 @@ crgo:CRGO_0001127 a owl:Class ;
     rdfs:subClassOf cco:ont00001163 ;
     skos:definition "A measurement of how quickly or well an incident or a set of incidents was handled, such as time to contain, for a stated metric and under a stated method."@en,
         "Mesure de la rapidité ou de la qualité avec laquelle un incident ou un ensemble d'incidents a été traité, comme le délai de confinement, pour un indicateur et selon une méthode précisés."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ResponseEffectiveness: measure under stated methodology)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- action risk class scheme
 crgo:CRGO_0001189 a owl:NamedIndividual,
@@ -1754,11 +2096,14 @@ crgo:CRGO_0001189 a owl:NamedIndividual,
         "schéma : classe de risque de l'action"@fr ;
     skos:definition "Concept scheme of the action risk class value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « classe de risque de l'action »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident severity scheme
 crgo:CRGO_0001205 a owl:NamedIndividual,
@@ -1767,12 +2112,15 @@ crgo:CRGO_0001205 a owl:NamedIndividual,
         "schéma : gravité de l'incident"@fr ;
     skos:definition "Concept scheme of the incident severity value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « gravité de l'incident »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- trigger kind scheme
 crgo:CRGO_0001211 a owl:NamedIndividual,
@@ -1781,11 +2129,14 @@ crgo:CRGO_0001211 a owl:NamedIndividual,
         "schéma : type de déclencheur"@fr ;
     skos:definition "Concept scheme of the trigger kind value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type de déclencheur »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- response action
 crgo:CRGO_0001117 a owl:Class ;
@@ -1794,13 +2145,16 @@ crgo:CRGO_0001117 a owl:Class ;
     rdfs:subClassOf cco:ont00000965 ;
     skos:definition "A directive that defines a kind of action a playbook may take, such as disabling an account, isolating a host or blocking a domain, with its risk class and the approval it needs. It is the definition, not an execution."@en,
         "Directive qui définit un type d'action qu'un guide peut entreprendre, comme désactiver un compte, isoler un hôte ou bloquer un domaine, avec sa classe de risque et l'approbation qu'elle exige. C'est la définition, et non une exécution."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ResponseAction); may be related to a D3FEND defensive technique."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval status scheme
 crgo:CRGO_0001182 a owl:NamedIndividual,
@@ -1809,11 +2163,14 @@ crgo:CRGO_0001182 a owl:NamedIndividual,
         "schéma : état de l'approbation"@fr ;
     skos:definition "Concept scheme of the approval status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de l'approbation »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- response metric scheme
 crgo:CRGO_0001225 a owl:NamedIndividual,
@@ -1822,12 +2179,15 @@ crgo:CRGO_0001225 a owl:NamedIndividual,
         "schéma : indicateur de réponse"@fr ;
     skos:definition "Concept scheme of the response metric value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « indicateur de réponse »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- action execution record
 crgo:CRGO_0001121 a owl:Class ;
@@ -1836,12 +2196,15 @@ crgo:CRGO_0001121 a owl:Class ;
     rdfs:subClassOf cco:ont00000853 ;
     skos:definition "A record of one attempt to carry out a response action on a target, with its time, status, the approval relied on and the evidence it produced."@en,
         "Enregistrement d'une tentative d'exécution d'une action de réponse sur une cible, avec son moment, son état, l'approbation invoquée et les preuves produites."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "SOAR section 2 (ActionExecution)."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident severity
 crgo:CRGO_0001204 a owl:Class ;
@@ -1850,13 +2213,16 @@ crgo:CRGO_0001204 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The severity of an incident as rated by the responder. CRGO's own scale."@en,
         "Gravité d'un incident selon la cote attribuée par l'intervenant. Échelle propre à CRGO."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- trigger kind
 crgo:CRGO_0001210 a owl:Class ;
@@ -1865,12 +2231,15 @@ crgo:CRGO_0001210 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "What kind of thing starts a playbook."@en,
         "Type de ce qui lance un guide."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- communication audience scheme
 crgo:CRGO_0001217 a owl:NamedIndividual,
@@ -1879,12 +2248,15 @@ crgo:CRGO_0001217 a owl:NamedIndividual,
         "schéma : destinataires de la communication"@fr ;
     skos:definition "Concept scheme of the communication audience value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « destinataires de la communication »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- case status scheme
 crgo:CRGO_0001164 a owl:NamedIndividual,
@@ -1893,12 +2265,15 @@ crgo:CRGO_0001164 a owl:NamedIndividual,
         "schéma : état du dossier"@fr ;
     skos:definition "Concept scheme of the case status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état du dossier »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- execution status scheme
 crgo:CRGO_0001173 a owl:NamedIndividual,
@@ -1907,12 +2282,15 @@ crgo:CRGO_0001173 a owl:NamedIndividual,
         "schéma : état de l'exécution"@fr ;
     skos:definition "Concept scheme of the execution status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de l'exécution »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- approval status
 crgo:CRGO_0001181 a owl:Class ;
@@ -1921,12 +2299,15 @@ crgo:CRGO_0001181 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of an approval decision for a response action."@en,
         "État d'une décision d'approbation d'une action de réponse."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- action risk class
 crgo:CRGO_0001188 a owl:Class ;
@@ -1935,12 +2316,15 @@ crgo:CRGO_0001188 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How much harm a response action could do if wrong, which sets the approval it needs."@en,
         "Préjudice qu'une action de réponse pourrait causer si elle était erronée, ce qui détermine l'approbation qu'elle exige."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- response metric
 crgo:CRGO_0001224 a owl:Class ;
@@ -1949,13 +2333,16 @@ crgo:CRGO_0001224 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "What a response effectiveness measurement measures."@en,
         "Ce que mesure une mesure de l'efficacité de la réponse."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident category scheme
 crgo:CRGO_0001195 a owl:NamedIndividual,
@@ -1964,12 +2351,15 @@ crgo:CRGO_0001195 a owl:NamedIndividual,
         "schéma : catégorie d'incident"@fr ;
     skos:definition "Concept scheme of the incident category value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « catégorie d'incident »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- communication audience
 crgo:CRGO_0001216 a owl:Class ;
@@ -1978,13 +2368,16 @@ crgo:CRGO_0001216 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "Who an incident communication is addressed to."@en,
         "À qui s'adresse une communication relative à l'incident."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- case status
 crgo:CRGO_0001163 a owl:Class ;
@@ -1993,13 +2386,16 @@ crgo:CRGO_0001163 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The recorded stage of a security investigation."@en,
         "Étape consignée d'une enquête de sécurité."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "NIST SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile (April 2025), doi:10.6028/NIST.SP.800-61r3"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- execution status
 crgo:CRGO_0001172 a owl:Class ;
@@ -2008,13 +2404,16 @@ crgo:CRGO_0001172 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The state of an automation or action execution."@en,
         "État d'une exécution automatisée ou d'une exécution d'action."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en,
         "OASIS CACAO Security Playbooks Version 2.0, Committee Specification 01 (2023-11-27)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 # --- incident category
 crgo:CRGO_0001194 a owl:Class ;
@@ -2023,13 +2422,16 @@ crgo:CRGO_0001194 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A broad category of an incident. CRGO's own scale; NIST SP 800-61 Rev. 3 sets none."@en,
         "Grande catégorie d'un incident. Échelle propre à CRGO; la publication NIST SP 800-61 Rév. 3 n'en fixe aucune."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CRGO 0.10.0 SIEM and SOAR Phase 0 analysis and decisions S1-S12 (docs/baseline/siem_soar_phase0.md, 2026-10-12)"@en,
         "CRGO SOAR Ontology Extension Specification v1.0 (project owner, 2026-10-12)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.10.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-13"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.0" ;
+    crgo:CRGO_0000292 "0.10.0 final review group 2"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000586 crgo:CRGO_0000592 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0000614 crgo:CRGO_0000619 crgo:CRGO_0000624 crgo:CRGO_0000630 crgo:CRGO_0000639 crgo:CRGO_0000645 crgo:CRGO_0000652 crgo:CRGO_0000657 crgo:CRGO_0000663 crgo:CRGO_0000668 crgo:CRGO_0000674 crgo:CRGO_0000681 crgo:CRGO_0000686 crgo:CRGO_0000691 crgo:CRGO_0000913 crgo:CRGO_0000919 crgo:CRGO_0000927 crgo:CRGO_0000936 crgo:CRGO_0000941 crgo:CRGO_0000947 crgo:CRGO_0000951 crgo:CRGO_0000960 crgo:CRGO_0000966 crgo:CRGO_0000973 crgo:CRGO_0000980 crgo:CRGO_0000985 crgo:CRGO_0000994 crgo:CRGO_0001129 crgo:CRGO_0001137 crgo:CRGO_0001144 crgo:CRGO_0001150 crgo:CRGO_0001156 crgo:CRGO_0001163 crgo:CRGO_0001172 crgo:CRGO_0001181 crgo:CRGO_0001188 crgo:CRGO_0001194 crgo:CRGO_0001204 crgo:CRGO_0001210 crgo:CRGO_0001216 crgo:CRGO_0001224 ) .
