@@ -1,0 +1,382 @@
+{
+ "from": "v0.10.0",
+ "to": "0.10.1",
+ "terms": {
+  "added": [],
+  "removed": [],
+  "newly_deprecated": [],
+  "label_changed": [
+   "CRGO_0000050 risk index"
+  ],
+  "definition_changed": [
+   "CRGO_0000050 risk index",
+   "CRGO_0000178 CRG Excel Guide v1.0c s.11"
+  ],
+  "parent_changed": [],
+  "domain_changed": [],
+  "range_changed": [],
+  "status_changed": [],
+  "counts": {
+   "before": 1318,
+   "after": 1318
+  }
+ },
+ "vocabularies": {
+  "a21": {
+   "status": "kept",
+   "concepts_before": 18,
+   "concepts_after": 18,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 19,
+   "subjects_after": 19
+  },
+  "attack": {
+   "status": "kept",
+   "concepts_before": 873,
+   "concepts_after": 873,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 874,
+   "subjects_after": 874
+  },
+  "attack-detection": {
+   "status": "kept",
+   "concepts_before": 2561,
+   "concepts_after": 2561,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 2562,
+   "subjects_after": 2562
+  },
+  "capec": {
+   "status": "kept",
+   "concepts_before": 559,
+   "concepts_after": 559,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 560,
+   "subjects_after": 560
+  },
+  "ccm41": {
+   "status": "kept",
+   "concepts_before": 17,
+   "concepts_after": 17,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 18,
+   "subjects_after": 18
+  },
+  "cobit2019": {
+   "status": "kept",
+   "concepts_before": 45,
+   "concepts_after": 45,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 46,
+   "subjects_after": 46
+  },
+  "coso-erm": {
+   "status": "kept",
+   "concepts_before": 25,
+   "concepts_after": 25,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 26,
+   "subjects_after": 26
+  },
+  "csf2": {
+   "status": "kept",
+   "concepts_before": 225,
+   "concepts_after": 225,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 226,
+   "subjects_after": 226
+  },
+  "cwe": {
+   "status": "kept",
+   "concepts_before": 943,
+   "concepts_after": 943,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 944,
+   "subjects_after": 944
+  },
+  "d3fend": {
+   "status": "kept",
+   "concepts_before": 270,
+   "concepts_after": 270,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 271,
+   "subjects_after": 271
+  },
+  "gdpr": {
+   "status": "kept",
+   "concepts_before": 40,
+   "concepts_after": 40,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 41,
+   "subjects_after": 41
+  },
+  "iia-gias": {
+   "status": "kept",
+   "concepts_before": 72,
+   "concepts_after": 72,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 73,
+   "subjects_after": 73
+  },
+  "iia-tr": {
+   "status": "kept",
+   "concepts_before": 61,
+   "concepts_after": 61,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 62,
+   "subjects_after": 62
+  },
+  "iso19011": {
+   "status": "kept",
+   "concepts_before": 28,
+   "concepts_after": 28,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 29,
+   "subjects_after": 29
+  },
+  "iso27002-2022": {
+   "status": "kept",
+   "concepts_before": 97,
+   "concepts_after": 97,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 98,
+   "subjects_after": 98
+  },
+  "iso27007": {
+   "status": "kept",
+   "concepts_before": 28,
+   "concepts_after": 28,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 29,
+   "subjects_after": 29
+  },
+  "iso27008": {
+   "status": "kept",
+   "concepts_before": 22,
+   "concepts_after": 22,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 23,
+   "subjects_after": 23
+  },
+  "iso37301": {
+   "status": "kept",
+   "concepts_before": 37,
+   "concepts_after": 37,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 38,
+   "subjects_after": 38
+  },
+  "iso37302": {
+   "status": "kept",
+   "concepts_before": 18,
+   "concepts_after": 18,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 19,
+   "subjects_after": 19
+  },
+  "itaf": {
+   "status": "kept",
+   "concepts_before": 38,
+   "concepts_after": 38,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 39,
+   "subjects_after": 39
+  },
+  "kev": {
+   "status": "kept",
+   "concepts_before": 1739,
+   "concepts_after": 1739,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 1740,
+   "subjects_after": 1740
+  },
+  "legal": {
+   "status": "kept",
+   "concepts_before": 0,
+   "concepts_after": 0,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 209,
+   "subjects_after": 209
+  },
+  "loi25": {
+   "status": "kept",
+   "concepts_before": 31,
+   "concepts_after": 31,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 32,
+   "subjects_after": 32
+  },
+  "lrsss": {
+   "status": "kept",
+   "concepts_before": 54,
+   "concepts_after": 54,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 55,
+   "subjects_after": 55
+  },
+  "ocsf": {
+   "status": "kept",
+   "concepts_before": 87,
+   "concepts_after": 87,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 88,
+   "subjects_after": 88
+  },
+  "osfi-b13": {
+   "status": "kept",
+   "concepts_before": 20,
+   "concepts_after": 20,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 21,
+   "subjects_after": 21
+  },
+  "pipeda": {
+   "status": "kept",
+   "concepts_before": 13,
+   "concepts_after": 13,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 14,
+   "subjects_after": 14
+  },
+  "sources": {
+   "status": "kept",
+   "concepts_before": 0,
+   "concepts_after": 0,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 84,
+   "subjects_after": 85
+  },
+  "sp800-53a": {
+   "status": "kept",
+   "concepts_before": 6646,
+   "concepts_after": 6646,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 6647,
+   "subjects_after": 6647
+  },
+  "sp800-53r5": {
+   "status": "kept",
+   "concepts_before": 1216,
+   "concepts_after": 1216,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 1217,
+   "subjects_after": 1217
+  },
+  "theme": {
+   "status": "kept",
+   "concepts_before": 23,
+   "concepts_after": 23,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 24,
+   "subjects_after": 24
+  },
+  "tsc": {
+   "status": "kept",
+   "concepts_before": 86,
+   "concepts_after": 86,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 87,
+   "subjects_after": 87
+  }
+ },
+ "mappings": {
+  "before": 12356,
+  "after": 12476,
+  "added": 120,
+  "removed": 0,
+  "status_changed": 0,
+  "moved_to_proposal_file": 120,
+  "typed_relations": {
+   "attack pattern exploits weakness": 1212,
+   "vulnerability associated with technique": 1177,
+   "technique countered by defensive technique": 820,
+   "evaluates control": 1014,
+   "technique mitigated by control": 5236,
+   "vulnerability is an instance of weakness": 1616,
+   "principle addressed by category": 42,
+   "subcategory supported by control": 621,
+   "attack pattern related to technique": 270,
+   "control corresponds to control": 418,
+   "comparable obligation": 35,
+   "same obligation in another regime": 15
+  },
+  "added_examples": [
+   "attack/T1001.002 relatedMatch d3fend/D3-CSPP",
+   "attack/T1001.002 relatedMatch d3fend/D3-NTCD",
+   "attack/T1006 relatedMatch d3fend/D3-FE",
+   "attack/T1011 relatedMatch d3fend/D3-HCI",
+   "attack/T1011 relatedMatch d3fend/D3-RFS",
+   "attack/T1027.003 relatedMatch d3fend/D3-DA",
+   "attack/T1027.011 relatedMatch d3fend/D3-SCA",
+   "attack/T1030 relatedMatch d3fend/D3-NTCD",
+   "attack/T1039 relatedMatch d3fend/D3-DF",
+   "attack/T1046 relatedMatch d3fend/D3-CHN",
+   "attack/T1048.001 relatedMatch d3fend/D3-CSPP",
+   "attack/T1052 relatedMatch d3fend/D3-FAPA",
+   "attack/T1052 relatedMatch d3fend/D3-UDTA",
+   "attack/T1056 relatedMatch d3fend/D3-UA",
+   "attack/T1056.003 relatedMatch d3fend/D3-MFA",
+   "attack/T1056.003 relatedMatch d3fend/D3-WSAA",
+   "attack/T1059 relatedMatch d3fend/D3-SCA",
+   "attack/T1068 relatedMatch d3fend/D3-SFCV",
+   "attack/T1070 relatedMatch d3fend/D3-SCA",
+   "attack/T1070.006 relatedMatch d3fend/D3-SCA",
+   "attack/T1071 relatedMatch d3fend/D3-CA",
+   "attack/T1078.003 relatedMatch d3fend/D3-UGLPA",
+   "attack/T1091 relatedMatch d3fend/D3-DA",
+   "attack/T1111 relatedMatch d3fend/D3-ANET",
+   "attack/T1114 relatedMatch d3fend/D3-MENCR",
+   "attack/T1114 relatedMatch d3fend/D3-UGLPA",
+   "attack/T1114.003 relatedMatch d3fend/D3-OTF",
+   "attack/T1119 relatedMatch d3fend/D3-DF",
+   "attack/T1123 relatedMatch d3fend/D3-SCA",
+   "attack/T1125 relatedMatch d3fend/D3-SCA",
+   "attack/T1140 relatedMatch d3fend/D3-FCDC",
+   "attack/T1176 relatedMatch d3fend/D3-FIM",
+   "attack/T1185 relatedMatch d3fend/D3-SDA",
+   "attack/T1189 relatedMatch d3fend/D3-PSEP",
+   "attack/T1190 relatedMatch d3fend/D3-PSEP",
+   "attack/T1195 relatedMatch d3fend/D3-FHRA",
+   "attack/T1199 relatedMatch d3fend/D3-CAA",
+   "attack/T1204.003 relatedMatch d3fend/D3-SWI",
+   "attack/T1210 relatedMatch d3fend/D3-PSEP",
+   "attack/T1213 relatedMatch d3fend/D3-DF"
+  ]
+ },
+ "library": {
+  "types": {},
+  "newly_deprecated_individuals": 0
+ }
+}

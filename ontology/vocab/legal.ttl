@@ -129,8 +129,8 @@
         "Instruments juridiques et conditions d'applicabilité de CRGO"@fr ;
     owl:imports crgo:crgo,
         <https://w3id.org/crgo/vocab/sources> ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/legal> ;
-    owl:versionInfo "0.10.0" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.1/legal> ;
+    owl:versionInfo "0.10.1" .
 
 <https://w3id.org/crgo/vocab/legal/condition/A21-3-PB> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;

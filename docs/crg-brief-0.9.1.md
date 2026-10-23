@@ -148,8 +148,8 @@ These are suggestions for the `cyber-risk-assessment` skill and its agents. Keep
 | 2 Incidents and audit findings | Use confirmed incidents and open audit findings as evidence for scenarios and for control status. An incident informs a likelihood; it does not prove it. Monitoring alerts are not findings. |
 | 5–7 Scenario selection | `crgo_sweep` / `crgo_identify` as today. `crgo_scenario` now gives the obligations under each regime (`other_regimes`). Use EPSS/KEV only as evidence that exploitation is happening in the wild, never as an organisational likelihood. |
 | 8 Existing controls | Take control status from `crgo_risk_context.controlLinks`. Rely on independent results (second line, internal audit, external); treat management self-assessments as lower-grade evidence. When a self-assessment conflicts with an independent result, show **both** and flag the conflict (CRGO's CQ-GRCA-08). Open findings on a control lower confidence in it. |
-| 9 Quantify | Carry CRGO estimates' assumptions, distributions and evidence quality into the rationale and confidence. Low or very-low evidence quality means "Analyst estimate — validation required". |
-| 11 KRIs | Unchanged: `crg_calc` / `crg_risk` compute everything. Afterwards, write chosen results back with `crgo_submit_assessment` (status proposed). |
+| 9 Quantify | Carry CRGO estimates' assumptions, distributions and evidence quality into the rationale and confidence. Low or very-low evidence quality means "Analytical estimate — validation required". |
+| 11 Risk indices | Unchanged: `crg_calc` / `crg_risk` compute everything. Afterwards, write chosen results back with `crgo_submit_assessment` (status proposed). |
 | 12–14 Treatment | Policy exceptions with compensating controls, and their expiry dates, belong in the residual-risk discussion. An exception that has expired is no longer a mitigation. |
 | 16–17 Prioritisation, decisions | Risk acceptance needs a named decision maker with delegated authority valid on the decision date (CQ-06). Keep "Management decision required" for every acceptance; CRG may draft the decision record but never marks it approved. |
 | QC review (`risk-qc-reviewer`) | Add checks: every write-back has model version and inputs; no result is cited as approved unless a person approved it; obligations shown as "supported by" a control are not called "compliant"; EPSS is not used as a likelihood; client data stays out of both repositories. |
@@ -157,7 +157,7 @@ These are suggestions for the `cyber-risk-assessment` skill and its agents. Keep
 
 ## 6. Rules that must not be broken
 
-1. CRGO computes no risk, and CRG must not ask it to. All KRIs, CVSS scores, sensitivity cases and budget targets come from CRG's scripts or `crg-calculator`.
+1. CRGO computes no risk, and CRG must not ask it to. All risk indices, CVSS scores, sensitivity cases and budget targets come from CRG's scripts or `crg-calculator`.
 2. Write-backs are always `status: proposed`. Approval, acceptance and funding are human acts recorded separately.
 3. Organisation IRIs use the organisation's own base, never `https://w3id.org/crgo/`. One organisation per graph file, and no links to another organisation's records.
 4. "Supports compliance with" is not compliance. Only a compliance determination with evidence can say an obligation is satisfied.
@@ -165,7 +165,7 @@ These are suggestions for the `cyber-risk-assessment` skill and its agents. Keep
 6. *Unknown* applicability stays unknown until the missing fact is supplied; *potentially applicable* needs a qualified person.
 7. Licensed standards (IIA, ISACA, AICPA, COSO, ISO) appear in CRGO only as identifiers, official headings and CRGO paraphrases. CRG must not add or reproduce their text in reports or in the repository.
 8. CRGO's sample companies (Nordelle, Boréal) and MediBec are fictional. They are not calibration evidence for real organisations.
-9. CRG's formulas, the 1,000 factor and the MediBec regression (84,491 estimated / 41,104 residual) must not change.
+9. CRG's formulas, the 1,000 factor and the MediBec regression (84,305 estimated / 41,023 residual since CRG 2.1.0 and CRGO 0.10.1; 84,491 / 41,104 before) must not change.
 
 ## 7. Suggested implementation plan for CRG 1.2.0
 
@@ -185,7 +185,7 @@ These are suggestions for the `cyber-risk-assessment` skill and its agents. Keep
 7. **Report template.** Add a short "Legal applicability" table (state, unresolved conditions, qualified review needed) and a "Control evidence" column showing the assessor line. Cite the CRGO release.
 8. **Sync and version.** Run `scripts/sync-project-config.sh`, bump to 1.2.0 in `plugin.json` and `marketplace.json`, and run `claude plugin validate` on both.
 9. **Regression.**
-   - Run `crg_calc.py` on MediBec: it must still give 84,491 / 41,104.
+   - Run `crg_calc.py` on MediBec: it must still give 84,305 / 41,023 (84,491 / 41,104 before CRG 2.1.0).
    - Run an end-to-end test on MediBec converted under a test base (`https://example.org/crgo-sample/medibec/`): read the context of scenario S1, compute with `crg_risk`, write back. Check that the result is stored as proposed and that the schemas validate.
    - The CRGO session ran exactly this test successfully on 2026-10-12.
 

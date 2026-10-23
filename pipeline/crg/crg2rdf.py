@@ -47,7 +47,7 @@ def basis(s):
     t = s.lower()
     for pat, k in [(r"exercise|simulation|inject|illustrative - validate", "EvExercise"), (r"document", "EvDocumented"),
                    (r"external|methodolog|calibration|benchmark|sector", "EvExternal"), (r"expert|sme|interview|workshop", "EvSME"),
-                   (r"\bai\b|analyst estimate", "EvAIEstimate"), (r"assum|inferen", "EvInference")]:
+                   (r"\bai\b|analyst estimate|analytical estimate", "EvAIEstimate"), (r"assum|inferen", "EvInference")]:
         if re.search(pat, t):
             return k
     return None
@@ -186,11 +186,19 @@ def convert(data, calc, base, org_label=None):
             A((t, RDF.type, C("RiskTreatmentDecision")), (n, C("hasTreatmentDecision"), t), (t, C("hasTreatmentOption"), C("TreatModify")))
             if s.get("treatment"): A((t, C("treatmentSummary"), Literal(s["treatment"], lang="en")))
             if s.get("horizon"): A((t, C("treatmentHorizon"), Literal(s["horizon"])))
-    # sensitivity cases computed by CRG for the scenarios listed in SENS_IDS
+    # sensitivity cases computed by CRG for the scenarios listed in SENS_IDS. 0.10.1: the CRG Core calculator
+    # (crg-quantify/scripts/crg_calc.py, CRG 2.x) has no shift(); sensitivity moved to CRG Pro, so the cases CRG
+    # stored in the assessment file (SENS) are used instead. CRGO still computes nothing itself.
+    sens = {x["id"]: x for x in data.get("SENS", [])}
     for sid in data.get("SENS_IDS", []):
         s = next(x for x in data["SCEN"] if x["id"] == sid); n = X["scenario-" + sid]
         for d, case in ((-0.10, "lower"), (0.10, "higher")):
-            r = calc.calc(calc.shift(s, d), run["appetite"], run["factor"])
+            if hasattr(calc, "shift"):
+                r = calc.calc(calc.shift(s, d), run["appetite"], run["factor"])
+            elif sid in sens:
+                r = sens[sid][case]
+            else:
+                raise SystemExit("sensitivity case %s/%s: the calculator has no shift() and the file stores no SENS entry" % (sid, case))
             c = X["case-%s-%s" % (sid, case)]
             A((c, RDF.type, C("SensitivityCase")), (c, C("caseOf"), n), (c, C("hasCaseType"), C("CaseLower" if case == "lower" else "CaseHigher")))
             for k in ("est", "res", "ratio"):

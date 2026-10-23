@@ -12,8 +12,8 @@ q = """SELECT (SUM(?v) AS ?total) WHERE { ?q a %s ; %s ?v ; %s ?case . ?case %s 
 tot = lambda cls: float(next(iter(g.query(q % (c(cls), c("numericValue"), c("inSensitivityCase"), c("hasCaseType"), c("CaseCentral")))))[0])
 ok = True
 est, res = tot("EstimatedRisk"), tot("ResidualRisk")
-print("total estimated %.0f (CRG regression 84,491), residual %.0f (41,104)" % (est, res))
-ok &= round(est) == 84491 and round(res) == 41104
+print("total estimated %.0f (CRG regression 84,305), residual %.0f (41,023)" % (est, res))
+ok &= round(est) == 84305 and round(res) == 41023
 q2 = """SELECT ?v WHERE { ?s %s "%s" . ?q %s ?s ; a %s ; %s ?v ; %s ?case . ?case %s %s }"""
 for s in data.get("SENS", []):
     for case, ck in (("lower", "CaseLower"), ("higher", "CaseHigher")):

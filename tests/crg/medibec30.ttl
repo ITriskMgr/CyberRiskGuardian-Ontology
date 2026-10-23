@@ -1204,7 +1204,7 @@ x:S2-EstimatedRisk a crgo:CRGO_0000051 ;
         x:S2-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-central ;
-    crgo:CRGO_0000247 7893.482142857 .
+    crgo:CRGO_0000247 7809.508928571 .
 
 x:S2-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
@@ -1220,7 +1220,7 @@ x:S2-MitigatedRisk a crgo:CRGO_0000053 ;
         x:S2-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-central ;
-    crgo:CRGO_0000247 4440.083705357 .
+    crgo:CRGO_0000247 4392.848772321 .
 
 x:S2-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
@@ -1252,7 +1252,7 @@ x:S2-ResidualRisk a crgo:CRGO_0000054 ;
         x:S2-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-central ;
-    crgo:CRGO_0000247 3453.3984375 .
+    crgo:CRGO_0000247 3416.66015625 .
 
 x:S2-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
@@ -1285,19 +1285,19 @@ x:S2-ToleratedRisk a crgo:CRGO_0000052 ;
         x:S2-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-central ;
-    crgo:CRGO_0000247 2870.357142857 .
+    crgo:CRGO_0000247 2839.821428571 .
 
 x:S2-higher-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-higher ;
-    crgo:CRGO_0000247 16304.394 .
+    crgo:CRGO_0000247 16130.943 .
 
 x:S2-higher-ResidualRisk a crgo:CRGO_0000054 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-higher ;
-    crgo:CRGO_0000247 9415.787535 .
+    crgo:CRGO_0000247 9315.6195825 .
 
 x:S2-higher-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
@@ -1310,13 +1310,13 @@ x:S2-lower-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-lower ;
-    crgo:CRGO_0000247 3740.677777778 .
+    crgo:CRGO_0000247 3700.883333333 .
 
 x:S2-lower-ResidualRisk a crgo:CRGO_0000054 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S2-lower ;
-    crgo:CRGO_0000247 1038.038083333 .
+    crgo:CRGO_0000247 1026.995125 .
 
 x:S2-lower-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
@@ -3043,7 +3043,7 @@ x:S8-EstimatedRisk a crgo:CRGO_0000051 ;
         x:S8-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-central ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 x:S8-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
@@ -3059,7 +3059,7 @@ x:S8-MitigatedRisk a crgo:CRGO_0000053 ;
         x:S8-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-central ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 x:S8-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
@@ -3091,7 +3091,7 @@ x:S8-ResidualRisk a crgo:CRGO_0000054 ;
         x:S8-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-central ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 x:S8-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
@@ -3124,19 +3124,19 @@ x:S8-ToleratedRisk a crgo:CRGO_0000052 ;
         x:S8-red_p ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-central ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 x:S8-higher-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-higher ;
-    crgo:CRGO_0000247 21041.13375 .
+    crgo:CRGO_0000247 20814.885 .
 
 x:S8-higher-ResidualRisk a crgo:CRGO_0000054 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-higher ;
-    crgo:CRGO_0000247 12203.857575 .
+    crgo:CRGO_0000247 12072.6333 .
 
 x:S8-higher-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
@@ -3149,13 +3149,13 @@ x:S8-lower-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-lower ;
-    crgo:CRGO_0000247 4495.96875 .
+    crgo:CRGO_0000247 4447.625 .
 
 x:S8-lower-ResidualRisk a crgo:CRGO_0000054 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
     crgo:CRGO_0000238 x:calculation ;
     crgo:CRGO_0000241 x:case-S8-lower ;
-    crgo:CRGO_0000247 1258.87125 .
+    crgo:CRGO_0000247 1245.335 .
 
 x:S8-lower-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
@@ -3409,7 +3409,7 @@ x:candidate-C45 a crgo:CRGO_0000025 ;
     crgo:CRGO_0000250 "C45" .
 
 x:evidence-E10 a crgo:CRGO_0000036 ;
-    rdfs:comment "Authoritative KRI formulas; CVSS v4.0; multiplication factor 1,000 in worked example; reductions must stay within 0-1."@en,
+    rdfs:comment "Authoritative risk-index formulas; CVSS v4.0; multiplication factor 1,000 in worked example; reductions must stay within 0-1."@en,
         "Basis as stated: Methodology"@en ;
     crgo:CRGO_0000214 crgo:CRGO_0000119 ;
     crgo:CRGO_0000250 "E10" ;
@@ -6095,7 +6095,7 @@ x:vuln-S1-3 a crgo:CRGO_0000295 ;
     crgo:CRGO_0000213 x:evidence-E6 .
 
 x:vuln-S1-4 a crgo:CRGO_0000295 ;
-    rdfs:label "Awareness programme maturity unknown (Evidence gap)"@en .
+    rdfs:label "Awareness programme maturity unknown (Information gap)"@en .
 
 x:vuln-S10-1 a crgo:CRGO_0000295 ;
     rdfs:label "No integrity monitoring or reconciliation evidenced (E8)"@en ;
@@ -6122,14 +6122,14 @@ x:vuln-S11-3 a crgo:CRGO_0000295 ;
     crgo:CRGO_0000213 x:evidence-E7 .
 
 x:vuln-S11-4 a crgo:CRGO_0000295 ;
-    rdfs:label "Development practices and repository visibility unknown (Evidence gap)"@en .
+    rdfs:label "Development practices and repository visibility unknown (Information gap)"@en .
 
 x:vuln-S12-1 a crgo:CRGO_0000295 ;
     rdfs:label "Guest and clinical Wi-Fi segmentation not evidenced (E7)"@en ;
     crgo:CRGO_0000213 x:evidence-E7 .
 
 x:vuln-S12-2 a crgo:CRGO_0000295 ;
-    rdfs:label "Wireless standard and key management unknown (Evidence gap)"@en .
+    rdfs:label "Wireless standard and key management unknown (Information gap)"@en .
 
 x:vuln-S12-3 a crgo:CRGO_0000295 ;
     rdfs:label "No rogue AP detection evidenced"@en .
@@ -6226,7 +6226,7 @@ x:vuln-S2-2 a crgo:CRGO_0000295 ;
         x:evidence-E7 .
 
 x:vuln-S2-3 a crgo:CRGO_0000295 ;
-    rdfs:label "Privileged credential hygiene unknown (Evidence gap)"@en .
+    rdfs:label "Privileged credential hygiene unknown (Information gap)"@en .
 
 x:vuln-S2-4 a crgo:CRGO_0000295 ;
     rdfs:label "Clinic downtime procedures untested (E7)"@en ;
@@ -6401,7 +6401,7 @@ x:vuln-S6-2 a crgo:CRGO_0000295 ;
     crgo:CRGO_0000213 x:evidence-E4 .
 
 x:vuln-S6-3 a crgo:CRGO_0000295 ;
-    rdfs:label "Possible end-of-life systems (Evidence gap)"@en .
+    rdfs:label "Possible end-of-life systems (Information gap)"@en .
 
 x:vuln-S7-1 a crgo:CRGO_0000295 ;
     rdfs:label "Incomplete device inventory (E4)"@en ;
@@ -8336,9 +8336,9 @@ x:S2-Th a crgo:CRGO_0000045 ;
 x:S2-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000231 x:scenario-S2 ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
-    crgo:CRGO_0000247 9.4 ;
-    crgo:CRGO_0000249 "Representative weakness: malicious macro document leading to code execution (initial vector in E6). AV:N delivered by e-mail; AC:L; AT:N; PR:N; UI:P user opens the document; VC/VI/VA:H on the workstation; SC/SI/SA:H because EHR and clinic systems are subsequently affected. CVSS describes the entry weakness only, not the enterprise impact."@en ;
-    crgo:CRGO_0000257 "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H" ;
+    crgo:CRGO_0000247 9.3 ;
+    crgo:CRGO_0000249 "Representative weakness: malicious macro document leading to code execution (initial vector in E6). AV:L: the document is delivered by e-mail but opened and executed locally on the workstation (FIRST CVSS v4.0 user guide scores malicious documents as Local whatever the delivery channel); AC:L; AT:N; PR:N; UI:P user opens the document; VC/VI/VA:H on the workstation; SC/SI/SA:H because EHR and clinic systems are subsequently affected. CVSS describes the entry weakness only, not the enterprise impact."@en ;
+    crgo:CRGO_0000257 "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H" ;
     crgo:CRGO_0000258 "4.0" ;
     crgo:CRGO_0000259 "Critical" .
 
@@ -8570,7 +8570,7 @@ x:S22-PbA a crgo:CRGO_0000041 ;
     crgo:CRGO_0000235 crgo:CRGO_0000103 ;
     crgo:CRGO_0000247 0.35 ;
     crgo:CRGO_0000248 "Plausible"@en ;
-    crgo:CRGO_0000249 "Opportunistic; depends on telehealth volume (Evidence gap)."@en .
+    crgo:CRGO_0000249 "Opportunistic; depends on telehealth volume (Information gap)."@en .
 
 x:S22-Pbx a crgo:CRGO_0000042 ;
     crgo:CRGO_0000213 x:evidence-E2 ;
@@ -9821,9 +9821,9 @@ x:S8-Th a crgo:CRGO_0000045 ;
 x:S8-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000231 x:scenario-S8 ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
-    crgo:CRGO_0000247 9.3 ;
-    crgo:CRGO_0000249 "Limited applicability: a detection gap is a control weakness, not a vulnerability. Representative weakness for the workbook: the undetected initial code-execution vector (macro/PowerShell, E6). Do not interpret the score as the severity of the detection gap."@en ;
-    crgo:CRGO_0000257 "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:L/SC:H/SI:L/SA:L" ;
+    crgo:CRGO_0000247 9.2 ;
+    crgo:CRGO_0000249 "Limited applicability: a detection gap is a control weakness, not a vulnerability. Representative weakness for the workbook: the undetected initial code-execution vector (macro/PowerShell, E6), scored AV:L because the e-mailed document is opened and executed locally (FIRST CVSS v4.0 user guide). Do not interpret the score as the severity of the detection gap."@en ;
+    crgo:CRGO_0000257 "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:L/SC:H/SI:L/SA:L" ;
     crgo:CRGO_0000258 "4.0" ;
     crgo:CRGO_0000259 "Critical" .
 

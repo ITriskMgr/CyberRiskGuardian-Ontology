@@ -212,7 +212,7 @@ Expected: rows 1; contains new=T1685. Rows: 1. Time: 0.00 s.
 
 In the MediBec assessment, which scenarios are above tolerance, with estimated and residual risk and the ratio?
 
-Expected: min_rows 10; sum est=84491 over all. Rows: 30. Time: 0.02 s.
+Expected: min_rows 10; sum est=84305 over all. Rows: 30. Time: 0.02 s.
 
 | id | name | est | res | ratio | class |
 |---|---|---|---|---|---|
@@ -223,7 +223,7 @@ Expected: min_rows 10; sum est=84491 over all. Rows: 30. Time: 0.02 s.
 | S16 | Loss of the Montreal hub or WAN isolates clinics from central clinical | 2959.25 | 1612.79125 | 1.271666667 | above tolerance |
 | S27 | Help-desk impersonation leads to MFA reset and account takeover | 3940.1484375 | 2048.8771875 | 1.256666667 | above tolerance |
 | S5 | Misuse of legitimate clinical, privileged or service-account access to | 2811.6 | 1715.076 | 1.22 | above tolerance |
-| S2 | Ransomware disrupting EHR access and clinic operations across the netw | 7893.482142857 | 3453.3984375 | 1.203125 | above tolerance |
+| S2 | Ransomware disrupting EHR access and clinic operations across the netw | 7809.508928571 | 3416.66015625 | 1.203125 | above tolerance |
 
 ## CQ15 — pass
 

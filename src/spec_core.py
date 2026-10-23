@@ -23,6 +23,8 @@ S = {
     "BFO": "ISO/IEC 21838-2:2021 / BFO-2020, alignment target",
     "MOACCO": "MOACCO 1.2a (retired), Herzog et al. Security.owl concepts Threat, Vulnerability, Countermeasure",
     "LOI25": "Loi 25 (L.Q. 2021, c. 25); CAI guidance on confidentiality incidents",
+    # 0.10.1: the CRG method and tools were aligned with the author's textbook on 2026-10-23
+    "BOOK": "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51 (October 2026), ch06 'The risk index and underlying formulas'",
 }
 
 BFO = "bfo:BFO_"
@@ -259,10 +261,11 @@ CLASSES = [
  "An estimate recording the CVSS version, vector, base score and severity of the representative weakness of a scenario, with a note when CVSS has limited applicability.",
  "Estimation qui consigne la version, le vecteur, le score de base et la sévérité CVSS de la faiblesse représentative d'un scénario, avec une note lorsque CVSS s'applique mal.",
  ["CRG_T", "CRG_F"], "H", "CRG keys cvss, cvss_note, cvss_score, cvss_sev; v4.0 by default.", [("CVSS", "en")]),
-("KRIQuantity", "crg", ["Estimate"], "computed risk quantity", "quantité de risque calculée",
- "An estimate computed by the CRG formulas from a scenario's parameters, such as estimated, tolerated, mitigated or residual risk.",
- "Estimation calculée par les formules CRG à partir des paramètres d'un scénario, comme le risque estimé, toléré, atténué ou résiduel.",
- ["CRG_F"], "H", "CRG calls these KRIs; distinct from monitoring KeyRiskIndicator.", [("KRI value", "en")]),
+("KRIQuantity", "crg", ["Estimate"], "risk index", "indice de risque",
+ "An estimate computed by the CRG formulas from a scenario's parameters, such as estimated, tolerated, mitigated or residual risk or the risk-to-tolerance ratio: a relative, dimensionless decision-support value, not a prediction of loss. It is not a key risk indicator, which is a measured monitoring value.",
+ "Estimation calculée par les formules CRG à partir des paramètres d'un scénario, comme le risque estimé, toléré, atténué ou résiduel ou le ratio risque/tolérance : une valeur relative et sans dimension d'aide à la décision, et non une prévision de perte. Ce n'est pas un indicateur clé de risque, qui est une valeur de surveillance mesurée.",
+ ["CRG_F", "BOOK"], "H", "CRG (textbook v2.51 ch06) calls these values risk indices; distinct from monitoring KeyRiskIndicator (CRG step 19).",
+ [("computed risk quantity", "en"), ("quantité de risque calculée", "fr"), ("KRI value", "en")]),
 ("EstimatedRisk", "crg", ["KRIQuantity", "RiskLevel"], "estimated risk Re", "risque estimé Re",
  "A computed risk quantity equal to Pb(A) × Pb(ψ,A) × CVSS × ((δe + δm)/2) × μ(E) ÷ θ × factor.",
  "Quantité de risque calculée égale à Pb(A) × Pb(ψ,A) × CVSS × ((δe + δm)/2) × μ(E) ÷ θ × facteur.",
@@ -294,7 +297,7 @@ CLASSES = [
 ("LegacyKRIQuantity", "crg", ["KRIQuantity"], "legacy computed risk quantity", "quantité de risque calculée (héritée)",
  "A computed risk quantity produced by the 2023 scenario-generator notebook, kept for traceability but not comparable with CRG v1.0c results.",
  "Quantité de risque calculée produite par le carnet de génération de scénarios de 2023, conservée pour la traçabilité mais non comparable aux résultats CRG v1.0c.",
- ["P1"], "H", "Decision Q-E: legacy KRIs kept and flagged.", []),
+ ["P1"], "H", "Decision Q-E: legacy computed values (the notebook's KRI_* columns) kept and flagged.", []),
 ("CalculationActivity", "crg", ["bfo:BFO_0000015"], "calculation activity", "activité de calcul",
  "A process in which software computes risk quantities from estimates using a stated method, such as a run of crg_calc.py.",
  "Processus par lequel un logiciel calcule des quantités de risque à partir d'estimations selon une méthode déclarée, comme une exécution de crg_calc.py.",
@@ -474,7 +477,7 @@ INDIVIDUALS = [
 ("ScaleRiskUnits", "measure", ["MeasurementScale"], "CRG risk units", "unités de risque CRG",
  "Unbounded non-negative scale of CRG computed risk quantities, which depends on the factor of the assessment.", "Échelle non négative et non bornée des quantités de risque CRG, qui dépend du facteur de l'appréciation.", ["CRG_F"]),
 ("MethodCRG_v1_0c", "crg", ["CalculationMethod"], "CRG Excel Guide v1.0c s.11", "Guide Excel CRG v1.0c, s. 11",
- "The authoritative CyberRiskGuardian KRI formulas, implemented in crg_calc.py.", "Formules ICR de référence de CyberRiskGuardian, mises en œuvre dans crg_calc.py.", ["CRG_F"]),
+ "The authoritative CyberRiskGuardian risk-index formulas, implemented in crg_calc.py.", "Formules de référence des indices de risque de CyberRiskGuardian, mises en œuvre dans crg_calc.py.", ["CRG_F", "BOOK"]),
 ("MethodNormalizedCheck", "crg", ["CalculationMethod"], "CRG normalised cross-check", "contre-vérification normalisée CRG",
  "Secondary score T × E × I × (1 − C), with C proxied by resilience; post-treatment × (1 − P × Q).", "Score secondaire T × E × I × (1 − C), où C est approché par la résilience; après traitement × (1 − P × Q).", ["CRG_F"]),
 ("MethodNotebook2023", "crg", ["CalculationMethod"], "2023 scenario-generator notebook v2-1b", "carnet de génération de scénarios 2023 v2-1b",
@@ -484,3 +487,17 @@ INDIVIDUALS = [
 ("AgentMAL", "gov", ["cco:ont00001262"], "Marc-André Léger", "Marc-André Léger",
  "Domain expert and approver of the ontology.", "Expert du domaine et approbateur de l'ontologie.", ["P1"]),
 ]
+
+
+# ---------------------------------------------------------------- 0.10.1 (approved by the project owner, 2026-10-23)
+# Changes to approved terms after the alignment of CRG with the textbook v2.51. The tuples above carry the new wording;
+# these notes become skos:changeNote, and the terms take the approval changes/0.10.1 (src/build.py).
+CHANGES_0101 = {
+    "KRIQuantity": "0.10.1 (2026-10-23): preferred labels changed from 'computed risk quantity' / 'quantité de risque calculée' (kept as alternative labels) to 'risk index' / 'indice de risque', and definition reworded, following CRG and the textbook v2.51 ch06: computed CRG values are risk indices, not key risk indicators. IRI and meaning unchanged.",
+    "LegacyKRIQuantity": "0.10.1 (2026-10-23): confidence rationale reworded ('legacy computed values' instead of 'legacy KRIs'); labels, definition, IRI and meaning unchanged.",
+    "MethodCRG_v1_0c": "0.10.1 (2026-10-23): definition reworded from 'KRI formulas' / 'formules ICR' to 'risk-index formulas' (textbook v2.51 ch06). IRI and meaning unchanged.",
+}
+# Editorial notes (skos:editorialNote): the spec format has no hidden or deprecated labels.
+EDITORIAL_0101 = {
+    "KRIQuantity": "The alternative label 'KRI value' is retired CRG usage, kept only so that older CRG material can be matched: the textbook v2.51 (ch06) retires 'KRI' for computed values. Do not use it in new material; KRIs are the monitoring indicators of the class key risk indicator.",
+}

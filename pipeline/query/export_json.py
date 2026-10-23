@@ -10,7 +10,7 @@ import identify as I  # noqa: E402
 def main():
     t0 = time.time()
     ids = [r["s"].value for r in I._q("SELECT ?s WHERE { ?s a %s } ORDER BY ?s" % I.T("LibraryScenario"))]
-    out = {"title": "CyberRiskGuardian Ontology - identification export", "version": "0.9.0",
+    out = {"title": "CyberRiskGuardian Ontology - identification export", "version": "0.10.1",
            "licence": "CC BY-NC 4.0; framework identifiers and titles keep their owners' terms (see NOTICE.md)",
            "caveat": I.CAVEAT,
            "values": {k: I.list_values(k) for k in ("asset_category", "theme", "threat_source_type", "impact_dimension", "sector")},

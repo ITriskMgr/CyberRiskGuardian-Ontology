@@ -43,7 +43,7 @@ In scenario selection (CRG `scenario-selection` skill, candidate generation):
 1. Build the profile from the organisation's documents: asset categories present, themes of concern, sector, ATT&CK techniques seen in incidents or threat intelligence, keywords for notable systems and weaknesses.
 2. Call `crgo_sweep`, then `crgo_identify` for anything the documents mention that the sweep did not return.
 3. For each kept candidate, call `crgo_scenario` and use its techniques, controls and obligations in the scenario write-up and the treatment portfolio.
-4. Keep CRG's evidence discipline: library and case values are calibration priors. Write them as "Analyst estimate - validation required" and replace them with organisational evidence. `estimated_risk` is in CRG risk units (relative), not a 0–1 score.
+4. Keep CRG's evidence discipline: library and case values are calibration priors. Write them as "Analytical estimate — validation required" (« Estimation analytique — validation requise ») and replace them with organisational evidence; mark missing facts "Information gap — organizational validation required" and decisions for management "Management decision required". `estimated_risk` is in CRG risk units (relative), not a 0–1 score.
 
 ## Evaluation
 

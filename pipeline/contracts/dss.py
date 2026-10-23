@@ -37,7 +37,7 @@ QUAL = {"QualityHigh": "high", "QualityModerate": "moderate", "QualityLow": "low
 CAVEATS = ["CRGO states facts, links and their review status; it does not compute risk. Scores come from the DSS (ADR-007).",
            "Applicability states are CRGO evaluations over the organisation profile, not legal advice; 'potentially applicable' needs qualified review.",
            "A control mapped to an obligation supports compliance; it never proves it.",
-           "Estimates are analyst estimates: validation required (CyberRiskGuardian evidence discipline)."]
+           "Estimates are labelled 'Analytical estimate — validation required' (CyberRiskGuardian evidence discipline)."]
 
 VANN_NS = URIRef("http://purl.org/vocab/vann/preferredNamespaceUri")
 GRANDFATHERED = {CRGO + "data/medibec/"}

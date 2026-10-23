@@ -12,7 +12,7 @@ from rdflib.collection import Collection
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
-from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS  # noqa: E402
+from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS, CHANGES_0101, EDITORIAL_0101  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
 import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
@@ -42,11 +42,14 @@ CLASSES = _modify(CLASSES, {"den": 5, "dfr": 6, "alts": 10})
 OBJECT_PROPERTIES = _modify(OBJECT_PROPERTIES, {"den": 4, "dfr": 5, "dom": 6, "rng": 7})
 DATA_PROPERTIES = _modify(DATA_PROPERTIES, {"den": 4, "dfr": 5, "dom": 6, "rng": 7})
 assert set(CHANGE_NOTES) == set(VP.MODIFY_PCA), set(VP.MODIFY_PCA) - set(CHANGE_NOTES)
+# 0.10.1: changes to approved terms made in spec_core.py (CRG terminology of the textbook v2.51), approved as changes/0.10.1
+assert not set(CHANGES_0101) & set(CHANGE_NOTES)
+CHANGE_NOTES.update(CHANGES_0101)
 
-VERSION = "0.10.0"
-PRIOR = "0.9.0"
-ISSUED = "2026-10-13"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884}  # highest term number introduced in each earlier release
+VERSION = "0.10.1"
+PRIOR = "0.10.0"
+ISSUED = "2026-10-23"
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -150,7 +153,7 @@ def gov(g, s, sources, conf, rationale):
     a = APPROVALS.get(KEY_OF.get(s))
     changed = KEY_OF.get(s) in CHANGE_NOTES and KEY_OF.get(s) not in VP.D9_APPROVED  # changed in 0.10.0, not covered by D9
     if changed:
-        a = APPROVALS.get("changes/0.10.0")
+        a = APPROVALS.get("changes/0.10.1" if KEY_OF.get(s) in CHANGES_0101 else "changes/0.10.0")
     if not a and not changed:
         # the first row of terms/<module> whose scope covers this term (rows without a scope cover every term)
         rows = GROUP_ROWS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""), [])
@@ -170,7 +173,7 @@ def gov(g, s, sources, conf, rationale):
     for k in sources:
         g.add((s, ann["evidenceSource"], Literal(S[k], lang="en")))
     g.add((s, ann["proposedBy"], CLAUDE))
-    g.add((s, ann["introducedIn"], Literal(next((v for v, mx in sorted(FIRST_RELEASE.items()) if num <= mx), VERSION))))
+    g.add((s, ann["introducedIn"], Literal(next((v for v, mx in sorted(FIRST_RELEASE.items(), key=lambda kv: tuple(map(int, kv[0].split(".")))) if num <= mx), VERSION))))  # numeric order (0.10.1: "0.10.0" sorts before "0.2.0" as text)
 
 def labels(g, s, en, fr, den, dfr, alts=()):
     g.add((s, RDFS.label, Literal(en, lang="en")))
@@ -332,6 +335,11 @@ for k, note in CHANGE_NOTES.items():
     s = iri(k)
     home = next(gg for gg in graphs.values() if (s, RDFS.label, None) in gg)
     home.add((s, SKOS.changeNote, Literal(note, lang="en")))
+graphs["gov"].add((SKOS.editorialNote, RDF.type, OWL.AnnotationProperty))
+for k, note in EDITORIAL_0101.items():  # 0.10.1: e.g. a retired alternative label (the spec format has no hidden labels)
+    s = iri(k)
+    home = next(gg for gg in graphs.values() if (s, RDFS.label, None) in gg)
+    home.add((s, SKOS.editorialNote, Literal(note, lang="en")))
 
 # ---------------------------------------------------------------- ontology headers and output
 os.makedirs(os.path.join(ROOT, "ontology"), exist_ok=True)
@@ -340,12 +348,12 @@ DESC_FR = ("Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le 
            "Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine.")
 ABSTRACT = ("The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: "
             "assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the "
-            "CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS "
+            "CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS "
             "vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the "
             "Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them.")
 ABSTRACT_FR = ("L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque "
                "de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, "
-               "référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. "
+               "référentiels et obligations légales, modèle quantitatif CyberRiskGuardian avec les indices de risque qui en découlent, et indicateurs clés de risque pour la surveillance. "
                "Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, "
                "MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ "
                "1 900 scénarios de risque génériques liés à ces vocabulaires.")

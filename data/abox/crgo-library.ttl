@@ -11,7 +11,7 @@
         "Bibliothèque de scénarios CRGO (générateur 2023, réparée)"@fr ;
     rdfs:comment "Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, repaired and merged into families (decision Q-E, option 3). All values are AI estimates requiring validation; use them as calibration priors, not as organisational evidence."@en ;
     owl:imports crgo:crgo ;
-    owl:versionInfo "0.9.0" .
+    owl:versionInfo "0.10.1" .
 
 lib:C-ACRB-ACRB-A1-De a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 lib:E-ACRB ;
@@ -3005,7 +3005,7 @@ lib:C-MediBec-CRG-S2-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:C-MediBec-CRG-S2-red_i,
         lib:C-MediBec-CRG-S2-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:C-MediBec-CRG-S2-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S2 ;
@@ -3019,7 +3019,7 @@ lib:C-MediBec-CRG-S2-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:C-MediBec-CRG-S2-red_i,
         lib:C-MediBec-CRG-S2-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:C-MediBec-CRG-S2-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S2 ;
@@ -3047,7 +3047,7 @@ lib:C-MediBec-CRG-S2-ResidualRisk a crgo:CRGO_0000054 ;
         lib:C-MediBec-CRG-S2-red_i,
         lib:C-MediBec-CRG-S2-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:C-MediBec-CRG-S2-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S2 ;
@@ -3076,7 +3076,7 @@ lib:C-MediBec-CRG-S2-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:C-MediBec-CRG-S2-red_i,
         lib:C-MediBec-CRG-S2-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:C-MediBec-CRG-S20-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S20 ;
@@ -4450,7 +4450,7 @@ lib:C-MediBec-CRG-S8-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:C-MediBec-CRG-S8-red_i,
         lib:C-MediBec-CRG-S8-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 lib:C-MediBec-CRG-S8-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S8 ;
@@ -4464,7 +4464,7 @@ lib:C-MediBec-CRG-S8-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:C-MediBec-CRG-S8-red_i,
         lib:C-MediBec-CRG-S8-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 lib:C-MediBec-CRG-S8-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S8 ;
@@ -4492,7 +4492,7 @@ lib:C-MediBec-CRG-S8-ResidualRisk a crgo:CRGO_0000054 ;
         lib:C-MediBec-CRG-S8-red_i,
         lib:C-MediBec-CRG-S8-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 lib:C-MediBec-CRG-S8-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S8 ;
@@ -4521,7 +4521,7 @@ lib:C-MediBec-CRG-S8-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:C-MediBec-CRG-S8-red_i,
         lib:C-MediBec-CRG-S8-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 lib:C-MediBec-CRG-S9-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 lib:C-MediBec-CRG-S9 ;
@@ -49011,7 +49011,7 @@ lib:F0436-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F0436-case-red_i,
         lib:F0436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 lib:F0436-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F0436 ;
@@ -49025,7 +49025,7 @@ lib:F0436-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F0436-case-red_i,
         lib:F0436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 lib:F0436-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F0436 ;
@@ -49053,7 +49053,7 @@ lib:F0436-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F0436-case-red_i,
         lib:F0436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 lib:F0436-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F0436 ;
@@ -49082,7 +49082,7 @@ lib:F0436-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F0436-case-red_i,
         lib:F0436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 lib:F0436-red_i a crgo:CRGO_0000048 ;
     crgo:CRGO_0000213 lib:E2023 ;
@@ -80332,7 +80332,7 @@ lib:F0824-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F0824-case-red_i,
         lib:F0824-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 lib:F0824-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F0824 ;
@@ -80346,7 +80346,7 @@ lib:F0824-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F0824-case-red_i,
         lib:F0824-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 lib:F0824-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F0824 ;
@@ -80374,7 +80374,7 @@ lib:F0824-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F0824-case-red_i,
         lib:F0824-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 lib:F0824-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F0824 ;
@@ -80403,7 +80403,7 @@ lib:F0824-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F0824-case-red_i,
         lib:F0824-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 lib:F0825-De a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 lib:E2023 ;
@@ -103175,7 +103175,7 @@ lib:F1094-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1094-case-red_i,
         lib:F1094-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 lib:F1094-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1094 ;
@@ -103189,7 +103189,7 @@ lib:F1094-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1094-case-red_i,
         lib:F1094-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 lib:F1094-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1094 ;
@@ -103217,7 +103217,7 @@ lib:F1094-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1094-case-red_i,
         lib:F1094-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 lib:F1094-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1094 ;
@@ -103246,7 +103246,7 @@ lib:F1094-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1094-case-red_i,
         lib:F1094-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 lib:F1095-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 lib:F1095 ;
@@ -104201,7 +104201,7 @@ lib:F1110-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1110-case-red_i,
         lib:F1110-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 9486.0 .
+    crgo:CRGO_0000247 9384.0 .
 
 lib:F1110-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1110 ;
@@ -104215,7 +104215,7 @@ lib:F1110-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1110-case-red_i,
         lib:F1110-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 5312.16 .
+    crgo:CRGO_0000247 5255.04 .
 
 lib:F1110-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1110 ;
@@ -104243,7 +104243,7 @@ lib:F1110-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1110-case-red_i,
         lib:F1110-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4173.84 .
+    crgo:CRGO_0000247 4128.96 .
 
 lib:F1110-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1110 ;
@@ -104272,7 +104272,7 @@ lib:F1110-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1110-case-red_i,
         lib:F1110-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3794.4 .
+    crgo:CRGO_0000247 3753.6 .
 
 lib:F1111-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 lib:F1111 ;
@@ -132127,7 +132127,7 @@ lib:F1436-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1436-case-red_i,
         lib:F1436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:F1436-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1436 ;
@@ -132141,7 +132141,7 @@ lib:F1436-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1436-case-red_i,
         lib:F1436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:F1436-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1436 ;
@@ -132169,7 +132169,7 @@ lib:F1436-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1436-case-red_i,
         lib:F1436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:F1436-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1436 ;
@@ -132198,7 +132198,7 @@ lib:F1436-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1436-case-red_i,
         lib:F1436-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:F1439-De a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 lib:E2023 ;
@@ -133650,7 +133650,7 @@ lib:F1461-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1461-case-red_i,
         lib:F1461-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:F1461-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1461 ;
@@ -133664,7 +133664,7 @@ lib:F1461-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1461-case-red_i,
         lib:F1461-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:F1461-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1461 ;
@@ -133692,7 +133692,7 @@ lib:F1461-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1461-case-red_i,
         lib:F1461-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:F1461-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1461 ;
@@ -133721,7 +133721,7 @@ lib:F1461-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1461-case-red_i,
         lib:F1461-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:F1461-red_i a crgo:CRGO_0000048 ;
     crgo:CRGO_0000213 lib:E2023 ;
@@ -134767,7 +134767,7 @@ lib:F1468-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1468-case-red_i,
         lib:F1468-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:F1468-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1468 ;
@@ -134781,7 +134781,7 @@ lib:F1468-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1468-case-red_i,
         lib:F1468-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:F1468-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1468 ;
@@ -134809,7 +134809,7 @@ lib:F1468-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1468-case-red_i,
         lib:F1468-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:F1468-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1468 ;
@@ -134838,7 +134838,7 @@ lib:F1468-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1468-case-red_i,
         lib:F1468-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:F1468-treatment a crgo:CRGO_0000032 ;
     rdfs:label "suggested treatment for Ransomware Attack on Hospital Systems"@en ;
@@ -135238,7 +135238,7 @@ lib:F1472-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1472-case-red_i,
         lib:F1472-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:F1472-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1472 ;
@@ -135252,7 +135252,7 @@ lib:F1472-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1472-case-red_i,
         lib:F1472-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:F1472-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1472 ;
@@ -135280,7 +135280,7 @@ lib:F1472-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1472-case-red_i,
         lib:F1472-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:F1472-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1472 ;
@@ -135309,7 +135309,7 @@ lib:F1472-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1472-case-red_i,
         lib:F1472-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:F1472-treatment a crgo:CRGO_0000032 ;
     rdfs:label "suggested treatment for Ransomware Attack on Patient Records"@en ;
@@ -138668,7 +138668,7 @@ lib:F1501-case-EstimatedRisk a crgo:CRGO_0000051 ;
         lib:F1501-case-red_i,
         lib:F1501-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 7893.482143 .
+    crgo:CRGO_0000247 7809.508929 .
 
 lib:F1501-case-MitigatedRisk a crgo:CRGO_0000053 ;
     crgo:CRGO_0000231 lib:F1501 ;
@@ -138682,7 +138682,7 @@ lib:F1501-case-MitigatedRisk a crgo:CRGO_0000053 ;
         lib:F1501-case-red_i,
         lib:F1501-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 4440.083705 .
+    crgo:CRGO_0000247 4392.848772 .
 
 lib:F1501-case-PreTreatmentRatio a crgo:CRGO_0000301 ;
     crgo:CRGO_0000231 lib:F1501 ;
@@ -138710,7 +138710,7 @@ lib:F1501-case-ResidualRisk a crgo:CRGO_0000054 ;
         lib:F1501-case-red_i,
         lib:F1501-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 3453.398438 .
+    crgo:CRGO_0000247 3416.660156 .
 
 lib:F1501-case-RiskToToleranceRatio a crgo:CRGO_0000055 ;
     crgo:CRGO_0000231 lib:F1501 ;
@@ -138739,7 +138739,7 @@ lib:F1501-case-ToleratedRisk a crgo:CRGO_0000052 ;
         lib:F1501-case-red_i,
         lib:F1501-case-red_p ;
     crgo:CRGO_0000238 lib:Calc2026 ;
-    crgo:CRGO_0000247 2870.357143 .
+    crgo:CRGO_0000247 2839.821429 .
 
 lib:F1501-treatment a crgo:CRGO_0000032 ;
     rdfs:label "suggested treatment for Ransomware Attack on Healthcare Information Systems"@en ;
@@ -211295,7 +211295,7 @@ lib:C-MediBec-CRG-S2-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:Run-MediBec-CRG ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.4 .
+    crgo:CRGO_0000247 9.3 .
 
 lib:C-MediBec-CRG-S2-red_i a crgo:CRGO_0000048 ;
     crgo:CRGO_0000213 lib:E-MediBec-CRG ;
@@ -212519,7 +212519,7 @@ lib:C-MediBec-CRG-S8-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:Run-MediBec-CRG ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.3 .
+    crgo:CRGO_0000247 9.2 .
 
 lib:C-MediBec-CRG-S8-red_i a crgo:CRGO_0000048 ;
     crgo:CRGO_0000213 lib:E-MediBec-CRG ;
@@ -228187,7 +228187,7 @@ lib:F0436-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.3 ;
+    crgo:CRGO_0000247 9.2 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F0436-case-red_i a crgo:CRGO_0000048 ;
@@ -244577,7 +244577,7 @@ lib:F0824-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000247 9.3 ;
+    crgo:CRGO_0000247 9.2 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F0824-case-red_i a crgo:CRGO_0000048 ;
@@ -259593,7 +259593,7 @@ lib:F1094-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.3 ;
+    crgo:CRGO_0000247 9.2 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1094-case-red_i a crgo:CRGO_0000048 ;
@@ -259917,7 +259917,7 @@ lib:F1110-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.3 ;
+    crgo:CRGO_0000247 9.2 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1110-case-red_i a crgo:CRGO_0000048 ;
@@ -276590,7 +276590,7 @@ lib:F1436-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000065 ;
-    crgo:CRGO_0000247 9.4 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1436-case-red_i a crgo:CRGO_0000048 ;
@@ -276869,7 +276869,7 @@ lib:F1461-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.4 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1461-case-red_i a crgo:CRGO_0000048 ;
@@ -277944,7 +277944,7 @@ lib:F1468-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.4 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1468-case-red_i a crgo:CRGO_0000048 ;
@@ -278369,7 +278369,7 @@ lib:F1472-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.4 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1472-case-red_i a crgo:CRGO_0000048 ;
@@ -281316,7 +281316,7 @@ lib:F1501-case-cvss a crgo:CRGO_0000049 ;
     crgo:CRGO_0000232 lib:RunCases ;
     crgo:CRGO_0000233 crgo:CRGO_0000175 ;
     crgo:CRGO_0000234 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000247 9.4 ;
+    crgo:CRGO_0000247 9.3 ;
     crgo:CRGO_0000333 "1"^^xsd:nonNegativeInteger .
 
 lib:F1501-case-red_i a crgo:CRGO_0000048 ;

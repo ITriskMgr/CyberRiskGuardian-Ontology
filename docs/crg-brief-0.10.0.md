@@ -65,7 +65,7 @@ The organisation graph is the one CRG already produces with `crg2rdf.py` (0.9.1 
 3. Extend the contract helper (`scripts/crgo_contract.py` or equivalent) to call `crgo_compliance_context` and `crgo_secops_context` for the assessment date, store the JSON under the git-ignored `output/`, and pass the relevant parts to the analysts.
 4. Update the `cyber-risk-assessment` SKILL.md steps 1, 2, 8, 9, 12–14 and the QC checklist as in section 3; add a "Compliance posture" table (obligation, applicability, state, evidence status, exceptions without exemption, next deadline) and a "Detection and response readiness" table (scenario, coverage validated, gaps, playbook simulated) to the report template.
 5. Agents: `risk-scenario-analyst` (obligations, deadlines, triage), `risk-quantifier` (coverage and telemetry as evidence), `risk-qc-reviewer` (section 4 rules).
-6. Bump the plugin version, sync configs, validate, and keep the MediBec regression at 84,491 / 41,104.
+6. Bump the plugin version, sync configs, validate, and keep the MediBec regression at 84,305 / 41,023 (since CRG 2.1.0 and CRGO 0.10.1; 84,491 / 41,104 before).
 
 ## 6. Acceptance tests
 

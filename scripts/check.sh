@@ -45,10 +45,10 @@ python3 scripts/check_modules.py || fail=1
 echo "7. SKOS vocabularies"
 python3 scripts/check_vocab.py || fail=1
 
-echo "8. CRG bridge (MediBec regression: 84,491 estimated, 41,104 residual)"
+echo "8. CRG bridge (MediBec regression: 84,305 estimated, 41,023 residual; CRG 2.1, textbook v2.51)"
 if [ -n "${CRG_CALC:-}" ]; then
   python3 pipeline/crg/crg2rdf.py tests/crg/medibec30.json --crg-calc "$CRG_CALC" --base https://w3id.org/crgo/data/medibec/ \
-    --out tests/crg/medibec30.ttl --jsonld tests/crg/medibec30.jsonld > /dev/null || fail=1
+    --org-label "MediBec (fictional teaching case)" --out tests/crg/medibec30.ttl --jsonld tests/crg/medibec30.jsonld > /dev/null || fail=1
 fi
 python3 tests/crg/check_roundtrip.py | sed 's/^/   /' || fail=1
 if $ROBOT reason --catalog tests/crg/catalog-v001.xml --input tests/crg/medibec30.ttl --reasoner HermiT --output build/medibec-inferred.ttl > build/medibec-reason.log 2>&1; then

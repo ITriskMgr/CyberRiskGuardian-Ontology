@@ -45,7 +45,7 @@ def crgo_sweep(asset_categories: list[str] = [], themes: list[str] = [], sector:
     weaknesses (synonyms are expanded: telehealth, HL7/DICOM, MFA, GenAI...). Returns scenarios matching ANY element,
     near-duplicates merged under one representative ('see_also'), up to per_theme representatives per theme, and the
     requested themes with no scenario ('theme_gaps'). holdout: case keys to ignore (e.g. 'MediBec-CRG') for blind tests.
-    Then call crgo_scenario on the ones you keep. Treat all numbers as 'Analyst estimate - validation required'."""
+    Then call crgo_scenario on the ones you keep. Treat all numbers as 'Analytical estimate — validation required'."""
     return I.sweep(asset_categories, themes, sector or None, techniques, keywords, per_theme, min_confidence, include_cases, holdout, max_total)
 
 
@@ -59,7 +59,7 @@ def crgo_identify(asset_categories: list[str] = [], themes: list[str] = [], sect
     techniques: ATT&CK ids; sub-techniques are included (e.g. 'T1566'). keywords: words to find in scenario names and statements.
     Different filters combine with AND, values within one filter with OR. min_confidence: 'H', 'M' (approved links, default) or 'L'.
     Returns scenarios with ATT&CK techniques, weaknesses, CSF 2.0 / SP 800-53 / ISO 27002 controls, Loi 25 obligations,
-    estimated risk and its basis. Treat all numbers as 'Analyst estimate - validation required'."""
+    estimated risk and its basis. Treat all numbers as 'Analytical estimate — validation required'."""
     return I.identify(asset_categories, themes, sector or None, techniques, keywords, min_confidence, limit, include_cases, holdout)
 
 
@@ -67,7 +67,7 @@ def crgo_identify(asset_categories: list[str] = [], themes: list[str] = [], sect
 def crgo_scenario(scenario_id: str, min_confidence: str = "M", holdout: list[str] = []) -> dict:
     """Full detail for one scenario: id such as 'LIB-F1467' (library), 'MediBec/MED-A1' (case scenario) or an IRI.
     Includes the 2023 library estimates (low confidence), case-calibrated estimates where available (medium or low),
-    risk quantities, evidence identifiers and the families or case scenarios it is related to."""
+    risk indices (CRG computed values, not KRIs), evidence identifiers and the families or case scenarios it is related to."""
     return I.scenario(scenario_id, min_confidence, holdout=holdout)
 
 

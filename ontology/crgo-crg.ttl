@@ -264,16 +264,18 @@ crgo:CRGO_0000057 a owl:Class ;
     rdfs:label "legacy computed risk quantity"@en,
         "quantité de risque calculée (héritée)"@fr ;
     rdfs:subClassOf crgo:CRGO_0000050 ;
+    skos:changeNote "0.10.1 (2026-10-23): confidence rationale reworded ('legacy computed values' instead of 'legacy KRIs'); labels, definition, IRI and meaning unchanged."@en ;
     skos:definition "A computed risk quantity produced by the 2023 scenario-generator notebook, kept for traceability but not comparable with CRG v1.0c results."@en,
         "Quantité de risque calculée produite par le carnet de génération de scénarios de 2023, conservée pour la traçabilité mais non comparable aux résultats CRG v1.0c."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "Decision Q-E: legacy KRIs kept and flagged."@en ;
+    crgo:CRGO_0000285 "Decision Q-E: legacy computed values (the notebook's KRI_* columns) kept and flagged."@en ;
     crgo:CRGO_0000286 "Phase 1 report (8 Oct 2026), section 5 and recorded decisions"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-10-23"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.10.1 (\"apply the fixes\"): CRG terminology of the textbook v2.51: KRIQuantity labelled risk index / indice de risque ('KRI value' kept as a retired alternative label with an editorial note), MethodCRG_v1_0c definition and LegacyKRIQuantity rationale reworded"@en .
 
 # --- below tolerance
 crgo:CRGO_0000107 a owl:NamedIndividual,
@@ -841,15 +843,18 @@ crgo:CRGO_0000178 a owl:NamedIndividual,
         crgo:CRGO_0000059 ;
     rdfs:label "CRG Excel Guide v1.0c s.11"@en,
         "Guide Excel CRG v1.0c, s. 11"@fr ;
-    skos:definition "The authoritative CyberRiskGuardian KRI formulas, implemented in crg_calc.py."@en,
-        "Formules ICR de référence de CyberRiskGuardian, mises en œuvre dans crg_calc.py."@fr ;
+    skos:changeNote "0.10.1 (2026-10-23): definition reworded from 'KRI formulas' / 'formules ICR' to 'risk-index formulas' (textbook v2.51 ch06). IRI and meaning unchanged."@en ;
+    skos:definition "The authoritative CyberRiskGuardian risk-index formulas, implemented in crg_calc.py."@en,
+        "Formules de référence des indices de risque de CyberRiskGuardian, mises en œuvre dans crg_calc.py."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51 (October 2026), ch06 'The risk index and underlying formulas'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-10-23"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.10.1 (\"apply the fixes\"): CRG terminology of the textbook v2.51: KRIQuantity labelled risk index / indice de risque ('KRI value' kept as a retired alternative label with an editorial note), MethodCRG_v1_0c definition and LegacyKRIQuantity rationale reworded"@en .
 
 # --- CRG normalised cross-check
 crgo:CRGO_0000179 a owl:NamedIndividual,
@@ -1171,17 +1176,17 @@ crgo:CRGO_0000328 a owl:DatatypeProperty,
     crgo:CRGO_0000291 "0.1.0" .
 
 crgo:crgo-crg a owl:Ontology ;
-    dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model and the key risk indicators computed from it. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
-        "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian et indicateurs clés de risque qui en découlent. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.10.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
+        "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian avec les indices de risque qui en découlent, et indicateurs clés de risque pour la surveillance. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.10.1. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-10-13"^^xsd:date ;
+    dcterms:issued "2026-10-23"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-13"^^xsd:date ;
+    dcterms:modified "2026-10-23"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - CyberRiskGuardian method module"@en,
@@ -1190,9 +1195,9 @@ crgo:crgo-crg a owl:Ontology ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-measure ;
-    owl:priorVersion <https://w3id.org/crgo/0.9.0/crgo-crg> ;
-    owl:versionIRI <https://w3id.org/crgo/0.10.0/crgo-crg> ;
-    owl:versionInfo "0.10.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.10.0/crgo-crg> ;
+    owl:versionIRI <https://w3id.org/crgo/0.10.1/crgo-crg> ;
+    owl:versionInfo "0.10.1" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
 
@@ -1386,22 +1391,28 @@ crgo:CRGO_0000040 a owl:Class ;
     crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
     crgo:CRGO_0000291 "0.1.0" .
 
-# --- computed risk quantity
+# --- risk index
 crgo:CRGO_0000050 a owl:Class ;
-    rdfs:label "computed risk quantity"@en,
-        "quantité de risque calculée"@fr ;
+    rdfs:label "risk index"@en,
+        "indice de risque"@fr ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
-    skos:altLabel "KRI value"@en ;
-    skos:definition "An estimate computed by the CRG formulas from a scenario's parameters, such as estimated, tolerated, mitigated or residual risk."@en,
-        "Estimation calculée par les formules CRG à partir des paramètres d'un scénario, comme le risque estimé, toléré, atténué ou résiduel."@fr ;
+    skos:altLabel "KRI value"@en,
+        "computed risk quantity"@en,
+        "quantité de risque calculée"@fr ;
+    skos:changeNote "0.10.1 (2026-10-23): preferred labels changed from 'computed risk quantity' / 'quantité de risque calculée' (kept as alternative labels) to 'risk index' / 'indice de risque', and definition reworded, following CRG and the textbook v2.51 ch06: computed CRG values are risk indices, not key risk indicators. IRI and meaning unchanged."@en ;
+    skos:definition "An estimate computed by the CRG formulas from a scenario's parameters, such as estimated, tolerated, mitigated or residual risk or the risk-to-tolerance ratio: a relative, dimensionless decision-support value, not a prediction of loss. It is not a key risk indicator, which is a measured monitoring value."@en,
+        "Estimation calculée par les formules CRG à partir des paramètres d'un scénario, comme le risque estimé, toléré, atténué ou résiduel ou le ratio risque/tolérance : une valeur relative et sans dimension d'aide à la décision, et non une prévision de perte. Ce n'est pas un indicateur clé de risque, qui est une valeur de surveillance mesurée."@fr ;
+    skos:editorialNote "The alternative label 'KRI value' is retired CRG usage, kept only so that older CRG material can be matched: the textbook v2.51 (ch06) retires 'KRI' for computed values. Do not use it in new material; KRIs are the monitoring indicators of the class key risk indicator."@en ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "CRG calls these KRIs; distinct from monitoring KeyRiskIndicator."@en ;
-    crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en ;
+    crgo:CRGO_0000285 "CRG (textbook v2.51 ch06) calls these values risk indices; distinct from monitoring KeyRiskIndicator (CRG step 19)."@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian, crg-formulas-and-workbook.md (Excel Guide v1.0c s.11) and scripts/crg_calc.py (commit f0cd36e)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51 (October 2026), ch06 'The risk index and underlying formulas'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-10-23"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.10.1 (\"apply the fixes\"): CRG terminology of the textbook v2.51: KRIQuantity labelled risk index / indice de risque ('KRI value' kept as a retired alternative label with an editorial note), MethodCRG_v1_0c definition and LegacyKRIQuantity rationale reworded"@en .
 
 # --- escalation flag scheme
 crgo:CRGO_0000162 a owl:NamedIndividual,

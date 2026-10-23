@@ -6,6 +6,7 @@
 
 <https://w3id.org/crgo/data/library> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/crg-2023-scenarios>,
         <https://w3id.org/crgo/vocab/sources/first-epss>,
+        <https://w3id.org/crgo/vocab/sources/leger-cyber-gov-3e-v2.51>,
         <https://w3id.org/crgo/vocab/sources/teaching-cases>,
         <https://w3id.org/crgo/vocab/sources/vcdb> .
 
@@ -80,8 +81,8 @@
     dcterms:title "CRGO source records"@en,
         "Notices de source de CRGO"@fr ;
     owl:imports crgo:crgo ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.0/sources> ;
-    owl:versionInfo "0.10.0" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.1/sources> ;
+    owl:versionInfo "0.10.1" .
 
 <https://w3id.org/crgo/vocab/sources/bfo-2020> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
@@ -789,6 +790,27 @@
     crgo:CRGO_0000455 "dd9de7cef173bd2c445cbabf8a65fbb2f3e4e4b6f6949d71f1c0f6bb0ed0cd68" ;
     crgo:CRGO_0000456 "table of contents of a 15-page preview" ;
     crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/leger-cyber-gov-3e-v2.51> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Introduction to Cybersecurity Governance for Business Technology Management, 3rd edition, version 2.51"@en ;
+    rdfs:comment "Reference for the CRG method from 0.10.1: CRG and its tools were aligned with this edition on 2026-10-23."@en ;
+    crgo:CRGO_0000250 "leger-cyber-gov-3e-v2.51" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-10-23"^^xsd:date ;
+    crgo:CRGO_0000291 "0.10.1" ;
+    crgo:CRGO_0000449 "2026-10-23T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "3rd ed., v2.51 (October 2026)" ;
+    crgo:CRGO_0000451 "author's textbook; chapter text distributed with CyberRiskGuardian (github.com/ITriskMgr/CyberRiskGuardian, plugins/crg-governance-textbook)" ;
+    crgo:CRGO_0000452 "Marc-André Léger" ;
+    crgo:CRGO_0000453 "© author, CC BY-NC 4.0" ;
+    crgo:CRGO_0000454 "cited only (terminology, CRG method and markers); no text" ;
+    crgo:CRGO_0000456 "chapter 6 read in the CyberRiskGuardian repository (commit 5f27a0f): risk indices vs key risk indicators, Attack Vector Local for a malicious document, evidence markers" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
 
 <https://w3id.org/crgo/vocab/sources/mitre-cwe-via-d3fend> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;

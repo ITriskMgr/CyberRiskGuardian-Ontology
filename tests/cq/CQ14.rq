@@ -1,6 +1,6 @@
 # CQ14 (Assessment)
 # Question: In the MediBec assessment, which scenarios are above tolerance, with estimated and residual risk and the ratio?
-# Expect: min_rows 10; sum est=84491 over all
+# Expect: min_rows 10; sum est=84305 over all
 SELECT ?id ?name ?est ?res ?ratio ?class WHERE {
   ?a a {{RiskAssessment}} ; {{includesScenario}} ?s . ?s a {{AssessmentScenario}} ; {{localIdentifier}} ?id ; rdfs:label ?name .
   FILTER(STRSTARTS(STR(?s), "https://w3id.org/crgo/data/medibec/"))

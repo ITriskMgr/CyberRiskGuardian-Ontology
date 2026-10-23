@@ -31,7 +31,7 @@ ALLOW = {"H": {"H"}, "M": {"H", "M"}, "L": {"H", "M", "L"}}
 PARAMS = {"ThreatPresence": "PbA", "ExploitationProbability": "Pbx", "ExpectedDamage": "De", "MaximumDamage": "Dm",
           "Resilience": "Th", "Criticality": "Mu", "ProbabilityReduction": "red_p", "ImpactReduction": "red_i", "CVSSInput": "cvss"}
 CAVEAT = ("Library values are AI estimates (2023) for a fictitious healthcare organisation; case-calibrated values come from "
-          "instructor annex values of teaching cases. Both are calibration priors: label them 'Analyst estimate - validation "
+          "instructor annex values of teaching cases. Both are calibration priors: label them 'Analytical estimate — validation "
           "required' and replace them with organisational evidence.")
 PFX = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\n"
 _st = None
@@ -203,7 +203,7 @@ def _health_penalty(score, sector, keywords):
     if HEALTH_WORDS.search(profile):
         return score
     return {s: v - 0.5 if HEALTH_WORDS.search(_label(s) or "") else v for s, v in score.items()}
-CAVEAT_SHORT = "Calibration priors, not organisational evidence: label 'Analyst estimate - validation required'."
+CAVEAT_SHORT = "Calibration priors, not organisational evidence: label 'Analytical estimate — validation required'."
 RISK_UNIT = "CRG risk units (Excel Guide v1.0c, factor 1000, appetite 0.30): relative, comparable across scenarios, not a 0-1 score"
 _text = None
 

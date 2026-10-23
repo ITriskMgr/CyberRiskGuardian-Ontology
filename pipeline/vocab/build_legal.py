@@ -16,7 +16,7 @@ from rdflib import Graph, Namespace, URIRef, Literal, BNode
 from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS, DCTERMS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-VERSION = "0.10.0"
+VERSION = "0.10.1"
 BASE = "https://w3id.org/crgo/"
 LEG = Namespace(BASE + "vocab/legal/"); SRC = Namespace(BASE + "vocab/sources/"); VOC = BASE + "vocab/"
 TIME = Namespace("http://www.w3.org/2006/time#"); PROV = Namespace("http://www.w3.org/ns/prov#")
@@ -64,7 +64,7 @@ SCHEME_SOURCES = {"a21": ["qc-a-2.1"], "attack": ["mitre-attack-19.2"], "capec":
                   "iso37301": ["iso-37301-2021", "iso-37301-2021-amd1-2024"],
                   "attack-detection": ["mitre-attack-19.2"], "ocsf": ["ocsf-1.9.0"], "iso37302": ["iso-37302-2025"],
                   "mappings": ["ctid-mappings", "nist-cprt-csf", "nist-csf11-80053", "nist-olir-80053-27001", "mitre-capec-3.9", "cisa-kev", "mitre-d3fend-1.6.0", "nist-sp800-53a-r5"]}
-LIB_SOURCES = ["crg-2023-scenarios", "teaching-cases", "first-epss", "vcdb"]
+LIB_SOURCES = ["crg-2023-scenarios", "teaching-cases", "first-epss", "vcdb", "leger-cyber-gov-3e-v2.51"]  # 0.10.1: the MediBec worked CRG assessment follows the textbook v2.51
 ACCESS = {"VERIFIED": "AccessVerified", "PENDING_ACCESS": "AccessPendingAccess", "LICENSE_RESTRICTED": "AccessLicenceRestricted", "REJECTED": "AccessRejected"}
 RECORDS_2026_10_11 = {"bfo-2020", "cco-2.2", "nist-csf-2.0", "nist-csf-2.0-fr", "nist-sp800-53r5", "nist-cprt-csf", "nist-csf11-80053", "nist-olir-80053-27001",
     "iso-iec-27002-2022", "cobit-2019", "csa-ccm-4.1", "mitre-attack-19.2", "mitre-capec-3.9", "mitre-d3fend-1.6.0", "mitre-cwe-via-d3fend", "cisa-kev",
@@ -72,6 +72,7 @@ RECORDS_2026_10_11 = {"bfo-2020", "cco-2.2", "nist-csf-2.0", "nist-csf-2.0-fr", 
     "teaching-cases", "iso-27005-31000-sp80030"}
 RECORDS_PCA = {"iso-37301-2021-amd1-2024"}  # 0.10.0 (policy, compliance and audit management)
 RECORDS_SECOPS = {"nist-sp800-61r3", "ocsf-1.9.0", "sigma-spec-2.1.0", "oasis-stix-2.1", "oasis-cacao-2.0", "first-tlp-2.0", "otel-logs"}  # 0.10.0 SIEM/SOAR
+RECORDS_0101 = {"leger-cyber-gov-3e-v2.51"}  # 0.10.1: the textbook the CRG method follows (approved 2026-10-23)
 reg = list(csv.DictReader(open(os.path.join(ROOT, "docs", "baseline", "source_registry.csv"), encoding="utf-8")))
 known = set()
 for r in reg:
@@ -89,9 +90,10 @@ for r in reg:
         gs.add((s, T("hasAccessStatus"), T(ACCESS[r["access_status"]])))
     # the group approval sources/records of 2026-10-11 covers the 29 records that existed then; later records have their own group
     group = ("sources/records" if r["source_id"] in RECORDS_2026_10_11 else "sources/records-pca" if r["source_id"] in RECORDS_PCA
-             else "sources/records-secops" if r["source_id"] in RECORDS_SECOPS else "sources/records-grca")
+             else "sources/records-secops" if r["source_id"] in RECORDS_SECOPS else "sources/records-0101" if r["source_id"] in RECORDS_0101
+             else "sources/records-grca")
     gov(gs, s, group, "H", "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)",
-        "0.10.0" if r["source_id"] in RECORDS_PCA | RECORDS_SECOPS else "0.9.0")
+        "0.10.1" if r["source_id"] in RECORDS_0101 else "0.10.0" if r["source_id"] in RECORDS_PCA | RECORDS_SECOPS else "0.9.0")
 for k, srcs in SCHEME_SOURCES.items():
     for sid in srcs:
         assert sid in known, sid

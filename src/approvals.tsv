@@ -466,3 +466,8 @@ adr/ADR-010-011	Approve	MAL	2026-10-13	0.10.0 final review group 5
 contracts/compliance-v1	Approve	MAL	2026-10-13	0.10.0 final review group 6
 contracts/secops-v1	Approve	MAL	2026-10-13	0.10.0 final review group 6
 tests/0.10.0	Approve	MAL	2026-10-13	0.10.0 final review group 7
+changes/0.10.1	Approve	MAL	2026-10-23	0.10.1 ("apply the fixes"): CRG terminology of the textbook v2.51: KRIQuantity labelled risk index / indice de risque ('KRI value' kept as a retired alternative label with an editorial note), MethodCRG_v1_0c definition and LegacyKRIQuantity rationale reworded
+sources/records-0101	Approve	MAL	2026-10-23	0.10.1: source record of the textbook Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51
+data/0.10.1-medibec	Approve	MAL	2026-10-23	0.10.1: MediBec S2 and S8 CVSS vectors AV:N -> AV:L (9.3, 9.2; FIRST CVSS v4.0 user guide), CRG regression 84,305 / 41,023 (tests/crg and the case scenarios of the library)
+tooling/0.10.1	Approve	MAL	2026-10-23	0.10.1: evidence markers 'Analytical estimate — validation required', 'Information gap — organizational validation required', 'Management decision required' in the query interface, MCP tools and DSS caveats; CRG bridge reads stored sensitivity cases when the CRG Core calculator has no shift()
+tests/0.10.1	Approve	MAL	2026-10-23	0.10.1: MediBec regression expectations (round trip, check.sh step 8, CQ14)
