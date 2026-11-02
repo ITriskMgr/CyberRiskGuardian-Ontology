@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-iam-coverage-drops-unknown> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: unknown items must not be dropped" .
+
+x:o a crgo:CRGO_0001383 ;
+    crgo:CRGO_0000407 x:src ;
+    crgo:CRGO_0000408 x:kri ;
+    crgo:CRGO_0000458 "2026-10-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001558 "3"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001573 "9"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001574 "10"^^xsd:nonNegativeInteger .
+

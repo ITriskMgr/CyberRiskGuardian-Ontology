@@ -1,0 +1,472 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix nordelle: <https://example.org/crgo-sample/nordelle/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-sample/nordelle-iam> a owl:Ontology ;
+    rdfs:label "Nordelle Market inc. - SYNTHETIC identity, privilege and configuration registers for CRGO 0.11.0"@en ;
+    dcterms:type "synthetic test data" ;
+    vann:preferredNamespaceUri "https://example.org/crgo-sample/nordelle/" ;
+    owl:imports <https://example.org/crgo-sample/nordelle-secops>,
+        crgo:crgo-iam,
+        <https://w3id.org/crgo/vocab/cis81>,
+        <https://w3id.org/crgo/vocab/naics-sectors> .
+
+<https://example.org/crgo-sample/nordelle/access-review/2026-q3> a owl:NamedIndividual,
+        crgo:CRGO_0001354 ;
+    rdfs:label "Q3 2026 access review campaign"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000472 "All privileged roles and the finance application" ;
+    crgo:CRGO_0000868 "2026-09-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001565 "240"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001566 "228"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001567 "19"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001568 "15"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001569 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001570 "2026-10-04T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/account/iam-lead-admin> a owl:NamedIndividual,
+        crgo:CRGO_0001338 ;
+    rdfs:label "Administrative account of the IAM lead"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001492 <https://example.org/crgo-sample/nordelle/identity/iam-lead> ;
+    crgo:CRGO_0001493 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
+
+<https://example.org/crgo-sample/nordelle/asset/support-assistant> a owl:NamedIndividual,
+        crgo:CRGO_0001327 ;
+    rdfs:label "Customer-support assistant (fictional generative AI application)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0001485 <https://example.org/crgo-sample/nordelle/asset/support-model> .
+
+<https://example.org/crgo-sample/nordelle/change/CHG-1042> a owl:NamedIndividual,
+        crgo:CRGO_0001378 ;
+    rdfs:label "Re-apply key-only SSH on the three servers"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000878 "2026-10-29T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001547 <https://example.org/crgo-sample/nordelle/ci/linux-app-servers> ;
+    crgo:CRGO_0001548 crgo:CRGO_0001464 ;
+    crgo:CRGO_0001549 <https://example.org/crgo-sample/nordelle/asset/order-app> ;
+    crgo:CRGO_0001579 "CHG-1042" ;
+    crgo:CRGO_0001580 true .
+
+<https://example.org/crgo-sample/nordelle/change/fw-2026-10-27> a owl:NamedIndividual,
+        crgo:CRGO_0001378 ;
+    rdfs:label "Firewall rule opened to the kiosks network without a ticket"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000878 "2026-10-27T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001547 <https://example.org/crgo-sample/nordelle/asset/payment-service> ;
+    crgo:CRGO_0001548 crgo:CRGO_0001466 ;
+    crgo:CRGO_0001580 false .
+
+<https://example.org/crgo-sample/nordelle/crypto/order-app-tls> a owl:NamedIndividual,
+        crgo:CRGO_0001331 ;
+    rdfs:label "Key exchange and signature of the online shop's TLS"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001489 <https://example.org/crgo-sample/nordelle/asset/order-app> ;
+    crgo:CRGO_0001490 crgo:CRGO_0001404 ;
+    crgo:CRGO_0001552 "RSA-2048 / ECDHE P-256" ;
+    crgo:CRGO_0001553 "7"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/decision/approve-linux-baseline-v2> a owl:NamedIndividual,
+        crgo:CRGO_0000504 ;
+    rdfs:label "CISO approves version 2 of the Linux server baseline"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000730 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0000731 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000732 crgo:CRGO_0000588 ;
+    crgo:CRGO_0000840 "2026-05-20T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/dependency/orders-db> a owl:NamedIndividual,
+        crgo:CRGO_0001361 ;
+    rdfs:label "The order application depends on the database credential"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001517 <https://example.org/crgo-sample/nordelle/credential/svc-orders-db> ;
+    crgo:CRGO_0001518 <https://example.org/crgo-sample/nordelle/asset/order-app> .
+
+<https://example.org/crgo-sample/nordelle/deviation/kiosks-stale> a owl:NamedIndividual,
+        crgo:CRGO_0001377 ;
+    rdfs:label "Seven kiosks without a configuration observation in 30 days"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000464 "2026-10-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000846 "2026-10-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001542 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001543 <https://example.org/crgo-sample/nordelle/population/kiosks> ;
+    crgo:CRGO_0001545 crgo:CRGO_0001460 ;
+    crgo:CRGO_0001572 "7"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/deviation/legacy-pos-edr> a owl:NamedIndividual,
+        crgo:CRGO_0001377 ;
+    rdfs:label "No EDR agent on the legacy point-of-sale server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000464 "2026-10-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000846 "2026-07-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001542 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001543 <https://example.org/crgo-sample/nordelle/ci/legacy-pos-server> ;
+    crgo:CRGO_0001545 crgo:CRGO_0001458 ;
+    crgo:CRGO_0001546 <https://example.org/crgo-sample/nordelle/exception/edr-legacy-pos> ;
+    crgo:CRGO_0001572 "1"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/deviation/ssh-passwords> a owl:NamedIndividual,
+        crgo:CRGO_0001377 ;
+    rdfs:label "Password authentication re-enabled on three Linux servers"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000464 "2026-10-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000846 "2026-10-20T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001542 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001543 <https://example.org/crgo-sample/nordelle/ci/linux-app-servers> ;
+    crgo:CRGO_0001544 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2/ssh-no-password> ;
+    crgo:CRGO_0001545 crgo:CRGO_0001455 ;
+    crgo:CRGO_0001572 "3"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/emergency-use/2026-09-02> a owl:NamedIndividual,
+        crgo:CRGO_0001363 ;
+    rdfs:label "Use of emergency account 01 during the September kiosk malware incident"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000878 "2026-09-02T22:40:00"^^xsd:dateTime ;
+    crgo:CRGO_0001520 <https://example.org/crgo-sample/nordelle/account/break-glass-01> ;
+    crgo:CRGO_0001522 crgo:CRGO_0001450 .
+
+<https://example.org/crgo-sample/nordelle/finding/svc-ownerless> a owl:NamedIndividual,
+        crgo:CRGO_0001364 ;
+    rdfs:label "Nine service accounts have no accountable owner"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/iam-export-2026-10> ;
+    crgo:CRGO_0001523 <https://example.org/crgo-sample/nordelle/population/service> .
+
+<https://example.org/crgo-sample/nordelle/impact/CHG-1042> a owl:NamedIndividual,
+        crgo:CRGO_0001381 ;
+    rdfs:label "CHG-1042 may interrupt the order application during restart"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001549 <https://example.org/crgo-sample/nordelle/asset/order-app> .
+
+<https://example.org/crgo-sample/nordelle/kri-observation/known-configuration-2026-10> a owl:NamedIndividual,
+        crgo:CRGO_0001383 ;
+    rdfs:label "Known configuration coverage, October 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000407 <https://example.org/crgo-sample/nordelle/source/iam-registers> ;
+    crgo:CRGO_0000408 <https://example.org/crgo-sample/nordelle/kri/known-configuration> ;
+    crgo:CRGO_0000458 "2026-10-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001558 "7"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001573 "15"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001574 "22"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/kri-observation/privileged-mfa-2026-10> a owl:NamedIndividual,
+        crgo:CRGO_0001383 ;
+    rdfs:label "Privileged MFA coverage, October 2026"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000407 <https://example.org/crgo-sample/nordelle/source/iam-registers> ;
+    crgo:CRGO_0000408 <https://example.org/crgo-sample/nordelle/kri/privileged-mfa> ;
+    crgo:CRGO_0000458 "2026-10-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001558 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001573 "9"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001574 "10"^^xsd:nonNegativeInteger .
+
+nordelle:org crgo:CRGO_0000474 "usesTechnology" ;
+    crgo:CRGO_0001479 crgo:CRGO_0001397,
+        crgo:CRGO_0001398,
+        crgo:CRGO_0001399 ;
+    crgo:CRGO_0001480 crgo:CRGO_0001411 ;
+    crgo:CRGO_0001481 crgo:CRGO_0001415 ;
+    crgo:CRGO_0001482 <https://w3id.org/crgo/vocab/naics-sectors/44-45> .
+
+<https://example.org/crgo-sample/nordelle/population/ai-agents> a owl:NamedIndividual,
+        crgo:CRGO_0001384 ;
+    rdfs:label "Accounts used by AI agents"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000855 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Accounts used by AI agents"@en ;
+    crgo:CRGO_0001528 crgo:CRGO_0001439 ;
+    crgo:CRGO_0001554 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001556 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001557 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001558 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001561 "2026-10-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001564 "Directory export of 2026-10-15, counted by the IAM lead" .
+
+<https://example.org/crgo-sample/nordelle/population/contractors> a owl:NamedIndividual,
+        crgo:CRGO_0001384 ;
+    rdfs:label "Contractor and vendor accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000855 "35"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Contractor and vendor accounts"@en ;
+    crgo:CRGO_0001528 crgo:CRGO_0001437 ;
+    crgo:CRGO_0001554 "30"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001556 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001557 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001558 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001561 "2026-10-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001564 "Directory export of 2026-10-15, counted by the IAM lead" .
+
+<https://example.org/crgo-sample/nordelle/population/emergency> a owl:NamedIndividual,
+        crgo:CRGO_0001385 ;
+    rdfs:label "Emergency access accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000855 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Emergency access accounts"@en ;
+    crgo:CRGO_0001522 crgo:CRGO_0001450 ;
+    crgo:CRGO_0001528 crgo:CRGO_0001440 ;
+    crgo:CRGO_0001531 <https://example.org/crgo-sample/nordelle/control/break-glass-protection> ;
+    crgo:CRGO_0001554 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001556 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001557 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001558 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001561 "2026-10-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001562 "2026-04-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001563 "2026-09-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001564 "Directory export of 2026-10-15, counted by the IAM lead" .
+
+<https://example.org/crgo-sample/nordelle/population/employees> a owl:NamedIndividual,
+        crgo:CRGO_0001384 ;
+    rdfs:label "Employee accounts in the corporate directory"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> ;
+    crgo:CRGO_0000855 "420"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Employee accounts in the corporate directory"@en ;
+    crgo:CRGO_0001528 crgo:CRGO_0001436 ;
+    crgo:CRGO_0001554 "400"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "120"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001556 "12"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001557 "3"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001558 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001561 "2026-10-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001564 "Directory export of 2026-10-15, counted by the IAM lead" .
+
+<https://example.org/crgo-sample/nordelle/population/role-idp-global-admin> a owl:NamedIndividual,
+        crgo:CRGO_0001386 ;
+    rdfs:label "Holders of the identity provider global administrator role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000855 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001092 "2026-09-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001529 crgo:CRGO_0001443 ;
+    crgo:CRGO_0001530 <https://example.org/crgo-sample/nordelle/role/idp-global-admin> ;
+    crgo:CRGO_0001554 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001559 "3"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001560 "1"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001564 "Identity provider role report" .
+
+<https://example.org/crgo-sample/nordelle/population/role-prod-dba> a owl:NamedIndividual,
+        crgo:CRGO_0001386 ;
+    rdfs:label "Holders of the production database administrator role"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000855 "6"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001092 "2026-09-28T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001529 crgo:CRGO_0001444 ;
+    crgo:CRGO_0001530 <https://example.org/crgo-sample/nordelle/role/prod-dba> ;
+    crgo:CRGO_0001554 "5"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001559 "6"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001560 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001564 "Database role report" .
+
+<https://example.org/crgo-sample/nordelle/sod-conflict/vendor-payment-2026-10> a owl:NamedIndividual,
+        crgo:CRGO_0001366 ;
+    rdfs:label "Three identities can create vendors and approve payments"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000213 <https://example.org/crgo-sample/nordelle/evidence/iam-export-2026-10> ;
+    crgo:CRGO_0001524 <https://example.org/crgo-sample/nordelle/sod/vendor-payment> ;
+    crgo:CRGO_0001525 <https://example.org/crgo-sample/nordelle/control/vendor-master-review> ;
+    crgo:CRGO_0001571 "3"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-sample/nordelle/account/break-glass-01> a owl:NamedIndividual,
+        crgo:CRGO_0001340 ;
+    rdfs:label "Shared emergency access account 01"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0001493 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
+
+<https://example.org/crgo-sample/nordelle/account/svc-orders> a owl:NamedIndividual,
+        crgo:CRGO_0001339 ;
+    rdfs:label "Service account of the order application"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0001493 <https://example.org/crgo-sample/nordelle/asset/identity-service> .
+
+<https://example.org/crgo-sample/nordelle/asset/cert-shop> a owl:NamedIndividual,
+        crgo:CRGO_0001330 ;
+    rdfs:label "TLS certificate of the online shop (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000838 "2027-01-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/asset/support-model> a owl:NamedIndividual,
+        crgo:CRGO_0001329 ;
+    rdfs:label "Hosted language model used by the support assistant (fictional)"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/asset/vault> a owl:NamedIndividual,
+        crgo:CRGO_0001343 ;
+    rdfs:label "Secrets vault (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/iam-lead> .
+
+<https://example.org/crgo-sample/nordelle/baseline/linux-server/v2/ssh-no-password> a owl:NamedIndividual,
+        crgo:CRGO_0001375 ;
+    rdfs:label "SSH accepts keys only (no password authentication)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001538 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001539 <https://w3id.org/crgo/vocab/cis81/4.1> ;
+    crgo:CRGO_0001575 "all servers of the baseline" .
+
+<https://example.org/crgo-sample/nordelle/ci/legacy-pos-server> a owl:NamedIndividual,
+        crgo:CRGO_0001371 ;
+    rdfs:label "Configuration item: legacy point-of-sale server"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0001534 <https://example.org/crgo-sample/nordelle/asset/legacy-pos-server> ;
+    crgo:CRGO_0001535 <https://example.org/crgo-sample/nordelle/asset/payment-service> ;
+    crgo:CRGO_0001537 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001577 "production" .
+
+<https://example.org/crgo-sample/nordelle/control/break-glass-protection> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Emergency accounts held in the vault with split knowledge and alerting on use"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/control/vendor-master-review> a owl:NamedIndividual,
+        crgo:CRGO_0000020 ;
+    rdfs:label "Monthly review of vendor master changes by the controller"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/compliance> ;
+    crgo:CRGO_0000210 crgo:CRGO_0000098 .
+
+<https://example.org/crgo-sample/nordelle/credential/svc-orders-db> a owl:NamedIndividual,
+        crgo:CRGO_0001360 ;
+    rdfs:label "Database credential of the order application (metadata only)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001515 <https://example.org/crgo-sample/nordelle/asset/vault> ;
+    crgo:CRGO_0001516 <https://example.org/crgo-sample/nordelle/account/svc-orders> ;
+    crgo:CRGO_0001581 "kv/orders/db-login" ;
+    crgo:CRGO_0001582 "2026-07-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/entitlement/payment-approve> a owl:NamedIndividual,
+        crgo:CRGO_0001347 ;
+    rdfs:label "Approve vendor payments in the finance application"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/entitlement/vendor-create> a owl:NamedIndividual,
+        crgo:CRGO_0001347 ;
+    rdfs:label "Create or change a vendor in the finance application"@en ;
+    dcterms:type "synthetic test data" .
+
+<https://example.org/crgo-sample/nordelle/identity/iam-lead> a owl:NamedIndividual,
+        crgo:CRGO_0001333 ;
+    rdfs:label "Identity of the IAM lead (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001491 <https://example.org/crgo-sample/nordelle/person/iam-lead> .
+
+<https://example.org/crgo-sample/nordelle/kri/known-configuration> a owl:NamedIndividual,
+        crgo:CRGO_0001382 ;
+    rdfs:label "Known configuration coverage"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000274 "Configuration items with a current authoritative observation, over all configuration items; unknown shown separately"@en ;
+    crgo:CRGO_0001532 crgo:CRGO_0001475 .
+
+<https://example.org/crgo-sample/nordelle/kri/privileged-mfa> a owl:NamedIndividual,
+        crgo:CRGO_0001382 ;
+    rdfs:label "Privileged MFA coverage"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000274 "Holders of tier 0 and tier 1 roles with MFA, over all holders of those roles"@en ;
+    crgo:CRGO_0001532 crgo:CRGO_0001470 .
+
+<https://example.org/crgo-sample/nordelle/population/kiosks> a owl:NamedIndividual,
+        crgo:CRGO_0000528 ;
+    rdfs:label "Store kiosks (7)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000855 "7"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "The seven store kiosks"@en .
+
+<https://example.org/crgo-sample/nordelle/population/service> a owl:NamedIndividual,
+        crgo:CRGO_0001384 ;
+    rdfs:label "Service and workload accounts"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000855 "60"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0000856 "Service and workload accounts"@en ;
+    crgo:CRGO_0001528 crgo:CRGO_0001438 ;
+    crgo:CRGO_0001554 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "0"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001556 "6"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001557 "9"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001558 "5"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001561 "2026-10-15T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001564 "Directory export of 2026-10-15, counted by the IAM lead" .
+
+<https://example.org/crgo-sample/nordelle/role/idp-global-admin> a owl:NamedIndividual,
+        crgo:CRGO_0001346 ;
+    rdfs:label "Identity provider global administrator"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001505 <https://example.org/crgo-sample/nordelle/asset/identity-service> ;
+    crgo:CRGO_0001529 crgo:CRGO_0001443 .
+
+<https://example.org/crgo-sample/nordelle/role/prod-dba> a owl:NamedIndividual,
+        crgo:CRGO_0001346 ;
+    rdfs:label "Production database administrator"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001505 <https://example.org/crgo-sample/nordelle/asset/customer-db> ;
+    crgo:CRGO_0001529 crgo:CRGO_0001444 .
+
+<https://example.org/crgo-sample/nordelle/sod/vendor-payment> a owl:NamedIndividual,
+        crgo:CRGO_0001350 ;
+    rdfs:label "No one may both create vendors and approve their payments"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001501 <https://example.org/crgo-sample/nordelle/entitlement/payment-approve>,
+        <https://example.org/crgo-sample/nordelle/entitlement/vendor-create> .
+
+<https://example.org/crgo-sample/nordelle/ci/linux-app-servers> a owl:NamedIndividual,
+        crgo:CRGO_0001371 ;
+    rdfs:label "Configuration item group: Linux application servers (14)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0001534 <https://example.org/crgo-sample/nordelle/asset/order-app> ;
+    crgo:CRGO_0001537 <https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> ;
+    crgo:CRGO_0001577 "production" .
+
+<https://example.org/crgo-sample/nordelle/evidence/iam-export-2026-10> a owl:NamedIndividual,
+        crgo:CRGO_0000515 ;
+    rdfs:label "Directory and finance-application role exports, 2026-10-15"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "E-IAM-01" ;
+    crgo:CRGO_0000848 "2026-10-15T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/source/iam-registers> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Nordelle identity and configuration registers (fictional)"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000250 "SRC-IAM" ;
+    crgo:CRGO_0000450 "2026-10" ;
+    crgo:CRGO_0000452 "Nordelle IT (fictional)" ;
+    crgo:CRGO_0000453 "internal" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://example.org/crgo-sample/nordelle/asset/order-app> crgo:CRGO_0000191 <https://example.org/crgo-sample/nordelle/asset/cert-shop> .
+
+<https://example.org/crgo-sample/nordelle/baseline/linux-server/v2> a owl:NamedIndividual,
+        crgo:CRGO_0001374 ;
+    rdfs:label "Linux server baseline, version 2"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0000185 <https://example.org/crgo-sample/nordelle/person/itops> ;
+    crgo:CRGO_0000844 "2" ;
+    crgo:CRGO_0000845 "2026-06-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001006 <https://example.org/crgo-sample/nordelle/baseline/linux-server> ;
+    crgo:CRGO_0001012 crgo:CRGO_0000923 ;
+    crgo:CRGO_0001068 "2027-06-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001575 "Ubuntu 22.04 and 24.04 servers" ;
+    crgo:CRGO_0001576 "Adapted from a CIS Benchmark for Ubuntu Linux; benchmark licence CC BY-NC-SA 4.0 (internal use)" .
+

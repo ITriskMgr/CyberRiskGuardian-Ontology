@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-iam-population-phishing-resistant-exceeds-mfa> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: Phishing-resistant MFA is a kind of MFA" .
+
+x:pop a crgo:CRGO_0001384 ;
+    crgo:CRGO_0000185 x:owner ;
+    crgo:CRGO_0000855 "10"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001528 crgo:CRGO_0001436 ;
+    crgo:CRGO_0001554 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001555 "6"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001564 "directory export" .
+

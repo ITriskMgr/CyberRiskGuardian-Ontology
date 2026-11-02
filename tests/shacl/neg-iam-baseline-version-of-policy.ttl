@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-iam-baseline-version-of-policy> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: must be a version of a configuration baseline" .
+
+x:v a crgo:CRGO_0001374 ;
+    crgo:CRGO_0000185 x:owner ;
+    crgo:CRGO_0001006 x:pol ;
+    crgo:CRGO_0001068 "2027-01-01T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001575 "Linux" .
+
+x:pol a crgo:CRGO_0000497 .
+

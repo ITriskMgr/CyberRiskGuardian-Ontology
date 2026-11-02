@@ -20,14 +20,15 @@ import spec_v09 as V9  # noqa: E402
 import spec_grca as VG  # noqa: E402
 import spec_pca as VP  # noqa: E402
 import spec_secops as VS  # noqa: E402
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS
+import spec_v011 as V11  # noqa: E402
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS + V11.OBJECT_PROPERTIES_V011
 ids = dict(l.rstrip("\n").split("\t") for l in open(os.path.join(ROOT, "src", "ids.tsv"), encoding="utf-8"))
 C = lambda k: URIRef("https://w3id.org/crgo/CRGO_%07d" % int(ids[k]))
 SH = Namespace("http://www.w3.org/ns/shacl#")
 S = Namespace("https://w3id.org/crgo/shapes/")
 g = Graph(); g.bind("sh", SH); g.bind("crgo", "https://w3id.org/crgo/"); g.bind("shape", S); g.bind("xsd", XSD); g.bind("skos", SKOS)
 o = URIRef("https://w3id.org/crgo/shapes")
-g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.10.0")))
+g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.11.0")))
 
 def shape(name, target, msg_en):
     s = S[name]
@@ -534,6 +535,83 @@ req(s, "measurementOf", "what was measured", "A response effectiveness measureme
 prop(s, C("valueHours"), "A response effectiveness measurement needs exactly one non-negative value in hours.", minCount=1, maxCount=1, minInclusive=Literal(0, datatype=XSD.decimal))
 s = shape("PlaybookSimulation", ("class", C("PlaybookSimulation")), "Simulations name the playbook version run.")
 req(s, "simulatedPlaybook", "the playbook version", "A playbook simulation")
+
+
+# 9. 0.11.0: identity, privilege and configuration registers (CyberRiskGuardian 1.9.0 decision record; spec v1.1 sections 5, 6.4,
+# 9.2-9.5, 23.7) and technology context. SHACL checks the required metadata OWL does not close (spec v1.1 section 9.5); none of
+# these shapes approves access or accepts a risk.
+def not_more(s, part, whole, msg):
+    sparql(s, msg, """SELECT $this WHERE { $this %s ?p ; %s ?w . FILTER(?p > ?w) }""" % (P(part), P(whole)))
+s = shape("AccountPopulation", ("class", C("AccountPopulation")), "Account populations: type, total, owner, source; counts never exceed the total (register 1).")
+req(s, "hasAccountType", "the account type", "An account population"); req(s, "populationSize", "the total count", "An account population")
+req(s, "hasOwner", "an owner", "An account population", one=False); req(s, "registerSource", "the source of its counts", "An account population", one=False)
+for part in ("mfaCount", "phishingResistantMfaCount", "dormantCount", "ownerlessCount", "unknownStateCount"):
+    not_more(s, part, "populationSize", "A count of an account population cannot exceed its total (%s)." % part)
+not_more(s, "phishingResistantMfaCount", "mfaCount", "Phishing-resistant MFA is a kind of MFA: its count cannot exceed the MFA count.")
+s = shape("AccountPopulationNoNames", ("class", C("AccountPopulation")), "Registers hold counts per population, never individual accounts (decision record).")
+sparql(s, "An account population must not list individual accounts or identities; record counts only.", """SELECT $this WHERE {
+  { ?x %s $this } UNION { $this %s ?x } UNION { $this %s ?x } }""" % (P("memberOfGroup"), P("accountOfIdentity"), P("representsAgent")))
+s = shape("EmergencyAccessPopulation", ("class", C("EmergencyAccessPopulation")), "Emergency access: type emergency, last test, review state, protective controls (register 3).")
+req(s, "lastTestedOn", "the date of the last test", "An emergency access account population"); req(s, "hasEmergencyReviewState", "the review state of the last use", "An emergency access account population")
+req(s, "protectedByMeasure", "a protective control", "An emergency access account population", one=False)
+sparql(s, "An emergency access account population must have the account type 'emergency access accounts'.", """SELECT $this WHERE {
+  FILTER NOT EXISTS { $this %s %s } }""" % (P("hasAccountType"), P("AcctEmergency")))
+sparql(s, "Emergency access used since the last review needs a post-use review state other than 'not used'.", """SELECT $this WHERE {
+  $this %s ?used ; %s %s ; %s ?tested . FILTER(?used > ?tested) }""" % (P("lastUsedOn"), P("hasEmergencyReviewState"), P("EmergNotUsed"), P("lastTestedOn")))
+s = shape("PrivilegedRolePopulation", ("class", C("PrivilegedRolePopulation")), "Privileged role holders: role, tier, count, owner; standing plus just-in-time never exceed holders (register 2).")
+for k, w in (("populationOfRole", "the privileged role"), ("hasPrivilegeTier", "the privilege tier"), ("populationSize", "the number of holders")):
+    req(s, k, w, "A privileged role holder population")
+req(s, "hasOwner", "an owner", "A privileged role holder population", one=False)
+sparql(s, "Standing and just-in-time holders together cannot exceed the number of holders.", """SELECT $this WHERE {
+  $this %s ?st ; %s ?jit ; %s ?n . FILTER(?st + ?jit > ?n) }""" % (P("standingCount"), P("justInTimeCount"), P("populationSize")))
+not_more(s, "mfaCount", "populationSize", "Holders with MFA cannot exceed the number of holders.")
+s = shape("AccessReviewCampaign", ("class", C("AccessReviewCampaign")), "Access review campaigns: scope, due date, counts (register 4).")
+req(s, "assessmentScope", "its scope", "An access review campaign", one=False); req(s, "dueOn", "its due date", "An access review campaign")
+req(s, "itemsDue", "the number of items due", "An access review campaign"); req(s, "itemsCompleted", "the number of items completed", "An access review campaign")
+not_more(s, "itemsCompleted", "itemsDue", "An access review campaign cannot complete more items than were due.")
+not_more(s, "revocationsVerified", "revocationsRequested", "More revocations verified than requested.")
+s = shape("SegregationOfDutiesConflict", ("class", C("SegregationOfDutiesConflict")), "SoD conflicts: rule, count, owner (register 6).")
+req(s, "conflictOfRule", "the rule breached", "A segregation-of-duties conflict"); req(s, "conflictCount", "the number of identities in conflict", "A segregation-of-duties conflict")
+req(s, "hasOwner", "an owner", "A segregation-of-duties conflict", one=False)
+s = shape("SegregationOfDutiesRule", ("class", C("SegregationOfDutiesRule")), "A segregation-of-duties rule names the combination it prohibits.")
+prop(s, C("prohibitsCombination"), "A segregation-of-duties rule must name at least two entitlements or roles it prohibits together.", minCount=2)
+s = shape("BaselineVersion", ("class", C("BaselineVersion")), "Baseline versions: of a configuration baseline, with owner, platforms and review date (register 5).")
+req(s, "hasOwner", "an owner", "A baseline version", one=False); req(s, "platformApplicability", "the platforms it applies to", "A baseline version", one=False)
+req(s, "reviewDueOn", "its review date", "A baseline version")
+one_of(s, "versionOfDirective", ["ConfigurationBaseline"], "A baseline version must be a version of a configuration baseline.")
+s = shape("BaselineDeviation", ("class", C("BaselineDeviation")), "Deviations: baseline version, drift class, first detection; compensated drift needs an unexpired exception (spec v1.1 section 6.4).")
+req(s, "deviationFromBaseline", "the baseline version", "A baseline deviation"); req(s, "hasDriftClass", "the drift class", "A baseline deviation")
+req(s, "identifiedOn", "the date first detected", "A baseline deviation"); req(s, "deviationAffects", "what deviates", "A baseline deviation", one=False)
+sparql(s, "A compensated deviation must be covered by a policy exception.", """SELECT $this WHERE {
+  $this %s %s . FILTER NOT EXISTS { $this %s ?e } }""" % (P("hasDriftClass"), P("DriftCompensated"), P("coveredByException")))
+sparql(s, "An expired exception never counts: a compensated deviation is covered by an exception that expired before the deviation was last checked.", """SELECT $this WHERE {
+  $this %s %s ; %s ?e ; %s ?seen . ?e %s ?until . FILTER NOT EXISTS { $this %s ?e2 . ?e2 %s ?u2 . FILTER(?u2 >= ?seen) } FILTER(?until < ?seen) }""" % (
+  P("hasDriftClass"), P("DriftCompensated"), P("coveredByException"), P("assessedOn"), P("validUntil"), P("coveredByException"), P("validUntil")))
+s = shape("ConfigurationChangeRecord", ("class", C("ConfigurationChangeRecord")), "Change records: class, item, verification; authorised changes name their ticket or decision (register 7).")
+req(s, "hasChangeClass", "the change class", "A configuration change record"); req(s, "changesItem", "what it changes", "A configuration change record", one=False)
+req(s, "changeVerified", "whether it was verified", "A configuration change record")
+sparql(s, "A standard, normal or emergency change must name its ticket or the decision that authorised it.", """SELECT $this WHERE {
+  $this %s ?c . FILTER(?c != %s) FILTER NOT EXISTS { $this %s ?t } FILTER NOT EXISTS { $this %s ?d } }""" % (
+  P("hasChangeClass"), P("ChangeUnauthorisedSuspected"), P("changeTicketReference"), P("authorisedByDecision")))
+s = shape("PrivilegeLease", ("class", C("PrivilegeLease")), "Privilege leases have an absolute expiry and an account (spec v1.1 section 5.2).")
+req(s, "validUntil", "an absolute expiry", "A privilege lease"); req(s, "elevatesAccount", "the account", "A privilege lease")
+s = shape("EmergencyUseEvent", ("class", C("EmergencyUseEvent")), "Emergency access uses: account, time, review state.")
+req(s, "emergencyUseOf", "the emergency access account", "An emergency access use"); req(s, "occurredAt", "the time", "An emergency access use")
+req(s, "hasEmergencyReviewState", "the review state", "An emergency access use")
+s = shape("CredentialReference", ("class", C("CredentialReference")), "Credential references name their vault (metadata only, never a secret).")
+req(s, "managedByVault", "the vault", "A credential reference")
+s = shape("CoverageObservation", ("class", C("CoverageObservation")), "Coverage observations: numerator, denominator and unknown count; unknowns stay in the denominator (decision record).")
+for k, w in (("numeratorCount", "the numerator"), ("denominatorCount", "the denominator"), ("unknownStateCount", "the number of unknown items")):
+    req(s, k, w, "A coverage observation")
+sparql(s, "Numerator and unknown items together cannot exceed the denominator: unknown items must not be dropped from it.", """SELECT $this WHERE {
+  $this %s ?n ; %s ?u ; %s ?d . FILTER(?n + ?u > ?d) }""" % (P("numeratorCount"), P("unknownStateCount"), P("denominatorCount")))
+s = shape("IdentityFinding", ("class", C("IdentityFinding")), "Identity and privilege findings are backed by evidence (spec v1.1 section 9.2).")
+req(s, "hasEvidence", "its evidence", "An identity finding", one=False)
+s = shape("DigitalCertificate", ("class", C("DigitalCertificate")), "Certificates state when they expire (scenario pattern: certificate expiry).")
+req(s, "validUntil", "its expiry", "A digital certificate")
+s = shape("CryptographicUseRecord", ("class", C("CryptographicUseRecord")), "Cryptographic inventory entries: asset, algorithm, quantum status.")
+req(s, "cryptoUsedBy", "the asset", "A cryptographic inventory entry", one=False); req(s, "algorithmName", "the algorithm", "A cryptographic inventory entry")
+req(s, "hasQuantumStatus", "the quantum vulnerability status", "A cryptographic inventory entry")
 
 os.makedirs(os.path.join(ROOT, "shapes"), exist_ok=True)
 g.serialize(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"), format="turtle")

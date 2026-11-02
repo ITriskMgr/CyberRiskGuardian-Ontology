@@ -1,0 +1,13 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+
+<https://example.org/crgo-test/fixture/neg-iam-sod-rule-one-entitlement> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: must name at least two entitlements or roles" .
+
+x:r a crgo:CRGO_0001350 ;
+    crgo:CRGO_0001501 x:e1 .
+

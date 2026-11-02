@@ -103,6 +103,14 @@ if $ROBOT reason --input build/nordelle-0100-merged.ttl --reasoner HermiT --outp
 if $ROBOT validate-profile --input build/nordelle-0100-merged.ttl --profile DL --output build/nordelle-0100-profile.txt > /dev/null 2>&1; then
   echo "   nordelle-0100: in OWL 2 DL"; else echo "   nordelle-0100: NOT in OWL 2 DL"; fail=1; fi
 python3 tests/pca_cq/run_pca_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+# 0.11.0: identity, privilege and configuration registers and technology context (synthetic Nordelle)
+python3 tests/samples/make_nordelle_iam.py | sed 's/^/   /' || fail=1
+( cd tests/samples && $ROBOT merge --catalog catalog-v001.xml --input nordelle-iam.ttl --input nordelle-applicability.ttl --input tenant-b.ttl --output ../../build/nordelle-0110-merged.ttl > ../../build/nordelle-0110-merge.log 2>&1 )
+if $ROBOT reason --input build/nordelle-0110-merged.ttl --reasoner HermiT --output build/nordelle-0110-inferred.ttl > build/nordelle-0110-reason.log 2>&1; then
+  echo "   nordelle identity, privilege and configuration registers: consistent"; else echo "   nordelle-0110: INCONSISTENT (see build/nordelle-0110-reason.log)"; fail=1; fi
+if $ROBOT validate-profile --input build/nordelle-0110-merged.ttl --profile DL --output build/nordelle-0110-profile.txt > /dev/null 2>&1; then
+  echo "   nordelle-0110: in OWL 2 DL"; else echo "   nordelle-0110: NOT in OWL 2 DL"; fail=1; fi
+python3 tests/iam_cq/run_iam_cq.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
 
 echo "14. w3id.org redirect rules"
 python3 scripts/check_w3id.py | tail -1; [ ${PIPESTATUS[0]} = 0 ] || fail=1

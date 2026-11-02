@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:ep a crgo:CRGO_0001385 ;
+    crgo:CRGO_0000185 x:owner ;
+    crgo:CRGO_0000855 "2"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001522 crgo:CRGO_0001451 ;
+    crgo:CRGO_0001528 crgo:CRGO_0001440 ;
+    crgo:CRGO_0001531 x:ctl ;
+    crgo:CRGO_0001564 "vault report" .
+
+<https://example.org/crgo-test/fixture/neg-iam-emergency-never-tested> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: the date of the last test" .
+

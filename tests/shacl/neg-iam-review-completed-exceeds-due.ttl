@@ -1,0 +1,17 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+x:c a crgo:CRGO_0001354 ;
+    crgo:CRGO_0000472 "all" ;
+    crgo:CRGO_0000868 "2026-09-30T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0001565 "10"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001566 "12"^^xsd:nonNegativeInteger .
+
+<https://example.org/crgo-test/fixture/neg-iam-review-completed-exceeds-due> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: cannot complete more items than were due" .
+

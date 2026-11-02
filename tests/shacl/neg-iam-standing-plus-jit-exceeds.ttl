@@ -1,0 +1,19 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x: <https://example.org/crgo-test/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/crgo-test/fixture/neg-iam-standing-plus-jit-exceeds> a owl:Ontology ;
+    rdfs:comment "Negative fixture (0.11.0): must be rejected."@en ;
+    skos:note "expect: Standing and just-in-time holders together cannot exceed" .
+
+x:rp a crgo:CRGO_0001386 ;
+    crgo:CRGO_0000185 x:owner ;
+    crgo:CRGO_0000855 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001529 crgo:CRGO_0001443 ;
+    crgo:CRGO_0001530 x:role ;
+    crgo:CRGO_0001559 "4"^^xsd:nonNegativeInteger ;
+    crgo:CRGO_0001560 "2"^^xsd:nonNegativeInteger .
+
