@@ -21,6 +21,8 @@
   <uri name="https://w3id.org/crgo/crgo-compliance" uri="../../ontology/crgo-compliance.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-siem" uri="../../ontology/crgo-siem.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-soar" uri="../../ontology/crgo-soar.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-context" uri="../../ontology/crgo-context.ttl"/>
+  <uri name="https://w3id.org/crgo/crgo-iam" uri="../../ontology/crgo-iam.ttl"/>
   <uri name="https://w3id.org/crgo/crgo" uri="../../ontology/crgo.ttl"/>
   <uri name="https://w3id.org/crgo/crgo-full" uri="../../ontology/crgo-full.ttl"/>
   <uri name="https://w3id.org/crgo/data/library" uri="../../data/abox/crgo-library.ttl"/>
@@ -44,6 +46,12 @@
   <uri name="https://w3id.org/crgo/vocab/pipeda" uri="../../ontology/vocab/pipeda.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/gdpr" uri="../../ontology/vocab/gdpr.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/osfi-b13" uri="../../ontology/vocab/osfi-b13.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/cis81" uri="../../ontology/vocab/cis81.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/owasp-top10-2025" uri="../../ontology/vocab/owasp-top10-2025.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/owasp-llm-2025" uri="../../ontology/vocab/owasp-llm-2025.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/owasp-agentic-2026" uri="../../ontology/vocab/owasp-agentic-2026.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/naics-sectors" uri="../../ontology/vocab/naics-sectors.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/glossary" uri="../../ontology/vocab/glossary.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/legal" uri="../../ontology/vocab/legal.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sources" uri="../../ontology/vocab/sources.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sp800-53a" uri="../../ontology/vocab/sp800-53a.ttl"/>

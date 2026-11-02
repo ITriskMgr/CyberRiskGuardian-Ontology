@@ -18,13 +18,14 @@ import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, m
 import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
 import spec_pca as VP  # noqa: E402  (0.10.0: policy, compliance and audit management; decisions D1-D14)
 import spec_secops as VS  # noqa: E402  (0.10.0: SIEM and SOAR; decisions S1-S12)
-S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA); S.update(VP.SOURCES_PCA); S.update(VS.SOURCES_SECOPS)
-CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA + VP.CLASSES_PCA + VS.CLASSES_SECOPS
-VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA + VP.VALUE_SETS_PCA + VS.VALUE_SETS_SECOPS
-INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA + VP.INDIVIDUALS_PCA + VS.INDIVIDUALS_SECOPS
-OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS
-DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA + VP.DATA_PROPERTIES_PCA + VS.DATA_PROPERTIES_SECOPS
-EXTENSIONS = VP.EXTENSIONS_PCA + VS.EXTENSIONS_SECOPS  # members added to earlier value sets
+import spec_v011 as V11  # noqa: E402  (0.11.0: identity, privilege and configuration; technology and organisational context; MOACCO)
+S.update(V9.SOURCES_09); S.update(VG.SOURCES_GRCA); S.update(VP.SOURCES_PCA); S.update(VS.SOURCES_SECOPS); S.update(V11.SOURCES_V011)
+CLASSES = CLASSES + V9.CLASSES_09 + VG.CLASSES_GRCA + VP.CLASSES_PCA + VS.CLASSES_SECOPS + V11.CLASSES_V011
+VALUE_SETS = VALUE_SETS + V9.VALUE_SETS_09 + VG.VALUE_SETS_GRCA + VP.VALUE_SETS_PCA + VS.VALUE_SETS_SECOPS + V11.VALUE_SETS_V011
+INDIVIDUALS = INDIVIDUALS + V9.INDIVIDUALS_09 + VG.INDIVIDUALS_GRCA + VP.INDIVIDUALS_PCA + VS.INDIVIDUALS_SECOPS + V11.INDIVIDUALS_V011
+OBJECT_PROPERTIES = OBJECT_PROPERTIES + V9.OBJECT_PROPERTIES_09 + VG.OBJECT_PROPERTIES_GRCA + VP.OBJECT_PROPERTIES_PCA + VS.OBJECT_PROPERTIES_SECOPS + V11.OBJECT_PROPERTIES_V011
+DATA_PROPERTIES = DATA_PROPERTIES + V9.DATA_PROPERTIES_09 + VG.DATA_PROPERTIES_GRCA + VP.DATA_PROPERTIES_PCA + VS.DATA_PROPERTIES_SECOPS + V11.DATA_PROPERTIES_V011
+EXTENSIONS = VP.EXTENSIONS_PCA + VS.EXTENSIONS_SECOPS + V11.EXTENSIONS_V011  # members added to earlier value sets
 # Decision D9 (0.10.0): widenings of approved terms; fields replaced by key, with a change note on the term.
 CHANGE_NOTES = {}
 def _modify(rows, layout):
@@ -46,10 +47,10 @@ assert set(CHANGE_NOTES) == set(VP.MODIFY_PCA), set(VP.MODIFY_PCA) - set(CHANGE_
 assert not set(CHANGES_0101) & set(CHANGE_NOTES)
 CHANGE_NOTES.update(CHANGES_0101)
 
-VERSION = "0.10.1"
-PRIOR = "0.10.0"
-ISSUED = "2026-10-23"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325}  # highest term number introduced in each earlier release
+VERSION = "0.11.0"
+PRIOR = "0.10.1"
+ISSUED = "2026-11-02"
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325, "0.10.1": 1325}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -79,6 +80,9 @@ MODULES = {
     "compliance": ("crgo-compliance", "CyberRiskGuardian Ontology - compliance management module", "Ontologie CyberRiskGuardian - module de gestion de la conformité", ["grc", "policy"]),
     "siem": ("crgo-siem", "CyberRiskGuardian Ontology - security monitoring and detection (SIEM) module", "Ontologie CyberRiskGuardian - module de surveillance et de détection de sécurité (SIEM)", ["incident", "grc"]),
     "soar": ("crgo-soar", "CyberRiskGuardian Ontology - security orchestration, automation and response (SOAR) module", "Ontologie CyberRiskGuardian - module d'orchestration, d'automatisation et de réponse de sécurité (SOAR)", ["siem", "audit"]),
+    # 0.11.0 (CyberRiskGuardian 1.9.0 decision record, 2026-11-02)
+    "context": ("crgo-context", "CyberRiskGuardian Ontology - technology and organisational context module", "Ontologie CyberRiskGuardian - module du contexte technologique et organisationnel", ["grc"]),
+    "iam": ("crgo-iam", "CyberRiskGuardian Ontology - identity, privilege and configuration module", "Ontologie CyberRiskGuardian - module des identités, des privilèges et des configurations", ["soar", "context"]),
 }
 IMPORTS = {"IMPORT:bfo": "http://purl.obolibrary.org/obo/bfo.owl", "IMPORT:cco": BASE + "imports/cco-slice",
            "IMPORT:prov": BASE + "imports/prov-slice", "IMPORT:time": BASE + "imports/time-slice"}
@@ -248,9 +252,13 @@ for key, module, en, fr, den, dfr, srcs, members in VALUE_SETS:
         record("value", module, mk, men, mfr, mden, mdfr, en, srcs, "H", "")
 
 # ---------------------------------------------------------------- members added to earlier value sets (0.10.0)
-for vskey, module, srcs, members in EXTENSIONS:
+_ext_seen = {}  # 0.11.0: a value set may be extended more than once (ConditionKind in 0.10.0 and 0.11.0); notations continue
+_ext_release = {id(e): "0.11.0" for e in V11.EXTENSIONS_V011}
+for ext in EXTENSIONS:
+    vskey, module, srcs, members = ext
     g = graphs[module]; c = iri(vskey); sch = iri(vskey + "Scheme")
-    base_n = len(next(v for v in VALUE_SETS if v[0] == vskey)[7])
+    base_n = len(next(v for v in VALUE_SETS if v[0] == vskey)[7]) + _ext_seen.get(vskey, 0)
+    _ext_seen[vskey] = _ext_seen.get(vskey, 0) + len(members)
     en_vs = next(v for v in VALUE_SETS if v[0] == vskey)[2]
     for i, (mk, men, mfr, mden, mdfr) in enumerate(members, base_n + 1):
         m = iri(mk)
@@ -259,7 +267,7 @@ for vskey, module, srcs, members in EXTENSIONS:
         g.add((m, SKOS.notation, Literal(str(i))))
         labels(g, m, men, mfr, mden, mdfr)
         gov(g, m, srcs, "H", "")
-        record("value", module, mk, men, mfr, mden, mdfr, en_vs, srcs, "H", "added in 0.10.0")
+        record("value", module, mk, men, mfr, mden, mdfr, en_vs, srcs, "H", "added in " + _ext_release.get(id(ext), "0.10.0"))
 
 # ---------------------------------------------------------------- disjointness (approved 2026-10-10, Phase 4 review)
 # Value sets are pairwise disjoint (a confidence level is never a threat source type); each module states it for the
@@ -281,7 +289,7 @@ for m, seen in SEES.items():
 graphs["core"].add((iri("LibraryScenario"), OWL.disjointWith, iri("AssessmentScenario")))
 MODULE_OF = {c[0]: c[1] for c in CLASSES}
 ORDER = list(MODULES)
-for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA + VP.DISJOINT_PCA + VS.DISJOINT_SECOPS:  # stated in the module that sees both
+for a, b in V9.DISJOINT_09 + VG.DISJOINT_GRCA + VP.DISJOINT_PCA + VS.DISJOINT_SECOPS + V11.DISJOINT_V011:  # stated in the module that sees both
     ma, mb = MODULE_OF[a], MODULE_OF[b]
     home = ma if mb in SEES[ma] else mb if ma in SEES[mb] else next((m for m in MODULES if ma in SEES[m] and mb in SEES[m]), None)
     assert home, "no module sees both %s and %s" % (a, b)
@@ -340,6 +348,13 @@ for k, note in EDITORIAL_0101.items():  # 0.10.1: e.g. a retired alternative lab
     s = iri(k)
     home = next(gg for gg in graphs.values() if (s, RDFS.label, None) in gg)
     home.add((s, SKOS.editorialNote, Literal(note, lang="en")))
+
+# ---------------------------------------------------------------- provenance from MOACCO (0.11.0): 'derived from' the MOACCO element
+for k, srcs_iri in V11.DERIVED_V011.items():
+    s = iri(k)
+    home = next(gg for gg in graphs.values() if (s, RDFS.label, None) in gg)
+    for x in srcs_iri:
+        home.add((s, ann["derivedFrom"], URIRef(x)))
 
 # ---------------------------------------------------------------- ontology headers and output
 os.makedirs(os.path.join(ROOT, "ontology"), exist_ok=True)

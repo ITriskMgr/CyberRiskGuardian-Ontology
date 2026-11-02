@@ -93,7 +93,7 @@ D = dict(classes=classes, ext=extd, oprops=oprops, dprops=dprops)
 bsrc = open(os.path.join(ROOT, "src", "build.py"), encoding="utf-8").read()
 VERSION = re.search(r'^VERSION = "([^"]+)"', bsrc, re.M).group(1)
 ISSUED = re.search(r'^ISSUED = "([^"]+)"', bsrc, re.M).group(1)
-NEW_MODS = ["policy", "compliance", "siem", "soar"]          # modules first released in VERSION
+NEW_MODS = ["context", "iam"]          # modules first released in VERSION
 NEW_VOCABS = {"attack-detection", "ocsf"}
 lib = Graph().parse(os.path.join(ROOT, "data", "abox", "crgo-library.ttl"))
 scen = set(lib.subjects(RDF.type, URIRef(BASE + "CRGO_0000024")))

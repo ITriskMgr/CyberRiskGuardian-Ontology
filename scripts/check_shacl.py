@@ -12,7 +12,7 @@ data = rdflib.Graph()
 for f in ["build/crgo-full-merged.ttl", "tests/crg/medibec30.ttl", "tests/fixtures/crg-template-s1.ttl",
           "ontology/vocab/mappings-proposed.ttl", "data/abox/crgo-library-proposed.ttl", "tests/samples/nordelle.ttl", "tests/samples/nordelle-applicability.ttl",
           "tests/samples/nordelle-grca.ttl", "data/abox/crgo-workprogrammes.ttl",
-          "tests/samples/nordelle-pca.ttl", "tests/samples/nordelle-secops.ttl"]:
+          "tests/samples/nordelle-pca.ttl", "tests/samples/nordelle-secops.ttl", "tests/samples/nordelle-iam.ttl"]:
     data.parse(os.path.join(ROOT, f))
 shapes = rdflib.Graph().parse(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"))
 conforms, rep_g, rep_t = validate(data, shacl_graph=shapes, inference="none", advanced=True, allow_warnings=True)
@@ -26,7 +26,7 @@ for m, n in msgs.most_common(10):
 # negative tests: each small graph must violate the shapes (TBox modules give the class hierarchy)
 import glob
 tbox = rdflib.Graph()
-for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar"]:
+for m in ["gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar", "context", "iam"]:
     tbox.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 neg_ok = True
 for f in sorted(glob.glob(os.path.join(ROOT, "tests", "shacl", "neg-*.ttl"))):

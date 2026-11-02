@@ -8,7 +8,8 @@ DEPS = {"gov": [], "core": ["gov"], "measure": ["core"], "crg": ["measure"], "ev
         "vuln": ["evidence"], "grc": ["evidence", "org"], "mapping": ["core"],
         "governance": ["grc"], "assurance": ["governance"], "audit": ["assurance", "compliance"], "incident": ["evidence"],
         "policy": ["governance", "mapping"], "compliance": ["grc", "policy"],
-        "siem": ["incident", "grc"], "soar": ["siem", "audit"]}
+        "siem": ["incident", "grc"], "soar": ["siem", "audit"],
+        "context": ["grc"], "iam": ["soar", "context"]}
 order = list(DEPS)
 def closure_of(m):
     out = {m}
