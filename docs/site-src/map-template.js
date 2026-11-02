@@ -6,13 +6,15 @@ const FAMS={
  evid:{en:"evidence and context",fr:"preuves et contexte",mods:["evidence","org","vuln"]},
  grc:{en:"governance, policy and compliance",fr:"gouvernance, politiques et conformité",mods:["grc","mapping","governance","policy","compliance"]},
  assur:{en:"assurance and audit",fr:"assurance et audit",mods:["assurance","audit"]},
- ops:{en:"security operations",fr:"opérations de sécurité",mods:["incident","siem","soar"]}};
+ ops:{en:"security operations",fr:"opérations de sécurité",mods:["incident","siem","soar"]},
+ iam:{en:"identity, privilege and configuration",fr:"identités, privilèges et configurations",mods:["iam","context"]}};
 const MODS={gov:{en:"governance metadata",fr:"métadonnées de gouvernance"},core:{en:"core",fr:"noyau"},measure:{en:"measures",fr:"mesures"},crg:{en:"CRG method",fr:"méthode CRG"},
  evidence:{en:"sources and observations",fr:"sources et observations"},org:{en:"organisation profile",fr:"profil d'organisation"},vuln:{en:"vulnerability observations",fr:"observations de vulnérabilités"},
  grc:{en:"legal applicability",fr:"applicabilité juridique"},mapping:{en:"correspondences",fr:"correspondances"},governance:{en:"corporate governance",fr:"gouvernance d'entreprise"},
  policy:{en:"policy management",fr:"gestion des politiques"},compliance:{en:"compliance management",fr:"gestion de la conformité"},
  assurance:{en:"assurance",fr:"assurance"},audit:{en:"audit",fr:"audit"},incident:{en:"events and incidents",fr:"événements et incidents"},
- siem:{en:"monitoring and detection (SIEM)",fr:"surveillance et détection (SIEM)"},soar:{en:"response (SOAR)",fr:"réponse (SOAR)"}};
+ siem:{en:"monitoring and detection (SIEM)",fr:"surveillance et détection (SIEM)"},soar:{en:"response (SOAR)",fr:"réponse (SOAR)"},
+ iam:{en:"identity, privilege and configuration",fr:"identités, privilèges et configurations"},context:{en:"technology and organisational context",fr:"contexte technologique et organisationnel"}};
 const famOf={};Object.entries(FAMS).forEach(([f,v])=>v.mods.forEach(m=>famOf[m]=f));
 const T={
  en:{map:"map",lhub:"The arrows are the ontology's own relations. Click a box to see its definition and all of its relations in the panel below.",

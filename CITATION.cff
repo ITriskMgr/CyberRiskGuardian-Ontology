@@ -7,12 +7,13 @@ abstract: >-
   that gives formal meaning to the data produced by CyberRiskGuardian: assets, threats,
   weaknesses, risk scenarios, controls, the CRG quantitative parameters, the risk indices computed from them and key risk indicators.
   Includes a library of risk scenarios linked to ATT&CK, NIST CSF 2.0, SP 800-53, ISO/IEC 27002,
-  Loi 25 and Québec health-information legislation. Labels and definitions in English and French.
+  Loi 25 and Québec health-information legislation, identity, privilege and configuration registers,
+  and CIS Controls v8.1 identifiers. Labels and definitions in English and French.
 authors:
   - family-names: "Léger"
     given-names: "Marc-André"
-version: "0.10.1"
-date-released: "2026-10-23"
+version: "0.11.0"
+date-released: "2026-11-02"
 license: CC-BY-NC-4.0
 url: "https://w3id.org/crgo/"
 repository-code: "https://github.com/ITriskMgr/cyberriskguardian-ontology"

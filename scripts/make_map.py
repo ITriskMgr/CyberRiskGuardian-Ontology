@@ -13,7 +13,7 @@ from rdflib.collection import Collection
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 BASE = "https://w3id.org/crgo/"
-MODS = ["gov","core","measure","crg","evidence","org","vuln","grc","mapping","governance","assurance","audit","incident","policy","compliance","siem","soar"]
+MODS = ["gov","core","measure","crg","evidence","org","vuln","grc","mapping","governance","assurance","audit","incident","policy","compliance","siem","soar","context","iam"]
 ext = Graph()
 for f in ["imports/bfo-core.ttl","imports/cco-slice.ttl","imports/prov-slice.ttl","imports/time-slice.ttl"]:
     ext.parse(os.path.join(ROOT, f))
@@ -94,18 +94,19 @@ bsrc = open(os.path.join(ROOT, "src", "build.py"), encoding="utf-8").read()
 VERSION = re.search(r'^VERSION = "([^"]+)"', bsrc, re.M).group(1)
 ISSUED = re.search(r'^ISSUED = "([^"]+)"', bsrc, re.M).group(1)
 NEW_MODS = ["context", "iam"]          # modules first released in VERSION
-NEW_VOCABS = {"attack-detection", "ocsf"}
+NEW_VOCABS = {"cis81", "owasp-top10-2025", "owasp-llm-2025", "owasp-agentic-2026", "naics-sectors", "glossary"}
 lib = Graph().parse(os.path.join(ROOT, "data", "abox", "crgo-library.ttl"))
 scen = set(lib.subjects(RDF.type, URIRef(BASE + "CRGO_0000024")))
 links = sum(1 for s in scen for o in lib.objects(s, None) if isinstance(o, URIRef) and str(o).startswith(BASE + "vocab/"))
 VOCAB = [  # (group en, group fr, [(file, display name)])
     ("Frameworks and controls", "Référentiels et mesures", [("csf2", "NIST CSF 2.0"), ("sp800-53r5", "SP 800-53 Rev. 5"), ("sp800-53a", "SP 800-53A"),
-        ("iso27002-2022", "ISO/IEC 27002:2022"), ("cobit2019", "COBIT 2019"), ("ccm41", "CSA CCM 4.1"), ("coso-erm", "COSO ERM"), ("theme", "scenario themes")]),
+        ("iso27002-2022", "ISO/IEC 27002:2022"), ("cobit2019", "COBIT 2019"), ("ccm41", "CSA CCM 4.1"), ("coso-erm", "COSO ERM"), ("cis81", "CIS Controls v8.1"), ("theme", "scenario themes")]),
     ("Threats, weaknesses and countermeasures", "Menaces, faiblesses et contre-mesures", [("attack", "MITRE ATT&CK"), ("capec", "CAPEC"), ("cwe", "CWE"),
-        ("d3fend", "D3FEND"), ("kev", "CISA KEV")]),
+        ("d3fend", "D3FEND"), ("kev", "CISA KEV"), ("owasp-top10-2025", "OWASP Top 10:2025"), ("owasp-llm-2025", "OWASP LLM 2025"),
+        ("owasp-agentic-2026", "OWASP Agentic 2026"), ("glossary", "glossary (MOACCO)")]),
     ("Detection and events", "Détection et événements", [("attack-detection", "ATT&CK detection"), ("ocsf", "OCSF 1.9.0")]),
     ("Law and regulation", "Lois et règlements", [("loi25", "Loi 25 (P-39.1)"), ("lrsss", "R-22.1"), ("a21", "A-2.1"), ("pipeda", "PIPEDA"),
-        ("gdpr", "GDPR"), ("osfi-b13", "OSFI B-13")]),
+        ("gdpr", "GDPR"), ("osfi-b13", "OSFI B-13"), ("naics-sectors", "NAICS Canada sectors")]),
     ("Audit, assurance and compliance", "Audit, assurance et conformité", [("iia-gias", "IIA GIAS"), ("iia-tr", "IIA Topical Req."), ("itaf", "ISACA ITAF"),
         ("tsc", "Trust Services Criteria"), ("iso19011", "ISO 19011"), ("iso27007", "ISO/IEC 27007"), ("iso27008", "ISO/IEC 27008"),
         ("iso37301", "ISO 37301"), ("iso37302", "ISO 37302")])]

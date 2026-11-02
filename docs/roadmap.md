@@ -42,7 +42,13 @@ Findings of the ACRB evaluation (`docs/identification-eval-acrb.md`), the first 
 | L17 | Deferred | Incident → scenario link; threat-source characteristics of SP 800-30 (capability, intent, targeting, tables D-3 to D-5); a risk register as an information artifact listing assessed scenarios over time |
 | DOLCE alignment | Option of Q-A | A separate alignment module mapping the BFO-based core to DOLCE, for users of DOLCE-based ontologies. Optional; only if a user needs it |
 | Public-sector privacy act | Loi 25 pass 2 review | A vocabulary for the Québec public-sector access act (CQLR c. A-2.1, as amended by Law 25) and a rule giving its equivalents where the organisation is a public body (public hospitals, CISSS/CIUSSS) |
-| Other frameworks | Decisions D1–D4 | CIS Controls were left out (licence); CCM v4.1 controls stay private. Revisit if licences change. COBIT 2019 stays unless a newer edition is adopted |
+| Other frameworks | Decisions D1–D4 | CIS Controls were left out (licence) until 0.11.0, which holds CIS v8.1 identifiers, attributes and CRGO labels only (decision record 1.9.0); CCM v4.1 controls stay private. Revisit if licences change. COBIT 2019 stays unless a newer edition is adopted |
+
+## 4b. After 0.11.0
+
+- Check the CIS v8.1 values flagged `REVIEW:` against the CIS v8.1 workbook; consider PCI DSS v4.0.1 identifiers, NICE Framework components (current NIST release) and Common Criteria protection-profile categories (candidates found in the MOACCO review).
+- CCSPA: record the enacted text, chapter number, coming-into-force orders and the operator classes once designated; turn the condition into plain conditions when the facts are public.
+- Library: write scenarios for the six 0.11.0 scenario patterns (as for F1812-F1814: written, linked, proposed) and link existing ones with *has scenario pattern*.
 
 ## 5. Release and operations
 
