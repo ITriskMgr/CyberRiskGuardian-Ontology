@@ -1,0 +1,592 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix glossary: <https://w3id.org/crgo/vocab/glossary/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glossary:advanced-persistent-threat a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0000294 ;
+    skos:definition "A well-resourced adversary that pursues its objectives over a long period, adapts to defences and keeps access once obtained."@en,
+        "Adversaire doté de moyens importants qui poursuit ses objectifs sur une longue période, s'adapte aux défenses et conserve l'accès une fois obtenu."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "advanced-persistent-threat" ;
+    skos:prefLabel "advanced persistent threat"@en,
+        "menace persistante avancée"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class advanced_persistent_threat (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#advanced_persistent_threat> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:air-gap a skos:Concept ;
+    skos:definition "Isolation of a system from untrusted networks, with no direct electronic connection to them."@en,
+        "Isolement d'un système par rapport aux réseaux non fiables, sans connexion électronique directe avec eux."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "air-gap" ;
+    skos:prefLabel "air gap"@en,
+        "isolement par coupure réseau"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class air_gap (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#air_gap> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:allowlist a skos:Concept ;
+    skos:definition "A list of entities, such as applications, addresses or senders, that are permitted, everything else being denied."@en,
+        "Liste d'entités, comme des applications, des adresses ou des expéditeurs, qui sont permises, tout le reste étant refusé."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "allowlist" ;
+    skos:prefLabel "allowlist"@en,
+        "liste d'autorisation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class allowlist (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#allowlist> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:asymmetric-cryptography a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001331 ;
+    skos:definition "Cryptography that uses a pair of related keys, one public and one private."@en,
+        "Cryptographie qui utilise une paire de clés liées, l'une publique et l'autre privée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "asymmetric-cryptography" ;
+    skos:prefLabel "asymmetric cryptography"@en,
+        "cryptographie asymétrique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class asymmetric_cryptography (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#asymmetric_cryptography> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:attack-path a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0000026,
+        crgo:CRGO_0001356 ;
+    skos:definition "A sequence of steps and weaknesses that an adversary can chain to reach a target asset from a starting point."@en,
+        "Suite d'étapes et de faiblesses qu'un adversaire peut enchaîner pour atteindre un actif cible à partir d'un point de départ."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "attack-path" ;
+    skos:prefLabel "attack path"@en,
+        "chemin d'attaque"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class attack_path (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#attack_path> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:attack-surface a skos:Concept ;
+    skos:definition "The set of points of a system, service or organisation through which an adversary could try to enter, cause an effect or extract data."@en,
+        "Ensemble des points d'un système, d'un service ou d'une organisation par lesquels un adversaire pourrait tenter d'entrer, de produire un effet ou d'extraire des données."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "attack-surface" ;
+    skos:prefLabel "attack surface"@en,
+        "surface d'attaque"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class attack_surface (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#attack_surface> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:authenticity a skos:Concept ;
+    skos:definition "The property that an entity, message or data is what it claims to be and comes from its claimed source."@en,
+        "Propriété selon laquelle une entité, un message ou des données sont ce qu'ils prétendent être et proviennent de la source déclarée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "authenticity" ;
+    skos:prefLabel "authenticity"@en,
+        "authenticité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class authenticity (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#authenticity> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:blocklist a skos:Concept ;
+    skos:definition "A list of entities that are denied, everything else being permitted."@en,
+        "Liste d'entités qui sont refusées, tout le reste étant permis."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "blocklist" ;
+    skos:prefLabel "blocklist"@en,
+        "liste de blocage"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class blocklist (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#blocklist> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:blue-team a skos:Concept ;
+    skos:definition "The group that defends an organisation's systems, notably during an exercise against a red team."@en,
+        "Groupe qui défend les systèmes d'une organisation, notamment lors d'un exercice contre une équipe rouge."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "blue-team" ;
+    skos:prefLabel "blue team"@en,
+        "équipe bleue"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class blue_Team (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#blue_Team> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:botnet a skos:Concept ;
+    skos:definition "A collection of compromised devices controlled remotely by an adversary, used for attacks such as denial of service, spam or credential stuffing."@en,
+        "Ensemble d'appareils compromis contrôlés à distance par un adversaire et utilisés pour des attaques comme le déni de service, le pourriel ou le bourrage d'identifiants."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "botnet" ;
+    skos:prefLabel "botnet"@en,
+        "réseau de zombies"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class botnet (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#botnet> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:critical-infrastructure a skos:Concept ;
+    skos:definition "Systems and assets whose disruption would seriously affect public safety, health, the economy or government functions."@en,
+        "Systèmes et actifs dont la perturbation aurait de graves conséquences sur la sécurité ou la santé publiques, l'économie ou les fonctions gouvernementales."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "critical-infrastructure" ;
+    skos:prefLabel "critical infrastructure"@en,
+        "infrastructure essentielle"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class critical_infrastructure (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#critical_infrastructure> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:data-spill a skos:Concept ;
+    skos:definition "The placement of sensitive information on a system or medium not authorised to hold it."@en,
+        "Placement d'informations sensibles sur un système ou un support qui n'est pas autorisé à les contenir."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "data-spill" ;
+    skos:prefLabel "data spill"@en,
+        "déversement de données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class data_spill (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#data_spill> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:digital-forensics a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001123 ;
+    skos:definition "The collection, preservation and analysis of digital evidence in a way that keeps its integrity and admissibility."@en,
+        "Collecte, préservation et analyse de preuves numériques d'une manière qui en conserve l'intégrité et la recevabilité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "digital-forensics" ;
+    skos:prefLabel "digital forensics"@en,
+        "investigation numérique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class digital_forensics (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#digital_forensics> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:digital-signature a skos:Concept ;
+    skos:definition "A cryptographic value computed with a private key that lets others verify the origin and integrity of data with the matching public key."@en,
+        "Valeur cryptographique calculée avec une clé privée qui permet à d'autres de vérifier l'origine et l'intégrité de données à l'aide de la clé publique correspondante."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "digital-signature" ;
+    skos:prefLabel "digital signature"@en,
+        "signature numérique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class digital_signature (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#digital_signature> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:hashing a skos:Concept ;
+    skos:definition "Computing a fixed-length value from data such that any change to the data changes the value."@en,
+        "Calcul d'une valeur de longueur fixe à partir de données, de sorte que toute modification des données modifie la valeur."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "hashing" ;
+    skos:prefLabel "hashing"@en,
+        "hachage"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class hashing (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#hashing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:industrial-control-system a skos:Concept ;
+    skos:definition "A system that monitors and controls physical industrial processes, such as SCADA systems and programmable logic controllers."@en,
+        "Système qui surveille et commande des procédés industriels physiques, comme les systèmes SCADA et les automates programmables."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "industrial-control-system" ;
+    skos:prefLabel "industrial control system"@en,
+        "système de contrôle industriel"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class industrial_control_system (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#industrial_control_system> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:information-sharing a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001105 ;
+    skos:definition "The exchange of threat, vulnerability and incident information between organisations or with authorities."@en,
+        "Échange d'informations sur les menaces, les vulnérabilités et les incidents entre organisations ou avec des autorités."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "information-sharing" ;
+    skos:prefLabel "information sharing"@en,
+        "partage d'informations"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class information_sharing (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#information_sharing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:moving-target-defence a skos:Concept ;
+    skos:definition "Changing a system's configuration, addresses or components over time so that an adversary's knowledge of it becomes stale."@en,
+        "Modification dans le temps de la configuration, des adresses ou des composants d'un système afin que la connaissance qu'en a un adversaire devienne périmée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "moving-target-defence" ;
+    skos:prefLabel "moving target defence"@en,
+        "défense par cible mouvante"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class moving_target_defense (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#moving_target_defense> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:non-repudiation a skos:Concept ;
+    skos:definition "The property that a party cannot credibly deny having performed an action, such as sending or approving a message."@en,
+        "Propriété selon laquelle une partie ne peut nier de façon crédible avoir accompli une action, comme l'envoi ou l'approbation d'un message."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "non-repudiation" ;
+    skos:prefLabel "non-repudiation"@en,
+        "non-répudiation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class non-repudiation (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#non-repudiation> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:penetration-testing a skos:Concept ;
+    skos:definition "Authorised simulated attacks on a system to find and show weaknesses an adversary could exploit."@en,
+        "Attaques simulées et autorisées contre un système afin de trouver et de démontrer les faiblesses qu'un adversaire pourrait exploiter."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "penetration-testing" ;
+    skos:prefLabel "penetration testing"@en,
+        "test d'intrusion"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class penetration_testing (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#penetration_testing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:public-key-infrastructure a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001330 ;
+    skos:definition "The policies, authorities, systems and procedures used to issue, manage and revoke digital certificates."@en,
+        "Politiques, autorités, systèmes et procédures servant à émettre, à gérer et à révoquer des certificats numériques."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "public-key-infrastructure" ;
+    skos:prefLabel "public key infrastructure"@en,
+        "infrastructure à clé publique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class public_key_infrastructure (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#public_key_infrastructure> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:red-team a skos:Concept ;
+    skos:definition "A group authorised to emulate an adversary's attacks against an organisation to test its defences."@en,
+        "Groupe autorisé à imiter les attaques d'un adversaire contre une organisation afin d'en éprouver les défenses."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "red-team" ;
+    skos:prefLabel "red team"@en,
+        "équipe rouge"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class red_team (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#red_team> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:rootkit a skos:Concept ;
+    skos:definition "Malicious software that hides its presence and that of other malicious code while keeping privileged access to a system."@en,
+        "Logiciel malveillant qui dissimule sa présence et celle d'autre code malveillant tout en conservant un accès privilégié à un système."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "rootkit" ;
+    skos:prefLabel "rootkit"@en,
+        "trousse de dissimulation d'activité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class rootkit (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#rootkit> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:security-automation a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001120 ;
+    skos:definition "The use of software to carry out security tasks, such as triage or containment, with limited human intervention."@en,
+        "Utilisation de logiciels pour accomplir des tâches de sécurité, comme le tri ou le confinement, avec une intervention humaine limitée."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "security-automation" ;
+    skos:prefLabel "security automation"@en,
+        "automatisation de la sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class security_automation (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#security_automation> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:security-by-design a skos:Concept ;
+    skos:definition "Building security requirements into a system from its design rather than adding them afterwards."@en,
+        "Intégration des exigences de sécurité à un système dès sa conception plutôt qu'après coup."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "security-by-design" ;
+    skos:prefLabel "security by design"@en,
+        "sécurité dès la conception"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class build_security_in (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#build_security_in> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:situational-awareness a skos:Concept ;
+    skos:definition "An up-to-date understanding of the threats, vulnerabilities and state of an organisation's systems, used to make decisions."@en,
+        "Compréhension à jour des menaces, des vulnérabilités et de l'état des systèmes d'une organisation, servant à prendre des décisions."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "situational-awareness" ;
+    skos:prefLabel "situational awareness"@en,
+        "connaissance de la situation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class situational_awareness (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#situational_awareness> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:spoofing a skos:Concept ;
+    skos:definition "Falsifying the apparent origin of a message, address or identity to deceive a person or system."@en,
+        "Falsification de l'origine apparente d'un message, d'une adresse ou d'une identité pour tromper une personne ou un système."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "spoofing" ;
+    skos:prefLabel "spoofing"@en,
+        "usurpation"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class spoofing (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#spoofing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:spyware a skos:Concept ;
+    skos:definition "Malicious software that secretly gathers information about a user or organisation and sends it to a third party."@en,
+        "Logiciel malveillant qui recueille secrètement des informations sur un utilisateur ou une organisation et les transmet à un tiers."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "spyware" ;
+    skos:prefLabel "spyware"@en,
+        "logiciel espion"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class spyware (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#spyware> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:supply-chain-risk-management a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0000342 ;
+    skos:definition "Identifying, assessing and treating risks that arise from suppliers, their products and services, and their own suppliers."@en,
+        "Détermination, évaluation et traitement des risques découlant des fournisseurs, de leurs produits et services, et de leurs propres fournisseurs."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "supply-chain-risk-management" ;
+    skos:prefLabel "supply chain risk management"@en,
+        "gestion des risques de la chaîne d'approvisionnement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class supply_chain_risk_management (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#supply_chain_risk_management> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:symmetric-cryptography a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001331 ;
+    skos:definition "Cryptography in which the same secret key is used to encrypt and decrypt."@en,
+        "Cryptographie dans laquelle la même clé secrète sert à chiffrer et à déchiffrer."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "symmetric-cryptography" ;
+    skos:prefLabel "symmetric cryptography"@en,
+        "cryptographie symétrique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class symmetric_cryptography (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#symmetric_cryptography> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:tabletop-exercise a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001128 ;
+    skos:definition "A discussion-based exercise in which participants walk through their response to a scenario without using live systems."@en,
+        "Exercice fondé sur la discussion au cours duquel les participants passent en revue leur réponse à un scénario sans utiliser les systèmes réels."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "tabletop-exercise" ;
+    skos:prefLabel "tabletop exercise"@en,
+        "exercice sur table"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class tabletop_exercise (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#tabletop_exercise> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:trojan-horse a skos:Concept ;
+    skos:definition "Malicious software that presents itself as legitimate so that a user installs or runs it."@en,
+        "Logiciel malveillant qui se présente comme légitime afin qu'un utilisateur l'installe ou l'exécute."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "trojan-horse" ;
+    skos:prefLabel "trojan horse"@en,
+        "cheval de Troie"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class trojan_horse (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#trojan_horse> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:white-team a skos:Concept ;
+    skos:definition "The group that plans, referees and evaluates a cyber exercise between red and blue teams."@en,
+        "Groupe qui planifie, arbitre et évalue un exercice de cybersécurité entre équipes rouge et bleue."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "white-team" ;
+    skos:prefLabel "white team"@en,
+        "équipe blanche"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class white_team (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#white_team> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:work-factor a skos:Concept ;
+    skos:definition "An estimate of the effort or time an adversary would need to defeat a security measure."@en,
+        "Estimation de l'effort ou du temps dont un adversaire aurait besoin pour déjouer une mesure de sécurité."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "work-factor" ;
+    skos:prefLabel "work factor"@en,
+        "facteur de travail"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class work_factor (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#work_factor> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+glossary:worm a skos:Concept ;
+    skos:definition "Malicious software that copies itself from system to system across a network without user action."@en,
+        "Logiciel malveillant qui se copie d'un système à l'autre par le réseau sans action de l'utilisateur."@fr ;
+    skos:inScheme <https://w3id.org/crgo/vocab/glossary> ;
+    skos:notation "worm" ;
+    skos:prefLabel "worm"@en,
+        "ver informatique"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class worm (term only; definition by CRGO)"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#worm> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+<https://w3id.org/crgo/vocab/glossary> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-11-02"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:publisher "CyberRiskGuardian Ontology" ;
+    dcterms:rights "CC BY-NC 4.0, Marc-André Léger. Term list adapted from MOACCO 1.2a (MIT licence); definitions written for CRGO."@en ;
+    dcterms:source "github.com/ITriskMgr/MOACCO (MOACCO_1-2a.owl, class Cybersecurity_Terms)" ;
+    dcterms:title "CRGO cybersecurity glossary (adapted from MOACCO)"@en,
+        "Glossaire de cybersécurité de CRGO (adapté de MOACCO)"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/glossary> ;
+    owl:versionInfo "0.11.0" ;
+    skos:hasTopConcept glossary:advanced-persistent-threat,
+        glossary:air-gap,
+        glossary:allowlist,
+        glossary:asymmetric-cryptography,
+        glossary:attack-path,
+        glossary:attack-surface,
+        glossary:authenticity,
+        glossary:blocklist,
+        glossary:blue-team,
+        glossary:botnet,
+        glossary:critical-infrastructure,
+        glossary:data-spill,
+        glossary:digital-forensics,
+        glossary:digital-signature,
+        glossary:hashing,
+        glossary:industrial-control-system,
+        glossary:information-sharing,
+        glossary:moving-target-defence,
+        glossary:non-repudiation,
+        glossary:penetration-testing,
+        glossary:public-key-infrastructure,
+        glossary:red-team,
+        glossary:rootkit,
+        glossary:security-automation,
+        glossary:security-by-design,
+        glossary:situational-awareness,
+        glossary:spoofing,
+        glossary:spyware,
+        glossary:supply-chain-risk-management,
+        glossary:symmetric-cryptography,
+        glossary:tabletop-exercise,
+        glossary:trojan-horse,
+        glossary:white-team,
+        glossary:work-factor,
+        glossary:worm ;
+    skos:scopeNote "Cybersecurity terms that MOACCO listed and CRGO had no term for. Each concept keeps the MOACCO class it was adapted from ('derived from') and points to related CRGO terms with rdfs:seeAlso. Not a replacement for the CRGO classes."@en .
+

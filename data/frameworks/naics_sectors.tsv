@@ -1,0 +1,21 @@
+id	label_en	label_fr
+11	Agriculture, forestry, fishing and hunting	Agriculture, foresterie, pêche et chasse
+21	Mining, quarrying, and oil and gas extraction	Extraction minière, exploitation en carrière, et extraction de pétrole et de gaz
+22	Utilities	Services publics
+23	Construction	Construction
+31-33	Manufacturing	Fabrication
+41	Wholesale trade	Commerce de gros
+44-45	Retail trade	Commerce de détail
+48-49	Transportation and warehousing	Transport et entreposage
+51	Information and cultural industries	Industrie de l'information et industrie culturelle
+52	Finance and insurance	Finance et assurances
+53	Real estate and rental and leasing	Services immobiliers et services de location et de location à bail
+54	Professional, scientific and technical services	Services professionnels, scientifiques et techniques
+55	Management of companies and enterprises	Gestion de sociétés et d'entreprises
+56	Administrative and support, waste management and remediation services	Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement
+61	Educational services	Services d'enseignement
+62	Health care and social assistance	Soins de santé et assistance sociale
+71	Arts, entertainment and recreation	Arts, spectacles et loisirs
+72	Accommodation and food services	Services d'hébergement et de restauration
+81	Other services (except public administration)	Autres services (sauf les administrations publiques)
+91	Public administration	Administrations publiques

@@ -1,0 +1,3030 @@
+@prefix cis81: <https://w3id.org/crgo/vocab/cis81/> .
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cis81:1.1 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001371 ;
+    skos:broader cis81:1 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "Keep a detailed enterprise asset inventory"@en,
+        "Tenir un inventaire détaillé des actifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:1.2 a skos:Concept ;
+    skos:broader cis81:1 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1.2" ;
+    skos:prefLabel "Deal with unauthorised assets"@en,
+        "Traiter les actifs non autorisés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:1.3 a skos:Concept ;
+    skos:broader cis81:1 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1.3" ;
+    skos:prefLabel "Discover assets with active scanning"@en,
+        "Découvrir les actifs par balayage actif"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8_3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:1.4 a skos:Concept ;
+    skos:broader cis81:1 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1.4" ;
+    skos:prefLabel "Feed inventory from DHCP logs"@en,
+        "Alimenter l'inventaire par les journaux DHCP"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:1.5 a skos:Concept ;
+    skos:broader cis81:1 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1.5" ;
+    skos:prefLabel "Discover assets with passive monitoring"@en,
+        "Découvrir les actifs par surveillance passive"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:10.1 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.1" ;
+    skos:prefLabel "Run anti-malware software"@en,
+        "Utiliser un logiciel anti-maliciel"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:10.2 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.2" ;
+    skos:prefLabel "Update anti-malware signatures automatically"@en,
+        "Mettre à jour automatiquement les signatures"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:10.3 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.3" ;
+    skos:prefLabel "Disable autorun for removable media"@en,
+        "Désactiver l'exécution automatique des supports amovibles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:10.4 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.4" ;
+    skos:prefLabel "Scan removable media automatically"@en,
+        "Analyser automatiquement les supports amovibles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:10.5 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.5" ;
+    skos:prefLabel "Turn on anti-exploitation features"@en,
+        "Activer les protections contre l'exploitation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-16> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:10.6 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.6" ;
+    skos:prefLabel "Manage anti-malware centrally"@en,
+        "Gérer l'anti-maliciel de façon centralisée"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:10.7 a skos:Concept ;
+    skos:broader cis81:10 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10.7" ;
+    skos:prefLabel "Detect malware by its behaviour"@en,
+        "Détecter les maliciels par leur comportement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:11.1 a skos:Concept ;
+    skos:broader cis81:11 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Data, Recover); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11.1" ;
+    skos:prefLabel "Run a data recovery process"@en,
+        "Appliquer un processus de récupération des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Data, Recover); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CP-10> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:11.2 a skos:Concept ;
+    skos:broader cis81:11 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11.2" ;
+    skos:prefLabel "Back up automatically"@en,
+        "Sauvegarder automatiquement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:11.3 a skos:Concept ;
+    skos:broader cis81:11 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11.3" ;
+    skos:prefLabel "Protect backup data"@en,
+        "Protéger les données de sauvegarde"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:11.4 a skos:Concept ;
+    skos:broader cis81:11 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11.4" ;
+    skos:prefLabel "Keep an isolated copy of backups"@en,
+        "Garder une copie isolée des sauvegardes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:11.5 a skos:Concept ;
+    skos:broader cis81:11 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11.5" ;
+    skos:prefLabel "Test restoring data"@en,
+        "Tester la restauration des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CP-9_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:12.1 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.1" ;
+    skos:prefLabel "Patch and update network equipment"@en,
+        "Corriger et mettre à jour l'équipement réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.2 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:editorialNote "REVIEW: v8.1 may classify as Govern/Documentation; verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.2" ;
+    skos:prefLabel "Maintain a secure network architecture"@en,
+        "Maintenir une architecture réseau sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 may classify as Govern/Documentation; verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.3 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.3" ;
+    skos:prefLabel "Manage network infrastructure securely"@en,
+        "Gérer l'infrastructure réseau de façon sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.4 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:editorialNote "REVIEW: v8.1 may classify as Documentation; verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.4" ;
+    skos:prefLabel "Keep network architecture diagrams"@en,
+        "Tenir des schémas d'architecture réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 may classify as Documentation; verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:12.5 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001342 ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.5" ;
+    skos:prefLabel "Authenticate network access through one service"@en,
+        "Authentifier l'accès réseau par un service unique"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.6 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.6" ;
+    skos:prefLabel "Use secure management protocols"@en,
+        "Utiliser des protocoles de gestion sécuritaires"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.7 a skos:Concept ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.7" ;
+    skos:prefLabel "Route remote devices through enterprise VPN and AAA"@en,
+        "Appareils distants via RPV et AAA d'entreprise"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-17> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:12.8 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001359 ;
+    skos:broader cis81:12 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12.8" ;
+    skos:prefLabel "Dedicate machines to administrative work"@en,
+        "Réserver des postes au travail d'administration"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.1 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.1" ;
+    skos:prefLabel "Send security alerts to one place"@en,
+        "Acheminer les alertes de sécurité en un point"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:13.10 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.10" ;
+    skos:prefLabel "Filter at the application layer"@en,
+        "Filtrer au niveau de la couche application"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.11 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.11" ;
+    skos:prefLabel "Tune alert thresholds"@en,
+        "Ajuster les seuils d'alerte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:13.2 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.2" ;
+    skos:prefLabel "Run host-based intrusion detection"@en,
+        "Exploiter une détection d'intrusion sur l'hôte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:13.3 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.3" ;
+    skos:prefLabel "Run network intrusion detection"@en,
+        "Exploiter une détection d'intrusion réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:13.4 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.4" ;
+    skos:prefLabel "Filter traffic between network segments"@en,
+        "Filtrer le trafic entre segments réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.5 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.5" ;
+    skos:prefLabel "Control access by remote assets"@en,
+        "Contrôler l'accès des actifs distants"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.6 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.6" ;
+    skos:prefLabel "Record network flow data"@en,
+        "Consigner les données de flux réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:13.7 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.7" ;
+    skos:prefLabel "Run host-based intrusion prevention"@en,
+        "Exploiter une prévention d'intrusion sur l'hôte"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.8 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.8" ;
+    skos:prefLabel "Run network intrusion prevention"@en,
+        "Exploiter une prévention d'intrusion réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:13.9 a skos:Concept ;
+    skos:broader cis81:13 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13.9" ;
+    skos:prefLabel "Control access at the network port"@en,
+        "Contrôler l'accès au port réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.1 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: N/A, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.1" ;
+    skos:prefLabel "Run a security awareness programme"@en,
+        "Mener un programme de sensibilisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: N/A, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:14.2 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.2" ;
+    skos:prefLabel "Teach recognising social engineering"@en,
+        "Apprendre à reconnaître l'ingénierie sociale"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2_3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.3 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.3" ;
+    skos:prefLabel "Teach good authentication habits"@en,
+        "Enseigner les bonnes pratiques d'authentification"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.4 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.4" ;
+    skos:prefLabel "Teach safe data handling"@en,
+        "Enseigner la manipulation sécuritaire des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.5 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.5" ;
+    skos:prefLabel "Teach causes of accidental data exposure"@en,
+        "Enseigner les causes d'exposition accidentelle"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.6 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.6" ;
+    skos:prefLabel "Teach spotting and reporting incidents"@en,
+        "Apprendre à repérer et signaler les incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.7 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.7" ;
+    skos:prefLabel "Teach reporting missing security updates"@en,
+        "Apprendre à signaler les mises à jour manquantes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.8 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.8" ;
+    skos:prefLabel "Teach risks of insecure networks"@en,
+        "Enseigner les risques des réseaux non sécurisés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:14.9 a skos:Concept ;
+    skos:broader cis81:14 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14.9" ;
+    skos:prefLabel "Give role-specific security training"@en,
+        "Offrir une formation adaptée aux fonctions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AT-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:15.1 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.1" ;
+    skos:prefLabel "Keep an inventory of service providers"@en,
+        "Tenir un inventaire des fournisseurs de services"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-9> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:15.2 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.2" ;
+    skos:prefLabel "Set a service provider management policy"@en,
+        "Établir une politique de gestion des fournisseurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SR-1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:15.3 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.3" ;
+    skos:prefLabel "Tier service providers by risk"@en,
+        "Classer les fournisseurs selon le risque"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:15.4 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.4" ;
+    skos:prefLabel "Put security terms in provider contracts"@en,
+        "Inclure des exigences de sécurité aux contrats"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:15.5 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.5" ;
+    skos:prefLabel "Evaluate service providers' security"@en,
+        "Évaluer la sécurité des fournisseurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SR-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:15.6 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.6" ;
+    skos:prefLabel "Watch service providers' security over time"@en,
+        "Suivre la sécurité des fournisseurs dans le temps"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-9> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:15.7 a skos:Concept ;
+    skos:broader cis81:15 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15.7" ;
+    skos:prefLabel "Offboard service providers securely"@en,
+        "Mettre fin aux services d'un fournisseur sécuritairement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.1 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.1" ;
+    skos:prefLabel "Run a secure development process"@en,
+        "Appliquer un processus de développement sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-15> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:16.10 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.10" ;
+    skos:prefLabel "Design applications with secure principles"@en,
+        "Concevoir les applications selon des principes sécuritaires"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.11 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.11" ;
+    skos:prefLabel "Reuse vetted security components"@en,
+        "Réutiliser des composants de sécurité éprouvés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.12 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.12" ;
+    skos:prefLabel "Check code for security issues"@en,
+        "Vérifier le code pour les problèmes de sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-11> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.13 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.13" ;
+    skos:prefLabel "Penetration-test applications"@en,
+        "Effectuer des tests d'intrusion applicatifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.14 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.14" ;
+    skos:prefLabel "Model threats to applications"@en,
+        "Modéliser les menaces applicatives"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-11_2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.2 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:editorialNote "REVIEW: v8.1 may classify as Govern/Documentation; verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.2" ;
+    skos:prefLabel "Run a process for reported software flaws"@en,
+        "Traiter les vulnérabilités logicielles signalées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 may classify as Govern/Documentation; verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-11> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.3 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.3" ;
+    skos:prefLabel "Find root causes of security flaws"@en,
+        "Analyser les causes des failles de sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.4 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:editorialNote "REVIEW: security function (Protect or Identify) to verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.4" ;
+    skos:prefLabel "Inventory third-party software components"@en,
+        "Inventorier les composants logiciels de tiers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: security function (Protect or Identify) to verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.5 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.5" ;
+    skos:prefLabel "Use current, trusted third-party components"@en,
+        "Utiliser des composants tiers à jour et fiables"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-22> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.6 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.6" ;
+    skos:prefLabel "Rate severity of application vulnerabilities"@en,
+        "Coter la gravité des vulnérabilités applicatives"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.7 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001374 ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.7" ;
+    skos:prefLabel "Harden application infrastructure with templates"@en,
+        "Durcir l'infrastructure applicative par gabarits"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.8 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.8" ;
+    skos:prefLabel "Keep production apart from test systems"@en,
+        "Tenir la production à l'écart des systèmes d'essai"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-4_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:16.9 a skos:Concept ;
+    skos:broader cis81:16 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16.9" ;
+    skos:prefLabel "Train developers in secure coding"@en,
+        "Former les développeurs au codage sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:17.1 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.1" ;
+    skos:prefLabel "Name people to manage incidents"@en,
+        "Désigner les responsables de la gestion des incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:17.2 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.2" ;
+    skos:prefLabel "Keep incident reporting contacts current"@en,
+        "Tenir à jour les contacts de signalement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:17.3 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.3" ;
+    skos:prefLabel "Run a process to report incidents"@en,
+        "Appliquer un processus de signalement des incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:17.4 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.4" ;
+    skos:prefLabel "Run an incident response process"@en,
+        "Appliquer un processus de réponse aux incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:17.5 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.5" ;
+    skos:prefLabel "Assign incident response roles"@en,
+        "Attribuer les rôles de réponse aux incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:17.6 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.6" ;
+    skos:prefLabel "Set communication means for incidents"@en,
+        "Prévoir les moyens de communication en incident"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:17.7 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.7" ;
+    skos:prefLabel "Exercise incident response regularly"@en,
+        "Exercer régulièrement la réponse aux incidents"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:17.8 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.8" ;
+    skos:prefLabel "Review incidents afterwards"@en,
+        "Revoir les incidents après coup"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IR-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:17.9 a skos:Concept ;
+    skos:broader cis81:17 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17.9" ;
+    skos:prefLabel "Set incident thresholds"@en,
+        "Fixer les seuils d'incident de sécurité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RC> .
+
+cis81:18.1 a skos:Concept ;
+    skos:broader cis81:18 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18.1" ;
+    skos:prefLabel "Run a penetration testing programme"@en,
+        "Mener un programme de tests d'intrusion"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:18.2 a skos:Concept ;
+    skos:broader cis81:18 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18.2" ;
+    skos:prefLabel "Penetration-test from outside regularly"@en,
+        "Effectuer des tests d'intrusion externes réguliers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:18.3 a skos:Concept ;
+    skos:broader cis81:18 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18.3" ;
+    skos:prefLabel "Fix penetration test findings"@en,
+        "Corriger les constats des tests d'intrusion"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:18.4 a skos:Concept ;
+    skos:broader cis81:18 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18.4" ;
+    skos:prefLabel "Check that security measures work"@en,
+        "Vérifier que les mesures de sécurité fonctionnent"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:18.5 a skos:Concept ;
+    skos:broader cis81:18 ;
+    skos:editorialNote "REVIEW: asset type (v8: N/A) to verify for v8.1"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18.5" ;
+    skos:prefLabel "Penetration-test from inside regularly"@en,
+        "Effectuer des tests d'intrusion internes réguliers"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CA-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001599 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:2.1 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001371 ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.1" ;
+    skos:prefLabel "Keep a software inventory"@en,
+        "Tenir un inventaire des logiciels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:2.2 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.2" ;
+    skos:prefLabel "Use only vendor-supported software"@en,
+        "N'utiliser que des logiciels encore pris en charge"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SA-22> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:2.3 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.3" ;
+    skos:prefLabel "Deal with unauthorised software"@en,
+        "Traiter les logiciels non autorisés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:2.4 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.4" ;
+    skos:prefLabel "Automate software inventory"@en,
+        "Automatiser l'inventaire des logiciels"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-8_2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:2.5 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.5" ;
+    skos:prefLabel "Allow only approved software to run"@en,
+        "N'autoriser que les logiciels approuvés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7_5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:2.6 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.6" ;
+    skos:prefLabel "Allow only approved libraries to load"@en,
+        "N'autoriser que les bibliothèques approuvées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7_5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:2.7 a skos:Concept ;
+    skos:broader cis81:2 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2.7" ;
+    skos:prefLabel "Allow only approved scripts to run"@en,
+        "N'autoriser que les scripts approuvés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7_5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.1 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Data, Identify); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.1" ;
+    skos:prefLabel "Run a documented data management process"@en,
+        "Appliquer un processus documenté de gestion des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Data, Identify); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:3.10 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.10" ;
+    skos:prefLabel "Protect sensitive data in transit with encryption"@en,
+        "Protéger par chiffrement les données sensibles en transit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.11 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.11" ;
+    skos:prefLabel "Protect stored sensitive data with encryption"@en,
+        "Protéger par chiffrement les données sensibles stockées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-28> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.12 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.12" ;
+    skos:prefLabel "Separate data processing by sensitivity"@en,
+        "Séparer les traitements selon la sensibilité"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.13 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.13" ;
+    skos:prefLabel "Use data loss prevention tooling"@en,
+        "Utiliser un outil de prévention des fuites"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.14 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.14" ;
+    skos:prefLabel "Record who accesses sensitive data"@en,
+        "Consigner qui accède aux données sensibles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:3.2 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.2" ;
+    skos:prefLabel "Keep an inventory of data"@en,
+        "Tenir un inventaire des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-12> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:3.3 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001348 ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.3" ;
+    skos:prefLabel "Restrict data access with permissions"@en,
+        "Restreindre l'accès aux données par permissions"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.4 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.4" ;
+    skos:prefLabel "Keep data only as long as set"@en,
+        "Ne conserver les données que la durée prévue"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-12> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.5 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.5" ;
+    skos:prefLabel "Destroy data safely when no longer needed"@en,
+        "Détruire sûrement les données devenues inutiles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/MP-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.6 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.6" ;
+    skos:prefLabel "Encrypt end-user device storage"@en,
+        "Chiffrer le stockage des appareils des utilisateurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-28> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:3.7 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.7" ;
+    skos:prefLabel "Define levels for classifying data"@en,
+        "Définir les niveaux de classification des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/RA-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:3.8 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.8" ;
+    skos:prefLabel "Map how data moves"@en,
+        "Cartographier la circulation des données"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-13> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:3.9 a skos:Concept ;
+    skos:broader cis81:3 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3.9" ;
+    skos:prefLabel "Encrypt removable media contents"@en,
+        "Chiffrer le contenu des supports amovibles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/MP-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.1 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001374 ;
+    skos:broader cis81:4 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.1" ;
+    skos:prefLabel "Run a secure configuration process"@en,
+        "Appliquer un processus de configuration sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-2>,
+        <https://w3id.org/crgo/vocab/sp800-53r5/CM-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:4.10 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.10" ;
+    skos:prefLabel "Lock portable devices after failed logins"@en,
+        "Verrouiller les appareils portables après échecs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:4.11 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.11" ;
+    skos:prefLabel "Wipe lost portable devices remotely"@en,
+        "Effacer à distance les appareils portables perdus"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-7_2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.12 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.12" ;
+    skos:prefLabel "Separate work data on mobiles"@en,
+        "Séparer les données professionnelles sur mobiles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.2 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001374 ;
+    skos:broader cis81:4 ;
+    skos:editorialNote "REVIEW: v8.1 may classify as Govern/Documentation; verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.2" ;
+    skos:prefLabel "Securely configure network infrastructure"@en,
+        "Configurer l'infrastructure réseau de façon sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 may classify as Govern/Documentation; verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.3 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.3" ;
+    skos:prefLabel "Lock idle sessions automatically"@en,
+        "Verrouiller automatiquement les sessions inactives"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-11> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.4 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.4" ;
+    skos:prefLabel "Run firewalls on servers"@en,
+        "Activer un pare-feu sur les serveurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.5 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.5" ;
+    skos:prefLabel "Run firewalls on end-user devices"@en,
+        "Activer un pare-feu sur les postes utilisateurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7_12> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.6 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.6" ;
+    skos:prefLabel "Manage assets and software securely"@en,
+        "Gérer les actifs et logiciels de façon sécuritaire"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.7 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001337 ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.7" ;
+    skos:prefLabel "Control vendor default accounts"@en,
+        "Contrôler les comptes par défaut des fournisseurs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IA-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.8 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.8" ;
+    skos:prefLabel "Remove unneeded services"@en,
+        "Retirer les services inutiles"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:4.9 a skos:Concept ;
+    skos:broader cis81:4 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4.9" ;
+    skos:prefLabel "Use trusted DNS resolvers"@en,
+        "Utiliser des serveurs DNS de confiance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-20> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:5.1 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001384 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.1" ;
+    skos:prefLabel "Keep an inventory of accounts"@en,
+        "Tenir un inventaire des comptes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:5.2 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001360 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.2" ;
+    skos:prefLabel "Require unique passwords"@en,
+        "Exiger des mots de passe uniques"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IA-5_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:5.3 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001384 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.3" ;
+    skos:prefLabel "Switch off unused accounts"@en,
+        "Désactiver les comptes inutilisés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:5.4 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001338,
+        crgo:CRGO_0001386 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.4" ;
+    skos:prefLabel "Use separate admin accounts"@en,
+        "Utiliser des comptes d'administration distincts"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-6_2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:5.5 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001339,
+        crgo:CRGO_0001384 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.5" ;
+    skos:prefLabel "Keep an inventory of service accounts"@en,
+        "Tenir un inventaire des comptes de service"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:5.6 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001342 ;
+    skos:broader cis81:5 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5.6" ;
+    skos:prefLabel "Manage accounts centrally"@en,
+        "Gérer les comptes de façon centralisée"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:6.1 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001352,
+        crgo:CRGO_0001355 ;
+    skos:broader cis81:6 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Users, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.1" ;
+    skos:prefLabel "Run a process to grant access"@en,
+        "Appliquer un processus d'octroi des accès"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Users, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:6.2 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001355 ;
+    skos:broader cis81:6 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Users, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.2" ;
+    skos:prefLabel "Run a process to revoke access"@en,
+        "Appliquer un processus de révocation des accès"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Users, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-2>,
+        <https://w3id.org/crgo/vocab/sp800-53r5/PS-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:6.3 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001370 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.3" ;
+    skos:prefLabel "Multi-factor login for internet-facing apps"@en,
+        "Authentification multifacteur des applications exposées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IA-2_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:6.4 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001370 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.4" ;
+    skos:prefLabel "Multi-factor login for remote access"@en,
+        "Authentification multifacteur de l'accès à distance"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IA-2_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:6.5 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001370,
+        crgo:CRGO_0001386 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.5" ;
+    skos:prefLabel "Multi-factor login for administration"@en,
+        "Authentification multifacteur de l'administration"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/IA-2_1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:6.6 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001341 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.6" ;
+    skos:prefLabel "Inventory authentication and authorisation systems"@en,
+        "Inventorier les systèmes d'authentification et d'autorisation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:6.7 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001342 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.7" ;
+    skos:prefLabel "Run access control from one place"@en,
+        "Gérer le contrôle d'accès en un seul point"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001597 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:6.8 a skos:Concept ;
+    rdfs:seeAlso crgo:CRGO_0001345 ;
+    skos:broader cis81:6 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6.8" ;
+    skos:prefLabel "Grant access through defined roles"@en,
+        "Accorder les accès par rôles définis"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AC-3_7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:7.1 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.1" ;
+    skos:prefLabel "Run a vulnerability management process"@en,
+        "Appliquer un processus de gestion des vulnérabilités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/RA-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:7.2 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Applications, Respond); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.2" ;
+    skos:prefLabel "Run a remediation process"@en,
+        "Appliquer un processus de correction"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Applications, Respond); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:7.3 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.3" ;
+    skos:prefLabel "Patch operating systems automatically"@en,
+        "Corriger automatiquement les systèmes d'exploitation"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:7.4 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.4" ;
+    skos:prefLabel "Patch applications automatically"@en,
+        "Corriger automatiquement les applications"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:7.5 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.5" ;
+    skos:prefLabel "Scan internal assets for vulnerabilities"@en,
+        "Balayer les actifs internes pour les vulnérabilités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/RA-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:7.6 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.6" ;
+    skos:prefLabel "Scan internet-facing assets for vulnerabilities"@en,
+        "Balayer les actifs exposés pour les vulnérabilités"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/RA-5> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/ID> .
+
+cis81:7.7 a skos:Concept ;
+    skos:broader cis81:7 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7.7" ;
+    skos:prefLabel "Fix detected vulnerabilities"@en,
+        "Corriger les vulnérabilités détectées"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/RS> .
+
+cis81:8.1 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:editorialNote "REVIEW: v8.1 Govern/Documentation recalled (v8: Network, Protect); verify"@en ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.1" ;
+    skos:prefLabel "Run an audit log management process"@en,
+        "Appliquer un processus de gestion des journaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000065 ;
+    crgo:CRGO_0000285 "Flagged for review: v8.1 Govern/Documentation recalled (v8: Network, Protect); verify"@en ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-1> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001598 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/GV> .
+
+cis81:8.10 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.10" ;
+    skos:prefLabel "Keep audit logs long enough"@en,
+        "Conserver les journaux assez longtemps"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-11> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:8.11 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.11" ;
+    skos:prefLabel "Examine audit logs regularly"@en,
+        "Examiner régulièrement les journaux d'audit"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-6> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.12 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.12" ;
+    skos:prefLabel "Obtain logs from service providers"@en,
+        "Obtenir les journaux des fournisseurs de services"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001595 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.2 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.2" ;
+    skos:prefLabel "Gather audit logs from assets"@en,
+        "Rassembler les journaux d'audit des actifs"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-12> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.3 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.3" ;
+    skos:prefLabel "Provide enough log storage"@en,
+        "Prévoir un stockage suffisant des journaux"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-4> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:8.4 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.4" ;
+    skos:prefLabel "Synchronise system clocks"@en,
+        "Synchroniser les horloges des systèmes"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-8> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:8.5 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.5" ;
+    skos:prefLabel "Capture detailed audit records"@en,
+        "Saisir des enregistrements d'audit détaillés"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.6 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.6" ;
+    skos:prefLabel "Log DNS queries"@en,
+        "Journaliser les requêtes DNS"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.7 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.7" ;
+    skos:prefLabel "Log URL requests"@en,
+        "Journaliser les requêtes d'URL"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.8 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.8" ;
+    skos:prefLabel "Log command-line activity"@en,
+        "Journaliser l'activité en ligne de commande"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001593 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:8.9 a skos:Concept ;
+    skos:broader cis81:8 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8.9" ;
+    skos:prefLabel "Bring audit logs together centrally"@en,
+        "Regrouper les journaux d'audit centralement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/AU-6_3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/DE> .
+
+cis81:9.1 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.1" ;
+    skos:prefLabel "Use only supported browsers and mail clients"@en,
+        "Navigateurs et clients courriel pris en charge seulement"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.2 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.2" ;
+    skos:prefLabel "Filter DNS lookups"@en,
+        "Filtrer les résolutions DNS"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001588,
+        crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.3 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.3" ;
+    skos:prefLabel "Filter URLs at the network"@en,
+        "Filtrer les URL au niveau du réseau"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SC-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.4 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.4" ;
+    skos:prefLabel "Limit browser and mail extensions"@en,
+        "Limiter les extensions de navigateurs et de courriel"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/CM-7> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001594 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.5 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.5" ;
+    skos:prefLabel "Publish DMARC for mail domains"@en,
+        "Publier DMARC pour les domaines de courriel"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.6 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.6" ;
+    skos:prefLabel "Block risky file types"@en,
+        "Bloquer les types de fichiers risqués"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0001600 crgo:CRGO_0001589,
+        crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:9.7 a skos:Concept ;
+    skos:broader cis81:9 ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9.7" ;
+    skos:prefLabel "Scan mail on the server for malware"@en,
+        "Analyser le courriel sur le serveur"@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> ;
+    crgo:CRGO_0001600 crgo:CRGO_0001590 ;
+    crgo:CRGO_0001601 crgo:CRGO_0001596 ;
+    crgo:CRGO_0001602 <https://w3id.org/crgo/vocab/csf2/PR> .
+
+cis81:1 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "1" ;
+    skos:prefLabel "Knowing and controlling enterprise devices"@en,
+        "Connaître et maîtriser les appareils de l'entreprise"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/ID.AM>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.9> .
+
+cis81:11 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "11" ;
+    skos:prefLabel "Backup and data restoration"@en,
+        "Sauvegarde et restauration des données"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.DS>,
+        <https://w3id.org/crgo/vocab/csf2/RC.RP>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.13> .
+
+cis81:18 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "18" ;
+    skos:prefLabel "Testing defences through simulated attacks"@en,
+        "Éprouver les défenses par des attaques simulées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/ID.IM> .
+
+cis81:5 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "5" ;
+    skos:prefLabel "Managing user and service accounts"@en,
+        "Gérer les comptes d'utilisateurs et de service"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.AA>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.16>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.18> .
+
+cis81:10 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "10" ;
+    skos:prefLabel "Defending against malicious software"@en,
+        "Se défendre contre les logiciels malveillants"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/DE.CM>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.7> .
+
+cis81:15 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "15" ;
+    skos:prefLabel "Managing the security of service providers"@en,
+        "Gérer la sécurité des fournisseurs de services"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/GV.SC>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.19>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.22> .
+
+cis81:2 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "2" ;
+    skos:prefLabel "Knowing and controlling installed software"@en,
+        "Connaître et maîtriser les logiciels installés"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/ID.AM>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.9>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.19> .
+
+cis81:7 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "7" ;
+    skos:prefLabel "Ongoing handling of vulnerabilities"@en,
+        "Traitement continu des vulnérabilités"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/ID.RA>,
+        <https://w3id.org/crgo/vocab/csf2/PR.PS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.8> .
+
+cis81:9 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "9" ;
+    skos:prefLabel "Protecting e-mail and web browsing"@en,
+        "Protéger le courriel et la navigation Web"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.PS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.23> .
+
+cis81:12 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "12" ;
+    skos:prefLabel "Running network infrastructure securely"@en,
+        "Exploiter l'infrastructure réseau de façon sécuritaire"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.IR>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.20>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.22> .
+
+cis81:6 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "6" ;
+    skos:prefLabel "Managing access rights and authentication"@en,
+        "Gérer les droits d'accès et l'authentification"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.AA>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.15>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.18>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.5> .
+
+cis81:14 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "14" ;
+    skos:prefLabel "Security awareness and skills for staff"@en,
+        "Sensibilisation et compétences du personnel en sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.AT>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/6.3> .
+
+cis81:17 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "17" ;
+    skos:prefLabel "Handling security incidents"@en,
+        "Gérer les incidents de sécurité"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/RS.MA>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.24>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.26> .
+
+cis81:13 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "13" ;
+    skos:prefLabel "Watching and defending the network"@en,
+        "Surveiller et défendre le réseau"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/DE.CM>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.16> .
+
+cis81:4 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "4" ;
+    skos:prefLabel "Hardened configuration of assets and software"@en,
+        "Configuration durcie des actifs et logiciels"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.PS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.9> .
+
+cis81:8 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "8" ;
+    skos:prefLabel "Collecting and reviewing audit logs"@en,
+        "Recueillir et examiner les journaux d'audit"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/DE.CM>,
+        <https://w3id.org/crgo/vocab/csf2/PR.PS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.15> .
+
+cis81:16 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "16" ;
+    skos:prefLabel "Securing application software"@en,
+        "Sécuriser les logiciels d'application"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.PS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.25>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.28> .
+
+cis81:3 a skos:Concept ;
+    rdfs:seeAlso <https://www.cisecurity.org/controls/v8-1> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
+    skos:notation "3" ;
+    skos:prefLabel "Protecting enterprise data"@en,
+        "Protéger les données de l'entreprise"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (https://www.cisecurity.org/controls/v8-1); identifier and attributes as published, label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 <https://w3id.org/crgo/vocab/csf2/PR.DS>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/5.12>,
+        <https://w3id.org/crgo/vocab/iso27002-2022/8.12> .
+
+<https://w3id.org/crgo/vocab/cis81> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-11-02"^^xsd:date ;
+    dcterms:publisher "Center for Internet Security (identifiers); CRGO (labels)" ;
+    dcterms:rights "CIS Critical Security Controls v8.1 (c) Center for Internet Security, licensed CC BY-NC-ND 4.0; commercial use needs CIS approval. CRGO holds only identifiers, Implementation Group membership, asset types and security functions, with its own paraphrased labels. No CIS text is reproduced; see https://www.cisecurity.org/controls/v8-1."@en ;
+    dcterms:source "https://www.cisecurity.org/controls/v8-1" ;
+    dcterms:title "CIS Critical Security Controls v8.1 (identifiers, groups, asset types and functions; CRGO labels)"@en,
+        "Contrôles de sécurité critiques du CIS v8.1 (identifiants, groupes, types d'actifs et fonctions; libellés CRGO)"@fr ;
+    owl:imports crgo:crgo-context,
+        <https://w3id.org/crgo/vocab/csf2> ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/cis81> ;
+    owl:versionInfo "8.1 (June 2024)" ;
+    skos:hasTopConcept cis81:1,
+        cis81:10,
+        cis81:11,
+        cis81:12,
+        cis81:13,
+        cis81:14,
+        cis81:15,
+        cis81:16,
+        cis81:17,
+        cis81:18,
+        cis81:2,
+        cis81:3,
+        cis81:4,
+        cis81:5,
+        cis81:6,
+        cis81:7,
+        cis81:8,
+        cis81:9 ;
+    skos:scopeNote "18 controls and 153 safeguards. Values not checked against the CIS v8.1 workbook; those the drafting agent could not recall with confidence carry confidence Low and an editorial note beginning 'REVIEW:'. Correspondences are CRGO judgements ('partially overlaps')."@en .
+

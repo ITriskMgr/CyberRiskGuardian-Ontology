@@ -41,7 +41,13 @@
         <https://w3id.org/crgo/vocab/iso27008>,
         <https://w3id.org/crgo/vocab/iso37301>,
         <https://w3id.org/crgo/vocab/iso37302>,
-        <https://w3id.org/crgo/vocab/theme> ;
-    owl:versionIRI <https://w3id.org/crgo/0.9.0/crgo-full> ;
-    owl:versionInfo "0.9.0" .
+        <https://w3id.org/crgo/vocab/theme>,
+        <https://w3id.org/crgo/vocab/cis81>,
+        <https://w3id.org/crgo/vocab/owasp-top10-2025>,
+        <https://w3id.org/crgo/vocab/owasp-llm-2025>,
+        <https://w3id.org/crgo/vocab/owasp-agentic-2026>,
+        <https://w3id.org/crgo/vocab/naics-sectors>,
+        <https://w3id.org/crgo/vocab/glossary> ;
+    owl:versionIRI <https://w3id.org/crgo/0.11.0/crgo-full> ;
+    owl:versionInfo "0.11.0" .
 

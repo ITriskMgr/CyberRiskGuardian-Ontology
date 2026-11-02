@@ -1,0 +1,172 @@
+id	label_en	label_fr	ig	asset	function	review	sp80053	crgo_classes	
+1	Knowing and controlling enterprise devices	Connaître et maîtriser les appareils de l'entreprise							['']
+1.1	Keep a detailed enterprise asset inventory	Tenir un inventaire détaillé des actifs	1	DEV	ID		CM-8	ConfigurationItem	
+1.2	Deal with unauthorised assets	Traiter les actifs non autorisés	1	DEV	RS		CM-8		
+1.3	Discover assets with active scanning	Découvrir les actifs par balayage actif	2	DEV	DE		CM-8(3)		
+1.4	Feed inventory from DHCP logs	Alimenter l'inventaire par les journaux DHCP	2	DEV	ID				
+1.5	Discover assets with passive monitoring	Découvrir les actifs par surveillance passive	3	DEV	DE				
+2	Knowing and controlling installed software	Connaître et maîtriser les logiciels installés							['']
+2.1	Keep a software inventory	Tenir un inventaire des logiciels	1	APP	ID		CM-8	ConfigurationItem	
+2.2	Use only vendor-supported software	N'utiliser que des logiciels encore pris en charge	1	APP	ID		SA-22		
+2.3	Deal with unauthorised software	Traiter les logiciels non autorisés	1	APP	RS		CM-7		
+2.4	Automate software inventory	Automatiser l'inventaire des logiciels	2	APP	DE		CM-8(2)		
+2.5	Allow only approved software to run	N'autoriser que les logiciels approuvés	2	APP	PR		CM-7(5)		
+2.6	Allow only approved libraries to load	N'autoriser que les bibliothèques approuvées	2	APP	PR		CM-7(5)		
+2.7	Allow only approved scripts to run	N'autoriser que les scripts approuvés	3	APP	PR		CM-7(5)		
+3	Protecting enterprise data	Protéger les données de l'entreprise							['']
+3.1	Run a documented data management process	Appliquer un processus documenté de gestion des données	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Data, Identify); verify			
+3.2	Keep an inventory of data	Tenir un inventaire des données	1	DATA	ID		CM-12		
+3.3	Restrict data access with permissions	Restreindre l'accès aux données par permissions	1	DATA	PR		AC-3	Permission	
+3.4	Keep data only as long as set	Ne conserver les données que la durée prévue	1	DATA	PR		SI-12		
+3.5	Destroy data safely when no longer needed	Détruire sûrement les données devenues inutiles	1	DATA	PR		MP-6		
+3.6	Encrypt end-user device storage	Chiffrer le stockage des appareils des utilisateurs	1	DEV	PR		SC-28		
+3.7	Define levels for classifying data	Définir les niveaux de classification des données	2	DATA	ID		RA-2		
+3.8	Map how data moves	Cartographier la circulation des données	2	DATA	ID		CM-13		
+3.9	Encrypt removable media contents	Chiffrer le contenu des supports amovibles	2	DATA	PR		MP-5		
+3.10	Protect sensitive data in transit with encryption	Protéger par chiffrement les données sensibles en transit	2	DATA	PR		SC-8		
+3.11	Protect stored sensitive data with encryption	Protéger par chiffrement les données sensibles stockées	2	DATA	PR		SC-28		
+3.12	Separate data processing by sensitivity	Séparer les traitements selon la sensibilité	2	NET	PR		SC-7		
+3.13	Use data loss prevention tooling	Utiliser un outil de prévention des fuites	3	DATA	PR				
+3.14	Record who accesses sensitive data	Consigner qui accède aux données sensibles	3	DATA	DE		AU-2		
+4	Hardened configuration of assets and software	Configuration durcie des actifs et logiciels							['']
+4.1	Run a secure configuration process	Appliquer un processus de configuration sécuritaire	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify	CM-2; CM-6	BaselineVersion	
+4.2	Securely configure network infrastructure	Configurer l'infrastructure réseau de façon sécuritaire	1	NET	PR	v8.1 may classify as Govern/Documentation; verify	CM-6	BaselineVersion	
+4.3	Lock idle sessions automatically	Verrouiller automatiquement les sessions inactives	1	USERS	PR		AC-11		
+4.4	Run firewalls on servers	Activer un pare-feu sur les serveurs	1	DEV	PR		SC-7		
+4.5	Run firewalls on end-user devices	Activer un pare-feu sur les postes utilisateurs	1	DEV	PR		SC-7(12)		
+4.6	Manage assets and software securely	Gérer les actifs et logiciels de façon sécuritaire	1	NET	PR		CM-6		
+4.7	Control vendor default accounts	Contrôler les comptes par défaut des fournisseurs	1	USERS	PR		IA-5	Account	
+4.8	Remove unneeded services	Retirer les services inutiles	2	DEV	PR		CM-7		
+4.9	Use trusted DNS resolvers	Utiliser des serveurs DNS de confiance	2	DEV	PR		SC-20		
+4.10	Lock portable devices after failed logins	Verrouiller les appareils portables après échecs	2	DEV	RS		AC-7		
+4.11	Wipe lost portable devices remotely	Effacer à distance les appareils portables perdus	2	DEV	PR		AC-7(2)		
+4.12	Separate work data on mobiles	Séparer les données professionnelles sur mobiles	3	DEV	PR				
+5	Managing user and service accounts	Gérer les comptes d'utilisateurs et de service							['']
+5.1	Keep an inventory of accounts	Tenir un inventaire des comptes	1	USERS	ID		AC-2	AccountPopulation	
+5.2	Require unique passwords	Exiger des mots de passe uniques	1	USERS	PR		IA-5(1)	CredentialReference	
+5.3	Switch off unused accounts	Désactiver les comptes inutilisés	1	USERS	RS		AC-2(3)	AccountPopulation	
+5.4	Use separate admin accounts	Utiliser des comptes d'administration distincts	1	USERS	PR		AC-6(2)	PrivilegedAccount; PrivilegedRolePopulation	
+5.5	Keep an inventory of service accounts	Tenir un inventaire des comptes de service	2	USERS	ID		AC-2	ServiceAccount; AccountPopulation	
+5.6	Manage accounts centrally	Gérer les comptes de façon centralisée	2	USERS	PR		AC-2(1)	IdentityProvider	
+6	Managing access rights and authentication	Gérer les droits d'accès et l'authentification							['']
+6.1	Run a process to grant access	Appliquer un processus d'octroi des accès	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Users, Protect); verify	AC-2	AccessRequest; AccessDecision	
+6.2	Run a process to revoke access	Appliquer un processus de révocation des accès	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Users, Protect); verify	AC-2; PS-4	AccessDecision	
+6.3	Multi-factor login for internet-facing apps	Authentification multifacteur des applications exposées	1	USERS	PR		IA-2(1)	AuthenticatorAssuranceEvidence	
+6.4	Multi-factor login for remote access	Authentification multifacteur de l'accès à distance	1	USERS	PR		IA-2(1)	AuthenticatorAssuranceEvidence	
+6.5	Multi-factor login for administration	Authentification multifacteur de l'administration	1	USERS	PR		IA-2(1)	AuthenticatorAssuranceEvidence; PrivilegedRolePopulation	
+6.6	Inventory authentication and authorisation systems	Inventorier les systèmes d'authentification et d'autorisation	2	USERS	ID			IdentitySource	
+6.7	Run access control from one place	Gérer le contrôle d'accès en un seul point	2	USERS	PR			IdentityProvider	
+6.8	Grant access through defined roles	Accorder les accès par rôles définis	3	DATA	PR		AC-3(7)	AccessRole	
+7	Ongoing handling of vulnerabilities	Traitement continu des vulnérabilités							['']
+7.1	Run a vulnerability management process	Appliquer un processus de gestion des vulnérabilités	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify	RA-5		
+7.2	Run a remediation process	Appliquer un processus de correction	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Applications, Respond); verify	SI-2		
+7.3	Patch operating systems automatically	Corriger automatiquement les systèmes d'exploitation	1	APP	PR		SI-2		
+7.4	Patch applications automatically	Corriger automatiquement les applications	1	APP	PR		SI-2		
+7.5	Scan internal assets for vulnerabilities	Balayer les actifs internes pour les vulnérabilités	2	APP	ID		RA-5		
+7.6	Scan internet-facing assets for vulnerabilities	Balayer les actifs exposés pour les vulnérabilités	2	APP	ID		RA-5		
+7.7	Fix detected vulnerabilities	Corriger les vulnérabilités détectées	2	APP	RS		SI-2		
+8	Collecting and reviewing audit logs	Recueillir et examiner les journaux d'audit							['']
+8.1	Run an audit log management process	Appliquer un processus de gestion des journaux	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Network, Protect); verify	AU-1		
+8.2	Gather audit logs from assets	Rassembler les journaux d'audit des actifs	1	NET	DE		AU-12		
+8.3	Provide enough log storage	Prévoir un stockage suffisant des journaux	1	NET	PR		AU-4		
+8.4	Synchronise system clocks	Synchroniser les horloges des systèmes	2	NET	PR		AU-8		
+8.5	Capture detailed audit records	Saisir des enregistrements d'audit détaillés	2	NET	DE		AU-3		
+8.6	Log DNS queries	Journaliser les requêtes DNS	2	NET	DE				
+8.7	Log URL requests	Journaliser les requêtes d'URL	2	NET	DE				
+8.8	Log command-line activity	Journaliser l'activité en ligne de commande	2	DEV	DE				
+8.9	Bring audit logs together centrally	Regrouper les journaux d'audit centralement	2	NET	DE		AU-6(3)		
+8.10	Keep audit logs long enough	Conserver les journaux assez longtemps	2	NET	PR		AU-11		
+8.11	Examine audit logs regularly	Examiner régulièrement les journaux d'audit	2	NET	DE		AU-6		
+8.12	Obtain logs from service providers	Obtenir les journaux des fournisseurs de services	3	DATA	DE				
+9	Protecting e-mail and web browsing	Protéger le courriel et la navigation Web							['']
+9.1	Use only supported browsers and mail clients	Navigateurs et clients courriel pris en charge seulement	1	APP	PR				
+9.2	Filter DNS lookups	Filtrer les résolutions DNS	1	NET	PR		SC-7		
+9.3	Filter URLs at the network	Filtrer les URL au niveau du réseau	2	NET	PR		SC-7		
+9.4	Limit browser and mail extensions	Limiter les extensions de navigateurs et de courriel	2	APP	PR		CM-7		
+9.5	Publish DMARC for mail domains	Publier DMARC pour les domaines de courriel	2	NET	PR				
+9.6	Block risky file types	Bloquer les types de fichiers risqués	2	NET	PR				
+9.7	Scan mail on the server for malware	Analyser le courriel sur le serveur	3	NET	PR		SI-3		
+10	Defending against malicious software	Se défendre contre les logiciels malveillants							['']
+10.1	Run anti-malware software	Utiliser un logiciel anti-maliciel	1	DEV	PR		SI-3		
+10.2	Update anti-malware signatures automatically	Mettre à jour automatiquement les signatures	1	DEV	PR		SI-3		
+10.3	Disable autorun for removable media	Désactiver l'exécution automatique des supports amovibles	1	DEV	PR				
+10.4	Scan removable media automatically	Analyser automatiquement les supports amovibles	2	DEV	DE		SI-3		
+10.5	Turn on anti-exploitation features	Activer les protections contre l'exploitation	2	DEV	PR		SI-16		
+10.6	Manage anti-malware centrally	Gérer l'anti-maliciel de façon centralisée	2	DEV	PR		SI-3		
+10.7	Detect malware by its behaviour	Détecter les maliciels par leur comportement	2	DEV	DE		SI-3		
+11	Backup and data restoration	Sauvegarde et restauration des données							['']
+11.1	Run a data recovery process	Appliquer un processus de récupération des données	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: Data, Recover); verify	CP-10		
+11.2	Back up automatically	Sauvegarder automatiquement	1	DATA	RC		CP-9		
+11.3	Protect backup data	Protéger les données de sauvegarde	1	DATA	PR		CP-9		
+11.4	Keep an isolated copy of backups	Garder une copie isolée des sauvegardes	1	DATA	RC		CP-9		
+11.5	Test restoring data	Tester la restauration des données	2	DATA	RC		CP-9(1)		
+12	Running network infrastructure securely	Exploiter l'infrastructure réseau de façon sécuritaire							['']
+12.1	Patch and update network equipment	Corriger et mettre à jour l'équipement réseau	1	NET	PR		SI-2		
+12.2	Maintain a secure network architecture	Maintenir une architecture réseau sécuritaire	2	NET	PR	v8.1 may classify as Govern/Documentation; verify	SC-7		
+12.3	Manage network infrastructure securely	Gérer l'infrastructure réseau de façon sécuritaire	2	NET	PR				
+12.4	Keep network architecture diagrams	Tenir des schémas d'architecture réseau	2	NET	ID	v8.1 may classify as Documentation; verify			
+12.5	Authenticate network access through one service	Authentifier l'accès réseau par un service unique	2	NET	PR			IdentityProvider	
+12.6	Use secure management protocols	Utiliser des protocoles de gestion sécuritaires	2	NET	PR		SC-8		
+12.7	Route remote devices through enterprise VPN and AAA	Appareils distants via RPV et AAA d'entreprise	2	DEV	PR		AC-17		
+12.8	Dedicate machines to administrative work	Réserver des postes au travail d'administration	3	DEV	PR			PrivilegedSession	
+13	Watching and defending the network	Surveiller et défendre le réseau							['']
+13.1	Send security alerts to one place	Acheminer les alertes de sécurité en un point	2	NET	DE		SI-4		
+13.2	Run host-based intrusion detection	Exploiter une détection d'intrusion sur l'hôte	2	DEV	DE		SI-4		
+13.3	Run network intrusion detection	Exploiter une détection d'intrusion réseau	2	NET	DE		SI-4		
+13.4	Filter traffic between network segments	Filtrer le trafic entre segments réseau	2	NET	PR		SC-7		
+13.5	Control access by remote assets	Contrôler l'accès des actifs distants	2	DEV	PR				
+13.6	Record network flow data	Consigner les données de flux réseau	2	NET	DE				
+13.7	Run host-based intrusion prevention	Exploiter une prévention d'intrusion sur l'hôte	3	DEV	PR				
+13.8	Run network intrusion prevention	Exploiter une prévention d'intrusion réseau	3	NET	PR				
+13.9	Control access at the network port	Contrôler l'accès au port réseau	3	DEV	PR				
+13.10	Filter at the application layer	Filtrer au niveau de la couche application	3	NET	PR				
+13.11	Tune alert thresholds	Ajuster les seuils d'alerte	3	NET	DE				
+14	Security awareness and skills for staff	Sensibilisation et compétences du personnel en sécurité							['']
+14.1	Run a security awareness programme	Mener un programme de sensibilisation	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Protect); verify	AT-2		
+14.2	Teach recognising social engineering	Apprendre à reconnaître l'ingénierie sociale	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2(3)		
+14.3	Teach good authentication habits	Enseigner les bonnes pratiques d'authentification	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.4	Teach safe data handling	Enseigner la manipulation sécuritaire des données	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.5	Teach causes of accidental data exposure	Enseigner les causes d'exposition accidentelle	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.6	Teach spotting and reporting incidents	Apprendre à repérer et signaler les incidents	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.7	Teach reporting missing security updates	Apprendre à signaler les mises à jour manquantes	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.8	Teach risks of insecure networks	Enseigner les risques des réseaux non sécurisés	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.9	Give role-specific security training	Offrir une formation adaptée aux fonctions	2	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-3		
+15	Managing the security of service providers	Gérer la sécurité des fournisseurs de services							['']
+15.1	Keep an inventory of service providers	Tenir un inventaire des fournisseurs de services	1	NA	ID	asset type (v8: N/A) to verify for v8.1	SA-9		
+15.2	Set a service provider management policy	Établir une politique de gestion des fournisseurs	2	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify	SR-1		
+15.3	Tier service providers by risk	Classer les fournisseurs selon le risque	2	NA	ID	asset type (v8: N/A) to verify for v8.1			
+15.4	Put security terms in provider contracts	Inclure des exigences de sécurité aux contrats	2	NA	PR	asset type (v8: N/A) to verify for v8.1	SA-4		
+15.5	Evaluate service providers' security	Évaluer la sécurité des fournisseurs	3	NA	ID	asset type (v8: N/A) to verify for v8.1	SR-6		
+15.6	Watch service providers' security over time	Suivre la sécurité des fournisseurs dans le temps	3	DATA	DE		SA-9		
+15.7	Offboard service providers securely	Mettre fin aux services d'un fournisseur sécuritairement	3	DATA	PR				
+16	Securing application software	Sécuriser les logiciels d'application							['']
+16.1	Run a secure development process	Appliquer un processus de développement sécuritaire	2	DOC	GV	v8.1 Govern/Documentation recalled (v8: Applications, Protect); verify	SA-15		
+16.2	Run a process for reported software flaws	Traiter les vulnérabilités logicielles signalées	2	APP	PR	v8.1 may classify as Govern/Documentation; verify	SA-11		
+16.3	Find root causes of security flaws	Analyser les causes des failles de sécurité	2	APP	PR				
+16.4	Inventory third-party software components	Inventorier les composants logiciels de tiers	2	APP	PR	security function (Protect or Identify) to verify	CM-8		
+16.5	Use current, trusted third-party components	Utiliser des composants tiers à jour et fiables	2	APP	PR		SA-22		
+16.6	Rate severity of application vulnerabilities	Coter la gravité des vulnérabilités applicatives	2	APP	PR				
+16.7	Harden application infrastructure with templates	Durcir l'infrastructure applicative par gabarits	2	APP	PR		CM-2	BaselineVersion	
+16.8	Keep production apart from test systems	Tenir la production à l'écart des systèmes d'essai	2	APP	PR		CM-4(1)		
+16.9	Train developers in secure coding	Former les développeurs au codage sécuritaire	2	APP	PR		SA-8		
+16.10	Design applications with secure principles	Concevoir les applications selon des principes sécuritaires	2	APP	PR		SA-8		
+16.11	Reuse vetted security components	Réutiliser des composants de sécurité éprouvés	2	APP	PR				
+16.12	Check code for security issues	Vérifier le code pour les problèmes de sécurité	3	APP	PR		SA-11		
+16.13	Penetration-test applications	Effectuer des tests d'intrusion applicatifs	3	APP	PR		CA-8		
+16.14	Model threats to applications	Modéliser les menaces applicatives	3	APP	PR		SA-11(2)		
+17	Handling security incidents	Gérer les incidents de sécurité							['']
+17.1	Name people to manage incidents	Désigner les responsables de la gestion des incidents	1	NA	RS	asset type (v8: N/A) to verify for v8.1	IR-7		
+17.2	Keep incident reporting contacts current	Tenir à jour les contacts de signalement	1	NA	RS	asset type (v8: N/A) to verify for v8.1	IR-6		
+17.3	Run a process to report incidents	Appliquer un processus de signalement des incidents	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify	IR-6		
+17.4	Run an incident response process	Appliquer un processus de réponse aux incidents	2	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Respond); verify	IR-8		
+17.5	Assign incident response roles	Attribuer les rôles de réponse aux incidents	2	NA	RS	asset type (v8: N/A) to verify for v8.1	IR-8		
+17.6	Set communication means for incidents	Prévoir les moyens de communication en incident	2	NA	RS	asset type (v8: N/A) to verify for v8.1	IR-8		
+17.7	Exercise incident response regularly	Exercer régulièrement la réponse aux incidents	2	NA	RC	asset type (v8: N/A) to verify for v8.1	IR-3		
+17.8	Review incidents afterwards	Revoir les incidents après coup	2	NA	RC	asset type (v8: N/A) to verify for v8.1	IR-4		
+17.9	Set incident thresholds	Fixer les seuils d'incident de sécurité	3	NA	RC	asset type (v8: N/A) to verify for v8.1			
+18	Testing defences through simulated attacks	Éprouver les défenses par des attaques simulées							['']
+18.1	Run a penetration testing programme	Mener un programme de tests d'intrusion	2	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify	CA-8		
+18.2	Penetration-test from outside regularly	Effectuer des tests d'intrusion externes réguliers	2	NET	ID		CA-8		
+18.3	Fix penetration test findings	Corriger les constats des tests d'intrusion	2	NET	PR		CA-5		
+18.4	Check that security measures work	Vérifier que les mesures de sécurité fonctionnent	3	NET	PR		CA-2		
+18.5	Penetration-test from inside regularly	Effectuer des tests d'intrusion internes réguliers	3	NA	ID	asset type (v8: N/A) to verify for v8.1	CA-8		

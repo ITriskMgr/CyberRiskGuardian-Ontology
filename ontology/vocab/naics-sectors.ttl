@@ -1,0 +1,299 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix naics-sectors: <https://w3id.org/crgo/vocab/naics-sectors/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+naics-sectors:11 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "11" ;
+    skos:prefLabel "Agriculture, forestry, fishing and hunting"@en,
+        "Agriculture, foresterie, pêche et chasse"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Agriculture_forestry_fishing_hunting> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:21 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "21" ;
+    skos:prefLabel "Mining, quarrying, and oil and gas extraction"@en,
+        "Extraction minière, exploitation en carrière, et extraction de pétrole et de gaz"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Mining_quarrying_and_oil_and_gas_extraction> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:22 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "22" ;
+    skos:prefLabel "Utilities"@en,
+        "Services publics"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Utilities> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:23 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "23" ;
+    skos:prefLabel "Construction"@en,
+        "Construction"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Construction> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:31-33 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "31-33" ;
+    skos:prefLabel "Manufacturing"@en,
+        "Fabrication"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Manufacturing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:41 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "41" ;
+    skos:prefLabel "Wholesale trade"@en,
+        "Commerce de gros"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Wholesale_trade> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:44-45 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "44-45" ;
+    skos:prefLabel "Retail trade"@en,
+        "Commerce de détail"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Retail_trade> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:48-49 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "48-49" ;
+    skos:prefLabel "Transportation and warehousing"@en,
+        "Transport et entreposage"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Transportation_warehousing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:51 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "51" ;
+    skos:prefLabel "Information and cultural industries"@en,
+        "Industrie de l'information et industrie culturelle"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Information_cultural_industries> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:52 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "52" ;
+    skos:prefLabel "Finance and insurance"@en,
+        "Finance et assurances"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Finance_insurance> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:53 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "53" ;
+    skos:prefLabel "Real estate and rental and leasing"@en,
+        "Services immobiliers et services de location et de location à bail"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Real_estate_rental_leasing> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:54 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "54" ;
+    skos:prefLabel "Professional, scientific and technical services"@en,
+        "Services professionnels, scientifiques et techniques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Professional_scientific_technical_services> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:55 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "55" ;
+    skos:prefLabel "Management of companies and enterprises"@en,
+        "Gestion de sociétés et d'entreprises"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Management> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:56 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "56" ;
+    skos:prefLabel "Administrative and support, waste management and remediation services"@en,
+        "Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Administrative_support_waste_management_remediation_services> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:61 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "61" ;
+    skos:prefLabel "Educational services"@en,
+        "Services d'enseignement"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Educational_services> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:62 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "62" ;
+    skos:prefLabel "Health care and social assistance"@en,
+        "Soins de santé et assistance sociale"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Health_care_social_assistance> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:71 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "71" ;
+    skos:prefLabel "Arts, entertainment and recreation"@en,
+        "Arts, spectacles et loisirs"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Arts_entertainment_recreation> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:72 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "72" ;
+    skos:prefLabel "Accommodation and food services"@en,
+        "Services d'hébergement et de restauration"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Accommodation_food_services> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:81 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "81" ;
+    skos:prefLabel "Other services (except public administration)"@en,
+        "Autres services (sauf les administrations publiques)"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Other_services> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+naics-sectors:91 a skos:Concept ;
+    skos:inScheme <https://w3id.org/crgo/vocab/naics-sectors> ;
+    skos:notation "91" ;
+    skos:prefLabel "Public administration"@en,
+        "Administrations publiques"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/naics-sectors> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "NAICS Canada 2022 (Statistics Canada); adapted from MOACCO 1.2a NAICS classes"@en ;
+    crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAIC_Public_administration> ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+<https://w3id.org/crgo/vocab/naics-sectors> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-11-02"^^xsd:date ;
+    dcterms:publisher "Statistics Canada" ;
+    dcterms:rights "Sector codes and titles of the North American Industry Classification System (NAICS) Canada 2022, Statistics Canada (Statistics Canada Open Licence)."@en ;
+    dcterms:source "https://www.statcan.gc.ca/en/subjects/standard/naics/2022/v1/index" ;
+    dcterms:title "NAICS Canada 2022 sectors"@en,
+        "Secteurs du SCIAN Canada 2022"@fr ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/naics-sectors> ;
+    owl:versionInfo "2022 Version 1.0" ;
+    skos:hasTopConcept naics-sectors:11,
+        naics-sectors:21,
+        naics-sectors:22,
+        naics-sectors:23,
+        naics-sectors:31-33,
+        naics-sectors:41,
+        naics-sectors:44-45,
+        naics-sectors:48-49,
+        naics-sectors:51,
+        naics-sectors:52,
+        naics-sectors:53,
+        naics-sectors:54,
+        naics-sectors:55,
+        naics-sectors:56,
+        naics-sectors:61,
+        naics-sectors:62,
+        naics-sectors:71,
+        naics-sectors:72,
+        naics-sectors:81,
+        naics-sectors:91 ;
+    skos:scopeNote "Two-digit sectors, adapted from the NAICS classes of MOACCO (the author's earlier ontology), with Canadian codes. Organisations point to a sector with 'in industry sector' (crgo-context)."@en .
+

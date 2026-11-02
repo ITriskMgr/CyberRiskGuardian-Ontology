@@ -1,0 +1,31 @@
+scheme	id	label_en	label_fr	patterns
+owasp-top10-2025	A01:2025	access control failures	défaillances du contrôle d'accès	
+owasp-top10-2025	A02:2025	insecure configuration	configuration non sécuritaire	
+owasp-top10-2025	A03:2025	software supply chain weaknesses	faiblesses de la chaîne d'approvisionnement logicielle	
+owasp-top10-2025	A04:2025	weak or misused cryptography	cryptographie faible ou mal utilisée	PatCryptoAgility
+owasp-top10-2025	A05:2025	untrusted input run as code or query	entrée non fiable exécutée comme code ou requête	
+owasp-top10-2025	A06:2025	security flaws in design	failles de sécurité dans la conception	
+owasp-top10-2025	A07:2025	weak authentication	authentification déficiente	
+owasp-top10-2025	A08:2025	unverified integrity of software or data	intégrité non vérifiée des logiciels ou des données	
+owasp-top10-2025	A09:2025	insufficient security logging and alerting	journalisation et alertes de sécurité insuffisantes	
+owasp-top10-2025	A10:2025	poor handling of errors and abnormal conditions	mauvaise gestion des erreurs et des conditions anormales	
+owasp-llm-2025	LLM01:2025	manipulation by injected instructions	manipulation par instructions injectées	PatPromptInjection
+owasp-llm-2025	LLM02:2025	leakage of sensitive information	fuite d'informations sensibles	
+owasp-llm-2025	LLM03:2025	compromised supply of models or components	approvisionnement compromis en modèles ou composants	PatAISupplyChain
+owasp-llm-2025	LLM04:2025	poisoned training data or model	données d'entraînement ou modèle empoisonnés	PatAISupplyChain
+owasp-llm-2025	LLM05:2025	unsafe use of model output	utilisation non sécuritaire des sorties du modèle	
+owasp-llm-2025	LLM06:2025	too much autonomy or permission	autonomie ou permissions excessives	PatAgenticMisuse
+owasp-llm-2025	LLM07:2025	exposure of system instructions	exposition des instructions système	
+owasp-llm-2025	LLM08:2025	weaknesses in retrieval embeddings	faiblesses des plongements utilisés pour la recherche	
+owasp-llm-2025	LLM09:2025	false or misleading output	sorties fausses ou trompeuses	
+owasp-llm-2025	LLM10:2025	uncontrolled resource consumption	consommation de ressources non maîtrisée	
+owasp-agentic-2026	ASI01:2026	redirection of an agent's goals	détournement des objectifs d'un agent	PatPromptInjection; PatAgenticMisuse
+owasp-agentic-2026	ASI02:2026	misuse of an agent's tools	utilisation abusive des outils d'un agent	PatAgenticMisuse
+owasp-agentic-2026	ASI03:2026	abuse of agent identity or privileges	abus d'identité ou de privilèges d'agent	PatAgenticMisuse
+owasp-agentic-2026	ASI04:2026	compromised supply of agent components	approvisionnement compromis en composants d'agent	PatAISupplyChain
+owasp-agentic-2026	ASI05:2026	unintended code execution by agents	exécution de code non prévue par des agents	PatAgenticMisuse
+owasp-agentic-2026	ASI06:2026	tampered agent memory or context	mémoire ou contexte d'agent altérés	PatPromptInjection
+owasp-agentic-2026	ASI07:2026	unprotected messages between agents	messages non protégés entre agents	
+owasp-agentic-2026	ASI08:2026	failures spreading across agents	défaillances propagées entre agents	
+owasp-agentic-2026	ASI09:2026	exploited human trust in agents	exploitation de la confiance humaine envers les agents	
+owasp-agentic-2026	ASI10:2026	agents acting outside their mandate	agents agissant hors de leur mandat	PatAgenticMisuse

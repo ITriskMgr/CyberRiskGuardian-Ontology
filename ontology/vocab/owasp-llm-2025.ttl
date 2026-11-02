@@ -1,0 +1,165 @@
+@prefix crgo: <https://w3id.org/crgo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owasp-llm-2025: <https://w3id.org/crgo/vocab/owasp-llm-2025/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+owasp-llm-2025:LLM01-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM01:2025" ;
+    skos:prefLabel "manipulation by injected instructions"@en,
+        "manipulation par instructions injectées"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 crgo:CRGO_0001393 .
+
+owasp-llm-2025:LLM02-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM02:2025" ;
+    skos:prefLabel "leakage of sensitive information"@en,
+        "fuite d'informations sensibles"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+owasp-llm-2025:LLM03-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM03:2025" ;
+    skos:prefLabel "compromised supply of models or components"@en,
+        "approvisionnement compromis en modèles ou composants"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 crgo:CRGO_0001394 .
+
+owasp-llm-2025:LLM04-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM04:2025" ;
+    skos:prefLabel "poisoned training data or model"@en,
+        "données d'entraînement ou modèle empoisonnés"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 crgo:CRGO_0001394 .
+
+owasp-llm-2025:LLM05-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM05:2025" ;
+    skos:prefLabel "unsafe use of model output"@en,
+        "utilisation non sécuritaire des sorties du modèle"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+owasp-llm-2025:LLM06-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM06:2025" ;
+    skos:prefLabel "too much autonomy or permission"@en,
+        "autonomie ou permissions excessives"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000827 crgo:CRGO_0001392 .
+
+owasp-llm-2025:LLM07-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM07:2025" ;
+    skos:prefLabel "exposure of system instructions"@en,
+        "exposition des instructions système"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+owasp-llm-2025:LLM08-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM08:2025" ;
+    skos:prefLabel "weaknesses in retrieval embeddings"@en,
+        "faiblesses des plongements utilisés pour la recherche"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+owasp-llm-2025:LLM09-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM09:2025" ;
+    skos:prefLabel "false or misleading output"@en,
+        "sorties fausses ou trompeuses"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+owasp-llm-2025:LLM10-2025 a skos:Concept ;
+    rdfs:seeAlso <https://genai.owasp.org/llm-top-10/> ;
+    skos:inScheme <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    skos:notation "LLM10:2025" ;
+    skos:prefLabel "uncontrolled resource consumption"@en,
+        "consommation de ressources non maîtrisée"@fr ;
+    skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/); label a CRGO paraphrase"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+<https://w3id.org/crgo/vocab/owasp-llm-2025> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:date "2026-11-02"^^xsd:date ;
+    dcterms:publisher "OWASP GenAI Security Project (identifiers); CRGO (labels)" ;
+    dcterms:rights "Identifiers (c) OWASP Foundation, CC BY-SA 4.0. CRGO holds only the identifiers, with its own labels; see https://genai.owasp.org/llm-top-10/ for the published text."@en ;
+    dcterms:source "https://genai.owasp.org/llm-top-10/" ;
+    dcterms:title "OWASP Top 10 for LLM Applications 2025 (identifiers; CRGO labels)"@en,
+        "OWASP Top 10 des applications de grands modèles de langage 2025 (identifiants; libellés CRGO)"@fr ;
+    owl:imports crgo:crgo-context ;
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/owasp-llm-2025> ;
+    owl:versionInfo "2025" ;
+    skos:hasTopConcept owasp-llm-2025:LLM01-2025,
+        owasp-llm-2025:LLM02-2025,
+        owasp-llm-2025:LLM03-2025,
+        owasp-llm-2025:LLM04-2025,
+        owasp-llm-2025:LLM05-2025,
+        owasp-llm-2025:LLM06-2025,
+        owasp-llm-2025:LLM07-2025,
+        owasp-llm-2025:LLM08-2025,
+        owasp-llm-2025:LLM09-2025,
+        owasp-llm-2025:LLM10-2025 ;
+    skos:scopeNote "Links to the crgo-context scenario patterns are CRGO judgements ('partially overlaps')."@en .
+
