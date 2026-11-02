@@ -21,7 +21,7 @@ nni = lambda n: Literal(n, datatype=XSD.nonNegativeInteger)
 base = Graph()
 for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar", "context", "iam"):
     base.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
-for v in ("legal", "cis81", "csf2"):
+for v in ("legal", "cis81", "csf2", "pattern-links", "sp800-53r5", "attack", "cwe"):
     base.parse(os.path.join(ROOT, "ontology", "vocab", v + ".ttl"))
 for f in ("nordelle", "nordelle-grca", "nordelle-iam"):
     base.parse(os.path.join(ROOT, "tests", "samples", f + ".ttl"))
@@ -100,5 +100,16 @@ check("IAM-10 positive: 18 controls and 153 safeguards; IG1 56, IG2 130, IG3 153
       str((len(sg), ig(1), ig(2), ig(3))))
 check("IAM-10 negative: every safeguard has exactly one asset type and one security function",
       all(len(list(base.objects(c, T("hasSafeguardAssetType")))) == 1 and len(list(base.objects(c, T("hasSecurityFunction")))) == 1 for c in sg))
+# PAT-01..03: scenario patterns (vocab/pattern-links) and the scenarios that instantiate them
+SP = lambda n: URIRef("https://w3id.org/crgo/vocab/sp800-53r5/" + n)
+pats = [T(k) for k in ("PatQuantumHarvest", "PatCryptoAgility", "PatCertificateExpiry", "PatAgenticMisuse", "PatPromptInjection", "PatAISupplyChain")]
+check("PAT-01 positive: every scenario pattern has a control, a theme and a technique or weakness",
+      all(list(base.objects(p, T("patternAddressedBy"))) and list(base.objects(p, T("narrowerThan"))) and
+          (list(base.objects(p, T("patternInvolvesTechnique"))) or list(base.objects(p, T("patternInvolvesWeakness")))) for p in pats))
+ctl = {o for o in base.objects(T("PatPromptInjection"), T("patternAddressedBy"))}
+check("PAT-02 positive: prompt injection is addressed by SP 800-53 SI-10, AC-6 and SI-4", {SP("SI-10"), SP("AC-6"), SP("SI-4")} <= ctl, str(short(ctl)))
+check("PAT-02 negative: certificate expiry involves no ATT&CK technique (an outage, not an attack)", list(base.objects(T("PatCertificateExpiry"), T("patternInvolvesTechnique"))) == [])
+Q9 = "SELECT ?s WHERE { ?s %s ?p . ?p %s %s }" % (P("hasScenarioPattern"), P("patternAddressedBy"), "<%s>" % SP("SC-17"))
+check("PAT-03 positive: the shop certificate scenario is found through its pattern's control SC-17", {r.s for r in sel(base, Q9)} == {N["scenario/shop-certificate-expiry"]})
 print("%d of %d checks passed" % (sum(results), len(results)))
 sys.exit(0 if all(results) else 1)

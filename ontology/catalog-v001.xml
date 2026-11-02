@@ -53,6 +53,7 @@
   <uri name="https://w3id.org/crgo/vocab/owasp-agentic-2026" uri="vocab/owasp-agentic-2026.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/naics-sectors" uri="vocab/naics-sectors.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/glossary" uri="vocab/glossary.ttl"/>
+  <uri name="https://w3id.org/crgo/vocab/pattern-links" uri="vocab/pattern-links.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/legal" uri="vocab/legal.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sources" uri="vocab/sources.ttl"/>
   <uri name="https://w3id.org/crgo/vocab/sp800-53a" uri="vocab/sp800-53a.ttl"/>

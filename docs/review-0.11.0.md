@@ -10,13 +10,14 @@ headers (version 0.11.0) changed.
 | Key in `src/approvals.tsv` | What | Size |
 |---|---|---|
 | `terms/iam` | Module crgo-iam: identities, accounts, roles, entitlements, SoD, access lifecycle, privileged access, credentials (metadata only), emergency access, findings, configuration items, snapshots, baseline versions and requirements, deviations, change records, deployment gates, build attestations, service impact, outcome metrics, coverage observations, the seven register classes | 55 classes, 6 value sets (31 values), 61 object and 31 data properties |
-| `terms/context` | Module crgo-context: AI systems and agents, model artefacts, certificates, cryptographic inventory, scenario patterns, technology in use, CIS implementation groups and asset types, MOACCO-derived organisation size, legal form, standard origin and obligation source; the added values *designated operator* (organisation type) and *technology condition* (condition kind) | 6 classes, 9 value sets (45 values), 16 object and 2 data properties |
+| `terms/context` | Module crgo-context: AI systems and agents, model artefacts, certificates, cryptographic inventory, scenario patterns, technology in use, CIS implementation groups and asset types, MOACCO-derived organisation size, legal form, standard origin and obligation source; the added values *designated operator* (organisation type) and *technology condition* (condition kind) | 6 classes, 9 value sets (45 values), 19 object and 2 data properties |
 | `legal/instruments-0110` | Critical Cyber Systems Protection Act (Bill C-8) | 1 instrument |
 | `legal/standards-0110` | ISO/IEC 27701:2025, ISO/IEC 42001:2023, OWASP Top 10:2025, OWASP LLM 2025, OWASP Agentic 2026, CIS Controls v8.1 as Framework individuals | 6 |
 | `legal/conditions-0110` | Six interpretive applicability conditions (CCSPA designated operator; 27701 personal information; 42001 AI systems; OWASP web, generative AI, AI agents) | 6 |
 | `sources/records-0110` | Nine source records (MOACCO, CIS v8.1, OWASP x3, ISO x2, CCSPA, NAICS Canada 2022) | 9 |
 | `cis81/*` | CIS v8.1 vocabulary: 18 controls, 153 safeguards, 170 typed correspondences | 171 concepts |
 | `owasp-top10-2025/*`, `owasp-llm-2025/*`, `owasp-agentic-2026/*` | OWASP identifiers with CRGO labels, 13 links to scenario patterns | 30 concepts |
+| `pattern-links` | 51 proposed links of the six scenario patterns (ATT&CK, CWE, SP 800-53, CIS, themes) and 3 ATLAS references, each with its confidence | 54 |
 | `naics-sectors/*`, `glossary/*` | NAICS Canada 2022 sectors; 35 glossary terms adapted from MOACCO | 20 + 35 concepts |
 | `tests/0.11.0` | Test expectation: CMP CQ1 now lists ISO/IEC 27701:2025 (potentially applicable) for Nordelle | 1 check |
 
@@ -47,7 +48,13 @@ headers (version 0.11.0) changed.
    Implementation Group counts (56 / 130 / 153) match the published totals. Labels are CRGO's own, at most eight words.
 7. **CIS ↔ other frameworks**: 'partially overlaps' only (CRGO judgement), at control level to CSF 2.0 categories and ISO/IEC
    27002:2022, at safeguard level to SP 800-53 Rev. 5; links to crgo-iam classes are `rdfs:seeAlso`, not mappings.
-8. **Security function** of a CIS safeguard is given as the CSF 2.0 function concept (vocab/csf2 GV, ID, PR, DE, RS, RC) rather
+8. **Scenario patterns** are values of the value set *scenario pattern* (like the other CRGO classification values), placed under the
+   existing scenario themes with *narrower than*, and linked to techniques, weaknesses and controls in `vocab/pattern-links`. A
+   library scenario or assessment scenario points to its pattern with *has scenario pattern*; no library scenario is linked yet.
+   ATLAS is not a CRGO vocabulary: its techniques are cited by `rdfs:seeAlso` only.
+9. **Recognised instruments with conditions**: ISO/IEC 27701:2025 and ISO/IEC 42001:2023 are among the new frameworks with
+   conditions; OSFI B-13 has been a legal instrument (regulatory guideline) with its FRFI condition since 0.9.0 and is unchanged.
+10. **Security function** of a CIS safeguard is given as the CSF 2.0 function concept (vocab/csf2 GV, ID, PR, DE, RS, RC) rather
    than a new value set.
 
 ## 3. MOACCO review (step 1 of the 0.11 work)

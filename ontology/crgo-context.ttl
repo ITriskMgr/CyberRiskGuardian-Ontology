@@ -58,7 +58,13 @@ crgo:CRGO_0001389 a owl:NamedIndividual,
     skos:notation "1" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -73,7 +79,13 @@ crgo:CRGO_0001390 a owl:NamedIndividual,
     skos:notation "2" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -88,7 +100,13 @@ crgo:CRGO_0001391 a owl:NamedIndividual,
     skos:notation "3" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -103,7 +121,13 @@ crgo:CRGO_0001392 a owl:NamedIndividual,
     skos:notation "4" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -118,7 +142,13 @@ crgo:CRGO_0001393 a owl:NamedIndividual,
     skos:notation "5" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -133,7 +163,13 @@ crgo:CRGO_0001394 a owl:NamedIndividual,
     skos:notation "6" ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -1003,6 +1039,49 @@ crgo:CRGO_0001602 a owl:ObjectProperty ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
+# --- pattern involves technique
+crgo:CRGO_0001603 a owl:ObjectProperty ;
+    rdfs:label "pattern involves technique"@en,
+        "le patron fait intervenir la technique"@fr ;
+    rdfs:domain crgo:CRGO_0001387 ;
+    skos:definition "Relates a scenario pattern to an adversary technique, such as an ATT&CK technique, that scenarios of the pattern typically involve."@en,
+        "Relie un patron de scénario à une technique adverse, comme une technique ATT&CK, que les scénarios de ce patron font généralement intervenir."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), technique identifiers cited (atlas.mitre.org)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+# --- pattern involves weakness
+crgo:CRGO_0001604 a owl:ObjectProperty ;
+    rdfs:label "pattern involves weakness"@en,
+        "le patron fait intervenir la faiblesse"@fr ;
+    rdfs:domain crgo:CRGO_0001387 ;
+    skos:definition "Relates a scenario pattern to a weakness, such as a CWE entry, that scenarios of the pattern typically exploit or depend on."@en,
+        "Relie un patron de scénario à une faiblesse, comme une entrée CWE, que les scénarios de ce patron exploitent généralement ou dont ils dépendent."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+# --- pattern addressed by
+crgo:CRGO_0001605 a owl:ObjectProperty ;
+    rdfs:label "pattern addressed by"@en,
+        "patron traité par"@fr ;
+    rdfs:domain crgo:CRGO_0001387 ;
+    skos:definition "Relates a scenario pattern to a control or safeguard, such as an SP 800-53 control or a CIS safeguard, that reduces the likelihood or impact of its scenarios. Never evidence that the control is in place."@en,
+        "Relie un patron de scénario à une mesure ou à une protection, comme une mesure SP 800-53 ou une protection CIS, qui réduit la probabilité ou l'impact de ses scénarios. Ne prouve jamais que la mesure est en place."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
+    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
 crgo:crgo-context a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian avec les indices de risque qui en découlent, et indicateurs clés de risque pour la surveillance. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
@@ -1213,7 +1292,13 @@ crgo:CRGO_0001388 a owl:NamedIndividual,
         "Schéma de concepts de l'ensemble de valeurs « patron de scénario »."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
@@ -1301,20 +1386,6 @@ crgo:CRGO_0001592 a owl:NamedIndividual,
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 
-# --- scenario pattern
-crgo:CRGO_0001387 a owl:Class ;
-    rdfs:label "scenario pattern"@en,
-        "patron de scénario"@fr ;
-    rdfs:subClassOf skos:Concept ;
-    skos:definition "A recurring shape of risk scenario, across sectors, that identification should check for."@en,
-        "Forme récurrente de scénario de risque, commune à plusieurs secteurs, que l'identification doit vérifier."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000285 "Value set; members listed below."@en ;
-    crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
-
 # --- legal form
 crgo:CRGO_0001413 a owl:Class ;
     rdfs:label "legal form"@en,
@@ -1341,6 +1412,26 @@ crgo:CRGO_0001591 a owl:Class ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" .
+
+# --- scenario pattern
+crgo:CRGO_0001387 a owl:Class ;
+    rdfs:label "scenario pattern"@en,
+        "patron de scénario"@fr ;
+    rdfs:subClassOf skos:Concept ;
+    skos:definition "A recurring shape of risk scenario, across sectors, that identification should check for. Narrower than a scenario theme of vocab/theme; linked in vocab/pattern-links to the ATT&CK techniques, CWE weaknesses and controls it involves."@en,
+        "Forme récurrente de scénario de risque, commune à plusieurs secteurs, que l'identification doit vérifier. Plus étroite qu'un thème de scénario de vocab/theme; liée dans vocab/pattern-links aux techniques ATT&CK, aux faiblesses CWE et aux mesures en cause."@fr ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000285 "Value set; members listed below."@en ;
+    crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
+        "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch18 'AI for Cybersecurity and the Cybersecurity of AI' (AI agents as non-human identities, prompt injection, the AI supply chain)"@en,
+        "Léger, M.-A. (2026). Introduction to Cybersecurity Governance for Business Technology Management, 3rd ed., v2.51, ch20 'Cryptography and Key Management in Managerial Terms' (certificate lifetimes, cryptographic inventory, crypto-agility, post-quantum migration)"@en,
+        "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en,
+        "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
+        "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000291 "0.11.0" .
 

@@ -69,6 +69,8 @@ write("neg-iam-baseline-version-of-policy", [(X.v, RDF.type, T("BaselineVersion"
 write("neg-context-certificate-without-expiry", [(X.cert, RDF.type, T("DigitalCertificate"))], expect="A digital certificate needs exactly one value for its expiry")
 write("neg-context-crypto-without-status", [(X.cu, RDF.type, T("CryptographicUseRecord")), (X.cu, T("cryptoUsedBy"), X.app), (X.cu, T("algorithmName"), Literal("RSA-2048"))],
       expect="the quantum vulnerability status")
+write("neg-context-pattern-without-links", [(X.pat, RDF.type, T("ScenarioPattern")), (X.pat, SKOS.prefLabel, Literal("unlinked pattern", lang="en"))],
+      expect="A scenario pattern needs at least one technique or weakness")
 # OWL: disjoint classes of 0.11.0
 I = OWL.NamedIndividual
 for name, a, b in (("neg-iam-identity-is-account", "DigitalIdentity", "Account"), ("neg-iam-human-and-non-human", "HumanIdentity", "AIAgentIdentity"),

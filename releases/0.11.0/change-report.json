@@ -279,7 +279,10 @@
    "CRGO_0001599 not asset-specific",
    "CRGO_0001600 in implementation group",
    "CRGO_0001601 has safeguard asset type",
-   "CRGO_0001602 has security function"
+   "CRGO_0001602 has security function",
+   "CRGO_0001603 pattern involves technique",
+   "CRGO_0001604 pattern involves weakness",
+   "CRGO_0001605 pattern addressed by"
   ],
   "removed": [],
   "newly_deprecated": [],
@@ -291,7 +294,7 @@
   "status_changed": [],
   "counts": {
    "before": 1318,
-   "after": 1595
+   "after": 1598
   }
  },
  "vocabularies": {
@@ -583,6 +586,15 @@
    "subjects_before": 0,
    "subjects_after": 11
   },
+  "pattern-links": {
+   "status": "new",
+   "concepts_before": 0,
+   "concepts_after": 0,
+   "concepts_added": 0,
+   "concepts_removed": 0,
+   "subjects_before": 0,
+   "subjects_after": 58
+  },
   "pipeda": {
    "status": "kept",
    "concepts_before": 13,
@@ -646,18 +658,18 @@
   "status_changed": 0,
   "moved_to_proposal_file": 120,
   "typed_relations": {
-   "vulnerability is an instance of weakness": 1616,
-   "control corresponds to control": 418,
-   "technique countered by defensive technique": 820,
    "technique mitigated by control": 5236,
-   "vulnerability associated with technique": 1177,
    "attack pattern exploits weakness": 1212,
-   "subcategory supported by control": 621,
    "evaluates control": 1014,
-   "attack pattern related to technique": 270,
+   "technique countered by defensive technique": 820,
+   "vulnerability is an instance of weakness": 1616,
+   "subcategory supported by control": 621,
+   "control corresponds to control": 418,
+   "vulnerability associated with technique": 1177,
    "comparable obligation": 35,
-   "same obligation in another regime": 15,
-   "principle addressed by category": 42
+   "attack pattern related to technique": 270,
+   "principle addressed by category": 42,
+   "same obligation in another regime": 15
   },
   "added_examples": [
    "attack/T1001.002 relatedMatch d3fend/D3-CSPP",

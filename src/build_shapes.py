@@ -607,6 +607,11 @@ sparql(s, "Numerator and unknown items together cannot exceed the denominator: u
   $this %s ?n ; %s ?u ; %s ?d . FILTER(?n + ?u > ?d) }""" % (P("numeratorCount"), P("unknownStateCount"), P("denominatorCount")))
 s = shape("IdentityFinding", ("class", C("IdentityFinding")), "Identity and privilege findings are backed by evidence (spec v1.1 section 9.2).")
 req(s, "hasEvidence", "its evidence", "An identity finding", one=False)
+s = shape("ScenarioPattern", ("class", C("ScenarioPattern")), "Scenario patterns are linked to what they involve and what addresses them (vocab/pattern-links).")
+prop(s, C("patternAddressedBy"), "A scenario pattern needs at least one control or safeguard that addresses it.", minCount=1)
+prop(s, C("narrowerThan"), "A scenario pattern must be placed under at least one scenario theme.", minCount=1)
+sparql(s, "A scenario pattern needs at least one technique or weakness it involves.", """SELECT $this WHERE {
+  FILTER NOT EXISTS { $this %s ?t } FILTER NOT EXISTS { $this %s ?w } }""" % (P("patternInvolvesTechnique"), P("patternInvolvesWeakness")))
 s = shape("DigitalCertificate", ("class", C("DigitalCertificate")), "Certificates state when they expire (scenario pattern: certificate expiry).")
 req(s, "validUntil", "its expiry", "A digital certificate")
 s = shape("CryptographicUseRecord", ("class", C("CryptographicUseRecord")), "Cryptographic inventory entries: asset, algorithm, quantum status.")

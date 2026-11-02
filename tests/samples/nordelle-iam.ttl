@@ -270,6 +270,18 @@ nordelle:org crgo:CRGO_0000474 "usesTechnology" ;
     crgo:CRGO_0001560 "0"^^xsd:nonNegativeInteger ;
     crgo:CRGO_0001564 "Database role report" .
 
+<https://example.org/crgo-sample/nordelle/scenario/assistant-prompt-injection> a owl:NamedIndividual,
+        crgo:CRGO_0000025 ;
+    rdfs:label "Support assistant redirected by instructions hidden in a customer message"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001478 crgo:CRGO_0001393 .
+
+<https://example.org/crgo-sample/nordelle/scenario/shop-certificate-expiry> a owl:NamedIndividual,
+        crgo:CRGO_0000025 ;
+    rdfs:label "Online shop unavailable because its TLS certificate expires unrenewed"@en ;
+    dcterms:type "synthetic test data" ;
+    crgo:CRGO_0001478 crgo:CRGO_0001391 .
+
 <https://example.org/crgo-sample/nordelle/sod-conflict/vendor-payment-2026-10> a owl:NamedIndividual,
         crgo:CRGO_0001366 ;
     rdfs:label "Three identities can create vendors and approve payments"@en ;

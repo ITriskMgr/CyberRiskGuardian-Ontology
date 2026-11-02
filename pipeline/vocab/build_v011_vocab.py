@@ -14,6 +14,11 @@ Writes ontology/vocab/
   owasp-llm-2025.ttl      OWASP Top 10 for LLM Applications 2025                   } the crgo-context scenario patterns
   owasp-agentic-2026.ttl  OWASP Top 10 for Agentic Applications 2026               } ('partially overlaps')
   naics-sectors.ttl       NAICS Canada 2022 sectors (data/frameworks/naics_sectors.tsv), adapted from MOACCO's NAICS classes
+  pattern-links.ttl       The six crgo-context scenario patterns linked to ATT&CK techniques ('pattern involves technique'),
+                          CWE weaknesses ('pattern involves weakness'), SP 800-53 Rev. 5 controls and CIS v8.1 safeguards
+                          ('pattern addressed by'), and the scenario theme each is narrower than; every link is annotated
+                          (OWL axiom) with confidence, status proposed and proposer; MITRE ATLAS techniques by rdfs:seeAlso
+                          (data/frameworks/pattern_links.tsv)
   glossary.ttl            Cybersecurity terms adapted from MOACCO's Cybersecurity_Terms (data/frameworks/glossary_moacco.tsv):
                           CRGO definitions, 'derived from' the MOACCO class, rdfs:seeAlso to related CRGO terms
 Independent of build_vocab.py (which needs data/raw); the Scheme class below writes concepts the same way.
@@ -190,6 +195,35 @@ for r in tsv("glossary_moacco.tsv"):
               source="Adapted from MOACCO 1.2a, class %s (term only; definition by CRGO)" % r["moacco"], conf="M",
               see_also=["https://w3id.org/crgo/CRGO_%07d" % int(ids[k.strip()]) for k in r["see"].split(";") if k.strip()], derived=[MO + r["moacco"]])
 report.append(("glossary", s.save(), 0))
+
+# ---------------------------------------------------------------- scenario pattern links (0.11.0)
+from rdflib import BNode
+ATT, CWE, CIS81, THEME = notations("attack"), notations("cwe"), notations("cis81"), notations("theme")
+gp = Graph(); gp.bind("crgo", "https://w3id.org/crgo/"); gp.bind("skos", SKOS); gp.bind("dcterms", DCTERMS); gp.bind("owl", OWL)
+o = URIRef(VOC + "pattern-links")
+gp.add((o, RDF.type, OWL.Ontology)); gp.add((o, OWL.versionIRI, URIRef("%s%s/pattern-links" % (VOC, VERSION)))); gp.add((o, OWL.versionInfo, Literal(VERSION)))
+gp.add((o, DCTERMS.title, Literal("CRGO scenario patterns: techniques, weaknesses, controls and themes", lang="en")))
+gp.add((o, DCTERMS.title, Literal("Patrons de scénario de CRGO : techniques, faiblesses, mesures et thèmes", lang="fr")))
+gp.add((o, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-nc/4.0/")))
+gp.add((o, DCTERMS.description, Literal("Links from the crgo-context scenario patterns to ATT&CK, CWE, SP 800-53 Rev. 5, CIS v8.1 and the scenario themes. "
+       "Each link is a CRGO judgement, proposed, with its confidence; a control link never shows that the control is in place.", lang="en")))
+gp.add((o, OWL.imports, URIRef("https://w3id.org/crgo/crgo-context")))
+REL = {"technique": ("patternInvolvesTechnique", ATT), "weakness": ("patternInvolvesWeakness", CWE), "control": ("patternAddressedBy", SP),
+       "safeguard": ("patternAddressedBy", CIS81), "theme": ("narrowerThan", THEME)}
+n_links = 0
+for r in tsv("pattern_links.tsv"):
+    src_ = C(r["pattern"])
+    if r["kind"] == "atlas":
+        gp.add((src_, RDFS.seeAlso, URIRef("https://atlas.mitre.org/techniques/" + r["target"]))); n_links += 1; continue
+    key, table = REL[r["kind"]]; tgt = table[r["target"]]; prop = C(key)
+    gp.add((src_, prop, tgt))
+    ax = BNode(); gp.add((ax, RDF.type, OWL.Axiom)); gp.add((ax, OWL.annotatedSource, src_)); gp.add((ax, OWL.annotatedProperty, prop)); gp.add((ax, OWL.annotatedTarget, tgt))
+    gp.add((ax, C("confidence"), CONF[r["confidence"]])); gp.add((ax, C("governanceStatus"), C("StatusProposed"))); gp.add((ax, C("proposedBy"), C("AgentClaude")))
+    gp.add((ax, C("evidenceSource"), Literal(r["source"], lang="en")))
+    if r["note"]: gp.add((ax, C("confidenceRationale"), Literal(r["note"], lang="en")))
+    n_links += 1
+gp.serialize(os.path.join(OUT, "pattern-links.ttl"), format="turtle")
+report.append(("pattern-links", 0, n_links))
 
 for k, n, m in report:
     print("   %-20s %4d concepts, %3d typed correspondences" % (k, n, m))

@@ -29,7 +29,7 @@ base = Graph()
 for m in ("gov", "core", "measure", "crg", "evidence", "org", "vuln", "grc", "mapping", "governance", "assurance", "audit", "incident", "policy", "compliance", "siem", "soar", "context", "iam"):
     base.parse(os.path.join(ROOT, "ontology", "crgo-%s.ttl" % m))
 base.parse(os.path.join(ROOT, "ontology", "crgo.ttl"))
-for v in ("legal", "sources", "loi25", "gdpr", "sp800-53r5", "sp800-53a"):
+for v in ("legal", "sources", "loi25", "gdpr", "sp800-53r5", "sp800-53a", "pattern-links"):
     base.parse(os.path.join(ROOT, "ontology", "vocab", v + ".ttl"))
 for f in ("tests/samples/nordelle.ttl", "tests/samples/nordelle-applicability.ttl", "tests/samples/nordelle-grca.ttl",
           "tests/samples/tenant-b.ttl", "data/abox/crgo-workprogrammes.ttl"):

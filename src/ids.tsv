@@ -1600,3 +1600,6 @@ AssetTypeNone	1599
 inImplementationGroup	1600
 hasSafeguardAssetType	1601
 hasSecurityFunction	1602
+patternInvolvesTechnique	1603
+patternInvolvesWeakness	1604
+patternAddressedBy	1605

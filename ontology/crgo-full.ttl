@@ -47,7 +47,8 @@
         <https://w3id.org/crgo/vocab/owasp-llm-2025>,
         <https://w3id.org/crgo/vocab/owasp-agentic-2026>,
         <https://w3id.org/crgo/vocab/naics-sectors>,
-        <https://w3id.org/crgo/vocab/glossary> ;
+        <https://w3id.org/crgo/vocab/glossary>,
+        <https://w3id.org/crgo/vocab/pattern-links> ;
     owl:versionIRI <https://w3id.org/crgo/0.11.0/crgo-full> ;
     owl:versionInfo "0.11.0" .
 

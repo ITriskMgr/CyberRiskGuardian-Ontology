@@ -34,7 +34,19 @@ text). Safeguards of controls 4, 5 and 6 (and 1.1, 2.1, 12.5, 12.8, 16.7) point 
 
 ## 3. Scenario patterns and applicability
 
-Scenario pattern `CRGO_0001387` (has scenario pattern `CRGO_0001478`): harvest now, decrypt later; crypto-agility failure;
-certificate expiry outage; agentic AI misuse; prompt injection in agent workflows; AI supply chain compromise. Technology in use
+Scenario pattern `CRGO_0001387` (has scenario pattern `CRGO_0001478`, from a risk scenario):
+
+| Pattern | IRI | Theme (narrower than) |
+|---|---|---|
+| harvest now, decrypt later (post-quantum) | `CRGO_0001389` | cryptography |
+| crypto-agility failure | `CRGO_0001390` | cryptography |
+| certificate expiry outage (book ch20) | `CRGO_0001391` | cryptography; continuity |
+| agentic AI misuse | `CRGO_0001392` | emerging technologies |
+| prompt injection in agent workflows | `CRGO_0001393` | emerging technologies; applications |
+| AI supply chain compromise (book ch18) | `CRGO_0001394` | third party; emerging technologies |
+
+Links in `vocab/pattern-links`: *pattern involves technique* `CRGO_0001603` (ATT&CK), *pattern involves weakness* `CRGO_0001604`
+(CWE), *pattern addressed by* `CRGO_0001605` (SP 800-53 Rev. 5, CIS v8.1), each proposed with a confidence; ATLAS techniques by
+`rdfs:seeAlso`. OWASP LLM and Agentic entries point to the patterns ('partially overlaps'). Technology in use
 `CRGO_0001395` (uses technology `CRGO_0001479`) on the organisation profile lets `pipeline/grc/applicability.py` evaluate ISO/IEC
 42001, the OWASP lists and ISO/IEC 27701 (at most *potentially applicable*) and the CCSPA (designated operators).

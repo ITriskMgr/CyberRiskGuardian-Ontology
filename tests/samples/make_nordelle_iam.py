@@ -78,6 +78,11 @@ g.add((N["asset/order-app"], T("dependsOn"), cert))
 ind("crypto/order-app-tls", "CryptographicUseRecord", "Key exchange and signature of the online shop's TLS", cryptoUsedBy=N["asset/order-app"],
     algorithmName=Literal("RSA-2048 / ECDHE P-256"), hasQuantumStatus=T("QuantumVulnerable"), dataConfidentialityYears=nni(7))
 
+ind("scenario/shop-certificate-expiry", "AssessmentScenario", "Online shop unavailable because its TLS certificate expires unrenewed",
+    hasScenarioPattern=T("PatCertificateExpiry"))
+ind("scenario/assistant-prompt-injection", "AssessmentScenario", "Support assistant redirected by instructions hidden in a customer message",
+    hasScenarioPattern=T("PatPromptInjection"))
+
 # ------------------------------------------------------------------ identities, accounts, vault (spec v1.1 section 23.7 sample)
 ident = ind("identity/iam-lead", "HumanIdentity", "Identity of the IAM lead (fictional)", representsAgent=P["iam-lead"])
 ind("account/iam-lead-admin", "PrivilegedAccount", "Administrative account of the IAM lead", accountOfIdentity=ident, accountInSource=idp)

@@ -1,0 +1,55 @@
+pattern	kind	target	confidence	source	note
+PatQuantumHarvest	theme	ThemeCrypto	H	CRGO judgement; textbook v2.51 ch20	
+PatQuantumHarvest	technique	T1040	M	CRGO judgement (ATT&CK Network Sniffing: capture of encrypted traffic for later decryption)	ATT&CK has no technique for deferred decryption; interception is the observable step
+PatQuantumHarvest	technique	T1557	M	CRGO judgement (ATT&CK Adversary-in-the-Middle)	
+PatQuantumHarvest	weakness	CWE-327	H	CRGO judgement; NIST IR 8547 (quantum-vulnerable public-key algorithms)	
+PatQuantumHarvest	weakness	CWE-326	M	CRGO judgement	
+PatQuantumHarvest	control	SC-8	H	CRGO judgement (protection of data in transit)	
+PatQuantumHarvest	control	SC-13	H	CRGO judgement (cryptographic protection; FIPS 203/204/205 algorithms)	
+PatQuantumHarvest	control	SC-12	H	CRGO judgement (key establishment and management)	
+PatQuantumHarvest	safeguard	3.10	M	CRGO judgement	
+PatCryptoAgility	theme	ThemeCrypto	H	CRGO judgement; textbook v2.51 ch20	
+PatCryptoAgility	technique	T1600	M	CRGO judgement (ATT&CK Weaken Encryption)	
+PatCryptoAgility	weakness	CWE-327	H	CRGO judgement	
+PatCryptoAgility	weakness	CWE-326	H	CRGO judgement	
+PatCryptoAgility	control	SC-13	H	CRGO judgement	
+PatCryptoAgility	control	SC-12	H	CRGO judgement	
+PatCryptoAgility	control	CM-8	M	CRGO judgement (inventory needed to find where cryptography is used)	
+PatCertificateExpiry	theme	ThemeCrypto	H	CRGO judgement; textbook v2.51 ch20	
+PatCertificateExpiry	theme	ThemeContinuity	M	CRGO judgement (outage rather than attack)	
+PatCertificateExpiry	weakness	CWE-298	H	CRGO judgement (improper validation of certificate expiration)	
+PatCertificateExpiry	weakness	CWE-324	H	CRGO judgement (use of a key past its expiration date)	
+PatCertificateExpiry	control	SC-17	H	CRGO judgement (public key infrastructure certificates)	
+PatCertificateExpiry	control	SC-12	M	CRGO judgement	
+PatCertificateExpiry	control	CM-8	M	CRGO judgement (certificate inventory and ownership)	
+PatAgenticMisuse	theme	ThemeEmerging	H	CRGO judgement; textbook v2.51 ch18	
+PatAgenticMisuse	technique	T1078	M	CRGO judgement (ATT&CK Valid Accounts: misuse of the agent's credentials)	
+PatAgenticMisuse	technique	T1059	M	CRGO judgement (ATT&CK Command and Scripting Interpreter: actions run through agent tools)	
+PatAgenticMisuse	weakness	CWE-250	H	CRGO judgement (execution with unnecessary privileges)	
+PatAgenticMisuse	weakness	CWE-269	M	CRGO judgement (improper privilege management)	
+PatAgenticMisuse	control	AC-6	H	CRGO judgement (least privilege for non-human identities)	
+PatAgenticMisuse	control	AC-2	M	CRGO judgement (account management of agent identities)	
+PatAgenticMisuse	control	AU-12	M	CRGO judgement (audit record generation for agent actions)	
+PatAgenticMisuse	safeguard	6.8	M	CRGO judgement	
+PatPromptInjection	theme	ThemeEmerging	H	CRGO judgement; textbook v2.51 ch18	
+PatPromptInjection	theme	ThemeAppSec	M	CRGO judgement	
+PatPromptInjection	atlas	AML.T0051	H	MITRE ATLAS LLM Prompt Injection	
+PatPromptInjection	weakness	CWE-1427	H	CRGO judgement (improper neutralization of input used for LLM prompting)	
+PatPromptInjection	weakness	CWE-77	M	CRGO judgement (command injection through tool calls)	
+PatPromptInjection	control	SI-10	H	CRGO judgement (information input validation)	
+PatPromptInjection	control	AC-6	H	CRGO judgement (limit what an injected instruction can make the agent do)	
+PatPromptInjection	control	SI-4	M	CRGO judgement (monitoring of agent actions)	
+PatAISupplyChain	theme	ThemeThirdParty	H	CRGO judgement; textbook v2.51 ch18	
+PatAISupplyChain	theme	ThemeEmerging	M	CRGO judgement	
+PatAISupplyChain	technique	T1195.001	H	CRGO judgement (ATT&CK Compromise Software Dependencies and Development Tools)	
+PatAISupplyChain	technique	T1195	H	CRGO judgement (ATT&CK Supply Chain Compromise)	
+PatAISupplyChain	atlas	AML.T0010	H	MITRE ATLAS ML Supply Chain Compromise	
+PatAISupplyChain	atlas	AML.T0020	H	MITRE ATLAS Poison Training Data	
+PatAISupplyChain	weakness	CWE-494	H	CRGO judgement (download of code without integrity check)	
+PatAISupplyChain	weakness	CWE-1357	H	CRGO judgement (reliance on insufficiently trustworthy component)	
+PatAISupplyChain	control	SR-3	H	CRGO judgement (supply chain controls and processes)	
+PatAISupplyChain	control	SR-4	H	CRGO judgement (provenance)	
+PatAISupplyChain	control	SR-11	M	CRGO judgement (component authenticity)	
+PatAISupplyChain	control	CM-14	M	CRGO judgement (signed components)	
+PatAISupplyChain	safeguard	16.4	H	CRGO judgement	
+PatAISupplyChain	safeguard	16.5	H	CRGO judgement	
