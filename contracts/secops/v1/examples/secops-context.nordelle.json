@@ -1,7 +1,7 @@
 {
  "schemaVersion": "1.0",
  "contract": "secops/v1",
- "ontologyRelease": "0.10.0",
+ "ontologyRelease": "0.11.0",
  "organizationId": "https://example.org/crgo-sample/nordelle/org",
  "asOf": "2026-10-12",
  "generatedAt": "2026-10-12T18:00:00Z",

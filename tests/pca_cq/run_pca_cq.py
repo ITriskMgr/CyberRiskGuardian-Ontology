@@ -102,8 +102,10 @@ check("POL CQ10 negative: on 2026-08-01 nothing was past due", q("POL-10", base,
 # ================================================================ compliance management
 rows = q("CMP-01", base, org=N.org)
 reqs = {r.req for r in rows}
-check("CMP CQ1 positive: Loi 25, s. 10 (applicable, facts recorded), PIPEDA, GDPR and Art. 33(1) (potentially applicable, missing fact named)",
-      {URIRef("https://w3id.org/crgo/vocab/legal/P-39.1"), s10, art33, URIRef("https://w3id.org/crgo/vocab/legal/GDPR"), URIRef("https://w3id.org/crgo/vocab/legal/PIPEDA")} == reqs
+# 0.11.0: ISO/IEC 27701:2025 is a recognised voluntary standard whose interpretive condition (processes personal information) Nordelle meets
+check("CMP CQ1 positive: Loi 25, s. 10 (applicable, facts recorded), PIPEDA, GDPR, Art. 33(1) and ISO/IEC 27701 (potentially applicable, missing fact named)",
+      {URIRef("https://w3id.org/crgo/vocab/legal/P-39.1"), s10, art33, URIRef("https://w3id.org/crgo/vocab/legal/GDPR"), URIRef("https://w3id.org/crgo/vocab/legal/PIPEDA"),
+       URIRef("https://w3id.org/crgo/vocab/legal/ISO-IEC-27701-2025")} == reqs
       and any(r.req == art33 and r.missing is not None for r in rows) and any(r.req == s10 and r.rule is not None for r in rows), str(len(reqs)))
 check("CMP CQ1 negative: not-applicable instruments (A-2.1, R-22.1) are not listed", URIRef("https://w3id.org/crgo/vocab/legal/A-2.1") not in reqs)
 rows = q("CMP-02", base, req=s10)

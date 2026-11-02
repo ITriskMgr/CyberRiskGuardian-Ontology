@@ -32,6 +32,18 @@
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
+<https://example.org/crgo-sample/nordelle/applicability/CCSPA-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of Critical Cyber Systems Protection Act, 2026-10-01: NotApplicable"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000351 ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/CCSPA> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000384 ;
+    crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/CCSPA-DO> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
 <https://example.org/crgo-sample/nordelle/applicability/GDPR-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of General Data Protection Regulation (Regulation (EU) 2016/679), 2026-10-01: PotentiallyApplicable"@en ;
@@ -47,6 +59,28 @@
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
+<https://example.org/crgo-sample/nordelle/applicability/ISO-IEC-27701-2025-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of ISO/IEC 27701:2025 (privacy information management), 2026-10-01: PotentiallyApplicable"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/ISO-IEC-27701-2025> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000385 ;
+    crgo:CRGO_0000429 <https://w3id.org/crgo/vocab/legal/condition/I27701-PI> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/applicability/ISO-IEC-42001-2023-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of ISO/IEC 42001:2023 (AI management system), 2026-10-01: Unknown"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/ISO-IEC-42001-2023> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000386 ;
+    crgo:CRGO_0000431 <https://w3id.org/crgo/vocab/legal/condition/I42001-AI> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
 <https://example.org/crgo-sample/nordelle/applicability/OSFI-B-13-2026-10-01> a owl:NamedIndividual,
         crgo:CRGO_0000345 ;
     rdfs:label "Applicability of OSFI Guideline B-13 Technology and Cyber Risk Management, 2026-10-01: NotApplicable"@en ;
@@ -56,6 +90,39 @@
     crgo:CRGO_0000427 nordelle:org ;
     crgo:CRGO_0000428 crgo:CRGO_0000384 ;
     crgo:CRGO_0000430 <https://w3id.org/crgo/vocab/legal/condition/B13-FRFI> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/applicability/OWASP-AGENTIC-2026-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of OWASP Top 10 for Agentic Applications 2026, 2026-10-01: Unknown"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/OWASP-AGENTIC-2026> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000386 ;
+    crgo:CRGO_0000431 <https://w3id.org/crgo/vocab/legal/condition/OWAG-AGENT> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/applicability/OWASP-LLM-2025-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of OWASP Top 10 for LLM Applications 2025, 2026-10-01: Unknown"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/OWASP-LLM-2025> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000386 ;
+    crgo:CRGO_0000431 <https://w3id.org/crgo/vocab/legal/condition/OWLLM-GENAI> ;
+    crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
+    crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
+
+<https://example.org/crgo-sample/nordelle/applicability/OWASP-TOP10-2025-2026-10-01> a owl:NamedIndividual,
+        crgo:CRGO_0000345 ;
+    rdfs:label "Applicability of OWASP Top 10:2025 (web application security risks), 2026-10-01: Unknown"@en ;
+    crgo:CRGO_0000409 <https://example.org/crgo-sample/nordelle/assumption/profile-reading> ;
+    crgo:CRGO_0000426 <https://w3id.org/crgo/vocab/legal/OWASP-TOP10-2025> ;
+    crgo:CRGO_0000427 nordelle:org ;
+    crgo:CRGO_0000428 crgo:CRGO_0000386 ;
+    crgo:CRGO_0000431 <https://w3id.org/crgo/vocab/legal/condition/OWASP10-WEB> ;
     crgo:CRGO_0000435 <https://example.org/crgo-sample/nordelle/person/ciso> ;
     crgo:CRGO_0000464 "2026-10-01T00:00:00"^^xsd:dateTime .
 
