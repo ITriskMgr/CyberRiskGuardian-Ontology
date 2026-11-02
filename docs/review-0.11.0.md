@@ -18,6 +18,7 @@ headers (version 0.11.0) changed.
 | `cis81/*` | CIS v8.1 vocabulary: 18 controls, 153 safeguards, 170 typed correspondences | 171 concepts |
 | `owasp-top10-2025/*`, `owasp-llm-2025/*`, `owasp-agentic-2026/*` | OWASP identifiers with CRGO labels, 13 links to scenario patterns | 30 concepts |
 | `naics-sectors/*`, `glossary/*` | NAICS Canada 2022 sectors; 35 glossary terms adapted from MOACCO | 20 + 35 concepts |
+| `tests/0.11.0` | Test expectation: CMP CQ1 now lists ISO/IEC 27701:2025 (potentially applicable) for Nordelle | 1 check |
 
 ## 2. Design choices to confirm
 
@@ -98,7 +99,8 @@ Not brought, and why:
 
 ## 4. Validation and what remains
 
-`scripts/check.sh` with `WITH_LIBRARY=1` and ROBOT 1.9.11: see the release check paragraph of `CHANGELOG.md`. Not done, needing
-network or the owner: WIDOCO documentation (`scripts/make_docs.py` needs WIDOCO), the library ABox and EPSS/KEV refresh, the
+`scripts/check.sh` with `WITH_LIBRARY=1` and ROBOT 1.9.11: see the release check paragraph of `CHANGELOG.md` (all checks pass
+except the release gate CQ17, which waits for these approvals). Not done, needing the owner: WIDOCO documentation (`scripts/make_docs.py`
+with `WIDOCO_JAR`; not run in this build), the library ABox and EPSS/KEV refresh, the
 regenerated compliance and secops contract examples (no change of contract was needed), the w3id pull request (no new rule is
 needed: `crgo-[a-z]+` and `vocab/[a-z0-9-]+` already cover the new IRIs), and the native French read-through.
