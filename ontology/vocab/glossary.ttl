@@ -15,11 +15,13 @@ glossary:advanced-persistent-threat a skos:Concept ;
     skos:prefLabel "advanced persistent threat"@en,
         "menace persistante avancée"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class advanced_persistent_threat (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#advanced_persistent_threat> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:air-gap a skos:Concept ;
@@ -30,11 +32,13 @@ glossary:air-gap a skos:Concept ;
     skos:prefLabel "air gap"@en,
         "isolement par coupure réseau"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class air_gap (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#air_gap> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:allowlist a skos:Concept ;
@@ -45,11 +49,13 @@ glossary:allowlist a skos:Concept ;
     skos:prefLabel "allowlist"@en,
         "liste d'autorisation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class allowlist (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#allowlist> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:asymmetric-cryptography a skos:Concept ;
@@ -61,11 +67,13 @@ glossary:asymmetric-cryptography a skos:Concept ;
     skos:prefLabel "asymmetric cryptography"@en,
         "cryptographie asymétrique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class asymmetric_cryptography (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#asymmetric_cryptography> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:attack-path a skos:Concept ;
@@ -78,11 +86,13 @@ glossary:attack-path a skos:Concept ;
     skos:prefLabel "attack path"@en,
         "chemin d'attaque"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class attack_path (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#attack_path> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:attack-surface a skos:Concept ;
@@ -93,11 +103,13 @@ glossary:attack-surface a skos:Concept ;
     skos:prefLabel "attack surface"@en,
         "surface d'attaque"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class attack_surface (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#attack_surface> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:authenticity a skos:Concept ;
@@ -108,11 +120,13 @@ glossary:authenticity a skos:Concept ;
     skos:prefLabel "authenticity"@en,
         "authenticité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class authenticity (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#authenticity> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:blocklist a skos:Concept ;
@@ -123,11 +137,13 @@ glossary:blocklist a skos:Concept ;
     skos:prefLabel "blocklist"@en,
         "liste de blocage"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class blocklist (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#blocklist> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:blue-team a skos:Concept ;
@@ -138,11 +154,13 @@ glossary:blue-team a skos:Concept ;
     skos:prefLabel "blue team"@en,
         "équipe bleue"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class blue_Team (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#blue_Team> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:botnet a skos:Concept ;
@@ -153,11 +171,13 @@ glossary:botnet a skos:Concept ;
     skos:prefLabel "botnet"@en,
         "réseau de zombies"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class botnet (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#botnet> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:critical-infrastructure a skos:Concept ;
@@ -168,11 +188,13 @@ glossary:critical-infrastructure a skos:Concept ;
     skos:prefLabel "critical infrastructure"@en,
         "infrastructure essentielle"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class critical_infrastructure (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#critical_infrastructure> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:data-spill a skos:Concept ;
@@ -183,11 +205,13 @@ glossary:data-spill a skos:Concept ;
     skos:prefLabel "data spill"@en,
         "déversement de données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class data_spill (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#data_spill> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:digital-forensics a skos:Concept ;
@@ -199,11 +223,13 @@ glossary:digital-forensics a skos:Concept ;
     skos:prefLabel "digital forensics"@en,
         "investigation numérique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class digital_forensics (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#digital_forensics> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:digital-signature a skos:Concept ;
@@ -214,11 +240,13 @@ glossary:digital-signature a skos:Concept ;
     skos:prefLabel "digital signature"@en,
         "signature numérique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class digital_signature (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#digital_signature> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:hashing a skos:Concept ;
@@ -229,11 +257,13 @@ glossary:hashing a skos:Concept ;
     skos:prefLabel "hashing"@en,
         "hachage"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class hashing (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#hashing> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:industrial-control-system a skos:Concept ;
@@ -244,11 +274,13 @@ glossary:industrial-control-system a skos:Concept ;
     skos:prefLabel "industrial control system"@en,
         "système de contrôle industriel"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class industrial_control_system (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#industrial_control_system> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:information-sharing a skos:Concept ;
@@ -260,11 +292,13 @@ glossary:information-sharing a skos:Concept ;
     skos:prefLabel "information sharing"@en,
         "partage d'informations"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class information_sharing (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#information_sharing> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:moving-target-defence a skos:Concept ;
@@ -275,11 +309,13 @@ glossary:moving-target-defence a skos:Concept ;
     skos:prefLabel "moving target defence"@en,
         "défense par cible mouvante"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class moving_target_defense (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#moving_target_defense> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:non-repudiation a skos:Concept ;
@@ -290,11 +326,13 @@ glossary:non-repudiation a skos:Concept ;
     skos:prefLabel "non-repudiation"@en,
         "non-répudiation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class non-repudiation (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#non-repudiation> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:penetration-testing a skos:Concept ;
@@ -305,11 +343,13 @@ glossary:penetration-testing a skos:Concept ;
     skos:prefLabel "penetration testing"@en,
         "test d'intrusion"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class penetration_testing (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#penetration_testing> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:public-key-infrastructure a skos:Concept ;
@@ -321,11 +361,13 @@ glossary:public-key-infrastructure a skos:Concept ;
     skos:prefLabel "public key infrastructure"@en,
         "infrastructure à clé publique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class public_key_infrastructure (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#public_key_infrastructure> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:red-team a skos:Concept ;
@@ -336,11 +378,13 @@ glossary:red-team a skos:Concept ;
     skos:prefLabel "red team"@en,
         "équipe rouge"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class red_team (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#red_team> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:rootkit a skos:Concept ;
@@ -351,11 +395,13 @@ glossary:rootkit a skos:Concept ;
     skos:prefLabel "rootkit"@en,
         "trousse de dissimulation d'activité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class rootkit (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#rootkit> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:security-automation a skos:Concept ;
@@ -367,11 +413,13 @@ glossary:security-automation a skos:Concept ;
     skos:prefLabel "security automation"@en,
         "automatisation de la sécurité"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class security_automation (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#security_automation> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:security-by-design a skos:Concept ;
@@ -382,11 +430,13 @@ glossary:security-by-design a skos:Concept ;
     skos:prefLabel "security by design"@en,
         "sécurité dès la conception"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class build_security_in (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#build_security_in> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:situational-awareness a skos:Concept ;
@@ -397,11 +447,13 @@ glossary:situational-awareness a skos:Concept ;
     skos:prefLabel "situational awareness"@en,
         "connaissance de la situation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class situational_awareness (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#situational_awareness> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:spoofing a skos:Concept ;
@@ -412,11 +464,13 @@ glossary:spoofing a skos:Concept ;
     skos:prefLabel "spoofing"@en,
         "usurpation"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class spoofing (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#spoofing> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:spyware a skos:Concept ;
@@ -427,11 +481,13 @@ glossary:spyware a skos:Concept ;
     skos:prefLabel "spyware"@en,
         "logiciel espion"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class spyware (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#spyware> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:supply-chain-risk-management a skos:Concept ;
@@ -443,11 +499,13 @@ glossary:supply-chain-risk-management a skos:Concept ;
     skos:prefLabel "supply chain risk management"@en,
         "gestion des risques de la chaîne d'approvisionnement"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class supply_chain_risk_management (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#supply_chain_risk_management> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:symmetric-cryptography a skos:Concept ;
@@ -459,11 +517,13 @@ glossary:symmetric-cryptography a skos:Concept ;
     skos:prefLabel "symmetric cryptography"@en,
         "cryptographie symétrique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class symmetric_cryptography (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#symmetric_cryptography> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:tabletop-exercise a skos:Concept ;
@@ -475,11 +535,13 @@ glossary:tabletop-exercise a skos:Concept ;
     skos:prefLabel "tabletop exercise"@en,
         "exercice sur table"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class tabletop_exercise (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#tabletop_exercise> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:trojan-horse a skos:Concept ;
@@ -490,11 +552,13 @@ glossary:trojan-horse a skos:Concept ;
     skos:prefLabel "trojan horse"@en,
         "cheval de Troie"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class trojan_horse (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#trojan_horse> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:white-team a skos:Concept ;
@@ -505,11 +569,13 @@ glossary:white-team a skos:Concept ;
     skos:prefLabel "white team"@en,
         "équipe blanche"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class white_team (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#white_team> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:work-factor a skos:Concept ;
@@ -520,11 +586,13 @@ glossary:work-factor a skos:Concept ;
     skos:prefLabel "work factor"@en,
         "facteur de travail"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class work_factor (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#work_factor> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 glossary:worm a skos:Concept ;
@@ -535,11 +603,13 @@ glossary:worm a skos:Concept ;
     skos:prefLabel "worm"@en,
         "ver informatique"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/glossary> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "Adapted from MOACCO 1.2a, class worm (term only; definition by CRGO)"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#worm> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 <https://w3id.org/crgo/vocab/glossary> a owl:Ontology,

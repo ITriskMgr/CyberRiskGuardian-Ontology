@@ -471,3 +471,18 @@ sources/records-0101	Approve	MAL	2026-10-23	0.10.1: source record of the textboo
 data/0.10.1-medibec	Approve	MAL	2026-10-23	0.10.1: MediBec S2 and S8 CVSS vectors AV:N -> AV:L (9.3, 9.2; FIRST CVSS v4.0 user guide), CRG regression 84,305 / 41,023 (tests/crg and the case scenarios of the library)
 tooling/0.10.1	Approve	MAL	2026-10-23	0.10.1: evidence markers 'Analytical estimate — validation required', 'Information gap — organizational validation required', 'Management decision required' in the query interface, MCP tools and DSS caveats; CRG bridge reads stored sensitivity cases when the CRG Core calculator has no shift()
 tests/0.10.1	Approve	MAL	2026-10-23	0.10.1: MediBec regression expectations (round trip, check.sh step 8, CQ14)
+# 2026-11-02: 0.11.0 review: all groups of docs/review-0.11.0.md approved by the project owner (the 280 proposed terms with their vocabularies, instruments, conditions, source records, pattern links and test expectation), the 39 CIS v8.1 safeguards flagged REVIEW: accepted as delivered without verification against the CIS v8.1 workbook (flags kept); tag v0.11.0 requested.
+terms/iam	Approve	MAL	2026-11-02	scope: up to CRGO_0001605 (the terms that existed when approved); 0.11.0 review group terms/iam (module crgo-iam, docs/review-0.11.0.md section 1); design choices 1-3 of section 2 confirmed
+terms/context	Approve	MAL	2026-11-02	scope: up to CRGO_0001605 (the terms that existed when approved); 0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed
+legal/instruments-0110	Approve	MAL	2026-11-02	0.11.0 review group: Critical Cyber Systems Protection Act (Bill C-8), no in-force date asserted (design choice 5)
+legal/standards-0110	Approve	MAL	2026-11-02	0.11.0 review group: ISO/IEC 27701:2025, ISO/IEC 42001:2023, OWASP Top 10:2025, OWASP LLM 2025, OWASP Agentic 2026, CIS Controls v8.1 as frameworks (design choice 4)
+legal/conditions-0110	Approve	MAL	2026-11-02	0.11.0 review group: six interpretive applicability conditions (at most potentially applicable)
+sources/records-0110	Approve	MAL	2026-11-02	0.11.0 review group: nine source records (MOACCO 1.2a, CIS v8.1, OWASP x3, ISO/IEC 27701:2025, ISO/IEC 42001:2023, CCSPA, NAICS Canada 2022)
+cis81/*	Approve	MAL	2026-11-02	0.11.0 review group: 18 controls, 153 safeguards, 170 'partially overlaps' correspondences (design choices 6, 7); accepted as delivered, including the 39 safeguards flagged REVIEW: (confidence Low), without verification against the CIS v8.1 workbook; the REVIEW: notes and confidence Low are kept
+owasp-top10-2025/*	Approve	MAL	2026-11-02	0.11.0 review group: OWASP Top 10:2025 identifiers with CRGO labels
+owasp-llm-2025/*	Approve	MAL	2026-11-02	0.11.0 review group: OWASP Top 10 for LLM Applications 2025 identifiers with CRGO labels
+owasp-agentic-2026/*	Approve	MAL	2026-11-02	0.11.0 review group: OWASP Top 10 for Agentic Applications 2026 identifiers with CRGO labels
+pattern-links	Approve	MAL	2026-11-02	0.11.0 review group: 51 annotated links of the six scenario patterns (confidence H or M; none L) and 3 ATLAS references by rdfs:seeAlso
+naics-sectors/*	Approve	MAL	2026-11-02	0.11.0 review group: NAICS Canada 2022 sectors (20), adapted from MOACCO
+glossary/*	Approve	MAL	2026-11-02	0.11.0 review group: 35 glossary terms adapted from MOACCO
+tests/0.11.0	Approve	MAL	2026-11-02	0.11.0 review group: CMP CQ1 lists ISO/IEC 27701:2025 (potentially applicable) for Nordelle

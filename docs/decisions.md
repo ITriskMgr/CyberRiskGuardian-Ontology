@@ -434,7 +434,7 @@ On 2026-10-23 the CyberRiskGuardian method and tools (CRG 2.1.0 and 2.1.1) were 
 - Other e-mail-related case scenarios were checked: Chez/CP-A1 (phishing link to a credential page, AV:N) and MediBec-CRG S1, S14, S21 and S30 (credential phishing, payment fraud, misdirected e-mail, impersonation) are not malicious documents opened locally; ACRB-A7 is already AV:L. None was changed.
 - *risk index* subclasses (estimated, tolerated, mitigated, residual risk, ratios, cost-effectiveness) keep their definitions, which start "A computed risk quantity …", an alternative label of the parent.
 
-## 23. CRGO 0.11.0 — identity, privilege and configuration; context; CIS v8.1; MOACCO (2026-11-02, proposed)
+## 23. CRGO 0.11.0 — identity, privilege and configuration; context; CIS v8.1; MOACCO (2026-11-02, approved)
 
 Binding scope: CyberRiskGuardian 1.9.0 decision record of 2026-11-02 (section "CRGO 0.11"). Built by the drafting agent; every
 element is proposed until the project owner approves the groups of `docs/review-0.11.0.md`.
@@ -451,4 +451,11 @@ element is proposed until the project owner approves the groups of `docs/review-
   link to the CIS page; uncertain values flagged rather than guessed (accuracy over completeness).
 - MOACCO: only the owner's own classes are adapted, with `derived from` to the MOACCO IRI; third-party content in MOACCO is not
   reused (review in `docs/review-0.11.0.md`, section 3).
+
+**Decision of the project owner (2026-11-02).** All 280 proposed terms of 0.11.0 approved, with every group of
+`docs/review-0.11.0.md` (rows dated 2026-11-02 in `src/approvals.tsv`; `terms/iam` and `terms/context` scoped to CRGO_0001605),
+including the 39 CIS v8.1 safeguards flagged `REVIEW:`, which the project owner accepted as delivered. They were not checked
+against the CIS v8.1 workbook, so they keep confidence Low and their `REVIEW:` editorial note (provenance is not rewritten by an
+approval) and gain a review note recording the acceptance; checking them stays on the roadmap. The project owner asked for the tag
+`v0.11.0`. The pattern links (group `pattern-links`) carry the approval on each link axiom, as library links do.
 

@@ -1,5 +1,12 @@
 # CRGO 0.11.0: review for the project owner
 
+**Decision of the project owner (2026-11-02).** All groups below approved, as delivered: the 280 proposed terms of `crgo-iam` and
+`crgo-context`, the instruments, standards, conditions and source records, the CIS v8.1, OWASP, NAICS and glossary vocabularies,
+the pattern links and the test expectation (rows dated 2026-11-02 in `src/approvals.tsv`; term groups scoped to CRGO_0001605).
+The 39 CIS v8.1 safeguards flagged `REVIEW:` (design choice 6) were accepted without verification against the CIS v8.1 workbook:
+they keep confidence Low and their `REVIEW:` editorial note, and carry a review note recording the acceptance. Released as 0.11.0
+(tag `v0.11.0`). The text below is the review as submitted.
+
 Prepared 2026-11-02 under the CyberRiskGuardian 1.9.0 decision record (section "CRGO 0.11", binding). Everything listed here is
 **proposed**: nothing in 0.11.0 is approved until the project owner records it in `src/approvals.tsv`. Approval keys are given
 per group. Earlier approved terms are unchanged (no definition, label or axiom of an approved term was modified); only the module

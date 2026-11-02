@@ -13,10 +13,12 @@ owasp-top10-2025:A01-2025 a skos:Concept ;
     skos:prefLabel "access control failures"@en,
         "défaillances du contrôle d'accès"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A02-2025 a skos:Concept ;
@@ -26,10 +28,12 @@ owasp-top10-2025:A02-2025 a skos:Concept ;
     skos:prefLabel "insecure configuration"@en,
         "configuration non sécuritaire"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A03-2025 a skos:Concept ;
@@ -39,10 +43,12 @@ owasp-top10-2025:A03-2025 a skos:Concept ;
     skos:prefLabel "software supply chain weaknesses"@en,
         "faiblesses de la chaîne d'approvisionnement logicielle"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A04-2025 a skos:Concept ;
@@ -52,10 +58,12 @@ owasp-top10-2025:A04-2025 a skos:Concept ;
     skos:prefLabel "weak or misused cryptography"@en,
         "cryptographie faible ou mal utilisée"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001390 .
 
@@ -66,10 +74,12 @@ owasp-top10-2025:A05-2025 a skos:Concept ;
     skos:prefLabel "untrusted input run as code or query"@en,
         "entrée non fiable exécutée comme code ou requête"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A06-2025 a skos:Concept ;
@@ -79,10 +89,12 @@ owasp-top10-2025:A06-2025 a skos:Concept ;
     skos:prefLabel "security flaws in design"@en,
         "failles de sécurité dans la conception"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A07-2025 a skos:Concept ;
@@ -92,10 +104,12 @@ owasp-top10-2025:A07-2025 a skos:Concept ;
     skos:prefLabel "weak authentication"@en,
         "authentification déficiente"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A08-2025 a skos:Concept ;
@@ -105,10 +119,12 @@ owasp-top10-2025:A08-2025 a skos:Concept ;
     skos:prefLabel "unverified integrity of software or data"@en,
         "intégrité non vérifiée des logiciels ou des données"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A09-2025 a skos:Concept ;
@@ -118,10 +134,12 @@ owasp-top10-2025:A09-2025 a skos:Concept ;
     skos:prefLabel "insufficient security logging and alerting"@en,
         "journalisation et alertes de sécurité insuffisantes"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-top10-2025:A10-2025 a skos:Concept ;
@@ -131,10 +149,12 @@ owasp-top10-2025:A10-2025 a skos:Concept ;
     skos:prefLabel "poor handling of errors and abnormal conditions"@en,
         "mauvaise gestion des erreurs et des conditions anormales"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10:2025 (https://owasp.org/Top10/2025/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 <https://w3id.org/crgo/vocab/owasp-top10-2025> a owl:Ontology,

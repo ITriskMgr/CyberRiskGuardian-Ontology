@@ -13,10 +13,12 @@ owasp-agentic-2026:ASI01-2026 a skos:Concept ;
     skos:prefLabel "redirection of an agent's goals"@en,
         "détournement des objectifs d'un agent"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001392,
         crgo:CRGO_0001393 .
@@ -28,10 +30,12 @@ owasp-agentic-2026:ASI02-2026 a skos:Concept ;
     skos:prefLabel "misuse of an agent's tools"@en,
         "utilisation abusive des outils d'un agent"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001392 .
 
@@ -42,10 +46,12 @@ owasp-agentic-2026:ASI03-2026 a skos:Concept ;
     skos:prefLabel "abuse of agent identity or privileges"@en,
         "abus d'identité ou de privilèges d'agent"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001392 .
 
@@ -56,10 +62,12 @@ owasp-agentic-2026:ASI04-2026 a skos:Concept ;
     skos:prefLabel "compromised supply of agent components"@en,
         "approvisionnement compromis en composants d'agent"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001394 .
 
@@ -70,10 +78,12 @@ owasp-agentic-2026:ASI05-2026 a skos:Concept ;
     skos:prefLabel "unintended code execution by agents"@en,
         "exécution de code non prévue par des agents"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001392 .
 
@@ -84,10 +94,12 @@ owasp-agentic-2026:ASI06-2026 a skos:Concept ;
     skos:prefLabel "tampered agent memory or context"@en,
         "mémoire ou contexte d'agent altérés"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001393 .
 
@@ -98,10 +110,12 @@ owasp-agentic-2026:ASI07-2026 a skos:Concept ;
     skos:prefLabel "unprotected messages between agents"@en,
         "messages non protégés entre agents"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-agentic-2026:ASI08-2026 a skos:Concept ;
@@ -111,10 +125,12 @@ owasp-agentic-2026:ASI08-2026 a skos:Concept ;
     skos:prefLabel "failures spreading across agents"@en,
         "défaillances propagées entre agents"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-agentic-2026:ASI09-2026 a skos:Concept ;
@@ -124,10 +140,12 @@ owasp-agentic-2026:ASI09-2026 a skos:Concept ;
     skos:prefLabel "exploited human trust in agents"@en,
         "exploitation de la confiance humaine envers les agents"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" .
 
 owasp-agentic-2026:ASI10-2026 a skos:Concept ;
@@ -137,10 +155,12 @@ owasp-agentic-2026:ASI10-2026 a skos:Concept ;
     skos:prefLabel "agents acting outside their mandate"@en,
         "agents agissant hors de leur mandat"@fr ;
     skos:topConceptOf <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (https://genai.owasp.org/); label a CRGO paraphrase"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
     crgo:CRGO_0000291 "0.11.0" ;
     crgo:CRGO_0000827 crgo:CRGO_0001392 .
 

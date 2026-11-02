@@ -76,7 +76,7 @@ RECORDS_PCA = {"iso-37301-2021-amd1-2024"}  # 0.10.0 (policy, compliance and aud
 RECORDS_SECOPS = {"nist-sp800-61r3", "ocsf-1.9.0", "sigma-spec-2.1.0", "oasis-stix-2.1", "oasis-cacao-2.0", "first-tlp-2.0", "otel-logs"}  # 0.10.0 SIEM/SOAR
 RECORDS_0101 = {"leger-cyber-gov-3e-v2.51"}  # 0.10.1: the textbook the CRG method follows (approved 2026-10-23)
 RECORDS_0110 = {"moacco-1.2a", "cis-controls-v8.1", "owasp-top10-2025", "owasp-llm-2025", "owasp-agentic-2026", "iso-iec-27701-2025",
-                "iso-iec-42001-2023", "ca-ccspa-c8", "statcan-naics-2022"}  # 0.11.0 (proposed until the project owner approves sources/records-0110)
+                "iso-iec-42001-2023", "ca-ccspa-c8", "statcan-naics-2022"}  # 0.11.0 (group sources/records-0110, approved 2026-11-02)
 INSTRUMENTS_0110 = {"CCSPA"}  # 0.11.0: group legal/instruments-0110 (the 2026-10-11 group approval covers only the earlier instruments)
 reg = list(csv.DictReader(open(os.path.join(ROOT, "docs", "baseline", "source_registry.csv"), encoding="utf-8")))
 known = set()

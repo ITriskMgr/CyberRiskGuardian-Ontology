@@ -17,13 +17,14 @@ Writes ontology/vocab/
   pattern-links.ttl       The six crgo-context scenario patterns linked to ATT&CK techniques ('pattern involves technique'),
                           CWE weaknesses ('pattern involves weakness'), SP 800-53 Rev. 5 controls and CIS v8.1 safeguards
                           ('pattern addressed by'), and the scenario theme each is narrower than; every link is annotated
-                          (OWL axiom) with confidence, status proposed and proposer; MITRE ATLAS techniques by rdfs:seeAlso
+                          (OWL axiom) with confidence, status and proposer; MITRE ATLAS techniques by rdfs:seeAlso
                           (data/frameworks/pattern_links.tsv)
   glossary.ttl            Cybersecurity terms adapted from MOACCO's Cybersecurity_Terms (data/frameworks/glossary_moacco.tsv):
                           CRGO definitions, 'derived from' the MOACCO class, rdfs:seeAlso to related CRGO terms
 Independent of build_vocab.py (which needs data/raw); the Scheme class below writes concepts the same way.
-Every concept is proposed (approval groups cis81/*, owasp-top10-2025/*, owasp-llm-2025/*, owasp-agentic-2026/*,
-naics-sectors/*, glossary/* in src/approvals.tsv).
+Status from the approval groups cis81/*, owasp-top10-2025/*, owasp-llm-2025/*, owasp-agentic-2026/*, naics-sectors/*,
+glossary/* and pattern-links in src/approvals.tsv (approved 2026-11-02). Concepts flagged REVIEW: keep the flag and confidence
+Low after approval, with a review note saying they were accepted without verification against the source workbook.
 """
 import csv, os, re
 from rdflib import Graph, Namespace, Literal, URIRef
@@ -86,6 +87,9 @@ class Scheme:
         if a and a[0] == "Approve":
             g.add((c, C("governanceStatus"), C("StatusApproved"))); g.add((c, C("approvedBy"), C("Agent" + a[1])))
             g.add((c, C("approvalDate"), Literal(a[2], datatype=XSD.date)))
+            if review:  # approved as delivered: the REVIEW: flag and confidence Low stay, so the value is still shown as unverified
+                g.add((c, C("reviewNote"), Literal("Accepted by the project owner on %s as delivered, without verification against "
+                       "the source workbook; the REVIEW: note and confidence Low are kept until the value is checked." % a[2], lang="en")))
         else:
             g.add((c, C("governanceStatus"), C("StatusProposed")))
         g.add((c, C("confidence"), CONF[conf]))
@@ -112,7 +116,8 @@ s = Scheme("cis81", "CIS Critical Security Controls v8.1 (identifiers, groups, a
            "CRGO holds only identifiers, Implementation Group membership, asset types and security functions, with its own paraphrased labels. "
            "No CIS text is reproduced; see " + CIS_URL + ".", "Center for Internet Security (identifiers); CRGO (labels)",
            "18 controls and 153 safeguards. Values not checked against the CIS v8.1 workbook; those the drafting agent could not recall with "
-           "confidence carry confidence Low and an editorial note beginning 'REVIEW:'. Correspondences are CRGO judgements ('partially overlaps').",
+           "confidence carry confidence Low and an editorial note beginning 'REVIEW:'; the project owner approved the vocabulary on 2026-11-02, "
+           "accepting those values as delivered, so the flags stay until the values are checked. Correspondences are CRGO judgements ('partially overlaps').",
            imports=[VOC + "csf2", "https://w3id.org/crgo/crgo-context"])
 SRC = "CIS Critical Security Controls v8.1 (%s); identifier and attributes as published, label a CRGO paraphrase" % CIS_URL
 ASSET = {"DEV": "AssetTypeDevices", "APP": "AssetTypeSoftware", "DATA": "AssetTypeData", "NET": "AssetTypeNetwork", "USERS": "AssetTypeUsers",
@@ -206,8 +211,9 @@ gp.add((o, DCTERMS.title, Literal("CRGO scenario patterns: techniques, weaknesse
 gp.add((o, DCTERMS.title, Literal("Patrons de scénario de CRGO : techniques, faiblesses, mesures et thèmes", lang="fr")))
 gp.add((o, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-nc/4.0/")))
 gp.add((o, DCTERMS.description, Literal("Links from the crgo-context scenario patterns to ATT&CK, CWE, SP 800-53 Rev. 5, CIS v8.1 and the scenario themes. "
-       "Each link is a CRGO judgement, proposed, with its confidence; a control link never shows that the control is in place.", lang="en")))
+       "Each link is a CRGO judgement with its confidence and status (approved by the project owner on 2026-11-02, group pattern-links); a control link never shows that the control is in place.", lang="en")))
 gp.add((o, OWL.imports, URIRef("https://w3id.org/crgo/crgo-context")))
+PL_APPROVAL = APPROVALS.get("pattern-links")
 REL = {"technique": ("patternInvolvesTechnique", ATT), "weakness": ("patternInvolvesWeakness", CWE), "control": ("patternAddressedBy", SP),
        "safeguard": ("patternAddressedBy", CIS81), "theme": ("narrowerThan", THEME)}
 n_links = 0
@@ -218,7 +224,12 @@ for r in tsv("pattern_links.tsv"):
     key, table = REL[r["kind"]]; tgt = table[r["target"]]; prop = C(key)
     gp.add((src_, prop, tgt))
     ax = BNode(); gp.add((ax, RDF.type, OWL.Axiom)); gp.add((ax, OWL.annotatedSource, src_)); gp.add((ax, OWL.annotatedProperty, prop)); gp.add((ax, OWL.annotatedTarget, tgt))
-    gp.add((ax, C("confidence"), CONF[r["confidence"]])); gp.add((ax, C("governanceStatus"), C("StatusProposed"))); gp.add((ax, C("proposedBy"), C("AgentClaude")))
+    gp.add((ax, C("confidence"), CONF[r["confidence"]])); gp.add((ax, C("proposedBy"), C("AgentClaude")))
+    if PL_APPROVAL and PL_APPROVAL[0] == "Approve":  # group pattern-links (0.11.0)
+        gp.add((ax, C("governanceStatus"), C("StatusApproved"))); gp.add((ax, C("approvedBy"), C("Agent" + PL_APPROVAL[1])))
+        gp.add((ax, C("approvalDate"), Literal(PL_APPROVAL[2], datatype=XSD.date)))
+    else:
+        gp.add((ax, C("governanceStatus"), C("StatusProposed")))
     gp.add((ax, C("evidenceSource"), Literal(r["source"], lang="en")))
     if r["note"]: gp.add((ax, C("confidenceRationale"), Literal(r["note"], lang="en")))
     n_links += 1

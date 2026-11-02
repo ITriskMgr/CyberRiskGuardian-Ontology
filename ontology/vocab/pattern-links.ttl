@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://w3id.org/crgo/vocab/pattern-links> a owl:Ontology ;
-    dcterms:description "Links from the crgo-context scenario patterns to ATT&CK, CWE, SP 800-53 Rev. 5, CIS v8.1 and the scenario themes. Each link is a CRGO judgement, proposed, with its confidence; a control link never shows that the control is in place."@en ;
+    dcterms:description "Links from the crgo-context scenario patterns to ATT&CK, CWE, SP 800-53 Rev. 5, CIS v8.1 and the scenario themes. Each link is a CRGO judgement with its confidence and status (approved by the project owner on 2026-11-02, group pattern-links); a control link never shows that the control is in place."@en ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
     dcterms:title "CRGO scenario patterns: techniques, weaknesses, controls and themes"@en,
         "Patrons de scénario de CRGO : techniques, faiblesses, mesures et thèmes"@fr ;
@@ -74,218 +74,20 @@ crgo:CRGO_0001394 rdfs:seeAlso <https://atlas.mitre.org/techniques/AML.T0010>,
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-13> ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cis81/16.4> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (cryptographic protection; FIPS 203/204/205 algorithms)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001603 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1059> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Command and Scripting Interpreter: actions run through agent tools)"@en ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
     owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (certificate inventory and ownership)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-326> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (account management of agent identities)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-327> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; NIST IR 8547 (quantum-vulnerable public-key algorithms)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-6> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (least privilege for non-human identities)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001603 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1078> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Valid Accounts: misuse of the agent's credentials)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-3> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (supply chain controls and processes)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-494> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (download of code without integrity check)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-298> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (improper validation of certificate expiration)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-6> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (limit what an injected instruction can make the agent do)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-17> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (public key infrastructure certificates)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-8> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (protection of data in transit)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-13> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-327> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001603 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1195> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Supply Chain Compromise)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-324> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (use of a key past its expiration date)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SI-10> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (information input validation)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cis81/16.5> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-269> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (improper privilege management)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeCrypto> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch20"@en ;
+    crgo:CRGO_0000286 "CRGO judgement (inventory needed to find where cryptography is used)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
@@ -299,160 +101,7 @@ crgo:CRGO_0001394 rdfs:seeAlso <https://atlas.mitre.org/techniques/AML.T0010>,
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeContinuity> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (outage rather than attack)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-77> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (command injection through tool calls)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001603 ;
     owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1600> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Weaken Encryption)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-250> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (execution with unnecessary privileges)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeThirdParty> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (key establishment and management)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001603 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1195.001> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Compromise Software Dependencies and Development Tools)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (monitoring of agent actions)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/CM-14> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (signed components)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-11> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (component authenticity)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-4> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (provenance)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-1427> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (improper neutralization of input used for LLM prompting)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cis81/16.4> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-326> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001389 ;
     owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeCrypto> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
@@ -460,21 +109,12 @@ crgo:CRGO_0001394 rdfs:seeAlso <https://atlas.mitre.org/techniques/AML.T0010>,
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001605 ;
-    owl:annotatedSource crgo:CRGO_0001390 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-269> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (inventory needed to find where cryptography is used)"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001391 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeCrypto> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch20"@en ;
+    crgo:CRGO_0000286 "CRGO judgement (improper privilege management)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
@@ -488,29 +128,128 @@ crgo:CRGO_0001394 rdfs:seeAlso <https://atlas.mitre.org/techniques/AML.T0010>,
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000825 ;
-    owl:annotatedSource crgo:CRGO_0001393 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeAppSec> ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeContinuity> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement"@en ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty crgo:CRGO_0001604 ;
-    owl:annotatedSource crgo:CRGO_0001394 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-1357> ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
-    crgo:CRGO_0000286 "CRGO judgement (reliance on insufficiently trustworthy component)"@en ;
+    crgo:CRGO_0000286 "CRGO judgement (outage rather than attack)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-6> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (limit what an injected instruction can make the agent do)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-8> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (protection of data in transit)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-13> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (cryptographic protection; FIPS 203/204/205 algorithms)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-324> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (use of a key past its expiration date)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-3> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (supply chain controls and processes)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-326> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001603 ;
     owl:annotatedSource crgo:CRGO_0001392 ;
-    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AU-12> ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1059> ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000286 "CRGO judgement (audit record generation for agent actions)"@en ;
+    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Command and Scripting Interpreter: actions run through agent tools)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-250> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (execution with unnecessary privileges)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-77> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (command injection through tool calls)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cis81/16.5> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-11> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (component authenticity)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
@@ -530,5 +269,266 @@ crgo:CRGO_0001394 rdfs:seeAlso <https://atlas.mitre.org/techniques/AML.T0010>,
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "ATT&CK has no technique for deferred decryption; interception is the observable step"@en ;
     crgo:CRGO_0000286 "CRGO judgement (ATT&CK Network Sniffing: capture of encrypted traffic for later decryption)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001603 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1078> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Valid Accounts: misuse of the agent's credentials)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-6> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (least privilege for non-human identities)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeCrypto> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch20"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeCrypto> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch20"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SR-4> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (provenance)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/CM-14> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (signed components)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeThirdParty> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-17> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (public key infrastructure certificates)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; textbook v2.51 ch18"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-494> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (download of code without integrity check)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-327> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement; NIST IR 8547 (quantum-vulnerable public-key algorithms)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001603 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1195.001> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Compromise Software Dependencies and Development Tools)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-1427> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (improper neutralization of input used for LLM prompting)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/CM-8> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (certificate inventory and ownership)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (key establishment and management)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001603 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1195> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Supply Chain Compromise)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-12> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-1357> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (reliance on insufficiently trustworthy component)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001389 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-326> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-327> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001604 ;
+    owl:annotatedSource crgo:CRGO_0001391 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/cwe/CWE-298> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (improper validation of certificate expiration)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001603 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/attack/T1600> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (ATT&CK Weaken Encryption)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SI-10> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement (information input validation)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SI-4> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (monitoring of agent actions)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001393 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeAppSec> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0000825 ;
+    owl:annotatedSource crgo:CRGO_0001394 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/theme/ThemeEmerging> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001390 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/SC-13> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "CRGO judgement"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AC-2> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (account management of agent identities)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty crgo:CRGO_0001605 ;
+    owl:annotatedSource crgo:CRGO_0001392 ;
+    owl:annotatedTarget <https://w3id.org/crgo/vocab/sp800-53r5/AU-12> ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO judgement (audit record generation for agent actions)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 

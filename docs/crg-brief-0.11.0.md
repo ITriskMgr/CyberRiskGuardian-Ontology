@@ -1,7 +1,7 @@
 # Brief: CRGO 0.11.0 terms for the CyberRiskGuardian 1.9.0 "Identity, Privilege & Configuration" module
 
 **For:** Claude working in the CyberRiskGuardian (CRG) repository on release 1.9.0 (decision record of 2026-11-02, group 4).
-**From:** CRGO 0.11.0 (branch `release/0.11.0`, not tagged; every term **proposed** until the project owner approves it).
+**From:** CRGO 0.11.0 (tag `v0.11.0`; every term **approved** by the project owner on 2026-11-02; CIS v8.1 values flagged `REVIEW:` were accepted as delivered and stay unverified).
 **Rule:** CRG stores counts per population, never names or usernames; findings may *propose* Pb(ψ,A) or θ changes through the
 existing propose → review → accept flow; CRGO computes no risk and no inference in CRGO approves access or accepts a risk.
 
@@ -46,7 +46,7 @@ Scenario pattern `CRGO_0001387` (has scenario pattern `CRGO_0001478`, from a ris
 | AI supply chain compromise (book ch18) | `CRGO_0001394` | third party; emerging technologies |
 
 Links in `vocab/pattern-links`: *pattern involves technique* `CRGO_0001603` (ATT&CK), *pattern involves weakness* `CRGO_0001604`
-(CWE), *pattern addressed by* `CRGO_0001605` (SP 800-53 Rev. 5, CIS v8.1), each proposed with a confidence; ATLAS techniques by
+(CWE), *pattern addressed by* `CRGO_0001605` (SP 800-53 Rev. 5, CIS v8.1), each approved (2026-11-02) with a confidence; ATLAS techniques by
 `rdfs:seeAlso`. OWASP LLM and Agentic entries point to the patterns ('partially overlaps'). Technology in use
 `CRGO_0001395` (uses technology `CRGO_0001479`) on the organisation profile lets `pipeline/grc/applicability.py` evaluate ISO/IEC
 42001, the OWASP lists and ISO/IEC 27701 (at most *potentially applicable*) and the CCSPA (designated operators).

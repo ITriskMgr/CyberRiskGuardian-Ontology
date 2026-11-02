@@ -23,12 +23,15 @@ crgo:CRGO_0001327 a owl:Class ;
         "application de grand modèle de langage"@fr ;
     skos:definition "An AI system that produces text, code, images or other content from prompts, usually through a large language model."@en,
         "Système d'IA qui produit du texte, du code, des images ou d'autres contenus à partir d'invites, généralement au moyen d'un grand modèle de langage."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- digital certificate
 crgo:CRGO_0001330 a owl:Class ;
@@ -39,13 +42,16 @@ crgo:CRGO_0001330 a owl:Class ;
         "certificat à clé publique"@fr ;
     skos:definition "An asset that is a public-key certificate binding a public key to a subject, issued by a certification authority for a validity period; services that rely on it fail or warn when it expires unless it is renewed in time."@en,
         "Actif qui est un certificat à clé publique liant une clé publique à un sujet, émis par une autorité de certification pour une période de validité; les services qui en dépendent échouent ou avertissent à son expiration s'il n'est pas renouvelé à temps."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "The validity end is given by 'valid until'; services that rely on the certificate use 'relies on asset'."@en ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- harvest now, decrypt later
 crgo:CRGO_0001389 a owl:NamedIndividual,
@@ -56,7 +62,7 @@ crgo:CRGO_0001389 a owl:NamedIndividual,
         "Un adversaire conserve aujourd'hui des données chiffrées pour les déchiffrer lorsque des ordinateurs quantiques pourront casser les algorithmes à clé publique qui les protègent; sont visées les données qui doivent rester confidentielles pendant de nombreuses années."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -66,7 +72,10 @@ crgo:CRGO_0001389 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- crypto-agility failure
 crgo:CRGO_0001390 a owl:NamedIndividual,
@@ -77,7 +86,7 @@ crgo:CRGO_0001390 a owl:NamedIndividual,
         "L'organisation ne peut remplacer à temps un algorithme, un protocole ou une clé faibles ou dépréciés parce qu'elle ignore où ils sont utilisés ou que ses systèmes ne permettent pas de les changer."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -87,7 +96,10 @@ crgo:CRGO_0001390 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- certificate expiry outage
 crgo:CRGO_0001391 a owl:NamedIndividual,
@@ -98,7 +110,7 @@ crgo:CRGO_0001391 a owl:NamedIndividual,
         "Un service tombe en panne ou n'est plus reconnu comme fiable parce qu'un certificat dont il dépend a expiré sans être renouvelé, un risque qui croît à mesure que la durée maximale des certificats diminue."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -108,7 +120,10 @@ crgo:CRGO_0001391 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- agentic AI misuse
 crgo:CRGO_0001392 a owl:NamedIndividual,
@@ -119,7 +134,7 @@ crgo:CRGO_0001392 a owl:NamedIndividual,
         "Les outils, les identifiants ou l'autorité déléguée d'un agent d'IA sont utilisés au-delà de leur finalité, par manipulation, erreur ou compromission, pour lire, modifier ou transmettre des données ou déclencher des actions."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -129,7 +144,10 @@ crgo:CRGO_0001392 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- prompt injection in agent workflows
 crgo:CRGO_0001393 a owl:NamedIndividual,
@@ -140,7 +158,7 @@ crgo:CRGO_0001393 a owl:NamedIndividual,
         "Des instructions dissimulées dans un contenu que lit un système d'IA, comme une page Web, un document, un courriel ou la sortie d'un outil, supplantent ses instructions prévues et détournent ses actions."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -150,7 +168,10 @@ crgo:CRGO_0001393 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- AI supply chain compromise
 crgo:CRGO_0001394 a owl:NamedIndividual,
@@ -161,7 +182,7 @@ crgo:CRGO_0001394 a owl:NamedIndividual,
         "Un modèle, un jeu de données, un module d'extension, un outil ou un composant d'agent obtenu d'un tiers est malveillant, empoisonné ou vulnérable, et les systèmes d'IA de l'organisation en héritent."@fr ;
     skos:inScheme crgo:CRGO_0001388 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -171,7 +192,10 @@ crgo:CRGO_0001394 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- web applications and APIs
 crgo:CRGO_0001397 a owl:NamedIndividual,
@@ -182,11 +206,14 @@ crgo:CRGO_0001397 a owl:NamedIndividual,
         "Développe ou exploite des applications ou des interfaces de programmation accessibles par le Web."@fr ;
     skos:inScheme crgo:CRGO_0001396 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- AI systems
 crgo:CRGO_0001398 a owl:NamedIndividual,
@@ -197,11 +224,14 @@ crgo:CRGO_0001398 a owl:NamedIndividual,
         "Développe, fournit ou utilise des systèmes d'IA dans ses activités ou ses produits."@fr ;
     skos:inScheme crgo:CRGO_0001396 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- generative AI applications
 crgo:CRGO_0001399 a owl:NamedIndividual,
@@ -212,11 +242,14 @@ crgo:CRGO_0001399 a owl:NamedIndividual,
         "Développe ou exploite des applications fondées sur de grands modèles de langage ou d'autres modèles génératifs."@fr ;
     skos:inScheme crgo:CRGO_0001396 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- AI agents
 crgo:CRGO_0001400 a owl:NamedIndividual,
@@ -227,11 +260,14 @@ crgo:CRGO_0001400 a owl:NamedIndividual,
         "Exploite des agents d'IA qui agissent au moyen d'outils, d'identifiants ou d'une autorité déléguée."@fr ;
     skos:inScheme crgo:CRGO_0001396 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- certificates and public-key infrastructure
 crgo:CRGO_0001401 a owl:NamedIndividual,
@@ -242,11 +278,14 @@ crgo:CRGO_0001401 a owl:NamedIndividual,
         "Dépend de certificats ou de sa propre infrastructure à clé publique pour ses services."@fr ;
     skos:inScheme crgo:CRGO_0001396 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- quantum-vulnerable
 crgo:CRGO_0001404 a owl:NamedIndividual,
@@ -257,11 +296,14 @@ crgo:CRGO_0001404 a owl:NamedIndividual,
         "Cryptographie à clé publique fondée sur la factorisation ou le logarithme discret, comme RSA, Diffie-Hellman ou les courbes elliptiques, qu'un ordinateur quantique pourrait casser."@fr ;
     skos:inScheme crgo:CRGO_0001403 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- post-quantum
 crgo:CRGO_0001405 a owl:NamedIndividual,
@@ -272,11 +314,14 @@ crgo:CRGO_0001405 a owl:NamedIndividual,
         "Algorithme normalisé pour résister aux attaques quantiques, comme ML-KEM, ML-DSA ou SLH-DSA, ou combinaison hybride qui en comprend un."@fr ;
     skos:inScheme crgo:CRGO_0001403 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- symmetric, adequate key length
 crgo:CRGO_0001406 a owl:NamedIndividual,
@@ -287,11 +332,14 @@ crgo:CRGO_0001406 a owl:NamedIndividual,
         "Cryptographie symétrique ou hachage dont la clé ou la sortie est assez longue pour rester suffisante, comme AES-256 ou SHA-384."@fr ;
     skos:inScheme crgo:CRGO_0001403 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- quantum status undetermined
 crgo:CRGO_0001407 a owl:NamedIndividual,
@@ -302,11 +350,14 @@ crgo:CRGO_0001407 a owl:NamedIndividual,
         "L'algorithme ou la longueur de clé utilisés ne sont pas connus."@fr ;
     skos:inScheme crgo:CRGO_0001403 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- small organisation
 crgo:CRGO_0001410 a owl:NamedIndividual,
@@ -317,12 +368,15 @@ crgo:CRGO_0001410 a owl:NamedIndividual,
         "Moins de 100 employés."@fr ;
     skos:inScheme crgo:CRGO_0001409 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Small_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- medium-sized organisation
 crgo:CRGO_0001411 a owl:NamedIndividual,
@@ -333,12 +387,15 @@ crgo:CRGO_0001411 a owl:NamedIndividual,
         "De 100 à 499 employés."@fr ;
     skos:inScheme crgo:CRGO_0001409 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Medium_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- large organisation
 crgo:CRGO_0001412 a owl:NamedIndividual,
@@ -349,12 +406,15 @@ crgo:CRGO_0001412 a owl:NamedIndividual,
         "500 employés ou plus."@fr ;
     skos:inScheme crgo:CRGO_0001409 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Large_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- corporation
 crgo:CRGO_0001415 a owl:NamedIndividual,
@@ -365,12 +425,15 @@ crgo:CRGO_0001415 a owl:NamedIndividual,
         "Entreprise constituée en personne morale distincte."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#corporation_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- partnership
 crgo:CRGO_0001416 a owl:NamedIndividual,
@@ -381,12 +444,15 @@ crgo:CRGO_0001416 a owl:NamedIndividual,
         "Entreprise exploitée par deux associés ou plus en vertu d'un contrat de société."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#partnership_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- sole proprietorship
 crgo:CRGO_0001417 a owl:NamedIndividual,
@@ -397,12 +463,15 @@ crgo:CRGO_0001417 a owl:NamedIndividual,
         "Entreprise exploitée par une seule personne sans constitution en société."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#sole_proprietorship_business> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- non-profit organisation
 crgo:CRGO_0001418 a owl:NamedIndividual,
@@ -413,12 +482,15 @@ crgo:CRGO_0001418 a owl:NamedIndividual,
         "Organisation qui ne distribue pas de bénéfices à ses membres, comme un organisme de bienfaisance, une association ou une coopérative sans capital-actions."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#non-profit> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- government organisation
 crgo:CRGO_0001419 a owl:NamedIndividual,
@@ -429,12 +501,15 @@ crgo:CRGO_0001419 a owl:NamedIndividual,
         "Ministère ou organisme d'un gouvernement fédéral, provincial ou municipal."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Governement_organization> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- parapublic organisation
 crgo:CRGO_0001420 a owl:NamedIndividual,
@@ -445,12 +520,15 @@ crgo:CRGO_0001420 a owl:NamedIndividual,
         "Organisation financée ou contrôlée par l'État mais exploitée de façon autonome, comme un centre de services scolaire, un hôpital ou une société d'État."@fr ;
     skos:inScheme crgo:CRGO_0001414 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Para-public_organization> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- consensus standard
 crgo:CRGO_0001423 a owl:NamedIndividual,
@@ -461,12 +539,15 @@ crgo:CRGO_0001423 a owl:NamedIndividual,
         "Élaborée par un organisme de normalisation reconnu selon un processus consensuel, comme l'ISO, la CEI ou le Groupe CSA."@fr ;
     skos:inScheme crgo:CRGO_0001422 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Consensus-based_Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- government-issued standard
 crgo:CRGO_0001424 a owl:NamedIndividual,
@@ -477,12 +558,15 @@ crgo:CRGO_0001424 a owl:NamedIndividual,
         "Émise par un organisme public ou une autorité de réglementation, comme le NIST ou une autorité de surveillance."@fr ;
     skos:inScheme crgo:CRGO_0001422 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Governement_Mandated_Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- industry or community standard
 crgo:CRGO_0001425 a owl:NamedIndividual,
@@ -493,12 +577,15 @@ crgo:CRGO_0001425 a owl:NamedIndividual,
         "Émise par une association sectorielle ou une communauté professionnelle, comme le PCI SSC, le CIS ou l'OWASP."@fr ;
     skos:inScheme crgo:CRGO_0001422 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Industry_Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- de facto standard
 crgo:CRGO_0001426 a owl:NamedIndividual,
@@ -509,12 +596,15 @@ crgo:CRGO_0001426 a owl:NamedIndividual,
         "Largement suivie en raison de son adoption par le marché plutôt que d'une approbation officielle."@fr ;
     skos:inScheme crgo:CRGO_0001422 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#DeFacto_Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- ad hoc standard
 crgo:CRGO_0001427 a owl:NamedIndividual,
@@ -525,12 +615,15 @@ crgo:CRGO_0001427 a owl:NamedIndividual,
         "Convenue pour un projet, un contrat ou un groupe d'organisations en particulier."@fr ;
     skos:inScheme crgo:CRGO_0001422 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#AdHoc_Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- mandatory (law or regulation)
 crgo:CRGO_0001430 a owl:NamedIndividual,
@@ -541,12 +634,15 @@ crgo:CRGO_0001430 a owl:NamedIndividual,
         "Imposée par une loi, un règlement ou une ligne directrice réglementaire contraignante."@fr ;
     skos:inScheme crgo:CRGO_0001429 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/Rh2ssYF6ADdd7hNQpzceBw> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- contractual
 crgo:CRGO_0001431 a owl:NamedIndividual,
@@ -557,12 +653,15 @@ crgo:CRGO_0001431 a owl:NamedIndividual,
         "Acceptée dans un contrat, comme une entente avec un client, un réseau de cartes ou un fournisseur."@fr ;
     skos:inScheme crgo:CRGO_0001429 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/R9twXplwyOhHCfUGX58otMT> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- voluntary commitment
 crgo:CRGO_0001432 a owl:NamedIndividual,
@@ -573,12 +672,15 @@ crgo:CRGO_0001432 a owl:NamedIndividual,
         "Adoptée par décision de l'organisation, comme une norme qu'elle a choisi de suivre ou une certification qu'elle recherche."@fr ;
     skos:inScheme crgo:CRGO_0001429 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/RJVdCXfXqtjD1XTB0G5IrD> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- internal policy
 crgo:CRGO_0001433 a owl:NamedIndividual,
@@ -589,12 +691,15 @@ crgo:CRGO_0001433 a owl:NamedIndividual,
         "Fixée par les politiques, normes ou procédures de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0001429 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/RCRcQiVwEteT64eSu84XpWA> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- designated operator (critical cyber systems)
 crgo:CRGO_0001477 a owl:NamedIndividual,
@@ -605,11 +710,14 @@ crgo:CRGO_0001477 a owl:NamedIndividual,
         "Exploitant désigné en vertu de la loi fédérale sur la protection des cybersystèmes essentiels, dans une catégorie d'exploitants qui exploitent une entreprise ou une activité relevant d'un service ou d'un système critique qu'elle énumère, comme les télécommunications, les pipelines ou lignes électriques interprovinciaux, l'énergie nucléaire, le transport sous réglementation fédérale, les banques ou la compensation et le règlement."@fr ;
     skos:inScheme crgo:CRGO_0000356 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Critical Cyber Systems Protection Act, enacted by Bill C-8 (45th Parliament, 1st session); Royal Assent announced by Public Safety Canada on 2026-06-16; coming into force in phases (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has scenario pattern
 crgo:CRGO_0001478 a owl:ObjectProperty ;
@@ -619,11 +727,14 @@ crgo:CRGO_0001478 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001387 ;
     skos:definition "Relates a risk scenario to a scenario pattern it is an instance of."@en,
         "Relie un scénario de risque à un patron de scénario dont il est une instance."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- uses technology
 crgo:CRGO_0001479 a owl:ObjectProperty ;
@@ -633,12 +744,15 @@ crgo:CRGO_0001479 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001395 ;
     skos:definition "Relates an organisation to a kind of technology it develops, operates or uses, as stated in its profile."@en,
         "Relie une organisation à un type de technologie qu'elle développe, exploite ou utilise, selon son profil."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Read by pipeline/grc/applicability.py (test usesTechnology=...; completeness key usesTechnology)."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has organisation size
 crgo:CRGO_0001480 a owl:ObjectProperty ;
@@ -649,12 +763,15 @@ crgo:CRGO_0001480 a owl:ObjectProperty ;
     skos:definition "Gives the size class of an organisation."@en,
         "Indique la catégorie de taille d'une organisation."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Organization_size> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has legal form
 crgo:CRGO_0001481 a owl:ObjectProperty ;
@@ -665,12 +782,15 @@ crgo:CRGO_0001481 a owl:ObjectProperty ;
     skos:definition "Gives the legal form of an organisation."@en,
         "Indique la forme juridique d'une organisation."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Organization_structure> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- in industry sector
 crgo:CRGO_0001482 a owl:ObjectProperty ;
@@ -679,13 +799,16 @@ crgo:CRGO_0001482 a owl:ObjectProperty ;
     rdfs:domain cco:ont00001180 ;
     skos:definition "Relates an organisation to an industry sector it operates in, such as a NAICS/SCIAN sector of vocab/naics-sectors."@en,
         "Relie une organisation à un secteur d'activité dans lequel elle exerce, comme un secteur SCIAN de vocab/naics-sectors."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "MOACCO NAICS classes, re-expressed as a SKOS vocabulary."@en ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#NAICS> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has standard origin
 crgo:CRGO_0001483 a owl:ObjectProperty ;
@@ -696,12 +819,15 @@ crgo:CRGO_0001483 a owl:ObjectProperty ;
     skos:definition "Gives how a framework or standard came to be."@en,
         "Indique comment un référentiel ou une norme a vu le jour."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has obligation source
 crgo:CRGO_0001484 a owl:ObjectProperty ;
@@ -710,12 +836,15 @@ crgo:CRGO_0001484 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001428 ;
     skos:definition "Gives why an organisation must or chooses to meet a framework, instrument, obligation or requirement."@en,
         "Indique pourquoi une organisation doit ou choisit de respecter un référentiel, un instrument, une obligation ou une exigence."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/R8GOvZRHdmY3wk4pSfSQPsD> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- system uses model
 crgo:CRGO_0001485 a owl:ObjectProperty ;
@@ -725,12 +854,15 @@ crgo:CRGO_0001485 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001329 ;
     skos:definition "Relates an AI system to a model artefact or dataset it uses."@en,
         "Relie un système d'IA à un artefact de modèle ou à un jeu de données qu'il utilise."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- artefact obtained from
 crgo:CRGO_0001486 a owl:ObjectProperty ;
@@ -739,12 +871,15 @@ crgo:CRGO_0001486 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001329 ;
     skos:definition "Relates an AI model artefact to the organisation or repository it was obtained from."@en,
         "Relie un artefact de modèle d'IA à l'organisation ou au dépôt dont il provient."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- agent uses tool
 crgo:CRGO_0001487 a owl:ObjectProperty ;
@@ -754,11 +889,14 @@ crgo:CRGO_0001487 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000001 ;
     skos:definition "Relates an AI agent to a tool, service or system it can call."@en,
         "Relie un agent d'IA à un outil, à un service ou à un système qu'il peut appeler."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- agent acts for
 crgo:CRGO_0001488 a owl:ObjectProperty ;
@@ -768,11 +906,14 @@ crgo:CRGO_0001488 a owl:ObjectProperty ;
     rdfs:range cco:ont00001017 ;
     skos:definition "Relates an AI agent to the person or organisational unit on whose behalf, and under whose accountability, it acts."@en,
         "Relie un agent d'IA à la personne ou à l'unité administrative pour le compte et sous la responsabilité de laquelle il agit."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- cryptography used by
 crgo:CRGO_0001489 a owl:ObjectProperty ;
@@ -782,11 +923,14 @@ crgo:CRGO_0001489 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0000001 ;
     skos:definition "Relates a cryptographic inventory entry to the asset that uses the algorithm, protocol or key."@en,
         "Relie une entrée d'inventaire cryptographique à l'actif qui utilise l'algorithme, le protocole ou la clé."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has quantum vulnerability status
 crgo:CRGO_0001490 a owl:ObjectProperty ;
@@ -797,11 +941,14 @@ crgo:CRGO_0001490 a owl:ObjectProperty ;
     skos:definition "Gives whether a cryptographic use is expected to resist quantum attack."@en,
         "Indique si une utilisation cryptographique devrait résister à une attaque quantique."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- algorithm name
 crgo:CRGO_0001552 a owl:DatatypeProperty,
@@ -812,11 +959,14 @@ crgo:CRGO_0001552 a owl:DatatypeProperty,
     rdfs:range xsd:string ;
     skos:definition "Gives the cryptographic algorithm or protocol of a cryptographic inventory entry, such as RSA-2048 or ML-KEM-768."@en,
         "Indique l'algorithme ou le protocole cryptographique d'une entrée d'inventaire, comme RSA-2048 ou ML-KEM-768."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- confidentiality horizon (years)
 crgo:CRGO_0001553 a owl:DatatypeProperty,
@@ -827,11 +977,14 @@ crgo:CRGO_0001553 a owl:DatatypeProperty,
     rdfs:range xsd:nonNegativeInteger ;
     skos:definition "Gives for how many years the data protected by a cryptographic use must stay confidential, which sets the urgency of post-quantum migration."@en,
         "Indique pendant combien d'années les données protégées par une utilisation cryptographique doivent rester confidentielles, ce qui fixe l'urgence de la migration post-quantique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- technology condition
 crgo:CRGO_0001585 a owl:NamedIndividual,
@@ -842,11 +995,14 @@ crgo:CRGO_0001585 a owl:NamedIndividual,
         "Si l'organisation développe, exploite ou utilise un type de technologie donné, pour une norme ou un guide qui lui est propre."@fr ;
     skos:inScheme crgo:CRGO_0000395 ;
     skos:notation "8" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- implementation group 1 (IG1)
 crgo:CRGO_0001588 a owl:NamedIndividual,
@@ -857,11 +1013,14 @@ crgo:CRGO_0001588 a owl:NamedIndividual,
         "Hygiène de base pour les organisations dont l'expertise en TI et en sécurité est limitée."@fr ;
     skos:inScheme crgo:CRGO_0001587 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- implementation group 2 (IG2)
 crgo:CRGO_0001589 a owl:NamedIndividual,
@@ -872,11 +1031,14 @@ crgo:CRGO_0001589 a owl:NamedIndividual,
         "Pour les organisations dotées d'un personnel de TI dédié et de plusieurs services aux profils de risque différents."@fr ;
     skos:inScheme crgo:CRGO_0001587 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- implementation group 3 (IG3)
 crgo:CRGO_0001590 a owl:NamedIndividual,
@@ -887,11 +1049,14 @@ crgo:CRGO_0001590 a owl:NamedIndividual,
         "Pour les organisations dotées de spécialistes en sécurité et de données ou services sensibles exposés à des attaques sophistiquées."@fr ;
     skos:inScheme crgo:CRGO_0001587 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- devices (safeguard asset type)
 crgo:CRGO_0001593 a owl:NamedIndividual,
@@ -902,11 +1067,14 @@ crgo:CRGO_0001593 a owl:NamedIndividual,
         "Postes des utilisateurs, serveurs, appareils réseau et objets connectés."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "1" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- software (safeguard asset type)
 crgo:CRGO_0001594 a owl:NamedIndividual,
@@ -917,11 +1085,14 @@ crgo:CRGO_0001594 a owl:NamedIndividual,
         "Applications, systèmes d'exploitation, micrologiciels et bibliothèques."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "2" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- data (safeguard asset type)
 crgo:CRGO_0001595 a owl:NamedIndividual,
@@ -932,11 +1103,14 @@ crgo:CRGO_0001595 a owl:NamedIndividual,
         "Informations au repos, en transit ou en cours d'utilisation."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "3" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- network (safeguard asset type)
 crgo:CRGO_0001596 a owl:NamedIndividual,
@@ -947,11 +1121,14 @@ crgo:CRGO_0001596 a owl:NamedIndividual,
         "Infrastructure et architecture réseau."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "4" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- users (safeguard asset type)
 crgo:CRGO_0001597 a owl:NamedIndividual,
@@ -962,11 +1139,14 @@ crgo:CRGO_0001597 a owl:NamedIndividual,
         "Membres du personnel et leurs comptes."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "5" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- documentation (safeguard asset type)
 crgo:CRGO_0001598 a owl:NamedIndividual,
@@ -977,11 +1157,14 @@ crgo:CRGO_0001598 a owl:NamedIndividual,
         "Politiques, plans, processus et procédures."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "6" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- not asset-specific
 crgo:CRGO_0001599 a owl:NamedIndividual,
@@ -992,11 +1175,14 @@ crgo:CRGO_0001599 a owl:NamedIndividual,
         "La protection ne vise pas un type d'actif particulier."@fr ;
     skos:inScheme crgo:CRGO_0001592 ;
     skos:notation "7" ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- in implementation group
 crgo:CRGO_0001600 a owl:ObjectProperty ;
@@ -1005,11 +1191,14 @@ crgo:CRGO_0001600 a owl:ObjectProperty ;
     rdfs:range crgo:CRGO_0001586 ;
     skos:definition "Relates a safeguard to an implementation group that includes it."@en,
         "Relie une protection à un groupe de mise en œuvre qui la comprend."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has safeguard asset type
 crgo:CRGO_0001601 a owl:ObjectProperty ;
@@ -1019,11 +1208,14 @@ crgo:CRGO_0001601 a owl:ObjectProperty ;
     skos:definition "Gives the kind of asset a safeguard applies to."@en,
         "Indique le type d'actif auquel s'applique une protection."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- has security function
 crgo:CRGO_0001602 a owl:ObjectProperty ;
@@ -1032,12 +1224,15 @@ crgo:CRGO_0001602 a owl:ObjectProperty ;
     skos:definition "Relates a safeguard to the security function it serves, given as a NIST CSF 2.0 function (govern, identify, protect, detect, respond, recover)."@en,
         "Relie une protection à la fonction de sécurité qu'elle sert, exprimée comme une fonction du NIST CSF 2.0 (gouverner, identifier, protéger, détecter, répondre, rétablir)."@fr ;
     skos:scopeNote "At most one value per subject; enforced by SHACL (Phase 4), not by an OWL functional axiom, to keep the module in OWL 2 EL."@en ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Range left open: the values are the concepts of vocab/csf2 (GV, ID, PR, DE, RS, RC)."@en ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- pattern involves technique
 crgo:CRGO_0001603 a owl:ObjectProperty ;
@@ -1046,13 +1241,16 @@ crgo:CRGO_0001603 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001387 ;
     skos:definition "Relates a scenario pattern to an adversary technique, such as an ATT&CK technique, that scenarios of the pattern typically involve."@en,
         "Relie un patron de scénario à une technique adverse, comme une technique ATT&CK, que les scénarios de ce patron font généralement intervenir."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems), technique identifiers cited (atlas.mitre.org)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- pattern involves weakness
 crgo:CRGO_0001604 a owl:ObjectProperty ;
@@ -1061,12 +1259,15 @@ crgo:CRGO_0001604 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001387 ;
     skos:definition "Relates a scenario pattern to a weakness, such as a CWE entry, that scenarios of the pattern typically exploit or depend on."@en,
         "Relie un patron de scénario à une faiblesse, comme une entrée CWE, que les scénarios de ce patron exploitent généralement ou dont ils dépendent."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- pattern addressed by
 crgo:CRGO_0001605 a owl:ObjectProperty ;
@@ -1075,12 +1276,15 @@ crgo:CRGO_0001605 a owl:ObjectProperty ;
     rdfs:domain crgo:CRGO_0001387 ;
     skos:definition "Relates a scenario pattern to a control or safeguard, such as an SP 800-53 control or a CIS safeguard, that reduces the likelihood or impact of its scenarios. Never evidence that the control is in place."@en,
         "Relie un patron de scénario à une mesure ou à une protection, comme une mesure SP 800-53 ou une protection CIS, qui réduit la probabilité ou l'impact de ses scénarios. Ne prouve jamais que la mesure est en place."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRGO judgement, recorded with confidence and status in vocab/pattern-links."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 crgo:crgo-context a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
@@ -1117,13 +1321,16 @@ crgo:CRGO_0001328 a owl:Class ;
         "système d'IA agentique"@fr ;
     skos:definition "An AI system that plans and carries out several steps towards a goal by calling tools, other agents or services with credentials or authority delegated to it, with little or no human intervention between steps."@en,
         "Système d'IA qui planifie et exécute plusieurs étapes vers un but en faisant appel à des outils, à d'autres agents ou à des services au moyen d'identifiants ou d'une autorité qui lui sont délégués, avec peu ou pas d'intervention humaine entre les étapes."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "An asset (the software), not a CCO agent: accountability stays with the organisation that operates it."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- AI model artefact
 crgo:CRGO_0001329 a owl:Class ;
@@ -1133,14 +1340,17 @@ crgo:CRGO_0001329 a owl:Class ;
     skos:altLabel "AI model artifact"@en ;
     skos:definition "An asset that is a trained model, its weights, adapters or configuration, or a dataset used to train or tune it, as obtained from a supplier or repository or produced by the organisation."@en,
         "Actif qui est un modèle entraîné, ses poids, adaptateurs ou paramètres, ou un jeu de données servant à l'entraîner ou à l'ajuster, tel qu'obtenu d'un fournisseur ou d'un dépôt ou produit par l'organisation."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Carries the AI supply-chain scenario pattern: provenance and integrity of models and datasets."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- AI system
 crgo:CRGO_0001326 a owl:Class ;
@@ -1151,14 +1361,17 @@ crgo:CRGO_0001326 a owl:Class ;
         "système d'intelligence artificielle"@fr ;
     skos:definition "An asset that is a software system which, for given objectives, infers from its inputs how to produce outputs such as predictions, content, recommendations or decisions, together with the models, instructions, retrieval data and tools it relies on."@en,
         "Actif qui est un système logiciel qui, pour des objectifs donnés, déduit de ses entrées la façon de produire des sorties comme des prédictions, du contenu, des recommandations ou des décisions, avec les modèles, les instructions, les données de recherche et les outils sur lesquels il s'appuie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "CRGO wording; close in scope to the AI system of NIST AI 100-1 and ISO/IEC 42001, which are not quoted."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "ISO/IEC 42001:2023, Artificial intelligence: management system (identifier cited, no text reproduced)"@en,
         "NIST AI 100-1, Artificial Intelligence Risk Management Framework (AI RMF 1.0, January 2023) (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- organisation size scheme
 crgo:CRGO_0001409 a owl:NamedIndividual,
@@ -1167,11 +1380,14 @@ crgo:CRGO_0001409 a owl:NamedIndividual,
         "schéma : taille de l'organisation"@fr ;
     skos:definition "Concept scheme of the organisation size value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « taille de l'organisation »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- implementation group scheme
 crgo:CRGO_0001587 a owl:NamedIndividual,
@@ -1180,11 +1396,14 @@ crgo:CRGO_0001587 a owl:NamedIndividual,
         "schéma : groupe de mise en œuvre"@fr ;
     skos:definition "Concept scheme of the implementation group value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « groupe de mise en œuvre »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- cryptographic inventory entry
 crgo:CRGO_0001331 a owl:Class ;
@@ -1195,12 +1414,15 @@ crgo:CRGO_0001331 a owl:Class ;
         "cryptographic bill of materials entry"@en ;
     skos:definition "A description of where an asset uses a cryptographic algorithm, protocol or key, with its purpose, key length and quantum vulnerability, kept to plan the migration to post-quantum cryptography and to show crypto-agility."@en,
         "Description de l'endroit où un actif utilise un algorithme, un protocole ou une clé cryptographiques, avec sa finalité, la longueur de clé et la vulnérabilité quantique, tenue pour planifier la migration vers la cryptographie post-quantique et démontrer l'agilité cryptographique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
         "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- quantum vulnerability status scheme
 crgo:CRGO_0001403 a owl:NamedIndividual,
@@ -1209,11 +1431,14 @@ crgo:CRGO_0001403 a owl:NamedIndividual,
         "schéma : état de vulnérabilité quantique"@fr ;
     skos:definition "Concept scheme of the quantum vulnerability status value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « état de vulnérabilité quantique »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- obligation source scheme
 crgo:CRGO_0001429 a owl:NamedIndividual,
@@ -1222,11 +1447,14 @@ crgo:CRGO_0001429 a owl:NamedIndividual,
         "schéma : source de l'obligation"@fr ;
     skos:definition "Concept scheme of the obligation source value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « source de l'obligation »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- technology in use scheme
 crgo:CRGO_0001396 a owl:NamedIndividual,
@@ -1235,11 +1463,14 @@ crgo:CRGO_0001396 a owl:NamedIndividual,
         "schéma : technologie utilisée"@fr ;
     skos:definition "Concept scheme of the technology in use value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « technologie utilisée »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- organisation size
 crgo:CRGO_0001408 a owl:Class ;
@@ -1248,13 +1479,16 @@ crgo:CRGO_0001408 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The size class of an organisation by number of employees, following the usual Canadian thresholds."@en,
         "Catégorie de taille d'une organisation selon le nombre d'employés, suivant les seuils canadiens usuels."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Organization_size> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- standard origin scheme
 crgo:CRGO_0001422 a owl:NamedIndividual,
@@ -1263,11 +1497,14 @@ crgo:CRGO_0001422 a owl:NamedIndividual,
         "schéma : origine de la norme"@fr ;
     skos:definition "Concept scheme of the standard origin value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « origine de la norme »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- implementation group
 crgo:CRGO_0001586 a owl:Class ;
@@ -1276,12 +1513,15 @@ crgo:CRGO_0001586 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A tier of safeguards an organisation adopts according to its resources and risk, as defined by the CIS Controls; each group includes the safeguards of the groups below it."@en,
         "Palier de protections qu'une organisation adopte selon ses ressources et son risque, tel que défini par les contrôles du CIS; chaque groupe comprend les protections des groupes inférieurs."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- scenario pattern scheme
 crgo:CRGO_0001388 a owl:NamedIndividual,
@@ -1290,7 +1530,7 @@ crgo:CRGO_0001388 a owl:NamedIndividual,
         "schéma : patron de scénario"@fr ;
     skos:definition "Concept scheme of the scenario pattern value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « patron de scénario »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
         "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en,
@@ -1300,7 +1540,10 @@ crgo:CRGO_0001388 a owl:NamedIndividual,
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- quantum vulnerability status
 crgo:CRGO_0001402 a owl:Class ;
@@ -1309,12 +1552,15 @@ crgo:CRGO_0001402 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "Whether a cryptographic use is expected to resist attack by a cryptographically relevant quantum computer."@en,
         "Indique si une utilisation cryptographique devrait résister à une attaque par un ordinateur quantique d'intérêt cryptographique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA), August 2024; NIST IR 8547 (initial public draft, November 2024) on the transition to post-quantum cryptography (cited)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- legal form scheme
 crgo:CRGO_0001414 a owl:NamedIndividual,
@@ -1323,11 +1569,14 @@ crgo:CRGO_0001414 a owl:NamedIndividual,
         "schéma : forme juridique"@fr ;
     skos:definition "Concept scheme of the legal form value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « forme juridique »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- obligation source
 crgo:CRGO_0001428 a owl:Class ;
@@ -1336,13 +1585,16 @@ crgo:CRGO_0001428 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "Why an organisation must or chooses to meet a requirement, which sets the consequence of not meeting it."@en,
         "Raison pour laquelle une organisation doit ou choisit de satisfaire à une exigence, ce qui détermine la conséquence d'un manquement."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://webprotege.stanford.edu/R8GOvZRHdmY3wk4pSfSQPsD> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- technology in use
 crgo:CRGO_0001395 a owl:Class ;
@@ -1351,12 +1603,15 @@ crgo:CRGO_0001395 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A kind of technology an organisation develops, operates or uses, recorded in its profile so that the relevance of technology-specific standards and scenario patterns can be evaluated."@en,
         "Type de technologie qu'une organisation développe, exploite ou utilise, consigné dans son profil afin d'évaluer la pertinence des normes et des patrons de scénario propres à cette technologie."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CyberRiskGuardian 1.9.0 decision record (project owner, 2026-11-02), sections 'IAM/PAM and Configuration Management' and 'CRGO 0.11'"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- standard origin
 crgo:CRGO_0001421 a owl:Class ;
@@ -1365,13 +1620,16 @@ crgo:CRGO_0001421 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "How a standard or framework came to be, which bears on its authority and on how it is adopted."@en,
         "Façon dont une norme ou un référentiel a vu le jour, ce qui influe sur son autorité et sur son mode d'adoption."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Standards> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- safeguard asset type scheme
 crgo:CRGO_0001592 a owl:NamedIndividual,
@@ -1380,11 +1638,14 @@ crgo:CRGO_0001592 a owl:NamedIndividual,
         "schéma : type d'actif de la protection"@fr ;
     skos:definition "Concept scheme of the safeguard asset type value set."@en,
         "Schéma de concepts de l'ensemble de valeurs « type d'actif de la protection »."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- legal form
 crgo:CRGO_0001413 a owl:Class ;
@@ -1393,13 +1654,16 @@ crgo:CRGO_0001413 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The legal form under which an organisation is constituted. Distinct from the organisation type used for legal applicability."@en,
         "Forme juridique sous laquelle une organisation est constituée. Distincte du type d'organisation utilisé pour l'applicabilité juridique."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "Adapted from MOACCO, Mother of all cybersecurity compliance ontologies, version 1.2a (Marc-André Léger, 2022; github.com/ITriskMgr/MOACCO; MIT licence, ontology header CC BY 3.0); re-identified, realigned to BFO-2020/CCO and redefined in CRGO's own words"@en ;
     crgo:CRGO_0000287 <http://www.semanticweb.org/maleger/ontologies/2022/3/MOACCO#Organization_structure> ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- safeguard asset type
 crgo:CRGO_0001591 a owl:Class ;
@@ -1408,12 +1672,15 @@ crgo:CRGO_0001591 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "The kind of asset a safeguard of a control catalogue such as the CIS Controls applies to."@en,
         "Type d'actif auquel s'applique une protection d'un catalogue de mesures comme les contrôles du CIS."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CIS Critical Security Controls v8.1 (Center for Internet Security, June 2024), https://www.cisecurity.org/controls/v8-1; identifiers, Implementation Groups, asset types and security functions cited as facts; labels are CRGO paraphrases; CC BY-NC-ND 4.0"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 # --- scenario pattern
 crgo:CRGO_0001387 a owl:Class ;
@@ -1422,7 +1689,7 @@ crgo:CRGO_0001387 a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A recurring shape of risk scenario, across sectors, that identification should check for. Narrower than a scenario theme of vocab/theme; linked in vocab/pattern-links to the ATT&CK techniques, CWE weaknesses and controls it involves."@en,
         "Forme récurrente de scénario de risque, commune à plusieurs secteurs, que l'identification doit vérifier. Plus étroite qu'un thème de scénario de vocab/theme; liée dans vocab/pattern-links aux techniques ATT&CK, aux faiblesses CWE et aux mesures en cause."@fr ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Value set; members listed below."@en ;
     crgo:CRGO_0000286 "CA/Browser Forum Ballot SC-081v3 (2025): staged reduction of the maximum validity of publicly trusted TLS certificates (cited)"@en,
@@ -1433,7 +1700,10 @@ crgo:CRGO_0001387 a owl:Class ;
         "OWASP Top 10 for Agentic Applications 2026 (OWASP GenAI Security Project, 2025-12-09); identifiers cited, labels are CRGO paraphrases"@en,
         "OWASP Top 10 for LLM Applications 2025 (OWASP GenAI Security Project, November 2024); identifiers cited, labels are CRGO paraphrases"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
-    crgo:CRGO_0000291 "0.11.0" .
+    crgo:CRGO_0000289 crgo:CRGO_0000182 ;
+    crgo:CRGO_0000290 "2026-11-02"^^xsd:date ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000292 "0.11.0 review group terms/context (module crgo-context, values designated operator and technology condition); design choices 8-10 confirmed"@en .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( crgo:CRGO_0000061 crgo:CRGO_0000066 crgo:CRGO_0000072 crgo:CRGO_0000084 crgo:CRGO_0000302 crgo:CRGO_0000314 crgo:CRGO_0000090 crgo:CRGO_0000096 crgo:CRGO_0000101 crgo:CRGO_0000116 crgo:CRGO_0000128 crgo:CRGO_0000133 crgo:CRGO_0000141 crgo:CRGO_0000348 crgo:CRGO_0000355 crgo:CRGO_0000362 crgo:CRGO_0000366 crgo:CRGO_0000376 crgo:CRGO_0000381 crgo:CRGO_0000387 crgo:CRGO_0000394 crgo:CRGO_0000401 crgo:CRGO_0000556 crgo:CRGO_0000565 crgo:CRGO_0000571 crgo:CRGO_0000577 crgo:CRGO_0000597 crgo:CRGO_0000602 crgo:CRGO_0000608 crgo:CRGO_0001387 crgo:CRGO_0001395 crgo:CRGO_0001402 crgo:CRGO_0001408 crgo:CRGO_0001413 crgo:CRGO_0001421 crgo:CRGO_0001428 crgo:CRGO_0001586 crgo:CRGO_0001591 ) .
