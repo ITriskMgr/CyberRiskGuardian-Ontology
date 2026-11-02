@@ -19,6 +19,7 @@ otherwise the fact is missing and the condition is undetermined. Missing data th
   processesPersonalInfo  a processing activity is 'carried out by' the organisation         (carriedOutBy)
   processesData=C        one of its processing activities 'processes data category' C       (processesDataCategory)
   transfersOutside=J     data subjects in, or transfers to, a jurisdiction other than J     (dataSubjectsIn and transfersDataTo)
+  usesTechnology=T       organisation 'uses technology' T (0.11.0, crgo-context)            (usesTechnology)
 
 Rules per instrument: before the date it applies from (or comes into force), not applicable; an exception met ->
 not applicable (potentially applicable when the exception is interpretive); a required condition not met -> not
@@ -50,6 +51,7 @@ def facts(g, org):
     return {"hasOrganisationType": vals("hasOrganisationType"), "establishedIn": vals("establishedIn"), "offersServicesIn": vals("offersServicesIn"),
             "monitorsBehaviourIn": vals("monitorsBehaviourIn"), "carriedOutBy": acts, "processesDataCategory": act_vals("processesDataCategory"),
             "dataSubjectsIn": act_vals("dataSubjectsIn"), "transfersDataTo": act_vals("transfersDataTo"),
+            "usesTechnology": vals("usesTechnology"),
             "complete": {str(v) for v in g.objects(org, T("profileCompleteFor"))}}
 
 
@@ -69,6 +71,7 @@ def test(f, expr):
     if name == "processesPersonalInfo":
         return MET if f["carriedOutBy"] else (NOT if "carriedOutBy" in f["complete"] else UNK)
     if name == "processesData": return _member(f, ["processesDataCategory"], [arg])
+    if name == "usesTechnology": return _member(f, ["usesTechnology"], [arg])
     if name == "transfersOutside":
         places = f["dataSubjectsIn"] | f["transfersDataTo"]
         if places - {arg}: return MET

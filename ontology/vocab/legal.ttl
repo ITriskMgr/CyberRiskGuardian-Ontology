@@ -129,8 +129,26 @@
         "Instruments juridiques et conditions d'applicabilité de CRGO"@fr ;
     owl:imports crgo:crgo,
         <https://w3id.org/crgo/vocab/sources> ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.1/legal> ;
-    owl:versionInfo "0.10.1" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/legal> ;
+    owl:versionInfo "0.11.0" .
+
+<https://w3id.org/crgo/vocab/legal/CIS-CONTROLS-8.1> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "CIS Critical Security Controls v8.1"@en,
+        "Contrôles de sécurité critiques du CIS v8.1"@fr ;
+    dcterms:publisher "Center for Internet Security" ;
+    rdfs:comment "Identifiers, Implementation Groups, asset types and security functions in vocab/cis81 with CRGO labels; no applicability condition (relevant to any organisation; the Implementation Group is chosen by the organisation)."@en ;
+    rdfs:seeAlso <https://w3id.org/crgo/vocab/cis81> ;
+    crgo:CRGO_0000250 "CIS Controls v8.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cis-controls-v8.1> ;
+    crgo:CRGO_0000844 "2024" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001425 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
 
 <https://w3id.org/crgo/vocab/legal/condition/A21-3-PB> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
@@ -182,6 +200,21 @@
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/C-1.1> ;
     crgo:CRGO_0000425 crgo:CRGO_0000399 ;
     crgo:CRGO_0000469 "required|processesData=DataBiometric|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/CCSPA-DO> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Is a designated operator in a class of operators under the Act (its provisions come into force in phases)"@en,
+        "Est un exploitant désigné dans une catégorie d'exploitants visée par la Loi (ses dispositions entrent en vigueur par étapes)"@fr ;
+    skos:note "Citation: CCSPA Part 1 and its schedule of vital services and systems (section numbers to verify against the enacted text)"@en ;
+    crgo:CRGO_0000250 "CCSPA-DO" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of CCSPA Part 1 and its schedule of vital services and systems (section numbers to verify against the enacted text) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/CCSPA> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000397 ;
+    crgo:CRGO_0000469 "required|orgType=OrgDesignatedOperator|interpretive" .
 
 <https://w3id.org/crgo/vocab/legal/condition/GDPR-2-1> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
@@ -250,6 +283,81 @@
     crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/GDPR> ;
     crgo:CRGO_0000425 crgo:CRGO_0000396 ;
     crgo:CRGO_0000469 "anyof|monitorsBehaviourIn=JurEU|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/I27701-PI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Processes personal information as controller or processor (voluntary standard: relevant, binding only if adopted or required by contract)"@en,
+        "Traite des renseignements personnels en tant que responsable ou sous-traitant (norme volontaire : pertinente, contraignante seulement si adoptée ou exigée par contrat)"@fr ;
+    skos:note "Citation: ISO/IEC 27701:2025, scope (CRGO paraphrase; voluntary standard)"@en ;
+    crgo:CRGO_0000250 "I27701-PI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of ISO/IEC 27701:2025, scope (CRGO paraphrase; voluntary standard) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/ISO-IEC-27701-2025> ;
+    crgo:CRGO_0000425 crgo:CRGO_0000398 ;
+    crgo:CRGO_0000469 "required|processesPersonalInfo|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/I42001-AI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Develops, provides or uses AI systems (voluntary standard: relevant, binding only if adopted or required by contract)"@en,
+        "Développe, fournit ou utilise des systèmes d'IA (norme volontaire : pertinente, contraignante seulement si adoptée ou exigée par contrat)"@fr ;
+    skos:note "Citation: ISO/IEC 42001:2023, scope (CRGO paraphrase; voluntary standard)"@en ;
+    crgo:CRGO_0000250 "I42001-AI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of ISO/IEC 42001:2023, scope (CRGO paraphrase; voluntary standard) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/ISO-IEC-42001-2023> ;
+    crgo:CRGO_0000425 crgo:CRGO_0001585 ;
+    crgo:CRGO_0000469 "required|usesTechnology=TechAISystem|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/OWAG-AGENT> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Operates AI agents that act with tools, credentials or delegated authority (community guidance: relevant, not binding)"@en,
+        "Exploite des agents d'IA qui agissent au moyen d'outils, d'identifiants ou d'une autorité déléguée (guide communautaire : pertinent, non contraignant)"@fr ;
+    skos:note "Citation: OWASP Top 10 for Agentic Applications 2026, purpose (CRGO paraphrase; community guidance)"@en ;
+    crgo:CRGO_0000250 "OWAG-AGENT" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of OWASP Top 10 for Agentic Applications 2026, purpose (CRGO paraphrase; community guidance) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/OWASP-AGENTIC-2026> ;
+    crgo:CRGO_0000425 crgo:CRGO_0001585 ;
+    crgo:CRGO_0000469 "required|usesTechnology=TechAIAgents|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/OWASP10-WEB> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Develops or operates web applications or APIs (community guidance: relevant, not binding)"@en,
+        "Développe ou exploite des applications Web ou des API (guide communautaire : pertinent, non contraignant)"@fr ;
+    skos:note "Citation: OWASP Top 10:2025, purpose (CRGO paraphrase; community guidance)"@en ;
+    crgo:CRGO_0000250 "OWASP10-WEB" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of OWASP Top 10:2025, purpose (CRGO paraphrase; community guidance) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/OWASP-TOP10-2025> ;
+    crgo:CRGO_0000425 crgo:CRGO_0001585 ;
+    crgo:CRGO_0000469 "required|usesTechnology=TechWebApplication|interpretive" .
+
+<https://w3id.org/crgo/vocab/legal/condition/OWLLM-GENAI> a owl:NamedIndividual,
+        crgo:CRGO_0000344 ;
+    rdfs:label "Develops or operates generative AI or LLM applications (community guidance: relevant, not binding)"@en,
+        "Développe ou exploite des applications d'IA générative ou de grands modèles de langage (guide communautaire : pertinent, non contraignant)"@fr ;
+    skos:note "Citation: OWASP Top 10 for LLM Applications 2025, purpose (CRGO paraphrase; community guidance)"@en ;
+    crgo:CRGO_0000250 "OWLLM-GENAI" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "CRGO paraphrase of OWASP Top 10 for LLM Applications 2025, purpose (CRGO paraphrase; community guidance) (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000424 <https://w3id.org/crgo/vocab/legal/OWASP-LLM-2025> ;
+    crgo:CRGO_0000425 crgo:CRGO_0001585 ;
+    crgo:CRGO_0000469 "required|usesTechnology=TechGenerativeAI|interpretive" .
 
 <https://w3id.org/crgo/vocab/legal/condition/P39-1-ENT> a owl:NamedIndividual,
         crgo:CRGO_0000344 ;
@@ -712,6 +820,21 @@
     crgo:CRGO_0000465 "CQLR c. A-2.1, r. 0.1" ;
     crgo:CRGO_0000468 "2026-06-01T00:00:00"^^xsd:dateTime .
 
+<https://w3id.org/crgo/vocab/legal/CCSPA> a owl:NamedIndividual,
+        crgo:CRGO_0000343 ;
+    rdfs:label "Critical Cyber Systems Protection Act"@en,
+        "Loi sur la protection des cybersystèmes essentiels"@fr ;
+    rdfs:comment "Royal Assent announced by Public Safety Canada on 2026-06-16; the Act comes into force in phases, so no in-force date is asserted. Applies to designated operators in the vital services and systems it lists (telecommunications, interprovincial or international pipelines and power lines, nuclear energy, federally regulated transportation, banking, clearing and settlement)."@en ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
+    crgo:CRGO_0000286 "data/frameworks/legal_instruments.tsv; Royal Assent from the Public Safety Canada news release of 2026-06-16; enacted text not read"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ca-ccspa-c8> ;
+    crgo:CRGO_0000420 crgo:CRGO_0000351 ;
+    crgo:CRGO_0000421 crgo:CRGO_0000378 ;
+    crgo:CRGO_0000465 "Bill C-8, 45th Parliament, 1st session (An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts); chapter of S.C. 2026 to verify" .
+
 <https://w3id.org/crgo/vocab/legal/GDPR-in-force> a owl:NamedIndividual,
         time:ProperInterval ;
     time:hasBeginning <https://w3id.org/crgo/vocab/legal/GDPR-in-force-start> .
@@ -719,6 +842,94 @@
 <https://w3id.org/crgo/vocab/legal/GDPR-in-force-start> a owl:NamedIndividual,
         time:Instant ;
     time:inXSDDateTimeStamp "2016-05-24T00:00:00Z"^^xsd:dateTimeStamp .
+
+<https://w3id.org/crgo/vocab/legal/ISO-IEC-27701-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "ISO/IEC 27701:2025 (privacy information management)"@en,
+        "ISO/IEC 27701:2025 (management de la protection de la vie privée)"@fr ;
+    dcterms:publisher "ISO/IEC JTC 1/SC 27" ;
+    rdfs:comment "Edition and scope to verify against the ISO catalogue; no text reproduced."@en ;
+    crgo:CRGO_0000250 "ISO/IEC 27701:2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-27701-2025> ;
+    crgo:CRGO_0000844 "2025" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001423 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
+
+<https://w3id.org/crgo/vocab/legal/ISO-IEC-42001-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "ISO/IEC 42001:2023 (AI management system)"@en,
+        "ISO/IEC 42001:2023 (système de management de l'IA)"@fr ;
+    dcterms:publisher "ISO/IEC JTC 1/SC 42" ;
+    rdfs:comment "No text reproduced."@en ;
+    crgo:CRGO_0000250 "ISO/IEC 42001:2023" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iso-iec-42001-2023> ;
+    crgo:CRGO_0000844 "2023" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001423 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
+
+<https://w3id.org/crgo/vocab/legal/OWASP-AGENTIC-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "OWASP Top 10 for Agentic Applications 2026"@en,
+        "OWASP Top 10 des applications agentiques 2026"@fr ;
+    dcterms:publisher "OWASP GenAI Security Project" ;
+    rdfs:comment "Identifiers in vocab/owasp-agentic-2026 with CRGO labels."@en ;
+    rdfs:seeAlso <https://w3id.org/crgo/vocab/owasp-agentic-2026> ;
+    crgo:CRGO_0000250 "OWASP Top 10 for Agentic Applications 2026" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-agentic-2026> ;
+    crgo:CRGO_0000844 "2026" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001425 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
+
+<https://w3id.org/crgo/vocab/legal/OWASP-LLM-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "OWASP Top 10 for LLM Applications 2025"@en,
+        "OWASP Top 10 des applications de grands modèles de langage 2025"@fr ;
+    dcterms:publisher "OWASP GenAI Security Project" ;
+    rdfs:comment "Identifiers in vocab/owasp-llm-2025 with CRGO labels."@en ;
+    rdfs:seeAlso <https://w3id.org/crgo/vocab/owasp-llm-2025> ;
+    crgo:CRGO_0000250 "OWASP Top 10 for LLM Applications 2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-llm-2025> ;
+    crgo:CRGO_0000844 "2025" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001425 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
+
+<https://w3id.org/crgo/vocab/legal/OWASP-TOP10-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000296 ;
+    rdfs:label "OWASP Top 10:2025 (web application security risks)"@en,
+        "OWASP Top 10:2025 (risques de sécurité des applications Web)"@fr ;
+    dcterms:publisher "OWASP Foundation" ;
+    rdfs:comment "Category identifiers in vocab/owasp-top10-2025 with CRGO labels."@en ;
+    rdfs:seeAlso <https://w3id.org/crgo/vocab/owasp-top10-2025> ;
+    crgo:CRGO_0000250 "OWASP Top 10:2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-top10-2025> ;
+    crgo:CRGO_0000844 "2025" ;
+    crgo:CRGO_0001483 crgo:CRGO_0001425 ;
+    crgo:CRGO_0001484 crgo:CRGO_0001432 .
 
 <https://w3id.org/crgo/vocab/legal/A-2.1-r3.1> a owl:NamedIndividual,
         crgo:CRGO_0000343 ;

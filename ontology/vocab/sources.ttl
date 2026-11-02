@@ -20,6 +20,8 @@
 
 <https://w3id.org/crgo/vocab/ccm41> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/csa-ccm-4.1> .
 
+<https://w3id.org/crgo/vocab/cis81> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cis-controls-v8.1> .
+
 <https://w3id.org/crgo/vocab/cobit2019> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/cobit-2019> .
 
 <https://w3id.org/crgo/vocab/coso-erm> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/coso-erm-2017> .
@@ -32,6 +34,8 @@
 <https://w3id.org/crgo/vocab/d3fend> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/mitre-d3fend-1.6.0> .
 
 <https://w3id.org/crgo/vocab/gdpr> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/eu-gdpr> .
+
+<https://w3id.org/crgo/vocab/glossary> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/moacco-1.2a> .
 
 <https://w3id.org/crgo/vocab/iia-gias> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/iia-gias-2024> .
 
@@ -69,9 +73,17 @@
         <https://w3id.org/crgo/vocab/sources/nist-olir-80053-27001>,
         <https://w3id.org/crgo/vocab/sources/nist-sp800-53a-r5> .
 
+<https://w3id.org/crgo/vocab/naics-sectors> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/statcan-naics-2022> .
+
 <https://w3id.org/crgo/vocab/ocsf> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ocsf-1.9.0> .
 
 <https://w3id.org/crgo/vocab/osfi-b13> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/osfi-b13> .
+
+<https://w3id.org/crgo/vocab/owasp-agentic-2026> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-agentic-2026> .
+
+<https://w3id.org/crgo/vocab/owasp-llm-2025> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-llm-2025> .
+
+<https://w3id.org/crgo/vocab/owasp-top10-2025> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/owasp-top10-2025> .
 
 <https://w3id.org/crgo/vocab/pipeda> crgo:CRGO_0000407 <https://w3id.org/crgo/vocab/sources/ca-pipeda> .
 
@@ -81,8 +93,8 @@
     dcterms:title "CRGO source records"@en,
         "Notices de source de CRGO"@fr ;
     owl:imports crgo:crgo ;
-    owl:versionIRI <https://w3id.org/crgo/vocab/0.10.1/sources> ;
-    owl:versionInfo "0.10.1" .
+    owl:versionIRI <https://w3id.org/crgo/vocab/0.11.0/sources> ;
+    owl:versionInfo "0.11.0" .
 
 <https://w3id.org/crgo/vocab/sources/bfo-2020> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
@@ -103,6 +115,25 @@
     crgo:CRGO_0000454 "copy, unmodified" ;
     crgo:CRGO_0000456 "verified (ROBOT merge, HermiT)" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/ca-ccspa-c8> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "Critical Cyber Systems Protection Act (Bill C-8, 45th Parliament, 1st session)"@en ;
+    rdfs:comment "project owner to download the enacted text and coming-into-force orders"@en ;
+    crgo:CRGO_0000250 "ca-ccspa-c8" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "as passed (Royal Assent announced 2026-06-16)" ;
+    crgo:CRGO_0000451 "https://www.parl.ca/legisinfo/en/bill/45-1/c-8" ;
+    crgo:CRGO_0000452 "Parliament of Canada / Public Safety Canada" ;
+    crgo:CRGO_0000453 "Government of Canada; official text on LEGISinfo and the Justice Laws Website" ;
+    crgo:CRGO_0000454 "cited; applicability condition is a CRGO paraphrase" ;
+    crgo:CRGO_0000456 "Royal Assent read in the Public Safety Canada news release of 2026-06-16; enacted text, chapter number and in-force dates not read" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000568 .
 
 <https://w3id.org/crgo/vocab/sources/cco-2.2> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
@@ -205,6 +236,43 @@
     crgo:CRGO_0000453 "ISO licensed; NIST public" ;
     crgo:CRGO_0000454 "cited in evidenceSource only, no text" ;
     crgo:CRGO_0000456 "ISO clause numbers marked 'to verify against the licensed text'" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-iec-27701-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC 27701:2025 privacy information management systems"@en ;
+    rdfs:comment "standalone management system standard in this edition (to verify)"@en ;
+    crgo:CRGO_0000250 "iso-iec-27701-2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2025 (2nd edition)" ;
+    crgo:CRGO_0000451 "ISO/IEC 27701:2025" ;
+    crgo:CRGO_0000452 "ISO/IEC" ;
+    crgo:CRGO_0000453 "© ISO/IEC; licensed standard" ;
+    crgo:CRGO_0000454 "identifier and a CRGO short label only" ;
+    crgo:CRGO_0000456 "identifier and edition not checked against the ISO catalogue" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
+
+<https://w3id.org/crgo/vocab/sources/iso-iec-42001-2023> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "ISO/IEC 42001:2023 artificial intelligence management system"@en ;
+    crgo:CRGO_0000250 "iso-iec-42001-2023" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2023 (1st edition)" ;
+    crgo:CRGO_0000451 "ISO/IEC 42001:2023" ;
+    crgo:CRGO_0000452 "ISO/IEC" ;
+    crgo:CRGO_0000453 "© ISO/IEC; licensed standard" ;
+    crgo:CRGO_0000454 "identifier and a CRGO short label only" ;
+    crgo:CRGO_0000456 "identifier and edition not checked against the ISO catalogue" ;
     crgo:CRGO_0000699 crgo:CRGO_0000569 .
 
 <https://w3id.org/crgo/vocab/sources/nist-sp800-61r3> a owl:NamedIndividual,
@@ -378,6 +446,25 @@
     crgo:CRGO_0000455 "b9d497dbcdbd14d3b6dbf7438e95b86d6676ec5a5a6632a2b5a3d0561bb328ce" ;
     crgo:CRGO_0000456 "verified on Justice Laws at ingestion" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/cis-controls-v8.1> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "CIS Critical Security Controls Version 8.1"@en ;
+    rdfs:comment "Decision record 1.9.0: identifiers and the author's own short labels only"@en ;
+    crgo:CRGO_0000250 "cis-controls-v8.1" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "8.1 (June 2024)" ;
+    crgo:CRGO_0000451 "https://www.cisecurity.org/controls/v8-1" ;
+    crgo:CRGO_0000452 "Center for Internet Security" ;
+    crgo:CRGO_0000453 "CC BY-NC-ND 4.0; commercial use needs CIS approval" ;
+    crgo:CRGO_0000454 "control and safeguard identifiers, Implementation Group membership, asset types and security functions as facts; labels are CRGO paraphrases; no CIS text" ;
+    crgo:CRGO_0000456 "from the drafting agent's knowledge of the published v8.1 tables, not checked against the CIS workbook; uncertain values flagged (confidence L)" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000569 .
 
 <https://w3id.org/crgo/vocab/sources/cobit-2019> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
@@ -834,6 +921,25 @@
     crgo:CRGO_0000456 "verified against file" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
 
+<https://w3id.org/crgo/vocab/sources/moacco-1.2a> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "MOACCO: Mother of all cybersecurity compliance ontologies, version 1.2a"@en ;
+    rdfs:comment "The author's earlier ontology (retired by decision Q8). Only the author's own classes were adapted; its ISO/IEC 27002:2013 text, PCI DSS 3.x, CVE/CWE/ATT&CK copies, NICE 2017 and other imported material were not reused (docs/moacco-review-0.11.0.md)"@en ;
+    crgo:CRGO_0000250 "moacco-1.2a" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "1.2a (OWL file dated 2022-11-01)" ;
+    crgo:CRGO_0000451 "https://github.com/ITriskMgr/MOACCO (MOACCO_1-2a.owl.zip)" ;
+    crgo:CRGO_0000452 "Marc-André Léger" ;
+    crgo:CRGO_0000453 "MIT licence (repository LICENSE, © 2022 Marc-André Léger); ontology header dc:rights CC BY 3.0; imported third-party ontologies keep their own terms" ;
+    crgo:CRGO_0000454 "re-identified and redefined in CRGO's own words; MOACCO IRIs kept in 'derived from'; no third-party content copied" ;
+    crgo:CRGO_0000456 "OWL file parsed (590,874 triples) and inventoried 2026-11-02" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/nist-cprt-csf> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "CSF 2.0 export and CSF 1.1 export (with withdrawal records)"@en ;
@@ -1011,6 +1117,60 @@
     crgo:CRGO_0000456 "verified on OSFI page at ingestion" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
 
+<https://w3id.org/crgo/vocab/sources/owasp-agentic-2026> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "OWASP Top 10 for Agentic Applications 2026"@en ;
+    crgo:CRGO_0000250 "owasp-agentic-2026" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2026 (released 2025-12-09)" ;
+    crgo:CRGO_0000451 "https://genai.owasp.org/" ;
+    crgo:CRGO_0000452 "OWASP GenAI Security Project" ;
+    crgo:CRGO_0000453 "CC BY-SA 4.0" ;
+    crgo:CRGO_0000454 "identifiers only; labels are CRGO paraphrases" ;
+    crgo:CRGO_0000456 "identifiers checked against a secondary summary (cycode.com) on 2026-11-02, not the OWASP page" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000568 .
+
+<https://w3id.org/crgo/vocab/sources/owasp-llm-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "OWASP Top 10 for LLM Applications 2025"@en ;
+    crgo:CRGO_0000250 "owasp-llm-2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2025 (November 2024)" ;
+    crgo:CRGO_0000451 "https://genai.owasp.org/llm-top-10/" ;
+    crgo:CRGO_0000452 "OWASP GenAI Security Project" ;
+    crgo:CRGO_0000453 "CC BY-SA 4.0" ;
+    crgo:CRGO_0000454 "identifiers only; labels are CRGO paraphrases" ;
+    crgo:CRGO_0000456 "from the drafting agent's knowledge; not re-checked against the OWASP page" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000568 .
+
+<https://w3id.org/crgo/vocab/sources/owasp-top10-2025> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "OWASP Top 10:2025"@en ;
+    crgo:CRGO_0000250 "owasp-top10-2025" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2025" ;
+    crgo:CRGO_0000451 "https://owasp.org/Top10/2025/" ;
+    crgo:CRGO_0000452 "OWASP Foundation" ;
+    crgo:CRGO_0000453 "CC BY-SA 4.0" ;
+    crgo:CRGO_0000454 "category identifiers only; labels are CRGO paraphrases" ;
+    crgo:CRGO_0000456 "identifiers checked against public summaries of the 2025 list on 2026-11-02" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
 <https://w3id.org/crgo/vocab/sources/qc-a-2.1> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;
     rdfs:label "Act respecting access to documents held by public bodies and the protection of personal information"@en ;
@@ -1085,6 +1245,25 @@
         "c8c038f65bad72fadd2cc567a8ff29ca10904db70c5bb281b8f8a423a3b9e2b6" ;
     crgo:CRGO_0000456 "verified on LégisQuébec at ingestion" ;
     crgo:CRGO_0000699 crgo:CRGO_0000567 .
+
+<https://w3id.org/crgo/vocab/sources/statcan-naics-2022> a owl:NamedIndividual,
+        crgo:CRGO_0000337 ;
+    rdfs:label "North American Industry Classification System (NAICS) Canada 2022, sectors"@en ;
+    rdfs:comment "MOACCO's NAICS classes, re-expressed with Canadian codes (41 wholesale trade)"@en ;
+    crgo:CRGO_0000250 "statcan-naics-2022" ;
+    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
+    crgo:CRGO_0000284 crgo:CRGO_0000063 ;
+    crgo:CRGO_0000286 "docs/baseline/source_registry.csv (0.11.0)"@en ;
+    crgo:CRGO_0000288 crgo:CRGO_0000181 ;
+    crgo:CRGO_0000291 "0.11.0" ;
+    crgo:CRGO_0000449 "2026-11-02T00:00:00"^^xsd:dateTime ;
+    crgo:CRGO_0000450 "2022 Version 1.0" ;
+    crgo:CRGO_0000451 "https://www.statcan.gc.ca/en/subjects/standard/naics/2022/v1/index" ;
+    crgo:CRGO_0000452 "Statistics Canada" ;
+    crgo:CRGO_0000453 "Statistics Canada Open Licence" ;
+    crgo:CRGO_0000454 "two-digit sector codes and titles (English and French)" ;
+    crgo:CRGO_0000456 "from the drafting agent's knowledge of the published sector list; not re-checked against the StatCan page" ;
+    crgo:CRGO_0000699 crgo:CRGO_0000568 .
 
 <https://w3id.org/crgo/vocab/sources/teaching-cases> a owl:NamedIndividual,
         crgo:CRGO_0000337 ;

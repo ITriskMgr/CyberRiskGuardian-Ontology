@@ -16,7 +16,7 @@ from rdflib import Graph, Namespace, URIRef, Literal, BNode
 from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS, DCTERMS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-VERSION = "0.10.1"
+VERSION = "0.11.0"
 BASE = "https://w3id.org/crgo/"
 LEG = Namespace(BASE + "vocab/legal/"); SRC = Namespace(BASE + "vocab/sources/"); VOC = BASE + "vocab/"
 TIME = Namespace("http://www.w3.org/2006/time#"); PROV = Namespace("http://www.w3.org/ns/prov#")
@@ -63,6 +63,8 @@ SCHEME_SOURCES = {"a21": ["qc-a-2.1"], "attack": ["mitre-attack-19.2"], "capec":
                   "coso-erm": ["coso-erm-2017"], "iso19011": ["iso-19011-2018"], "iso27007": ["iso-iec-27007-2020"], "iso27008": ["iso-iec-ts-27008-2019"],
                   "iso37301": ["iso-37301-2021", "iso-37301-2021-amd1-2024"],
                   "attack-detection": ["mitre-attack-19.2"], "ocsf": ["ocsf-1.9.0"], "iso37302": ["iso-37302-2025"],
+                  "cis81": ["cis-controls-v8.1"], "owasp-top10-2025": ["owasp-top10-2025"], "owasp-llm-2025": ["owasp-llm-2025"],
+                  "owasp-agentic-2026": ["owasp-agentic-2026"], "naics-sectors": ["statcan-naics-2022"], "glossary": ["moacco-1.2a"],
                   "mappings": ["ctid-mappings", "nist-cprt-csf", "nist-csf11-80053", "nist-olir-80053-27001", "mitre-capec-3.9", "cisa-kev", "mitre-d3fend-1.6.0", "nist-sp800-53a-r5"]}
 LIB_SOURCES = ["crg-2023-scenarios", "teaching-cases", "first-epss", "vcdb", "leger-cyber-gov-3e-v2.51"]  # 0.10.1: the MediBec worked CRG assessment follows the textbook v2.51
 ACCESS = {"VERIFIED": "AccessVerified", "PENDING_ACCESS": "AccessPendingAccess", "LICENSE_RESTRICTED": "AccessLicenceRestricted", "REJECTED": "AccessRejected"}
@@ -73,6 +75,9 @@ RECORDS_2026_10_11 = {"bfo-2020", "cco-2.2", "nist-csf-2.0", "nist-csf-2.0-fr", 
 RECORDS_PCA = {"iso-37301-2021-amd1-2024"}  # 0.10.0 (policy, compliance and audit management)
 RECORDS_SECOPS = {"nist-sp800-61r3", "ocsf-1.9.0", "sigma-spec-2.1.0", "oasis-stix-2.1", "oasis-cacao-2.0", "first-tlp-2.0", "otel-logs"}  # 0.10.0 SIEM/SOAR
 RECORDS_0101 = {"leger-cyber-gov-3e-v2.51"}  # 0.10.1: the textbook the CRG method follows (approved 2026-10-23)
+RECORDS_0110 = {"moacco-1.2a", "cis-controls-v8.1", "owasp-top10-2025", "owasp-llm-2025", "owasp-agentic-2026", "iso-iec-27701-2025",
+                "iso-iec-42001-2023", "ca-ccspa-c8", "statcan-naics-2022"}  # 0.11.0 (proposed until the project owner approves sources/records-0110)
+INSTRUMENTS_0110 = {"CCSPA"}  # 0.11.0: group legal/instruments-0110 (the 2026-10-11 group approval covers only the earlier instruments)
 reg = list(csv.DictReader(open(os.path.join(ROOT, "docs", "baseline", "source_registry.csv"), encoding="utf-8")))
 known = set()
 for r in reg:
@@ -91,9 +96,9 @@ for r in reg:
     # the group approval sources/records of 2026-10-11 covers the 29 records that existed then; later records have their own group
     group = ("sources/records" if r["source_id"] in RECORDS_2026_10_11 else "sources/records-pca" if r["source_id"] in RECORDS_PCA
              else "sources/records-secops" if r["source_id"] in RECORDS_SECOPS else "sources/records-0101" if r["source_id"] in RECORDS_0101
-             else "sources/records-grca")
-    gov(gs, s, group, "H", "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)",
-        "0.10.1" if r["source_id"] in RECORDS_0101 else "0.10.0" if r["source_id"] in RECORDS_PCA | RECORDS_SECOPS else "0.9.0")
+             else "sources/records-0110" if r["source_id"] in RECORDS_0110 else "sources/records-grca")
+    gov(gs, s, group, "H", "docs/baseline/source_registry.csv (Stage 0, GRCA sprint and 0.10.0)" if r["source_id"] not in RECORDS_0110 else "docs/baseline/source_registry.csv (0.11.0)",
+        "0.11.0" if r["source_id"] in RECORDS_0110 else "0.10.1" if r["source_id"] in RECORDS_0101 else "0.10.0" if r["source_id"] in RECORDS_PCA | RECORDS_SECOPS else "0.9.0")
 for k, srcs in SCHEME_SOURCES.items():
     for sid in srcs:
         assert sid in known, sid
@@ -122,7 +127,23 @@ for r in tsv("data/frameworks/legal_instruments.tsv"):
         gl.add((b, TIME.inXSDDateTimeStamp, Literal(r["in_force_from"] + "T00:00:00Z", datatype=XSD.dateTimeStamp)))
         gl.add((s, T("hasInForcePeriod"), iv))
     if r["note"]: gl.add((s, RDFS.comment, Literal(r["note"], lang="en")))
-    gov(gl, s, "legal/instruments", "H", "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)")
+    if r["id"] in INSTRUMENTS_0110:
+        gov(gl, s, "legal/instruments-0110", "M", "data/frameworks/legal_instruments.tsv; Royal Assent from the Public Safety Canada news release of 2026-06-16; enacted text not read", "0.11.0")
+    else:
+        gov(gl, s, "legal/instruments", "H", "data/frameworks/legal_instruments.tsv; dates as printed in the source PDFs (data/raw/external/legal)")
+# 0.11.0: recognised standards and guidance (voluntary): Framework individuals with their origin, obligation source and conditions
+OBLIG = {"ObligVoluntary", "ObligMandatory", "ObligContractual", "ObligInternal"}
+for r in tsv("data/frameworks/recognised_standards.tsv"):
+    s = LEG[r["id"]]; inst[r["id"]] = s
+    gl.add((s, RDF.type, OWL.NamedIndividual)); gl.add((s, RDF.type, T("Framework")))
+    gl.add((s, RDFS.label, Literal(r["label_en"], lang="en"))); gl.add((s, RDFS.label, Literal(r["label_fr"], lang="fr")))
+    gl.add((s, T("localIdentifier"), Literal(r["reference"]))); gl.add((s, T("versionLabel"), Literal(r["edition"])))
+    gl.add((s, DCTERMS.publisher, Literal(r["publisher"]))); gl.add((s, T("hasSourceRecord"), SRC[r["source_id"]]))
+    gl.add((s, T("hasStandardOrigin"), T(r["origin"]))); assert r["obligation"] in OBLIG
+    gl.add((s, T("hasObligationSource"), T(r["obligation"])))
+    if r["vocab"]: gl.add((s, RDFS.seeAlso, URIRef(VOC + r["vocab"])))
+    if r["note"]: gl.add((s, RDFS.comment, Literal(r["note"], lang="en")))
+    gov(gl, s, "legal/standards-0110", "H", "data/frameworks/recognised_standards.tsv (identifiers and CRGO labels only)", "0.11.0")
 # provisions: every concept of a legal vocabulary belongs to the instrument its notation names
 PREFIX = sorted(((r["prefix"], r["id"]) for r in tsv("data/frameworks/legal_instruments.tsv") if r["prefix"]), key=lambda x: -len(x[0]))
 n_prov = 0
@@ -144,6 +165,7 @@ for k in ("loi25", "a21", "lrsss", "pipeda", "gdpr", "osfi-b13"):
         for t in extra_by_notation.get(n, []):
             gl.add((c, T("provisionOf"), inst[t])); n_prov += 1
 # applicability conditions
+STANDARDS_0110 = {r["id"] for r in tsv("data/frameworks/recognised_standards.tsv")}
 n_cond = 0
 for r in tsv("data/frameworks/applicability_conditions.tsv"):
     s = LEG["condition/" + r["id"]]
@@ -152,9 +174,11 @@ for r in tsv("data/frameworks/applicability_conditions.tsv"):
     gl.add((s, T("conditionOf"), inst[r["instrument"]])); gl.add((s, T("hasConditionKind"), T(r["kind"])))
     gl.add((s, T("conditionTest"), Literal("%s|%s|%s" % (r["role"], r["test"], "interpretive" if r["interpretive"] == "y" else "plain"))))
     gl.add((s, T("localIdentifier"), Literal(r["id"]))); gl.add((s, SKOS.note, Literal("Citation: " + r["citation"], lang="en")))
-    gov(gl, s, "legal/conditions", "M" if r["interpretive"] == "y" else "H",
-        "CRGO paraphrase of %s (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice" % r["citation"])
+    gov(gl, s, "legal/conditions-0110" if r["instrument"] in INSTRUMENTS_0110 or r["instrument"] in STANDARDS_0110 else "legal/conditions",
+        "M" if r["interpretive"] == "y" else "H",
+        "CRGO paraphrase of %s (data/frameworks/applicability_conditions.tsv); interpretation, not legal advice" % r["citation"],
+        "0.11.0" if r["instrument"] in INSTRUMENTS_0110 or r["instrument"] in STANDARDS_0110 else "0.9.0")
     n_cond += 1
 for g, name in ((gs, "sources"), (gl, "legal")):
     g.serialize(os.path.join(ROOT, "ontology", "vocab", name + ".ttl"), format="turtle")
-print("sources: %d records; legal: %d instruments, %d provision links, %d conditions" % (len(reg), len(inst), n_prov, n_cond))
+print("sources: %d records; legal: %d instruments and recognised standards, %d provision links, %d conditions" % (len(reg), len(inst), n_prov, n_cond))
