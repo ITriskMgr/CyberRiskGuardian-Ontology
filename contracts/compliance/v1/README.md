@@ -5,7 +5,7 @@ What CRGO gives an application about one organisation's obligations, policy and 
 | Call | Schema |
 |---|---|
 | MCP tool `crgo_compliance_context(org_graph_files, organization, as_of)` or `pipeline/contracts/views.py` `compliance_context(...)` | `compliance-context.schema.json` |
-| errors | `error.schema.json` (`UNKNOWN_ORGANISATION`, `REFERENCE_NAMESPACE`) |
+| errors | `error.schema.json` (`UNKNOWN_ORGANISATION`, `REFERENCE_NAMESPACE`, `SCHEMA_INVALID` for a malformed `as_of`; from 0.11.1 `INVALID_ARGUMENT` for a missing or unreadable organisation graph file or an IRI that is not `http(s)`) |
 
 Rules:
 - Read only: there is no write-back. Updates to the organisation's graph remain the application's, with provenance.

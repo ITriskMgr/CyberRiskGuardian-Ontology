@@ -73,11 +73,11 @@ THEMES = [
  ("ThemeAPT", "advanced and multi-vector attacks", "attaques avancées et multivectorielles",
   "Scenarios conducted by persistent, well-resourced or state-linked adversaries, or combining several attack vectors.",
   "Scénarios menés par des adversaires persistants, bien dotés ou liés à des États, ou combinant plusieurs vecteurs d'attaque.",
-  r"advanced persistent|\bapt\b|multi-vector|hybrid attack|nation[- ]state|state-sponsored|exfiltration techniques|evolution"),
+  r"advanced persistent|\bapt\b|multi-vector|hybrid attack|nation[- ]state|state-sponsored|exfiltration techniques"),  # 0.11.1: 'evolution' dropped (NV-C05)
  ("ThemePhysical", "physical and environmental", "physique et environnemental",
   "Scenarios caused by physical intrusion, theft or destruction of equipment, natural events, fire, flood or loss of utilities.",
   "Scénarios causés par une intrusion physique, le vol ou la destruction d'équipement, un événement naturel, un incendie, une inondation ou la perte de services publics.",
-  r"physical|theft|destruction|acts of nature|natural|fire|flood|earthquake|storm|weather|environmental|geographical|facility|infrastructure theft"),
+  r"physical|theft|destruction|acts of nature|natural|\bfire\b|flood|earthquake|storm|weather|environmental|geographical|facility|infrastructure theft"),  # 0.11.1: \bfire\b, not 'firewall' (NV-C05)
  ("ThemeContinuity", "continuity and incident response", "continuité et réponse aux incidents",
   "Scenarios about inadequate backup, disaster recovery, business continuity, incident response or forensic capability.",
   "Scénarios touchant des sauvegardes, une reprise après sinistre, une continuité des activités, une réponse aux incidents ou une capacité d'enquête numérique insuffisantes.",

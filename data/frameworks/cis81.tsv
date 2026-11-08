@@ -123,12 +123,12 @@ id	label_en	label_fr	ig	asset	function	review	sp80053	crgo_classes
 13.11	Tune alert thresholds	Ajuster les seuils d'alerte	3	NET	DE				
 14	Security awareness and skills for staff	Sensibilisation et compétences du personnel en sécurité							['']
 14.1	Run a security awareness programme	Mener un programme de sensibilisation	1	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Protect); verify	AT-2		
-14.2	Teach recognising social engineering	Apprendre à reconnaître l'ingénierie sociale	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2(3)		
+14.2	Teach recognising social engineering	Enseigner à reconnaître l'ingénierie sociale	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2(3)		
 14.3	Teach good authentication habits	Enseigner les bonnes pratiques d'authentification	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
 14.4	Teach safe data handling	Enseigner la manipulation sécuritaire des données	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
 14.5	Teach causes of accidental data exposure	Enseigner les causes d'exposition accidentelle	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
-14.6	Teach spotting and reporting incidents	Apprendre à repérer et signaler les incidents	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
-14.7	Teach reporting missing security updates	Apprendre à signaler les mises à jour manquantes	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.6	Teach spotting and reporting incidents	Enseigner à repérer et signaler les incidents	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
+14.7	Teach reporting missing security updates	Enseigner à signaler les mises à jour manquantes	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
 14.8	Teach risks of insecure networks	Enseigner les risques des réseaux non sécurisés	1	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-2		
 14.9	Give role-specific security training	Offrir une formation adaptée aux fonctions	2	NA	PR	asset type (v8: N/A) to verify for v8.1	AT-3		
 15	Managing the security of service providers	Gérer la sécurité des fournisseurs de services							['']
@@ -163,7 +163,7 @@ id	label_en	label_fr	ig	asset	function	review	sp80053	crgo_classes
 17.6	Set communication means for incidents	Prévoir les moyens de communication en incident	2	NA	RS	asset type (v8: N/A) to verify for v8.1	IR-8		
 17.7	Exercise incident response regularly	Exercer régulièrement la réponse aux incidents	2	NA	RC	asset type (v8: N/A) to verify for v8.1	IR-3		
 17.8	Review incidents afterwards	Revoir les incidents après coup	2	NA	RC	asset type (v8: N/A) to verify for v8.1	IR-4		
-17.9	Set incident thresholds	Fixer les seuils d'incident de sécurité	3	NA	RC	asset type (v8: N/A) to verify for v8.1			
+17.9	Set incident thresholds	Fixer les seuils d'incident	3	NA	RC	asset type (v8: N/A) to verify for v8.1			
 18	Testing defences through simulated attacks	Éprouver les défenses par des attaques simulées							['']
 18.1	Run a penetration testing programme	Mener un programme de tests d'intrusion	2	DOC	GV	v8.1 Govern/Documentation recalled (v8: N/A, Identify); verify	CA-8		
 18.2	Penetration-test from outside regularly	Effectuer des tests d'intrusion externes réguliers	2	NET	ID		CA-8		

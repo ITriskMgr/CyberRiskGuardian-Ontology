@@ -248,10 +248,11 @@ crgo:CRGO_0000249 a owl:DatatypeProperty ;
 # --- likelihood
 crgo:CRGO_0000297 a owl:Class ;
     rdfs:label "likelihood"@en,
-        "vraisemblance"@fr ;
+        "probabilité"@fr ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
     skos:altLabel "probability"@en,
-        "probabilité"@fr ;
+        "vraisemblance"@fr ;
+    skos:changeNote "0.11.1 (2026-11-08): French preferred label changed from « vraisemblance » to « probabilité » (CyberRiskGuardian decision FR-2, 8 November 2026); « vraisemblance » kept as an alternative label for SP 800-30 and ISO/IEC 27005 readers. IRI, meaning and English wording unchanged."@en ;
     skos:definition "An estimate of how likely a threat event or its success is over a stated period, on any scale."@en,
         "Estimation de la probabilité qu'un événement de menace se produise ou réussisse au cours d'une période donnée, sur toute échelle."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
@@ -261,8 +262,9 @@ crgo:CRGO_0000297 a owl:Class ;
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- impact estimate
 crgo:CRGO_0000298 a owl:Class ;
@@ -288,8 +290,9 @@ crgo:CRGO_0000299 a owl:Class ;
     rdfs:label "risk level"@en,
         "niveau de risque"@fr ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
+    skos:changeNote "0.11.1 (2026-11-08): French wording « vraisemblance » replaced by « probabilité » (CyberRiskGuardian decision FR-2, 8 November 2026). IRI, meaning and English wording unchanged."@en ;
     skos:definition "An estimate of the magnitude of a risk, combining likelihood and impact by a stated method."@en,
-        "Estimation de l'ampleur d'un risque, qui combine vraisemblance et impact selon une méthode déclarée."@fr ;
+        "Estimation de l'ampleur d'un risque, qui combine probabilité et impact selon une méthode déclarée."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000285 "Generic layer (review M)."@en ;
@@ -297,16 +300,18 @@ crgo:CRGO_0000299 a owl:Class ;
         "NIST SP 800-30 Rev. 1 (2012), Appendices D-I (threat sources, events, vulnerabilities and predisposing conditions, likelihood, impact, risk)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- control effectiveness
 crgo:CRGO_0000300 a owl:Class ;
     rdfs:label "control effectiveness"@en,
         "efficacité du contrôle"@fr ;
     rdfs:subClassOf crgo:CRGO_0000037 ;
+    skos:changeNote "0.11.1 (2026-11-08): French wording « vraisemblance » replaced by « probabilité » (CyberRiskGuardian decision FR-2, 8 November 2026). IRI, meaning and English wording unchanged."@en ;
     skos:definition "An estimate of how well a control measure achieves its intended reduction of likelihood or impact, with the evidence for it."@en,
-        "Estimation du degré auquel une mesure de contrôle atteint la réduction de vraisemblance ou d'impact visée, avec les preuves à l'appui."@fr ;
+        "Estimation du degré auquel une mesure de contrôle atteint la réduction de probabilité ou d'impact visée, avec les preuves à l'appui."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000285 "Per-control effectiveness was missing; CRG only has package reductions (review H5)."@en ;
@@ -314,8 +319,9 @@ crgo:CRGO_0000300 a owl:Class ;
         "ISO/IEC 27005:2022, risk concepts (paraphrased; clause numbers to verify against the licensed text)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- lower bound
 crgo:CRGO_0000331 a owl:DatatypeProperty,
@@ -371,15 +377,15 @@ crgo:CRGO_0000333 a owl:DatatypeProperty,
 crgo:crgo-measure a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian avec les indices de risque qui en découlent, et indicateurs clés de risque pour la surveillance. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.11.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.11.1. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-11-02"^^xsd:date ;
+    dcterms:issued "2026-11-08"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-11-02"^^xsd:date ;
+    dcterms:modified "2026-11-08"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - measurement module"@en,
@@ -388,9 +394,9 @@ crgo:crgo-measure a owl:Ontology ;
     vann:preferredNamespacePrefix "crgo" ;
     vann:preferredNamespaceUri "https://w3id.org/crgo/" ;
     owl:imports crgo:crgo-core ;
-    owl:priorVersion <https://w3id.org/crgo/0.10.1/crgo-measure> ;
-    owl:versionIRI <https://w3id.org/crgo/0.11.0/crgo-measure> ;
-    owl:versionInfo "0.11.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.11.0/crgo-measure> ;
+    owl:versionIRI <https://w3id.org/crgo/0.11.1/crgo-measure> ;
+    owl:versionInfo "0.11.1" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
 

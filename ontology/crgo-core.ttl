@@ -580,7 +580,8 @@ crgo:CRGO_0000100 a owl:NamedIndividual,
 crgo:CRGO_0000118 a owl:NamedIndividual,
         crgo:CRGO_0000116 ;
     rdfs:label "documented evidence"@en,
-        "preuve documentée"@fr ;
+        "élément probant documenté"@fr ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "Organisational documents or records."@en,
         "Documents ou registres de l'organisation."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
@@ -591,14 +592,16 @@ crgo:CRGO_0000118 a owl:NamedIndividual,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- external evidence
 crgo:CRGO_0000119 a owl:NamedIndividual,
         crgo:CRGO_0000116 ;
     rdfs:label "external evidence"@en,
-        "preuve externe"@fr ;
+        "élément probant externe"@fr ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "Sector, threat-intelligence or published sources."@en,
         "Sources sectorielles, de renseignement sur les menaces ou publiées."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
@@ -609,8 +612,9 @@ crgo:CRGO_0000119 a owl:NamedIndividual,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- expert input
 crgo:CRGO_0000120 a owl:NamedIndividual,
@@ -1393,8 +1397,9 @@ crgo:CRGO_0000212 a owl:ObjectProperty ;
 # --- has evidence
 crgo:CRGO_0000213 a owl:ObjectProperty ;
     rdfs:label "has evidence"@en,
-        "a pour preuve"@fr ;
+        "a pour élément probant"@fr ;
     rdfs:range crgo:CRGO_0000036 ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "Relates an estimate, control measure or other statement to an evidence item that supports it."@en,
         "Relie une estimation, une mesure de contrôle ou une autre affirmation à un élément de preuve qui l'appuie."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
@@ -1402,8 +1407,9 @@ crgo:CRGO_0000213 a owl:ObjectProperty ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- has evidence basis
 crgo:CRGO_0000214 a owl:ObjectProperty ;
@@ -1719,9 +1725,10 @@ crgo:CRGO_0000250 a owl:DatatypeProperty ;
 # --- evidence locator
 crgo:CRGO_0000251 a owl:DatatypeProperty ;
     rdfs:label "evidence locator"@en,
-        "référence de la preuve"@fr ;
+        "référence de l'élément probant"@fr ;
     rdfs:domain crgo:CRGO_0000036 ;
     rdfs:range xsd:string ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "Gives where an evidence item can be found, such as a document, section, page or file identifier."@en,
         "Indique où se trouve un élément de preuve, comme un document, une section, une page ou un identifiant de fichier."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
@@ -1729,8 +1736,9 @@ crgo:CRGO_0000251 a owl:DatatypeProperty ;
     crgo:CRGO_0000286 "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- statement
 crgo:CRGO_0000252 a owl:DatatypeProperty ;
@@ -2594,7 +2602,8 @@ crgo:CRGO_0000330 a owl:DatatypeProperty ;
 crgo:CRGO_0000334 a owl:NamedIndividual,
         crgo:CRGO_0000116 ;
     rdfs:label "exercise or simulation evidence"@en,
-        "preuve d'exercice ou de simulation"@fr ;
+        "élément probant d'exercice ou de simulation"@fr ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "Comes from a tabletop exercise, simulation or sample data; indicative only and to be validated, never a confirmed incident."@en,
         "Provient d'un exercice sur table, d'une simulation ou de données d'exemple; indicative seulement et à valider, jamais un incident confirmé."@fr ;
     skos:inScheme crgo:CRGO_0000117 ;
@@ -2605,8 +2614,9 @@ crgo:CRGO_0000334 a owl:NamedIndividual,
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
-    crgo:CRGO_0000291 "0.2.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.2.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- has relevant requirement
 crgo:CRGO_0000335 a owl:ObjectProperty ;
@@ -2628,15 +2638,15 @@ crgo:CRGO_0000335 a owl:ObjectProperty ;
 crgo:crgo-core a owl:Ontology ;
     dcterms:abstract "The CyberRiskGuardian Ontology (CRGO) gives a formal, reasoner-checked meaning to cybersecurity risk assessment data: assets, threat sources and events, vulnerabilities, risk scenarios, controls, frameworks and legal obligations, the CyberRiskGuardian quantitative model with the risk indices computed from it, and key risk indicators for monitoring. It is published with SKOS vocabularies for NIST CSF 2.0, NIST SP 800-53, ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, Québec Law 25 and the Québec health-information act, and with a library of about 1,900 generic risk scenarios linked to them."@en,
         "L'ontologie CyberRiskGuardian (CRGO) donne un sens formel, vérifié par raisonneur, aux données d'appréciation du risque de cybersécurité : actifs, sources et événements de menace, vulnérabilités, scénarios de risque, mesures de sécurité, référentiels et obligations légales, modèle quantitatif CyberRiskGuardian avec les indices de risque qui en découlent, et indicateurs clés de risque pour la surveillance. Elle est publiée avec des vocabulaires SKOS pour le NIST CSF 2.0, le NIST SP 800-53, l'ISO/IEC 27002:2022, COBIT 2019, MITRE ATT&CK, la Loi 25 et la loi québécoise sur les renseignements de santé, et avec une bibliothèque d'environ 1 900 scénarios de risque génériques liés à ces vocabulaires."@fr ;
-    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.11.0. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
+    dcterms:bibliographicCitation "Léger, Marc-André (2026). CyberRiskGuardian Ontology (CRGO), version 0.11.1. https://github.com/ITriskMgr/cyberriskguardian-ontology" ;
     dcterms:contributor "Claude (Anthropic), AI drafting assistant; every element approved by the creator" ;
     dcterms:created "2026-10-08"^^xsd:date ;
     dcterms:creator "Marc-André Léger" ;
     dcterms:description "Formal OWL 2 DL ontology for identifying, analysing and treating cybersecurity risk with risk scenarios, aligned to BFO-2020 (ISO/IEC 21838-2) and Common Core Ontologies, and to the CyberRiskGuardian method. Each element carries its own governance status; new elements stay proposed until the domain expert approves them."@en,
         "Ontologie formelle OWL 2 DL pour identifier, analyser et traiter le risque de cybersécurité à l'aide de scénarios de risque, alignée sur BFO-2020 (ISO/IEC 21838-2), les Common Core Ontologies et la méthode CyberRiskGuardian. Chaque élément porte son propre statut de gouvernance; les nouveaux éléments restent proposés jusqu'à leur approbation par l'expert du domaine."@fr ;
-    dcterms:issued "2026-11-02"^^xsd:date ;
+    dcterms:issued "2026-11-08"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-11-02"^^xsd:date ;
+    dcterms:modified "2026-11-08"^^xsd:date ;
     dcterms:publisher "ITriskMgr" ;
     dcterms:source <https://github.com/ITriskMgr/CyberRiskGuardian> ;
     dcterms:title "CyberRiskGuardian Ontology - core module"@en,
@@ -2647,9 +2657,9 @@ crgo:crgo-core a owl:Ontology ;
     owl:imports obo:bfo.owl,
         crgo:crgo-gov,
         <https://w3id.org/crgo/imports/cco-slice> ;
-    owl:priorVersion <https://w3id.org/crgo/0.10.1/crgo-core> ;
-    owl:versionIRI <https://w3id.org/crgo/0.11.0/crgo-core> ;
-    owl:versionInfo "0.11.0" ;
+    owl:priorVersion <https://w3id.org/crgo/0.11.0/crgo-core> ;
+    owl:versionIRI <https://w3id.org/crgo/0.11.1/crgo-core> ;
+    owl:versionInfo "0.11.1" ;
     foaf:homepage crgo:crgo ;
     schema:codeRepository <https://github.com/ITriskMgr/cyberriskguardian-ontology> .
 
@@ -2971,8 +2981,9 @@ crgo:CRGO_0000009 a owl:Class ;
 # --- evidence register entry
 crgo:CRGO_0000036 a owl:Class ;
     rdfs:label "evidence register entry"@en,
-        "entrée du registre de preuves"@fr ;
+        "entrée du registre d'éléments probants"@fr ;
     rdfs:subClassOf cco:ont00000853 ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "A description of a piece of evidence used in an assessment, with its locator and its basis (documented, external, expert input, inference or AI estimate)."@en,
         "Description d'une preuve utilisée dans une appréciation, avec sa référence et son fondement (documenté, externe, avis d'expert, inférence ou estimation par IA)."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
@@ -2982,8 +2993,9 @@ crgo:CRGO_0000036 a owl:Class ;
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- control status scheme
 crgo:CRGO_0000097 a owl:NamedIndividual,
@@ -3239,9 +3251,9 @@ crgo:CRGO_0000090 a owl:Class ;
 crgo:CRGO_0000117 a owl:NamedIndividual,
         skos:ConceptScheme ;
     rdfs:label "evidence basis scheme"@en,
-        "schéma : fondement de la preuve"@fr ;
+        "schéma : fondement de l'élément probant"@fr ;
     skos:definition "Concept scheme of the evidence basis value set."@en,
-        "Schéma de concepts de l'ensemble de valeurs « fondement de la preuve »."@fr ;
+        "Schéma de concepts de l'ensemble de valeurs « fondement de l'élément probant »."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000063 ;
     crgo:CRGO_0000286 "CyberRiskGuardian, cyber-risk-assessment SKILL.md, workflow steps 1-19 (commit f0cd36e)"@en,
@@ -3341,8 +3353,9 @@ crgo:CRGO_0000084 a owl:Class ;
 # --- evidence basis
 crgo:CRGO_0000116 a owl:Class ;
     rdfs:label "evidence basis"@en,
-        "fondement de la preuve"@fr ;
+        "fondement de l'élément probant"@fr ;
     rdfs:subClassOf skos:Concept ;
+    skos:changeNote "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."@en ;
     skos:definition "The kind of support behind an assertion, following the CRG evidence register."@en,
         "Nature de l'appui d'une affirmation, selon le registre de preuves CRG."@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
@@ -3352,8 +3365,9 @@ crgo:CRGO_0000116 a owl:Class ;
         "CyberRiskGuardian, plugins/cyberriskguardian/skills/cyber-risk-assessment/assets/scenario-template.json (commit f0cd36e)"@en ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
-    crgo:CRGO_0000290 "2026-10-08"^^xsd:date ;
-    crgo:CRGO_0000291 "0.1.0" .
+    crgo:CRGO_0000290 "2026-11-08"^^xsd:date ;
+    crgo:CRGO_0000291 "0.1.0" ;
+    crgo:CRGO_0000292 "0.11.1 (CyberRiskGuardian 1.9.2, author decisions FR-2 and FR-3 of 2026-11-08): French labels « probabilité » instead of « vraisemblance » (Likelihood, with « vraisemblance » as alternative label; four French definitions reworded) and « élément(s) probant(s) » instead of « preuve(s) » on 37 evidence terms; IRIs, meanings and English wording unchanged"@en .
 
 # --- control function
 crgo:CRGO_0000133 a owl:Class ;

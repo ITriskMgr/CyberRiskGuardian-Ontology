@@ -5,7 +5,7 @@ What CRGO gives an application about one organisation's detection coverage, dete
 | Call | Schema |
 |---|---|
 | MCP tool `crgo_secops_context(org_graph_files, organization, as_of)` or `pipeline/contracts/views.py` `secops_context(...)` | `secops-context.schema.json` |
-| errors | `error.schema.json` (`UNKNOWN_ORGANISATION`, `REFERENCE_NAMESPACE`) |
+| errors | `error.schema.json` (`UNKNOWN_ORGANISATION`, `REFERENCE_NAMESPACE`, `SCHEMA_INVALID` for a malformed `as_of`; from 0.11.1 `INVALID_ARGUMENT` for a missing or unreadable organisation graph file or an IRI that is not `http(s)`) |
 
 Rules:
 - Read only: there is no write-back. Updates to the organisation's graph remain the application's, with provenance.

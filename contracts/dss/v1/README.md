@@ -25,6 +25,20 @@ CyberRiskGuardian has no REST interface, so the specification's proposed `GET /v
 | `"inputs": ["assessment-input-01"]` | IRIs of the organisation's records or CRGO reference IRIs, plus `inputDocumentSha256` | inputs must resolve; the checksum identifies the exact input document |
 | `"status": "proposed"` | the only value allowed | approval is a separate human act |
 
+## Error codes (`error.schema.json`)
+
+| Code | Meaning |
+|---|---|
+| `SCHEMA_INVALID` | the document or an argument (`as_of`) does not match the schema; `details` lists the violations |
+| `STATUS_NOT_PROPOSED`, `MODEL_VERSION_MISSING` | the two schema violations that get their own code |
+| `REFERENCE_NAMESPACE` | an organisation or subject IRI under `https://w3id.org/crgo/` (ADR-008) |
+| `UNKNOWN_ORGANISATION`, `UNKNOWN_SUBJECT`, `INPUT_UNKNOWN` | no graph declares the organisation; the subject or an input is not in its data |
+| `TENANT_MISMATCH` | a subject, input or proposed graph of another organisation |
+| `REPOSITORY_PATH` (0.11.1) | the write-back would be written inside the CRGO repository (any real path under the repository root except `build/`), or not into a `<name>-dss-proposed.ttl` file; the result is stored next to the organisation's own files only |
+| `INVALID_ARGUMENT` (0.11.1) | an argument of the MCP tool that is not a document: a missing or unreadable organisation graph file, an IRI that is not `http(s)` |
+
+The MCP server validates the write-back document against the schema before it reads the organisation graphs, so an empty or malformed document is reported as `SCHEMA_INVALID`, not as an unknown organisation.
+
 ## Examples
 
 - `examples/risk-context.nordelle-ransomware.json`: context for the synthetic Nordelle ransomware scenario on 2026-10-11.

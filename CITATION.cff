@@ -12,8 +12,8 @@ abstract: >-
 authors:
   - family-names: "Léger"
     given-names: "Marc-André"
-version: "0.11.0"
-date-released: "2026-11-02"
+version: "0.11.1"
+date-released: "2026-11-08"
 license: CC-BY-NC-4.0
 url: "https://w3id.org/crgo/"
 repository-code: "https://github.com/ITriskMgr/cyberriskguardian-ontology"

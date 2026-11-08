@@ -38,5 +38,29 @@ check("assessment scenarios are never returned as candidates", all(s_["kind"] !=
 check("sweep returns baseline risks", any(s_["selected_because"].startswith("commonly assessed") for s_ in r["scenarios"]))
 r = I.identify(keywords=["telehealth"])
 check("synonyms: 'telehealth' finds telemedicine scenarios", any("telemedicine" in s_["name"].lower() for s_ in r["scenarios"]))
+# 0.11.1: input validation and bounded results (NV-C01, NV-C02, NV-C03, NV-C06)
+def code(fn, *a, **k):
+    try:
+        fn(*a, **k); return None
+    except I.CrgoError as e:
+        return e.code
+check("injection through a technique id is refused, not executed", code(I.identify, techniques=['T1566" "T1059']) == "INVALID_ARGUMENT")
+check("injection through a scenario id is refused", code(I.scenario, '"} } ; DROP ALL ; SELECT * WHERE { ?s ?p ?o } #') == "INVALID_ARGUMENT")
+check("injection through a control id is refused", code(I.scenarios_for_control, "csf2", 'PR.AA-05" } UNION { ?s ?p ?o') == "INVALID_ARGUMENT")
+check("an IRI with '>' is refused", code(I.scenario, "https://w3id.org/crgo/data/library/F0001> } UNION { ?s ?p ?o") == "INVALID_ARGUMENT")
+check("unknown scenario id -> UNKNOWN_ID", code(I.scenario, "LIB-F999999") == "UNKNOWN_ID" and code(I.scenario, "") == "INVALID_ARGUMENT")
+check("unknown list_values kind -> INVALID_ARGUMENT", code(I.list_values, "nope") == "INVALID_ARGUMENT" and code(I.list_values, "") == "INVALID_ARGUMENT")
+check("unknown asset category or theme -> INVALID_ARGUMENT", code(I.sweep, asset_categories=["CatNope"]) == "INVALID_ARGUMENT" and code(I.identify, themes=["ThemeNope"]) == "INVALID_ARGUMENT")
+check("bad min_confidence -> INVALID_ARGUMENT", code(I.sweep, min_confidence="Z") == "INVALID_ARGUMENT")
+check("unknown technique is reported, not silently ignored", I.identify(techniques=["T9999"]).get("unknown_techniques") == ["T9999"] and code(I.controls_for_technique, "T9999") == "UNKNOWN_ID")
+r = I.identify(techniques=["T1566"], limit=-1)
+check("limit is clamped to 1..200 (limit -1 returns 1)", r["returned"] == 1)
+check("limit 10^9 is clamped to 200", I.identify(techniques=["T1566"], limit=10**9)["returned"] <= 200)
+check("list arguments are capped at 50 values", code(I.sweep, keywords=["x%d" % i for i in range(51)]) == "INVALID_ARGUMENT")
+check("sweep per_theme and max_total are clamped", I.sweep(themes=["ThemeRansomware"], per_theme=0, max_total=-5)["returned"] == 1)
+check("unknown framework -> INVALID_ARGUMENT listing the allowed ones", code(I.scenarios_for_control, "cis-v8.1", "6.5") == "INVALID_ARGUMENT")
+check("unknown requirement -> UNKNOWN_ID", code(I.scenarios_for_control, "csf2", "ZZ.ZZ-99") == "UNKNOWN_ID")
+c = I.scenarios_for_control("cis81", "6.5")
+check("CIS v8.1 safeguard reaches scenarios through its correspondences ('via')", c["matches"] >= 1 and c["via"] and all(s_["via"] for s_ in c["scenarios"]))
 print("   identification tests: %s" % ("all passed" if not fails else "%d FAILED" % len(fails)))
 sys.exit(1 if fails else 0)

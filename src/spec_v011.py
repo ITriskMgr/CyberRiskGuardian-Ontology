@@ -249,7 +249,7 @@ C("IdentitySecurityCase", "iam", ["SecurityInvestigation"], "identity security c
   "A security investigation of suspicious use of an identity or account, such as impossible travel, credential stuffing or abnormal privilege use.",
   "Enquête de sécurité sur une utilisation suspecte d'une identité ou d'un compte, comme un déplacement impossible, du bourrage d'identifiants ou une utilisation anormale de privilèges.",
   ["IAMSPEC"], "Spec v1.1 section 23.7 (IdentitySecurityCase); links to SIEM/SOAR through the investigation."),
-C("AuthenticatorAssuranceEvidence", "iam", ["ConfigurationEvidence"], "authenticator assurance evidence", "preuve d'assurance de l'authentificateur",
+C("AuthenticatorAssuranceEvidence", "iam", ["ConfigurationEvidence"], "authenticator assurance evidence", "élément probant d'assurance de l'authentificateur",
   "Configuration evidence of the authentication mechanisms in use for a population of accounts, such as phishing-resistant multi-factor authentication, compared with an assurance target.",
   "Preuve de configuration des mécanismes d'authentification utilisés pour une population de comptes, comme une authentification multifacteur résistante à l'hameçonnage, comparés à une cible d'assurance.",
   ["IAMSPEC", "N80063"], "Spec v1.1 section 23.7 (AuthenticatorAssuranceEvidence); SP 800-63-4 authenticator assurance levels."),

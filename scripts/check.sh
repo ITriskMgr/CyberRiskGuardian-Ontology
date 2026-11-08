@@ -65,7 +65,10 @@ fi
 
 if [ "${WITH_LIBRARY:-0}" = 1 ]; then
   echo "10. SHACL shapes (data and negative tests)"
-  python3 src/build_shapes.py > /dev/null && python3 scripts/check_shacl.py || fail=1
+  # the generated shapes go to build/ and are compared with the tracked shapes/crgo-shapes.ttl (isomorphism); the
+  # tracked file is never rewritten by a check (0.11.1, NV-C07): run `python3 src/build_shapes.py --write` after editing src/build_shapes.py
+  python3 src/build_shapes.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+  python3 scripts/check_shacl.py || fail=1
   echo "11. Pitfall scan (OOPS! catalogue, local)"
   python3 scripts/check_pitfalls.py > build/pitfalls.log || { cat build/pitfalls.log; fail=1; }
   grep -c "CRITICAL" build/pitfalls.log > /dev/null && { echo "   critical pitfalls found"; fail=1; } || echo "   no critical pitfalls (details: build/pitfalls.md)"
