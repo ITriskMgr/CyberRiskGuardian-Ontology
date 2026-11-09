@@ -31,10 +31,12 @@ Add to CyberRiskGuardian's `.mcp.json`, next to `crg-calculator` (adjust the pat
 | `crgo_identify` | Targeted follow-up: scenarios matching all given filters, ranked by fit. |
 | `crgo_scenario` | Full detail of one scenario: techniques, weaknesses, controls per framework, obligations, estimates with their evidence. |
 | `crgo_controls_for_technique` | Controls most often linked to scenarios using an ATT&CK technique; reports replacements for revoked identifiers. |
-| `crgo_scenarios_for_control` | Coverage of one control requirement. |
+| `crgo_scenarios_for_control` | Coverage of one control requirement (`csf2`, `sp800-53r5`, `iso27002-2022`; from 0.11.1 `cis81`: a CIS v8.1 safeguard reaches scenarios through the requirements it partially overlaps, listed in `via`; suggestions by correspondence). |
 | `crgo_list_values` | Allowed values for asset categories, themes, threat source types, impact dimensions, sectors. |
 
 Link confidence: `min_confidence="M"` (default) returns the approved high- and medium-confidence links; `"L"` adds the low-confidence suggestions.
+
+Errors (0.11.1): every tool validates its arguments. Bad input comes back as a result document `{"error": true, "code": ..., "message": ..., "details": [...]}` rather than a tool error: `INVALID_ARGUMENT` (unknown `kind`, category, theme, framework or confidence, with the allowed values in `details`; an identifier of the wrong shape; a list of more than 50 values or a value longer than 100 characters) or `UNKNOWN_ID` (a scenario, ATT&CK or requirement identifier CRGO does not hold). `limit`, `top`, `per_theme` and `max_total` are clamped to 1..200. Unknown ATT&CK identifiers in a filter are listed in `unknown_techniques`. The contract tools use the codes of `contracts/*/v1/error.schema.json` (`SCHEMA_INVALID`, `REPOSITORY_PATH`, ...).
 
 ## Suggested place in the CRG workflow
 

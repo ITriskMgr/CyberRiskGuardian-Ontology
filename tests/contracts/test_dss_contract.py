@@ -58,12 +58,22 @@ pg = Graph().parse(OUT); s = URIRef(r.get("stored", "x"))
 check("write: stored with knowledge status 'risk estimate' and status proposed, model and version kept",
       (s, dss.T("hasKnowledgeStatus"), dss.T("KsRiskEstimate")) in pg and (s, dss.T("governanceStatus"), dss.T("StatusProposed")) in pg
       and str(pg.value(s, dss.T("modelVersion"))) == "1.1.0" and str(s).startswith(N))
-check("write: never into the organisation's fact graph (only *-dss-proposed.ttl)", dss.submit_assessment(wb, FILES, os.path.join(ROOT, "build", "nordelle-facts.ttl"), g=G).get("code") == "REFERENCE_NAMESPACE")
+check("write: never into the organisation's fact graph (only *-dss-proposed.ttl)", dss.submit_assessment(wb, FILES, os.path.join(ROOT, "build", "nordelle-facts.ttl"), g=G).get("code") == "REPOSITORY_PATH")
 OTHER = os.path.join(ROOT, "build", "contract-test-boreal-dss-proposed.ttl")
 _og = Graph(); _o = URIRef("https://example.org/crgo-sample/boreal-dss-proposed"); _og.add((_o, dss.RDF.type, dss.OWL.Ontology)); _og.add((_o, dss.VANN_NS, _L(B))); _og.serialize(OTHER, format="turtle")
 check("write: never into another organisation's proposed graph", dss.submit_assessment(wb, FILES, OTHER, g=G).get("code") == "TENANT_MISMATCH")
 check("write: placeholder model version in any case ('tbd') is refused", dss.submit_assessment(dict(wb, modelVersion="tbd"), FILES, OUT, g=G).get("code") == "MODEL_VERSION_MISSING")
-check("write: never into a reference file", dss.submit_assessment(wb, FILES, os.path.join(ROOT, "ontology", "x.ttl"), g=G).get("code") == "REFERENCE_NAMESPACE")
+check("write: never into a reference file", dss.submit_assessment(wb, FILES, os.path.join(ROOT, "ontology", "x.ttl"), g=G).get("code") == "REPOSITORY_PATH")
+# 0.11.1 (NV-C04): any real path inside the repository except build/ is refused, symlinks resolved; the schema is checked first
+check("write: never inside the repository outside build/ (tests/samples)", dss.submit_assessment(wb, FILES, os.path.join(ROOT, "tests", "samples", "nordelle-dss-proposed.ttl"), g=G).get("code") == "REPOSITORY_PATH")
+_LN = os.path.join(ROOT, "build", "contract-test-link")
+os.path.islink(_LN) or os.symlink(os.path.join(ROOT, "tests", "samples"), _LN)
+check("write: never inside the repository through a symlink", dss.submit_assessment(wb, FILES, os.path.join(_LN, "nordelle-dss-proposed.ttl"), g=G).get("code") == "REPOSITORY_PATH")
+check("write: an invalid document is reported before the organisation is looked up", dss.submit_assessment({}, FILES, os.path.join(ROOT, "build", "x-dss-proposed.ttl"), g=G).get("code") == "SCHEMA_INVALID")
+check("write: a malformed as_of is an error document, not an exception", dss.risk_context(FILES, N + "org", N + "scenario/ransomware", "11/10/2026", g=G).get("code") == "SCHEMA_INVALID")
+check("write: outside the repository the result is stored", (lambda d: dss.submit_assessment(wb, FILES, os.path.join(d, "nordelle-dss-proposed.ttl"), g=G).get("status") == "proposed")(__import__("tempfile").mkdtemp()))
+for _e in (dss.error("REPOSITORY_PATH", "x"), dss.error("INVALID_ARGUMENT", "x")):
+    check("error code %s is in error.schema.json" % _e["code"], dss.validate_doc(_e, "error.schema.json") == [])
 EXPECT = {"status-approved": "STATUS_NOT_PROPOSED", "model-version-tbd": "MODEL_VERSION_MISSING", "reference-namespace-subject": "REFERENCE_NAMESPACE",
           "other-tenant-subject": "TENANT_MISMATCH", "other-tenant-input": "TENANT_MISMATCH", "unknown-subject": "UNKNOWN_SUBJECT",
           "negative-value": "SCHEMA_INVALID", "missing-inputs": "SCHEMA_INVALID", "currency-without-code": "SCHEMA_INVALID"}

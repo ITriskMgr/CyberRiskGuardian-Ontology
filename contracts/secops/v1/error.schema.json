@@ -17,7 +17,8 @@
    "enum": [
     "UNKNOWN_ORGANISATION",
     "REFERENCE_NAMESPACE",
-    "SCHEMA_INVALID"
+    "SCHEMA_INVALID",
+    "INVALID_ARGUMENT"
    ]
   },
   "message": {

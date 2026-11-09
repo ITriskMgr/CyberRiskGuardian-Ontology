@@ -187,7 +187,7 @@ CLASSES = [
  "A description that relates the organisation's cybersecurity budget, as a share of its total IT budget, to its risk appetite using the CRG 4 / 7.8 / 12 percent band.",
  "Description qui relie le budget de cybersécurité de l'organisation, en proportion de son budget TI total, à son appétit pour le risque selon la bande CRG de 4 / 7,8 / 12 pour cent.",
  ["CRG_K", "CRG_M"], "H", "CRG step 18 and budget.json.", []),
-("EvidenceItem", "core", ["cco:ont00000853"], "evidence register entry", "entrée du registre de preuves",
+("EvidenceItem", "core", ["cco:ont00000853"], "evidence register entry", "entrée du registre d'éléments probants",
  "A description of a piece of evidence used in an assessment, with its locator and its basis (documented, external, expert input, inference or AI estimate).",
  "Description d'une preuve utilisée dans une appréciation, avec sa référence et son fondement (documenté, externe, avis d'expert, inférence ou estimation par IA).",
  ["CRG_T", "CRG_K"], "H", "CRG EVIDENCE register E1...", []),
@@ -196,21 +196,21 @@ CLASSES = [
  "A measurement content entity giving a value for some aspect of a risk scenario or control, with its scale, qualitative reading, rationale, evidence and confidence.",
  "Entité de contenu de mesure qui donne une valeur pour un aspect d'un scénario de risque ou d'un contrôle, avec son échelle, sa lecture qualitative, sa justification, ses preuves et son niveau de confiance.",
  ["CRG_T", "P1"], "H", "Generic estimate pattern (Phase 1 section 5.2); CRG params {v, qual, rat, ev, conf}.", []),
-("Likelihood", "measure", ["Estimate"], "likelihood", "vraisemblance",
+("Likelihood", "measure", ["Estimate"], "likelihood", "probabilité",
  "An estimate of how likely a threat event or its success is over a stated period, on any scale.",
  "Estimation de la probabilité qu'un événement de menace se produise ou réussisse au cours d'une période donnée, sur toute échelle.",
- ["27005", "80030"], "H", "Generic layer for non-CRG methods (SP 800-30 five levels, DPV) (review M).", [("probability", "en"), ("probabilité", "fr")]),
+ ["27005", "80030"], "H", "Generic layer for non-CRG methods (SP 800-30 five levels, DPV) (review M).", [("probability", "en"), ("vraisemblance", "fr")]),
 ("ImpactEstimate", "measure", ["Estimate"], "impact estimate", "estimation de l'impact",
  "An estimate of the magnitude of a scenario's consequences, on any scale.",
  "Estimation de l'ampleur des conséquences d'un scénario, sur toute échelle.",
  ["27005", "80030"], "H", "Generic layer (review M).", [("severity", "en"), ("gravité", "fr")]),
 ("RiskLevel", "measure", ["Estimate"], "risk level", "niveau de risque",
  "An estimate of the magnitude of a risk, combining likelihood and impact by a stated method.",
- "Estimation de l'ampleur d'un risque, qui combine vraisemblance et impact selon une méthode déclarée.",
+ "Estimation de l'ampleur d'un risque, qui combine probabilité et impact selon une méthode déclarée.",
  ["27005", "80030"], "H", "Generic layer (review M).", []),
 ("ControlEffectiveness", "measure", ["Estimate"], "control effectiveness", "efficacité du contrôle",
  "An estimate of how well a control measure achieves its intended reduction of likelihood or impact, with the evidence for it.",
- "Estimation du degré auquel une mesure de contrôle atteint la réduction de vraisemblance ou d'impact visée, avec les preuves à l'appui.",
+ "Estimation du degré auquel une mesure de contrôle atteint la réduction de probabilité ou d'impact visée, avec les preuves à l'appui.",
  ["27005", "CRG_K"], "M", "Per-control effectiveness was missing; CRG only has package reductions (review H5).", []),
 ("MeasurementScale", "measure", ["cco:ont00000853"], "measurement scale", "échelle de mesure",
  "A description of the range and meaning of the values an estimate may take, such as the unit interval 0-1, the CVSS 0-10 scale or a five-level ordinal scale.",
@@ -397,15 +397,15 @@ VALUE_SETS = [
   ("DispConsider", "under consideration", "à l'étude", "Kept under consideration.", "Gardé à l'étude."),
   ("DispConsolidate", "consolidated", "regroupé", "Merged into another scenario of the same exposure.", "Fusionné avec un autre scénario de la même exposition."),
   ("DispDefer", "deferred", "reporté", "Not selected now; kept on a watch list.", "Non retenu pour l'instant; placé en veille.")]),
-("EvidenceBasis", "core", "evidence basis", "fondement de la preuve",
+("EvidenceBasis", "core", "evidence basis", "fondement de l'élément probant",
  "The kind of support behind an assertion, following the CRG evidence register.", "Nature de l'appui d'une affirmation, selon le registre de preuves CRG.",
  ["CRG_K", "CRG_T"], [
-  ("EvDocumented", "documented evidence", "preuve documentée", "Organisational documents or records.", "Documents ou registres de l'organisation."),
-  ("EvExternal", "external evidence", "preuve externe", "Sector, threat-intelligence or published sources.", "Sources sectorielles, de renseignement sur les menaces ou publiées."),
+  ("EvDocumented", "documented evidence", "élément probant documenté", "Organisational documents or records.", "Documents ou registres de l'organisation."),
+  ("EvExternal", "external evidence", "élément probant externe", "Sector, threat-intelligence or published sources.", "Sources sectorielles, de renseignement sur les menaces ou publiées."),
   ("EvSME", "expert input", "avis d'expert", "Judgement of a subject-matter expert.", "Jugement d'un expert du domaine."),
   ("EvInference", "analyst inference", "inférence de l'analyste", "Reasoned inference by the analyst.", "Inférence raisonnée de l'analyste."),
   ("EvAIEstimate", "AI estimate requiring validation", "estimation par IA à valider", "Produced by an AI system; must be validated.", "Produite par un système d'IA; doit être validée."),
-  ("EvExercise", "exercise or simulation evidence", "preuve d'exercice ou de simulation", "Comes from a tabletop exercise, simulation or sample data; indicative only and to be validated, never a confirmed incident.", "Provient d'un exercice sur table, d'une simulation ou de données d'exemple; indicative seulement et à valider, jamais un incident confirmé.")]),
+  ("EvExercise", "exercise or simulation evidence", "élément probant d'exercice ou de simulation", "Comes from a tabletop exercise, simulation or sample data; indicative only and to be validated, never a confirmed incident.", "Provient d'un exercice sur table, d'une simulation ou de données d'exemple; indicative seulement et à valider, jamais un incident confirmé.")]),
 ("SensitivityCaseType", "crg", "sensitivity case type", "type de cas de sensibilité",
  "The direction of a CRG sensitivity shift.", "Sens d'une variation de sensibilité CRG.",
  ["CRG_F"], [
@@ -497,6 +497,17 @@ CHANGES_0101 = {
     "LegacyKRIQuantity": "0.10.1 (2026-10-23): confidence rationale reworded ('legacy computed values' instead of 'legacy KRIs'); labels, definition, IRI and meaning unchanged.",
     "MethodCRG_v1_0c": "0.10.1 (2026-10-23): definition reworded from 'KRI formulas' / 'formules ICR' to 'risk-index formulas' (textbook v2.51 ch06). IRI and meaning unchanged.",
 }
+# ---------------------------------------------------------------- 0.11.1 (CyberRiskGuardian 1.9.2 release, author decisions FR-2 and FR-3 of 2026-11-08)
+# French terminology of the CyberRiskGuardian application applied to CRGO's own French wording: « probabilité » everywhere
+# (« vraisemblance » retired) and « éléments probants » everywhere (« preuve(s) » retired) in the labels the application shows
+# (evidence register, menus). Labels and the French definitions that said « vraisemblance » change; IRIs, meanings, English
+# wording and axioms are unchanged. These notes become skos:changeNote; the terms take the approval changes/0.11.1.
+_FR2 = "0.11.1 (2026-11-08): French wording « vraisemblance » replaced by « probabilité » (CyberRiskGuardian decision FR-2, 8 November 2026). IRI, meaning and English wording unchanged."
+_FR3 = "0.11.1 (2026-11-08): French label « preuve(s) » replaced by « élément(s) probant(s) » (CyberRiskGuardian decision FR-3, 8 November 2026: « Éléments probants » everywhere in the evidence register and menus). IRI, meaning and English wording unchanged."
+CHANGES_0111 = {"Likelihood": "0.11.1 (2026-11-08): French preferred label changed from « vraisemblance » to « probabilité » (CyberRiskGuardian decision FR-2, 8 November 2026); « vraisemblance » kept as an alternative label for SP 800-30 and ISO/IEC 27005 readers. IRI, meaning and English wording unchanged."}
+CHANGES_0111.update({k: _FR2 for k in ['RiskLevel', 'ControlEffectiveness', 'KsRiskEstimate', 'findingAboutScenario', 'incidentInformsScenario']})
+CHANGES_0111.update({k: _FR3 for k in ['AuthenticatorAssuranceEvidence', 'ConfigurationEvidence', 'DocumentaryEvidence', 'EvDocumented', 'EvExercise', 'EvExternal', 'EvidenceBasis', 'EvidenceItem', 'EvidenceQuality', 'EvidenceRequest', 'EvidenceRequirement', 'EvidenceSufficiencyAssessment', 'GovernanceEvidence', 'InterviewEvidence', 'ObservationalEvidence', 'OperationalEvidence', 'QualityHigh', 'QualityLow', 'QualityModerate', 'QualityVeryLow', 'ResponseEvidence', 'TestEvidence', 'TransactionalEvidence', 'evidenceForPopulation', 'evidenceGap', 'evidenceHash', 'evidenceLimitation', 'evidenceLocator', 'evidenceRequirementFor', 'evidenceSource', 'hasEvidence', 'hasEvidenceQuality', 'producedEvidence', 'receiptEvidence', 'requestsEvidence', 'requiredEvidence']})
+
 # Editorial notes (skos:editorialNote): the spec format has no hidden or deprecated labels.
 EDITORIAL_0101 = {
     "KRIQuantity": "The alternative label 'KRI value' is retired CRG usage, kept only so that older CRG material can be matched: the textbook v2.51 (ch06) retires 'KRI' for computed values. Do not use it in new material; KRIs are the monitoring indicators of the class key risk indicator.",

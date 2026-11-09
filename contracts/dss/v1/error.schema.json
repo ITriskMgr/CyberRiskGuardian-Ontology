@@ -5,7 +5,7 @@
   "type": "object", "additionalProperties": false, "required": ["error", "code", "message"],
   "properties": {
     "error": {"const": true},
-    "code": {"enum": ["SCHEMA_INVALID", "UNKNOWN_ORGANISATION", "UNKNOWN_SUBJECT", "TENANT_MISMATCH", "REFERENCE_NAMESPACE", "STATUS_NOT_PROPOSED", "MODEL_VERSION_MISSING", "INPUT_UNKNOWN"]},
+    "code": {"enum": ["SCHEMA_INVALID", "UNKNOWN_ORGANISATION", "UNKNOWN_SUBJECT", "TENANT_MISMATCH", "REFERENCE_NAMESPACE", "STATUS_NOT_PROPOSED", "MODEL_VERSION_MISSING", "INPUT_UNKNOWN", "REPOSITORY_PATH", "INVALID_ARGUMENT"]},
     "message": {"type": "string"},
     "details": {"type": "array", "items": {"type": "string"}}
   }

@@ -720,7 +720,7 @@ cis81:14.2 a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
     skos:notation "14.2" ;
     skos:prefLabel "Teach recognising social engineering"@en,
-        "Apprendre à reconnaître l'ingénierie sociale"@fr ;
+        "Enseigner à reconnaître l'ingénierie sociale"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
@@ -812,7 +812,7 @@ cis81:14.6 a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
     skos:notation "14.6" ;
     skos:prefLabel "Teach spotting and reporting incidents"@en,
-        "Apprendre à repérer et signaler les incidents"@fr ;
+        "Enseigner à repérer et signaler les incidents"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
@@ -835,7 +835,7 @@ cis81:14.7 a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
     skos:notation "14.7" ;
     skos:prefLabel "Teach reporting missing security updates"@en,
-        "Apprendre à signaler les mises à jour manquantes"@fr ;
+        "Enseigner à signaler les mises à jour manquantes"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;
@@ -1496,7 +1496,7 @@ cis81:17.9 a skos:Concept ;
     skos:inScheme <https://w3id.org/crgo/vocab/cis81> ;
     skos:notation "17.9" ;
     skos:prefLabel "Set incident thresholds"@en,
-        "Fixer les seuils d'incident de sécurité"@fr ;
+        "Fixer les seuils d'incident"@fr ;
     crgo:CRGO_0000283 crgo:CRGO_0000069 ;
     crgo:CRGO_0000284 crgo:CRGO_0000065 ;
     crgo:CRGO_0000285 "Flagged for review: asset type (v8: N/A) to verify for v8.1"@en ;

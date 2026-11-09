@@ -107,7 +107,7 @@ def main():
     o = URIRef("https://w3id.org/crgo/data/library")
     A = lambda *t: [g.add(x) for x in t]
     A((o, RDF.type, OWL.Ontology), (o, OWL.imports, URIRef("https://w3id.org/crgo/crgo")),
-      (o, OWL.versionInfo, Literal("0.10.1")),
+      (o, OWL.versionInfo, Literal("0.11.1")),
       (o, RDFS.label, Literal("CRGO scenario library (from the 2023 generator, repaired)", lang="en")),
       (o, RDFS.label, Literal("Bibliothèque de scénarios CRGO (générateur 2023, réparée)", lang="fr")),
       (o, RDFS.comment, Literal("Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, "
@@ -401,7 +401,7 @@ def cases(g, A, fam):
             per_family.setdefault(m["family"], []).append((m["m"], vals, ev))
         # theme: the most common primary theme of the refined families, else from the scenario text
         ths = [fam_theme[m["family"]] for m in matches.get(x["sid"], []) if m["family"] in fam_theme]
-        th = max(set(ths), key=ths.count) if ths else T.theme_of(x["name"] + " " + x.get("threat_event", ""), True)
+        th = max(sorted(set(ths)), key=ths.count) if ths else T.theme_of(x["name"] + " " + x.get("threat_event", ""), True)  # sorted: a tie is deterministic (0.11.1)
         annotated(g, s, C("hasScenarioCategory"), THEME[th], "M", "Theme of the refined library families." if ths else "Theme from the scenario text.")
         for l in case_links.get(x["sid"], []):  # case scenarios that match no family are linked directly
             target = URIRef(VOC + SCHEME_NS[l["scheme"]] + "/" + safe(l["id"]))

@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Generate shapes/crgo-shapes.ttl (SHACL) from readable keys.
+"""Generate the CRGO SHACL shapes from readable keys.
+
+Usage: python3 src/build_shapes.py            -> build/crgo-shapes.ttl, checked against the tracked shapes/crgo-shapes.ttl (exit 1 if stale)
+       python3 src/build_shapes.py --write    -> rewrite the tracked shapes/crgo-shapes.ttl (after a change to this file)
+       python3 src/build_shapes.py --out FILE -> write elsewhere and check
 
 Covers what OWL 2 does not check on open-world data:
 - the 'functional' object properties of the specification (max 1 value), deferred from Phase 2;
@@ -28,7 +32,7 @@ SH = Namespace("http://www.w3.org/ns/shacl#")
 S = Namespace("https://w3id.org/crgo/shapes/")
 g = Graph(); g.bind("sh", SH); g.bind("crgo", "https://w3id.org/crgo/"); g.bind("shape", S); g.bind("xsd", XSD); g.bind("skos", SKOS)
 o = URIRef("https://w3id.org/crgo/shapes")
-g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.11.0")))
+g.add((o, RDF.type, OWL.Ontology)); g.add((o, RDFS.label, Literal("CRGO SHACL shapes", lang="en"))); g.add((o, OWL.versionInfo, Literal("0.11.1")))
 
 def shape(name, target, msg_en):
     s = S[name]
@@ -618,6 +622,22 @@ s = shape("CryptographicUseRecord", ("class", C("CryptographicUseRecord")), "Cry
 req(s, "cryptoUsedBy", "the asset", "A cryptographic inventory entry", one=False); req(s, "algorithmName", "the algorithm", "A cryptographic inventory entry")
 req(s, "hasQuantumStatus", "the quantum vulnerability status", "A cryptographic inventory entry")
 
-os.makedirs(os.path.join(ROOT, "shapes"), exist_ok=True)
-g.serialize(os.path.join(ROOT, "shapes", "crgo-shapes.ttl"), format="turtle")
-print("shapes: %d node shapes (%d for functional properties)" % (len(set(g.subjects(RDF.type, SH.NodeShape))), n_func))
+# 0.11.1 (NV-C07): rdflib serialises blank nodes in a random order, so two runs give isomorphic but textually different
+# files. The tracked shapes/crgo-shapes.ttl is rewritten only on request (--write); by default, or with --out FILE, the
+# shapes go to build/ and are compared with the tracked file; the exit code says whether the tracked file is current.
+from rdflib.compare import to_isomorphic, graph_diff
+TRACKED = os.path.join(ROOT, "shapes", "crgo-shapes.ttl")
+args = sys.argv[1:]
+out = TRACKED if "--write" in args else (args[args.index("--out") + 1] if "--out" in args else os.path.join(ROOT, "build", "crgo-shapes.ttl"))
+os.makedirs(os.path.dirname(out), exist_ok=True)
+g.serialize(out, format="turtle")
+print("shapes: %d node shapes (%d for functional properties) -> %s" % (len(set(g.subjects(RDF.type, SH.NodeShape))), n_func, os.path.relpath(out, ROOT)))
+if out != TRACKED:
+    same = False
+    if os.path.exists(TRACKED):
+        _, only_tracked, only_new = graph_diff(to_isomorphic(Graph().parse(TRACKED)), to_isomorphic(Graph().parse(out)))  # both re-read: same literal forms
+        same = len(only_tracked) == 0 and len(only_new) == 0
+    if same:
+        print("   shapes/crgo-shapes.ttl is current (isomorphic)")
+    else:
+        print("   shapes/crgo-shapes.ttl is OUT OF DATE: run python3 src/build_shapes.py --write and commit it"); sys.exit(1)

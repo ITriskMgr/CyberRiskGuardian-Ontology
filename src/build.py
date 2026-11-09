@@ -12,7 +12,7 @@ from rdflib.collection import Collection
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
-from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS, CHANGES_0101, EDITORIAL_0101  # noqa: E402
+from spec_core import S, CLASSES, VALUE_SETS, INDIVIDUALS, CHANGES_0101, EDITORIAL_0101, CHANGES_0111  # noqa: E402
 from spec_props import OBJECT_PROPERTIES, DATA_PROPERTIES, ANNOTATION_PROPERTIES  # noqa: E402
 import spec_v09 as V9  # noqa: E402  (0.9.0 modules: evidence, org, vuln, grc, mapping)
 import spec_grca as VG  # noqa: E402  (0.9.0 GRCA and R4-R8: governance, assurance, audit, incident; additions to evidence, grc, mapping)
@@ -46,11 +46,14 @@ assert set(CHANGE_NOTES) == set(VP.MODIFY_PCA), set(VP.MODIFY_PCA) - set(CHANGE_
 # 0.10.1: changes to approved terms made in spec_core.py (CRG terminology of the textbook v2.51), approved as changes/0.10.1
 assert not set(CHANGES_0101) & set(CHANGE_NOTES)
 CHANGE_NOTES.update(CHANGES_0101)
+# 0.11.1: French terminology FR-2 / FR-3 of CyberRiskGuardian 1.9.2 applied to CRGO labels (spec_core.CHANGES_0111), approved as changes/0.11.1
+assert not set(CHANGES_0111) & set(CHANGE_NOTES)
+CHANGE_NOTES.update(CHANGES_0111)
 
-VERSION = "0.11.0"
-PRIOR = "0.10.1"
-ISSUED = "2026-11-02"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325, "0.10.1": 1325}  # highest term number introduced in each earlier release
+VERSION = "0.11.1"
+PRIOR = "0.11.0"
+ISSUED = "2026-11-08"
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325, "0.10.1": 1325, "0.11.0": 1605}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")
@@ -157,7 +160,7 @@ def gov(g, s, sources, conf, rationale):
     a = APPROVALS.get(KEY_OF.get(s))
     changed = KEY_OF.get(s) in CHANGE_NOTES and KEY_OF.get(s) not in VP.D9_APPROVED  # changed in 0.10.0, not covered by D9
     if changed:
-        a = APPROVALS.get("changes/0.10.1" if KEY_OF.get(s) in CHANGES_0101 else "changes/0.10.0")
+        a = APPROVALS.get("changes/0.11.1" if KEY_OF.get(s) in CHANGES_0111 else "changes/0.10.1" if KEY_OF.get(s) in CHANGES_0101 else "changes/0.10.0")
     if not a and not changed:
         # the first row of terms/<module> whose scope covers this term (rows without a scope cover every term)
         rows = GROUP_ROWS.get("terms/" + next((m for m, gg in graphs.items() if gg is g), ""), [])

@@ -1,6 +1,6 @@
 # CyberRiskGuardian Ontology (CRGO)
 
-**Status: 0.11.0 (2026-11-02, approved by the project owner; CIS v8.1 values flagged `REVIEW:` accepted as delivered, still unverified): identity, privilege and configuration module (crgo-iam) with the population-level registers of CyberRiskGuardian 1.9.0, technology and organisational context module (crgo-context: AI systems and agents, certificates, cryptographic inventory, scenario patterns), recognised instruments (CCSPA / Bill C-8, ISO/IEC 27701:2025, ISO/IEC 42001:2023, OWASP Top 10:2025, OWASP LLM 2025 and Agentic 2026, CIS v8.1), CIS Controls v8.1 identifiers with CRGO labels, and content adapted from MOACCO (see `docs/review-0.11.0.md`). 0.10.1 (2026-10-23, patch approved by the project owner): CRG terminology and evidence markers of the textbook v2.51 (computed values are *risk indices*, not KRIs), MediBec S2 and S8 scored AV:L (regression 84,305 / 41,023), textbook source record. 0.10.0 (2026-10-13, approved by the project owner): policy, compliance and audit management, and security monitoring and response (SIEM and SOAR): four new modules, ATT&CK detection and OCSF vocabularies, read contracts compliance/v1 and secops/v1 (see `CHANGELOG.md`). 0.9.1 (2026-10-12: CRG bridge fix for the data contract; ontology unchanged). 0.9.0, approved by the project owner on 2026-10-11: the EU GDPR, Sprint 1 of the v0.8 → v1.0 specification (sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS observations), and the governance, risk, compliance and assurance (GRCA) extension: governance, assurance, audit and incident modules, SP 800-53A, audit and assurance standards (identifiers and paraphrases), illustrative work programmes, and the CyberRiskGuardian data contract dss/v1 (see `CHANGELOG.md`). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
+**Status: 0.11.1 (2026-11-08, patch for CyberRiskGuardian 1.9.2; see `CHANGELOG.md` and `releases/0.11.1/release-notes.md`): the MCP server and query interface validate every argument (no SPARQL built from raw input; error documents `INVALID_ARGUMENT` / `UNKNOWN_ID` instead of a bare tool error; results clamped to 1..200 and lists capped at 50), `crgo_scenarios_for_control` accepts `cis81`, write-backs are never stored inside the repository, `check.sh` no longer rewrites the tracked shapes, French terminology of CyberRiskGuardian 1.9.2 (« probabilité », « éléments probants »), and a content review of the scenario library (eleven firewall and architecture families and the ACRB-A1 case re-themed, seven names cleaned, four CIS v8.1 French labels); the 39 CIS v8.1 safeguards flagged `REVIEW:` stay unverified and are listed in the release notes. 0.11.0 (2026-11-02, approved by the project owner; CIS v8.1 values flagged `REVIEW:` accepted as delivered, still unverified): identity, privilege and configuration module (crgo-iam) with the population-level registers of CyberRiskGuardian 1.9.0, technology and organisational context module (crgo-context: AI systems and agents, certificates, cryptographic inventory, scenario patterns), recognised instruments (CCSPA / Bill C-8, ISO/IEC 27701:2025, ISO/IEC 42001:2023, OWASP Top 10:2025, OWASP LLM 2025 and Agentic 2026, CIS v8.1), CIS Controls v8.1 identifiers with CRGO labels, and content adapted from MOACCO (see `docs/review-0.11.0.md`). 0.10.1 (2026-10-23, patch approved by the project owner): CRG terminology and evidence markers of the textbook v2.51 (computed values are *risk indices*, not KRIs), MediBec S2 and S8 scored AV:L (regression 84,305 / 41,023), textbook source record. 0.10.0 (2026-10-13, approved by the project owner): policy, compliance and audit management, and security monitoring and response (SIEM and SOAR): four new modules, ATT&CK detection and OCSF vocabularies, read contracts compliance/v1 and secops/v1 (see `CHANGELOG.md`). 0.9.1 (2026-10-12: CRG bridge fix for the data contract; ontology unchanged). 0.9.0, approved by the project owner on 2026-10-11: the EU GDPR, Sprint 1 of the v0.8 → v1.0 specification (sources and provenance, legal applicability and compliance, control assessment, typed cross-references, EPSS observations), and the governance, risk, compliance and assurance (GRCA) extension: governance, assurance, audit and incident modules, SP 800-53A, audit and assurance standards (identifiers and paraphrases), illustrative work programmes, and the CyberRiskGuardian data contract dss/v1 (see `CHANGELOG.md`). 0.8.0, approved by the project owner on 2026-10-11 (adds EPSS and VCDB evidence, Québec A-2.1, PIPEDA and OSFI B-13, NIST crosswalks, French CSF labels and three banking-relevant scenarios to 0.7.0). 0.5.0 adds the documentation site (https://itriskmgr.github.io/CyberRiskGuardian-Ontology/), w3id.org redirect rules, release metadata, `CHANGELOG.md`, `CITATION.cff` and the extension plan (`docs/roadmap.md`); it changes no class, property or axiom. Items still proposed are marked as such. Decisions in `src/approvals.tsv` and `docs/decisions.md`.**
 
 **Ontology map:** https://itriskmgr.github.io/CyberRiskGuardian-Ontology/map/ — interactive, bilingual map of every class, its relations and the reference vocabularies (generated by `scripts/make_map.py`).
 
@@ -83,12 +83,29 @@ and rebuild rather than editing the Turtle by hand.
 
 ## Build and check
 
-Requirements: Python 3 with `rdflib`, Java 11 or later, and
-[ROBOT](https://robot.obolibrary.org/) 1.9 or later.
+Requirements (0.11.1, documented after the test campaign of 8 November 2026):
+
+- Python 3.10 or later with `rdflib`, `pyoxigraph` (query store, MCP server, identification tests), `pyshacl` (step 10, SHACL),
+  `jsonschema` (contract tests) and `pandas` (library pipeline): `python3 -m pip install rdflib pyoxigraph pyshacl jsonschema pandas`.
+  The MCP server and `tests/mcp/test_mcp_errors.py` also need `mcp>=1.2`.
+- Java 11 or later (Java 21 works).
+- [ROBOT](https://robot.obolibrary.org/) 1.9.6 or later, as a jar. Download `robot.jar` from the GitHub releases page
+  (https://github.com/ontodev/robot/releases, asset `robot.jar`), not from Maven Central: sandboxes and CI runners that
+  block Maven Central can still fetch GitHub release assets. Set `ROBOT_JAR` to the jar; `ROBOT_JAVA_ARGS` (default `-Xmx6g`)
+  sizes the JVM. The 0.11.0 release was checked with ROBOT 1.9.11, the 0.11.1 campaign with 1.9.6.
 
 ```
-ROBOT_JAR=/path/to/robot.jar ./scripts/check.sh
+ROBOT_JAR=/path/to/robot.jar ./scripts/check.sh                 # modules, fixtures, metadata, vocabularies, MediBec, samples, contracts (about 5 minutes)
+ROBOT_JAR=/path/to/robot.jar WITH_LIBRARY=1 ./scripts/check.sh  # plus the full ontology with the library, SHACL, pitfalls, store, CQs and identification (about 35 minutes)
 ```
+
+Timing (8 November 2026, 4 cores): the full run with `WITH_LIBRARY=1` takes about 35 minutes, most of it in step 9 (HermiT over
+the full ontology, about 12 minutes) and step 10 (pySHACL over the library, about 19 minutes). Without the library it takes
+about 5 minutes. Step 12 builds the Oxigraph store in `build/store/` (about 10 s); the MCP server reuses it.
+
+Nothing tracked is rewritten by a check: step 1 regenerates the modules from `src/` (they must already be committed), step 10
+writes the SHACL shapes to `build/crgo-shapes.ttl` and fails if they are not isomorphic to the tracked
+`shapes/crgo-shapes.ttl` (after editing `src/build_shapes.py`, run `python3 src/build_shapes.py --write` and commit).
 
 The script regenerates the modules and fixtures, merges the imports, then checks:
 
@@ -99,7 +116,12 @@ The script regenerates the modules and fixtures, merges the imports, then checks
 5. no module refers to a term from a module it does not import.
 
 Step 8 converts the MediBec case again when `CRG_CALC` points to CyberRiskGuardian's `crg_calc.py`;
-`WITH_LIBRARY=1` adds a reasoner run over the scenario library (about two minutes).
+`WITH_LIBRARY=1` adds steps 9 to 12 (full ontology with the scenario library, SHACL, pitfalls, store, competency questions, identification).
+
+The Python suites alone (no ROBOT): `tests/cq/run_cq.py`, `tests/spec_cq/run_spec_cq.py`, `tests/grca_cq/run_grca_cq.py`,
+`tests/pca_cq/run_pca_cq.py`, `tests/iam_cq/run_iam_cq.py`, `tests/identify/test_identify.py`, `tests/crg/check_roundtrip.py`,
+`tests/contracts/test_dss_contract.py`, `tests/contracts/test_views_contract.py`, `tests/mcp/test_mcp_errors.py` (needs `mcp`),
+`scripts/check_shacl.py` (needs `build/crgo-full-merged.ttl` from step 9). Build the store first: `python3 pipeline/query/store.py`.
 
 To rebuild the Phase 3 data: `pipeline/fetch_sources.sh`, then `python3 pipeline/vocab/build_vocab.py`; for the library,
 copy the 2023 `combined_file.xlsx` into `data/raw/` and run `pipeline/library/repair.py` then `build_abox.py`.
@@ -128,4 +150,4 @@ range of *is crown jewel*.
 
 ## Citation
 
-Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.11.0.
+Léger, Marc-André (2026). *CyberRiskGuardian Ontology (CRGO)*, version 0.11.1.

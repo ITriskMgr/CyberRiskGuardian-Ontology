@@ -13,7 +13,8 @@ Rules enforced here:
   organisation contains no IRI under another organisation's base; a write-back for one organisation may only refer to
   its own subjects and inputs (or to CRGO reference IRIs);
 - write-backs are stored only as proposed analytical results with knowledge status 'risk estimate', in the
-  organisation's proposed graph file, never in a reference file of the repository.
+  organisation's proposed graph file, never inside the CRGO repository (0.11.1: any real path under the repository
+  root except build/ is refused with REPOSITORY_PATH; the schema is validated before anything else).
 """
 import datetime, hashlib, json, os
 from rdflib import Graph, URIRef, Literal, Namespace
@@ -79,6 +80,10 @@ def _key(v, table):
 
 def risk_context(org_files, organization, scenario, as_of, g=None):
     """Build the read document for one organisation and scenario at a date (ISO yyyy-mm-dd)."""
+    try:
+        datetime.date.fromisoformat(str(as_of))
+    except (TypeError, ValueError):
+        return error("SCHEMA_INVALID", "as_of must be a date written yyyy-mm-dd.")
     g = g if g is not None else load(org_files)
     org, scen = URIRef(organization), URIRef(scenario)
     try:
@@ -215,20 +220,32 @@ def validate_doc(doc, schema_name):
     v = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
     return sorted("%s: %s" % ("/".join(map(str, e.path)) or "(root)", e.message) for e in v.iter_errors(doc))
 
+def schema_error_code(errs):
+    """Error code for a document that fails assessment-result.schema.json (the most specific rule first)."""
+    return "STATUS_NOT_PROPOSED" if any(e.startswith("status") for e in errs) else \
+           "MODEL_VERSION_MISSING" if any(e.startswith("modelVersion") for e in errs) else \
+           "REFERENCE_NAMESPACE" if any(e.startswith(("organizationId", "subjectId")) and "should not be valid" in e for e in errs) else "SCHEMA_INVALID"
+
+def repository_path(path):
+    """True when the real path lies inside the CRGO repository, outside its build/ folder (symlinks resolved; NV-C04)."""
+    real, root = os.path.realpath(path), os.path.realpath(ROOT)
+    return (real == root or real.startswith(root + os.sep)) and not real.startswith(os.path.join(root, "build") + os.sep)
+
 def submit_assessment(document, org_files, out_file, g=None):
-    """Validate a DSS write-back and store it as a proposed analytical result in the organisation's proposed graph."""
+    """Validate a DSS write-back and store it as a proposed analytical result in the organisation's proposed graph.
+    Order (0.11.1): schema first, then the output path (REPOSITORY_PATH inside the repository except build/, otherwise
+    the '-dss-proposed.ttl' rule), then the organisation, subject and inputs."""
+    if not isinstance(document, dict):
+        return error("SCHEMA_INVALID", "The write-back document must be a JSON object.")
     errs = validate_doc(document, "assessment-result.schema.json")
     if errs:
-        code = "STATUS_NOT_PROPOSED" if any(e.startswith("status") for e in errs) else \
-               "MODEL_VERSION_MISSING" if any(e.startswith("modelVersion") for e in errs) else \
-               "REFERENCE_NAMESPACE" if any(e.startswith(("organizationId", "subjectId")) and "should not be valid" in e for e in errs) else "SCHEMA_INVALID"
-        return error(code, "The write-back document does not conform to dss/v1.", errs)
-    out = os.path.abspath(out_file)
-    for ref_dir in ("ontology", os.path.join("data", "abox"), "shapes", "src", "contracts", "pipeline"):
-        if out.startswith(os.path.join(ROOT, ref_dir) + os.sep):
-            return error("REFERENCE_NAMESPACE", "Write-backs go to the organisation's proposed graph, never into a CRGO reference file (%s)." % ref_dir)
+        return error(schema_error_code(errs), "The write-back document does not conform to dss/v1.", errs)
+    out = os.path.realpath(out_file)
+    if repository_path(out):
+        return error("REPOSITORY_PATH", "Write-backs go to the organisation's proposed graph next to its own files, never inside the CRGO repository "
+                     "(only build/ is allowed there): %s." % os.path.relpath(out, ROOT))
     if not out.endswith("-dss-proposed.ttl"):
-        return error("REFERENCE_NAMESPACE", "Write-backs go only to a '<name>-dss-proposed.ttl' file, not into the organisation's fact graph.")
+        return error("REPOSITORY_PATH", "Write-backs go only to a '<name>-dss-proposed.ttl' file, not into the organisation's fact graph.")
     org, subj = URIRef(document["organizationId"]), URIRef(document["subjectId"])
     g = g if g is not None else load(org_files, reference=False)
     try:
@@ -267,4 +284,4 @@ def submit_assessment(document, org_files, out_file, g=None):
     for i in document["inputs"]:
         pg.add((r, T("computedFromInput"), URIRef(i)))
     pg.serialize(out, format="turtle")
-    return {"stored": str(r), "status": "proposed", "knowledgeStatus": "risk estimate", "file": os.path.relpath(out, ROOT)}
+    return {"stored": str(r), "status": "proposed", "knowledgeStatus": "risk estimate", "file": out}

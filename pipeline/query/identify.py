@@ -36,6 +36,75 @@ CAVEAT = ("Library values are AI estimates (2023) for a fictitious healthcare or
 PFX = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\n"
 _st = None
 
+# ---------------------------------------------------------------- input validation (0.11.1, NV-C01..C03)
+# Every value that reaches a SPARQL query is validated against the shape of the identifiers CRGO holds, or escaped as a
+# string literal. Bad input raises CrgoError with a code (INVALID_ARGUMENT, UNKNOWN_ID) that the MCP server returns as an
+# error document instead of a bare "Error executing tool". Result sizes are clamped; list arguments are capped.
+LIMIT_MAX = 200          # limit, top, per_theme, max_total are clamped to 1..LIMIT_MAX
+LIST_MAX = 50            # at most LIST_MAX values per list argument
+TEXT_MAX = 100           # at most TEXT_MAX characters per keyword, sector or identifier
+FRAMEWORKS = ("csf2", "sp800-53r5", "iso27002-2022", "cis81")
+LIST_KINDS = ("asset_category", "theme", "threat_source_type", "impact_dimension", "sector")
+CONFIDENCES = ("H", "M", "L")
+RX_TECHNIQUE = re.compile(r"^(T\d{4}(\.\d{3})?|TA\d{4})$")                 # ATT&CK technique, sub-technique or tactic
+RX_CONTROL = re.compile(r"^[A-Za-z0-9][A-Za-z0-9.\-()]{0,24}$")               # PR.AA-05, SI-4, AC-2(1), 8.16, 6.5
+RX_SCENARIO = re.compile(r"^(LIB-[A-Za-z0-9\-]{1,20}|[A-Za-z0-9\-]{1,30}/[A-Za-z0-9.\-]{1,30})$")   # LIB-F0123, MediBec/MED-A1
+RX_IRI = re.compile(r"^https?://[^\s<>\"{}|\\^`]{1,300}$")
+RX_KEY = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 ,._\-'/&()]{0,%d}$" % (TEXT_MAX - 1))   # filter keys and English labels
+
+class CrgoError(ValueError):
+    """Invalid input (code INVALID_ARGUMENT) or an identifier CRGO does not know (code UNKNOWN_ID)."""
+    def __init__(self, code, message, details=None):
+        super().__init__(message)
+        self.code, self.message, self.details = code, message, details
+
+    def document(self):
+        d = {"error": True, "code": self.code, "message": self.message}
+        if self.details: d["details"] = self.details
+        return d
+
+def _clamp(n, name, default):
+    """Integers that bound a result: non-integers and values outside 1..LIMIT_MAX are clamped, never refused."""
+    try:
+        n = int(n)
+    except (TypeError, ValueError):
+        return default
+    return max(1, min(LIMIT_MAX, n))
+
+def _str_list(values, name, rx=None, what=None):
+    """A list argument: a string is accepted as one value; at most LIST_MAX items of at most TEXT_MAX characters; each
+    item matching rx (when given)."""
+    if values is None: return []
+    if isinstance(values, str): values = [values]
+    try:
+        values = [str(v).strip() for v in values]
+    except TypeError:
+        raise CrgoError("INVALID_ARGUMENT", "%s must be a list of strings." % name)
+    values = [v for v in values if v]
+    if len(values) > LIST_MAX:
+        raise CrgoError("INVALID_ARGUMENT", "%s: at most %d values (received %d)." % (name, LIST_MAX, len(values)))
+    bad = [v for v in values if len(v) > TEXT_MAX or (rx is not None and not rx.match(v))]
+    if bad:
+        raise CrgoError("INVALID_ARGUMENT", "%s: %s." % (name, what or "value not accepted"), [v[:TEXT_MAX] for v in bad])
+    return values
+
+def _confidence(c):
+    c = (c or "M").strip().upper()
+    if c not in CONFIDENCES:
+        raise CrgoError("INVALID_ARGUMENT", "min_confidence must be one of %s (received %r)." % ("/".join(CONFIDENCES), c[:TEXT_MAX]))
+    return c
+
+def _sector(sector):
+    if sector is None or str(sector).strip() == "": return None
+    sector = str(sector).strip()
+    if len(sector) > TEXT_MAX or not RX_KEY.match(sector):
+        raise CrgoError("INVALID_ARGUMENT", "sector: a short word or phrase (letters, digits, spaces, punctuation ,._-'/&) of at most %d characters." % TEXT_MAX)
+    return sector
+
+def _lit(s):
+    """Escape a string for use inside a double-quoted SPARQL literal."""
+    return str(s).replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").replace("\r", " ")
+
 def _store():
     global _st
     if _st is None:
@@ -44,6 +113,13 @@ def _store():
 
 def _q(q):
     return list(_store().query(PFX + q))
+
+def _ask(q):
+    return bool(_store().query(PFX + q))
+
+def _unknown_techniques(techniques):
+    """ATT&CK identifiers (validated in shape) that CRGO does not hold: reported, never silently ignored."""
+    return [t for t in techniques if not _ask('ASK { ?x skos:notation "%s" ; skos:inScheme <%sattack> }' % (t, VOC))]
 
 def _v(t):
     return None if t is None else t.value
@@ -54,20 +130,26 @@ def _label(iri):
 
 def _resolve_value(kind, value):
     """Accept a key (CatCloud), an English label ('cloud and third-party services') or a theme key/label."""
+    value = str(value).strip()
     if kind == "theme":
         for k, l in [(x["key"], x["label"]) for x in list_values("theme")]:
             if value in (k, l) or value.lower() == l.lower():
                 return VOC + "theme/" + k
-        raise ValueError("unknown theme: %s" % value)
-    if value in IDS:
+        raise CrgoError("INVALID_ARGUMENT", "unknown theme: %s. Allowed values: crgo_list_values('theme')." % value[:TEXT_MAX],
+                        [x["key"] for x in list_values("theme")])
+    if value in IDS and any(x["key"] == value for x in list_values(kind)):
         return "https://w3id.org/crgo/CRGO_%07d" % int(IDS[value])
     for x in list_values(kind):
         if value.lower() in (x["label"].lower(), x["key"].lower()):
             return "https://w3id.org/crgo/CRGO_%07d" % int(IDS[x["key"]])
-    raise ValueError("unknown %s: %s" % (kind, value))
+    raise CrgoError("INVALID_ARGUMENT", "unknown %s: %s. Allowed values: crgo_list_values('%s')." % (kind, value[:TEXT_MAX], kind),
+                    [x["key"] for x in list_values(kind)])
 
 def list_values(kind):
-    """Allowed filter values with their keys and labels."""
+    """Allowed filter values with their keys and labels. kind: one of LIST_KINDS."""
+    kind = str(kind or "").strip()
+    if kind not in LIST_KINDS:
+        raise CrgoError("INVALID_ARGUMENT", "kind must be one of %s (received %r)." % (", ".join(LIST_KINDS), kind[:TEXT_MAX]), list(LIST_KINDS))
     if kind == "theme":
         rows = _q('SELECT ?c ?n ?l WHERE { ?c skos:inScheme <%stheme> ; skos:notation ?n ; skos:prefLabel ?l FILTER(lang(?l) = "en") } ORDER BY ?n' % VOC)
         return [{"key": _v(r["n"]), "label": _v(r["l"])} for r in rows]
@@ -122,13 +204,26 @@ def _estimates(s):
     return sets
 
 def _iri(id_):
-    if id_.startswith("http"): return id_
-    r = _q('SELECT ?s WHERE { ?s %s "%s" } LIMIT 1' % (T("localIdentifier"), id_.replace('"', "")))
-    if not r: raise ValueError("unknown scenario: %s" % id_)
+    """Scenario IRI from a local identifier ('LIB-F0123', 'MediBec/MED-A1') or an IRI; UNKNOWN_ID when CRGO has no such scenario."""
+    id_ = str(id_ or "").strip()
+    if not id_:
+        raise CrgoError("INVALID_ARGUMENT", "scenario_id is required: 'LIB-F0123', a case id such as 'MediBec/MED-A1', or a scenario IRI.")
+    if id_.startswith("http"):
+        if not RX_IRI.match(id_):
+            raise CrgoError("INVALID_ARGUMENT", "scenario_id is not a valid http(s) IRI.")
+        if not _ask("ASK { <%s> ?p ?o }" % id_):
+            raise CrgoError("UNKNOWN_ID", "unknown scenario IRI: %s" % id_[:300])
+        return id_
+    if not RX_SCENARIO.match(id_):
+        raise CrgoError("INVALID_ARGUMENT", "scenario_id must look like 'LIB-F0123', 'MediBec/MED-A1' or be an IRI (received %r)." % id_[:TEXT_MAX])
+    r = _q('SELECT ?s WHERE { ?s %s "%s" } LIMIT 1' % (T("localIdentifier"), _lit(id_)))
+    if not r: raise CrgoError("UNKNOWN_ID", "unknown scenario: %s" % id_)
     return _v(r[0]["s"])
 
 def scenario(id_, min_confidence="M", brief=False, holdout=()):
     """Everything CRGO knows about one scenario, filtered by link confidence. holdout: case keys to hide."""
+    min_confidence = _confidence(min_confidence)
+    holdout = tuple(_str_list(holdout, "holdout", RX_KEY, "case keys such as 'MediBec-CRG'"))
     s = _iri(id_)
     one = lambda p: [_v(r["o"]) for r in _q("SELECT ?o WHERE { <%s> %s ?o }" % (s, p))]
     d = {"id": (one(T("localIdentifier")) or [s])[0], "iri": s, "name": _label(s),
@@ -269,11 +364,11 @@ def _members(prop, values, kind):
 
 def _technique_members(techniques):
     rows = _q("""SELECT DISTINCT ?s WHERE { ?s %s ?ev . ?ev %s ?t . ?t skos:broader* ?root . ?root skos:notation ?tn .
-                 ?root skos:inScheme <%sattack> . VALUES ?tn { %s } }""" % (T("hasThreatEvent"), T("hasExternalReference"), VOC, " ".join('"%s"' % t for t in techniques)))
+                 ?root skos:inScheme <%sattack> . VALUES ?tn { %s } }""" % (T("hasThreatEvent"), T("hasExternalReference"), VOC, " ".join('"%s"' % _lit(t) for t in techniques)))
     return {_v(r["s"]) for r in rows}
 
 def _sector_members(sector):
-    return {_v(r["s"]) for r in _q('SELECT DISTINCT ?s WHERE { ?s %s ?x FILTER(CONTAINS(LCASE(?x), "%s")) }' % (T("applicableSector"), sector.lower().replace('"', "")))}
+    return {_v(r["s"]) for r in _q('SELECT DISTINCT ?s WHERE { ?s %s ?x FILTER(CONTAINS(LCASE(?x), "%s")) }' % (T("applicableSector"), _lit(sector.lower())))}
 
 _case_keys = None
 
@@ -335,7 +430,13 @@ def identify(asset_categories=(), themes=(), sector=None, techniques=(), keyword
     names of linked ATT&CK techniques. Ranked by fit to the request (keyword groups and filter values matched), then
     by estimated risk. holdout: case keys (e.g. 'MediBec-CRG', 'MediBec') whose scenarios and calibrations are ignored,
     for blind evaluation."""
-    holdout = tuple(holdout)
+    asset_categories = _str_list(asset_categories, "asset_categories", RX_KEY, "keys or English labels from list_values('asset_category')")
+    themes = _str_list(themes, "themes", RX_KEY, "theme keys or English labels from list_values('theme')")
+    techniques = [t.upper() for t in _str_list(techniques, "techniques", RX_TECHNIQUE, "ATT&CK identifiers such as 'T1566' or 'T1566.001'")]
+    keywords = _str_list(keywords, "keywords", RX_KEY, "short words or phrases of at most %d characters" % TEXT_MAX)
+    holdout = tuple(_str_list(holdout, "holdout", RX_KEY, "case keys such as 'MediBec-CRG'"))
+    sector, min_confidence, limit = _sector(sector), _confidence(min_confidence), _clamp(limit, "limit", 20)
+    unknown_t = _unknown_techniques(techniques)
     sets = []
     if asset_categories: sets.append(_members("affectsAssetCategory", asset_categories, "asset_category"))
     if themes: sets.append(_members("hasScenarioCategory", themes, "theme"))
@@ -360,7 +461,8 @@ def identify(asset_categories=(), themes=(), sector=None, techniques=(), keyword
     out = [_brief(s, min_confidence, risk, score[s], holdout) for s in ranked[:limit]]
     return {"query": {k: v for k, v in dict(asset_categories=list(asset_categories), themes=list(themes), sector=sector, techniques=list(techniques),
                                             keywords=list(keywords), min_confidence=min_confidence, holdout=list(holdout)).items() if v},
-            "matches": len(score), "returned": len(out), "scenarios": out, "risk_unit": RISK_UNIT, "caveat": CAVEAT}
+            "matches": len(score), "returned": len(out), "scenarios": out, "risk_unit": RISK_UNIT, "caveat": CAVEAT,
+            **({"unknown_techniques": unknown_t} if unknown_t else {})}
 
 def _tokens(name):
     stop = {"the", "a", "an", "of", "to", "and", "or", "in", "on", "for", "by", "with", "due", "from", "at", "through", "via", "attack", "risk", "scenario"}
@@ -373,7 +475,14 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
     representative ('see_also'). The result keeps: up to per_theme representatives for each requested theme, one
     representative for each commonly assessed risk (baseline=True, see BASELINE), and then the best-scoring others
     that match at least two profile elements. Requested themes and baseline risks with no scenario are reported."""
-    holdout = tuple(holdout)
+    asset_categories = _str_list(asset_categories, "asset_categories", RX_KEY, "keys or English labels from list_values('asset_category')")
+    themes = _str_list(themes, "themes", RX_KEY, "theme keys or English labels from list_values('theme')")
+    techniques = [t.upper() for t in _str_list(techniques, "techniques", RX_TECHNIQUE, "ATT&CK identifiers such as 'T1566' or 'T1566.001'")]
+    keywords = _str_list(keywords, "keywords", RX_KEY, "short words or phrases of at most %d characters" % TEXT_MAX)
+    holdout = tuple(_str_list(holdout, "holdout", RX_KEY, "case keys such as 'MediBec-CRG'"))
+    sector, min_confidence = _sector(sector), _confidence(min_confidence)
+    per_theme, max_total = _clamp(per_theme, "per_theme", 3), _clamp(max_total, "max_total", 60)
+    unknown_t = _unknown_techniques(techniques)
     idx = _index()
     score = {}
     def add(ss, w=1):
@@ -437,11 +546,12 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
             "candidates": len(pool), "distinct": len(reps), "returned": len(out),
             "themes_covered": sorted({theme_of.get(s, "ThemeOther") for s in chosen}),
             "theme_gaps": sorted(set(wanted) - {theme_of.get(r) for r in reps if r in score}), "baseline_gaps": base_gaps,
-            "scenarios": out, "sector_frequency": _sf, "risk_unit": RISK_UNIT, "caveat": CAVEAT}
+            "scenarios": out, "sector_frequency": _sf, "risk_unit": RISK_UNIT, "caveat": CAVEAT,
+            **({"unknown_techniques": unknown_t} if unknown_t else {})}
 
 def defences_for_techniques(tids, top=8):
     """D3FEND defensive techniques judged for the ATT&CK techniques (0.7.0): most shared, then most confident first."""
-    vals = " ".join('"%s"' % t for t in tids)
+    vals = " ".join('"%s"' % _lit(t) for t in tids)
     rows = _q("""SELECT ?n ?l ?t ?conf ?st WHERE { VALUES ?tn { %s } ?t skos:notation ?tn ; skos:inScheme <%sattack> ;
                  skos:relatedMatch ?d . ?d skos:inScheme <%sd3fend> ; skos:notation ?n ; skos:prefLabel ?l .
                  ?ax owl:annotatedSource ?t ; owl:annotatedTarget ?d ; %s ?conf ; %s ?st }""" % (vals, VOC, VOC, T("confidence"), T("governanceStatus")))
@@ -463,7 +573,7 @@ def other_regimes(loi25_ids, csf_ids):
     financial institutions) from the CSF 2.0 categories of its CSF links. Which regime applies depends on the organisation."""
     out = {}
     if loi25_ids:
-        vals = " ".join('"%s"' % i for i in loi25_ids)
+        vals = " ".join('"%s"' % _lit(i) for i in loi25_ids)
         for scheme, key in (("a21", "quebec_public_bodies_A-2.1"), ("pipeda", "federal_private_sector_PIPEDA"), ("gdpr", "eu_GDPR")):
             rows = _q("""SELECT DISTINCT ?n ?l WHERE { VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%sloi25> .
                          { ?c skos:closeMatch ?o } UNION { ?c skos:relatedMatch ?o } ?o skos:inScheme <%s%s> ; skos:notation ?n ; skos:prefLabel ?l .
@@ -471,7 +581,7 @@ def other_regimes(loi25_ids, csf_ids):
             if rows: out[key] = [{"id": _v(r["n"]), "title": _v(r["l"])} for r in rows]
     if csf_ids:
         cats = sorted({i.split("-")[0] for i in csf_ids})
-        vals = " ".join('"%s"' % c for c in cats)
+        vals = " ".join('"%s"' % _lit(c) for c in cats)
         rows = _q("""SELECT DISTINCT ?n ?l WHERE { VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%scsf2> .
                      ?p skos:relatedMatch ?c ; skos:inScheme <%sosfi-b13> ; skos:notation ?n ; skos:prefLabel ?l . FILTER(lang(?l) = "en") } ORDER BY ?n""" % (vals, VOC, VOC))
         if rows: out["financial_institutions_OSFI_B-13"] = [{"id": _v(r["n"]), "title": _v(r["l"])} for r in rows]
@@ -509,7 +619,7 @@ def kev_evidence(tids, cwes=()):
     out = {}
     for kind, ids, scheme in (("by_technique", tids, "attack"), ("by_weakness", cwes, "cwe")):
         if not ids: continue
-        vals = " ".join('"%s"' % i for i in ids)
+        vals = " ".join('"%s"' % _lit(i) for i in ids)
         rows = _q("""SELECT ?x ?k ?note ?epss WHERE {
                      VALUES ?x { %s } ?c skos:notation ?x ; skos:inScheme <%s%s> . ?k skos:relatedMatch ?c ; skos:inScheme <%skev> ; skos:note ?note .
                      OPTIONAL { ?e %s ?k ; %s ?epss } }""" % (vals, VOC, scheme, VOC, T("observationOf"), T("numericValue")))
@@ -533,20 +643,72 @@ def scenario_id(iri):
     r = _q('SELECT ?i WHERE { <%s> %s ?i } LIMIT 1' % (iri, T("localIdentifier")))
     return _v(r[0]["i"]) if r else iri
 
+def _control_iri(framework, control_id):
+    r = _q('SELECT ?c WHERE { ?c skos:notation "%s" ; skos:inScheme <%s%s> } LIMIT 1' % (_lit(control_id), VOC, framework))
+    return _v(r[0]["c"]) if r else None
+
 def scenarios_for_control(framework, control_id, min_confidence="M", limit=50):
-    """Library scenarios that a framework requirement (csf2, sp800-53r5, iso27002-2022) addresses."""
-    rows = _q('SELECT DISTINCT ?s ?name WHERE { ?c skos:notation "%s" ; skos:inScheme <%s%s> . ?s %s ?c ; rdfs:label ?name }'
-              % (control_id, VOC, framework, T("hasRelevantRequirement")))
-    out = []
-    for r in rows:
-        ls = [x for x in _links(_v(r["s"]), "hasRelevantRequirement", min_confidence) if x["id"] == control_id]
-        if ls: out.append({"id": "LIB-" + _v(r["s"]).rsplit("/", 1)[-1], "name": _v(r["name"]), "confidence": ls[0]["confidence"]})
+    """Library scenarios that a framework requirement addresses. framework: csf2, sp800-53r5, iso27002-2022 or cis81 (0.11.1).
+    Library links are to CSF 2.0, SP 800-53 Rev. 5 and ISO/IEC 27002:2022; a CIS v8.1 safeguard is reached through the
+    requirements it partially overlaps ('via'), so its scenarios are suggestions by correspondence, not direct links."""
+    framework, control_id = str(framework or "").strip(), str(control_id or "").strip()
+    if framework not in FRAMEWORKS:
+        raise CrgoError("INVALID_ARGUMENT", "framework must be one of %s (received %r)." % (", ".join(FRAMEWORKS), framework[:TEXT_MAX]), list(FRAMEWORKS))
+    if not RX_CONTROL.match(control_id):
+        raise CrgoError("INVALID_ARGUMENT", "control_id as written in the framework, e.g. 'PR.AA-05', 'SI-4', 'AC-2(1)', '8.16', '6.5' (received %r)." % control_id[:TEXT_MAX])
+    min_confidence, limit = _confidence(min_confidence), _clamp(limit, "limit", 50)
+    c = _control_iri(framework, control_id)
+    if c is None:
+        raise CrgoError("UNKNOWN_ID", "%s has no requirement %s in CRGO." % (framework, control_id))
+    doc = {"framework": framework, "control": control_id, "title": _label(c)}
+    out, seen = [], {}
+    def collect(fw, cid, via=None):
+        n = 0
+        rows = _q('SELECT DISTINCT ?s ?name WHERE { ?c skos:notation "%s" ; skos:inScheme <%s%s> . ?s %s ?c ; rdfs:label ?name }'
+                  % (_lit(cid), VOC, fw, T("hasRelevantRequirement")))
+        for r in rows:
+            ls = [x for x in _links(_v(r["s"]), "hasRelevantRequirement", min_confidence) if x["id"] == cid and x["framework"] == fw]
+            if not ls: continue
+            n += 1
+            sid = "LIB-" + _v(r["s"]).rsplit("/", 1)[-1]
+            if sid in seen:
+                if via: seen[sid]["via"].append(via)
+                if "HML".index(ls[0]["confidence"]) < "HML".index(seen[sid]["confidence"]): seen[sid]["confidence"] = ls[0]["confidence"]
+                continue
+            e = {"id": sid, "name": _v(r["name"]), "confidence": ls[0]["confidence"]}
+            if via: e["via"] = [via]
+            seen[sid] = e; out.append(e)
+        return n
+    if framework != "cis81":
+        collect(framework, control_id)
+    else:
+        # the safeguard's 'partially overlaps' correspondences; an enhancement (AC-2(1)) with no linked scenario falls back
+        # to its base control (AC-2), flagged through_parent
+        rows = _q("SELECT ?o ?n ?scheme WHERE { <%s> %s ?o . ?o skos:notation ?n ; skos:inScheme ?scheme }" % (c, T("partiallyOverlaps")))
+        targets = sorted({(_v(r["scheme"]).rsplit("/", 1)[-1], _v(r["n"]), _v(r["o"])) for r in rows if _v(r["scheme"]).rsplit("/", 1)[-1] in FRAMEWORKS[:3]})
+        doc["via"] = []
+        for fw, cid, iri in targets:
+            via = {"framework": fw, "id": cid}
+            doc["via"].append(via)
+            if collect(fw, cid, dict(via)) == 0:
+                for b in _q("SELECT ?n WHERE { <%s> skos:broader ?b . ?b skos:notation ?n ; skos:inScheme <%s%s> }" % (iri, VOC, fw)):
+                    pv = {"framework": fw, "id": _v(b["n"]), "through_parent": True}
+                    if collect(fw, _v(b["n"]), dict(pv)): doc["via"].append(pv)
+        doc["note"] = ("CIS Controls v8.1 are identifiers with CRGO labels; scenarios are reached through the CSF 2.0, SP 800-53 Rev. 5 and "
+                       "ISO/IEC 27002:2022 requirements the safeguard partially overlaps ('via'; 'through_parent' when an enhancement had "
+                       "no linked scenario and its base control was used). Suggestions by correspondence, not direct links.")
     out.sort(key=lambda x: ("HML".index(x["confidence"]), x["name"]))
-    return {"framework": framework, "control": control_id, "title": _label("%s%s/%s" % (VOC, framework, re.sub(r"[()]", "_", control_id).rstrip("_"))),
-            "matches": len(out), "scenarios": out[:limit]}
+    doc.update(matches=len(out), scenarios=out[:limit])
+    return doc
 
 def controls_for_technique(technique, min_confidence="M", top=10):
     """Controls most often linked to library scenarios whose threat event uses an ATT&CK technique (or its sub-techniques)."""
+    technique = str(technique or "").strip().upper()
+    if not RX_TECHNIQUE.match(technique):
+        raise CrgoError("INVALID_ARGUMENT", "technique must be an ATT&CK identifier such as 'T1566' or 'T1566.001' (received %r)." % technique[:TEXT_MAX])
+    min_confidence, top = _confidence(min_confidence), _clamp(top, "top", 10)
+    if _unknown_techniques([technique]):
+        raise CrgoError("UNKNOWN_ID", "unknown ATT&CK identifier: %s" % technique)
     rows = _q("""SELECT ?s WHERE { ?root skos:notation "%s" ; skos:inScheme <%sattack> . ?t skos:broader* ?root .
                  ?ev %s ?t . ?s %s ?ev }""" % (technique, VOC, T("hasExternalReference"), T("hasThreatEvent")))
     scen = {_v(r["s"]) for r in rows}

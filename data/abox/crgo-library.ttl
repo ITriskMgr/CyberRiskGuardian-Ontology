@@ -7,11 +7,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/crgo/data/library> a owl:Ontology ;
+    <http://www.w3.org/2004/02/skos/core#changeNote> "0.11.1 content review (NV-C05): eleven families and the ACRB-A1 case scenario re-themed (firewall scenarios were filed under 'physical and environmental' because 'fire' matched 'firewall'; F0006 under 'advanced attacks' because of 'evolution'); seven family names lost a trailing colon. No value changed."@en ;
     rdfs:label "CRGO scenario library (from the 2023 generator, repaired)"@en,
         "Bibliothèque de scénarios CRGO (générateur 2023, réparée)"@fr ;
     rdfs:comment "Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, repaired and merged into families (decision Q-E, option 3). All values are AI estimates requiring validation; use them as calibration priors, not as organisational evidence."@en ;
     owl:imports crgo:crgo ;
-    owl:versionInfo "0.10.1" .
+    owl:versionInfo "0.11.1" .
 
 lib:C-ACRB-ACRB-A1-De a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 lib:E-ACRB ;
@@ -97954,7 +97955,7 @@ lib:F1022-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 850.5 .
 
 lib:F1022-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Insider Theft:"@en ;
+    rdfs:label "suggested treatment for Insider Theft"@en ;
     crgo:CRGO_0000222 lib:F1022 ;
     crgo:CRGO_0000264 100000.0 .
 
@@ -98050,7 +98051,7 @@ lib:F1023-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1008.0 .
 
 lib:F1023-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Lack of User Training:"@en ;
+    rdfs:label "suggested treatment for Lack of User Training"@en ;
     crgo:CRGO_0000222 lib:F1023 ;
     crgo:CRGO_0000264 50000.0 .
 
@@ -98146,12 +98147,12 @@ lib:F1024-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1234.285714 .
 
 lib:F1024-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Insider Data Leakage:"@en ;
+    rdfs:label "suggested treatment for Insider Data Leakage"@en ;
     crgo:CRGO_0000222 lib:F1024 ;
     crgo:CRGO_0000264 300000.0 .
 
 lib:F1024-weakness a crgo:CRGO_0000295 ;
-    rdfs:label "Weakness exploited in: Insider Data Leakage:"@en .
+    rdfs:label "Weakness exploited in: Insider Data Leakage"@en .
 
 lib:F1025-EstimatedRisk a crgo:CRGO_0000051 ;
     crgo:CRGO_0000231 lib:F1025 ;
@@ -138187,7 +138188,7 @@ lib:F1497-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1670.4 .
 
 lib:F1497-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for USB Drive Malware Infection:"@en ;
+    rdfs:label "suggested treatment for USB Drive Malware Infection"@en ;
     crgo:CRGO_0000222 lib:F1497 ;
     crgo:CRGO_0000264 50000.0 .
 
@@ -149445,7 +149446,7 @@ lib:F1613-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1915.2 .
 
 lib:F1613-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Social Engineering:"@en ;
+    rdfs:label "suggested treatment for Social Engineering"@en ;
     crgo:CRGO_0000222 lib:F1613 ;
     crgo:CRGO_0000264 50000.0 .
 
@@ -149541,7 +149542,7 @@ lib:F1614-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1632.0 .
 
 lib:F1614-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Phishing Campaign:"@en ;
+    rdfs:label "suggested treatment for Phishing Campaign"@en ;
     crgo:CRGO_0000222 lib:F1614 ;
     crgo:CRGO_0000264 150000.0 .
 
@@ -166231,7 +166232,7 @@ lib:F1801-ToleratedRisk a crgo:CRGO_0000052 ;
     crgo:CRGO_0000247 1851.428571 .
 
 lib:F1801-treatment a crgo:CRGO_0000032 ;
-    rdfs:label "suggested treatment for Outdated Software Vulnerability:"@en ;
+    rdfs:label "suggested treatment for Outdated Software Vulnerability"@en ;
     crgo:CRGO_0000222 lib:F1801 ;
     crgo:CRGO_0000264 50000.0 .
 
@@ -203290,11 +203291,11 @@ lib:F1020-event a crgo:CRGO_0000014 ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1052.001> .
 
 lib:F1023-event a crgo:CRGO_0000014 ;
-    rdfs:label "Lack of User Training:"@en ;
+    rdfs:label "Lack of User Training"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1566.002> .
 
 lib:F1024-event a crgo:CRGO_0000014 ;
-    rdfs:label "Insider Data Leakage:"@en ;
+    rdfs:label "Insider Data Leakage"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1078> .
 
 lib:F1031-event a crgo:CRGO_0000014 ;
@@ -205805,7 +205806,7 @@ lib:F1019-event a crgo:CRGO_0000014 ;
         <https://w3id.org/crgo/vocab/attack/T1565.001> .
 
 lib:F1022-event a crgo:CRGO_0000014 ;
-    rdfs:label "Insider Theft:"@en ;
+    rdfs:label "Insider Theft"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1078>,
         <https://w3id.org/crgo/vocab/attack/T1213> .
 
@@ -206484,7 +206485,7 @@ lib:F1496-event a crgo:CRGO_0000014 ;
         <https://w3id.org/crgo/vocab/attack/T1495> .
 
 lib:F1497-event a crgo:CRGO_0000014 ;
-    rdfs:label "USB Drive Malware Infection:"@en ;
+    rdfs:label "USB Drive Malware Infection"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1091>,
         <https://w3id.org/crgo/vocab/attack/T1204.002> .
 
@@ -206713,7 +206714,7 @@ lib:F1612-event a crgo:CRGO_0000014 ;
         <https://w3id.org/crgo/vocab/attack/T1591.002> .
 
 lib:F1614-event a crgo:CRGO_0000014 ;
-    rdfs:label "Phishing Campaign:"@en ;
+    rdfs:label "Phishing Campaign"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1566>,
         <https://w3id.org/crgo/vocab/attack/T1598> .
 
@@ -207158,7 +207159,7 @@ lib:F1799-weakness a crgo:CRGO_0000295 ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/cwe/CWE-1395> .
 
 lib:F1801-event a crgo:CRGO_0000014 ;
-    rdfs:label "Outdated Software Vulnerability:"@en ;
+    rdfs:label "Outdated Software Vulnerability"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1190>,
         <https://w3id.org/crgo/vocab/attack/T1203> .
 
@@ -208745,7 +208746,7 @@ lib:F1611-event a crgo:CRGO_0000014 ;
         <https://w3id.org/crgo/vocab/attack/T1566> .
 
 lib:F1613-event a crgo:CRGO_0000014 ;
-    rdfs:label "Social Engineering:"@en ;
+    rdfs:label "Social Engineering"@en ;
     crgo:CRGO_0000325 <https://w3id.org/crgo/vocab/attack/T1078>,
         <https://w3id.org/crgo/vocab/attack/T1213.004>,
         <https://w3id.org/crgo/vocab/attack/T1598.004> .
@@ -306103,7 +306104,7 @@ lib:C-ACRB-ACRB-A1 a crgo:CRGO_0000024 ;
         lib:F1399,
         lib:F1405,
         lib:F1407 ;
-    crgo:CRGO_0000246 theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "ACRB/ACRB-A1" ;
     crgo:CRGO_0000252 "ACRB's firewall was found to use outdated protocols and lacked proper configuration, leaving it vulnerable to sophisticated external attacks that could expose sensitive data and systems."@en ;
     crgo:CRGO_0000287 "Atlantic Canada Regional Bank (ACRB)" ;
@@ -306976,8 +306977,7 @@ lib:C-MediBec-MED-A7 a crgo:CRGO_0000024 ;
 lib:F0006 a crgo:CRGO_0000024 ;
     rdfs:label "The enterprise architecture is complex and inflexible, obstructing further evolution and expansion leading to missed business opportunities"@en ;
     crgo:CRGO_0000196 lib:F0006-event ;
-    crgo:CRGO_0000246 theme:ThemeAPT,
-        theme:ThemeITGov ;
+    crgo:CRGO_0000246 theme:ThemeITGov ;
     crgo:CRGO_0000250 "LIB-F0006" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0067" ;
     crgo:CRGO_0000318 lib:F0006-source ;
@@ -314491,8 +314491,7 @@ lib:F1324 a crgo:CRGO_0000024 ;
 lib:F1352 a crgo:CRGO_0000024 ;
     rdfs:label "Backdoor channels circumventing firewalls"@en ;
     crgo:CRGO_0000196 lib:F1352-event ;
-    crgo:CRGO_0000246 theme:ThemeNetwork,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "LIB-F1352" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0438" ;
     crgo:CRGO_0000318 lib:F1352-source ;
@@ -324439,7 +324438,7 @@ lib:F0934 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/PS-8> .
 
 lib:F1023 a crgo:CRGO_0000024 ;
-    rdfs:label "Lack of User Training:"@en ;
+    rdfs:label "Lack of User Training"@en ;
     crgo:CRGO_0000196 lib:F1023-event ;
     crgo:CRGO_0000200 lib:F1023-consequence ;
     crgo:CRGO_0000246 theme:ThemeInsider,
@@ -332715,8 +332714,7 @@ lib:F1422 a crgo:CRGO_0000024 ;
     rdfs:label "Web Application Firewall Bypass"@en ;
     crgo:CRGO_0000196 lib:F1422-event ;
     crgo:CRGO_0000200 lib:F1422-consequence ;
-    crgo:CRGO_0000246 theme:ThemeAppSec,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeAppSec ;
     crgo:CRGO_0000250 "LIB-F1422" ;
     crgo:CRGO_0000252 "An attacker successfully evades the hospital's web application firewall, exploiting a vulnerability in the website's code. This allows them to inject malicious content or gain unauthorized access to the hospital's internal network."@en ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R1797" ;
@@ -334344,8 +334342,7 @@ lib:F1311 a crgo:CRGO_0000024 ;
 lib:F1353 a crgo:CRGO_0000024 ;
     rdfs:label "Firewall rule misconfigurations"@en ;
     crgo:CRGO_0000196 lib:F1353-event ;
-    crgo:CRGO_0000246 theme:ThemeNetwork,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "LIB-F1353" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0440" ;
     crgo:CRGO_0000318 lib:F1353-source ;
@@ -335156,7 +335153,7 @@ lib:F1597 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/IA-2> .
 
 lib:F1614 a crgo:CRGO_0000024 ;
-    rdfs:label "Phishing Campaign:"@en ;
+    rdfs:label "Phishing Campaign"@en ;
     crgo:CRGO_0000196 lib:F1614-event ;
     crgo:CRGO_0000200 lib:F1614-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -335457,7 +335454,7 @@ lib:F1798 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/SI-2> .
 
 lib:F1801 a crgo:CRGO_0000024 ;
-    rdfs:label "Outdated Software Vulnerability:"@en ;
+    rdfs:label "Outdated Software Vulnerability"@en ;
     crgo:CRGO_0000196 lib:F1801-event ;
     crgo:CRGO_0000200 lib:F1801-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -337769,7 +337766,7 @@ lib:F1563 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/SC-8> .
 
 lib:F1613 a crgo:CRGO_0000024 ;
-    rdfs:label "Social Engineering:"@en ;
+    rdfs:label "Social Engineering"@en ;
     crgo:CRGO_0000196 lib:F1613-event ;
     crgo:CRGO_0000200 lib:F1613-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -339239,7 +339236,7 @@ lib:F1483 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/SI-3> .
 
 lib:F1497 a crgo:CRGO_0000024 ;
-    rdfs:label "USB Drive Malware Infection:"@en ;
+    rdfs:label "USB Drive Malware Infection"@en ;
     crgo:CRGO_0000196 lib:F1497-event ;
     crgo:CRGO_0000200 lib:F1497-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -340599,7 +340596,7 @@ lib:F1013 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/PM-12> .
 
 lib:F1022 a crgo:CRGO_0000024 ;
-    rdfs:label "Insider Theft:"@en ;
+    rdfs:label "Insider Theft"@en ;
     crgo:CRGO_0000196 lib:F1022-event ;
     crgo:CRGO_0000200 lib:F1022-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -340633,7 +340630,7 @@ lib:F1022 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/sp800-53r5/PM-12> .
 
 lib:F1024 a crgo:CRGO_0000024 ;
-    rdfs:label "Insider Data Leakage:"@en ;
+    rdfs:label "Insider Data Leakage"@en ;
     crgo:CRGO_0000196 lib:F1024-event ;
     crgo:CRGO_0000200 lib:F1024-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10>,
@@ -343023,8 +343020,7 @@ lib:F1347 a crgo:CRGO_0000024 ;
     crgo:CRGO_0000196 lib:F1347-event ;
     crgo:CRGO_0000200 lib:F1347-consequence ;
     crgo:CRGO_0000228 <https://w3id.org/crgo/vocab/loi25/P-39.1_s._10> ;
-    crgo:CRGO_0000246 theme:ThemeNetwork,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "LIB-F1347" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0211" ;
     crgo:CRGO_0000318 lib:F1347-source ;
@@ -343050,8 +343046,7 @@ lib:F1347 a crgo:CRGO_0000024 ;
 lib:F1371 a crgo:CRGO_0000024 ;
     rdfs:label "Inadequate firewall configurations exposing internal resources"@en ;
     crgo:CRGO_0000196 lib:F1371-event ;
-    crgo:CRGO_0000246 theme:ThemeNetwork,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "LIB-F1371" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0837" ;
     crgo:CRGO_0000319 lib:F1371-weakness ;
@@ -343981,8 +343976,7 @@ lib:F1011 a crgo:CRGO_0000024 ;
 lib:F1346 a crgo:CRGO_0000024 ;
     rdfs:label "Misconfigured firewall allowing unauthorized remote access"@en ;
     crgo:CRGO_0000196 lib:F1346-event ;
-    crgo:CRGO_0000246 theme:ThemeNetwork,
-        theme:ThemePhysical ;
+    crgo:CRGO_0000246 theme:ThemeNetwork ;
     crgo:CRGO_0000250 "LIB-F1346" ;
     crgo:CRGO_0000287 "combined_file.xlsx rows R0203" ;
     crgo:CRGO_0000318 lib:F1346-source ;
@@ -344400,7 +344394,7 @@ lib:F1399 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.7>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
-    crgo:CRGO_0000246 theme:ThemePhysical,
+    crgo:CRGO_0000246 theme:ThemeNetwork,
         theme:ThemeVulnMgmt ;
     crgo:CRGO_0000250 "LIB-F1399" ;
     crgo:CRGO_0000252 "Due to misconfiguration, critical firewall rules are mistakenly set to allow unauthorized access to the hospital's network. This misconfiguration may lead to uncontrolled access, data breaches, or potential disruption of critical healthcare services."@en ;
@@ -344432,7 +344426,7 @@ lib:F1407 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.7>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
-    crgo:CRGO_0000246 theme:ThemePhysical,
+    crgo:CRGO_0000246 theme:ThemeNetwork,
         theme:ThemeVulnMgmt ;
     crgo:CRGO_0000250 "LIB-F1407" ;
     crgo:CRGO_0000252 "A misconfigured or poorly maintained firewall allows unauthorized network traffic, enabling attackers to infiltrate the hospital's internal network and gain access to confidential patient data or exploit vulnerable systems."@en ;
@@ -346103,7 +346097,7 @@ lib:F1405 a crgo:CRGO_0000024 ;
     rdfs:label "Firewall Misconfiguration - Unauthorized Access"@en ;
     crgo:CRGO_0000196 lib:F1405-event ;
     crgo:CRGO_0000200 lib:F1405-consequence ;
-    crgo:CRGO_0000246 theme:ThemePhysical,
+    crgo:CRGO_0000246 theme:ThemeNetwork,
         theme:ThemeVulnMgmt ;
     crgo:CRGO_0000250 "LIB-F1405" ;
     crgo:CRGO_0000252 "A misconfigured firewall allows unauthorized access to the hospital's systems and databases. Attackers exploit this vulnerability, gaining a foothold within the network, potentially exfiltrating sensitive data or compromising critical systems."@en ;
@@ -347450,7 +347444,7 @@ lib:F1404 a crgo:CRGO_0000024 ;
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.5__2nd_para.>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.7>,
         <https://w3id.org/crgo/vocab/loi25/P-39.1_s._3.8> ;
-    crgo:CRGO_0000246 theme:ThemePhysical,
+    crgo:CRGO_0000246 theme:ThemeNetwork,
         theme:ThemeVulnMgmt ;
     crgo:CRGO_0000250 "LIB-F1404" ;
     crgo:CRGO_0000252 "A misconfigured firewall allows unauthorized access to internal systems. Attackers exploit this vulnerability to gain control over critical systems, potentially leading to unauthorized data access, further system compromises, or disruption of essential hospital services."@en ;
@@ -380249,14 +380243,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000336 "NIST crosswalk via this scenario's SP 800-53 links (SI-3): OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 Annex A"@en .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1422 ;
-    owl:annotatedTarget theme:ThemeAppSec ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     rdfs:comment "Judged in the Loi 25 pass of 2026-10-10 (families with a privacy impact and no judged obligation)."@en ;
@@ -443990,14 +443976,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000336 "NIST crosswalk via this scenario's SP 800-53 links (AC-6): CSF 1.1 to SP 800-53r5 mapping carried to CSF 2.0"@en .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1352 ;
-    owl:annotatedTarget theme:ThemeNetwork ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000335 ;
@@ -453121,14 +453099,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1346 ;
-    owl:annotatedTarget theme:ThemeNetwork ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000335 ;
@@ -488037,14 +488007,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1353 ;
-    owl:annotatedTarget theme:ThemeNetwork ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     rdfs:comment "Judged in the CWE pass of 2026-10-11."@en ;
@@ -529895,14 +529857,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000336 "MITRE CTID Mappings Explorer (ATT&CK 16.1 to SP 800-53 Rev. 5): control mitigates T1190 T1570"@en .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1371 ;
-    owl:annotatedTarget theme:ThemeNetwork ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000335 ;
@@ -549807,7 +549761,7 @@ lib:E2023 a crgo:CRGO_0000036 ;
     rdfs:comment "Theme of the refined library families."@en ;
     owl:annotatedProperty crgo:CRGO_0000246 ;
     owl:annotatedSource lib:C-ACRB-ACRB-A1 ;
-    owl:annotatedTarget theme:ThemePhysical ;
+    owl:annotatedTarget theme:ThemeNetwork ;
     crgo:CRGO_0000283 crgo:CRGO_0000068 ;
     crgo:CRGO_0000284 crgo:CRGO_0000064 ;
     crgo:CRGO_0000288 crgo:CRGO_0000181 .
@@ -557050,14 +557004,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date ;
     crgo:CRGO_0000336 "NIST crosswalk via this scenario's SP 800-53 links (AC-3): OLIR mapping of SP 800-53r5 to ISO/IEC 27001:2022 Annex A"@en .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F0006 ;
-    owl:annotatedTarget theme:ThemeITGov ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000335 ;
@@ -566907,14 +566853,6 @@ lib:E2023 a crgo:CRGO_0000036 ;
     crgo:CRGO_0000289 crgo:CRGO_0000182 ;
     crgo:CRGO_0000290 "2026-10-10"^^xsd:date .
 
-[] a owl:Axiom ;
-    rdfs:comment "Second theme proposed during framework linking."@en ;
-    owl:annotatedProperty crgo:CRGO_0000246 ;
-    owl:annotatedSource lib:F1347 ;
-    owl:annotatedTarget theme:ThemeNetwork ;
-    crgo:CRGO_0000283 crgo:CRGO_0000068 ;
-    crgo:CRGO_0000284 crgo:CRGO_0000064 ;
-    crgo:CRGO_0000288 crgo:CRGO_0000181 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty crgo:CRGO_0000335 ;
