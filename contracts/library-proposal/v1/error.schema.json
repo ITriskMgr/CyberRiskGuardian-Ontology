@@ -1,0 +1,35 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/library-proposal/v1/error.schema.json",
+ "title": "CRGO contract error (library-proposal/v1)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "error",
+  "code",
+  "message"
+ ],
+ "properties": {
+  "error": {
+   "const": true
+  },
+  "code": {
+   "enum": [
+    "INVALID_ARGUMENT",
+    "UNKNOWN_ID",
+    "SCHEMA_INVALID",
+    "REPOSITORY_PATH",
+    "STATUS_NOT_PROPOSED"
+   ]
+  },
+  "message": {
+   "type": "string"
+  },
+  "details": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

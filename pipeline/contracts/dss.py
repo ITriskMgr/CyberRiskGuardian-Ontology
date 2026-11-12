@@ -214,9 +214,11 @@ def error(code, message, details=None):
     if details: e["details"] = details
     return e
 
-def validate_doc(doc, schema_name):
+def validate_doc(doc, schema_name, schemas=None):
+    """Messages of the JSON-schema errors of doc ('path: message', sorted); schemas: the contract folder (0.11.2;
+    default contracts/dss/v1)."""
     import jsonschema
-    schema = json.load(open(os.path.join(SCHEMAS, schema_name), encoding="utf-8"))
+    schema = json.load(open(os.path.join(schemas or SCHEMAS, schema_name), encoding="utf-8"))
     v = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
     return sorted("%s: %s" % ("/".join(map(str, e.path)) or "(root)", e.message) for e in v.iter_errors(doc))
 
@@ -226,10 +228,12 @@ def schema_error_code(errs):
            "MODEL_VERSION_MISSING" if any(e.startswith("modelVersion") for e in errs) else \
            "REFERENCE_NAMESPACE" if any(e.startswith(("organizationId", "subjectId")) and "should not be valid" in e for e in errs) else "SCHEMA_INVALID"
 
-def repository_path(path):
-    """True when the real path lies inside the CRGO repository, outside its build/ folder (symlinks resolved; NV-C04)."""
+def repository_path(path, allow_build=True):
+    """True when the real path lies inside the CRGO repository, outside its build/ folder (symlinks resolved; NV-C04).
+    allow_build=False (0.11.2, library-proposal/v1): build/ is refused too."""
     real, root = os.path.realpath(path), os.path.realpath(ROOT)
-    return (real == root or real.startswith(root + os.sep)) and not real.startswith(os.path.join(root, "build") + os.sep)
+    inside = real == root or real.startswith(root + os.sep)
+    return inside and not (allow_build and real.startswith(os.path.join(root, "build") + os.sep))
 
 def submit_assessment(document, org_files, out_file, g=None):
     """Validate a DSS write-back and store it as a proposed analytical result in the organisation's proposed graph.

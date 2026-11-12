@@ -1,0 +1,63 @@
+{
+ "name": "Telemetry relay of connected infusion pumps hijacked",
+ "statement": "An attacker on the clinic network intercepts and alters the telemetry relay between connected infusion pumps and the central monitoring station, so that alarms are delayed or suppressed.",
+ "themes": [
+  "ThemeNope"
+ ],
+ "asset_categories": [
+  "CatOTIoT",
+  "CatNetwork"
+ ],
+ "threat_source_types": [
+  "SrcAdversarial"
+ ],
+ "impact_dimensions": [
+  "DimSafety",
+  "DimIntegrity"
+ ],
+ "weaknesses": [
+  "Unauthenticated telemetry protocol between devices and the monitoring station"
+ ],
+ "techniques": [
+  [
+   "T1557",
+   "M"
+  ],
+  [
+   "T1565",
+   "M"
+  ]
+ ],
+ "cwe": [
+  [
+   "CWE-306",
+   "M"
+  ]
+ ],
+ "csf2": [
+  [
+   "PR.DS-02",
+   "M"
+  ]
+ ],
+ "sp80053r5": [
+  [
+   "SC-8",
+   "H"
+  ]
+ ],
+ "iso27002": [
+  [
+   "8.20",
+   "M"
+  ]
+ ],
+ "loi25": [],
+ "proposed_by": "Analyst",
+ "proposed_on": "2026-11-12",
+ "anonymized": true,
+ "source_refs": [
+  "C09"
+ ],
+ "public": true
+}

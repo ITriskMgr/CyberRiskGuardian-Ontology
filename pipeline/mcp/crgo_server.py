@@ -17,6 +17,19 @@ Tools (read-only unless stated):
                                 findings of one organisation at a date (0.10.0)
   - crgo_secops_context         contract secops/v1 (read): detection coverage, telemetry, untriaged alerts, approval
                                 gates, executions without valid approval, open regulatory triage (0.10.0)
+  - crgo_group_candidates       contract library-proposal/v1 (read, 0.11.2): candidate descriptors -> family proposals
+                                (same near-duplicate cluster, or same theme + technique + asset category), unique
+                                proposals, own scenarios and theme gaps; rule crgo-grouping/1, identical offline
+  - crgo_validate_scenario      library-proposal/v1 (read, 0.11.2): findings for one scenario descriptor (match, revoked
+                                techniques, CWE consistency, vocabulary), linked controls and obligations; never an error
+  - crgo_propose_library_scenario  library-proposal/v1 (writes, 0.11.2): a library-scenario proposal into the
+                                installation's store folder (status proposed); never parameters or organisation figures
+  - crgo_list_proposals         library-proposal/v1 (read, 0.11.2): proposals in a store folder
+  - crgo_approve_proposal       library-proposal/v1 (writes, 0.11.2): proposed -> approved; adds the scenario to this
+                                installation's ontology (approved/crgo-local-extension.json), not to CRGO
+  - crgo_reject_proposal        library-proposal/v1 (writes, 0.11.2): proposed -> rejected, with a reason
+  - crgo_export_contribution    library-proposal/v1 (writes, 0.11.2): public contribution file of an approved proposal
+                                for ITriskMgr/CyberRiskGuardian-Ontology, status proposed
 
 Every answer carries confidence and approval status per link and a caveat: library and case values are
 calibration priors, never organisational evidence (CyberRiskGuardian evidence discipline).
@@ -37,6 +50,9 @@ try:  # mcp 1.x (as used by CyberRiskGuardian)
 except ModuleNotFoundError:  # mcp 2.x renamed FastMCP to MCPServer
     from mcp.server.mcpserver import MCPServer as _Server
 import identify as I
+sys.path.insert(0, os.path.join(HERE, "..", "contracts"))
+import grouping as GR
+import proposals as PR
 
 mcp = _Server("crgo-ontology")
 
@@ -54,7 +70,7 @@ def guarded(fn):
     def wrapper(*a, **k):
         try:
             return fn(*a, **k)
-        except I.CrgoError as e:
+        except (I.CrgoError, PR.ProposalError) as e:
             return e.document()
         except (ValueError, TypeError, KeyError) as e:
             return _error("INVALID_ARGUMENT", "%s: %s" % (type(e).__name__, str(e)[:300]))
@@ -95,11 +111,20 @@ def crgo_identify(asset_categories: list[str] = [], themes: list[str] = [], sect
 
 @mcp.tool()
 @guarded
-def crgo_scenario(scenario_id: str, min_confidence: str = "M", holdout: list[str] = []) -> dict:
+def crgo_scenario(scenario_id: str, min_confidence: str = "M", holdout: list[str] = [], store_dir: str = "") -> dict:
     """Full detail for one scenario: id such as 'LIB-F1467' (library), 'MediBec/MED-A1' (case scenario) or an IRI.
     Includes the 2023 library estimates (low confidence), case-calibrated estimates where available (medium or low),
     risk indices (CRG computed values, not KRIs), evidence identifiers and the families or case scenarios it is related to.
-    An identifier CRGO does not hold returns an UNKNOWN_ID document."""
+    An identifier CRGO does not hold returns an UNKNOWN_ID document. From 0.11.2, with store_dir (the installation's
+    proposal store), a local addition 'LOC-xxxxxxxxxx' approved in this installation is returned as stored."""
+    sid = str(scenario_id or "").strip()
+    if sid.startswith("LOC-"):
+        if not PR.RX_LOC.match(sid):
+            return _error("INVALID_ARGUMENT", "a local scenario id is 'LOC-' followed by 10 hexadecimal digits.")
+        rec = next((r for r in PR.load_local(store_dir) if r["id"] == sid), None)
+        if rec is None:
+            return _error("UNKNOWN_ID", "unknown local scenario: %s (approved additions are read from store_dir)." % sid)
+        return dict(rec, caveat=GR.CAVEAT)
     return I.scenario(scenario_id, min_confidence, holdout=holdout)
 
 
@@ -250,6 +275,95 @@ def crgo_secops_context(org_graph_files: list[str], organization: str, as_of: st
     if not isinstance(organization, str) or not I.RX_IRI.match(organization.strip()):
         return _error("INVALID_ARGUMENT", "organization must be an http(s) IRI.")
     return views.secops_context(files, organization.strip(), as_of)
+
+
+# ---------------------------------------------------------------- contract library-proposal/v1 (0.11.2)
+def _ref():
+    return GR.load_reference()
+
+
+def _id_exists(framework, ident):
+    """Does CRGO hold this requirement or obligation identifier? (store lookup; proposals never invent ids)"""
+    return I._control_iri(framework, ident) is not None
+
+
+@mcp.tool()
+@guarded
+def crgo_group_candidates(candidates: list[dict], store_dir: str = "", min_confidence: str = "M") -> dict:
+    """Group screening candidates with the ontology (contract library-proposal/v1, rule crgo-grouping/1). candidates: at
+    most 200 objects {ref, name and/or statement, techniques, cwe, asset_categories, threat_source_types, themes,
+    crgo_id} in CRGO terms (keys or English labels; no parameters or organisation figures: other fields are refused).
+    Candidates in the same CRGO near-duplicate cluster, or (unmatched) sharing theme + ATT&CK technique + asset category,
+    form one family proposal whose starting statement is the cluster's representative; a candidate alone in its cluster
+    is a unique proposal; a candidate with no match is an own scenario, with a theme gap when no CRGO scenario has its
+    theme. store_dir (optional): the installation's proposal store; its approved additions take part like library
+    scenarios. Deterministic: the same input gives the same output as the offline snapshot of the same release.
+    Unknown vocabulary and revoked techniques are reported, never errors; bad shapes return INVALID_ARGUMENT."""
+    local = PR.load_local(store_dir)
+    return GR.group(candidates, _ref(), local, I._confidence(min_confidence))
+
+
+@mcp.tool()
+@guarded
+def crgo_validate_scenario(scenario: dict, store_dir: str = "", min_confidence: str = "M") -> dict:
+    """Validate one scenario descriptor against the ontology (library-proposal/v1, crgo-validation/1): same fields as a
+    candidate ('ref' optional). Returns state consistent | needs_attention | outside_ontology, findings with codes
+    (LIBRARY_MATCH, THEME_MATCH_ONLY, OUTSIDE_ONTOLOGY, TECHNIQUE_UNKNOWN, TECHNIQUE_REVOKED with the successor,
+    TECHNIQUE_DEPRECATED, CWE_UNKNOWN, CWE_TECHNIQUE_UNLINKED, CWE_NO_REFERENCE, ASSET_CATEGORY_UNKNOWN,
+    THREAT_SOURCE_TYPE_UNKNOWN, THEME_UNKNOWN, CRGO_ID_UNKNOWN) and the linked controls and obligations. Findings never
+    block anything; only a bad shape returns INVALID_ARGUMENT."""
+    local = PR.load_local(store_dir)
+    return GR.validate(scenario, _ref(), local, I._confidence(min_confidence))
+
+
+@mcp.tool()
+@guarded
+def crgo_propose_library_scenario(proposal: dict, store_dir: str) -> dict:
+    """Propose a scenario for this installation's ontology (library-proposal/v1, writes). proposal: {name, statement,
+    themes (1-3, first = primary), asset_categories, threat_source_types, impact_dimensions, weaknesses, techniques
+    [[id, H|M|L]], cwe, csf2, sp80053r5, iso27002, loi25 [[id, conf]], proposed_by, proposed_on (yyyy-mm-dd),
+    anonymized: true, source_refs, public}; never parameters, estimates or organisation figures (SCHEMA_INVALID).
+    Identifiers CRGO does not hold, revoked techniques (with their successor) and unknown vocabulary: INVALID_ARGUMENT.
+    store_dir: an existing folder outside the CRGO repository (REPOSITORY_PATH otherwise). Returns {id 'LOC-...', status
+    'proposed', path}; the same content proposed twice returns the existing proposal."""
+    return PR.propose(proposal, store_dir, _ref(), _id_exists)
+
+
+@mcp.tool()
+@guarded
+def crgo_list_proposals(store_dir: str, status: str = "") -> dict:
+    """Proposals in the installation's store folder, sorted by id: id, status (proposed | approved | rejected), name,
+    proposed_by/on, decided_by/on, reason, public (requested | submitted | withdrawn). status filters."""
+    return PR.list_proposals(store_dir, status)
+
+
+@mcp.tool()
+@guarded
+def crgo_approve_proposal(store_dir: str, proposal_id: str, approver: str, date: str = "") -> dict:
+    """Approve a proposal (proposed -> approved; STATUS_NOT_PROPOSED if already decided, UNKNOWN_ID if absent). The
+    scenario joins THIS installation's ontology (approved/crgo-local-extension.json, with its cluster and primary theme),
+    not CRGO. approver: the approving person's name (required; CRGO records it, the application checks the role);
+    date: yyyy-mm-dd (default today)."""
+    return PR.approve(store_dir, proposal_id, approver, date, _ref())
+
+
+@mcp.tool()
+@guarded
+def crgo_reject_proposal(store_dir: str, proposal_id: str, approver: str, reason: str, date: str = "") -> dict:
+    """Reject a proposal (proposed -> rejected) with a reason (required: INVALID_ARGUMENT if empty); approver and date
+    are recorded. STATUS_NOT_PROPOSED if already decided."""
+    return PR.reject(store_dir, proposal_id, approver, date, reason)
+
+
+@mcp.tool()
+@guarded
+def crgo_export_contribution(store_dir: str, proposal_id: str, out_dir: str, action: str = "add", date: str = "",
+                             tool: str = "") -> dict:
+    """Write the public contribution file of an APPROVED proposal (STATUS_NOT_PROPOSED otherwise) to out_dir, the folder
+    for ontology proposals (never inside the CRGO repository: REPOSITORY_PATH): crgo-contribution-<id>.json, one scenario
+    shaped as an authored_scenarios.json entry with status 'proposed' for ITriskMgr/CyberRiskGuardian-Ontology. Nothing
+    is sent anywhere. action 'withdraw' writes a withdrawal file. tool: the producing application, for the provenance."""
+    return PR.export_contribution(store_dir, proposal_id, out_dir, _ref(), action, date, tool)
 
 
 if __name__ == "__main__":
