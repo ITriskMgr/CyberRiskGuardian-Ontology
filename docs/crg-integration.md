@@ -33,6 +33,9 @@ Add to CyberRiskGuardian's `.mcp.json`, next to `crg-calculator` (adjust the pat
 | `crgo_controls_for_technique` | Controls most often linked to scenarios using an ATT&CK technique; reports replacements for revoked identifiers. |
 | `crgo_scenarios_for_control` | Coverage of one control requirement (`csf2`, `sp800-53r5`, `iso27002-2022`; from 0.11.1 `cis81`: a CIS v8.1 safeguard reaches scenarios through the requirements it partially overlaps, listed in `via`; suggestions by correspondence). |
 | `crgo_list_values` | Allowed values for asset categories, themes, threat source types, impact dimensions, sectors. |
+| `crgo_group_candidates` | 0.11.2, contract library-proposal/v1: screening candidates (CRGO terms; no parameters or figures) grouped into family proposals (same near-duplicate cluster, or same theme + technique + asset category), unique proposals (alone in a cluster, with the cluster's representative) and own scenarios with a theme gap. Deterministic; identical to the offline port on the snapshot of the same release. |
+| `crgo_validate_scenario` | 0.11.2: findings for one scenario (library or theme match, revoked techniques with their successor, CWE consistent with the techniques, vocabulary), linked controls and obligations; states consistent / needs attention / outside the ontology. Never an error for unknown vocabulary. |
+| `crgo_propose_library_scenario`, `crgo_list_proposals`, `crgo_approve_proposal`, `crgo_reject_proposal`, `crgo_export_contribution` | 0.11.2: proposals, approval (approver and date; reason for a rejection) and public contribution files, in the folders the application passes (`store_dir`, `out_dir`), never in the repository. Approved additions take part in grouping and validation for that installation only. |
 
 Link confidence: `min_confidence="M"` (default) returns the approved high- and medium-confidence links; `"L"` adds the low-confidence suggestions.
 

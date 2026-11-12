@@ -12,7 +12,7 @@
         "Bibliothèque de scénarios CRGO (générateur 2023, réparée)"@fr ;
     rdfs:comment "Generic risk scenarios written by gpt-3.5-turbo in 2023 for a fictitious healthcare organisation, repaired and merged into families (decision Q-E, option 3). All values are AI estimates requiring validation; use them as calibration priors, not as organisational evidence."@en ;
     owl:imports crgo:crgo ;
-    owl:versionInfo "0.11.1" .
+    owl:versionInfo "0.11.2" .
 
 lib:C-ACRB-ACRB-A1-De a crgo:CRGO_0000043 ;
     crgo:CRGO_0000213 lib:E-ACRB ;

@@ -127,5 +127,9 @@ python3 tests/contracts/test_dss_contract.py | tail -1 | sed 's/^/   /'; [ ${PIP
 echo "17. Read contracts compliance/v1 and secops/v1 (decisions D11, S10)"
 python3 tests/contracts/test_views_contract.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
 
+echo "18. Contract library-proposal/v1: grouping and validation rules, golden file, proposals (0.11.2)"
+python3 tests/grouping/test_grouping.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+python3 tests/contracts/test_library_proposal_contract.py | tail -1 | sed 's/^/   /'; [ ${PIPESTATUS[0]} = 0 ] || fail=1
+
 [ $fail = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit $fail

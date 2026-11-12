@@ -9,7 +9,7 @@
 
 crgo:shapes a owl:Ontology ;
     rdfs:label "CRGO SHACL shapes"@en ;
-    owl:versionInfo "0.11.1" .
+    owl:versionInfo "0.11.2" .
 
 shape:AccessReviewCampaign a sh:NodeShape ;
     rdfs:comment "Access review campaigns: scope, due date, counts (register 4)."@en ;
