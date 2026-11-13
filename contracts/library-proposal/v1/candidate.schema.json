@@ -1,0 +1,94 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/library-proposal/v1/candidate.schema.json",
+ "title": "Candidate or scenario descriptor for crgo_group_candidates and crgo_validate_scenario (library-proposal/v1)",
+ "description": "Only CRGO-vocabulary descriptors. No risk parameters, estimates, figures or organisation identifiers: extra fields are refused.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "ref"
+ ],
+ "anyOf": [
+  {
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "name": {
+     "minLength": 1,
+     "pattern": "\\S"
+    }
+   }
+  },
+  {
+   "required": [
+    "statement"
+   ],
+   "properties": {
+    "statement": {
+     "minLength": 1,
+     "pattern": "\\S"
+    }
+   }
+  }
+ ],
+ "properties": {
+  "ref": {
+   "type": "string",
+   "pattern": "^[A-Za-z0-9][A-Za-z0-9._:\\-]{0,39}$",
+   "description": "Caller's reference, unique within one call (crgo_validate_scenario: optional)."
+  },
+  "name": {
+   "type": "string",
+   "maxLength": 300
+  },
+  "statement": {
+   "type": "string",
+   "maxLength": 4000
+  },
+  "techniques": {
+   "type": "array",
+   "maxItems": 50,
+   "items": {
+    "type": "string",
+    "maxLength": 100
+   }
+  },
+  "cwe": {
+   "type": "array",
+   "maxItems": 50,
+   "items": {
+    "type": "string",
+    "maxLength": 100
+   }
+  },
+  "asset_categories": {
+   "type": "array",
+   "maxItems": 50,
+   "items": {
+    "type": "string",
+    "maxLength": 100
+   }
+  },
+  "threat_source_types": {
+   "type": "array",
+   "maxItems": 50,
+   "items": {
+    "type": "string",
+    "maxLength": 100
+   }
+  },
+  "themes": {
+   "type": "array",
+   "maxItems": 50,
+   "items": {
+    "type": "string",
+    "maxLength": 100
+   }
+  },
+  "crgo_id": {
+   "type": "string",
+   "maxLength": 100
+  }
+ }
+}

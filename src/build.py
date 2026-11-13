@@ -50,10 +50,10 @@ CHANGE_NOTES.update(CHANGES_0101)
 assert not set(CHANGES_0111) & set(CHANGE_NOTES)
 CHANGE_NOTES.update(CHANGES_0111)
 
-VERSION = "0.11.1"
-PRIOR = "0.11.0"
-ISSUED = "2026-11-08"
-FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325, "0.10.1": 1325, "0.11.0": 1605}  # highest term number introduced in each earlier release
+VERSION = "0.11.2"
+PRIOR = "0.11.1"
+ISSUED = "2026-11-12"
+FIRST_RELEASE = {"0.1.0": 328, "0.2.0": 334, "0.3.0": 335, "0.4.0": 335, "0.5.0": 335, "0.6.0": 335, "0.7.0": 336, "0.8.0": 336, "0.9.0": 884, "0.10.0": 1325, "0.10.1": 1325, "0.11.0": 1605, "0.11.1": 1605}  # highest term number introduced in each earlier release
 BASE = "https://w3id.org/crgo/"
 CRGO = Namespace(BASE)
 BFO = Namespace("http://purl.obolibrary.org/obo/")

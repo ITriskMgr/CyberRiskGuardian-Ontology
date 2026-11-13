@@ -1,0 +1,67 @@
+{
+ "action": "add",
+ "crgo_release": "0.11.2",
+ "for": "ITriskMgr/CyberRiskGuardian-Ontology",
+ "key": "CONTRIB-LOC-ebe1df72a9",
+ "provenance": {
+  "anonymized": true,
+  "submitted_on": "2026-11-12",
+  "tool": "CyberRiskGuardian Desktop 1.9.3"
+ },
+ "scenario": {
+  "asset_categories": [
+   "CatOTIoT",
+   "CatNetwork"
+  ],
+  "attack": [
+   [
+    "T1557",
+    "M"
+   ],
+   [
+    "T1565",
+    "M"
+   ]
+  ],
+  "csf2": [
+   [
+    "PR.DS-02",
+    "M"
+   ]
+  ],
+  "cwe": [
+   [
+    "CWE-306",
+    "M"
+   ]
+  ],
+  "impact_dimensions": [
+   "DimSafety",
+   "DimIntegrity"
+  ],
+  "iso27002": [
+   [
+    "8.20",
+    "M"
+   ]
+  ],
+  "loi25": [],
+  "name": "Telemetry relay of connected infusion pumps hijacked",
+  "sp80053r5": [
+   [
+    "SC-8",
+    "H"
+   ]
+  ],
+  "statement": "An attacker on the clinic network intercepts and alters the telemetry relay between connected infusion pumps and the central monitoring station, so that alarms are delayed or suppressed.",
+  "theme": "ThemeMedicalIoT",
+  "threat_source_types": [
+   "SrcAdversarial"
+  ],
+  "weaknesses": [
+   "Unauthenticated telemetry protocol between devices and the monitoring station"
+  ]
+ },
+ "schema": "crgo-contribution/1",
+ "status": "proposed"
+}

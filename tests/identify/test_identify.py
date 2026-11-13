@@ -62,5 +62,11 @@ check("unknown framework -> INVALID_ARGUMENT listing the allowed ones", code(I.s
 check("unknown requirement -> UNKNOWN_ID", code(I.scenarios_for_control, "csf2", "ZZ.ZZ-99") == "UNKNOWN_ID")
 c = I.scenarios_for_control("cis81", "6.5")
 check("CIS v8.1 safeguard reaches scenarios through its correspondences ('via')", c["matches"] >= 1 and c["via"] and all(s_["via"] for s_ in c["scenarios"]))
+# 0.11.2: ties are broken by IRI, so a sweep no longer depends on the string-hash seed
+import subprocess
+_code = ("import sys, json; sys.path.insert(0, %r); import identify as I; print(json.dumps(I.sweep(asset_categories=['CatCloud'], "
+         "themes=['ThemeRansomware', 'ThemeSocialEng'], sector='health', techniques=['T1566']), sort_keys=True))") % os.path.join(ROOT, "pipeline", "query")
+_outs = [subprocess.run([sys.executable, "-c", _code], capture_output=True, text=True, env=dict(os.environ, PYTHONHASHSEED=h)).stdout for h in ("0", "1")]
+check("sweep is identical under PYTHONHASHSEED=0 and 1 (tie-break by IRI)", _outs[0] and _outs[0] == _outs[1])
 print("   identification tests: %s" % ("all passed" if not fails else "%d FAILED" % len(fails)))
 sys.exit(1 if fails else 0)

@@ -1,0 +1,19 @@
+{
+ "ref": "C23",
+ "name": "Cloud tenant takeover via token theft or consent phishing",
+ "statement": "An attacker steals OAuth tokens or tricks an administrator into consenting to a malicious application and takes over the cloud tenant.",
+ "techniques": [
+  "T1528",
+  "T1550"
+ ],
+ "cwe": [],
+ "asset_categories": [
+  "CatIdentity",
+  "CatCloud"
+ ],
+ "threat_source_types": [
+  "SrcAdversarial"
+ ],
+ "themes": [],
+ "estimated_risk": 12345
+}

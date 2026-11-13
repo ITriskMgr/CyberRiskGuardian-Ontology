@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Drive the CRGO stdio MCP server with empty, unknown-identifier and hostile inputs (0.11.1, NV-C01..C04, NV-C06).
+"""Drive the CRGO stdio MCP server with empty, unknown-identifier and hostile inputs (0.11.1, NV-C01..C04, NV-C06;
+0.11.2: the seven library-proposal/v1 tools, with a proposal store and a proposals folder in temporary folders).
 
 Every call must come back as a tool result, never as a bare "Error executing tool": bad input gives an error document
 with a code (INVALID_ARGUMENT, UNKNOWN_ID, SCHEMA_INVALID, REPOSITORY_PATH ...), result sizes are bounded, and a
@@ -22,6 +23,16 @@ REPO_FILES = [os.path.join(SAMPLES, f) for f in ("nordelle.ttl", "nordelle-appli
 WB = json.load(open(os.path.join(ROOT, "contracts", "dss", "v1", "examples", "assessment-result.nordelle-ransomware.json")))
 INJ = '"} } ; DROP ALL ; SELECT * WHERE { ?s ?p ?o } #'
 BIG = ["x" * 50] * 5000
+# 0.11.2, contract library-proposal/v1: the installation's proposal store and proposals folder, outside the repository
+sys.path.insert(0, os.path.join(ROOT, "pipeline", "contracts"))
+import proposals as _P  # noqa: E402
+LP = os.path.join(ROOT, "contracts", "library-proposal", "v1", "examples")
+STORE = tempfile.mkdtemp(prefix="crgo-mcp-store-")
+OUTD = tempfile.mkdtemp(prefix="crgo-mcp-out-")
+PROP = json.load(open(os.path.join(LP, "proposal.infusion-telemetry.json")))
+PID = _P.proposal_id(PROP)
+GOLD = json.load(open(os.path.join(LP, "golden-grouping.json")))
+MB = next(c["input"] for c in GOLD["cases"] if c["id"] == "medibec-45")
 
 # tool, label, args, expected: a code (error document), "ok" (a result), or "ok<=N" (a result of at most N returned items)
 CASES = [
@@ -68,6 +79,44 @@ CASES = [
  ("crgo_submit_assessment", "org under w3id crgo", {"document": dict(WB, organizationId="https://w3id.org/crgo/org"), "org_graph_files": OF}, "REFERENCE_NAMESPACE"),
  ("crgo_submit_assessment", "org files inside repo tests/samples", {"document": WB, "org_graph_files": REPO_FILES}, "REPOSITORY_PATH"),
  ("crgo_submit_assessment", "/etc/passwd graph", {"document": WB, "org_graph_files": ["/etc/passwd"]}, "INVALID_ARGUMENT"),
+ # 0.11.2: contract library-proposal/v1
+ ("crgo_group_candidates", "MediBec 45 candidates", {"candidates": MB}, "ok"),
+ ("crgo_group_candidates", "empty list", {"candidates": []}, "INVALID_ARGUMENT"),
+ ("crgo_group_candidates", "201 candidates", {"candidates": [{"ref": "C%d" % i, "name": "x"} for i in range(201)]}, "INVALID_ARGUMENT"),
+ ("crgo_group_candidates", "injection in ref", {"candidates": [{"ref": INJ, "name": "x"}]}, "INVALID_ARGUMENT"),
+ ("crgo_group_candidates", "injection in technique (finding)", {"candidates": [{"ref": "A", "name": "x", "techniques": [INJ[:90]]}]}, "ok"),
+ ("crgo_group_candidates", "parameters in a candidate", {"candidates": [{"ref": "A", "name": "x", "PbA": 0.4}]}, "INVALID_ARGUMENT"),
+ ("crgo_group_candidates", "bad confidence", {"candidates": [{"ref": "A", "name": "x"}], "min_confidence": "Z"}, "INVALID_ARGUMENT"),
+ ("crgo_group_candidates", "store inside repo", {"candidates": [{"ref": "A", "name": "x"}], "store_dir": os.path.join(ROOT, "data")}, "REPOSITORY_PATH"),
+ ("crgo_group_candidates", "relative store", {"candidates": [{"ref": "A", "name": "x"}], "store_dir": "crgo-local"}, "INVALID_ARGUMENT"),
+ ("crgo_validate_scenario", "revoked + unknown vocab", {"scenario": {"name": "x", "techniques": ["T1562", "T9999"], "asset_categories": ["CatNope"]}}, "ok"),
+ ("crgo_validate_scenario", "estimates in scenario", {"scenario": {"name": "x", "estimates": {"PbA": 0.4}}}, "INVALID_ARGUMENT"),
+ ("crgo_validate_scenario", "no name or statement", {"scenario": {"ref": "A"}}, "INVALID_ARGUMENT"),
+ ("crgo_propose_library_scenario", "empty proposal", {"proposal": {}, "store_dir": STORE}, "SCHEMA_INVALID"),
+ ("crgo_propose_library_scenario", "with estimates", {"proposal": dict(PROP, estimates={"PbA": 0.4}), "store_dir": STORE}, "SCHEMA_INVALID"),
+ ("crgo_propose_library_scenario", "revoked technique", {"proposal": dict(PROP, techniques=[["T1562", "M"]]), "store_dir": STORE}, "INVALID_ARGUMENT"),
+ ("crgo_propose_library_scenario", "unknown control", {"proposal": dict(PROP, sp80053r5=[["ZZ-99", "M"]]), "store_dir": STORE}, "INVALID_ARGUMENT"),
+ ("crgo_propose_library_scenario", "empty store_dir", {"proposal": PROP, "store_dir": ""}, "INVALID_ARGUMENT"),
+ ("crgo_propose_library_scenario", "store inside repo", {"proposal": PROP, "store_dir": os.path.join(ROOT, "tests")}, "REPOSITORY_PATH"),
+ ("crgo_propose_library_scenario", "store under build/", {"proposal": PROP, "store_dir": os.path.join(ROOT, "build")}, "REPOSITORY_PATH"),
+ ("crgo_propose_library_scenario", "valid", {"proposal": PROP, "store_dir": STORE}, "ok"),
+ ("crgo_list_proposals", "store", {"store_dir": STORE}, "ok"),
+ ("crgo_list_proposals", "empty store_dir", {"store_dir": ""}, "INVALID_ARGUMENT"),
+ ("crgo_list_proposals", "bad status", {"store_dir": STORE, "status": INJ}, "INVALID_ARGUMENT"),
+ ("crgo_export_contribution", "before approval", {"store_dir": STORE, "proposal_id": PID, "out_dir": OUTD}, "STATUS_NOT_PROPOSED"),
+ ("crgo_approve_proposal", "unknown id", {"store_dir": STORE, "proposal_id": "LOC-0000000000", "approver": "Admin"}, "UNKNOWN_ID"),
+ ("crgo_approve_proposal", "injection id", {"store_dir": STORE, "proposal_id": INJ, "approver": "Admin"}, "INVALID_ARGUMENT"),
+ ("crgo_approve_proposal", "no approver", {"store_dir": STORE, "proposal_id": PID, "approver": ""}, "INVALID_ARGUMENT"),
+ ("crgo_approve_proposal", "valid", {"store_dir": STORE, "proposal_id": PID, "approver": "Admin", "date": "2026-11-12"}, "ok"),
+ ("crgo_approve_proposal", "twice", {"store_dir": STORE, "proposal_id": PID, "approver": "Admin", "date": "2026-11-12"}, "STATUS_NOT_PROPOSED"),
+ ("crgo_reject_proposal", "after approval", {"store_dir": STORE, "proposal_id": PID, "approver": "Admin", "reason": "no"}, "STATUS_NOT_PROPOSED"),
+ ("crgo_reject_proposal", "no reason", {"store_dir": STORE, "proposal_id": PID, "approver": "Admin", "reason": ""}, "INVALID_ARGUMENT"),
+ ("crgo_reject_proposal", "unknown id", {"store_dir": STORE, "proposal_id": "LOC-0000000000", "approver": "Admin", "reason": "no"}, "UNKNOWN_ID"),
+ ("crgo_scenario", "local addition with store", {"scenario_id": PID, "store_dir": STORE}, "ok"),
+ ("crgo_scenario", "local addition without store", {"scenario_id": PID}, "UNKNOWN_ID"),
+ ("crgo_group_candidates", "with the local store", {"candidates": [{"ref": "Z", "name": PROP["name"], "themes": ["ThemeMedicalIoT"]}], "store_dir": STORE}, "ok"),
+ ("crgo_export_contribution", "out_dir inside repo", {"store_dir": STORE, "proposal_id": PID, "out_dir": os.path.join(ROOT, "build")}, "REPOSITORY_PATH"),
+ ("crgo_export_contribution", "valid", {"store_dir": STORE, "proposal_id": PID, "out_dir": OUTD, "date": "2026-11-12"}, "ok"),
 ]
 
 def tree(root):
@@ -115,7 +164,13 @@ async def main():
     stored = [f for f in os.listdir(ORG) if f.endswith("-dss-proposed.ttl")]
     print("   proposed graph stored next to the organisation's files: %s" % (stored or "NONE"))
     if not stored: fails.append(("submit", "not stored", ""))
-    shutil.rmtree(ORG, ignore_errors=True)
+    contrib = [f for f in os.listdir(OUTD) if f.startswith("crgo-contribution-")]
+    print("   contribution file written to the proposals folder: %s" % (contrib or "NONE"))
+    if contrib != ["crgo-contribution-%s.json" % PID]: fails.append(("export_contribution", "not written", str(contrib)))
+    ext = os.path.join(STORE, "approved", "crgo-local-extension.json")
+    print("   local extension in the store: %s" % ("present" if os.path.isfile(ext) else "MISSING"))
+    if not os.path.isfile(ext): fails.append(("approve", "no local extension", ""))
+    shutil.rmtree(ORG, ignore_errors=True); shutil.rmtree(STORE, ignore_errors=True); shutil.rmtree(OUTD, ignore_errors=True)
     print("   MCP error-handling tests: %s" % ("all passed" if not fails else "%d FAILED" % len(fails)))
     for f in fails: print("     ", f)
     sys.exit(1 if fails else 0)

@@ -1,0 +1,217 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://w3id.org/crgo/contracts/library-proposal/v1/local-extension.schema.json",
+ "title": "This installation's ontology additions (approved/crgo-local-extension.json, library-proposal/v1)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema",
+  "release_built_against",
+  "scenarios"
+ ],
+ "properties": {
+  "schema": {
+   "const": "crgo-local-extension/1"
+  },
+  "release_built_against": {
+   "type": "string"
+  },
+  "scenarios": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "kind",
+     "source",
+     "statement",
+     "themes",
+     "asset_categories",
+     "threat_source_types",
+     "attack_techniques",
+     "controls",
+     "obligations",
+     "cwe",
+     "primary_theme",
+     "cluster",
+     "approved_by",
+     "approved_on"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^LOC-[0-9a-f]{10}$"
+     },
+     "kind": {
+      "const": "local scenario"
+     },
+     "source": {
+      "const": "local"
+     },
+     "themes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "object",
+       "required": [
+        "key",
+        "label"
+       ]
+      }
+     },
+     "attack_techniques": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "confidence",
+        "status"
+       ],
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "title": {
+         "type": "string"
+        },
+        "confidence": {
+         "enum": [
+          "H",
+          "M",
+          "L"
+         ]
+        },
+        "status": {
+         "enum": [
+          "approved",
+          "proposed"
+         ]
+        }
+       }
+      }
+     },
+     "obligations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "confidence",
+        "status"
+       ],
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "title": {
+         "type": "string"
+        },
+        "confidence": {
+         "enum": [
+          "H",
+          "M",
+          "L"
+         ]
+        },
+        "status": {
+         "enum": [
+          "approved",
+          "proposed"
+         ]
+        }
+       }
+      }
+     },
+     "cwe": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "confidence",
+        "status"
+       ],
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "title": {
+         "type": "string"
+        },
+        "confidence": {
+         "enum": [
+          "H",
+          "M",
+          "L"
+         ]
+        },
+        "status": {
+         "enum": [
+          "approved",
+          "proposed"
+         ]
+        }
+       }
+      }
+     },
+     "controls": {
+      "type": "object",
+      "required": [
+       "csf2",
+       "sp800-53r5",
+       "iso27002-2022"
+      ],
+      "additionalProperties": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "required": [
+         "id",
+         "confidence",
+         "status"
+        ],
+        "properties": {
+         "id": {
+          "type": "string"
+         },
+         "title": {
+          "type": "string"
+         },
+         "confidence": {
+          "enum": [
+           "H",
+           "M",
+           "L"
+          ]
+         },
+         "status": {
+          "enum": [
+           "approved",
+           "proposed"
+          ]
+         }
+        }
+       }
+      }
+     },
+     "primary_theme": {
+      "type": "string"
+     },
+     "cluster": {
+      "type": "string"
+     },
+     "approved_by": {
+      "type": "string",
+      "minLength": 1
+     },
+     "approved_on": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+     }
+    }
+   }
+  }
+ }
+}

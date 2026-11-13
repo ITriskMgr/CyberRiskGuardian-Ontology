@@ -457,7 +457,7 @@ def identify(asset_categories=(), themes=(), sector=None, techniques=(), keyword
             for s in _members("affectsAssetCategory", [v], "asset_category") & set(score): score[s] += 1
     score = _health_penalty(score, sector, keywords)
     risk = _library_risk(holdout)
-    ranked = sorted(score, key=lambda s: (-score[s], -risk.get(s, (0, 0))[1]))
+    ranked = sorted(score, key=lambda s: (-score[s], -risk.get(s, (0, 0))[1], s))   # 0.11.2: ties by IRI, not set order
     out = [_brief(s, min_confidence, risk, score[s], holdout) for s in ranked[:limit]]
     return {"query": {k: v for k, v in dict(asset_categories=list(asset_categories), themes=list(themes), sector=sector, techniques=list(techniques),
                                             keywords=list(keywords), min_confidence=min_confidence, holdout=list(holdout)).items() if v},
@@ -510,7 +510,7 @@ def sweep(asset_categories=(), themes=(), sector=None, techniques=(), keywords=(
     pool = set(score) | {s for ss in base.values() for s in ss}
     name = {s: _label(s) for s in pool}
     risk = _library_risk(holdout)
-    key = lambda s: (-score.get(s, 0), -risk.get(s, (0, 0))[1])
+    key = lambda s: (-score.get(s, 0), -risk.get(s, (0, 0))[1], s)   # 0.11.2: ties by IRI, so PYTHONHASHSEED no longer decides
     reps, seen, rep_of = [], {}, {}
     for s in sorted(pool, key=key):
         tk = _tokens(name[s])

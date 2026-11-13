@@ -1,10 +1,10 @@
 {
  "schemaVersion": "1.0",
  "contract": "compliance/v1",
- "ontologyRelease": "0.11.0",
+ "ontologyRelease": "0.11.2",
  "organizationId": "https://example.org/crgo-sample/nordelle/org",
  "asOf": "2026-10-12",
- "generatedAt": "2026-10-12T18:00:00Z",
+ "generatedAt": "2026-11-12T23:43:49Z",
  "obligations": [
   {
    "id": "https://w3id.org/crgo/vocab/gdpr/GDPR_Art._33_1",

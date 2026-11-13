@@ -43,4 +43,4 @@ RewriteRule ^imports/([a-z]+-slice)$ https://raw.githubusercontent.com/ITriskMgr
 # 0.9.0 GRCA: illustrative work programmes, versioned data files, DSS contract schemas (JSON)
 RewriteRule ^data/([0-9]+\.[0-9]+\.[0-9]+)/([a-z-]+)$ https://raw.githubusercontent.com/ITriskMgr/CyberRiskGuardian-Ontology/v$1/data/abox/crgo-$2.ttl [R=303,L]
 RewriteRule ^data/workprogrammes(/.*)?$ https://raw.githubusercontent.com/ITriskMgr/CyberRiskGuardian-Ontology/main/data/abox/crgo-workprogrammes.ttl [R=303,L]
-RewriteRule ^contracts/([a-z]+)/(v[0-9]+)/([a-z0-9.-]+\.json)$ https://raw.githubusercontent.com/ITriskMgr/CyberRiskGuardian-Ontology/main/contracts/$1/$2/$3 [R=303,L]
+RewriteRule ^contracts/([a-z][a-z-]*)/(v[0-9]+)/([a-z0-9.-]+\.json)$ https://raw.githubusercontent.com/ITriskMgr/CyberRiskGuardian-Ontology/main/contracts/$1/$2/$3 [R=303,L]
